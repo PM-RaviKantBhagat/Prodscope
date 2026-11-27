@@ -44,6 +44,7 @@ export default async function TeardownPage({ params }: Props) {
   return (
     <article>
       <header className="report-head">
+        <div className="eyebrow">Product teardown</div>
         <h1>{r.company}</h1>
         <p className="tagline">{r.tagline}</p>
         <div className="chips">

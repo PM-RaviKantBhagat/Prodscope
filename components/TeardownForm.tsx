@@ -81,33 +81,37 @@ export default function TeardownForm({ freePerDay }: { freePerDay: number }) {
   }
 
   return (
-    <div className="card">
+    <div>
       <form className="form" onSubmit={run}>
-        <label>
-          Company name
-          <input value={company} onChange={(e) => setCompany(e.target.value)} placeholder="e.g. Swiggy" required disabled={busy} />
-        </label>
-        <label>
-          Website
-          <input value={url} onChange={(e) => setUrl(e.target.value)} placeholder="e.g. swiggy.com" required disabled={busy} />
-        </label>
+        <div className="stack">
+          <div className="field">
+            <span className="marker dot" />
+            <label className="sr" htmlFor="company">Company name</label>
+            <input id="company" value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Company name, e.g. Swiggy" required disabled={busy} />
+          </div>
+          <div className="field">
+            <span className="marker" />
+            <label className="sr" htmlFor="site">Website</label>
+            <input id="site" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="Website, e.g. swiggy.com" required disabled={busy} />
+          </div>
+        </div>
         <button type="submit" disabled={busy}>
-          {busy ? "Working…" : "Generate teardown"}
+          {busy ? "Working…" : "Get teardown"}
         </button>
       </form>
       {!busy && !needKey && (
-        <p className="hint" style={{ margin: "10px 0 0" }}>
-          {freePerDay} free teardowns per person per day. Takes about 1 to 3 minutes.{" "}
-          <button type="button" className="ghost" style={{ padding: "2px 8px", fontSize: 13 }} onClick={() => setNeedKey(true)}>
+        <div className="form-foot" style={{ marginTop: 14 }}>
+          <span>{freePerDay} free a day · about 1 to 3 minutes</span>
+          <button type="button" className="link" onClick={() => setNeedKey(true)}>
             Use my own API key
           </button>
-        </p>
+        </div>
       )}
       {busy && (
         <div className="status" aria-live="polite">
           {steps.map((s, i) => (
             <div key={i} className={`status-line ${i === steps.length - 1 ? "current" : ""}`}>
-              {i === steps.length - 1 ? "" : "✓ "}
+              {i === steps.length - 1 ? "" : "✓"}
               {s}
             </div>
           ))}
@@ -116,12 +120,10 @@ export default function TeardownForm({ freePerDay }: { freePerDay: number }) {
       {error && <div className="error">{error}</div>}
       {needKey && !busy && (
         <div className="keybox">
-          <label>
-            Your Gemini API key
-            <input type="password" value={apiKey} onChange={(e) => setApiKey(e.target.value)} placeholder="AIza…" autoComplete="off" />
-          </label>
-          <label style={{ display: "flex", gap: 8, alignItems: "center", fontWeight: 400 }}>
-            <input type="checkbox" checked={remember} onChange={(e) => setRemember(e.target.checked)} style={{ width: "auto" }} />
+          <label className="hint" htmlFor="apikey" style={{ fontWeight: 600, color: "inherit" }}>Your Gemini API key</label>
+            <input id="apikey" type="password" value={apiKey} onChange={(e) => setApiKey(e.target.value)} placeholder="AIza…" autoComplete="off" />
+          <label className="check">
+            <input type="checkbox" checked={remember} onChange={(e) => setRemember(e.target.checked)} />
             Remember on this device
           </label>
           <p className="hint" style={{ margin: 0 }}>

@@ -12,15 +12,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <Link href="/" className="brand">
-            <Logo /> <span>prodscope</span>
-          </Link>
-          <span className="brand-sub">Product teardowns for aspiring PMs</span>
+        <header className="topbar">
+          <div className="topbar-inner">
+            <Link href="/" className="brand">
+              <Logo /> <span>prodscope</span>
+            </Link>
+            <nav className="topnav">
+              <Link href="/#recent">Teardowns</Link>
+              <Link href="/#start" className="pill">New teardown</Link>
+            </nav>
+          </div>
         </header>
         <main>{children}</main>
         <footer className="site-footer">
-          Reports are AI-generated from public information and can contain mistakes. Check the assumptions and sources before relying on them.
+          <div>
+            <span className="brand"><Logo size={24} /> prodscope</span>
+            <span>Product teardowns for aspiring PMs.</span>
+            <span>Reports are AI-generated from public information and can contain mistakes. Check the assumptions and sources before relying on them.</span>
+          </div>
         </footer>
       </body>
     </html>
