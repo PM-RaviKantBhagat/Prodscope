@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import HeaderNav from "@/components/HeaderNav";
+import { getGroups } from "@/lib/gallery";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,7 +10,14 @@ export const metadata: Metadata = {
   description: "Enter a company and website, get a full product teardown: personas, pain points, journeys, business model, north star and KPI tree.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export const dynamic = "force-dynamic";
+
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const groups = (await getGroups()).map((g) => ({
+    section: g.section,
+    id: g.id,
+    items: g.items.map((t) => ({ slug: t.slug, company: t.company, category: t.category })),
+  }));
   return (
     <html lang="en">
       <body>
@@ -17,10 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="brand">
               <Logo /> <span>prodscope</span>
             </Link>
-            <nav className="topnav">
-              <Link href="/#recent">Teardowns</Link>
-              <Link href="/#start" className="pill">New teardown</Link>
-            </nav>
+            <HeaderNav groups={groups} />
           </div>
         </header>
         <main>{children}</main>

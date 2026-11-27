@@ -1,10 +1,7 @@
 import TeardownForm from "@/components/TeardownForm";
-import { getStore } from "@/lib/store";
 import { FREE_PER_PERSON_PER_DAY } from "@/lib/limits";
 import Gallery, { type GalleryGroup } from "@/components/Gallery";
-import { COMMUNITY_SECTION, SECTION_ORDER, SEED, sectionSlug } from "@/lib/sections";
-
-const seedRank = new Map(SEED.map((p) => [p.domain, p.rank]));
+import { getGroups } from "@/lib/gallery";
 
 export const dynamic = "force-dynamic";
 
@@ -35,18 +32,10 @@ function Preview() {
 }
 
 export default async function Home() {
-  const items = await getStore().listGallery();
-  const order = [...SECTION_ORDER, COMMUNITY_SECTION];
-  const groups: GalleryGroup[] = order
-    .map((section) => ({
-      section,
-      id: sectionSlug(section),
-      items: items
-        .filter((t) => (order.includes(t.section) ? t.section : COMMUNITY_SECTION) === section)
-        .sort((a, b) => (seedRank.get(a.domain) ?? 999) - (seedRank.get(b.domain) ?? 999) || b.createdAt.localeCompare(a.createdAt))
-        .map((t) => ({ slug: t.slug, company: t.company, tagline: t.tagline, category: t.category, curated: t.origin === "curated", up: t.up })),
-    }))
-    .filter((g) => g.items.length > 0);
+  const groups: GalleryGroup[] = (await getGroups()).map((g) => ({
+    ...g,
+    items: g.items.map((t) => ({ slug: t.slug, company: t.company, tagline: t.tagline, category: t.category, curated: t.origin === "curated", up: t.up })),
+  }));
   return (
     <>
       <section className="hero" id="start">
