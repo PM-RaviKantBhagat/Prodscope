@@ -1,0 +1,80 @@
+{
+  "id": "u07",
+  "title": "Prioritising and trade-offs",
+  "summary": "There is always more to build than time allows. Learn to choose what comes first, and say no well.",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "u07-l1",
+      "title": "Impact versus effort",
+      "teach": [
+        "The simplest way to prioritise: how much will it help (impact) and how hard is it to build (effort)?",
+        "High impact, low effort ideas are 'quick wins'. Do them first. Low impact, high effort ideas usually wait forever.",
+        "Impact should mean impact on your goal metric and users, not on how exciting it sounds."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Match each idea type to what you should do.", "pairs": [{ "left": "High impact, low effort", "right": "Do it now" }, { "left": "High impact, high effort", "right": "Plan it as a big project" }, { "left": "Low impact, low effort", "right": "Do it when there is spare time" }, { "left": "Low impact, high effort", "right": "Skip it" }], "explain": "This 2 by 2 grid is a fast way to sort a long list." },
+        { "type": "mcq", "prompt": "Which is a quick win for Zepto?", "options": ["Build a new delivery drone fleet", "Show the total with all fees on the cart page", "Open stores in 50 new cities", "Launch a new app for pets"], "answer": 1, "explain": "Clear fees are easy to build and cut drop offs and complaints." },
+        { "type": "tf", "prompt": "Impact should be judged by how cool the feature sounds.", "answer": false, "explain": "Judge impact by how much it moves your goal and helps users." },
+        { "type": "spot", "prompt": "Which reason for choosing an idea is weakest?", "lines": ["It cuts checkout drop off by an estimated 5%", "It takes two days to build", "A rival just launched it on Twitter", "Our users ask for it in reviews every week"], "wrong": 2, "explain": "Copying a rival isn't a reason by itself. Check if it helps your users and goals." },
+        { "type": "order", "prompt": "Order these ideas from first to last to build.", "steps": ["Fix the payment failure bug hurting 8% of orders", "Add a reorder button for repeat users", "Build a full loyalty programme", "Redesign the about page"], "explain": "Broken payments lose money now. Reorder is a cheap win. Loyalty is big. The about page barely matters." },
+        { "type": "mcq", "prompt": "How do you estimate impact before building?", "options": ["Guess", "Use data: how many users hit this problem and how much it costs them", "Ask the loudest person", "Pick randomly"], "answer": 1, "explain": "If 30% of users drop at payment, fixing it touches a lot of orders. Numbers make impact real." },
+        { "type": "tf", "prompt": "Effort should include design, testing and support work, not just coding.", "answer": true, "explain": "A feature that needs new support processes or legal checks is bigger than the code alone." }
+      ]
+    },
+    {
+      "id": "u07-l2",
+      "title": "Scoring with RICE",
+      "teach": [
+        "RICE gives each idea a score: Reach x Impact x Confidence, divided by Effort.",
+        "Reach: how many users in a time period. Impact: how much it helps each one. Confidence: how sure you are. Effort: person weeks of work.",
+        "The score is a guide, not a final answer. Use it to start a good discussion."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Match each RICE letter to its meaning.", "pairs": [{ "left": "R", "right": "How many users it reaches" }, { "left": "I", "right": "How much it helps each user" }, { "left": "C", "right": "How sure you are" }, { "left": "E", "right": "How much work it takes" }], "explain": "Reach, Impact, Confidence, Effort." },
+        { "type": "mcq", "prompt": "Idea A: reach 1,000, impact 2, confidence 80%, effort 2. What is its RICE score?", "options": ["800", "1,600", "400", "3,200"], "answer": 0, "explain": "1,000 x 2 x 0.8 = 1,600. Divide by effort 2 = 800." },
+        { "type": "tf", "prompt": "Low confidence should lower an idea's score.", "answer": true, "explain": "If you're unsure it will work, the expected value is smaller. RICE builds that in." },
+        { "type": "spot", "prompt": "Which use of RICE is a mistake?", "lines": ["Comparing ideas for the same goal", "Updating scores as you learn more", "Using the score as the only reason, ignoring strategy", "Being honest about confidence"], "wrong": 2, "explain": "A low scoring idea may still matter for strategy, like a legal requirement. Use judgement too." },
+        { "type": "order", "prompt": "Order these ideas by RICE score, highest first.", "steps": ["Reach 5,000, impact 1, confidence 100%, effort 1", "Reach 2,000, impact 2, confidence 50%, effort 1", "Reach 1,000, impact 3, confidence 50%, effort 3"], "explain": "Scores: 5,000, then 2,000, then 500." },
+        { "type": "mcq", "prompt": "Which is the best way to raise confidence before building?", "options": ["A quick user test or small experiment", "Wait a year", "Ask a friend", "Add more features"], "answer": 0, "explain": "Talking to 5 users or running a small test turns a guess into evidence." },
+        { "type": "tf", "prompt": "Effort in RICE is usually measured in person weeks or months.", "answer": true, "explain": "It's a rough size. Two people for two weeks is about 4 person weeks." }
+      ]
+    },
+    {
+      "id": "u07-l3",
+      "title": "Trade-offs between users and business",
+      "teach": [
+        "Many choices help one group and hurt another: users vs business, riders vs drivers, speed vs quality.",
+        "Name the trade-off clearly, pick a side for now, and say what you will watch so you can change your mind.",
+        "Good trade-offs think long term. Short term money that destroys trust is usually a bad deal."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Instagram can show more ads per feed. What's the trade-off?", "options": ["None", "More money now, but users may enjoy it less and spend less time later", "Fewer servers needed", "Faster app"], "answer": 1, "explain": "More ads raise revenue but can hurt time spent. Watch both." },
+        { "type": "match", "prompt": "Match each choice to the group it may hurt.", "pairs": [{ "left": "Lower ride prices", "right": "Drivers earn less" }, { "left": "Faster delivery promise", "right": "Rider safety" }, { "left": "Stricter seller checks", "right": "Slower seller growth" }, { "left": "Higher subscription price", "right": "Price sensitive users" }], "explain": "Every choice has someone who pays a cost. Spot them before you decide." },
+        { "type": "tf", "prompt": "Dark patterns, like hidden cancel buttons, are a good long term trade-off.", "answer": false, "explain": "They may hold users for a while but destroy trust, and can lead to fines." },
+        { "type": "order", "prompt": "Put the steps to make a trade-off in order.", "steps": ["Name what you gain and what you lose", "Pick the option that best fits your goal now", "Set guardrails for the loss", "Review after a few weeks"], "explain": "Clear, decided, watched and reviewed." },
+        { "type": "spot", "prompt": "Which statement shows weak trade-off thinking?", "lines": ["This raises revenue but may lower retention, so we'll watch churn", "We'll test on 10% of users first", "This has no downside at all", "Drivers may lose some earnings, so we'll add peak bonuses"], "wrong": 2, "explain": "Almost every change has a downside. Saying none exists shows you haven't looked." },
+        { "type": "mcq", "prompt": "Netflix stopped password sharing. What did it gain?", "options": ["Fewer users", "More paying accounts, after a short dip in goodwill", "Cheaper shows", "Faster streaming"], "answer": 1, "explain": "Some people were upset, but many started paying. Netflix accepted short pain for long term money." },
+        { "type": "tf", "prompt": "It's fine to change a trade-off decision when new data arrives.", "answer": true, "explain": "Strong opinions, held loosely. Review and adjust." }
+      ]
+    },
+    {
+      "id": "u07-l4",
+      "title": "Saying no and MVPs",
+      "teach": [
+        "Saying no is a big part of a PM's job. Every yes means something else waits.",
+        "An MVP (minimum viable product) is the smallest version that tests your main idea with real users.",
+        "A good MVP is small but still solves the core problem. A broken or confusing MVP teaches you nothing."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "A sales leader wants a custom feature for one client. What's a good PM reply?", "options": ["Yes, right away", "Let's check how many other clients need it and what it would delay", "No, never ask again", "Ignore the email"], "answer": 1, "explain": "Respect the ask, then decide with data. One client's need may not justify delaying work for everyone." },
+        { "type": "tf", "prompt": "An MVP should include every feature you might ever need.", "answer": false, "explain": "Then it isn't minimum. Build just enough to learn if the main idea works." },
+        { "type": "order", "prompt": "Put the steps to build an MVP in order.", "steps": ["Write the main idea you want to test", "Pick the one thing users must be able to do", "Build the simplest working version", "Put it in front of real users and measure"], "explain": "Idea, core action, simplest build, real test." },
+        { "type": "spot", "prompt": "Which is a poor MVP for a meal plan app?", "lines": ["A WhatsApp group that sends weekly meal plans", "A simple form and a spreadsheet run by hand", "A full app with AI, payments and a store", "A landing page to see if people sign up"], "wrong": 2, "explain": "That's a full product. The others test demand fast and cheap." },
+        { "type": "match", "prompt": "Match each company to its famous early MVP.", "pairs": [{ "left": "Airbnb", "right": "Air mattresses in the founders' flat" }, { "left": "Zappos", "right": "Photos of shoes from local shops, bought when ordered" }, { "left": "Dropbox", "right": "A video showing how it would work" }], "explain": "Each tested demand before building the full product." },
+        { "type": "mcq", "prompt": "Which is the best way to say no to a feature request?", "options": ["Ignore it", "Explain the goal you're focused on and when you'll review it", "Say it's a bad idea", "Promise it for next week"], "answer": 1, "explain": "Clear reasons and a review date keep trust while protecting focus." },
+        { "type": "tf", "prompt": "A good roadmap shows what you are NOT doing as well as what you are.", "answer": true, "explain": "Being clear about what's out stops endless debates." }
+      ]
+    }
+  ]
+}

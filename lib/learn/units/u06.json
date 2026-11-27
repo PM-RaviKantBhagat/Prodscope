@@ -1,0 +1,80 @@
+{
+  "id": "u06",
+  "title": "Systems thinking and mapping",
+  "summary": "See a product as a system of people, money and loops, so you can predict what a change will really do.",
+  "icon": "🕸️",
+  "lessons": [
+    {
+      "id": "u06-l1",
+      "title": "Products are systems",
+      "teach": [
+        "A product is not just an app. It is a system: users, partners, money, data and rules that all affect each other.",
+        "Change one part and others move too. Give riders big discounts on a ride app, and soon there may not be enough drivers.",
+        "Systems thinking means asking: 'If I change this, what else changes, and then what?'"
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Swiggy cuts restaurant commission sharply. What could happen next?", "options": ["Nothing else changes", "More restaurants join, but Swiggy earns less per order unless it finds money elsewhere", "Users stop ordering", "Riders get no pay"], "answer": 1, "explain": "Lower commission attracts restaurants but hurts earnings per order. Thinking one step further shows the trade-off." },
+        { "type": "tf", "prompt": "In a system, a fix in one place can create a problem in another place.", "answer": true, "explain": "Faster delivery targets can push riders to drive unsafely. That's why guardrails exist." },
+        { "type": "order", "prompt": "Put this chain of effects in order for a big rider discount on a ride app.", "steps": ["Big rider discounts", "Many more ride requests", "Not enough drivers nearby", "Longer waits and cancellations", "Riders get annoyed and leave"], "explain": "A change that looks good first can backfire a few steps later." },
+        { "type": "match", "prompt": "Match each part of Zomato's system to its role.", "pairs": [{ "left": "Diners", "right": "Place orders and pay" }, { "left": "Restaurants", "right": "Cook and pay commission" }, { "left": "Delivery partners", "right": "Carry food and earn per trip" }, { "left": "Zomato", "right": "Matches all three and sets the rules" }], "explain": "Seeing each player helps you predict who wins or loses from a change." },
+        { "type": "spot", "prompt": "Which line ignores the system?", "lines": ["If we raise fees, some users may order less", "If we add more stores, delivery gets faster", "If we cut rider pay, nothing else will change", "If we add ads, brands pay us more"], "wrong": 2, "explain": "Lower rider pay can mean fewer riders, slower delivery and unhappy users." },
+        { "type": "mcq", "prompt": "What's a 'second order effect'?", "options": ["The second feature you build", "A result of a result: what happens after the first change", "A second payment", "A bug"], "answer": 1, "explain": "First order: discounts bring users. Second order: those users may only come back for discounts." },
+        { "type": "tf", "prompt": "Systems thinking is only useful for very large companies.", "answer": false, "explain": "Even a small marketplace has buyers, sellers and money moving between them." }
+      ]
+    },
+    {
+      "id": "u06-l2",
+      "title": "Loops: things that feed themselves",
+      "teach": [
+        "A reinforcing loop is a cycle that grows itself: more users bring more content, which brings more users. YouTube works like this.",
+        "A balancing loop pulls things back: higher prices reduce demand, which pulls prices down.",
+        "Great products find a reinforcing loop and keep feeding it."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put YouTube's loop in order.", "steps": ["More viewers", "Creators earn more and want to upload", "More videos", "Better recommendations and more reasons to watch"], "explain": "Each step feeds the next, and the last feeds the first again. That's a reinforcing loop." },
+        { "type": "mcq", "prompt": "Which is a balancing loop?", "options": ["More friends join, so the app is more useful", "Surge pricing raises prices, so fewer people ask for rides", "More sellers bring more buyers", "More reviews bring more trust"], "answer": 1, "explain": "Surge pulls demand down and pulls drivers in, bringing the system back to balance." },
+        { "type": "tf", "prompt": "Reinforcing loops can also work in reverse and shrink a product.", "answer": true, "explain": "If users leave, creators leave, so even more users leave. Many social apps died this way." },
+        { "type": "match", "prompt": "Match each product to its main loop.", "pairs": [{ "left": "Airbnb", "right": "More hosts bring more guests, which bring more hosts" }, { "left": "Google Maps", "right": "More users give more traffic data, which makes maps better" }, { "left": "LinkedIn", "right": "More members make the network more useful to join" }, { "left": "Amazon", "right": "More sellers mean more choice and lower prices, bringing more buyers" }], "explain": "Each loop explains why the leader is hard to catch." },
+        { "type": "spot", "prompt": "Which is not a reinforcing loop?", "lines": ["More players make a game more fun, bringing more players", "More data makes the AI better, bringing more users and data", "Higher prices bring fewer buyers", "More reviews make buyers trust sellers, bringing more sales and reviews"], "wrong": 2, "explain": "That one is balancing. It pulls demand back down." },
+        { "type": "tree", "prompt": "Pick the 3 parts of Instagram's creator loop.", "root": "Instagram creator loop", "options": ["Creators post content", "Viewers watch and follow", "Creators gain fans and post more", "Instagram buys more servers", "Ads team hires more people"], "correct": [0, 1, 2], "explain": "Posts, views and follows, and more posting. Servers and hiring support the loop but are not part of it." },
+        { "type": "mcq", "prompt": "As a PM, how do you use a loop?", "options": ["Ignore it", "Find the weakest step and make it stronger", "Delete it", "Only measure the first step"], "answer": 1, "explain": "If creators don't get enough views, the loop slows. Strengthen that step and the whole loop speeds up." }
+      ]
+    },
+    {
+      "id": "u06-l3",
+      "title": "Mapping a marketplace",
+      "teach": [
+        "A marketplace connects two groups, like buyers and sellers. Mapping it means drawing who gives what to whom.",
+        "The hard part is the start: buyers won't come without sellers, and sellers won't come without buyers. This is the 'chicken and egg' problem.",
+        "Most marketplaces solve it by starting small (one city, one category) and helping one side first."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "How did Urban Company likely solve chicken and egg early on?", "options": ["Launch in 100 cities at once", "Start in a few cities, train and bring on professionals first", "Wait for users to bring workers", "Only advertise on TV"], "answer": 1, "explain": "Getting good, trained workers first makes the first customers happy, so they come back." },
+        { "type": "order", "prompt": "Put the steps to launch a marketplace in order.", "steps": ["Pick one city and one category", "Get enough supply (sellers, drivers)", "Bring in buyers", "Measure how often buyers find a match", "Expand to the next city"], "explain": "Small and dense first. A busy small market beats an empty big one." },
+        { "type": "tf", "prompt": "In most marketplaces, getting the supply side first is easier to control.", "answer": true, "explain": "You can pay or recruit sellers or drivers directly. Buyers usually come when there is good supply." },
+        { "type": "match", "prompt": "Map who gives what on Airbnb.", "pairs": [{ "left": "Guest gives Airbnb", "right": "Payment and a service fee" }, { "left": "Host gives guest", "right": "A place to stay" }, { "left": "Airbnb gives host", "right": "Bookings minus a fee" }, { "left": "Airbnb gives guest", "right": "Search, trust and support" }], "explain": "Mapping flows shows where money and value move, and where trust is needed." },
+        { "type": "spot", "prompt": "Which is a sign the marketplace is unhealthy?", "lines": ["Most searches end in a booking", "Sellers get repeat buyers", "Buyers often see 'no results' in their area", "Wait times are dropping"], "wrong": 2, "explain": "'No results' means not enough supply. Buyers will leave." },
+        { "type": "tree", "prompt": "Pick the 3 numbers that show marketplace health.", "root": "Healthy marketplace", "options": ["Share of searches with a match", "Repeat buyers", "Seller earnings or busy time", "Number of PR articles", "Office size"], "correct": [0, 1, 2], "explain": "Matches, repeat buyers and happy sellers. Press and offices don't show health." },
+        { "type": "mcq", "prompt": "What is 'liquidity' in a marketplace?", "options": ["Cash in the bank", "How likely a buyer or seller is to find a match quickly", "How many drinks are sold", "The app's speed"], "answer": 1, "explain": "High liquidity means a rider gets a cab in minutes and a driver gets a ride quickly." }
+      ]
+    },
+    {
+      "id": "u06-l4",
+      "title": "Network effects and moats",
+      "teach": [
+        "A network effect is when a product becomes more useful as more people use it. WhatsApp is useful because your friends are on it.",
+        "A moat is anything that makes it hard for rivals to take your users: network effects, data, brand, switching costs or scale.",
+        "Not all growth is a moat. Discounts can be copied tomorrow."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Why is it hard to beat WhatsApp in India?", "options": ["Its logo is green", "Everyone you talk to is already on it", "It has the most stickers", "It is new"], "answer": 1, "explain": "A new app is useless if your friends and family aren't on it. That's a strong network effect." },
+        { "type": "match", "prompt": "Match each moat type to a product.", "pairs": [{ "left": "Network effect", "right": "LinkedIn" }, { "left": "Switching cost", "right": "Microsoft Excel at a large company" }, { "left": "Brand", "right": "Apple" }, { "left": "Scale and low cost", "right": "Amazon delivery network" }], "explain": "Each one makes leaving or copying hard in a different way." },
+        { "type": "tf", "prompt": "Big discounts are a strong moat.", "answer": false, "explain": "Anyone with money can copy a discount. Users leave when it ends." },
+        { "type": "spot", "prompt": "Which is not a network effect?", "lines": ["More drivers make pickups faster for riders", "More users make a review site more useful", "A new office makes the team happier", "More players make an online game more fun"], "wrong": 2, "explain": "A happy team is nice, but it doesn't make the product more useful as more people use it." },
+        { "type": "tree", "prompt": "Pick the 3 things that give Google Maps a moat.", "root": "Google Maps moat", "options": ["Live traffic data from millions of phones", "Years of reviews and business info", "Built into Android phones", "A nicer font", "Free stickers"], "correct": [0, 1, 2], "explain": "Data from users, years of content and default placement are hard to copy." },
+        { "type": "mcq", "prompt": "Quick commerce apps say their moat is dark store locations. Why could that be weak?", "options": ["Stores are free", "Rivals can open stores nearby with enough money", "Users hate stores", "Stores are illegal"], "answer": 1, "explain": "Physical stores help, but well funded rivals can copy them. That's why price wars happen." },
+        { "type": "order", "prompt": "Order these from weakest to strongest moat.", "steps": ["A discount campaign", "A good brand", "Strong network effects"], "explain": "Discounts are copied fast, brands take years, and network effects grow stronger with every user." }
+      ]
+    }
+  ]
+}

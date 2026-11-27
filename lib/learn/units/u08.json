@@ -1,0 +1,80 @@
+{
+  "id": "u08",
+  "title": "Growth loops",
+  "summary": "How products find new users, turn them into regulars, and get them to bring friends.",
+  "icon": "📈",
+  "lessons": [
+    {
+      "id": "u08-l1",
+      "title": "The growth funnel",
+      "teach": [
+        "A simple growth funnel: people hear about you, try you, get value, come back, and tell others. Some call it AARRR: acquisition, activation, retention, referral, revenue.",
+        "Each step loses people. Growth work finds the leakiest step and fixes it.",
+        "Activation is the moment a new user first gets real value, like the first ride on Uber or first message on WhatsApp."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put the AARRR steps in order.", "steps": ["Acquisition: people find you", "Activation: first real value", "Retention: they come back", "Referral: they tell others", "Revenue: they pay"], "explain": "That's the classic order, though revenue can come earlier for some products." },
+        { "type": "match", "prompt": "Match each product to a good activation moment.", "pairs": [{ "left": "Uber", "right": "First completed ride" }, { "left": "Slack", "right": "Team sends its first messages" }, { "left": "Spotify", "right": "Plays a playlist they like" }, { "left": "Groww", "right": "Makes a first investment" }], "explain": "Activation is the first time the product proves its value." },
+        { "type": "mcq", "prompt": "1,000 people install, 300 finish signup, 250 make a first order. Where is the biggest leak?", "options": ["Install to signup", "Signup to first order", "No leak", "After first order"], "answer": 0, "explain": "700 of 1,000 drop before finishing signup. That's the biggest loss." },
+        { "type": "tf", "prompt": "Getting more installs fixes a weak activation step.", "answer": false, "explain": "More installs just pour more water into a leaky bucket. Fix activation first." },
+        { "type": "spot", "prompt": "Which idea doesn't help activation?", "lines": ["Fewer signup steps", "A first order discount", "A guided first task", "A new careers page"], "wrong": 3, "explain": "A careers page is for hiring, not users." },
+        { "type": "tree", "prompt": "Pick the 3 steps that make up Duolingo's activation.", "root": "New learner activated", "options": ["Picks a language and goal", "Finishes the first lesson", "Comes back the next day", "Reads the privacy policy", "Shares on LinkedIn"], "correct": [0, 1, 2], "explain": "Setting a goal, finishing a lesson and returning are the signs a learner is hooked." },
+        { "type": "mcq", "prompt": "What is an 'aha moment'?", "options": ["A bug", "The moment a user truly gets why the product is useful", "A marketing slogan", "A pricing change"], "answer": 1, "explain": "For Facebook it was famously connecting with enough friends quickly. Get users there fast." }
+      ]
+    },
+    {
+      "id": "u08-l2",
+      "title": "Loops beat funnels",
+      "teach": [
+        "A funnel is a one way trip. A growth loop is a cycle where new users create something that brings more new users.",
+        "Pinterest: users save pins, pins show up on Google, people click from Google and join. That's a content loop.",
+        "Loops grow on their own once they turn. Funnels need you to keep pouring money in."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put Pinterest's content loop in order.", "steps": ["User saves a pin", "Pin page shows up in Google search", "Someone clicks from Google", "They join and save pins too"], "explain": "Each new user creates content that brings the next user." },
+        { "type": "match", "prompt": "Match each loop type to an example.", "pairs": [{ "left": "Viral loop", "right": "Calendly links sent to people you meet" }, { "left": "Content loop", "right": "Reddit posts found on Google" }, { "left": "Paid loop", "right": "Profit from users funds more ads" }, { "left": "Sales loop", "right": "Happy clients refer other companies" }], "explain": "Different loops fit different products." },
+        { "type": "tf", "prompt": "Every time someone gets a Calendly link, they see the product and may sign up.", "answer": true, "explain": "Using the product shows it to new people. That's a built in viral loop." },
+        { "type": "mcq", "prompt": "Why are loops better than funnels?", "options": ["They are cheaper to draw", "Each cycle brings new users without extra spending", "They have fewer steps", "Investors like circles"], "answer": 1, "explain": "A working loop compounds. Funnels stop the moment you stop paying." },
+        { "type": "spot", "prompt": "Which is a funnel, not a loop?", "lines": ["Users share reels, friends see them and join", "Users write reviews, reviews rank on Google, readers join", "We buy TV ads and people download the app", "Sellers list items, buyers come, more sellers join"], "wrong": 2, "explain": "TV ads are a one way push. Nothing users do brings the next user." },
+        { "type": "tree", "prompt": "Pick the 3 parts of a Zomato review loop.", "root": "Zomato review loop", "options": ["Diners write reviews and post photos", "Reviews show up in Google search", "New diners find a restaurant through reviews and join", "Zomato hires a new CFO", "Restaurants change their menus"], "correct": [0, 1, 2], "explain": "User content, search and new users. That's a content loop." },
+        { "type": "tf", "prompt": "A loop with a weak step will barely grow.", "answer": true, "explain": "If few saved pins rank on Google, the loop stalls. Find and fix the weak step." }
+      ]
+    },
+    {
+      "id": "u08-l3",
+      "title": "Referrals and virality",
+      "teach": [
+        "Referrals work when users already love the product, and when sharing helps both people.",
+        "Give-get referrals reward both sides, like 'give ₹100, get ₹100'. Many payment and ride apps grew this way.",
+        "The viral coefficient (K) is how many new users each user brings. If K is above 1, growth feeds itself."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Each user invites 4 friends and 1 in 4 joins. What's K?", "options": ["4", "1", "0.25", "16"], "answer": 1, "explain": "4 invites x 25% = 1 new user per user. Growth just keeps itself going." },
+        { "type": "tf", "prompt": "A referral programme can fix a product people don't like.", "answer": false, "explain": "People won't recommend something they don't love. Fix the product first." },
+        { "type": "match", "prompt": "Match each product to how it spread.", "pairs": [{ "left": "Google Pay India", "right": "Cash rewards for inviting friends" }, { "left": "WhatsApp", "right": "You need friends on it to chat" }, { "left": "Dropbox", "right": "Free storage for both sides of a referral" }, { "left": "Wordle", "right": "Shareable coloured squares" }], "explain": "Each built sharing into how the product works or rewards it." },
+        { "type": "spot", "prompt": "Which referral design is weakest?", "lines": ["Both friends get a reward", "Sharing takes one tap", "The reward comes after the friend's first real use", "The friend must fill a 20 field form first"], "wrong": 3, "explain": "A long form kills the referral. Make joining easy." },
+        { "type": "order", "prompt": "Put a good referral flow in order.", "steps": ["User has a great moment", "App suggests sharing right then", "Friend gets a simple invite link", "Friend joins and both get the reward"], "explain": "Ask at a happy moment, keep it easy, reward both." },
+        { "type": "mcq", "prompt": "Why do referral rewards often wait until the friend's first order?", "options": ["To save paperwork", "To stop fake accounts that farm rewards", "Users prefer waiting", "It's the law"], "answer": 1, "explain": "Paying on sign up invites fraud. Paying after real use rewards real growth." },
+        { "type": "tf", "prompt": "Some products are viral just by being used, without any reward.", "answer": true, "explain": "Zoom links and Calendly invites show the product to new people every time." }
+      ]
+    },
+    {
+      "id": "u08-l4",
+      "title": "Habits and retention loops",
+      "teach": [
+        "A habit loop has four parts: a trigger, an action, a reward and an investment that makes the next use better.",
+        "Duolingo: a reminder (trigger), a 3 minute lesson (action), XP and a streak (reward), and your growing streak (investment).",
+        "Use habits to help users, not to trap them. Ask: would users thank you for this habit?"
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put the habit loop in order.", "steps": ["Trigger", "Action", "Reward", "Investment"], "explain": "Trigger prompts an easy action, reward makes it feel good, investment brings them back." },
+        { "type": "match", "prompt": "Match each Duolingo part to its habit step.", "pairs": [{ "left": "Evening reminder from the owl", "right": "Trigger" }, { "left": "Do a short lesson", "right": "Action" }, { "left": "XP and confetti", "right": "Reward" }, { "left": "A 100 day streak you don't want to lose", "right": "Investment" }], "explain": "Every part is designed to make tomorrow's lesson more likely." },
+        { "type": "tf", "prompt": "The action in a habit loop should be as easy as possible.", "answer": true, "explain": "Lower effort means people do it even on busy days. That's why Duolingo lessons are short." },
+        { "type": "spot", "prompt": "Which is not an investment that brings users back?", "lines": ["Playlists you built on Spotify", "Your followers on Instagram", "A pop up ad", "Your saved addresses on Swiggy"], "wrong": 2, "explain": "A pop up ad adds nothing for the user. The others make the product more yours." },
+        { "type": "mcq", "prompt": "Which trigger is most helpful for a food delivery app?", "options": ["A random 3 am notification", "A reminder near your usual dinner time with your favourite restaurant", "Ten messages a day", "No triggers ever"], "answer": 1, "explain": "Timely and personal triggers help. Spammy ones lead to muting or uninstalling." },
+        { "type": "tree", "prompt": "Pick the 3 things that make a streak work well.", "root": "Good streak feature", "options": ["Easy daily action", "Clear reward for keeping it", "A way to recover a missed day", "Fines for missing a day", "Hiding the streak count"], "correct": [0, 1, 2], "explain": "Easy, rewarding and forgiving. Harsh punishments make people quit." },
+        { "type": "tf", "prompt": "A good habit should help users reach their own goals.", "answer": true, "explain": "Habits that help, like learning a language, earn loyalty. Habits that only help the company lose trust." }
+      ]
+    }
+  ]
+}

@@ -33,7 +33,8 @@ function isRight(q: Question, v: Value, order: number[]): boolean {
     case "spot": return picks[0] === q.wrong;
     case "tree": return picks.length === q.correct.length && picks.every((p) => q.correct.includes(p));
     case "order": return picks.every((p, i) => p === i);
-    case "match": return q.pairs.every((_, left) => order[(v as Record<number, number>)[left]] === left);
+    // Compare text, so two pairs with the same answer (like "Input") both count.
+    case "match": return q.pairs.every((p, left) => q.pairs[order[(v as Record<number, number>)[left]]]?.right === p.right);
   }
 }
 function options(q: Question): string[] {

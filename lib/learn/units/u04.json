@@ -1,0 +1,80 @@
+{
+  "id": "u04",
+  "title": "KPI trees",
+  "summary": "Break one big number into the smaller numbers that move it, so you know exactly where to act.",
+  "icon": "🌳",
+  "lessons": [
+    {
+      "id": "u04-l1",
+      "title": "What a KPI tree is",
+      "teach": [
+        "A KPI tree starts with one big number at the top, like weekly orders. Under it you put the smaller numbers that make it up.",
+        "Often the branches multiply: weekly orders = active buyers x orders per buyer. Each branch can be split again.",
+        "The tree tells you where to look when the big number moves, and which team owns which branch."
+      ],
+      "questions": [
+        { "type": "tree", "prompt": "Pick the 2 numbers that multiply to give Uber's weekly trips.", "root": "Weekly trips", "options": ["Weekly active riders", "Trips per active rider", "Number of cities in the ads", "Driver app rating", "Office headcount"], "correct": [0, 1], "explain": "Trips = riders x trips per rider. The other options matter less directly or not at all." },
+        { "type": "tf", "prompt": "In a KPI tree, the branches under a number should explain how that number is made.", "answer": true, "explain": "Each level breaks the one above into parts. If a child number can't move the parent, it doesn't belong there." },
+        { "type": "order", "prompt": "Put these from the top of Swiggy's tree to the bottom.", "steps": ["Weekly orders", "Orders per active user", "Share of app opens that end in an order", "Share of orders that fail at payment"], "explain": "Each step is a smaller part of the one above it. Payment failures cut conversion, which cuts orders per user." },
+        { "type": "mcq", "prompt": "Why build a KPI tree?", "options": ["To make slides look busy", "To see which smaller number to fix when the big one moves", "To replace talking to users", "To set salaries"], "answer": 1, "explain": "If orders drop, the tree points you to the branch that moved, for example fewer new users or fewer repeat orders." },
+        { "type": "spot", "prompt": "One branch does not belong under 'Netflix hours watched'. Which?", "lines": ["Active members", "Hours per active member", "Number of shows started that get finished", "Number of Netflix offices"], "wrong": 3, "explain": "Offices don't change how much people watch. The others all feed hours watched." },
+        { "type": "match", "prompt": "Match each top number to a sensible first split.", "pairs": [{ "left": "Revenue", "right": "Customers x revenue per customer" }, { "left": "Weekly orders", "right": "Active buyers x orders per buyer" }, { "left": "Nights booked", "right": "Guests x nights per guest" }, { "left": "Messages sent", "right": "Active users x messages per user" }], "explain": "Most first splits are 'how many people' times 'how much each one does'." },
+        { "type": "tf", "prompt": "A KPI tree should go many levels deep before it is useful.", "answer": false, "explain": "Two or three levels is usually enough. Go deeper only where you need to find a problem." }
+      ]
+    },
+    {
+      "id": "u04-l2",
+      "title": "Splitting the big number",
+      "teach": [
+        "Two common ways to split: by formula (people x frequency x value) and by type (new users vs returning users).",
+        "A good split is 'MECE': the parts don't overlap and together they cover everything.",
+        "Example: active users = new users this month + users who came back + users who returned after leaving."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Which split of 'monthly active users' has no overlap and misses nothing?", "options": ["Android users and young users", "New, returning and come back users", "Happy users and users in Delhi", "Users who saw an ad and users who like cats"], "answer": 1, "explain": "Every active user is exactly one of new, returning or come back. The other splits overlap or leave people out." },
+        { "type": "tree", "prompt": "Pick the 3 parts that multiply to give an online store's revenue.", "root": "Revenue", "options": ["Visitors", "Share of visitors who buy", "Average order value", "Number of product photos", "Number of designers"], "correct": [0, 1, 2], "explain": "Revenue = visitors x conversion x order value. A classic e-commerce split." },
+        { "type": "tf", "prompt": "'Users on iPhone' and 'users in Mumbai' is a clean split with no overlap.", "answer": false, "explain": "A Mumbai user can have an iPhone, so they would be counted twice. Split by one thing at a time." },
+        { "type": "spot", "prompt": "Which split is broken?", "lines": ["Orders = new customer orders + repeat customer orders", "Revenue = subscription revenue + ad revenue + other revenue", "Users = paying users + free users", "Users = happy users + Android users"], "wrong": 3, "explain": "Happy and Android overlap and don't cover everyone. The other splits are clean." },
+        { "type": "match", "prompt": "Match each split style to an example.", "pairs": [{ "left": "By formula", "right": "Riders x trips per rider" }, { "left": "By type of user", "right": "New + returning riders" }, { "left": "By step in the journey", "right": "Opens, searches, bookings" }], "explain": "All three are useful. Pick the one that helps answer your question." },
+        { "type": "mcq", "prompt": "Zomato's orders drop. Splitting into new vs repeat users shows repeat orders fell. What next?", "options": ["Spend more on ads for new users", "Split repeat orders further, for example by city or restaurant type", "Stop measuring", "Change the logo"], "answer": 1, "explain": "Keep splitting the branch that moved until you find the cause." },
+        { "type": "order", "prompt": "Put the steps to build a tree in order.", "steps": ["Write the top number", "Split it into 2 to 4 parts with no overlap", "Check the parts add up or multiply to the top", "Split the most important part again"], "explain": "Start at the top, split cleanly, check, then go deeper where it matters." }
+      ]
+    },
+    {
+      "id": "u04-l3",
+      "title": "Inputs and outputs",
+      "teach": [
+        "Output metrics are results, like revenue. You can't move them directly. Input metrics are things teams can change today, like delivery time.",
+        "The bottom of a good KPI tree is made of inputs. That's where teams actually work.",
+        "Amazon is famous for focusing teams on inputs like price, selection and delivery speed, trusting that outputs like sales will follow."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Sort each metric as input or output.", "pairs": [{ "left": "Revenue", "right": "Output" }, { "left": "Delivery time", "right": "Input" }, { "left": "Number of products in stock", "right": "Input" }], "explain": "Teams change delivery time and stock directly. Revenue is a result of many inputs." },
+        { "type": "tf", "prompt": "A team should be given an output like 'total revenue' as its only goal.", "answer": false, "explain": "Revenue depends on many teams. Give each team an input it controls, like search success rate." },
+        { "type": "tree", "prompt": "Pick the 3 inputs a quick delivery app team can change this week.", "root": "Repeat orders", "options": ["How often items are out of stock", "Delivery time", "Accuracy of the order", "Total revenue", "Company valuation"], "correct": [0, 1, 2], "explain": "Stock, speed and accuracy are inputs teams work on. Revenue and valuation are results." },
+        { "type": "mcq", "prompt": "Which is an input metric for Spotify's search team?", "options": ["Spotify's yearly profit", "Share of searches that end in a song being played", "Share price", "Total users in the world"], "answer": 1, "explain": "The search team can improve this directly, and it feeds listening time higher up the tree." },
+        { "type": "spot", "prompt": "Which is not an input a product team controls?", "lines": ["Page load time", "Number of steps in signup", "Market interest rates", "Quality of recommendations"], "wrong": 2, "explain": "Interest rates come from the central bank. The others can be changed by the team." },
+        { "type": "order", "prompt": "Put Amazon's flywheel inputs and output in a logical order.", "steps": ["Lower prices and more selection", "Better customer experience", "More customers and orders", "More sellers join"], "explain": "Inputs improve experience, which brings customers, which attracts sellers, which adds selection again." },
+        { "type": "mcq", "prompt": "Why do bottom branches matter most for daily work?", "options": ["They are the biggest numbers", "Teams can act on them directly", "They never change", "Only the CEO sees them"], "answer": 1, "explain": "The top shows if you are winning. The bottom shows what to do on Monday." }
+      ]
+    },
+    {
+      "id": "u04-l4",
+      "title": "Build a full tree",
+      "teach": [
+        "Let's put it together. Start from the north star, split into 2 to 4 drivers, then split each driver into inputs teams own.",
+        "Add guardrails beside the tree: numbers you will not let get worse.",
+        "In interviews, say the tree out loud: 'Weekly orders is buyers times orders per buyer. Buyers splits into new and returning...'"
+      ],
+      "questions": [
+        { "type": "tree", "prompt": "Airbnb's north star is nights booked. Pick the 3 direct drivers.", "root": "Nights booked", "options": ["Guests searching", "Share of searches that turn into a booking", "Nights per booking", "Number of Airbnb ads on TV", "Host profile photo size"], "correct": [0, 1, 2], "explain": "Nights = searchers x booking rate x nights per booking. TV ads are further away, photo size even more." },
+        { "type": "tree", "prompt": "Now split 'share of searches that become a booking'. Pick the 3 inputs.", "root": "Search to booking rate", "options": ["Number of homes available on the dates", "Price compared to hotels", "Quality of photos and reviews", "Number of Airbnb offices", "CEO's social posts"], "correct": [0, 1, 2], "explain": "Guests book when there is a good, fairly priced, trusted home free on their dates." },
+        { "type": "mcq", "prompt": "Which guardrail would you add to Airbnb's tree?", "options": ["Guest and host complaints per 1,000 stays", "Number of searches", "App downloads", "Logo awareness"], "answer": 0, "explain": "Pushing bookings shouldn't lead to bad stays. Complaints catch that." },
+        { "type": "order", "prompt": "Put these interview steps for a KPI tree in order.", "steps": ["Say the north star and why", "Split it into drivers", "Split one key driver into inputs", "Name guardrails", "Say which branch you'd work on first and why"], "explain": "This order shows clear thinking from goal down to action." },
+        { "type": "spot", "prompt": "Which line in this Duolingo tree is wrong?", "lines": ["Daily active learners = new + returning + come back learners", "Returning learners depends on streak keeping", "Come back learners depends on reminder quality", "New learners depends on lesson length"], "wrong": 3, "explain": "New learners come mostly from word of mouth, app stores and marketing. Lesson length matters more for returning learners." },
+        { "type": "tf", "prompt": "It's fine to say in an interview which branch you'd focus on and why.", "answer": true, "explain": "Interviewers want judgement, not just a tree. Pick the branch with the biggest gap or easiest win." },
+        { "type": "match", "prompt": "Match each Zepto branch to the team that owns it.", "pairs": [{ "left": "Delivery time", "right": "Operations and riders" }, { "left": "Items in stock", "right": "Supply and stores" }, { "left": "App open to order rate", "right": "Product and design" }, { "left": "New users from referrals", "right": "Growth" }], "explain": "A good tree makes ownership clear, so each team knows its number." }
+      ]
+    }
+  ]
+}

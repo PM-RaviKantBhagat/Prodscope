@@ -1,0 +1,411 @@
+{
+ "id": "u10",
+ "title": "Strategy and competition",
+ "summary": "Where to play and how to win: markets, rivals, and the big bets that shape a product.",
+ "icon": "♟️",
+ "lessons": [
+  {
+   "id": "u10-l1",
+   "title": "Where to play",
+   "teach": [
+    "Strategy starts with two questions: where will we play (which users, which markets) and how will we win there?",
+    "Market size matters, but so does fit. A huge market where you have no edge is a bad choice.",
+    "Many winners start with a small group they can serve better than anyone, then expand."
+   ],
+   "questions": [
+    {
+     "type": "mcq",
+     "prompt": "Why did Meesho focus on small town shoppers first?",
+     "options": [
+      "Big cities were closed",
+      "Amazon and Flipkart served them less well, and price mattered most to them",
+      "They had more phones",
+      "It was random"
+     ],
+     "answer": 1,
+     "explain": "An underserved group with clear needs (low prices, social selling) gave Meesho an edge."
+    },
+    {
+     "type": "tf",
+     "prompt": "A small, well chosen market can be a better start than a giant one.",
+     "answer": true,
+     "explain": "Facebook started with one college. Winning a small market fully gives you a base to grow."
+    },
+    {
+     "type": "tree",
+     "prompt": "Pick the 3 checks for a new market.",
+     "root": "Is this a good market?",
+     "options": [
+      "Is it big enough to matter?",
+      "Do we have an edge there?",
+      "Is the need strong and growing?",
+      "Is it trendy on Twitter?",
+      "Does the CEO like the city?"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Size, edge and need. Trends and personal taste aren't strategy."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each company to where it chose to play first.",
+     "pairs": [
+      {
+       "left": "Zerodha",
+       "right": "Active traders who hated high fees"
+      },
+      {
+       "left": "Rapido",
+       "right": "Bike taxis for cheap, quick city trips"
+      },
+      {
+       "left": "Physics Wallah",
+       "right": "Low cost exam prep for students"
+      },
+      {
+       "left": "Nykaa",
+       "right": "Beauty shoppers wanting real products online"
+      }
+     ],
+     "explain": "Each picked a clear group with a clear need that others served badly."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which is the weakest reason to enter a market?",
+     "lines": [
+      "Users there have a painful problem",
+      "We have special data or partners there",
+      "A rival entered it last week",
+      "It's growing 30% a year"
+     ],
+     "wrong": 2,
+     "explain": "Following a rival isn't a reason by itself."
+    },
+    {
+     "type": "order",
+     "prompt": "Order a classic expansion path.",
+     "steps": [
+      "Win one city or group",
+      "Prove users love it and money works",
+      "Expand to similar cities or groups",
+      "Add new categories"
+     ],
+     "explain": "Prove it small, then scale. Swiggy grew city by city, then added Instamart."
+    },
+    {
+     "type": "mcq",
+     "prompt": "What does TAM mean?",
+     "options": [
+      "Total addressable market: everyone who could use it",
+      "Team and management",
+      "Time and money",
+      "Top app metric"
+     ],
+     "answer": 0,
+     "explain": "TAM is the biggest possible market. It's a ceiling, not a forecast."
+    }
+   ]
+  },
+  {
+   "id": "u10-l2",
+   "title": "Reading the competition",
+   "teach": [
+    "Competitors are not just apps like yours. They are anything users use today to solve the same job.",
+    "Direct competitors do the same thing (Blinkit vs Zepto). Indirect ones solve the same job differently (the local kirana shop).",
+    "Positioning is how you choose to be different: faster, cheaper, more trusted, better for a specific group."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "prompt": "Match each product to an indirect competitor.",
+     "pairs": [
+      {
+       "left": "Zepto",
+       "right": "The local kirana shop"
+      },
+      {
+       "left": "Netflix",
+       "right": "Sleep and YouTube"
+      },
+      {
+       "left": "Uber",
+       "right": "Owning a car or the metro"
+      },
+      {
+       "left": "Duolingo",
+       "right": "Language classes"
+      }
+     ],
+     "explain": "Indirect rivals solve the same job another way."
+    },
+    {
+     "type": "mcq",
+     "prompt": "Which is direct competition for Spotify?",
+     "options": [
+      "YouTube Music",
+      "Instagram",
+      "Zomato",
+      "Google Maps"
+     ],
+     "answer": 0,
+     "explain": "Same job, same way: streaming music."
+    },
+    {
+     "type": "tf",
+     "prompt": "Netflix's CEO once said their biggest rival is sleep.",
+     "answer": true,
+     "explain": "Their real fight is for your free time, against anything else you could do with it."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which is a weak positioning statement?",
+     "lines": [
+      "The fastest grocery delivery in your area",
+      "Zero fee investing for first time investors",
+      "An app that is good",
+      "Trusted home services with trained professionals"
+     ],
+     "wrong": 2,
+     "explain": "'Good' doesn't say who it's for or why it's different."
+    },
+    {
+     "type": "mcq",
+     "prompt": "Blinkit leads. How might Zepto position itself differently?",
+     "options": [
+      "Copy Blinkit exactly",
+      "Push its café and young urban users harder",
+      "Leave the market",
+      "Raise all prices"
+     ],
+     "answer": 1,
+     "explain": "Finding a different strength gives users a reason to choose you."
+    },
+    {
+     "type": "order",
+     "prompt": "Order the steps for a competitor analysis.",
+     "steps": [
+      "Define the user's job",
+      "List direct and indirect rivals",
+      "Compare on what users care about",
+      "Find a gap you can own"
+     ],
+     "explain": "Start from the user, not from a list of company names."
+    },
+    {
+     "type": "tf",
+     "prompt": "You should only watch companies that look exactly like you.",
+     "answer": false,
+     "explain": "Disruption often comes from different looking products, like phones replacing cameras."
+    }
+   ]
+  },
+  {
+   "id": "u10-l3",
+   "title": "Big bets and platform moves",
+   "teach": [
+    "Some strategic moves are big bets: entering a new category, building a platform, or going after a new market.",
+    "A platform lets others build on you, like Android for app makers or Shopify for shops. It can grow faster than you could alone.",
+    "Big bets should connect to your strengths, like users, data, brand or infrastructure you already have."
+   ],
+   "questions": [
+    {
+     "type": "mcq",
+     "prompt": "Why did Swiggy launch Instamart?",
+     "options": [
+      "Random idea",
+      "It already had riders, users and a delivery habit to reuse",
+      "To close food delivery",
+      "To sell phones"
+     ],
+     "answer": 1,
+     "explain": "A good bet reuses existing strengths. Riders and app users made grocery delivery a natural step."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each company to its platform move.",
+     "pairs": [
+      {
+       "left": "Apple",
+       "right": "App Store for developers"
+      },
+      {
+       "left": "Shopify",
+       "right": "App marketplace for store tools"
+      },
+      {
+       "left": "UPI",
+       "right": "Rails any app can build payments on"
+      },
+      {
+       "left": "Roblox",
+       "right": "Tools for players to build games"
+      }
+     ],
+     "explain": "Each let others build on top, multiplying what users can get."
+    },
+    {
+     "type": "tf",
+     "prompt": "A big bet should ideally use strengths the company already has.",
+     "answer": true,
+     "explain": "Bets far from your strengths fail more often. Many 'super app' attempts struggled for this reason."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which bet looks weakest for a food delivery app?",
+     "lines": [
+      "Grocery delivery using the same riders",
+      "Ads for restaurants on the app",
+      "Dining out deals for existing users",
+      "Building its own smartphone"
+     ],
+     "wrong": 3,
+     "explain": "A phone has nothing to do with its strengths and needs totally new skills."
+    },
+    {
+     "type": "tree",
+     "prompt": "Pick the 3 things to check before a big bet.",
+     "root": "Should we make this bet?",
+     "options": [
+      "Does it use our strengths?",
+      "Is the market big enough?",
+      "Can we test it small first?",
+      "Will it look good in the news?",
+      "Will rivals laugh?"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Strengths, size and a way to test cheaply before going all in."
+    },
+    {
+     "type": "mcq",
+     "prompt": "What lesson does BYJU'S teach about big bets?",
+     "options": [
+      "Growing too fast with expensive buys and heavy debt can sink a company",
+      "Ed tech never works",
+      "Never advertise",
+      "Always stay small"
+     ],
+     "answer": 0,
+     "explain": "Fast acquisitions and pushy sales grew revenue on paper but hurt trust and cash. Bets need a solid base."
+    },
+    {
+     "type": "order",
+     "prompt": "Order the steps for making a big bet safely.",
+     "steps": [
+      "State the bet and why we can win",
+      "Test it in one place",
+      "Measure clear success signals",
+      "Scale up or stop"
+     ],
+     "explain": "Bet small, learn, then decide."
+    }
+   ]
+  },
+  {
+   "id": "u10-l4",
+   "title": "Putting it all together",
+   "teach": [
+    "A full product view connects everything: users and their problem, how money is made, the north star and KPI tree, growth loops, and strategy.",
+    "That's exactly what a teardown is. Practise by writing one, then play a product game to check yourself.",
+    "In interviews, keep linking back to the user and the goal. That's what makes answers feel like a PM's."
+   ],
+   "questions": [
+    {
+     "type": "order",
+     "prompt": "Put the parts of a teardown in a logical order.",
+     "steps": [
+      "Users and their problem",
+      "How it makes money",
+      "North star and KPI tree",
+      "Growth and competition",
+      "Ideas to improve it"
+     ],
+     "explain": "From people to money to metrics to strategy to next steps."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each question to the unit that answers it.",
+     "pairs": [
+      {
+       "left": "Who is it for?",
+       "right": "Users and their problems"
+      },
+      {
+       "left": "Is each order profitable?",
+       "right": "How products make money"
+      },
+      {
+       "left": "What do we chase weekly?",
+       "right": "Metrics and the north star"
+      },
+      {
+       "left": "Why is the leader hard to beat?",
+       "right": "Systems thinking and moats"
+      }
+     ],
+     "explain": "Each unit gives you one lens. Together they explain a whole product."
+    },
+    {
+     "type": "mcq",
+     "prompt": "In an interview, what makes an answer sound like a PM's?",
+     "options": [
+      "Using lots of buzzwords",
+      "Linking every idea back to a user need and a clear goal",
+      "Talking fast",
+      "Naming many tools"
+     ],
+     "answer": 1,
+     "explain": "Clear user, clear goal, clear trade-offs. That's product thinking."
+    },
+    {
+     "type": "tf",
+     "prompt": "Writing your own teardowns is a great way to build product sense.",
+     "answer": true,
+     "explain": "Writing forces you to think through each part. Use Prodscope's 'Write your own teardown' to get feedback."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which part is missing from this mini teardown of Rapido?",
+     "lines": [
+      "Users: commuters who want cheap, quick trips",
+      "Money: subscription fee from drivers instead of commission",
+      "North star: completed rides per week",
+      "Users like the colour yellow"
+     ],
+     "wrong": 3,
+     "explain": "The last line isn't insight. A real teardown would add growth, competition or ideas instead."
+    },
+    {
+     "type": "tree",
+     "prompt": "Pick the 3 habits that make you a better PM over time.",
+     "root": "Growing as a PM",
+     "options": [
+      "Tear down products you use",
+      "Talk to real users",
+      "Look at data before deciding",
+      "Memorise every framework name",
+      "Avoid feedback"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Curiosity, user contact and data. Frameworks help only when you use them to think."
+    },
+    {
+     "type": "tf",
+     "prompt": "You've finished all units. Playing product games is a good next step.",
+     "answer": true,
+     "explain": "Each game walks a full product from users to crisis. Try to win all 200."
+    }
+   ]
+  }
+ ]
+}

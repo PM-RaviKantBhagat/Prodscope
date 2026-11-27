@@ -1,0 +1,80 @@
+{
+  "id": "u05",
+  "title": "Product sense",
+  "summary": "Learn to judge what makes a product good, and to design a better one for a clear user.",
+  "icon": "🎨",
+  "lessons": [
+    {
+      "id": "u05-l1",
+      "title": "What makes a product good",
+      "teach": [
+        "A good product solves a real problem for a clear user, simply, and better than what they used before.",
+        "Look for three things: is it useful (solves the job), usable (easy to use), and does it delight (small moments that feel great)?",
+        "Product sense is the habit of noticing why things work or don't, and what you would change."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Match each product to what makes it great.", "pairs": [{ "left": "UPI apps", "right": "Pay anyone in seconds for free" }, { "left": "Google Maps", "right": "Live traffic and arrival time" }, { "left": "WhatsApp", "right": "Simple messaging that works on any phone" }, { "left": "Zepto", "right": "Groceries in about 10 minutes" }], "explain": "Each one does one important job much better than the old way." },
+        { "type": "mcq", "prompt": "Which is an example of 'delight'?", "options": ["A login page", "Swiggy showing the rider's live location and a fun message while you wait", "A terms of service page", "A loading spinner"], "answer": 1, "explain": "Live tracking calms worry, and small touches make waiting feel better. That's delight on top of usefulness." },
+        { "type": "tf", "prompt": "A product with lots of features is always better.", "answer": false, "explain": "More features can make it harder to use. WhatsApp won by staying simple." },
+        { "type": "tree", "prompt": "Pick the 3 things that make a product good.", "root": "Good product", "options": ["Useful: solves a real job", "Usable: easy to understand", "Delightful moments", "Most features of any app", "Biggest ad budget"], "correct": [0, 1, 2], "explain": "Useful, usable, delightful. Features and ads don't make a product good on their own." },
+        { "type": "spot", "prompt": "Which is not a sign of good product sense?", "lines": ["Asking who the user is first", "Noticing where people get stuck", "Copying every feature a rival adds", "Cutting steps that don't help the user"], "wrong": 2, "explain": "Copying everything leads to a messy product. Good PMs choose what fits their users." },
+        { "type": "mcq", "prompt": "Why did Instagram beat many photo apps early on?", "options": ["It had the most editing tools", "Fast, simple filters and sharing that made phone photos look good", "It paid users", "It was only on computers"], "answer": 1, "explain": "One job done beautifully: take a photo, make it look nice, share it. Fast and simple." },
+        { "type": "order", "prompt": "Put these steps to judge any product in order.", "steps": ["Who is it for?", "What job does it do for them?", "How well does it do that job?", "What would you change first?"], "explain": "Start with the user and job, then judge, then improve. This works in any interview." }
+      ]
+    },
+    {
+      "id": "u05-l2",
+      "title": "Favourite product questions",
+      "teach": [
+        "Interviewers often ask: 'What is your favourite product and why?' They want to see how you think, not which app you pick.",
+        "A strong answer names the user, the problem, why this product solves it well, one thing you would improve, and how you'd measure it.",
+        "Avoid only praising design. Talk about the user's problem and the business too."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put a strong 'favourite product' answer in order.", "steps": ["Name the product and its main user", "Describe the problem it solves", "Explain why it solves it so well", "Suggest one improvement", "Say how you'd measure success"], "explain": "User, problem, why it wins, what's next, and how to measure. Clear and complete." },
+        { "type": "mcq", "prompt": "Which line is the weakest part of an answer?", "options": ["It helps commuters know when the bus arrives", "It cut my wait time and stress every day", "I like the blue colour", "I'd add alerts when the bus is 5 minutes away"], "answer": 2, "explain": "Colour is a personal taste. It doesn't show product thinking about users or value." },
+        { "type": "tf", "prompt": "It's good to mention how the product makes money in your answer.", "answer": true, "explain": "It shows you understand the business, not just the screens." },
+        { "type": "spot", "prompt": "Which improvement idea is weakest for Spotify?", "lines": ["Better offline downloads for people with slow internet", "Smarter playlists for workouts", "Make the logo bigger", "Share a song to WhatsApp status with lyrics"], "wrong": 2, "explain": "A bigger logo doesn't solve any user problem." },
+        { "type": "match", "prompt": "Match each product to a sensible success metric for an improvement.", "pairs": [{ "left": "Google Maps bus alerts", "right": "Missed buses per user" }, { "left": "Spotify workout playlists", "right": "Workout sessions with Spotify playing" }, { "left": "Swiggy reorder button", "right": "Repeat orders per week" }], "explain": "Each metric shows whether the improvement actually helped the user." },
+        { "type": "mcq", "prompt": "The interviewer asks 'who else uses it?'. What are they checking?", "options": ["Your memory", "Whether you think beyond yourself to other user groups", "Your phone model", "If you are nervous"], "answer": 1, "explain": "You are not the only user. Good PMs think about other segments with different needs." },
+        { "type": "tf", "prompt": "You should pick an obscure app to impress the interviewer.", "answer": false, "explain": "Pick one you know deeply. Depth beats novelty." }
+      ]
+    },
+    {
+      "id": "u05-l3",
+      "title": "Design a product",
+      "teach": [
+        "Design questions sound like: 'Design an app for elderly people to book doctors.' Don't jump to features.",
+        "Use a simple flow: clarify the goal, pick a user group, list their pains, pick one, brainstorm solutions, choose one, and measure it.",
+        "Picking one user and one pain is what makes your answer sharp."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put the design steps in order.", "steps": ["Clarify the goal", "Pick one user group", "List their main pains", "Choose one pain and brainstorm ideas", "Pick an idea and define how to measure it"], "explain": "Goal, user, pains, ideas, decision and metric. A calm structure stops you from rambling." },
+        { "type": "mcq", "prompt": "For 'design a doctor booking app for elderly people', which pain is most specific?", "options": ["They are old", "Small text and many steps make booking hard alone", "They like doctors", "They use phones"], "answer": 1, "explain": "It is a real, specific barrier you can design for: bigger text, fewer steps, help from family." },
+        { "type": "tree", "prompt": "Pick the 3 good ideas for that pain.", "root": "Easy booking for elderly users", "options": ["Large text and big buttons", "Book by voice or a call back", "Let a family member book for them", "Add a social feed", "Show many ads"], "correct": [0, 1, 2], "explain": "Each idea removes a barrier. A feed or ads add clutter." },
+        { "type": "tf", "prompt": "In a design question, it's fine to ask a clarifying question first.", "answer": true, "explain": "Asking about the goal or market shows you think before building." },
+        { "type": "spot", "prompt": "Which step is a mistake in a design answer?", "lines": ["Asks what success means for the company", "Picks elderly people in cities as the focus", "Lists 20 features without choosing", "Suggests measuring bookings completed without help"], "wrong": 2, "explain": "Listing many features without choosing shows no judgement. Prioritise." },
+        { "type": "match", "prompt": "Match each design step to its question.", "pairs": [{ "left": "Goal", "right": "Why are we building this?" }, { "left": "User", "right": "Who exactly is it for?" }, { "left": "Pain", "right": "What gets in their way?" }, { "left": "Metric", "right": "How will we know it worked?" }], "explain": "Each step answers one clear question." },
+        { "type": "mcq", "prompt": "What is a good success metric for the elderly booking app?", "options": ["App downloads", "Share of bookings finished without calling for help", "Number of colours in the app", "Team size"], "answer": 1, "explain": "It shows the app is truly easy for the chosen user." }
+      ]
+    },
+    {
+      "id": "u05-l4",
+      "title": "Improve an existing product",
+      "teach": [
+        "'How would you improve Instagram?' is the twin of the design question. Start from who uses it and what bothers them.",
+        "Pick one user segment, find their top pain, suggest 2 or 3 ideas, choose one and say why.",
+        "Always check: does the idea help users and the business, and how hard is it to build?"
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "First step to answer 'Improve Uber'?", "options": ["List 10 features", "Choose a user group, like riders at airports or new drivers", "Talk about Uber's history", "Criticise the CEO"], "answer": 1, "explain": "Focus helps. Airport riders and new drivers have very different pains." },
+        { "type": "match", "prompt": "Match the Uber user group to its pain.", "pairs": [{ "left": "Airport riders", "right": "Finding the pickup point" }, { "left": "New drivers", "right": "Not knowing where demand is" }, { "left": "Office commuters", "right": "Surge prices at rush hour" }, { "left": "Parents", "right": "Worry about children's safety" }], "explain": "Each group has its own top problem, so ideas differ." },
+        { "type": "tree", "prompt": "Pick the 3 checks before choosing an idea.", "root": "Choose an improvement", "options": ["How much it helps the user", "How it helps the business", "How hard it is to build", "Whether the CEO will like it", "Whether it's trendy"], "correct": [0, 1, 2], "explain": "User value, business value and effort. That's how PMs prioritise." },
+        { "type": "spot", "prompt": "Which idea doesn't match the chosen pain 'finding the pickup point at airports'?", "lines": ["Photos of the exact pickup spot", "Live AR arrows to the pickup zone", "A loyalty points programme", "Share live location between rider and driver"], "wrong": 2, "explain": "Loyalty points don't help someone lost at an airport." },
+        { "type": "tf", "prompt": "You should name a metric for your chosen improvement.", "answer": true, "explain": "For pickup help, track time from driver arrival to rider pickup, or 'can't find you' calls." },
+        { "type": "order", "prompt": "Order this improve answer.", "steps": ["State the goal for the improvement", "Pick a user group", "Pick their top pain", "Share 2 or 3 ideas", "Choose one with reasons and a metric"], "explain": "Same shape as a design answer, but grounded in the existing product." },
+        { "type": "mcq", "prompt": "Which reason for choosing an idea is strongest?", "options": ["It's cool", "It solves the biggest pain for a large group and is quick to build", "A rival might do it", "It uses AI"], "answer": 1, "explain": "Big impact, many users, low effort. Clear trade-off thinking." }
+      ]
+    }
+  ]
+}

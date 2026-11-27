@@ -1,0 +1,80 @@
+{
+  "id": "u09",
+  "title": "Why did a metric drop?",
+  "summary": "The classic PM interview puzzle. Learn a calm, step by step way to find the cause.",
+  "icon": "🔍",
+  "lessons": [
+    {
+      "id": "u09-l1",
+      "title": "Stay calm and clarify",
+      "teach": [
+        "'Orders dropped 15% last week. Why?' First, don't guess. Clarify the metric and the drop.",
+        "Ask: how is the metric measured? Since when? Is it sudden or slow? Is the drop everywhere or in one place?",
+        "Many drops turn out to be a tracking bug or a normal pattern, like a holiday week."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "What should you ask first when told 'orders dropped 15%'?", "options": ["Who should be fired?", "How is it measured and over what time period?", "What's our logo?", "Should we add a feature?"], "answer": 1, "explain": "You need to know what exactly changed before you look for causes." },
+        { "type": "tf", "prompt": "A sudden overnight drop often points to a bug, a release or an outage.", "answer": true, "explain": "Real user behaviour usually changes slowly. Sharp cliffs often come from something breaking." },
+        { "type": "order", "prompt": "Put the first steps in order.", "steps": ["Confirm the metric definition", "Check if the data or tracking is broken", "Check the timing: sudden or slow", "Compare to last year for seasonal patterns"], "explain": "Make sure the drop is real before hunting for causes." },
+        { "type": "spot", "prompt": "Which clarifying question is least useful?", "lines": ["Is the drop on all platforms or just Android?", "Did we release anything that day?", "What's the CEO's favourite colour?", "Is it all cities or a few?"], "wrong": 2, "explain": "The others narrow down the cause. That one doesn't." },
+        { "type": "match", "prompt": "Match each drop pattern to a likely cause.", "pairs": [{ "left": "Sudden drop on one app version", "right": "A bug in that release" }, { "left": "Drop every year in the same week", "right": "Seasonal pattern like exams or holidays" }, { "left": "Slow drop over months", "right": "Users slowly losing interest or a rival winning" }, { "left": "Drop only in one city", "right": "Local issue like weather or supply" }], "explain": "The shape and spread of the drop are strong clues." },
+        { "type": "mcq", "prompt": "Swiggy orders drop during the IPL final evening. Most likely?", "options": ["App is broken", "People are watching the match, a known pattern", "Rival launched", "Prices doubled"], "answer": 1, "explain": "Big events change behaviour. Compare with past big matches before panicking." },
+        { "type": "tf", "prompt": "You should jump to solutions in the first minute of a metric drop question.", "answer": false, "explain": "Interviewers want structure. Clarify, check data, then break down the problem." }
+      ]
+    },
+    {
+      "id": "u09-l2",
+      "title": "Internal or external?",
+      "teach": [
+        "Sort possible causes into internal (things we did) and external (things in the world).",
+        "Internal: releases, bugs, price changes, marketing stopping, outages. External: competitors, holidays, news, regulations, weather.",
+        "Check internal causes first. They're easier to confirm and fix."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Sort each cause as internal or external.", "pairs": [{ "left": "New app release", "right": "Internal" }, { "left": "A rival's big sale", "right": "External" }, { "left": "Payment partner outage", "right": "Internal" }, { "left": "Heavy rain in Mumbai", "right": "External" }], "explain": "Partner outages count as internal because they're in your system and you can act on them." },
+        { "type": "tree", "prompt": "Pick the 3 internal causes to check first for a drop in signups.", "root": "Signups dropped", "options": ["A change to the signup screen", "OTP messages failing", "Ad campaign paused", "Election news", "A holiday"], "correct": [0, 1, 2], "explain": "Screen changes, broken OTPs and paused ads are things we did or own." },
+        { "type": "tf", "prompt": "A competitor launching a big discount is an external cause.", "answer": true, "explain": "It's outside your control, though you can respond to it." },
+        { "type": "mcq", "prompt": "Why check internal causes first?", "options": ["They're more fun", "They're quicker to confirm and fix", "External causes never happen", "Managers prefer it"], "answer": 1, "explain": "You can check release notes and dashboards in minutes." },
+        { "type": "spot", "prompt": "Which is not an internal cause?", "lines": ["A pricing change", "A broken notification system", "A new government rule on online gaming", "Marketing budget cut"], "wrong": 2, "explain": "A new law comes from outside. Dream11 and others faced this kind of shock." },
+        { "type": "order", "prompt": "Put the investigation in order.", "steps": ["List internal causes", "Check each against release and incident logs", "List external causes", "Check news, rivals and seasonal data"], "explain": "Internal first, then external." },
+        { "type": "tf", "prompt": "One drop can have more than one cause.", "answer": true, "explain": "A bug and a rival sale can hit the same week. Check how much each explains." }
+      ]
+    },
+    {
+      "id": "u09-l3",
+      "title": "Slice the data",
+      "teach": [
+        "Break the drop into slices: platform (Android, iPhone, web), city, user type (new or old), and funnel step.",
+        "If the whole drop is in one slice, you've found where to look.",
+        "Use your KPI tree: which branch moved? Users, frequency, or conversion?"
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Orders fell 10%. On Android they fell 25%, on iPhone 0%. What next?", "options": ["Look at what changed on Android", "Blame iPhone users", "Ignore platform", "Cut prices everywhere"], "answer": 0, "explain": "The drop lives on Android. Check the latest Android release, crashes and payment issues there." },
+        { "type": "tree", "prompt": "Pick the 3 most useful slices for a drop in orders.", "root": "Orders dropped", "options": ["Platform", "New vs returning users", "Funnel step where users quit", "Employee birthdays", "Font size"], "correct": [0, 1, 2], "explain": "These show where and for whom the drop happened." },
+        { "type": "order", "prompt": "Put the funnel slice check in order for a food app.", "steps": ["App opens", "Restaurant views", "Add to cart", "Payment success"], "explain": "Find the step where the share of users moving forward fell." },
+        { "type": "tf", "prompt": "If new users dropped but returning users didn't, look at acquisition and onboarding.", "answer": true, "explain": "Something changed for people arriving, like an ad campaign or signup step." },
+        { "type": "spot", "prompt": "Which conclusion jumps too fast?", "lines": ["The drop is only in Delhi, let's check Delhi supply", "Payment success fell on one bank, let's check that bank", "Orders fell, so users hate our brand now", "Only new users fell, let's check our ads"], "wrong": 2, "explain": "No slice points to brand. The others follow the evidence." },
+        { "type": "match", "prompt": "Match the KPI tree branch that moved to what to check.", "pairs": [{ "left": "Active users fell", "right": "Acquisition and churn" }, { "left": "Orders per user fell", "right": "Habit, offers and app experience" }, { "left": "Order value fell", "right": "Prices, basket size and mix" }], "explain": "The tree tells you which family of causes to explore." },
+        { "type": "mcq", "prompt": "Payment success rate fell from 95% to 80% on one day. Likely cause?", "options": ["Users stopped liking food", "A payment gateway or bank issue", "Seasonal pattern", "New logo"], "answer": 1, "explain": "A sudden fall in one technical step points to a technical cause." }
+      ]
+    },
+    {
+      "id": "u09-l4",
+      "title": "From cause to fix",
+      "teach": [
+        "Once you find a likely cause, confirm it with data. Then fix it fast if it's a bug, or plan a response if it's external.",
+        "Share a clear summary: what dropped, why, how sure you are, and what you're doing.",
+        "In interviews, end with how you'd stop it from happening again, like alerts on key metrics."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put a full metric drop answer in order.", "steps": ["Clarify the metric and the drop", "Check data quality", "Sort internal vs external causes", "Slice the data to locate it", "Confirm the cause and propose a fix"], "explain": "This is the full structure interviewers look for." },
+        { "type": "mcq", "prompt": "You found a bug in the Android release caused the drop. Best next step?", "options": ["Wait for next quarter", "Roll back or hotfix, then check the metric recovers", "Launch a new feature", "Do nothing"], "answer": 1, "explain": "Fix fast, then watch that the number comes back." },
+        { "type": "tf", "prompt": "Adding alerts on key metrics helps catch the next drop sooner.", "answer": true, "explain": "An alert when payment success falls below 90% could save a whole day of lost orders." },
+        { "type": "spot", "prompt": "Which update to leaders is weakest?", "lines": ["Orders fell 12% on Android after release 5.2", "Cause: payment screen crash, confirmed in crash logs", "Fix shipped, orders recovered within 6 hours", "Things are bad but we'll see"], "wrong": 3, "explain": "Vague updates worry people. Give what, why, and what's being done." },
+        { "type": "match", "prompt": "Match each cause to a sensible response.", "pairs": [{ "left": "Bug in a release", "right": "Hotfix or roll back" }, { "left": "Rival's big discount", "right": "Watch, then target at risk users" }, { "left": "Seasonal dip", "right": "Plan for it next year" }, { "left": "New regulation", "right": "Adapt the product to comply" }], "explain": "Different causes need different responses." },
+        { "type": "tf", "prompt": "If a drop is seasonal, you must launch a big fix immediately.", "answer": false, "explain": "Seasonal dips are normal. Plan around them instead of panicking." },
+        { "type": "mcq", "prompt": "How would you say how sure you are about a cause?", "options": ["Always say 100% sure", "Give your confidence and what evidence supports it", "Never say", "Ask someone else"], "answer": 1, "explain": "'80% sure, because the drop matches the release time and crash logs' builds trust." }
+      ]
+    }
+  ]
+}
