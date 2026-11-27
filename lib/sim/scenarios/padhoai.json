@@ -1,0 +1,880 @@
+{
+ "id": "padhoai",
+ "title": "PadhoAI",
+ "icon": "🎓",
+ "tagline": "Board exam prep for small town students",
+ "pitch": "You quit your job to build an exam prep app for Hindi medium Class 10 students in small towns. You have ₹1.5 crore from angel investors and two co-founders. In about two years you must reach 50,000 monthly students, earn as much as you spend each month, and keep parents' trust.",
+ "start": {
+  "month": 0,
+  "cash": 150,
+  "burn": 5,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to help Class 10 students in small towns pass their board exams. Before building, you want to know why so many struggle. You have one month.",
+   "options": [
+    {
+     "label": "Run an Instagram poll for students",
+     "detail": "Fast, free, thousands of replies.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "5,000 replies. Most say they want 'more videos' and 'celebrity teachers'.",
+     "lesson": "Online polls reach the students who are already online and confident. The ones who struggle most are often not there.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Students who joined for 'more videos' watched a few and stopped. Videos were never the real problem."
+      }
+     ]
+    },
+    {
+     "label": "Sit in 5 coaching classes and visit 20 homes in Gorakhpur and Patna",
+     "detail": "Slow, but you see real study habits.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "You find the real pain: students study in Hindi, but most good material is in English, and nobody answers their doubts after 8 PM.",
+     "lesson": "Seeing real users in their real setting shows the problem behind the request. That insight shapes the whole product."
+    },
+    {
+     "label": "Skip research and copy the biggest ed tech app",
+     "detail": "It clearly works for them.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save a month, but you don't know what small town Hindi medium students need.",
+     "lesson": "Copying a leader copies their answers without their reasons. You can't beat them at their own game."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "You can't serve everyone at the start. Which group do you build for first?",
+   "options": [
+    {
+     "label": "Hindi medium Class 10 students in UP and Bihar",
+     "detail": "One exam, one language, a clear deadline.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "A tight group with an urgent goal. Word spreads fast between classmates.",
+     "lesson": "A narrow first user lets you build something they truly love. You can widen later."
+    },
+    {
+     "label": "Every student from Class 6 to 12, all boards",
+     "detail": "A much bigger market.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "You need content for 7 classes and many boards. The team is stretched thin.",
+     "lesson": "Serving everyone at once makes the product average for each group. Costs grow faster than love."
+    },
+    {
+     "label": "JEE engineering aspirants",
+     "detail": "They spend the most on coaching.",
+     "effects": {
+      "growth": 6,
+      "arpu": 2,
+      "retention": -4
+     },
+     "outcome": "Many sign up, but they compare you with the giants every day.",
+     "lesson": "A rich market full of strong rivals is a hard first fight. Having money to spend is not the same as needing you.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "After the JEE mock results, your aspirants moved to the big coaching brands they already trusted."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch something students can use.",
+   "options": [
+    {
+     "label": "Short Hindi lessons plus a daily 10-question quiz, for 3 subjects",
+     "detail": "Works on cheap phones and slow internet.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Small and fast. Students finish a lesson on the bus and come back for the quiz.",
+     "lesson": "An MVP should solve the core problem well for the first users. Small and loved beats big and average."
+    },
+    {
+     "label": "Live classes in every subject with 20 teachers",
+     "detail": "The full coaching experience online.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 2
+     },
+     "outcome": "It looks great, but half the classes have fewer than 10 students and costs are huge.",
+     "lesson": "Building everything before you know what users value burns cash on things nobody uses."
+    },
+    {
+     "label": "An AI chat bot that answers any question",
+     "detail": "Cheap to build with a ready model.",
+     "effects": {
+      "burn": 1,
+      "users": 1500,
+      "retention": -6,
+      "trust": -3
+     },
+     "outcome": "Students love it at first. Then it starts giving confident wrong answers.",
+     "lesson": "New tech is not a product. In exam prep, one wrong answer can cost a student marks, so accuracy matters more than magic.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -6
+       },
+       "note": "A screenshot of your bot giving a wrong Science answer went viral in a teachers' WhatsApp group."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "Set the price",
+   "months": 1,
+   "situation": "Students have little money. Parents decide what to pay for. How will you charge?",
+   "options": [
+    {
+     "label": "Free lessons, ₹149 a month for tests and doubt solving",
+     "detail": "Freemium.",
+     "effects": {
+      "arpu": 14,
+      "growth": -2
+     },
+     "outcome": "Most stay free, but about 1 in 8 parents pay for tests before exams.",
+     "lesson": "Free value brings users in. A clear paid step for the moment that matters most (exams) turns them into revenue."
+    },
+    {
+     "label": "Everything free for the first year",
+     "detail": "Grow first, charge later.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Users pour in. So do your video and server bills.",
+     "lesson": "Free with no plan to charge trains users that your product is worth nothing.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "You started charging to stop the losses. Many students who came for free left the same week."
+      }
+     ]
+    },
+    {
+     "label": "₹499 a year, sold through school teachers",
+     "detail": "Teachers earn a small share.",
+     "effects": {
+      "arpu": 8,
+      "retention": 5,
+      "growth": -1
+     },
+     "outcome": "Fewer sign ups, but students whose teacher recommends you stick around.",
+     "lesson": "A trusted person recommending you is a strong channel, though it grows slower."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "Your first version is ready. How do you get the first big wave of students?",
+   "options": [
+    {
+     "label": "Free chapter videos on YouTube and Telegram study groups",
+     "detail": "Go where students already are.",
+     "effects": {
+      "users": 4000,
+      "cash": -3,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "Your Hindi chapter summaries get shared before the half yearly exams.",
+     "lesson": "Starting where users already gather is cheap and builds trust."
+    },
+    {
+     "label": "₹30 lakh on Instagram and YouTube ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Installs jump. Many open the app once.",
+     "lesson": "Paid users often have low intent. Measure if they stay, not just if they arrive.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -5
+       },
+       "note": "Most students from ads tried one lesson and never came back."
+      }
+     ]
+    },
+    {
+     "label": "Referral: one free month of tests for both friends",
+     "detail": "Students bring classmates.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "Whole classes join together.",
+     "lesson": "Referrals bring users similar to your best users, and they keep bringing more."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First week experience",
+   "months": 1,
+   "situation": "Half of new students never finish their first lesson. What do you fix?",
+   "options": [
+    {
+     "label": "A 3 minute starter quiz that finds each student's weakest chapter",
+     "detail": "Personal from day one.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "Students see 'Start here' on day one. First lesson completion doubles.",
+     "lesson": "Activation is getting users to the first moment of value fast. A personal start makes that moment clear."
+    },
+    {
+     "label": "Push alerts: 'Your rank is falling!' three times a day",
+     "detail": "Fear gets clicks.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "Clicks go up for a week. Parents complain the app stresses their children.",
+     "lesson": "Notifications that scare people may lift clicks but hurt trust, especially with young users."
+    },
+    {
+     "label": "Give coins for every daily login",
+     "detail": "Rewards for showing up.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Logins rise. Many open the app, collect coins and leave.",
+     "lesson": "Rewarding the wrong action builds the wrong habit. Reward learning, not opening."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "Your investors want one number the whole team works on each week.",
+   "options": [
+    {
+     "label": "Students who finish at least 3 lessons and quizzes a week",
+     "detail": "Real learning.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "The team improves lessons, quiz quality and doubt answers. Students get better marks.",
+     "lesson": "A good north star measures the value users get. Grow that and revenue follows."
+    },
+    {
+     "label": "App installs",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, product suffers. Installs go up, learning doesn't.",
+     "lesson": "Vanity metrics feel good but don't show if users get value."
+    },
+    {
+     "label": "Minutes of video watched",
+     "detail": "Shows engagement.",
+     "effects": {
+      "growth": 2,
+      "arpu": -4
+     },
+     "outcome": "The team makes videos longer. Students watch more but learn less, and video costs rise.",
+     "lesson": "A metric can be gamed. More time is not always more value."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 12,000 students and the founders are worn out. Who do you hire?",
+   "options": [
+    {
+     "label": "2 senior teachers who also think like product people",
+     "detail": "They shape lessons and quiz quality.",
+     "effects": {
+      "burn": 5,
+      "morale": 8,
+      "retention": 3,
+      "growth": 2
+     },
+     "outcome": "Lesson quality jumps. The founders finally sleep.",
+     "lesson": "Early hires should be strong in the area that matters most to users."
+    },
+    {
+     "label": "15 tele callers to sell to parents",
+     "detail": "Revenue now.",
+     "effects": {
+      "burn": 7,
+      "arpu": 4,
+      "morale": -4
+     },
+     "outcome": "Sales go up. So do complaints about calls at dinner time.",
+     "lesson": "Pushy sales can grow revenue on paper while it quietly destroys trust.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -10,
+        "retention": -3,
+        "arpu": -4
+       },
+       "note": "Parents posted recordings of your callers promising 'guaranteed 90%'. Refund requests are piling up."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders record every lesson",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the team is exhausted.",
+     "lesson": "Burnout is a real cost, even when it isn't on the spreadsheet.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Tired founders shipped a lesson with wrong formulas just before exams."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹10 crore, promise 8 states and 5 languages in a year",
+     "detail": "Big round, big headlines.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "outcome": "Huge cash. Huge expectations.",
+     "lesson": "A big round comes with promises. Grow before your product is ready and costs explode.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "To keep your promise, you launched in Marathi, Bengali and Tamil before Hindi was profitable. Costs exploded."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from founders of ed tech and coaching businesses",
+     "detail": "Smaller, with useful advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Enough runway, and investors who know how exam prep works.",
+     "lesson": "Smart money brings advice and contacts, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Not raising is a valid choice, but you need a clear path to profit soon."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "Add Class 12 and 4 more subjects",
+     "detail": "More reasons to join.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "Users grow, but so do content costs.",
+     "lesson": "Expanding the catalogue helps growth, but each new subject costs money until it pays for itself."
+    },
+    {
+     "label": "TV ads on Hindi news channels",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A big spike in sign ups. Many are parents who don't know what the app does.",
+     "lesson": "Expensive spikes don't build lasting growth.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most people who installed after the TV ad never opened a lesson."
+      }
+     ]
+    },
+    {
+     "label": "Weekly class challenge: friends take the same test and share score cards",
+     "detail": "A loop students run for you.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "Score cards spread across school WhatsApp groups every Sunday.",
+     "lesson": "A growth loop turns users' own activity into new users. Duolingo leagues and Wordle grids work this way."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more per student",
+   "months": 1,
+   "situation": "You need more money per student. What do you try?",
+   "options": [
+    {
+     "label": "Sell ads to local coaching centres",
+     "detail": "Extra income.",
+     "effects": {
+      "arpu": 9,
+      "trust": -2
+     },
+     "outcome": "Some money comes in. Some parents find the ads confusing.",
+     "lesson": "Ads can work, but they must not hurt the core experience."
+    },
+    {
+     "label": "Raise the price to ₹299 a month",
+     "detail": "Simple.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Revenue jumps, but families in small towns feel priced out.",
+     "lesson": "Price rises need to match the value users see."
+    },
+    {
+     "label": "Printed revision books and sample papers, ordered in the app",
+     "detail": "A product parents already buy.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow start. Then sales pick up before exams.",
+     "lesson": "Selling something users already buy, in a better way, builds margin over time.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Your revision books became a best seller before boards. Margins on them are double."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant enters",
+   "months": 2,
+   "situation": "A famous ed tech company launches a free Hindi Class 10 batch with a celebrity teacher.",
+   "options": [
+    {
+     "label": "Make everything free to match them",
+     "detail": "Don't lose users.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Users stay, but you are burning cash fast.",
+     "lesson": "Price wars favour the player with the most money. That's rarely you.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The giant's free batch ended. Your cash is gone, and deal seekers left for the next free offer."
+      }
+     ]
+    },
+    {
+     "label": "Ignore price. Double down on fast doubt answers in Hindi",
+     "detail": "Your strength.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some students try the free batch. Many find it too crowded to ask doubts.",
+     "lesson": "Compete on your strengths, not on what rivals choose.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "Students came back, saying the free batch never answered their questions."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to selling to schools instead",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "School sales are slow and the team is confused.",
+     "lesson": "Pivots can save a company, but running from competition loses what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "One of your teachers posted 'these questions WILL come in boards'. They didn't. Angry parents are trending.",
+   "options": [
+    {
+     "label": "Apologise, refund that month to everyone, publish a content check rule",
+     "detail": "Own it.",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but parents respect the honesty.",
+     "lesson": "Handling a crisis openly can build more trust than you had before."
+    },
+    {
+     "label": "Send legal notices to the parents posting about it",
+     "detail": "Protect the brand.",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "This becomes the bigger story.",
+     "lesson": "Fighting customers in public makes a crisis much worse."
+    },
+    {
+     "label": "Blame the teacher in a public post",
+     "detail": "It was their mistake.",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "Users see it as dodging. Your other teachers are upset.",
+     "lesson": "Users hold you responsible for your whole product, including the people you hire."
+    }
+   ]
+  },
+  {
+   "id": "teachers",
+   "phase": "Partners",
+   "title": "Teachers want a better deal",
+   "months": 1,
+   "situation": "Your freelance teachers say pay per video is too low. Some are talking to rivals.",
+   "options": [
+    {
+     "label": "Raise pay and show each teacher's name and rating",
+     "detail": "Treat them as partners.",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Costs rise, but lessons get better and teachers promote you to their own followers.",
+     "lesson": "In a marketplace, both sides need a good deal."
+    },
+    {
+     "label": "Replace them with AI generated videos",
+     "detail": "Cheaper.",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "Lessons feel robotic. Students notice.",
+     "lesson": "Cutting the people users love to save money often costs more."
+    },
+    {
+     "label": "Give teachers a share of test revenue from their students",
+     "detail": "Pay for results.",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Top teachers earn more. Some new ones struggle at first.",
+     "lesson": "Aligning partner pay with outcomes can work, if it's fair."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "Stop the 3 least used subjects and the live studio",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some students leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Launch in Tamil and Bengali now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Raise prices 5% on everything",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "Revenue goes up a bit. Some families leave.",
+     "lesson": "Small price changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "results",
+   "phase": "Surprise",
+   "title": "Board results day",
+   "months": 0,
+   "situation": "Results are out. Students who used you scored well, and local news wants a story.",
+   "options": [
+    {
+     "label": "Share real student stories, with their permission",
+     "effects": {
+      "trust": 6,
+      "users": 3000
+     },
+     "outcome": "Parents trust real stories from their own towns.",
+     "lesson": "Proof from real users is the strongest marketing."
+    },
+    {
+     "label": "Run ads saying '100% students passed'",
+     "effects": {
+      "users": 4000,
+      "trust": -8
+     },
+     "outcome": "A journalist checks and finds it isn't true.",
+     "lesson": "Claims you can't prove damage trust fast."
+    }
+   ]
+  },
+  {
+   "id": "crash",
+   "phase": "Surprise",
+   "title": "Servers crash in exam week",
+   "months": 0,
+   "situation": "The night before the Science exam, your app goes down for 3 hours.",
+   "options": [
+    {
+     "label": "Post free PDFs on Telegram right away and say sorry",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Students still get the notes and thank you.",
+     "lesson": "In a crisis, give users another way to get what they need."
+    },
+    {
+     "label": "Stay quiet and fix it",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Students panic and ask in every group what's going on.",
+     "lesson": "Silence in a crisis feels like not caring."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your best teacher",
+   "months": 0,
+   "situation": "Your most popular Maths teacher has an offer at double the pay.",
+   "options": [
+    {
+     "label": "Counter-offer with equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay, and other teachers see you value them.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote a new teacher",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "Some students follow the old teacher.",
+     "lesson": "Losing key people has a cost. Plan for it."
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "phase": "Surprise",
+   "title": "New rules for ed tech sales",
+   "months": 0,
+   "situation": "The government publishes new rules: no pressure selling to parents and easy refunds.",
+   "options": [
+    {
+     "label": "Follow them right away and say so publicly",
+     "effects": {
+      "trust": 6,
+      "arpu": -2
+     },
+     "outcome": "Some sales drop, but parents feel safe.",
+     "lesson": "Following rules early builds trust and avoids bigger trouble."
+    },
+    {
+     "label": "Wait and see if anyone enforces them",
+     "effects": {
+      "trust": -8,
+      "cash": -5
+     },
+     "outcome": "A complaint becomes a fine and a news story.",
+     "lesson": "Rules for user safety are a floor, not an option."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000
+}

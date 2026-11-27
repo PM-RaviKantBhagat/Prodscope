@@ -1,0 +1,859 @@
+{
+ "id": "quickbasket",
+ "title": "QuickBasket",
+ "icon": "🛒",
+ "tagline": "10-minute groceries in Pune",
+ "pitch": "You and a friend left your jobs to start a 10-minute grocery delivery app in Pune. You have ₹2 crore from angel investors, a small team and a big rival that could arrive any day. In about two years you must reach 50,000 monthly users, earn as much as you spend each month, and keep people's trust.",
+ "start": {
+  "month": 0,
+  "cash": 200,
+  "burn": 6,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ },
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "Before building anything, you want to understand how people in Pune buy groceries today. You have one month.",
+   "options": [
+    {
+     "label": "Run an online survey of 2,000 people",
+     "detail": "Fast and cheap. Lots of data.",
+     "effects": {
+      "cash": -1
+     },
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Your survey said people wanted 'more choice'. In practice they wanted reliability. Users who joined for choice are leaving."
+      }
+     ],
+     "outcome": "2,000 replies in a week. Most people say they want more choice and lower prices.",
+     "lesson": "What people say in surveys and what they do are often different. Surveys are good for 'how many', not 'why'."
+    },
+    {
+     "label": "Shadow 30 families and 10 kirana shops for 3 weeks",
+     "detail": "Slow, but you see real behaviour.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "You learn the real pain: people run out of 2 or 3 items in the evening and the kirana is closed or out of stock.",
+     "lesson": "Watching real people shows the problem behind the request. That insight shapes everything you build next."
+    },
+    {
+     "label": "Skip research and copy what Blinkit does",
+     "detail": "It already works in other cities.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save a month. But you don't know what Pune users specifically need.",
+     "lesson": "Copying a leader copies their answers without their reasons. You'll struggle to be better than them."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Discover",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "You can only serve one group well at first. Who do you build for?",
+   "options": [
+    {
+     "label": "Young professionals in Baner and Hinjewadi flats",
+     "detail": "Dense area, busy people, order often.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "Many orders from a small area. Riders make short trips.",
+     "lesson": "Dense, frequent users make a delivery business work. Start where orders are close together."
+    },
+    {
+     "label": "Families across all of Pune",
+     "detail": "Bigger baskets, but spread out.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "Bigger orders, but riders travel far and costs climb.",
+     "lesson": "A big market that is spread out is expensive to serve. Density beats size early on."
+    },
+    {
+     "label": "College students in hostels",
+     "detail": "Love new apps, tell friends.",
+     "effects": {
+      "growth": 6,
+      "arpu": -6,
+      "retention": -4
+     },
+     "outcome": "Lots of sign ups, small orders, many coupon hunters.",
+     "lesson": "Fast adopters aren't always good customers. Check basket size and repeat rate, not just sign ups.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "Exams and summer break: students went home and many never came back."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Decide what to build first",
+   "months": 2,
+   "situation": "Time to build the first version. What goes in it?",
+   "options": [
+    {
+     "label": "One dark store, 600 top items, simple app",
+     "detail": "Small and reliable.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Few items, but almost everything is in stock and arrives in 12 minutes.",
+     "lesson": "An MVP should do the core job very well. Reliability on a few items beats choice that often fails."
+    },
+    {
+     "label": "Three dark stores, 5,000 items, full app",
+     "detail": "Look like a big player from day one.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 2
+     },
+     "outcome": "Impressive launch, but stock runs out often and costs are high.",
+     "lesson": "Building too much before learning burns cash and spreads the team thin."
+    },
+    {
+     "label": "No stores: partner with 20 kirana shops",
+     "detail": "Cheap and fast to start.",
+     "effects": {
+      "burn": 1,
+      "users": 1500,
+      "retention": -6,
+      "trust": 5
+     },
+     "outcome": "Cheap to run, but delivery takes 30 to 40 minutes and items are often missing.",
+     "lesson": "Not owning the core of your promise (speed and stock) makes it hard to keep it."
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Build",
+   "title": "Set your prices",
+   "months": 1,
+   "situation": "How will you price products and delivery?",
+   "options": [
+    {
+     "label": "MRP prices with a ₹25 fee under ₹199",
+     "detail": "Honest and simple.",
+     "effects": {
+      "arpu": 14,
+      "growth": -2
+     },
+     "outcome": "Some people grumble about the fee, but each order makes a little money.",
+     "lesson": "A small, clear fee teaches users that speed has a price, and protects your margin."
+    },
+    {
+     "label": "20% off everything to win users",
+     "detail": "Grow fast now, fix money later.",
+     "effects": {
+      "growth": 10,
+      "arpu": -22
+     },
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 12,
+        "growth": -10
+       },
+       "note": "You cut the 20% discount to stop the losses. Many deal hunters left with it."
+      }
+     ],
+     "outcome": "Orders pour in. Every order loses money.",
+     "lesson": "Discounts buy users who love discounts. When the discount goes, so do they."
+    },
+    {
+     "label": "Free delivery with a ₹99 monthly pass",
+     "detail": "Reward loyal users.",
+     "effects": {
+      "arpu": 8,
+      "retention": 5,
+      "growth": -1
+     },
+     "outcome": "Pass holders order twice as often as others.",
+     "lesson": "Memberships turn occasional users into regulars, because people want to get value from what they paid."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Launch",
+   "title": "Launch to the public",
+   "months": 1,
+   "situation": "You're ready to launch. How do you find your first big wave of users?",
+   "options": [
+    {
+     "label": "Society WhatsApp groups and RWA tie-ups",
+     "detail": "Slow, local, trusted.",
+     "effects": {
+      "users": 4000,
+      "cash": -3,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "Word spreads society by society. Neighbours recommend you.",
+     "lesson": "Trusted local channels bring users who stay, and they are cheap."
+    },
+    {
+     "label": "₹30 lakh on Instagram ads and influencers",
+     "detail": "Big splash fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -5
+       },
+       "note": "Many users who came from ads tried you once and never came back."
+      }
+     ],
+     "outcome": "Downloads spike. Many people order once out of curiosity.",
+     "lesson": "Paid reach brings tourists. Check how many come back before you spend more."
+    },
+    {
+     "label": "Referral offer: ₹100 for both friends",
+     "detail": "Users bring users.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "Happy users invite friends. Some people farm the reward with fake accounts.",
+     "lesson": "Referrals work when users already love you. Pay the reward after the friend's first real order to stop fraud."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Launch",
+   "title": "Fix the second order",
+   "months": 1,
+   "situation": "45% of new users never place a second order. What do you fix?",
+   "options": [
+    {
+     "label": "Fix out-of-stock items and wrong substitutions",
+     "detail": "Make the first order perfect.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "Complaints fall. More people come back within a week.",
+     "lesson": "The first order is a promise. If it fails, no notification will bring the user back."
+    },
+    {
+     "label": "Send 3 push notifications a day",
+     "detail": "Remind people you exist.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "Some come back. Many mute or uninstall the app.",
+     "lesson": "Spam is not retention. Notifications work only when they're timely and useful."
+    },
+    {
+     "label": "₹75 off the second order",
+     "detail": "A nudge to try again.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Second orders rise, but many stop after the coupon.",
+     "lesson": "Coupons can start a habit, but they can't fix a bad experience."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Grow",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "The team is growing and pulling in different directions. Which single number will everyone chase?",
+   "options": [
+    {
+     "label": "Weekly orders delivered on time and complete",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "Ops, product and growth teams finally pull in the same direction.",
+     "lesson": "A good north star counts the moment users get value. It lines up every team."
+    },
+    {
+     "label": "App downloads",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing celebrates. Ops is ignored. Quality slips.",
+     "lesson": "Vanity metrics go up while the business gets worse."
+    },
+    {
+     "label": "Total order value (GMV)",
+     "effects": {
+      "growth": 2,
+      "arpu": -4
+     },
+     "outcome": "The team pushes big baskets with discounts. Value goes up, margin goes down.",
+     "lesson": "GMV can be bought. A north star should be hard to fake."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Grow",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "Founders are exhausted. You can afford one hiring plan.",
+   "options": [
+    {
+     "label": "Hire 2 experienced ops leaders",
+     "detail": "Expensive, but they've done this before.",
+     "effects": {
+      "burn": 5,
+      "morale": 8,
+      "retention": 3,
+      "growth": 2
+     },
+     "outcome": "Stores run smoother. Founders can think about strategy again.",
+     "lesson": "In an operations business, great ops leaders are worth their salary."
+    },
+    {
+     "label": "Hire 10 junior developers",
+     "detail": "Ship features faster.",
+     "effects": {
+      "burn": 9,
+      "morale": -6,
+      "growth": 1
+     },
+     "outcome": "Lots of features ship. Stores are still chaotic.",
+     "lesson": "More features don't fix an operations problem. Hire for your real bottleneck.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "retention": -2
+       },
+       "note": "Features shipped fast without senior review. Bugs in checkout are pushing users away."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders do everything",
+     "detail": "Save cash.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money. Founders sleep 4 hours a night and start making mistakes.",
+     "lesson": "Burnout is a real cost, even if it doesn't show in the bank balance.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Exhausted founders made costly mistakes: a wrong stock order and a missed payroll."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Grow",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. Which deal do you take?",
+   "options": [
+    {
+     "label": "₹10 crore, promise 5 new cities in a year",
+     "detail": "Big money, big promises.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "To keep your promise, you opened stores in new cities before Pune was profitable. Costs exploded."
+      }
+     ],
+     "outcome": "The bank account looks amazing. The board expects fast expansion.",
+     "lesson": "Money comes with expectations. Big promises can force you to grow before you're ready."
+    },
+    {
+     "label": "₹3 crore from operator angels",
+     "detail": "Less money, good advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Your new investors ran delivery businesses before. Their advice saves you mistakes.",
+     "lesson": "The right investors bring more than money. Raise what you need to hit the next milestone."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "No dilution, but you can't move fast if a rival arrives.",
+     "lesson": "Bootstrapping keeps control but limits speed. In a race, cash is fuel."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Grow",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "Pune is working. Where do you put the next big effort?",
+   "options": [
+    {
+     "label": "Open 4 more dark stores in dense areas",
+     "detail": "Reach more homes in 10 minutes.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "More homes can order. Each store takes 3 months to fill up.",
+     "lesson": "Supply unlocks demand in delivery. But each store has to earn back its cost."
+    },
+    {
+     "label": "TV ads during the IPL",
+     "detail": "Everyone will know your name.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "IPL viewers outside your delivery areas installed the app, found nothing, and left angry."
+      }
+     ],
+     "outcome": "Huge awareness. Many viewers live where you don't deliver.",
+     "lesson": "Don't advertise beyond where you can deliver. Awareness without availability creates angry users."
+    },
+    {
+     "label": "Add a café: hot coffee and snacks in 10 minutes",
+     "detail": "A daily habit, not just a weekly one.",
+     "effects": {
+      "burn": 4,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "People who order coffee every morning also buy groceries more often.",
+     "lesson": "A daily-use feature builds habit and lifts everything else."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Monetise",
+   "title": "Earn more per order",
+   "months": 1,
+   "situation": "You still lose a little on many orders. How do you earn more?",
+   "options": [
+    {
+     "label": "Sell ad spots to FMCG brands",
+     "detail": "Brands pay to be seen.",
+     "effects": {
+      "arpu": 9,
+      "trust": -2
+     },
+     "outcome": "Brands pay well. Users barely notice a few sponsored items.",
+     "lesson": "Ads on a shopping app can be almost pure profit, if they stay relevant."
+    },
+    {
+     "label": "Raise the delivery fee to ₹39",
+     "detail": "Simple and immediate.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Money per order rises. Social media fills with angry posts.",
+     "lesson": "Raising prices works only if users value you enough. Watch cancellations closely."
+    },
+    {
+     "label": "Launch your own brand of staples",
+     "detail": "Atta, rice and dal with better margins.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Your own-brand staples took off. Margins on them are double."
+      }
+     ],
+     "outcome": "Slow start. Users need time to trust a new brand.",
+     "lesson": "Private labels take time but build lasting margin."
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Compete",
+   "title": "A giant arrives",
+   "months": 2,
+   "situation": "A national quick commerce giant launches in Pune with 50% off for three months.",
+   "options": [
+    {
+     "label": "Match their discounts",
+     "detail": "Don't lose a single user.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The price war ended. Your discounts stopped, the cash is gone, and deal hunters left for whoever is cheapest next."
+      }
+     ],
+     "outcome": "You keep users but burn cash fast.",
+     "lesson": "A price war against a richer rival is a war of bank balances. You'll usually lose."
+    },
+    {
+     "label": "Ignore price. Double down on reliability and your pass.",
+     "detail": "Compete on what you do best.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "The giant's discounts ended. Users who wanted reliability came back to you."
+      }
+     ],
+     "outcome": "You lose some deal hunters for a while.",
+     "lesson": "Compete where you're strong. Loyal users come back when the free money stops."
+    },
+    {
+     "label": "Pivot to supplying kirana shops (B2B)",
+     "detail": "Avoid the fight completely.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "Steadier money, but your consumer app shrinks.",
+     "lesson": "Pivots can save a company, but they throw away what you built. Make sure the old plan is truly dead."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Crisis",
+   "title": "A video goes viral",
+   "months": 1,
+   "situation": "A customer posts a video of expired milk from your store. It has 2 million views.",
+   "options": [
+    {
+     "label": "Apologise publicly, refund everyone, add daily freshness checks",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "People respect the honesty. The story fades in a week.",
+     "lesson": "Own mistakes fast and fix the system behind them. Trust can even grow after a crisis handled well."
+    },
+    {
+     "label": "Send a legal notice to take the video down",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "The legal notice itself goes viral. Now it's a bigger story.",
+     "lesson": "Trying to hide a problem usually makes it bigger."
+    },
+    {
+     "label": "Blame the supplier in a public statement",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "Users don't care whose fault it was. They bought it from you.",
+     "lesson": "Users hold the brand responsible, not your suppliers."
+    }
+   ]
+  },
+  {
+   "id": "riders",
+   "phase": "Crisis",
+   "title": "Riders go on strike",
+   "months": 1,
+   "situation": "Delivery riders strike over falling pay. Orders are stuck.",
+   "options": [
+    {
+     "label": "Raise pay per order and add accident insurance",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Riders return. Costs per order rise a little.",
+     "lesson": "Your supply side are people too. Fair pay is part of a healthy marketplace."
+    },
+    {
+     "label": "Replace them with riders from an agency",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "New riders don't know the area. Deliveries are late for weeks.",
+     "lesson": "Cheap replacements can cost more than they save."
+    },
+    {
+     "label": "Batch 2 orders per trip and share the savings with riders",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Riders earn more per trip. Some deliveries take 15 minutes instead of 10.",
+     "lesson": "Look for solutions where both sides win, then be honest about the trade-off."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Scale",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "The board wants a clear path to earning more than you spend. What's your final big move?",
+   "options": [
+    {
+     "label": "Close the weakest 30% of stores",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Costs fall sharply. Some users lose 10-minute delivery.",
+     "lesson": "Cutting what doesn't work is as important as adding what does."
+    },
+    {
+     "label": "Expand to Mumbai now",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Users jump, but so do costs, in a new city you don't know yet.",
+     "lesson": "Expanding before the core city is profitable multiplies losses."
+    },
+    {
+     "label": "Raise prices 5% on everything",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "Margins improve. Some users notice and complain.",
+     "lesson": "Small price changes add up, but they spend some of your users' goodwill."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "flood",
+   "phase": "Surprise",
+   "title": "Monsoon floods",
+   "months": 0,
+   "situation": "Heavy rain floods half the city for three days. Orders triple but roads are dangerous.",
+   "options": [
+    {
+     "label": "Pause deliveries in flooded areas, tell users why",
+     "effects": {
+      "trust": 6,
+      "users": -1000
+     },
+     "outcome": "Users understand. Riders are safe.",
+     "lesson": "Safety first. Clear communication keeps trust when you can't deliver."
+    },
+    {
+     "label": "Add a ₹50 rain fee and keep going",
+     "effects": {
+      "arpu": 2,
+      "trust": -6,
+      "morale": -6
+     },
+     "outcome": "Revenue jumps. Two riders are hurt.",
+     "lesson": "Short-term money at the cost of people's safety damages your brand and team."
+    }
+   ]
+  },
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "Payments go down",
+   "months": 0,
+   "situation": "Your payment partner has an outage on a Saturday evening, your busiest time.",
+   "options": [
+    {
+     "label": "Switch on cash on delivery right away",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Orders keep flowing. Some cash goes missing.",
+     "lesson": "Have a backup for every critical part of the journey."
+    },
+    {
+     "label": "Wait for the partner to fix it",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Three hours of failed orders. Users try another app.",
+     "lesson": "Users don't care whose system failed. They only see your app failing."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your ops head",
+   "months": 0,
+   "situation": "A big rival offers your head of operations double the salary.",
+   "options": [
+    {
+     "label": "Counter-offer with more equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay. Others notice you fight for your people.",
+     "lesson": "Keeping a key person is usually cheaper than replacing them."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "The new lead is eager but learning on the job.",
+     "lesson": "Promoting from within builds loyalty, but plan for a dip while they learn."
+    }
+   ]
+  },
+  {
+   "id": "festival",
+   "phase": "Surprise",
+   "title": "Diwali rush",
+   "months": 0,
+   "situation": "Diwali week is coming. Orders could double.",
+   "options": [
+    {
+     "label": "Stock up early and add temporary staff",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "A record week, with few stock-outs.",
+     "lesson": "Plan for peaks. Your best week can win users for the whole year."
+    },
+    {
+     "label": "Run as normal",
+     "effects": {
+      "retention": -2,
+      "trust": -3
+     },
+     "outcome": "Shelves empty by Tuesday. Users go elsewhere.",
+     "lesson": "Being unprepared at peak moments sends users to rivals."
+    }
+   ]
+  }
+ ],
+ "market": 300000
+}

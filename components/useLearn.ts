@@ -45,8 +45,10 @@ export function streakOf(s: LearnState): number {
 export type Badge = { id: string; icon: string; name: string; how: string; got: boolean };
 
 export function badgesOf(s: LearnState, sections: Record<string, string[]> = {}): Badge[] {
-  const wins = Object.values(s.games).filter((v) => v > 0).length;
-  const flawless = Object.values(s.games).filter((v) => v === 3).length;
+  const product = Object.entries(s.games).filter(([k]) => !k.startsWith("build:")).map(([, v]) => v);
+  const built = Object.entries(s.games).filter(([k, v]) => k.startsWith("build:") && v === 3).length;
+  const wins = product.filter((v) => v > 0).length;
+  const flawless = product.filter((v) => v === 3).length;
   const streak = streakOf(s);
   const best = Math.max(0, ...Object.keys(s.days).map((d) => s.days[d]));
   const fullCat = Object.values(sections).some((slugs) => slugs.length > 0 && slugs.every((x) => (s.games[x] ?? 0) > 0));
@@ -59,6 +61,7 @@ export function badgesOf(s: LearnState, sections: Record<string, string[]> = {})
     { id: "streak3", icon: "🔥", name: "On fire", how: "Play 3 days in a row", got: streak >= 3 },
     { id: "streak7", icon: "⚡", name: "Week warrior", how: "Play 7 days in a row", got: streak >= 7 },
     { id: "goal", icon: "🎯", name: "Overachiever", how: `Earn ${DAILY_GOAL * 3} XP in one day`, got: best >= DAILY_GOAL * 3 },
+    { id: "founder", icon: "🏗️", name: "Founder", how: "Win a Build a product story", got: built >= 1 },
     { id: "category", icon: "🏆", name: "Category master", how: "Win every game in one category", got: fullCat },
   ];
 }

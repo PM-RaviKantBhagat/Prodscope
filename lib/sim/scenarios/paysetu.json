@@ -1,0 +1,896 @@
+{
+ "id": "paysetu",
+ "title": "PaySetu",
+ "icon": "💸",
+ "tagline": "UPI payments for first time users in Rajasthan",
+ "pitch": "You are building a UPI payments app for people in Rajasthan's villages and small towns who are new to smartphones. You have ₹2 crore from angel investors and a partner bank. In about two years you must reach 50,000 monthly users, earn as much as you spend each month, and keep users' and the bank's trust.",
+ "start": {
+  "month": 0,
+  "cash": 200,
+  "burn": 6,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to bring UPI payments to people in Rajasthan's villages and small towns who are new to smartphones. You have one month to learn why they don't use UPI yet.",
+   "options": [
+    {
+     "label": "Send a Google Form survey through WhatsApp",
+     "detail": "Quick, and you get numbers.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "1,200 replies, mostly from younger people who already use UPI. They ask for 'more cashback'.",
+     "lesson": "A survey only reaches people already comfortable online. Your real users can't fill a form in English.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Users who joined for cashback stopped using you once it ended. Cashback was never their real need."
+      }
+     ]
+    },
+    {
+     "label": "Spend 3 weeks at kirana shops, bank branches and homes in 6 villages",
+     "detail": "Slow, but you see real fears.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "The real pain: people fear sending money to the wrong person, can't read English screens, and nobody nearby can help them.",
+     "lesson": "Watching real users shows the fear behind the behaviour. Trust, not features, is the problem to solve."
+    },
+    {
+     "label": "Copy the biggest UPI app, but in Hindi",
+     "detail": "Translation is enough.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save time. But a Hindi screen doesn't fix the fear of losing money.",
+     "lesson": "Translating a product is not localising it. New users need a different experience, not just new words."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "Who do you build for first?",
+   "options": [
+    {
+     "label": "First time smartphone users in Rajasthan villages",
+     "detail": "Hindi, voice, family payments.",
+     "effects": {
+      "growth": 6,
+      "arpu": 3
+     },
+     "outcome": "Hard to reach, but nobody else is serving them well. Families tell families.",
+     "lesson": "An underserved group with a clear need gives you an edge the giants don't have."
+    },
+    {
+     "label": "Young office workers in Jaipur",
+     "detail": "They already pay online.",
+     "effects": {
+      "growth": 6,
+      "arpu": -2,
+      "retention": -4
+     },
+     "outcome": "Easy sign ups. But they already have three UPI apps.",
+     "lesson": "Users who are already happy with rivals switch only for discounts, and leave when the discounts end.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "A rival's new cashback offer pulled most of your Jaipur office users away in one week."
+      }
+     ]
+    },
+    {
+     "label": "Everyone in India",
+     "detail": "The biggest market there is.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "You spread marketing across the country and nobody notices you.",
+     "lesson": "Trying to serve everyone first makes it hard to be special for anyone."
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch.",
+   "options": [
+    {
+     "label": "Voice guided send and receive in Hindi, with a 'check name before paying' step",
+     "detail": "Small, safe and simple.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Users hear 'You are paying ₹200 to Ramesh Kumar'. Fear of mistakes drops.",
+     "lesson": "An MVP should remove the biggest barrier for the first users. Here, that barrier is fear."
+    },
+    {
+     "label": "A super app: payments, loans, insurance and gold",
+     "detail": "Everything in one place.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 1
+     },
+     "outcome": "It's huge and confusing. New users get lost on the home screen.",
+     "lesson": "More features make a product harder for new users, not easier."
+    },
+    {
+     "label": "Skip ID checks so sign up takes 10 seconds",
+     "detail": "Fastest sign up in India.",
+     "effects": {
+      "burn": 1,
+      "users": 2500,
+      "retention": -1
+     },
+     "outcome": "Sign ups fly. So do fake accounts.",
+     "lesson": "In payments, cutting safety checks to grow faster invites fraud and the regulator.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -14,
+        "burn": 3
+       },
+       "note": "Fraudsters used fake accounts on your app. Your partner bank froze new sign ups and demanded an audit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "How will you make money?",
+   "months": 1,
+   "situation": "UPI payments themselves earn almost nothing. Where does your money come from?",
+   "options": [
+    {
+     "label": "Free payments, small fees from bill payments and recharges",
+     "detail": "Earn on what people already pay for.",
+     "effects": {
+      "arpu": 12,
+      "growth": -1
+     },
+     "outcome": "Electricity bills and phone recharges bring a small but steady income.",
+     "lesson": "Free core use plus small fees on useful extras is how many payments apps earn."
+    },
+    {
+     "label": "₹50 cashback on every user's first 5 payments",
+     "detail": "Grow fast.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Users pour in. Many make 5 tiny payments to each other and leave.",
+     "lesson": "Cashback attracts people who love cashback, not people who need your product.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "You ended the cashback to stop the losses. Most cashback users disappeared with it."
+      }
+     ]
+    },
+    {
+     "label": "Charge ₹1 on every payment",
+     "detail": "Simple and honest.",
+     "effects": {
+      "arpu": 14,
+      "growth": -8,
+      "trust": -6
+     },
+     "outcome": "Users ask why they should pay when every other UPI app is free.",
+     "lesson": "Charging for something the market gives free kills growth. Know what users already expect."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "How do you get your first big wave of users?",
+   "options": [
+    {
+     "label": "Train 'PaySetu Didis': local women who teach neighbours for a small fee",
+     "detail": "People trust people they know.",
+     "effects": {
+      "users": 4000,
+      "cash": -6,
+      "trust": 8,
+      "growth": 4
+     },
+     "outcome": "Didis show families how to pay safely. Whole villages join after one visit.",
+     "lesson": "For new and fearful users, a trusted helper is the best channel."
+    },
+    {
+     "label": "₹30 lakh on Facebook and YouTube ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Lots of installs. Many people get stuck at the bank linking step.",
+     "lesson": "Paid installs from people who can't finish setup are wasted money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most users from ads never linked a bank account and deleted the app."
+      }
+     ]
+    },
+    {
+     "label": "Referral: ₹51 for both when a friend pays for the first time",
+     "detail": "Users bring users.",
+     "effects": {
+      "users": 6000,
+      "cash": -10,
+      "growth": 4,
+      "arpu": -2
+     },
+     "outcome": "Some users bring their families. Some create fake friends for the bonus.",
+     "lesson": "Referrals work, but in payments you must guard against people gaming the reward."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First week experience",
+   "months": 1,
+   "situation": "Many new users link a bank account but never make a payment. What do you fix?",
+   "options": [
+    {
+     "label": "A guided ₹1 first payment to a family member, with a voice 'Done!'",
+     "detail": "Practise without fear.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "Users try it safely, then pay the milkman the next day.",
+     "lesson": "Getting users to their first success, in a safe way, builds the habit."
+    },
+    {
+     "label": "Show a 'pre-approved loan' pop up on day one",
+     "detail": "Money fast.",
+     "effects": {
+      "arpu": 4,
+      "trust": -8,
+      "retention": -3
+     },
+     "outcome": "Some take it. Many think it's a scam and delete the app.",
+     "lesson": "Pushing loans to brand new users feels like a trap. Earn trust before you sell."
+    },
+    {
+     "label": "Daily scratch cards for opening the app",
+     "detail": "Fun rewards.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Opens rise. Payments don't.",
+     "lesson": "Reward the action you want (paying), not just opening the app."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "Your team needs one number to chase every week.",
+   "options": [
+    {
+     "label": "Users who make 3 or more successful payments a month",
+     "detail": "Real habit.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "The team fixes failed payments and confusing screens. Habits grow.",
+     "lesson": "A good north star tracks real value: people relying on you to pay."
+    },
+    {
+     "label": "Total money moved through the app",
+     "detail": "Investors love this number.",
+     "effects": {
+      "growth": 2,
+      "arpu": -4
+     },
+     "outcome": "The team chases a few big payers with offers. Normal users get ignored.",
+     "lesson": "A total value number can grow from a handful of users. It hides whether most users get value."
+    },
+    {
+     "label": "App downloads",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, the product suffers.",
+     "lesson": "Downloads say nothing about whether anyone uses you."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 15,000 users and a small team. Who do you hire?",
+   "options": [
+    {
+     "label": "A fraud and risk lead plus a compliance expert",
+     "detail": "Payments live and die by safety.",
+     "effects": {
+      "burn": 5,
+      "trust": 6,
+      "morale": 4,
+      "retention": 2
+     },
+     "outcome": "Fraud drops and your partner bank trusts you more.",
+     "lesson": "In fintech, risk and compliance are part of the product, not paperwork."
+    },
+    {
+     "label": "10 junior developers to ship features fast",
+     "detail": "Speed.",
+     "effects": {
+      "burn": 9,
+      "morale": -6,
+      "growth": 1
+     },
+     "outcome": "Features ship fast without senior review.",
+     "lesson": "More people is not more speed if nobody can review their work.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "retention": -2,
+        "trust": -4
+       },
+       "note": "A bug charged some users twice. Support is flooded."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders handle support too",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the team is exhausted.",
+     "lesson": "Burnout is a real cost.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Support calls went unanswered for days. Users who lost money got no help."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹12 crore, promise small loans to 10 lakh users in a year",
+     "detail": "Lending is where the money is.",
+     "effects": {
+      "cash": 1200,
+      "morale": 5
+     },
+     "outcome": "Huge cash and huge pressure to lend fast.",
+     "lesson": "Promising lending growth before you know your users' ability to repay is a classic fintech trap.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 35,
+        "trust": -12,
+        "arpu": -4
+       },
+       "note": "You rushed loans to users with no history. Many couldn't repay, and collection calls angered whole villages."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from fintech founders as angels",
+     "detail": "Smaller, with advice on banks and rules.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "trust": 2
+     },
+     "outcome": "Enough runway, and investors who know how bank partnerships work.",
+     "lesson": "Smart money brings advice, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Not raising is valid, but payments need scale, so be sure you can get there."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "Free QR stickers and payment sound alerts for village shops",
+     "detail": "Every shop becomes a billboard.",
+     "effects": {
+      "burn": 4,
+      "growth": 6,
+      "users": 4000,
+      "arpu": 2
+     },
+     "outcome": "Shops display your QR. Customers ask about it and install.",
+     "lesson": "Two sided growth: more shops bring more payers, and more payers bring more shops. That's how Paytm and PhonePe spread."
+    },
+    {
+     "label": "TV ads during the IPL",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A big spike, mostly from cities where users already have UPI apps.",
+     "lesson": "Expensive reach in the wrong place doesn't build lasting growth.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "City users from the IPL ads tried you once and went back to their usual app."
+      }
+     ]
+    },
+    {
+     "label": "Family sending: workers in cities send money home to parents on PaySetu",
+     "detail": "Each sender brings a family.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 2,
+      "growth": 3
+     },
+     "outcome": "Migrant workers in Mumbai and Surat get their parents to install the app.",
+     "lesson": "A loop that follows a real money habit (sending money home) keeps growing by itself."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more per user",
+   "months": 1,
+   "situation": "You need more money per user. What do you try?",
+   "options": [
+    {
+     "label": "Small loans only for users with 6 months of regular payments",
+     "detail": "Careful lending.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow at first. Repayments are excellent because you know these users.",
+     "lesson": "Your payment data shows who can repay. Using it carefully turns trust into income.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 9
+       },
+       "note": "Your careful loans are being repaid on time. Lenders want to work with you, and margins are strong."
+      }
+     ]
+    },
+    {
+     "label": "Sell users' spending data to loan apps",
+     "detail": "Easy money.",
+     "effects": {
+      "arpu": 10,
+      "trust": -14
+     },
+     "outcome": "Money comes in. Then users start getting calls from loan apps they never contacted.",
+     "lesson": "Selling user data breaks trust and, in India, can break the law."
+    },
+    {
+     "label": "Ads on the payment success screen",
+     "detail": "Extra income.",
+     "effects": {
+      "arpu": 7,
+      "trust": -2
+     },
+     "outcome": "Some income. Some users find it cluttered.",
+     "lesson": "Ads can work if they don't get in the way of the core job."
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant comes to your villages",
+   "months": 2,
+   "situation": "A giant UPI app launches ₹100 cashback in your villages and signs up your shops.",
+   "options": [
+    {
+     "label": "Match their cashback",
+     "detail": "Don't lose users.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Users stay, but you are burning cash fast.",
+     "lesson": "Price wars favour the player with the most money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The cashback war ended. Your cash is gone and cashback hunters moved on."
+      }
+     ]
+    },
+    {
+     "label": "Ignore cashback. Double down on Didis and voice help",
+     "detail": "Your strength is trust.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some users try the giant. Many come back when nobody there answers in their language.",
+     "lesson": "Compete on what the giant can't copy quickly: local trust and help.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "Users came back. 'When something goes wrong, the Didi helps me,' one said."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to billing software for shopkeepers",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "A new business, a confused team, and users feel left behind.",
+     "lesson": "Running from competition throws away what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "Scammers call 300 of your users pretending to be PaySetu support. Many lose money. It's on the local news.",
+   "options": [
+    {
+     "label": "Refund victims yourself, call each one, add in-app scam warnings",
+     "detail": "Own it.",
+     "effects": {
+      "cash": -15,
+      "trust": 12,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but villages talk about how you stood by them.",
+     "lesson": "In payments, how you treat people on their worst day decides your reputation."
+    },
+    {
+     "label": "Say it was users' fault for sharing their PIN",
+     "detail": "It's technically true.",
+     "effects": {
+      "trust": -18,
+      "retention": -4
+     },
+     "outcome": "The news story becomes 'App blames village elders for fraud'.",
+     "lesson": "Being technically right while users suffer still loses trust."
+    },
+    {
+     "label": "Stay quiet and fix the gap",
+     "detail": "Avoid attention.",
+     "effects": {
+      "trust": -4
+     },
+     "outcome": "It goes quiet for now.",
+     "lesson": "Hiding problems only delays the damage, and makes it bigger.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "trust": -12,
+        "retention": -3
+       },
+       "note": "A journalist found that you knew about the scam and said nothing. The story is everywhere."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bank",
+   "phase": "Partners",
+   "title": "Your partner bank wants stricter checks",
+   "months": 1,
+   "situation": "The bank that runs your UPI wants a video ID check for every user. It will slow sign ups.",
+   "options": [
+    {
+     "label": "Accept and build a smooth 2 minute video check in Hindi",
+     "detail": "Make safety easy.",
+     "effects": {
+      "burn": 2,
+      "growth": -2,
+      "trust": 8,
+      "morale": 2
+     },
+     "outcome": "Sign ups slow a little. Fraud drops a lot and the bank expands your limits.",
+     "lesson": "Partners and regulators are part of your product. Turn their rules into a good experience."
+    },
+    {
+     "label": "Switch to a smaller bank with looser rules",
+     "detail": "Keep sign ups fast.",
+     "effects": {
+      "growth": 3
+     },
+     "outcome": "Sign ups stay fast, for now.",
+     "lesson": "Choosing partners to avoid safety rules puts your whole business at risk.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "trust": -15,
+        "retention": -4
+       },
+       "note": "The smaller bank was fined and shut its UPI service. Your users couldn't pay for a week."
+      }
+     ]
+    },
+    {
+     "label": "Accept, but just add the bank's standard English form",
+     "detail": "Least work.",
+     "effects": {
+      "growth": -7,
+      "trust": 4
+     },
+     "outcome": "Many village users get stuck on the English form and give up.",
+     "lesson": "Following a rule badly can hurt as much as breaking it. Design the compliant path for your users."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "End all cashback and close 2 regions that lose money",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -10,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some users leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Launch in 5 new states now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Raise bill payment fees",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 6,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "A bit more revenue. Some users complain.",
+     "lesson": "Small price changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "UPI goes down across India",
+   "months": 0,
+   "situation": "The national UPI system has a 2 hour outage on a busy market day.",
+   "options": [
+    {
+     "label": "Tell users in Hindi it's a national issue, and that no money is lost",
+     "effects": {
+      "trust": 5
+     },
+     "outcome": "Users feel calm. Your app is the one that explained it.",
+     "lesson": "Clear updates in a crisis build trust, even when it isn't your fault."
+    },
+    {
+     "label": "Say nothing, it's not our fault",
+     "effects": {
+      "trust": -5,
+      "retention": -2
+     },
+     "outcome": "Users think your app ate their money.",
+     "lesson": "Users blame the app they see, whoever is at fault."
+    }
+   ]
+  },
+  {
+   "id": "diwali",
+   "phase": "Surprise",
+   "title": "Diwali rush",
+   "months": 0,
+   "situation": "Payments double in the week before Diwali.",
+   "options": [
+    {
+     "label": "Add server capacity and extra support early",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "Everything works. New users join through family gifts.",
+     "lesson": "Prepare for known peaks. They're your best chance to win users."
+    },
+    {
+     "label": "Run as normal",
+     "effects": {
+      "retention": -2,
+      "trust": -4
+     },
+     "outcome": "Payments fail on the busiest day.",
+     "lesson": "Failing at the peak hurts trust the most."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your tech lead",
+   "months": 0,
+   "situation": "Your tech lead has an offer at double the pay.",
+   "options": [
+    {
+     "label": "Counter-offer with more equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay, and the team sees you value people.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "A few things break during the handover.",
+     "lesson": "Losing key people has a cost. Plan for it."
+    }
+   ]
+  },
+  {
+   "id": "rbi",
+   "phase": "Surprise",
+   "title": "New rules on digital loans",
+   "months": 0,
+   "situation": "The central bank publishes new rules: clear loan costs, no pushy collection, and users must agree to data sharing.",
+   "options": [
+    {
+     "label": "Follow them right away and tell users",
+     "effects": {
+      "trust": 6,
+      "arpu": -2
+     },
+     "outcome": "Some income dips, but users feel safe.",
+     "lesson": "Following rules early builds trust and avoids bigger trouble."
+    },
+    {
+     "label": "Wait and see if anyone enforces them",
+     "effects": {
+      "trust": -8,
+      "cash": -6
+     },
+     "outcome": "A complaint becomes a fine and a news story.",
+     "lesson": "Rules for user safety are a floor, not an option."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000
+}

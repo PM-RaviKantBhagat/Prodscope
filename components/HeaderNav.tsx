@@ -134,7 +134,7 @@ export default function HeaderNav({ groups, playGroups }: { groups: NavGroup[]; 
                 <div className="cats-tools">
                   {(menu === "tear"
                     ? [["/compare", "Compare two products"], ["/practice", "Write your own teardown"], ["/my", "My progress and saved"]]
-                    : [["/play/random", "Random game"], ["/learn", "Skill lessons"], ["/play", "All games and badges"]]
+                    : [["/play/random", "Random game"], ["/build", "Build a product"], ["/learn", "Skill lessons"], ["/play", "All games and badges"]]
                   ).map(([href, label]) => (
                     <Link key={href} href={href} onClick={close}>{label}</Link>
                   ))}

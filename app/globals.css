@@ -510,3 +510,52 @@ button.install-app { font-size: 16px; padding: 13px 22px; border-radius: 999px; 
   .mega-top .cats-tools a { font-size: 13px; }
 }
 @media (max-width: 600px) { .cats-btn { padding: 8px 9px; font-size: 14px; } }
+
+/* Build a product simulation */
+.build h1 { font-size: clamp(28px, 6vw, 40px); }
+.b-goals { background: var(--surface); border-radius: 12px; padding: 16px 20px; margin: 20px 0; font-size: 15px; }
+.b-goals ul { margin: 6px 0 12px; padding-left: 20px; }
+.b-dash { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 14px 0 20px; }
+.b-dash > div { background: var(--surface); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+.b-dash small { display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.b-dash b { display: block; font-size: 17px; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.b-dash em { display: block; font-style: normal; font-size: 12px; color: var(--muted); }
+.b-dash .warn { color: var(--high); }
+.b-dash .ok { color: var(--low); }
+.b-dash > div:nth-last-child(-n+2) { grid-column: span 2; }
+.b-meter { display: block; height: 8px; margin-top: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.b-meter i { display: block; height: 100%; border-radius: 999px; transition: width 0.4s; }
+.b-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.b-chips span { font-size: 13px; font-weight: 600; padding: 5px 10px; border-radius: 999px; }
+.b-chips .up { background: var(--low-soft); color: var(--low); }
+.b-chips .down { background: var(--high-soft); color: var(--high); }
+.b-note { border-left: 4px solid var(--med); background: var(--med-soft); border-radius: 10px; padding: 12px 16px; margin: 0 0 16px; }
+.b-note p { margin: 4px 0 0; font-size: 15px; }
+.b-sit { font-size: 16px; line-height: 1.55; margin: 0 0 16px; }
+.g-card.b-opt { grid-template-columns: 1fr; }
+.b-opt span { display: grid; gap: 4px; text-align: left; }
+.b-opt span b, .b-opt span small { display: block; grid-column: 1; }
+.b-opt small { font-size: 14px; color: var(--muted); font-weight: 400; }
+.b-step { font-size: 13px; font-weight: 700; color: var(--muted); }
+.b-time { font-size: 14px; color: var(--muted); }
+.b-lesson { background: var(--surface); border-radius: 12px; padding: 14px 18px; margin: 16px 0; }
+.b-lesson p { margin: 4px 0 0; }
+.b-checks { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 6px; }
+.b-checks li { padding: 10px 14px; border-radius: 10px; font-size: 15px; }
+.b-checks .ok { background: var(--low-soft); color: var(--low); }
+.b-checks .no { background: var(--high-soft); color: var(--high); }
+.b-chart { margin: 8px 0 24px; }
+.b-chart svg { width: 100%; height: auto; display: block; background: var(--surface); border-radius: 12px; }
+.b-chart path { fill: none; stroke-width: 3; stroke-linejoin: round; }
+.b-chart path.users { stroke: var(--text); }
+.b-chart path.cash { stroke: var(--low); }
+.b-chart line.goal { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 6 5; }
+.b-chart figcaption { font-size: 13px; color: var(--muted); margin-top: 8px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.b-chart .k { display: inline-block; width: 16px; height: 3px; margin-left: 8px; }
+.b-chart .k.users { background: var(--text); }
+.b-chart .k.cash { background: var(--low); }
+.b-chart .k.goal { border-top: 2px dashed var(--muted); height: 0; }
+@media (max-width: 600px) {
+  .b-dash { grid-template-columns: repeat(2, 1fr); }
+  .b-dash b { font-size: 15px; }
+}

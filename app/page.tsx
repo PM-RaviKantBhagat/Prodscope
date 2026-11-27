@@ -52,7 +52,7 @@ export default function Home() {
           <p className="lede">Run Zepto, Spotify or any of 200 products as its PM. Make the calls, lose lives on wrong ones, and win with a full picture of the product.</p>
           <div className="hub-go">
             <Link className="btn" href="/play">Start playing</Link>
-            <Link className="btn ghost" href="/play/zepto">Try Zepto</Link>
+            <Link className="btn ghost" href="/build">Build a startup</Link>
             <InstallApp />
           </div>
         </div>

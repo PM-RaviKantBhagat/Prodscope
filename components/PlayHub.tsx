@@ -34,7 +34,7 @@ export default function PlayHub({ sections }: { sections: Section[] }) {
   const bySection = useMemo(() => Object.fromEntries(sections.map((x) => [x.section, x.items.map((i) => i.slug)])), [sections]);
   const badges = badgesOf(s, bySection);
   const total = sections.reduce((n, x) => n + x.items.length, 0);
-  const won = Object.values(s.games).filter((v) => v > 0).length;
+  const won = Object.entries(s.games).filter(([k, v]) => !k.startsWith("build:") && v > 0).length;
   const cur = sections.find((x) => x.section === open);
 
   return (
@@ -42,6 +42,7 @@ export default function PlayHub({ sections }: { sections: Section[] }) {
       <LearnStats />
       <div className="hub-go">
         <Link className="btn" href="/play/random">Play a random product</Link>
+        <Link className="btn ghost" href="/build">🏗️ Build a product</Link>
         <Link className="btn ghost" href="/learn">Skill lessons</Link>
         <InstallApp />
         <span className="hint">{s.ready ? won : 0} of {total} products won</span>
