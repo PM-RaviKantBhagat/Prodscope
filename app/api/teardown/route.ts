@@ -1,6 +1,5 @@
-import Anthropic from "@anthropic-ai/sdk";
 import { fetchSite, normaliseUrl } from "@/lib/fetchSite";
-import { generateTeardown, RefusedError } from "@/lib/ai";
+import { BadKeyError, BusyError, generateTeardown } from "@/lib/ai";
 import { mockTeardown } from "@/lib/mock";
 import { getStore } from "@/lib/store";
 import { CACHE_DAYS, FREE_PER_PERSON_PER_DAY, FREE_TOTAL_PER_DAY, clientId, makeSlug } from "@/lib/limits";
@@ -53,8 +52,8 @@ export async function POST(req: Request) {
         code: "quota",
         message:
           mine >= FREE_PER_PERSON_PER_DAY
-            ? `You've used your ${FREE_PER_PERSON_PER_DAY} free teardowns for today. Add your own Claude API key to keep going, or come back tomorrow.`
-            : "Today's free teardowns have all been used. Add your own Claude API key to keep going, or come back tomorrow.",
+            ? `You've used your ${FREE_PER_PERSON_PER_DAY} free teardowns for today. Add your own Gemini API key to keep going, or come back tomorrow.`
+            : "Today's free teardowns have all been used. Add your own Gemini API key to keep going, or come back tomorrow.",
       });
     }
     await Promise.all([store.bumpCounter(`user:${who}`), store.bumpCounter("total")]);
@@ -98,12 +97,12 @@ export async function POST(req: Request) {
         send({ type: "done", slug });
       } catch (err) {
         console.error("teardown failed", err);
-        if (err instanceof Anthropic.AuthenticationError) {
-          send({ type: "error", code: "bad_key", message: "That API key didn't work. Check it and try again." });
-        } else if (err instanceof Anthropic.RateLimitError) {
-          send({ type: "error", message: "The AI is busy right now. Please try again in a minute." });
-        } else if (err instanceof RefusedError || (err instanceof Error && /public website/.test(err.message))) {
-          send({ type: "error", message: (err as Error).message });
+        if (err instanceof BadKeyError) {
+          send({ type: "error", code: "bad_key", message: apiKey ? "That API key didn't work. Check it and try again." : "The site's AI key isn't working right now. You can use your own Gemini key meanwhile." });
+        } else if (err instanceof BusyError) {
+          send({ type: "error", code: "quota", message: "The free AI limit is used up for now. Try again later, or add your own Gemini API key." });
+        } else if (err instanceof Error && /public website/.test(err.message)) {
+          send({ type: "error", message: err.message });
         } else {
           send({ type: "error", message: "Something went wrong while generating the teardown. Please try again." });
         }

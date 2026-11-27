@@ -117,16 +117,16 @@ export default function TeardownForm({ freePerDay }: { freePerDay: number }) {
       {needKey && !busy && (
         <div className="keybox">
           <label>
-            Your Claude API key
-            <input type="password" value={apiKey} onChange={(e) => setApiKey(e.target.value)} placeholder="sk-ant-…" autoComplete="off" />
+            Your Gemini API key
+            <input type="password" value={apiKey} onChange={(e) => setApiKey(e.target.value)} placeholder="AIza…" autoComplete="off" />
           </label>
           <label style={{ display: "flex", gap: 8, alignItems: "center", fontWeight: 400 }}>
             <input type="checkbox" checked={remember} onChange={(e) => setRemember(e.target.checked)} style={{ width: "auto" }} />
             Remember on this device
           </label>
           <p className="hint" style={{ margin: 0 }}>
-            Get a key at <a href="https://console.anthropic.com/" target="_blank" rel="noreferrer">console.anthropic.com</a>. It is sent only to
-            generate your report and is never stored on our server. You pay Anthropic directly for what you use.
+            Get a free key at <a href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer">aistudio.google.com/apikey</a>. It is sent only to
+            generate your report and is never stored on our server.
           </p>
           <div>
             <button type="button" onClick={() => run()} disabled={!apiKey.trim() && !readKey()}>

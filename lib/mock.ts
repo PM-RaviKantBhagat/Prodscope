@@ -7,7 +7,7 @@ export function mockTeardown(company: string): Teardown {
     tagline: `${company} (sample report: set an API key to generate a real one)`,
     category: "Sample category",
     overview: {
-      whatItDoes: `This is placeholder content showing the layout of a ${company} teardown. Real reports are written by Claude from the company's website and web research.`,
+      whatItDoes: `This is placeholder content showing the layout of a ${company} teardown. Real reports are written by AI from the company's website and web research.`,
       howItWorks: ["Users discover the product", "They sign up and complete onboarding", "They get value from the core feature", "They come back and pay"],
       valueProposition: "Saves the user time and money on a frequent task.",
     },
