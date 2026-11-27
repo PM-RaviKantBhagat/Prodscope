@@ -20,7 +20,7 @@ function shuffle<T>(a: T[]): T[] {
 
 function dealCards(game: Game, i: number): Card[] {
   const s = game.scenes[i];
-  const wrong = shuffle(s.wrong).slice(0, 3).map((w) => ({ text: w.text, ok: false, from: w.from }));
+  const wrong = shuffle(s.wrong).slice(0, 4).map((w) => ({ text: w.text, ok: false, from: w.from }));
   return shuffle([...s.right.map((text) => ({ text, ok: true })), ...wrong]);
 }
 
