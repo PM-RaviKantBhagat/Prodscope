@@ -1,0 +1,275 @@
+{
+  "company": "eBay",
+  "domain": "ebay.com",
+  "website": "https://ebay.com",
+  "sources": [
+    "https://valueaddedresource.net/ebay-q3-2026-earnings",
+    "https://www.nasdaq.com/articles/ebay-q3-earnings-revenues-surpass-estimates-both-increase-y-y",
+    "https://flowlister.com/blog/state-of-ebay-2026/",
+    "https://community.ebay.com/forum/selling-57920/topic/its-time-for-a-sellers-union-unite-for-fair-fees-478806/",
+    "https://www.consumeraffairs.com/online/ebay.htm?page=3",
+    "https://resalerank.com/ebay-depop-acquisition/"
+  ],
+  "report": {
+    "company": "eBay",
+    "tagline": "An online marketplace where millions of people and small shops sell used, collectible and new items to buyers around the world.",
+    "category": "Marketplace",
+    "simpleSummary": "eBay is a giant online flea market. Anyone can list an old phone, a trading card or a car part, and buyers either bid in an auction or pay a fixed price. eBay does not own the stock. It takes a cut when something sells and charges sellers to show their items higher in search.",
+    "keyNumbers": [
+      { "label": "Gross merchandise volume (GMV), Q3 2026", "value": "$23.2 billion", "note": "eBay Q3 2026 results via Value Added Resource. Up 15% year on year, about 13% without the Depop and Tise acquisitions." },
+      { "label": "Revenue, Q3 2026", "value": "$3.2 billion", "note": "eBay Q3 2026 results. Up 14%. Full-year 2026 guidance is $12.62 to $12.67 billion." },
+      { "label": "Active buyers", "value": "147 million", "note": "Q3 2026. Only 136 million without Depop and Tise, up just 1%. Organic buyer growth is the weak spot." },
+      { "label": "Enthusiast buyers", "value": "16 million, spending about $3,700 a year", "note": "eBay Q3 2026. They drive over 70% of core GMV." },
+      { "label": "Ad revenue, Q3 2026", "value": "$607 million", "note": "eBay Q3 2026. Mostly Promoted Listings, up 16%." },
+      { "label": "Net income, Q3 2026", "value": "$501 million", "note": "eBay Q3 2026. Down 16%, partly due to acquisition and restructuring costs." }
+    ],
+    "overview": {
+      "whatItDoes": "eBay connects people who want to sell things with people who want to buy them. It is strongest in items you cannot easily find new: trading cards, sneakers, vintage watches, car parts and refurbished phones. It makes money from fees on each sale and from ads sellers buy inside eBay.",
+      "howItWorks": [
+        "A seller lists an item with photos, a price or an auction start, and a shipping option. eBay's AI tool Magical Listing can write the title and details from a photo.",
+        "Buyers find it through search or eBay's app feed, then bid or click Buy It Now.",
+        "eBay collects the payment through Managed Payments and pays the seller after taking its fees.",
+        "For high-value items like sneakers, watches and graded cards, the Authenticity Guarantee sends the item to an expert checker before it reaches the buyer.",
+        "The eBay Money Back Guarantee refunds buyers if an item never arrives or is not as described.",
+        "Newer formats include eBay Live, a live-stream shopping show, and the eBay Vault, where collectors store cards and trade them without shipping."
+      ],
+      "valueProposition": "For buyers: the widest choice of used, rare and collectible items, with a refund promise. For sellers: access to about 136 million buyers without building their own shop."
+    },
+    "personas": [
+      {
+        "name": "Trading card collector",
+        "description": "25 to 45, buys and sells Pokemon or sports cards every week, spends thousands a year.",
+        "goals": ["Find a specific rare card at a fair price", "Know the card is real", "Sell duplicates quickly"],
+        "frustrations": ["Fakes and condition disputes", "High fees eat into resale profit", "Shipping fragile cards"]
+      },
+      {
+        "name": "Side-hustle reseller",
+        "description": "Buys at thrift stores or clearance sales and flips items on eBay for extra income.",
+        "goals": ["Sell fast with little effort", "Keep fees and shipping costs low"],
+        "frustrations": ["Fees around 13% plus ads", "Buyer scams and false 'not as described' returns", "Sales drop when they stop paying for Promoted Listings"]
+      },
+      {
+        "name": "Bargain hunter",
+        "description": "Wants a refurbished phone or a spare car part cheaper than new.",
+        "goals": ["Low price", "Trust that the item works", "Easy returns"],
+        "frustrations": ["Cluttered search results", "Mixed seller quality"]
+      },
+      {
+        "name": "Small business seller",
+        "description": "A shop that sells new or refurbished stock through eBay alongside Amazon and its own site.",
+        "goals": ["Steady sales volume", "Simple tools to manage listings and shipping"],
+        "frustrations": ["Rule changes and account holds", "Competing with cheap Temu-style listings"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Rare or used items are hard to find in normal shops.", "howSolved": "Around 2 billion live listings from sellers worldwide, many of them one-of-a-kind.", "severity": "high" },
+      { "pain": "Buyers fear fakes on expensive items.", "howSolved": "Authenticity Guarantee checks sneakers, watches, handbags and graded cards before delivery.", "severity": "high" },
+      { "pain": "Buyers fear paying and getting nothing.", "howSolved": "eBay Money Back Guarantee and payments held by eBay.", "severity": "high" },
+      { "pain": "Sellers have no audience of their own.", "howSolved": "eBay brings the buyers and handles search, payment and dispute tools.", "severity": "medium" },
+      { "pain": "Listing an item takes too long.", "howSolved": "Magical Listing fills in titles, item details and price suggestions from a photo.", "severity": "medium" },
+      { "pain": "Shipping cards and small items is costly and confusing.", "howSolved": "Discounted labels, the Standard Envelope for cards, Managed Shipping and the eBay Vault.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Auctions and Buy It Now", "whatItDoes": "Sellers choose bidding or a fixed price, with Best Offer for haggling.", "whyItMatters": "Auctions find a fair price for rare items where nobody knows the true value." },
+      { "feature": "Authenticity Guarantee", "whatItDoes": "Independent experts check high-value items before they ship to the buyer.", "whyItMatters": "Builds trust in focus categories where fakes would kill demand." },
+      { "feature": "Promoted Listings", "whatItDoes": "Sellers pay a percentage of the sale price to rank higher in search.", "whyItMatters": "eBay's main ad product, about $575 million a quarter." },
+      { "feature": "eBay Live", "whatItDoes": "Sellers run live video shows where viewers bid in real time.", "whyItMatters": "Answers Whatnot. Live buyers spend about 70% more than similar buyers." },
+      { "feature": "Magical Listing", "whatItDoes": "AI turns a photo into a full listing.", "whyItMatters": "Lower effort means more casual sellers list, which grows supply." },
+      { "feature": "eBay Vault and TCGplayer", "whatItDoes": "Store cards in a secure vault and trade them instantly; TCGplayer is a marketplace for card game singles.", "whyItMatters": "Locks in collectors, eBay's most valuable buyers. TCGplayer passed $1 billion in yearly GMV." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First sale",
+        "persona": "Side-hustle reseller",
+        "steps": [
+          { "step": "Download app", "detail": "Sees a friend's flip on social media and signs up." },
+          { "step": "Snap a photo", "detail": "Magical Listing suggests a title, category and price from sold listings." },
+          { "step": "Choose format", "detail": "Picks Buy It Now with Best Offer and free shipping." },
+          { "step": "Decide on ads", "detail": "eBay suggests a 5% Promoted Listings rate. Seller accepts to get seen." },
+          { "step": "Item sells", "detail": "Prints a discounted label in the app and ships." },
+          { "step": "Get paid", "detail": "Payout lands in the bank in a few days, minus about 13% fees and the ad fee." }
+        ]
+      },
+      {
+        "name": "Buying a graded card",
+        "persona": "Trading card collector",
+        "steps": [
+          { "step": "Search", "detail": "Searches for a specific card and grade, filters by price." },
+          { "step": "Check value", "detail": "Looks at recent sold prices and the eBay card price guide." },
+          { "step": "Bid", "detail": "Places a bid in the last minutes of an auction." },
+          { "step": "Win and pay", "detail": "Pays through eBay. Cards over $250 go through the Authenticity Guarantee." },
+          { "step": "Store or ship", "detail": "Chooses to keep it in the eBay Vault so it can be resold instantly later." },
+          { "step": "Come back", "detail": "Saved searches and price alerts pull the collector back every week." }
+        ]
+      },
+      {
+        "name": "Watching eBay Live",
+        "persona": "Trading card collector",
+        "steps": [
+          { "step": "Notification", "detail": "Gets a push alert that a followed seller is going live." },
+          { "step": "Join stream", "detail": "Watches a seller open packs and auction cards." },
+          { "step": "Quick bid", "detail": "Bids in seconds with saved payment details." },
+          { "step": "Win several lots", "detail": "Combined shipping keeps the postage to one charge." },
+          { "step": "Follow seller", "detail": "Follows to see the next show, building a habit." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "eBay makes money in two main ways: a final value fee on each sale, and ads that sellers buy to rank higher. It holds no stock, so it is cheap to run and very profitable, but it must keep both buyers and sellers happy.",
+      "revenueStreams": [
+        { "stream": "Final value fees", "detail": "About 13.6% of the total sale price in most US categories, plus about $0.30 to $0.40 per order. Lower rates for some high-value items." },
+        { "stream": "Promoted Listings ads", "detail": "Sellers pay a chosen percentage of the sale price when a promoted item sells. About $575 million in Q3 2026." },
+        { "stream": "Payments and shipping", "detail": "Margins on shipping labels, international shipping and payment processing." },
+        { "stream": "Buyer fees in some markets", "detail": "In the UK, private sellers pay no selling fee since 2024; buyers pay a buyer protection fee instead." },
+        { "stream": "Owned marketplaces", "detail": "Depop, TCGplayer and Goldin earn their own fees." }
+      ],
+      "pricing": "Free to list up to 250 items a month in the US. Final value fee of about 13.6% for most categories plus a per-order fee. Store subscriptions from about $5 to $3,000 a month. Promoted Listings rates are set by the seller.",
+      "costDrivers": [
+        "Sales and marketing, about $747 million in Q3 2026",
+        "Engineering and AI tools",
+        "Customer support and buyer refunds under the Money Back Guarantee",
+        "Authentication centres and the Vault",
+        "Payment processing costs"
+      ],
+      "unitEconomics": "On a $100 card sale in the US, eBay keeps about $14 in final value fees. If the seller used a 5% Promoted Listings rate, eBay keeps another $5. That is about $19, or a take rate (eBay's share of each sale) near 19% on that item. Card payment costs take about $2 to $3 of that. Because eBay owns no stock and no warehouses for most items, most of the rest is gross profit, which is why its operating margin sits near 19 to 20%."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search and shopping ads, since many eBay listings rank for rare item names",
+        "Focus categories like collectibles, motors parts and pre-loved luxury, marketed to fans directly",
+        "Buying other marketplaces: Depop (closed July 2026), Tise, TCGplayer and Goldin",
+        "eBay Live shows that turn viewers into bidders",
+        "Removing seller fees for UK private sellers to win back casual sellers from Vinted"
+      ],
+      "whatBringsUsersBack": [
+        "Saved searches and price alerts for items collectors want",
+        "Auctions ending at set times create urgency",
+        "Followed sellers on eBay Live",
+        "Items held in the eBay Vault that can be resold with one tap",
+        "Sellers return because their buyers are on eBay"
+      ],
+      "moat": "eBay has 30 years of buyers and sellers for odd, rare and used items. A collector goes where the most rare cards are listed, and a seller lists where the most collectors are. This two-sided network effect, plus sold-price history and authentication centres, is hard for a new site to copy."
+    },
+    "competitors": [
+      { "name": "Amazon", "positioning": "New items with fast Prime delivery.", "howThisProductDiffers": "eBay wins on used, rare and collectible items and auctions, not speed." },
+      { "name": "Whatnot", "positioning": "Live-stream shopping app for cards and collectibles.", "howThisProductDiffers": "eBay has far more listed stock and buyers; Whatnot leads in live shows. eBay Live is the response." },
+      { "name": "Vinted", "positioning": "Free-to-sell second-hand clothing app.", "howThisProductDiffers": "eBay covers all categories; Vinted is simpler and cheaper for casual clothing sellers." },
+      { "name": "Facebook Marketplace", "positioning": "Free local listings.", "howThisProductDiffers": "eBay offers shipping, payments and buyer protection across the country." },
+      { "name": "Temu and Shein", "positioning": "Very cheap new goods shipped from China.", "howThisProductDiffers": "eBay is moving away from cheap new goods toward items Temu cannot sell, like collectibles and used goods." }
+    ],
+    "northStar": {
+      "metric": "Number of successful transactions per month where the buyer did not open a dispute",
+      "why": "Each clean transaction means a buyer found what they wanted and a seller got paid. It grows with both sides of the marketplace, and it punishes fakes and bad experiences, unlike raw GMV."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "How many people bought at least once in the last 12 months.",
+        "children": [
+          { "metric": "New buyer conversion", "description": "Share of first-time visitors who buy within 30 days." },
+          { "metric": "Reactivated buyers", "description": "Lapsed buyers who come back, often through Google or email." },
+          { "metric": "Enthusiast buyer count", "description": "Buyers spending over $3,000 a year, who drive most volume." }
+        ]
+      },
+      {
+        "metric": "Purchases per buyer",
+        "description": "How often an active buyer buys.",
+        "children": [
+          { "metric": "Saved search alert click rate", "description": "Shows if alerts bring buyers back." },
+          { "metric": "eBay Live sessions per buyer", "description": "More sessions lead to more impulse bids." },
+          { "metric": "Search-to-purchase rate", "description": "How often a search ends in a purchase." }
+        ]
+      },
+      {
+        "metric": "Live supply",
+        "description": "How many good items are listed and how fast they sell.",
+        "children": [
+          { "metric": "New listings per week", "description": "Driven by Magical Listing and free UK selling." },
+          { "metric": "Sell-through rate", "description": "Share of listings that sell within 30 days." },
+          { "metric": "Active seller count", "description": "Sellers with at least one live listing." }
+        ]
+      },
+      {
+        "metric": "Trust",
+        "description": "Share of orders with no problem.",
+        "children": [
+          { "metric": "Dispute rate", "description": "Share of orders with an 'item not received' or 'not as described' case." },
+          { "metric": "Authentication pass rate", "description": "Share of checked items that are genuine." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Seller net payout as a share of sale price (fees must not creep up so far that sellers leave)",
+      "Dispute and fraud rate",
+      "Search result relevance score, so more ads do not bury the best match",
+      "Seller churn in focus categories"
+    ],
+    "strengths": [
+      "Deep supply of rare and used items that new rivals lack",
+      "High margins because it holds no stock",
+      "Strong position in collectibles, with TCGplayer, Goldin, the Vault and authentication",
+      "Big ad business on top of fees",
+      "Healthy cash flow funds about $2 billion of buybacks a year"
+    ],
+    "weaknesses": [
+      "Organic buyer growth is close to zero, about 1% in Q3 2026",
+      "Old, cluttered user interface that feels dated next to Vinted or Depop",
+      "Heavy reliance on trading cards, which may cool",
+      "Sellers feel they must pay for ads to be seen",
+      "International GMV grows only about 4%"
+    ],
+    "risks": [
+      "Whatnot and TikTok Shop winning live shopping",
+      "Vinted taking casual clothing sellers in the UK and US",
+      "A crash in trading card prices would hit eBay's fastest-growing category",
+      "Tax reporting rules (such as US 1099-K thresholds) scaring off casual sellers",
+      "Cheap new goods from Temu and Shein pulling bargain buyers away"
+    ],
+    "userComplaints": [
+      "Fees plus Promoted Listings take 15 to 20% of a sale",
+      "Sellers say eBay sides with buyers in disputes, including scams where a different item is returned",
+      "Payout holds and account limits for new sellers",
+      "Customer support is hard to reach and often scripted",
+      "Magical Listing makes errors that sellers must fix",
+      "Cluttered search full of sponsored items"
+    ],
+    "improvementIdeas": [
+      { "idea": "Seller return-fraud shield: photo check-in on returns for items over $100, with eBay covering losses if the returned item does not match.", "problem": "Sellers lose money to buyers who return a different or broken item.", "expectedImpact": "Higher seller trust and fewer sellers quitting focus categories.", "metricToTrack": "Seller churn after a lost return case", "effort": "medium" },
+      { "idea": "Show sellers an 'organic reach' score before they pick an ad rate, with a free boost for first 10 listings.", "problem": "New sellers feel they must pay for ads to get any sales.", "expectedImpact": "More new sellers make a first sale and stay.", "metricToTrack": "New seller first-sale rate in 30 days", "effort": "low" },
+      { "idea": "One-tap cross-listing from eBay to Depop for fashion items, and showing Depop items in eBay search.", "problem": "eBay struggles with young fashion buyers while owning Depop.", "expectedImpact": "More supply and buyers in fashion across both apps.", "metricToTrack": "Fashion GMV growth among buyers under 30", "effort": "medium" },
+      { "idea": "Simplified 'new buyer' home screen focused on trending categories and guaranteed items.", "problem": "Organic buyer growth is flat, and new visitors find the site cluttered.", "expectedImpact": "Higher first-purchase conversion.", "metricToTrack": "New buyer 30-day conversion", "effort": "medium" },
+      { "idea": "Card price alerts tied to Vault holdings, suggesting when to sell.", "problem": "Vault cards sit idle, and collectors miss price peaks.", "expectedImpact": "More trades per Vault item and more fees.", "metricToTrack": "Vault items traded per month", "effort": "low" }
+    ],
+    "pmLessons": [
+      "When you cannot win the whole market, pick niches where you are strong. eBay grew by focusing on collectibles and used goods rather than fighting Amazon on new items.",
+      "Ads can become a second business, but too many ads hurt search quality and anger sellers. Watch guardrail metrics.",
+      "Trust features like authentication unlock high-value categories. Spending on trust can be a growth lever.",
+      "Buying growth through acquisitions, like Depop, can hide weak organic growth. Always look at numbers without acquisitions.",
+      "In a two-sided marketplace, pricing changes for one side affect the other. Free UK selling moved costs to buyers."
+    ],
+    "interviewQuestions": [
+      { "question": "eBay's active buyers grow only 1% without acquisitions. How would you grow them?", "hint": "Segment buyers: new, lapsed, enthusiasts. Find the biggest drop-off in the funnel. Pick one segment, suggest two or three ideas, and define a success metric and guardrail." },
+      { "question": "Should eBay remove seller fees in the US like it did for UK private sellers?", "hint": "Compare pros (more supply, beat Vinted) and cons (revenue loss, buyer fee pushback). Model the revenue hit and needed volume lift. Suggest a test in one category." },
+      { "question": "How would you measure the success of eBay Live?", "hint": "North star like live GMV per viewer hour. Inputs: shows, viewers, bid rate, repeat viewers. Guardrails: dispute rate, impact on regular listings." },
+      { "question": "Design a feature to reduce fakes in sneakers below the $150 Authenticity Guarantee threshold.", "hint": "Define the user and the risk. Options: AI photo checks, seller trust scores, optional paid check. Pick one, weigh cost per item against fraud loss." },
+      { "question": "Sellers say Promoted Listings are mandatory to get sales. What do you do?", "hint": "Check data on organic versus paid sales. Balance ad revenue against seller trust and search quality. Propose transparency or caps, with metrics on both sides." }
+    ],
+    "glossary": [
+      { "term": "GMV", "meaning": "Gross merchandise volume: the total value of all items sold on the platform before fees." },
+      { "term": "Take rate", "meaning": "The share of each sale that the platform keeps as fees and ads." },
+      { "term": "Two-sided network effect", "meaning": "When more sellers attract more buyers and more buyers attract more sellers, so the product gets better as it grows." },
+      { "term": "Network effect", "meaning": "When a product becomes more valuable as more people use it." },
+      { "term": "Focus categories", "meaning": "The product areas eBay invests in most, such as collectibles, motors parts and luxury." },
+      { "term": "Sell-through rate", "meaning": "The share of listed items that actually sell within a set time." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Churn", "meaning": "The share of users or sellers who stop using the product." }
+    ],
+    "assumptions": [
+      "The $100 card sale example uses the standard US fee of about 13.6% plus a $0.40 order fee; real fees vary by category and seller level.",
+      "Payment processing cost of $2 to $3 per $100 is an estimate based on typical card fees.",
+      "The 'about 2 billion live listings' figure is eBay's long-stated number and may have changed.",
+      "Active seller count is not disclosed by eBay; the last official figure was 17 million in 2021."
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+[
+ {
+  "company": "WhatsApp",
+  "website": "whatsapp.com",
+  "domain": "whatsapp.com",
+  "market": "US · global",
+  "category": "Messaging",
+  "why": "India's default app; Business API, payments, Channels and 2025 ads in Updates."
+ },
+ {
+  "company": "TikTok",
+  "website": "tiktok.com",
+  "domain": "tiktok.com",
+  "market": "China/Singapore · global",
+  "category": "Short video",
+  "why": "Interest-graph algorithm vs. social graph; banned in India, so compare with Reels and Moj."
+ },
+ {
+  "company": "LinkedIn",
+  "website": "linkedin.com",
+  "domain": "linkedin.com",
+  "market": "US · global",
+  "category": "Professional network",
+  "why": "Network effects, Premium monetisation and creator feed; every APM uses it."
+ },
+ {
+  "company": "Duolingo",
+  "website": "duolingo.com",
+  "domain": "duolingo.com",
+  "market": "US · global",
+  "category": "Edtech",
+  "why": "Gamification, streaks and notifications; went AI-first in 2025. A top interview favourite."
+ },
+ {
+  "company": "Robinhood",
+  "website": "robinhood.com",
+  "domain": "robinhood.com",
+  "market": "US",
+  "category": "Investing",
+  "why": "Zero-commission trading, gamification ethics and expansion into crypto and banking."
+ },
+ {
+  "company": "Stripe",
+  "website": "stripe.com",
+  "domain": "stripe.com",
+  "market": "US/Ireland · global",
+  "category": "Payments infra",
+  "why": "Developer-first API design; a strong B2B product teardown."
+ },
+ {
+  "company": "Shopify",
+  "website": "shopify.com",
+  "domain": "shopify.com",
+  "market": "Canada · global",
+  "category": "Commerce platform",
+  "why": "Platform for merchants; app ecosystem and AI tools (Sidekick)."
+ },
+ {
+  "company": "Tesla",
+  "website": "tesla.com",
+  "domain": "tesla.com",
+  "market": "US · global",
+  "category": "EV / hardware + software",
+  "why": "Over-the-air updates, direct sales and FSD; hardware product thinking."
+ },
+ {
+  "company": "Apple Vision Pro / iPhone",
+  "website": "apple.com",
+  "domain": "apple.com",
+  "market": "US · global",
+  "category": "Consumer hardware",
+  "why": "Ecosystem lock-in and the Vision Pro launch as a 'new category' case study."
+ },
+ {
+  "company": "Meta Ray-Ban glasses",
+  "website": "meta.com",
+  "domain": "meta.com",
+  "market": "US · global",
+  "category": "Wearables / AI",
+  "why": "2025's surprise hardware hit; AI on the face and finding a use case for a new form factor."
+ },
+ {
+  "company": "Waymo",
+  "website": "waymo.com",
+  "domain": "waymo.com",
+  "market": "US",
+  "category": "Autonomous mobility",
+  "why": "Robotaxis at scale in 2025; trust, safety and city-by-city rollout strategy."
+ },
+ {
+  "company": "Replit",
+  "website": "replit.com",
+  "domain": "replit.com",
+  "market": "US · global",
+  "category": "AI app builder",
+  "why": "Vibe coding for non-developers; product-led growth with AI agents."
+ },
+ {
+  "company": "Suno",
+  "website": "suno.com",
+  "domain": "suno.com",
+  "market": "US · global",
+  "category": "AI music",
+  "why": "Top consumer AI app for music creation; creator tools and rights questions."
+ }
+]

@@ -1,0 +1,239 @@
+{
+  "company": "ONDC",
+  "domain": "ondc.org",
+  "website": "https://ondc.org",
+  "sources": [
+    "https://www.business-standard.com/companies/news/ondc-ecommerce-failure-struggles-india-125050501101_1.html",
+    "https://cross-border-magazine.com/?p=13426",
+    "https://www.whalesbook.com/news/English/tech/ONDC-Names-Vibhor-Jain-CEO-Amid-Revenue-Surge-and-Monetization-Woes/69d8a919e0ea10058db5eda9",
+    "https://inc42.com/buzz/vibhor-jain-appointed-as-md-ceo-of-ondc/",
+    "https://www.businesstoday.in/latest/economy/story/survey-flags-ondc-growing-pains-35-users-cite-poor-service-54-say-its-clunky-474326-2025-05-01",
+    "https://finshots.in/archive/has-the-ondc-experiment-failed-nrai-rapido-t-koshy-swiggy-zomato-food-delivery/"
+  ],
+  "report": {
+    "company": "ONDC",
+    "tagline": "A government-backed open network that lets any shopping app show products from any seller app, like UPI did for payments.",
+    "category": "Open commerce network",
+    "simpleSummary": "On Amazon or Swiggy, the buyer, the seller and the delivery all live inside one company's app. ONDC breaks that up. A shop can list once on any seller app, and buyers can find it from any buyer app, like Paytm, Magicpin or Ola. ONDC is not an app itself. It is a set of shared rules so these apps can talk to each other, the way UPI lets PhonePe send money to a Google Pay user. The idea is lower fees for sellers and more choice for buyers.",
+    "keyNumbers": [
+      {"label": "Total transactions", "value": "500 million+", "note": "Cumulative, reached July 2026. Government (DPIIT) figures via Cross-Border Magazine."},
+      {"label": "Transactions in FY26", "value": "About 218 million", "note": "Government figure. Monthly run rate was close to 9 million by June 2026, so measures may differ."},
+      {"label": "Sellers", "value": "About 5 lakh, with 2 lakh+ active retail merchants", "note": "June to July 2026, government figures."},
+      {"label": "Revenue FY25", "value": "₹33.4 crore", "note": "Up 127%, with a net loss of ₹147 crore. Reported April 2026."},
+      {"label": "Share of e-commerce", "value": "About 4.3%", "note": "Versus about 83% for Amazon and Flipkart combined. News estimate, 2026."},
+      {"label": "Mobility share", "value": "Over half of volume", "note": "Ride-hailing (Namma Yatri and others) was 56% of volume in early 2025. Business Standard."}
+    ],
+    "overview": {
+      "whatItDoes": "ONDC (Open Network for Digital Commerce) is a non-profit set up by the Indian government in 2021. It writes open rules (protocols) that let buyer apps, seller apps and delivery companies connect. Any approved app can join. It covers groceries, food, fashion, rides, metro tickets, logistics and financial services.",
+      "howItWorks": [
+        "A buyer app (Paytm, Magicpin, Ola, Mystore, PhonePe for some services) shows products from all sellers on the network.",
+        "A seller app (like Mystore, eSamudaay or a POS company) helps shops list products and take orders.",
+        "Logistics partners (Loadshare, Shadowfax and others) pick up and deliver orders from any seller.",
+        "ONDC sits in the middle: it keeps a registry of participants and rules for search, order, payment and disputes, but does not hold stock or money.",
+        "Sellers pay a much lower commission (about 8 to 10% across apps) versus 25 to 30% on big marketplaces.",
+        "Early growth was pushed by incentives paid to buyer apps, which were cut sharply in late 2024."
+      ],
+      "valueProposition": "For sellers: reach buyers on many apps without paying high marketplace fees or being locked into one platform. For buyers: more choice and sometimes lower prices. For India: a level field where no single company controls online commerce."
+    },
+    "personas": [
+      {"name": "Small local shop or restaurant", "description": "A neighbourhood store or eatery that finds Swiggy, Zomato or Amazon fees too high.", "goals": ["Sell online without paying 25 to 30% commission", "Keep control of customer and pricing"], "frustrations": ["Seller apps are hard to set up", "Few orders come in after incentives ended"]},
+      {"name": "Price-hunting buyer", "description": "Tried ONDC food or groceries on Paytm or Magicpin because it was cheaper.", "goals": ["Lower prices", "Same speed and reliability as big apps"], "frustrations": ["Clunky screens", "Poor support when orders go wrong", "Unclear who to complain to"]},
+      {"name": "Daily commuter", "description": "Books autos on Namma Yatri or metro tickets via an app on ONDC.", "goals": ["Fair fares", "Quick booking"], "frustrations": ["Not always aware it is ONDC", "Driver availability varies"]},
+      {"name": "App builder (network participant)", "description": "A startup or company that builds a buyer or seller app on ONDC.", "goals": ["Get access to many sellers or buyers at once", "Build a business on fees"], "frustrations": ["Low incentives now", "Thin fees make money hard", "Must handle refunds and support across companies"]}
+    ],
+    "painPoints": [
+      {"pain": "Big marketplaces charge sellers 25 to 40% commission.", "howSolved": "Open network with about 8 to 10% fees and near-zero network fee.", "severity": "high"},
+      {"pain": "Sellers are locked into one platform and its rules.", "howSolved": "List once, appear on many buyer apps.", "severity": "high"},
+      {"pain": "Drivers pay high commission on ride apps.", "howSolved": "Mobility on ONDC (like Namma Yatri) uses low or subscription fees for drivers.", "severity": "medium"},
+      {"pain": "Small towns are poorly served by big platforms.", "howSolved": "70% of traffic comes from tier-2 and tier-3 cities; local sellers can join cheaply.", "severity": "medium"},
+      {"pain": "A few companies control data and rules of e-commerce.", "howSolved": "Open protocols and a neutral network run by a non-profit.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Open protocol (Beckn)", "whatItDoes": "Shared technical rules for search, order, pay, track and return.", "whyItMatters": "Lets any app talk to any other app, which is the whole idea."},
+      {"feature": "Participant registry", "whatItDoes": "Lists approved buyer apps, seller apps and logistics partners.", "whyItMatters": "Builds trust that every participant follows the rules."},
+      {"feature": "Open logistics", "whatItDoes": "Any seller can book delivery from any logistics partner on the network.", "whyItMatters": "Small sellers get delivery without their own fleet."},
+      {"feature": "Issue and grievance system (IGM)", "whatItDoes": "A shared process to raise and fix complaints across apps.", "whyItMatters": "Without one company in charge, this is the weakest link for buyers."},
+      {"feature": "Mobility and transit", "whatItDoes": "Ride booking and metro and bus tickets through many apps.", "whyItMatters": "Now the biggest share of volume, with 3 lakh+ daily transit tickets."}
+    ],
+    "userJourneys": [
+      {
+        "name": "Buyer orders food on ONDC",
+        "persona": "Price-hunting buyer",
+        "steps": [
+          {"step": "Opens buyer app", "detail": "Taps the ONDC section inside Paytm or Magicpin."},
+          {"step": "Searches", "detail": "Looks for biryani; sees restaurants from many seller apps."},
+          {"step": "Compares price", "detail": "Finds it ₹40 to ₹60 cheaper than on Swiggy or Zomato."},
+          {"step": "Orders and pays", "detail": "Pays by UPI inside the buyer app."},
+          {"step": "Tracks delivery", "detail": "A logistics partner picked by the seller app delivers it."},
+          {"step": "Raises issue if needed", "detail": "If an item is missing, the complaint passes through buyer app, seller app and ONDC process, often slowly."}
+        ]
+      },
+      {
+        "name": "Shop joins ONDC",
+        "persona": "Small local shop or restaurant",
+        "steps": [
+          {"step": "Picks a seller app", "detail": "Chooses a seller app or POS provider that supports ONDC."},
+          {"step": "Lists products", "detail": "Uploads menu or catalogue with prices and photos."},
+          {"step": "Sets delivery", "detail": "Chooses own delivery or ONDC logistics partner."},
+          {"step": "Goes live", "detail": "Products start showing in buyer apps across the network."},
+          {"step": "Receives order", "detail": "Accepts the order in the seller app and packs it."},
+          {"step": "Gets paid", "detail": "Money is settled after the buyer app and seller app take their fees."}
+        ]
+      },
+      {
+        "name": "Commuter books a metro ticket",
+        "persona": "Daily commuter",
+        "steps": [
+          {"step": "Opens a travel or payment app", "detail": "Picks metro tickets."},
+          {"step": "Selects route", "detail": "Enters from and to stations."},
+          {"step": "Pays", "detail": "Pays by UPI."},
+          {"step": "Gets QR ticket", "detail": "Uses the QR code at the gate."},
+          {"step": "Repeats daily", "detail": "Saves the route for one-tap booking."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "ONDC is a non-profit. It aims to cover its costs from small network fees on transactions, but these fees were postponed for most categories and only started in financial services. It has relied on funding from government-linked banks and institutions.",
+      "revenueStreams": [
+        {"stream": "Network fees", "detail": "A small fee per transaction, planned from December 2024 but postponed for retail. Applies in financial services."},
+        {"stream": "Participant fees", "detail": "Fees for joining and certification of apps."},
+        {"stream": "Funding from shareholders", "detail": "Backed by institutions like SIDBI, NABARD, Bank of Baroda and others."}
+      ],
+      "pricing": "Network fee near zero for most retail. Seller apps and buyer apps set their own commissions; total for sellers is typically about 8 to 10%.",
+      "costDrivers": [
+        "Incentives paid to apps to grow orders (cut from ₹2.5 crore to ₹30 lakh per app in late 2024)",
+        "Tech staff and network operations",
+        "Onboarding and training sellers",
+        "Marketing and awareness"
+      ],
+      "unitEconomics": "ONDC itself earns almost nothing per order. On a ₹300 food order, the seller might pay 8 to 10% (₹24 to ₹30) split between buyer app, seller app and delivery. Delivery alone can cost ₹40 to ₹50. So someone, usually the buyer, pays a delivery fee, or the apps lose money. When ONDC paid incentives, it covered the gap. After incentives were cut, retail orders fell from 6.5 million in October 2024 to 4.6 million in February 2025. ONDC lost ₹147 crore in FY25 on ₹33 crore revenue. Per-order split is an estimate."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Big buyer apps like Paytm, Magicpin and Ola add ONDC sections",
+        "Incentives and discounts paid to apps to drive orders",
+        "Mobility apps like Namma Yatri attract drivers with low fees",
+        "Government push to MSMEs, farmer groups and transit systems"
+      ],
+      "whatBringsUsersBack": [
+        "Lower prices (when apps pass on savings)",
+        "Daily transit and ride use",
+        "Local shops not found on big apps"
+      ],
+      "moat": "ONDC's edge is that it is neutral and government-backed, so any company can join without fearing a rival owns the rules. But a network is only strong if buyers and sellers both show up. Big platforms already have both, plus fast delivery and good support."
+    },
+    "competitors": [
+      {"name": "Amazon and Flipkart", "positioning": "Closed marketplaces with about 83% of e-commerce.", "howThisProductDiffers": "ONDC is open and cheaper for sellers but lacks one company that owns the full experience and fixes problems."},
+      {"name": "Swiggy and Zomato", "positioning": "Food and quick commerce leaders with their own delivery fleets.", "howThisProductDiffers": "ONDC food can be cheaper, but delivery speed and support are weaker."},
+      {"name": "Blinkit, Zepto, Instamart", "positioning": "10-minute grocery delivery from dark stores.", "howThisProductDiffers": "Quick commerce solved the speed problem; ONDC grocery cannot match it yet."},
+      {"name": "Uber and Rapido", "positioning": "Closed ride-hailing platforms.", "howThisProductDiffers": "ONDC mobility apps charge drivers less, which is why mobility grew fastest."}
+    ],
+    "northStar": {
+      "metric": "Successful orders per month across the network (delivered without complaint)",
+      "why": "ONDC only works if real orders reach buyers well. Counting successful, complaint-free orders shows both scale and quality, not just clicks or listings."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "People placing at least one ONDC order a month.",
+        "children": [
+          {"metric": "Buyer apps live", "description": "More apps means more entry points."},
+          {"metric": "Repeat purchase rate", "description": "Buyers who order again within 30 days."},
+          {"metric": "Price gap vs big platforms", "description": "Buyers come for lower prices."}
+        ]
+      },
+      {
+        "metric": "Active sellers",
+        "description": "Sellers who get at least one order a month.",
+        "children": [
+          {"metric": "Seller onboarding time", "description": "Faster setup brings more sellers."},
+          {"metric": "Orders per seller", "description": "Sellers leave if orders do not come."},
+          {"metric": "Catalogue quality score", "description": "Good photos, prices and stock info."}
+        ]
+      },
+      {
+        "metric": "Order success",
+        "description": "Orders completed as promised.",
+        "children": [
+          {"metric": "Delivery time", "description": "Must compete with big apps."},
+          {"metric": "Cancellation rate", "description": "Cancellations break trust."},
+          {"metric": "Complaint resolution time", "description": "Key weakness today."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Complaint rate per 1,000 orders",
+      "Refund time",
+      "Incentive spend per order",
+      "Seller churn"
+    ],
+    "strengths": [
+      "Government backing and neutrality",
+      "Much lower fees for sellers and drivers",
+      "Fast growth in mobility and transit",
+      "Reach in 1,000 cities and strong tier-2 and tier-3 use"
+    ],
+    "weaknesses": [
+      "Retail orders fell after incentives were cut",
+      "Clunky experience: more than half of surveyed users found it hard to use",
+      "No single owner for customer support and refunds",
+      "Has not started charging most network fees, so it depends on funding",
+      "Leadership churn: chair, CEO and CBO left in 2024 and 2025"
+    ],
+    "risks": [
+      "Big apps exit or scale down (PhonePe Pincode left, Paytm removed its icon)",
+      "Quick commerce raises buyer expectations beyond what ONDC sellers can deliver",
+      "Gaps in data privacy and dispute rules",
+      "Political priorities could change support"
+    ],
+    "userComplaints": [
+      "App screens are clunky and hard to use (about 54% in one survey)",
+      "Poor customer service (about 35% in one survey)",
+      "Orders cancelled or delayed",
+      "Unclear who to contact when something goes wrong",
+      "Prices rose once discounts ended"
+    ],
+    "improvementIdeas": [
+      {"idea": "One-stop complaint desk with fixed refund timelines", "problem": "Buyers do not know who to complain to.", "expectedImpact": "Faster fixes, more trust, more repeat orders.", "metricToTrack": "Complaint resolution time", "effort": "medium"},
+      {"idea": "Quality badge for seller apps and sellers", "problem": "Experience varies a lot across apps.", "expectedImpact": "Buyer apps show top-rated sellers first, lowering cancellations.", "metricToTrack": "Cancellation rate", "effort": "low"},
+      {"idea": "Focus on categories where open wins (mobility, transit, local services)", "problem": "Retail and food compete with strong, fast incumbents.", "expectedImpact": "Grow where low fees clearly help.", "metricToTrack": "Monthly successful orders by category", "effort": "low"},
+      {"idea": "Small, clear network fee with seller savings shown", "problem": "ONDC has no steady income.", "expectedImpact": "Self-funding without hurting sellers.", "metricToTrack": "Network fee revenue and seller churn", "effort": "medium"},
+      {"idea": "Shared delivery hubs in tier-2 cities", "problem": "Delivery costs and speed hurt retail.", "expectedImpact": "Lower delivery cost per order.", "metricToTrack": "Delivery cost per order", "effort": "high"}
+    ],
+    "pmLessons": [
+      "An open network needs a great experience on top. Lower fees alone do not beat fast, reliable apps.",
+      "Subsidies can create fake growth. When incentives stopped, retail orders dropped.",
+      "The UPI comparison has limits: payments are one simple action, but shopping has stock, delivery, returns and support.",
+      "Pick the use cases where your model clearly wins. ONDC found that in rides and transit, not in food."
+    ],
+    "interviewQuestions": [
+      {"question": "Why did UPI succeed but ONDC struggle in retail?", "hint": "Compare complexity (one action vs many steps), pain point (cash vs already-good apps), time with zero fees (8 years vs 2), and who owns support."},
+      {"question": "What should ONDC's north star metric be?", "hint": "Successful, complaint-free orders per month. Explain why GMV or seller count alone can mislead."},
+      {"question": "You are PM at Paytm. Should you keep ONDC in your app?", "hint": "Look at orders, margin per order, support costs and brand risk. Consider keeping only categories that perform."},
+      {"question": "How would you fix buyer trust on ONDC?", "hint": "Map the complaint journey across buyer app, seller app and logistics. Suggest a single desk, refund SLAs and seller ratings."},
+      {"question": "Why did mobility grow faster than food on ONDC?", "hint": "Rides are simple, drivers gain a lot from low fees, and quality is easy to judge. Food needs stock, packing and delivery coordination."}
+    ],
+    "glossary": [
+      {"term": "Open network", "meaning": "A system where any approved company can connect using shared rules, instead of one company controlling it."},
+      {"term": "Protocol", "meaning": "A shared set of technical rules that lets different apps talk to each other."},
+      {"term": "Buyer app", "meaning": "The app a customer uses to search and order on ONDC."},
+      {"term": "Seller app", "meaning": "The app a shop uses to list products and take ONDC orders."},
+      {"term": "UPI", "meaning": "India's instant payment system that works across any bank and any payment app."},
+      {"term": "Commission", "meaning": "The share of each sale a platform keeps as its fee."},
+      {"term": "Incentives", "meaning": "Money paid to apps or users to encourage orders."},
+      {"term": "GMV", "meaning": "Gross merchandise value: the total value of goods sold through a platform."},
+      {"term": "Quick commerce", "meaning": "Grocery delivery in 10 to 30 minutes from small local warehouses called dark stores."},
+      {"term": "North star metric", "meaning": "The one number that best shows a product gives real value to users."},
+      {"term": "Moat", "meaning": "Something that makes it hard for competitors to copy you or take your users."},
+      {"term": "Guardrail metric", "meaning": "A number you watch to make sure a change does not cause harm elsewhere."},
+      {"term": "SLA", "meaning": "Service level agreement: a promised time or standard, like refunds within 3 days."},
+      {"term": "Unit economics", "meaning": "How much money is made or lost on one order or one customer."}
+    ],
+    "assumptions": [
+      "The per-order fee split and delivery cost are estimates based on public commission ranges.",
+      "The 218 million FY26 transactions and 9 million monthly figures may use different definitions.",
+      "Shareholder names are from widely reported ONDC backers; exact current list not checked.",
+      "User complaint shares come from 2025 surveys and may have changed."
+    ]
+  }
+}

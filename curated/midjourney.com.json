@@ -1,0 +1,388 @@
+{
+  "company": "Midjourney",
+  "domain": "midjourney.com",
+  "website": "https://midjourney.com",
+  "sources": [
+    "https://valueaddvc.com/blog/how-does-midjourney-make-money-500m-arr-zero-funding-and-the-ai-image-business-model-explained",
+    "https://sacra.com/c/midjourney/",
+    "https://bdnews24.com/business/f426cbe85c44",
+    "https://www.deeplearning.ai/the-batch/disney-and-universal-sue-midjourney-alleging-the-image-generator-violates-their-intellectual-property-rights",
+    "https://dev.to/andrew-ooo/how-midjourney-generates-3-million-per-employee-with-zero-vc-funding-and-no-marketing-budget-594l"
+  ],
+  "report": {
+    "company": "Midjourney",
+    "tagline": "A paid AI tool that turns a short text description into striking, art-quality images and short videos.",
+    "category": "AI images",
+    "simpleSummary": "You type what you want to see, like 'a tiger in a Mumbai street at sunset, oil painting', and Midjourney makes four images in seconds. You pick one, tweak it, and download it. It started inside Discord, a chat app, and now also has its own website. It has no free plan, about 40 staff, no outside investors, and still makes hundreds of millions of dollars a year.",
+    "keyNumbers": [
+      {
+        "label": "Annual revenue run rate",
+        "value": "About $500 million (mid 2026)",
+        "note": "Analyst estimate. Midjourney does not publish numbers. The Disney lawsuit said $300M for the prior year (2024)."
+      },
+      {
+        "label": "Employees",
+        "value": "About 40",
+        "note": "Multiple reports, 2026. That is roughly $12M of revenue per person."
+      },
+      {
+        "label": "Outside funding",
+        "value": "$0",
+        "note": "Founder David Holz has turned down venture capital. Profitable within about six months of public launch in 2022."
+      },
+      {
+        "label": "Community size",
+        "value": "About 20 million+ Discord members",
+        "note": "Estimate from public Discord server counts; not all are paying or active."
+      },
+      {
+        "label": "Estimated valuation",
+        "value": "About $10 billion",
+        "note": "Research firm estimate, not a priced funding round. Treat as rough."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Midjourney makes images from text. You describe a scene, a style and a mood, and it draws it for you. It is known for images that look artistic and polished by default. It now also edits images and turns them into short video clips.",
+      "howItWorks": [
+        "You write a prompt, which is a short text description, on the website or with the /imagine command in Discord.",
+        "Midjourney makes a grid of four options in a few seconds.",
+        "You upscale (make bigger and sharper) the one you like, or create variations of it.",
+        "You can add reference images to copy a style or a character's look.",
+        "Each plan gives a set number of fast GPU hours a month; Standard and higher also allow slower unlimited 'Relax' mode.",
+        "Images are public in a gallery by default, unless you pay for Pro or Mega to use Stealth mode."
+      ],
+      "valueProposition": "Beautiful, art-quality images from a sentence, cheaper and faster than hiring an artist for a rough idea."
+    },
+    "personas": [
+      {
+        "name": "Freelance designer",
+        "description": "A designer who makes mood boards, concept art and social posts for clients.",
+        "goals": [
+          "Show clients many ideas quickly",
+          "Get a consistent style across a project",
+          "Keep client work private"
+        ],
+        "frustrations": [
+          "Hands, text and small details still go wrong sometimes",
+          "Hard to get the exact same character in every image",
+          "Stealth mode needs the $60 plan"
+        ]
+      },
+      {
+        "name": "Hobby creator",
+        "description": "Someone who makes AI art for fun, for wallpapers, stories or Instagram.",
+        "goals": [
+          "Make cool images without drawing skills",
+          "Share and get likes",
+          "Learn prompt tricks from others"
+        ],
+        "frustrations": [
+          "No free plan to try",
+          "Prompt words feel like a secret code",
+          "Monthly fast hours run out"
+        ]
+      },
+      {
+        "name": "Marketing team at a small brand",
+        "description": "A two-person team making ad visuals and blog images on a small budget.",
+        "goals": [
+          "Cut the cost of stock photos and shoots",
+          "Make many ad versions to test",
+          "Stay legally safe"
+        ],
+        "frustrations": [
+          "Unclear legal risk after the Disney and Universal lawsuit",
+          "No team accounts with simple admin and billing",
+          "No official API to plug into their tools"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Hiring an illustrator for early ideas is slow and costly",
+        "howSolved": "Four options in seconds for a monthly fee starting at $10.",
+        "severity": "high"
+      },
+      {
+        "pain": "Stock photos look generic",
+        "howSolved": "Custom images in any style, made for the exact idea.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Most AI images look plain without careful prompts",
+        "howSolved": "Midjourney's models add an artistic look by default, so even simple prompts look good.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Keeping a style or character consistent across images",
+        "howSolved": "Style and image references let you reuse a look.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Not knowing what to make",
+        "howSolved": "The public gallery shows other people's images and prompts to copy and learn from.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Text to image",
+        "whatItDoes": "Turns a prompt into four images. V8.1 became the default model in June 2026, making images in about 4 seconds.",
+        "whyItMatters": "The core reason people pay. Image quality is the product."
+      },
+      {
+        "feature": "Variations and upscale",
+        "whatItDoes": "Make new versions of an image you like, or a bigger, sharper version.",
+        "whyItMatters": "Lets users steer toward what they want without writing better prompts."
+      },
+      {
+        "feature": "Style and image references",
+        "whatItDoes": "Upload images to copy a style or a character's look. The V8.2 edit model takes up to four references.",
+        "whyItMatters": "Solves consistency, which professionals need for real projects."
+      },
+      {
+        "feature": "Image editor and video",
+        "whatItDoes": "Edit parts of an image and turn a still image into a short animated clip.",
+        "whyItMatters": "Keeps users from leaving for rival video tools."
+      },
+      {
+        "feature": "Public gallery and Discord community",
+        "whatItDoes": "Everyone can see others' images and prompts, and chat in Discord.",
+        "whyItMatters": "Free marketing and free teaching. New users learn by copying."
+      },
+      {
+        "feature": "Stealth mode",
+        "whatItDoes": "Keeps your images private. Only on Pro ($60) and Mega ($120).",
+        "whyItMatters": "A clear reason for professionals to pay more."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First image",
+        "persona": "Hobby creator",
+        "steps": [
+          { "step": "Sees images online", "detail": "Finds a stunning Midjourney image on Instagram or Reddit." },
+          { "step": "Visits the site", "detail": "Logs in and browses the Explore gallery." },
+          { "step": "Hits the paywall", "detail": "Learns there is no free plan and picks Basic at $10." },
+          { "step": "Writes a prompt", "detail": "Copies a prompt from the gallery and changes a few words." },
+          { "step": "Gets four images", "detail": "Picks one and upscales it." },
+          { "step": "Shares", "detail": "Posts it online, which brings in the next user." }
+        ]
+      },
+      {
+        "name": "Client concept work",
+        "persona": "Freelance designer",
+        "steps": [
+          { "step": "Gets a brief", "detail": "Client wants a cafe logo and interior mood board." },
+          { "step": "Sets a style", "detail": "Uploads reference images for a warm, retro look." },
+          { "step": "Generates many options", "detail": "Runs 20 to 30 prompts in an hour." },
+          { "step": "Refines", "detail": "Uses variations and the editor to fix details." },
+          { "step": "Keeps it private", "detail": "Upgrades to Pro for Stealth mode." },
+          { "step": "Presents", "detail": "Puts the best images in a deck for the client." }
+        ]
+      },
+      {
+        "name": "Ad visual testing",
+        "persona": "Marketing team at a small brand",
+        "steps": [
+          { "step": "Plans a campaign", "detail": "Needs 10 visuals for a festive sale." },
+          { "step": "Makes base images", "detail": "Generates product scene ideas." },
+          { "step": "Edits in other tools", "detail": "Adds logo and text in Canva or Photoshop, because Midjourney text is not reliable." },
+          { "step": "Checks legal risk", "detail": "Avoids anything that looks like a known character." },
+          { "step": "Runs ads", "detail": "Tests the visuals on Instagram." },
+          { "step": "Comes back", "detail": "Repeats each month, which keeps the subscription going." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Midjourney makes money almost only from monthly subscriptions. There is no free plan and no ad money. A small licensing deal with Meta adds extra. The team is tiny, so most money left after GPU costs is profit.",
+      "revenueStreams": [
+        { "stream": "Basic and Standard plans", "detail": "$10 and $30 a month. Most of the paying base. Estimated about 70% of revenue." },
+        { "stream": "Pro and Mega plans", "detail": "$60 and $120 a month for heavy users and agencies. Estimated about 20% of revenue." },
+        { "stream": "Licensing", "detail": "August 2025 deal giving Meta access to its image and video tech for undisclosed fees. Estimated about 10% with other income." }
+      ],
+      "pricing": "Basic $10, Standard $30, Pro $60, Mega $120 per month. 20% off if paid yearly. No free trial since 2023.",
+      "costDrivers": [
+        "GPUs (graphics chips) to train and run the models",
+        "A small team of about 40 people, mostly researchers and engineers",
+        "Legal costs from the Disney, Universal and artist lawsuits",
+        "Almost no marketing or sales spending"
+      ],
+      "unitEconomics": "Take a Standard user paying $30 a month. They get 15 fast GPU hours. Most people do not use all of them, and Relax mode runs when chips are free. If the real GPU cost is $8 to $12 for that user, Midjourney keeps about $18 to $22 before staff. Since it spends almost nothing on ads, CAC, the cost to get a new customer, is close to zero. That is why it is profitable with no investors."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "People sharing images on social media, often with the Midjourney look people recognise",
+        "Discord server where anyone can watch others create",
+        "Public gallery that shows prompts, so new users see what is possible",
+        "Press coverage of viral AI images"
+      ],
+      "whatBringsUsersBack": [
+        "Monthly subscription with fast hours to use up",
+        "New model versions every few months",
+        "Ongoing projects that need more images",
+        "Community events and themes in Discord"
+      ],
+      "moat": "Its moat is taste: its models make good-looking images with little effort, and its brand stands for quality. The community and years of user ratings help improve its models. But rivals like Google, OpenAI and open models are catching up fast, so the moat is thinner each year."
+    },
+    "competitors": [
+      { "name": "ChatGPT image generation (OpenAI)", "positioning": "Image making inside a chatbot millions already use, good at following instructions and text.", "howThisProductDiffers": "Midjourney is a dedicated art tool with a stronger artistic style and more controls." },
+      { "name": "Google Gemini image models (Nano Banana)", "positioning": "Fast image creation and editing inside Gemini, often free.", "howThisProductDiffers": "Midjourney charges for everything and wins on look, not price." },
+      { "name": "Adobe Firefly", "positioning": "AI images built into Photoshop, trained on licensed content for business safety.", "howThisProductDiffers": "Midjourney looks better to many users but carries more legal risk." },
+      { "name": "Stable Diffusion and Flux (open models)", "positioning": "Free models you can run yourself with full control.", "howThisProductDiffers": "Midjourney is easy and polished; open models need technical skill." }
+    ],
+    "northStar": {
+      "metric": "Images that users save, upscale or download per week.",
+      "why": "An image someone keeps means Midjourney gave them something they wanted. It is better than raw images made, which includes failed tries."
+    },
+    "kpiTree": [
+      {
+        "metric": "Paying active users",
+        "description": "How many people pay and create each week.",
+        "children": [
+          { "metric": "New subscriptions per week", "description": "New paying users, mostly from social sharing." },
+          { "metric": "Monthly churn", "description": "Churn is the share of paying users who cancel each month." },
+          { "metric": "Plan upgrades", "description": "Users moving from Basic to Standard or Pro." }
+        ]
+      },
+      {
+        "metric": "Hit rate per prompt",
+        "description": "How often a prompt gives an image the user keeps.",
+        "children": [
+          { "metric": "Grids to first upscale", "description": "Fewer tries to a good image means better quality." },
+          { "metric": "Prompt-following score", "description": "How well images match what was asked." },
+          { "metric": "Reference use success", "description": "How often style or character references work as expected." }
+        ]
+      },
+      {
+        "metric": "Sessions per paying user",
+        "description": "How often people come back to create.",
+        "children": [
+          { "metric": "Weekly active days", "description": "Days a user creates something." },
+          { "metric": "Gallery to create rate", "description": "Share of gallery visits that lead to a new prompt." }
+        ]
+      },
+      {
+        "metric": "Cost per kept image",
+        "description": "GPU spend for every image a user saves.",
+        "children": [
+          { "metric": "GPU seconds per grid", "description": "Faster models reduce cost." },
+          { "metric": "Relax mode share", "description": "More use in Relax mode uses idle chips and lowers cost." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Images flagged for copying copyrighted characters",
+      "Harmful or fake images of real people",
+      "Average wait time for fast jobs",
+      "Monthly churn"
+    ],
+    "strengths": [
+      "Best-known for image quality and artistic style",
+      "Profitable and fully owned by its team, with no investor pressure",
+      "Tiny team with very high revenue per person",
+      "Free word-of-mouth marketing from shared images"
+    ],
+    "weaknesses": [
+      "No free tier, so many people try rivals first",
+      "Weak at text in images and exact instructions compared with some rivals",
+      "No public API for businesses to build on",
+      "Depends almost fully on consumer subscriptions"
+    ],
+    "risks": [
+      "Disney and Universal copyright lawsuit filed June 2025, plus an ongoing artists' lawsuit",
+      "Big tech giving image tools away free inside ChatGPT, Gemini and Meta apps",
+      "Open models getting good enough for most users",
+      "Rules on AI-made content and deepfakes"
+    ],
+    "userComplaints": [
+      "No free trial to test before paying",
+      "Fast hours run out too quickly",
+      "Hard to get the exact same character across images",
+      "Images are public unless you pay for Pro",
+      "Text and hands sometimes come out wrong"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Small free trial of 10 to 25 images on the website",
+        "problem": "No free plan sends new users to free rivals",
+        "expectedImpact": "More sign-ups that turn into paid plans",
+        "metricToTrack": "Trial to paid conversion rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Saved characters with a name you can reuse in any prompt",
+        "problem": "Character consistency is hard",
+        "expectedImpact": "More pro and storytelling use, higher retention",
+        "metricToTrack": "Share of prompts using a saved character and churn of those users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Team plan with shared billing, folders and private images",
+        "problem": "Small teams and agencies have no clean way to pay and share",
+        "expectedImpact": "Higher revenue per account and lower churn",
+        "metricToTrack": "Team plan revenue per month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Copyright warning that flags prompts close to famous characters",
+        "problem": "Legal risk for users and for Midjourney",
+        "expectedImpact": "Fewer risky images and a stronger legal position",
+        "metricToTrack": "Share of flagged images and lawsuits or takedown notices",
+        "effort": "medium"
+      },
+      {
+        "idea": "Official API for businesses",
+        "problem": "Companies cannot plug Midjourney into their tools",
+        "expectedImpact": "New business revenue stream",
+        "metricToTrack": "API revenue and number of business customers",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A product that is clearly better can grow with zero marketing, because users share the output.",
+      "Charging from day one tells you fast if people value it. No free plan kept Midjourney profitable.",
+      "Start where your users already hang out. Launching in Discord gave Midjourney a community without building one.",
+      "Keep the team small and focused on the one thing that matters most, here image quality.",
+      "Legal risk over training data can become a product risk. Plan for it early."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Should Midjourney launch a free tier?",
+        "hint": "Weigh more top-of-funnel users against GPU cost and brand. Suggest a small capped trial and measure trial to paid conversion and cost per new paid user."
+      },
+      {
+        "question": "Midjourney launched in Discord. Why, and was it a good choice?",
+        "hint": "Talk about fast launch, built-in community, and public learning. Then the downsides: confusing for normal users, no control of the experience. Explain why a web app came later."
+      },
+      {
+        "question": "ChatGPT and Gemini now make images for free. How should Midjourney respond?",
+        "hint": "Do not compete on price. Double down on quality, pro features like consistency and editing, and maybe team plans. Name metrics like churn and upgrade rate."
+      },
+      {
+        "question": "What north star metric would you pick for Midjourney?",
+        "hint": "Images kept or downloaded per week. Explain why not images generated or revenue. Add guardrails like copyright flags and wait time."
+      },
+      {
+        "question": "How would you design a video product for Midjourney?",
+        "hint": "Start with users (designers, social creators), the job (short clips from images), costs (video uses far more GPU), and pricing by seconds of video."
+      }
+    ],
+    "glossary": [
+      { "term": "Prompt", "meaning": "The text description you type to tell the AI what to make." },
+      { "term": "Annual revenue run rate", "meaning": "Current monthly revenue multiplied by 12, to show yearly size." },
+      { "term": "GPU", "meaning": "A powerful computer chip used to train and run AI models." },
+      { "term": "Upscale", "meaning": "Make an image bigger and sharper." },
+      { "term": "CAC", "meaning": "Customer acquisition cost, the money spent to win one new paying customer." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a given month." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "API", "meaning": "A way for other software to use a product's features directly through code." },
+      { "term": "North star metric", "meaning": "The one number a team picks to show whether users are getting real value." }
+    ],
+    "assumptions": [
+      "Revenue and valuation are analyst estimates; Midjourney publishes no financials.",
+      "GPU cost per Standard user ($8 to $12) is our rough estimate.",
+      "Discord member count is not the same as paying or active users."
+    ]
+  }
+}

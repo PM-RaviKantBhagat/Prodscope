@@ -1,0 +1,265 @@
+{
+  "company": "Naukri",
+  "domain": "naukri.com",
+  "website": "https://naukri.com",
+  "sources": [
+    "https://yourstory.com/2026/05/info-edges-investment-bets-power-profit-surge-core-recruitment-business-holds-firm",
+    "https://www.angelone.in/news/stocks/info-edge-share-price-in-focus-as-naukri-scales-ai-powered-recruitment-solutions-across-enterprises-and-jobseekers",
+    "https://www.infoedge.in/pdfs/financial_pdfs/f_Earnings/investor-concall-transcript-28May2026.pdf",
+    "https://www.naukri.com/recruit/premiumX",
+    "https://internshala.com/blog/naukri-job-posting-price/"
+  ],
+  "report": {
+    "company": "Naukri",
+    "tagline": "India's biggest job site, free for job seekers and paid by recruiters who want to find and reach candidates.",
+    "category": "Jobs",
+    "simpleSummary": "Naukri is where most Indian office workers keep their CV. Job seekers upload a profile for free and apply to jobs. Companies and recruitment agencies pay Naukri to post jobs and to search its giant CV database. Because almost everyone is already there, recruiters keep paying and Naukri makes very high profits.",
+    "keyNumbers": [
+      { "label": "Candidate profiles", "value": "11.8 crore+", "note": "Info Edge, July 2026. About 25,000 new profiles added daily." },
+      { "label": "Monthly active users", "value": "About 1.3 crore", "note": "Info Edge, July 2026." },
+      { "label": "Recruitment revenue (Q4 FY26)", "value": "₹608 crore, up 12%", "note": "Info Edge results via YourStory. Full-year FY26 recruitment revenue is an estimate of about ₹2,300 crore." },
+      { "label": "Info Edge total revenue (FY26)", "value": "₹3,285 crore, up 15%", "note": "Consolidated, includes 99acres, Jeevansathi and Shiksha. Naukri is the bulk of it." },
+      { "label": "Traffic share among job sites", "value": "75%+", "note": "Info Edge claim, FY26." },
+      { "label": "AI spend", "value": "About ₹70 crore in FY26, about ₹150 crore planned in FY27", "note": "Company statement, July 2026." }
+    ],
+    "overview": {
+      "whatItDoes": "Naukri is an online jobs board run by Info Edge since 1997. Job seekers create profiles, search jobs and apply for free. Recruiters pay to post jobs, search CVs (a tool called Resdex) and use AI tools to screen and contact candidates. It also sells paid boosts and AI tools to job seekers.",
+      "howItWorks": [
+        "Job seekers make a free profile with CV, skills, salary and notice period.",
+        "Recruiters buy job posting packs and Resdex access to search CVs by skills, city and experience.",
+        "Naukri matches jobs and candidates and sends alerts by app, email and WhatsApp.",
+        "AI-Rex helps recruiters search, screen, message and shortlist candidates.",
+        "Job seekers can pay for Naukri FastForward style boosts, AI Resume Maker and AI Mock Interview tools.",
+        "Premium brands like iimjobs, hirist and PremiumX serve senior and tech hiring."
+      ],
+      "valueProposition": "For recruiters: the largest pool of Indian white-collar candidates in one place, so they can fill roles fast. For job seekers: free access to most openings and a chance to be found by recruiters without applying."
+    },
+    "personas": [
+      {
+        "name": "Mid-level IT professional",
+        "description": "A 4-year experienced Java developer in Hyderabad looking for a 30% hike.",
+        "goals": ["Get calls from good companies", "Know market salary", "Switch fast during notice period"],
+        "frustrations": ["Fake or old job posts", "Spam calls from agencies", "Applying gets no reply"]
+      },
+      {
+        "name": "Fresher",
+        "description": "A final-year B.Com or B.Tech student in a tier-2 city.",
+        "goals": ["First job", "Know which skills employers want", "Prepare for interviews"],
+        "frustrations": ["Most jobs ask for experience", "Paid services feel like a scam", "Profile gets lost among lakhs"]
+      },
+      {
+        "name": "Recruiter at a staffing agency",
+        "description": "Fills 20 roles a month for client companies and is paid per hire.",
+        "goals": ["Find matching CVs fast", "Reach candidates who reply", "Lower cost per hire"],
+        "frustrations": ["Outdated CVs and wrong numbers", "Candidates don't pick up calls", "Price of Resdex"]
+      },
+      {
+        "name": "HR head at a large company",
+        "description": "Runs hiring for hundreds of roles a year at a bank or IT services firm.",
+        "goals": ["Fill roles at scale", "Salary benchmarks", "Employer brand"],
+        "frustrations": ["Too many unfit applicants", "Hard to reach passive candidates", "Tool overload"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Job seekers don't know where all openings are.", "howSolved": "One site with most white-collar jobs and job alerts.", "severity": "high" },
+      { "pain": "Recruiters can't find enough relevant candidates quickly.", "howSolved": "Resdex search across 11.8 crore profiles with filters.", "severity": "high" },
+      { "pain": "Screening hundreds of applications takes time.", "howSolved": "AI-Rex ranks, screens and messages candidates.", "severity": "medium" },
+      { "pain": "Good candidates who aren't actively looking are hard to reach.", "howSolved": "Profiles stay searchable, and PremiumX targets verified senior profiles.", "severity": "medium" },
+      { "pain": "Freshers don't know how to write a CV or face interviews.", "howSolved": "AI Resume Maker and AI Mock Interview tools.", "severity": "low" },
+      { "pain": "Companies don't know market salary levels.", "howSolved": "Talent Pulse gives salary and talent data.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Resdex (CV database)", "whatItDoes": "Lets paid recruiters search and contact candidates directly.", "whyItMatters": "The main money maker. Recruiters pay because the database is the biggest." },
+      { "feature": "Job postings", "whatItDoes": "Paid listings that reach job seekers through search and alerts.", "whyItMatters": "Brings applications to employers and fresh activity to job seekers." },
+      { "feature": "AI-Rex", "whatItDoes": "AI recruiter assistant for search, screening, outreach and shortlisting.", "whyItMatters": "Used by 4,000+ firms. It makes recruiters faster and gives a reason to pay more." },
+      { "feature": "Job alerts and recommendations", "whatItDoes": "Sends matching jobs by app, email and WhatsApp.", "whyItMatters": "Keeps job seekers coming back and keeps profiles fresh." },
+      { "feature": "Paid job seeker tools", "whatItDoes": "Profile boosts, AI resume and mock interviews.", "whyItMatters": "Small extra income from the supply side." },
+      { "feature": "Talent Pulse", "whatItDoes": "Salary benchmarks and talent availability reports.", "whyItMatters": "Sells data to 600+ companies and deepens big-client ties." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Switching jobs",
+        "persona": "Mid-level IT professional",
+        "steps": [
+          { "step": "Update profile", "detail": "Changes title, skills, salary and notice period. This pushes the profile up in recruiter search." },
+          { "step": "Get recruiter calls", "detail": "Recruiters find the profile in Resdex and call or message." },
+          { "step": "Search and apply", "detail": "Applies to jobs with filters for salary and city." },
+          { "step": "Track applications", "detail": "Checks which recruiters viewed the profile." },
+          { "step": "Interview", "detail": "Talks to shortlisted companies." },
+          { "step": "Accept offer", "detail": "Joins the new job and may go quiet on Naukri until the next switch." }
+        ]
+      },
+      {
+        "name": "Filling a role",
+        "persona": "Recruiter at a staffing agency",
+        "steps": [
+          { "step": "Buy pack", "detail": "Buys job posting credits and Resdex access." },
+          { "step": "Post job", "detail": "Writes a job description and publishes." },
+          { "step": "Search Resdex", "detail": "Filters CVs by skills, experience and location." },
+          { "step": "Use AI-Rex", "detail": "AI screens and sends outreach to a shortlist." },
+          { "step": "Call candidates", "detail": "Calls those who reply." },
+          { "step": "Submit to client", "detail": "Shares shortlisted CVs and books interviews." },
+          { "step": "Renew", "detail": "Renews the subscription if hires happened." }
+        ]
+      },
+      {
+        "name": "First job search",
+        "persona": "Fresher",
+        "steps": [
+          { "step": "Sign up", "detail": "Creates profile with education and skills." },
+          { "step": "Build CV", "detail": "Uses AI Resume Maker." },
+          { "step": "Apply", "detail": "Applies to fresher jobs." },
+          { "step": "Practice", "detail": "Tries AI Mock Interview." },
+          { "step": "Get shortlisted", "detail": "Hears back from a few companies." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Naukri is freemium: job seekers use it free, and recruiters pay. Most money comes from companies and agencies buying subscriptions for job posts and CV database search. A small share comes from job seekers buying boosts and AI tools.",
+      "revenueStreams": [
+        { "stream": "Recruiter subscriptions", "detail": "Resdex CV search and job posting packs sold to companies and agencies. The biggest stream." },
+        { "stream": "Enterprise products", "detail": "AI-Rex, PremiumX, Talent Pulse and employer branding sold to large firms." },
+        { "stream": "Job seeker services", "detail": "Profile boosts, resume writing, AI tools." },
+        { "stream": "Niche job sites", "detail": "iimjobs, hirist and Naukri Top Tier for senior and tech roles." }
+      ],
+      "pricing": "Single job posts cost roughly ₹400 to ₹1,650 depending on type (standard, classified, hot vacancy). Resdex starts at a few thousand rupees for small packs. Large firms sign custom annual deals. Prices change often, so these are approximate.",
+      "costDrivers": [
+        "Staff, especially a large sales team that sells to SMEs and agencies",
+        "Advertising to job seekers (Info Edge spent ₹118 crore on ads in Q4 FY26 across brands)",
+        "Tech and AI build-out (₹150 crore planned in FY27)",
+        "Servers and data"
+      ],
+      "unitEconomics": "Take one small recruiter paying around ₹50,000 a year. Naukri's cost to serve them is mostly sales effort and servers, because the candidates are already there and job seekers bring themselves. So a large part of that ₹50,000 becomes profit. Naukri's recruitment arm has long run at an operating margin of over 50%, meaning more than ₹50 of every ₹100 is left after costs. This margin figure is from past Info Edge results, so treat it as an estimate for FY26."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google searches for jobs, where Naukri ranks high",
+        "Brand built over 25+ years with TV ads",
+        "College and fresher drives",
+        "Word of mouth among colleagues",
+        "Recruiters are found by Naukri's sales team city by city"
+      ],
+      "whatBringsUsersBack": [
+        "Job alerts and recruiter messages",
+        "Seeing who viewed your profile",
+        "Job switches every 2 to 3 years in IT and services",
+        "Recruiters renew because hires come from the database"
+      ],
+      "moat": "A two-sided network: recruiters pay because the candidates are there, and candidates stay because recruiters are there. With 11.8 crore profiles and 25 years of data, a new job site cannot match its database or search quality quickly. Strong profits also let Naukri spend more on AI than rivals."
+    },
+    "competitors": [
+      { "name": "LinkedIn", "positioning": "Professional network with jobs, used heavily for senior and global roles.", "howThisProductDiffers": "Naukri has more mid-level and mass hiring in India and a cheaper, search-first database, while LinkedIn wins on networking and passive senior talent." },
+      { "name": "Indeed", "positioning": "Global job search engine with free and paid posts.", "howThisProductDiffers": "Naukri has deeper Indian CV data and a strong recruiter sales team." },
+      { "name": "Apna and WorkIndia", "positioning": "Apps for blue-collar and entry-level jobs in local languages.", "howThisProductDiffers": "Naukri focuses on white-collar jobs and is weaker for delivery, retail and factory roles." },
+      { "name": "foundit (formerly Monster India)", "positioning": "Older job board with a similar model.", "howThisProductDiffers": "Naukri has much bigger traffic and profiles." }
+    ],
+    "northStar": {
+      "metric": "Number of successful recruiter to candidate connections per month (a recruiter contact that gets a reply or interview)",
+      "why": "It shows both sides are getting value: candidates hear from real employers and recruiters reach people who respond. Hires follow from these connections, and renewals follow hires."
+    },
+    "kpiTree": [
+      {
+        "metric": "Fresh, active candidate supply",
+        "description": "Recruiters need up-to-date profiles.",
+        "children": [
+          { "metric": "Profiles updated in last 90 days", "description": "Fresh profiles get more replies." },
+          { "metric": "New profiles per day", "description": "About 25,000 now; grows the pool." },
+          { "metric": "Monthly active job seekers", "description": "People who will reply to recruiters." }
+        ]
+      },
+      {
+        "metric": "Recruiter activity",
+        "description": "How much recruiters search and reach out.",
+        "children": [
+          { "metric": "Paying recruiter accounts", "description": "Core of revenue." },
+          { "metric": "Searches and contacts per recruiter", "description": "Shows the tool is used, which predicts renewal." },
+          { "metric": "AI-Rex mandates processed", "description": "Up 3.7x Feb to June 2026." }
+        ]
+      },
+      {
+        "metric": "Match quality",
+        "description": "Whether the right people meet.",
+        "children": [
+          { "metric": "Reply rate to recruiter messages", "description": "Directly feeds the north star." },
+          { "metric": "Application to shortlist rate", "description": "Better matching means fewer junk applications." }
+        ]
+      },
+      {
+        "metric": "Recruiter renewal",
+        "description": "Retention means keeping paying customers year after year.",
+        "children": [
+          { "metric": "Renewal rate of subscriptions", "description": "Shows recruiters got value." },
+          { "metric": "Revenue per recruiter", "description": "Upsell to AI tools and bigger packs." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Spam or fraud reports from job seekers",
+      "Share of fake or expired job posts",
+      "Job seeker unsubscribes from alerts",
+      "Recruiter churn among small businesses"
+    ],
+    "strengths": [
+      "Clear market leader with 75%+ traffic share among job sites",
+      "Very high margins and cash to invest in AI",
+      "Huge CV database built over 25 years",
+      "Strong sales team that reaches SMEs and agencies across India",
+      "Early AI products already paid for by customers"
+    ],
+    "weaknesses": [
+      "Growth tied to IT hiring, which goes up and down",
+      "Job seeker experience has spam calls and fake job posts",
+      "Weak in blue-collar and gig jobs",
+      "Looks dated next to LinkedIn for senior talent"
+    ],
+    "risks": [
+      "AI hiring tools and LinkedIn could reduce the need for a CV database",
+      "IT services slowdown cuts recruiter spending",
+      "Data privacy rules under the DPDP Act limit how CVs can be shared",
+      "Job scams using the Naukri name hurt trust"
+    ],
+    "userComplaints": [
+      "Fake job offers and scam calls asking for fees",
+      "Too many irrelevant recruiter calls and messages",
+      "Applying to jobs and never hearing back",
+      "Paid job seeker services don't bring results",
+      "Recruiters say many CVs are outdated or numbers don't work"
+    ],
+    "improvementIdeas": [
+      { "idea": "Verified recruiter badge plus one-tap 'report scam' with fast action", "problem": "Fake jobs and scam calls break trust", "expectedImpact": "Fewer scams and more job seekers replying to real recruiters", "metricToTrack": "Scam reports per 1,000 active users and reply rate", "effort": "medium" },
+      { "idea": "Monthly 'still looking?' nudge that freezes profiles not updated in 6 months", "problem": "Recruiters waste credits on outdated CVs", "expectedImpact": "Higher recruiter reply rates and renewals", "metricToTrack": "Share of contacted profiles that reply", "effort": "low" },
+      { "idea": "Application status updates: recruiters must mark viewed or rejected, with AI-Rex doing it automatically", "problem": "Candidates apply and hear nothing", "expectedImpact": "Better job seeker experience and more return visits", "metricToTrack": "Share of applications with a status update within 14 days", "effort": "medium" },
+      { "idea": "Pay-per-hire pricing pilot for small businesses", "problem": "SMEs drop off due to upfront subscription cost", "expectedImpact": "More SME customers and lower churn", "metricToTrack": "New SME accounts and 12-month retention", "effort": "high" }
+    ],
+    "pmLessons": [
+      "Make one side free and charge the side that gets the most value. For Naukri, recruiters pay because they need candidates more urgently.",
+      "Data built over years can be a stronger moat than features.",
+      "A strong sales team matters in B2B, even for an online product.",
+      "Add AI to the part of the job users hate most, like screening CVs, so they will pay for it.",
+      "Trust problems like scams can hurt the free side and slowly weaken the paid side."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you reduce fake job scams on Naukri?", "hint": "Define the scam types, find where they start (fake recruiter accounts, off-platform calls), suggest verification, reporting and warnings, and measure scam reports and trust." },
+      { "question": "LinkedIn is growing in India. How should Naukri respond?", "hint": "Compare user segments. Defend mid-level and mass hiring, use AI to improve match quality, and avoid copying social features blindly." },
+      { "question": "What metric would you use to judge AI-Rex?", "hint": "Time saved per hire, shortlist to interview rate, paid conversion, and renewal of AI-Rex customers." },
+      { "question": "Should Naukri charge job seekers more?", "hint": "Weigh extra revenue against hurting the free supply side. Suggest only tools that help candidates win, not paid visibility that annoys recruiters." },
+      { "question": "How would you enter blue-collar hiring?", "hint": "Different users need vernacular, voice and WhatsApp flows. Consider a separate brand, partner with staffing firms and price per hire." }
+    ],
+    "glossary": [
+      { "term": "Freemium", "meaning": "A model where basic use is free and some users pay for extra features." },
+      { "term": "Network effect", "meaning": "When a product gets more useful as more people use it." },
+      { "term": "Retention", "meaning": "Keeping existing users or customers coming back over time." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "SME", "meaning": "Small and medium enterprises, meaning smaller businesses." },
+      { "term": "Churn", "meaning": "The share of customers who stop paying or using a product." },
+      { "term": "Operating margin", "meaning": "The share of revenue left after paying the costs of running the business." },
+      { "term": "Upsell", "meaning": "Getting an existing customer to buy a bigger or extra product." }
+    ],
+    "assumptions": [
+      "Full-year FY26 recruitment revenue of about ₹2,300 crore is estimated from the Q4 figure and growth trend.",
+      "Job posting prices are approximate and may have changed.",
+      "Operating margin above 50% is based on past Info Edge disclosures, not confirmed for FY26.",
+      "Complaint themes come from common review site and social media patterns."
+    ]
+  }
+}

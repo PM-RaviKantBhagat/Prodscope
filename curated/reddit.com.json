@@ -1,0 +1,560 @@
+{
+  "company": "Reddit",
+  "domain": "reddit.com",
+  "website": "https://reddit.com",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001713445/000171344526000114/earningspressreleaseq326.htm",
+    "https://ppc.land/reddit-ad-revenue-gains-54-to-847m-as-daily-users-stall-at-130-3m/",
+    "https://www.ibtimes.com/reddit-reportedly-not-renewing-ai-deal-google-its-stock-sinking-3805616",
+    "https://techcrunch.com/2024/05/16/openai-inks-deal-to-train-ai-on-reddit-data",
+    "https://www.bloomberg.com/news/articles/2025-09-17/reddit-seeks-to-strike-next-ai-content-pact-with-google-openai",
+    "https://stockstory.org/us/stocks/nyse/rddt/news/earnings-call/rddt-q3-deep-dive-search-traffic-drop-and-cautious-guidance-weigh-on-results"
+  ],
+  "report": {
+    "company": "Reddit",
+    "tagline": "A giant collection of topic-based forums, called subreddits, where real people ask questions, share opinions and vote on the best answers.",
+    "category": "Communities",
+    "simpleSummary": "Reddit is a website and app made of more than 100,000 active forums, one for almost any topic, from r/IndianStockMarket to r/skincareaddiction. Anyone can post, and other users vote posts and comments up or down, so the most useful ones rise to the top. Many people now land on Reddit from Google by adding 'reddit' to a search, because they trust real people more than ads. Reddit makes most of its money from ads in the feed, plus a smaller amount from selling its data to AI companies like Google and OpenAI.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$895 million, up 53% year on year",
+        "note": "Reddit Q3 2026 earnings release (SEC filing). Ads were $847 million of this."
+      },
+      {
+        "label": "Daily active unique users (DAUq), Q3 2026",
+        "value": "130.3 million, up 12%",
+        "note": "Reddit Q3 2026 release. US daily users fell 2% to 50.7 million, while international grew 24%."
+      },
+      {
+        "label": "Weekly active unique users, Q3 2026",
+        "value": "515.2 million",
+        "note": "Reddit Q3 2026 release."
+      },
+      {
+        "label": "Net income, Q3 2026",
+        "value": "$283 million (about 32% of revenue)",
+        "note": "Reddit Q3 2026 release. Reddit first turned profitable in 2024."
+      },
+      {
+        "label": "Revenue per US daily user, Q3 2026",
+        "value": "$13.82 per quarter vs $2.43 international",
+        "note": "Reddit Q3 2026 release. Shows how much more a US user is worth to advertisers."
+      },
+      {
+        "label": "Google AI data deal",
+        "value": "About $60 million a year",
+        "note": "Reported by news outlets when signed in 2024. In July 2026, reports said Reddit was weighing whether to renew it. Exact terms are not public."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Reddit hosts communities called subreddits, each run by volunteer moderators who set the rules. Users post links, text, images and videos, and the community votes on them. The result is a huge library of honest, searchable human answers, which is why Google and AI chatbots value it so much.",
+      "howItWorks": [
+        "Anyone can read Reddit without an account; an account (often anonymous) is needed to post, vote or comment.",
+        "Each subreddit has its own rules and unpaid moderators who remove spam and off-topic posts.",
+        "Upvotes and downvotes rank posts and comments, and users earn 'karma' points for well-received content.",
+        "The home feed mixes posts from subreddits you joined with recommended posts and ads.",
+        "Advertisers buy ads that look like normal posts and can target by subreddit, interest or keyword.",
+        "AI companies pay to license Reddit's posts and comments through a data API to train and ground their models."
+      ],
+      "valueProposition": "For users: honest answers and niche communities from real people, not brands. For advertisers: reach people while they are actively researching a purchase, by topic. For AI firms: a fresh, constantly updated stream of human conversation."
+    },
+    "personas": [
+      {
+        "name": "The Google-to-Reddit searcher",
+        "description": "A 26-year-old in Bengaluru who types 'best budget phone under 20000 reddit' into Google. Often reads without logging in.",
+        "goals": [
+          "Get an honest answer from people who actually bought the thing",
+          "Avoid sponsored reviews and SEO spam"
+        ],
+        "frustrations": [
+          "Pop-ups pushing the app or a log-in",
+          "Old threads with outdated answers",
+          "Suspecting that some 'honest' comments are actually paid or bot posts"
+        ]
+      },
+      {
+        "name": "The daily community regular",
+        "description": "A logged-in user who opens Reddit several times a day to read r/cricket match threads, r/gaming and local city subreddits.",
+        "goals": [
+          "Feel part of a group that shares a niche interest",
+          "Discuss live events in real time",
+          "Earn karma and recognition"
+        ],
+        "frustrations": [
+          "Posts removed by moderators without explanation",
+          "Karma or account-age rules that block new users from posting",
+          "More ads and recommended posts from subreddits they never joined"
+        ]
+      },
+      {
+        "name": "The volunteer moderator",
+        "description": "Runs a 500,000-member subreddit in spare time, unpaid, using Reddit's mod tools and some third-party bots.",
+        "goals": [
+          "Keep the community useful and free of spam",
+          "Handle reports quickly without burning out"
+        ],
+        "frustrations": [
+          "Flood of AI-generated spam and bots",
+          "Feeling that Reddit profits from their unpaid work",
+          "The 2023 API pricing change that killed many third-party tools"
+        ]
+      },
+      {
+        "name": "The performance advertiser",
+        "description": "A marketing manager at a US direct-to-consumer brand or a gaming studio buying ads to reach a specific hobby.",
+        "goals": [
+          "Reach people while they research a purchase",
+          "Get sales at a cost comparable to Meta or Google"
+        ],
+        "frustrations": [
+          "Reddit users are hostile to obvious ads and pile on in comments",
+          "Fewer measurement tools than Meta or Google"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Search results are full of SEO articles and paid reviews, so it is hard to find honest opinions.",
+        "howSolved": "Reddit threads show many real users arguing and voting, so the most trusted answer rises. Reddit Answers, its AI search, summarises these threads with links.",
+        "severity": "high"
+      },
+      {
+        "pain": "People with niche hobbies or problems cannot find others like them nearby.",
+        "howSolved": "There is a subreddit for almost anything, from rare diseases to specific car models, open to anyone worldwide.",
+        "severity": "high"
+      },
+      {
+        "pain": "Asking personal questions under your real name feels risky.",
+        "howSolved": "Accounts are pseudonymous, so people discuss health, money and relationships openly.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Advertisers struggle to reach people at the exact moment they are deciding what to buy.",
+        "howSolved": "Ads can target subreddits and keywords where purchase research happens, such as r/BuyItForLife or r/headphones.",
+        "severity": "medium"
+      },
+      {
+        "pain": "AI companies need fresh, legal, human-written text at scale.",
+        "howSolved": "Reddit sells licensed access to its data through deals with Google and OpenAI, instead of letting it be scraped for free.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Following a live event alone is boring.",
+        "howSolved": "Live match threads and megathreads let thousands of people react together in real time.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Subreddits and volunteer moderation",
+        "whatItDoes": "Topic-based communities, each with its own rules, run by unpaid moderators.",
+        "whyItMatters": "Keeps content on-topic and useful at almost no cost to Reddit. This is the core of the product and of its low cost base."
+      },
+      {
+        "feature": "Voting and karma",
+        "whatItDoes": "Users upvote or downvote posts and comments; karma tracks a user's reputation.",
+        "whyItMatters": "Ranks the best answers to the top without editors, which is why Reddit content is trusted by searchers and AI models."
+      },
+      {
+        "feature": "Reddit Answers",
+        "whatItDoes": "An AI search tool inside Reddit that answers a question by summarising relevant threads, with links to the sources.",
+        "whyItMatters": "Keeps searchers on Reddit instead of leaving through Google, and turns logged-out visitors into repeat users."
+      },
+      {
+        "feature": "Conversation and keyword ads",
+        "whatItDoes": "Ads appear in feeds and inside comment threads, targeted by subreddit, interest or keyword.",
+        "whyItMatters": "Ads are about 95% of revenue. Better targeting raised revenue per US user by 53% in a year."
+      },
+      {
+        "feature": "Data API and licensing",
+        "whatItDoes": "Paid access to Reddit's posts and comments for large AI and search companies.",
+        "whyItMatters": "High-margin revenue with almost no extra cost, and it puts a price on data that was once scraped for free."
+      },
+      {
+        "feature": "Machine translation",
+        "whatItDoes": "Automatically translates posts and comments into other languages, including Hindi and other Indian languages.",
+        "whyItMatters": "Opens English-heavy content to new markets. International daily users grew 24% in Q3 2026."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First visit from Google",
+        "persona": "The Google-to-Reddit searcher",
+        "steps": [
+          {
+            "step": "Searches Google",
+            "detail": "Types 'best laptop for coding under 60000 reddit' and clicks a Reddit thread."
+          },
+          {
+            "step": "Reads without logging in",
+            "detail": "Scrolls the top comments, which have the most upvotes."
+          },
+          {
+            "step": "Sees a prompt to open the app",
+            "detail": "A banner pushes the app; many users close it and keep reading on the web."
+          },
+          {
+            "step": "Clicks a related thread",
+            "detail": "Recommended threads at the bottom keep them on Reddit a little longer."
+          },
+          {
+            "step": "Leaves with an answer",
+            "detail": "Most logged-out users leave here. Reddit counts them as logged-out users and shows them ads."
+          },
+          {
+            "step": "Maybe signs up later",
+            "detail": "If they want to ask their own question, they create an account, often with Google sign-in."
+          }
+        ]
+      },
+      {
+        "name": "Becoming a daily regular",
+        "persona": "The daily community regular",
+        "steps": [
+          {
+            "step": "Creates an account",
+            "detail": "Picks interests during onboarding, such as cricket, Bollywood and personal finance."
+          },
+          {
+            "step": "Joins subreddits",
+            "detail": "Reddit suggests communities like r/india, r/IndiaInvestments and r/Cricket."
+          },
+          {
+            "step": "Lurks for a while",
+            "detail": "Reads and upvotes before posting, partly because many subreddits require minimum karma."
+          },
+          {
+            "step": "First comment",
+            "detail": "Replies in a match thread and gets upvotes, which gives a small hit of approval."
+          },
+          {
+            "step": "Gets notifications",
+            "detail": "Replies and trending posts in joined subreddits bring them back each day."
+          },
+          {
+            "step": "Builds identity",
+            "detail": "Karma grows and they become a known name in a few communities."
+          }
+        ]
+      },
+      {
+        "name": "Running an ad campaign",
+        "persona": "The performance advertiser",
+        "steps": [
+          {
+            "step": "Opens Reddit Ads Manager",
+            "detail": "Self-serve dashboard, similar to Meta's."
+          },
+          {
+            "step": "Picks targeting",
+            "detail": "Chooses subreddits like r/running and keywords like 'marathon shoes'."
+          },
+          {
+            "step": "Creates an ad",
+            "detail": "Writes a post-style ad with an image and a link, and decides whether to allow comments."
+          },
+          {
+            "step": "Installs the Reddit Pixel or Conversions API",
+            "detail": "So Reddit can see which clicks turn into sales."
+          },
+          {
+            "step": "Watches results",
+            "detail": "Compares cost per sale with Meta and Google and moves budget to whichever is cheaper."
+          },
+          {
+            "step": "Scales or stops",
+            "detail": "If sales cost less than on other platforms, the brand raises the budget."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Reddit makes money from two things: ads shown to its users (about 95% of revenue) and licensing its data to AI and search companies (most of the 'other' revenue, about 5%). The content is made free by users, and moderation is done free by volunteers, so costs stay low and profit margins are high.",
+      "revenueStreams": [
+        {
+          "stream": "Advertising",
+          "detail": "$847 million in Q3 2026, up 54%. Mostly performance ads bought by brands, games, tech and retail, priced per click, view or result."
+        },
+        {
+          "stream": "Data licensing and other",
+          "detail": "$48 million in Q3 2026. Includes the Google deal (reported at about $60 million a year) and the OpenAI deal, plus small items like Reddit Premium."
+        },
+        {
+          "stream": "Reddit Premium",
+          "detail": "An ad-free subscription for about $5.99 a month. A very small share of revenue."
+        }
+      ],
+      "pricing": "Free for users. Reddit Premium is about $5.99 a month in the US. Ads are bought in an auction, with no fixed price list. Data licensing deals are private.",
+      "costDrivers": [
+        "Servers and hosting for over 500 million weekly users",
+        "Engineers and machine learning staff for feeds, ads and Reddit Answers",
+        "Safety, spam fighting and paid admin staff who back up volunteer moderators",
+        "Sales teams to win advertisers away from Meta and Google",
+        "Stock-based pay for employees, which was very high around the 2024 listing"
+      ],
+      "unitEconomics": "Take one US daily user. In Q3 2026 Reddit earned about $13.82 from each in the quarter, or about $55 a year. Serving that user (servers, safety, staff) costs far less, because users write the content and moderators work for free. That is why net profit was about 32 cents of every revenue dollar. An international user brings only $2.43 a quarter, so growth abroad adds users faster than money. Revenue per user (ARPU, average revenue per user) grew 36% globally, which means Reddit is getting better at showing ads, not just adding people."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search: people add 'reddit' to searches, and Google ranks Reddit threads high. This drives most logged-out visits.",
+        "AI chatbots and Google AI Overviews citing Reddit threads as sources",
+        "Machine translation that opens content to non-English speakers",
+        "Shared links in WhatsApp, X and news articles to viral threads",
+        "Brand marketing in the US and UK"
+      ],
+      "whatBringsUsersBack": [
+        "Joined subreddits that refresh all day with new posts",
+        "Reply notifications and karma, which reward participation",
+        "Live threads for sports, launches and breaking news",
+        "Personal identity built up over years in niche communities"
+      ],
+      "moat": "Reddit has almost 20 years of human conversation on every topic, and it keeps growing every day. A rival would need millions of volunteer moderators and active posters, which take years to grow. This also makes its data hard to replace for AI companies. The weak spot is that Reddit relies on Google for traffic, and Google controls that."
+    },
+    "competitors": [
+      {
+        "name": "Google AI Overviews and ChatGPT",
+        "positioning": "Give a direct answer at the top of search, often built from Reddit content.",
+        "howThisProductDiffers": "Reddit has the original threads and people you can ask follow-up questions. But if AI answers are good enough, fewer users click through. Analysts linked Reddit's US user drop in 2026 to this."
+      },
+      {
+        "name": "Discord",
+        "positioning": "Real-time chat servers for communities and gamers.",
+        "howThisProductDiffers": "Discord chat disappears into scroll and cannot be found on Google. Reddit threads are public, organised and searchable for years."
+      },
+      {
+        "name": "X (Twitter)",
+        "positioning": "Real-time public feed built around people you follow.",
+        "howThisProductDiffers": "Reddit is built around topics, not personalities, and is pseudonymous, so discussions are deeper and less about follower counts."
+      },
+      {
+        "name": "Quora",
+        "positioning": "Question-and-answer site, popular in India, with its own AI tool Poe.",
+        "howThisProductDiffers": "Reddit has stronger communities and voting, and less low-quality answer spam. Quora's answers often feel promotional."
+      },
+      {
+        "name": "Facebook Groups",
+        "positioning": "Private and public groups tied to real-name profiles.",
+        "howThisProductDiffers": "Reddit is anonymous and public by default, which suits sensitive topics and makes content searchable."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily users who get a useful answer or meaningful interaction (read a highly voted answer, comment, or get a reply)",
+      "why": "Reddit's value is human answers and conversation. Counting users who actually get an answer or interact captures that better than raw visits, which can rise from Google traffic that bounces straight away."
+    },
+    "kpiTree": [
+      {
+        "metric": "Logged-out reach",
+        "description": "How many people arrive from search, AI and shared links each day.",
+        "children": [
+          {
+            "metric": "Search referral visits",
+            "description": "Visits from Google and other search engines. Very sensitive to Google ranking changes."
+          },
+          {
+            "metric": "AI citation clicks",
+            "description": "Visits from chatbots and AI Overviews that link to Reddit."
+          },
+          {
+            "metric": "Translated page views",
+            "description": "Views of machine-translated content, which drive international growth."
+          }
+        ]
+      },
+      {
+        "metric": "Logged-out to logged-in conversion",
+        "description": "Share of visitors who create accounts and come back. Logged-in users are worth much more.",
+        "children": [
+          {
+            "metric": "Sign-up rate per visit",
+            "description": "How often a logged-out visit turns into a new account."
+          },
+          {
+            "metric": "Reddit Answers usage",
+            "description": "Searches made inside Reddit, a sign users treat it as a destination."
+          },
+          {
+            "metric": "Day-7 return rate of new accounts",
+            "description": "Share of new users who come back within a week, a sign of retention (users sticking around)."
+          }
+        ]
+      },
+      {
+        "metric": "Participation",
+        "description": "How many users post, comment and vote. Without new posts there is nothing to read.",
+        "children": [
+          {
+            "metric": "Comments per daily user",
+            "description": "Shows how lively discussions are."
+          },
+          {
+            "metric": "Share of posts that get a reply within an hour",
+            "description": "Fast replies make people post again."
+          },
+          {
+            "metric": "First-post success rate",
+            "description": "Share of new users' first posts that are not removed by filters or moderators."
+          }
+        ]
+      },
+      {
+        "metric": "Community health",
+        "description": "Whether communities stay useful and well run.",
+        "children": [
+          {
+            "metric": "Spam and bot removal speed",
+            "description": "Time to remove spam and AI-generated junk."
+          },
+          {
+            "metric": "Active moderators per large subreddit",
+            "description": "Shows if moderator burnout is a risk."
+          },
+          {
+            "metric": "Report-to-action time",
+            "description": "How fast reported content is reviewed."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Ad load: ads per 100 posts should not rise so fast that time spent drops",
+      "Moderator retention in the top 1,000 subreddits",
+      "Share of content flagged as spam or AI-generated",
+      "US daily active users, which fell 2% in Q3 2026"
+    ],
+    "strengths": [
+      "Unique, huge library of human answers that searchers and AI firms both want",
+      "Very low content and moderation costs, giving profit margins above 30%",
+      "Fast ad revenue growth: revenue up 53% in Q3 2026 with revenue per user rising",
+      "Valuable new revenue line in AI data licensing",
+      "Strong international growth helped by machine translation"
+    ],
+    "weaknesses": [
+      "Over half of daily users are logged out and arrive from Google, so Reddit does not control its own traffic",
+      "US daily users fell 2% in Q3 2026, the market that brings most money",
+      "Depends on unpaid moderators who can protest or quit, as in the 2023 blackout",
+      "Ads earn far less abroad: $2.43 per international user per quarter vs $13.82 in the US",
+      "New-user experience is harsh: karma rules and quick removals discourage first posts"
+    ],
+    "risks": [
+      "Google changes ranking or keeps more users on AI answers, cutting Reddit's traffic",
+      "Data deals may not renew at the same price; Reddit's Google deal talks were reported as uncertain in 2026",
+      "AI-generated spam and covert marketing could erode trust in Reddit answers",
+      "Regulation on age checks and content, such as the UK Online Safety Act",
+      "Competition for ad budgets from Meta, Google, TikTok and Amazon"
+    ],
+    "userComplaints": [
+      "Moderators remove posts or ban users without clear reasons",
+      "New accounts cannot post in many subreddits because of karma and age limits",
+      "Too many bots, AI-written comments and hidden promotions",
+      "The 2023 API pricing change killed popular third-party apps like Apollo",
+      "More ads and suggested posts from subreddits users did not join",
+      "Constant pressure to log in or download the app on mobile web"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Guided first post: check a new user's draft against subreddit rules before posting and suggest the right community",
+        "problem": "New users' posts are often auto-removed, so they give up before becoming regulars.",
+        "expectedImpact": "More new users get a reply on their first post and come back.",
+        "metricToTrack": "First-post success rate and day-30 retention of new accounts",
+        "effort": "medium"
+      },
+      {
+        "idea": "Verified-human and 'bought it' badges for comments in shopping subreddits",
+        "problem": "Users fear that recommendations are bots or paid promotions.",
+        "expectedImpact": "More trust in answers and more clicks on product discussions, which also helps shopping ads.",
+        "metricToTrack": "Share of shopping threads with badged comments and repeat visits to those subreddits",
+        "effort": "medium"
+      },
+      {
+        "idea": "Free AI moderator assistant that drafts removal reasons and spots spam rings",
+        "problem": "Moderators are overloaded with AI spam and feel unsupported.",
+        "expectedImpact": "Faster spam removal and lower moderator burnout.",
+        "metricToTrack": "Report-to-action time and active moderator count",
+        "effort": "medium"
+      },
+      {
+        "idea": "Let logged-out Google visitors follow a thread and get answer alerts by email without a full account",
+        "problem": "Most logged-out visitors leave after one read and never return.",
+        "expectedImpact": "Turns one-time visitors into returning users who later sign up.",
+        "metricToTrack": "Logged-out to logged-in conversion rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Local-language subreddit starter packs for India, Brazil and Germany, seeded with translated top threads",
+        "problem": "International users are growing but bring low ad revenue and thin local content.",
+        "expectedImpact": "More local posting, which attracts local advertisers and lifts international revenue per user.",
+        "metricToTrack": "International ARPU and posts per day in local-language subreddits",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Free user-made content plus volunteer moderators can create a very profitable business, but you depend on keeping those volunteers happy.",
+      "Know where your traffic comes from. If one partner, like Google, sends most of it, that partner can shrink your growth overnight.",
+      "Old content can become a new product: Reddit turned 20 years of threads into an AI data business.",
+      "Count users carefully. Reddit splits logged-in and logged-out users because they are worth very different amounts."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "US daily users on Reddit fell 2% while international grew 24%. How would you investigate the US decline?",
+        "hint": "Split by logged-in vs logged-out, then by traffic source (Google, direct, app). Check timing against Google AI Overview changes. Look at new vs returning users. Form 2 to 3 hypotheses and the data that would prove each."
+      },
+      {
+        "question": "How would you increase the share of Google visitors who become logged-in users?",
+        "hint": "Map the logged-out journey, find the moment of highest intent (wanting to ask or follow), reduce friction there, avoid annoying pop-ups. Define a conversion metric and a guardrail on bounce rate."
+      },
+      {
+        "question": "Should Reddit renew its data deal with Google if Google's AI answers reduce Reddit's traffic?",
+        "hint": "Compare licence income (about $60 million a year) with lost ad revenue from fewer clicks. Consider negotiating link-backs or attribution. Think about leverage: Reddit data is unique, but Google controls distribution."
+      },
+      {
+        "question": "Design a feature to fight AI-generated spam without hurting real users.",
+        "hint": "Define the user harm (lost trust), the signals (account age, posting patterns, text detection), the actions (rate limits, labels, mod queues), and metrics: spam removed vs false removals."
+      },
+      {
+        "question": "What should Reddit's north star metric be?",
+        "hint": "Argue for value delivered, such as daily users who get a useful answer or interaction. Explain why raw DAU can mislead with bounce traffic. Break it into reach, conversion, participation and health."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "DAUq",
+        "meaning": "Reddit's count of daily active unique users, people who visit at least once a day."
+      },
+      {
+        "term": "ARPU",
+        "meaning": "Average revenue per user: total revenue divided by the number of users in a period."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back after their first visit."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company picks to show if users are getting real value from the product."
+      },
+      {
+        "term": "Karma",
+        "meaning": "Reddit's reputation points, earned when others upvote your posts and comments."
+      },
+      {
+        "term": "Data licensing",
+        "meaning": "Charging another company for permission to use your data, for example to train AI models."
+      },
+      {
+        "term": "Logged-out user",
+        "meaning": "Someone who reads Reddit without signing in, usually arriving from a search engine."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you try to improve your main metric."
+      }
+    ],
+    "assumptions": [
+      "The share of 'other revenue' from data licensing is inferred; Reddit does not break it out fully.",
+      "Reddit Premium price of about $5.99 a month is from the US app listing and may differ by country.",
+      "The link between Google AI Overviews and the US user drop is an analyst view, not a confirmed cause.",
+      "The 'over 100,000 active communities' figure is from Reddit's public statements and may be dated."
+    ]
+  }
+}

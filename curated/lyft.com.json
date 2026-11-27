@@ -1,0 +1,221 @@
+{
+ "company": "Lyft",
+ "domain": "lyft.com",
+ "website": "https://www.lyft.com",
+ "sources": [
+  "https://www.lyft.com/blog/posts/lyft-reports-strong-q3-2026-financial-results",
+  "https://www.lyft.com/blog/posts/lyft-q3-2026-earnings-prepared-remarks",
+  "https://www.sec.gov/Archives/edgar/data/0001759509/000162828026071043/lyft-20260930xpressrelease.htm",
+  "https://www.sec.gov/Archives/edgar/data/0001759509/000162828026071225/lyft-20260930.htm",
+  "https://zacks.com/stock/news/3026692/lyft-shares-decline-4-2-since-third-quarter-2026-earnings-release"
+ ],
+ "report": {
+  "company": "Lyft",
+  "tagline": "The number two ride-hailing app in the US and Canada, betting on better rider and driver experience instead of doing everything.",
+  "category": "Mobility",
+  "simpleSummary": "Lyft is an app that gets you a car ride. You type where you want to go, see the price, and a nearby driver picks you up in a few minutes. You pay in the app, and the driver keeps most of the fare. In some cities you can also rent a bike or scooter, or ride in a self-driving Waymo car through the same app.",
+  "keyNumbers": [
+   {"label": "Gross bookings Q3 2026", "value": "$5.6 billion", "note": "Lyft Q3 2026 results. Up 17% year on year. Gross bookings means the total amount riders paid, before drivers are paid."},
+   {"label": "Revenue Q3 2026", "value": "$1.82 billion", "note": "SEC 8-K, Q3 2026. Up 8%. About $1.9 billion before a one-off legal and tax reserve charge."},
+   {"label": "Active riders", "value": "31.6 million", "note": "Q3 2026, up 10%. Eighth quarter in a row of double-digit growth."},
+   {"label": "Rides Q3 2026", "value": "274 million", "note": "Record quarter. Lyft expects over 1 billion rides in 2026."},
+   {"label": "Adjusted EBITDA Q3 2026", "value": "$204 million", "note": "Lyft results. Only 3.6% of gross bookings. Net result was a small loss of $9.7 million because of legal reserves."},
+   {"label": "Free cash flow (last 12 months)", "value": "$1.1 billion", "note": "Lyft results, Q3 2026. Fifth quarter in a row above $1 billion."}
+  ],
+  "overview": {
+   "whatItDoes": "Lyft connects riders who need a car ride with independent drivers who use their own cars. It sets the price, matches the two sides, handles payment and takes a cut. It also runs bike-share systems like Citi Bike in New York and now operates in Europe through the FreeNow taxi app it bought in 2025.",
+   "howItWorks": [
+    "The rider enters a destination and picks a ride type: Standard, Wait and Save, Priority Pickup, XL, Black or Women+ Connect.",
+    "Lyft shows a fixed upfront price, and with Price Lock some commuters can pay a set price for a regular route.",
+    "The app sends the request to a nearby driver, who accepts or declines.",
+    "The rider pays by card in the app. Lyft keeps its share and pays the driver weekly or instantly.",
+    "Both sides rate each other, which keeps quality up.",
+    "In partner cities like Nashville, riders can be matched with a Waymo or other self-driving car on the same app."
+   ],
+   "valueProposition": "For riders: a car in minutes at a known price, often a little cheaper or friendlier than Uber. For drivers: flexible work, with a promise that they earn at least 70% of what riders pay each week after outside fees."
+  },
+  "personas": [
+   {"name": "City commuter without a car", "description": "Lives in a US city like Chicago or San Francisco and uses Lyft a few times a week to get to work or go out.", "goals": ["Get a ride fast", "Know the price before booking", "Save money on regular trips"], "frustrations": ["Surge pricing at rush hour", "Drivers cancelling after accepting"]},
+   {"name": "Airport and business traveller", "description": "Flies a few times a month and books rides to and from airports, often on a company card.", "goals": ["Reliable pickup at a set time", "Clean, quiet car", "Earn airline miles or perks"], "frustrations": ["Long waits at busy airport pickup zones", "Price jumps when flights land together"]},
+   {"name": "Part-time driver", "description": "Drives evenings and weekends to add income, often driving for both Lyft and Uber.", "goals": ["Steady trips with little waiting", "Clear pay per trip", "Quick cash-out"], "frustrations": ["Low fares after Lyft takes its cut", "Deactivation without a clear reason"]},
+   {"name": "Woman riding late at night", "description": "Wants to feel safe getting home and prefers a woman or non-binary driver.", "goals": ["Safety", "Share trip status with friends"], "frustrations": ["Fewer matched drivers in some areas, so longer waits"]}
+  ],
+  "painPoints": [
+   {"pain": "Taxis are hard to find and you do not know the fare in advance.", "howSolved": "A car is a tap away and the price is shown before you book.", "severity": "high"},
+   {"pain": "Paying cash and tipping is awkward.", "howSolved": "Card payment and tips happen in the app.", "severity": "medium"},
+   {"pain": "Ride prices swing a lot for daily commuters.", "howSolved": "Price Lock and the Lyft Pink membership give set prices or discounts on repeat trips.", "severity": "high"},
+   {"pain": "Riders feel unsafe with strangers at night.", "howSolved": "Driver checks, live trip sharing, an in-app emergency button and Women+ Connect matching.", "severity": "high"},
+   {"pain": "Drivers do not know how much of the fare they keep.", "howSolved": "The weekly 70% earnings promise and a pay breakdown for each trip.", "severity": "medium"},
+   {"pain": "Getting from the station to the door is slow.", "howSolved": "Bikes and scooters in the same app cover short trips.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "Upfront pricing and ride options", "whatItDoes": "Shows several ride types with a fixed price and pickup time each.", "whyItMatters": "Lets price-sensitive riders choose Wait and Save and lets Lyft sell Priority Pickup to those in a hurry, which raises the average fare."},
+   {"feature": "Lyft Pink and Lyft Go memberships", "whatItDoes": "Pink costs $9.99 a month for ride discounts and perks. Lyft Go, launched in Q3 2026, is a lighter plan for commuters.", "whyItMatters": "Members ride more often and are less likely to open Uber first."},
+   {"feature": "Price Lock", "whatItDoes": "A small monthly fee caps the price of a regular commute route.", "whyItMatters": "Targets the biggest complaint, surge pricing, and builds a daily habit."},
+   {"feature": "Women+ Connect", "whatItDoes": "Lets women and non-binary riders choose to be matched with women and non-binary drivers.", "whyItMatters": "Brings in riders and drivers who felt unsafe, a clear way to stand out from Uber."},
+   {"feature": "Partner rewards", "whatItDoes": "Links accounts with DoorDash, United Airlines, Chase, Hilton and others for points and perks.", "whyItMatters": "Gets riders from partners for little ad spend. Partner rides hit a record in Q3 2026."},
+   {"feature": "Autonomous rides", "whatItDoes": "Waymo cars are bookable in the Lyft app in Nashville, with more partners planned.", "whyItMatters": "Keeps Lyft relevant if robotaxis replace human drivers, by being the app riders already use."}
+  ],
+  "userJourneys": [
+   {"name": "First ride", "persona": "City commuter without a car", "steps": [
+    {"step": "Download and sign up", "detail": "Phone number, then a card or Apple Pay."},
+    {"step": "Get a first-ride offer", "detail": "A discount code or referral credit."},
+    {"step": "Enter destination", "detail": "App shows Standard, Wait and Save and other options with prices."},
+    {"step": "Match and wait", "detail": "Map shows the driver's car, plate and arrival time."},
+    {"step": "Ride", "detail": "Rider can share the trip with a friend."},
+    {"step": "Pay, tip and rate", "detail": "Charge happens automatically. Rider rates and tips."}
+   ]},
+   {"name": "Daily commute", "persona": "City commuter without a car", "steps": [
+    {"step": "Saved home and work", "detail": "One tap to book the usual trip."},
+    {"step": "Offer of Price Lock or Pink", "detail": "App suggests a plan after a few repeat rides."},
+    {"step": "Subscribe", "detail": "Monthly fee charged to the saved card."},
+    {"step": "Book at rush hour", "detail": "Capped or discounted price shown."},
+    {"step": "Ride and repeat", "detail": "The habit forms and the rider stops comparing with Uber."}
+   ]},
+   {"name": "Driver's first week", "persona": "Part-time driver", "steps": [
+    {"step": "Apply in the Lyft Driver app", "detail": "Licence, car details and background check."},
+    {"step": "Car inspection", "detail": "Or rent a car through Lyft's Express Drive partners."},
+    {"step": "Go online", "detail": "Driver sees busy areas on a heat map."},
+    {"step": "Accept rides", "detail": "Request shows pickup distance and estimated pay."},
+    {"step": "Cash out", "detail": "Instant pay to a debit card or weekly deposit."},
+    {"step": "Check earnings", "detail": "Weekly summary shows the 70% earnings promise was met."}
+   ]}
+  ],
+  "businessModel": {
+   "summary": "Lyft makes money by keeping a share of every ride. Riders pay a fare plus fees; Lyft passes most of it to the driver and keeps the rest. It also earns from memberships, ads inside the app, bike-share contracts and business accounts.",
+   "revenueStreams": [
+    {"stream": "Ride commission", "detail": "The gap between what the rider pays and what the driver gets. Revenue was about 32% to 34% of gross bookings in Q3 2026, but part of that pays for insurance."},
+    {"stream": "Memberships", "detail": "Lyft Pink at $9.99 a month, Price Lock and the new Lyft Go plan."},
+    {"stream": "Lyft Media", "detail": "Ads on the app screens and on car-top displays."},
+    {"stream": "Bikes and scooters", "detail": "Per-ride and membership fees, plus city contracts for systems like Citi Bike."},
+    {"stream": "Europe and chauffeur", "detail": "FreeNow taxi app in Europe and TBR Global Chauffeuring, being rebranded as Alcove in 2027."}
+   ],
+   "pricing": "Prices are dynamic and shown upfront. A typical 5-mile city ride costs about $15 to $25 in the US. Lyft Pink costs $9.99 a month.",
+   "costDrivers": [
+    "Insurance for every trip, the single biggest cost in the US",
+    "Driver incentives and bonuses to keep enough cars on the road",
+    "Rider discounts and marketing to win share from Uber",
+    "Legal, tax and regulatory costs, such as driver classification cases",
+    "Engineering and maps"
+   ],
+   "unitEconomics": "Take a $25 ride. Lyft's revenue is roughly $8 of that, and the driver gets about $17 plus tips. From the $8, insurance takes a large bite, maybe $3 to $4, then payment fees, support and incentives. After all costs Lyft keeps under $1 of real profit, about 3.6% of the fare on an adjusted EBITDA basis. So Lyft needs huge volume and very tight cost control. A small rise in insurance or rider discounts can wipe out the margin."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Partnerships with DoorDash, United, Chase and Hilton that offer points for riding",
+    "Referral credits for riders and drivers",
+    "Airport and event pickup zones",
+    "Search and app store ads",
+    "Being the app inside Waymo and other robotaxi partnerships"
+   ],
+   "whatBringsUsersBack": [
+    "Saved places and one-tap rebooking",
+    "Pink and Lyft Go discounts that pay off only if you keep riding",
+    "Price Lock on daily commutes",
+    "Partner points that add up across brands"
+   ],
+   "moat": "Lyft's moat is thin. Riders and drivers can switch to Uber in seconds. Its real advantages are a dense network of drivers in big US cities, which keeps wait times low, and partner deals that bring riders cheaply. Being number two also makes it the natural partner for robotaxi firms that do not want to depend on Uber."
+  },
+  "competitors": [
+   {"name": "Uber", "positioning": "The global leader in rides and food delivery, with about three quarters of the US ride market.", "howThisProductDiffers": "Lyft only does rides and focuses on North America. It wins on service, partner rewards and features like Women+ Connect, not on scale."},
+   {"name": "Waymo (direct app)", "positioning": "Self-driving taxis in Phoenix, San Francisco, Los Angeles and more, booked in its own app.", "howThisProductDiffers": "Lyft partners with Waymo in some cities but also competes with Waymo's own app."},
+   {"name": "Tesla Robotaxi", "positioning": "Tesla's own driverless ride service, starting in Austin.", "howThisProductDiffers": "Tesla owns the cars and software. Lyft owns the rider demand and must rent car supply from others."},
+   {"name": "Bolt and local taxi apps in Europe", "positioning": "Low-commission ride apps competing with FreeNow.", "howThisProductDiffers": "Lyft's European business is taxi-first through FreeNow, while Bolt is mostly private-hire cars."}
+  ],
+  "northStar": {
+   "metric": "Rides completed per week",
+   "why": "A completed ride means a rider got where they needed to go and a driver got paid. It grows only if both sides keep showing up, so it captures value for both."
+  },
+  "kpiTree": [
+   {"metric": "Active riders", "description": "People who took at least one ride in the quarter.", "children": [
+    {"metric": "New rider sign-ups from partners", "description": "Riders brought in by DoorDash, United and other partners."},
+    {"metric": "First-ride conversion", "description": "Share of sign-ups who finish a first ride within 7 days."},
+    {"metric": "Monthly retention", "description": "Share of riders who ride again next month."}
+   ]},
+   {"metric": "Rides per active rider", "description": "How often each rider uses Lyft.", "children": [
+    {"metric": "Membership share", "description": "Share of riders on Pink, Lyft Go or Price Lock, who ride more."},
+    {"metric": "Price check to booking rate", "description": "Share of price quotes that turn into a booking."},
+    {"metric": "Commute trips per week", "description": "Repeat home to work trips."}
+   ]},
+   {"metric": "Fulfilment rate", "description": "Share of ride requests that end in a completed ride.", "children": [
+    {"metric": "Driver hours online", "description": "More hours online means faster pickups."},
+    {"metric": "Average pickup time", "description": "Shorter waits mean fewer riders give up."},
+    {"metric": "Driver cancel rate", "description": "Cancels after accepting hurt trust."}
+   ]},
+   {"metric": "Autonomous and new supply", "description": "Rides filled by robotaxis and chauffeurs.", "children": [
+    {"metric": "AV rides per week", "description": "Rides completed by Waymo and other partner cars."},
+    {"metric": "AV car utilisation", "description": "Hours each self-driving car is carrying a rider."}
+   ]}
+  ],
+  "guardrailMetrics": [
+   "Safety incidents per million rides",
+   "Driver earnings per hour",
+   "Adjusted EBITDA margin on gross bookings",
+   "Rider complaint rate on price"
+  ],
+  "strengths": [
+   "Steady double-digit rider and ride growth under CEO David Risher",
+   "Strong free cash flow above $1 billion a year",
+   "Partnerships that bring riders at low cost",
+   "Seen as the friendlier brand by many riders and drivers",
+   "Neutral partner for robotaxi companies"
+  ],
+  "weaknesses": [
+   "Much smaller than Uber, so less money for discounts and R&D",
+   "No food delivery, so fewer reasons to open the app daily",
+   "Very thin profit per ride",
+   "Europe business (FreeNow) is new and taxi-based, with low margins"
+  ],
+  "risks": [
+   "Robotaxis from Waymo and Tesla could go direct to riders and cut Lyft out",
+   "Laws that make drivers employees would raise costs sharply",
+   "Rising insurance costs in states like California and New York",
+   "Uber price cuts in key cities"
+  ],
+  "userComplaints": [
+   "Prices jump a lot at rush hour and at airports",
+   "Drivers cancel after accepting, so riders wait twice",
+   "Hard to reach a human in customer support after a lost item or bad ride",
+   "Drivers say Lyft's cut is too high and pay per mile has dropped",
+   "Drivers report being deactivated without a clear reason or appeal"
+  ],
+  "improvementIdeas": [
+   {"idea": "Driver cancel shield", "problem": "Riders hate when a driver accepts and then cancels.", "expectedImpact": "Auto-rematch with priority and a small credit, and lower ranking for drivers who cancel often. Fewer riders switch to Uber mid-wait.", "metricToTrack": "Driver cancel rate and rider re-request rate", "effort": "medium"},
+   {"idea": "Airport price alert", "problem": "Riders are shocked by surge prices after landing.", "expectedImpact": "Tie to United partnership: let riders lock a pickup price at booking or while in the air.", "metricToTrack": "Airport ride bookings per landed partner flyer", "effort": "medium"},
+   {"idea": "Live chat for safety and lost items", "problem": "Support is slow and hard to reach.", "expectedImpact": "Faster help in the moments that matter most, fewer bad reviews.", "metricToTrack": "Time to first human reply and rider retention after a support case", "effort": "medium"},
+   {"idea": "Transparent deactivation appeals", "problem": "Drivers feel unfairly removed.", "expectedImpact": "Clear reasons and a review within 72 hours keep good drivers on the road.", "metricToTrack": "Driver 90-day retention and appeal reversal rate", "effort": "low"},
+   {"idea": "Mixed AV and human trip choice", "problem": "Some riders want a robotaxi, others refuse one.", "expectedImpact": "A simple toggle raises booking rate in AV cities.", "metricToTrack": "Booking rate in AV markets", "effort": "low"}
+  ],
+  "pmLessons": [
+   "Being number two means you cannot win on scale, so pick the customers and features where you can be clearly better, like Lyft did with safety and partner rewards.",
+   "In a two-sided marketplace you must keep both sides happy at once; a driver pay cut shows up later as longer rider wait times.",
+   "Thin margins mean small changes in insurance or discounts decide profit, so PMs must know the cost of every feature.",
+   "Partnerships can be a cheaper growth engine than ads when your brand is weaker than the leader's."
+  ],
+  "interviewQuestions": [
+   {"question": "Lyft has 31.6 million riders and Uber has far more. How should Lyft compete?", "hint": "Pick segments: commuters, airport flyers, safety-conscious riders. Show how features and partners win each. Avoid a price war."},
+   {"question": "Ride cancellations by drivers went up 15% last month. How would you find out why?", "hint": "Split by city, time, ride type and pickup distance. Check pay changes, new matching rules and Uber incentives. Talk to drivers."},
+   {"question": "Should Lyft add food delivery?", "hint": "Weigh more app opens against cost and DoorDash partnership. Lyft chose partnering with DoorDash instead of building. Explain the trade-off."},
+   {"question": "How would you design Lyft's app for a city with only robotaxis?", "hint": "Think about pickup spots, help when no driver is present, cleanliness, and trust. Define a success metric like rides per AV per day."},
+   {"question": "What metric would you use to judge Price Lock?", "hint": "Rides per subscriber versus non-subscribers, subscriber retention and margin per ride. Watch for heavy users who lose Lyft money."}
+  ],
+  "glossary": [
+   {"term": "Gross bookings", "meaning": "The total amount riders paid for rides, before drivers and fees are paid."},
+   {"term": "Adjusted EBITDA", "meaning": "Profit before interest, tax, stock pay and some one-off items, used as a rough measure of operating profit."},
+   {"term": "Free cash flow", "meaning": "Cash left after paying for running the business and investments."},
+   {"term": "Two-sided marketplace", "meaning": "A business that connects two groups, here riders and drivers, and needs both to grow."},
+   {"term": "Moat", "meaning": "Something that makes it hard for competitors to take your customers."},
+   {"term": "North star metric", "meaning": "The one number a company uses to track whether it delivers value to users."},
+   {"term": "Retention", "meaning": "The share of users who keep using the product over time."},
+   {"term": "Fulfilment rate", "meaning": "The share of ride requests that end in a completed ride."},
+   {"term": "Unit economics", "meaning": "How much money a company makes or loses on one ride or customer."},
+   {"term": "Guardrail metric", "meaning": "A number that must not get worse while you push the main goal."}
+  ],
+  "assumptions": [
+   "The $25 ride breakdown is an illustration based on Lyft's reported revenue share of bookings, not an official figure.",
+   "The insurance share of costs is an estimate from past Lyft filings and analyst reports.",
+   "Uber's US market share of about three quarters is a widely reported estimate, not an exact figure.",
+   "Rides completed per week as the north star is our choice; Lyft has not published its internal metric."
+  ]
+ }
+}

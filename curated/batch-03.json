@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Cars24",
+  "website": "cars24.com",
+  "domain": "cars24.com",
+  "market": "India",
+  "category": "Used-car marketplace",
+  "why": "Managed marketplace solving trust in high-ticket used goods."
+ },
+ {
+  "company": "Naukri",
+  "website": "naukri.com",
+  "domain": "naukri.com",
+  "market": "India",
+  "category": "Jobs",
+  "why": "Profitable classifieds leader; freemium recruiter monetisation (Info Edge)."
+ },
+ {
+  "company": "Sarvam AI",
+  "website": "sarvam.ai",
+  "domain": "sarvam.ai",
+  "market": "India",
+  "category": "AI (Indic LLMs)",
+  "why": "India's sovereign LLM bet; Indic language AI and voice-first product design."
+ },
+ {
+  "company": "DigiLocker / UPI stack",
+  "website": "digilocker.gov.in",
+  "domain": "digilocker.gov.in",
+  "market": "India",
+  "category": "Public digital infra",
+  "why": "India Stack thinking: why open public rails (Aadhaar, DigiLocker, UPI) changed how products get built."
+ },
+ {
+  "company": "Razorpay",
+  "website": "razorpay.com",
+  "domain": "razorpay.com",
+  "market": "India",
+  "category": "Payments infra",
+  "why": "India's Stripe; developer-first B2B payments and expected IPO. Great B2B teardown."
+ },
+ {
+  "company": "Pine Labs",
+  "website": "pinelabs.com",
+  "domain": "pinelabs.com",
+  "market": "India",
+  "category": "Merchant payments",
+  "why": "Offline POS and EMI-at-checkout; how B2B2C fintech makes money."
+ },
+ {
+  "company": "Navi",
+  "website": "navi.com",
+  "domain": "navi.com",
+  "market": "India",
+  "category": "Fintech",
+  "why": "Low-cost UPI, loans and insurance in one app; aggressive pricing as a growth lever."
+ },
+ {
+  "company": "PolicyBazaar",
+  "website": "policybazaar.com",
+  "domain": "policybazaar.com",
+  "market": "India",
+  "category": "Insurtech",
+  "why": "Comparison marketplace for insurance; trust and assisted sales over pure digital."
+ },
+ {
+  "company": "Acko",
+  "website": "acko.com",
+  "domain": "acko.com",
+  "market": "India",
+  "category": "Insurtech",
+  "why": "Digital-only insurer; claims experience as the core product."
+ },
+ {
+  "company": "Shiprocket",
+  "website": "shiprocket.in",
+  "domain": "shiprocket.in",
+  "market": "India",
+  "category": "E-commerce enabler",
+  "why": "Listed in 2026; logistics aggregator that powers D2C brands. Platform-for-sellers case."
+ },
+ {
+  "company": "boAt",
+  "website": "boat-lifestyle.com",
+  "domain": "boat-lifestyle.com",
+  "market": "India",
+  "category": "Consumer electronics D2C",
+  "why": "Brand-led hardware for young India; filed for IPO. Marketing and distribution case."
+ },
+ {
+  "company": "Atomberg",
+  "website": "atomberg.com",
+  "domain": "atomberg.com",
+  "market": "India",
+  "category": "Smart appliances D2C",
+  "why": "Energy-efficient fans; how a product innovation beats incumbents. IPO approved in 2026."
+ },
+ {
+  "company": "Mamaearth (Honasa)",
+  "website": "mamaearth.in",
+  "domain": "mamaearth.in",
+  "market": "India",
+  "category": "Beauty D2C",
+  "why": "Built online, moved to offline retail; multi-brand house strategy."
+ }
+]

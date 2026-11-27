@@ -1,0 +1,420 @@
+{
+  "company": "Nykaa",
+  "domain": "nykaa.com",
+  "website": "https://nykaa.com",
+  "sources": [
+    "https://yourstory.com/2026/11/nykaa-reports-pat-beauty-marketplace-q2-fy27-simply-nam",
+    "https://yourstory.com/2026/05/nykaa-crosses-usd-1b-annualised-revenue-mark-profitability-surges",
+    "https://www.kotakneo.com/news/stocks/nykaa-q2-fy27-results-shares-in-focus",
+    "https://www.angelone.in/news/stocks/nykaa-q4-fy26-results-net-profit-jumps-183-percent-crosses-1-billion-revenue-milestone-in-fy26",
+    "https://www.indmoney.com/blog/stocks/nykaa-q4-results-analysis"
+  ],
+  "report": {
+    "company": "Nykaa",
+    "tagline": "India's biggest beauty shopping app and store chain, selling genuine makeup, skincare and fashion online and in 338 stores.",
+    "category": "Beauty e-commerce",
+    "simpleSummary": "Nykaa is where Indian women, and more and more men, buy lipstick, sunscreen, shampoo and perfume online. It buys most beauty products straight from brands and keeps them in its own warehouses, so buyers trust they are not fake. It also runs over 300 physical stores, a fashion app, and its own brands like Kay Beauty and Nykaa Cosmetics. It makes money from the margin on what it sells, ads that brands pay for, and its own high-margin brands.",
+    "keyNumbers": [
+      {
+        "label": "Revenue FY26",
+        "value": "₹10,022 crore, up 26%",
+        "note": "First year above $1 billion. From FY26 results reported by YourStory, May 2026."
+      },
+      {
+        "label": "Net profit FY26",
+        "value": "₹204 crore",
+        "note": "More than doubled from FY25. Q2 FY27 profit was ₹101 crore, up 206%."
+      },
+      {
+        "label": "Total GMV FY26",
+        "value": "₹19,963 crore, up 28%",
+        "note": "Value of all goods sold before returns and discounts, across beauty, fashion and the B2B Superstore."
+      },
+      {
+        "label": "Beauty GMV in one quarter",
+        "value": "₹4,454 crore (Q2 FY27)",
+        "note": "Beauty is still the core business, about three quarters of GMV. From YourStory, Nov 2026."
+      },
+      {
+        "label": "Physical stores",
+        "value": "338 stores in 111 cities",
+        "note": "As of Sep 2026. Up from 313 stores in 99 cities at March 2026."
+      },
+      {
+        "label": "Own brands (House of Nykaa)",
+        "value": "₹4,000 crore yearly GMV run rate",
+        "note": "Q2 FY27 run rate. Brands include Kay Beauty, Nykaa Cosmetics, Dot & Key and Nykd. Over 17 million customers."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Nykaa sells beauty, personal care and fashion products through its apps, website and stores. For beauty, it mostly buys stock from brands and sells it itself, which lets it promise the products are genuine. It also builds its own brands and runs Superstore, an app that supplies beauty products to small shops.",
+      "howItWorks": [
+        "Brands sell products to Nykaa. Nykaa stores them in its warehouses and ships them to buyers. This is called an inventory model.",
+        "Buyers discover products through tutorials, reviews and Nykaa's own content, then buy in the app.",
+        "Nykaa Fashion runs as a marketplace where brands list and Nykaa takes a commission.",
+        "Stores like Nykaa Luxe and Nykaa On Trend let buyers try before they buy, and push them to the app later.",
+        "Nykaa Now delivers beauty in 30 to 60 minutes in 15 cities.",
+        "Superstore by Nykaa sells stock to over 5.5 lakh small retailers and chemists."
+      ],
+      "valueProposition": "Genuine products, the widest beauty range in India, and help in choosing through reviews, videos and expert advice."
+    },
+    "personas": [
+      {
+        "name": "Young working woman in a metro",
+        "description": "A 26-year-old in Bengaluru who follows skincare creators on Instagram and spends about ₹2,000 a month on beauty.",
+        "goals": [
+          "Buy the exact serum she saw in a reel and be sure it is real",
+          "Get good deals during Pink Friday sale",
+          "Try new international brands"
+        ],
+        "frustrations": [
+          "Delivery is slower than quick commerce apps",
+          "Hard to know which product suits her skin type",
+          "Sale prices sometimes not much lower than other apps"
+        ]
+      },
+      {
+        "name": "College student on a budget",
+        "description": "A 20-year-old in Indore who buys small-size makeup and Nykaa's own brand products.",
+        "goals": [
+          "Find affordable dupes of premium products",
+          "Use coupons and free gifts"
+        ],
+        "frustrations": [
+          "Minimum order for free delivery",
+          "Too many choices without clear guidance"
+        ]
+      },
+      {
+        "name": "Beauty brand founder",
+        "description": "A D2C skincare brand that wants to reach buyers across India.",
+        "goals": [
+          "Get listed and promoted on Nykaa",
+          "Reach Nykaa's loyal beauty buyers",
+          "Get into Nykaa stores"
+        ],
+        "frustrations": [
+          "Paying high ad and margin costs to Nykaa",
+          "Competing with Nykaa's own brands on the same shelf"
+        ]
+      },
+      {
+        "name": "Small-town cosmetic shop owner",
+        "description": "A shopkeeper in Nashik who restocks from Superstore by Nykaa instead of distributors.",
+        "goals": [
+          "Get genuine stock at good margins",
+          "Order small quantities often"
+        ],
+        "frustrations": [
+          "Credit terms and delivery times vary"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Fear of buying fake beauty products online.",
+        "howSolved": "Nykaa buys most beauty stock directly from brands or their authorised sellers and ships from its own warehouses.",
+        "severity": "high"
+      },
+      {
+        "pain": "Local shops have a small range, mostly mass brands.",
+        "howSolved": "Thousands of brands across price levels, from ₹99 lip balms to luxury perfumes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing which product suits you.",
+        "howSolved": "Reviews, tutorials, Nykaa Network community, and skin quizzes help people choose.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Wanting to try shades and smell perfumes before buying.",
+        "howSolved": "Over 300 stores let people test products, with beauty advisors to help.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Running out of a product and needing it today.",
+        "howSolved": "Nykaa Now delivers in 30 to 60 minutes in 15 cities.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small retailers struggle to get genuine stock from distributors.",
+        "howSolved": "Superstore by Nykaa supplies branded stock directly to shops.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Inventory-led beauty store",
+        "whatItDoes": "Nykaa owns most of the beauty stock it sells.",
+        "whyItMatters": "Builds trust that products are genuine and lets Nykaa earn a higher margin per product."
+      },
+      {
+        "feature": "Content and reviews",
+        "whatItDoes": "Videos, tutorials, Beauty Book articles and buyer reviews on each product.",
+        "whyItMatters": "Turns browsing into buying. Content is how Nykaa wins discovery that pure price apps cannot."
+      },
+      {
+        "feature": "Nykaa Prive loyalty program",
+        "whatItDoes": "Members earn points and get early sale access and free gifts based on spend.",
+        "whyItMatters": "Keeps heavy buyers loyal and spending more."
+      },
+      {
+        "feature": "Own brands (House of Nykaa)",
+        "whatItDoes": "Kay Beauty, Nykaa Cosmetics, Dot & Key, Nykd and others, sold on Nykaa and other platforms.",
+        "whyItMatters": "Own brands earn much higher margin than reselling other brands."
+      },
+      {
+        "feature": "Physical stores",
+        "whatItDoes": "Nykaa Luxe, On Trend and kiosk stores in 111 cities.",
+        "whyItMatters": "Wins first-time buyers who want to try products and builds the brand offline."
+      },
+      {
+        "feature": "Pink Friday and Hot Pink sales",
+        "whatItDoes": "Big sale events with deep discounts and free gifts.",
+        "whyItMatters": "Brings back lapsed buyers and drives a large share of yearly sales."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First beauty purchase from a reel",
+        "persona": "Young working woman in a metro",
+        "steps": [
+          {"step": "Sees a creator reel", "detail": "A skincare creator recommends a niacinamide serum with a Nykaa link."},
+          {"step": "Opens Nykaa", "detail": "Lands on the product page with price, reviews and how-to-use video."},
+          {"step": "Checks authenticity and offers", "detail": "Sees the brand is sold by Nykaa directly and a 15% offer applies."},
+          {"step": "Adds a second item", "detail": "Picks a sunscreen to cross the free delivery limit."},
+          {"step": "Pays with UPI", "detail": "Earns Prive points on the order."},
+          {"step": "Gets delivery in 2 to 4 days", "detail": "Package arrives sealed with a free sample."}
+        ]
+      },
+      {
+        "name": "Trying a foundation shade in store",
+        "persona": "College student on a budget",
+        "steps": [
+          {"step": "Visits Nykaa store in a mall", "detail": "Wants to find the right foundation shade."},
+          {"step": "Gets help from beauty advisor", "detail": "Advisor matches her shade with testers."},
+          {"step": "Buys in store", "detail": "Pays and links her phone number to her Nykaa account."},
+          {"step": "Gets follow-up offers", "detail": "App sends offers for matching concealer."},
+          {"step": "Reorders online", "detail": "Buys the same shade again online next month without visiting."}
+        ]
+      },
+      {
+        "name": "Brand launch on Nykaa",
+        "persona": "Beauty brand founder",
+        "steps": [
+          {"step": "Pitches to Nykaa category team", "detail": "Shares sales data and product details."},
+          {"step": "Agrees terms", "detail": "Nykaa buys stock or lists it, with a margin agreed."},
+          {"step": "Runs launch ads", "detail": "Pays for banners, search ads and creator campaigns on Nykaa."},
+          {"step": "Collects reviews", "detail": "Early reviews decide whether the product ranks well."},
+          {"step": "Expands to stores", "detail": "If sales are strong, Nykaa adds the brand to offline stores."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "In beauty, Nykaa buys products and sells them at a markup. In fashion it takes a commission as a marketplace. On top of both it earns money from brand ads and from its own brands, which have the highest margins.",
+      "revenueStreams": [
+        {"stream": "Beauty product sales", "detail": "Margin on products Nykaa buys from brands and sells online and in stores. Biggest share of revenue."},
+        {"stream": "Fashion commission", "detail": "Cut of each sale on Nykaa Fashion. Fashion revenue was ₹287 crore in Q2 FY27, up 43%."},
+        {"stream": "Brand advertising", "detail": "Brands pay for banners, search placement and campaigns on the app."},
+        {"stream": "Own brands", "detail": "House of Nykaa brands sold on Nykaa and other platforms, at a ₹4,000 crore yearly GMV run rate."},
+        {"stream": "Superstore B2B", "detail": "Selling stock to small retailers, ₹1,187 crore GMV in FY26."}
+      ],
+      "pricing": "Free to use. Products are sold at or below MRP, with regular discounts. Free delivery above a minimum order value, otherwise a small delivery fee. Prive membership is earned through spending.",
+      "costDrivers": [
+        "Cost of products bought from brands",
+        "Warehouses, delivery and returns",
+        "Marketing, creators and discounts during sales",
+        "Rent and staff for 338 stores"
+      ],
+      "unitEconomics": "Take a ₹1,800 beauty order. Nykaa might keep around ₹750 after paying the brand, because beauty margins plus ads are high. Out of that, about ₹150 to ₹200 goes on delivery and packing, ₹100 to ₹150 on marketing and discounts, and some on warehouse and payment costs. That leaves a small profit per order. The rough numbers line up with the company: profit is small (₹204 crore on ₹10,022 crore revenue in FY26), but it is growing because own brands and ads carry better margins."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Creator and influencer content on Instagram and YouTube",
+        "Big sale events like Pink Friday",
+        "Stores in malls and high streets in 111 cities",
+        "Own brands sold on other platforms that bring people back to Nykaa"
+      ],
+      "whatBringsUsersBack": [
+        "Beauty products run out, so people reorder every month or two",
+        "Prive loyalty points and early sale access",
+        "New brand launches and trending products",
+        "Personalised offers based on past purchases"
+      ],
+      "moat": "Over 13 years, Nykaa has built trust that its products are real, close ties with thousands of brands, and India's biggest beauty store chain. A new player would need years to match the brand range, the reviews and the store footprint."
+    },
+    "competitors": [
+      {
+        "name": "Tira (Reliance Retail)",
+        "positioning": "Premium beauty app and stores backed by Reliance's deep pockets.",
+        "howThisProductDiffers": "Nykaa has a bigger range, more reviews and a longer trust record. Tira can spend heavily on discounts."
+      },
+      {
+        "name": "Purplle",
+        "positioning": "Value beauty for smaller cities, with strong own brands.",
+        "howThisProductDiffers": "Nykaa is stronger in premium and luxury. Purplle is cheaper and closer to Tier-2 buyers."
+      },
+      {
+        "name": "Amazon and Myntra beauty",
+        "positioning": "Beauty inside big general shopping apps.",
+        "howThisProductDiffers": "Nykaa is a beauty specialist with better content and authenticity trust."
+      },
+      {
+        "name": "Blinkit, Zepto and Swiggy Instamart",
+        "positioning": "Beauty and personal care in 10 minutes.",
+        "howThisProductDiffers": "Quick commerce has fewer items. Nykaa Now is Nykaa's answer with a wider range."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly repeat beauty buyers",
+      "why": "Beauty is a habit. A person who keeps coming back to Nykaa every month trusts the products and finds what suits them. It captures both trust and discovery, which are Nykaa's core value."
+    },
+    "kpiTree": [
+      {
+        "metric": "New buyers",
+        "description": "First-time buyers each month across app, web and stores.",
+        "children": [
+          {"metric": "Creator link clicks to first order", "description": "How well influencer content converts."},
+          {"metric": "Store visitors who sign up", "description": "Share of store buyers who link a phone number to an account."},
+          {"metric": "First-order coupon usage", "description": "Shows whether welcome offers are working."}
+        ]
+      },
+      {
+        "metric": "Repeat rate",
+        "description": "Share of buyers who buy again within 60 days.",
+        "children": [
+          {"metric": "Replenishment reminders opened", "description": "Reminders when a product is likely running out."},
+          {"metric": "Prive member share", "description": "Members spend more and come back more."},
+          {"metric": "Delivery time", "description": "Faster delivery reduces switching to quick commerce."}
+        ]
+      },
+      {
+        "metric": "Basket value",
+        "description": "How much each order is worth.",
+        "children": [
+          {"metric": "Items per order", "description": "Cross-sell of matching products like cleanser with serum."},
+          {"metric": "Premium and luxury share", "description": "Higher-priced brands raise order value."}
+        ]
+      },
+      {
+        "metric": "Own-brand share",
+        "description": "Share of beauty sales from House of Nykaa brands.",
+        "children": [
+          {"metric": "Own-brand trial rate", "description": "Share of buyers who try at least one Nykaa-owned brand."},
+          {"metric": "Own-brand repeat rate", "description": "Shows if the products are good enough to rebuy."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Complaints about fake or expired products",
+      "Return and cancellation rate",
+      "EBITDA margin must not fall during sales",
+      "Brand partner satisfaction, so own brands do not drive away other brands"
+    ],
+    "strengths": [
+      "Strongest trust in genuine products in Indian beauty",
+      "Profitable and growing, with revenue past ₹10,000 crore",
+      "Content and community that drive discovery",
+      "Fast-growing own brands with higher margins",
+      "Large store network that competitors are still building"
+    ],
+    "weaknesses": [
+      "Fashion business is still small and lower margin than beauty",
+      "Owning stock ties up cash and risks unsold inventory",
+      "Slower delivery than quick commerce in most cities",
+      "Own brands can create conflict with partner brands"
+    ],
+    "risks": [
+      "Reliance's Tira spending big on discounts and stores",
+      "Quick commerce apps taking quick-need beauty purchases",
+      "Big brands selling directly through their own sites",
+      "Premium spending slowdown if the economy weakens"
+    ],
+    "userComplaints": [
+      "Delayed deliveries, especially during sales",
+      "Refunds and returns take too long, and many beauty items cannot be returned",
+      "Occasional reports of near-expiry or damaged products",
+      "Customer support is slow to respond",
+      "Nykaa Fashion sizing and quality issues"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Smart reorder with one-tap subscribe for daily-use products",
+        "problem": "Buyers forget to reorder and end up buying on a quick commerce app.",
+        "expectedImpact": "Higher repeat rate and more predictable sales.",
+        "metricToTrack": "60-day repeat purchase rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Shade finder using the phone camera",
+        "problem": "Buyers fear picking the wrong foundation shade online.",
+        "expectedImpact": "More confident first purchases and fewer unhappy buyers.",
+        "metricToTrack": "Conversion rate on complexion products",
+        "effort": "medium"
+      },
+      {
+        "idea": "Expand Nykaa Now to top 25 cities with a 'get it today' filter",
+        "problem": "Urgent needs go to Blinkit and Zepto.",
+        "expectedImpact": "Win back quick-need orders and lift frequency.",
+        "metricToTrack": "Share of orders delivered same day",
+        "effort": "high"
+      },
+      {
+        "idea": "Show manufacturing and expiry dates on the product page and box",
+        "problem": "Complaints about near-expiry products hurt trust.",
+        "expectedImpact": "Fewer complaints and better ratings.",
+        "metricToTrack": "Expiry-related complaints per 1,000 orders",
+        "effort": "low"
+      },
+      {
+        "idea": "Skin profile that tailors the home page",
+        "problem": "Too many products make choosing hard.",
+        "expectedImpact": "Better product matches and higher basket value.",
+        "metricToTrack": "Click to order rate on personalised home page",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Trust can be a product feature. Nykaa chose to own stock so it could promise genuine products, even though it cost more cash.",
+      "Content helps people decide. In beauty, explaining what to buy matters as much as low price.",
+      "Online and offline can help each other. Stores bring new buyers, and the app keeps them.",
+      "Own brands can lift margins, but a PM must balance them against the partner brands that fill the shelf."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why did Nykaa choose to hold inventory for beauty instead of being a pure marketplace?",
+        "hint": "Talk about trust in genuine products, control over delivery and higher margin. Then cover the cost: cash tied up and risk of unsold stock."
+      },
+      {
+        "question": "Blinkit sells lipstick in 10 minutes. How should Nykaa respond?",
+        "hint": "Split purchases into urgent refills and planned discovery. Defend urgent ones with Nykaa Now in key cities, and win discovery with range, content and expert help."
+      },
+      {
+        "question": "How would you increase repeat purchases on Nykaa?",
+        "hint": "Look at reasons for not returning, use reorder reminders, Prive benefits and personalised home pages, and measure 60-day repeat rate."
+      },
+      {
+        "question": "Should Nykaa push its own brands harder on the home page?",
+        "hint": "Weigh higher margin against user trust and brand partner relations. Suggest testing with clear labels and guardrails on partner brand sales."
+      },
+      {
+        "question": "Design a feature to help a first-time buyer choose a sunscreen.",
+        "hint": "Define the user, list key questions (skin type, budget, finish), propose a short quiz with reviews and video, and measure conversion and returns."
+      }
+    ],
+    "glossary": [
+      {"term": "GMV", "meaning": "Gross merchandise value: the total value of everything sold before returns and discounts."},
+      {"term": "Inventory model", "meaning": "When a company buys stock and sells it itself, instead of letting sellers list their own products."},
+      {"term": "North star metric", "meaning": "The one number a company uses to judge whether it is delivering real value to users."},
+      {"term": "EBITDA", "meaning": "Profit before interest, taxes and depreciation, a common way to see if day-to-day operations make money."},
+      {"term": "Quick commerce", "meaning": "Apps that deliver products in 10 to 30 minutes from small nearby warehouses."},
+      {"term": "D2C", "meaning": "Direct to consumer: brands that sell straight to buyers rather than through shops."},
+      {"term": "Run rate", "meaning": "What a business would earn in a year if the latest quarter's pace continued."}
+    ],
+    "assumptions": [
+      "The per-order numbers in unit economics are rough estimates based on public margins, not company-reported figures.",
+      "Beauty being about three quarters of GMV is inferred from beauty and fashion GMV figures.",
+      "Typical beauty order size of about ₹1,800 is an estimate from past company disclosures and news."
+    ]
+  }
+}

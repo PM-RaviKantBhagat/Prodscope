@@ -1,0 +1,418 @@
+{
+  "company": "Myntra",
+  "domain": "myntra.com",
+  "website": "https://myntra.com",
+  "sources": [
+    "https://inc42.com/buzz/myntra-slips-into-the-red-in-fy26-reports-₹582-cr-loss/",
+    "https://www.exchange4media.com/advertising-news/myntras-ad-spend-up-105-to-rs2326-crore-as-fy26-revenue-falls-135-159307.html",
+    "https://yourstory.com/2025/09/myntra-posts-18x-jump-in-profit-fy25",
+    "https://techcrunch.com/2024/12/05/myntra-pushes-into-india-quick-commerce-race-with-30-minute-fashion-delivery",
+    "https://www.franchiseindia.com/index.php/insights/en/news/myntra-takes-30-minute-fashion-delivery-to-patna-jaipur-lucknow-and-ahmedabad.58311",
+    "https://zoutons.com/news/myntra-return-policy-refund-time-2026",
+    "https://restofworld.org/2023/end-of-free-returns/"
+  ],
+  "report": {
+    "company": "Myntra",
+    "tagline": "India's biggest fashion shopping app, owned by Flipkart, now also delivering clothes in 30 minutes through M-Now.",
+    "category": "Fashion e-commerce",
+    "simpleSummary": "Myntra is an app for buying clothes, shoes, watches and beauty products from thousands of brands like Nike, H&M, Biba and Roadster. You can try clothes at home and send back what does not fit. In some cities, M-Now brings your order in 30 minutes. Myntra makes money by taking a cut from brands on every sale, charging for delivery, and selling ads to brands.",
+    "keyNumbers": [
+      {
+        "label": "Revenue FY26",
+        "value": "₹5,242 crore, down 13.5%",
+        "note": "From filings reported by Inc42. The drop came mostly from lower logistics and shipping revenue (₹1,119 crore vs ₹2,390 crore), likely from changing how delivery fees are booked."
+      },
+      {
+        "label": "Net result FY26",
+        "value": "₹582 crore loss",
+        "note": "Swung from a ₹546 crore profit in FY25. Parent Flipkart cited finance costs, tax write-offs and one-off items at group level."
+      },
+      {
+        "label": "Ad revenue FY26",
+        "value": "₹1,236 crore, up 35%",
+        "note": "Brands paying to be seen on Myntra. Fastest-growing revenue line. From Inc42."
+      },
+      {
+        "label": "Marketing spend FY26",
+        "value": "₹2,326 crore",
+        "note": "About 40% of all expenses. Shows how costly it is to win fashion shoppers. From Inc42 and exchange4media."
+      },
+      {
+        "label": "Monthly users",
+        "value": "About 70 to 80 million (estimate)",
+        "note": "Myntra has said it aims for 100 million monthly active users. Exact current figure is not public. Estimate from news reports, 2025 and 2026."
+      },
+      {
+        "label": "M-Now cities",
+        "value": "10+ cities (2026)",
+        "note": "Launched in Bengaluru in Dec 2024, then Delhi NCR, Mumbai, Hyderabad, and in 2026 Patna, Jaipur, Lucknow and Ahmedabad."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Myntra is a fashion marketplace. Brands and sellers list clothes, footwear, accessories and beauty products, and Myntra handles the app, delivery and returns. Flipkart bought it in 2014 and it runs as Flipkart's fashion arm.",
+      "howItWorks": [
+        "Brands list styles on Myntra. Myntra takes a commission on each sale and charges for warehousing and delivery.",
+        "Buyers browse by brand, price, trend or occasion, and get recommendations based on what they viewed.",
+        "Orders are shipped from Myntra warehouses or seller locations. Most arrive in 2 to 5 days.",
+        "M-Now stocks popular styles in small city warehouses and delivers in about 30 minutes.",
+        "Buyers can return most items within the return window, and Myntra picks them up from home.",
+        "Big sales like End of Reason Sale (EORS) and Big Fashion Festival bring huge traffic bursts."
+      ],
+      "valueProposition": "Thousands of brands in one place, trend-led discovery, and easy returns, so you can buy clothes online without fear of getting the wrong size."
+    },
+    "personas": [
+      {
+        "name": "Trend-following Gen Z buyer",
+        "description": "A 21-year-old in Pune who copies looks from Instagram and buys 1 to 2 items a month, often on sale.",
+        "goals": [
+          "Find the outfit she saw in a reel at a good price",
+          "Get it in time for a party this weekend",
+          "Return it if it looks bad"
+        ],
+        "frustrations": [
+          "Too many similar products",
+          "Size differs across brands",
+          "Return fees on some orders"
+        ]
+      },
+      {
+        "name": "Young professional upgrading wardrobe",
+        "description": "A 29-year-old in Gurugram who buys branded workwear and sneakers, spending ₹3,000 to ₹5,000 per order.",
+        "goals": [
+          "Buy genuine branded products",
+          "Use sale periods for bigger buys",
+          "Get fast delivery"
+        ],
+        "frustrations": [
+          "Sale prices that look inflated",
+          "Slow refunds"
+        ]
+      },
+      {
+        "name": "Fashion brand selling online",
+        "description": "A mid-size Indian ethnic wear brand that gets a big share of its online sales on Myntra.",
+        "goals": [
+          "Reach crores of fashion buyers",
+          "Clear stock during EORS",
+          "Keep returns low"
+        ],
+        "frustrations": [
+          "High commission plus ad spend",
+          "Returns eat into margins",
+          "Discount pressure during sales"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Malls and local shops have a limited range and you must travel.",
+        "howSolved": "Millions of styles from thousands of brands, available from your phone.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fear of buying the wrong size or a style that does not suit you.",
+        "howSolved": "Free or low-cost pickup returns, size charts and fit tips from other buyers' reviews.",
+        "severity": "high"
+      },
+      {
+        "pain": "Needing an outfit urgently for an event.",
+        "howSolved": "M-Now delivers popular styles in about 30 minutes in key cities.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Hard to discover what is in fashion.",
+        "howSolved": "Trend pages, creator content, Myntra Minis short videos, and FWD section for young buyers.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Branded fashion is expensive.",
+        "howSolved": "Regular sales, bank offers and Myntra Insider rewards.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Fear of fake products from unknown sellers.",
+        "howSolved": "Brands sold directly or through checked partners on a fashion-only platform.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Easy returns and exchange",
+        "whatItDoes": "Home pickup for returns and size exchange within the return window.",
+        "whyItMatters": "Removes the main fear of buying clothes online, but returns are also one of Myntra's biggest costs."
+      },
+      {
+        "feature": "M-Now 30-minute delivery",
+        "whatItDoes": "Thousands of top-selling styles stocked in city stores, delivered in about 30 minutes.",
+        "whyItMatters": "Fights quick commerce apps and new fast-fashion delivery startups, and wins urgent purchases."
+      },
+      {
+        "feature": "Personalised feed and search",
+        "whatItDoes": "Shows styles based on what you viewed, bought and returned.",
+        "whyItMatters": "Fashion has too many choices. Better matches raise sales and cut returns."
+      },
+      {
+        "feature": "End of Reason Sale (EORS)",
+        "whatItDoes": "Myntra's biggest sale, held twice a year, with heavy discounts.",
+        "whyItMatters": "Brings millions of new and lapsed buyers and clears brand stock."
+      },
+      {
+        "feature": "Myntra Insider",
+        "whatItDoes": "Loyalty program with points, early sale access and member offers.",
+        "whyItMatters": "Keeps frequent buyers coming back."
+      },
+      {
+        "feature": "Ads for brands",
+        "whatItDoes": "Brands pay to appear higher in search, banners and sale pages.",
+        "whyItMatters": "Ad revenue grew 35% in FY26 and has high margins."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying an outfit for a party",
+        "persona": "Trend-following Gen Z buyer",
+        "steps": [
+          {"step": "Sees a look on Instagram", "detail": "Saves a reel of a co-ord set."},
+          {"step": "Searches on Myntra", "detail": "Types 'co-ord set' and filters by price under ₹1,500 and M-Now."},
+          {"step": "Checks fit reviews", "detail": "Reads buyer comments like 'runs small, size up'."},
+          {"step": "Orders with M-Now", "detail": "Pays by UPI and gets a 30-minute delivery promise."},
+          {"step": "Tries it on", "detail": "If it fits, she wears it. If not, she books a home pickup return."},
+          {"step": "Gets refund", "detail": "Refund lands in a few days, or instantly as Myntra credit."}
+        ]
+      },
+      {
+        "name": "EORS shopping",
+        "persona": "Young professional upgrading wardrobe",
+        "steps": [
+          {"step": "Adds items to wishlist early", "detail": "Saves sneakers and shirts a week before the sale."},
+          {"step": "Gets early access", "detail": "As an Insider, gets in a few hours before others."},
+          {"step": "Checks out quickly", "detail": "Uses a bank card offer for extra discount."},
+          {"step": "Waits for delivery", "detail": "Sale orders take longer, often 4 to 7 days."},
+          {"step": "Keeps or returns", "detail": "Returns one shirt that does not fit."}
+        ]
+      },
+      {
+        "name": "Brand plans a sale",
+        "persona": "Fashion brand selling online",
+        "steps": [
+          {"step": "Agrees discounts with Myntra", "detail": "Decides how much of the discount the brand funds."},
+          {"step": "Sends stock to Myntra warehouses", "detail": "So orders ship fast during the sale."},
+          {"step": "Buys ads", "detail": "Pays for banners on the sale home page."},
+          {"step": "Tracks sales and returns", "detail": "Watches which styles sell and which come back."},
+          {"step": "Plans next season", "detail": "Uses Myntra data on trending colours and sizes."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Myntra makes money in three main ways: a commission and service fee on each sale, delivery and logistics charges, and ads that brands buy. Its biggest costs are marketing, delivery and returns.",
+      "revenueStreams": [
+        {"stream": "Marketplace and collection services", "detail": "Commission and fees from brands on each sale. ₹2,657 crore in FY26."},
+        {"stream": "Advertising", "detail": "Brands paying for visibility. ₹1,236 crore in FY26, up 35%."},
+        {"stream": "Logistics and shipping", "detail": "Charges for warehousing, delivery and returns. ₹1,119 crore in FY26."},
+        {"stream": "Other", "detail": "Platform fees, convenience fees and other services. ₹230 crore in FY26."}
+      ],
+      "pricing": "Free to use. Products at brand prices with discounts. Buyers may pay a platform fee and a delivery fee below a minimum order value. Some returns carry a fee. Brands pay a commission that usually ranges from about 15% to 30% depending on category (estimate).",
+      "costDrivers": [
+        "Marketing and promotions: ₹2,326 crore in FY26, about 40% of costs",
+        "Delivery and payment charges: ₹1,841 crore",
+        "Reverse logistics, which means picking up and checking returns",
+        "Staff and tech: ₹777 crore on employees"
+      ],
+      "unitEconomics": "Take a ₹1,200 order. Myntra might earn about ₹250 to ₹300 from commission, fees and ads. Delivery costs about ₹60 to ₹80, and payment fees around ₹20. If the item is returned, which happens often in fashion, Myntra pays for the pickup and checking, about ₹60 to ₹80 more, and earns almost nothing. So one returned order can wipe out the profit of the next kept order. Add heavy marketing, and you see why Myntra is near breakeven and why cutting returns is its biggest lever."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Big sales like EORS and Big Fashion Festival, backed by TV and digital ads",
+        "Celebrity and influencer marketing",
+        "Cross-promotion from Flipkart's large user base",
+        "Bank card and UPI offers"
+      ],
+      "whatBringsUsersBack": [
+        "New styles every day and personalised feed",
+        "Wishlist alerts when prices drop",
+        "Myntra Insider points and early access",
+        "Easy returns that make the next order feel safe"
+      ],
+      "moat": "Myntra has deep ties with thousands of fashion brands, years of data on what Indians buy and return by size and city, and a strong brand as the fashion destination. Matching this needs years of brand partnerships and large spending."
+    },
+    "competitors": [
+      {
+        "name": "Ajio (Reliance)",
+        "positioning": "Fashion app with Reliance brands and international labels, strong in discounts.",
+        "howThisProductDiffers": "Myntra has more brands, more users and faster delivery through M-Now."
+      },
+      {
+        "name": "Amazon Fashion and Flipkart",
+        "positioning": "Fashion inside general shopping apps.",
+        "howThisProductDiffers": "Myntra is a fashion specialist with better curation and trend content."
+      },
+      {
+        "name": "Meesho",
+        "positioning": "Very cheap unbranded fashion for value buyers.",
+        "howThisProductDiffers": "Myntra focuses on branded fashion and higher-spending buyers."
+      },
+      {
+        "name": "Zudio and offline stores",
+        "positioning": "Cheap trendy clothes in physical stores, growing fast in small cities.",
+        "howThisProductDiffers": "Myntra offers far more range and home delivery, but Zudio lets buyers try before paying."
+      },
+      {
+        "name": "Fast-fashion delivery startups like Slikk and KNOT",
+        "positioning": "60-minute fashion delivery apps for young city buyers.",
+        "howThisProductDiffers": "Myntra has more brands and a bigger user base. M-Now is its answer."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of fashion orders kept (not returned) per month",
+      "why": "A kept order means the buyer found something that fit and liked it. It captures discovery, fit and trust, and pushes the team to reduce returns rather than just push more orders."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly buyers",
+        "description": "People who place at least one order in the month.",
+        "children": [
+          {"metric": "App visitors to buyers rate", "description": "Share of monthly app users who buy."},
+          {"metric": "New buyers from sales", "description": "First-time buyers acquired during EORS and other events."},
+          {"metric": "Flipkart cross-over buyers", "description": "Flipkart users who start buying on Myntra."}
+        ]
+      },
+      {
+        "metric": "Orders per buyer",
+        "description": "How often each buyer orders in a month.",
+        "children": [
+          {"metric": "Feed click rate", "description": "Share of feed views that open a product."},
+          {"metric": "Wishlist to purchase rate", "description": "Share of wishlisted items that get bought."},
+          {"metric": "M-Now usage share", "description": "Share of buyers using 30-minute delivery."}
+        ]
+      },
+      {
+        "metric": "Kept-order rate",
+        "description": "Share of delivered orders that are not returned.",
+        "children": [
+          {"metric": "Size-related returns", "description": "Returns because of wrong fit."},
+          {"metric": "Looks-different returns", "description": "Returns because colour or quality did not match photos."},
+          {"metric": "Size recommendation use", "description": "Share of orders where buyers used the size helper."}
+        ]
+      },
+      {
+        "metric": "Supply and selection",
+        "description": "Having the right styles in stock in the right sizes.",
+        "children": [
+          {"metric": "In-stock rate for top styles", "description": "Share of popular styles available in all key sizes."},
+          {"metric": "New styles added per week", "description": "Fresh range keeps people browsing."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Marketing cost per new buyer must not keep rising",
+      "Refund time must stay within the promised days",
+      "M-Now on-time delivery rate",
+      "Brand partner churn"
+    ],
+    "strengths": [
+      "India's leading fashion platform with strong brand recall",
+      "Thousands of brand partnerships and deep data on sizes and trends",
+      "Ad revenue growing fast at 35%",
+      "Backed by Flipkart's money, logistics and user base",
+      "M-Now gives an early lead in fast fashion delivery"
+    ],
+    "weaknesses": [
+      "High returns make each order costly",
+      "Heavy marketing spend, about 40% of costs",
+      "Swung to a loss in FY26",
+      "Return fees and platform fees annoy buyers"
+    ],
+    "risks": [
+      "Reliance's Ajio and Zudio competing on price",
+      "Quick commerce apps and fast-fashion startups taking urgent purchases",
+      "Rules on dark patterns, fake discounts and fees from the consumer ministry",
+      "Brands moving to their own apps and stores"
+    ],
+    "userComplaints": [
+      "Returns rejected because tags were missing or item was marked as used",
+      "Refunds stuck or delayed",
+      "Platform fee and return fee charges feel unfair",
+      "Quality and colour different from photos",
+      "Customer support is hard to reach and gives copy-paste replies"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Personal size profile across brands",
+        "problem": "Size changes from brand to brand, causing many returns.",
+        "expectedImpact": "Fewer size returns and higher buyer confidence.",
+        "metricToTrack": "Size-related return rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Try-and-buy at the door for M-Now orders",
+        "problem": "Returns cost Myntra a second trip.",
+        "expectedImpact": "Buyer tries on the spot, the rider takes back what does not fit, so fewer separate return pickups.",
+        "metricToTrack": "Cost per return and kept-order rate for M-Now",
+        "effort": "high"
+      },
+      {
+        "idea": "Clear, upfront fee breakdown before checkout",
+        "problem": "Surprise platform and return fees hurt trust.",
+        "expectedImpact": "Fewer complaints and fewer abandoned carts.",
+        "metricToTrack": "Checkout drop-off rate and fee complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Real buyer photo and video reviews ranked first",
+        "problem": "Product looks different from studio photos.",
+        "expectedImpact": "Better expectations and fewer 'looks different' returns.",
+        "metricToTrack": "Return rate on items with buyer photos",
+        "effort": "low"
+      },
+      {
+        "idea": "Instant return approval with photo proof",
+        "problem": "Returns rejected for tags or wear lead to angry buyers.",
+        "expectedImpact": "Faster resolution and fewer consumer complaints.",
+        "metricToTrack": "Return dispute rate and resolution time",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "In fashion, returns can decide whether you make money. Fixing fit is as important as getting the sale.",
+      "Speed is becoming a feature even in fashion. M-Now shows how a big player responds before startups grow.",
+      "Ads can become a big business when you own the place where buyers search.",
+      "Marketing can buy traffic, but only good fit and easy returns bring people back."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Myntra's returns are high. How would you reduce them without hurting sales?",
+        "hint": "Break returns into reasons (size, look, quality, changed mind). Pick the biggest, propose size profiles and buyer photos, and set guardrails on conversion rate."
+      },
+      {
+        "question": "Is 30-minute fashion delivery worth it for Myntra?",
+        "hint": "Define the user need (urgent events), look at costs (city stock, riders), compare with order value and repeat use, and suggest where it makes sense."
+      },
+      {
+        "question": "What should Myntra's north star metric be?",
+        "hint": "Argue for kept orders, then build drivers: buyers, frequency, kept rate and selection."
+      },
+      {
+        "question": "How would you design Myntra's experience for a first-time buyer from a Tier-2 city?",
+        "hint": "Look at trust, language, price and payment. Suggest a simple onboarding, local trends and cash on delivery, and measure first-order conversion."
+      },
+      {
+        "question": "Myntra's ad revenue is growing fast. How do you stop ads from making search worse?",
+        "hint": "Talk about relevance, labelling, limits on ad slots, and guardrails like search to order rate."
+      }
+    ],
+    "glossary": [
+      {"term": "North star metric", "meaning": "The one number a company uses to judge whether it is delivering real value to users."},
+      {"term": "Reverse logistics", "meaning": "The process of picking up, checking and restocking returned products."},
+      {"term": "Monthly active users", "meaning": "The number of different people who open the app at least once in a month."},
+      {"term": "Breakeven", "meaning": "The point where money coming in equals money going out, so no profit and no loss."},
+      {"term": "Quick commerce", "meaning": "Apps that deliver in 10 to 30 minutes from small nearby warehouses."},
+      {"term": "Dark patterns", "meaning": "Design tricks that push users into choices they did not mean to make, like hidden fees."}
+    ],
+    "assumptions": [
+      "Monthly users of 70 to 80 million is an estimate. Myntra has not published a recent exact figure.",
+      "Commission range of 15% to 30% is an industry estimate.",
+      "Per-order costs in unit economics are rough estimates based on public cost lines, not company figures.",
+      "The fall in logistics revenue is assumed to come from an accounting change in how delivery fees are recorded."
+    ]
+  }
+}

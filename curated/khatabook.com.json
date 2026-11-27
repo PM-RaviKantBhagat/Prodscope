@@ -1,0 +1,357 @@
+{
+  "company": "Khatabook",
+  "domain": "khatabook.com",
+  "website": "https://khatabook.com",
+  "sources": [
+    "https://yourstory.com/2024/11/ms-dhoni-backed-khatabook-clocks-rs-1027-cr-revenue-cuts-losses-7-in-fy24",
+    "https://inc42.com/company/khatabook/financials/",
+    "https://lapaasvoice.com/startup/khatabook/financials",
+    "https://india.entrepreneur.com/news-and-trends/fintech-platform-khatabook-lays-off-over-40-employees/458378",
+    "https://apps.apple.com/in/app/id1488204139",
+    "https://inc42.com/buzz/tiger-global-backed-okcredit-narrows-fy25-loss-by-34-to-inr-23-cr/?login=1"
+  ],
+  "report": {
+    "company": "Khatabook",
+    "tagline": "A free phone app that replaces the paper credit notebook (khata) that Indian shopkeepers use to track who owes them money.",
+    "category": "SMB fintech",
+    "simpleSummary": "Almost every small shop in India keeps a paper notebook of customers who buy now and pay later. Khatabook puts that notebook on the shopkeeper's phone. Every time a customer takes goods on credit, the shopkeeper adds an entry and the customer gets an SMS. When money is due, the app sends a reminder with a payment link, so the shopkeeper does not have to ask awkwardly. The app is free. Khatabook makes money later by giving these shopkeepers small business loans and selling paid tools.",
+    "keyNumbers": [
+      {
+        "label": "Revenue FY24",
+        "value": "₹102.7 crore",
+        "note": "Company filings as reported by YourStory, Nov 2024. Up 27% from ₹80.9 crore in FY23."
+      },
+      {
+        "label": "Net loss FY24",
+        "value": "₹116.2 crore",
+        "note": "Company filings via YourStory. Loss fell 7% from ₹125.4 crore in FY23. It spent ₹230 crore to earn ₹103 crore."
+      },
+      {
+        "label": "Revenue FY25 (standalone entity)",
+        "value": "About ₹1.4 crore reported",
+        "note": "Inc42 data page shows a 98.8% drop for the filing entity. This most likely means the business moved into another group company, not that sales vanished. Treat as uncertain."
+      },
+      {
+        "label": "Total funding",
+        "value": "About $186 million",
+        "note": "Tracked across 5 rounds; last big round was a $100 million Series C in Aug 2021. Investors include Y Combinator, Peak XV and MS Dhoni."
+      },
+      {
+        "label": "Peak valuation",
+        "value": "About $600 million (2021)",
+        "note": "Widely reported at the Series C in 2021. No newer public valuation found."
+      },
+      {
+        "label": "Merchants on the app",
+        "value": "Over 1 crore (10 million) monthly active, as claimed in 2021",
+        "note": "Company claim from its 2021 funding round. No fresh audited number found for 2025 or 2026. Estimate only."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Khatabook is a digital ledger for small businesses. A shopkeeper records who took goods on credit and who paid back. The app reminds customers to pay and lets them pay by UPI. On top of this free tool, Khatabook offers loans, billing and accounting tools.",
+      "howItWorks": [
+        "The shopkeeper signs up with a phone number and adds customers from their contacts.",
+        "Each sale on credit (udhar) or payment received (jama) is entered in a few taps. The customer gets a free SMS or WhatsApp message with the new balance.",
+        "When money is due, the shopkeeper taps 'remind' and the customer gets a message with a UPI payment link.",
+        "All data is backed up online, so a lost phone does not mean lost records. Several family members can use one account.",
+        "Because Khatabook sees the shop's real money flow, it can offer loans of ₹50,000 to ₹5 lakh through partner NBFCs, repaid in small daily amounts.",
+        "Paid add-ons like Biz Analyst (Tally data on your phone) and billing tools bring in subscription money from bigger businesses."
+      ],
+      "valueProposition": "Get your money back faster without awkward conversations, never lose your khata, and do it all free on the phone you already have, in your own language."
+    },
+    "personas": [
+      {
+        "name": "Kirana shop owner in a small town",
+        "description": "Runs a family grocery store in a tier-2 or tier-3 town. Gives credit to 50 to 200 regular customers and has used a paper khata for years.",
+        "goals": [
+          "Collect pending dues on time",
+          "Know exactly who owes how much without flipping pages",
+          "Avoid fights with customers over disputed amounts"
+        ],
+        "frustrations": [
+          "Paper notebook gets lost, torn or wet",
+          "Feels rude asking regular customers for money",
+          "Not comfortable with complex English-only apps"
+        ]
+      },
+      {
+        "name": "Wholesaler or distributor",
+        "description": "Supplies goods to dozens of retailers on 15 to 30 day credit. Handles large amounts and many invoices.",
+        "goals": [
+          "Track credit given to each retailer",
+          "See business numbers like sales and stock on the phone",
+          "Get working capital to buy more stock"
+        ],
+        "frustrations": [
+          "Accounts sit in Tally on a desktop in the shop",
+          "Banks ask for too many papers for a small loan",
+          "Retailers delay payments"
+        ]
+      },
+      {
+        "name": "Service provider or freelancer",
+        "description": "A tailor, mechanic, tuition teacher or contractor who bills clients and gets paid in parts.",
+        "goals": [
+          "Keep a simple record of pending payments",
+          "Send a professional reminder"
+        ],
+        "frustrations": [
+          "Forgets small amounts owed",
+          "Clients deny or dispute what they owe"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Paper khata can be lost, damaged or misread.",
+        "howSolved": "Every entry is saved on the cloud and can be opened on another phone.",
+        "severity": "high"
+      },
+      {
+        "pain": "Asking customers for money is awkward and hurts the relationship.",
+        "howSolved": "The app sends a polite automatic reminder by SMS or WhatsApp, so the shopkeeper does not have to say it.",
+        "severity": "high"
+      },
+      {
+        "pain": "Customers dispute how much they owe.",
+        "howSolved": "Customers get a message after every entry, so both sides see the same balance and there is a record.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Collecting money takes trips and cash handling.",
+        "howSolved": "Reminders carry a UPI link, so customers can pay from anywhere.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small shops cannot get bank loans because they have no formal records.",
+        "howSolved": "Khatabook uses the shop's ledger and payment history to help partner lenders approve small loans with little paperwork.",
+        "severity": "high"
+      },
+      {
+        "pain": "Business numbers sit in a desktop accounting tool.",
+        "howSolved": "Biz Analyst shows Tally data like sales, dues and stock on the phone.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Digital khata (credit ledger)",
+        "whatItDoes": "Record udhar (credit given) and jama (money received) for each customer with a running balance.",
+        "whyItMatters": "This is the free habit that brings shopkeepers in and makes them open the app every day."
+      },
+      {
+        "feature": "Payment reminders with UPI link",
+        "whatItDoes": "Sends an SMS or WhatsApp reminder with the due amount and a link to pay.",
+        "whyItMatters": "Gets shopkeepers paid faster. Each message also shows Khatabook to a new person, which brings in new users for free."
+      },
+      {
+        "feature": "Business loans",
+        "whatItDoes": "Offers loans of ₹50,000 to ₹5 lakh from partner NBFCs, repaid in daily instalments.",
+        "whyItMatters": "This is the main way Khatabook earns money from a free user base."
+      },
+      {
+        "feature": "Biz Analyst",
+        "whatItDoes": "A paid app that pulls data from Tally accounting software and shows it on the phone.",
+        "whyItMatters": "Brings subscription money from larger traders and distributors."
+      },
+      {
+        "feature": "Regional language support",
+        "whatItDoes": "Works in English and 12 other Indian languages.",
+        "whyItMatters": "Most shopkeepers are more comfortable in Hindi, Tamil, Telugu and others, so this is key for adoption outside metros."
+      },
+      {
+        "feature": "Online backup and multi-phone access",
+        "whatItDoes": "Data is stored online and can be used by more than one family member.",
+        "whyItMatters": "Removes the fear of losing records, the main reason people switch from paper."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First day: moving from paper to app",
+        "persona": "Kirana shop owner in a small town",
+        "steps": [
+          {"step": "Hears about it", "detail": "Gets a payment reminder from another shop on Khatabook, or sees a YouTube or TV ad."},
+          {"step": "Installs and signs up", "detail": "Downloads from Play Store, logs in with phone number OTP, picks Hindi."},
+          {"step": "Adds customers", "detail": "Picks regular customers from phone contacts."},
+          {"step": "Copies old balances", "detail": "Enters the pending amount from the paper khata for each customer."},
+          {"step": "Records a new credit sale", "detail": "A customer takes ₹350 of groceries on credit. The owner adds it in two taps."},
+          {"step": "Customer gets SMS", "detail": "The customer receives a message with the new balance. The owner sees it works."}
+        ]
+      },
+      {
+        "name": "Collecting dues at month end",
+        "persona": "Kirana shop owner in a small town",
+        "steps": [
+          {"step": "Opens the app", "detail": "Sees the total amount he is owed at the top of the screen."},
+          {"step": "Sorts by highest due", "detail": "Finds the five customers who owe the most."},
+          {"step": "Sends reminders", "detail": "Taps remind. Each customer gets a WhatsApp message with a UPI link."},
+          {"step": "Customer pays", "detail": "A customer pays ₹1,200 from PhonePe or Google Pay."},
+          {"step": "Ledger updates", "detail": "The entry is marked as received and the balance drops."},
+          {"step": "Repeat", "detail": "The owner calls the one customer who still has not paid, using the call button in the app."}
+        ]
+      },
+      {
+        "name": "Taking a business loan",
+        "persona": "Wholesaler or distributor",
+        "steps": [
+          {"step": "Sees loan offer", "detail": "After months of regular use, a banner shows a pre-approved loan of up to ₹3 lakh."},
+          {"step": "Checks eligibility", "detail": "Enters PAN and Aadhaar. The partner NBFC checks credit score and ledger history."},
+          {"step": "Sees terms", "detail": "Loan amount, interest, and daily repayment amount are shown."},
+          {"step": "Completes KYC", "detail": "Video or digital KYC, bank account linked for auto-debit."},
+          {"step": "Gets money", "detail": "Loan reaches the bank account, often within a few days."},
+          {"step": "Repays daily", "detail": "A small amount is debited each day from sales, which fits how shops earn cash daily."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "The ledger is free forever. Khatabook makes money from three things: a fee or share of interest on loans it arranges with partner lenders, paid subscriptions like Biz Analyst and billing tools, and smaller payment-related income.",
+      "revenueStreams": [
+        {"stream": "Lending", "detail": "Khatabook finds and screens the borrower, a partner NBFC gives the loan. Khatabook earns a sourcing fee or a share of interest. Company said in 2023 its financial services business would drive profitability."},
+        {"stream": "Subscriptions", "detail": "Biz Analyst and premium billing or accounting tools for bigger businesses, paid yearly."},
+        {"stream": "Payments", "detail": "Small income from collecting payments via UPI and payment links, and related services."}
+      ],
+      "pricing": "Core ledger app is free. Loans range from ₹50,000 to ₹5 lakh with interest set by partner lenders. Biz Analyst and premium plans are paid yearly; exact prices vary and are shown in the app.",
+      "costDrivers": [
+        "Salaries for engineers, sales and support (₹117 crore in FY24)",
+        "SMS and WhatsApp message costs for free reminders",
+        "Contractor and payment gateway charges (₹106 crore in FY24)",
+        "Marketing to win shopkeepers in small towns",
+        "Loan losses or default guarantees if it shares risk with lenders"
+      ],
+      "unitEconomics": "A free shopkeeper costs Khatabook a few rupees a month in SMS, server and support costs, and pays nothing. The money comes when a small share of shops take a loan. Example: on a ₹2 lakh loan, if Khatabook earns a 2 to 3% sourcing fee plus a small interest share, it may make ₹5,000 to ₹8,000 over the loan. That has to pay for all the free users. In FY24 it spent about ₹2.24 for every ₹1 it earned, so it was still losing money on the whole. Rough estimate based on industry norms."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth through reminders: every customer who gets a Khatabook SMS learns the app exists, and many of them run shops too.",
+        "TV and YouTube ads in Hindi and regional languages, including ads with MS Dhoni.",
+        "Strong Play Store presence and high ratings (4.7 on iOS with 127k ratings).",
+        "Field sales teams in markets and wholesale hubs."
+      ],
+      "whatBringsUsersBack": [
+        "Daily habit: every credit sale is a new entry, often many times a day.",
+        "Money owed is shown at the top, so the app answers 'how much will I get back?'",
+        "Records build up over time, so switching apps means losing history.",
+        "Loan offers that unlock after regular use."
+      ],
+      "moat": "Years of transaction data on crores of small shops lets Khatabook judge who can repay a loan better than a bank can. The more a shop uses the app, the harder it is to leave because its history lives there. But the ledger itself is easy to copy, and OkCredit, Vyapar and even PhonePe and Paytm offer similar free tools."
+    },
+    "competitors": [
+      {"name": "OkCredit", "positioning": "Almost the same free digital ledger, backed by Tiger Global. Cut its FY25 loss by 34% to ₹23 crore.", "howThisProductDiffers": "Khatabook is larger, has more revenue and a stronger loans and Biz Analyst offering."},
+      {"name": "Vyapar", "positioning": "Paid billing, GST invoicing and inventory app for small businesses.", "howThisProductDiffers": "Vyapar charges for software from day one. Khatabook starts free with the ledger and earns from loans."},
+      {"name": "PhonePe and Paytm for Business", "positioning": "Payment apps with merchant QR codes, soundboxes and merchant loans.", "howThisProductDiffers": "They own the payment, so they see sales directly. Khatabook sees credit given, which payment apps do not track as well."},
+      {"name": "Paper khata", "positioning": "The default. Free, familiar, no phone needed.", "howThisProductDiffers": "Khatabook adds reminders, backup and loans. But many shopkeepers still trust paper."},
+      {"name": "myBillBook", "positioning": "GST billing and invoicing for small businesses.", "howThisProductDiffers": "More focused on billing; Khatabook is focused on credit tracking and collection."}
+    ],
+    "northStar": {
+      "metric": "Weekly active merchants who record at least one transaction",
+      "why": "A shop that adds entries every week is actually using Khatabook to run its credit. That is the value. It also creates the data that makes loans possible, which is how the company earns."
+    },
+    "kpiTree": [
+      {
+        "metric": "New merchants activated",
+        "description": "Shops that sign up and record their first few entries.",
+        "children": [
+          {"metric": "Installs from reminder SMS clicks", "description": "Shows how well the word-of-mouth loop works."},
+          {"metric": "Sign-up to first entry rate", "description": "Share of new users who add at least one customer and one entry on day one."},
+          {"metric": "Cost to get one active merchant", "description": "Ad and sales spend divided by new active merchants."}
+        ]
+      },
+      {
+        "metric": "Merchant retention",
+        "description": "Share of shops still recording entries after 30 and 90 days.",
+        "children": [
+          {"metric": "Entries per merchant per week", "description": "More entries means a stronger habit."},
+          {"metric": "Customers added per merchant", "description": "More customers in the app makes the paper notebook less needed."},
+          {"metric": "App crash and data loss reports", "description": "Trust drops fast if records go missing."}
+        ]
+      },
+      {
+        "metric": "Collections through the app",
+        "description": "Money shopkeepers get back using Khatabook reminders and links.",
+        "children": [
+          {"metric": "Reminders sent per active merchant", "description": "How often shops use the collection feature."},
+          {"metric": "Reminder to payment rate", "description": "Share of reminders that lead to a payment within 7 days."},
+          {"metric": "Average days to collect dues", "description": "Lower is better for the shopkeeper's cash flow."}
+        ]
+      },
+      {
+        "metric": "Lending revenue",
+        "description": "Money earned from loans arranged for merchants.",
+        "children": [
+          {"metric": "Loan offer to application rate", "description": "Share of eligible shops that apply."},
+          {"metric": "Loan approval rate", "description": "Share of applications the partner lender approves."},
+          {"metric": "Repayment rate", "description": "Share of loans paid on time; bad loans hurt partners and revenue."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loan default rate (bad loans must stay low)",
+      "Uninstall rate after loan offers (users should not feel spammed)",
+      "Customer complaints about wrong or unwanted SMS",
+      "Data loss or sync error reports"
+    ],
+    "strengths": [
+      "Solves a real, daily problem for crores of shops with a free, simple product",
+      "Built-in word-of-mouth: every reminder advertises the app",
+      "Regional language support suited to small-town India",
+      "Rich data on how small shops give and collect credit, useful for lending"
+    ],
+    "weaknesses": [
+      "Free core product means most users never pay",
+      "Still loss-making: spent ₹230 crore to earn ₹103 crore in FY24",
+      "Revenue depends on lending, which needs partner NBFCs and good credit risk control",
+      "Easy for rivals to copy the ledger",
+      "Unclear public picture after FY24; the filing entity shows a big revenue drop in FY25"
+    ],
+    "risks": [
+      "RBI rules on digital lending can limit how apps share loan risk or charge fees",
+      "PhonePe, Paytm and BharatPe can bundle ledgers and loans with payments for free",
+      "Credit downturns hit loan repayments from small shops",
+      "Funding has been hard to raise since 2021; last big round was four years ago"
+    ],
+    "userComplaints": [
+      "Changing the default currency changes old entries, giving wrong values",
+      "Back-dated entries appear in the wrong order in reports and PDFs",
+      "Too many loan offers and promotional pop-ups",
+      "Customers sometimes complain about getting SMS they did not sign up for",
+      "Some users want features like reserve funds and better reports"
+    ],
+    "improvementIdeas": [
+      {"idea": "Smart reminder timing", "problem": "Reminders sent at random times are ignored.", "expectedImpact": "Send reminders on salary days or after a customer's usual payment day to raise payment rates.", "metricToTrack": "Reminder to payment rate within 7 days", "effort": "low"},
+      {"idea": "Customer trust score for shopkeepers", "problem": "Shopkeepers give credit blindly and some customers never pay.", "expectedImpact": "Show a simple 'pays on time' badge based on the customer's past payments to that shop, helping shops decide credit limits.", "metricToTrack": "Share of dues older than 60 days", "effort": "medium"},
+      {"idea": "Fix report ordering and per-khata currency", "problem": "Users complain back-dated entries and currency changes break reports.", "expectedImpact": "More trust in reports, fewer bad reviews.", "metricToTrack": "App rating and support tickets about reports", "effort": "low"},
+      {"idea": "Loan offers only after a set usage level", "problem": "Loan pop-ups annoy new users and may cause uninstalls.", "expectedImpact": "Show loans only to shops with 60+ days of steady use, improving approval rates and lowering annoyance.", "metricToTrack": "Loan approval rate and 30-day uninstall rate", "effort": "low"},
+      {"idea": "Voice entry in local languages", "problem": "Many shop owners type slowly and still prefer paper.", "expectedImpact": "Say 'Ramesh 300 udhar' and the entry is made, making the app faster than paper.", "metricToTrack": "Entries per merchant per week", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "To replace a paper habit, the app must be faster and safer than paper, not just digital. Two taps and a free SMS beat a notebook.",
+      "A free tool can be a way to gather trust and data, and then earn money from a different product like loans.",
+      "Built-in sharing, like reminders that reach customers, can grow a product without heavy ad spending.",
+      "When your core is free and easy to copy, your real edge has to be data, habit and the money product on top."
+    ],
+    "interviewQuestions": [
+      {"question": "Khatabook is free. How would you increase revenue without hurting usage?", "hint": "Split users into segments (small kirana, wholesaler, service provider). Match a money product to each: loans, Biz Analyst, billing. Keep the ledger free. Add guardrails like uninstall rate."},
+      {"question": "What should Khatabook's north star metric be, and why?", "hint": "Pick weekly active merchants who record an entry. Explain it shows real use and feeds lending. Break it into activation, retention and entries per merchant."},
+      {"question": "How would you get a 55-year-old shop owner who trusts paper to switch?", "hint": "Find the fear (losing data, hard to type). Offer voice entry, local language, a family member to help, and show the first reminder working the same day."},
+      {"question": "PhonePe adds a free ledger to its merchant app. How should Khatabook respond?", "hint": "Assess where PhonePe is strong (payments) and where Khatabook is strong (credit records, habit). Double down on collection, trust scores and lending; integrate with all UPI apps instead of fighting."},
+      {"question": "Reminder-to-payment rate dropped 15% last month. How do you find out why?", "hint": "Check data issues first, then segment by channel (SMS vs WhatsApp), region, app version and payment link success. Look for outside causes like carrier SMS filtering."}
+    ],
+    "glossary": [
+      {"term": "Khata", "meaning": "A paper notebook Indian shopkeepers use to record who owes them money."},
+      {"term": "Udhar and jama", "meaning": "Udhar means credit given to a customer; jama means money received back."},
+      {"term": "NBFC", "meaning": "A non-bank finance company licensed by RBI to give loans."},
+      {"term": "North star metric", "meaning": "The one number that best shows a product is giving real value to its users."},
+      {"term": "Retention", "meaning": "The share of users who keep using the product after some time."},
+      {"term": "Activation", "meaning": "When a new user first gets real value, like recording their first entries."},
+      {"term": "Guardrail metric", "meaning": "A number you watch to make sure a change does not cause harm elsewhere."},
+      {"term": "Unit economics", "meaning": "How much money a company makes or loses on one customer or one order."},
+      {"term": "Moat", "meaning": "Something that makes it hard for competitors to copy or steal your customers."}
+    ],
+    "assumptions": [
+      "Merchant numbers are from the company's 2021 claims; current active users are not public.",
+      "The FY25 revenue drop on Inc42 is assumed to be due to business moving into another entity, not a real collapse.",
+      "Lending fee percentages in unit economics are estimates based on typical Indian digital lending partnerships.",
+      "Biz Analyst pricing is not stated; we describe it as a yearly paid plan."
+    ]
+  }
+}

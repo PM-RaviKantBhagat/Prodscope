@@ -1,0 +1,415 @@
+{
+  "company": "Meesho",
+  "domain": "meesho.com",
+  "website": "https://meesho.com",
+  "sources": [
+    "https://upstox.com/news/market-news/stocks/meesho-shares-jump-over-7-intraday-as-q4-net-loss-narrows-88-yo-y-to-166-crore/article-193289/",
+    "https://inc42.com/buzz/meesho-q2-loss-narrows-68-yoy-to-₹132-cr-revenue-jumps-34-yoy/",
+    "https://www.freepressjournal.in/business/meesho-reports-43-growth-to-11371-crore-losses-narrow-sharply-on-ai-led-efficiency-gains",
+    "https://techcrunch.com/2025/11/28/softbank-stays-in-as-meesho-606m-ipo-becomes-indias-first-major-e-commerce-listing/",
+    "https://www.business-standard.com/amp/markets/ipo/meesho-closes-53-percent-above-issue-price-on-debut-125121001096_1.html",
+    "https://www.businesstoday.in/markets/ipo-corner/story/meesho-ipo-know-price-band-business-model-latest-gmp-analyst-views-other-key-details-504344-2025-12-01"
+  ],
+  "report": {
+    "company": "Meesho",
+    "tagline": "India's cheapest online shopping app, where small sellers list for free and buyers in small towns shop for under ₹300.",
+    "category": "Social e-commerce",
+    "simpleSummary": "Meesho is a shopping app full of very cheap stuff: sarees for ₹250, kurtis for ₹200, phone covers for ₹99. Most buyers live in small towns and are shopping online for the first time. Sellers pay no commission to list and sell, so they can keep prices low. Meesho makes its money from delivery charges, ads that sellers buy, and other small fees instead.",
+    "keyNumbers": [
+      {
+        "label": "Annual transacting users",
+        "value": "284 million (Sep 2026)",
+        "note": "People who bought at least once in the last 12 months. From Q2 FY27 results reported by Inc42. Up from 264 million at March 2026."
+      },
+      {
+        "label": "Orders in FY26",
+        "value": "2.67 billion, up 45%",
+        "note": "Full year ended March 2026, from company results reported by Upstox and Free Press Journal. That is about 10 orders per buyer per year."
+      },
+      {
+        "label": "Revenue FY26",
+        "value": "₹12,626 crore, up 34%",
+        "note": "Revenue from operations, FY26 results reported by Upstox. Q2 FY27 alone was ₹4,132 crore, up 34%."
+      },
+      {
+        "label": "Net loss FY26",
+        "value": "₹1,358 crore (down 66%)",
+        "note": "FY25 loss of ₹3,942 crore was inflated by one-time costs linked to moving the company's base to India. Q2 FY27 loss shrank to ₹132 crore."
+      },
+      {
+        "label": "Value of goods sold (NMV) FY26",
+        "value": "₹41,560 crore, up 39%",
+        "note": "Net merchandise value after returns and cancellations. From FY26 results."
+      },
+      {
+        "label": "Market value at listing",
+        "value": "About ₹76,800 crore (Dec 2025)",
+        "note": "IPO priced at ₹111 a share, closed 53% higher on debut on 10 Dec 2025, per Business Standard. Share traded near ₹228 in Oct 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Meesho is an online marketplace for low-priced, unbranded products like clothes, home items, beauty and kitchen goods. It connects lakhs of small sellers, many of them in Surat, Jaipur or Tiruppur, with buyers mostly in Tier-2 and smaller towns. It started in 2015 as a tool for women who resold products on WhatsApp, and later became a direct shopping app.",
+      "howItWorks": [
+        "Sellers list products for free. Meesho charges 0% commission and no penalty fees on most products.",
+        "Buyers browse a feed of very cheap items, often below ₹300, and can pay cash on delivery.",
+        "Valmo, Meesho's own logistics network, links many small local courier partners to pick up and deliver parcels at low cost.",
+        "Meesho earns from shipping fees built into the price, ads that sellers buy to rank higher, and commission on branded goods in Meesho Mall.",
+        "Creators and resellers share product links on WhatsApp, Instagram and YouTube and earn a margin or a cut on each sale."
+      ],
+      "valueProposition": "For buyers: the lowest price for everyday things, in their own language, with cash on delivery and free returns. For sellers: a free shop that reaches crores of buyers with no commission to pay."
+    },
+    "personas": [
+      {
+        "name": "First-time online shopper in a small town",
+        "description": "A 28-year-old homemaker in Gorakhpur who buys clothes and kitchen items for the family. She has a budget Android phone and pays cash on delivery.",
+        "goals": [
+          "Get a ₹250 kurti that looks like the ₹800 one in the local market",
+          "Shop in Hindi without needing an English-speaking app",
+          "Return things easily if they do not fit"
+        ],
+        "frustrations": [
+          "Product looks different from the photo",
+          "Delivery takes 6 to 8 days",
+          "Fear of paying online and losing money"
+        ]
+      },
+      {
+        "name": "Small seller from a manufacturing hub",
+        "description": "A family business in Surat that makes sarees and used to sell only to wholesalers. Now it sells directly to buyers across India.",
+        "goals": [
+          "Sell more without paying 15% to 25% commission",
+          "Get paid quickly",
+          "Ship without building a courier setup"
+        ],
+        "frustrations": [
+          "High returns, often 20% or more in fashion",
+          "Tough price competition from other sellers listing the same item",
+          "Ads feel like the only way to be seen"
+        ]
+      },
+      {
+        "name": "Reseller or creator",
+        "description": "A college student or homemaker who shares Meesho products in WhatsApp groups or on Instagram and earns a margin on each sale.",
+        "goals": [
+          "Earn ₹5,000 to ₹15,000 a month from home",
+          "Find products that friends will actually buy"
+        ],
+        "frustrations": [
+          "Customers blame them when quality is poor",
+          "Margins are thin because buyers can see the same item cheaper on the app"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Branded products on Amazon and Flipkart are too expensive for many small-town buyers.",
+        "howSolved": "Meesho sells unbranded products straight from makers, with prices often under ₹300.",
+        "severity": "high"
+      },
+      {
+        "pain": "Small sellers could not afford marketplace commissions and penalties.",
+        "howSolved": "Zero commission and no penalty fees on most listings since 2022, so any small business can try selling online.",
+        "severity": "high"
+      },
+      {
+        "pain": "New users do not trust paying online.",
+        "howSolved": "Cash on delivery and easy returns lower the risk of trying the app.",
+        "severity": "high"
+      },
+      {
+        "pain": "Shipping cheap items is expensive for sellers.",
+        "howSolved": "Valmo pools parcels across many small courier partners to cut cost per shipment.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Apps in English feel hard to use.",
+        "howSolved": "The app works in many Indian languages and uses simple visual browsing and voice search.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sellers do not know what will sell or how to price it.",
+        "howSolved": "Seller panel shows trending products, price suggestions and ad tools.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Zero commission for sellers",
+        "whatItDoes": "Sellers keep the full selling price. Meesho does not take a percentage cut on regular listings.",
+        "whyItMatters": "This is why lakhs of small sellers joined, which gives Meesho the widest range of cheap products."
+      },
+      {
+        "feature": "Valmo logistics",
+        "whatItDoes": "Meesho's own delivery network that breaks each parcel's journey into steps handled by small local partners.",
+        "whyItMatters": "Cheaper shipping keeps product prices low, and the shipping fee is one of Meesho's main sources of money."
+      },
+      {
+        "feature": "Seller ads",
+        "whatItDoes": "Sellers pay to show their products higher in search and in the feed.",
+        "whyItMatters": "Ads are a high-margin revenue stream that grows as more sellers compete."
+      },
+      {
+        "feature": "Meesho Mall",
+        "whatItDoes": "A section for branded products where Meesho does charge commission.",
+        "whyItMatters": "Helps users who want trusted brands and raises how much each order is worth."
+      },
+      {
+        "feature": "Content commerce and creators",
+        "whatItDoes": "Over 50,000 creators share product videos and links. Buyers can shop from that content.",
+        "whyItMatters": "Brings new buyers cheaply and helps them decide through people they trust."
+      },
+      {
+        "feature": "Vernacular app and cash on delivery",
+        "whatItDoes": "Shopping in local languages, simple design, and paying when the parcel arrives.",
+        "whyItMatters": "Removes the two biggest blocks for first-time online shoppers: language and trust."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First order",
+        "persona": "First-time online shopper in a small town",
+        "steps": [
+          {"step": "Discovers the app", "detail": "Sees a YouTube or Instagram ad, or a friend sends a product link on WhatsApp."},
+          {"step": "Installs and picks a language", "detail": "Chooses Hindi. Signs up with a phone number and OTP."},
+          {"step": "Browses the feed", "detail": "Scrolls through kurtis under ₹300 and filters by price and rating."},
+          {"step": "Checks reviews", "detail": "Looks at real buyer photos to judge quality."},
+          {"step": "Orders with cash on delivery", "detail": "Pays nothing upfront, gets a delivery date of 5 to 7 days."},
+          {"step": "Receives and pays", "detail": "Pays the delivery agent in cash. If it does not fit, raises a return in the app."}
+        ]
+      },
+      {
+        "name": "New seller goes live",
+        "persona": "Small seller from a manufacturing hub",
+        "steps": [
+          {"step": "Registers", "detail": "Signs up on the supplier panel with GSTIN or enrolment number and bank details."},
+          {"step": "Lists products", "detail": "Uploads photos and sets a price. No listing fee or commission."},
+          {"step": "Gets first orders", "detail": "Orders appear in the panel. Seller packs the parcel."},
+          {"step": "Ships with Valmo", "detail": "A pickup partner collects the parcel. Shipping cost is built into the buyer price."},
+          {"step": "Gets paid", "detail": "Payment arrives in the bank account after the return window, usually in about 7 days."},
+          {"step": "Runs ads", "detail": "Sees competitors outranking them and buys ads to push best-selling items."}
+        ]
+      },
+      {
+        "name": "Repeat shopping during festivals",
+        "persona": "First-time online shopper in a small town",
+        "steps": [
+          {"step": "Gets a sale notification", "detail": "Push alert for the Diwali sale with prices from ₹49."},
+          {"step": "Opens the app", "detail": "Feed shows items based on past orders, like more ethnic wear."},
+          {"step": "Adds several items", "detail": "Buys clothes for the whole family and home decor."},
+          {"step": "Pays online this time", "detail": "Uses UPI because she now trusts the app."},
+          {"step": "Rates the product", "detail": "Leaves a photo review, which helps the next buyer."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Meesho does not take a cut from most sellers. It makes money from four things: shipping fees, seller ads, commission on branded Meesho Mall products, and fees from content commerce and other services. Revenue is about 30% of the value of goods sold.",
+      "revenueStreams": [
+        {"stream": "Logistics fees", "detail": "Shipping charges collected through Valmo and partners on each order."},
+        {"stream": "Advertising", "detail": "Sellers pay to get their products shown higher in search and feeds."},
+        {"stream": "Meesho Mall commission", "detail": "A percentage cut on branded products sold in the Mall section."},
+        {"stream": "New initiatives", "detail": "Small revenue from Meesho Grocery, financial services and AI services, about ₹12 crore in Q2 FY27."}
+      ],
+      "pricing": "Free for buyers. Sellers pay 0% commission and no penalty on regular listings. Shipping is charged per parcel and is built into the price. Ads are priced per click or per campaign in the supplier panel.",
+      "costDrivers": [
+        "Delivery and returns: shipping very cheap parcels, plus handling returns and RTO",
+        "Marketing to pull in new users in small towns",
+        "Engineering and AI teams that run the feed, search and fraud checks",
+        "Customer support for lakhs of small complaints"
+      ],
+      "unitEconomics": "Take one ₹156 order, the average value of goods per order in FY26 (₹41,560 crore across 2.67 billion orders). Meesho keeps about ₹47 of that as revenue, mostly shipping fees plus some ads. Most of that ₹47 goes to pay for delivery, returns, payments and support. In Q2 FY27 Meesho kept about 6% of the value of goods sold as contribution margin, so roughly ₹9 on that ₹156 order before paying for marketing, salaries and tech. That is why it can only make money at huge scale and only when users come back on their own."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth and WhatsApp sharing of product links",
+        "Over 50,000 creators posting product videos on Instagram and YouTube",
+        "Heavy TV and digital ads during festive sales, often in regional languages",
+        "Sellers bringing their own buyers to the app"
+      ],
+      "whatBringsUsersBack": [
+        "Very low prices that make shopping an impulse habit, about 10 orders a year per buyer",
+        "A personalised feed that shows new cheap products every day",
+        "Festival sales like Mega Blockbuster Sale",
+        "Easy returns that make the next order feel safe"
+      ],
+      "moat": "Meesho has the largest pool of small sellers and the cheapest delivery network for low-value parcels in India. Its competitors would need to give up commission income to copy the model, which Amazon and Flipkart find hard because commission is how they make money."
+    },
+    "competitors": [
+      {
+        "name": "Flipkart (and Shopsy)",
+        "positioning": "India's biggest marketplace. Shopsy is its low-price app built to fight Meesho.",
+        "howThisProductDiffers": "Meesho has zero commission, a larger set of unbranded sellers, and a stronger hold on Tier-3 buyers."
+      },
+      {
+        "name": "Amazon (and Amazon Bazaar)",
+        "positioning": "Fast, trusted delivery and branded products. Bazaar is its low-price section.",
+        "howThisProductDiffers": "Meesho is cheaper but slower and has more quality complaints."
+      },
+      {
+        "name": "Ajio Street (Reliance)",
+        "positioning": "Low-price fashion from Reliance, launched to target value shoppers.",
+        "howThisProductDiffers": "Meesho has far more sellers and categories beyond fashion."
+      },
+      {
+        "name": "Local markets and weekly haats",
+        "positioning": "Touch and feel before buying, and bargaining.",
+        "howThisProductDiffers": "Meesho offers far more choice at similar prices, delivered home."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of orders delivered and kept (not returned) per month",
+      "why": "A kept order means the buyer got something they wanted at a good price and the seller earned money. It captures value on both sides, and it pushes the team to cut returns, not just add orders."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "How many people buy at least once in the month.",
+        "children": [
+          {"metric": "New buyer installs to first order", "description": "Share of new installs who place a first order within 7 days."},
+          {"metric": "Monthly retention", "description": "Share of last month's buyers who buy again this month."},
+          {"metric": "Reactivated buyers", "description": "Old buyers who return after 3 months or more, often from sale alerts."}
+        ]
+      },
+      {
+        "metric": "Orders per buyer",
+        "description": "How often each buyer orders. FY26 was about 10 per year.",
+        "children": [
+          {"metric": "Feed click rate", "description": "Share of feed views that lead to a product page click."},
+          {"metric": "Search to order rate", "description": "Share of searches that end in an order."},
+          {"metric": "Categories per buyer", "description": "Buyers who shop in more categories order more often."}
+        ]
+      },
+      {
+        "metric": "Kept-order rate",
+        "description": "Share of orders that are delivered and not returned.",
+        "children": [
+          {"metric": "Return rate", "description": "Share of delivered orders sent back, mostly for size or quality."},
+          {"metric": "RTO rate", "description": "Share of cash orders refused at the door."},
+          {"metric": "Photo-match rating", "description": "Buyer rating on whether the product matched the photo."}
+        ]
+      },
+      {
+        "metric": "Seller supply",
+        "description": "Enough good sellers with the right items at the right price.",
+        "children": [
+          {"metric": "Active sellers", "description": "Sellers with at least one order in the month."},
+          {"metric": "Seller quality score", "description": "Mix of ratings, on-time dispatch and return rate."},
+          {"metric": "New listings per week", "description": "Fresh products keep the feed interesting."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Contribution margin per order must not turn negative",
+      "Return rate and RTO rate must not rise",
+      "Seller payout time must stay within about 7 days",
+      "Fraud and fake-product complaints per 1,000 orders"
+    ],
+    "strengths": [
+      "Zero commission pulls in the most small sellers and the cheapest prices",
+      "Huge reach: 284 million buyers, many outside big cities",
+      "Own logistics (Valmo) built for very cheap parcels",
+      "Losses shrinking fast, from ₹411 crore in Q2 FY26 to ₹132 crore in Q2 FY27",
+      "Now listed, which adds trust with sellers and a cash buffer"
+    ],
+    "weaknesses": [
+      "Quality is uneven because anyone can list unbranded items",
+      "Very thin earnings per order, so any rise in delivery cost hurts",
+      "Slower delivery than Amazon or Flipkart",
+      "High returns in fashion, its biggest category"
+    ],
+    "risks": [
+      "Flipkart, Amazon Bazaar and Ajio Street cutting prices and fees to compete",
+      "Quick commerce apps like Blinkit and Zepto moving into cheap fashion and home goods",
+      "Rules on e-commerce, cash on delivery charges or seller data could raise costs",
+      "Slowing growth: NMV growth fell from 39% in FY26 to 23% in Q2 FY27"
+    ],
+    "userComplaints": [
+      "Product quality and size do not match the photos",
+      "Wrong or damaged item delivered, and refund takes time",
+      "Sellers complain about fake return claims and losing money on returns",
+      "Hard to reach a human in customer support",
+      "Delivery is slow, often 5 to 8 days"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Verified quality badge based on photo-match ratings",
+        "problem": "Buyers cannot trust that the product looks like the photo, which drives returns.",
+        "expectedImpact": "Fewer returns in fashion and higher repeat orders from buyers who got what they expected.",
+        "metricToTrack": "Return rate on badge vs non-badge listings",
+        "effort": "medium"
+      },
+      {
+        "idea": "Size helper that uses past kept orders",
+        "problem": "Wrong size is a top reason for fashion returns.",
+        "expectedImpact": "Cut size-related returns by recommending the size that the buyer kept before.",
+        "metricToTrack": "Size-related returns per 100 fashion orders",
+        "effort": "medium"
+      },
+      {
+        "idea": "Small reward for prepaid UPI orders",
+        "problem": "Cash orders refused at the door (RTO) cost Meesho and sellers twice the shipping fee.",
+        "expectedImpact": "More prepaid orders and lower RTO.",
+        "metricToTrack": "Prepaid share of orders and RTO rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Seller dispute desk with photo proof for returns",
+        "problem": "Sellers lose money on fake or damaged return claims.",
+        "expectedImpact": "Better seller trust and fewer sellers leaving.",
+        "metricToTrack": "Seller churn rate and dispute resolution time",
+        "effort": "medium"
+      },
+      {
+        "idea": "Faster delivery tag for top-selling items stocked closer to buyers",
+        "problem": "Slow delivery pushes some buyers to Amazon or quick commerce.",
+        "expectedImpact": "Higher conversion on items that can arrive in 2 to 3 days.",
+        "metricToTrack": "Conversion rate on fast-tagged items",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "You can win against giants by choosing a customer they ignore. Meesho built for small-town buyers that Amazon and Flipkart did not focus on.",
+      "Pricing is a product decision. Removing seller commission brought supply, and Meesho found other ways to make money from shipping and ads.",
+      "When earnings per order are tiny, cost control matters as much as growth. Building Valmo was a product move to cut cost per parcel.",
+      "Trust features like cash on delivery and easy returns are what turn a first-time user into a repeat buyer.",
+      "A pivot can save a company. Meesho moved from a reseller app on WhatsApp to a direct marketplace when the first model stopped growing fast enough."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Meesho charges zero commission. How does it make money, and is that model sustainable?",
+        "hint": "List the revenue streams (shipping, ads, Mall). Explain revenue is about 30% of NMV. Then discuss risks: thin margins, ad dependence, and what happens if shipping costs rise."
+      },
+      {
+        "question": "Returns in fashion are very high on Meesho. How would you reduce them?",
+        "hint": "Split returns by reason (size, quality, changed mind, fraud). Pick the biggest, propose fixes like size helpers and photo-match ratings, and track return rate without hurting conversion."
+      },
+      {
+        "question": "What should Meesho's north star metric be?",
+        "hint": "Argue for kept orders over raw orders or NMV. Explain why it reflects both buyer and seller value, then break it into active buyers, frequency, kept-order rate and supply."
+      },
+      {
+        "question": "How would you get a first-time online shopper in a Tier-3 town to place a second order?",
+        "hint": "Map the first-order experience, find drop-off points (delivery delay, poor quality, refund issues), and design hooks like a follow-up offer, local language help and fast refunds."
+      },
+      {
+        "question": "Flipkart's Shopsy copies Meesho's prices. How should Meesho respond?",
+        "hint": "Talk about what is hard to copy (seller base, Valmo cost), then pick moves: double down on sellers, creators, and quality signals rather than a price war."
+      }
+    ],
+    "glossary": [
+      {"term": "North star metric", "meaning": "The one number a company uses to judge whether it is delivering real value to users."},
+      {"term": "NMV", "meaning": "Net merchandise value: the total value of goods sold after removing cancellations and returns."},
+      {"term": "Contribution margin", "meaning": "What is left from each order after paying direct costs like delivery and payments, before salaries and marketing."},
+      {"term": "RTO", "meaning": "Return to origin: when a buyer refuses a cash-on-delivery parcel and it goes back to the seller."},
+      {"term": "Retention", "meaning": "The share of users who keep coming back and buying over time."},
+      {"term": "Unit economics", "meaning": "How much money a company makes or loses on one order or one customer."},
+      {"term": "Tier-2 and Tier-3", "meaning": "Smaller Indian cities and towns outside the big metros."},
+      {"term": "Content commerce", "meaning": "Selling through videos and posts made by creators, where viewers can tap to buy."}
+    ],
+    "assumptions": [
+      "Average value per order of about ₹156 is worked out by dividing FY26 NMV by FY26 orders. Meesho's own average may be calculated differently.",
+      "Fashion return rate of 20% or more is an industry estimate, not a figure published by Meesho.",
+      "Seller payout timing of about 7 days is based on Meesho's seller pages and seller reports and may vary.",
+      "The split of revenue between shipping and ads is not public, so we say 'mostly shipping' as an estimate."
+    ]
+  }
+}

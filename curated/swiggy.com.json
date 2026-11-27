@@ -1,0 +1,575 @@
+{
+  "company": "Swiggy (Instamart)",
+  "domain": "swiggy.com",
+  "website": "https://swiggy.com",
+  "sources": [
+    "https://inc42.com/buzz/swiggy-q2-loss-narrows-16-yoy-to-%E2%82%B9922-cr-revenue-jumps-36/",
+    "https://www.ciol.com/news/swiggy-q2-food-ebitda-hits-341-cr-instamart-loss-895-cr-12741327",
+    "https://inc42.com/buzz/swiggy-shares-plunge-17-to-52-week-low-after-q2-brokerages-cut-price-targets/",
+    "https://www.business-standard.com/amp/companies/news/swiggy-instamart-cuts-340-jobs-restructuring-gen-ai-profitability-126112700516_1.html",
+    "https://www.outlookbusiness.com/corporate/blinkit-widens-quick-commerce-lead-matches-rivals-zepto-and-instamart-combined-in-scale",
+    "https://www.outlookbusiness.com/news/swiggy-launches-one-blck-amidst-growing-competition-from-zomato-gold-zepto-pass",
+    "https://www.swiggy.com/corporate/press-release/swiggy-eyes-%E2%82%B910000-cr.-adj-ebitda-by-fy31-backed-by-affordability-in-food-and-differentiated-instamart-strategy/",
+    "https://www.indmoney.com/blog/ipo/zepto-drhp-analysis-how-it-compares-with-blinkit-and-instamart"
+  ],
+  "report": {
+    "company": "Swiggy (Instamart)",
+    "tagline": "One app for food delivery, 10-minute groceries (Instamart), restaurant table booking and more, tied together by the Swiggy One membership.",
+    "category": "Food delivery / super-app",
+    "simpleSummary": "Swiggy is an app where you can order food from restaurants, get groceries in about 10 minutes through Instamart, and book a table to eat out. One login and one payment work across all of them. If you pay for Swiggy One, you get free delivery and discounts on food and groceries together. Food delivery makes money; Instamart is growing but still loses a lot.",
+    "keyNumbers": [
+      {
+        "label": "Net loss, July to September 2026",
+        "value": "₹922 crore, 16% smaller than a year ago",
+        "note": "Swiggy Q2 FY27 results, October 2026 (Inc42, YourStory)."
+      },
+      {
+        "label": "Revenue growth, July to September 2026",
+        "value": "Up about 34-36% from a year ago, to roughly ₹7,600 to ₹7,900 crore",
+        "note": "Q2 FY27 results; reports differ on the exact figure depending on whether other income is included."
+      },
+      {
+        "label": "Food delivery profit, July to September 2026",
+        "value": "₹341 crore adjusted EBITDA",
+        "note": "Q2 FY27 results reported by CIOL, October 2026."
+      },
+      {
+        "label": "Instamart loss, July to September 2026",
+        "value": "₹895 crore adjusted EBITDA loss",
+        "note": "Q2 FY27 results reported by CIOL. Instamart lost about ₹3,511 crore in FY26."
+      },
+      {
+        "label": "Instamart orders in FY26",
+        "value": "412 million orders, about 1.1 million a day, from 1,143 dark stores",
+        "note": "Industry comparison in Zepto's IPO filing, via INDmoney and Outlook Business, 2026."
+      },
+      {
+        "label": "Long-term target",
+        "value": "₹10,000 crore adjusted EBITDA by FY31",
+        "note": "Swiggy investor day press release, 2026. A goal, not a result."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Swiggy started in Bengaluru in 2014 as a food delivery app. It now runs food delivery, Instamart (10-minute groceries and essentials), Dineout (table booking and dining discounts), Scenes (events) and low-price meal options like Toing. It listed on the stock market in November 2024. Its big idea is that one customer, one rider fleet and one membership can serve many needs.",
+      "howItWorks": [
+        "Restaurants list on Swiggy and pay a commission on each food order; Swiggy's delivery partners pick up and deliver.",
+        "Instamart runs dark stores, small warehouses near homes, and delivers groceries in about 10 to 20 minutes.",
+        "The same delivery partner fleet and the same app serve food and Instamart orders.",
+        "Swiggy One membership gives free delivery and extra discounts across food and Instamart, so members use more than one service.",
+        "Restaurants and brands pay for ads to show up higher in search and lists.",
+        "Dineout lets users book tables and pay the bill in the app for a discount, with Swiggy taking a fee from the restaurant."
+      ],
+      "valueProposition": "Everything you need for daily life, from dinner to groceries to a night out, in one app with one membership that saves money across all of it."
+    },
+    "personas": [
+      {
+        "name": "Urban professional who orders food often",
+        "description": "A 29-year-old in Bengaluru or Hyderabad who orders dinner 3 to 4 times a week.",
+        "goals": [
+          "Wide choice of restaurants delivered fast",
+          "Save on delivery fees",
+          "Grab groceries in the same app"
+        ],
+        "frustrations": [
+          "Platform fees, packaging charges and surge fees",
+          "Menu prices higher on the app than in the restaurant",
+          "Late or cold food"
+        ]
+      },
+      {
+        "name": "Budget-conscious student",
+        "description": "A 21-year-old in a hostel looking for cheap meals and snacks.",
+        "goals": [
+          "Meals under ₹150",
+          "Deals and coupons"
+        ],
+        "frustrations": [
+          "Small orders get expensive with fees",
+          "Coupons that do not work"
+        ]
+      },
+      {
+        "name": "Family grocery planner",
+        "description": "A 38-year-old parent who uses Instamart for daily needs and Swiggy for weekend meals.",
+        "goals": [
+          "Fresh groceries quickly",
+          "One membership that saves on both food and groceries"
+        ],
+        "frustrations": [
+          "Instamart running out of items",
+          "Slower delivery than Blinkit in some areas"
+        ]
+      },
+      {
+        "name": "Restaurant owner",
+        "description": "Runs a 2-outlet biryani place that gets 40% of orders from Swiggy.",
+        "goals": [
+          "More orders and visibility",
+          "Fair commission"
+        ],
+        "frustrations": [
+          "High commission and ad costs eat into margin",
+          "Pressure to give discounts"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "No time or energy to cook",
+        "howSolved": "Food from thousands of restaurants delivered in about 30 minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Running out of groceries or essentials",
+        "howSolved": "Instamart delivers in about 10 to 20 minutes from nearby dark stores.",
+        "severity": "high"
+      },
+      {
+        "pain": "Delivery fees adding up across apps",
+        "howSolved": "Swiggy One gives free delivery on food and Instamart above a minimum order.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Eating out is expensive",
+        "howSolved": "Dineout gives table bookings and bill discounts at partner restaurants.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Cheap meals hard to find",
+        "howSolved": "Affordable meal options like Toing and ₹99-style menus target budget users.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Too many apps for daily needs",
+        "howSolved": "One login, one wallet and one membership for food, groceries and dining.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Food delivery",
+        "whatItDoes": "Order from restaurants with ratings, filters, live tracking and delivery in about 30 minutes.",
+        "whyItMatters": "The original, profitable business (₹341 crore EBITDA in Q2 FY27) that funds the rest."
+      },
+      {
+        "feature": "Instamart",
+        "whatItDoes": "10 to 20 minute delivery of groceries, fresh food, electronics, beauty and gifts.",
+        "whyItMatters": "Biggest growth bet; turns Swiggy into a daily-use app, but it still loses money."
+      },
+      {
+        "feature": "Swiggy One membership",
+        "whatItDoes": "A paid plan with free deliveries and extra discounts across food and Instamart; cheaper One Lite and premium One BLCK versions exist.",
+        "whyItMatters": "Bundling makes members use two or more services, order more and stay longer."
+      },
+      {
+        "feature": "Dineout",
+        "whatItDoes": "Book tables and pay bills for discounts at restaurants.",
+        "whyItMatters": "Adds a high-margin 'going out' use case without needing riders."
+      },
+      {
+        "feature": "Ads for restaurants and brands",
+        "whatItDoes": "Paid listings and banners in food and Instamart.",
+        "whyItMatters": "High-margin money that improves profit per order."
+      },
+      {
+        "feature": "Affordable food options",
+        "whatItDoes": "Low-price meal menus and the Toing app for budget meals.",
+        "whyItMatters": "Reaches price-sensitive users and smaller order sizes that the main app does not serve well."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Weeknight dinner order",
+        "persona": "Urban professional who orders food often",
+        "steps": [
+          {
+            "step": "Opens Swiggy at 8 pm",
+            "detail": "Sees the Food tab with personalised restaurant picks."
+          },
+          {
+            "step": "Searches 'biryani'",
+            "detail": "Compares ratings, delivery time and price."
+          },
+          {
+            "step": "Adds items and checks the bill",
+            "detail": "Sees item price, platform fee and packaging charge; Swiggy One removes the delivery fee."
+          },
+          {
+            "step": "Pays by UPI",
+            "detail": "Applies a coupon and pays."
+          },
+          {
+            "step": "Tracks the rider",
+            "detail": "Watches the order being prepared and delivered."
+          },
+          {
+            "step": "Rates the order",
+            "detail": "Gives stars to food and delivery."
+          }
+        ]
+      },
+      {
+        "name": "Cross-sell from food to Instamart",
+        "persona": "Family grocery planner",
+        "steps": [
+          {
+            "step": "Finishes a food order",
+            "detail": "On the order screen, sees an Instamart banner for ice cream."
+          },
+          {
+            "step": "Taps through to Instamart",
+            "detail": "Same login and saved address, no extra setup."
+          },
+          {
+            "step": "Adds ice cream and milk",
+            "detail": "Instamart shows a 15-minute delivery time."
+          },
+          {
+            "step": "Gets free delivery as a member",
+            "detail": "Swiggy One covers delivery above the basket limit."
+          },
+          {
+            "step": "Receives both orders",
+            "detail": "Food and groceries arrive close together."
+          },
+          {
+            "step": "Starts using Instamart regularly",
+            "detail": "Now uses Instamart for weekly groceries too."
+          }
+        ]
+      },
+      {
+        "name": "Joining Swiggy One",
+        "persona": "Budget-conscious student",
+        "steps": [
+          {
+            "step": "Sees a savings prompt",
+            "detail": "Checkout shows 'you would save ₹40 with One'."
+          },
+          {
+            "step": "Compares plans",
+            "detail": "Sees One Lite at a low price for 3 months versus the full plan."
+          },
+          {
+            "step": "Buys One Lite",
+            "detail": "Pays by UPI."
+          },
+          {
+            "step": "Orders more often",
+            "detail": "Free deliveries make small orders feel worth it."
+          },
+          {
+            "step": "Checks savings",
+            "detail": "App shows total saved, which nudges renewal."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Swiggy earns commissions from restaurants, fees from customers, margin and fees on Instamart orders, ads from restaurants and brands, and membership fees. Food delivery is profitable. Instamart's losses are bigger than food's profit, so the company as a whole still loses money.",
+      "revenueStreams": [
+        {
+          "stream": "Restaurant commissions",
+          "detail": "Restaurants pay a cut of each food order, often around 18-25% (estimate)."
+        },
+        {
+          "stream": "Customer fees",
+          "detail": "Delivery fee, platform fee per order, small-order fee and surge fees in rain or late nights."
+        },
+        {
+          "stream": "Instamart margins and fees",
+          "detail": "Earnings from sellers and brands on goods sold, plus delivery and handling fees."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Restaurants and brands pay for better visibility in search and lists."
+        },
+        {
+          "stream": "Swiggy One and other services",
+          "detail": "Membership fees, Dineout fees from restaurants, events and other small businesses."
+        }
+      ],
+      "pricing": "Food: menu prices set by restaurants plus a platform fee (around ₹10 to ₹15 per order, changes often), packaging charges and delivery fees for non-members. Instamart: free delivery above a basket limit, fees below it. Swiggy One plans vary by city and offer; One Lite has been sold at about ₹99 for 3 months. Exact current prices not fixed or fully public.",
+      "costDrivers": [
+        "Paying delivery partners for each trip",
+        "Instamart dark-store rent, staff and stock wastage",
+        "Discounts and marketing to fight Zomato, Blinkit and Zepto",
+        "Membership benefits like free delivery",
+        "Technology and customer support"
+      ],
+      "unitEconomics": "Food: on a ₹450 food order (estimate), Swiggy keeps about ₹100 from restaurant commission, platform fee and ads, its take rate. After paying the rider about ₹50 to ₹60 and discounts and support, it keeps a small profit; food delivery EBITDA was ₹341 crore in Q2 FY27. Instamart: on a ₹550 order (estimate), revenue is similar to Blinkit's but stores are less busy, so fixed costs per order are higher. Instamart lost about ₹85 per order across FY26 (₹3,511 crore loss over 412 million orders). Profit depends on filling stores with more orders and raising ad income."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Brand marketing and offers in big and mid-sized cities",
+        "Cross-selling from food users into Instamart and Dineout",
+        "Swiggy One membership and low-cost One Lite plans",
+        "Affordable food formats for price-sensitive users",
+        "Opening new Instamart stores in new areas"
+      ],
+      "whatBringsUsersBack": [
+        "Swiggy One savings make members prefer Swiggy over rivals",
+        "Personalised restaurant picks and reorder buttons",
+        "Daily grocery needs on Instamart",
+        "Deals and festive sales",
+        "Saved addresses and payments across all services"
+      ],
+      "moat": "Swiggy's moat is its two-sided network in food: lots of restaurants attract users, and lots of users attract restaurants. Its bundle (one membership across food and groceries) is hard for single-service apps to copy. But Zomato has a similar network, and Blinkit is far ahead in quick commerce, so the moat is shared, not unique."
+    },
+    "competitors": [
+      {
+        "name": "Zomato (Eternal)",
+        "positioning": "Food delivery leader with Zomato Gold membership and a larger share of the market.",
+        "howThisProductDiffers": "Swiggy is the number two in food, but has one combined app for food and groceries, while Zomato keeps Blinkit as a separate app."
+      },
+      {
+        "name": "Blinkit",
+        "positioning": "Quick commerce leader with about 46% share and EBITDA profit.",
+        "howThisProductDiffers": "Instamart is about half Blinkit's size by orders and still loses money, but benefits from Swiggy's food users and bundle."
+      },
+      {
+        "name": "Zepto",
+        "positioning": "Fast-growing stand-alone quick commerce app with Zepto Cafe.",
+        "howThisProductDiffers": "Instamart had fewer orders (412 million vs 640 million in FY26) but sits inside a profitable food app."
+      },
+      {
+        "name": "Flipkart Minutes and Amazon Now",
+        "positioning": "E-commerce giants adding 10-minute delivery.",
+        "howThisProductDiffers": "Swiggy has a daily food habit to cross-sell from; the giants have more money and bigger product ranges."
+      },
+      {
+        "name": "Rapido and ONDC-based apps",
+        "positioning": "Newer low-commission food delivery models that charge restaurants less.",
+        "howThisProductDiffers": "Swiggy has more restaurants and users, but faces pressure on commissions from low-fee models."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly users who order from two or more Swiggy services",
+      "why": "Swiggy's value is the bundle. A user who orders food and groceries gets more value, saves more with Swiggy One, and is less likely to leave for a single-service rival."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly transacting users",
+        "description": "Users who place at least one order in a month across any service.",
+        "children": [
+          {
+            "metric": "New user first orders",
+            "description": "New users placing a first order each month."
+          },
+          {
+            "metric": "Month-on-month retention",
+            "description": "Share of last month's users who order again; retention means users who stay."
+          },
+          {
+            "metric": "Reactivated users",
+            "description": "Old users who come back after a gap."
+          }
+        ]
+      },
+      {
+        "metric": "Cross-sell rate",
+        "description": "Share of food users who also use Instamart or Dineout.",
+        "children": [
+          {
+            "metric": "Instamart entry clicks from food app",
+            "description": "How often food users tap into Instamart."
+          },
+          {
+            "metric": "First Instamart order rate",
+            "description": "Share of food users who place their first Instamart order."
+          },
+          {
+            "metric": "Swiggy One attach rate",
+            "description": "Share of active users who have a membership."
+          }
+        ]
+      },
+      {
+        "metric": "Order frequency",
+        "description": "Orders per user per month across services.",
+        "children": [
+          {
+            "metric": "Food orders per user",
+            "description": "Driven by choice, price and speed."
+          },
+          {
+            "metric": "Instamart orders per user",
+            "description": "Driven by item availability and delivery time."
+          }
+        ]
+      },
+      {
+        "metric": "Order experience quality",
+        "description": "Share of orders delivered on time and correct.",
+        "children": [
+          {
+            "metric": "On-time delivery rate",
+            "description": "Orders delivered within the promised time."
+          },
+          {
+            "metric": "Instamart fill rate",
+            "description": "Share of ordered items in stock and delivered."
+          },
+          {
+            "metric": "Complaint rate per 1,000 orders",
+            "description": "Wrong, missing or cold food and damaged items."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Instamart adjusted EBITDA loss per order must keep falling",
+      "Food delivery margin must not drop while funding Instamart",
+      "Restaurant partner churn and complaints about commissions",
+      "Fee-related user complaints"
+    ],
+    "strengths": [
+      "Profitable food delivery with a large restaurant network",
+      "Single app and single membership across food, groceries and dining",
+      "Strong brand and early mover in Bengaluru, Hyderabad and the South",
+      "Many experiments with affordable food formats for new users"
+    ],
+    "weaknesses": [
+      "Instamart losses are larger than food profit",
+      "Number two in both food delivery and quick commerce",
+      "Fewer and less busy dark stores than Blinkit",
+      "Shares fell 17% to a 52-week low after Q2 FY27 results as investors doubted the path to profit",
+      "Restructuring and 340 Instamart job cuts in November 2026 show strain"
+    ],
+    "risks": [
+      "Price war in quick commerce from Blinkit, Zepto, Flipkart and Amazon",
+      "Restaurant pushback on commissions and the rise of low-commission rivals",
+      "Gig worker welfare rules raising delivery costs",
+      "Regulator action on fees, dark patterns and data use",
+      "Slower food delivery growth if people cut spending"
+    ],
+    "userComplaints": [
+      "Platform fees, packaging charges and surge fees raise the final bill",
+      "Restaurant prices on the app higher than dine-in prices",
+      "Missing items or wrong orders with hard-to-reach support",
+      "Instamart items out of stock or slower than promised",
+      "Swiggy One benefits feel smaller over time"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Combined cart: add Instamart items to a food order and get both in one delivery",
+        "problem": "Users order from two places separately; cross-sell is weak.",
+        "expectedImpact": "More users trying Instamart, higher basket size and lower delivery cost per item.",
+        "metricToTrack": "Share of food orders with Instamart add-ons",
+        "effort": "high"
+      },
+      {
+        "idea": "Swiggy One savings tracker on the home screen with monthly 'you saved ₹X' summary",
+        "problem": "Members forget what they get and do not renew.",
+        "expectedImpact": "Higher renewal rate and more multi-service use.",
+        "metricToTrack": "Membership renewal rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Show the full price with all fees on the restaurant menu page",
+        "problem": "Users feel tricked by fees at checkout.",
+        "expectedImpact": "Fewer abandoned carts and better trust.",
+        "metricToTrack": "Checkout drop-off rate and fee complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Focus Instamart on fewer, busier stores in top neighbourhoods before expanding",
+        "problem": "Low orders per store make Instamart lose money.",
+        "expectedImpact": "Faster path to contribution profit per store.",
+        "metricToTrack": "Orders per store per day and loss per order",
+        "effort": "medium"
+      },
+      {
+        "idea": "Restaurant growth tools: free insights on what dishes are searched but not available nearby",
+        "problem": "Restaurants feel they only pay Swiggy without getting help.",
+        "expectedImpact": "Better restaurant loyalty and more choice for users.",
+        "metricToTrack": "Restaurant churn and new dishes added",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Bundling only works if each piece is good. A membership cannot save a slow or out-of-stock grocery service.",
+      "Use a profitable core to fund a new bet, but set clear limits on how long the bet can lose money.",
+      "Cross-sell is a product problem: the second service must be one tap away, with no new setup.",
+      "Being number two in two markets is harder than being number one in one."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase the share of Swiggy food users who also use Instamart?",
+        "hint": "Map the funnel from food user to first Instamart order to repeat. Find the biggest drop. Ideas: in-app placements, combined cart, membership benefits. Pick one and define the metric."
+      },
+      {
+        "question": "Should Swiggy split Instamart into a separate app like Zomato did with Blinkit?",
+        "hint": "Weigh cross-sell from one app against focus and speed of a separate app. Look at data on how Instamart users arrive. Consider brand, app clutter and membership."
+      },
+      {
+        "question": "Design a new Swiggy One plan for students.",
+        "hint": "Define the user's needs (cheap meals, small orders). Price against savings and cost to Swiggy. Add limits to avoid losses. Track incremental orders and renewal."
+      },
+      {
+        "question": "Instamart's orders grew but losses widened. What would you look at?",
+        "hint": "Break loss per order into revenue per order and cost per order. Check new store share, orders per store, discount spend and delivery cost. Decide whether losses come from investment or from a broken model."
+      },
+      {
+        "question": "Restaurants complain about high commissions. How would you respond as PM?",
+        "hint": "Understand what restaurants value (orders, visibility). Consider tiered commissions, better tools, or ad credits. Balance restaurant health with Swiggy's take rate."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Super-app",
+        "meaning": "One app that offers many different services, like food, groceries and bookings."
+      },
+      {
+        "term": "Bundling",
+        "meaning": "Selling several services together in one package, like a membership that covers food and groceries."
+      },
+      {
+        "term": "Cross-sell",
+        "meaning": "Getting a customer of one product to also buy another product from the same company."
+      },
+      {
+        "term": "Dark store",
+        "meaning": "A small warehouse only for online orders, placed close to homes."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit or loss from running the business before interest, tax, wear and tear on assets, and share-based staff pay."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of each order's value that the platform keeps as its revenue."
+      },
+      {
+        "term": "Retention",
+        "meaning": "How many users keep using the product over time."
+      },
+      {
+        "term": "Monthly transacting users",
+        "meaning": "People who place at least one order in a month."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ordered items that were actually in stock and delivered."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team uses to judge whether the product is giving real value to users."
+      },
+      {
+        "term": "Churn",
+        "meaning": "When customers or partners stop using a product."
+      },
+      {
+        "term": "Contribution profit",
+        "meaning": "Money left after paying the direct costs of each order, before office and tech costs."
+      }
+    ],
+    "assumptions": [
+      "Order sizes (₹450 food, ₹550 Instamart) and commission ranges are estimates, not published figures.",
+      "Exact Q2 FY27 revenue varies across reports (₹7,600 to ₹7,900 crore); we give a range.",
+      "Instamart loss per order (about ₹85) is our division of FY26 loss by FY26 orders.",
+      "Swiggy One prices and platform fees change often; figures shown are recent examples."
+    ]
+  }
+}

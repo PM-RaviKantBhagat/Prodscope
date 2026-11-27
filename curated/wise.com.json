@@ -1,0 +1,271 @@
+{
+  "company": "Wise",
+  "domain": "wise.com",
+  "website": "https://wise.com",
+  "sources": [
+    "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-fy26-results/9637901",
+    "https://www.financemagnates.com/fintech/payments/payments-firm-wise-heads-to-new-york-with-181-billion-year-behind-it",
+    "https://www.fxcintel.com/research/analysis/wise-h1-26-earnings",
+    "https://www.morningstar.co.uk/uk/news/AN_1776065050911477900/wise-says-quarterly-volumes-and-income-climb-ahead-of-us-listing.aspx",
+    "https://www.wise.com/help/articles/2961844/my-account-was-closed-by-wise",
+    "https://au.trustpilot.com/review/wise.com?page=5",
+    "https://www.consumeraffairs.com/finance/transferwise.html?page=2"
+  ],
+  "report": {
+    "company": "Wise",
+    "tagline": "An app and account for sending, holding and spending money in other currencies at the real exchange rate with a small, upfront fee.",
+    "category": "Cross-border payments",
+    "simpleSummary": "Wise lets you send money abroad cheaply. When you send £1,000 from London to your parents in India, Wise shows the exact fee and the exact rupees they will get before you pay. It uses the real market exchange rate, not a worse rate with a hidden markup like most banks. You can also hold 40+ currencies in one account and spend them with a Wise debit card when you travel.",
+    "keyNumbers": [
+      { "label": "Active customers FY26", "value": "About 19 million", "note": "Wise FY26 results (year to March 2026), up about 21%. Taken from a summary of the results announcement, so check the full release." },
+      { "label": "Cross-border volume FY26", "value": "About $243 billion (around £181 billion)", "note": "Wise FY26 results and Finance Magnates. Up about 31% year on year." },
+      { "label": "Revenue FY26", "value": "About $2.5 billion", "note": "Summary of the FY26 results announcement. Wise now reports in US dollars after moving its main listing to New York in 2026. Treat as approximate." },
+      { "label": "Profit before tax FY26", "value": "About $660 million (26% margin)", "note": "FY26 results summary. Wise says it will run at a 20 to 25% margin over time and give the rest back as lower prices." },
+      { "label": "Customer money held", "value": "About $39 billion", "note": "FY26 results summary, up about 40%. Interest on this money is a large part of profit." },
+      { "label": "Card spend FY26", "value": "About $44 billion", "note": "FY26 results summary, up about 37%." }
+    ],
+    "overview": {
+      "whatItDoes": "Wise moves money between countries and currencies for people and businesses. It charges a visible fee and uses the mid-market rate, which is the rate you see on Google. It also gives you an account with local bank details in several countries and a debit card. Banks and apps can also plug into Wise's network through Wise Platform.",
+      "howItWorks": [
+        "You enter how much you want to send and see the fee, the rate and the arrival time before you pay.",
+        "Wise rarely moves money across borders for each transfer. It holds money in local bank accounts in each country, takes your pounds in the UK and pays rupees out of its Indian pool, so the money never actually crosses the border.",
+        "Because it matches flows in both directions, it avoids slow and costly correspondent bank chains, and many transfers arrive in seconds.",
+        "The multi-currency account gives you local details (for example a UK sort code, a US routing number, a euro IBAN) so you can get paid like a local.",
+        "The Wise card spends from whichever currency balance you hold, and converts at the real rate if you do not have the right currency.",
+        "Wise Platform lets banks such as Morgan Stanley and Standard Chartered offer Wise transfers inside their own apps."
+      ],
+      "valueProposition": "You keep more of your money when it crosses borders, and you know exactly what will arrive and when, before you press send."
+    },
+    "personas": [
+      {
+        "name": "Indian professional abroad",
+        "description": "28 to 40, works in London, Dubai or the US, sends money home to parents or pays an Indian loan or SIP every month.",
+        "goals": ["Send money home cheaply every month", "Know the exact rupee amount that will land", "Fast arrival, ideally the same day"],
+        "frustrations": ["Bank markups of 2 to 4% hidden in the rate", "Account checks that freeze a transfer for days", "Limits on how much can be sent to India in one go"]
+      },
+      {
+        "name": "Frequent traveller",
+        "description": "Travels for work or holidays several times a year and hates foreign card fees.",
+        "goals": ["Spend abroad at the real rate", "Hold euros and dollars ahead of trips", "Withdraw cash without big ATM charges"],
+        "frustrations": ["Free ATM limit runs out quickly", "Card blocked when abroad for fraud checks"]
+      },
+      {
+        "name": "Freelancer with global clients",
+        "description": "Designer or developer in the UK or Europe who invoices clients in dollars and euros.",
+        "goals": ["Receive dollars like a local, without losing 3% on conversion", "Convert when the rate is good"],
+        "frustrations": ["PayPal and banks take a big cut of each payment", "Fear of the account being closed with money inside"]
+      },
+      {
+        "name": "Small business finance lead",
+        "description": "Runs payments for a 20-person company that pays suppliers and contractors in many countries.",
+        "goals": ["Batch payments to many countries in one go", "Connect payments to accounting software like Xero"],
+        "frustrations": ["Slow support when a large payment is held", "Business onboarding checks take time"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Banks hide a 2 to 4% markup inside the exchange rate, so you never know the real cost.", "howSolved": "Wise uses the mid-market rate and shows one fee upfront, often under 1%.", "severity": "high" },
+      { "pain": "International bank transfers take 2 to 5 days and pass through several banks.", "howSolved": "Local money pools in each country mean many transfers arrive in seconds or the same day.", "severity": "high" },
+      { "pain": "Receiving money from abroad loses value to fees and bad rates.", "howSolved": "Local account details in the US, UK, EU and more let you get paid like a local and convert when you choose.", "severity": "high" },
+      { "pain": "Card fees and poor rates when spending abroad.", "howSolved": "The Wise card spends in the local currency at the real rate, with free conversion from held balances.", "severity": "medium" },
+      { "pain": "No idea when the money will arrive.", "howSolved": "Tracking in the app shows each stage and a predicted arrival time.", "severity": "medium" },
+      { "pain": "Businesses waste hours on manual international payments.", "howSolved": "Batch payments, an API and links to accounting tools.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Transparent transfer quote", "whatItDoes": "Shows the fee, rate, amount received and arrival time before you pay.", "whyItMatters": "Trust. It is the core promise and the main reason people switch from banks." },
+      { "feature": "Multi-currency account", "whatItDoes": "Hold and convert 40+ currencies, with local bank details in several of them.", "whyItMatters": "Turns one-off senders into customers who keep money at Wise, which earns interest income and drives repeat use." },
+      { "feature": "Wise debit card", "whatItDoes": "Spend in any currency at the real rate, with Apple Pay and Google Pay support.", "whyItMatters": "Card spend happens weekly, not monthly, so it builds a habit and earns interchange fees." },
+      { "feature": "Interest and Assets", "whatItDoes": "Earn interest on held balances or hold them in a money market fund in some countries.", "whyItMatters": "Gives customers a reason to leave money in Wise, and it is a big profit source." },
+      { "feature": "Wise Business", "whatItDoes": "Batch payments, multi-user access, invoicing and accounting integrations for companies.", "whyItMatters": "Businesses send larger amounts and bring more revenue per customer." },
+      { "feature": "Wise Platform", "whatItDoes": "An API and white-label service that lets banks offer Wise transfers inside their apps.", "whyItMatters": "Wins volume through banks without having to win each customer one by one." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First transfer home to India",
+        "persona": "Indian professional abroad",
+        "steps": [
+          { "step": "Compares prices", "detail": "Searches 'send money to India' and sees Wise's price comparison against banks and Western Union." },
+          { "step": "Signs up", "detail": "Creates an account with email and phone in a few minutes." },
+          { "step": "Verifies identity", "detail": "Uploads a passport or residence permit and a selfie. Most checks clear the same day." },
+          { "step": "Gets a quote", "detail": "Enters £1,000 and sees the fee and the exact rupee amount." },
+          { "step": "Adds recipient", "detail": "Enters the parent's Indian bank account number and IFSC code." },
+          { "step": "Pays", "detail": "Pays by bank transfer or card. Bank transfer is cheapest." },
+          { "step": "Tracks arrival", "detail": "Gets notifications as the money moves and lands, often within minutes." }
+        ]
+      },
+      {
+        "name": "Spending on a trip",
+        "persona": "Frequent traveller",
+        "steps": [
+          { "step": "Orders card", "detail": "Orders a Wise card for a one-time fee, or adds a digital card to Apple Pay right away." },
+          { "step": "Tops up", "detail": "Adds pounds and converts some to euros before the trip." },
+          { "step": "Taps to pay", "detail": "Pays in euros abroad. Wise spends from the euro balance first." },
+          { "step": "Auto-converts", "detail": "If euros run out, Wise converts from pounds at the real rate with a small fee." },
+          { "step": "Withdraws cash", "detail": "Takes cash from an ATM. The first two withdrawals a month are free up to a limit." },
+          { "step": "Leaves leftovers", "detail": "Keeps leftover euros for the next trip, which keeps the account active." }
+        ]
+      },
+      {
+        "name": "Freelancer getting paid in dollars",
+        "persona": "Freelancer with global clients",
+        "steps": [
+          { "step": "Opens USD details", "detail": "Gets a US account and routing number inside Wise." },
+          { "step": "Shares details", "detail": "Puts the US details on the invoice so the client pays by ordinary US transfer." },
+          { "step": "Receives payment", "detail": "Dollars arrive, usually free for local US transfers." },
+          { "step": "Chooses when to convert", "detail": "Sets a rate alert and converts to pounds when the rate looks good." },
+          { "step": "Moves to UK bank or spends", "detail": "Sends pounds to their main bank or spends with the card." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Wise makes money from three things: a small fee on each transfer or conversion, a cut of card payments, and interest earned on customer money it holds. It deliberately cuts prices as its costs fall, so it grows by being cheaper than everyone else.",
+      "revenueStreams": [
+        { "stream": "Transfer and conversion fees", "detail": "A percentage fee plus a small fixed fee on each transfer. The average take rate (the share of each transfer Wise keeps) is roughly 0.5% to 0.6%, and lower for popular routes and large amounts." },
+        { "stream": "Card fees", "detail": "Interchange, a small fee paid by the shop's bank each time the card is used, plus conversion fees on card spend." },
+        { "stream": "Interest income", "detail": "Wise earns interest on the billions customers hold. It passes some back to customers and keeps the rest. This grew fast while interest rates were high." },
+        { "stream": "Business and Platform", "detail": "Business account fees, and fees from banks that use Wise Platform." }
+      ],
+      "pricing": "Free to sign up. Transfer fees start from about 0.33% depending on currency route; sending pounds to rupees is typically around 0.5% to 0.7% of the amount plus a small fixed fee. Card is a one-time fee of about £7 in the UK. Two free ATM withdrawals up to £200 a month, then a fee. Prices change often, so check the live calculator.",
+      "costDrivers": [
+        "Compliance and fraud checks: identity verification, anti-money-laundering teams and tools, in every country",
+        "Banking partners and payment network fees in each local market",
+        "Customer support for held or delayed transfers",
+        "Engineering for its own payment network and direct links to central bank payment systems",
+        "Marketing, though most growth comes from word of mouth"
+      ],
+      "unitEconomics": "Take one £1,000 transfer from the UK to India. Wise keeps roughly £5 to £6 in fees. Moving the money costs it maybe £1 to £2, because it pays out from rupees already sitting in India. The rest pays for compliance, support and profit. A regular customer sending £1,000 every month earns Wise about £60 to £70 a year from transfers alone, plus card fees and interest on any balance they keep. Since most customers arrive through word of mouth, the cost to get a customer is low, so each one is profitable quickly."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth: Wise says most new customers come from recommendations",
+        "Referral programme with a reward for each friend who makes a transfer",
+        "Price comparison pages that rank well in search for 'send money to India' and similar",
+        "Banks and fintechs using Wise Platform, which bring Wise volume without a Wise sign-up",
+        "Students and migrants who are told about it by communities and universities"
+      ],
+      "whatBringsUsersBack": [
+        "Monthly remittances are a natural repeat habit",
+        "Money held in balances earns interest and stays in the app",
+        "Card spending on trips and online in other currencies",
+        "Repeat recipients saved, so the next transfer takes a few taps",
+        "Rate alerts that pull users back when the rate moves"
+      ],
+      "moat": "Wise has built its own payment network over 15 years: local accounts in dozens of countries, licences in each, and direct links to central bank payment systems in places like the UK, Singapore and Brazil. This makes its cost per transfer lower than rivals, and it passes the savings on as lower prices, which brings more volume, which lowers costs again. A new rival would need years of licences and partnerships to match it."
+    },
+    "competitors": [
+      { "name": "Banks (HSBC, Barclays, SBI)", "positioning": "Already hold your money, so transfers are convenient but expensive.", "howThisProductDiffers": "Wise is usually several times cheaper and faster, and shows the true cost upfront." },
+      { "name": "Remitly", "positioning": "Remittances focused on migrants sending money home, with cash pickup and mobile wallets.", "howThisProductDiffers": "Remitly often uses promotional rates for new users. Wise wins on transparent pricing and on accounts and cards, not just transfers." },
+      { "name": "Revolut", "positioning": "All-in-one money app with fee-free conversion within plan limits.", "howThisProductDiffers": "Revolut is cheaper on weekdays inside limits but adds markups on weekends and above limits. Wise is focused on doing cross-border well, with clearer pricing for large amounts." },
+      { "name": "Western Union", "positioning": "Old global brand with a huge cash network.", "howThisProductDiffers": "Western Union reaches people without bank accounts. Wise is digital-only and much cheaper for bank-to-bank transfers." },
+      { "name": "PayPal and Xoom", "positioning": "Pay people and get paid online globally.", "howThisProductDiffers": "PayPal's currency conversion includes a markup of about 3 to 4%. Freelancers often move to Wise to keep more of each payment." }
+    ],
+    "northStar": {
+      "metric": "Cross-border volume moved for active customers, at a falling average price",
+      "why": "Volume shows how much money customers trust Wise with. Pairing it with a falling price keeps the team honest: Wise only wins if customers keep more of their money. Revenue alone could grow by raising prices, which would break the mission."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "People and businesses who made at least one transaction in the period.",
+        "children": [
+          { "metric": "Sign-up to first transfer rate", "description": "Share of new sign-ups who complete a transfer. Moves with quote clarity and verification speed." },
+          { "metric": "Verification time", "description": "Time to clear identity checks. Faster checks mean fewer drop-offs." },
+          { "metric": "Referral invites sent per customer", "description": "Word of mouth is the main acquisition channel." },
+          { "metric": "Monthly retention", "description": "Retention means the share of customers who use Wise again the next month." }
+        ]
+      },
+      {
+        "metric": "Volume per active customer",
+        "description": "How much each customer moves through Wise.",
+        "children": [
+          { "metric": "Transfers per customer per month", "description": "Repeat remittances and payments." },
+          { "metric": "Average transfer size", "description": "Bigger transfers show trust and price edge on large amounts." },
+          { "metric": "Card spend per cardholder", "description": "Everyday spending that builds a weekly habit." }
+        ]
+      },
+      {
+        "metric": "Speed and reliability",
+        "description": "How fast and smoothly money arrives.",
+        "children": [
+          { "metric": "Share of transfers arriving in under 20 seconds", "description": "Wise's own speed promise. Faster arrival drives repeat use." },
+          { "metric": "Share of transfers held for checks", "description": "Holds are the top cause of complaints." },
+          { "metric": "Payment failure rate", "description": "Failed payouts cost support time and trust." }
+        ]
+      },
+      {
+        "metric": "Price paid by customers",
+        "description": "Average fee as a share of volume, which Wise aims to lower over time.",
+        "children": [
+          { "metric": "Cost per transfer", "description": "Lower internal costs let Wise cut prices." },
+          { "metric": "Share of volume on direct central bank connections", "description": "Direct links remove middlemen and cut costs." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud and money-laundering losses as a share of volume",
+      "Share of accounts wrongly frozen or closed, and time to resolve",
+      "Customer support satisfaction for held transfers",
+      "Regulatory findings or fines"
+    ],
+    "strengths": [
+      "Clear, upfront pricing that customers trust and recommend",
+      "Its own payment network makes it cheaper and faster than most rivals",
+      "Profitable at scale, with a 20 to 25% target margin",
+      "Most growth comes from word of mouth, so spending on marketing stays low",
+      "Large and growing pool of customer money earning interest"
+    ],
+    "weaknesses": [
+      "Profit leans on interest income, which falls when central banks cut rates",
+      "Strict compliance checks lead to frozen accounts and angry customers",
+      "Support is mostly digital, which feels slow when a large sum is stuck",
+      "Limited services inside India itself; Indian residents cannot use the full multi-currency account"
+    ],
+    "risks": [
+      "Revolut and banks using cheaper rails could match its prices",
+      "Stablecoins and instant cross-border links between national systems (like UPI linking with other countries) could cut the need for a middleman",
+      "Regulators in many countries can change rules on safeguarding customer money and on remittances",
+      "Founder control and the move to a US listing caused investor disputes"
+    ],
+    "userComplaints": [
+      "Accounts frozen or closed with money inside, with little explanation (Trustpilot, BBB, Financial Ombudsman cases)",
+      "Transfers held for extra verification, sometimes for days",
+      "Hard to reach a human on the phone",
+      "Card blocked abroad by fraud checks",
+      "Fees for small transfers feel high compared with promotional rates elsewhere"
+    ],
+    "improvementIdeas": [
+      { "idea": "Hold tracker with a clear reason and a document checklist", "problem": "Held transfers and frozen accounts are the top complaint, and users do not know what to do.", "expectedImpact": "Fewer support tickets and faster release of held money.", "metricToTrack": "Median time to resolve a held transfer", "effort": "medium" },
+      { "idea": "Priority callback for transfers above £5,000 that are held", "problem": "Large sums stuck with only chat support cause panic and churn.", "expectedImpact": "Keeps high-value customers who bring most of the volume.", "metricToTrack": "Churn of customers with a held large transfer", "effort": "medium" },
+      { "idea": "Recurring remittance to India with UPI-style auto schedule and rate floor", "problem": "Monthly senders have to remember and rebook each month.", "expectedImpact": "Higher transfers per customer and more predictable volume.", "metricToTrack": "Share of India senders on a scheduled transfer", "effort": "low" },
+      { "idea": "Travel mode: tell Wise your trip dates to avoid card blocks", "problem": "Fraud checks block cards abroad at bad moments.", "expectedImpact": "Fewer declined payments and stronger card habit.", "metricToTrack": "False decline rate on card payments abroad", "effort": "low" },
+      { "idea": "Interest balance nudges for returning NRIs", "problem": "Customers move money out right after receiving it.", "expectedImpact": "More money held at Wise, more interest income.", "metricToTrack": "Average balance per active customer", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Pricing can be the product. Wise turned 'show the real fee' into its whole brand, and that trust drives word of mouth.",
+      "Cost advantage compounds. Every saving passed back to users brings more volume, which makes the next saving possible.",
+      "In money products, safety checks are part of the experience. A frozen account is a product failure even when compliance is right.",
+      "A repeat habit like monthly remittances is worth more than one big transaction."
+    ],
+    "interviewQuestions": [
+      { "question": "Wise's profit relies partly on interest income. What would you do as rates fall?", "hint": "Split revenue into fees, cards and interest. Suggest ways to grow fee volume (business, Platform) and card habit. Talk about trade-offs between price cuts and margin." },
+      { "question": "How would you reduce complaints about frozen accounts without raising fraud?", "hint": "Clarify the user types affected. Map the hold journey. Propose clear status, document checklists and risk-based tiers. Guardrail: fraud loss rate." },
+      { "question": "Should Wise launch in India for Indian residents? How would you decide?", "hint": "Look at market size (inbound remittances over $120bn), regulation (RBI rules, LRS limits), competition (banks, UPI), and what Wise uniquely offers. Pick a narrow first use case." },
+      { "question": "Design a feature to win more freelancers from PayPal.", "hint": "Define the freelancer's pain: fees, slow access, invoices. Ideas: invoice links, client-pays-in-local-currency, tax summaries. Metric: monthly inbound volume per freelancer." },
+      { "question": "What north star metric would you pick for Wise and why?", "hint": "Pick something that shows value to users: volume moved at falling price, or money saved versus banks. Explain why revenue is a bad north star here." }
+    ],
+    "glossary": [
+      { "term": "Mid-market rate", "meaning": "The real exchange rate halfway between the buy and sell prices, the one you see on Google." },
+      { "term": "Take rate", "meaning": "The share of each transaction's value that a company keeps as revenue." },
+      { "term": "Interchange", "meaning": "A small fee the shop's bank pays the card issuer every time a card is used." },
+      { "term": "Retention", "meaning": "The share of customers who keep using a product over time." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." },
+      { "term": "Correspondent bank", "meaning": "A middle bank that passes an international payment between two banks that have no direct link." },
+      { "term": "API", "meaning": "A way for one company's software to talk to another's, so a bank can use Wise inside its own app." }
+    ],
+    "assumptions": [
+      "FY26 revenue, profit and balance figures come from a summary of the results release and may differ slightly from the full report.",
+      "The £5 to £6 fee on a £1,000 UK to India transfer is an estimate based on typical published pricing; actual fees vary by route and payment method.",
+      "The cost to Wise of each transfer is our inference, not a reported figure.",
+      "Take rate of about 0.5% to 0.6% is based on recent reported averages and may have moved."
+    ]
+  }
+}

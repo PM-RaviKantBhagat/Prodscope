@@ -1,0 +1,260 @@
+{
+  "company": "OYO",
+  "domain": "oyorooms.com",
+  "website": "https://oyorooms.com",
+  "sources": [
+    "https://yourstory.com/2026/08/oyos-parent-firm-prism-reports-net-profit-of-rs-994-cr-for-fy26",
+    "https://yourstory.com/2026/11/oyo-parent-prisms-revenue-rises-35-to-rs-2814-cr-in-q1-fy27",
+    "https://www.outlookbusiness.com/markets/oyo-parent-prism-files-updated-ipo-papers-plans-6650-cr-fresh-issue",
+    "https://entrackr.com/fintrackr/oyo-posts-over-rs-200-cr-profit-in-q1-fy26-rebrands-parent-as-prism-life-10044823",
+    "https://skift.com/2025/01/06/oyos-new-rule-unmarried-couples-not-allowed-hotel-stays-in-meerut-more-cities-could-follow",
+    "https://inc42.com/?p=563493"
+  ],
+  "report": {
+    "company": "OYO",
+    "tagline": "OYO turns small, independent budget hotels into a branded chain you can book in an app.",
+    "category": "Hospitality",
+    "simpleSummary": "OYO does not own most of its hotels. It signs up small hotel owners, puts its brand on them, lists them in its app and helps fill rooms. You book a cheap, clean-enough room in almost any Indian town for a few hundred to a couple of thousand rupees. OYO takes a cut of what the hotel earns. It also owns Motel 6 in the US and holiday homes in Europe.",
+    "keyNumbers": [
+      { "label": "Net profit FY26", "value": "₹994 crore", "note": "PRISM (OYO's parent) results reported by YourStory and Inc42, August 2026. About four times FY25." },
+      { "label": "Revenue Q1 FY27", "value": "₹2,814 crore", "note": "April to June 2026, up 35% year on year. YourStory, November 2026." },
+      { "label": "IPO size", "value": "₹6,650 crore fresh issue", "note": "Updated DRHP filed 2026, third try at listing after 2021 and 2023 attempts. Money mainly to repay debt." },
+      { "label": "Hotels and homes", "value": "Over 1 lakh storefronts in about 35 countries", "note": "Company claims; the count includes holiday homes and changes often. Treat as approximate." },
+      { "label": "Peak valuation", "value": "About $10 billion (2019)", "note": "Widely reported; later private rounds were at much lower values, around $2.5 billion to $4.5 billion." }
+    ],
+    "overview": {
+      "whatItDoes": "OYO is a platform for budget hotels. Small hotel owners join OYO, get its brand, software and bookings, and pay OYO a share of revenue. Travellers book rooms in the OYO app or on travel sites like MakeMyTrip. Outside India it runs Motel 6 and Studio 6 in the US and vacation homes in Europe under brands like Belvilla and DanCenter.",
+      "howItWorks": [
+        "OYO signs a hotel owner, checks the property and brands it, for example as OYO, Townhouse, Collection O or Capital O.",
+        "The hotel gets OYO's software to manage rooms, prices and check-ins.",
+        "OYO sets prices that move with demand and lists rooms on its own app and on other booking sites.",
+        "A guest books, often with discounts or OYO Wizard membership offers, and pays online or at the hotel.",
+        "OYO keeps a commission and passes the rest to the owner.",
+        "Premium brands like Palette, Townhouse Oak and the Sunday hotels target higher-paying guests."
+      ],
+      "valueProposition": "For guests: a predictable, cheap room you can book in seconds in almost any town. For owners: more bookings and better tech without spending on marketing."
+    },
+    "personas": [
+      {
+        "name": "Budget business traveller",
+        "description": "Sales rep or small trader travelling between tier-2 and tier-3 towns.",
+        "goals": ["Clean room under ₹1,500", "Easy booking on the go", "GST invoice for expenses"],
+        "frustrations": ["Room does not match photos", "Check-in refused at the desk"]
+      },
+      {
+        "name": "Young couple or friends on a trip",
+        "description": "Students or young professionals going to Goa, Rishikesh or a nearby city for the weekend.",
+        "goals": ["Cheapest decent stay", "Pay at hotel option"],
+        "frustrations": ["Some hotels refuse unmarried couples", "Surprise extra charges"]
+      },
+      {
+        "name": "Small hotel owner",
+        "description": "Owns a 15 to 30 room hotel in a small city with low occupancy.",
+        "goals": ["Fill more rooms", "Get paid on time", "Less effort on marketing"],
+        "frustrations": ["High commission", "Late payments and disputes", "OYO pushing very low prices"]
+      },
+      {
+        "name": "US road-tripper",
+        "description": "Drives across states and stops at Motel 6.",
+        "goals": ["Cheap, safe room for one night by the highway"],
+        "frustrations": ["Old rooms at some motels"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Unbranded budget hotels are a gamble on cleanliness and safety.", "howSolved": "OYO brand with basic standards, photos and reviews.", "severity": "high" },
+      { "pain": "Hard to find and book small-town hotels online.", "howSolved": "Thousands of hotels listed in one app, even in small towns.", "severity": "high" },
+      { "pain": "Small owners cannot afford marketing or booking software.", "howSolved": "OYO gives software and demand in exchange for a share of revenue.", "severity": "high" },
+      { "pain": "Prices change randomly at small hotels.", "howSolved": "Clear online price with discounts shown up front.", "severity": "medium" },
+      { "pain": "Last-minute travel with no plan.", "howSolved": "Same-day booking with instant confirmation.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "OYO app and website", "whatItDoes": "Search, compare and book budget rooms by city or near me.", "whyItMatters": "Direct bookings save the commission OYO would pay to other travel sites." },
+      { "feature": "Dynamic pricing", "whatItDoes": "Room prices change with demand, day and season.", "whyItMatters": "Helps fill empty rooms and raises earnings on busy days." },
+      { "feature": "OYO Wizard", "whatItDoes": "Loyalty membership with extra discounts.", "whyItMatters": "Brings travellers back to OYO instead of other apps." },
+      { "feature": "Owner app (Co-OYO)", "whatItDoes": "Owners see bookings, earnings and payouts.", "whyItMatters": "Payout trust is key to keeping owners on the platform." },
+      { "feature": "Tiered brands", "whatItDoes": "Different labels like Townhouse, Palette, Sunday for different price levels.", "whyItMatters": "Lets OYO earn more per room from guests who will pay more." },
+      { "feature": "Corporate travel (OYO for Business)", "whatItDoes": "Bookings and invoices for companies.", "whyItMatters": "Steady weekday demand." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Last-minute room booking",
+        "persona": "Budget business traveller",
+        "steps": [
+          { "step": "Search", "detail": "Opens the app and searches 'hotels near me' in a new town." },
+          { "step": "Filter", "detail": "Sorts by price and rating, checks photos." },
+          { "step": "Apply offer", "detail": "Uses a Wizard discount or coupon." },
+          { "step": "Book", "detail": "Chooses pay at hotel or prepay." },
+          { "step": "Check in", "detail": "Shows ID at the desk." },
+          { "step": "Review", "detail": "Rates the stay after checkout." }
+        ]
+      },
+      {
+        "name": "Owner joins OYO",
+        "persona": "Small hotel owner",
+        "steps": [
+          { "step": "Contact", "detail": "OYO sales team reaches the owner or owner signs up online." },
+          { "step": "Audit", "detail": "OYO checks rooms and suggests small fixes." },
+          { "step": "Sign contract", "detail": "Agrees on revenue share terms." },
+          { "step": "Go live", "detail": "Hotel appears on OYO and partner sites." },
+          { "step": "Get bookings", "detail": "Guests start booking within days." },
+          { "step": "Payouts", "detail": "Owner gets money after OYO's cut, tracked in the owner app." }
+        ]
+      },
+      {
+        "name": "Problem at check-in",
+        "persona": "Young couple or friends on a trip",
+        "steps": [
+          { "step": "Arrive", "detail": "Reaches the hotel with a confirmed booking." },
+          { "step": "Refused", "detail": "Desk refuses check-in because of local rules or hotel policy." },
+          { "step": "Contact support", "detail": "Calls or chats with OYO support." },
+          { "step": "Relocation or refund", "detail": "OYO moves them to another hotel or refunds." },
+          { "step": "Leave review", "detail": "Shares a bad review, hurting trust." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "OYO is asset-light: it does not own most hotels. It earns mostly a commission from hotels and homes on its platform, plus income from Motel 6 franchise fees in the US and vacation home rentals in Europe. It now makes a profit after years of losses.",
+      "revenueStreams": [
+        { "stream": "Commission from hotel bookings", "detail": "A share of each room night booked through OYO." },
+        { "stream": "Vacation homes (Europe)", "detail": "Belvilla, DanCenter and others rent holiday homes and take a cut." },
+        { "stream": "Motel 6 and Studio 6 (US)", "detail": "Bought in 2024 for about $525 million; earns franchise fees from motel owners." },
+        { "stream": "Owner services", "detail": "Fees for software and add-on services." }
+      ],
+      "pricing": "Room prices vary by city and date. Many OYO rooms in India list between about ₹600 and ₹2,500 a night. Premium brands cost more.",
+      "costDrivers": [
+        "Marketing and discounts to guests",
+        "Commissions paid to other booking sites",
+        "Sales and quality teams that sign and audit hotels",
+        "Interest on debt",
+        "Customer support and refunds"
+      ],
+      "unitEconomics": "Take a ₹1,200 room night in India. If OYO keeps a 20% to 25% commission, it earns about ₹240 to ₹300. If the booking came through a travel site, OYO pays maybe ₹100 to ₹150 of that away. Discounts and support take more. That is why OYO pushes direct bookings in its own app and loyalty plans. Earlier, OYO guaranteed owners fixed income, which caused huge losses when rooms stayed empty. Moving to pure commission made each booking profitable."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Huge supply in small towns where few other brands exist",
+        "Listing on MakeMyTrip, Goibibo, Booking.com and Google",
+        "Discounts and coupons for first bookings",
+        "Corporate deals",
+        "Buying international brands like Motel 6"
+      ],
+      "whatBringsUsersBack": [
+        "OYO Wizard loyalty discounts",
+        "Known brand in every town",
+        "Saved details and fast rebooking in the app"
+      ],
+      "moat": "OYO has more budget hotels signed up across small Indian towns than anyone else. A rival would need years of door-to-door sales to match that supply, and the data on pricing in each town."
+    },
+    "competitors": [
+      { "name": "Treebo and FabHotels", "positioning": "Branded budget hotel chains with tighter quality.", "howThisProductDiffers": "OYO has far more hotels and towns but quality is more uneven." },
+      { "name": "MakeMyTrip and Goibibo", "positioning": "Online travel agents listing all hotels.", "howThisProductDiffers": "OYO brands and manages its hotels; MakeMyTrip only lists. MakeMyTrip is also a sales channel for OYO." },
+      { "name": "Airbnb", "positioning": "Homes and unique stays.", "howThisProductDiffers": "OYO is mainly cheap hotels; Airbnb is homes and longer stays." },
+      { "name": "Booking.com and Agoda", "positioning": "Global booking sites.", "howThisProductDiffers": "Stronger in big cities and abroad; OYO wins in small Indian towns." }
+    ],
+    "northStar": {
+      "metric": "Room nights stayed and rated 4 stars or above",
+      "why": "It captures both that guests got a room and that the stay was good. Bookings alone hide bad stays that drive guests and owners away."
+    },
+    "kpiTree": [
+      {
+        "metric": "Supply",
+        "description": "Good hotels active on OYO.",
+        "children": [
+          { "metric": "New hotels signed", "description": "More choice in more towns." },
+          { "metric": "Owner churn", "description": "Owners who leave reduce supply." },
+          { "metric": "Hotels passing audit", "description": "Quality supply, not just count." }
+        ]
+      },
+      {
+        "metric": "Demand",
+        "description": "How many guests book.",
+        "children": [
+          { "metric": "App searches", "description": "Shows interest." },
+          { "metric": "Search to booking rate", "description": "Price and photos must match." },
+          { "metric": "Share of direct bookings", "description": "Cheaper than bookings via other sites." }
+        ]
+      },
+      {
+        "metric": "Stay quality",
+        "description": "Guests get what they booked.",
+        "children": [
+          { "metric": "Check-in denial rate", "description": "Refused check-ins break trust." },
+          { "metric": "Average rating", "description": "Shows if stays match photos." }
+        ]
+      },
+      {
+        "metric": "Repeat guests",
+        "description": "Guests who book again within 6 months.",
+        "children": [
+          { "metric": "Wizard members", "description": "Loyalty members book more often." },
+          { "metric": "Rebooking rate", "description": "Shows trust in the brand." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Owner payout delays",
+      "Refund time",
+      "Commission paid to other booking sites as a share of revenue",
+      "Safety complaints"
+    ],
+    "strengths": [
+      "Largest budget hotel network in India's small towns",
+      "Now profitable: ₹994 crore net profit in FY26",
+      "Revenue growing over 30% a year",
+      "Spread across India, US and Europe"
+    ],
+    "weaknesses": [
+      "Quality varies because OYO does not run the hotels",
+      "Long record of owner disputes and trust issues",
+      "Debt load that the IPO is meant to reduce",
+      "Brand linked in the past to low-quality stays"
+    ],
+    "risks": [
+      "Local rules and police pressure on check-ins, such as couples policies",
+      "Travel slowdowns hit room demand",
+      "Treebo, FabHotels and booking sites competing for the same hotels",
+      "Third IPO attempt could be delayed by market conditions"
+    ],
+    "userComplaints": [
+      "Rooms do not match photos",
+      "Check-in refused despite a confirmed booking",
+      "Slow refunds",
+      "Hotel staff ask for extra money at the desk",
+      "Owners complain about late payouts and high commission"
+    ],
+    "improvementIdeas": [
+      { "idea": "Guaranteed check-in with instant free relocation", "problem": "Guests refused at the desk.", "expectedImpact": "Trust and repeat bookings rise.", "metricToTrack": "Check-in denial rate and repeat rate", "effort": "medium" },
+      { "idea": "Show house rules (couples, local ID) clearly before payment", "problem": "Surprise refusals.", "expectedImpact": "Fewer bad stays and refunds.", "metricToTrack": "Refunds due to policy mismatch", "effort": "low" },
+      { "idea": "Guest-uploaded recent photos with date stamps", "problem": "Rooms do not match photos.", "expectedImpact": "More honest listings.", "metricToTrack": "Rating gap between expected and actual", "effort": "low" },
+      { "idea": "Payout on a fixed day with a public tracker for owners", "problem": "Owner payout disputes.", "expectedImpact": "Lower owner churn.", "metricToTrack": "Owner churn and payout tickets", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Fast growth on paper can hide a broken model. OYO's old minimum-guarantee deals grew supply but lost money on empty rooms.",
+      "In a marketplace, both sides must trust you. Ignoring owners hurt OYO's supply and brand.",
+      "Pivots are normal. OYO went from listings to managed hotels to franchise and back to light commission, and profit came after.",
+      "A brand only means something if quality is consistent."
+    ],
+    "interviewQuestions": [
+      { "question": "OYO's rating in tier-3 towns is falling. How would you fix it?", "hint": "Break down by hotel, complaint type and booking source. Fix top offenders, add audits, delist repeat bad hotels." },
+      { "question": "How would you increase direct bookings in the OYO app?", "hint": "Price advantage, loyalty, better search, offline-to-app nudges at check-in." },
+      { "question": "What should OYO's north star metric be?", "hint": "Good stays, not just bookings. Show the KPI tree with supply, demand and quality." },
+      { "question": "Was the Motel 6 acquisition a good idea?", "hint": "Look at fit, profit, debt and whether OYO's tech improves motel occupancy." },
+      { "question": "How would you design the owner app to reduce owner churn?", "hint": "Clear earnings, payout timeline, simple dispute flow, demand forecasts." }
+    ],
+    "glossary": [
+      { "term": "Asset-light", "meaning": "A business that does not own the hotels or buildings it uses; it earns from managing or listing them." },
+      { "term": "Commission", "meaning": "The share of each booking that OYO keeps." },
+      { "term": "Dynamic pricing", "meaning": "Changing the price of a room based on demand, day and season." },
+      { "term": "Storefront", "meaning": "One hotel or home listed on OYO." },
+      { "term": "DRHP", "meaning": "The draft document a company files with SEBI before an IPO." },
+      { "term": "North star metric", "meaning": "The one number that best shows whether users are getting value." },
+      { "term": "Churn", "meaning": "Owners or guests who stop using OYO." }
+    ],
+    "assumptions": [
+      "Commission rate of 20% to 25% is an estimate; OYO's terms vary by deal.",
+      "Room price ranges are from typical app listings, not company data.",
+      "FY26 full-year revenue was not found in search results, so Q1 FY27 revenue is shown instead.",
+      "Storefront count is from company claims and may include short-term listings."
+    ]
+  }
+}

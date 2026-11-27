@@ -1,0 +1,397 @@
+{
+  "company": "DeepSeek",
+  "domain": "deepseek.com",
+  "website": "https://deepseek.com",
+  "sources": [
+    "https://fortune.com/2026/04/24/deepseek-v4-ai-model-price-performance-china-open-source/",
+    "https://www.kucoin.com/news/flash/deepseek-s-annualized-revenue-hits-400m-500m-doubles-2025-run-rate",
+    "https://api-docs.deepseek.com/quick_start/pricing",
+    "https://www.aljazeera.com/amp/economy/2026/4/24/chinas-deepseek-unveils-latest-model-a-year-after-upending-global-tech",
+    "https://www.secondtalent.com/resources/deepseek-statistics/",
+    "https://sacra.com/c/deepseek/"
+  ],
+  "report": {
+    "company": "DeepSeek",
+    "tagline": "A Chinese AI lab that gives away near-frontier AI models for free and sells API access at a fraction of US prices.",
+    "category": "AI assistant",
+    "simpleSummary": "DeepSeek is a free AI chatbot, like ChatGPT, made by a small lab in Hangzhou, China. You can use the app or website without paying anything. The lab also publishes its models openly, so anyone can download and run them. It makes money by charging developers very low prices to use its models through an API, and it shocked the world in January 2025 by matching US models at a tiny cost.",
+    "keyNumbers": [
+      {
+        "label": "Annualised revenue",
+        "value": "About $400 to 500 million (2026)",
+        "note": "Run rate reported in news, mid 2026, roughly double the 2025 estimate of about $200 million. Not audited; DeepSeek does not publish accounts."
+      },
+      {
+        "label": "Valuation",
+        "value": "Reported above $50 billion (mid 2026)",
+        "note": "News reports of a June 2026 raise of over $7.4 billion. Earlier reports in April 2026 said $20 billion. Treat as uncertain."
+      },
+      {
+        "label": "V4-Pro API price",
+        "value": "$3.48 per million output tokens",
+        "note": "Fortune, April 2026. Compare with about $25 to 30 for top US models. V4-Flash is $0.28."
+      },
+      {
+        "label": "V4-Pro model size",
+        "value": "1.6 trillion parameters, 1 million token memory",
+        "note": "DeepSeek tech report, April 2026. Trained partly on Huawei Ascend chips."
+      },
+      {
+        "label": "Reported R1 training cost",
+        "value": "About $6 million (January 2025)",
+        "note": "DeepSeek's own figure for the final training run only. Total spend on chips and research is far higher."
+      },
+      {
+        "label": "Monthly app users",
+        "value": "Roughly 100 million or more (estimate)",
+        "note": "Third-party traffic and app estimates, 2025 to 2026. DeepSeek does not publish user numbers."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "DeepSeek builds large AI models and offers them in three ways: a free chat app, a pay-as-you-go API for developers, and open downloadable model files. Its models write, code, reason through maths and read long documents. Its main selling point is price: similar quality to US leaders for about one tenth of the cost.",
+      "howItWorks": [
+        "Consumers chat for free on chat.deepseek.com or the iOS and Android app, with a 'DeepThink' button that shows step by step reasoning.",
+        "Developers pay per token (a token is about three quarters of a word) through an API that copies OpenAI's format, so switching takes minutes.",
+        "Model weights are published on Hugging Face under an open licence, so companies can run them on their own servers for free.",
+        "Cloud companies like Alibaba, Tencent, Huawei and many US hosts resell DeepSeek models, which spreads usage without DeepSeek paying for sales.",
+        "The lab is funded by High-Flyer, a quant hedge fund owned by founder Liang Wenfeng, so it does not depend on outside investors to survive."
+      ],
+      "valueProposition": "Good enough AI for close to nothing: free for users, and roughly 85 to 95 percent cheaper than US rivals for developers."
+    },
+    "personas": [
+      {
+        "name": "Cost-sensitive developer",
+        "description": "A backend engineer at a startup in Bengaluru building a customer support bot that handles millions of messages a month.",
+        "goals": [
+          "Cut the monthly AI bill without losing quality",
+          "Switch from OpenAI with minimal code changes",
+          "Handle long documents in one call"
+        ],
+        "frustrations": [
+          "API slowdowns and 'server busy' errors at peak times",
+          "Worry about data going to servers in China",
+          "Clients in regulated sectors refusing Chinese models"
+        ]
+      },
+      {
+        "name": "Free-tier student",
+        "description": "A college student who uses DeepSeek for maths homework, coding assignments and exam prep because it costs nothing.",
+        "goals": [
+          "Get step by step solutions",
+          "Avoid paying $20 a month for ChatGPT Plus",
+          "Use reasoning mode without limits"
+        ],
+        "frustrations": [
+          "The app is sometimes busy or slow",
+          "No image generation or voice as rich as rivals",
+          "Refuses some topics without explanation"
+        ]
+      },
+      {
+        "name": "Enterprise self-hoster",
+        "description": "An IT head at a bank or telecom who wants an open model to run inside their own data centre for privacy.",
+        "goals": [
+          "Keep data on their own servers",
+          "Avoid paying per user licence fees",
+          "Fine-tune the model on internal data"
+        ],
+        "frustrations": [
+          "Large models need expensive GPUs to run",
+          "Security teams question a Chinese-origin model",
+          "Little official support or SLA from DeepSeek"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Top AI models from OpenAI and Anthropic are expensive at scale.",
+        "howSolved": "DeepSeek prices output at a few dollars per million tokens, and caches repeated input at an even lower rate.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paying $20 a month for a strong chatbot is too much for many people, especially outside the US.",
+        "howSolved": "The full chat app with reasoning mode is free.",
+        "severity": "high"
+      },
+      {
+        "pain": "Companies cannot send sensitive data to an outside AI provider.",
+        "howSolved": "Open weights let them run the model on their own machines with no data leaving.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Switching AI providers usually means rewriting code.",
+        "howSolved": "The API uses the same format as OpenAI, so developers change only the address and key.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Users do not trust answers when they cannot see how the AI got there.",
+        "howSolved": "DeepThink mode shows the model's reasoning steps before the final answer.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Free chat app with DeepThink",
+        "whatItDoes": "A ChatGPT-style chat with an optional reasoning mode and web search, free on web and mobile.",
+        "whyItMatters": "Gets mass awareness and feedback at no cost to the user, which built the brand overnight in January 2025."
+      },
+      {
+        "feature": "Low-price API",
+        "whatItDoes": "Pay-per-token access to V4-Pro and V4-Flash, with cheaper rates for cached input and off-peak hours.",
+        "whyItMatters": "This is the main revenue source and the reason developers switch."
+      },
+      {
+        "feature": "Open-weight model releases",
+        "whatItDoes": "Publishes model files and detailed technical reports for anyone to download.",
+        "whyItMatters": "Builds trust with researchers, spreads the models through every cloud, and makes DeepSeek a default choice for self-hosting."
+      },
+      {
+        "feature": "1 million token context",
+        "whatItDoes": "V4 can read about 750,000 words in one go, like a whole codebase or several books.",
+        "whyItMatters": "Lets developers build document and coding tools without complex workarounds."
+      },
+      {
+        "feature": "Efficient model design",
+        "whatItDoes": "Uses a 'mixture of experts' design that wakes up only part of the model for each word, cutting compute per answer.",
+        "whyItMatters": "Lower compute per answer is what allows the low prices while still making a profit per token."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First chat",
+        "persona": "Free-tier student",
+        "steps": [
+          { "step": "Hears about it", "detail": "Sees a friend or a YouTube video say DeepSeek is free and as smart as ChatGPT." },
+          { "step": "Downloads app", "detail": "Installs from the Play Store and signs up with email or Google." },
+          { "step": "Asks a hard question", "detail": "Pastes a calculus problem and turns on DeepThink." },
+          { "step": "Reads reasoning", "detail": "Watches the model think step by step, then gets the answer." },
+          { "step": "Hits a busy moment", "detail": "Sometimes sees a 'server busy' message and retries a minute later." },
+          { "step": "Makes it a habit", "detail": "Uses it daily for homework because there is no paywall." }
+        ]
+      },
+      {
+        "name": "Switching an app's AI provider",
+        "persona": "Cost-sensitive developer",
+        "steps": [
+          { "step": "Sees the price gap", "detail": "Compares the OpenAI bill with DeepSeek's pricing page and sees a 10x difference." },
+          { "step": "Creates API key", "detail": "Signs up on platform.deepseek.com and tops up $10 of credit." },
+          { "step": "Changes two lines", "detail": "Swaps the base URL and key in the existing OpenAI SDK code." },
+          { "step": "Runs side by side test", "detail": "Sends the same 500 support tickets to both models and compares answers." },
+          { "step": "Moves traffic", "detail": "Routes most cheap tasks to V4-Flash and hard ones to V4-Pro." },
+          { "step": "Tops up monthly", "detail": "Pays as usage grows, often a few hundred dollars instead of thousands." }
+        ]
+      },
+      {
+        "name": "Self-hosting inside a company",
+        "persona": "Enterprise self-hoster",
+        "steps": [
+          { "step": "Security review", "detail": "Checks the licence and whether open weights send any data out (they do not)." },
+          { "step": "Downloads weights", "detail": "Pulls the model from Hugging Face." },
+          { "step": "Picks hardware", "detail": "Runs it on rented GPUs or via a cloud that hosts DeepSeek, like Alibaba Cloud or Azure." },
+          { "step": "Fine-tunes", "detail": "Trains it a little on internal documents." },
+          { "step": "Rolls out", "detail": "Launches an internal assistant for staff, paying only for hardware." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "DeepSeek makes money almost only from its API. Developers pay per token used. The chat app is free and works as marketing. Open weights earn nothing directly but spread the brand. Owner High-Flyer funds research, so the company can price low and focus on research over sales.",
+      "revenueStreams": [
+        { "stream": "API usage fees", "detail": "Pay per million tokens in and out. V4-Pro is about $3.48 per million output tokens, V4-Flash about $0.28." },
+        { "stream": "Cached and off-peak pricing", "detail": "Repeated input and night-time usage (Beijing time) cost less, which fills idle servers." },
+        { "stream": "Enterprise and cloud deals", "detail": "Likely some revenue from Chinese companies and cloud partners, details not public." }
+      ],
+      "pricing": "Chat app: free. API (April 2026): V4-Pro about $3.48 per million output tokens; V4-Flash about $0.28 per million output tokens; input and cached input cheaper. See api-docs.deepseek.com for current rates.",
+      "costDrivers": [
+        "GPU and AI chip compute for training and serving, including Nvidia and Huawei Ascend chips",
+        "Free chat app usage, which costs compute and earns nothing",
+        "Research salaries for a small team of top Chinese engineers",
+        "Data centre power and networking"
+      ],
+      "unitEconomics": "Take a developer who sends 10 million output tokens a month to V4-Pro. They pay DeepSeek about $35. Earlier leaked figures from DeepSeek suggested it spent roughly $1 on compute for every $5 to 6 of API revenue at list prices, so it likely keeps over half of each API dollar as gross profit. The same 10 million tokens on a top US model would cost about $250 to 300. Free app users are pure cost, maybe a few cents each per day, paid for by API margins and High-Flyer."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral news: the January 2025 R1 launch hit number one on the US App Store and wiped about $600 billion off Nvidia's value in one day",
+        "Open weights on Hugging Face, so every developer can try it for free",
+        "Free app with no paywall, spread by word of mouth among students",
+        "Cloud partners who host DeepSeek models and bring their own customers",
+        "Detailed research papers that get shared widely by AI engineers"
+      ],
+      "whatBringsUsersBack": [
+        "Free reasoning mode with no daily message cap for most users",
+        "Very low API bills compared with alternatives",
+        "Regular big model upgrades (V3, R1, V3.2, V4) that make news",
+        "Developers' code already wired to the API, so staying is easy"
+      ],
+      "moat": "DeepSeek's real edge is cost: it squeezes more out of each chip than most rivals, and its owner does not need quick profits. That moat is thin, because open weights let anyone copy the model and other Chinese labs like Alibaba Qwen and Moonshot Kimi price just as low. Its brand as 'the cheap, open one' is the stickiest part."
+    },
+    "competitors": [
+      { "name": "ChatGPT (OpenAI)", "positioning": "The default consumer AI with the most users and paid plans from $20 a month.", "howThisProductDiffers": "DeepSeek is free in the app and about 10x cheaper on the API, but has fewer features like voice, images and plugins." },
+      { "name": "Qwen (Alibaba)", "positioning": "Chinese open models backed by Alibaba Cloud.", "howThisProductDiffers": "Both are open and cheap. Qwen has a giant cloud sales team; DeepSeek has the stronger research brand." },
+      { "name": "Kimi (Moonshot AI)", "positioning": "Chinese model known for long context and agent tasks.", "howThisProductDiffers": "Similar pricing; DeepSeek has wider global awareness from the 2025 shock." },
+      { "name": "Gemini (Google)", "positioning": "Built into Android and Google apps with a cheap Flash tier.", "howThisProductDiffers": "Google has distribution and trust in the West; DeepSeek wins on open weights and price at the top tier." },
+      { "name": "Meta Llama and Mistral", "positioning": "Western open-weight models.", "howThisProductDiffers": "Western companies trust them more on data rules, but DeepSeek's recent models usually score higher." }
+    ],
+    "northStar": {
+      "metric": "Tokens served per week to paying API customers and active app users",
+      "why": "Every token is a piece of useful work done for someone. Growth in tokens shows people trust DeepSeek with more real tasks, and paid tokens tie that value to money."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active API customers",
+        "description": "How many developers and companies send paid traffic each week.",
+        "children": [
+          { "metric": "New API sign-ups to first paid call", "description": "Share of new accounts that top up and make a real call; shows onboarding works." },
+          { "metric": "Monthly API customer retention", "description": "Share of paying customers still active next month; drops if reliability is poor." },
+          { "metric": "Enterprise and cloud partner count", "description": "Large accounts bring steady high volume." }
+        ]
+      },
+      {
+        "metric": "Tokens per API customer",
+        "description": "How much work each customer sends.",
+        "children": [
+          { "metric": "Share of traffic on V4-Pro vs Flash", "description": "More Pro use means harder, higher value tasks." },
+          { "metric": "Average context length", "description": "Longer inputs show use for documents and code, which grows token volume." },
+          { "metric": "Agent and tool-call usage", "description": "Agents make many calls per task, multiplying tokens." }
+        ]
+      },
+      {
+        "metric": "Weekly active app users",
+        "description": "People using the free chat app, who later bring DeepSeek into work.",
+        "children": [
+          { "metric": "Day 7 retention of new users", "description": "Share of new users who come back in a week; shows real value." },
+          { "metric": "DeepThink usage rate", "description": "Share of chats using reasoning, the feature that sets it apart." },
+          { "metric": "Server busy error rate", "description": "Failed requests push users away to rivals." }
+        ]
+      },
+      {
+        "metric": "Cost per million tokens served",
+        "description": "Compute cost to serve, which decides how low prices can go.",
+        "children": [
+          { "metric": "GPU utilisation", "description": "Busy chips mean less waste per token." },
+          { "metric": "Cache hit rate", "description": "Reused inputs are cheap to serve." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "API uptime and error rate",
+      "Answer quality score on standard benchmarks versus last release",
+      "Gross margin per million tokens",
+      "Number of country or government bans"
+    ],
+    "strengths": [
+      "Prices far below US rivals while still reportedly profitable per token",
+      "Strong research reputation and open technical papers",
+      "Owner funding from High-Flyer means no rush to monetise the app",
+      "Open weights give it reach through every cloud and self-hosting setup",
+      "Proved that export controls on chips do not stop strong Chinese models"
+    ],
+    "weaknesses": [
+      "Almost no consumer revenue: the app has no paid plan",
+      "Capacity shortages cause 'server busy' errors at peak times",
+      "Answers on topics sensitive to the Chinese government are censored",
+      "Few product features beyond chat compared with ChatGPT or Gemini",
+      "Small sales and support team for large enterprise deals"
+    ],
+    "risks": [
+      "Government bans: Italy, South Korea and several US and Australian government agencies restricted the app over data privacy",
+      "US chip export controls limit access to the best Nvidia chips",
+      "Price war with Alibaba, Moonshot and others shrinks margins",
+      "Western companies may avoid Chinese models for compliance reasons",
+      "Open weights mean competitors can copy and host the same model cheaper"
+    ],
+    "userComplaints": [
+      "'Server is busy, please try again later' messages, especially after launches",
+      "Refuses or dodges questions about Tiananmen, Taiwan and Chinese politics",
+      "Privacy worries because data is stored on servers in China",
+      "Fewer features: limited image tools, file handling and voice compared with ChatGPT",
+      "Sometimes long and slow reasoning output before a simple answer"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Launch a low-cost paid tier in the app with priority access",
+        "problem": "Free users hit 'server busy' errors and DeepSeek earns nothing from the app.",
+        "expectedImpact": "Turns the most engaged users into revenue and funds more capacity; priced around $3 to 5 a month to stay well under rivals.",
+        "metricToTrack": "Free to paid conversion rate and peak-hour error rate for paid users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Offer an EU and India data region through a local cloud partner",
+        "problem": "Companies and governments refuse because data goes to China.",
+        "expectedImpact": "Unlocks regulated customers in banking, healthcare and government.",
+        "metricToTrack": "Enterprise API revenue from outside China",
+        "effort": "high"
+      },
+      {
+        "idea": "Add a reasoning length control (quick, normal, deep)",
+        "problem": "Users wait through long reasoning for simple questions.",
+        "expectedImpact": "Faster answers, happier users and lower compute per chat.",
+        "metricToTrack": "Average response time and compute cost per chat",
+        "effort": "low"
+      },
+      {
+        "idea": "Publish a public status page and API SLA for paying customers",
+        "problem": "Developers cannot plan around outages.",
+        "expectedImpact": "More trust from businesses, higher retention of API customers.",
+        "metricToTrack": "Monthly API customer retention",
+        "effort": "low"
+      },
+      {
+        "idea": "Build a coding agent product on top of V4",
+        "problem": "Developers love the model but use it inside rivals like Cursor or Cline, so DeepSeek owns no user relationship.",
+        "expectedImpact": "Direct relationship with developers and a subscription revenue line.",
+        "metricToTrack": "Weekly active coding agent users",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Price can be a product strategy. DeepSeek did not out-feature OpenAI; it made good AI so cheap that people switched.",
+      "Compatibility removes friction. Copying OpenAI's API format made switching a five minute job.",
+      "Free and open builds reach fast, but you need a clear paid path or the free users become a cost centre.",
+      "Trust is a feature. Strong tech still loses deals if buyers worry about where data goes.",
+      "Capacity is product quality. A brilliant model that says 'server busy' feels broken to users."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "DeepSeek's app is free with no subscription. Should it launch a paid plan? How would you price it?",
+        "hint": "Start with goals (revenue vs reach). Segment users by usage. Look at what paid users would get (priority, longer context). Price against ChatGPT Plus and local buying power. Name a metric like conversion and churn, and a risk like losing goodwill."
+      },
+      {
+        "question": "How would you measure success for the V4 launch?",
+        "hint": "Split into adoption (new API customers, tokens), quality (benchmarks, user ratings), reliability (error rate) and money (revenue, margin per token). Pick one north star and two guardrails."
+      },
+      {
+        "question": "A large Indian bank wants to use DeepSeek but its compliance team is worried. What would you build or change?",
+        "hint": "List the real worries: data location, censorship, support. Propose options: self-hosting with open weights, local cloud partner, audit reports. Prioritise by effort and impact."
+      },
+      {
+        "question": "Open weights let anyone host your model for free. Why would DeepSeek give its best work away?",
+        "hint": "Discuss reach, talent and research brand, ecosystem lock-in, and that the API still wins on convenience and price. Mention the downside: competitors resell it."
+      },
+      {
+        "question": "Users complain about 'server busy' errors. How would you prioritise fixing this against shipping new features?",
+        "hint": "Size the problem: error rate, users affected, churn link. Short term: queues, off-peak pricing, a paid priority tier. Long term: more chips and efficiency. Show reliability is a retention issue, not just an engineering one."
+      }
+    ],
+    "glossary": [
+      { "term": "API", "meaning": "A way for software to use DeepSeek's AI directly, paying for what it uses." },
+      { "term": "Token", "meaning": "A small chunk of text, about three quarters of a word, used to measure and charge for AI usage." },
+      { "term": "Open weights", "meaning": "The model's files are published so anyone can download and run it themselves." },
+      { "term": "Context", "meaning": "How much text the model can read and remember in one conversation or request." },
+      { "term": "Mixture of experts", "meaning": "A model design where only a small part of the model works on each word, saving compute." },
+      { "term": "Gross profit", "meaning": "Money left from sales after paying the direct cost of serving them, before salaries and research." },
+      { "term": "Retention", "meaning": "The share of users or customers who keep coming back over time." },
+      { "term": "North star metric", "meaning": "The one number a company uses to track whether it is delivering real value to users." },
+      { "term": "Run rate", "meaning": "Current monthly revenue multiplied by 12, a rough guess at yearly revenue." },
+      { "term": "SLA", "meaning": "A written promise about uptime and support, often with refunds if it is broken." },
+      { "term": "Conversion", "meaning": "The share of free users who become paying users." }
+    ],
+    "assumptions": [
+      "Monthly app user numbers are estimates from third-party trackers; DeepSeek publishes none.",
+      "Gross margin per token is inferred from DeepSeek's own 2025 cost disclosure and may differ for V4.",
+      "Valuation and funding figures in 2026 come from conflicting news reports and may not be final.",
+      "The idea that free app users cost a few cents a day is a rough estimate based on typical inference costs.",
+      "Enterprise and cloud partner revenue is assumed to exist but is not disclosed."
+    ]
+  }
+}

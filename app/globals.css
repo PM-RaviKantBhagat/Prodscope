@@ -209,3 +209,28 @@ details p { color: var(--muted); }
 .sources { font-size: 13px; word-break: break-all; }
 .sources a { color: var(--muted); }
 @media print { .toc, .feedback-section, .topbar, .site-footer { display: none; } body { background: #fff; color: #000; } }
+
+/* Curated report additions */
+.simple { font-size: 19px; line-height: 1.55; margin: 0 0 16px; max-width: 760px; }
+.numbers { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+.number { border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; background: var(--surface); }
+.number .v { font-size: 24px; font-weight: 800; letter-spacing: -0.03em; }
+.number .l { font-weight: 600; margin-top: 2px; }
+.number .n { color: var(--muted); font-size: 13px; margin-top: 6px; }
+.lessons { padding-left: 22px; }
+.lessons li { margin: 8px 0; font-size: 16px; }
+.glossary { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin: 0; }
+.glossary div { border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; }
+.glossary dt { font-weight: 700; }
+.glossary dd { margin: 4px 0 0; color: var(--muted); }
+
+/* Category gallery */
+.gallery-search { width: 100%; max-width: 520px; font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); color: var(--text); }
+.cat-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 8px; }
+.cat-chips button { font: inherit; font-size: 14px; font-weight: 600; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg); color: var(--text); cursor: pointer; }
+.cat-chips button span { color: var(--muted); font-weight: 500; margin-left: 2px; }
+.cat-chips button.on { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+.cat-chips button.on span { color: inherit; opacity: 0.7; }
+.cat { margin-top: 32px; scroll-margin-top: 80px; }
+.cat-title { font-size: 22px; letter-spacing: -0.02em; margin: 0 0 14px; }
+.cat-title span { color: var(--muted); font-weight: 500; font-size: 16px; }

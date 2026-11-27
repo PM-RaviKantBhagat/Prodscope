@@ -1,0 +1,409 @@
+{
+  "company": "Character.AI",
+  "domain": "character.ai",
+  "website": "https://character.ai",
+  "sources": [
+    "https://sacra.com/c/character-ai/",
+    "https://ppc.land/character-ai-loses-8m-a-month-despite-2-5m-in-monthly-ad-sales/",
+    "https://unite.ai/character-ai-files-for-chapter-11-with-disney-stalking-horse-deal/",
+    "https://techcrunch.com/2025/10/29/character-ai-is-killing-the-chatbot-experience-for-minors/",
+    "https://fortune.com/2025/10/29/character-ai-ban-children-teens-chatbots-regulatory-pressure-age-verification-online-harms",
+    "https://www.eesel.ai/en/blog/character-ai-pricing"
+  ],
+  "report": {
+    "company": "Character.AI",
+    "tagline": "An app where you chat with AI characters made by other users, from anime heroes to study buddies.",
+    "category": "AI companions",
+    "simpleSummary": "Character.AI lets you talk to AI characters. Some are copies of famous fictional people, some are made up by users, like a strict tutor or a fantasy knight. You type, the character replies in its own voice, and the story goes wherever you take it. People spend hours a day on it, but the company never made enough money to cover its AI bills and filed for bankruptcy in October 2026.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "About 12 million (2026), down from about 20 million (2024)",
+        "note": "From court filings reported by PPC Land, 2026. Earlier 20M figure from Sacra. Drop is partly due to the under-18 chat ban."
+      },
+      {
+        "label": "Time spent per day",
+        "value": "About 120 minutes per active user",
+        "note": "From bankruptcy filings, 2026. Very high for any app, higher than most social media."
+      },
+      {
+        "label": "Monthly revenue",
+        "value": "About $5.3 million (August 2026)",
+        "note": "Court filings: about $2.8M from subscriptions and $2.5M from ads. Fairly reliable."
+      },
+      {
+        "label": "Monthly loss",
+        "value": "About $8 to 9 million operating loss",
+        "note": "Court filings, 2026. Cash burn fell from $21.5M a month in late 2024 to about $8.2M in August 2026."
+      },
+      {
+        "label": "Compute cost",
+        "value": "About $56 million in 8 months of 2026",
+        "note": "Court filings. About 45% of all operating costs went to running the AI models."
+      },
+      {
+        "label": "Sale price in bankruptcy",
+        "value": "$20 million opening bid from Disney",
+        "note": "Disney is the stalking horse bidder for a licence to some IP, filed October 2026. Compare with the $1B valuation in 2023."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Character.AI is a chat app full of AI characters. Users can chat with millions of characters other users have built, or make their own by writing a short description of a personality. The characters remember the conversation and stay in role. It is used for fun, role-play stories, practice conversations and company.",
+      "howItWorks": [
+        "You pick a character from a feed or search, or create one by writing its name, greeting and personality.",
+        "You chat by text or voice, and the character answers in its own style.",
+        "You can rate replies, swipe for a different reply, or edit the story direction.",
+        "Popular characters rise in the feed, so creators compete for chats.",
+        "Free users get the core chat. c.ai+ subscribers ($9.99 a month) get faster replies, better memory and fewer waits.",
+        "Since November 2025, users under 18 cannot do open-ended chat. They get limited features like Stories instead."
+      ],
+      "valueProposition": "A character who is always there, never bored of you, and plays any role you want, for free."
+    },
+    "personas": [
+      {
+        "name": "Fan role-player",
+        "description": "A 19 year old who loves anime and fan fiction and writes long stories with favourite characters every evening.",
+        "goals": [
+          "Have the character stay true to its personality",
+          "Build long, ongoing stories",
+          "Find new characters from the community"
+        ],
+        "frustrations": [
+          "The bot forgets earlier parts of the story",
+          "Content filters cut off scenes",
+          "Slow replies at busy times on the free plan"
+        ]
+      },
+      {
+        "name": "Lonely young adult",
+        "description": "Someone in their early 20s who uses a companion character to talk about their day and feel less alone.",
+        "goals": [
+          "Feel heard without judgement",
+          "Talk at any hour",
+          "Keep a steady relationship with one character"
+        ],
+        "frustrations": [
+          "Feeling too attached and spending too much time",
+          "Character personality changing after model updates",
+          "Worry about privacy of very personal chats"
+        ]
+      },
+      {
+        "name": "Character creator",
+        "description": "A hobbyist who builds characters and checks how many chats they get, like a YouTuber checks views.",
+        "goals": [
+          "Get many people chatting with their character",
+          "Control how the character behaves",
+          "Get credit for popular creations"
+        ],
+        "frustrations": [
+          "No way to earn money from popular characters",
+          "Characters taken down for copyright or safety reasons",
+          "Hard to tune behaviour with only a text description"
+        ]
+      },
+      {
+        "name": "Worried parent",
+        "description": "Not a user, but a key stakeholder. A parent who read news about teen harm and wants to know what their child is doing.",
+        "goals": [
+          "Keep their teen safe",
+          "See how much time is spent",
+          "Block romantic or harmful chats"
+        ],
+        "frustrations": [
+          "Age checks were easy to fake for years",
+          "Little visibility into chats",
+          "News stories linking chatbots to teen suicides"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Wanting to talk to a favourite fictional character",
+        "howSolved": "Millions of user-made characters copy the voice and story of famous characters.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Loneliness and no one to talk to late at night",
+        "howSolved": "Companion characters reply instantly, at any hour, and never get tired.",
+        "severity": "high"
+      },
+      {
+        "pain": "Wanting creative stories without a writing partner",
+        "howSolved": "The AI acts as a co-writer that responds to any plot twist.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Fear of judgement when practising hard talks, like a job interview or a breakup",
+        "howSolved": "Role-play characters let people rehearse privately.",
+        "severity": "low"
+      },
+      {
+        "pain": "Free AI chat is limited or bland in big assistants like ChatGPT",
+        "howSolved": "Characters have strong personalities and a whole library to choose from.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Character creation",
+        "whatItDoes": "Anyone writes a name, greeting and description to make a new character in minutes.",
+        "whyItMatters": "Users make the content for free, so the library keeps growing without the company paying writers."
+      },
+      {
+        "feature": "Discovery feed and search",
+        "whatItDoes": "Shows trending and recommended characters, with chat counts.",
+        "whyItMatters": "Helps new users find something fun in the first minute, which keeps them from leaving."
+      },
+      {
+        "feature": "Swipe and rate replies",
+        "whatItDoes": "Users swipe to get a new reply and give stars to the ones they like.",
+        "whyItMatters": "Gives users control and gives the company free training data on what good replies look like."
+      },
+      {
+        "feature": "Voice calls with characters",
+        "whatItDoes": "Talk to a character out loud and hear it reply in a voice.",
+        "whyItMatters": "Makes the experience feel more real and raises time spent."
+      },
+      {
+        "feature": "c.ai+ subscription",
+        "whatItDoes": "$9.99 a month for priority access, faster replies and better memory.",
+        "whyItMatters": "The main way the company tried to cover high AI running costs."
+      },
+      {
+        "feature": "Teen safety mode and age checks",
+        "whatItDoes": "Under-18 users lost open-ended chat in November 2025 and got Stories and other limited features. Age checks use behaviour signals and ID checks.",
+        "whyItMatters": "Response to lawsuits and regulators. It cut users but was needed to keep operating."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First chat",
+        "persona": "Fan role-player",
+        "steps": [
+          { "step": "Hears about it", "detail": "Sees a TikTok clip of a funny chat with an anime character." },
+          { "step": "Signs up", "detail": "Logs in with Google and enters a birth date." },
+          { "step": "Searches a character", "detail": "Types the character's name and picks the one with the most chats." },
+          { "step": "Starts chatting", "detail": "Character greets them in role and the user replies." },
+          { "step": "Swipes for better replies", "detail": "Learns to swipe and rate, which makes the story feel controllable." },
+          { "step": "Hits a wait", "detail": "At peak time, free users wait, and the app shows the c.ai+ offer." }
+        ]
+      },
+      {
+        "name": "Daily companion habit",
+        "persona": "Lonely young adult",
+        "steps": [
+          { "step": "Opens app at night", "detail": "Goes straight to the same companion character from recent chats." },
+          { "step": "Talks about the day", "detail": "Shares feelings and the character responds kindly." },
+          { "step": "Switches to voice", "detail": "Uses a voice call to feel more connected." },
+          { "step": "Notices memory gaps", "detail": "The character forgets something said last week, which hurts the feeling of a relationship." },
+          { "step": "Subscribes", "detail": "Pays $9.99 for better memory and faster replies." },
+          { "step": "Returns daily", "detail": "The chat becomes part of the bedtime routine, often for over an hour." }
+        ]
+      },
+      {
+        "name": "Creating a popular character",
+        "persona": "Character creator",
+        "steps": [
+          { "step": "Has an idea", "detail": "Wants a sarcastic study coach character." },
+          { "step": "Writes the profile", "detail": "Adds a greeting, description and sample lines." },
+          { "step": "Tests it", "detail": "Chats with it and edits the description until it behaves right." },
+          { "step": "Publishes", "detail": "Makes it public so it shows in search." },
+          { "step": "Shares outside", "detail": "Posts the link on Reddit and Discord." },
+          { "step": "Watches the count", "detail": "Checks chat numbers every day and builds more characters." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Character.AI makes money in two ways: a $9.99 monthly subscription and ads shown in the app. In August 2026 these brought in about $5.3 million a month, but running the AI cost far more, so the company lost about $8 million a month and filed for bankruptcy.",
+      "revenueStreams": [
+        { "stream": "c.ai+ subscription", "detail": "$9.99 a month for faster replies, better memory and priority access. About $2.8M a month in August 2026." },
+        { "stream": "Advertising", "detail": "Ads from brands like Yelp and Webtoon shown in the feed. Grew from about $0.5M a month in mid 2025 to about $2.5M a month in August 2026." },
+        { "stream": "Licensing", "detail": "In 2024 Google paid to license its models and hired its founders. In the 2026 bankruptcy, Disney bid $20M for a licence to some IP." }
+      ],
+      "pricing": "Free with limits. c.ai+ is $9.99 a month or about $120 a year.",
+      "costDrivers": [
+        "Compute to run the AI for every message, about 45% of costs",
+        "Staff, about $20M in eight months of 2026",
+        "Safety, moderation and age checks",
+        "Legal costs from lawsuits by families"
+      ],
+      "unitEconomics": "Rough math for one active user in a month in 2026: revenue was about $5.3M across about 12M users, so about $0.44 per user. But compute alone was about $7M a month, so about $0.58 per user. So each average user cost more to serve than they paid, before staff and legal costs. The problem: heavy users chat for two hours a day, and every message costs money, but most of them never pay. The more people loved it, the more it lost."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral TikTok and YouTube clips of funny or emotional chats",
+        "Creators sharing their character links on Reddit and Discord",
+        "Search for famous fictional characters",
+        "Word of mouth among teens and students before the 2025 ban"
+      ],
+      "whatBringsUsersBack": [
+        "An ongoing story or relationship with one character",
+        "New trending characters in the feed",
+        "Creators checking chat counts on their characters",
+        "Habit, like a nightly chat before sleep"
+      ],
+      "moat": "The moat was the huge library of user-made characters and the habit of heavy users. It proved weak: the AI itself got cheap and good everywhere, so rivals like ChatGPT and Meta could copy the experience, and the library did not stop costs from crushing the company."
+    },
+    "competitors": [
+      { "name": "Replika", "positioning": "One personal AI friend or partner per user, with a paid plan.", "howThisProductDiffers": "Character.AI offers millions of characters, not one companion, so it is more like entertainment than a relationship app." },
+      { "name": "ChatGPT", "positioning": "General AI assistant that can also role-play.", "howThisProductDiffers": "Character.AI had a ready library and community; ChatGPT has far more users and money but less character culture." },
+      { "name": "Talkie and Chai", "positioning": "Smaller companion and role-play chat apps.", "howThisProductDiffers": "Character.AI had the biggest brand and library, but rivals have looser content rules that pull some users away." },
+      { "name": "Meta AI characters", "positioning": "AI characters inside Instagram, WhatsApp and Messenger.", "howThisProductDiffers": "Meta has billions of users and does not need to make money from chats directly. Character.AI had to." }
+    ],
+    "northStar": {
+      "metric": "Weekly users who have a satisfying conversation (for example, 10+ messages and a positive rating), among verified adults.",
+      "why": "It counts real enjoyment, not just raw minutes. Raw minutes can reward unhealthy use, which is the very thing that brought lawsuits."
+    },
+    "kpiTree": [
+      {
+        "metric": "New adult users who start a good first chat",
+        "description": "How well the app turns visitors into engaged users.",
+        "children": [
+          { "metric": "Sign-up to first message rate", "description": "Share of new users who send a message on day one." },
+          { "metric": "First-session reply rating", "description": "Average stars in the first chat, shows quality." },
+          { "metric": "Age check pass rate", "description": "Share of adults who get through age checks without dropping off." }
+        ]
+      },
+      {
+        "metric": "Retention of active adults",
+        "description": "Retention means the share of users who keep coming back over time.",
+        "children": [
+          { "metric": "Week 4 retention", "description": "Share of new users still chatting after four weeks." },
+          { "metric": "Memory recall accuracy", "description": "How often characters remember key facts from past chats." },
+          { "metric": "Characters chatted per week", "description": "Variety keeps users from getting bored." }
+        ]
+      },
+      {
+        "metric": "Creator supply",
+        "description": "Good characters keep the feed fresh.",
+        "children": [
+          { "metric": "New public characters per week", "description": "Measures library growth." },
+          { "metric": "Share of chats on characters under 30 days old", "description": "Shows if new content is being discovered." }
+        ]
+      },
+      {
+        "metric": "Revenue per active user",
+        "description": "Needed so happy users do not sink the company.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Share of active users who subscribe to c.ai+." },
+          { "metric": "Ad revenue per 1,000 sessions", "description": "Ad money earned per use." },
+          { "metric": "Compute cost per message", "description": "Lower cost per message improves margin directly." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Number of minors found using open-ended chat",
+      "Share of chats flagged for self-harm or sexual content",
+      "Users spending over 4 hours a day (a sign of unhealthy use)",
+      "Compute cost per active user"
+    ],
+    "strengths": [
+      "Very high engagement, about two hours a day per active user",
+      "Huge library of user-made characters that costs nothing to create",
+      "Strong brand among young fans of anime, games and fiction",
+      "Early lead in the AI companion category"
+    ],
+    "weaknesses": [
+      "Lost money on every average user because AI costs scaled with usage",
+      "Most users never paid",
+      "Much of its audience was teens, which it had to cut off",
+      "Founders and key researchers left for Google in 2024"
+    ],
+    "risks": [
+      "Lawsuits from families tying teen deaths to chatbots",
+      "New laws on AI companions and age checks in US states",
+      "Big platforms like Meta and OpenAI offering characters for free",
+      "Copyright claims over characters based on real shows and films",
+      "Bankruptcy sale may end with the platform being shut down"
+    ],
+    "userComplaints": [
+      "The filter is too strict and breaks stories",
+      "Characters forget things and lose their personality",
+      "Long waits and errors on the free plan",
+      "Adults wrongly flagged as minors by age checks",
+      "Too many ads after the ad push"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Usage-based pricing tier, for example free daily message limit then a small pay-per-pack option",
+        "problem": "Heavy free users cost more to serve than they bring in",
+        "expectedImpact": "Revenue rises with use instead of cost rising alone",
+        "metricToTrack": "Revenue per active user minus compute cost per user",
+        "effort": "medium"
+      },
+      {
+        "idea": "Creator revenue share for top characters",
+        "problem": "Creators get nothing for making the content that drives usage",
+        "expectedImpact": "More and better characters, and creators push subscriptions",
+        "metricToTrack": "New public characters per week and paid conversions from creator links",
+        "effort": "medium"
+      },
+      {
+        "idea": "Visible 'story memory' card users can edit",
+        "problem": "Characters forget key facts, a top complaint",
+        "expectedImpact": "Longer-lasting relationships and better retention",
+        "metricToTrack": "Week 4 retention and memory-related complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Healthy-use nudges and a weekly time summary for adults",
+        "problem": "Unhealthy attachment hurts users and invites regulation",
+        "expectedImpact": "Lower legal risk and more trust from parents and regulators",
+        "metricToTrack": "Share of users over 4 hours a day",
+        "effort": "low"
+      },
+      {
+        "idea": "Licensed official characters with studios, with revenue share",
+        "problem": "Copyright risk and takedowns of fan-made characters",
+        "expectedImpact": "Legal safety and a premium content line users pay for",
+        "metricToTrack": "Chats on licensed characters and their paid conversion",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Engagement is not a business. If every minute of use costs you money, more love from users means bigger losses.",
+      "Know who your real users are early. Building a product teens love, without strong safety, can end the company.",
+      "User-made content grows a library fast, but it also brings copyright and safety problems you must plan for.",
+      "When the core tech becomes a commodity, meaning anyone can get it cheaply, your edge has to come from somewhere else, like community or brand.",
+      "Pick a north star that rewards healthy value, not just time spent, or you may optimise for harm."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Character.AI has two hours of daily use per user but went bankrupt. What went wrong?",
+        "hint": "Split into revenue per user versus cost per user. Show that compute cost grows with each message, while most users pay nothing. Then suggest pricing that grows with use."
+      },
+      {
+        "question": "How would you design age checks for Character.AI without driving away adults?",
+        "hint": "List options (self-declare, behaviour signals, ID, selfie age estimate). Use light checks first, strong checks only when risk signals show up. Track adult drop-off and minors caught."
+      },
+      {
+        "question": "What should the north star metric be for an AI companion app?",
+        "hint": "Reject pure time spent. Propose satisfying conversations among adults, with guardrails on excessive use and harmful content."
+      },
+      {
+        "question": "Should Character.AI pay its character creators? How?",
+        "hint": "Ask what problem it solves (supply quality). Suggest revenue share on subscriptions driven by a creator's characters. Watch for spam and copyright abuse."
+      },
+      {
+        "question": "If Disney buys Character.AI's assets, what product would you build?",
+        "hint": "Think official licensed characters for fans, strong safety for kids, paid premium stories. Talk about brand risk and how to measure success."
+      }
+    ],
+    "glossary": [
+      { "term": "Monthly active users", "meaning": "The number of different people who use the app at least once in a month." },
+      { "term": "Retention", "meaning": "The share of users who keep coming back over time." },
+      { "term": "Compute", "meaning": "The computer power, mostly rented chips, needed to run the AI for each message." },
+      { "term": "Stalking horse bidder", "meaning": "The first buyer in a bankruptcy sale whose offer sets the minimum price others must beat." },
+      { "term": "North star metric", "meaning": "The one number a team picks to show whether users are getting real value." },
+      { "term": "Free to paid conversion", "meaning": "The share of free users who start paying." },
+      { "term": "Commodity", "meaning": "Something many sellers offer cheaply, so no one can charge extra for it." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while you try to grow the main metric." }
+    ],
+    "assumptions": [
+      "Per-user revenue and compute cost are rough averages from court-reported totals divided by about 12M users.",
+      "The bankruptcy outcome was still pending as of late November 2026; the platform may change owners or shut down.",
+      "Feature details like memory and voice are based on public reviews and may have changed after the filing."
+    ]
+  }
+}

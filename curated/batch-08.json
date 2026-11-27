@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Character.AI",
+  "website": "character.ai",
+  "domain": "character.ai",
+  "market": "US · global",
+  "category": "AI companions",
+  "why": "Companion apps, teen safety and engagement ethics."
+ },
+ {
+  "company": "Midjourney",
+  "website": "midjourney.com",
+  "domain": "midjourney.com",
+  "market": "US · global",
+  "category": "AI images",
+  "why": "Profitable with a tiny team; community-led product through Discord."
+ },
+ {
+  "company": "OpenEvidence",
+  "website": "openevidence.com",
+  "domain": "openevidence.com",
+  "market": "US",
+  "category": "AI for doctors",
+  "why": "New entrant on 2026 AI app lists; vertical AI in healthcare."
+ },
+ {
+  "company": "Harvey",
+  "website": "harvey.ai",
+  "domain": "harvey.ai",
+  "market": "US · UK",
+  "category": "AI for lawyers",
+  "why": "Vertical B2B AI with fast enterprise adoption; trust and accuracy."
+ },
+ {
+  "company": "Sora",
+  "website": "sora.com",
+  "domain": "sora.com",
+  "market": "US · global",
+  "category": "AI video / social",
+  "why": "OpenAI's AI video app; a social feed of generated content."
+ },
+ {
+  "company": "Meta AI",
+  "website": "meta.ai",
+  "domain": "meta.ai",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Distribution through WhatsApp and Instagram; personal agents battleground."
+ },
+ {
+  "company": "Gmail & Google Workspace",
+  "website": "workspace.google.com",
+  "domain": "workspace.google.com",
+  "market": "US · global",
+  "category": "Productivity",
+  "why": "Gemini inside Gmail and Docs; bundling AI into tools people already use."
+ },
+ {
+  "company": "Microsoft Teams",
+  "website": "teams.microsoft.com",
+  "domain": "teams.microsoft.com",
+  "market": "US · global",
+  "category": "Workplace comms",
+  "why": "Won by bundling with Office; a key competitive-strategy case vs. Slack."
+ },
+ {
+  "company": "HubSpot",
+  "website": "hubspot.com",
+  "domain": "hubspot.com",
+  "market": "US · global",
+  "category": "CRM / marketing SaaS",
+  "why": "Freemium B2B and inbound marketing playbook."
+ },
+ {
+  "company": "Calendly",
+  "website": "calendly.com",
+  "domain": "calendly.com",
+  "market": "US · global",
+  "category": "Scheduling",
+  "why": "Viral loop where every invite markets the product."
+ },
+ {
+  "company": "Venmo",
+  "website": "venmo.com",
+  "domain": "venmo.com",
+  "market": "US",
+  "category": "P2P payments",
+  "why": "Social payments feed; compare with UPI apps."
+ },
+ {
+  "company": "Cash App",
+  "website": "cash.app",
+  "domain": "cash.app",
+  "market": "US",
+  "category": "Fintech",
+  "why": "Bank for the unbanked; banking, investing and Bitcoin in one app."
+ },
+ {
+  "company": "Chime",
+  "website": "chime.com",
+  "domain": "chime.com",
+  "market": "US",
+  "category": "Neobank",
+  "why": "Fee-free banking; listed in 2025. Compare with Monzo."
+ }
+]

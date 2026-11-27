@@ -1,0 +1,514 @@
+{
+  "company": "LinkedIn",
+  "domain": "linkedin.com",
+  "website": "https://linkedin.com",
+  "sources": [
+    "https://news.linkedin.com/2026/q4-earnings-and-business-highlights",
+    "https://news.linkedin.com/2025/Q4FY25_Earnings_Highlights",
+    "https://www.zacks.com/stock/news/2890904/microsoft-benefits-from-linkedin-ad-growth-more-upside-ahead",
+    "https://techradar.com/pro/over-a-million-people-have-clicked-linkedins-seems-like-ai-slop-button-in-just-a-few-weeks-so-why-is-my-feed-still-full-of-it",
+    "https://analyticsindiamag.com/ai-news/ai-slop-on-linkedin-gets-40-fewer-views-confirms-company",
+    "https://www.ibtimes.co.uk/linkedin-users-criticise-ai-generated-content-1832509"
+  ],
+  "report": {
+    "company": "LinkedIn",
+    "tagline": "The online network where people show their work history, find jobs and build a professional reputation.",
+    "category": "Professional network",
+    "simpleSummary": "LinkedIn is like Facebook for your career. You make a profile that works like an online CV, connect with colleagues and recruiters, and read posts about work. Companies post jobs and pay to find candidates. Microsoft owns it, and it makes money from recruiters, ads and paid Premium plans.",
+    "keyNumbers": [
+      {
+        "label": "Members worldwide",
+        "value": "1.2 billion+",
+        "note": "LinkedIn's own figure from 2025. Members are sign-ups, not daily users."
+      },
+      {
+        "label": "Members in India",
+        "value": "About 150 million",
+        "note": "Estimate. LinkedIn said India passed 130 million in 2024 and is its second-largest market after the US."
+      },
+      {
+        "label": "Annual revenue",
+        "value": "About $19 billion (Microsoft fiscal year to June 2026)",
+        "note": "Estimate. LinkedIn made about $17.8 billion in FY25 and grew around 9% to 12% per quarter in FY26, per Microsoft earnings."
+      },
+      {
+        "label": "Premium subscription revenue",
+        "value": "Over $2 billion a year",
+        "note": "LinkedIn said Premium crossed $2 billion in annual revenue in 2025."
+      },
+      {
+        "label": "Price Microsoft paid",
+        "value": "$26.2 billion (2016)",
+        "note": "Public acquisition price."
+      },
+      {
+        "label": "'Seems like AI slop' flags",
+        "value": "1 million+ in a few weeks (2026)",
+        "note": "Tech press reports, 2026. LinkedIn said AI-generated low-quality posts get about 40% fewer views."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "LinkedIn holds the world's largest set of work profiles. People use it to find jobs, get found by recruiters, follow companies and post about their work. Recruiters and sales teams pay to search and message people. Companies pay to reach professionals with ads.",
+      "howItWorks": [
+        "You build a profile with job history, education, skills and a photo.",
+        "You connect with people you know. Each connection opens up their network to you too, shown as 1st, 2nd and 3rd degree.",
+        "The feed shows posts, videos and articles from your network and from creators you follow.",
+        "Jobs tab lists openings. Easy Apply lets you apply with your profile in one tap.",
+        "Recruiters use LinkedIn Recruiter to search all members and send InMail messages.",
+        "Premium plans unlock things like who viewed your profile, InMail credits and AI tools for job seekers."
+      ],
+      "valueProposition": "One place to show who you are at work, so jobs, clients and opportunities can find you."
+    },
+    "personas": [
+      {
+        "name": "Fresh graduate job seeker",
+        "description": "A 22-year-old engineering graduate in Bengaluru looking for a first job or APM role.",
+        "goals": [
+          "Get noticed by recruiters",
+          "Find referrals at target companies",
+          "Learn what skills employers want"
+        ],
+        "frustrations": [
+          "Hundreds of applicants per Easy Apply job",
+          "Recruiters rarely reply",
+          "Fake job posts and scams"
+        ]
+      },
+      {
+        "name": "Corporate recruiter",
+        "description": "A talent acquisition manager at an IT services company hiring 200 engineers a quarter.",
+        "goals": [
+          "Find qualified candidates fast",
+          "Fill roles at lower cost than agencies"
+        ],
+        "frustrations": [
+          "Recruiter seats are expensive",
+          "Low InMail reply rates",
+          "Too many unqualified applicants"
+        ]
+      },
+      {
+        "name": "B2B sales rep",
+        "description": "A SaaS seller using Sales Navigator to find decision makers at target accounts.",
+        "goals": [
+          "Find the right buyer at a company",
+          "Warm up leads before reaching out"
+        ],
+        "frustrations": [
+          "Buyers ignore cold messages",
+          "Data on job changes can be out of date"
+        ]
+      },
+      {
+        "name": "Professional creator",
+        "description": "A product leader who posts weekly to build a personal brand and get speaking and consulting work.",
+        "goals": [
+          "Grow followers and reach",
+          "Turn reputation into career options"
+        ],
+        "frustrations": [
+          "Reach drops after algorithm changes",
+          "Feed full of AI-written 'thought leadership'"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Job seekers cannot reach hiring managers or get referrals easily.",
+        "howSolved": "The network shows who you know at a company, and you can message them.",
+        "severity": "high"
+      },
+      {
+        "pain": "Recruiters struggle to find people who are not actively applying.",
+        "howSolved": "Recruiter search covers over a billion profiles, including passive candidates.",
+        "severity": "high"
+      },
+      {
+        "pain": "A paper CV is static and hard to share.",
+        "howSolved": "A live public profile with endorsements and posts acts as your CV.",
+        "severity": "medium"
+      },
+      {
+        "pain": "B2B ads waste money reaching the wrong people.",
+        "howSolved": "Ads can target by job title, company, seniority and industry.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to keep in touch with old colleagues.",
+        "howSolved": "Connections stay linked as people change jobs, with job-change updates.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Profile",
+        "whatItDoes": "A public page with your work history, skills, education and activity.",
+        "whyItMatters": "Profiles are the data that recruiters, advertisers and sales teams pay to reach."
+      },
+      {
+        "feature": "Jobs and Easy Apply",
+        "whatItDoes": "Job listings with one-tap apply using your profile.",
+        "whyItMatters": "The main reason many people join and come back, and companies pay to promote jobs."
+      },
+      {
+        "feature": "LinkedIn Recruiter and Hiring Assistant",
+        "whatItDoes": "Search tool for recruiters, now with an AI agent that finds and screens candidates.",
+        "whyItMatters": "Talent Solutions is LinkedIn's largest paid business."
+      },
+      {
+        "feature": "Feed and video",
+        "whatItDoes": "Posts, articles, newsletters and a growing vertical video feed.",
+        "whyItMatters": "Keeps people coming back between job hunts and creates ad space. Video ads are a growth driver."
+      },
+      {
+        "feature": "Premium plans",
+        "whatItDoes": "Paid plans for job seekers (Career), creators and small businesses, with AI writing help and insights.",
+        "whyItMatters": "A direct consumer revenue line of over $2 billion a year."
+      },
+      {
+        "feature": "Sales Navigator",
+        "whatItDoes": "A search and lead tool for B2B sellers.",
+        "whyItMatters": "High-priced seat that sales teams pay for every month."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Student lands a referral",
+        "persona": "Fresh graduate job seeker",
+        "steps": [
+          {
+            "step": "Builds profile",
+            "detail": "Adds college, internships and skills. LinkedIn suggests a headline."
+          },
+          {
+            "step": "Connects",
+            "detail": "Adds classmates, seniors and professors. Network reaches thousands at 2nd degree."
+          },
+          {
+            "step": "Searches company",
+            "detail": "Looks up 'Product Manager at Razorpay' and sees alumni there."
+          },
+          {
+            "step": "Sends note",
+            "detail": "Messages an alum asking for a referral."
+          },
+          {
+            "step": "Applies",
+            "detail": "Applies on the job page with a referral."
+          },
+          {
+            "step": "Gets interview",
+            "detail": "Recruiter views profile and reaches out."
+          }
+        ]
+      },
+      {
+        "name": "Recruiter fills a role",
+        "persona": "Corporate recruiter",
+        "steps": [
+          {
+            "step": "Posts job",
+            "detail": "Creates a promoted job post and pays per applicant or per day."
+          },
+          {
+            "step": "Searches Recruiter",
+            "detail": "Filters by skills, location and years of experience."
+          },
+          {
+            "step": "Uses Hiring Assistant",
+            "detail": "AI drafts a shortlist and outreach messages."
+          },
+          {
+            "step": "Sends InMails",
+            "detail": "Reaches out to 50 passive candidates."
+          },
+          {
+            "step": "Screens replies",
+            "detail": "Moves interested people to the company's hiring system."
+          },
+          {
+            "step": "Hires",
+            "detail": "Fills the role, and the company renews Recruiter seats next year."
+          }
+        ]
+      },
+      {
+        "name": "Creator builds a following",
+        "persona": "Professional creator",
+        "steps": [
+          {
+            "step": "Turns on creator mode features",
+            "detail": "Adds topics and a follow button."
+          },
+          {
+            "step": "Posts weekly",
+            "detail": "Shares lessons from work as text, carousels and video."
+          },
+          {
+            "step": "Engages",
+            "detail": "Replies to comments in the first hour to boost reach."
+          },
+          {
+            "step": "Starts a newsletter",
+            "detail": "Followers get notified of each issue."
+          },
+          {
+            "step": "Gets opportunities",
+            "detail": "Receives job offers, speaking invites and consulting requests."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "LinkedIn makes money from four places: companies paying to hire (Talent Solutions), companies paying for ads (Marketing Solutions), people paying for Premium, and sales teams paying for Sales Navigator.",
+      "revenueStreams": [
+        {
+          "stream": "Talent Solutions",
+          "detail": "Recruiter seats, promoted job posts and Hiring Assistant. The largest line, but it moves with the hiring market."
+        },
+        {
+          "stream": "Marketing Solutions",
+          "detail": "Ads targeted by job title, company and industry, including video ads. Reported to be about $7 billion+ a year and growing fast."
+        },
+        {
+          "stream": "Premium subscriptions",
+          "detail": "Premium Career, Business and other plans for individuals. Over $2 billion a year."
+        },
+        {
+          "stream": "Sales Solutions",
+          "detail": "Sales Navigator seats for B2B sellers."
+        }
+      ],
+      "pricing": "Free basic account. In India, Premium Career is around ₹1,500 to ₹2,000 a month and in the US about $30 to $40 a month (prices vary and change). Recruiter and Sales Navigator are sold per seat, often thousands of dollars a year. Ads are bought per click or per view.",
+      "costDrivers": [
+        "Engineers and AI compute for search, feed and AI features",
+        "Large enterprise sales teams that sell Recruiter and ads",
+        "Trust and safety work against fake profiles and job scams",
+        "Data centres, now moving to Microsoft Azure"
+      ],
+      "unitEconomics": "Most members pay nothing. Their value is being findable. One enterprise Recruiter seat can cost around $8,000 to $10,000 a year (estimate). If it helps fill 20 roles a year, that is about $500 per hire, far cheaper than a recruitment agency charging 8% to 15% of salary. A Premium Career user in India paying about ₹1,700 a month brings in about ₹20,000 a year if they stay all year, but many cancel after their job hunt, so churn is the main problem."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Colleges and companies asking people to have a LinkedIn profile",
+        "Contact import and 'People you may know' suggestions",
+        "Public profiles show up high in Google search for people's names",
+        "Job hunting: people join when they need a job"
+      ],
+      "whatBringsUsersBack": [
+        "Notifications: who viewed your profile, job alerts, congratulations on work anniversaries",
+        "Feed posts from colleagues and creators",
+        "Job alerts during a job search",
+        "Daily games like Queens and Tango added since 2024"
+      ],
+      "moat": "Network effects on both sides. Recruiters pay because members are there, and members keep profiles current because recruiters are there. No other site has a billion up-to-date work profiles, which took 20 years to build."
+    },
+    "competitors": [
+      {
+        "name": "Naukri.com",
+        "positioning": "India's biggest job board, strong for mid-level and IT hiring.",
+        "howThisProductDiffers": "Naukri is a job board with CV search. LinkedIn adds a network, feed and personal brand, and is stronger for senior and global roles."
+      },
+      {
+        "name": "Indeed",
+        "positioning": "Global job search engine paid by job post clicks.",
+        "howThisProductDiffers": "Indeed is about applications. LinkedIn is about profiles and passive candidates."
+      },
+      {
+        "name": "X (Twitter)",
+        "positioning": "Public posts and real-time talk, used by tech and startup people.",
+        "howThisProductDiffers": "LinkedIn is tied to your real job identity and is safer for brand ads."
+      },
+      {
+        "name": "Apna and Instahyre (India)",
+        "positioning": "Apna for blue-collar jobs, Instahyre for tech jobs with matching.",
+        "howThisProductDiffers": "LinkedIn is weaker for blue-collar hiring and local languages, where Apna is strong."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly members who get real career value: a job application, a recruiter conversation, a new useful connection or meaningful feed engagement",
+      "why": "LinkedIn's value is career outcomes. Counting time spent alone could reward low-quality viral posts. Counting real career actions shows if members are getting what they came for, which keeps both members and paying recruiters around."
+    },
+    "kpiTree": [
+      {
+        "metric": "Job outcomes",
+        "description": "How well LinkedIn helps people get jobs.",
+        "children": [
+          {
+            "metric": "Applications per active job seeker",
+            "description": "Shows job search use."
+          },
+          {
+            "metric": "Recruiter InMail reply rate",
+            "description": "If candidates reply, recruiters get value and renew seats."
+          },
+          {
+            "metric": "Confirmed hires through LinkedIn",
+            "description": "The real end result."
+          }
+        ]
+      },
+      {
+        "metric": "Network growth",
+        "description": "How connected members are.",
+        "children": [
+          {
+            "metric": "New connections per member per month",
+            "description": "Bigger networks make every feature more useful."
+          },
+          {
+            "metric": "Profile completeness",
+            "description": "Complete profiles are found more by recruiters."
+          }
+        ]
+      },
+      {
+        "metric": "Feed quality",
+        "description": "Whether posts are useful and real.",
+        "children": [
+          {
+            "metric": "Comments per post view",
+            "description": "Shows real conversation, not passive scrolling."
+          },
+          {
+            "metric": "'AI slop' flags per 1,000 views",
+            "description": "Lower means a more trusted feed."
+          },
+          {
+            "metric": "Weekly posting members",
+            "description": "More people posting means more fresh content."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fake profile and job scam reports",
+      "Premium cancellation rate",
+      "Notification opt-out rate",
+      "Recruiter seat renewal rate"
+    ],
+    "strengths": [
+      "Largest professional profile database, very hard to copy",
+      "Several revenue streams from both companies and individuals",
+      "Real identity makes it safe for brand ads and B2B selling",
+      "Backed by Microsoft, with AI tools and Office links"
+    ],
+    "weaknesses": [
+      "Hiring revenue falls when job markets slow",
+      "Feed has a reputation for cringe and AI-written posts",
+      "Easy Apply floods recruiters and frustrates applicants",
+      "Weak for blue-collar and regional language users in India"
+    ],
+    "risks": [
+      "AI tools that match candidates directly could bypass job boards",
+      "Hiring slowdowns in tech cut Talent Solutions revenue",
+      "Data privacy rules on using member data to train AI, especially in the EU",
+      "Job scams eroding trust"
+    ],
+    "userComplaints": [
+      "Feed full of AI-generated posts and fake inspirational stories",
+      "Job scams and fake recruiters",
+      "Hundreds of applicants per job and no replies",
+      "Premium feels expensive for what it adds",
+      "Too many notifications and spammy sales messages"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Application status tracker that makes employers mark applications as viewed, rejected or moving forward",
+        "problem": "Applicants never hear back and feel ignored.",
+        "expectedImpact": "Better trust from job seekers and more return visits.",
+        "metricToTrack": "Share of applications with a status update within 14 days",
+        "effort": "medium"
+      },
+      {
+        "idea": "Verified job badge with company domain and recruiter checks for all job posts",
+        "problem": "Fake jobs and scam recruiters target freshers in India.",
+        "expectedImpact": "Fewer scams and more applications to real jobs.",
+        "metricToTrack": "Scam reports per 10,000 job views",
+        "effort": "low"
+      },
+      {
+        "idea": "Low-priced Premium for students and freshers in India at about ₹299 a month",
+        "problem": "Premium is too costly for students, a huge user group.",
+        "expectedImpact": "More paying users and earlier habits that last through careers.",
+        "metricToTrack": "Paid conversion of student members",
+        "effort": "low"
+      },
+      {
+        "idea": "Hindi and regional language job flows for frontline jobs",
+        "problem": "LinkedIn misses blue-collar and small-town job seekers.",
+        "expectedImpact": "New member growth in tier 2 and tier 3 cities.",
+        "metricToTrack": "New members from tier 2 and 3 cities who apply to a job in 30 days",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Profiles are the product. Every feature, from feed to ads, gets value from up-to-date work data.",
+      "Charge the side with money. Recruiters and advertisers pay so members can stay free.",
+      "A feed needs quality rules. Rewarding engagement led to bait posts and AI slop, which LinkedIn now has to fight.",
+      "Revenue tied to hiring is cyclical, so adding ads and Premium made the business steadier."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you improve LinkedIn for freshers in India?",
+        "hint": "Pick the persona, list pains (no replies, scams, no network), choose one, design a fix and give a metric."
+      },
+      {
+        "question": "LinkedIn engagement is up but members say the feed is worse. What do you do?",
+        "hint": "Separate quantity from quality. Add quality metrics like comments, slop flags and hide rate, then change ranking and test."
+      },
+      {
+        "question": "Should LinkedIn charge job seekers to apply to jobs?",
+        "hint": "Look at both sides. Fewer spam applications help recruiters, but it hurts access and member trust. Suggest softer options like priority applications."
+      },
+      {
+        "question": "What is LinkedIn's north star metric?",
+        "hint": "Choose a member value metric tied to career outcomes, explain why time spent is not enough, and break it into drivers."
+      },
+      {
+        "question": "How would you price Hiring Assistant?",
+        "hint": "Compare with seats, per hire or per outcome pricing. Think about value to recruiters and risk of cannibalising seat revenue."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Network effects",
+        "meaning": "When a product becomes more useful as more people use it."
+      },
+      {
+        "term": "Passive candidates",
+        "meaning": "People not looking for a job but open to the right offer."
+      },
+      {
+        "term": "InMail",
+        "meaning": "A paid message you can send on LinkedIn to someone you are not connected with."
+      },
+      {
+        "term": "B2B",
+        "meaning": "Business to business: selling to companies rather than to individual consumers."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a given period."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows a product is giving real value to its users."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you improve the main metric."
+      },
+      {
+        "term": "AI slop",
+        "meaning": "Low-quality content mass-produced with AI tools."
+      }
+    ],
+    "assumptions": [
+      "Annual revenue for FY26 is an estimate based on FY25 revenue and quarterly growth reported by Microsoft.",
+      "India member count is an estimate based on LinkedIn's 2024 figure.",
+      "Recruiter seat prices and Premium prices are approximate; LinkedIn does not publish all prices and they vary by region.",
+      "Marketing Solutions size is an analyst estimate."
+    ]
+  }
+}

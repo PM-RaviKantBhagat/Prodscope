@@ -1,0 +1,589 @@
+{
+  "company": "Canva",
+  "domain": "canva.com",
+  "website": "https://canva.com",
+  "sources": [
+    "https://techcrunch.com/2026/02/18/canva-gets-to-4b-in-revenue-as-llm-referral-traffic-rises/",
+    "https://www.businesstoday.in/technology/news/story/canva-review-the-design-platform-that-turned-visual-communication-into-a-utility-507634-2025-12-22",
+    "https://www.afaqs.com/news/mktg/designing-for-many-indias-canvas-cultural-playbook-for-its-4th-largest-market-9320854",
+    "https://bestmediainfo.com/mediainfo/mediainfo-marketing/india-grows-into-major-canva-market-as-users-make-25-million-designs-daily-10599231",
+    "https://english.dhanamonline.com/news/canva-hikes-global-subscription-prices-by-300-what-does-it-mean-for-indian-users-6949199",
+    "https://sacra.com/research/canva-at-4b-arr-growing-43-yoy/"
+  ],
+  "report": {
+    "company": "Canva",
+    "tagline": "An easy online design tool that lets anyone make posters, social posts, slides, videos and websites from ready templates.",
+    "category": "Design",
+    "simpleSummary": "Canva is a design app for people who are not designers. You pick a template, like an Instagram post or a wedding invite, change the words and photos, and download it. It works in a browser or on a phone, and most of it is free. If you want premium photos, brand kits or more AI tools, you pay for Canva Pro, which costs about ₹4,000 a year in India.",
+    "keyNumbers": [
+      {
+        "label": "Yearly recurring revenue",
+        "value": "About $4 billion (end of 2025)",
+        "note": "Company figure reported by TechCrunch, February 2026. Canva is private, so this is not audited public data."
+      },
+      {
+        "label": "Monthly active users",
+        "value": "More than 265 million",
+        "note": "Company figure, end of 2025, up 20% in a year."
+      },
+      {
+        "label": "Paying users",
+        "value": "More than 31 million",
+        "note": "Company figure, end of 2025. About 12% of monthly users pay."
+      },
+      {
+        "label": "Enterprise revenue",
+        "value": "About $500 million a year",
+        "note": "From companies with 25+ seats, doubled in 2025. Company figure."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $42 billion",
+        "note": "From its latest employee share sale, reported 2025 to 2026."
+      },
+      {
+        "label": "India",
+        "value": "4th largest market, about 2.5 million designs a day",
+        "note": "From Indian media reports quoting Canva, 2025. Exact Indian user count not published."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Canva lets anyone create visual content, such as social posts, presentations, posters, videos, documents, whiteboards and simple websites, by editing templates with drag and drop. Its Magic Studio AI tools write text, make images, remove backgrounds and resize designs. Teams use it to keep every design on brand.",
+      "howItWorks": [
+        "Search for what you want to make, like 'YouTube thumbnail' or 'Diwali greeting', and choose from thousands of templates.",
+        "Drag and drop to change text, photos, colours and fonts. No design skill needed.",
+        "Use Magic Studio AI to write copy, create images, remove backgrounds or turn one design into many sizes.",
+        "Share a link so others can view, comment or edit at the same time.",
+        "Download as an image, PDF or video, print through Canva Print, or post straight to social media.",
+        "Free users get most features; Pro, Teams and Enterprise unlock premium content, brand kits and more AI."
+      ],
+      "valueProposition": "Anyone can make professional-looking designs in minutes, for free or a small fee, without hiring a designer or learning Photoshop."
+    },
+    "personas": [
+      {
+        "name": "Student or teacher",
+        "description": "Makes school projects, presentations and classroom posters. Uses Canva for Education, which is free.",
+        "goals": [
+          "Make projects look good quickly",
+          "Pay nothing",
+          "Work on a laptop or phone"
+        ],
+        "frustrations": [
+          "Best templates have a Pro crown",
+          "Slow on weak internet",
+          "Many classmates use the same templates"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Runs a café, boutique or tuition centre in an Indian city and makes WhatsApp and Instagram posts, menus and flyers.",
+        "goals": [
+          "Post regularly without hiring a designer",
+          "Keep brand colours and logo consistent",
+          "Use Hindi or regional language text"
+        ],
+        "frustrations": [
+          "Pro price feels high for a tiny business",
+          "Font support for Indian languages can be patchy",
+          "Hard to cancel subscription after a trial"
+        ]
+      },
+      {
+        "name": "Social media creator or freelancer",
+        "description": "Creates thumbnails, reels covers and client graphics every day.",
+        "goals": [
+          "Make lots of content fast",
+          "Resize one design for every platform",
+          "Use AI to save time"
+        ],
+        "frustrations": [
+          "AI images can look generic",
+          "Export quality and file size limits",
+          "Professional designers look down on Canva work"
+        ]
+      },
+      {
+        "name": "Corporate marketing team",
+        "description": "A marketing team at a large company that lets non-designers create on-brand material.",
+        "goals": [
+          "Control brand use across hundreds of staff",
+          "Cut agency costs",
+          "Approve designs before they go out"
+        ],
+        "frustrations": [
+          "Price rise for Teams plans in 2024",
+          "Not as powerful as Adobe for pro work",
+          "Need security and admin controls"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Professional design tools are hard to learn and expensive.",
+        "howSolved": "Drag-and-drop editor with templates that anyone can use in minutes, free to start.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hiring a designer for every post or flyer costs too much.",
+        "howSolved": "Over a million templates and a huge library of photos, icons and fonts.",
+        "severity": "high"
+      },
+      {
+        "pain": "Making the same design in many sizes for Instagram, YouTube and print takes time.",
+        "howSolved": "Magic Resize changes one design into many formats in a click.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Staff create designs that break brand rules.",
+        "howSolved": "Brand Kits lock logos, colours and fonts, and approval flows let managers check designs.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Writing copy and finding the right image is slow.",
+        "howSolved": "Magic Write, Magic Media and Canva AI create text, images and videos from a prompt.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Indian users need content for local festivals and languages.",
+        "howSolved": "Templates for Diwali, Holi, weddings and regional languages, with local photos and fonts.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Templates",
+        "whatItDoes": "Ready designs for almost every use: posts, invites, resumes, slides, menus.",
+        "whyItMatters": "The core reason non-designers succeed. Also brings huge search traffic for 'free resume template' type searches."
+      },
+      {
+        "feature": "Drag-and-drop editor",
+        "whatItDoes": "Simple editor where you click and drag to change anything.",
+        "whyItMatters": "Low learning curve opened design to hundreds of millions of non-designers."
+      },
+      {
+        "feature": "Magic Studio and Canva AI",
+        "whatItDoes": "AI tools to write text, create and edit images, remove backgrounds, resize, and even build simple apps with Canva Code.",
+        "whyItMatters": "Main reason people upgrade to Pro now. Keeps Canva ahead as AI image tools spread."
+      },
+      {
+        "feature": "Brand Kit",
+        "whatItDoes": "Stores logos, colours and fonts so every design matches the brand.",
+        "whyItMatters": "Key reason businesses and enterprises pay. Turns Canva from a personal tool into a company tool."
+      },
+      {
+        "feature": "Visual Suite (Docs, Presentations, Whiteboards, Sheets, Websites)",
+        "whatItDoes": "Makes more types of work content beyond single graphics.",
+        "whyItMatters": "Puts Canva up against Microsoft Office and Google Workspace and brings more daily use."
+      },
+      {
+        "feature": "Canva for Education and Nonprofits",
+        "whatItDoes": "Free premium features for teachers, students and nonprofits.",
+        "whyItMatters": "Builds habits early. Students carry Canva into jobs and later pay."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First design",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Searches Google",
+            "detail": "Types 'Diwali offer poster free' and lands on a Canva template page."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Logs in with Google or phone in under a minute."
+          },
+          {
+            "step": "Edits template",
+            "detail": "Changes the shop name, adds a photo of products and a discount line."
+          },
+          {
+            "step": "Hits a Pro element",
+            "detail": "A nice sticker has a crown icon. Sees an offer for a free Pro trial."
+          },
+          {
+            "step": "Downloads",
+            "detail": "Saves as PNG and posts on WhatsApp Status and Instagram."
+          },
+          {
+            "step": "Comes back",
+            "detail": "Returns for the next festival or weekly offer, building a habit."
+          }
+        ]
+      },
+      {
+        "name": "Upgrade to Pro",
+        "persona": "Social media creator or freelancer",
+        "steps": [
+          {
+            "step": "Daily use",
+            "detail": "Makes three or four thumbnails a day on the free plan."
+          },
+          {
+            "step": "Needs time savers",
+            "detail": "Wants Magic Resize and Background Remover, which are Pro features."
+          },
+          {
+            "step": "Starts trial",
+            "detail": "Takes the 30-day free Pro trial."
+          },
+          {
+            "step": "Uses AI heavily",
+            "detail": "Generates images and writes captions with Magic Write."
+          },
+          {
+            "step": "Pays",
+            "detail": "Trial ends and Pro renews at about ₹4,000 a year because going back feels slower."
+          }
+        ]
+      },
+      {
+        "name": "Company rollout",
+        "persona": "Corporate marketing team",
+        "steps": [
+          {
+            "step": "Spreads inside company",
+            "detail": "Sales and HR staff already use free Canva for slides and posters."
+          },
+          {
+            "step": "Brand issues",
+            "detail": "Marketing sees designs with wrong logos and fonts."
+          },
+          {
+            "step": "Buys Teams or Enterprise",
+            "detail": "Sets up Brand Kit, locked templates and approval flows."
+          },
+          {
+            "step": "Onboards staff",
+            "detail": "Hundreds of staff get seats and branded templates."
+          },
+          {
+            "step": "Measures savings",
+            "detail": "Fewer agency requests; more content made in-house."
+          },
+          {
+            "step": "Expands",
+            "detail": "Adds Canva Docs and presentations, so more teams pay."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Canva is freemium: most people use it free, and about 12% pay for Pro, Teams or Enterprise. Revenue is mostly subscriptions. Prices are set lower in countries like India to win more users. Enterprise deals are the fastest growing part.",
+      "revenueStreams": [
+        {
+          "stream": "Canva Pro subscriptions",
+          "detail": "Individuals pay monthly or yearly for premium templates, content, AI and storage. Biggest source by number of payers."
+        },
+        {
+          "stream": "Canva Teams / Business",
+          "detail": "Small teams pay per person for shared brand kits and collaboration."
+        },
+        {
+          "stream": "Canva Enterprise",
+          "detail": "Large companies pay for admin, security and brand control. About $500M a year, doubled in 2025."
+        },
+        {
+          "stream": "Canva Print",
+          "detail": "Prints and delivers business cards, posters and T-shirts. Small but useful extra revenue."
+        },
+        {
+          "stream": "Creator content",
+          "detail": "Canva pays template and photo creators a share when Pro users use their content, which grows the library at low cost."
+        }
+      ],
+      "pricing": "Free plan. India: Pro about ₹4,000 a year for one person; Business (team) about ₹6,500 a year per person (Business Today, December 2025). US: Pro about $120 a year; Teams priced per person. Enterprise is custom. Free for education and nonprofits.",
+      "costDrivers": [
+        "Cloud hosting for hundreds of millions of users, most of them free",
+        "AI model costs for Magic Studio and Canva AI",
+        "Payments to content creators and stock photo licences",
+        "Staff, about 5,000 employees, and acquisitions such as Affinity and Leonardo.ai",
+        "Marketing and sales for enterprise"
+      ],
+      "unitEconomics": "Average revenue per paying user is about $4 billion divided by 31 million, or roughly $130 a year. In India it is much lower: a Pro user pays about ₹4,000 a year, around $48. Hosting a free user costs a little each year, perhaps under $1, so free users are cheap marketing. A Pro user who makes AI images often costs more in AI fees, maybe a few dollars a year. Canva keeps most of each subscription after costs, which is why it has been profitable for years. Cost-per-user figures are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Search: millions of template pages rank on Google for searches like 'resume template' or 'birthday card'",
+        "Word of mouth and sharing: designs shared as links bring new people in",
+        "Free education plan for schools and teachers",
+        "Localisation: regional language templates and festival content for India and other markets",
+        "AI chat: Canva is one of the top sites that ChatGPT sends users to, and its ChatGPT app had 26 million conversations by October 2025"
+      ],
+      "whatBringsUsersBack": [
+        "Recurring needs: weekly social posts, festivals, events and school projects",
+        "Saved designs and brand kits stay in your account",
+        "New templates for trends and seasons",
+        "Team folders and shared designs"
+      ],
+      "moat": "Canva's moat is its huge template and content library plus the habit of hundreds of millions of people. Templates rank on Google, which brings users for free, and creators keep adding content because they get paid. Rivals can copy the editor, but not years of search ranking and content."
+    },
+    "competitors": [
+      {
+        "name": "Adobe Express and Photoshop",
+        "positioning": "Adobe's easy design app plus professional creative tools.",
+        "howThisProductDiffers": "Canva is easier and cheaper for non-designers. Adobe is stronger for professional photo and video work."
+      },
+      {
+        "name": "Figma",
+        "positioning": "Design and collaboration tool for product teams, now adding Slides, Sites and Buzz.",
+        "howThisProductDiffers": "Canva is for everyday visuals by non-designers. Figma is for app design and engineering teams."
+      },
+      {
+        "name": "Microsoft 365 (PowerPoint, Designer) and Google Workspace",
+        "positioning": "Office tools already used at most companies, now with AI design help.",
+        "howThisProductDiffers": "Canva has far more templates and better visuals, but Microsoft and Google come bundled."
+      },
+      {
+        "name": "CapCut and other mobile editors",
+        "positioning": "Free, fast mobile apps for short videos and social posts.",
+        "howThisProductDiffers": "Canva covers many formats in one place. CapCut wins for short-form video on phones."
+      },
+      {
+        "name": "AI image tools (ChatGPT, Midjourney, Gemini)",
+        "positioning": "Create images from a text prompt.",
+        "howThisProductDiffers": "Canva adds layout, text, brand control and editing on top. Pure AI tools are harder to control for exact designs."
+      }
+    ],
+    "northStar": {
+      "metric": "Designs completed and shared or downloaded per week",
+      "why": "A finished design that someone uses is the moment Canva delivers value. It counts both free and paid users and links to habit, sharing and upgrades."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active creators",
+        "description": "How many people make designs each week.",
+        "children": [
+          {
+            "metric": "New sign-ups from template search pages",
+            "description": "Shows how well search brings new users."
+          },
+          {
+            "metric": "Week-one return rate",
+            "description": "Users who come back for a second design."
+          },
+          {
+            "metric": "Monthly active users in growth markets",
+            "description": "India, Brazil, Indonesia and others."
+          }
+        ]
+      },
+      {
+        "metric": "Designs per creator",
+        "description": "How often each user finishes a design.",
+        "children": [
+          {
+            "metric": "Time to first download",
+            "description": "Faster means less friction."
+          },
+          {
+            "metric": "Template search success rate",
+            "description": "Searches that lead to an edited template."
+          },
+          {
+            "metric": "AI tool use per design",
+            "description": "AI saves time and helps finish designs."
+          }
+        ]
+      },
+      {
+        "metric": "Sharing and collaboration",
+        "description": "Designs that reach other people.",
+        "children": [
+          {
+            "metric": "Share links sent",
+            "description": "Brings new users and team use."
+          },
+          {
+            "metric": "Designs with comments from others",
+            "description": "Shows team use."
+          }
+        ]
+      },
+      {
+        "metric": "Paid conversion and expansion",
+        "description": "Users who pay and teams that grow.",
+        "children": [
+          {
+            "metric": "Free-to-Pro trial start rate",
+            "description": "Users who hit Pro elements and start a trial."
+          },
+          {
+            "metric": "Trial-to-paid rate",
+            "description": "Trials that turn into payment."
+          },
+          {
+            "metric": "Seats per enterprise account",
+            "description": "Growth inside big companies."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Editor load time on low-end phones and slow networks",
+      "Pro churn (users who stop paying) and refund complaints after free trials",
+      "AI cost per paying user",
+      "Share of free users who see too many Pro paywalls and leave"
+    ],
+    "strengths": [
+      "Very easy to use; anyone can make a good design fast",
+      "Huge template and content library that ranks well on Google",
+      "Big global user base with strong local content in India and other markets",
+      "Profitable for years, growing fast at about $4 billion yearly revenue",
+      "Fast-growing enterprise business"
+    ],
+    "weaknesses": [
+      "Not powerful enough for professional designers",
+      "Common templates make many designs look the same",
+      "Big price rise for Teams in 2024 upset small businesses",
+      "Much of the user base is free and price-sensitive, especially in India",
+      "Many products (Docs, Sheets, Websites, Code) are less mature than specialist tools"
+    ],
+    "risks": [
+      "AI tools can make finished designs from a prompt, reducing the need for templates",
+      "Adobe, Microsoft and Google bundling similar tools for free",
+      "Google search changes or AI answers reducing template page traffic",
+      "Copyright and AI image rules in different countries",
+      "Mobile-first apps like CapCut winning young users"
+    ],
+    "userComplaints": [
+      "Too many elements are locked behind Pro",
+      "Auto-renewal after free trial and hard-to-find cancellation",
+      "Teams price rise in 2024 felt sudden and large",
+      "App is slow or laggy with big designs or weak internet",
+      "AI-generated images are hit and miss",
+      "Downloads lose quality or fonts in some formats"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "WhatsApp-first sharing and ordering for Indian small businesses",
+        "problem": "Many Indian businesses post on WhatsApp, not Instagram, and want fast sharing.",
+        "expectedImpact": "One-tap share to WhatsApp Status and Business catalogue, with ready weekly post packs. More weekly use and Pro upgrades.",
+        "metricToTrack": "Weekly active small business users in India; WhatsApp shares per user",
+        "effort": "low"
+      },
+      {
+        "idea": "Sachet pricing in India",
+        "problem": "₹4,000 a year is too much for many tiny businesses and students.",
+        "expectedImpact": "A small weekly or monthly plan via UPI autopay. More first-time payers.",
+        "metricToTrack": "Paid conversion in India; payer retention at 3 months",
+        "effort": "low"
+      },
+      {
+        "idea": "Make my design unique",
+        "problem": "Many users end up with designs that look like everyone else's.",
+        "expectedImpact": "AI remixes a template using your brand kit and photos, so it looks original. Higher Pro value.",
+        "metricToTrack": "Share of designs with AI remix; Pro retention",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear trial reminders",
+        "problem": "Users feel tricked by auto-renewal.",
+        "expectedImpact": "Reminder three days before trial ends with a one-tap cancel. Fewer refund complaints and better trust.",
+        "metricToTrack": "Refund requests; app store ratings",
+        "effort": "low"
+      },
+      {
+        "idea": "Lite mode for low-end phones",
+        "problem": "Editor lags on cheap Android phones and weak networks.",
+        "expectedImpact": "Lighter editor and offline drafts. More mobile designs completed.",
+        "metricToTrack": "Design completion rate on low-end devices",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Make the first success very fast. A template turns a blank page into a finished design in minutes.",
+      "Freemium works when the free product is truly useful and the paid features save time for people who use it a lot.",
+      "Local content matters. Festival templates and regional languages helped Canva grow in India.",
+      "Search pages for every use case can bring users for years at low cost.",
+      "Enterprise growth often starts with free individual users inside a company."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase paid conversion for Canva in India?",
+        "hint": "Segment: students, small businesses, creators. Find the main barrier for each (price, payment method, value). Ideas: smaller plans, UPI autopay, WhatsApp features. Metric: India paid conversion and 3-month retention."
+      },
+      {
+        "question": "AI can now create a full design from a prompt. Does Canva still need templates?",
+        "hint": "Templates give structure and trust. AI can use templates as a starting point. Discuss control, brand, speed. Suggest using AI to personalise templates."
+      },
+      {
+        "question": "What should Canva's north star metric be?",
+        "hint": "Pick value delivered, like designs completed and used. Explain why not just revenue or sign-ups. Break into users, designs per user, sharing, and paid."
+      },
+      {
+        "question": "Canva raised Teams prices sharply in 2024. How would you have planned that change?",
+        "hint": "Know who is hit hardest (small teams). Use grandfathering, clear messaging, extra value like AI, and test in some markets first. Track churn and complaints."
+      },
+      {
+        "question": "Design a feature to help teachers in India use Canva more.",
+        "hint": "Understand teacher needs: lesson plans, worksheets, local language, low cost. Ideas: syllabus templates, Hindi worksheets, print-ready layouts. Metric: weekly active teachers."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Freemium",
+        "meaning": "A model where the basic product is free and people pay for extra features."
+      },
+      {
+        "term": "Yearly recurring revenue",
+        "meaning": "The money a company expects to earn in a year from current subscriptions."
+      },
+      {
+        "term": "Monthly active users",
+        "meaning": "How many different people use the product at least once in a month."
+      },
+      {
+        "term": "Paid conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Average revenue per paying user",
+        "meaning": "Total revenue divided by the number of people who pay."
+      },
+      {
+        "term": "Enterprise",
+        "meaning": "Large company customers who buy many seats with extra controls."
+      },
+      {
+        "term": "Localisation",
+        "meaning": "Changing a product for a local market, like language, festivals and prices."
+      },
+      {
+        "term": "Valuation",
+        "meaning": "What investors think the whole company is worth."
+      },
+      {
+        "term": "Seat",
+        "meaning": "One paid user licence in a team plan."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users getting real value."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you improve the main metric."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for rivals to copy you or take your users."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using or paying over time."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who stop paying in a period."
+      }
+    ],
+    "assumptions": [
+      "India pricing comes from a December 2025 Business Today review; prices change often.",
+      "The cost to host a free user and AI cost per Pro user are rough estimates.",
+      "Staff count of about 5,000 is an approximate figure from public reports.",
+      "The north star metric is our suggestion, not Canva's stated metric."
+    ]
+  }
+}

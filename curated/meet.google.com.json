@@ -1,0 +1,529 @@
+{
+  "company": "Google Meet",
+  "domain": "meet.google.com",
+  "website": "https://meet.google.com",
+  "sources": [
+    "https://www.techrepublic.com/article/google-workspace-gemini-pricing-plans/",
+    "https://electroiq.com/stats/google-meet-statistics/",
+    "https://workspaceupdates.googleblog.com/2026/02/speech-translation-meet-ga.html",
+    "https://knowledge.workspace.google.com/admin/billing/ai-features-and-pricing-updates-for-google-workspace-business-editions",
+    "https://tactiq.io/learn/google-meet-pricing-how-much-does-it-cost",
+    "https://www.zoom.com/en/compare/zoom-vs-google-workspace/"
+  ],
+  "report": {
+    "company": "Google Meet",
+    "tagline": "Google's video calling app that opens from a link in your browser, Gmail or Calendar, with no download needed.",
+    "category": "Video calls",
+    "simpleSummary": "Google Meet lets you start a video call from a link. You click it in Gmail, Google Calendar or a browser and you are in, no app to install. Anyone with a Google account can use it free, but group calls stop at 60 minutes. Companies and schools pay for Google Workspace, which unlocks longer calls, recordings and AI note-taking.",
+    "keyNumbers": [
+      {
+        "label": "Monthly users",
+        "value": "300 million+",
+        "note": "Widely quoted figure, dated 2024 by stats sites. Google does not update it often, so treat it as a rough floor."
+      },
+      {
+        "label": "Share of video meeting market",
+        "value": "About 29%, second after Zoom",
+        "note": "Third-party estimate for 2024 (ElectroIQ). Methods differ a lot between sources, so this is a rough guide."
+      },
+      {
+        "label": "Workspace Business Standard price",
+        "value": "$14 per user per month (annual plan)",
+        "note": "Raised from $12 in early 2025 when Google bundled Gemini AI into all business plans. Source: TechRepublic, Google admin help."
+      },
+      {
+        "label": "Free group call limit",
+        "value": "60 minutes, up to 100 people",
+        "note": "Google's free plan rules. One-to-one calls can run up to 24 hours."
+      },
+      {
+        "label": "Paying Workspace customers",
+        "value": "10 million+ organisations",
+        "note": "Google's last public count, from 2023. Meet is sold only as part of Workspace, so Meet's own revenue is not reported."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Google Meet runs video calls for work, school and family. It lives inside Gmail, Calendar and Android phones, so most people already have it. Google does not sell Meet on its own. It is one piece of Google Workspace, the paid bundle of Gmail, Drive, Docs and Meet.",
+      "howItWorks": [
+        "Every Google Calendar invite gets a Meet link added by default, so the call is set up when the meeting is booked.",
+        "Guests click the link and join in a browser tab. No download and, for many calls, no Google account is needed.",
+        "Free users get 60-minute group calls. Paid Workspace plans raise the limit to 24 hours and add recording, breakout rooms, polls and attendance reports.",
+        "Gemini AI inside Meet can take notes for you, write a summary, and (on paid plans since 2026) translate speech live into another language in a dubbed voice.",
+        "Companies buy Meet hardware for meeting rooms from partners like Logitech and Lenovo, and pay Google a yearly licence per room."
+      ],
+      "valueProposition": "If your company already uses Gmail and Calendar, video calls come free in the bundle and start with one click. You do not need a separate tool, a separate bill or a separate login."
+    },
+    "personas": [
+      {
+        "name": "Startup or small business owner",
+        "description": "Runs a 5 to 50 person company on Google Workspace and wants one bill for email, files and calls.",
+        "goals": [
+          "Keep software costs low",
+          "Meet clients without asking them to install anything",
+          "Get meeting notes without a separate note-taking tool"
+        ],
+        "frustrations": [
+          "Price went up when Gemini was bundled in, even if they do not use AI",
+          "Fewer meeting controls than Zoom for webinars"
+        ]
+      },
+      {
+        "name": "Teacher or student",
+        "description": "Uses Google Classroom and Meet for online classes and group projects.",
+        "goals": [
+          "Run a class with a simple link from Classroom",
+          "Record lessons for students who missed them",
+          "Keep control of who can speak and share screen"
+        ],
+        "frustrations": [
+          "Free school plans lack some recording and breakout features",
+          "Video quality drops on weak home internet"
+        ]
+      },
+      {
+        "name": "Family caller on Android",
+        "description": "Uses Meet on an Android phone to video call relatives. It replaced Google Duo in 2022.",
+        "goals": [
+          "Free, reliable video calls with family abroad",
+          "Works on any phone and laptop"
+        ],
+        "frustrations": [
+          "Most family members already use WhatsApp video",
+          "Confusion after Duo was merged into Meet"
+        ]
+      },
+      {
+        "name": "IT admin at a large company",
+        "description": "Picks the video tool for thousands of staff and manages meeting rooms.",
+        "goals": [
+          "Security and admin controls",
+          "One vendor for email, docs and calls",
+          "Meeting room devices that are easy to manage"
+        ],
+        "frustrations": [
+          "Staff ask for Zoom or Teams because clients use them",
+          "Hard to prove the value of AI add-ons"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Guests have to download an app and make an account to join a call.",
+        "howSolved": "Meet runs in the browser. Click the link and you are in.",
+        "severity": "high"
+      },
+      {
+        "pain": "Setting up a call link for every meeting is extra work.",
+        "howSolved": "Google Calendar adds a Meet link to every invite automatically.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying for a separate video tool on top of email and docs.",
+        "howSolved": "Meet is included in every Workspace plan, so there is no extra bill.",
+        "severity": "high"
+      },
+      {
+        "pain": "Someone has to take notes and nobody wants to.",
+        "howSolved": "Gemini 'Take notes for me' writes the notes and action items into a Google Doc after the call.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Talking across languages with clients or teammates.",
+        "howSolved": "Live translated captions and, since 2026, speech translation that dubs the speaker's voice into English, Spanish, French, German, Portuguese or Italian.",
+        "severity": "low"
+      },
+      {
+        "pain": "Security worries, such as strangers joining calls.",
+        "howSolved": "Meeting codes are hard to guess, outside guests must be admitted, and admins control who can join.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Calendar and Gmail integration",
+        "whatItDoes": "Auto-adds a Meet link to every calendar invite and lets you join from Gmail.",
+        "whyItMatters": "This is the main way Meet wins users. Booking a meeting is the same as setting up the call."
+      },
+      {
+        "feature": "Browser-first joining",
+        "whatItDoes": "Calls run in Chrome and other browsers without an install.",
+        "whyItMatters": "Cuts drop-off for outside guests, which matters for sales calls and interviews."
+      },
+      {
+        "feature": "Gemini 'Take notes for me'",
+        "whatItDoes": "Writes meeting notes, a summary and next steps into a Doc shared with attendees.",
+        "whyItMatters": "Main reason Google gives for the 2025 price rise. It competes with Zoom AI Companion and tools like Otter."
+      },
+      {
+        "feature": "Speech translation",
+        "whatItDoes": "Translates what people say in near real time and plays it in a voice that keeps the speaker's tone.",
+        "whyItMatters": "A feature that pushes users from free and Starter plans up to Business Standard and above."
+      },
+      {
+        "feature": "Recording, breakout rooms, polls, attendance",
+        "whatItDoes": "Tools for classes and larger meetings, unlocked on paid plans.",
+        "whyItMatters": "Gives schools and companies a reason to pay for higher tiers."
+      },
+      {
+        "feature": "Meet hardware for rooms",
+        "whatItDoes": "Certified cameras and screens for meeting rooms, managed from the Google admin console.",
+        "whyItMatters": "Locks in large companies because once rooms are fitted, switching tools is expensive."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First call as a guest",
+        "persona": "Startup or small business owner",
+        "steps": [
+          {
+            "step": "Get an invite",
+            "detail": "A client sends a Calendar invite with a Meet link."
+          },
+          {
+            "step": "Click the link",
+            "detail": "Meet opens in a browser tab and asks to use camera and mic."
+          },
+          {
+            "step": "Ask to join",
+            "detail": "The host admits them from the waiting screen."
+          },
+          {
+            "step": "Have the call",
+            "detail": "Shares screen, uses chat, sees captions."
+          },
+          {
+            "step": "Notice the limit",
+            "detail": "On a free account, a group call warns at 55 minutes and ends at 60."
+          },
+          {
+            "step": "Consider paying",
+            "detail": "Sees a prompt to try Google Workspace to get longer calls."
+          }
+        ]
+      },
+      {
+        "name": "Team switches to Workspace",
+        "persona": "Startup or small business owner",
+        "steps": [
+          {
+            "step": "Sign up",
+            "detail": "Starts a 14-day Workspace trial with the company domain."
+          },
+          {
+            "step": "Move email",
+            "detail": "Points company email to Gmail and adds staff accounts."
+          },
+          {
+            "step": "Default to Meet",
+            "detail": "Every calendar invite now has a Meet link, so the team stops using free Zoom."
+          },
+          {
+            "step": "Turn on notes",
+            "detail": "Enables Gemini note-taking for weekly meetings."
+          },
+          {
+            "step": "Pay monthly",
+            "detail": "Pays $14 per user per month on Business Standard."
+          },
+          {
+            "step": "Expand",
+            "detail": "Adds new hires, each adding to the bill."
+          }
+        ]
+      },
+      {
+        "name": "Online class",
+        "persona": "Teacher or student",
+        "steps": [
+          {
+            "step": "Create class link",
+            "detail": "Teacher makes a Meet link from Google Classroom."
+          },
+          {
+            "step": "Students join",
+            "detail": "Students click the link from Classroom on laptops or phones."
+          },
+          {
+            "step": "Run the lesson",
+            "detail": "Teacher shares slides, uses polls and breakout rooms."
+          },
+          {
+            "step": "Record",
+            "detail": "Recording saves to Drive on paid education plans."
+          },
+          {
+            "step": "Share",
+            "detail": "Teacher posts the recording and attendance report in Classroom."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Google makes money from Meet in one main way: companies and schools pay per user, per month, for Google Workspace, and Meet is one reason they pay. The free version is a funnel into paid plans.",
+      "revenueStreams": [
+        {
+          "stream": "Google Workspace subscriptions",
+          "detail": "Per user per month. Business Starter $7, Standard $14, Plus $22 on annual plans in the US. Enterprise plans are custom priced."
+        },
+        {
+          "stream": "Google One AI Premium / Google AI Pro",
+          "detail": "Consumers who pay for Google's AI plan get longer calls, recording and premium Meet features."
+        },
+        {
+          "stream": "Meeting room licences and hardware",
+          "detail": "Yearly Google Meet hardware licence per room, plus devices sold through partners."
+        },
+        {
+          "stream": "Education plans",
+          "detail": "Workspace for Education is free at the base level. Schools pay for Education Plus or the Teaching and Learning add-on."
+        }
+      ],
+      "pricing": "Free for personal Google accounts (group calls up to 60 minutes and 100 people). Workspace Business Starter $7, Business Standard $14, Business Plus $22 per user per month on an annual plan in the US; higher on flexible monthly plans. Enterprise is quote-based.",
+      "costDrivers": [
+        "Servers and network bandwidth to carry live video across the world",
+        "AI computing for note-taking, captions and translation, which costs money on every minute of a call",
+        "Engineering teams across Meet, Gmail and Calendar",
+        "Sales and partner commissions for Workspace resellers"
+      ],
+      "unitEconomics": "Take a 20-person company on Business Standard. It pays 20 x $14 = $280 a month, or about $3,400 a year. Meet is one of several reasons it pays, next to Gmail and Drive. Google's cost to serve that company's calls is mostly video bandwidth and AI compute, likely a small share of the $280. The real money comes from the low churn: a company that runs email, files and calls on Google rarely leaves. A free user costs Google bandwidth with no revenue, but that cost is low per call and the 60-minute limit pushes groups to pay. These numbers are rough estimates, since Google does not report Meet costs."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Calendar puts a Meet link on every invite, so every Workspace meeting spreads Meet to guests.",
+        "Gmail and Android come with Meet built in, reaching billions of Google account holders.",
+        "Free education plans get students used to Meet early.",
+        "Workspace resellers and Google Cloud sales teams sell it to companies as part of a bundle."
+      ],
+      "whatBringsUsersBack": [
+        "Recurring meetings in Calendar keep pulling the same people back every week.",
+        "Notes and recordings land in Drive and Docs, so the work lives in Google's tools.",
+        "Admins have set it as the company default, so staff do not choose each time."
+      ],
+      "moat": "Meet's moat is the bundle. Gmail, Calendar and Drive already sit at the centre of millions of companies, and Meet rides along at no extra price. A standalone video app has to convince a company to pay for something it already gets free."
+    },
+    "competitors": [
+      {
+        "name": "Zoom",
+        "positioning": "Standalone video meetings known for reliability and webinar features, now selling a wider 'Zoom Workplace' suite.",
+        "howThisProductDiffers": "Meet is included with email and docs, while Zoom is a separate bill. Zoom has richer webinar, large event and phone features."
+      },
+      {
+        "name": "Microsoft Teams",
+        "positioning": "Chat, calls and meetings bundled with Microsoft 365 and Office.",
+        "howThisProductDiffers": "Same bundling strategy, but for companies on Outlook and Office. Teams is heavier and has chat built in; Meet is lighter and browser-first."
+      },
+      {
+        "name": "WhatsApp video calls",
+        "positioning": "Free calls on the app almost everyone in India already has.",
+        "howThisProductDiffers": "WhatsApp wins for personal calls. Meet wins for scheduled work calls with links, screen sharing and notes."
+      },
+      {
+        "name": "Slack Huddles",
+        "positioning": "Quick audio and video chats inside Slack.",
+        "howThisProductDiffers": "Huddles are for quick, unplanned chats among teammates. Meet is for booked meetings with outside guests."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly meeting minutes held on Meet by paying Workspace organisations",
+      "why": "Every minute is a real conversation that happened because Meet worked. It also tracks the value companies get from Workspace, which keeps them paying and renewing."
+    },
+    "kpiTree": [
+      {
+        "metric": "Meetings scheduled with a Meet link",
+        "description": "How often users pick Meet as their meeting tool.",
+        "children": [
+          {
+            "metric": "Share of Calendar invites that keep the Meet link",
+            "description": "Shows whether users swap it out for Zoom or Teams links."
+          },
+          {
+            "metric": "New Workspace organisations per month",
+            "description": "More organisations means more meetings scheduled."
+          },
+          {
+            "metric": "Recurring meetings created",
+            "description": "Recurring meetings bring the same people back each week."
+          }
+        ]
+      },
+      {
+        "metric": "Join success rate",
+        "description": "How many invited people actually get into the call without trouble.",
+        "children": [
+          {
+            "metric": "Time to join from click",
+            "description": "Faster joins mean fewer people giving up."
+          },
+          {
+            "metric": "Guest join success in browser",
+            "description": "Outside guests are the most likely to fail on mic or camera permissions."
+          },
+          {
+            "metric": "Mobile join rate",
+            "description": "Many users join from phones and the app experience matters."
+          }
+        ]
+      },
+      {
+        "metric": "Call quality and length",
+        "description": "Whether calls go well enough that people finish them on Meet.",
+        "children": [
+          {
+            "metric": "Share of calls with poor audio or video",
+            "description": "Bad quality pushes users to other tools."
+          },
+          {
+            "metric": "Calls dropped early",
+            "description": "A sign of crashes or network trouble."
+          }
+        ]
+      },
+      {
+        "metric": "AI feature usage in meetings",
+        "description": "How many meetings use Gemini notes, captions or translation.",
+        "children": [
+          {
+            "metric": "Share of meetings with 'Take notes for me' on",
+            "description": "Shows if users find the AI worth the higher price."
+          },
+          {
+            "metric": "Notes opened after the call",
+            "description": "Notes nobody reads deliver no value."
+          },
+          {
+            "metric": "Speech translation sessions",
+            "description": "Tracks use of the newest paid feature."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Workspace customer churn, especially after price rises",
+      "Call quality complaints and crash rate",
+      "Privacy incidents and uninvited joiners",
+      "AI compute cost per meeting minute"
+    ],
+    "strengths": [
+      "Comes free with Gmail, Calendar and Android, which reach billions of people.",
+      "Joins in a browser with one click, so outside guests rarely fail to join.",
+      "Bundled pricing makes it hard for Zoom to win small companies already on Workspace.",
+      "Google's AI models power notes and translation in-house, without paying another company."
+    ],
+    "weaknesses": [
+      "Fewer features than Zoom for webinars, large events and phone systems.",
+      "Not a standalone business, so it depends on Workspace winning against Microsoft 365.",
+      "Weak in personal calling, where WhatsApp and FaceTime dominate.",
+      "The 60-minute free limit annoys casual users."
+    ],
+    "risks": [
+      "Microsoft Teams bundled with Office wins most large companies.",
+      "Zoom and others add AI features faster or cheaper.",
+      "Price rises tied to Gemini could push small businesses to cheaper plans.",
+      "Privacy and AI rules in the EU and India could limit AI note-taking or recording."
+    ],
+    "userComplaints": [
+      "Group calls on free accounts cut off at 60 minutes.",
+      "Workspace prices rose in 2025 to bundle Gemini, even for people who did not want AI.",
+      "Video and audio quality drop on weak connections, and the browser can use a lot of laptop power.",
+      "Fewer controls than Zoom for large meetings, like webinar registration and advanced host tools.",
+      "Confusion when Duo was merged into Meet, and when settings move around."
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Low-bandwidth mode with audio-first and still images for India and other weak-network markets",
+        "problem": "Calls drop or freeze on weak mobile data, a common complaint.",
+        "expectedImpact": "Fewer dropped calls and more completed meetings on mobile.",
+        "metricToTrack": "Share of calls with poor quality on mobile networks",
+        "effort": "medium"
+      },
+      {
+        "idea": "Show admins a monthly 'AI value' report: hours of notes written, meetings translated, time saved",
+        "problem": "Small businesses feel they pay more for Gemini without seeing what they get.",
+        "expectedImpact": "Lower churn and fewer downgrades after the price rise.",
+        "metricToTrack": "Downgrade rate from Business Standard to Starter",
+        "effort": "low"
+      },
+      {
+        "idea": "Let free users extend one group call per month past 60 minutes",
+        "problem": "The hard cut-off frustrates free users and sends them to Zoom or WhatsApp.",
+        "expectedImpact": "Higher goodwill and a clear moment to show the paid plan.",
+        "metricToTrack": "Free-to-paid conversion after an extended call",
+        "effort": "low"
+      },
+      {
+        "idea": "Simple webinar mode with registration and Q&A on Business Standard",
+        "problem": "Companies keep a Zoom licence just for webinars.",
+        "expectedImpact": "Removes a reason to keep a second video tool.",
+        "metricToTrack": "Organisations hosting 100+ person events on Meet",
+        "effort": "high"
+      },
+      {
+        "idea": "Add Hindi and other Indian languages to speech translation",
+        "problem": "Translation today covers only English with five European languages.",
+        "expectedImpact": "Makes the paid feature useful for India's large Workspace market.",
+        "metricToTrack": "Speech translation sessions in India",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Distribution can beat features. Meet won share because Calendar adds its link to every invite, not because it was the best video app.",
+      "A free product can be a funnel. The 60-minute limit is a deliberate push toward a paid plan.",
+      "Bundling raises prices for everyone. When Google added Gemini to every plan, some users felt forced to pay for AI they did not want.",
+      "Reducing friction for the person who did not choose the tool (the guest) matters as much as pleasing the buyer."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase Google Meet's share against Zoom among small businesses?",
+        "hint": "Segment businesses (already on Workspace vs not). Find why Workspace users still pay for Zoom (webinars, client habit). Propose 2 to 3 fixes and a metric like share of invites using Meet."
+      },
+      {
+        "question": "What should be the north star metric for Google Meet?",
+        "hint": "Pick a value metric like meeting minutes by paying organisations. Break it into scheduling, join success, call quality and AI usage. Add guardrails like churn and quality complaints."
+      },
+      {
+        "question": "Should Google remove the 60-minute limit on free group calls?",
+        "hint": "Weigh conversion to paid against goodwill and competitive pressure. Look at who hits the limit (families, students, small teams). Suggest an experiment with a holdout group."
+      },
+      {
+        "question": "Design a feature for Meet that helps users in India on weak networks.",
+        "hint": "Start with the user and the pain (frozen video, dropped calls). Ideas: audio-first mode, auto quality drop, offline notes. Define success as completed calls and fewer drops."
+      },
+      {
+        "question": "Gemini note-taking is used in only a small share of meetings. Why might that be and what would you do?",
+        "hint": "List causes: not aware, privacy worry, admin setting off, notes not useful. Check data for each. Fix the biggest cause first and measure share of meetings with notes on and notes opened."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bundle",
+        "meaning": "Selling several products together for one price, like Gmail, Drive and Meet in Workspace."
+      },
+      {
+        "term": "Funnel",
+        "meaning": "The steps a user goes through from first trying a product to paying for it."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying customers who stop paying in a period."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team uses to track whether users are getting real value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for competitors to take your customers."
+      },
+      {
+        "term": "Guardrails",
+        "meaning": "Numbers that must not get worse while a team pushes its main goal."
+      }
+    ],
+    "assumptions": [
+      "Meet's own revenue and costs are not public; the unit economics are an illustration.",
+      "The 300 million monthly users figure is older and may now be higher.",
+      "Market share estimates vary widely between sources.",
+      "Weekly meeting minutes as the north star is our choice; Google has not published Meet's internal metric."
+    ]
+  }
+}

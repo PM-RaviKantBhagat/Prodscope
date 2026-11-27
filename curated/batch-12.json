@@ -1,0 +1,114 @@
+[
+ {
+  "company": "Lyft",
+  "website": "lyft.com",
+  "domain": "lyft.com",
+  "market": "US",
+  "category": "Mobility",
+  "why": "The #2 player's strategy; compare with Uber."
+ },
+ {
+  "company": "Bolt",
+  "website": "bolt.eu",
+  "domain": "bolt.eu",
+  "market": "Estonia · UK",
+  "category": "Mobility",
+  "why": "Lower-commission challenger to Uber in London; price-led competition."
+ },
+ {
+  "company": "Wayve",
+  "website": "wayve.ai",
+  "domain": "wayve.ai",
+  "market": "UK",
+  "category": "Autonomous driving",
+  "why": "London self-driving AI; compare with Waymo on approach."
+ },
+ {
+  "company": "Auto Trader",
+  "website": "autotrader.co.uk",
+  "domain": "autotrader.co.uk",
+  "market": "UK",
+  "category": "Car marketplace",
+  "why": "Moved from print to digital; compare with Cars24."
+ },
+ {
+  "company": "Cazoo",
+  "website": "cazoo.co.uk",
+  "domain": "cazoo.co.uk",
+  "market": "UK",
+  "category": "Used cars (failed)",
+  "why": "Fast growth then collapse; compare with Spinny."
+ },
+ {
+  "company": "Booking.com",
+  "website": "booking.com",
+  "domain": "booking.com",
+  "market": "Netherlands · global",
+  "category": "Travel",
+  "why": "Experimentation culture (thousands of A/B tests); compare with MakeMyTrip."
+ },
+ {
+  "company": "Agoda",
+  "website": "agoda.com",
+  "domain": "agoda.com",
+  "market": "Singapore · global",
+  "category": "Travel",
+  "why": "Asia-focused online travel agency, big in India; compare with Booking.com."
+ },
+ {
+  "company": "Skyscanner",
+  "website": "skyscanner.net",
+  "domain": "skyscanner.net",
+  "market": "UK · global",
+  "category": "Travel search",
+  "why": "Price-comparison model; competing with Google Flights."
+ },
+ {
+  "company": "Trainline",
+  "website": "thetrainline.com",
+  "domain": "thetrainline.com",
+  "market": "UK · Europe",
+  "category": "Travel",
+  "why": "Rail ticketing UX, split-ticketing feature and the threat from government rail apps."
+ },
+ {
+  "company": "Citymapper",
+  "website": "citymapper.com",
+  "domain": "citymapper.com",
+  "market": "UK · global",
+  "category": "Maps / transit",
+  "why": "Best-in-class transit UX; a hard business model to build for a free utility."
+ },
+ {
+  "company": "Threads",
+  "website": "threads.com",
+  "domain": "threads.com",
+  "market": "US · global",
+  "category": "Social media",
+  "why": "Launched on Instagram's graph; empty-app problem solved by distribution."
+ },
+ {
+  "company": "X (Twitter)",
+  "website": "x.com",
+  "domain": "x.com",
+  "market": "US · global",
+  "category": "Social media",
+  "why": "Product changes under new ownership: verification, Community Notes and Grok."
+ },
+ {
+  "company": "Snapchat",
+  "website": "snapchat.com",
+  "domain": "snapchat.com",
+  "market": "US · global",
+  "category": "Social / camera",
+  "why": "Camera-first, Snapchat+ subscription, camera filters; strong teen user base in UK and India."
+ },
+ {
+  "company": "Pinterest",
+  "website": "pinterest.com",
+  "domain": "pinterest.com",
+  "market": "US · global",
+  "category": "Visual discovery",
+  "why": "Intent-rich discovery and shopping; Gen-Z turnaround."
+ }
+]

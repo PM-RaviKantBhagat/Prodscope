@@ -2,6 +2,7 @@ import { fetchSite, normaliseUrl } from "@/lib/fetchSite";
 import { BadKeyError, BusyError, generateTeardown } from "@/lib/ai";
 import { mockTeardown } from "@/lib/mock";
 import { getStore } from "@/lib/store";
+import { sectionForDomain } from "@/lib/sections";
 import { CACHE_DAYS, FREE_PER_PERSON_PER_DAY, FREE_TOTAL_PER_DAY, clientId, makeSlug } from "@/lib/limits";
 
 export const runtime = "nodejs";
@@ -43,8 +44,10 @@ export async function POST(req: Request) {
   }
 
   const mock = process.env.MOCK_AI === "1";
-  if (!apiKey && !mock) {
-    const who = clientId(req.headers);
+  // Free tries are only used up when a teardown is actually made, so failures don't cost the user.
+  const useFreeQuota = !apiKey && !mock;
+  const who = clientId(req.headers);
+  if (useFreeQuota) {
     const [mine, total] = await Promise.all([store.getCounter(`user:${who}`), store.getCounter("total")]);
     if (mine >= FREE_PER_PERSON_PER_DAY || total >= FREE_TOTAL_PER_DAY) {
       return json({
@@ -56,7 +59,6 @@ export async function POST(req: Request) {
             : "Today's free teardowns have all been used. Add your own Gemini API key to keep going, or come back tomorrow.",
       });
     }
-    await Promise.all([store.bumpCounter(`user:${who}`), store.bumpCounter("total")]);
   }
 
   const encoder = new TextEncoder();
@@ -93,7 +95,10 @@ export async function POST(req: Request) {
           sources: [...new Set([...site.pages.map((p) => p.url), ...sources])],
           up: 0,
           down: 0,
+          section: sectionForDomain(domain),
+          origin: "live",
         });
+        if (useFreeQuota) await Promise.all([store.bumpCounter(`user:${who}`), store.bumpCounter("total")]);
         send({ type: "done", slug });
       } catch (err) {
         console.error("teardown failed", err);

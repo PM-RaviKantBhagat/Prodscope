@@ -1,0 +1,114 @@
+[
+ {
+  "company": "eBay",
+  "website": "ebay.com",
+  "domain": "ebay.com",
+  "market": "US · global",
+  "category": "Marketplace",
+  "why": "Classic auction marketplace refocusing on collectibles and resale."
+ },
+ {
+  "company": "Walmart",
+  "website": "walmart.com",
+  "domain": "walmart.com",
+  "market": "US",
+  "category": "Online-plus-stores retail",
+  "why": "Walmart+ vs. Prime; stores as fulfilment centres. Owner of Flipkart."
+ },
+ {
+  "company": "Temu",
+  "website": "temu.com",
+  "domain": "temu.com",
+  "market": "China · US/UK",
+  "category": "Discount e-commerce",
+  "why": "Gamified shopping and aggressive acquisition; tariffs hit in 2025."
+ },
+ {
+  "company": "Shein",
+  "website": "shein.com",
+  "domain": "shein.com",
+  "market": "Singapore · global",
+  "category": "Fast fashion",
+  "why": "Real-time, test-and-scale supply chain; returned to India via Reliance."
+ },
+ {
+  "company": "ASOS",
+  "website": "asos.com",
+  "domain": "asos.com",
+  "market": "UK · global",
+  "category": "Fashion e-commerce",
+  "why": "Online-only fashion under pressure from Shein; returns and fit."
+ },
+ {
+  "company": "Marks & Spencer app",
+  "website": "marksandspencer.com",
+  "domain": "marksandspencer.com",
+  "market": "UK",
+  "category": "Retail",
+  "why": "2025 cyber attack shut online orders; resilience and crisis product thinking."
+ },
+ {
+  "company": "Tesco Clubcard",
+  "website": "tesco.com",
+  "domain": "tesco.com",
+  "market": "UK",
+  "category": "Retail loyalty",
+  "why": "The classic loyalty and data case; Clubcard prices as a product decision."
+ },
+ {
+  "company": "Depop",
+  "website": "depop.com",
+  "domain": "depop.com",
+  "market": "UK · global",
+  "category": "Resale marketplace",
+  "why": "Gen-Z social commerce; owned by Etsy; compare with Vinted."
+ },
+ {
+  "company": "Vinted",
+  "website": "vinted.co.uk",
+  "domain": "vinted.co.uk",
+  "market": "Lithuania · UK",
+  "category": "Resale marketplace",
+  "why": "No seller fees; grew fast in the UK. Compare with Depop."
+ },
+ {
+  "company": "Gymshark",
+  "website": "gymshark.com",
+  "domain": "gymshark.com",
+  "market": "UK · global",
+  "category": "direct-to-customer apparel",
+  "why": "Influencer-led direct-to-customer brand and community; a good go-to-market case."
+ },
+ {
+  "company": "Deliveroo",
+  "website": "deliveroo.co.uk",
+  "domain": "deliveroo.co.uk",
+  "market": "UK",
+  "category": "Food delivery",
+  "why": "Acquired by DoorDash in 2025; compare with Swiggy/Zomato on marketplace strategy."
+ },
+ {
+  "company": "Just Eat Takeaway",
+  "website": "just-eat.co.uk",
+  "domain": "just-eat.co.uk",
+  "market": "UK · Europe",
+  "category": "Food delivery",
+  "why": "Marketplace vs. own-delivery models; acquired by Prosus in 2025."
+ },
+ {
+  "company": "Ocado",
+  "website": "ocado.com",
+  "domain": "ocado.com",
+  "market": "UK · global",
+  "category": "Online grocery / robotics",
+  "why": "Automated warehouse tech licensed globally; contrast with dark-store quick delivery."
+ },
+ {
+  "company": "Too Good To Go",
+  "website": "toogoodtogo.com",
+  "domain": "toogoodtogo.com",
+  "market": "Denmark · UK",
+  "category": "Food-waste marketplace",
+  "why": "Mission-led marketplace; surprise-bag UX."
+ }
+]

@@ -1,0 +1,594 @@
+{
+  "company": "Notion",
+  "domain": "notion.so",
+  "website": "https://notion.so",
+  "sources": [
+    "https://sacra.com/research/notion-at-865m-year-growing-82-yoy/",
+    "https://aimagazine.com/news/notion-ai-agents-for-a-workspace-used-by-100-million-people",
+    "https://www.itiger.com/news/1136424118",
+    "https://www.notion.com/en-gb/blog/introducing-custom-agents",
+    "https://www.usecarly.com/blog/notion-ai-pricing-change/",
+    "https://userjot.com/blog/notion-pricing-2025-plans-ai-costs-explained"
+  ],
+  "report": {
+    "company": "Notion",
+    "tagline": "One workspace for notes, docs, wikis, project trackers and AI agents, built from blocks you can rearrange.",
+    "category": "Productivity",
+    "simpleSummary": "Notion is like a box of Lego for your work. Every page is made of blocks: text, to-do lists, tables, images. You can turn a simple page into a team wiki, a task board or a reading list without writing code. It is free for one person, and teams pay per member each month, with AI that can write, search and now do tasks for you.",
+    "keyNumbers": [
+      {
+        "label": "Yearly recurring revenue",
+        "value": "About $865M (July 2026)",
+        "note": "Sacra estimate, August 2026. Notion said it passed $500M in September 2025 and $600M by December 2025. Not audited."
+      },
+      {
+        "label": "Revenue growth",
+        "value": "About 82% year on year",
+        "note": "Sacra estimate, mid-2026. Fast for a 13-year-old company, driven mostly by AI."
+      },
+      {
+        "label": "Users",
+        "value": "About 100 million",
+        "note": "Company figure reported in 2026. Counts sign-ups, not daily active users, so real active use is lower."
+      },
+      {
+        "label": "Share of revenue from AI",
+        "value": "About 50%",
+        "note": "Reported in December 2025 news on the share sale. Hard to verify, since AI is now bundled into the Business plan."
+      },
+      {
+        "label": "Valuation",
+        "value": "$11 billion",
+        "note": "Employee share sale of about $270M to $300M, January 2026. Notion is reported to be cash-flow positive."
+      },
+      {
+        "label": "Big company reach",
+        "value": "62% of the Fortune 100",
+        "note": "Company claim, 2026. Means some team at the company uses it, not that the whole company runs on it."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Notion lets people and teams write, plan and store knowledge in one place. Pages can hold text, tables, boards, calendars and links to other pages. Notion AI can write drafts, answer questions from your pages and connected apps, and since 2025 can run agents that do multi-step work on their own.",
+      "howItWorks": [
+        "Everything is a block. You type '/' to add a heading, a checklist, a table, an image or an embed, and drag blocks around.",
+        "Databases are tables where each row is a full page. The same data can be shown as a table, a Kanban board, a calendar or a timeline.",
+        "Templates let you start fast. Notion and its community share thousands of ready-made setups, from habit trackers to company wikis.",
+        "Teams share a workspace with permissions, comments and live editing.",
+        "Notion AI and Notion Agent answer questions, write, fill databases and, with Custom Agents (2026), run in the background on schedules or triggers.",
+        "Connectors pull in Slack, Google Drive, GitHub and more, so search and AI can see work that lives outside Notion."
+      ],
+      "valueProposition": "Instead of paying for five tools (docs, wiki, task tracker, notes, AI assistant) and copying work between them, a team gets one flexible tool that it can shape to how it already works."
+    },
+    "personas": [
+      {
+        "name": "Student or self-organiser",
+        "description": "A college student or young professional who uses Notion for free to plan studies, track habits and save notes. Often found Notion through a YouTube template video.",
+        "goals": [
+          "Keep notes, deadlines and goals in one place",
+          "Make a setup that looks good and feels personal",
+          "Pay nothing"
+        ],
+        "frustrations": [
+          "Blank page is overwhelming at first",
+          "App feels slow on a cheap phone or weak network",
+          "Offline use is limited"
+        ]
+      },
+      {
+        "name": "Startup operator",
+        "description": "Ops lead or founder at a 10 to 200 person company who sets up the company wiki, roadmap and hiring tracker in Notion.",
+        "goals": [
+          "One source of truth for the whole company",
+          "Replace several paid tools with one",
+          "Get new hires up to speed fast"
+        ],
+        "frustrations": [
+          "Wiki gets messy and out of date",
+          "Search does not always find the right page",
+          "AI now needs the costlier Business plan"
+        ]
+      },
+      {
+        "name": "Product or engineering team lead",
+        "description": "Runs sprints, specs and meeting notes. Compares Notion with Jira, Linear and Confluence.",
+        "goals": [
+          "Write specs and track work in one place",
+          "Get meeting notes and action items without typing",
+          "Let agents handle routine updates"
+        ],
+        "frustrations": [
+          "Large databases become slow",
+          "Weaker than Jira or Linear for heavy engineering workflows",
+          "Hard to control who sees what in big workspaces"
+        ]
+      },
+      {
+        "name": "Enterprise IT buyer",
+        "description": "Approves tools at a large company. Cares about security, admin controls and cost per seat.",
+        "goals": [
+          "Safe AI that does not leak company data",
+          "Single sign-on, audit logs and admin controls",
+          "Fewer overlapping tools to pay for"
+        ],
+        "frustrations": [
+          "Already pays for Microsoft 365 or Google Workspace",
+          "Teams build Notion setups in different ways, so it gets messy",
+          "Usage-based AI credits make costs harder to predict"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Work is spread across many tools: docs in one place, tasks in another, notes somewhere else.",
+        "howSolved": "Docs, wikis, databases and tasks live in the same workspace and link to each other.",
+        "severity": "high"
+      },
+      {
+        "pain": "Rigid tools force a team into one way of working.",
+        "howSolved": "Blocks and databases let teams build their own system without code.",
+        "severity": "high"
+      },
+      {
+        "pain": "Starting from a blank page is hard.",
+        "howSolved": "Thousands of free and paid templates in the Notion Marketplace give a ready starting point.",
+        "severity": "medium"
+      },
+      {
+        "pain": "People cannot find the answer that someone already wrote down.",
+        "howSolved": "Notion AI searches across pages and connected apps like Slack and Google Drive and answers in plain language with links.",
+        "severity": "high"
+      },
+      {
+        "pain": "Meeting notes and status updates eat up hours each week.",
+        "howSolved": "AI Meeting Notes records and summarises calls. Custom Agents can write weekly updates or triage requests on a schedule.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying for a separate AI tool on top of other software.",
+        "howSolved": "AI is bundled into the Business plan, so the team does not need a second subscription for search and writing help.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Blocks and pages",
+        "whatItDoes": "Every piece of content is a block that can be moved, nested or turned into another type.",
+        "whyItMatters": "This is the core idea. It makes Notion flexible enough to replace many simple tools."
+      },
+      {
+        "feature": "Databases with views",
+        "whatItDoes": "Tables where each row is a page, shown as table, board, calendar, timeline or gallery.",
+        "whyItMatters": "Turns notes into a working system like a CRM, content calendar or roadmap. This is what makes teams stay."
+      },
+      {
+        "feature": "Template Marketplace",
+        "whatItDoes": "A store of free and paid templates made by Notion and by creators.",
+        "whyItMatters": "Brings new users in through creators and shortens time to first value. Creators earn money, so they keep promoting Notion."
+      },
+      {
+        "feature": "Notion AI and Notion Agent",
+        "whatItDoes": "Writes, summarises, answers questions across the workspace and connected apps, and since September 2025 can carry out multi-step tasks.",
+        "whyItMatters": "Main reason revenue grew about 82% in a year. Pushes teams from cheaper plans up to Business."
+      },
+      {
+        "feature": "Custom Agents",
+        "whatItDoes": "Agents a team sets up once that run in the background, for example to sort bug reports or write a Monday update. Over one million were built in two months of 2026.",
+        "whyItMatters": "Moves Notion from a place you write to a place where work gets done. Adds Notion's first pay-per-use revenue at $10 per 1,000 credits."
+      },
+      {
+        "feature": "AI Meeting Notes",
+        "whatItDoes": "Records a call, writes a summary and action items straight into a Notion page.",
+        "whyItMatters": "Gives a daily reason to open Notion and puts it up against tools like Otter and Granola."
+      },
+      {
+        "feature": "Sharing and permissions",
+        "whatItDoes": "Share a page with a teammate, a guest or the public web, with live editing and comments.",
+        "whyItMatters": "Every shared page shows Notion to someone new, which is how one user turns into a whole team."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First personal setup",
+        "persona": "Student or self-organiser",
+        "steps": [
+          {
+            "step": "Discovers Notion",
+            "detail": "Watches a YouTube or Instagram video of a 'student dashboard' built in Notion."
+          },
+          {
+            "step": "Signs up free",
+            "detail": "Creates an account with Google in under a minute."
+          },
+          {
+            "step": "Duplicates a template",
+            "detail": "Clicks the creator's template link and copies it into their own workspace."
+          },
+          {
+            "step": "Customises it",
+            "detail": "Adds their own subjects and deadlines, changes icons and covers."
+          },
+          {
+            "step": "Builds a habit",
+            "detail": "Opens it each morning to check tasks. The more they add, the harder it is to leave."
+          },
+          {
+            "step": "Shares with friends",
+            "detail": "Shares a study page with classmates, who sign up to edit it."
+          }
+        ]
+      },
+      {
+        "name": "Team adoption",
+        "persona": "Startup operator",
+        "steps": [
+          {
+            "step": "One person brings it in",
+            "detail": "The ops lead already uses Notion personally and creates a team workspace."
+          },
+          {
+            "step": "Builds the wiki",
+            "detail": "Moves onboarding docs, policies and the org chart into a company home page."
+          },
+          {
+            "step": "Invites teammates",
+            "detail": "Each invite adds a member. The free plan's limits push the team toward Plus."
+          },
+          {
+            "step": "Adds working databases",
+            "detail": "Hiring tracker, roadmap and meeting notes move in, so people now open Notion daily."
+          },
+          {
+            "step": "Hits the AI wall",
+            "detail": "Wants AI search across Slack and Drive, which needs the Business plan at $20 per member per month (yearly)."
+          },
+          {
+            "step": "Upgrades",
+            "detail": "Finance agrees because it can cancel a separate wiki tool and an AI tool."
+          }
+        ]
+      },
+      {
+        "name": "Setting up a Custom Agent",
+        "persona": "Product or engineering team lead",
+        "steps": [
+          {
+            "step": "Spots repeated work",
+            "detail": "Every Friday someone spends an hour writing the sprint update from the task database."
+          },
+          {
+            "step": "Creates an agent",
+            "detail": "Describes the job in plain words: read the sprint board, write a summary, post to Slack."
+          },
+          {
+            "step": "Gives it access",
+            "detail": "Picks which pages, databases and connected apps the agent can read and edit."
+          },
+          {
+            "step": "Sets a trigger",
+            "detail": "Runs it every Friday at 4 pm, or whenever a task changes status."
+          },
+          {
+            "step": "Reviews the first runs",
+            "detail": "Checks the output and edits the instructions to fix mistakes."
+          },
+          {
+            "step": "Spreads it",
+            "detail": "Other teams copy the agent. Credit use grows, which adds usage revenue for Notion."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Notion makes money from monthly seats: a team pays for each member. Individuals use it free, which feeds the funnel. AI is now the main reason teams pay more, bundled into the Business plan, and from May 2026 agents add a pay-per-use charge on top, which is usage-based pricing.",
+      "revenueStreams": [
+        {
+          "stream": "Plus plan seats",
+          "detail": "Small teams pay about $10 per member per month (yearly) for unlimited blocks, file uploads and basic collaboration."
+        },
+        {
+          "stream": "Business plan seats with AI",
+          "detail": "About $20 per member per month (yearly). Since May 2025 this plan includes Notion AI, search across connected apps and meeting notes. This is the main growth driver."
+        },
+        {
+          "stream": "Enterprise contracts",
+          "detail": "Custom priced deals with security, admin and audit features. Larger and stickier than self-serve teams."
+        },
+        {
+          "stream": "Agent credits",
+          "detail": "Custom Agents use credits at $10 per 1,000, launched May 2026. Notion's first pay-per-use revenue line."
+        }
+      ],
+      "pricing": "Free for individuals. Plus about $10 per member per month billed yearly ($12 monthly). Business about $20 per member per month yearly ($24 monthly), includes Notion AI. Enterprise is custom. Custom Agent credits $10 per 1,000 (2026). The old $8 to $10 AI add-on is no longer sold to new Free or Plus users.",
+      "costDrivers": [
+        "AI model costs paid to providers like Anthropic and OpenAI on every AI request",
+        "Cloud hosting and storage for billions of blocks",
+        "Engineering and design staff, about 1,000 employees",
+        "Sales and support teams for enterprise deals"
+      ],
+      "unitEconomics": "Take a 20-person startup on Business at $20 per member: about $400 a month, or $4,800 a year. Classic software costs very little per extra seat, so most of that used to be profit. AI changes this. If each member asks AI 10 to 20 questions a day, model costs could be a few dollars per member per month, so Notion might keep around 70% to 80% of the seat price instead of 90%. Heavy agent users who burn credits pay extra, which protects the margin. The free users cost money to host but are cheap marketing: some later bring their team, and one team can be worth thousands of dollars a year. These margin figures are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Community-led growth: creators on YouTube, Instagram and TikTok sell or share templates, and every template brings new sign-ups",
+        "Shared pages: every public or shared page shows Notion to a new person",
+        "Bottom-up adoption: one person uses it, then invites the team, then the company pays",
+        "Student and startup programs give free or cheap plans so habits start early",
+        "Search and AI chat traffic for 'Notion template for X'"
+      ],
+      "whatBringsUsersBack": [
+        "Daily task lists and meeting notes live there",
+        "The more pages and links a team adds, the more painful it is to move out",
+        "AI answers get better as more company knowledge is stored",
+        "Custom Agents run on their own and post results, pulling people back to check"
+      ],
+      "moat": "A team's moat is its own content. After two years in Notion a company has thousands of linked pages, databases and agents, and moving them is painful. On top of that sits a creator community of templates and tutorials that no rival has matched. The weakness is that Microsoft and Google already sit on most company data and can bundle similar AI for free."
+    },
+    "competitors": [
+      {
+        "name": "Microsoft 365 (Loop, OneNote, Copilot)",
+        "positioning": "Already paid for by most large companies, with Copilot AI on top.",
+        "howThisProductDiffers": "Notion is one flexible tool rather than many apps, and is loved by startups and younger teams. Microsoft wins on bundling and IT trust."
+      },
+      {
+        "name": "Google Workspace (Docs, Gemini)",
+        "positioning": "Simple docs and sheets that almost everyone knows, with Gemini AI built in.",
+        "howThisProductDiffers": "Notion adds databases, wikis and agents in the same place. Google Docs is easier for one-off documents."
+      },
+      {
+        "name": "Atlassian Confluence and Jira",
+        "positioning": "The standard wiki and task tracker for engineering teams in big companies.",
+        "howThisProductDiffers": "Notion is easier to learn and nicer to write in. Confluence and Jira are deeper for strict engineering workflows."
+      },
+      {
+        "name": "ClickUp",
+        "positioning": "All-in-one work tool, heavier on project management.",
+        "howThisProductDiffers": "Notion is cleaner and more writing-first. ClickUp packs in more task features but feels busier."
+      },
+      {
+        "name": "Obsidian",
+        "positioning": "Private, offline-first note-taking for individuals.",
+        "howThisProductDiffers": "Notion is for teams and lives in the cloud. Obsidian wins with people who want files on their own device."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active teams doing collaborative work (teams where 3 or more members edit or use AI on shared pages in a week)",
+      "why": "Notion's money comes from teams, and teams stay only when many members rely on it every week. One person writing alone can be free forever. A team editing and asking AI together shows real value and predicts upgrades."
+    },
+    "kpiTree": [
+      {
+        "metric": "New teams activated",
+        "description": "Teams that reach the point where Notion becomes their shared home.",
+        "children": [
+          {
+            "metric": "Template-to-workspace rate",
+            "description": "Share of template copies that lead to a workspace with real content after 7 days."
+          },
+          {
+            "metric": "Invites sent per new workspace",
+            "description": "More invites in week one means a team, not a solo user."
+          },
+          {
+            "metric": "Time to first shared database",
+            "description": "Teams that build a shared tracker early tend to stay."
+          }
+        ]
+      },
+      {
+        "metric": "Members active per team",
+        "description": "How much of each team actually uses Notion every week.",
+        "children": [
+          {
+            "metric": "Seat activation rate",
+            "description": "Share of paid seats that edited or viewed pages this week."
+          },
+          {
+            "metric": "Pages linked per week",
+            "description": "Links between pages show the workspace is turning into a real knowledge base."
+          },
+          {
+            "metric": "Mobile weekly use",
+            "description": "Members checking tasks on phone keeps the habit daily."
+          }
+        ]
+      },
+      {
+        "metric": "AI and agent usage",
+        "description": "How often AI saves teams real time.",
+        "children": [
+          {
+            "metric": "AI questions answered with a clicked source",
+            "description": "Shows the answer was useful, not ignored."
+          },
+          {
+            "metric": "Active Custom Agents per team",
+            "description": "Agents that ran at least once in a week."
+          },
+          {
+            "metric": "Meeting notes recorded per member",
+            "description": "A daily habit that brings people back."
+          }
+        ]
+      },
+      {
+        "metric": "Team retention",
+        "description": "Teams that are still active after 3, 6 and 12 months.",
+        "children": [
+          {
+            "metric": "Workspace churn",
+            "description": "Share of paying teams that cancel each month."
+          },
+          {
+            "metric": "Net revenue retention",
+            "description": "Whether existing teams pay more over time through more seats and upgrades."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Page load time on large workspaces and on mobile",
+      "Share of AI answers flagged as wrong or unhelpful",
+      "AI model cost per paid seat",
+      "Support tickets about surprise bills from agent credits"
+    ],
+    "strengths": [
+      "Very flexible: one tool can be a wiki, task board, CRM and notes app",
+      "Huge free creator community making templates and tutorials, which acts as free marketing",
+      "Strong brand with students and startups, who carry it into their next job",
+      "Fast AI revenue growth while staying cash-flow positive",
+      "Clean, calm design that people enjoy using"
+    ],
+    "weaknesses": [
+      "Gets slow with very large databases and on weaker phones and networks",
+      "Flexibility means messy workspaces; many teams struggle to keep wikis tidy",
+      "Limited offline use compared with Obsidian or OneNote",
+      "Side products have struggled: Notion Mail is being shut down in 2026 and Notion Calendar has had few updates",
+      "Moving AI into the Business plan raised prices for small teams that only wanted AI"
+    ],
+    "risks": [
+      "Microsoft and Google bundle AI into tools companies already pay for, making Notion feel like an extra cost",
+      "AI-native tools and general chat assistants like ChatGPT and Claude can write docs and answer questions without a workspace",
+      "AI model prices and supply depend on outside providers",
+      "Data privacy rules for AI in Europe and other markets",
+      "Stronger competition for teams after rivals were bought and funded, such as Airtable joining Bending Spoons in 2026"
+    ],
+    "userComplaints": [
+      "The app is slow to load big pages, especially on mobile",
+      "Offline mode is unreliable",
+      "Search does not find the right page, even after AI search improvements",
+      "AI is now locked to the Business plan, so small teams feel forced to upgrade",
+      "Too flexible: hard to know how to set up and easy to make a mess",
+      "Usage-based agent credits make bills harder to predict"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Workspace health check by AI",
+        "problem": "Wikis go stale and messy, so people stop trusting them.",
+        "expectedImpact": "AI flags out-of-date pages, duplicates and broken links each week and suggests fixes. Teams trust the wiki and use it more.",
+        "metricToTrack": "Share of pages viewed in last 90 days; AI answer accuracy rating",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lite AI pack for Plus teams",
+        "problem": "Small teams feel pushed to Business at double the price just for AI.",
+        "expectedImpact": "A small monthly AI credit pack for Plus keeps price-sensitive teams and becomes a step toward Business.",
+        "metricToTrack": "Plus-to-Business upgrade rate; Plus churn",
+        "effort": "low"
+      },
+      {
+        "idea": "Agent cost preview and budget caps",
+        "problem": "Admins fear surprise bills from usage-based agent credits.",
+        "expectedImpact": "Show estimated monthly credit cost before an agent goes live, with team-level caps. More teams will try agents.",
+        "metricToTrack": "Share of Business workspaces with at least one active agent; billing complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Fast mobile capture mode",
+        "problem": "The mobile app feels slow for quick notes, so people use other apps.",
+        "expectedImpact": "A light, offline-first quick note screen that syncs later. More daily mobile opens.",
+        "metricToTrack": "Mobile daily active users; time from app open to first keystroke",
+        "effort": "medium"
+      },
+      {
+        "idea": "Guided setup by role",
+        "problem": "New teams do not know how to structure a workspace.",
+        "expectedImpact": "Ask three questions on sign-up (team type, size, tools used) and auto-build a starter workspace with sample data and an agent.",
+        "metricToTrack": "Week-one invites per workspace; 30-day team retention",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Templates turned users into marketers. Notion let creators earn from templates, so thousands of people taught the product for free.",
+      "A flexible product needs strong starting points. Without templates and guidance, freedom feels like a blank page.",
+      "Adding AI to an existing product works best when it uses data the product already holds. Notion AI is useful because it can read your team's pages.",
+      "Bundling AI into a higher plan raised revenue fast, but it also annoyed small teams. Pricing changes always have winners and losers.",
+      "Focus matters. Notion's core grew while side apps like Mail were shut down."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Notion has about 100 million users but most pay nothing. How would you increase the share of free users who turn into paying teams?",
+        "hint": "Split free users into solo, students and early teams. Focus on the moment one person invites others. Ideas: team trial on first invite, AI preview limits, team templates. Metric: free-to-paid team conversion within 60 days."
+      },
+      {
+        "question": "Should Notion AI stay inside the Business plan or become a separate add-on again?",
+        "hint": "Compare revenue per seat, upgrade rate and churn under both. Think about small teams vs. larger companies, and AI model costs. Suggest a middle path like a credit pack, and say how you would test it."
+      },
+      {
+        "question": "Design Notion for a first-time user in a small Indian town on a low-end Android phone.",
+        "hint": "Start with the user: weak network, small screen, maybe a local language. Ideas: offline-first, lighter pages, voice input in Hindi, ready student templates. Success metric: week-two retention for this group."
+      },
+      {
+        "question": "What should be the north star metric for Custom Agents?",
+        "hint": "Avoid 'agents created'. Prefer value delivered, like weekly successful agent runs that a human accepted without edits. Add guardrails: error rate, cost per run, admin complaints."
+      },
+      {
+        "question": "Microsoft adds a free Notion-like tool to Microsoft 365. What do you do?",
+        "hint": "Do not panic or cut prices first. Look at who is most at risk (big companies on Microsoft). Double down on what Microsoft lacks: community templates, agents across many tools, ease of use. Make importing and exporting easy."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Community-led growth",
+        "meaning": "Growth that comes from users and creators teaching and promoting the product to each other, not from paid ads."
+      },
+      {
+        "term": "Bottom-up adoption",
+        "meaning": "When individual workers start using a tool first and the company pays for it later."
+      },
+      {
+        "term": "Seat",
+        "meaning": "One paid user licence; teams pay a price per seat each month."
+      },
+      {
+        "term": "Yearly recurring revenue",
+        "meaning": "The money a company expects to earn in a year from subscriptions, based on current customers; often called ARR."
+      },
+      {
+        "term": "Valuation",
+        "meaning": "What investors think the whole company is worth, based on the price they pay for shares."
+      },
+      {
+        "term": "Cash-flow positive",
+        "meaning": "The company takes in more cash than it spends in a period."
+      },
+      {
+        "term": "Usage-based pricing",
+        "meaning": "Charging by how much you use something, like credits for agent runs, instead of a fixed monthly price."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team watches most because it best shows users getting real value."
+      },
+      {
+        "term": "Net revenue retention",
+        "meaning": "How much revenue you keep from last year's customers this year, including upgrades and minus cancellations."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of customers who stop paying in a period."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users or teams who keep using the product over time."
+      },
+      {
+        "term": "Agent",
+        "meaning": "AI that can carry out several steps of a task on its own, not just answer one question."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you try to improve the main metric."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for competitors to copy a product or win its customers."
+      }
+    ],
+    "assumptions": [
+      "The $865M yearly revenue figure is a Sacra estimate, not a number Notion has published.",
+      "AI model cost per seat and the 70% to 80% margin range are our rough estimates.",
+      "Prices are US list prices from late 2025 and 2026; regional prices may differ.",
+      "The north star metric is our proposal; Notion has not published its own.",
+      "The '100 million users' figure counts accounts, so the active user base is likely much smaller."
+    ]
+  }
+}

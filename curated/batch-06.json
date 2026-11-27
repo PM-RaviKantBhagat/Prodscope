@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Notion",
+  "website": "notion.so",
+  "domain": "notion.so",
+  "market": "US · global",
+  "category": "Productivity",
+  "why": "Templates and community-led growth; adding AI to an existing product."
+ },
+ {
+  "company": "Figma",
+  "website": "figma.com",
+  "domain": "figma.com",
+  "market": "US · global",
+  "category": "Design / collaboration",
+  "why": "Multiplayer by default; 2025 IPO and expansion into Make, Sites and Slides."
+ },
+ {
+  "company": "Canva",
+  "website": "canva.com",
+  "domain": "canva.com",
+  "market": "Australia · global",
+  "category": "Design",
+  "why": "Freemium for non-designers; huge user base in India; good international expansion case."
+ },
+ {
+  "company": "Slack",
+  "website": "slack.com",
+  "domain": "slack.com",
+  "market": "US · global",
+  "category": "Workplace comms",
+  "why": "Bottom-up B2B adoption and the 2,000-message 'aha' metric; classic PLG case."
+ },
+ {
+  "company": "Zoom",
+  "website": "zoom.com",
+  "domain": "zoom.com",
+  "market": "US · global",
+  "category": "Video conferencing",
+  "why": "Simplicity as a moat; post-pandemic retention and moving into a platform."
+ },
+ {
+  "company": "Airbnb",
+  "website": "airbnb.com",
+  "domain": "airbnb.com",
+  "market": "US · global",
+  "category": "Travel marketplace",
+  "why": "Trust design, the 2025 'services and experiences' relaunch and two-sided growth."
+ },
+ {
+  "company": "DoorDash",
+  "website": "doordash.com",
+  "domain": "doordash.com",
+  "market": "US",
+  "category": "Food delivery",
+  "why": "Won the US by focusing on suburbs; logistics and local commerce."
+ },
+ {
+  "company": "Instacart",
+  "website": "instacart.com",
+  "domain": "instacart.com",
+  "market": "US",
+  "category": "Grocery delivery",
+  "why": "Ads as a major revenue stream; retailer-partner model vs. owning inventory."
+ },
+ {
+  "company": "Amazon",
+  "website": "amazon.com",
+  "domain": "amazon.com",
+  "market": "US · global",
+  "category": "E-commerce",
+  "why": "Flywheel, Prime, one-click; Rufus AI shopping assistant. The most asked company in PM interviews."
+ },
+ {
+  "company": "Netflix",
+  "website": "netflix.com",
+  "domain": "netflix.com",
+  "market": "US · global",
+  "category": "Streaming",
+  "why": "Recommendations, ad tier, password-sharing crackdown and live events."
+ },
+ {
+  "company": "YouTube",
+  "website": "youtube.com",
+  "domain": "youtube.com",
+  "market": "US · global",
+  "category": "Video platform",
+  "why": "Creator economy, Shorts vs. long-form, YouTube Premium and TV-first viewing."
+ },
+ {
+  "company": "Spotify",
+  "website": "spotify.com",
+  "domain": "spotify.com",
+  "market": "Sweden · global",
+  "category": "Music / audio",
+  "why": "Personalisation (Wrapped, DJ), podcasts and audiobooks; freemium conversion."
+ },
+ {
+  "company": "Instagram",
+  "website": "instagram.com",
+  "domain": "instagram.com",
+  "market": "US · global",
+  "category": "Social media",
+  "why": "Copying features well (Stories, Reels); Threads launch; teen safety changes."
+ }
+]

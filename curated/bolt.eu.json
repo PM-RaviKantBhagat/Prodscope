@@ -1,0 +1,217 @@
+{
+ "company": "Bolt",
+ "domain": "bolt.eu",
+ "website": "https://bolt.eu",
+ "sources": [
+  "https://zagdaily.com/featured/bolt-posts-first-ever-profit-in-2025/",
+  "https://sacra.com/c/bolt-technology/",
+  "https://theprint.in/tech/uber-rival-bolts-annual-revenue-hits-2-billion-euros/2356333",
+  "https://feedbagel.com/post/bolt-posts-first-ever-profit-in-2025",
+  "https://statista.com/topics/13198/bolt"
+ ],
+ "report": {
+  "company": "Bolt",
+  "tagline": "An Estonian ride-hailing and delivery app that beats Uber on price by taking a smaller cut from drivers.",
+  "category": "Mobility",
+  "simpleSummary": "Bolt is an app for booking a car ride, like Uber. You enter where you are going, see a price, and a driver picks you up. It is often a bit cheaper than Uber because Bolt keeps a smaller share of each fare and runs a very lean company. In many cities the same app also rents e-scooters and e-bikes and delivers food and groceries.",
+  "keyNumbers": [
+   {"label": "Revenue 2025", "value": "€2.27 billion", "note": "Bolt 2025 annual report, as reported by ZAG Daily. Up 14% on 2024."},
+   {"label": "Net profit 2025", "value": "€920,000", "note": "First annual net profit since Bolt started in 2013. Operating profit was €19.5 million, after an €87.7 million loss in 2024."},
+   {"label": "Customers", "value": "Over 200 million", "note": "Registered customers, per Sacra. Active monthly users are not public."},
+   {"label": "Drivers, couriers and restaurants", "value": "About 4.5 million", "note": "Sacra estimate of partners across all products."},
+   {"label": "Countries", "value": "50+", "note": "Bolt says it is number one in more than 20 of them. New in 2025: Canada, New Zealand, Taiwan, Greece."},
+   {"label": "Valuation", "value": "About €6.3 billion", "note": "From a 2025 secondary share sale, per Sacra. About 14% below the 2022 peak of over $8 billion."}
+  ],
+  "overview": {
+   "whatItDoes": "Bolt matches riders with drivers who use their own or rented cars, and takes a commission on each trip. It also offers scooters and e-bikes, Bolt Food, Bolt Market grocery delivery, Bolt Drive car-sharing and Bolt Business for companies. Ride-hailing is about four fifths of revenue.",
+   "howItWorks": [
+    "Rider opens the app, enters a destination and picks a car type such as Bolt, Comfort, XL or Green (electric).",
+    "Bolt shows an upfront price, which is often below Uber in the same city.",
+    "A nearby driver accepts and the rider tracks the car on a map.",
+    "Payment is by card or, in many markets, cash.",
+    "Bolt keeps a commission, which it says is under 20% in many markets, and pays the rest to the driver.",
+    "The same app unlocks scooters and e-bikes or orders food in cities where those run."
+   ],
+   "valueProposition": "For riders: rides that are usually cheaper than Uber. For drivers: a smaller commission, so more of each fare stays with them. For cities: one app that mixes cars, scooters and bikes."
+  },
+  "personas": [
+   {"name": "Price-checking Londoner", "description": "A student or young worker in London who opens both Uber and Bolt and books whichever is cheaper.", "goals": ["Lowest fare", "Short wait"], "frustrations": ["Bolt sometimes has longer waits than Uber", "Prices rise at night and in the rain"]},
+   {"name": "Full-time private hire driver", "description": "A London driver with a TfL licence who runs Uber and Bolt at the same time to fill gaps.", "goals": ["Keep more of each fare", "Fewer empty miles"], "frustrations": ["Low base fares", "Unclear deactivation decisions"]},
+   {"name": "Rider in an emerging market", "description": "A commuter in Lagos, Nairobi or Warsaw who wants a safe, cheap way to get around.", "goals": ["Affordable rides", "Option to pay cash"], "frustrations": ["Safety concerns", "Drivers asking to change the price"]},
+   {"name": "Office manager", "description": "Books rides for staff through Bolt Business.", "goals": ["One monthly invoice", "Control over who can ride"], "frustrations": ["Fewer premium car options than Uber"]}
+  ],
+  "painPoints": [
+   {"pain": "Taxis and Uber are too expensive for daily use.", "howSolved": "Bolt's lower cost base lets it price rides below Uber.", "severity": "high"},
+   {"pain": "Drivers feel big apps take too much of each fare.", "howSolved": "A smaller commission and regular driver bonuses.", "severity": "high"},
+   {"pain": "Short trips by car are slow and costly in traffic.", "howSolved": "Scooters and e-bikes in the same app.", "severity": "medium"},
+   {"pain": "Not knowing the fare in advance.", "howSolved": "Upfront prices before booking.", "severity": "medium"},
+   {"pain": "Riders want greener travel.", "howSolved": "Bolt Green with electric cars, and e-bikes.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "Ride-hailing with low prices", "whatItDoes": "Car rides in categories from basic to Comfort and XL.", "whyItMatters": "Price is Bolt's main reason to exist; it wins riders who compare apps."},
+   {"feature": "Lower driver commission", "whatItDoes": "Bolt takes a smaller share, often advertised as under 20%, versus about 25% at Uber in London.", "whyItMatters": "Brings drivers onto the platform, which shortens wait times."},
+   {"feature": "Scooters and e-bikes", "whatItDoes": "Unlock and ride from the app, paid per minute.", "whyItMatters": "Adds cheap, frequent trips and uses the same app and brand."},
+   {"feature": "Bolt Food and Bolt Market", "whatItDoes": "Food and grocery delivery in 300+ cities.", "whyItMatters": "More reasons to open the app, sharing couriers and riders across products."},
+   {"feature": "Bolt Business", "whatItDoes": "Company accounts with monthly invoices and ride rules.", "whyItMatters": "Steady, higher-value trips from over 50,000 companies."},
+   {"feature": "Safety tools", "whatItDoes": "Trip sharing, emergency button, driver ID checks and audio recording in some markets.", "whyItMatters": "Safety is a top worry, especially at night and in new markets."}
+  ],
+  "userJourneys": [
+   {"name": "First ride in London", "persona": "Price-checking Londoner", "steps": [
+    {"step": "Sees a Bolt promo", "detail": "A first-ride discount code on social media or from a friend."},
+    {"step": "Sign up", "detail": "Phone number and card."},
+    {"step": "Compare price", "detail": "Checks Uber, sees Bolt is cheaper."},
+    {"step": "Book and wait", "detail": "Tracks the driver and checks the car plate."},
+    {"step": "Ride and pay", "detail": "Card charged automatically."},
+    {"step": "Rate the driver", "detail": "One to five stars, optional tip."}
+   ]},
+   {"name": "Driver joins Bolt", "persona": "Full-time private hire driver", "steps": [
+    {"step": "Hears about lower commission", "detail": "From other drivers or a Bolt sign-up bonus ad."},
+    {"step": "Uploads documents", "detail": "TfL private hire licence, insurance and car details."},
+    {"step": "Gets approved", "detail": "Account checked and activated."},
+    {"step": "Runs Bolt next to Uber", "detail": "Takes whichever request is better."},
+    {"step": "Earns bonuses", "detail": "Hits trip targets for extra pay."},
+    {"step": "Gets weekly payout", "detail": "Earnings minus Bolt's commission."}
+   ]},
+   {"name": "Short trip by scooter", "persona": "Rider in an emerging market", "steps": [
+    {"step": "Opens the scooter map", "detail": "Finds the nearest scooter."},
+    {"step": "Scans QR code", "detail": "Scooter unlocks."},
+    {"step": "Rides", "detail": "Pays per minute."},
+    {"step": "Parks in a zone", "detail": "Takes a photo to end the ride."},
+    {"step": "Gets receipt", "detail": "Charge shown in the app."}
+   ]}
+  ],
+  "businessModel": {
+   "summary": "Bolt makes money by taking a cut of every ride and delivery. Its whole plan is to have lower costs than Uber, so it can charge drivers less and riders less and still make a small profit.",
+   "revenueStreams": [
+    {"stream": "Ride commission", "detail": "A share of each fare, the biggest stream at about 82% of revenue in 2024."},
+    {"stream": "Delivery commission and fees", "detail": "Restaurants and shops pay a share, and customers pay a delivery fee on Bolt Food and Bolt Market."},
+    {"stream": "Scooter and e-bike rentals", "detail": "Unlock fee plus per-minute price."},
+    {"stream": "Car-sharing", "detail": "Hourly and daily rental fees on Bolt Drive."},
+    {"stream": "Business accounts", "detail": "Rides for companies, sometimes with a service fee."}
+   ],
+   "pricing": "Dynamic upfront pricing that varies by city and demand. Not published as a fixed rate card. Commission to drivers is advertised as under 20% in many markets.",
+   "costDrivers": [
+    "Driver bonuses and rider discounts to win share",
+    "Insurance and licensing, which is high in the UK",
+    "Scooter and e-bike hardware, charging and repairs",
+    "Courier pay for food and grocery",
+    "Engineering, kept small compared with Uber"
+   ],
+   "unitEconomics": "Take a £15 London ride. If Bolt keeps about 20%, it earns about £3. The driver keeps about £12, more than they would on Uber. From the £3, Bolt pays card fees, insurance-related costs, support and promos. Across the whole company in 2025, Bolt kept about €19.5 million of operating profit on €2.27 billion of revenue, under 1%. So Bolt breaks even only by spending far less per ride on staff and marketing than Uber."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Lower prices that win app comparisons",
+    "First-ride discounts and referral codes",
+    "Driver sign-up bonuses that bring supply first",
+    "Launching fast in new cities, hundreds of them in 2025",
+    "Scooters on the street act as free ads"
+   ],
+   "whatBringsUsersBack": [
+    "Habit of checking Bolt for a cheaper price",
+    "Several products in one app",
+    "Promo codes sent regularly",
+    "Business accounts for work trips"
+   ],
+   "moat": "Bolt's moat is its low cost base. It runs with far fewer staff per ride than Uber, so it can survive on a smaller commission. It is also number one in more than 20 countries, mostly in Eastern Europe and Africa, where local density keeps wait times short."
+  },
+  "competitors": [
+   {"name": "Uber", "positioning": "The global leader, with more drivers and premium options, and about 60% of European ride-hailing.", "howThisProductDiffers": "Bolt is usually cheaper and takes a smaller cut, but has fewer drivers in some areas, so waits can be longer."},
+   {"name": "FreeNow (Lyft)", "positioning": "A taxi-first app in Europe, bought by Lyft in 2025.", "howThisProductDiffers": "Bolt focuses on private-hire cars, which are cheaper than licensed black cabs."},
+   {"name": "Lime and Dott-Tier", "positioning": "Scooter and e-bike specialists.", "howThisProductDiffers": "Bolt bundles scooters with cars and food in one app."},
+   {"name": "Wolt and Deliveroo", "positioning": "Food delivery leaders in many Bolt cities.", "howThisProductDiffers": "Bolt Food is a smaller add-on, sold on price."}
+  ],
+  "northStar": {
+   "metric": "Completed trips and orders per week",
+   "why": "Each completed trip or order is a rider who got moved or fed and a driver who earned money. It grows only if prices are low and waits are short."
+  },
+  "kpiTree": [
+   {"metric": "Active riders", "description": "People who took at least one trip this month.", "children": [
+    {"metric": "New rider sign-ups", "description": "Driven by promos and city launches."},
+    {"metric": "Price win rate", "description": "Share of times Bolt is cheaper than Uber for the same trip."},
+    {"metric": "Month-two retention", "description": "Share of new riders who ride again next month."}
+   ]},
+   {"metric": "Driver supply", "description": "Drivers online at busy hours.", "children": [
+    {"metric": "Driver sign-ups", "description": "New licensed drivers joining."},
+    {"metric": "Earnings per online hour", "description": "Higher pay keeps drivers on Bolt."},
+    {"metric": "Driver weekly retention", "description": "Share of drivers still active after 4 weeks."}
+   ]},
+   {"metric": "Trip completion", "description": "Share of requests that finish as a trip.", "children": [
+    {"metric": "Average wait time", "description": "Long waits push riders back to Uber."},
+    {"metric": "Driver cancellation rate", "description": "Cancels after accepting hurt trust."}
+   ]},
+   {"metric": "Cross-product use", "description": "Riders who also use scooters, food or grocery.", "children": [
+    {"metric": "Share of riders using two or more products", "description": "Shows the multi-product app is working."},
+    {"metric": "Scooter rides per active vehicle", "description": "Keeps hardware costs paid back."}
+   ]}
+  ],
+  "guardrailMetrics": [
+   "Safety incidents per million trips",
+   "Operating margin",
+   "Driver net earnings per hour",
+   "Customer support resolution time"
+  ],
+  "strengths": [
+   "Lowest cost base among big ride-hailing apps",
+   "First net profit in 2025",
+   "Strong in Eastern Europe and Africa where Uber is weaker",
+   "One app for cars, scooters and food",
+   "Founder-led and fast to launch new cities"
+  ],
+  "weaknesses": [
+   "Fewer drivers than Uber in London and other big Western cities",
+   "Very thin margins leave little room for mistakes",
+   "Weaker brand in premium and business travel",
+   "Support is often described as slow and automated"
+  ],
+  "risks": [
+   "Uber can cut prices to match Bolt in key cities",
+   "UK rules on driver rights and VAT on private hire fares could raise costs",
+   "Licensing decisions by city regulators like TfL",
+   "Robotaxis could favour companies with deep pockets"
+  ],
+  "userComplaints": [
+   "Drivers cancel or ask riders to cancel",
+   "Wait times are longer than Uber in some areas",
+   "Support is hard to reach after a dispute",
+   "Drivers complain about low fares and sudden account blocks",
+   "Safety incidents reported in news in some markets"
+  ],
+  "improvementIdeas": [
+   {"idea": "Price and wait time shown together with a guarantee", "problem": "Riders pick Uber when Bolt's wait is unclear.", "expectedImpact": "A pickup time promise with a credit if missed builds trust in Bolt's lower price.", "metricToTrack": "Booking rate after price check", "effort": "medium"},
+   {"idea": "Cancel penalty for drivers", "problem": "Driver cancels are a top complaint.", "expectedImpact": "Fewer cancels and faster completed trips.", "metricToTrack": "Driver cancellation rate", "effort": "low"},
+   {"idea": "Human support for safety and payment disputes", "problem": "Automated support frustrates users after a bad trip.", "expectedImpact": "Higher trust and fewer bad reviews.", "metricToTrack": "Support satisfaction score and rider retention after a ticket", "effort": "medium"},
+   {"idea": "Bolt Business push in London", "problem": "Bolt earns less from higher-value business trips.", "expectedImpact": "More steady weekday demand at higher fares.", "metricToTrack": "Business trips per week", "effort": "medium"}
+  ],
+  "pmLessons": [
+   "A low price is only a strategy if your costs are lower too; Bolt proves this by running lean.",
+   "In ride-hailing, supply comes first: a lower commission to drivers was Bolt's way into Uber's markets.",
+   "Bundling several products in one app can raise use per customer, but each product must not drain profit.",
+   "Profit can be one bad quarter away when margins are under 1%, so guardrail metrics matter."
+  ],
+  "interviewQuestions": [
+   {"question": "How would Bolt win more share from Uber in London?", "hint": "Split riders by trip type and price sensitivity. Look at driver supply at peak. Pick one segment, like students or night trips, and a metric."},
+   {"question": "Bolt's commission is lower than Uber's. Should it raise it?", "hint": "Model driver churn, wait times and rider prices. Test in one city. Watch guardrails like wait time."},
+   {"question": "Bolt wants to grow Bolt Food. Is that a good idea?", "hint": "Check overlap with riders, courier sharing, and margin. Compare with focusing on rides."},
+   {"question": "Rider retention in month two dropped. How do you investigate?", "hint": "Cohort by city and channel, check promos ending, wait times, price win rate and app bugs."},
+   {"question": "Design a feature to make riders feel safer on Bolt at night.", "hint": "List the fears, pick one, propose a feature like a verified pickup PIN, and a safety metric."}
+  ],
+  "glossary": [
+   {"term": "Commission", "meaning": "The share of each fare that the app keeps."},
+   {"term": "Operating profit", "meaning": "Money left after day-to-day running costs, before interest and tax."},
+   {"term": "Valuation", "meaning": "What investors think the whole company is worth."},
+   {"term": "Secondary share sale", "meaning": "When existing shareholders sell their shares to new investors, with no new money going to the company."},
+   {"term": "Moat", "meaning": "Something that makes it hard for competitors to take your customers."},
+   {"term": "North star metric", "meaning": "The one number a company uses to track whether it delivers value to users."},
+   {"term": "Retention", "meaning": "The share of users who keep using the product over time."},
+   {"term": "Unit economics", "meaning": "How much money a company makes or loses on one trip or customer."},
+   {"term": "Guardrail metric", "meaning": "A number that must not get worse while you push the main goal."}
+  ],
+  "assumptions": [
+   "The £15 London ride example uses Bolt's advertised commission of under 20% and is an illustration.",
+   "Uber's London commission of about 25% is a widely reported figure, not from Uber's filings.",
+   "Customer and partner counts are Sacra estimates.",
+   "Completed trips per week as north star is our choice; Bolt has not published its internal metric."
+  ]
+ }
+}

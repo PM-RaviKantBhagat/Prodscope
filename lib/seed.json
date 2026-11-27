@@ -1,0 +1,2002 @@
+[
+ {
+  "rank": 1,
+  "company": "ChatGPT",
+  "website": "chatgpt.com",
+  "domain": "chatgpt.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Still #1 consumer AI app in 2026; ads, agents and turning hundreds of millions of free users into payers."
+ },
+ {
+  "rank": 2,
+  "company": "Claude",
+  "website": "claude.ai",
+  "domain": "claude.ai",
+  "market": "US · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Cowork and Claude Design made it a clear #3 consumer AI app in 2026; good niche-positioning case."
+ },
+ {
+  "rank": 3,
+  "company": "Gemini",
+  "website": "gemini.google.com",
+  "domain": "gemini.google.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Distribution advantage through Android, Search and Workspace; bundle vs. standalone."
+ },
+ {
+  "rank": 4,
+  "company": "Meta AI",
+  "website": "meta.ai",
+  "domain": "meta.ai",
+  "market": "US · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Distribution through WhatsApp and Instagram; personal agents battleground."
+ },
+ {
+  "rank": 5,
+  "company": "Perplexity",
+  "website": "perplexity.ai",
+  "domain": "perplexity.ai",
+  "market": "US · global",
+  "category": "AI search",
+  "section": "AI assistants and chatbots",
+  "why": "Answer engine challenging Google; citations, Comet browser and publisher partnerships."
+ },
+ {
+  "rank": 6,
+  "company": "DeepSeek",
+  "website": "deepseek.com",
+  "domain": "deepseek.com",
+  "market": "China · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Open, low-cost model that shocked the market; cost as strategy."
+ },
+ {
+  "rank": 7,
+  "company": "Grok",
+  "website": "grok.com",
+  "domain": "grok.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Built into X; distribution and personality as features."
+ },
+ {
+  "rank": 8,
+  "company": "Le Chat (Mistral)",
+  "website": "mistral.ai",
+  "domain": "mistral.ai",
+  "market": "France · global",
+  "category": "AI assistant",
+  "section": "AI assistants and chatbots",
+  "why": "Europe's AI challenger; open models and enterprise focus."
+ },
+ {
+  "rank": 9,
+  "company": "Microsoft Copilot",
+  "website": "copilot.microsoft.com",
+  "domain": "copilot.microsoft.com",
+  "market": "US · global",
+  "category": "AI productivity",
+  "section": "AI assistants and chatbots",
+  "why": "Putting AI into Office; enterprise pricing and adoption challenges."
+ },
+ {
+  "rank": 10,
+  "company": "Sarvam AI",
+  "website": "sarvam.ai",
+  "domain": "sarvam.ai",
+  "market": "India",
+  "category": "AI (Indic AI models)",
+  "section": "AI assistants and chatbots",
+  "why": "India's sovereign AI models bet; Indic language AI and voice-first product design."
+ },
+ {
+  "rank": 11,
+  "company": "Krutrim",
+  "website": "olakrutrim.com",
+  "domain": "olakrutrim.com",
+  "market": "India",
+  "category": "AI (Indic AI models)",
+  "section": "AI assistants and chatbots",
+  "why": "Ola's AI bet; compare with Sarvam on building Indian AI."
+ },
+ {
+  "rank": 12,
+  "company": "Character.AI",
+  "website": "character.ai",
+  "domain": "character.ai",
+  "market": "US · global",
+  "category": "AI companions",
+  "section": "AI assistants and chatbots",
+  "why": "Companion apps, teen safety and engagement ethics."
+ },
+ {
+  "rank": 13,
+  "company": "DeepMind (Google)",
+  "website": "deepmind.google",
+  "domain": "deepmind.google",
+  "market": "UK · global",
+  "category": "AI research to product",
+  "section": "AI assistants and chatbots",
+  "why": "How research turns into products (Gemini, AlphaFold)."
+ },
+ {
+  "rank": 14,
+  "company": "Cursor",
+  "website": "cursor.com",
+  "domain": "cursor.com",
+  "market": "US · global",
+  "category": "AI dev tools",
+  "section": "AI tools for creating and building",
+  "why": "One of the fastest-growing software products of 2025; growing through the product itself among developers."
+ },
+ {
+  "rank": 15,
+  "company": "GitHub Copilot",
+  "website": "github.com/features/copilot",
+  "domain": "github.com",
+  "market": "US · global",
+  "category": "AI dev tools",
+  "section": "AI tools for creating and building",
+  "why": "First mass AI coding tool; compare with Cursor on product speed."
+ },
+ {
+  "rank": 16,
+  "company": "Replit",
+  "website": "replit.com",
+  "domain": "replit.com",
+  "market": "US · global",
+  "category": "AI app builder",
+  "section": "AI tools for creating and building",
+  "why": "Building apps by chatting with AI for non-developers; growing through the product itself with AI agents."
+ },
+ {
+  "rank": 17,
+  "company": "Lovable",
+  "website": "lovable.dev",
+  "domain": "lovable.dev",
+  "market": "Sweden · global",
+  "category": "AI app builder",
+  "section": "AI tools for creating and building",
+  "why": "One of the fastest to $100M+ revenue; building apps by chatting with AI for non-devs."
+ },
+ {
+  "rank": 18,
+  "company": "Suno",
+  "website": "suno.com",
+  "domain": "suno.com",
+  "market": "US · global",
+  "category": "AI music",
+  "section": "AI tools for creating and building",
+  "why": "Top consumer AI app for music creation; creator tools and rights questions."
+ },
+ {
+  "rank": 19,
+  "company": "Midjourney",
+  "website": "midjourney.com",
+  "domain": "midjourney.com",
+  "market": "US · global",
+  "category": "AI images",
+  "section": "AI tools for creating and building",
+  "why": "Profitable with a tiny team; community-led product through Discord."
+ },
+ {
+  "rank": 20,
+  "company": "Sora",
+  "website": "sora.com",
+  "domain": "sora.com",
+  "market": "US · global",
+  "category": "AI video / social",
+  "section": "AI tools for creating and building",
+  "why": "OpenAI's AI video app; a social feed of generated content."
+ },
+ {
+  "rank": 21,
+  "company": "ElevenLabs",
+  "website": "elevenlabs.io",
+  "domain": "elevenlabs.io",
+  "market": "UK/US · global",
+  "category": "AI voice",
+  "section": "AI tools for creating and building",
+  "why": "Fast-growing AI audio; creator and enterprise use cases, ethics of voice cloning."
+ },
+ {
+  "rank": 22,
+  "company": "Synthesia",
+  "website": "synthesia.io",
+  "domain": "synthesia.io",
+  "market": "UK",
+  "category": "AI video",
+  "section": "AI tools for creating and building",
+  "why": "AI avatar video for enterprise training; business AI product-market fit."
+ },
+ {
+  "rank": 23,
+  "company": "Grammarly",
+  "website": "grammarly.com",
+  "domain": "grammarly.com",
+  "market": "US · global",
+  "category": "AI writing",
+  "section": "AI tools for creating and building",
+  "why": "Pre-ChatGPT AI product fighting to stay relevant; rebranded parent as Superhuman."
+ },
+ {
+  "rank": 24,
+  "company": "Granola",
+  "website": "granola.ai",
+  "domain": "granola.ai",
+  "market": "UK · US",
+  "category": "AI meeting notes",
+  "section": "AI tools for creating and building",
+  "why": "Fast-growing AI notes app; simple UX that wins over bots in calls."
+ },
+ {
+  "rank": 25,
+  "company": "Harvey",
+  "website": "harvey.ai",
+  "domain": "harvey.ai",
+  "market": "US · UK",
+  "category": "AI for lawyers",
+  "section": "AI tools for creating and building",
+  "why": "Vertical business AI with fast enterprise adoption; trust and accuracy."
+ },
+ {
+  "rank": 26,
+  "company": "OpenEvidence",
+  "website": "openevidence.com",
+  "domain": "openevidence.com",
+  "market": "US",
+  "category": "AI for doctors",
+  "section": "AI tools for creating and building",
+  "why": "New entrant on 2026 AI app lists; vertical AI in healthcare."
+ },
+ {
+  "rank": 27,
+  "company": "PhonePe",
+  "website": "phonepe.com",
+  "domain": "phonepe.com",
+  "market": "India",
+  "category": "Payments (UPI)",
+  "section": "Payments, banking and investing",
+  "why": "UPI leader that filed for IPO in 2026; making money from a free payments rail through lending, insurance and wealth."
+ },
+ {
+  "rank": 28,
+  "company": "Google Pay India",
+  "website": "pay.google.com",
+  "domain": "pay.google.com",
+  "market": "India · global parent",
+  "category": "Payments (UPI)",
+  "section": "Payments, banking and investing",
+  "why": "Rewards-led adoption and the UPI market-share cap debate; great for competitive strategy."
+ },
+ {
+  "rank": 29,
+  "company": "Paytm",
+  "website": "paytm.com",
+  "domain": "paytm.com",
+  "market": "India",
+  "category": "Money app",
+  "section": "Payments, banking and investing",
+  "why": "Comeback after the 2024 Payments Bank ban; trust recovery and merchant soundbox strategy."
+ },
+ {
+  "rank": 30,
+  "company": "CRED",
+  "website": "cred.club",
+  "domain": "cred.club",
+  "market": "India",
+  "category": "Money app / rewards",
+  "section": "Payments, banking and investing",
+  "why": "Premium-user positioning and brand-led growth; how to make money from high-intent users."
+ },
+ {
+  "rank": 31,
+  "company": "Groww",
+  "website": "groww.in",
+  "domain": "groww.in",
+  "market": "India",
+  "category": "Investing",
+  "section": "Payments, banking and investing",
+  "why": "Listed in late 2025; simplified onboarding for first-time investors made it India's top broker."
+ },
+ {
+  "rank": 32,
+  "company": "Zerodha (Kite)",
+  "website": "zerodha.com",
+  "domain": "zerodha.com",
+  "market": "India",
+  "category": "Investing",
+  "section": "Payments, banking and investing",
+  "why": "Bootstrapped, no-ads, low-cost model; product as a edge over rivals and education-led growth."
+ },
+ {
+  "rank": 33,
+  "company": "Razorpay",
+  "website": "razorpay.com",
+  "domain": "razorpay.com",
+  "market": "India",
+  "category": "Payments infrastructure",
+  "section": "Payments, banking and investing",
+  "why": "India's Stripe; developer-first business payments and expected IPO. Great business teardown."
+ },
+ {
+  "rank": 34,
+  "company": "Pine Labs",
+  "website": "pinelabs.com",
+  "domain": "pinelabs.com",
+  "market": "India",
+  "category": "Merchant payments",
+  "section": "Payments, banking and investing",
+  "why": "Offline POS and EMI-at-checkout; how business-to-consumer through partners money app makes money."
+ },
+ {
+  "rank": 35,
+  "company": "Navi",
+  "website": "navi.com",
+  "domain": "navi.com",
+  "market": "India",
+  "category": "Money app",
+  "section": "Payments, banking and investing",
+  "why": "Low-cost UPI, loans and insurance in one app; aggressive pricing as a growth lever."
+ },
+ {
+  "rank": 36,
+  "company": "PolicyBazaar",
+  "website": "policybazaar.com",
+  "domain": "policybazaar.com",
+  "market": "India",
+  "category": "Insurance app",
+  "section": "Payments, banking and investing",
+  "why": "Comparison marketplace for insurance; trust and assisted sales over pure digital."
+ },
+ {
+  "rank": 37,
+  "company": "Acko",
+  "website": "acko.com",
+  "domain": "acko.com",
+  "market": "India",
+  "category": "Insurance app",
+  "section": "Payments, banking and investing",
+  "why": "Digital-only insurer; claims experience as the core product."
+ },
+ {
+  "rank": 38,
+  "company": "Khatabook",
+  "website": "khatabook.com",
+  "domain": "khatabook.com",
+  "market": "India",
+  "category": "small business money app",
+  "section": "Payments, banking and investing",
+  "why": "Digital ledger for shopkeepers; replacing a paper habit."
+ },
+ {
+  "rank": 39,
+  "company": "Robinhood",
+  "website": "robinhood.com",
+  "domain": "robinhood.com",
+  "market": "US",
+  "category": "Investing",
+  "section": "Payments, banking and investing",
+  "why": "Zero-commission trading, gamification ethics and expansion into crypto and banking."
+ },
+ {
+  "rank": 40,
+  "company": "Stripe",
+  "website": "stripe.com",
+  "domain": "stripe.com",
+  "market": "US/Ireland · global",
+  "category": "Payments infrastructure",
+  "section": "Payments, banking and investing",
+  "why": "Developer-first developer tools design; a strong business product teardown."
+ },
+ {
+  "rank": 41,
+  "company": "Venmo",
+  "website": "venmo.com",
+  "domain": "venmo.com",
+  "market": "US",
+  "category": "person-to-person payments",
+  "section": "Payments, banking and investing",
+  "why": "Social payments feed; compare with UPI apps."
+ },
+ {
+  "rank": 42,
+  "company": "Cash App",
+  "website": "cash.app",
+  "domain": "cash.app",
+  "market": "US",
+  "category": "Money app",
+  "section": "Payments, banking and investing",
+  "why": "Bank for the unbanked; banking, investing and Bitcoin in one app."
+ },
+ {
+  "rank": 43,
+  "company": "Chime",
+  "website": "chime.com",
+  "domain": "chime.com",
+  "market": "US",
+  "category": "App-only bank",
+  "section": "Payments, banking and investing",
+  "why": "Fee-free banking; listed in 2025. Compare with Monzo."
+ },
+ {
+  "rank": 44,
+  "company": "Coinbase",
+  "website": "coinbase.com",
+  "domain": "coinbase.com",
+  "market": "US · global",
+  "category": "Crypto",
+  "section": "Payments, banking and investing",
+  "why": "Trust and compliance in crypto; new crypto products."
+ },
+ {
+  "rank": 45,
+  "company": "Revolut",
+  "website": "revolut.com",
+  "domain": "revolut.com",
+  "market": "UK · global",
+  "category": "App-only bank / super-app",
+  "section": "Payments, banking and investing",
+  "why": "Fastest-scaling UK money app; super-app strategy and its long UK banking licence journey; also live in India."
+ },
+ {
+  "rank": 46,
+  "company": "Monzo",
+  "website": "monzo.com",
+  "domain": "monzo.com",
+  "market": "UK",
+  "category": "App-only bank",
+  "section": "Payments, banking and investing",
+  "why": "Community-led growth, hot-coral card and delightful UX; reached profitability."
+ },
+ {
+  "rank": 47,
+  "company": "Wise",
+  "website": "wise.com",
+  "domain": "wise.com",
+  "market": "UK · global",
+  "category": "Cross-border payments",
+  "section": "Payments, banking and investing",
+  "why": "Transparent pricing as a product; mission-led design, popular with Indians abroad."
+ },
+ {
+  "rank": 48,
+  "company": "Starling Bank",
+  "website": "starlingbank.com",
+  "domain": "starlingbank.com",
+  "market": "UK",
+  "category": "App-only bank / business",
+  "section": "Payments, banking and investing",
+  "why": "Profitable app-only bank selling its tech (Engine) to other banks."
+ },
+ {
+  "rank": 49,
+  "company": "Klarna",
+  "website": "klarna.com",
+  "domain": "klarna.com",
+  "market": "Sweden · UK/US",
+  "category": "buy now, pay later",
+  "section": "Payments, banking and investing",
+  "why": "Buy now pay later; 2025 US IPO and heavy use of AI in customer service."
+ },
+ {
+  "rank": 50,
+  "company": "Zopa",
+  "website": "zopa.com",
+  "domain": "zopa.com",
+  "market": "UK",
+  "category": "Digital bank / lending",
+  "section": "Payments, banking and investing",
+  "why": "person-to-person lending pioneer turned bank; credit risk as product design."
+ },
+ {
+  "rank": 51,
+  "company": "Moneybox",
+  "website": "moneyboxapp.com",
+  "domain": "moneyboxapp.com",
+  "market": "UK",
+  "category": "Savings / investing",
+  "section": "Payments, banking and investing",
+  "why": "Round-ups and ISAs for first-time savers; compare with Groww."
+ },
+ {
+  "rank": 52,
+  "company": "Cleo",
+  "website": "meetcleo.com",
+  "domain": "meetcleo.com",
+  "market": "UK · US",
+  "category": "AI money coach",
+  "section": "Payments, banking and investing",
+  "why": "Chat-first finance app with a cheeky voice; Gen-Z growth in the US."
+ },
+ {
+  "rank": 53,
+  "company": "Curve",
+  "website": "curve.com",
+  "domain": "curve.com",
+  "market": "UK",
+  "category": "Money app",
+  "section": "Payments, banking and investing",
+  "why": "One card for all cards; a hard business model to scale."
+ },
+ {
+  "rank": 54,
+  "company": "Chip",
+  "website": "getchip.uk",
+  "domain": "getchip.uk",
+  "market": "UK",
+  "category": "Savings",
+  "section": "Payments, banking and investing",
+  "why": "Auto-saving with AI; compare with Moneybox."
+ },
+ {
+  "rank": 55,
+  "company": "GoCardless",
+  "website": "gocardless.com",
+  "domain": "gocardless.com",
+  "market": "UK · global",
+  "category": "Payments infrastructure",
+  "section": "Payments, banking and investing",
+  "why": "Bank-to-bank recurring payments; business money app."
+ },
+ {
+  "rank": 56,
+  "company": "Checkout.com",
+  "website": "checkout.com",
+  "domain": "checkout.com",
+  "market": "UK · global",
+  "category": "Payments infrastructure",
+  "section": "Payments, banking and investing",
+  "why": "Enterprise payments; compare with Stripe."
+ },
+ {
+  "rank": 57,
+  "company": "Zilch",
+  "website": "zilch.com",
+  "domain": "zilch.com",
+  "market": "UK",
+  "category": "buy now, pay later",
+  "section": "Payments, banking and investing",
+  "why": "Ad-subsidised buy now, pay later; compare with Klarna."
+ },
+ {
+  "rank": 58,
+  "company": "PayPal",
+  "website": "paypal.com",
+  "domain": "paypal.com",
+  "market": "US · global",
+  "category": "Payments",
+  "section": "Payments, banking and investing",
+  "why": "Incumbent fighting Apple Pay and Stripe; checkout UX."
+ },
+ {
+  "rank": 59,
+  "company": "Apple Wallet & Pay",
+  "website": "apple.com/apple-pay",
+  "domain": "apple.com-pay",
+  "market": "US · global",
+  "category": "Payments",
+  "section": "Payments, banking and investing",
+  "why": "Tap-to-pay habits in UK and US; tap-to-pay access fights."
+ },
+ {
+  "rank": 60,
+  "company": "Amazon",
+  "website": "amazon.com",
+  "domain": "amazon.com",
+  "market": "US · global",
+  "category": "E-commerce",
+  "section": "Online shopping and retail",
+  "why": "Flywheel, Prime, one-click; Rufus AI shopping assistant. The most asked company in PM interviews."
+ },
+ {
+  "rank": 61,
+  "company": "Flipkart",
+  "website": "flipkart.com",
+  "domain": "flipkart.com",
+  "market": "India",
+  "category": "E-commerce",
+  "section": "Online shopping and retail",
+  "why": "IPO prep and a late-2026 leadership change; Big Billion Days scale, vernacular UX and Flipkart Minutes."
+ },
+ {
+  "rank": 62,
+  "company": "Meesho",
+  "website": "meesho.com",
+  "domain": "meesho.com",
+  "market": "India",
+  "category": "Social e-commerce",
+  "section": "Online shopping and retail",
+  "why": "Listed in Dec 2025; zero-commission model for small sellers and value e-commerce economics."
+ },
+ {
+  "rank": 63,
+  "company": "Nykaa",
+  "website": "nykaa.com",
+  "domain": "nykaa.com",
+  "market": "India",
+  "category": "Beauty e-commerce",
+  "section": "Online shopping and retail",
+  "why": "Content-to-commerce and inventory model; online-plus-stores retail with offline stores."
+ },
+ {
+  "rank": 64,
+  "company": "Myntra",
+  "website": "myntra.com",
+  "domain": "myntra.com",
+  "market": "India",
+  "category": "Fashion e-commerce",
+  "section": "Online shopping and retail",
+  "why": "Personalisation, returns cost, M-Now fast delivery; fashion discovery problem."
+ },
+ {
+  "rank": 65,
+  "company": "Shopify",
+  "website": "shopify.com",
+  "domain": "shopify.com",
+  "market": "Canada · global",
+  "category": "Commerce platform",
+  "section": "Online shopping and retail",
+  "why": "Platform for merchants; app ecosystem and AI tools (Sidekick)."
+ },
+ {
+  "rank": 66,
+  "company": "Shiprocket",
+  "website": "shiprocket.in",
+  "domain": "shiprocket.in",
+  "market": "India",
+  "category": "E-commerce enabler",
+  "section": "Online shopping and retail",
+  "why": "Listed in 2026; logistics app that combines many sellers that powers direct-to-customer brands. Platform-for-sellers case."
+ },
+ {
+  "rank": 67,
+  "company": "Udaan",
+  "website": "udaan.com",
+  "domain": "udaan.com",
+  "market": "India",
+  "category": "business e-commerce",
+  "section": "Online shopping and retail",
+  "why": "business marketplace for kirana stores; hard money made per order."
+ },
+ {
+  "rank": 68,
+  "company": "ONDC",
+  "website": "ondc.org",
+  "domain": "ondc.org",
+  "market": "India",
+  "category": "Open commerce network",
+  "section": "Online shopping and retail",
+  "why": "Government open network for commerce; unbundling marketplaces."
+ },
+ {
+  "rank": 69,
+  "company": "Tata Neu",
+  "website": "tataneu.com",
+  "domain": "tataneu.com",
+  "market": "India",
+  "category": "Super-app (loyalty)",
+  "section": "Online shopping and retail",
+  "why": "A conglomerate's super-app bet; why super-apps are hard to build."
+ },
+ {
+  "rank": 70,
+  "company": "Etsy",
+  "website": "etsy.com",
+  "domain": "etsy.com",
+  "market": "US · global",
+  "category": "Marketplace",
+  "section": "Online shopping and retail",
+  "why": "Handmade marketplace fighting cheap mass-made goods; search and trust."
+ },
+ {
+  "rank": 71,
+  "company": "eBay",
+  "website": "ebay.com",
+  "domain": "ebay.com",
+  "market": "US · global",
+  "category": "Marketplace",
+  "section": "Online shopping and retail",
+  "why": "Classic auction marketplace refocusing on collectibles and resale."
+ },
+ {
+  "rank": 72,
+  "company": "Walmart",
+  "website": "walmart.com",
+  "domain": "walmart.com",
+  "market": "US",
+  "category": "Online-plus-stores retail",
+  "section": "Online shopping and retail",
+  "why": "Walmart+ vs. Prime; stores as fulfilment centres. Owner of Flipkart."
+ },
+ {
+  "rank": 73,
+  "company": "Temu",
+  "website": "temu.com",
+  "domain": "temu.com",
+  "market": "China · US/UK",
+  "category": "Discount e-commerce",
+  "section": "Online shopping and retail",
+  "why": "Gamified shopping and aggressive acquisition; tariffs hit in 2025."
+ },
+ {
+  "rank": 74,
+  "company": "Shein",
+  "website": "shein.com",
+  "domain": "shein.com",
+  "market": "Singapore · global",
+  "category": "Fast fashion",
+  "section": "Online shopping and retail",
+  "why": "Real-time, test-and-scale supply chain; returned to India via Reliance."
+ },
+ {
+  "rank": 75,
+  "company": "ASOS",
+  "website": "asos.com",
+  "domain": "asos.com",
+  "market": "UK · global",
+  "category": "Fashion e-commerce",
+  "section": "Online shopping and retail",
+  "why": "Online-only fashion under pressure from Shein; returns and fit."
+ },
+ {
+  "rank": 76,
+  "company": "Marks & Spencer app",
+  "website": "marksandspencer.com",
+  "domain": "marksandspencer.com",
+  "market": "UK",
+  "category": "Retail",
+  "section": "Online shopping and retail",
+  "why": "2025 cyber attack shut online orders; resilience and crisis product thinking."
+ },
+ {
+  "rank": 77,
+  "company": "Tesco Clubcard",
+  "website": "tesco.com",
+  "domain": "tesco.com",
+  "market": "UK",
+  "category": "Retail loyalty",
+  "section": "Online shopping and retail",
+  "why": "The classic loyalty and data case; Clubcard prices as a product decision."
+ },
+ {
+  "rank": 78,
+  "company": "Depop",
+  "website": "depop.com",
+  "domain": "depop.com",
+  "market": "UK · global",
+  "category": "Resale marketplace",
+  "section": "Online shopping and retail",
+  "why": "Gen-Z social commerce; owned by Etsy; compare with Vinted."
+ },
+ {
+  "rank": 79,
+  "company": "Vinted",
+  "website": "vinted.co.uk",
+  "domain": "vinted.co.uk",
+  "market": "Lithuania · UK",
+  "category": "Resale marketplace",
+  "section": "Online shopping and retail",
+  "why": "No seller fees; grew fast in the UK. Compare with Depop."
+ },
+ {
+  "rank": 80,
+  "company": "Lenskart",
+  "website": "lenskart.com",
+  "domain": "lenskart.com",
+  "market": "India",
+  "category": "direct-to-customer eyewear",
+  "section": "Brands that sell directly to customers",
+  "why": "Online-plus-stores direct-to-customer with tech-led try-on; 2025 IPO made it a hot interview topic."
+ },
+ {
+  "rank": 81,
+  "company": "boAt",
+  "website": "boat-lifestyle.com",
+  "domain": "boat-lifestyle.com",
+  "market": "India",
+  "category": "Consumer electronics direct-to-customer",
+  "section": "Brands that sell directly to customers",
+  "why": "Brand-led hardware for young India; filed for IPO. Marketing and distribution case."
+ },
+ {
+  "rank": 82,
+  "company": "Atomberg",
+  "website": "atomberg.com",
+  "domain": "atomberg.com",
+  "market": "India",
+  "category": "Smart appliances direct-to-customer",
+  "section": "Brands that sell directly to customers",
+  "why": "Energy-efficient fans; how a product innovation beats incumbents. IPO approved in 2026."
+ },
+ {
+  "rank": 83,
+  "company": "Mamaearth (Honasa)",
+  "website": "mamaearth.in",
+  "domain": "mamaearth.in",
+  "market": "India",
+  "category": "Beauty direct-to-customer",
+  "section": "Brands that sell directly to customers",
+  "why": "Built online, moved to offline retail; multi-brand house strategy."
+ },
+ {
+  "rank": 84,
+  "company": "Licious",
+  "website": "licious.in",
+  "domain": "licious.in",
+  "market": "India",
+  "category": "direct-to-customer meat",
+  "section": "Brands that sell directly to customers",
+  "why": "Solving trust and freshness through a cold supply chain."
+ },
+ {
+  "rank": 85,
+  "company": "Country Delight",
+  "website": "countrydelight.in",
+  "domain": "countrydelight.in",
+  "market": "India",
+  "category": "Subscription dairy",
+  "section": "Brands that sell directly to customers",
+  "why": "Daily subscription habit; retention via morning delivery."
+ },
+ {
+  "rank": 86,
+  "company": "Gymshark",
+  "website": "gymshark.com",
+  "domain": "gymshark.com",
+  "market": "UK · global",
+  "category": "direct-to-customer apparel",
+  "section": "Brands that sell directly to customers",
+  "why": "Influencer-led direct-to-customer brand and community; a good go-to-market case."
+ },
+ {
+  "rank": 87,
+  "company": "Blinkit",
+  "website": "blinkit.com",
+  "domain": "blinkit.com",
+  "market": "India",
+  "category": "Quick delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Led 10-minute delivery in 2025; study dark-store money made per order and assortment beyond groceries."
+ },
+ {
+  "rank": 88,
+  "company": "Zepto",
+  "website": "zepto.com",
+  "domain": "zepto.com",
+  "market": "India",
+  "category": "Quick delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Filed for its IPO in 2026; growth loops, Zepto Cafe and the profitability-vs-speed trade-off."
+ },
+ {
+  "rank": 89,
+  "company": "Swiggy (Instamart)",
+  "website": "swiggy.com",
+  "domain": "swiggy.com",
+  "market": "India",
+  "category": "Food delivery / super-app",
+  "section": "Food, grocery and quick delivery",
+  "why": "Multi-vertical super-app; classic interview case for bundling (Swiggy One) and selling more services to the same user."
+ },
+ {
+  "rank": 90,
+  "company": "Zomato (Eternal)",
+  "website": "zomato.com",
+  "domain": "zomato.com",
+  "market": "India",
+  "category": "Food delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Marketplace with three sides (diners, restaurants, riders); pricing, Gold membership, ads."
+ },
+ {
+  "rank": 91,
+  "company": "BigBasket",
+  "website": "bigbasket.com",
+  "domain": "bigbasket.com",
+  "market": "India",
+  "category": "Online grocery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Moved from scheduled delivery to quick delivery under Tata."
+ },
+ {
+  "rank": 92,
+  "company": "Dunzo",
+  "website": "dunzo.com",
+  "domain": "dunzo.com",
+  "market": "India",
+  "category": "Quick delivery (failed)",
+  "section": "Food, grocery and quick delivery",
+  "why": "Early leader that collapsed; a must-know failure teardown."
+ },
+ {
+  "rank": 93,
+  "company": "DoorDash",
+  "website": "doordash.com",
+  "domain": "doordash.com",
+  "market": "US",
+  "category": "Food delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Won the US by focusing on suburbs; logistics and local commerce."
+ },
+ {
+  "rank": 94,
+  "company": "Instacart",
+  "website": "instacart.com",
+  "domain": "instacart.com",
+  "market": "US",
+  "category": "Grocery delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Ads as a major revenue stream; retailer-partner model vs. owning inventory."
+ },
+ {
+  "rank": 95,
+  "company": "Deliveroo",
+  "website": "deliveroo.co.uk",
+  "domain": "deliveroo.co.uk",
+  "market": "UK",
+  "category": "Food delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Acquired by DoorDash in 2025; compare with Swiggy/Zomato on marketplace strategy."
+ },
+ {
+  "rank": 96,
+  "company": "Just Eat Takeaway",
+  "website": "just-eat.co.uk",
+  "domain": "just-eat.co.uk",
+  "market": "UK · Europe",
+  "category": "Food delivery",
+  "section": "Food, grocery and quick delivery",
+  "why": "Marketplace vs. own-delivery models; acquired by Prosus in 2025."
+ },
+ {
+  "rank": 97,
+  "company": "Ocado",
+  "website": "ocado.com",
+  "domain": "ocado.com",
+  "market": "UK · global",
+  "category": "Online grocery / robotics",
+  "section": "Food, grocery and quick delivery",
+  "why": "Automated warehouse tech licensed globally; contrast with dark-store quick delivery."
+ },
+ {
+  "rank": 98,
+  "company": "Too Good To Go",
+  "website": "toogoodtogo.com",
+  "domain": "toogoodtogo.com",
+  "market": "Denmark · UK",
+  "category": "Food-waste marketplace",
+  "section": "Food, grocery and quick delivery",
+  "why": "Mission-led marketplace; surprise-bag UX."
+ },
+ {
+  "rank": 99,
+  "company": "Uber",
+  "website": "uber.com",
+  "domain": "uber.com",
+  "market": "US · global",
+  "category": "Mobility / delivery",
+  "section": "Rides, cars and travel",
+  "why": "Marketplace dynamics, surge pricing, Uber One membership and autonomous partnerships."
+ },
+ {
+  "rank": 100,
+  "company": "Ola / Ola Electric",
+  "website": "olaelectric.com",
+  "domain": "olaelectric.com",
+  "market": "India",
+  "category": "Mobility / EV",
+  "section": "Rides, cars and travel",
+  "why": "Ride-hailing to EV change of direction; service quality issues are a strong 'fix this product' case."
+ },
+ {
+  "rank": 101,
+  "company": "Rapido",
+  "website": "rapido.bike",
+  "domain": "rapido.bike",
+  "market": "India",
+  "category": "Mobility",
+  "section": "Rides, cars and travel",
+  "why": "Bike taxis and subscription (zero-commission) model for drivers; beat incumbents on price."
+ },
+ {
+  "rank": 102,
+  "company": "Namma Yatri",
+  "website": "nammayatri.in",
+  "domain": "nammayatri.in",
+  "market": "India",
+  "category": "Mobility (open network)",
+  "section": "Rides, cars and travel",
+  "why": "Zero-commission auto app built on ONDC-style open rails."
+ },
+ {
+  "rank": 103,
+  "company": "Lyft",
+  "website": "lyft.com",
+  "domain": "lyft.com",
+  "market": "US",
+  "category": "Mobility",
+  "section": "Rides, cars and travel",
+  "why": "The #2 player's strategy; compare with Uber."
+ },
+ {
+  "rank": 104,
+  "company": "Bolt",
+  "website": "bolt.eu",
+  "domain": "bolt.eu",
+  "market": "Estonia · UK",
+  "category": "Mobility",
+  "section": "Rides, cars and travel",
+  "why": "Lower-commission challenger to Uber in London; price-led competition."
+ },
+ {
+  "rank": 105,
+  "company": "Waymo",
+  "website": "waymo.com",
+  "domain": "waymo.com",
+  "market": "US",
+  "category": "Autonomous mobility",
+  "section": "Rides, cars and travel",
+  "why": "Robotaxis at scale in 2025; trust, safety and city-by-city rollout strategy."
+ },
+ {
+  "rank": 106,
+  "company": "Wayve",
+  "website": "wayve.ai",
+  "domain": "wayve.ai",
+  "market": "UK",
+  "category": "Autonomous driving",
+  "section": "Rides, cars and travel",
+  "why": "London self-driving AI; compare with Waymo on approach."
+ },
+ {
+  "rank": 107,
+  "company": "Cars24",
+  "website": "cars24.com",
+  "domain": "cars24.com",
+  "market": "India",
+  "category": "Used-car marketplace",
+  "section": "Rides, cars and travel",
+  "why": "Managed marketplace solving trust in high-ticket used goods."
+ },
+ {
+  "rank": 108,
+  "company": "Spinny",
+  "website": "spinny.com",
+  "domain": "spinny.com",
+  "market": "India",
+  "category": "Used-car retail",
+  "section": "Rides, cars and travel",
+  "why": "Full-stack inventory model; compare with Cars24 on trust in used cars."
+ },
+ {
+  "rank": 109,
+  "company": "Auto Trader",
+  "website": "autotrader.co.uk",
+  "domain": "autotrader.co.uk",
+  "market": "UK",
+  "category": "Car marketplace",
+  "section": "Rides, cars and travel",
+  "why": "Moved from print to digital; compare with Cars24."
+ },
+ {
+  "rank": 110,
+  "company": "Cazoo",
+  "website": "cazoo.co.uk",
+  "domain": "cazoo.co.uk",
+  "market": "UK",
+  "category": "Used cars (failed)",
+  "section": "Rides, cars and travel",
+  "why": "Fast growth then collapse; compare with Spinny."
+ },
+ {
+  "rank": 111,
+  "company": "MakeMyTrip",
+  "website": "makemytrip.com",
+  "domain": "makemytrip.com",
+  "market": "India",
+  "category": "Travel",
+  "section": "Rides, cars and travel",
+  "why": "online travel agency with trains, buses and hotels; trust, price comparison and post-booking experience."
+ },
+ {
+  "rank": 112,
+  "company": "ixigo",
+  "website": "ixigo.com",
+  "domain": "ixigo.com",
+  "market": "India",
+  "category": "Travel",
+  "section": "Rides, cars and travel",
+  "why": "Train-first travel app for Bharat; listed and profitable. AI trip planning."
+ },
+ {
+  "rank": 113,
+  "company": "redBus",
+  "website": "redbus.in",
+  "domain": "redbus.in",
+  "market": "India",
+  "category": "Bus ticketing",
+  "section": "Rides, cars and travel",
+  "why": "Fragmented-supply app that combines many sellers; classic first-mile marketplace."
+ },
+ {
+  "rank": 114,
+  "company": "OYO",
+  "website": "oyorooms.com",
+  "domain": "oyorooms.com",
+  "market": "India · global",
+  "category": "Hospitality",
+  "section": "Rides, cars and travel",
+  "why": "Asset-light hotels, pivots and IPO attempts; a full product lifecycle case."
+ },
+ {
+  "rank": 115,
+  "company": "Airbnb",
+  "website": "airbnb.com",
+  "domain": "airbnb.com",
+  "market": "US · global",
+  "category": "Travel marketplace",
+  "section": "Rides, cars and travel",
+  "why": "Trust design, the 2025 'services and experiences' relaunch and growing both hosts and guests."
+ },
+ {
+  "rank": 116,
+  "company": "Booking.com",
+  "website": "booking.com",
+  "domain": "booking.com",
+  "market": "Netherlands · global",
+  "category": "Travel",
+  "section": "Rides, cars and travel",
+  "why": "Experimentation culture (thousands of A/B tests); compare with MakeMyTrip."
+ },
+ {
+  "rank": 117,
+  "company": "Agoda",
+  "website": "agoda.com",
+  "domain": "agoda.com",
+  "market": "Singapore · global",
+  "category": "Travel",
+  "section": "Rides, cars and travel",
+  "why": "Asia-focused online travel agency, big in India; compare with Booking.com."
+ },
+ {
+  "rank": 118,
+  "company": "Skyscanner",
+  "website": "skyscanner.net",
+  "domain": "skyscanner.net",
+  "market": "UK · global",
+  "category": "Travel search",
+  "section": "Rides, cars and travel",
+  "why": "Price-comparison model; competing with Google Flights."
+ },
+ {
+  "rank": 119,
+  "company": "Trainline",
+  "website": "thetrainline.com",
+  "domain": "thetrainline.com",
+  "market": "UK · Europe",
+  "category": "Travel",
+  "section": "Rides, cars and travel",
+  "why": "Rail ticketing UX, split-ticketing feature and the threat from government rail apps."
+ },
+ {
+  "rank": 120,
+  "company": "Citymapper",
+  "website": "citymapper.com",
+  "domain": "citymapper.com",
+  "market": "UK · global",
+  "category": "Maps / transit",
+  "section": "Rides, cars and travel",
+  "why": "Best-in-class transit UX; a hard business model to build for a free utility."
+ },
+ {
+  "rank": 121,
+  "company": "WhatsApp",
+  "website": "whatsapp.com",
+  "domain": "whatsapp.com",
+  "market": "US · global",
+  "category": "Messaging",
+  "section": "Social, messaging and dating",
+  "why": "India's default app; Business developer tools, payments, Channels and 2025 ads in Updates."
+ },
+ {
+  "rank": 122,
+  "company": "Instagram",
+  "website": "instagram.com",
+  "domain": "instagram.com",
+  "market": "US · global",
+  "category": "Social media",
+  "section": "Social, messaging and dating",
+  "why": "Copying features well (Stories, Reels); Threads launch; teen safety changes."
+ },
+ {
+  "rank": 123,
+  "company": "TikTok",
+  "website": "tiktok.com",
+  "domain": "tiktok.com",
+  "market": "China/Singapore · global",
+  "category": "Short video",
+  "section": "Social, messaging and dating",
+  "why": "Feed based on what you like, not who you follow; banned in India, so compare with Reels and Moj."
+ },
+ {
+  "rank": 124,
+  "company": "Threads",
+  "website": "threads.com",
+  "domain": "threads.com",
+  "market": "US · global",
+  "category": "Social media",
+  "section": "Social, messaging and dating",
+  "why": "Launched on Instagram's graph; empty-app problem solved by distribution."
+ },
+ {
+  "rank": 125,
+  "company": "X (Twitter)",
+  "website": "x.com",
+  "domain": "x.com",
+  "market": "US · global",
+  "category": "Social media",
+  "section": "Social, messaging and dating",
+  "why": "Product changes under new ownership: verification, Community Notes and Grok."
+ },
+ {
+  "rank": 126,
+  "company": "Snapchat",
+  "website": "snapchat.com",
+  "domain": "snapchat.com",
+  "market": "US · global",
+  "category": "Social / camera",
+  "section": "Social, messaging and dating",
+  "why": "Camera-first, Snapchat+ subscription, camera filters; strong teen user base in UK and India."
+ },
+ {
+  "rank": 127,
+  "company": "Pinterest",
+  "website": "pinterest.com",
+  "domain": "pinterest.com",
+  "market": "US · global",
+  "category": "Visual discovery",
+  "section": "Social, messaging and dating",
+  "why": "Intent-rich discovery and shopping; Gen-Z turnaround."
+ },
+ {
+  "rank": 128,
+  "company": "Reddit",
+  "website": "reddit.com",
+  "domain": "reddit.com",
+  "market": "US · global",
+  "category": "Communities",
+  "section": "Social, messaging and dating",
+  "why": "Data licensing to AI firms and Google search traffic surge after listing."
+ },
+ {
+  "rank": 129,
+  "company": "Discord",
+  "website": "discord.com",
+  "domain": "discord.com",
+  "market": "US · global",
+  "category": "Community chat",
+  "section": "Social, messaging and dating",
+  "why": "From gaming to communities; Nitro how it makes money and moderation."
+ },
+ {
+  "rank": 130,
+  "company": "Telegram",
+  "website": "telegram.org",
+  "domain": "telegram.org",
+  "market": "UAE · global",
+  "category": "Messaging",
+  "section": "Social, messaging and dating",
+  "why": "Channels, mini-apps and Premium; huge in India. Compare with WhatsApp."
+ },
+ {
+  "rank": 131,
+  "company": "LinkedIn",
+  "website": "linkedin.com",
+  "domain": "linkedin.com",
+  "market": "US · global",
+  "category": "Professional network",
+  "section": "Social, messaging and dating",
+  "why": "Network effects, Premium how it makes money and creator feed; every APM uses it."
+ },
+ {
+  "rank": 132,
+  "company": "ShareChat / Moj",
+  "website": "sharechat.com",
+  "domain": "sharechat.com",
+  "market": "India",
+  "category": "Social / short video",
+  "section": "Social, messaging and dating",
+  "why": "Vernacular social for Bharat; filled the TikTok gap after the 2020 ban."
+ },
+ {
+  "rank": 133,
+  "company": "Truecaller",
+  "website": "truecaller.com",
+  "domain": "truecaller.com",
+  "market": "Sweden · India-first",
+  "category": "Caller ID / communication",
+  "section": "Social, messaging and dating",
+  "why": "India is its biggest market; spam blocking, ads + subscription model."
+ },
+ {
+  "rank": 134,
+  "company": "Substack",
+  "website": "substack.com",
+  "domain": "substack.com",
+  "market": "US · global",
+  "category": "Creator publishing",
+  "section": "Social, messaging and dating",
+  "why": "Paid newsletters and network effects through recommendations."
+ },
+ {
+  "rank": 135,
+  "company": "Tinder",
+  "website": "tinder.com",
+  "domain": "tinder.com",
+  "market": "US · global",
+  "category": "Dating",
+  "section": "Social, messaging and dating",
+  "why": "Swipe pioneer losing Gen Z; free-plus-paid how it makes money."
+ },
+ {
+  "rank": 136,
+  "company": "Bumble",
+  "website": "bumble.com",
+  "domain": "bumble.com",
+  "market": "US/UK",
+  "category": "Dating",
+  "section": "Social, messaging and dating",
+  "why": "Women-first design; 2025 reset and the decline of swipe-based dating."
+ },
+ {
+  "rank": 137,
+  "company": "Hinge",
+  "website": "hinge.co",
+  "domain": "hinge.co",
+  "market": "US/UK",
+  "category": "Dating",
+  "section": "Social, messaging and dating",
+  "why": "'Designed to be deleted' positioning; prompts design and the fastest-growing Match app."
+ },
+ {
+  "rank": 138,
+  "company": "YouTube",
+  "website": "youtube.com",
+  "domain": "youtube.com",
+  "market": "US · global",
+  "category": "Video platform",
+  "section": "Video, music, reading and games",
+  "why": "Creator economy, Shorts vs. long-form, YouTube Premium and TV-first viewing."
+ },
+ {
+  "rank": 139,
+  "company": "Netflix",
+  "website": "netflix.com",
+  "domain": "netflix.com",
+  "market": "US · global",
+  "category": "Streaming",
+  "section": "Video, music, reading and games",
+  "why": "Recommendations, ad tier, password-sharing crackdown and live events."
+ },
+ {
+  "rank": 140,
+  "company": "JioHotstar",
+  "website": "jiohotstar.com",
+  "domain": "jiohotstar.com",
+  "market": "India",
+  "category": "online streaming",
+  "section": "Video, music, reading and games",
+  "why": "2025 merger of JioCinema and Disney+ Hotstar; IPL/cricket peaks, free-plus-paid tiers, ads."
+ },
+ {
+  "rank": 141,
+  "company": "Spotify",
+  "website": "spotify.com",
+  "domain": "spotify.com",
+  "market": "Sweden · global",
+  "category": "Music / audio",
+  "section": "Video, music, reading and games",
+  "why": "Personalisation (Wrapped, DJ), podcasts and audiobooks; free-plus-paid conversion."
+ },
+ {
+  "rank": 142,
+  "company": "BBC iPlayer",
+  "website": "bbc.co.uk/iplayer",
+  "domain": "bbc.co.uk",
+  "market": "UK",
+  "category": "Public streaming",
+  "section": "Video, music, reading and games",
+  "why": "Public-service streaming with log-ins and licence fee constraints."
+ },
+ {
+  "rank": 143,
+  "company": "Sky (Sky Glass)",
+  "website": "sky.com",
+  "domain": "sky.com",
+  "market": "UK",
+  "category": "TV / streaming",
+  "section": "Video, music, reading and games",
+  "why": "app that combines many sellers TV and Sky Glass hardware; bundling content."
+ },
+ {
+  "rank": 144,
+  "company": "Twitch",
+  "website": "twitch.tv",
+  "domain": "twitch.tv",
+  "market": "US · global",
+  "category": "Live streaming",
+  "section": "Video, music, reading and games",
+  "why": "Live creator economy; subs, bits and competition from YouTube and Kick."
+ },
+ {
+  "rank": 145,
+  "company": "CapCut",
+  "website": "capcut.com",
+  "domain": "capcut.com",
+  "market": "China · US/UK",
+  "category": "Video editing",
+  "section": "Video, music, reading and games",
+  "why": "Creator tool that rides TikTok; banned in India."
+ },
+ {
+  "rank": 146,
+  "company": "Pocket FM",
+  "website": "pocketfm.com",
+  "domain": "pocketfm.com",
+  "market": "India · US",
+  "category": "Audio series",
+  "section": "Video, music, reading and games",
+  "why": "Micro-payment audio dramas; grew fast in the US too. New content format case."
+ },
+ {
+  "rank": 147,
+  "company": "Kuku FM",
+  "website": "kukufm.com",
+  "domain": "kukufm.com",
+  "market": "India",
+  "category": "Audio / video",
+  "section": "Video, music, reading and games",
+  "why": "Vernacular audiobooks and micro-dramas; filed for IPO."
+ },
+ {
+  "rank": 148,
+  "company": "Kindle",
+  "website": "amazon.com/kindle",
+  "domain": "amazon.com-kindle",
+  "market": "US · global",
+  "category": "E-reading",
+  "section": "Video, music, reading and games",
+  "why": "Hardware sold cheap to sell content; ecosystem play."
+ },
+ {
+  "rank": 149,
+  "company": "BookMyShow",
+  "website": "bookmyshow.com",
+  "domain": "bookmyshow.com",
+  "market": "India",
+  "category": "Entertainment ticketing",
+  "section": "Video, music, reading and games",
+  "why": "Live-events boom (concerts) and handling ticket-drop traffic spikes."
+ },
+ {
+  "rank": 150,
+  "company": "Dream11",
+  "website": "dream11.com",
+  "domain": "dream11.com",
+  "market": "India",
+  "category": "Fantasy sports",
+  "section": "Video, music, reading and games",
+  "why": "Had to rethink its model after the 2025 online real-money gaming ban; change of direction strategy case."
+ },
+ {
+  "rank": 151,
+  "company": "Roblox",
+  "website": "roblox.com",
+  "domain": "roblox.com",
+  "market": "US · global",
+  "category": "Gaming platform",
+  "section": "Video, music, reading and games",
+  "why": "User-generated games and creator payouts; child safety."
+ },
+ {
+  "rank": 152,
+  "company": "Steam",
+  "website": "store.steampowered.com",
+  "domain": "store.steampowered.com",
+  "market": "US · global",
+  "category": "Gaming platform",
+  "section": "Video, music, reading and games",
+  "why": "PC games marketplace; reviews, sales and Steam Deck."
+ },
+ {
+  "rank": 153,
+  "company": "Notion",
+  "website": "notion.so",
+  "domain": "notion.so",
+  "market": "US · global",
+  "category": "Productivity",
+  "section": "Work and productivity tools",
+  "why": "Templates and community-led growth; adding AI to an existing product."
+ },
+ {
+  "rank": 154,
+  "company": "Figma",
+  "website": "figma.com",
+  "domain": "figma.com",
+  "market": "US · global",
+  "category": "Design / collaboration",
+  "section": "Work and productivity tools",
+  "why": "Many people can edit the same file at once; 2025 IPO and expansion into Make, Sites and Slides."
+ },
+ {
+  "rank": 155,
+  "company": "Canva",
+  "website": "canva.com",
+  "domain": "canva.com",
+  "market": "Australia · global",
+  "category": "Design",
+  "section": "Work and productivity tools",
+  "why": "Free-plus-paid for non-designers; huge user base in India; good international expansion case."
+ },
+ {
+  "rank": 156,
+  "company": "Slack",
+  "website": "slack.com",
+  "domain": "slack.com",
+  "market": "US · global",
+  "category": "Workplace comms",
+  "section": "Work and productivity tools",
+  "why": "Bottom-up business adoption and the 2,000-message 'aha' metric; classic growth through the product itself case."
+ },
+ {
+  "rank": 157,
+  "company": "Microsoft Teams",
+  "website": "microsoft.com/microsoft-teams",
+  "domain": "teams.microsoft.com",
+  "market": "US · global",
+  "category": "Workplace comms",
+  "section": "Work and productivity tools",
+  "why": "Won by bundling with Office; a key competitive-strategy case vs. Slack."
+ },
+ {
+  "rank": 158,
+  "company": "Zoom",
+  "website": "zoom.com",
+  "domain": "zoom.com",
+  "market": "US · global",
+  "category": "Video conferencing",
+  "section": "Work and productivity tools",
+  "why": "Simplicity as a edge over rivals; post-pandemic retention and moving into a platform."
+ },
+ {
+  "rank": 159,
+  "company": "Google Meet",
+  "website": "meet.google.com",
+  "domain": "meet.google.com",
+  "market": "US · global",
+  "category": "Video calls",
+  "section": "Work and productivity tools",
+  "why": "Free inside Gmail; compare with Zoom on bundled vs. standalone video calls."
+ },
+ {
+  "rank": 160,
+  "company": "Gmail & Google Workspace",
+  "website": "workspace.google.com",
+  "domain": "workspace.google.com",
+  "market": "US · global",
+  "category": "Productivity",
+  "section": "Work and productivity tools",
+  "why": "Gemini inside Gmail and Docs; bundling AI into tools people already use."
+ },
+ {
+  "rank": 161,
+  "company": "Microsoft Excel",
+  "website": "microsoft.com/excel",
+  "domain": "microsoft.com-excel",
+  "market": "US · global",
+  "category": "Productivity",
+  "section": "Work and productivity tools",
+  "why": "Most used business tool; Copilot in Excel."
+ },
+ {
+  "rank": 162,
+  "company": "Jira (Atlassian)",
+  "website": "atlassian.com",
+  "domain": "atlassian.com",
+  "market": "Australia · global",
+  "category": "Work management",
+  "section": "Work and productivity tools",
+  "why": "The PM's own tool; sales-less business growth."
+ },
+ {
+  "rank": 163,
+  "company": "Miro",
+  "website": "miro.com",
+  "domain": "miro.com",
+  "market": "Netherlands · global",
+  "category": "Collaboration",
+  "section": "Work and productivity tools",
+  "why": "Visual whiteboard; growth through the product itself in teams."
+ },
+ {
+  "rank": 164,
+  "company": "HubSpot",
+  "website": "hubspot.com",
+  "domain": "hubspot.com",
+  "market": "US · global",
+  "category": "CRM / marketing software",
+  "section": "Work and productivity tools",
+  "why": "Free-plus-paid business and inbound marketing playbook."
+ },
+ {
+  "rank": 165,
+  "company": "Calendly",
+  "website": "calendly.com",
+  "domain": "calendly.com",
+  "market": "US · global",
+  "category": "Scheduling",
+  "section": "Work and productivity tools",
+  "why": "Viral loop where every invite markets the product."
+ },
+ {
+  "rank": 166,
+  "company": "Fresha",
+  "website": "fresha.com",
+  "domain": "fresha.com",
+  "market": "UK · global",
+  "category": "Booking software",
+  "section": "Work and productivity tools",
+  "why": "Free booking software for salons, making money via payments."
+ },
+ {
+  "rank": 167,
+  "company": "Duolingo",
+  "website": "duolingo.com",
+  "domain": "duolingo.com",
+  "market": "US · global",
+  "category": "Online learning",
+  "section": "Learning and jobs",
+  "why": "Gamification, streaks and notifications; went AI-first in 2025. A top interview favourite."
+ },
+ {
+  "rank": 168,
+  "company": "Physics Wallah",
+  "website": "pw.live",
+  "domain": "pw.live",
+  "market": "India",
+  "category": "Online learning",
+  "section": "Learning and jobs",
+  "why": "Listed on the stock market; affordable creator-led online learning that survived the online learning crash."
+ },
+ {
+  "rank": 169,
+  "company": "BYJU'S",
+  "website": "byjus.com",
+  "domain": "byjus.com",
+  "market": "India",
+  "category": "Online learning (failed)",
+  "section": "Learning and jobs",
+  "why": "From India's top startup to insolvency; growth-at-all-costs lessons."
+ },
+ {
+  "rank": 170,
+  "company": "Multiverse",
+  "website": "multiverse.io",
+  "domain": "multiverse.io",
+  "market": "UK · US",
+  "category": "Workforce online learning",
+  "section": "Learning and jobs",
+  "why": "Apprenticeships as an alternative to university; AI skills."
+ },
+ {
+  "rank": 171,
+  "company": "Naukri",
+  "website": "naukri.com",
+  "domain": "naukri.com",
+  "market": "India",
+  "category": "Jobs",
+  "section": "Learning and jobs",
+  "why": "Profitable classifieds leader; free-plus-paid recruiter how it makes money (Info Edge)."
+ },
+ {
+  "rank": 172,
+  "company": "Apna",
+  "website": "apna.co",
+  "domain": "apna.co",
+  "market": "India",
+  "category": "Jobs",
+  "section": "Learning and jobs",
+  "why": "Jobs and community for blue-collar workers; compare with Naukri."
+ },
+ {
+  "rank": 173,
+  "company": "Practo",
+  "website": "practo.com",
+  "domain": "practo.com",
+  "market": "India",
+  "category": "Health app",
+  "section": "Health and fitness",
+  "why": "Doctor discovery and teleconsultation; trust and designing a marketplace for doctors and patients."
+ },
+ {
+  "rank": 174,
+  "company": "Cult.fit",
+  "website": "cult.fit",
+  "domain": "cult.fit",
+  "market": "India",
+  "category": "Fitness",
+  "section": "Health and fitness",
+  "why": "Gyms, at-home and online classes in one membership; offline + digital bundling."
+ },
+ {
+  "rank": 175,
+  "company": "Hims & Hers",
+  "website": "forhims.com",
+  "domain": "forhims.com",
+  "market": "US",
+  "category": "Telehealth direct-to-customer",
+  "section": "Health and fitness",
+  "why": "Destigmatising care with direct-to-customer branding; growth from weight-loss drugs."
+ },
+ {
+  "rank": 176,
+  "company": "Babylon Health",
+  "website": "babylonhealth.com",
+  "domain": "babylonhealth.com",
+  "market": "UK",
+  "category": "Health app (failed)",
+  "section": "Health and fitness",
+  "why": "AI health promise that collapsed; failure teardown."
+ },
+ {
+  "rank": 177,
+  "company": "Calm",
+  "website": "calm.com",
+  "domain": "calm.com",
+  "market": "US · global",
+  "category": "Mental wellness",
+  "section": "Health and fitness",
+  "why": "Subscription wellness app; content and habit design."
+ },
+ {
+  "rank": 178,
+  "company": "Peloton",
+  "website": "onepeloton.com",
+  "domain": "onepeloton.com",
+  "market": "US",
+  "category": "Connected fitness",
+  "section": "Health and fitness",
+  "why": "Boom-and-bust case; hardware plus subscription."
+ },
+ {
+  "rank": 179,
+  "company": "Strava",
+  "website": "strava.com",
+  "domain": "strava.com",
+  "market": "US · global",
+  "category": "Fitness social",
+  "section": "Health and fitness",
+  "why": "Social fitness with a subscription; community features and retention."
+ },
+ {
+  "rank": 180,
+  "company": "WHOOP",
+  "website": "whoop.com",
+  "domain": "whoop.com",
+  "market": "US · global",
+  "category": "Wearables",
+  "section": "Health and fitness",
+  "why": "Screenless, subscription-only wearable; data as the product."
+ },
+ {
+  "rank": 181,
+  "company": "Oura Ring",
+  "website": "ouraring.com",
+  "domain": "ouraring.com",
+  "market": "Finland · global",
+  "category": "Wearables",
+  "section": "Health and fitness",
+  "why": "Ring form factor with subscription; compare with WHOOP."
+ },
+ {
+  "rank": 182,
+  "company": "Apple Vision Pro / iPhone",
+  "website": "apple.com",
+  "domain": "apple.com",
+  "market": "US · global",
+  "category": "Consumer hardware",
+  "section": "Phones, gadgets and hardware",
+  "why": "Ecosystem lock-in and the Vision Pro launch as a 'new category' case study."
+ },
+ {
+  "rank": 183,
+  "company": "Meta Ray-Ban glasses",
+  "website": "meta.com",
+  "domain": "meta.com",
+  "market": "US · global",
+  "category": "Wearables / AI",
+  "section": "Phones, gadgets and hardware",
+  "why": "2025's surprise hardware hit; AI on the face and finding a use case for a new form factor."
+ },
+ {
+  "rank": 184,
+  "company": "Nothing",
+  "website": "nothing.tech",
+  "domain": "nothing.tech",
+  "market": "UK · global",
+  "category": "Consumer hardware",
+  "section": "Phones, gadgets and hardware",
+  "why": "London phone brand with Glyph design; strong India sales; brand-led challenger."
+ },
+ {
+  "rank": 185,
+  "company": "Tesla",
+  "website": "tesla.com",
+  "domain": "tesla.com",
+  "market": "US · global",
+  "category": "EV / hardware + software",
+  "section": "Phones, gadgets and hardware",
+  "why": "Over-the-air updates, direct sales and FSD; hardware product thinking."
+ },
+ {
+  "rank": 186,
+  "company": "Plaud",
+  "website": "plaud.ai",
+  "domain": "plaud.ai",
+  "market": "US/China · global",
+  "category": "AI hardware",
+  "section": "Phones, gadgets and hardware",
+  "why": "AI voice recorder; hardware + subscription that debuted on 2026 spend charts."
+ },
+ {
+  "rank": 187,
+  "company": "Nintendo Switch 2",
+  "website": "nintendo.com",
+  "domain": "nintendo.com",
+  "market": "Japan · global",
+  "category": "Gaming hardware",
+  "section": "Phones, gadgets and hardware",
+  "why": "Fastest-selling console launch; hardware and games strategy."
+ },
+ {
+  "rank": 188,
+  "company": "Arm",
+  "website": "arm.com",
+  "domain": "arm.com",
+  "market": "UK · global",
+  "category": "Chips / design licensing",
+  "section": "Phones, gadgets and hardware",
+  "why": "Licensing business model that powers nearly every phone; good business platform case."
+ },
+ {
+  "rank": 189,
+  "company": "Urban Company",
+  "website": "urbancompany.com",
+  "domain": "urbancompany.com",
+  "market": "India",
+  "category": "Home services marketplace",
+  "section": "Home, property and services",
+  "why": "Supply-side quality control and standardising services; listed in 2025."
+ },
+ {
+  "rank": 190,
+  "company": "Zillow",
+  "website": "zillow.com",
+  "domain": "zillow.com",
+  "market": "US",
+  "category": "Real estate",
+  "section": "Home, property and services",
+  "why": "Failed buying homes itself change of direction; makes money by selling leads to agents."
+ },
+ {
+  "rank": 191,
+  "company": "Rightmove",
+  "website": "rightmove.co.uk",
+  "domain": "rightmove.co.uk",
+  "market": "UK",
+  "category": "Property portal",
+  "section": "Home, property and services",
+  "why": "Dominant marketplace with huge margins; network effects."
+ },
+ {
+  "rank": 192,
+  "company": "Octopus Energy (Kraken)",
+  "website": "octopus.energy",
+  "domain": "octopus.energy",
+  "market": "UK · global",
+  "category": "Energy",
+  "section": "Home, property and services",
+  "why": "UK's largest energy supplier; customer experience in a boring category."
+ },
+ {
+  "rank": 193,
+  "company": "Google Search (AI Mode)",
+  "website": "google.com",
+  "domain": "google.com",
+  "market": "US · global",
+  "category": "Search",
+  "section": "Platforms everyone builds on",
+  "why": "Biggest product shift of 2025: AI Overviews and AI Mode vs. the ads business."
+ },
+ {
+  "rank": 194,
+  "company": "Google Maps",
+  "website": "maps.google.com",
+  "domain": "maps.google.com",
+  "market": "US · global",
+  "category": "Maps",
+  "section": "Platforms everyone builds on",
+  "why": "The most common 'improve this product' question; local commerce and India features."
+ },
+ {
+  "rank": 195,
+  "company": "Android",
+  "website": "android.com",
+  "domain": "android.com",
+  "market": "US · global",
+  "category": "Mobile operating system",
+  "section": "Platforms everyone builds on",
+  "why": "Open platform strategy; dominant in India."
+ },
+ {
+  "rank": 196,
+  "company": "Google Chrome",
+  "website": "google.com/chrome",
+  "domain": "google.com-chrome",
+  "market": "US · global",
+  "category": "Browser",
+  "section": "Platforms everyone builds on",
+  "why": "AI browsers (Comet, Atlas) challenge it; Gemini in Chrome."
+ },
+ {
+  "rank": 197,
+  "company": "Apple App Store",
+  "website": "apps.apple.com",
+  "domain": "apps.apple.com",
+  "market": "US · global",
+  "category": "Platform",
+  "section": "Platforms everyone builds on",
+  "why": "Platform rules, fees and the impact of EU/UK regulation on app makers."
+ },
+ {
+  "rank": 198,
+  "company": "MyJio",
+  "website": "jio.com",
+  "domain": "jio.com",
+  "market": "India",
+  "category": "Telecom / platform",
+  "section": "Platforms everyone builds on",
+  "why": "Cheap data plans brought hundreds of millions of Indians online; one app for many Jio services."
+ },
+ {
+  "rank": 199,
+  "company": "Airtel Thanks",
+  "website": "airtel.in",
+  "domain": "airtel.in",
+  "market": "India",
+  "category": "Telecom app",
+  "section": "Platforms everyone builds on",
+  "why": "How a telecom company uses one app for bills, rewards, streaming and payments to keep users."
+ },
+ {
+  "rank": 200,
+  "company": "DigiLocker",
+  "website": "digilocker.gov.in",
+  "domain": "digilocker.gov.in",
+  "market": "India",
+  "category": "Public digital infrastructure",
+  "section": "Platforms everyone builds on",
+  "why": "India Stack thinking: why open public rails (Aadhaar, DigiLocker, UPI) changed how products get built."
+ }
+]

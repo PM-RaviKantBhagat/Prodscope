@@ -1,0 +1,246 @@
+{
+  "company": "ixigo",
+  "domain": "ixigo.com",
+  "website": "https://ixigo.com",
+  "sources": [
+    "https://www.outlookbusiness.com/markets/ixigos-q1fy26-profit-climbs-28-to-19cr-as-confirmtkt-abhibus-app-drive-73-revenue-surge",
+    "https://inc42.com/buzz/ixigo-q4-profit-rises-91-yoy-to-₹32-cr-revenue-grows-9/",
+    "https://yourstory.com/2026/10/ixigo-q2-profit-at-rs-63-cr-on-robust-show-in-hotel-booking-biz",
+    "https://inc42.com/buzz/can-hotels-become-ixigos-fourth-growth-engine/",
+    "https://www.phocuswire.com/news/finance/ixigo-revenue-up-13-hotel-business-gains-momentum"
+  ],
+  "report": {
+    "company": "ixigo",
+    "tagline": "ixigo is a travel app for everyday Indians, built around train tickets, buses and budget flights.",
+    "category": "Travel",
+    "simpleSummary": "ixigo helps you book train, bus and flight tickets and hotels from one app. Its big strength is trains: it tells you if your waitlisted ticket will confirm, where your train is right now, and which platform it will come on. It also owns ConfirmTkt for trains and AbhiBus for buses. It is listed on the stock market and makes a profit.",
+    "keyNumbers": [
+      { "label": "Net profit Q2 FY27", "value": "₹63 crore", "note": "July to September 2026, record quarter. Revenue up 13% year on year. YourStory and Inc42, October 2026." },
+      { "label": "Revenue FY25", "value": "About ₹914 crore", "note": "Company results; FY25 profit about ₹60 crore. From annual results, reasonable confidence." },
+      { "label": "Q1 FY26 revenue growth", "value": "73%", "note": "Outlook Business, July 2025, driven by ConfirmTkt, AbhiBus and flights." },
+      { "label": "Q4 FY26 profit", "value": "₹32 crore", "note": "Up 91% year on year with revenue up only 9%. Inc42." },
+      { "label": "Prosus stake", "value": "About ₹1,300 crore for about 10%", "note": "Prosus bought shares from existing investors in 2025. Reported widely; treat amount as approximate." }
+    ],
+    "overview": {
+      "whatItDoes": "ixigo is an online travel agent (OTA) focused on budget travellers in smaller cities. It sells train tickets as an authorised IRCTC partner, bus tickets through AbhiBus, flight tickets, and hotels. It earns a small fee or commission on each booking and on add-ons like free cancellation.",
+      "howItWorks": [
+        "You search a route and see trains, buses and flights together with prices and times.",
+        "For trains, the app shows confirmation chance for waitlisted tickets and suggests alternatives.",
+        "You log in with your IRCTC ID and book; ixigo charges a small convenience fee.",
+        "Add-ons like ixigo Assured (free cancellation) cost a small extra amount.",
+        "During the trip, live train status, PNR status and platform info keep you coming back.",
+        "An AI trip planner helps plan itineraries and answer questions."
+      ],
+      "valueProposition": "The easiest way for regular Indians to plan and book trains, buses and cheap flights, with tools that reduce the worry of waitlists and delays."
+    },
+    "personas": [
+      {
+        "name": "Student going home",
+        "description": "20-year-old studying in Pune, travels home to Bihar by train a few times a year.",
+        "goals": ["Get a confirmed seat at the lowest price", "Know if the waitlist will clear"],
+        "frustrations": ["Tatkal tickets sell out in seconds", "Waitlist tickets get cancelled"]
+      },
+      {
+        "name": "Small-town family traveller",
+        "description": "Family in a tier-3 town taking a train or bus to a wedding or pilgrimage.",
+        "goals": ["Simple booking in Hindi", "Live train location for family at home"],
+        "frustrations": ["Complex IRCTC website", "Delays with no information"]
+      },
+      {
+        "name": "First-time flyer",
+        "description": "Moving from AC train to budget flights for long trips.",
+        "goals": ["Cheapest fare", "Free cancellation if plans change"],
+        "frustrations": ["Hidden fees at checkout", "Slow refunds"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Not knowing whether a waitlisted train ticket will get confirmed.", "howSolved": "Confirmation prediction based on past data, plus alternative trains.", "severity": "high" },
+      { "pain": "IRCTC site is hard to use.", "howSolved": "Simpler app flow with saved passengers and faster checkout.", "severity": "high" },
+      { "pain": "Trains run late with no clear updates.", "howSolved": "Live running status and platform info, even offline using cell towers.", "severity": "medium" },
+      { "pain": "Cancellation charges eat into money if plans change.", "howSolved": "ixigo Assured free cancellation add-on.", "severity": "medium" },
+      { "pain": "Bus operators are many and unknown.", "howSolved": "AbhiBus listings with ratings and seat maps.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Train PNR and live running status", "whatItDoes": "Shows where the train is, delays and platform.", "whyItMatters": "Daily use feature that keeps the app on the phone and builds trust for bookings." },
+      { "feature": "Waitlist confirmation prediction", "whatItDoes": "Gives a percentage chance your ticket will confirm.", "whyItMatters": "Solves the biggest worry in Indian train travel." },
+      { "feature": "ixigo Assured", "whatItDoes": "Free cancellation for a small fee.", "whyItMatters": "High-margin add-on that also lowers booking fear." },
+      { "feature": "ConfirmTkt", "whatItDoes": "Separate train app with alternate route suggestions.", "whyItMatters": "Captures more train users; a key growth driver." },
+      { "feature": "AbhiBus", "whatItDoes": "Bus ticket booking.", "whyItMatters": "Adds a high-commission category and cross-selling." },
+      { "feature": "AI trip planner", "whatItDoes": "Chat to plan trips, check status and get answers.", "whyItMatters": "Makes travel planning easier for first-time online users." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Booking a train ticket",
+        "persona": "Student going home",
+        "steps": [
+          { "step": "Search", "detail": "Enters Pune to Patna and date." },
+          { "step": "Check availability", "detail": "Sees waitlist numbers and confirmation chance." },
+          { "step": "Pick alternative", "detail": "Picks a train with a better chance or a split route." },
+          { "step": "Add Assured", "detail": "Adds free cancellation." },
+          { "step": "IRCTC login", "detail": "Logs in and pays with UPI." },
+          { "step": "Track", "detail": "Gets PNR updates by notification." }
+        ]
+      },
+      {
+        "name": "Tracking a train on travel day",
+        "persona": "Small-town family traveller",
+        "steps": [
+          { "step": "Open app", "detail": "Checks running status." },
+          { "step": "See delay", "detail": "Train is 2 hours late." },
+          { "step": "Share", "detail": "Shares live location with family." },
+          { "step": "Platform", "detail": "Checks which platform to wait on." },
+          { "step": "Arrive", "detail": "Gets alert before own station." }
+        ]
+      },
+      {
+        "name": "Booking a cheap flight",
+        "persona": "First-time flyer",
+        "steps": [
+          { "step": "Search", "detail": "Compares flights and trains on the same route." },
+          { "step": "Sort by price", "detail": "Picks the cheapest IndiGo or Air India Express fare." },
+          { "step": "Add-ons", "detail": "Chooses free cancellation." },
+          { "step": "Pay", "detail": "Pays with UPI." },
+          { "step": "Web check-in", "detail": "Gets reminder and boarding pass in app." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "ixigo makes money from small fees on train tickets, commissions on bus and flight tickets and hotels, add-ons like free cancellation, and some ads.",
+      "revenueStreams": [
+        { "stream": "Train convenience fees", "detail": "A small fee on each IRCTC ticket booked." },
+        { "stream": "Bus commissions", "detail": "A cut from bus operators through AbhiBus." },
+        { "stream": "Flight and hotel commissions", "detail": "Commission from airlines, hotels and partners." },
+        { "stream": "Add-ons", "detail": "ixigo Assured, travel insurance and others." },
+        { "stream": "Advertising", "detail": "Ads to the large base of users checking train status." }
+      ],
+      "pricing": "Fare plus convenience fee shown at checkout. Free cancellation add-ons cost extra and vary by ticket.",
+      "costDrivers": [
+        "Payment gateway charges",
+        "Marketing, especially for flights",
+        "Tech and data costs",
+        "Discounts and cashback",
+        "Customer support"
+      ],
+      "unitEconomics": "On a ₹1,000 train ticket, ixigo may earn about ₹30 to ₹60 from the convenience fee and add-ons. That is small, but it costs almost nothing to get the user, because they already use ixigo for free train status. A bus ticket earns more, often 8% to 12% commission. Low marketing cost per booking is why ixigo makes a profit while many travel apps do not."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free train status and PNR search that rank high on Google",
+        "Buying ConfirmTkt and AbhiBus to add users",
+        "Word of mouth in small towns",
+        "Cross-selling buses and flights to train users"
+      ],
+      "whatBringsUsersBack": [
+        "Checking train status on every trip",
+        "Saved passengers and IRCTC login",
+        "Festival and holiday travel every year"
+      ],
+      "moat": "ixigo has years of data on train waitlists, delays and routes, and a huge base of users who open the app for free utilities. Big players like MakeMyTrip focus on richer flyers, so the budget train-first user is ixigo's home ground."
+    },
+    "competitors": [
+      { "name": "IRCTC", "positioning": "Official railway booking site and app.", "howThisProductDiffers": "ixigo is simpler and adds predictions and live status." },
+      { "name": "MakeMyTrip / Goibibo / redBus", "positioning": "Largest online travel group, strong in flights, hotels and buses.", "howThisProductDiffers": "ixigo targets budget, train-first users in smaller cities." },
+      { "name": "Paytm, PhonePe and Google Pay", "positioning": "Payment apps that also sell tickets.", "howThisProductDiffers": "ixigo has deeper train tools and travel focus." },
+      { "name": "Where is my Train (Google)", "positioning": "Free train status app.", "howThisProductDiffers": "ixigo combines status with booking." }
+    ],
+    "northStar": {
+      "metric": "Confirmed trips booked per month",
+      "why": "Users get value when they travel with a confirmed seat. It ties together booking, the right train choice and trust."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly active users",
+        "description": "People using the app.",
+        "children": [
+          { "metric": "Train status users", "description": "The free top-of-funnel." },
+          { "metric": "App installs", "description": "New users." }
+        ]
+      },
+      {
+        "metric": "Booking conversion",
+        "description": "Share of searchers who book.",
+        "children": [
+          { "metric": "IRCTC login success", "description": "Failed logins kill bookings." },
+          { "metric": "Payment success rate", "description": "Failed payments lose users." }
+        ]
+      },
+      {
+        "metric": "Cross-sell",
+        "description": "Users booking more than one category.",
+        "children": [
+          { "metric": "Train to bus users", "description": "Bus earns more per ticket." },
+          { "metric": "Train to flight users", "description": "Upgrades as income rises." }
+        ]
+      },
+      {
+        "metric": "Add-on attach rate",
+        "description": "Share of bookings with Assured or insurance.",
+        "children": [
+          { "metric": "Assured uptake", "description": "Main add-on income." },
+          { "metric": "Claim experience", "description": "Easy claims build trust." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Refund time",
+      "Prediction accuracy for waitlist confirmation",
+      "App crash rate",
+      "Hidden fee complaints"
+    ],
+    "strengths": [
+      "Profitable and listed",
+      "Leader in train booking tools",
+      "Low cost to get users",
+      "Multiple apps: ixigo, ConfirmTkt, AbhiBus"
+    ],
+    "weaknesses": [
+      "Small fee per train ticket",
+      "Weaker in flights and hotels than MakeMyTrip",
+      "Depends on IRCTC rules"
+    ],
+    "risks": [
+      "IRCTC or the railways could change partner rules or fees",
+      "Airline slowdowns hurt flight revenue",
+      "Payment apps compete on cashback",
+      "Railways improving their own app"
+    ],
+    "userComplaints": [
+      "Refunds take long",
+      "Convenience fees feel high",
+      "Waitlist prediction sometimes wrong",
+      "Too many ads in the app"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show total price including all fees on the first screen", "problem": "Users feel fees are hidden.", "expectedImpact": "More trust and conversion.", "metricToTrack": "Checkout drop-off", "effort": "low" },
+      { "idea": "Auto-book backup train if waitlist does not clear", "problem": "Users stranded when tickets do not confirm.", "expectedImpact": "More confirmed trips.", "metricToTrack": "Share of waitlisted users who still travel", "effort": "high" },
+      { "idea": "Instant refund to wallet for Assured users", "problem": "Slow refunds.", "expectedImpact": "Higher Assured uptake.", "metricToTrack": "Refund time and Assured attach rate", "effort": "medium" },
+      { "idea": "Bus suggestions when trains are full", "problem": "Users drop off when no trains are available.", "expectedImpact": "More bus bookings.", "metricToTrack": "Train-to-bus cross-sell", "effort": "low" }
+    ],
+    "pmLessons": [
+      "A free, useful tool (train status) can be the cheapest way to get users.",
+      "Serving a less glamorous segment can be a profitable niche.",
+      "Small fees add up when you have very low costs to get each user.",
+      "Buying apps in nearby categories can speed up growth."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you increase ixigo's flight bookings among train users?", "hint": "Find users on long routes, show the price gap, offer first-flight help." },
+      { "question": "What should ixigo build with AI?", "hint": "Pick a real pain like waitlists or delays. Describe the flow and a metric." },
+      { "question": "Design ixigo for a first-time smartphone user in a village.", "hint": "Voice, local language, simple flow, trust signals." },
+      { "question": "How would you measure success of ixigo Assured?", "hint": "Attach rate, claims, repeat bookings, profit per add-on." },
+      { "question": "IRCTC raises the partner fee. What do you do?", "hint": "Model impact, pass on part, push add-ons, grow bus." }
+    ],
+    "glossary": [
+      { "term": "OTA", "meaning": "Online travel agent: a website or app that sells tickets and hotels from many providers." },
+      { "term": "Convenience fee", "meaning": "A small extra charge on each booking." },
+      { "term": "Cross-sell", "meaning": "Getting a user of one product to buy another." },
+      { "term": "Attach rate", "meaning": "The share of bookings that also include an add-on." },
+      { "term": "North star metric", "meaning": "The one number that best shows whether users are getting value." }
+    ],
+    "assumptions": [
+      "Per-ticket earnings are estimates, not reported figures.",
+      "FY26 full-year totals were not confirmed in search results; quarterly numbers are shown.",
+      "Bus commission range is typical for the industry.",
+      "Prosus stake details are from 2025 news and may have changed."
+    ]
+  }
+}

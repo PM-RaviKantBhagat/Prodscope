@@ -1,0 +1,550 @@
+{
+  "company": "Zepto",
+  "domain": "zepto.com",
+  "website": "https://zepto.com",
+  "sources": [
+    "https://www.indmoney.com/blog/ipo/zepto-drhp-analysis-how-it-compares-with-blinkit-and-instamart",
+    "https://www.businesstoday.in/latest/corporate/story/inside-zeptos-1bn-ipo-revenue-surge-mounting-losses-cac-pressures-ed-cloud-535709-2026-06-09",
+    "https://inc42.com/buzz/zepto-to-now-re-attempt-ipo-by-may-2027-report/",
+    "https://thenextweb.com/news/zepto-ipo-delay-private-funding-india-quick-commerce",
+    "https://techcrunch.com/2025/10/16/zepto-raises-450-million-at-7-billion-valuation-as-indian-quick-commerce-market-heats-up",
+    "https://inc42.com/buzz/ccpa-slaps-inr-7-lakh-penalty-on-zepto-over-dark-patterns/",
+    "https://www.outlookbusiness.com/corporate/blinkit-widens-quick-commerce-lead-matches-rivals-zepto-and-instamart-combined-in-scale"
+  ],
+  "report": {
+    "company": "Zepto",
+    "tagline": "A 10-minute grocery and essentials delivery app, with its own quick café, racing to grow fast and reach profit before its stock market listing.",
+    "category": "Quick commerce",
+    "simpleSummary": "Zepto is an app where you order groceries, snacks, beauty products and even hot coffee, and it reaches you in about 10 minutes. It was started in 2021 by two 19-year-olds who left Stanford. It keeps small warehouses close to homes so riders only travel about 2 km. It is India's second-biggest quick delivery app by orders, but it still loses a lot of money and has delayed its stock market listing to 2027.",
+    "keyNumbers": [
+      {
+        "label": "Revenue in FY26 (April 2025 to March 2026)",
+        "value": "₹22,624 crore, about double the year before",
+        "note": "Zepto's updated IPO filing (UDRHP), June 2026."
+      },
+      {
+        "label": "Net loss in FY26",
+        "value": "₹5,905 crore, up 26% from ₹4,699 crore",
+        "note": "Zepto's updated IPO filing, June 2026."
+      },
+      {
+        "label": "Orders in FY26",
+        "value": "640 million orders, about 1.75 million a day",
+        "note": "IPO filing data as reported by INDmoney and Outlook Business, 2026."
+      },
+      {
+        "label": "Yearly customers",
+        "value": "48 million people ordered at least once in FY26, up from 10.6 million in FY24",
+        "note": "Annual transacting users from the IPO filing, via INDmoney."
+      },
+      {
+        "label": "Loss per order",
+        "value": "About ₹79 lost per order in FY26, better than ₹136 in FY25",
+        "note": "Adjusted EBITDA per order, IPO filing."
+      },
+      {
+        "label": "Valuation",
+        "value": "$7 billion at last private round (October 2025); public investors reportedly offered only $2.5 to $3 billion in 2026",
+        "note": "TechCrunch October 2025; Bloomberg via TNW and Inc42, August 2026. Pre-IPO round reported near $4.5 billion."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Zepto delivers groceries, fresh food, household items, beauty, electronics and café food like coffee and sandwiches in about 10 minutes. It runs about 1,100 dark stores in big and mid-sized Indian cities. It filed for an IPO in 2026 but paused it in August 2026 after investors offered a much lower value, and now aims to list by around May 2027.",
+      "howItWorks": [
+        "Zepto runs dark stores, small warehouses closed to walk-in shoppers, each serving homes about 2 km around it. Average delivery distance fell to 1.83 km by early 2026.",
+        "Store staff pick and pack orders in a couple of minutes using a layout designed for speed.",
+        "Riders pick up the bag and deliver it, so most orders arrive in about 10 minutes.",
+        "Zepto Cafe counters inside many stores make tea, coffee and snacks for 10-minute food delivery.",
+        "Brands pay Zepto to show their products higher in the app, which has become a big money maker.",
+        "Zepto offers deals and a membership plan (Zepto Pass) to make users order more often."
+      ],
+      "valueProposition": "Get daily needs and a hot snack in about 10 minutes, with lots of deals, from an app that feels quick and simple."
+    },
+    "personas": [
+      {
+        "name": "Young working professional in Mumbai or Bengaluru",
+        "description": "A 26-year-old living in a rented flat who orders several times a week.",
+        "goals": [
+          "Quick dinner ingredients after work",
+          "Morning coffee and breakfast without stepping out",
+          "Good deals on regular items"
+        ],
+        "frustrations": [
+          "Fees and prices that change from order to order",
+          "Items that show in stock but get cancelled after ordering"
+        ]
+      },
+      {
+        "name": "Home manager of a family",
+        "description": "A 40-year-old who handles household shopping for a family of four.",
+        "goals": [
+          "Fresh fruits, vegetables and milk every day",
+          "Avoid running out of essentials",
+          "Save money with offers"
+        ],
+        "frustrations": [
+          "Poor quality or spoiled vegetables",
+          "Refund delays for missing items"
+        ]
+      },
+      {
+        "name": "College student",
+        "description": "A 20-year-old in a hostel or PG who orders snacks, drinks and late-night food.",
+        "goals": [
+          "Cheap snacks fast",
+          "Café items at lower prices than a coffee chain"
+        ],
+        "frustrations": [
+          "Small-order fees on cheap carts",
+          "Late-night delivery slower than promised"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Forgot an ingredient while cooking",
+        "howSolved": "One-item orders delivered in about 10 minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Craving coffee or a snack without a café nearby",
+        "howSolved": "Zepto Cafe makes drinks and snacks in the dark store and delivers them hot in minutes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Running out of daily essentials like milk and bread",
+        "howSolved": "Early-morning delivery and quick reorder from past orders.",
+        "severity": "high"
+      },
+      {
+        "pain": "Spending weekends on shopping trips",
+        "howSolved": "Full baskets of groceries and household items at home.",
+        "severity": "medium"
+      },
+      {
+        "pain": "High prices at nearby convenience stores",
+        "howSolved": "Frequent discounts, brand offers and super-saver deals.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "10-minute delivery",
+        "whatItDoes": "Shows how many minutes delivery will take and delivers from a store about 2 km away.",
+        "whyItMatters": "Speed is Zepto's main promise and the reason people install it."
+      },
+      {
+        "feature": "Zepto Cafe",
+        "whatItDoes": "Fresh tea, coffee, sandwiches and snacks made in the dark store and delivered in minutes; also a separate Zepto Cafe app.",
+        "whyItMatters": "Café items have better margins and bring users back daily, not just weekly."
+      },
+      {
+        "feature": "Zepto Pass membership",
+        "whatItDoes": "A paid plan that gives free delivery and extra discounts on orders above a limit.",
+        "whyItMatters": "Locks in heavy users and makes them order more often from Zepto instead of rivals."
+      },
+      {
+        "feature": "Ads platform for brands",
+        "whatItDoes": "Lets brands buy top spots in search and banners; ad revenue grew from ₹49 crore in FY24 to ₹1,636 crore in FY26.",
+        "whyItMatters": "Ads are the highest-margin money and a key path to cutting losses."
+      },
+      {
+        "feature": "Wider range of products",
+        "whatItDoes": "About 50,000 items per store by early 2026, up from about 12,000 in FY24, including electronics, beauty and toys.",
+        "whyItMatters": "More items mean bigger baskets and more reasons to open the app."
+      },
+      {
+        "feature": "Live tracking and quick support chat",
+        "whatItDoes": "Shows order status live and lets users report missing or damaged items in the app.",
+        "whyItMatters": "Builds trust in speed and handles problems without phone calls."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First order",
+        "persona": "Young working professional in Mumbai or Bengaluru",
+        "steps": [
+          {
+            "step": "Sees a reel or a friend's order",
+            "detail": "Notices Zepto's quick delivery and first-order offer."
+          },
+          {
+            "step": "Installs and logs in",
+            "detail": "Uses phone number and OTP and shares location."
+          },
+          {
+            "step": "Browses deals",
+            "detail": "Home screen shows delivery time, deals and café items."
+          },
+          {
+            "step": "Builds a cart",
+            "detail": "Adds groceries and a cold coffee to reach the free-delivery limit."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays with UPI and applies a first-order coupon."
+          },
+          {
+            "step": "Receives in minutes",
+            "detail": "Order arrives in about 10 minutes."
+          }
+        ]
+      },
+      {
+        "name": "Daily café habit",
+        "persona": "College student",
+        "steps": [
+          {
+            "step": "Morning craving",
+            "detail": "Wants coffee before an 8 am class."
+          },
+          {
+            "step": "Opens Zepto Cafe",
+            "detail": "Picks a cold coffee and a sandwich at lower prices than a chain café."
+          },
+          {
+            "step": "Adds a snack for later",
+            "detail": "Adds biscuits from the grocery section to the same order."
+          },
+          {
+            "step": "Gets it fast",
+            "detail": "Receives the order hot in about 10 to 15 minutes."
+          },
+          {
+            "step": "Builds habit",
+            "detail": "Repeats several mornings a week."
+          }
+        ]
+      },
+      {
+        "name": "Joining Zepto Pass",
+        "persona": "Home manager of a family",
+        "steps": [
+          {
+            "step": "Sees a prompt",
+            "detail": "At checkout, the app shows how much she would save with Zepto Pass."
+          },
+          {
+            "step": "Compares cost",
+            "detail": "Sees the plan pays back in a few orders."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Pays for the pass via UPI."
+          },
+          {
+            "step": "Orders more often",
+            "detail": "Now orders milk and vegetables daily since delivery is free above the limit."
+          },
+          {
+            "step": "Renews or cancels",
+            "detail": "Decides at renewal time based on savings shown in the app."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Zepto earns from the margin on goods it sells, ad money from brands, fees and memberships from customers, and café food sales. In FY26 it still lost about ₹79 on every order after paying riders, stores and discounts. Its plan is to cut that loss using ads, café sales and busier stores.",
+      "revenueStreams": [
+        {
+          "stream": "Product sales margin",
+          "detail": "Zepto earns the gap between what it pays for goods and what customers pay. This is most of the ₹22,624 crore revenue."
+        },
+        {
+          "stream": "Brand advertising",
+          "detail": "₹1,636 crore in FY26. Brands buy search and banner spots; they report 5 to 8 times return on ad spend."
+        },
+        {
+          "stream": "Zepto Cafe",
+          "detail": "Freshly made drinks and snacks, which earn more per item than packaged groceries."
+        },
+        {
+          "stream": "Customer fees and Zepto Pass",
+          "detail": "Delivery, handling and small cart fees, plus paid membership."
+        }
+      ],
+      "pricing": "Products at or below MRP with frequent discounts. Delivery is free above a basket limit (often around ₹99 to ₹199 depending on city and membership). Small-cart and handling fees apply at times. Zepto Pass price varies by city and offer. Exact fees not public.",
+      "costDrivers": [
+        "Delivery and handling: ₹3,046 crore in FY26, up over 90%",
+        "Dark-store rent, staff and cold storage",
+        "Advertising and promotions: ₹1,389 crore in FY26",
+        "Discounts to win users from Blinkit and Instamart",
+        "Wastage of fresh food and café ingredients",
+        "Technology and new store openings"
+      ],
+      "unitEconomics": "In FY26 Zepto spent about ₹128 to serve each order (down from ₹159 in FY24). On an average order of about ₹500 to ₹550 (estimate), it earns roughly ₹90 to ₹100 from product margin, ads and fees. So it loses money on each order: its own number is about ₹79 lost per order after all running costs (adjusted EBITDA). The loss is shrinking because riders travel shorter distances, stores get busier, and ad revenue grows. Zepto must cut this to zero before investors will pay a high price in an IPO."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Opening new dark stores in new areas and cities",
+        "Heavy discounts and first-order offers",
+        "Youthful brand marketing on Instagram and YouTube",
+        "Zepto Cafe as a new reason to try the app",
+        "Referral rewards"
+      ],
+      "whatBringsUsersBack": [
+        "Daily café habit for coffee and snacks",
+        "Zepto Pass makes free delivery feel worth using often",
+        "Order Again list for daily items",
+        "Push notifications for flash deals",
+        "Fast and reliable delivery builds trust"
+      ],
+      "moat": "Zepto's moat is still being built. Its strengths are tight store locations (short 1.8 km trips), a fast-growing ads business and Zepto Cafe, which rivals copied but Zepto scaled first. But Blinkit is bigger and already profitable, so Zepto's edge depends on executing better, not on something rivals cannot copy."
+    },
+    "competitors": [
+      {
+        "name": "Blinkit",
+        "positioning": "Market leader owned by Eternal (Zomato), with about 46% share and EBITDA profit.",
+        "howThisProductDiffers": "Zepto is smaller (640 million vs 917 million orders in FY26) and loss-making, but pushes café food harder and is seen as more aggressive on deals."
+      },
+      {
+        "name": "Swiggy Instamart",
+        "positioning": "Quick commerce inside Swiggy's food app, sold with Swiggy One.",
+        "howThisProductDiffers": "Zepto has more orders than Instamart (640 million vs 412 million) and is a stand-alone brand, but lacks a food-delivery app to cross-sell from."
+      },
+      {
+        "name": "Flipkart Minutes and Amazon Now",
+        "positioning": "Big e-commerce players adding 10-minute delivery.",
+        "howThisProductDiffers": "Zepto is focused only on speed and daily needs; the giants have deeper pockets and huge existing users."
+      },
+      {
+        "name": "Starbucks, Third Wave Coffee and local cafés",
+        "positioning": "Coffee chains with sit-in and delivery through food apps.",
+        "howThisProductDiffers": "Zepto Cafe is cheaper and faster for delivery, but offers no place to sit and a narrower menu."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly orders delivered on time and complete per active customer",
+      "why": "It shows whether users are building a habit with Zepto and getting what they ordered fast. More reliable repeat orders also make stores busier and cut loss per order."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "People who order at least once a month.",
+        "children": [
+          {
+            "metric": "New store reach",
+            "description": "Homes within 10-minute reach of a Zepto store."
+          },
+          {
+            "metric": "First-to-second order rate",
+            "description": "Share of new users who order a second time within 30 days."
+          },
+          {
+            "metric": "CAC",
+            "description": "Customer acquisition cost: money spent to win one new paying customer."
+          }
+        ]
+      },
+      {
+        "metric": "Order frequency",
+        "description": "Orders per active customer per month.",
+        "children": [
+          {
+            "metric": "Zepto Pass adoption",
+            "description": "Share of active users with a membership."
+          },
+          {
+            "metric": "Café attach rate",
+            "description": "Share of users who also buy from Zepto Cafe."
+          },
+          {
+            "metric": "Categories bought per user",
+            "description": "More categories mean more reasons to order."
+          }
+        ]
+      },
+      {
+        "metric": "Delivery reliability",
+        "description": "Share of orders delivered within the shown time.",
+        "children": [
+          {
+            "metric": "Average delivery distance",
+            "description": "Shorter trips (1.83 km in Q4 FY26) mean faster and cheaper delivery."
+          },
+          {
+            "metric": "Pick-and-pack time",
+            "description": "Time from order to bag ready."
+          },
+          {
+            "metric": "Rider availability at peak",
+            "description": "Riders free during rush hours."
+          }
+        ]
+      },
+      {
+        "metric": "Order completeness",
+        "description": "Share of orders with nothing missing, wrong or spoiled.",
+        "children": [
+          {
+            "metric": "In-stock rate",
+            "description": "Share of shown items actually available."
+          },
+          {
+            "metric": "Quality complaint rate",
+            "description": "Complaints about expired or spoiled items per 1,000 orders."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Adjusted EBITDA loss per order must keep falling",
+      "Cash burn per quarter (about ₹700 crore reported in 2026)",
+      "Fee and pricing complaints, given the CCPA dark-pattern penalty",
+      "Rider safety and pay per hour"
+    ],
+    "strengths": [
+      "Fast growth: revenue doubled in FY26 and yearly users grew to 48 million",
+      "Loss per order nearly halved in a year",
+      "Ad business growing very fast with high margins",
+      "Zepto Cafe gives a daily-use reason that pure grocery apps lack",
+      "Strong youth brand and quick execution culture"
+    ],
+    "weaknesses": [
+      "Still losing about ₹5,900 crore a year",
+      "Number two player, with Blinkit far ahead and already profitable",
+      "Depends on fresh funding; IPO delayed after a sharp valuation cut",
+      "Fewer stores than Blinkit (about 1,100 vs 2,200+ at end of FY26)"
+    ],
+    "risks": [
+      "Price war with Blinkit, Instamart, Flipkart Minutes and Amazon Now",
+      "Enforcement Directorate questions to founders on foreign investment (April 2026)",
+      "CCPA action on dark patterns and hidden fees",
+      "Rules on gig worker welfare that raise rider costs",
+      "Public market investors may not fund a loss-making business at a high price"
+    ],
+    "userComplaints": [
+      "Hidden fees and confusing checkout design, which led to a CCPA penalty in 2026",
+      "Prices that differ between users or are higher than local shops",
+      "Spoiled vegetables and near-expiry dairy",
+      "Items cancelled after ordering because they were out of stock",
+      "Slow refunds and chatbot-only support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "One clear fee line on the cart page with a running 'you need ₹X more for free delivery' bar",
+        "problem": "Users and the regulator see fees as hidden; trust is low.",
+        "expectedImpact": "Fewer complaints and checkout drop-offs, lower regulatory risk.",
+        "metricToTrack": "Checkout drop-off rate and fee complaints per 1,000 orders",
+        "effort": "low"
+      },
+      {
+        "idea": "Café breakfast subscription: 5 or 20 coffees a month at a fixed price, pre-scheduled",
+        "problem": "Café demand is spiky; Zepto wants daily habits.",
+        "expectedImpact": "Predictable morning orders, higher café margins, more daily active users.",
+        "metricToTrack": "Café orders per user per week and café gross margin",
+        "effort": "medium"
+      },
+      {
+        "idea": "Real-time stock sync so items out of stock are hidden before checkout",
+        "problem": "Order cancellations after payment annoy users.",
+        "expectedImpact": "Fewer cancellations and refunds, better trust.",
+        "metricToTrack": "Post-order cancellation rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Self-serve ads dashboard for small D2C brands with fixed small budgets",
+        "problem": "Ad revenue is key to profit; small brands find ads hard to buy.",
+        "expectedImpact": "More advertisers and higher ad revenue per order.",
+        "metricToTrack": "Number of active advertisers and ad revenue per order",
+        "effort": "medium"
+      },
+      {
+        "idea": "Freshness score shown on fruit and vegetable pages from past user ratings per store",
+        "problem": "Complaints about spoiled produce.",
+        "expectedImpact": "Pushes stores to improve quality and wins trust for fresh food.",
+        "metricToTrack": "Fresh repeat rate and freshness complaint rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Growth is not the same as a healthy business. Zepto doubled revenue but investors still cut its value because it loses money on each order.",
+      "Small details change cost. Cutting average trip distance from 2.05 km to 1.83 km lowers delivery cost on every single order.",
+      "A new product line can change habits. Zepto Cafe turned a weekly grocery app into a daily one.",
+      "Being number two forces hard choices: spend to catch up, or slow down to save cash.",
+      "Short-term tricks like hidden fees can create long-term trust and legal problems."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Zepto needs to cut its loss per order from ₹79 to zero within a year. Where would you start?",
+        "hint": "Break loss per order into revenue per order (margin, ads, fees) and cost per order (delivery, store, discounts). Pick the 2 biggest levers, like ad revenue and orders per store, and propose experiments with targets."
+      },
+      {
+        "question": "Should Zepto keep growing Zepto Cafe or focus on groceries?",
+        "hint": "Compare margins, habit-building (daily vs weekly use), operational complexity and food safety risks. Look at café attach rate and whether café users order more groceries."
+      },
+      {
+        "question": "How would you design Zepto Pass to be profitable?",
+        "hint": "Price vs savings per user, free-delivery threshold, extra order frequency created vs discount cost. Test 2 to 3 price points and track incremental orders per member."
+      },
+      {
+        "question": "Blinkit has twice Zepto's stores. How should Zepto compete?",
+        "hint": "Do not copy blindly. Pick cities where Zepto leads, focus on café and youth users, improve reliability, and spend only where store orders can reach profit."
+      },
+      {
+        "question": "How would you measure if a new dark store is succeeding?",
+        "hint": "Orders per day vs break-even level, time to reach it, repeat rate of users in its area, on-time rate, and contribution margin per order."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Quick commerce",
+        "meaning": "Online shopping delivered in minutes instead of days."
+      },
+      {
+        "term": "Dark store",
+        "meaning": "A small warehouse only for online orders, placed close to homes."
+      },
+      {
+        "term": "IPO",
+        "meaning": "Initial public offering: when a private company first sells its shares on the stock market."
+      },
+      {
+        "term": "UDRHP",
+        "meaning": "Updated draft red herring prospectus: the detailed document a company files with SEBI before an IPO."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit or loss from running the business before interest, tax, wear and tear on assets, and share-based staff pay."
+      },
+      {
+        "term": "Annual transacting users",
+        "meaning": "People who placed at least one order during the year."
+      },
+      {
+        "term": "CAC",
+        "meaning": "Customer acquisition cost: the money spent to win one new customer."
+      },
+      {
+        "term": "Return on ad spend",
+        "meaning": "How many rupees of sales a brand gets for each rupee it spends on ads."
+      },
+      {
+        "term": "Dark pattern",
+        "meaning": "A design trick that pushes users into paying or choosing something they did not intend."
+      },
+      {
+        "term": "CCPA",
+        "meaning": "Central Consumer Protection Authority: India's regulator that protects shoppers from unfair practices."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team uses to judge whether the product is giving real value to users."
+      },
+      {
+        "term": "Cash burn",
+        "meaning": "How much cash a company loses each month or quarter."
+      },
+      {
+        "term": "Contribution margin",
+        "meaning": "Money left from an order after paying its direct costs like delivery and packing."
+      }
+    ],
+    "assumptions": [
+      "Average order value of ₹500 to ₹550 and the revenue-per-order split are estimates, not figures from the filing.",
+      "Zepto Pass price and free-delivery limits vary by city and change often; ranges are based on user reports.",
+      "Dark-store count of about 1,100 is from FY26 filing data; some reports cite different numbers.",
+      "IPO timing of early to mid 2027 is based on management comments reported in the press."
+    ]
+  }
+}

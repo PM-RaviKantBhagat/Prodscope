@@ -1,0 +1,265 @@
+{
+  "company": "Udaan",
+  "domain": "udaan.com",
+  "website": "https://udaan.com",
+  "sources": [
+    "https://inc42.com/buzz/udaans-fy26-revenue-rises-13-to-₹5134-cr-loss-narrows-to-₹852-cr/",
+    "https://yourstory.com/2025/06/udaan-raises-114m-led-by-mg-lightspeed",
+    "https://www.business-standard.com/companies/start-ups/udaan-secures-160-million-in-funding-simplifies-capital-structure-126071401346_1.html",
+    "https://yourstory.com/2025/07/udaan-acquires-shopkirana-in-all-stock-deal",
+    "https://entrackr.com/fintrackr/udaans-growth-stalls-mid-flight-losses-down-19-in-fy24-7452166",
+    "https://inc42.com/features/how-high-can-udaan-fly-blueprint-revival/"
+  ],
+  "report": {
+    "company": "Udaan",
+    "tagline": "An app where kirana stores, chemists and restaurants order stock in bulk directly from brands and wholesalers, with delivery and credit.",
+    "category": "B2B e-commerce",
+    "simpleSummary": "A kirana shop owner normally buys stock from a local wholesaler or a company salesman who visits once a week. Udaan lets the owner order rice, oil, soap or medicines on an app, at wholesale prices, and get it delivered to the shop. It also lets good customers buy now and pay later. Udaan makes money on the gap between the price it buys at and the price it sells at, plus fees from brands. The hard part is that margins in groceries are thin, so it has lost a lot of money.",
+    "keyNumbers": [
+      {"label": "Revenue FY26", "value": "₹5,134 crore", "note": "Up 13% from ₹4,561 crore in FY25. Company filings via Inc42, 2026."},
+      {"label": "Net loss FY26", "value": "₹852 crore", "note": "Down 19% from ₹1,055 crore in FY25. Inc42, 2026."},
+      {"label": "Total funding raised", "value": "Nearly $2 billion", "note": "Includes $114 million Series G in June 2025 and a $160 million mix of equity and debt in July 2026. YourStory, Business Standard."},
+      {"label": "Valuation", "value": "About $1.2 to 1.3 billion (2025), down from $3.1 billion in 2021", "note": "Series G was reported at a 59% drop from the peak. Estimate from news reports."},
+      {"label": "Reach", "value": "12,000+ pin codes", "note": "Company figure reported in June 2025."},
+      {"label": "Private label share", "value": "15 to 25% of staples sales", "note": "Own brands of rice, wheat, pulses in its cities. Business Standard, July 2026."}
+    ],
+    "overview": {
+      "whatItDoes": "Udaan is a B2B (business to business) marketplace. Shops and small businesses buy goods in bulk on its app instead of from a chain of middlemen. Udaan handles delivery, payments and short-term credit.",
+      "howItWorks": [
+        "A retailer downloads the app, adds GST or shop details, and sees wholesale prices for FMCG, staples, pharma, fruits and vegetables.",
+        "Udaan buys stock from brands like HUL or local manufacturers, or lists third-party sellers, and stores goods in its warehouses.",
+        "Orders are grouped by area and delivered by Udaan's trucks and vans, usually next day.",
+        "Retailers pay on delivery by cash or UPI, or use udaanCapital credit to pay in 7 to 30 days.",
+        "Udaan sells its own private label staples, which carry better margins than branded goods.",
+        "horeca360 serves hotels, restaurants and caterers with bulk supplies."
+      ],
+      "valueProposition": "Lower and clearer prices than local wholesalers, a wide range of goods in one app, delivery to the shop door and credit when you need it."
+    },
+    "personas": [
+      {
+        "name": "Kirana owner in a tier-2 city",
+        "description": "Runs a 200 sq ft grocery store. Buys stock weekly from 5 to 10 different distributors and wholesale markets.",
+        "goals": ["Buy at the lowest price to keep a 10 to 15% margin", "Avoid closing the shop to go to the mandi", "Get credit to stock up before festivals"],
+        "frustrations": ["Distributors push slow-moving stock", "Prices differ every visit", "Short on cash before monthly sales come in"]
+      },
+      {
+        "name": "Chemist shop owner",
+        "description": "Runs a pharmacy that needs hundreds of medicine types in small amounts.",
+        "goals": ["Get any medicine fast", "Fair margins"],
+        "frustrations": ["Many distributors, each with different brands", "Expired stock returns are hard"]
+      },
+      {
+        "name": "Restaurant or caterer (horeca)",
+        "description": "Buys oil, flour, vegetables and packaging in bulk every week.",
+        "goals": ["Steady quality and price", "Reliable delivery before service hours"],
+        "frustrations": ["Prices change daily at mandis", "Supplier no-shows"]
+      }
+    ],
+    "painPoints": [
+      {"pain": "Many middlemen add cost between brand and shop.", "howSolved": "Udaan buys closer to the source and sells directly, cutting layers.", "severity": "high"},
+      {"pain": "Shop owners must close or leave the shop to buy stock.", "howSolved": "Order on the app, delivery to the door.", "severity": "high"},
+      {"pain": "Small shops lack working capital.", "howSolved": "udaanCapital offers short-term credit based on order history.", "severity": "high"},
+      {"pain": "Limited range from local distributors.", "howSolved": "Thousands of products across categories in one app.", "severity": "medium"},
+      {"pain": "Unclear and changing prices.", "howSolved": "Prices are shown in the app, with schemes and offers visible.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Wholesale catalogue", "whatItDoes": "Lists FMCG, staples, pharma, fresh produce and electronics at bulk prices.", "whyItMatters": "One app replaces many distributors, which is the main reason a shop tries Udaan."},
+      {"feature": "Next-day delivery", "whatItDoes": "Udaan's own logistics delivers grouped orders to shops.", "whyItMatters": "Saves the shop owner time; but delivery cost is the biggest drag on profit."},
+      {"feature": "udaanCapital credit", "whatItDoes": "Buy now, pay later for retailers, through lending partners.", "whyItMatters": "Credit keeps shops loyal and increases order size, but bad loans are a big risk."},
+      {"feature": "Private labels", "whatItDoes": "Udaan's own brands of rice, wheat, pulses and other staples.", "whyItMatters": "Higher margins than branded goods, key to reaching profit."},
+      {"feature": "horeca360", "whatItDoes": "Bulk supplies for hotels, restaurants and caterers, now in Hyderabad and Chennai too.", "whyItMatters": "Larger, regular orders improve delivery economics."}
+    ],
+    "userJourneys": [
+      {
+        "name": "First order",
+        "persona": "Kirana owner in a tier-2 city",
+        "steps": [
+          {"step": "Hears about Udaan", "detail": "A field sales agent visits the shop and shows the app and a first-order offer."},
+          {"step": "Signs up", "detail": "Enters phone number, shop name and GST or shop photo."},
+          {"step": "Compares prices", "detail": "Checks atta, oil and soap prices against the local distributor."},
+          {"step": "Places order", "detail": "Orders ₹8,000 of staples and FMCG, above the minimum order value."},
+          {"step": "Pays on delivery", "detail": "Goods arrive next day; pays by UPI or cash."},
+          {"step": "Checks margin", "detail": "Works out if the price was better after any offer ends."}
+        ]
+      },
+      {
+        "name": "Repeat order with credit",
+        "persona": "Kirana owner in a tier-2 city",
+        "steps": [
+          {"step": "Gets credit offer", "detail": "After a few orders, sees a credit limit of ₹50,000."},
+          {"step": "Stocks up for Diwali", "detail": "Orders ₹40,000 of sweets, dry fruits and oil."},
+          {"step": "Picks pay later", "detail": "Chooses to pay in 14 days."},
+          {"step": "Sells goods", "detail": "Sells through festival week."},
+          {"step": "Repays", "detail": "Pays back by UPI before the due date to keep the limit."}
+        ]
+      },
+      {
+        "name": "Weekly restaurant supplies",
+        "persona": "Restaurant or caterer (horeca)",
+        "steps": [
+          {"step": "Opens horeca360", "detail": "Sees a saved list of usual items."},
+          {"step": "Adjusts quantities", "detail": "Adds extra oil and onions for a wedding order."},
+          {"step": "Picks delivery slot", "detail": "Selects morning delivery before lunch service."},
+          {"step": "Receives goods", "detail": "Checks quality at the door."},
+          {"step": "Pays invoice", "detail": "Pays on credit terms with a GST invoice."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Udaan mainly buys goods and resells them, keeping the difference. It also earns from brands that pay for distribution and promotion, from its own higher-margin private labels, and from credit.",
+      "revenueStreams": [
+        {"stream": "Product sales margin", "detail": "Buys from brands and sells to retailers; most of the ₹5,134 crore revenue is this."},
+        {"stream": "Private label margins", "detail": "Own brands of staples earn more per kilo than branded products."},
+        {"stream": "Brand fees and promotions", "detail": "Brands pay to reach small shops and to promote new products in the app."},
+        {"stream": "Credit and fintech", "detail": "Fees and interest share from udaanCapital loans with partner lenders."},
+        {"stream": "Logistics and marketplace fees", "detail": "Commission and delivery fees from third-party sellers."}
+      ],
+      "pricing": "Wholesale prices shown per product in the app, with minimum order values. Not public as a list.",
+      "costDrivers": [
+        "Cost of goods bought from brands (biggest by far)",
+        "Last-mile delivery to scattered small shops",
+        "Warehouses and staff",
+        "Discounts and offers to win shops from local distributors",
+        "Bad loans on credit given to retailers"
+      ],
+      "unitEconomics": "On a ₹10,000 kirana order of staples and FMCG, Udaan might earn a gross margin of about ₹500 to ₹800 (5 to 8%). Delivery, warehouse handling and payment costs can take ₹300 to ₹500 of that. Add discounts and a share of fixed costs, and in the past it lost money on many orders. That is why it cut cities, pushed private labels (higher margin) and bigger horeca orders. It now says its largest cities are EBITDA positive, but the company overall still lost ₹852 crore in FY26. Order-level numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Field sales agents who visit shops and help them sign up",
+        "First-order discounts and lower prices than local distributors",
+        "Credit offers that local distributors cannot match",
+        "Acquisitions like ShopKirana (2025) and Swiggy's LYNK distribution business to add retailers in new areas"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly need to restock",
+        "Credit limits that grow with good repayment",
+        "Saved order lists and reorder buttons",
+        "Private label staples at good prices"
+      ],
+      "moat": "Udaan's moat is its supply chain: warehouses, trucks and routes in dense clusters, plus credit data on lakhs of shops. These take years and lots of money to build. But brands' own distributors and new rivals like Jumbotail and Reliance JioMart Partner can match prices, so the moat is not deep."
+    },
+    "competitors": [
+      {"name": "Reliance JioMart (Partner / Retail)", "positioning": "Reliance's B2B arm supplying kiranas with deep pockets and its own brands.", "howThisProductDiffers": "Udaan is independent and multi-brand; Reliance can sell at a loss for longer."},
+      {"name": "Jumbotail", "positioning": "B2B grocery marketplace for kiranas, also runs a franchise model.", "howThisProductDiffers": "Udaan is bigger and covers pharma and horeca; Jumbotail focuses tightly on grocery."},
+      {"name": "Brand distributors", "positioning": "Traditional distributors who supply one brand with salesmen visits.", "howThisProductDiffers": "Udaan gives many brands in one place with an app and credit."},
+      {"name": "Metro Cash and Carry / Walmart Best Price", "positioning": "Wholesale stores where shopkeepers go and buy.", "howThisProductDiffers": "Udaan delivers to the shop; cash and carry needs a trip."},
+      {"name": "Quick commerce (Blinkit, Zepto)", "positioning": "Consumer delivery that takes shoppers away from kiranas.", "howThisProductDiffers": "Indirect threat: if kiranas lose customers, they order less from Udaan."}
+    ],
+    "northStar": {
+      "metric": "Monthly repeat-ordering retailers",
+      "why": "A shop that orders every month trusts Udaan for its stock. That is the value: better prices, delivery and credit. Repeat orders also make delivery routes denser and cheaper."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active retailers",
+        "description": "Shops ordering at least once a month.",
+        "children": [
+          {"metric": "New shop sign-ups per city", "description": "Fuels growth in each cluster."},
+          {"metric": "First to second order rate", "description": "Shows whether the first order delivered real value."},
+          {"metric": "Monthly churn", "description": "Shops that stop ordering."}
+        ]
+      },
+      {
+        "metric": "Order value per retailer",
+        "description": "How much each shop buys from Udaan each month.",
+        "children": [
+          {"metric": "Categories per order", "description": "More categories means Udaan replaces more distributors."},
+          {"metric": "Share of shop's total stock bought on Udaan", "description": "Called share of wallet."},
+          {"metric": "Credit usage", "description": "Credit lets shops order more."}
+        ]
+      },
+      {
+        "metric": "Contribution margin per order",
+        "description": "What is left after product cost, delivery and discounts.",
+        "children": [
+          {"metric": "Private label share", "description": "Higher share lifts margins."},
+          {"metric": "Drops per delivery route", "description": "More shops per trip lowers delivery cost."},
+          {"metric": "Discount as percent of sales", "description": "Lower is better if retention holds."}
+        ]
+      },
+      {
+        "metric": "Healthy credit",
+        "description": "Credit that helps sales without bad loans.",
+        "children": [
+          {"metric": "On-time repayment rate", "description": "Tracks credit quality."},
+          {"metric": "Credit-led order share", "description": "How much of sales use credit."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loan default rate",
+      "Order fill rate (items delivered as ordered)",
+      "On-time delivery rate",
+      "Cash burn per month"
+    ],
+    "strengths": [
+      "Largest eB2B player, claims about 70% of the space",
+      "Own supply chain across 12,000+ pin codes",
+      "Private labels with better margins",
+      "Losses falling; biggest cities now EBITDA positive",
+      "Strong backers including M&G, Lightspeed and new investor BlackRock"
+    ],
+    "weaknesses": [
+      "Revenue fell 40% in FY23 and 20% in FY25 as it cut unprofitable areas",
+      "Still lost ₹852 crore in FY26",
+      "Auditors flagged doubt about continuing as a going concern; liabilities exceed assets",
+      "Thin grocery margins leave little room for error",
+      "Creditors began insolvency action in Singapore against the holding entity over unpaid notes"
+    ],
+    "risks": [
+      "Reliance and brand distributors can undercut prices",
+      "Quick commerce shrinks kirana sales, hurting Udaan's customers",
+      "Funding markets may not support more loss-making years",
+      "Credit losses if small shops face a slowdown"
+    ],
+    "userComplaints": [
+      "Late or missing deliveries and missing items in orders",
+      "Prices not always lower than local distributors after offers end",
+      "Slow refunds and returns",
+      "Credit limits cut without warning",
+      "Minimum order values too high for tiny shops"
+    ],
+    "improvementIdeas": [
+      {"idea": "Smart reorder list", "problem": "Shop owners spend time rebuilding orders each week.", "expectedImpact": "Suggest a weekly basket based on past orders and season, raising order frequency and basket size.", "metricToTrack": "Orders per retailer per month", "effort": "low"},
+      {"idea": "Price match promise on top 50 staples", "problem": "Retailers drop off when local prices beat Udaan.", "expectedImpact": "Builds trust and reduces churn.", "metricToTrack": "Monthly retailer churn", "effort": "medium"},
+      {"idea": "Delivery day by cluster", "problem": "Scattered deliveries cost too much.", "expectedImpact": "Fixed delivery days per area raise drops per route and cut cost per order.", "metricToTrack": "Delivery cost per order", "effort": "medium"},
+      {"idea": "Live order tracking and missing item claims in app", "problem": "Complaints about missing items and late deliveries.", "expectedImpact": "Faster resolution and more trust.", "metricToTrack": "Order fill rate and complaint rate", "effort": "medium"},
+      {"idea": "Private label sampling", "problem": "Shops hesitate to try unknown brands.", "expectedImpact": "Small free packs with orders grow private label share and margin.", "metricToTrack": "Private label share of staples sales", "effort": "low"}
+    ],
+    "pmLessons": [
+      "In B2B commerce with thin margins, growth can hurt you. Every extra order may lose money until delivery is dense.",
+      "Credit can win customers fast but brings risk. Track repayment as closely as sales.",
+      "Sometimes shrinking (exiting cities, cutting categories) is the right product decision to reach profit.",
+      "Own-brand products are a common way to fix margins in retail."
+    ],
+    "interviewQuestions": [
+      {"question": "Udaan's revenue fell but losses also fell. Is that good?", "hint": "Explain the trade-off: cutting loss-making orders and cities lowers revenue but improves contribution margin. Check retention and margin per order to judge."},
+      {"question": "How would you improve Udaan's unit economics?", "hint": "Break order economics into gross margin, delivery, discounts, credit losses. Pick levers: private labels, route density, minimum order value, fewer discounts."},
+      {"question": "Design a feature to increase share of wallet with kiranas.", "hint": "Understand what shops still buy elsewhere and why. Add categories, reorder lists, credit tied to multi-category baskets. Measure share of shop's purchases."},
+      {"question": "Should Udaan expand to 10 new cities?", "hint": "No by default. Ask about cluster profitability, capital left, and whether dense existing cities can grow first. Suggest a test in one adjacent city."},
+      {"question": "Quick commerce is taking sales from kiranas. What should Udaan do?", "hint": "Treat it as a threat to customers. Ideas: help kiranas do local delivery, better range, supply dark stores as a new customer type."}
+    ],
+    "glossary": [
+      {"term": "B2B", "meaning": "Business to business: selling to other businesses, not to consumers."},
+      {"term": "FMCG", "meaning": "Fast-moving consumer goods like soap, biscuits and oil that sell quickly."},
+      {"term": "Private label", "meaning": "Products sold under the retailer's own brand instead of a known brand."},
+      {"term": "Contribution margin", "meaning": "What is left from a sale after paying for the product, delivery and discounts, before fixed costs."},
+      {"term": "EBITDA", "meaning": "Profit before interest, taxes and accounting charges for asset wear; a rough measure of operating profit."},
+      {"term": "Unit economics", "meaning": "How much money a company makes or loses on one order or one customer."},
+      {"term": "Share of wallet", "meaning": "The part of a customer's total spending in a category that goes to you."},
+      {"term": "Going concern", "meaning": "An auditor's check on whether a company can keep running for the next year."},
+      {"term": "Horeca", "meaning": "Hotels, restaurants and caterers as a customer group."},
+      {"term": "North star metric", "meaning": "The one number that best shows a product is giving real value to its users."},
+      {"term": "Moat", "meaning": "Something that makes it hard for competitors to copy you or take your customers."},
+      {"term": "Guardrail metric", "meaning": "A number you watch to make sure a change does not cause harm elsewhere."},
+      {"term": "Churn", "meaning": "Customers who stop using the product in a given period."}
+    ],
+    "assumptions": [
+      "Order-level margins in unit economics are estimates based on Indian B2B grocery norms, not company data.",
+      "2025 valuation is derived from reports of a 59% cut from the $3.1 billion peak.",
+      "User complaints are drawn from common themes in app reviews and news; exact frequency not measured.",
+      "Retailer count is not public for 2025 or 2026, so it is left out of key numbers."
+    ]
+  }
+}

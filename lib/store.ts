@@ -3,6 +3,19 @@ import path from "node:path";
 import { neon } from "@neondatabase/serverless";
 import type { FeedbackEntry, StoredTeardown } from "./schema";
 
+/** A light row for the gallery, without the full report. */
+export type GalleryItem = {
+  slug: string;
+  company: string;
+  domain: string;
+  section: string;
+  origin: "curated" | "live";
+  tagline: string;
+  category: string;
+  createdAt: string;
+  up: number;
+};
+
 /**
  * Storage for teardowns, feedback and daily quota counters.
  * Uses Postgres (e.g. Neon free tier) when DATABASE_URL is set, otherwise a local JSON file for development.
@@ -11,6 +24,8 @@ export interface Store {
   get(slug: string): Promise<StoredTeardown | null>;
   findRecentByDomain(domain: string, maxAgeDays: number): Promise<StoredTeardown | null>;
   listRecent(limit: number): Promise<StoredTeardown[]>;
+  /** One teardown per domain (curated first, then newest), for the category gallery. */
+  listGallery(): Promise<GalleryItem[]>;
   save(t: StoredTeardown): Promise<void>;
   addFeedback(f: FeedbackEntry): Promise<void>;
   /** Atomically increments a counter for today and returns the new value. */
@@ -24,18 +39,31 @@ const today = () => new Date().toISOString().slice(0, 10);
 function pgStore(url: string): Store {
   const sql = neon(url);
   let ready: Promise<unknown> | null = null;
+  const setup = async () => {
+    await sql`CREATE TABLE IF NOT EXISTS teardowns (
+      slug text PRIMARY KEY, company text NOT NULL, domain text NOT NULL, url text NOT NULL,
+      created_at timestamptz NOT NULL DEFAULT now(), report jsonb NOT NULL, sources jsonb NOT NULL DEFAULT '[]',
+      up int NOT NULL DEFAULT 0, down int NOT NULL DEFAULT 0)`;
+    await sql`ALTER TABLE teardowns ADD COLUMN IF NOT EXISTS section text NOT NULL DEFAULT ''`;
+    await sql`ALTER TABLE teardowns ADD COLUMN IF NOT EXISTS origin text NOT NULL DEFAULT 'live'`;
+    await sql`CREATE INDEX IF NOT EXISTS teardowns_domain_idx ON teardowns (domain, created_at DESC)`;
+    await sql`CREATE TABLE IF NOT EXISTS feedback (
+      id bigserial PRIMARY KEY, slug text NOT NULL, vote text, comment text NOT NULL DEFAULT '',
+      created_at timestamptz NOT NULL DEFAULT now())`;
+    await sql`CREATE TABLE IF NOT EXISTS counters (key text NOT NULL, day date NOT NULL, n int NOT NULL DEFAULT 0, PRIMARY KEY (key, day))`;
+  };
+  // Two cold starts can race on CREATE TABLE (Postgres error 23505 or 42P07). Retry once; reset on failure.
   const init = () =>
-    (ready ??= (async () => {
-      await sql`CREATE TABLE IF NOT EXISTS teardowns (
-        slug text PRIMARY KEY, company text NOT NULL, domain text NOT NULL, url text NOT NULL,
-        created_at timestamptz NOT NULL DEFAULT now(), report jsonb NOT NULL, sources jsonb NOT NULL DEFAULT '[]',
-        up int NOT NULL DEFAULT 0, down int NOT NULL DEFAULT 0)`;
-      await sql`CREATE INDEX IF NOT EXISTS teardowns_domain_idx ON teardowns (domain, created_at DESC)`;
-      await sql`CREATE TABLE IF NOT EXISTS feedback (
-        id bigserial PRIMARY KEY, slug text NOT NULL, vote text, comment text NOT NULL DEFAULT '',
-        created_at timestamptz NOT NULL DEFAULT now())`;
-      await sql`CREATE TABLE IF NOT EXISTS counters (key text NOT NULL, day date NOT NULL, n int NOT NULL DEFAULT 0, PRIMARY KEY (key, day))`;
-    })());
+    (ready ??= setup()
+      .catch(async (e: { code?: string }) => {
+        if (e?.code !== "23505" && e?.code !== "42P07") throw e;
+        await new Promise((r) => setTimeout(r, 300));
+        await setup();
+      })
+      .catch((e) => {
+        ready = null;
+        throw e;
+      }));
   const row = (r: Record<string, unknown>): StoredTeardown => ({
     slug: r.slug as string,
     company: r.company as string,
@@ -46,6 +74,8 @@ function pgStore(url: string): Store {
     sources: r.sources as string[],
     up: r.up as number,
     down: r.down as number,
+    section: (r.section as string) ?? "",
+    origin: r.origin === "curated" ? "curated" : "live",
   });
   return {
     async get(slug) {
@@ -56,7 +86,8 @@ function pgStore(url: string): Store {
     async findRecentByDomain(domain, days) {
       await init();
       const r = await sql`SELECT * FROM teardowns WHERE domain = ${domain}
-        AND created_at > now() - make_interval(days => ${days}) ORDER BY created_at DESC LIMIT 1`;
+        AND (origin = 'curated' OR created_at > now() - make_interval(days => ${days}))
+        ORDER BY (origin = 'curated') DESC, created_at DESC LIMIT 1`;
       return r[0] ? row(r[0]) : null;
     },
     async listRecent(limit) {
@@ -64,10 +95,27 @@ function pgStore(url: string): Store {
       const r = await sql`SELECT * FROM teardowns ORDER BY created_at DESC LIMIT ${limit}`;
       return r.map(row);
     },
+    async listGallery() {
+      await init();
+      const r = await sql`SELECT DISTINCT ON (domain) slug, company, domain, section, origin, created_at, up,
+          report->>'tagline' AS tagline, report->>'category' AS category
+        FROM teardowns ORDER BY domain, (origin = 'curated') DESC, created_at DESC`;
+      return r.map((x) => ({
+        slug: x.slug as string,
+        company: x.company as string,
+        domain: x.domain as string,
+        section: (x.section as string) || "",
+        origin: x.origin === "curated" ? ("curated" as const) : ("live" as const),
+        tagline: (x.tagline as string) ?? "",
+        category: (x.category as string) ?? "",
+        createdAt: new Date(x.created_at as string).toISOString(),
+        up: x.up as number,
+      }));
+    },
     async save(t) {
       await init();
-      await sql`INSERT INTO teardowns (slug, company, domain, url, created_at, report, sources)
-        VALUES (${t.slug}, ${t.company}, ${t.domain}, ${t.url}, ${t.createdAt}, ${JSON.stringify(t.report)}, ${JSON.stringify(t.sources)})`;
+      await sql`INSERT INTO teardowns (slug, company, domain, url, created_at, report, sources, section, origin)
+        VALUES (${t.slug}, ${t.company}, ${t.domain}, ${t.url}, ${t.createdAt}, ${JSON.stringify(t.report)}, ${JSON.stringify(t.sources)}, ${t.section}, ${t.origin})`;
     },
     async addFeedback(f) {
       await init();
@@ -123,12 +171,24 @@ function fileStore(): Store {
       const cutoff = Date.now() - days * 86_400_000;
       return (
         (await read()).teardowns
-          .filter((t) => t.domain === domain && Date.parse(t.createdAt) > cutoff)
-          .sort((a, b) => b.createdAt.localeCompare(a.createdAt))[0] ?? null
+          .filter((t) => t.domain === domain && (t.origin === "curated" || Date.parse(t.createdAt) > cutoff))
+          .sort((a, b) => Number(b.origin === "curated") - Number(a.origin === "curated") || b.createdAt.localeCompare(a.createdAt))[0] ?? null
       );
     },
     async listRecent(limit) {
       return (await read()).teardowns.sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, limit);
+    },
+    async listGallery() {
+      const best = new Map<string, StoredTeardown>();
+      for (const t of (await read()).teardowns) {
+        const cur = best.get(t.domain);
+        const better = !cur || (t.origin === "curated" && cur.origin !== "curated") || (t.origin === cur.origin && t.createdAt > cur.createdAt);
+        if (better) best.set(t.domain, t);
+      }
+      return [...best.values()].map((t) => ({
+        slug: t.slug, company: t.company, domain: t.domain, section: t.section ?? "", origin: t.origin ?? "live",
+        tagline: t.report.tagline, category: t.report.category, createdAt: t.createdAt, up: t.up,
+      }));
     },
     save: (t) => mutate((db) => void db.teardowns.push(t)),
     addFeedback: (f) =>

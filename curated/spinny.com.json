@@ -1,0 +1,256 @@
+{
+  "company": "Spinny",
+  "domain": "spinny.com",
+  "website": "https://spinny.com",
+  "sources": [
+    "https://inc42.com/features/spinnys-ipo-ride-but-whats-under-the-hood/",
+    "https://entrackr.com/fintrackr/spinny-posts-rs-4657-cr-revenue-in-fy25-cuts-losses-by-28-10509574",
+    "https://techcrunch.com/2025/12/13/indias-spinny-lines-up-160m-funding-to-acquire-gomechanic-sources-say",
+    "https://yourstory.com/2026/09/spinny-files-ipo-eyes-3000-crore",
+    "https://www.businesstoday.in/amp/markets/ipo-corner/story/spinny-ipo-used-car-platform-eyes-stock-market-debut-in-2027-taps-bankers-to-launch-ipo-547394-2026-08-05"
+  ],
+  "report": {
+    "company": "Spinny",
+    "tagline": "Spinny buys used cars, fixes them up and sells them with a warranty and a money-back promise.",
+    "category": "Used-car retail",
+    "simpleSummary": "Buying a second-hand car in India is scary because you do not know if the seller is hiding problems. Spinny buys cars itself, checks and repairs them, and then sells them at a fixed price, like a shop. You can test drive at home, get a loan and insurance in the app, and return the car within a few days if you do not like it. It also buys your old car on the spot.",
+    "keyNumbers": [
+      { "label": "Revenue FY25", "value": "₹4,657 crore", "note": "Company filings reported by Entrackr and Inc42. Up about 25% from FY24." },
+      { "label": "Net loss FY25", "value": "₹424 crore", "note": "Filings. Down 28% from FY24." },
+      { "label": "Revenue FY26", "value": "About ₹6,000 crore", "note": "Estimate reported by Inc42, not audited yet." },
+      { "label": "Cars sold", "value": "About 13,000 a month", "note": "TechCrunch, December 2025, based on sources. Roughly 1.5 lakh a year." },
+      { "label": "Valuation", "value": "About $1.8 billion", "note": "TechCrunch, Series G round in December 2025." },
+      { "label": "IPO plan", "value": "₹2,500 to ₹3,000 crore", "note": "Confidential IPO papers filed September 2026, listing aimed for 2027." }
+    ],
+    "overview": {
+      "whatItDoes": "Spinny is a full-stack used-car shop: it owns its stock and does every step itself. It buys cars from people, repairs them in its own workshops, and sells them online and in large car hubs at a fixed price. It adds loans, insurance, warranty and, since buying GoMechanic in late 2025, car servicing.",
+      "howItWorks": [
+        "Sellers book an inspection. Spinny checks the car, gives a price, and pays the same day if the seller agrees.",
+        "The car goes to a Spinny reconditioning centre, where it is checked, repaired, cleaned and photographed.",
+        "Buyers browse cars on the app with 360-degree photos, an inspection report and a fixed price. No bargaining.",
+        "Buyers book a test drive at home or at a Spinny hub, then pay, often with a loan from Spinny's partners or Spinny Capital.",
+        "Every Spinny Assured car comes with a short money-back window and a warranty.",
+        "Cars Spinny does not want to retail go to dealers through its auction platform."
+      ],
+      "valueProposition": "Buy a used car with the trust of buying a new one: checked, fixed, fixed price, warranty, and a way out if it goes wrong."
+    },
+    "personas": [
+      {
+        "name": "First-time car buyer",
+        "description": "27 to 35, salaried, buying a hatchback or compact SUV for ₹4 to ₹8 lakh.",
+        "goals": ["A reliable car without getting cheated", "Easy loan approval", "No running around RTO offices"],
+        "frustrations": ["Hidden accident history", "Pushy local dealers", "Fear of big repair bills later"]
+      },
+      {
+        "name": "Upgrader selling an old car",
+        "description": "Owns a 6-year-old car and wants a bigger one.",
+        "goals": ["Fair price for old car", "Instant payment", "One place to sell and buy"],
+        "frustrations": ["Low offers from dealers", "Paperwork for transfer of ownership"]
+      },
+      {
+        "name": "Premium buyer",
+        "description": "Wants a used luxury car like a BMW or Mercedes at a lower price.",
+        "goals": ["A good-condition luxury car with service history", "Peace of mind on expensive repairs"],
+        "frustrations": ["Luxury car repairs are costly", "Hard to trust condition"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Not knowing if a used car was in an accident or has a tampered odometer.", "howSolved": "Detailed inspection report on every car and Spinny takes responsibility as the seller.", "severity": "high" },
+      { "pain": "Bargaining with dealers and feeling cheated.", "howSolved": "Fixed, listed prices with no haggling.", "severity": "high" },
+      { "pain": "Getting stuck with a bad car.", "howSolved": "Money-back window after delivery and a warranty.", "severity": "high" },
+      { "pain": "Paperwork for ownership transfer (RC transfer).", "howSolved": "Spinny handles transfer paperwork.", "severity": "medium" },
+      { "pain": "Getting a loan for a used car.", "howSolved": "Loans arranged in the app through partner banks and Spinny Capital.", "severity": "medium" },
+      { "pain": "Selling an old car takes weeks and many calls.", "howSolved": "Inspection, offer and payment in one visit.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Spinny Assured inspection", "whatItDoes": "A long checklist inspection of each car before it is listed.", "whyItMatters": "Trust is the main thing buyers lack in used cars." },
+      { "feature": "Money-back guarantee", "whatItDoes": "Return the car within a few days of delivery for a refund.", "whyItMatters": "Removes the fear of a wrong choice and lifts conversion." },
+      { "feature": "Fixed pricing", "whatItDoes": "One clear price for each car.", "whyItMatters": "Saves buyers from haggling and lets Spinny control margin." },
+      { "feature": "Home test drive", "whatItDoes": "Spinny brings the car to you to drive.", "whyItMatters": "Makes buying easy for busy people and gets them closer to a decision." },
+      { "feature": "Loans and insurance", "whatItDoes": "Finance and insurance in the same checkout.", "whyItMatters": "Most buyers need a loan, and Spinny earns a fee on each." },
+      { "feature": "GoMechanic servicing", "whatItDoes": "After-sales repair and servicing through the GoMechanic network.", "whyItMatters": "Keeps owners in touch with Spinny and brings future sellers." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying a car",
+        "persona": "First-time car buyer",
+        "steps": [
+          { "step": "Search", "detail": "Filters by budget, body type and city on the app." },
+          { "step": "Shortlist", "detail": "Looks at photos, inspection report and price." },
+          { "step": "Check loan", "detail": "Sees monthly EMI and gets a pre-approval." },
+          { "step": "Test drive", "detail": "Books a home test drive or visits a hub." },
+          { "step": "Book and pay", "detail": "Pays a token amount, then the rest or a loan down payment." },
+          { "step": "Delivery", "detail": "Car is delivered with paperwork in process." },
+          { "step": "Money-back window", "detail": "Drives for a few days and decides to keep it." }
+        ]
+      },
+      {
+        "name": "Selling a car",
+        "persona": "Upgrader selling an old car",
+        "steps": [
+          { "step": "Enter details", "detail": "Adds model, year and kilometres and gets a price range." },
+          { "step": "Book inspection", "detail": "An inspector comes home or the seller visits a hub." },
+          { "step": "Final offer", "detail": "Gets a firm price after inspection." },
+          { "step": "Accept", "detail": "Hands over keys and documents." },
+          { "step": "Get paid", "detail": "Money comes to the bank, loan closure handled if needed." }
+        ]
+      },
+      {
+        "name": "After the purchase",
+        "persona": "First-time car buyer",
+        "steps": [
+          { "step": "RC transfer", "detail": "Waits for the ownership papers to come in their name." },
+          { "step": "First service", "detail": "Books service through GoMechanic." },
+          { "step": "Warranty claim", "detail": "Raises a claim if a covered part fails." },
+          { "step": "Resell later", "detail": "Comes back to Spinny to sell after a few years." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Spinny makes money from the gap between what it pays for a car and what it sells it for, plus fees from loans, insurance, warranties and now servicing. About 98% of revenue is car sales.",
+      "revenueStreams": [
+        { "stream": "Used-car sales", "detail": "Buys low, refurbishes, sells at a fixed price. Main revenue line." },
+        { "stream": "Finance and insurance fees", "detail": "Commission from partner lenders and insurers, and interest from Spinny Capital loans." },
+        { "stream": "Warranty and protection plans", "detail": "Extra paid plans on top of the car." },
+        { "stream": "Dealer auctions", "detail": "Cars that do not fit retail are sold to dealers." },
+        { "stream": "Servicing (GoMechanic)", "detail": "Repair and service revenue, about ₹145 crore in FY25 before the deal." }
+      ],
+      "pricing": "Each car has a fixed listed price on the site. Most popular cars are in the ₹3 lakh to ₹10 lakh range. Extended warranty and protection plans cost extra.",
+      "costDrivers": [
+        "Buying cars (inventory), which is most of the cost",
+        "Refurbishment parts and labour",
+        "Holding cost of unsold cars: money stuck and price falling every month",
+        "Large hubs and reconditioning centres",
+        "Marketing, including cricket and TV ads"
+      ],
+      "unitEconomics": "Think of a car Spinny sells for ₹5 lakh. It may have paid about ₹4.4 lakh for it and spent ₹10,000 to ₹20,000 fixing it. That leaves roughly ₹20,000 to ₹30,000 gross margin per car, about 4% to 6% (Inc42's numbers suggest about ₹209 crore gross margin on ₹4,650 crore sales in FY25). Loan and insurance fees add a few thousand rupees more. Out of that it must pay for hubs, staff and ads. Every extra week a car sits unsold eats into this small margin, so selling fast is everything."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TV and cricket sponsorships for brand trust",
+        "Google search for 'used car in <city>'",
+        "Sellers who become buyers on the same visit",
+        "Referrals from happy owners",
+        "Media brands like Autocar India for car buyers in research mode"
+      ],
+      "whatBringsUsersBack": [
+        "Servicing through GoMechanic every few months",
+        "Selling the same car back to Spinny later",
+        "Insurance renewals each year"
+      ],
+      "moat": "Trust built through years of inspections, repairs and refunds is slow to copy. Spinny also has pricing data on lakhs of cars, which helps it buy at the right price, and large reconditioning centres that small dealers cannot afford."
+    },
+    "competitors": [
+      { "name": "Cars24", "positioning": "Large used-car platform that started with buying cars from sellers and selling to dealers, now also sells to consumers.", "howThisProductDiffers": "Spinny has stayed focused on retail to consumers with its own refurbishment, while Cars24 has a bigger dealer and seller-side business." },
+      { "name": "CarDekho / CarTrade (OLX Autos)", "positioning": "Listings marketplaces that connect buyers and sellers.", "howThisProductDiffers": "They do not own most of the cars, so they carry less risk but give fewer guarantees." },
+      { "name": "Maruti True Value and Mahindra First Choice", "positioning": "Car-maker backed used-car dealer networks.", "howThisProductDiffers": "Strong brand trust for one make, but Spinny offers all brands online." },
+      { "name": "Local dealers and OLX", "positioning": "Cheaper but no guarantees.", "howThisProductDiffers": "Spinny charges more for trust, inspection and return policy." }
+    ],
+    "northStar": {
+      "metric": "Cars delivered and kept past the money-back window each month",
+      "why": "A car that is kept means the buyer trusted it and was happy. Sales that get returned look good on day one but show broken trust."
+    },
+    "kpiTree": [
+      {
+        "metric": "Buyer demand",
+        "description": "How many serious buyers come each month.",
+        "children": [
+          { "metric": "Test drives booked", "description": "Shows serious intent." },
+          { "metric": "Loan pre-approvals", "description": "Buyers with finance ready close faster." }
+        ]
+      },
+      {
+        "metric": "Inventory quality and supply",
+        "description": "Having the right cars at the right price.",
+        "children": [
+          { "metric": "Cars bought per month", "description": "Supply from sellers." },
+          { "metric": "Purchase price accuracy", "description": "Buying too high kills margin; too low loses sellers." },
+          { "metric": "Refurbishment turnaround days", "description": "Faster repair gets cars listed sooner." }
+        ]
+      },
+      {
+        "metric": "Conversion",
+        "description": "Share of test drives that turn into sales.",
+        "children": [
+          { "metric": "Test drive to booking rate", "description": "Shows if cars match the listing." },
+          { "metric": "Loan approval rate", "description": "Rejected loans mean lost sales." }
+        ]
+      },
+      {
+        "metric": "Post-sale happiness",
+        "description": "Buyers keep and recommend the car.",
+        "children": [
+          { "metric": "Return rate in money-back window", "description": "Low is good; high means listings were wrong." },
+          { "metric": "RC transfer time", "description": "Slow paperwork is a top complaint." },
+          { "metric": "Warranty claim rate", "description": "Shows refurbishment quality." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Days a car sits in inventory",
+      "Gross margin per car",
+      "Customer complaints on paperwork",
+      "Refund processing time"
+    ],
+    "strengths": [
+      "Clear trust promise: inspection, fixed price, warranty and money-back",
+      "Owns the full chain from buying to servicing",
+      "Large scale with about 13,000 cars a month",
+      "Losses falling while revenue grows",
+      "Strong investors and a 2027 IPO plan"
+    ],
+    "weaknesses": [
+      "Thin margin on each car, about 4% to 6% gross",
+      "Needs a lot of cash to hold cars",
+      "Still loss-making at about ₹424 crore in FY25",
+      "Paperwork and service quality complaints in some cities"
+    ],
+    "risks": [
+      "Used-car prices can fall fast, leaving Spinny with cars worth less than it paid",
+      "EVs and new fuel rules like E20 could change which used cars hold value",
+      "Cars24 and car-maker programmes compete hard",
+      "New-car discounts make used cars less attractive"
+    ],
+    "userComplaints": [
+      "Delays in RC transfer after buying",
+      "Defects found after delivery that the inspection missed",
+      "Sellers say final offers drop a lot after inspection",
+      "Refunds in the money-back window take time",
+      "Pushy follow-up calls"
+    ],
+    "improvementIdeas": [
+      { "idea": "RC transfer tracker with a fixed deadline and payout if late", "problem": "Paperwork delay is a top complaint.", "expectedImpact": "More trust and fewer support calls.", "metricToTrack": "Average RC transfer days and related tickets", "effort": "medium" },
+      { "idea": "Show the inspection photo of every flagged issue in the listing", "problem": "Buyers find defects after delivery.", "expectedImpact": "Fewer returns and claims.", "metricToTrack": "Return rate in money-back window", "effort": "low" },
+      { "idea": "Price-lock band for sellers before inspection", "problem": "Sellers feel the offer drops unfairly.", "expectedImpact": "More sellers accept.", "metricToTrack": "Inspection to purchase rate", "effort": "medium" },
+      { "idea": "Free first GoMechanic service with every car", "problem": "Buyers drift away after purchase.", "expectedImpact": "More service revenue and future resale leads.", "metricToTrack": "Share of buyers who service within 6 months", "effort": "low" },
+      { "idea": "Dynamic price drops for cars older than 30 days in stock", "problem": "Old stock loses value and ties up cash.", "expectedImpact": "Faster sales and lower holding cost.", "metricToTrack": "Days in inventory", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "In a trust-poor market, guarantees like money-back are the product, not just a policy.",
+      "Owning inventory gives control over quality but makes speed of sale the most important number.",
+      "Small margins mean add-ons like loans, insurance and servicing decide profit.",
+      "Buying a services company (GoMechanic) can turn a one-time sale into a long relationship."
+    ],
+    "interviewQuestions": [
+      { "question": "Spinny's return rate in the money-back window doubled last month. What do you do?", "hint": "Check by city, car type, inspector and hub. Look at reasons for return. Fix the listing or the inspection." },
+      { "question": "Should Spinny move to a marketplace model like CarDekho?", "hint": "Compare risk, margin, trust and control. Suggest a hybrid for older or cheaper cars." },
+      { "question": "How would you cut the time a car sits in inventory?", "hint": "Better buying data, faster repair, dynamic pricing, push to buyers who searched for that model." },
+      { "question": "Design a feature to increase repeat business from past buyers.", "hint": "Service reminders, warranty renewal, trade-in offers timed to car age." },
+      { "question": "How would you measure the success of the GoMechanic acquisition?", "hint": "Share of Spinny buyers who service, new users from servicing who later buy or sell, service margin." }
+    ],
+    "glossary": [
+      { "term": "Inventory", "meaning": "Cars that Spinny owns and has not yet sold." },
+      { "term": "Gross margin", "meaning": "What is left from the sale price after paying for the car and fixing it." },
+      { "term": "Full-stack", "meaning": "A business that does every step itself, from buying to selling to servicing." },
+      { "term": "RC transfer", "meaning": "Changing the car's registration certificate to the new owner's name." },
+      { "term": "Conversion", "meaning": "The share of people at one step who move to the next, like test drive to purchase." },
+      { "term": "North star metric", "meaning": "The one number that best shows whether users are getting value." }
+    ],
+    "assumptions": [
+      "Per-car margin example is worked out from Inc42's estimate of FY25 gross margin and an assumed ₹5 lakh car price.",
+      "Exact money-back days and warranty terms can change; check the site.",
+      "Full-stack here means Spinny owns the steps; the term itself is used in the batch brief.",
+      "Yearly cars sold is extrapolated from the monthly figure."
+    ]
+  }
+}

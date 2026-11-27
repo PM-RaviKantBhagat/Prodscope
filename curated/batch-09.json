@@ -1,0 +1,114 @@
+[
+ {
+  "company": "DeepSeek",
+  "website": "deepseek.com",
+  "domain": "deepseek.com",
+  "market": "China · global",
+  "category": "AI assistant",
+  "why": "Open, low-cost model that shocked the market; cost as strategy."
+ },
+ {
+  "company": "Grok",
+  "website": "grok.com",
+  "domain": "grok.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Built into X; distribution and personality as features."
+ },
+ {
+  "company": "Le Chat (Mistral)",
+  "website": "mistral.ai",
+  "domain": "mistral.ai",
+  "market": "France · global",
+  "category": "AI assistant",
+  "why": "Europe's AI challenger; open models and enterprise focus."
+ },
+ {
+  "company": "Microsoft Copilot",
+  "website": "copilot.microsoft.com",
+  "domain": "copilot.microsoft.com",
+  "market": "US · global",
+  "category": "AI productivity",
+  "why": "Putting AI into Office; enterprise pricing and adoption challenges."
+ },
+ {
+  "company": "DeepMind (Google)",
+  "website": "deepmind.google",
+  "domain": "deepmind.google",
+  "market": "UK · global",
+  "category": "AI research to product",
+  "why": "How research turns into products (Gemini, AlphaFold)."
+ },
+ {
+  "company": "GitHub Copilot",
+  "website": "github.com/features/copilot",
+  "domain": "github.com",
+  "market": "US · global",
+  "category": "AI dev tools",
+  "why": "First mass AI coding tool; compare with Cursor on product speed."
+ },
+ {
+  "company": "Lovable",
+  "website": "lovable.dev",
+  "domain": "lovable.dev",
+  "market": "Sweden · global",
+  "category": "AI app builder",
+  "why": "One of the fastest to $100M+ revenue; building apps by chatting with AI for non-devs."
+ },
+ {
+  "company": "ElevenLabs",
+  "website": "elevenlabs.io",
+  "domain": "elevenlabs.io",
+  "market": "UK/US · global",
+  "category": "AI voice",
+  "why": "Fast-growing AI audio; creator and enterprise use cases, ethics of voice cloning."
+ },
+ {
+  "company": "Synthesia",
+  "website": "synthesia.io",
+  "domain": "synthesia.io",
+  "market": "UK",
+  "category": "AI video",
+  "why": "AI avatar video for enterprise training; business AI product-market fit."
+ },
+ {
+  "company": "Grammarly",
+  "website": "grammarly.com",
+  "domain": "grammarly.com",
+  "market": "US · global",
+  "category": "AI writing",
+  "why": "Pre-ChatGPT AI product fighting to stay relevant; rebranded parent as Superhuman."
+ },
+ {
+  "company": "Granola",
+  "website": "granola.ai",
+  "domain": "granola.ai",
+  "market": "UK · US",
+  "category": "AI meeting notes",
+  "why": "Fast-growing AI notes app; simple UX that wins over bots in calls."
+ },
+ {
+  "company": "Coinbase",
+  "website": "coinbase.com",
+  "domain": "coinbase.com",
+  "market": "US · global",
+  "category": "Crypto",
+  "why": "Trust and compliance in crypto; new crypto products."
+ },
+ {
+  "company": "Revolut",
+  "website": "revolut.com",
+  "domain": "revolut.com",
+  "market": "UK · global",
+  "category": "App-only bank / super-app",
+  "why": "Fastest-scaling UK money app; super-app strategy and its long UK banking licence journey; also live in India."
+ },
+ {
+  "company": "Monzo",
+  "website": "monzo.com",
+  "domain": "monzo.com",
+  "market": "UK",
+  "category": "App-only bank",
+  "why": "Community-led growth, hot-coral card and delightful UX; reached profitability."
+ }
+]

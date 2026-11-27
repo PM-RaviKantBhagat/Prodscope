@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Khatabook",
+  "website": "khatabook.com",
+  "domain": "khatabook.com",
+  "market": "India",
+  "category": "SMB fintech",
+  "why": "Digital ledger for shopkeepers; replacing a paper habit."
+ },
+ {
+  "company": "Udaan",
+  "website": "udaan.com",
+  "domain": "udaan.com",
+  "market": "India",
+  "category": "B2B e-commerce",
+  "why": "B2B marketplace for kirana stores; hard unit economics."
+ },
+ {
+  "company": "ONDC",
+  "website": "ondc.org",
+  "domain": "ondc.org",
+  "market": "India",
+  "category": "Open commerce network",
+  "why": "Government open network for commerce; unbundling marketplaces."
+ },
+ {
+  "company": "Truecaller",
+  "website": "truecaller.com",
+  "domain": "truecaller.com",
+  "market": "Sweden · India-first",
+  "category": "Caller ID / communication",
+  "why": "India is its biggest market; spam blocking, ads + subscription model."
+ },
+ {
+  "company": "Apna",
+  "website": "apna.co",
+  "domain": "apna.co",
+  "market": "India",
+  "category": "Jobs",
+  "why": "Jobs and community for blue-collar workers; compare with Naukri."
+ },
+ {
+  "company": "Tata Neu",
+  "website": "tataneu.com",
+  "domain": "tataneu.com",
+  "market": "India",
+  "category": "Super-app (loyalty)",
+  "why": "A conglomerate's super-app bet; why super-apps are hard to build."
+ },
+ {
+  "company": "BigBasket",
+  "website": "bigbasket.com",
+  "domain": "bigbasket.com",
+  "market": "India",
+  "category": "Online grocery",
+  "why": "Moved from scheduled delivery to quick commerce under Tata."
+ },
+ {
+  "company": "Krutrim",
+  "website": "olakrutrim.com",
+  "domain": "olakrutrim.com",
+  "market": "India",
+  "category": "AI (Indic LLM)",
+  "why": "Ola's AI bet; compare with Sarvam on building Indian AI."
+ },
+ {
+  "company": "ChatGPT",
+  "website": "chatgpt.com",
+  "domain": "chatgpt.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Still #1 consumer AI app in 2026; ads, agents and turning hundreds of millions of free users into payers."
+ },
+ {
+  "company": "Claude",
+  "website": "claude.ai",
+  "domain": "claude.ai",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Cowork and Claude Design made it a clear #3 consumer AI app in 2026; good niche-positioning case."
+ },
+ {
+  "company": "Gemini",
+  "website": "gemini.google.com",
+  "domain": "gemini.google.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Distribution advantage through Android, Search and Workspace; bundle vs. standalone."
+ },
+ {
+  "company": "Perplexity",
+  "website": "perplexity.ai",
+  "domain": "perplexity.ai",
+  "market": "US · global",
+  "category": "AI search",
+  "why": "Answer engine challenging Google; citations, Comet browser and publisher partnerships."
+ },
+ {
+  "company": "Cursor",
+  "website": "cursor.com",
+  "domain": "cursor.com",
+  "market": "US · global",
+  "category": "AI dev tools",
+  "why": "One of the fastest-growing SaaS products of 2025; product-led growth among developers."
+ }
+]

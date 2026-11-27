@@ -1,0 +1,520 @@
+{
+  "company": "Microsoft Excel",
+  "domain": "microsoft.com-excel",
+  "website": "https://www.microsoft.com/excel",
+  "sources": [
+    "https://www.directionsonmicrosoft.com/blog/microsoft-claims-15-million-paid-m365-copilot-seats",
+    "https://office-watch.com/2026/microsoft-365-subscribers-2026/",
+    "https://microsoft.com/microsoft-365/blog/2025-01-16/copilot-is-now-included-in-microsoft-365-personal-and-family",
+    "https://www.neowin.net/amp/microsoft-announces-major-microsoft-365-commercial-price-hike-effective-2026/",
+    "https://www.fool.com/earnings/call-transcripts/2025/10/29/microsoft-msft-q1-2026-earnings-call-transcript",
+    "https://office-watch.com/2026/microsoft-365-plans-overview/"
+  ],
+  "report": {
+    "company": "Microsoft Excel",
+    "tagline": "The spreadsheet app most of the world's businesses run on, now with Copilot AI that can build formulas and analysis for you.",
+    "category": "Productivity",
+    "simpleSummary": "Excel is a grid of boxes where you type numbers and words, and it does the maths for you. People use it for budgets, sales reports, attendance lists and financial models. You can write formulas like =SUM to add things up, make charts, and share the file with your team. Most people get it through a Microsoft 365 subscription, and now an AI assistant called Copilot can write formulas or make charts when you ask in plain English.",
+    "keyNumbers": [
+      {
+        "label": "Microsoft 365 commercial users",
+        "value": "About 450 million paid seats",
+        "note": "Microsoft, Q2 FY26 earnings call, January 2026. Excel is included in most of these plans."
+      },
+      {
+        "label": "Microsoft 365 consumer subscribers",
+        "value": "About 95 million",
+        "note": "Office Watch, 2026, based on Microsoft's reported Personal and Family subscriber numbers."
+      },
+      {
+        "label": "Paid Microsoft 365 Copilot seats",
+        "value": "About 15 million",
+        "note": "Microsoft, January 2026. Only about 3% of commercial seats, so most Excel users do not yet pay for business Copilot."
+      },
+      {
+        "label": "Copilot business price",
+        "value": "$30 per user per month",
+        "note": "List price on top of a Microsoft 365 plan. Discounts are common for large deals."
+      },
+      {
+        "label": "People using Excel",
+        "value": "Over 1 billion (estimate)",
+        "note": "Commonly quoted estimate including free web and mobile users. Microsoft does not publish an Excel-only count."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Excel stores data in rows and columns and calculates with formulas. It turns raw data into charts, pivot tables and reports. It runs on Windows, Mac, the web, and phones. Microsoft sells it mainly inside Microsoft 365, a subscription bundle with Word, PowerPoint, Outlook and Teams.",
+      "howItWorks": [
+        "You type data into cells and write formulas, like =SUM(B2:B10) or =XLOOKUP, that update when the data changes.",
+        "Pivot tables and charts summarise thousands of rows in a few clicks.",
+        "Files save to OneDrive or SharePoint, so several people can edit at the same time.",
+        "Copilot in Excel lets you ask questions in plain words, like 'show sales by region', and it writes formulas, builds charts or highlights trends. Agent Mode can carry out multi-step tasks in the sheet.",
+        "Power users connect Excel to databases with Power Query, write Python in cells, or automate with macros.",
+        "Excel for the web is free with a Microsoft account, with fewer features than the desktop app."
+      ],
+      "valueProposition": "Excel lets anyone model, track and analyse numbers without writing code, and the file works at almost every company, bank and client you will ever send it to."
+    },
+    "personas": [
+      {
+        "name": "Finance analyst",
+        "description": "Builds budgets, forecasts and models for a company or bank. Lives in Excel 8 hours a day.",
+        "goals": [
+          "Build models fast with keyboard shortcuts",
+          "Pull data from company systems without copy-paste",
+          "Share accurate reports with managers"
+        ],
+        "frustrations": [
+          "Large files slow down or crash",
+          "One broken formula can ruin a model and is hard to find"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Runs a shop or agency and tracks sales, stock and GST in a few sheets.",
+        "goals": [
+          "Simple tracking without buying special software",
+          "Quick charts to see how the month went"
+        ],
+        "frustrations": [
+          "Does not know formulas beyond SUM",
+          "Subscription price keeps rising"
+        ]
+      },
+      {
+        "name": "Student or fresher",
+        "description": "Learning Excel because job listings and interviews ask for it.",
+        "goals": [
+          "Learn VLOOKUP, pivot tables and charts",
+          "Use a free version for assignments"
+        ],
+        "frustrations": [
+          "The many menus feel overwhelming",
+          "Free web version lacks some features"
+        ]
+      },
+      {
+        "name": "Operations manager",
+        "description": "Tracks shipments, rosters and vendors for a team and shares sheets with others.",
+        "goals": [
+          "One shared sheet everyone updates",
+          "Quick answers from messy data"
+        ],
+        "frustrations": [
+          "People overwrite each other's work",
+          "Version confusion when files are emailed"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Doing calculations by hand or on a calculator is slow and error-prone.",
+        "howSolved": "Formulas do the maths and update automatically when numbers change.",
+        "severity": "high"
+      },
+      {
+        "pain": "Making sense of thousands of rows of data.",
+        "howSolved": "Pivot tables, filters and charts summarise data in seconds.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing which formula to use.",
+        "howSolved": "Copilot writes formulas from a plain-English request and explains them.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sharing the latest version of a file with a team.",
+        "howSolved": "Files on OneDrive let several people edit the same sheet at once.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Clients and banks expect a standard file format.",
+        "howSolved": ".xlsx is the default format for business data almost everywhere.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Repeating the same cleaning steps every week.",
+        "howSolved": "Power Query and macros record steps once and replay them.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Formulas and functions",
+        "whatItDoes": "Over 400 built-in functions like SUM, XLOOKUP, IF and FILTER.",
+        "whyItMatters": "The core reason people use Excel. Skills built here make users loyal for life."
+      },
+      {
+        "feature": "Pivot tables and charts",
+        "whatItDoes": "Summarise and visualise large data sets without code.",
+        "whyItMatters": "Turns Excel from a calculator into a reporting tool for managers."
+      },
+      {
+        "feature": "Copilot in Excel",
+        "whatItDoes": "AI that writes formulas, builds charts, finds trends and, in Agent Mode, does multi-step tasks from a prompt.",
+        "whyItMatters": "Microsoft's main way to charge more per user, via the $30 business add-on and higher consumer prices."
+      },
+      {
+        "feature": "Co-authoring on OneDrive and SharePoint",
+        "whatItDoes": "Several people edit the same file live, with version history.",
+        "whyItMatters": "Answers the main threat from Google Sheets, which started as a shared online sheet."
+      },
+      {
+        "feature": "Power Query and Python in Excel",
+        "whatItDoes": "Pull, clean and analyse data from many sources, and run Python code in cells.",
+        "whyItMatters": "Keeps analysts in Excel instead of moving to separate data tools."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First budget sheet",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Open Excel",
+            "detail": "Opens Excel for the web free or via a Microsoft 365 plan."
+          },
+          {
+            "step": "Pick a template",
+            "detail": "Chooses a monthly budget template."
+          },
+          {
+            "step": "Enter data",
+            "detail": "Types income and expenses for the month."
+          },
+          {
+            "step": "Ask Copilot",
+            "detail": "Asks 'What were my top 3 expenses?' and Copilot highlights them."
+          },
+          {
+            "step": "Make a chart",
+            "detail": "Adds a pie chart of spending."
+          },
+          {
+            "step": "Save and reuse",
+            "detail": "Saves to OneDrive and copies the sheet next month."
+          }
+        ]
+      },
+      {
+        "name": "Monthly sales report",
+        "persona": "Finance analyst",
+        "steps": [
+          {
+            "step": "Pull data",
+            "detail": "Refreshes a Power Query connection to the sales database."
+          },
+          {
+            "step": "Clean",
+            "detail": "Saved steps remove duplicates and fix dates automatically."
+          },
+          {
+            "step": "Summarise",
+            "detail": "Updates pivot tables by region and product."
+          },
+          {
+            "step": "Check",
+            "detail": "Reviews totals against last month to catch errors."
+          },
+          {
+            "step": "Share",
+            "detail": "Shares a OneDrive link with managers or pastes charts into PowerPoint."
+          }
+        ]
+      },
+      {
+        "name": "Learning Excel for a job",
+        "persona": "Student or fresher",
+        "steps": [
+          {
+            "step": "Get access",
+            "detail": "Uses the free web version or a college Microsoft 365 licence."
+          },
+          {
+            "step": "Watch tutorials",
+            "detail": "Learns VLOOKUP and pivot tables from YouTube."
+          },
+          {
+            "step": "Practise",
+            "detail": "Builds a sample sales dashboard."
+          },
+          {
+            "step": "Get stuck",
+            "detail": "Asks Copilot to explain a formula error."
+          },
+          {
+            "step": "Get certified",
+            "detail": "Takes a Microsoft Office Specialist exam for the CV."
+          },
+          {
+            "step": "Use at work",
+            "detail": "Joins a company that pays for Microsoft 365, and keeps using Excel daily."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Microsoft makes money from Excel in three ways: companies pay per user per month for Microsoft 365, consumers pay a yearly Personal or Family plan, and businesses pay extra for Copilot AI. Excel is almost never sold alone; it is a key reason people buy the bundle.",
+      "revenueStreams": [
+        {
+          "stream": "Microsoft 365 commercial plans",
+          "detail": "Per user per month, from Business Basic (web apps only) to Enterprise E3 and E5. Prices rose again in July 2026."
+        },
+        {
+          "stream": "Microsoft 365 consumer plans",
+          "detail": "Personal and Family yearly plans. US prices rose to $99.99 and $129.99 a year in 2025 when Copilot was added."
+        },
+        {
+          "stream": "Microsoft 365 Copilot",
+          "detail": "$30 per user per month add-on for businesses, adding AI to Excel, Word, Outlook and Teams."
+        },
+        {
+          "stream": "One-time licence",
+          "detail": "Office Home 2024 sold once for a single PC, for people who do not want a subscription."
+        }
+      ],
+      "pricing": "Excel for the web is free with a Microsoft account. US consumer: Microsoft 365 Personal $99.99 a year, Family $129.99 a year (up to 6 people). Business: Business Standard about $12.50 per user per month before the July 2026 rise to about $14; Enterprise E3 and E5 are higher. Microsoft 365 Copilot $30 per user per month extra.",
+      "costDrivers": [
+        "AI computing for Copilot, which costs money on every request",
+        "Cloud storage and servers for OneDrive and Excel for the web",
+        "Large engineering teams keeping Excel backward compatible with decades of files",
+        "Sales teams and partner commissions for enterprise deals"
+      ],
+      "unitEconomics": "Take one office worker on Microsoft 365 E3 at about $36 a month. That is about $430 a year, for Excel, Word, Outlook, Teams and more. The cost to serve most of it is low, mainly storage and servers, so the margin on the base plan is very high. Copilot changes the picture: at $30 a month it can double the bill, but every AI request costs Microsoft computing power, so heavy Copilot users are much less profitable than base users. These are rough estimates; Microsoft does not report Excel's costs separately."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Companies buy Microsoft 365 for every employee, so Excel comes with the job.",
+        "Schools and colleges get free or cheap licences, so students learn on Excel.",
+        "Job listings, MBA courses and finance training teach Excel as a must-have skill.",
+        "Files sent by clients and banks in .xlsx format pull new people into Excel."
+      ],
+      "whatBringsUsersBack": [
+        "Daily work like reports, budgets and trackers lives in Excel files.",
+        "Years of skills and shortcuts make switching painful.",
+        "Old files and macros only work fully in Excel."
+      ],
+      "moat": "Excel's moat is skill and file lock-in. Hundreds of millions of people have spent years learning its formulas and shortcuts, and companies have decades of models built in it. A rival has to be better and also convince everyone to relearn."
+    },
+    "competitors": [
+      {
+        "name": "Google Sheets",
+        "positioning": "Free, browser-based spreadsheet built for sharing, part of Google Workspace.",
+        "howThisProductDiffers": "Sheets wins on easy sharing and price. Excel wins on power, big data sets and finance features."
+      },
+      {
+        "name": "Airtable and Notion databases",
+        "positioning": "Spreadsheet-like databases for tracking projects and records.",
+        "howThisProductDiffers": "They are easier for lists and workflows but weak at heavy maths and modelling."
+      },
+      {
+        "name": "Zoho Sheet and WPS Office",
+        "positioning": "Low-cost office suites, popular with price-sensitive users in India and Asia.",
+        "howThisProductDiffers": "Cheaper, but files and formulas are not fully compatible with Excel."
+      },
+      {
+        "name": "AI data tools (ChatGPT data analysis, Claude)",
+        "positioning": "Upload a file and ask questions in plain English.",
+        "howThisProductDiffers": "They threaten casual Excel use. Excel answers by putting Copilot inside the sheet where the data already lives."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active Excel users who complete a meaningful task (a formula, chart, pivot or shared edit)",
+      "why": "It counts people getting real work done in Excel, not just opening a file. More of them means more value for customers and stronger reasons to renew Microsoft 365."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "How many people use Excel each week across desktop, web and mobile.",
+        "children": [
+          {
+            "metric": "New Microsoft 365 seats",
+            "description": "Every new seat is a potential Excel user."
+          },
+          {
+            "metric": "Free web users signing in",
+            "description": "Grows the base outside paid plans."
+          },
+          {
+            "metric": "Students using Excel",
+            "description": "Builds future paying users."
+          }
+        ]
+      },
+      {
+        "metric": "Task success rate",
+        "description": "Share of sessions where users finish what they came to do.",
+        "children": [
+          {
+            "metric": "Formula error rate",
+            "description": "Fewer errors mean users trust their work."
+          },
+          {
+            "metric": "File open and calculation speed",
+            "description": "Slow files cause frustration and drop-off."
+          },
+          {
+            "metric": "Crash rate on large files",
+            "description": "Crashes lose work and trust."
+          }
+        ]
+      },
+      {
+        "metric": "Copilot adoption",
+        "description": "How many users rely on AI for real tasks in Excel.",
+        "children": [
+          {
+            "metric": "Share of users who try Copilot weekly",
+            "description": "Shows whether people discover it."
+          },
+          {
+            "metric": "Copilot suggestions accepted",
+            "description": "Accepted suggestions mean the AI is useful."
+          },
+          {
+            "metric": "Paid Copilot seats",
+            "description": "Turns AI value into revenue."
+          }
+        ]
+      },
+      {
+        "metric": "Collaboration",
+        "description": "How often files are shared and co-edited.",
+        "children": [
+          {
+            "metric": "Files saved to OneDrive or SharePoint",
+            "description": "Cloud files can be co-edited and keep users in Microsoft's cloud."
+          },
+          {
+            "metric": "Co-authoring sessions per week",
+            "description": "Shows Excel being used as a team tool."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Calculation accuracy and file compatibility with old workbooks",
+      "Microsoft 365 renewal rate after price rises",
+      "Copilot cost per active user",
+      "Data privacy incidents"
+    ],
+    "strengths": [
+      "The default business format worldwide; clients, banks and auditors all expect .xlsx.",
+      "Huge base of skilled users who rarely switch.",
+      "Bundled into Microsoft 365, which most large companies already pay for.",
+      "Deep power features (Power Query, pivot tables, Python) that rivals lack."
+    ],
+    "weaknesses": [
+      "Hard to learn for beginners, with many menus and hidden features.",
+      "Large files slow down and break easily, and errors are hard to spot.",
+      "Real-time collaboration came later than Google Sheets and still feels heavier.",
+      "Only about 3% of commercial users pay for Copilot, so AI revenue is still small."
+    ],
+    "risks": [
+      "AI chat tools let people analyse data without opening a spreadsheet.",
+      "Google Sheets and Workspace win startups and schools.",
+      "Repeated price rises push small businesses toward free or cheaper tools.",
+      "Regulators in the EU look at Microsoft bundling (as they did with Teams)."
+    ],
+    "userComplaints": [
+      "Microsoft 365 prices keep rising, and Copilot was added to consumer plans even for people who did not want it.",
+      "Big workbooks are slow, freeze or crash.",
+      "Copilot answers can be wrong or need data formatted as a table first.",
+      "Features differ between Windows, Mac and web versions.",
+      "AutoSave and sync conflicts on OneDrive confuse users."
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Copilot 'check my model' that scans a workbook for broken formulas, hard-coded numbers and inconsistent ranges",
+        "problem": "One hidden formula error can ruin a model, and analysts fear this most.",
+        "expectedImpact": "Higher trust and a clear reason for finance teams to pay for Copilot.",
+        "metricToTrack": "Copilot paid seats in finance teams",
+        "effort": "medium"
+      },
+      {
+        "idea": "Guided learning mode for beginners that explains each formula step by step",
+        "problem": "New users find Excel overwhelming and turn to Google Sheets or AI chat.",
+        "expectedImpact": "More beginners become regular users.",
+        "metricToTrack": "Week-4 return rate of new Excel users",
+        "effort": "low"
+      },
+      {
+        "idea": "Large-file performance mode that loads only visible sheets and calculates in the cloud",
+        "problem": "Big files freeze and crash.",
+        "expectedImpact": "Fewer crashes and less lost work.",
+        "metricToTrack": "Crash rate on files over 50 MB",
+        "effort": "high"
+      },
+      {
+        "idea": "Copilot plan in India at a lower price with local GST and invoice templates",
+        "problem": "The $30 price is too high for small Indian businesses.",
+        "expectedImpact": "More paid AI users in a large growing market.",
+        "metricToTrack": "Copilot conversion rate among Indian business users",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Habits and skills are a moat. People stay with Excel because they have spent years learning it.",
+      "Bundling helps a product spread, but adding AI to a bundle and raising the price can anger users who did not ask for it.",
+      "When a new technology threatens you, put it inside the place users already work. Copilot sits in the sheet next to the data.",
+      "Backward compatibility is a feature. Breaking old files would cost Microsoft trust it has built over decades."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Only about 3% of Microsoft 365 business users pay for Copilot. How would you increase Copilot adoption in Excel?",
+        "hint": "Find the drop-off: awareness, price, trust, or usefulness. Segment by user type (analyst vs casual). Propose features tied to high-value tasks and measure paid seats and weekly use."
+      },
+      {
+        "question": "How would you make Excel easier for first-time users without annoying power users?",
+        "hint": "Split personas. Use progressive disclosure: simple defaults, advanced features on demand. Track new-user retention and power-user satisfaction as a guardrail."
+      },
+      {
+        "question": "Google Sheets is winning startups. What should Excel do?",
+        "hint": "Understand why: price, sharing, browser-first. Look at the free web version and collaboration. Pick one wedge, like free sharing for small teams, and measure startup sign-ups."
+      },
+      {
+        "question": "What would you pick as Excel's north star metric?",
+        "hint": "Choose a value metric like weekly users completing a meaningful task. Break into active users, task success, AI adoption and collaboration. Add guardrails like accuracy and renewals."
+      },
+      {
+        "question": "AI chatbots can now analyse a spreadsheet you upload. Is that a threat to Excel?",
+        "hint": "Separate casual users (high risk) from analysts (low risk). Discuss where Excel's moat holds (models, files, auditability). Suggest how Copilot keeps work inside Excel."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bundle",
+        "meaning": "Selling several products together for one price, like Excel inside Microsoft 365."
+      },
+      {
+        "term": "Seat",
+        "meaning": "One paid user licence in a business software plan."
+      },
+      {
+        "term": "Pivot table",
+        "meaning": "An Excel tool that summarises large data by groups, like sales by region."
+      },
+      {
+        "term": "Lock-in",
+        "meaning": "When switching to another product is so painful that users stay."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for competitors to take your customers."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team uses to track whether users are getting real value."
+      },
+      {
+        "term": "Progressive disclosure",
+        "meaning": "Showing simple options first and advanced ones only when the user needs them."
+      }
+    ],
+    "assumptions": [
+      "Excel's own user count and revenue are not published; 1 billion users is an estimate.",
+      "Unit economics are an illustration based on list prices.",
+      "Business Standard price after July 2026 is from news reports and may vary by country.",
+      "The north star metric is our choice; Microsoft has not shared Excel's internal metric."
+    ]
+  }
+}

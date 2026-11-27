@@ -1,0 +1,578 @@
+{
+  "company": "WhatsApp",
+  "domain": "whatsapp.com",
+  "website": "https://whatsapp.com",
+  "sources": [
+    "https://www.medianews4u.com/metas-q3-results-highlight-whatsapps-rising-role-in-revenue-mix/",
+    "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/",
+    "https://www.dawn.com/news/2010231",
+    "https://www.emarketer.com/content/whatsapp-introduces-ads-creator-monetization-tools-first-time",
+    "https://www.adexchanger.com/platforms/metas-business-messaging-product-lead-says-bringing-ads-to-whatsapp-is-an-evolution-not-a-broken-promise/",
+    "https://www.outlookbusiness.com/news/business-messaging-whatsapp-engines-of-growth-biz-digitisation-driving-headroom-meta-india-head",
+    "https://restofworld.org/2024/how-whatsapp-for-business-changed-the-world/"
+  ],
+  "report": {
+    "company": "WhatsApp",
+    "tagline": "A free messaging app that more than 3 billion people use to chat, call and talk to businesses.",
+    "category": "Messaging",
+    "simpleSummary": "WhatsApp lets you send texts, photos, voice notes and make calls over the internet for free. In India it is the app everyone already has, from your grandmother to your local kirana shop. Meta owns it. It makes money by charging businesses to message customers, and since 2025 by showing ads in the Updates tab, never inside your personal chats.",
+    "keyNumbers": [
+      {
+        "label": "Monthly users worldwide",
+        "value": "3 billion+",
+        "note": "Meta said WhatsApp crossed 3 billion monthly users in 2025. Meta now reports only a combined number for all its apps."
+      },
+      {
+        "label": "Users in India",
+        "value": "500 million+",
+        "note": "India is the largest market. Figure is from Indian government data from 2021, so today's number is likely higher."
+      },
+      {
+        "label": "Meta 'other revenue' (mostly WhatsApp paid messaging and Meta Verified)",
+        "value": "$690 million in Q3 2025, up 59% year on year",
+        "note": "From Meta Q3 2025 results. Meta does not report WhatsApp revenue on its own."
+      },
+      {
+        "label": "Click-to-WhatsApp ads revenue growth",
+        "value": "+60% year on year (Q3 2025)",
+        "note": "Ads on Facebook and Instagram that open a WhatsApp chat with a business. From Meta Q3 2025 earnings commentary."
+      },
+      {
+        "label": "Active business chat threads",
+        "value": "1 billion+ every day",
+        "note": "Meta Q3 2025 earnings commentary."
+      },
+      {
+        "label": "Meta family daily users",
+        "value": "3.64 billion (Q3 2026)",
+        "note": "Meta Q3 2026 results. Covers WhatsApp, Instagram, Facebook and Messenger together."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "WhatsApp is a phone-number-based chat and calling app. People use it for family groups, work chats, video calls and sending documents. Businesses use it to send order updates, answer questions and sell. In 2025 it added ads and paid channel subscriptions inside the Updates tab.",
+      "howItWorks": [
+        "You sign up with your phone number. Your phone contacts who use WhatsApp show up automatically, so there is no friend list to build.",
+        "Chats and calls are end-to-end encrypted, which means only you and the other person can read them, not even Meta.",
+        "The Updates tab holds Status (stories that vanish after 24 hours) and Channels (one-way broadcasts from creators, news outlets and brands).",
+        "Small shops use the free WhatsApp Business app with a catalogue and quick replies. Large companies use the paid WhatsApp Business Platform (API) to send messages at scale.",
+        "In India, WhatsApp Pay lets you send money over UPI from inside a chat."
+      ],
+      "valueProposition": "Free, simple, works on cheap phones and weak networks, and everyone you know is already on it."
+    },
+    "personas": [
+      {
+        "name": "Family group admin",
+        "description": "A 50-year-old parent in Jaipur who runs the family group and forwards good-morning messages and news.",
+        "goals": [
+          "Stay in touch with relatives in other cities",
+          "Make video calls to children abroad for free",
+          "Share photos from family functions"
+        ],
+        "frustrations": [
+          "Phone storage fills up with forwarded videos",
+          "Hard to tell if a forwarded message is true"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "A boutique owner in Surat who sells sarees by sending photos to customers on WhatsApp.",
+        "goals": [
+          "Show new stock to regular buyers quickly",
+          "Take orders and payments without building a website",
+          "Reply to many customers fast"
+        ],
+        "frustrations": [
+          "Broadcast lists only reach people who saved her number",
+          "Paid Business Platform is too complex and costly for her",
+          "Risk of number getting banned if she messages too many people"
+        ]
+      },
+      {
+        "name": "Large brand marketer",
+        "description": "A growth manager at a bank or D2C brand who sends lakhs of messages a month through a WhatsApp partner like Gupshup or Interakt.",
+        "goals": [
+          "Send OTPs, order updates and offers where customers actually read them",
+          "Get higher open and click rates than SMS or email",
+          "Run Click-to-WhatsApp ads that start sales chats"
+        ],
+        "frustrations": [
+          "Per-message prices for marketing messages keep changing",
+          "Meta limits how many marketing messages a user receives",
+          "Template approvals slow down campaigns"
+        ]
+      },
+      {
+        "name": "College student",
+        "description": "A 20-year-old in Pune who uses WhatsApp for class groups and Instagram for friends.",
+        "goals": [
+          "Get class notes and updates",
+          "Plan trips with friends",
+          "Follow favourite creators on Channels"
+        ],
+        "frustrations": [
+          "Too many noisy groups",
+          "Feels less fun than Instagram for sharing life updates"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "SMS costs money per message and international calls are expensive.",
+        "howSolved": "Texts and calls go over the internet, so they cost only mobile data.",
+        "severity": "high"
+      },
+      {
+        "pain": "Finding friends on a new app is slow.",
+        "howSolved": "Your phone number is your ID, so your contact list becomes your friend list instantly.",
+        "severity": "high"
+      },
+      {
+        "pain": "People worry about others reading their private messages.",
+        "howSolved": "End-to-end encryption on all personal chats and calls.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Customers ignore SMS and email from businesses.",
+        "howSolved": "Businesses can send updates on WhatsApp, where most people check messages many times a day.",
+        "severity": "high"
+      },
+      {
+        "pain": "Small sellers cannot afford a website or app.",
+        "howSolved": "The free WhatsApp Business app gives them a profile, catalogue and quick replies.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sending money means switching to a separate payments app.",
+        "howSolved": "WhatsApp Pay on UPI inside the chat in India, though few people use it.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Chats, groups and Communities",
+        "whatItDoes": "One-to-one chats, groups of up to 1,024 people, and Communities that bundle many groups under one roof.",
+        "whyItMatters": "Groups are why people open WhatsApp many times a day. They create habit."
+      },
+      {
+        "feature": "Voice and video calls",
+        "whatItDoes": "Free encrypted calls for up to 32 people.",
+        "whyItMatters": "Replaces paid phone calls, especially for families with members abroad."
+      },
+      {
+        "feature": "Updates tab: Status and Channels",
+        "whatItDoes": "Status shows 24-hour stories from contacts. Channels let anyone follow a creator, brand or news outlet.",
+        "whyItMatters": "This is where ads, promoted Channels and paid Channel subscriptions live, so it is the new money engine that keeps chats ad-free."
+      },
+      {
+        "feature": "WhatsApp Business app",
+        "whatItDoes": "Free app for small shops with a business profile, catalogue, labels and auto replies.",
+        "whyItMatters": "Brings millions of small sellers onto WhatsApp, which later become customers for paid tools and ads."
+      },
+      {
+        "feature": "WhatsApp Business Platform (API)",
+        "whatItDoes": "Lets large companies send template messages (OTPs, order updates, offers) and run chatbots, charged per message.",
+        "whyItMatters": "The biggest direct revenue line for WhatsApp."
+      },
+      {
+        "feature": "Meta AI and Business AI",
+        "whatItDoes": "An AI assistant inside chats, and AI agents that answer customers on behalf of a business.",
+        "whyItMatters": "Can let small businesses offer 24x7 replies without staff, which could grow paid usage."
+      },
+      {
+        "feature": "WhatsApp Pay (India)",
+        "whatItDoes": "UPI payments inside chat.",
+        "whyItMatters": "Could make WhatsApp a place to buy, not just talk, but adoption has been small next to PhonePe and Google Pay."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "New user joins",
+        "persona": "Family group admin",
+        "steps": [
+          {
+            "step": "Install and verify number",
+            "detail": "Downloads from Play Store and enters a 6-digit SMS code."
+          },
+          {
+            "step": "Contacts appear",
+            "detail": "Sees which saved contacts already use WhatsApp, with no searching."
+          },
+          {
+            "step": "Gets added to a group",
+            "detail": "A relative adds them to the family group within minutes."
+          },
+          {
+            "step": "First voice note",
+            "detail": "Holds the mic button and sends a voice message, easy even if typing is hard."
+          },
+          {
+            "step": "First video call",
+            "detail": "Calls a son abroad for free over Wi-Fi."
+          },
+          {
+            "step": "Daily habit",
+            "detail": "Opens the app 20+ times a day for group messages and Status."
+          }
+        ]
+      },
+      {
+        "name": "Shop owner takes an order",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Sets up Business app",
+            "detail": "Adds shop name, hours, address and a catalogue of 30 sarees."
+          },
+          {
+            "step": "Posts on Status",
+            "detail": "Shares new arrivals on Status so saved customers see them."
+          },
+          {
+            "step": "Customer messages",
+            "detail": "A buyer taps a catalogue item and asks about colour and price."
+          },
+          {
+            "step": "Quick reply",
+            "detail": "Owner uses a saved quick reply with price and delivery time."
+          },
+          {
+            "step": "Payment",
+            "detail": "Customer pays by UPI, often in another app, and sends a screenshot."
+          },
+          {
+            "step": "Labels the chat",
+            "detail": "Owner tags the chat as 'Paid' and 'To ship'."
+          }
+        ]
+      },
+      {
+        "name": "Brand runs a Click-to-WhatsApp campaign",
+        "persona": "Large brand marketer",
+        "steps": [
+          {
+            "step": "Creates an Instagram ad",
+            "detail": "The ad button says 'Send message' and opens WhatsApp."
+          },
+          {
+            "step": "User taps the ad",
+            "detail": "A chat with the brand opens with a pre-filled message."
+          },
+          {
+            "step": "Bot replies",
+            "detail": "A chatbot built through a partner asks what the user wants and shows products."
+          },
+          {
+            "step": "Human handoff",
+            "detail": "A sales agent joins if the user asks something complex."
+          },
+          {
+            "step": "Order and updates",
+            "detail": "User buys. Brand sends paid utility messages for order and delivery status."
+          },
+          {
+            "step": "Follow-up offer",
+            "detail": "Weeks later, brand sends a paid marketing message with a discount."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "WhatsApp is free for people. It makes money from businesses in three ways: charging per message on the Business Platform, ads in the Updates tab, and ads on Facebook and Instagram that open a WhatsApp chat. It also earns small amounts from paid Channel subscriptions and Meta Verified for businesses.",
+      "revenueStreams": [
+        {
+          "stream": "Business Platform messages",
+          "detail": "Since July 2025, businesses pay per template message. Marketing messages cost the most, utility messages (order updates) less, and authentication messages (OTPs) the least. Customer service replies within 24 hours of a user message are free."
+        },
+        {
+          "stream": "Click-to-WhatsApp ads",
+          "detail": "Businesses pay Meta for ads on Facebook and Instagram that open a WhatsApp chat. This revenue is counted inside Meta's ad business and grew about 60% in Q3 2025."
+        },
+        {
+          "stream": "Status ads and promoted Channels",
+          "detail": "Launched June 2025 in the Updates tab. Ads appear between Status updates. Channel owners can pay to be shown in the Channels directory. Global rollout planned for 2026."
+        },
+        {
+          "stream": "Channel subscriptions",
+          "detail": "Users can pay a monthly fee for exclusive updates from a Channel. Meta takes a cut."
+        },
+        {
+          "stream": "Meta Verified for business",
+          "detail": "A paid badge and extra support for businesses on WhatsApp."
+        }
+      ],
+      "pricing": "Free for users. Business Platform: per-message pricing that varies by country and message type. In India a marketing message costs roughly ₹0.8 and a utility message about ₹0.1 to ₹0.15 (estimates; Meta updates the rate card often). Ads are bought through Meta Ads Manager.",
+      "costDrivers": [
+        "Servers and bandwidth for over 100 billion messages and billions of call minutes a day",
+        "Engineers and safety teams fighting spam, scams and fake news",
+        "Free customer service conversations that cost Meta money to deliver",
+        "Legal and policy costs, for example India's data-sharing disputes with the competition regulator"
+      ],
+      "unitEconomics": "A normal user brings in almost no money directly, and costs Meta only a few cents a year to serve because messages are small. The money comes from businesses. Example: a D2C brand in India sends one customer 1 order confirmation, 2 delivery updates and 2 offers a month. That is about ₹0.4 in utility messages and ₹1.6 in marketing messages, so roughly ₹2 a month from one customer relationship. Across hundreds of millions of business chats, this adds up. Ads in Status could add more, because Status has hundreds of millions of daily viewers."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth: you join because your family and friends are already there",
+        "Phone number as ID makes sign-up take under a minute",
+        "Works on low-cost Android phones and 2G or 3G networks, which helped it win India early",
+        "Businesses asking customers to 'WhatsApp us' on shop boards and packaging"
+      ],
+      "whatBringsUsersBack": [
+        "Group chats that ping all day",
+        "Status updates from contacts",
+        "Order updates, OTPs and bills from businesses",
+        "Channels from cricket teams, news outlets and creators"
+      ],
+      "moat": "Network effects: WhatsApp is useful because everyone you know uses it. To switch, you would have to move your whole family, every group and every business you talk to. That is almost impossible, which is why Telegram and Signal stay smaller in India."
+    },
+    "competitors": [
+      {
+        "name": "Telegram",
+        "positioning": "Cloud messaging with huge groups, bots and public channels.",
+        "howThisProductDiffers": "WhatsApp has far more users in India and stronger encryption by default. Telegram is better for large public communities and file sharing."
+      },
+      {
+        "name": "Instagram DMs",
+        "positioning": "Messaging tied to a social feed, popular with young people.",
+        "howThisProductDiffers": "Instagram is for friends and creators you follow. WhatsApp is for phone contacts, family and businesses. Meta owns both."
+      },
+      {
+        "name": "SMS and RCS (Google Messages)",
+        "positioning": "Built-in phone messaging, used heavily by businesses for OTPs.",
+        "howThisProductDiffers": "SMS is cheaper per message for OTPs but has no rich media or two-way chat. WhatsApp gets higher open rates and supports buttons, catalogues and payments."
+      },
+      {
+        "name": "Arattai (Zoho)",
+        "positioning": "Indian-made messaging app that surged in 2025 on a 'swadeshi' push.",
+        "howThisProductDiffers": "Arattai got a quick download spike but lacks the network. WhatsApp keeps users because everyone is already there."
+      },
+      {
+        "name": "iMessage",
+        "positioning": "Default chat for iPhone users, strong in the US.",
+        "howThisProductDiffers": "iMessage only works well between Apple devices. WhatsApp works on any phone, which is why it wins in Android-heavy markets like India."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily active users who send at least one message or make one call",
+      "why": "WhatsApp's value is people actually talking to each other. If daily messaging stays high, businesses and advertisers will follow. Revenue metrics alone could push WhatsApp to spam users, which would break trust."
+    },
+    "kpiTree": [
+      {
+        "metric": "New users activated",
+        "description": "People who join and start chatting in their first week.",
+        "children": [
+          {
+            "metric": "Sign-up completion rate",
+            "description": "Share of installs that verify their number. Fewer drops mean more users."
+          },
+          {
+            "metric": "Contacts found at sign-up",
+            "description": "More contacts already on WhatsApp means faster first chat."
+          },
+          {
+            "metric": "First message within 24 hours",
+            "description": "Users who chat on day one are much more likely to stay."
+          }
+        ]
+      },
+      {
+        "metric": "Personal messaging depth",
+        "description": "How much people talk to friends and family each day.",
+        "children": [
+          {
+            "metric": "Messages sent per user per day",
+            "description": "Core sign of a healthy habit."
+          },
+          {
+            "metric": "Active groups per user",
+            "description": "Groups create many daily reasons to open the app."
+          },
+          {
+            "metric": "Call minutes per user",
+            "description": "Shows WhatsApp replacing phone calls."
+          }
+        ]
+      },
+      {
+        "metric": "Updates tab engagement",
+        "description": "Time spent on Status and Channels, where ads live.",
+        "children": [
+          {
+            "metric": "Daily Status viewers",
+            "description": "More viewers means more ad slots."
+          },
+          {
+            "metric": "Channels followed per user",
+            "description": "Shows if Channels has become a reason to open Updates."
+          },
+          {
+            "metric": "Ad hide rate",
+            "description": "Share of ads users hide. High means ads annoy people."
+          }
+        ]
+      },
+      {
+        "metric": "Business conversations",
+        "description": "Useful chats between people and businesses.",
+        "children": [
+          {
+            "metric": "Businesses sending messages each month",
+            "description": "Breadth of paying customers."
+          },
+          {
+            "metric": "Read rate of business messages",
+            "description": "If users read them, businesses keep paying."
+          },
+          {
+            "metric": "Business block or report rate",
+            "description": "Shows spam. Must stay low or users will tune out."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Spam and scam reports per million messages",
+      "Share of users who block a business after a marketing message",
+      "Message delivery speed and call quality on 4G and weaker networks",
+      "Users who say they trust WhatsApp with their privacy (survey)"
+    ],
+    "strengths": [
+      "Unmatched reach: over 3 billion users and the default chat app in India, Brazil and Indonesia",
+      "Very strong network effect that keeps people from leaving",
+      "Simple product that works for all ages and on cheap phones",
+      "Business messaging gets much higher read rates than SMS or email, so businesses pay for it",
+      "Backed by Meta's ad system, so Click-to-WhatsApp ads plug into a ready ad machine"
+    ],
+    "weaknesses": [
+      "Earns very little per user compared to Instagram or Facebook",
+      "WhatsApp Pay never caught up with PhonePe and Google Pay in India",
+      "Encryption limits what WhatsApp can see, which makes fighting fake news harder",
+      "Group chats can get noisy and full of forwards, which hurts the experience",
+      "Feels less fun and creative than Instagram for young users"
+    ],
+    "risks": [
+      "Regulation: India's competition regulator fined Meta and challenged WhatsApp's data-sharing with other Meta apps",
+      "Ads could make users feel the 'no ads' promise was broken and push some to Telegram or Signal",
+      "RCS business messaging from Google could undercut WhatsApp prices for businesses",
+      "Government demands to trace message senders could clash with encryption",
+      "Local alternatives like Arattai gaining support from policy or national pride"
+    ],
+    "userComplaints": [
+      "Too many marketing messages from businesses after sharing a number at a shop",
+      "Scam messages and fake job offers, often from foreign numbers",
+      "Phone storage filled by auto-downloaded media from groups",
+      "Being added to groups without permission",
+      "Accounts banned without clear reason, especially for small sellers",
+      "Unhappiness about ads arriving in the Updates tab"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Business message control centre",
+        "problem": "Users get flooded with marketing messages and block businesses, which hurts both sides.",
+        "expectedImpact": "Users can pause or limit offers per business instead of blocking, so businesses keep the relationship for useful updates.",
+        "metricToTrack": "Business block rate after marketing messages",
+        "effort": "medium"
+      },
+      {
+        "idea": "Built-in UPI checkout inside catalogues for the free Business app",
+        "problem": "Small sellers take payment in another app and check screenshots by hand.",
+        "expectedImpact": "Faster orders for sellers and more WhatsApp Pay usage.",
+        "metricToTrack": "Orders paid inside WhatsApp per small business per month",
+        "effort": "high"
+      },
+      {
+        "idea": "Smart storage cleaner that flags repeated forwards",
+        "problem": "Phones fill up with forwarded videos and good-morning images.",
+        "expectedImpact": "Fewer users turning off media or uninstalling on low-storage phones.",
+        "metricToTrack": "Storage freed per user and uninstall rate on phones under 64 GB",
+        "effort": "low"
+      },
+      {
+        "idea": "Simple 'Business AI' setup for small shops in Hindi and regional languages",
+        "problem": "Small sellers cannot reply fast to every customer and cannot afford API partners.",
+        "expectedImpact": "More small businesses using paid AI replies, raising revenue per business.",
+        "metricToTrack": "Small businesses using Business AI weekly, and their response time",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear scam warnings for first messages from unknown foreign numbers",
+        "problem": "Job and investment scams spread through unknown numbers.",
+        "expectedImpact": "Fewer people losing money, more trust in the platform.",
+        "metricToTrack": "Scam reports per million first-contact messages",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A product people use daily can wait years to make money. WhatsApp built habit first, then added business tools and ads carefully.",
+      "Charge the side that gets the most value. People pay nothing. Businesses pay because WhatsApp gets their messages read.",
+      "Put ads where they hurt least. Keeping ads out of chats and in the Updates tab protects the core experience.",
+      "Removing steps wins markets. Using the phone number as the ID removed the work of finding friends."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase revenue from WhatsApp in India without hurting the user experience?",
+        "hint": "Split users and businesses. Look at Status ads, small business tools and payments. Pick one, define a metric, and set guardrails like block rate and spam reports."
+      },
+      {
+        "question": "WhatsApp Pay has low adoption in India. Why, and what would you do?",
+        "hint": "Talk about habits already formed on PhonePe and Google Pay, the late launch due to rules, and lack of cashback. Suggest focusing on payments inside business chats where WhatsApp has an edge."
+      },
+      {
+        "question": "How would you measure the success of ads in the Updates tab?",
+        "hint": "Revenue per Status viewer and ad click rate, balanced against Status views per user, ad hide rate and app time. Run it as a test in a few markets."
+      },
+      {
+        "question": "Design a feature for small shop owners on WhatsApp.",
+        "hint": "Pick a persona, list top pains (payment tracking, slow replies, reach), choose one, sketch the flow and give a success metric."
+      },
+      {
+        "question": "Telegram has more features. Why does WhatsApp still win in India?",
+        "hint": "Network effects, simplicity, phone-number ID and trust from older users. Features matter less than where your people already are."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Network effects",
+        "meaning": "When a product becomes more useful as more people use it."
+      },
+      {
+        "term": "End-to-end encryption",
+        "meaning": "A lock on messages so only the sender and receiver can read them."
+      },
+      {
+        "term": "API",
+        "meaning": "A way for one company's software to talk to another's, here used by businesses to send WhatsApp messages automatically."
+      },
+      {
+        "term": "Click-to-WhatsApp ads",
+        "meaning": "Ads on Facebook or Instagram that open a WhatsApp chat with the business when tapped."
+      },
+      {
+        "term": "Template message",
+        "meaning": "A pre-approved message format a business must use to message a customer first."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows a product is giving real value to its users."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you try to improve the main metric."
+      },
+      {
+        "term": "UPI",
+        "meaning": "India's instant bank-to-bank payment system used by apps like PhonePe and Google Pay."
+      },
+      {
+        "term": "D2C",
+        "meaning": "Direct-to-consumer: a brand that sells straight to buyers online instead of through shops."
+      }
+    ],
+    "assumptions": [
+      "India user count today is assumed higher than the 2021 government figure of 500 million.",
+      "Indian per-message prices are rough estimates; Meta changes the rate card often.",
+      "The ₹2 per customer per month example assumes a typical D2C message mix and is illustrative.",
+      "WhatsApp revenue is not reported alone, so its size is inferred from Meta's 'other revenue' line and ad commentary.",
+      "Kunal Shah, CRED's founder, was named head of WhatsApp in June 2026; how this changes the product roadmap is not yet public."
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "company": "OpenEvidence",
+  "domain": "openevidence.com",
+  "website": "https://openevidence.com",
+  "sources": [
+    "https://www.businesswire.com/news/home/20260121029132/en",
+    "https://www.eweek.com/news/openevidence-250m-series-d-healthcare-ai/",
+    "https://aimagazine.com/news/openevidence-doctors-ai-search-engine-valued-at-us-15bn",
+    "https://aiweekly.co/alerts/openevidence-says-its-ai-reaches-two-thirds-of-us-doctors",
+    "https://sacra.com/research/openevidence-at-50m-year-growing-30-mom",
+    "https://sacra.com/research/openevidence-vs-doximity/",
+    "https://medcitynews.com/2026/02/openevidence-healthcare-valuation/"
+  ],
+  "report": {
+    "company": "OpenEvidence",
+    "tagline": "A free AI search tool that answers doctors' medical questions using trusted journals, with sources cited.",
+    "category": "AI for doctors",
+    "simpleSummary": "OpenEvidence is like ChatGPT, but only for doctors and nurses. A doctor types a question, like 'best drug for this patient with kidney disease and diabetes', and gets a short answer in seconds with links to the research it used. It is free for verified US health workers. The company makes money by showing ads from drug and device companies, the same way medical journals always have.",
+    "keyNumbers": [
+      {
+        "label": "Reach among US doctors",
+        "value": "About two-thirds of US doctors",
+        "note": "Company claim reported by AI Weekly, 2026. Over 40% were using it daily in 2025 per company statements."
+      },
+      {
+        "label": "Valuation",
+        "value": "$15 billion (2026)",
+        "note": "Reported after a new $250M round in 2026, up from $12B in January 2026 and $6B in October 2025."
+      },
+      {
+        "label": "Funding raised",
+        "value": "About $1 billion+ in total",
+        "note": "Estimate adding reported rounds from 2025 and 2026 (including Sequoia, GV, Thrive, DST, Kleiner Perkins). Treat as rough."
+      },
+      {
+        "label": "Revenue",
+        "value": "Roughly $50M a year run rate in 2025, growing fast",
+        "note": "Sacra estimate, mid 2025, growing about 30% a month at that time. 2026 revenue is likely much higher but not public."
+      },
+      {
+        "label": "Clinical questions answered",
+        "value": "Estimated 15 to 20 million a month",
+        "note": "Estimate based on company updates in late 2025 and early 2026. Uncertain."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "OpenEvidence answers medical questions for doctors. It reads trusted sources like the New England Journal of Medicine (NEJM) and JAMA, which it has content deals with, and writes a short answer with citations. Doctors use it between patients to check doses, guidelines and new research. It also has a note-taking tool called Visits that writes up the patient visit for the doctor.",
+      "howItWorks": [
+        "A doctor signs up and verifies they are a licensed health worker, using their NPI number (a US doctor ID).",
+        "They type or speak a clinical question in plain English.",
+        "The AI searches peer-reviewed research and guidelines, not the open internet.",
+        "It gives a short answer with numbered references the doctor can click and check.",
+        "Drug and device companies pay to show ads next to relevant answers.",
+        "Visits listens to a patient visit (with consent) and drafts the clinical note."
+      ],
+      "valueProposition": "A fast, free, cited answer to a medical question in 10 seconds, instead of 10 minutes of searching."
+    },
+    "personas": [
+      {
+        "name": "Busy hospital doctor",
+        "description": "An internal medicine doctor seeing 20+ patients a day with little time to look things up.",
+        "goals": [
+          "Check a guideline or dose in seconds",
+          "Trust the answer enough to act",
+          "Keep up with new research"
+        ],
+        "frustrations": [
+          "UpToDate is slow to search and costs money",
+          "General AI makes up sources",
+          "Paperwork eats time with patients"
+        ]
+      },
+      {
+        "name": "Medical resident",
+        "description": "A doctor in training who is always learning and often asked tough questions on rounds.",
+        "goals": [
+          "Find answers before seniors ask",
+          "Understand the evidence, not only the answer",
+          "Study for board exams"
+        ],
+        "frustrations": [
+          "Too many papers to read",
+          "Paid tools are expensive on a resident salary",
+          "Fear of being wrong in front of seniors"
+        ]
+      },
+      {
+        "name": "Nurse practitioner in a rural clinic",
+        "description": "A primary care provider far from specialists who handles many conditions alone.",
+        "goals": [
+          "Get specialist-level guidance fast",
+          "Decide when to refer a patient",
+          "Explain choices to patients"
+        ],
+        "frustrations": [
+          "No specialist to call quickly",
+          "Long waits for referrals",
+          "Hard to find the latest guidance"
+        ]
+      },
+      {
+        "name": "Pharma brand marketer",
+        "description": "The paying customer. A marketer at a drug company who wants doctors to learn about a new medicine.",
+        "goals": [
+          "Reach the right doctors at the moment they decide",
+          "Measure if ads change awareness",
+          "Stay within FDA marketing rules"
+        ],
+        "frustrations": [
+          "Doctors ignore sales reps and email",
+          "Hard to prove ad results",
+          "Concerns about ads next to AI answers"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Medical knowledge doubles fast and doctors cannot read it all",
+        "howSolved": "AI reads trusted journals and sums up the answer with sources.",
+        "severity": "high"
+      },
+      {
+        "pain": "Looking things up takes minutes doctors do not have",
+        "howSolved": "Answers arrive in seconds on a phone between patients.",
+        "severity": "high"
+      },
+      {
+        "pain": "General chatbots can invent facts or sources",
+        "howSolved": "Answers come only from vetted medical sources and every claim links to a reference.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paid tools like UpToDate cost hundreds of dollars a year",
+        "howSolved": "Free for verified health workers, paid for by ads.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Writing visit notes takes hours each day",
+        "howSolved": "Visits drafts the note from the conversation.",
+        "severity": "high"
+      },
+      {
+        "pain": "Drug companies struggle to reach busy doctors",
+        "howSolved": "Ads appear next to the exact question a doctor is asking.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Cited clinical answers",
+        "whatItDoes": "Short answers to medical questions with numbered references.",
+        "whyItMatters": "Trust is everything in medicine. Citations let doctors check before acting."
+      },
+      {
+        "feature": "Journal content deals (NEJM, JAMA and others)",
+        "whatItDoes": "Licensed access to full articles from top journals.",
+        "whyItMatters": "Better sources than rivals, and hard for a new player to copy."
+      },
+      {
+        "feature": "Health worker verification",
+        "whatItDoes": "Checks users are licensed using their NPI number.",
+        "whyItMatters": "Makes ad audience valuable and lets pharma target real prescribers legally."
+      },
+      {
+        "feature": "Visits (AI scribe)",
+        "whatItDoes": "Records the patient visit and writes the note.",
+        "whyItMatters": "Moves the product into daily workflow, not just occasional search."
+      },
+      {
+        "feature": "Mobile app and voice questions",
+        "whatItDoes": "Ask questions by voice on a phone.",
+        "whyItMatters": "Doctors are on their feet, not at a desk."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First question",
+        "persona": "Medical resident",
+        "steps": [
+          { "step": "Hears from a peer", "detail": "A senior resident shows the app on rounds." },
+          { "step": "Signs up", "detail": "Enters email and NPI number to verify." },
+          { "step": "Asks a question", "detail": "Types 'first-line treatment for new atrial fibrillation in elderly patient'." },
+          { "step": "Reads the answer", "detail": "Gets a summary with guideline citations." },
+          { "step": "Checks a source", "detail": "Taps a reference to confirm it is the latest guideline." },
+          { "step": "Shares", "detail": "Tells other residents, who sign up too." }
+        ]
+      },
+      {
+        "name": "Point-of-care check",
+        "persona": "Busy hospital doctor",
+        "steps": [
+          { "step": "Faces a decision", "detail": "Unsure about a drug dose for a patient with weak kidneys." },
+          { "step": "Opens the app", "detail": "Asks by voice in the corridor." },
+          { "step": "Gets a dose answer", "detail": "Answer includes adjustment by kidney function with sources." },
+          { "step": "Sees an ad", "detail": "A relevant drug ad appears next to the answer." },
+          { "step": "Acts", "detail": "Prescribes and moves to the next patient." },
+          { "step": "Builds habit", "detail": "Uses it several times a day." }
+        ]
+      },
+      {
+        "name": "Note writing with Visits",
+        "persona": "Nurse practitioner in a rural clinic",
+        "steps": [
+          { "step": "Starts a visit", "detail": "Asks the patient for consent to record." },
+          { "step": "Records", "detail": "Visits listens to the conversation." },
+          { "step": "Gets a draft note", "detail": "Note is ready minutes after the visit." },
+          { "step": "Edits", "detail": "Fixes small errors and adds details." },
+          { "step": "Asks follow-up", "detail": "Uses OpenEvidence to check if a referral is needed." },
+          { "step": "Saves time", "detail": "Finishes notes during the day, not at night." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Doctors use OpenEvidence for free. Drug and medical device companies pay to show ads to them. Because users are verified doctors, each ad view is worth far more than a normal internet ad.",
+      "revenueStreams": [
+        { "stream": "Pharma and device ads", "detail": "Ads shown next to related answers, sold on CPM, which means price per 1,000 ad views. Rates for doctor audiences are much higher than consumer ads." },
+        { "stream": "Possible enterprise deals", "detail": "Hospital and health system contracts for Visits or deeper integration. Size not public." }
+      ],
+      "pricing": "Free for verified US health workers. Ad pricing is not public.",
+      "costDrivers": [
+        "AI model costs for every question",
+        "Licensing fees to journals like NEJM and JAMA",
+        "Medical experts who check answer quality",
+        "Sales team to sell ads to pharma",
+        "Legal and safety review"
+      ],
+      "unitEconomics": "Rough example: a doctor asks 5 questions a day, about 100 a month. If half show an ad and a doctor-targeted ad earns about $100 to $300 per 1,000 views, that doctor brings in about $5 to $15 a month. AI costs for 100 questions may be under $1 to $2. So each active doctor likely makes money. The big costs are journal licences and staff, which are fixed, so profit grows as more doctors use it."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Doctors telling other doctors, especially residents on rounds",
+        "Free price with no hospital approval needed",
+        "Press about its high scores on medical licensing exams",
+        "Brand trust from NEJM and JAMA partnerships"
+      ],
+      "whatBringsUsersBack": [
+        "Daily clinical questions that never stop",
+        "Speed: faster than any other way to look up",
+        "Visits note-writing becomes part of the daily routine"
+      ],
+      "moat": "Three things make it hard to copy: exclusive journal content deals, a verified audience of doctors that pharma will pay a lot to reach, and the habit of daily use. A rival would need all three at once."
+    },
+    "competitors": [
+      { "name": "UpToDate (Wolters Kluwer)", "positioning": "The long-time paid clinical reference, written by experts, sold to hospitals.", "howThisProductDiffers": "OpenEvidence is free, faster and conversational, while UpToDate has decades of trust and hospital contracts." },
+      { "name": "Doximity", "positioning": "The 'LinkedIn for doctors' that also sells pharma ads and now offers AI tools.", "howThisProductDiffers": "Both sell doctor ads; OpenEvidence wins on AI search quality, Doximity on its network and tools." },
+      { "name": "ChatGPT and general AI", "positioning": "General AI many doctors already use.", "howThisProductDiffers": "OpenEvidence uses only vetted sources and cites them, which matters for trust and safety." },
+      { "name": "Abridge and other AI scribes", "positioning": "Paid AI note-taking sold to health systems.", "howThisProductDiffers": "OpenEvidence's Visits is free and tied to its answer engine." }
+    ],
+    "northStar": {
+      "metric": "Clinical questions answered per week that doctors rate useful or act on.",
+      "why": "Each good answer helps a doctor make a better or faster decision for a patient. It also drives ad views, so value and revenue grow together."
+    },
+    "kpiTree": [
+      {
+        "metric": "Verified active doctors",
+        "description": "How many licensed clinicians use it each week.",
+        "children": [
+          { "metric": "New verified sign-ups", "description": "Growth from word of mouth and press." },
+          { "metric": "Verification completion rate", "description": "Share of sign-ups that finish NPI checks." },
+          { "metric": "Week 4 retention", "description": "Share still active a month later." }
+        ]
+      },
+      {
+        "metric": "Questions per doctor",
+        "description": "How deeply the product fits into the day.",
+        "children": [
+          { "metric": "Questions per active day", "description": "Habit strength." },
+          { "metric": "Visits notes created", "description": "Workflow use that brings people back daily." }
+        ]
+      },
+      {
+        "metric": "Answer quality",
+        "description": "Whether answers are right and trusted.",
+        "children": [
+          { "metric": "Thumbs-up rate", "description": "Doctor feedback on usefulness." },
+          { "metric": "Citation click rate", "description": "Shows doctors are checking sources." },
+          { "metric": "Expert-audited accuracy", "description": "Share of sampled answers that clinicians grade correct." }
+        ]
+      },
+      {
+        "metric": "Ad yield",
+        "description": "Revenue per question, without hurting trust.",
+        "children": [
+          { "metric": "Ad fill rate", "description": "Share of eligible answers with a relevant ad." },
+          { "metric": "CPM", "description": "Price per 1,000 ad views." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Rate of clinically wrong answers found in audits",
+      "Share of doctors who say ads affect trust",
+      "Answer time in seconds",
+      "Privacy incidents with patient data in Visits"
+    ],
+    "strengths": [
+      "Very fast adoption: used by a large share of US doctors",
+      "Exclusive content deals with top journals",
+      "Free product with a high-value ad audience",
+      "Strong investor backing and cash to grow"
+    ],
+    "weaknesses": [
+      "Revenue depends on pharma ads, which can look like a conflict of interest",
+      "Mostly US-only, so limited global revenue so far",
+      "AI answers can still be wrong in edge cases"
+    ],
+    "risks": [
+      "FDA or other rules on AI giving clinical advice",
+      "Pharma ad budgets can shrink in a downturn",
+      "Big players (Wolters Kluwer, Doximity, OpenAI, Google) building rival tools",
+      "Lawsuits if an AI answer is linked to patient harm",
+      "Journals could raise licence fees or end deals"
+    ],
+    "userComplaints": [
+      "Sometimes misses the newest study or gives a generic answer",
+      "Answers can be too long for a quick check",
+      "Verification is a hassle for non-US or non-doctor health workers",
+      "Worries that ads may sway what drugs are shown"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear 'ad' label and an ad-free paid option",
+        "problem": "Doctors worry ads affect answers",
+        "expectedImpact": "More trust and a second revenue stream",
+        "metricToTrack": "Trust survey score and paid plan sign-ups",
+        "effort": "low"
+      },
+      {
+        "idea": "Quick answer mode with one-line summary first",
+        "problem": "Answers can be too long for a corridor check",
+        "expectedImpact": "Faster use and more questions per day",
+        "metricToTrack": "Time to answer read and questions per active day",
+        "effort": "low"
+      },
+      {
+        "idea": "Hospital record (EHR) integration for Visits",
+        "problem": "Doctors must copy notes into hospital systems",
+        "expectedImpact": "Higher daily use and paid hospital contracts",
+        "metricToTrack": "Notes pushed to EHR per week",
+        "effort": "high"
+      },
+      {
+        "idea": "Launch in India and other English-speaking markets with local guidelines",
+        "problem": "Revenue is almost all US",
+        "expectedImpact": "Many more users and a path to global ad revenue",
+        "metricToTrack": "Verified doctors outside the US",
+        "effort": "high"
+      },
+      {
+        "idea": "'New since last time' alerts for a doctor's specialty",
+        "problem": "Doctors cannot keep up with new research",
+        "expectedImpact": "More weekly visits and stronger habit",
+        "metricToTrack": "Weekly active days per doctor",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Vertical AI wins on trust. Picking only vetted sources and showing citations beat general chatbots for doctors.",
+      "The user and the payer can be different. Doctors use it free; pharma pays to reach them.",
+      "A verified audience can be worth more than a big audience.",
+      "Get into the daily workflow. A note-writer turns an occasional tool into an every-day habit.",
+      "Partnerships can be a moat. Journal deals are slow to sign and hard for rivals to copy."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "OpenEvidence is free and ad-supported. Is that the right model for a medical AI?",
+        "hint": "List pros (fast adoption, no hospital buy-in) and cons (trust, conflict of interest). Suggest guardrails like clear labels and audits, and an optional paid tier."
+      },
+      {
+        "question": "How would you measure whether OpenEvidence answers are good?",
+        "hint": "Mix user signals (thumbs up, citation clicks), expert audits, and outcome proxies. Make wrong-answer rate a guardrail."
+      },
+      {
+        "question": "How would you take OpenEvidence to India?",
+        "hint": "Talk about local guidelines, Indian drug names and prices, verification with the National Medical Commission register, and whether Indian pharma ads can pay the bills."
+      },
+      {
+        "question": "Should OpenEvidence build an AI scribe? Why?",
+        "hint": "Frame it as moving from occasional search to daily workflow. Discuss competition with Abridge and risks around patient privacy."
+      },
+      {
+        "question": "How does OpenEvidence compete with UpToDate?",
+        "hint": "Compare price, speed, trust and distribution. Suggest where UpToDate is still stronger, like hospital contracts, and how to win those."
+      }
+    ],
+    "glossary": [
+      { "term": "Vertical AI", "meaning": "An AI product built for one industry or job, like medicine or law." },
+      { "term": "NPI number", "meaning": "A unique ID number every US health provider has." },
+      { "term": "CPM", "meaning": "Cost per mille, the price an advertiser pays for 1,000 ad views." },
+      { "term": "EHR", "meaning": "Electronic health record, the hospital software that stores patient notes." },
+      { "term": "Retention", "meaning": "The share of users who keep coming back over time." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "North star metric", "meaning": "The one number a team picks to show whether users are getting real value." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while you grow the main metric." },
+      { "term": "Valuation", "meaning": "What investors think the whole company is worth." }
+    ],
+    "assumptions": [
+      "Revenue for 2026 is not public; the $50M figure is a mid-2025 estimate.",
+      "Question volume is an estimate from company updates and may be off.",
+      "Ad CPM range and per-doctor revenue are our rough guesses based on typical doctor-targeted ad rates.",
+      "Total funding figure adds up reported rounds and is approximate."
+    ]
+  }
+}

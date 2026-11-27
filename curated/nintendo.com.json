@@ -1,0 +1,272 @@
+{
+  "company": "Nintendo Switch 2",
+  "domain": "nintendo.com",
+  "website": "https://www.nintendo.com",
+  "sources": [
+    "https://www.gematsu.com/2026/11/switch-2-worldwide-sales-top-26-35-million-switch-tops-157-20-million",
+    "https://wccftech.com/nintendo-switch-2-19-86-million-units-sold-fy26-98-6-increase-in-net-sales/",
+    "https://shacknews.com/article/151284/nintendo-switch-2-sells-2-67-million-units-q2-fy27",
+    "https://www.nintendolife.com/news/2026/05/switch-2-has-sold-just-shy-of-20-million-units-nintendo-lowers-fy27-forecast",
+    "https://engadget.com/2167631/nintendo-raises-switch-2-prices",
+    "https://www.techradar.com/gaming/gaming-industry/why-is-nintendo-switch-2-so-expensive-analysts-think-the-price-of-the-console-isnt-the-problem-as-software-becomes-a-much-harder-sell",
+    "https://www.notebookcheck.net/Nintendo-Switch-2-boycott-launched-by-activists-over-high-game-prices-and-Game-Key-Cards.1126611.0.html"
+  ],
+  "report": {
+    "company": "Nintendo Switch 2",
+    "tagline": "Nintendo's second hybrid console that you can play on the TV or carry as a handheld, and the fastest-selling console launch ever.",
+    "category": "Gaming hardware",
+    "simpleSummary": "The Switch 2 is a games console you can plug into your TV or hold in your hands like a big phone with controllers on the sides. It launched in June 2025 and plays both new games and almost all old Switch games. Nintendo makes most of its money selling its own games, like Mario Kart World and Donkey Kong Bananza, to people who own the console. The console is the doorway; the games are the business.",
+    "keyNumbers": [
+      { "label": "Switch 2 units sold", "value": "26.35 million", "note": "Nintendo results, cumulative to 30 September 2026, about 15 months after the 5 June 2025 launch." },
+      { "label": "Units in first fiscal year", "value": "19.86 million", "note": "Nintendo results for the year to March 2026. Faster than any console launch in history." },
+      { "label": "Net sales growth FY26", "value": "About 98.6%", "note": "Nintendo results for the year to March 2026, roughly doubling to around ¥2.3 trillion. Total is our estimate from the reported growth." },
+      { "label": "Forecast FY27 units", "value": "16.5 million", "note": "Nintendo forecast for April 2026 to March 2027, lowered from earlier expectations." },
+      { "label": "Launch price (US)", "value": "$449.99", "note": "Nintendo, June 2025. $499.99 with Mario Kart World. Nintendo announced price rises in 2026 citing memory chip costs." },
+      { "label": "Original Switch units", "value": "157.2 million", "note": "Nintendo, to 30 September 2026. This is the installed base Switch 2 can upgrade." }
+    ],
+    "overview": {
+      "whatItDoes": "Switch 2 is a hybrid console: a handheld with a 7.9-inch screen and detachable Joy-Con 2 controllers that also docks to a TV at up to 4K. It plays new Switch 2 games and most original Switch games. Nintendo sells the hardware at a thin margin and makes its profit on its own games and the Nintendo Switch Online subscription.",
+      "howItWorks": [
+        "You buy the console for $449.99 (US launch price) or a bundle with a game.",
+        "You play it on the go or drop it into the dock to play on a TV.",
+        "Games come on cartridges, as Game-Key Cards (a card that unlocks a download), or digitally from the Nintendo eShop.",
+        "Joy-Con 2 controllers attach with magnets and can work like a computer mouse.",
+        "GameChat lets friends talk and share screens; a camera accessory shows faces.",
+        "Nintendo Switch Online ($19.99 a year, more for the Expansion Pack) adds online play, classic games and cloud saves."
+      ],
+      "valueProposition": "One console for the TV and the commute, with Nintendo games you cannot get anywhere else, and your old Switch library comes with you."
+    },
+    "personas": [
+      {
+        "name": "Original Switch owner upgrading",
+        "description": "Bought a Switch between 2017 and 2023 and owns many games.",
+        "goals": ["Better graphics and speed", "Keep playing old games", "Play new Mario and Zelda first"],
+        "frustrations": ["High console and game prices", "Not sure the upgrade is worth it yet"]
+      },
+      {
+        "name": "Parent buying for kids",
+        "description": "Wants a family-friendly console that kids can share and take on trips.",
+        "goals": ["Safe, age-appropriate games", "Games the whole family can play together", "Parental controls"],
+        "frustrations": ["$80 games are hard to justify", "Game-Key Cards cannot be easily resold or lent"]
+      },
+      {
+        "name": "Commuter and casual player",
+        "description": "Plays 20 to 40 minutes on trains or in bed.",
+        "goals": ["Pick up and play quickly", "Good battery life"],
+        "frustrations": ["Battery drains faster than the original Switch", "Console is bigger and heavier"]
+      },
+      {
+        "name": "Core gamer with a PS5 or PC",
+        "description": "Plays big third-party games elsewhere and buys a Nintendo for exclusives.",
+        "goals": ["Nintendo exclusives", "Some third-party games in portable form"],
+        "frustrations": ["Third-party games often cost more or look worse than on PS5", "Online service is basic"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "You have to choose between a TV console and a handheld.", "howSolved": "Hybrid design: one device does both, and switching takes a second.", "severity": "high" },
+      { "pain": "Upgrading usually means losing your old game library.", "howSolved": "Plays most original Switch games, many with free or paid upgrades.", "severity": "high" },
+      { "pain": "Families want games everyone can play together on one device.", "howSolved": "Two Joy-Con 2 controllers in the box and many local multiplayer games.", "severity": "medium" },
+      { "pain": "The original Switch felt slow and low-resolution by 2024.", "howSolved": "Much faster chip, 1080p 120Hz screen and 4K on TV.", "severity": "medium" },
+      { "pain": "Playing with distant friends was awkward on Switch 1.", "howSolved": "GameChat with voice, video and screen share built in.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Hybrid handheld and TV play", "whatItDoes": "Same console works as a handheld or docked to a TV.", "whyItMatters": "This is Nintendo's unique position; Sony and Microsoft do not sell a single device that does both." },
+      { "feature": "Backward compatibility", "whatItDoes": "Runs most of the 157 million-console Switch 1 game library.", "whyItMatters": "Lowers the cost of upgrading and keeps old buyers inside Nintendo." },
+      { "feature": "First-party games", "whatItDoes": "Mario Kart World, Donkey Kong Bananza, Pokemon and others only on Nintendo.", "whyItMatters": "Exclusive games are why people buy the console and where most of Nintendo's profit comes from." },
+      { "feature": "Joy-Con 2 with mouse controls", "whatItDoes": "Magnetic controllers that can slide on a table like a mouse.", "whyItMatters": "A new way to play that gives developers something PS5 cannot offer." },
+      { "feature": "GameChat", "whatItDoes": "Voice and video chat with screen sharing, through the C button.", "whyItMatters": "Makes playing with friends easier, which keeps people coming back and sells more multiplayer games." },
+      { "feature": "Nintendo Switch Online", "whatItDoes": "Paid online play, classic NES to GameCube games and cloud saves.", "whyItMatters": "Recurring revenue from the installed base between game launches." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Upgrade from Switch 1",
+        "persona": "Original Switch owner upgrading",
+        "steps": [
+          { "step": "Hears about it", "detail": "Watches a Nintendo Direct or sees the launch news." },
+          { "step": "Decides", "detail": "Compares the price with the Mario Kart World bundle." },
+          { "step": "Buys", "detail": "Preorders at a retailer or the My Nintendo Store." },
+          { "step": "Transfers", "detail": "Moves save data and digital games from the old Switch." },
+          { "step": "Plays", "detail": "Starts Mario Kart World and some upgraded old games." },
+          { "step": "Buys more", "detail": "Picks up Donkey Kong Bananza and a Switch 2 Edition upgrade." }
+        ]
+      },
+      {
+        "name": "Holiday gift for the family",
+        "persona": "Parent buying for kids",
+        "steps": [
+          { "step": "Request", "detail": "Kids ask for a Switch 2 for the holidays." },
+          { "step": "Research", "detail": "Parent checks price, parental controls and which games are kid-safe." },
+          { "step": "Buys bundle", "detail": "Picks a bundle at a store with a game included." },
+          { "step": "Sets up", "detail": "Creates child accounts and sets screen-time limits in the Parental Controls app." },
+          { "step": "Family play", "detail": "Plays Mario Kart together on the TV." },
+          { "step": "Subscribes", "detail": "Adds a Nintendo Switch Online family plan for online play." }
+        ]
+      },
+      {
+        "name": "Buying a new game",
+        "persona": "Commuter and casual player",
+        "steps": [
+          { "step": "Trigger", "detail": "Sees a new release in the eShop or a friend talks about it." },
+          { "step": "Checks price", "detail": "Compares physical cartridge, Game-Key Card and digital price." },
+          { "step": "Buys", "detail": "Buys digitally to avoid carrying cartridges." },
+          { "step": "Downloads", "detail": "Waits for the download, sometimes buying a microSD Express card for space." },
+          { "step": "Plays", "detail": "Plays in short sessions on the commute." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Nintendo makes money from three things: selling consoles, selling games (its own and a cut of others'), and Nintendo Switch Online subscriptions. Its own games carry the most profit.",
+      "revenueStreams": [
+        { "stream": "Hardware", "detail": "Console sales at $449.99 and up, plus controllers and accessories. Thin margin, especially early in the life cycle." },
+        { "stream": "First-party software", "detail": "Nintendo's own games, often $69.99 to $79.99. Nintendo keeps nearly all the money, minus making and selling costs." },
+        { "stream": "Third-party royalties", "detail": "A share, usually around 30%, of every game other publishers sell on the eShop or on cartridges." },
+        { "stream": "Nintendo Switch Online", "detail": "From $19.99 a year in the US, with a pricier Expansion Pack and family plans." },
+        { "stream": "Films, parks and merchandise", "detail": "The Super Mario Bros. Movie, Super Nintendo World and licensing make the characters more valuable." }
+      ],
+      "pricing": "US launch: console $449.99, bundle with Mario Kart World $499.99, top first-party games $69.99 to $79.99, Nintendo Switch Online from $19.99 a year. Prices vary by country and Nintendo announced rises in 2026.",
+      "costDrivers": [
+        "Chips, memory and screens for the console, made more expensive by the 2026 memory chip shortage",
+        "US tariffs on consoles made in Asia",
+        "Game development studios and long development cycles",
+        "Marketing, especially at launch and the holidays",
+        "Retail margins and shipping"
+      ],
+      "unitEconomics": "Rough estimate: on a $449.99 console, after the retailer takes its cut and Nintendo pays for parts, factory, shipping and tariffs, Nintendo may keep only about $20 to $50, or even break even early on. The money comes from what the owner buys next. If an owner buys 3 Nintendo games at $70 in the first year, Nintendo keeps maybe $45 to $55 per game after cartridge and store costs, so about $150. Add a cut of 1 or 2 third-party games (about $20 each) and a $19.99 online subscription, and one owner can bring in about $200 of profit in year one. That is why the attach rate, the number of games sold per console, matters so much."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Upgrading the 157 million original Switch owners",
+        "Nintendo Direct video showcases that announce new games",
+        "Big launch games like Mario Kart World bundled with the console",
+        "Films, theme parks and merchandise that keep Mario and Pokemon famous",
+        "Holiday gifting through big retailers"
+      ],
+      "whatBringsUsersBack": [
+        "A steady release calendar of first-party games",
+        "Online play with friends through GameChat and Switch Online",
+        "Free updates and paid expansions for big games",
+        "Classic games added to the Switch Online library"
+      ],
+      "moat": "Nobody else owns Mario, Zelda and Pokemon, and those games only run on Nintendo hardware. Nintendo also has 40 years of trust with parents. The hybrid design has been copied by PC handhelds like the Steam Deck, but those do not have Nintendo's games, so the real moat is the characters and the studios behind them."
+    },
+    "competitors": [
+      { "name": "Sony PlayStation 5", "positioning": "The most powerful mainstream console, aimed at core gamers.", "howThisProductDiffers": "Switch 2 is portable, family-focused and built around Nintendo exclusives, not raw graphics." },
+      { "name": "Valve Steam Deck and PC handhelds", "positioning": "Portable PCs that play your Steam library.", "howThisProductDiffers": "Switch 2 is simpler and has Nintendo games; the Steam Deck has cheaper games and a bigger library." },
+      { "name": "Microsoft Xbox", "positioning": "Moving toward Game Pass on many devices, including PC handhelds.", "howThisProductDiffers": "Nintendo still sells full-price games and owns its hardware, while Xbox chases subscriptions." },
+      { "name": "Mobile games (Roblox, Fortnite, gacha games)", "positioning": "Free games on phones every kid already owns.", "howThisProductDiffers": "Switch 2 asks for $449 upfront and $70 games but offers premium, ad-free play." }
+    ],
+    "northStar": {
+      "metric": "Monthly active Switch 2 players and the hours they spend in games",
+      "why": "Nintendo's profit comes from games bought over many years. Players who keep playing every month buy more games and renew Switch Online, so active play is the best sign the console is delivering fun."
+    },
+    "kpiTree": [
+      {
+        "metric": "Installed base",
+        "description": "How many Switch 2 consoles are in homes.",
+        "children": [
+          { "metric": "Switch 1 to Switch 2 upgrade rate", "description": "Share of original Switch owners who buy Switch 2." },
+          { "metric": "New-to-Nintendo buyers", "description": "Buyers who never owned a Switch, usually brought in by hit games." },
+          { "metric": "Sell-through by region", "description": "Consoles bought by customers, not just shipped to shops." }
+        ]
+      },
+      {
+        "metric": "Monthly active users",
+        "description": "Share of consoles used each month.",
+        "children": [
+          { "metric": "Days between big releases", "description": "Gaps in the game calendar lead to drops in play." },
+          { "metric": "Average hours per player", "description": "Shows how engaging the current library is." },
+          { "metric": "Multiplayer sessions with GameChat", "description": "Social play keeps people coming back." }
+        ]
+      },
+      {
+        "metric": "Software attach rate",
+        "description": "Games bought per console.",
+        "children": [
+          { "metric": "First-party games per console", "description": "Highest-profit sales." },
+          { "metric": "Third-party sales on Switch 2", "description": "Royalties and a fuller library." },
+          { "metric": "Digital share of sales", "description": "Digital games have higher margins than cartridges." }
+        ]
+      },
+      {
+        "metric": "Switch Online subscribers",
+        "description": "Recurring revenue from the installed base.",
+        "children": [
+          { "metric": "Subscription rate among active users", "description": "Share of active players paying." },
+          { "metric": "Expansion Pack upgrade rate", "description": "Share choosing the higher tier." },
+          { "metric": "Annual renewal rate", "description": "Share who renew after 12 months." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Hardware gross margin per console",
+      "Customer complaints about prices and Game-Key Cards",
+      "Joy-Con 2 and console defect and return rates",
+      "Parent trust signals, such as parental control usage and ratings"
+    ],
+    "strengths": [
+      "Fastest-selling console ever, almost 20 million in its first fiscal year",
+      "Exclusive, much-loved characters and in-house studios",
+      "Huge upgrade pool of 157 million Switch 1 owners",
+      "Backward compatibility protects players' past purchases",
+      "Brand trusted by families across ages"
+    ],
+    "weaknesses": [
+      "Higher prices than the original Switch, for both console and games",
+      "Hardware margins are thin and exposed to chip prices and tariffs",
+      "Weaker hardware than PS5 means some big third-party games look worse or skip it",
+      "Online service and features lag behind Sony and Microsoft",
+      "Sales fell about 41% year on year in July to September 2026 as launch demand cooled"
+    ],
+    "risks": [
+      "Memory chip shortage raising costs and forcing price rises",
+      "US tariffs on consoles from Asia",
+      "Kids moving to free mobile games like Roblox and Fortnite",
+      "Players resisting $80 games and buying fewer titles",
+      "Weaker yen or economy cutting spending on games"
+    ],
+    "userComplaints": [
+      "Games priced at $79.99 feel too expensive",
+      "Game-Key Cards are not really physical games; they need a download and do not work offline",
+      "Battery life is shorter than many expected in handheld mode",
+      "The console price went up in 2026 instead of down",
+      "Need to buy a pricey microSD Express card for storage"
+    ],
+    "improvementIdeas": [
+      { "idea": "Family game-sharing plan that lets one purchase play on two household consoles at once", "problem": "Parents with two kids feel they must buy games twice", "expectedImpact": "Higher household spend and more console sales into homes that already have one", "metricToTrack": "Consoles per household and games per account", "effort": "medium" },
+      { "idea": "Clear 'works offline' label and full-game cartridges for all first-party titles", "problem": "Anger at Game-Key Cards", "expectedImpact": "More trust and fewer returns", "metricToTrack": "Complaint volume and physical game sales", "effort": "low" },
+      { "idea": "Regular discounted bundles in price-sensitive markets like India and Brazil", "problem": "High prices limit growth outside rich countries", "expectedImpact": "New-to-Nintendo buyers in fast-growing markets", "metricToTrack": "Sell-through in new markets", "effort": "medium" },
+      { "idea": "Trial versions for every first-party game", "problem": "Players hesitate to spend $70 to $80 without trying", "expectedImpact": "Higher conversion to purchase", "metricToTrack": "Trial-to-purchase rate", "effort": "low" },
+      { "idea": "Better battery performance mode in handheld", "problem": "Short battery life on commutes", "expectedImpact": "More handheld play hours", "metricToTrack": "Average handheld session length", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "The hardware is often not the profit maker. The console wins customers, and the games make the money.",
+      "Backward compatibility lowers the cost of switching up, which is why Switch 2 sold so fast.",
+      "Keep a strong, unique position. Nintendo does not try to beat Sony on power; it wins on fun, portability and its characters.",
+      "Price changes hurt trust. Raising prices and adding Game-Key Cards created anger even during record sales."
+    ],
+    "interviewQuestions": [
+      { "question": "Switch 2 sales dropped 41% year on year last quarter. How would you diagnose it?", "hint": "Check if it is normal launch decline, supply, price rise, or a weak game calendar. Split by region and channel. Look at active users and attach rate, not just units." },
+      { "question": "Should Nintendo launch a cheaper Switch 2 Lite?", "hint": "Who would buy it (kids, emerging markets), cannibalisation of the main model, chip costs, and effect on installed base and attach rate." },
+      { "question": "What is the north star metric for Switch 2?", "hint": "Monthly active players and play time. Break into installed base, active rate, attach rate and subscriptions." },
+      { "question": "How would you improve Nintendo Switch Online?", "hint": "Pick a persona, list pains (basic features, value for money), suggest 2 to 3 features, and pick a metric like renewal rate." },
+      { "question": "Should Nintendo sell its games on PC or phones?", "hint": "Compare extra game revenue against weaker reasons to buy the console. Consider brand, margins and the role of exclusivity in the moat." }
+    ],
+    "glossary": [
+      { "term": "installed base", "meaning": "The number of consoles already owned by people, which is the market for future game sales." },
+      { "term": "attach rate", "meaning": "How many games are sold for each console sold." },
+      { "term": "north star metric", "meaning": "The one number that best shows a product is giving its users value." },
+      { "term": "backward compatibility", "meaning": "When a new device can still run things made for the older one." },
+      { "term": "first-party", "meaning": "Games made by Nintendo itself, as opposed to other publishers." },
+      { "term": "sell-through", "meaning": "Units actually bought by customers, rather than units shipped to stores." },
+      { "term": "moat", "meaning": "What makes a business hard for competitors to copy or attack." },
+      { "term": "cannibalisation", "meaning": "When a new product takes sales away from your own existing product." },
+      { "term": "gross margin", "meaning": "The share of revenue left after paying the direct cost of making the product." }
+    ],
+    "assumptions": [
+      "Per-console profit of $20 to $50 and per-game profit are rough estimates, not Nintendo figures",
+      "FY26 net sales total of about ¥2.3 trillion is calculated from reported growth",
+      "Third-party royalty of about 30% is the common industry rate, not confirmed for Switch 2",
+      "Exact 2026 price rise amounts by country were not confirmed in our sources"
+    ]
+  }
+}

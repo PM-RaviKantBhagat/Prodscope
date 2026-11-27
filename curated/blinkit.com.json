@@ -1,0 +1,581 @@
+{
+  "company": "Blinkit",
+  "domain": "blinkit.com",
+  "website": "https://blinkit.com",
+  "sources": [
+    "https://www.kotakneo.com/news/stocks/eternal-q2-results-profit-rises-revenue-growth-blinkit-adds-stores/",
+    "https://www.outlookbusiness.com/corporate/blinkit-widens-quick-commerce-lead-matches-rivals-zepto-and-instamart-combined-in-scale",
+    "https://www.businesstoday.in/latest/corporate/story/blinkit-targets-5000-stores-by-march-2028-can-smaller-cities-drive-quick-commerce-growth-562876-2026-10-21",
+    "https://www.storyboard18.com/how-it-works/blinkit-contributes-75-of-eternals-q3-fy26-revenue-88050.htm",
+    "https://www.businesstoday.in/technology/news/story/eternal-founder-deepinder-goyal-steps-down-as-group-ceo-names-blinkits-albinder-dhindsa-as-successor-512063-2026-01-21",
+    "https://inc42.com/features/zepto-swiggy-blinkit-dark-patterns-quick-commerce-boom/",
+    "https://www.businesstoday.in/amp/latest/trends/story/kitna-niche-jayenge-user-slams-blinkit-for-surge-charge-fee-pay-for-the-convenience-say-netizens-463962-2025-02-09"
+  ],
+  "report": {
+    "company": "Blinkit",
+    "tagline": "An app that delivers groceries and thousands of everyday items to your door in about 10 minutes.",
+    "category": "Quick commerce",
+    "simpleSummary": "You open the Blinkit app, add milk, chips, a phone charger or a birthday gift, and pay. A rider brings it in about 10 minutes. This works because Blinkit keeps small warehouses, called dark stores, very close to where people live. It is owned by Eternal, the company that also owns Zomato, and it is now the biggest part of that company.",
+    "keyNumbers": [
+      {
+        "label": "Net order value, July to September 2026",
+        "value": "₹20,940 crore in one quarter, up 79% from a year ago",
+        "note": "Eternal Q2 FY27 results, October 2026. Net order value is the value of goods sold after discounts."
+      },
+      {
+        "label": "Dark stores",
+        "value": "2,751 stores (September 2026); target 3,500+ by March 2027 and about 5,000 by March 2028",
+        "note": "Eternal Q2 FY27 results and management comments, October 2026."
+      },
+      {
+        "label": "Orders in FY26 (April 2025 to March 2026)",
+        "value": "About 917 million orders, roughly 2.5 million a day",
+        "note": "Company filings reported by Outlook Business, July 2026. Daily figure is our simple average."
+      },
+      {
+        "label": "Revenue in FY26",
+        "value": "₹37,779 crore",
+        "note": "Reported by Outlook Business, July 2026. Revenue jumped because Blinkit now owns the stock it sells and counts the full sale value."
+      },
+      {
+        "label": "Adjusted EBITDA, July to September 2026",
+        "value": "₹184 crore profit, under 1% of net order value",
+        "note": "Eternal Q2 FY27 results. Blinkit first turned EBITDA positive in October to December 2025 (₹4 crore)."
+      },
+      {
+        "label": "Lead over rivals",
+        "value": "Blinkit's FY26 orders (917 million) were bigger than Zepto (640 million) and close to Zepto plus Instamart's share in many cities",
+        "note": "Outlook Business, July 2026. Exact market share is not published; most analysts put Blinkit near 45-50% of Indian quick commerce (estimate)."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Blinkit sells groceries, fruits and vegetables, snacks, beauty, toys, electronics, stationery and gifts, and delivers them in about 10 minutes. It started as Grofers in 2013, switched to 10-minute delivery in 2021, and was bought by Zomato in 2022. Its founder, Albinder Dhindsa, became CEO of the whole Eternal group in early 2026.",
+      "howItWorks": [
+        "Blinkit runs dark stores: small warehouses, closed to walk-in shoppers, each serving homes within about 2 to 3 km.",
+        "When you order, a picker in the store collects your items in about 2 minutes and packs them.",
+        "A delivery partner on a bike picks up the bag and rides a short distance to you, so most orders arrive in 8 to 15 minutes.",
+        "Bigger mother warehouses refill the dark stores every day, so popular items stay in stock.",
+        "Since late 2025 Blinkit buys and owns much of its stock (inventory model) instead of only letting sellers list items, which gives it more control over price and availability.",
+        "Brands pay Blinkit to show their products higher in search and on the home screen."
+      ],
+      "valueProposition": "Get almost anything you forgot or suddenly need, in minutes, without leaving home, at prices close to the local shop."
+    },
+    "personas": [
+      {
+        "name": "Busy working professional in a metro",
+        "description": "A 28-year-old in Gurugram or Bengaluru who works long hours and does not plan weekly shopping.",
+        "goals": [
+          "Get dinner ingredients right before cooking",
+          "Avoid wasting a weekend on shopping trips",
+          "Reorder the same items quickly"
+        ],
+        "frustrations": [
+          "Extra fees that make the final bill higher than expected",
+          "Items going out of stock late at night",
+          "Wrong or damaged items with slow refunds"
+        ]
+      },
+      {
+        "name": "Young parent at home",
+        "description": "A parent with a toddler who needs diapers, milk or medicine without stepping out.",
+        "goals": [
+          "Get baby essentials fast in an emergency",
+          "Trust that dairy and fresh food are not expired",
+          "Save time for the family"
+        ],
+        "frustrations": [
+          "Near-expiry or spoiled products",
+          "Delivery slower than promised during rain or peak hours"
+        ]
+      },
+      {
+        "name": "Student or bachelor in a hostel or PG",
+        "description": "A 21-year-old who orders snacks, cold drinks, printouts and late-night munchies.",
+        "goals": [
+          "Cheap and fast snacks at odd hours",
+          "Small orders without paying too much extra"
+        ],
+        "frustrations": [
+          "Small cart fee and delivery fee on orders below the free-delivery limit",
+          "Prices on the app sometimes higher than the local kirana shop"
+        ]
+      },
+      {
+        "name": "Shopper in a smaller city",
+        "description": "A family in a tier-2 city like Lucknow or Indore that just got Blinkit and is trying it beyond groceries.",
+        "goals": [
+          "Access brands and products not sold nearby",
+          "Same convenience as big-city friends"
+        ],
+        "frustrations": [
+          "Smaller range than in metros",
+          "Uncertain whether app prices beat local stores"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Forgetting one item and having to go out again",
+        "howSolved": "Order just that one item and get it in about 10 minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Urgent needs like medicine, baby items or a charger late at night",
+        "howSolved": "Many dark stores run late or 24 hours in big cities, with a wide everyday range.",
+        "severity": "high"
+      },
+      {
+        "pain": "Wasting time in traffic and queues for weekly shopping",
+        "howSolved": "Full grocery baskets arrive at home; past orders can be repeated in a few taps.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Last-minute gifts for birthdays or festivals",
+        "howSolved": "Gifting section with flowers, cakes, toys, gadgets and gift cards delivered in minutes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Local shops do not stock many brands or new products",
+        "howSolved": "Up to about 100,000 items in Delhi-NCR stores, including premium and niche brands.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Need for small services like printing",
+        "howSolved": "Print store lets you upload a file and get printouts delivered.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "10-minute delivery from dark stores",
+        "whatItDoes": "Shows a delivery time (like 9 minutes) on top of the app based on your nearest store.",
+        "whyItMatters": "Speed is the main promise. It turns Blinkit into a habit for small, frequent orders."
+      },
+      {
+        "feature": "Wide assortment beyond groceries",
+        "whatItDoes": "Electronics, beauty, toys, kitchenware, pet care, stationery and even gaming consoles.",
+        "whyItMatters": "More categories mean bigger baskets and more reasons to open the app, which helps cover the fixed cost of each store."
+      },
+      {
+        "feature": "Order Again and smart suggestions",
+        "whatItDoes": "Shows items you buy often and suggests add-ons at checkout.",
+        "whyItMatters": "Makes repeat orders fast and raises the average bill size."
+      },
+      {
+        "feature": "Live order tracking",
+        "whatItDoes": "Shows the picker packing, then the rider on a map, with a live time count.",
+        "whyItMatters": "Builds trust in the 10-minute promise and cuts 'where is my order' calls."
+      },
+      {
+        "feature": "Brand ads and sponsored listings",
+        "whatItDoes": "Brands pay to appear at the top of search results and category pages.",
+        "whyItMatters": "Ads are high-margin money that helps Blinkit stay profitable even with low delivery fees."
+      },
+      {
+        "feature": "Bistro and add-on services",
+        "whatItDoes": "Bistro is a separate app for 10-minute snacks and meals; Blinkit also offers printouts and has tried a 10-minute ambulance in Gurugram.",
+        "whyItMatters": "Uses the same dark-store and rider network for new needs, testing how far 'in minutes' can go."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First order",
+        "persona": "Busy working professional in a metro",
+        "steps": [
+          {
+            "step": "Hears about Blinkit",
+            "detail": "Sees a friend order or an ad on Instagram showing '10 minutes'."
+          },
+          {
+            "step": "Downloads and logs in",
+            "detail": "Signs in with a phone number and OTP, allows location."
+          },
+          {
+            "step": "Sees delivery time",
+            "detail": "The home screen shows the estimated time and a first-order offer."
+          },
+          {
+            "step": "Searches and adds items",
+            "detail": "Types 'milk' and 'bread', adds them, and gets a suggestion for eggs."
+          },
+          {
+            "step": "Checks the bill",
+            "detail": "Sees item total, delivery fee and handling fee; adds more items to cross the free-delivery limit."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays by UPI or cash on delivery."
+          },
+          {
+            "step": "Tracks and receives",
+            "detail": "Watches the rider on the map and receives the order in about 10 minutes."
+          }
+        ]
+      },
+      {
+        "name": "Repeat weekly grocery run",
+        "persona": "Young parent at home",
+        "steps": [
+          {
+            "step": "Opens the app",
+            "detail": "Goes straight to Order Again."
+          },
+          {
+            "step": "Adds usual items",
+            "detail": "Milk, diapers, fruits and atta added in a few taps."
+          },
+          {
+            "step": "Discovers something new",
+            "detail": "Sees a sponsored new snack brand and adds it."
+          },
+          {
+            "step": "Applies offer",
+            "detail": "Uses a bank or brand coupon at checkout."
+          },
+          {
+            "step": "Receives and checks",
+            "detail": "Checks expiry dates on dairy at the door."
+          },
+          {
+            "step": "Reports a problem if any",
+            "detail": "Uses chat support to report a leaking pack and gets a refund."
+          }
+        ]
+      },
+      {
+        "name": "Urgent non-grocery need",
+        "persona": "Student or bachelor in a hostel or PG",
+        "steps": [
+          {
+            "step": "Realises the need",
+            "detail": "Phone charger breaks at 11 pm before an exam day."
+          },
+          {
+            "step": "Searches on Blinkit",
+            "detail": "Finds chargers from 2 or 3 brands with prices."
+          },
+          {
+            "step": "Compares quickly",
+            "detail": "Picks a mid-price option with good ratings."
+          },
+          {
+            "step": "Adds a snack",
+            "detail": "Adds chips and a cold drink to avoid the small cart fee."
+          },
+          {
+            "step": "Receives in minutes",
+            "detail": "Gets the order in about 12 minutes."
+          },
+          {
+            "step": "Trust is built",
+            "detail": "Next time something urgent comes up, Blinkit is the first app opened."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Blinkit makes money in four ways: the margin on goods it sells, ad money from brands, fees from customers, and commissions from outside sellers. It spends most of that on riders, dark-store rent and staff, and discounts. Today it keeps less than ₹1 of profit for every ₹100 of goods sold.",
+      "revenueStreams": [
+        {
+          "stream": "Product margin and commissions",
+          "detail": "Blinkit buys stock and sells it at a higher price (inventory model), or takes a cut from sellers who list on it. This is the biggest stream."
+        },
+        {
+          "stream": "Brand advertising",
+          "detail": "Brands pay for top spots in search and on the home screen. Ads are a few percent of order value but almost all of it is profit."
+        },
+        {
+          "stream": "Customer fees",
+          "detail": "Delivery fee on small orders, a handling fee per order, small cart fee, and sometimes a rain or late-night surge fee."
+        },
+        {
+          "stream": "New services",
+          "detail": "Bistro food orders, print orders and other add-on services; small today."
+        }
+      ],
+      "pricing": "Products sold at or below MRP. Customer fees change by city and time. Typically: free delivery above a basket limit (often around ₹199), delivery fee around ₹25 to ₹30 below it, a small handling fee of a few rupees, and extra small-cart, rain or late-night fees at times. Exact fees not public and keep changing.",
+      "costDrivers": [
+        "Last-mile delivery: paying riders per order, plus extra during rain and peak hours",
+        "Dark-store rent, power and cold storage",
+        "Store staff who pick and pack each order",
+        "Discounts and marketing to fight Zepto, Instamart, Flipkart Minutes and Amazon Now",
+        "Wastage of fruits, vegetables and dairy that expire",
+        "Opening new stores, which lose money for their first few months"
+      ],
+      "unitEconomics": "Take a rough ₹650 order (estimate). Blinkit keeps about ₹120 to ₹130 from product margin, ads and fees, which is its take rate (the share of each order it keeps as revenue) of roughly 19-20%. It spends about ₹45 to ₹50 on the rider, ₹30 on store rent and staff, ₹15 on warehousing, and ₹20 or more on discounts and other costs. That leaves a small contribution margin (money left after the direct costs of an order) of roughly ₹15 to ₹25. After office and tech costs, Blinkit's adjusted EBITDA was under 1% of order value in mid-2026, so about ₹5 on that order. Mature cities like Delhi-NCR earn over 5%, while new stores lose money, so profit depends on how fast new stores fill up with orders."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Opening new dark stores in new neighbourhoods and smaller cities; each new store makes 10-minute delivery possible for thousands of new homes",
+        "Word of mouth and social media posts about the speed",
+        "Cross-promotion inside the Zomato app",
+        "First-order discounts and bank offers",
+        "Festival and event moments like Diwali, Holi, IPL and Valentine's Day with special categories"
+      ],
+      "whatBringsUsersBack": [
+        "Speed builds a habit: once you get an item in 10 minutes, you stop making the trip to a shop",
+        "Order Again list makes repeat buying very fast",
+        "More categories mean more reasons to open the app each week",
+        "Free delivery above a basket limit pushes people to add more and come back often",
+        "Push notifications for deals and new launches"
+      ],
+      "moat": "Blinkit has the most dark stores in the best locations, more orders per store than rivals, and a large ad business from brands. More orders per store make each store cheaper to run, so Blinkit can keep fees low while staying profitable. A rival would need years and thousands of crores to build the same store network and demand."
+    },
+    "competitors": [
+      {
+        "name": "Zepto",
+        "positioning": "Fast-growing 10-minute app, strong in metros, with Zepto Cafe for food.",
+        "howThisProductDiffers": "Blinkit is bigger (917 million vs 640 million orders in FY26) and profitable at the EBITDA level, while Zepto still lost over ₹1,200 crore in Q4 FY26."
+      },
+      {
+        "name": "Swiggy Instamart",
+        "positioning": "Quick commerce inside the Swiggy super-app, sold with Swiggy One membership.",
+        "howThisProductDiffers": "Blinkit does about twice Instamart's orders and earns a profit, while Instamart loses money. Instamart benefits from Swiggy's food users."
+      },
+      {
+        "name": "Flipkart Minutes",
+        "positioning": "Flipkart's 10-minute delivery service using its huge e-commerce brand and supply chain.",
+        "howThisProductDiffers": "Blinkit has a head start in stores and daily habit; Flipkart has deeper pockets from Walmart and a bigger range for planned purchases."
+      },
+      {
+        "name": "Amazon Now and BigBasket BB Now",
+        "positioning": "Amazon's fast-delivery push and Tata's BigBasket quick service.",
+        "howThisProductDiffers": "Blinkit is built only for speed, so its store network is denser; Amazon and BigBasket are stronger in planned, bigger shopping."
+      },
+      {
+        "name": "Local kirana stores",
+        "positioning": "Neighbourhood shops with credit, personal service and free home delivery.",
+        "howThisProductDiffers": "Blinkit offers far more products and a live app; the kirana offers trust, credit and no fees."
+      }
+    ],
+    "northStar": {
+      "metric": "Orders delivered on time and complete per week (in 15 minutes or less, with no missing or damaged items)",
+      "why": "It counts only orders where the customer got what they wanted, fast. This captures Blinkit's real promise, and more such orders also means busier stores and better profit."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "How many people order at least once a month.",
+        "children": [
+          {
+            "metric": "New store coverage",
+            "description": "Number of homes within 10-minute reach; more stores bring more potential customers."
+          },
+          {
+            "metric": "First-order conversion",
+            "description": "Share of new app installs that place a first order."
+          },
+          {
+            "metric": "Month-2 retention",
+            "description": "Share of new users who order again the next month; retention means how many users keep coming back."
+          }
+        ]
+      },
+      {
+        "metric": "Orders per customer per month",
+        "description": "How often each customer orders.",
+        "children": [
+          {
+            "metric": "Category reach per customer",
+            "description": "Number of different categories a user buys from; more categories means more reasons to order."
+          },
+          {
+            "metric": "Order Again usage",
+            "description": "Share of orders that start from past orders."
+          },
+          {
+            "metric": "Search-to-cart rate",
+            "description": "Share of searches that find an item in stock and add it to cart."
+          }
+        ]
+      },
+      {
+        "metric": "On-time delivery rate",
+        "description": "Share of orders delivered within the promised time.",
+        "children": [
+          {
+            "metric": "Pick-and-pack time",
+            "description": "Minutes from order to bag being ready; target about 2 minutes."
+          },
+          {
+            "metric": "Rider availability at peak hours",
+            "description": "Riders free when orders come in; low availability causes delays."
+          },
+          {
+            "metric": "Rain and peak-hour delay rate",
+            "description": "Share of late orders during bad weather or rush hours."
+          }
+        ]
+      },
+      {
+        "metric": "Order accuracy",
+        "description": "Share of orders with no missing, wrong, damaged or expired items.",
+        "children": [
+          {
+            "metric": "Item availability (fill rate)",
+            "description": "Share of ordered items that were actually in stock."
+          },
+          {
+            "metric": "Fresh and dairy complaint rate",
+            "description": "Complaints per 1,000 orders about expired or spoiled food."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Adjusted EBITDA margin per order must not slip as new stores open",
+      "Complaints about hidden fees and pricing above MRP",
+      "Rider safety incidents and rider earnings per hour",
+      "Refund rate for wrong or damaged items"
+    ],
+    "strengths": [
+      "Market leader with the largest dark-store network and the highest orders per store",
+      "First in the sector to reach EBITDA profit, which lets it invest without raising fresh money",
+      "Strong brand ad business that adds high-margin money",
+      "Fast expansion beyond groceries into electronics, gifting and premium products",
+      "Backed by Eternal's cash and Zomato's customer base; its founder now runs the whole group"
+    ],
+    "weaknesses": [
+      "Profit margin is still very thin, under 1% of order value",
+      "Heavy dependence on gig riders whose costs and protests can hit service",
+      "Fees and pricing have drawn public criticism and 'dark pattern' claims",
+      "New stores in smaller cities lose money at first and orders there are smaller"
+    ],
+    "risks": [
+      "Price war from Zepto, Instamart, Flipkart Minutes and Amazon Now with deep discounts",
+      "Rules on dark stores, FDI in inventory-led retail and gig worker welfare (social security codes)",
+      "Pushback from kirana and trader groups who say quick commerce kills small shops",
+      "Food safety raids and licence suspensions at dark stores",
+      "Customers getting tired of paying extra fees and returning to local shops"
+    ],
+    "userComplaints": [
+      "Surge, rain, handling and small cart fees that inflate the final bill",
+      "Prices sometimes higher than MRP or than the same item at a local shop",
+      "Expired, near-expiry or damaged products, especially dairy and fruits",
+      "Missing free items or missing items in the bag, with slow customer support",
+      "Delivery much slower than 10 minutes during rain and late nights"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show all fees upfront on the home screen and offer one flat 'all-in' price option",
+        "problem": "Users feel cheated by fees revealed only at checkout.",
+        "expectedImpact": "Fewer abandoned carts at checkout and less negative social media; better trust.",
+        "metricToTrack": "Checkout drop-off rate and fee-related complaints per 1,000 orders",
+        "effort": "low"
+      },
+      {
+        "idea": "Freshness guarantee with expiry date shown on the product page and an instant refund button",
+        "problem": "Complaints about expired dairy and spoiled fruits.",
+        "expectedImpact": "Higher trust for fresh categories, more weekly grocery baskets.",
+        "metricToTrack": "Fresh-category repeat rate and freshness complaint rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Scheduled 'next-morning' slot at lower fees for planned baskets",
+        "problem": "Not every order needs 10 minutes; peak-hour orders strain riders.",
+        "expectedImpact": "Smooths demand, lowers rider cost per order and wins planned grocery shopping from BigBasket and Amazon.",
+        "metricToTrack": "Share of orders in scheduled slots and cost per order",
+        "effort": "medium"
+      },
+      {
+        "idea": "Smart store stocking for smaller cities based on local searches with zero results",
+        "problem": "Tier-2 users find a smaller range and leave.",
+        "expectedImpact": "More orders per new store and faster path to profit.",
+        "metricToTrack": "Zero-result search rate and orders per store per day in new cities",
+        "effort": "medium"
+      },
+      {
+        "idea": "Rain mode: warn users of delays upfront and give a small credit if late",
+        "problem": "Missed delivery times during rain hurt the core promise.",
+        "expectedImpact": "Better satisfaction even when late; fewer support tickets.",
+        "metricToTrack": "On-time rate in rain hours and CSAT on late orders",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Speed can be a product. Blinkit did not invent groceries online, it made them fast enough to change habits.",
+      "Fixed costs need volume. A dark store only makes money once it fills up with orders, so growth and profit are linked.",
+      "Ads can fund low prices. Brand ad money lets Blinkit keep customer fees low while still earning.",
+      "Expanding categories raises basket size, but each new category (like electronics) needs its own storage, returns and trust rules.",
+      "Fees are a product choice too. Too many small fees save margin but hurt trust."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Blinkit's orders are growing but users complain about fees. Would you remove the handling fee?",
+        "hint": "Start with goals (trust vs margin). Size the fee's money impact per order. Test removal in a few cities and track checkout drop-off, order frequency and EBITDA per order before rolling out."
+      },
+      {
+        "question": "How would you decide which new category Blinkit should add next?",
+        "hint": "Look at zero-result searches, urgency of need, size and fragility of items, margin and ad potential, and return risk. Pick one, define success metrics, run a pilot in a few stores."
+      },
+      {
+        "question": "Orders in a new tier-2 city are lower than planned. How do you diagnose it?",
+        "hint": "Split the funnel: awareness, installs, first orders, repeat orders, basket size. Compare with a similar metro launch. Check assortment, prices vs local shops, delivery time and payment options."
+      },
+      {
+        "question": "What should be Blinkit's north star metric and why?",
+        "hint": "Pick something that shows value to the user, like on-time and complete orders per week. Explain why GMV or revenue alone is weaker, then break it into drivers like customers, frequency and reliability."
+      },
+      {
+        "question": "Zepto launches heavy discounts in Mumbai. How should Blinkit respond?",
+        "hint": "Do not match blindly. Look at which users are switching, protect loyal users with targeted offers, lean on speed and range, and set a spending limit tied to retention gains."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Quick commerce",
+        "meaning": "Online shopping where items are delivered in minutes instead of days."
+      },
+      {
+        "term": "Dark store",
+        "meaning": "A small warehouse only for online orders, closed to walk-in customers, placed close to homes."
+      },
+      {
+        "term": "Net order value",
+        "meaning": "The value of all goods sold through the app after discounts."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit from running the business before interest, tax, wear and tear on assets, and share-based pay to staff."
+      },
+      {
+        "term": "Inventory model",
+        "meaning": "When the platform buys and owns the stock it sells instead of only letting other sellers list items."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of each order's value that the platform keeps as its own revenue."
+      },
+      {
+        "term": "Contribution margin",
+        "meaning": "Money left from an order after paying the direct costs of that order, like delivery and packing."
+      },
+      {
+        "term": "Retention",
+        "meaning": "How many users keep using the product over time instead of leaving."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team uses to measure whether the product is giving real value to users."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ordered items that were actually in stock and delivered."
+      },
+      {
+        "term": "CSAT",
+        "meaning": "Customer satisfaction score, usually from a quick rating after an order."
+      },
+      {
+        "term": "Dark pattern",
+        "meaning": "A design trick that pushes users into paying or choosing something they did not intend."
+      }
+    ],
+    "assumptions": [
+      "The ₹650 order size and the cost split in unit economics are estimates built from reported margins, not company-published numbers.",
+      "Market share of about 45-50% is an analyst-style estimate; Blinkit does not publish market share.",
+      "Fee levels (delivery fee around ₹25 to ₹30, free above about ₹199) vary by city and time and are based on user reports.",
+      "Daily order figure is a simple average of the FY26 annual order count."
+    ]
+  }
+}

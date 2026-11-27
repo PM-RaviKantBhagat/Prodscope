@@ -1,0 +1,114 @@
+[
+ {
+  "company": "Reddit",
+  "website": "reddit.com",
+  "domain": "reddit.com",
+  "market": "US · global",
+  "category": "Communities",
+  "why": "Data licensing to AI firms and Google search traffic surge after listing."
+ },
+ {
+  "company": "Discord",
+  "website": "discord.com",
+  "domain": "discord.com",
+  "market": "US · global",
+  "category": "Community chat",
+  "why": "From gaming to communities; Nitro how it makes money and moderation."
+ },
+ {
+  "company": "Telegram",
+  "website": "telegram.org",
+  "domain": "telegram.org",
+  "market": "UAE · global",
+  "category": "Messaging",
+  "why": "Channels, mini-apps and Premium; huge in India. Compare with WhatsApp."
+ },
+ {
+  "company": "Substack",
+  "website": "substack.com",
+  "domain": "substack.com",
+  "market": "US · global",
+  "category": "Creator publishing",
+  "why": "Paid newsletters and network effects through recommendations."
+ },
+ {
+  "company": "Tinder",
+  "website": "tinder.com",
+  "domain": "tinder.com",
+  "market": "US · global",
+  "category": "Dating",
+  "why": "Swipe pioneer losing Gen Z; free-plus-paid how it makes money."
+ },
+ {
+  "company": "Bumble",
+  "website": "bumble.com",
+  "domain": "bumble.com",
+  "market": "US/UK",
+  "category": "Dating",
+  "why": "Women-first design; 2025 reset and the decline of swipe-based dating."
+ },
+ {
+  "company": "Hinge",
+  "website": "hinge.co",
+  "domain": "hinge.co",
+  "market": "US/UK",
+  "category": "Dating",
+  "why": "'Designed to be deleted' positioning; prompts design and the fastest-growing Match app."
+ },
+ {
+  "company": "BBC iPlayer",
+  "website": "bbc.co.uk/iplayer",
+  "domain": "bbc.co.uk",
+  "market": "UK",
+  "category": "Public streaming",
+  "why": "Public-service streaming with log-ins and licence fee constraints."
+ },
+ {
+  "company": "Sky (Sky Glass)",
+  "website": "sky.com",
+  "domain": "sky.com",
+  "market": "UK",
+  "category": "TV / streaming",
+  "why": "app that combines many sellers TV and Sky Glass hardware; bundling content."
+ },
+ {
+  "company": "Twitch",
+  "website": "twitch.tv",
+  "domain": "twitch.tv",
+  "market": "US · global",
+  "category": "Live streaming",
+  "why": "Live creator economy; subs, bits and competition from YouTube and Kick."
+ },
+ {
+  "company": "CapCut",
+  "website": "capcut.com",
+  "domain": "capcut.com",
+  "market": "China · US/UK",
+  "category": "Video editing",
+  "why": "Creator tool that rides TikTok; banned in India."
+ },
+ {
+  "company": "Kindle",
+  "website": "amazon.com/kindle",
+  "domain": "amazon.com-kindle",
+  "market": "US · global",
+  "category": "E-reading",
+  "why": "Hardware sold cheap to sell content; ecosystem play."
+ },
+ {
+  "company": "Roblox",
+  "website": "roblox.com",
+  "domain": "roblox.com",
+  "market": "US · global",
+  "category": "Gaming platform",
+  "why": "User-generated games and creator payouts; child safety."
+ },
+ {
+  "company": "Steam",
+  "website": "store.steampowered.com",
+  "domain": "store.steampowered.com",
+  "market": "US · global",
+  "category": "Gaming platform",
+  "why": "PC games marketplace; reviews, sales and Steam Deck."
+ }
+]

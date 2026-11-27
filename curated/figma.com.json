@@ -1,0 +1,584 @@
+{
+  "company": "Figma",
+  "domain": "figma.com",
+  "website": "https://figma.com",
+  "sources": [
+    "https://investingnews.com/figma-announces-third-quarter-2026-financial-results/",
+    "https://investor.figma.com/news-events/news/news-details/2025/Figma-Announces-Third-Quarter-2025-Financial-Results/default.aspx",
+    "https://techcrunch.com/2025/05/07/figma-releases-new-ai-powered-tools-for-creating-site-app-prototypes-and-marketing-assets",
+    "https://help.figma.com/hc/en-us/articles/30965205437975-What-s-new-from-Config-2025",
+    "https://www.figma.com/pricing/",
+    "https://pricingsaas.com/companies/figma/diffs/2025Q2"
+  ],
+  "report": {
+    "company": "Figma",
+    "tagline": "A design tool that runs in the browser where a whole team can design, prototype, and now build apps and websites together at the same time.",
+    "category": "Design / collaboration",
+    "simpleSummary": "Figma is like Google Docs for designing apps and websites. Designers draw screens, and engineers, product managers and marketers can open the same file in a browser link and comment or copy code. Many people can work in one file at once, and you see their cursors move. Since 2025 it also has AI tools that turn a written idea into a working app, plus tools for websites, slides and marketing graphics.",
+    "keyNumbers": [
+      {
+        "label": "Quarterly revenue",
+        "value": "$391.4M in Q3 2026, up 43%",
+        "note": "Company results for the quarter ending 30 September 2026. Reliable, from public filings."
+      },
+      {
+        "label": "Full-year revenue guidance",
+        "value": "About $1.5B for 2026",
+        "note": "Company guidance of $1.497B to $1.499B, about 42% growth, given November 2026."
+      },
+      {
+        "label": "Customers paying over $100,000 a year",
+        "value": "1,717",
+        "note": "As of 30 September 2026, up more than 450 in a year. Company figure."
+      },
+      {
+        "label": "Net dollar retention",
+        "value": "131%",
+        "note": "For customers paying over $10,000 a year, Q3 2026. Means these customers spend 31% more than a year ago."
+      },
+      {
+        "label": "Profit",
+        "value": "$47M adjusted operating profit in Q3 2026",
+        "note": "Non-GAAP figure. Under standard accounting it lost $119M, mostly due to stock pay for staff."
+      },
+      {
+        "label": "AI use",
+        "value": "Over 80% of $10K+ customers use AI credits",
+        "note": "Company figure as of 31 October 2026; 65% use the Figma agent weekly."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Figma lets teams design screens for apps and websites, turn them into clickable prototypes, and hand them to engineers, all in a browser. FigJam is its online whiteboard for brainstorming. Since Config 2025 Figma has added Figma Make (AI that builds working apps from a prompt), Figma Sites (publish websites), Figma Slides (presentations), Figma Buzz (marketing graphics) and Figma Draw (illustration).",
+      "howItWorks": [
+        "Open figma.com in a browser or the desktop app. Files live in the cloud, so there is nothing to email or save.",
+        "Share a link. Anyone can view; people with paid seats can edit at the same time, with live cursors.",
+        "Designers build reusable components and design systems, so a button changed once updates everywhere.",
+        "Dev Mode shows engineers exact sizes, colours and code snippets, and the MCP server lets AI coding tools read designs directly.",
+        "Figma Make and the Figma agent use AI credits to generate layouts, prototypes and working code from text prompts.",
+        "Companies pay per seat: Full seats for designers, Dev seats for engineers, Collab seats for everyone else."
+      ],
+      "valueProposition": "Everyone who touches a product (design, engineering, product, marketing) works from one live file instead of passing around screenshots and old versions, so products ship faster with fewer mistakes."
+    },
+    "personas": [
+      {
+        "name": "Product designer",
+        "description": "Designs app screens and flows every day. Lives in Figma for most of the workday.",
+        "goals": [
+          "Design fast with reusable components",
+          "Get quick feedback from the team",
+          "Hand off clean specs to engineers"
+        ],
+        "frustrations": [
+          "Large files get slow",
+          "Price rises and seat changes",
+          "AI tools that produce generic designs"
+        ]
+      },
+      {
+        "name": "Software engineer",
+        "description": "Builds what designers draw. Opens Figma to check spacing, colours and copy, often from an AI coding tool.",
+        "goals": [
+          "Get exact specs without asking the designer",
+          "Turn designs into code quickly",
+          "Know what changed since last version"
+        ],
+        "frustrations": [
+          "Designs that do not match real components in code",
+          "Paying for a Dev seat just to inspect",
+          "Unclear which file version is final"
+        ]
+      },
+      {
+        "name": "Product manager",
+        "description": "Writes requirements, runs reviews and uses FigJam for planning. Increasingly uses Figma Make to mock up ideas without a designer.",
+        "goals": [
+          "Show an idea quickly to get buy-in",
+          "Run brainstorms and reviews in one place",
+          "Keep track of design decisions"
+        ],
+        "frustrations": [
+          "Tool feels built for designers",
+          "AI prototypes break when ideas get complex",
+          "Seat type confusion when they want to edit"
+        ]
+      },
+      {
+        "name": "Marketer or founder",
+        "description": "Not a designer. Wants a landing page, social graphics or a pitch deck that matches the brand.",
+        "goals": [
+          "Use brand templates without breaking them",
+          "Publish a website without engineers",
+          "Make slides that look on-brand"
+        ],
+        "frustrations": [
+          "Canva feels easier",
+          "Figma Sites is newer and less mature than Webflow or Framer",
+          "Learning curve for the core editor"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Design files emailed back and forth, with nobody sure which version is final.",
+        "howSolved": "One cloud file with a link. Everyone sees the latest version and version history.",
+        "severity": "high"
+      },
+      {
+        "pain": "Designers and engineers misread each other, so the built app looks different from the design.",
+        "howSolved": "Dev Mode, code snippets and the MCP server give engineers and AI coding tools the exact specs.",
+        "severity": "high"
+      },
+      {
+        "pain": "Feedback comes late and scattered across chat and email.",
+        "howSolved": "Comments sit right on the design, and stakeholders join with a free or low-cost seat.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Keeping buttons, colours and fonts consistent across a big product.",
+        "howSolved": "Components, variables and shared libraries update every file when the source changes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Turning an idea into something clickable takes days.",
+        "howSolved": "Prototyping links screens in minutes, and Figma Make can build a working app from a prompt.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Old design tools only worked on Mac and needed installs.",
+        "howSolved": "Runs in any browser on Mac, Windows or Linux.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Multiplayer editing",
+        "whatItDoes": "Many people edit one file at once with live cursors, comments and audio chat.",
+        "whyItMatters": "The original reason Figma beat Sketch. It turns design from a solo task into a team activity, which brings in non-designers."
+      },
+      {
+        "feature": "Components and design systems",
+        "whatItDoes": "Reusable parts and shared libraries with variables for colour, spacing and modes like dark mode.",
+        "whyItMatters": "Big companies build their whole design system in Figma, which makes it very hard to leave."
+      },
+      {
+        "feature": "Dev Mode and MCP server",
+        "whatItDoes": "Gives engineers specs and code, and lets AI coding tools like Cursor and Claude Code read and write designs.",
+        "whyItMatters": "Brings engineers in as paying users and keeps Figma at the centre as coding moves to AI tools. MCP usage grew 3x in Q3 2026."
+      },
+      {
+        "feature": "Figma Make",
+        "whatItDoes": "Type a prompt or paste a design and get a working, clickable app with real code.",
+        "whyItMatters": "Figma's answer to AI app builders like Lovable and v0. Lets PMs and founders build without a designer, and drives AI credit revenue."
+      },
+      {
+        "feature": "FigJam",
+        "whatItDoes": "Online whiteboard for brainstorms, flowcharts and retros, also usable from ChatGPT.",
+        "whyItMatters": "Cheap way to bring PMs, engineers and other teams into Figma, who may later use design files."
+      },
+      {
+        "feature": "Sites, Slides and Buzz",
+        "whatItDoes": "Publish websites, make presentations and create on-brand marketing graphics from the same design system.",
+        "whyItMatters": "Expands Figma from product design into marketing and communication, a much bigger group of users."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Designing a new feature",
+        "persona": "Product designer",
+        "steps": [
+          {
+            "step": "Starts in FigJam",
+            "detail": "Sketches the user flow with the PM on a whiteboard."
+          },
+          {
+            "step": "Builds screens",
+            "detail": "Drags in components from the company library to design each screen."
+          },
+          {
+            "step": "Prototypes",
+            "detail": "Links screens so the team can click through like a real app."
+          },
+          {
+            "step": "Gets feedback",
+            "detail": "Shares the link; PM and engineers leave comments on the design."
+          },
+          {
+            "step": "Marks ready for dev",
+            "detail": "Tags frames as ready so engineers see them in Dev Mode."
+          },
+          {
+            "step": "Tracks changes",
+            "detail": "Engineers compare versions to see what changed since last review."
+          }
+        ]
+      },
+      {
+        "name": "Idea to working prototype with AI",
+        "persona": "Product manager",
+        "steps": [
+          {
+            "step": "Opens Figma Make",
+            "detail": "Types: 'A budgeting app screen that shows spending by category with a monthly chart.'"
+          },
+          {
+            "step": "Gets a working app",
+            "detail": "Make builds a clickable app using AI credits from the seat."
+          },
+          {
+            "step": "Refines by chat",
+            "detail": "Asks for changes in plain words, or attaches the company's design library."
+          },
+          {
+            "step": "Shares a link",
+            "detail": "Sends the live prototype to the leadership team for feedback."
+          },
+          {
+            "step": "Hands to design",
+            "detail": "Designer pulls the idea into a proper design file to polish."
+          },
+          {
+            "step": "Ships",
+            "detail": "Engineer uses the MCP server to pull the design into their coding tool."
+          }
+        ]
+      },
+      {
+        "name": "Company-wide rollout",
+        "persona": "Software engineer",
+        "steps": [
+          {
+            "step": "Gets a link",
+            "detail": "Receives a Figma link from a designer and opens it in the browser for free."
+          },
+          {
+            "step": "Needs specs",
+            "detail": "Wants measurements and code, which needs a Dev seat."
+          },
+          {
+            "step": "Team requests seats",
+            "detail": "Admin approves Dev seats for the engineering team."
+          },
+          {
+            "step": "Connects tools",
+            "detail": "Links Figma to Jira, GitHub and an AI coding tool."
+          },
+          {
+            "step": "Company upgrades",
+            "detail": "As hundreds of people use it, the company moves to the Organization or Enterprise plan."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Figma sells monthly seats. Companies pay for each designer, engineer and collaborator, with higher prices on bigger plans. Large companies keep adding seats and plans, so revenue from existing customers grows about 31% a year. AI credits are now a second way to earn more from the same customers.",
+      "revenueStreams": [
+        {
+          "stream": "Full seats",
+          "detail": "For designers and heavy users. Access to Figma Design, Make, Sites, Slides, Buzz and Draw. Biggest revenue source."
+        },
+        {
+          "stream": "Dev seats",
+          "detail": "For engineers who inspect designs and use Dev Mode and the MCP server."
+        },
+        {
+          "stream": "Collab seats",
+          "detail": "Low-cost seats for PMs, marketers and others who use FigJam and Slides or comment."
+        },
+        {
+          "stream": "Enterprise and Organization plans",
+          "detail": "Higher per-seat prices for admin controls, security and shared design systems across many teams."
+        },
+        {
+          "stream": "AI credits",
+          "detail": "Each seat includes some AI credits; heavy users buy more. Over 80% of $10K+ customers now consume credits."
+        }
+      ],
+      "pricing": "Free Starter plan with limits. Professional: Full seat about $16 per month billed yearly ($20 monthly), Dev seat about $12, Collab seat about $3. Organization: Full seat about $55 per month, yearly only. Enterprise: Full seat about $90 per month, yearly only. Extra AI credits are sold on top. Prices from the March 2025 seat change; check the site for current figures.",
+      "costDrivers": [
+        "Engineering and research staff, including stock-based pay",
+        "Cloud hosting for real-time editing of very large files",
+        "AI model costs for Make, the agent and other AI features",
+        "Sales teams for large enterprise deals",
+        "Events like Config and community programs"
+      ],
+      "unitEconomics": "Take a mid-size company with 50 designers on Organization Full seats at $55, 150 engineers on Dev seats at about $25, and 300 Collab seats at about $5. That is about $2,750 + $3,750 + $1,500 = $8,000 a month, or roughly $96,000 a year. Figma keeps about 80% after hosting and AI costs, based on its 80% gross margin. Because the same company adds seats and AI credits each year, a $96,000 customer today often pays about $125,000 next year (131% net dollar retention). Seat mix figures are an illustration."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free plan for individuals and students, so designers learn Figma first",
+        "Shared links: every designer sends files to PMs, engineers and clients, who see Figma without installing anything",
+        "Community: free files, plugins and UI kits shared by designers",
+        "Config conference and launches that get wide press",
+        "New products (Make, Sites, Slides, Buzz) bring in non-designers"
+      ],
+      "whatBringsUsersBack": [
+        "Daily design work lives in Figma files",
+        "Company design systems and libraries are stored there",
+        "Comments and review requests pull people in",
+        "AI coding tools read Figma through the MCP server, so designs stay the source of truth"
+      ],
+      "moat": "Figma's moat is that the whole team works in it, not just designers. A company's design system, years of files and every engineer's workflow depend on it. Switching would mean moving thousands of components and retraining hundreds of people. Being the standard also means new designers learn Figma first."
+    },
+    "competitors": [
+      {
+        "name": "Adobe (XD, Photoshop, Illustrator, Express)",
+        "positioning": "Long-time leader in creative software. Tried to buy Figma for $20B, but the deal was dropped in 2023 under regulator pressure.",
+        "howThisProductDiffers": "Figma is browser-first and built for teams working together. Adobe is stronger for photo, video and illustration."
+      },
+      {
+        "name": "Canva",
+        "positioning": "Easy design for non-designers: social posts, slides, docs.",
+        "howThisProductDiffers": "Figma is deeper for product design and dev handoff. Canva is easier for marketing and wins on reach. Figma Buzz and Slides now compete directly."
+      },
+      {
+        "name": "AI app builders (Lovable, v0, Bolt)",
+        "positioning": "Type a prompt, get a working web app with code.",
+        "howThisProductDiffers": "Figma Make uses your real design system and sits next to the design files. Pure AI builders are faster for coders who skip design."
+      },
+      {
+        "name": "Framer and Webflow",
+        "positioning": "Design and publish websites without code.",
+        "howThisProductDiffers": "Figma Sites is newer. Framer and Webflow have more mature publishing, hosting and CMS features."
+      },
+      {
+        "name": "Sketch and Penpot",
+        "positioning": "Sketch is a Mac-only design app; Penpot is free and open source.",
+        "howThisProductDiffers": "Figma has the real-time teamwork and network of users that these lack."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active editors across all Figma products (people who create or change something in a file each week)",
+      "why": "Figma is worth more when more people from more roles do real work in it. Viewers matter less than people editing, prototyping, building with Make or writing code from designs. More weekly editors means more seats and more AI use."
+    },
+    "kpiTree": [
+      {
+        "metric": "Designer activity",
+        "description": "How much core design work happens in Figma.",
+        "children": [
+          {
+            "metric": "Files edited per designer per week",
+            "description": "Shows Figma is the main daily tool."
+          },
+          {
+            "metric": "Library component reuse",
+            "description": "Share of designs built from shared components; signals a deep design system."
+          }
+        ]
+      },
+      {
+        "metric": "Cross-role participation",
+        "description": "How many non-designers work in Figma.",
+        "children": [
+          {
+            "metric": "Engineers active in Dev Mode or MCP weekly",
+            "description": "Engineers who pull specs or code from designs."
+          },
+          {
+            "metric": "Commenters per file",
+            "description": "More people giving feedback means more value from multiplayer."
+          },
+          {
+            "metric": "FigJam boards created by non-designers",
+            "description": "Entry point for PMs and other teams."
+          }
+        ]
+      },
+      {
+        "metric": "AI-powered creation",
+        "description": "Work done with Make and the Figma agent.",
+        "children": [
+          {
+            "metric": "Weekly credit-consuming users",
+            "description": "Rose almost 50% from July to October 2026 among $10K+ customers."
+          },
+          {
+            "metric": "Make prototypes shared",
+            "description": "Shows AI output was good enough to show others."
+          },
+          {
+            "metric": "AI output kept vs. discarded",
+            "description": "Quality signal for generated designs and code."
+          }
+        ]
+      },
+      {
+        "metric": "New product adoption",
+        "description": "Use of Sites, Slides, Buzz and Draw.",
+        "children": [
+          {
+            "metric": "Sites published per month",
+            "description": "Real websites going live."
+          },
+          {
+            "metric": "Slides decks presented",
+            "description": "Decks actually used in meetings."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "File load time and editor crash rate on large files",
+      "Gross margin as AI usage grows",
+      "Seat downgrades or cancellations after price changes",
+      "Share of AI outputs reported as broken or off-brand"
+    ],
+    "strengths": [
+      "Real-time teamwork in the browser that rivals took years to copy",
+      "Industry standard for product design; most designers learn it first",
+      "Very sticky big customers: 131% net dollar retention",
+      "Growing fast (43%) while making an adjusted profit and $1.7B in cash",
+      "Fast move into AI with Make, the Figma agent and the MCP server"
+    ],
+    "weaknesses": [
+      "Revenue depends on the number of designers and engineers, which AI could shrink",
+      "Newer products (Sites, Slides, Buzz) are behind Webflow, Framer, Google Slides and Canva",
+      "Big files become slow",
+      "Seat and pricing changes in 2025 confused and annoyed many customers",
+      "Still loses money under standard accounting due to large stock-based pay"
+    ],
+    "risks": [
+      "AI coding tools may let teams skip design files and go straight to code",
+      "Canva and Adobe pushing into Figma's area with cheaper bundles",
+      "Investors judging Figma harshly after the stock fell well below its post-IPO peak",
+      "Fewer tech jobs means fewer seats to sell",
+      "Rising AI model costs squeezing margins"
+    ],
+    "userComplaints": [
+      "Prices went up and the March 2025 seat changes were hard to understand",
+      "Large files lag and crash, especially in the browser",
+      "Figma Make output looks generic and breaks on complex apps",
+      "AI credit limits run out faster than expected",
+      "Too many new products; some users want focus on core design quality"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Code-to-design sync",
+        "problem": "Designs drift away from what is really built, so files go stale.",
+        "expectedImpact": "Through the MCP server, pull real components from code back into Figma so design and code match. Keeps Figma as the source of truth even as AI writes more code.",
+        "metricToTrack": "Share of libraries linked to a code repo; weekly MCP write-back users",
+        "effort": "high"
+      },
+      {
+        "idea": "Clear seat and credit dashboard for admins",
+        "problem": "Admins are confused by seat types and AI credit use.",
+        "expectedImpact": "One page showing who uses what, unused seats and credit forecasts. Fewer surprise bills and fewer angry downgrades.",
+        "metricToTrack": "Billing support tickets; seat churn after renewal",
+        "effort": "low"
+      },
+      {
+        "idea": "Brand-safe Make",
+        "problem": "AI-built prototypes look generic and do not use the company's design system.",
+        "expectedImpact": "Force Make to build only from the company library by default. Output is usable, so more of it is shared and shipped.",
+        "metricToTrack": "Share of Make prototypes shared or moved into design files",
+        "effort": "medium"
+      },
+      {
+        "idea": "Large file performance mode",
+        "problem": "Big enterprise files lag and crash.",
+        "expectedImpact": "Load only visible pages and lighter previews. Fewer complaints from the most valuable customers.",
+        "metricToTrack": "P95 file load time; crash rate on files over 500MB",
+        "effort": "high"
+      },
+      {
+        "idea": "Student and India pricing push",
+        "problem": "Many new designers in markets like India use free plans and switch to cheaper tools.",
+        "expectedImpact": "Local currency pricing and student-to-pro discounts. Builds future enterprise users.",
+        "metricToTrack": "Paid seat growth in India; student-to-paid conversion",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Make the product better with more people. Multiplayer made each new teammate a reason to stay.",
+      "Free viewers are the best sales team. Engineers and PMs who opened a link became paying users later.",
+      "Expanding to new products works best when it reuses what you already own. Sites, Slides and Buzz all use the same design system.",
+      "Seat pricing changes are risky. Even good changes upset users if they are hard to understand.",
+      "When AI threatens your core user, put AI inside your product and connect it to where work goes next, like Figma did with Make and MCP."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "AI coding tools can turn a prompt into a working app. Is Figma at risk? What would you do as a PM?",
+        "hint": "Name the threat: fewer design files needed. Then Figma's assets: design systems, team review, brand control. Ideas: MCP, Make, code sync. Pick one metric like weekly MCP users."
+      },
+      {
+        "question": "How would you measure the success of Figma Make?",
+        "hint": "Go beyond prompts sent. Use: prototypes shared, prototypes turned into real designs or code, repeat use after 30 days. Guardrails: AI cost per user and complaint rate."
+      },
+      {
+        "question": "Figma Slides competes with Google Slides and PowerPoint. Who should it target first?",
+        "hint": "Pick a niche where Figma wins: design and product teams who already have brand assets in Figma. Explain why broad users are hard. Define one adoption metric."
+      },
+      {
+        "question": "Explain Figma's 131% net dollar retention to a non-business person, and how you would grow it.",
+        "hint": "Customers spend 31% more each year. Growth paths: more seats, higher plans, AI credits, new products. Pick one and size it."
+      },
+      {
+        "question": "Design a feature that brings more engineers into Figma every day.",
+        "hint": "Start from engineer pain: specs, changes, code. Ideas: change alerts in GitHub, design diffs, MCP inside IDEs. Metric: weekly active Dev seats."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Multiplayer",
+        "meaning": "Many people editing the same file at the same time and seeing each other's changes live."
+      },
+      {
+        "term": "Seat",
+        "meaning": "One paid user licence; Figma sells Full, Dev and Collab seats at different prices."
+      },
+      {
+        "term": "Design system",
+        "meaning": "A shared set of reusable parts, colours and rules that keeps a product looking consistent."
+      },
+      {
+        "term": "Prototype",
+        "meaning": "A clickable model of an app used to test ideas before building the real thing."
+      },
+      {
+        "term": "MCP server",
+        "meaning": "A connection that lets AI tools read and change Figma files directly."
+      },
+      {
+        "term": "Net dollar retention",
+        "meaning": "How much more or less existing customers pay this year compared with last year."
+      },
+      {
+        "term": "Non-GAAP",
+        "meaning": "Profit numbers adjusted by the company, usually leaving out stock pay to staff and one-off costs."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "The share of revenue left after the direct costs of delivering the product."
+      },
+      {
+        "term": "AI credits",
+        "meaning": "Units that measure how much AI work a user does; each seat gets some and more can be bought."
+      },
+      {
+        "term": "IPO",
+        "meaning": "When a private company first sells shares to the public on a stock exchange; Figma did this in July 2025."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users getting real value from the product."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you push the main metric up."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for a competitor to take your customers."
+      },
+      {
+        "term": "Handoff",
+        "meaning": "The step where a designer passes finished designs to engineers to build."
+      }
+    ],
+    "assumptions": [
+      "Seat prices are from the March 2025 pricing change; exact current prices may differ.",
+      "The unit economics seat mix (50 designers, 150 engineers, 300 collaborators) is an illustration, not a real customer.",
+      "The north star metric is our suggestion; Figma has not published one.",
+      "Statements about Make output quality come from user reviews and forum posts, not company data."
+    ]
+  }
+}

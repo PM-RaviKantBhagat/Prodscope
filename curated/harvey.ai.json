@@ -1,0 +1,400 @@
+{
+  "company": "Harvey",
+  "domain": "harvey.ai",
+  "website": "https://harvey.ai",
+  "sources": [
+    "https://www.harvey.ai/blog/harvey-raises-growth-round-at-dollar11-billion-valuation-co-led-by-gic-and-sequoia",
+    "https://news.bloomberglaw.com/bloomberg-government-news/legal-ai-startup-harvey-raises-funds-at-11-billion-valuation",
+    "https://sacra.com/research/harvey-at-195m-arr/",
+    "https://www.nonbillable.co.uk/news/harvey-11bn-valuation-bets-on-ai-agents-for-legal-work",
+    "https://news.bloomberglaw.com/safety/harveys-8-billion-question-can-ai-startup-match-its-hype",
+    "https://www.lw.com/en/news/latham-advises-harvey-in-us-200-million-fundraise-at-us-11-billion-valuation"
+  ],
+  "report": {
+    "company": "Harvey",
+    "tagline": "AI software that helps lawyers at big firms and companies research, draft and review legal documents faster.",
+    "category": "AI for lawyers",
+    "simpleSummary": "Harvey is an AI assistant built for lawyers. A lawyer can upload 500 contracts and ask 'which ones let the other side cancel early?' and get a table of answers with the exact clauses. It also drafts memos, checks documents and answers legal research questions. Big law firms and company legal teams pay for it per lawyer, every year.",
+    "keyNumbers": [
+      {
+        "label": "Valuation",
+        "value": "$11 billion (March 2026)",
+        "note": "From Harvey's own blog and Bloomberg Law. Up from $8B in late 2025 and $3B in early 2025."
+      },
+      {
+        "label": "Latest round",
+        "value": "$200 million, co-led by GIC and Sequoia",
+        "note": "March 2026, reported by Bloomberg Law and Latham & Watkins."
+      },
+      {
+        "label": "Annual recurring revenue",
+        "value": "About $195 million (late 2025)",
+        "note": "Sacra estimate. Likely higher by late 2026; Harvey does not publish exact numbers."
+      },
+      {
+        "label": "Customers",
+        "value": "About 1,000+ organisations in 60+ countries",
+        "note": "Estimate from company statements in 2025 and 2026, including most of the top 100 US law firms."
+      },
+      {
+        "label": "Lawyers using it",
+        "value": "Estimated 100,000+",
+        "note": "Rough estimate from company announcements; treat as approximate."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Harvey is AI made for legal work. It helps lawyers read large piles of documents, draft contracts and memos, and research law across countries. It runs inside a secure workspace so client data stays private. It now also offers 'agents' that do multi-step tasks, like a first review of a deal's documents.",
+      "howItWorks": [
+        "A firm signs a yearly contract and gives seats to its lawyers.",
+        "Lawyers use the Assistant to ask questions or draft text in plain English.",
+        "Vault lets them upload thousands of files and ask questions across all of them at once, with answers in a table.",
+        "Workflows and agents run set tasks, like drafting a client alert or checking a contract against a firm's rules.",
+        "Answers link back to the exact page or clause so lawyers can check.",
+        "Harvey plugs into Microsoft Word, Outlook and firm document systems, and partners with LexisNexis for case law."
+      ],
+      "valueProposition": "Do in an hour what used to take a junior lawyer a week, with sources you can check and data that stays private."
+    },
+    "personas": [
+      {
+        "name": "Big law associate",
+        "description": "A 3rd year lawyer at a top firm in London or New York who reviews documents late into the night.",
+        "goals": [
+          "Finish due diligence faster",
+          "Produce error-free first drafts",
+          "Have more time for real legal thinking"
+        ],
+        "frustrations": [
+          "Hours of reading boring contracts",
+          "Fear of missing a key clause",
+          "Not trusting AI that makes things up"
+        ]
+      },
+      {
+        "name": "Law firm partner",
+        "description": "A senior partner who sells work to clients and runs the team.",
+        "goals": [
+          "Win clients who want lower bills",
+          "Keep the firm ahead of rivals",
+          "Protect quality and reputation"
+        ],
+        "frustrations": [
+          "AI could reduce billable hours, the firm's main income",
+          "Clients pushing back on paying for junior hours",
+          "Risk of a mistake in front of a court"
+        ]
+      },
+      {
+        "name": "In-house counsel",
+        "description": "A lawyer inside a company, like a bank or tech firm, handling many contracts with a small team.",
+        "goals": [
+          "Handle more contracts without hiring",
+          "Spend less on outside law firms",
+          "Answer business teams quickly"
+        ],
+        "frustrations": [
+          "Big backlog of contracts",
+          "Outside counsel is expensive",
+          "Tools that do not fit company systems"
+        ]
+      },
+      {
+        "name": "Firm innovation head",
+        "description": "The person who buys legal tech for the firm and drives adoption.",
+        "goals": [
+          "Prove the tool pays for itself",
+          "Get lawyers to actually use it",
+          "Pass security and client checks"
+        ],
+        "frustrations": [
+          "Lawyers who try it once and stop",
+          "Hard to measure time saved",
+          "High per-seat cost"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Reviewing hundreds of documents in a deal takes weeks",
+        "howSolved": "Vault reads all documents and answers questions across them in a table.",
+        "severity": "high"
+      },
+      {
+        "pain": "General AI tools make up cases and are not safe for client data",
+        "howSolved": "Answers cite sources, and data is kept private and not used to train models.",
+        "severity": "high"
+      },
+      {
+        "pain": "First drafts of memos and contracts take hours",
+        "howSolved": "Assistant drafts in the firm's style in minutes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Clients refuse to pay for junior lawyer hours",
+        "howSolved": "Firms do the same work faster and can offer fixed fees.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Research across many countries' laws is slow",
+        "howSolved": "Research tools and LexisNexis content cover many jurisdictions.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Assistant",
+        "whatItDoes": "Chat to ask legal questions, summarise, and draft.",
+        "whyItMatters": "The daily entry point; gets lawyers into the habit."
+      },
+      {
+        "feature": "Vault",
+        "whatItDoes": "Secure storage where you ask questions across thousands of documents at once.",
+        "whyItMatters": "Solves due diligence, the most painful and costly work."
+      },
+      {
+        "feature": "Workflows and agents",
+        "whatItDoes": "Ready-made and custom multi-step tasks, like contract checks or drafting client alerts.",
+        "whyItMatters": "Moves Harvey from helper to doing whole tasks, which raises value per seat."
+      },
+      {
+        "feature": "Word and Outlook add-ins",
+        "whatItDoes": "Use Harvey inside the tools lawyers already work in.",
+        "whyItMatters": "Less switching means more daily use."
+      },
+      {
+        "feature": "LexisNexis partnership",
+        "whatItDoes": "Access to case law and legal content with citations.",
+        "whyItMatters": "Trusted legal sources make answers safer for court work."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Due diligence on a deal",
+        "persona": "Big law associate",
+        "steps": [
+          { "step": "Gets the data room", "detail": "800 contracts from a company being bought." },
+          { "step": "Uploads to Vault", "detail": "Drags all files into a secure project." },
+          { "step": "Asks questions", "detail": "Asks about change of control, termination and liability caps." },
+          { "step": "Gets a table", "detail": "Each contract gets a row with answers and clause links." },
+          { "step": "Checks flagged items", "detail": "Reads only the risky contracts in full." },
+          { "step": "Writes the report", "detail": "Uses Assistant to draft the diligence memo." }
+        ]
+      },
+      {
+        "name": "Contract backlog",
+        "persona": "In-house counsel",
+        "steps": [
+          { "step": "Receives a vendor contract", "detail": "Sales team needs it signed this week." },
+          { "step": "Runs a playbook workflow", "detail": "Harvey checks it against company rules." },
+          { "step": "Sees suggested edits", "detail": "Redlines appear in Word." },
+          { "step": "Reviews and accepts", "detail": "Lawyer approves most edits." },
+          { "step": "Sends back", "detail": "Turnaround drops from days to hours." },
+          { "step": "Repeats", "detail": "Uses it for every similar contract." }
+        ]
+      },
+      {
+        "name": "Firm rollout",
+        "persona": "Firm innovation head",
+        "steps": [
+          { "step": "Runs a pilot", "detail": "Gives 50 lawyers access for 3 months." },
+          { "step": "Passes security review", "detail": "Checks data handling with IT and clients." },
+          { "step": "Tracks usage", "detail": "Sees who uses it and for what." },
+          { "step": "Trains teams", "detail": "Runs sessions with Harvey's legal staff." },
+          { "step": "Signs firm-wide", "detail": "Expands to all lawyers on a yearly contract." },
+          { "step": "Builds custom workflows", "detail": "Turns firm know-how into reusable tasks." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Harvey sells yearly subscriptions to law firms and company legal teams, priced per lawyer seat. Big firms sign large contracts. Revenue grows when firms add more lawyers or buy more products.",
+      "revenueStreams": [
+        { "stream": "Per-seat subscriptions", "detail": "Yearly price per lawyer, with minimum seat counts for firms." },
+        { "stream": "Enterprise contracts", "detail": "Large firm-wide or company-wide deals with custom workflows and support." },
+        { "stream": "Add-on products", "detail": "Vault, agents and premium content like LexisNexis may raise the price per seat." }
+      ],
+      "pricing": "Not public. Reports suggest about $1,000 to $1,500 per lawyer per year, with minimum seat counts.",
+      "costDrivers": [
+        "AI model costs from OpenAI, Anthropic and others",
+        "Large sales and customer success teams for big firms",
+        "In-house lawyers who build and test workflows",
+        "Security and compliance work",
+        "Content licences like LexisNexis"
+      ],
+      "unitEconomics": "Rough example: a firm with 1,000 lawyers pays about $1.2M a year. If AI costs are about $200 to $300 per active lawyer a year and support costs are spread over many seats, Harvey keeps most of that. A lawyer bills about $500 or more an hour, so saving even 3 hours a year pays for the seat. The real cost is winning the deal: long pilots and big sales teams make CAC, the cost to win a customer, high."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Early deals with famous firms like Allen & Overy (now A&O Shearman), which made others follow",
+        "Direct sales to the top law firms and big companies",
+        "Partnerships with LexisNexis and big consulting firms",
+        "Land and expand: start with a pilot, then grow to the whole firm"
+      ],
+      "whatBringsUsersBack": [
+        "Daily drafting and research tasks",
+        "Custom firm workflows built inside Harvey",
+        "Vault projects that hold ongoing deal documents",
+        "Word and Outlook add-ins in the daily tools"
+      ],
+      "moat": "Harvey's moat is trust and switching cost. Top firms already chose it, which signals safety to others. Firms build custom workflows inside it, so leaving means rebuilding. But the AI models underneath are available to rivals too."
+    },
+    "competitors": [
+      { "name": "Thomson Reuters CoCounsel", "positioning": "Legal AI from the owner of Westlaw, the major legal research database.", "howThisProductDiffers": "Harvey is a newer, AI-first product with faster updates; Thomson Reuters owns more legal content." },
+      { "name": "Legora", "positioning": "Fast-growing European legal AI competing for the same big firms.", "howThisProductDiffers": "Harvey has more top US firms and more money; Legora is often cheaper and strong in Europe." },
+      { "name": "Microsoft Copilot and ChatGPT Enterprise", "positioning": "General AI that firms may already pay for.", "howThisProductDiffers": "Harvey is built for legal tasks with legal sources and workflows." },
+      { "name": "Spellbook and Ironclad", "positioning": "Contract-focused AI tools for drafting and contract management.", "howThisProductDiffers": "Harvey covers research, diligence and drafting in one platform." }
+    ],
+    "northStar": {
+      "metric": "Weekly active lawyers who complete a legal task in Harvey (a draft, review or Vault query they use).",
+      "why": "It shows lawyers are getting real work done. Seats sold can look good while nobody uses them, which leads to churn at renewal."
+    },
+    "kpiTree": [
+      {
+        "metric": "Seats sold",
+        "description": "Total paid lawyer seats.",
+        "children": [
+          { "metric": "New firms signed", "description": "New logos each quarter." },
+          { "metric": "Pilot to contract rate", "description": "Share of pilots that become paid deals." },
+          { "metric": "Seat expansion", "description": "Extra seats bought by existing customers." }
+        ]
+      },
+      {
+        "metric": "Seat activation",
+        "description": "Share of paid seats used each week.",
+        "children": [
+          { "metric": "First task in 7 days", "description": "New users who do something useful in the first week." },
+          { "metric": "Training sessions attended", "description": "Trained lawyers use it more." }
+        ]
+      },
+      {
+        "metric": "Tasks per active lawyer",
+        "description": "How deep the use goes.",
+        "children": [
+          { "metric": "Vault queries per week", "description": "Use on the highest-value task." },
+          { "metric": "Workflows run", "description": "Use of repeatable tasks." },
+          { "metric": "Word add-in use", "description": "Shows Harvey is in the daily flow." }
+        ]
+      },
+      {
+        "metric": "Output quality",
+        "description": "Whether lawyers trust the result.",
+        "children": [
+          { "metric": "Accepted draft rate", "description": "Share of drafts used with light edits." },
+          { "metric": "Citation accuracy", "description": "Share of sources that are correct in audits." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Hallucination rate, meaning made-up facts or cases",
+      "Data security incidents",
+      "Gross revenue retention at renewal",
+      "Answer speed on large Vault projects"
+    ],
+    "strengths": [
+      "Brand trusted by top law firms",
+      "Fast revenue growth and lots of funding",
+      "Built for legal work, not general chat",
+      "High switching cost once firms build workflows"
+    ],
+    "weaknesses": [
+      "Expensive per seat; hard for small firms",
+      "Depends on AI models made by others",
+      "Usage can be low among senior lawyers even when seats are bought",
+      "Billable-hour model at firms can slow adoption"
+    ],
+    "risks": [
+      "Thomson Reuters and LexisNexis own legal content and can bundle AI",
+      "Price wars from Legora and cheaper rivals",
+      "AI model makers building legal tools themselves",
+      "A high-profile mistake in court could hurt trust",
+      "Very high valuation demands very fast growth"
+    ],
+    "userComplaints": [
+      "Expensive and requires big seat commitments",
+      "Answers can be generic or need heavy checking",
+      "Not clearly better than ChatGPT for simple tasks, some lawyers say",
+      "Slow on very large document sets"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Time-saved report for each firm, shown monthly",
+        "problem": "Buyers struggle to prove value at renewal",
+        "expectedImpact": "Higher renewals and expansions",
+        "metricToTrack": "Gross revenue retention",
+        "effort": "low"
+      },
+      {
+        "idea": "Small-firm plan with no seat minimum",
+        "problem": "Mid-size and small firms cannot afford big contracts",
+        "expectedImpact": "New market segment and more customers",
+        "metricToTrack": "New small-firm accounts per month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Confidence score and 'needs review' flags on each answer",
+        "problem": "Lawyers do not know which answers to double-check",
+        "expectedImpact": "More trust and faster reviews",
+        "metricToTrack": "Accepted draft rate and time spent checking",
+        "effort": "medium"
+      },
+      {
+        "idea": "Partner-focused use cases like pitch and client update drafts",
+        "problem": "Senior lawyers use Harvey less",
+        "expectedImpact": "Higher activation among decision makers",
+        "metricToTrack": "Weekly active partners",
+        "effort": "low"
+      },
+      {
+        "idea": "Indian law module for Indian firms and global firms working in India",
+        "problem": "Limited coverage of fast-growing markets",
+        "expectedImpact": "Growth in a new market",
+        "metricToTrack": "Revenue from India-based customers",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "In high-stakes work, trust beats features. Citations and privacy decided who won law firms.",
+      "Land famous early customers. One big-name firm convinced many others.",
+      "Seats sold is not the goal. Usage per seat decides if the customer renews.",
+      "Learn how your customer makes money. Firms bill by the hour, so faster work can hurt their income unless pricing changes.",
+      "Build workflows on top of AI models, because the models themselves are not unique."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Law firms bill by the hour. Why would they buy a tool that makes lawyers faster?",
+        "hint": "Talk about client pressure for lower bills, fixed fees, competition between firms, and doing more work with the same staff. Show the incentive problem and how Harvey can help firms change pricing."
+      },
+      {
+        "question": "How would you increase usage among senior partners at a firm using Harvey?",
+        "hint": "Segment users, find partner jobs (pitches, client updates), reduce effort with Outlook add-ins, and track weekly active partners."
+      },
+      {
+        "question": "How would you measure Harvey's answer quality?",
+        "hint": "Combine expert audits, citation accuracy, accepted draft rate, and complaint tracking. Make hallucination rate a guardrail."
+      },
+      {
+        "question": "Thomson Reuters owns Westlaw. How does Harvey win against it?",
+        "hint": "Compare content versus product speed. Discuss partnerships (LexisNexis), workflow depth and switching cost."
+      },
+      {
+        "question": "Should Harvey build its own AI model?",
+        "hint": "Weigh cost and talent against control and margins. Most value is in data, workflows and trust. Suggest fine-tuning over building from scratch."
+      }
+    ],
+    "glossary": [
+      { "term": "Annual recurring revenue", "meaning": "The yearly value of all active subscription contracts." },
+      { "term": "Due diligence", "meaning": "Checking all of a company's documents before buying or investing in it." },
+      { "term": "Hallucination", "meaning": "When an AI makes up a fact, quote or source that is not real." },
+      { "term": "CAC", "meaning": "Customer acquisition cost, the money spent to win one new customer." },
+      { "term": "Land and expand", "meaning": "Start with a small deal at a company, then grow to more teams over time." },
+      { "term": "Gross revenue retention", "meaning": "The share of last year's revenue that customers keep paying, not counting new upsells." },
+      { "term": "Churn", "meaning": "When customers stop paying." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "North star metric", "meaning": "The one number a team picks to show whether users are getting real value." },
+      { "term": "Billable hour", "meaning": "The way law firms charge clients for each hour a lawyer works." }
+    ],
+    "assumptions": [
+      "Seat pricing of about $1,000 to $1,500 a year is based on press reports, not official pricing.",
+      "Customer and lawyer counts are approximate company figures from 2025 and 2026.",
+      "AI cost per lawyer is our estimate."
+    ]
+  }
+}

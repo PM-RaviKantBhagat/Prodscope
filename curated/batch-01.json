@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Blinkit",
+  "website": "blinkit.com",
+  "domain": "blinkit.com",
+  "market": "India",
+  "category": "Quick commerce",
+  "why": "Led 10-minute delivery in 2025; study dark-store unit economics and assortment beyond groceries."
+ },
+ {
+  "company": "Zepto",
+  "website": "zepto.com",
+  "domain": "zepto.com",
+  "market": "India",
+  "category": "Quick commerce",
+  "why": "Filed for its IPO in 2026; growth loops, Zepto Cafe and the profitability-vs-speed trade-off."
+ },
+ {
+  "company": "Swiggy (Instamart)",
+  "website": "swiggy.com",
+  "domain": "swiggy.com",
+  "market": "India",
+  "category": "Food delivery / super-app",
+  "why": "Multi-vertical super-app; classic interview case for bundling (Swiggy One) and cross-sell."
+ },
+ {
+  "company": "Zomato (Eternal)",
+  "website": "zomato.com",
+  "domain": "zomato.com",
+  "market": "India",
+  "category": "Food delivery",
+  "why": "Marketplace with three sides (diners, restaurants, riders); pricing, Gold membership, ads."
+ },
+ {
+  "company": "PhonePe",
+  "website": "phonepe.com",
+  "domain": "phonepe.com",
+  "market": "India",
+  "category": "Payments (UPI)",
+  "why": "UPI leader that filed for IPO in 2026; monetising a free payments rail through lending, insurance and wealth."
+ },
+ {
+  "company": "Google Pay India",
+  "website": "pay.google.com",
+  "domain": "pay.google.com",
+  "market": "India · global parent",
+  "category": "Payments (UPI)",
+  "why": "Rewards-led adoption and the UPI market-share cap debate; great for competitive strategy."
+ },
+ {
+  "company": "Paytm",
+  "website": "paytm.com",
+  "domain": "paytm.com",
+  "market": "India",
+  "category": "Fintech",
+  "why": "Comeback after the 2024 Payments Bank ban; trust recovery and merchant soundbox strategy."
+ },
+ {
+  "company": "CRED",
+  "website": "cred.club",
+  "domain": "cred.club",
+  "market": "India",
+  "category": "Fintech / rewards",
+  "why": "Premium-user positioning and brand-led growth; how to monetise high-intent users."
+ },
+ {
+  "company": "Groww",
+  "website": "groww.in",
+  "domain": "groww.in",
+  "market": "India",
+  "category": "Investing",
+  "why": "Listed in late 2025; simplified onboarding for first-time investors made it India's top broker."
+ },
+ {
+  "company": "Zerodha (Kite)",
+  "website": "zerodha.com",
+  "domain": "zerodha.com",
+  "market": "India",
+  "category": "Investing",
+  "why": "Bootstrapped, no-ads, low-cost model; product as a moat and education-led growth."
+ },
+ {
+  "company": "Jio (MyJio, JioCinema)",
+  "website": "jio.com",
+  "domain": "jio.com",
+  "market": "India",
+  "category": "Telecom / platform",
+  "why": "Disruptive pricing that brought data to millions; ecosystem play across apps."
+ },
+ {
+  "company": "JioHotstar",
+  "website": "jiohotstar.com",
+  "domain": "jiohotstar.com",
+  "market": "India",
+  "category": "OTT streaming",
+  "why": "2025 merger of JioCinema and Disney+ Hotstar; IPL/cricket peaks, freemium tiers, ad tech."
+ },
+ {
+  "company": "Flipkart",
+  "website": "flipkart.com",
+  "domain": "flipkart.com",
+  "market": "India",
+  "category": "E-commerce",
+  "why": "IPO prep and a late-2026 leadership change; Big Billion Days scale, vernacular UX and Flipkart Minutes."
+ }
+]

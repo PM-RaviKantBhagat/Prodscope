@@ -1,0 +1,114 @@
+[
+ {
+  "company": "Wise",
+  "website": "wise.com",
+  "domain": "wise.com",
+  "market": "UK · global",
+  "category": "Cross-border payments",
+  "why": "Transparent pricing as a product; mission-led design, popular with Indians abroad."
+ },
+ {
+  "company": "Starling Bank",
+  "website": "starlingbank.com",
+  "domain": "starlingbank.com",
+  "market": "UK",
+  "category": "App-only bank / business",
+  "why": "Profitable app-only bank selling its tech (Engine) to other banks."
+ },
+ {
+  "company": "Klarna",
+  "website": "klarna.com",
+  "domain": "klarna.com",
+  "market": "Sweden · UK/US",
+  "category": "buy now, pay later",
+  "why": "Buy now pay later; 2025 US IPO and heavy use of AI in customer service."
+ },
+ {
+  "company": "Zopa",
+  "website": "zopa.com",
+  "domain": "zopa.com",
+  "market": "UK",
+  "category": "Digital bank / lending",
+  "why": "person-to-person lending pioneer turned bank; credit risk as product design."
+ },
+ {
+  "company": "Moneybox",
+  "website": "moneyboxapp.com",
+  "domain": "moneyboxapp.com",
+  "market": "UK",
+  "category": "Savings / investing",
+  "why": "Round-ups and ISAs for first-time savers; compare with Groww."
+ },
+ {
+  "company": "Cleo",
+  "website": "meetcleo.com",
+  "domain": "meetcleo.com",
+  "market": "UK · US",
+  "category": "AI money coach",
+  "why": "Chat-first finance app with a cheeky voice; Gen-Z growth in the US."
+ },
+ {
+  "company": "Curve",
+  "website": "curve.com",
+  "domain": "curve.com",
+  "market": "UK",
+  "category": "Money app",
+  "why": "One card for all cards; a hard business model to scale."
+ },
+ {
+  "company": "Chip",
+  "website": "getchip.uk",
+  "domain": "getchip.uk",
+  "market": "UK",
+  "category": "Savings",
+  "why": "Auto-saving with AI; compare with Moneybox."
+ },
+ {
+  "company": "GoCardless",
+  "website": "gocardless.com",
+  "domain": "gocardless.com",
+  "market": "UK · global",
+  "category": "Payments infrastructure",
+  "why": "Bank-to-bank recurring payments; business money app."
+ },
+ {
+  "company": "Checkout.com",
+  "website": "checkout.com",
+  "domain": "checkout.com",
+  "market": "UK · global",
+  "category": "Payments infrastructure",
+  "why": "Enterprise payments; compare with Stripe."
+ },
+ {
+  "company": "Zilch",
+  "website": "zilch.com",
+  "domain": "zilch.com",
+  "market": "UK",
+  "category": "buy now, pay later",
+  "why": "Ad-subsidised buy now, pay later; compare with Klarna."
+ },
+ {
+  "company": "PayPal",
+  "website": "paypal.com",
+  "domain": "paypal.com",
+  "market": "US · global",
+  "category": "Payments",
+  "why": "Incumbent fighting Apple Pay and Stripe; checkout UX."
+ },
+ {
+  "company": "Apple Wallet & Pay",
+  "website": "apple.com/apple-pay",
+  "domain": "apple.com-pay",
+  "market": "US · global",
+  "category": "Payments",
+  "why": "Tap-to-pay habits in UK and US; tap-to-pay access fights."
+ },
+ {
+  "company": "Etsy",
+  "website": "etsy.com",
+  "domain": "etsy.com",
+  "market": "US · global",
+  "category": "Marketplace",
+  "why": "Handmade marketplace fighting cheap mass-made goods; search and trust."
+ }
+]

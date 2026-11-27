@@ -6,6 +6,8 @@ export function mockTeardown(company: string): Teardown {
     company,
     tagline: `${company} (sample report: set an API key to generate a real one)`,
     category: "Sample category",
+    simpleSummary: `${company} is shown here with sample text. A real report explains the product in a few plain sentences.`,
+    keyNumbers: [{ label: "Monthly users", value: "10 million", note: "Sample number" }],
     overview: {
       whatItDoes: `This is placeholder content showing the layout of a ${company} teardown. Real reports are written by AI from the company's website and web research.`,
       howItWorks: ["Users discover the product", "They sign up and complete onboarding", "They get value from the core feature", "They come back and pay"],
@@ -20,6 +22,7 @@ export function mockTeardown(company: string): Teardown {
       { pain: "Unclear pricing", howSolved: "Upfront price before checkout", severity: "medium" },
       { pain: "No way to track progress", howSolved: "Live status updates", severity: "low" },
     ],
+    coreFeatures: [{ feature: "Core feature", whatItDoes: "Does the main job", whyItMatters: "It is why users come" }],
     userJourneys: [
       {
         name: "First use",
@@ -40,7 +43,9 @@ export function mockTeardown(company: string): Teardown {
       ],
       pricing: "Not public",
       costDrivers: ["Customer acquisition", "Operations", "Discounts"],
+      unitEconomics: "On a ₹500 order, it keeps about ₹50 after paying partners. Sample numbers.",
     },
+    growth: { howTheyGetUsers: ["Referrals"], whatBringsUsersBack: ["Fast, reliable service"], moat: "Scale and habit." },
     competitors: [
       { name: "Competitor A", positioning: "Low price leader", howThisProductDiffers: "Better reliability" },
       { name: "Competitor B", positioning: "Premium option", howThisProductDiffers: "Wider selection" },
@@ -63,14 +68,18 @@ export function mockTeardown(company: string): Teardown {
     guardrailMetrics: ["Contribution margin per transaction", "Customer support CSAT"],
     strengths: ["Strong brand recall", "Wide coverage"],
     weaknesses: ["Heavy reliance on discounts", "Inconsistent service quality"],
+    risks: ["New low-price competitors"],
+    userComplaints: ["Late deliveries"],
     improvementIdeas: [
       { idea: "Smart reorder", problem: "Repeat users redo the same steps", expectedImpact: "Higher repeat frequency", metricToTrack: "Repeat transactions per user", effort: "low" },
       { idea: "Transparent fee breakdown", problem: "Users drop at checkout when fees appear", expectedImpact: "Better checkout conversion", metricToTrack: "Checkout conversion rate", effort: "medium" },
     ],
+    pmLessons: ["Reliability brings people back more than discounts do."],
     interviewQuestions: [
       { question: `How would you increase retention for ${company}?`, hint: "Segment users, find the drop-off point, then prioritise fixes by impact and effort." },
       { question: `What metric would you choose as ${company}'s north star and why?`, hint: "Tie it to user value, not just revenue." },
     ],
+    glossary: [{ term: "North star metric", meaning: "The one number that best shows users are getting value." }],
     assumptions: ["This entire report is sample data."],
   };
 }

@@ -1,0 +1,266 @@
+{
+  "company": "Cult.fit",
+  "domain": "cult.fit",
+  "website": "https://cult.fit",
+  "sources": [
+    "https://www.indmoney.com/blog/ipo/cult-fit-ipo-sebi-approval-financials-profitability",
+    "https://www.outlookbusiness.com/markets/cultfit-ipo-explained-what-the-drhp-reveals-about-the-companys-risks",
+    "https://entrackr.com/fintrackr/cultfit-posts-rs-1216-cr-revenue-and-rs-481-cr-loss-in-fy25-10911945",
+    "https://yourstory.com/2026/07/cultfit-files-draft-ipo-papers-rs-950-crore-fresh-issue",
+    "https://support.cure.fit/support/solutions/articles/25000030038-what-is-the-difference-between-cult-elite-pro-and-select-packs-",
+    "https://www.consumercomplaints.in/bycompany/curefit-and-cultfit-a514030.html"
+  ],
+  "report": {
+    "company": "Cult.fit",
+    "tagline": "One membership for group workout classes, gyms and home workouts across Indian cities.",
+    "category": "Fitness",
+    "simpleSummary": "Cult.fit is a gym membership you buy in an app. With one pass you can book a group class like boxing, yoga or dance at a Cult centre, or walk into a gym near your home or office. If you cannot go out, you can do live or recorded workouts at home. It also sells its own fitness gear and equipment under the Cultsport brand.",
+    "keyNumbers": [
+      { "label": "Revenue FY26", "value": "₹1,721 crore", "note": "From the IPO draft papers (DRHP) filed July 2026. Up about 42% from ₹1,216 crore in FY25." },
+      { "label": "Net loss FY26", "value": "About ₹250 crore", "note": "DRHP. Down from ₹480 crore in FY25 and ₹888 crore in FY24." },
+      { "label": "Adjusted EBITDA FY26", "value": "₹145 crore (8.4% margin)", "note": "DRHP. First full year of positive operating profit before rent-style and asset costs. Not the same as net profit." },
+      { "label": "Paid members", "value": "About 9.9 lakh", "note": "DRHP, as of March 2026." },
+      { "label": "Fitness centres", "value": "708", "note": "DRHP, FY26. About 69% are franchise or partner gyms, not owned by Cult." },
+      { "label": "Metro dependence", "value": "About 90% of services revenue", "note": "DRHP. Comes from Delhi-NCR, Mumbai, Bengaluru and Hyderabad." }
+    ],
+    "overview": {
+      "whatItDoes": "Cult.fit sells fitness memberships that work across its own centres, partner gyms and its app. Members book group classes or gym time from the app. It also sells home equipment, cycles and clothes under Cultsport, and runs some health services. In 2026 it filed to list on the stock market.",
+      "howItWorks": [
+        "You pick a cultpass: ELITE (all Cult centres and gyms, unlimited classes), PRO (gym access plus a few classes a month) or a single-centre pack.",
+        "You book a class slot in the app, usually a day or a few hours before. Seats are limited, so popular slots fill fast.",
+        "At the centre, a trainer runs a 50-minute group format such as Boxing Bag, Dance Fitness, HRX or Yoga.",
+        "Partner and franchise gyms carry the Cult brand and accept the pass, which lets Cult add centres without paying for each one.",
+        "At home, the app streams live and recorded classes, and Cultsport sells treadmills, bikes and smart equipment that pair with it.",
+        "Companies buy cultpass for employees through Cult's corporate plans (cultpassX)."
+      ],
+      "valueProposition": "You do not have to commit to one gym or one type of workout. One pass gives you variety, flexibility across many locations, and a trainer-led class that makes you show up."
+    },
+    "personas": [
+      {
+        "name": "Young metro professional",
+        "description": "25 to 32, works in Bengaluru or Gurugram, gets bored of the same gym routine.",
+        "goals": ["Stay fit with fun group classes", "Work out near home on weekdays and near office on some days", "Have a schedule that fits long work hours"],
+        "frustrations": ["Evening slots fill up fast", "Pass price goes up at renewal", "Crowded centres at peak hours"]
+      },
+      {
+        "name": "Gym regular on a budget",
+        "description": "Lifts weights 4 to 5 days a week and mostly needs a decent gym close by.",
+        "goals": ["Cheap, reliable gym access", "Good equipment and clean changing rooms"],
+        "frustrations": ["Paying for classes they never use", "Quality varies a lot between partner gyms"]
+      },
+      {
+        "name": "Home workout parent",
+        "description": "30 to 45, finds it hard to leave home, wants short guided workouts.",
+        "goals": ["Short workouts at home", "Low-cost equipment that is easy to set up"],
+        "frustrations": ["Low motivation without a trainer in the room", "Equipment service and delivery delays"]
+      },
+      {
+        "name": "HR manager",
+        "description": "Buys wellness benefits for a mid-size company.",
+        "goals": ["A benefit employees actually use", "One vendor across many cities"],
+        "frustrations": ["Low usage after the first month makes the spend hard to justify"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Getting bored of the same gym routine and quitting.", "howSolved": "Many class formats in one pass, so the workout changes every day.", "severity": "high" },
+      { "pain": "Being locked into one gym near home when you also need one near work.", "howSolved": "ELITE and PRO passes work across hundreds of centres in the city.", "severity": "high" },
+      { "pain": "No one checks whether you show up.", "howSolved": "Booked slots, trainer-led classes and streaks create a reason to go.", "severity": "medium" },
+      { "pain": "Not knowing what to do in a gym.", "howSolved": "Every class has a trainer and a set plan, so beginners can follow along.", "severity": "medium" },
+      { "pain": "No time to leave home.", "howSolved": "Live and recorded home workouts in the app, plus Cultsport equipment.", "severity": "low" },
+      { "pain": "Local gyms are run-down or have poor hygiene.", "howSolved": "Branded centres with a standard look, equipment and trainer training.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "cultpass ELITE", "whatItDoes": "Unlimited classes and gym access across all Cult centres in a city.", "whyItMatters": "The top-priced plan. It funds the business and is what the brand is known for." },
+      { "feature": "cultpass PRO", "whatItDoes": "Gym access at PRO gyms with a limited number of ELITE classes a month.", "whyItMatters": "Cheaper entry plan that wins gym-goers who do not need classes." },
+      { "feature": "Slot booking with waitlist", "whatItDoes": "You reserve a spot in a class and join a waitlist if it is full.", "whyItMatters": "Controls crowding and gives Cult data on demand per centre and time." },
+      { "feature": "Partner and franchise gyms", "whatItDoes": "Independent gyms carry the Cult brand and accept the pass.", "whyItMatters": "Grows the network fast without Cult paying rent and equipment for each site." },
+      { "feature": "Pause membership", "whatItDoes": "Freeze your pass for some days when you travel or are sick.", "whyItMatters": "Reduces cancellations from short breaks." },
+      { "feature": "Cultsport", "whatItDoes": "Own brand of cycles, treadmills, clothes and accessories.", "whyItMatters": "About 30% of revenue and a way to earn from members outside the centre, though it still loses money." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First membership",
+        "persona": "Young metro professional",
+        "steps": [
+          { "step": "Discover", "detail": "Sees a friend's Instagram story from a Cult class or an ad with a free trial." },
+          { "step": "Free trial", "detail": "Books a trial class at the nearest centre in the app." },
+          { "step": "Try a class", "detail": "Does a Dance Fitness or Boxing class with a trainer." },
+          { "step": "Compare plans", "detail": "Sees ELITE vs PRO, 3, 6 or 12 month options with a sale discount." },
+          { "step": "Pay", "detail": "Picks a 12-month ELITE pass, often with no-cost EMI." },
+          { "step": "Build a habit", "detail": "Books 3 classes a week and gets streak reminders." }
+        ]
+      },
+      {
+        "name": "Weekly class booking",
+        "persona": "Young metro professional",
+        "steps": [
+          { "step": "Open app at night", "detail": "Checks tomorrow's slots at the centre near office." },
+          { "step": "Pick a format", "detail": "Chooses HRX at 7 am." },
+          { "step": "Waitlist", "detail": "If full, joins waitlist and gets a push if a seat opens." },
+          { "step": "Check in", "detail": "Scans in at the centre." },
+          { "step": "Rate the class", "detail": "Gives the trainer a rating after class." }
+        ]
+      },
+      {
+        "name": "Renewal or churn",
+        "persona": "Gym regular on a budget",
+        "steps": [
+          { "step": "Expiry alert", "detail": "Gets a reminder 15 days before the pass ends." },
+          { "step": "Sees price", "detail": "Notices the renewal price is higher than what they first paid." },
+          { "step": "Compares", "detail": "Checks local gyms and a PRO pass." },
+          { "step": "Decides", "detail": "Downgrades to PRO, renews ELITE on a sale, or leaves." },
+          { "step": "Win-back", "detail": "If they leave, gets discount offers by SMS and app later." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Cult.fit makes money mainly from membership fees (about 70% of revenue) and from selling Cultsport products (about 30%). Memberships make a profit. Products still lose money.",
+      "revenueStreams": [
+        { "stream": "Memberships (fitness services)", "detail": "ELITE, PRO and centre-only passes. About ₹1,198 crore in FY26, growing about 35%." },
+        { "stream": "Cultsport products", "detail": "Cycles, treadmills, clothes and accessories online and in stores. About ₹523 crore in FY26, growing about 60%, but segment loss of about ₹57 crore." },
+        { "stream": "Franchise and partner fees", "detail": "Partner gyms share a cut of membership revenue for using the brand, the app and the member base." },
+        { "stream": "Corporate plans", "detail": "Companies pay for employee passes through cultpassX." }
+      ],
+      "pricing": "Not fixed public pricing. Prices change by city, plan length and sale. As a rough guide, a 12-month ELITE pass in a metro has often sold around ₹20,000 to ₹30,000 a year on sale, and PRO costs much less. Check the app for current prices.",
+      "costDrivers": [
+        "Rent for owned centres in expensive metro locations",
+        "Trainer and staff salaries",
+        "Equipment, which depreciates (loses value) every year",
+        "Marketing and discounts to win new members",
+        "Interest on debt and lease payments"
+      ],
+      "unitEconomics": "Take one ELITE member paying about ₹2,000 a month. Each extra member costs Cult very little because the rent and trainers are paid anyway. So the money depends on how full each centre is. A centre that is half empty loses money; one that is full at peak hours makes a good profit. Franchise gyms change this: Cult earns a share of fees without paying rent, which is why its operating profit turned positive in FY26. But after asset costs, interest and the loss-making Cultsport arm, the company still made a net loss of about ₹250 crore."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free trial classes",
+        "Big sales events with deep discounts on long plans",
+        "Instagram and word of mouth from friends who attend classes",
+        "Corporate plans that bring in whole teams",
+        "New franchise centres in new neighbourhoods and tier-2 cities"
+      ],
+      "whatBringsUsersBack": [
+        "Pre-paid long plans: people go because they already paid",
+        "Booked slots and trainer relationships",
+        "Streaks, badges and workout history in the app",
+        "Friends in the same class"
+      ],
+      "moat": "The network of over 700 centres in a city is hard to copy. A single gym cannot offer you a gym near home, near office and twenty class formats. The brand and the trained trainers also take years to build."
+    },
+    "competitors": [
+      { "name": "Local neighbourhood gyms", "positioning": "Cheap, simple, one location.", "howThisProductDiffers": "Cult costs more but gives many locations and trainer-led classes." },
+      { "name": "Gold's Gym / Anytime Fitness", "positioning": "Traditional gym chains with personal training.", "howThisProductDiffers": "Cult leads with group classes and app booking, not one-on-one trainers." },
+      { "name": "Fitpass", "positioning": "Aggregator pass that works at many partner gyms and studios.", "howThisProductDiffers": "Cult owns or brands its centres and controls the class format, so quality is more uniform." },
+      { "name": "YouTube and fitness apps", "positioning": "Free or cheap home workouts.", "howThisProductDiffers": "Cult's main value is the in-person class, which free videos cannot replace." }
+    ],
+    "northStar": {
+      "metric": "Weekly active members (members who work out at least twice in a week)",
+      "why": "People only renew if they actually work out. A member who goes twice a week gets value and comes back. Revenue alone hides members who paid but stopped going."
+    },
+    "kpiTree": [
+      {
+        "metric": "New paid members",
+        "description": "How many people start a paid pass each month.",
+        "children": [
+          { "metric": "Trial bookings", "description": "More trials mean more people who see the class experience." },
+          { "metric": "Trial to paid conversion", "description": "Share of trial users who buy a pass within 14 days." },
+          { "metric": "Corporate sign-ups", "description": "Employees joining through company plans." }
+        ]
+      },
+      {
+        "metric": "Workout frequency",
+        "description": "Average workouts per member per week.",
+        "children": [
+          { "metric": "Slot availability at peak times", "description": "If members cannot get a 7 am or 7 pm slot, they skip." },
+          { "metric": "Booking no-show rate", "description": "Members who book but do not come, blocking others." },
+          { "metric": "Class rating", "description": "Better classes bring people back." }
+        ]
+      },
+      {
+        "metric": "Renewal rate",
+        "description": "Share of members who renew when their pass ends.",
+        "children": [
+          { "metric": "Workouts in last 30 days before expiry", "description": "Active members renew; inactive ones leave." },
+          { "metric": "Renewal price gap", "description": "How much higher the renewal price is than the first price." },
+          { "metric": "Pause usage", "description": "Members who pause instead of cancelling." }
+        ]
+      },
+      {
+        "metric": "Centre utilisation",
+        "description": "How full each centre is across the day.",
+        "children": [
+          { "metric": "Off-peak bookings", "description": "Filling 11 am to 4 pm slots raises revenue per centre." },
+          { "metric": "Members per centre", "description": "More members spread rent and trainer cost." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Peak-hour crowding complaints",
+      "Refund and cancellation complaints",
+      "Trainer attrition",
+      "Partner gym quality score"
+    ],
+    "strengths": [
+      "Largest branded fitness network in India with over 700 centres",
+      "Strong brand among young urban professionals",
+      "Turned operating profit positive in FY26 with fast revenue growth",
+      "Franchise model lets it grow without paying for every centre",
+      "Many ways to earn from one member: pass, gear, home workouts"
+    ],
+    "weaknesses": [
+      "Still a net loss of about ₹250 crore in FY26",
+      "About 90% of service revenue comes from four metros",
+      "Cultsport products lose money",
+      "Quality is harder to control in the 69% of centres it does not own",
+      "Auditors flagged gaps in data controls for FY24 to FY26"
+    ],
+    "risks": [
+      "Cheap local gyms and aggregators like Fitpass compete on price",
+      "Rising metro rents raise costs",
+      "Fitness demand is seasonal and drops after New Year and in monsoon",
+      "Over 38% of equipment comes from China, so supply or tariff shocks hurt",
+      "Public market investors may push for net profit faster than planned"
+    ],
+    "userComplaints": [
+      "Popular class slots are full, especially mornings and evenings",
+      "Refunds and cancellations are slow or refused",
+      "Renewal prices are much higher than the first-time sale price",
+      "Some centres have broken equipment, poor AC or are crowded",
+      "Customer support is slow to reply"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show live crowd level and predicted slot availability before booking", "problem": "Members waste trips or skip when slots are full.", "expectedImpact": "Spreads demand to off-peak slots and nearby centres.", "metricToTrack": "Peak-hour waitlist size and off-peak bookings", "effort": "medium" },
+      { "idea": "Loyalty renewal price: lock the first-year price for members who worked out 100+ times", "problem": "Renewal price shock pushes active members to leave.", "expectedImpact": "Higher renewal rate among the most valuable members.", "metricToTrack": "Renewal rate for active members", "effort": "low" },
+      { "idea": "No-show penalty with credit back for early cancellations", "problem": "People book and do not show, blocking others.", "expectedImpact": "More seats for real users.", "metricToTrack": "No-show rate", "effort": "low" },
+      { "idea": "Early inactivity nudge: a trainer call after 10 days with no workout", "problem": "Members who stop going rarely renew.", "expectedImpact": "Brings back lapsing members before expiry.", "metricToTrack": "Share of members back within 7 days of the nudge", "effort": "medium" },
+      { "idea": "Public partner gym quality score in the app", "problem": "Franchise gym quality varies.", "expectedImpact": "Pushes partners to fix issues; builds trust.", "metricToTrack": "Average rating of partner gyms", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Fitness products sell on hope but renew on habit. Measure workouts, not sign-ups.",
+      "Mixing owned and franchise supply lets you grow fast, but you must guard quality where you have less control.",
+      "A physical business lives on utilisation. Filling off-peak hours can matter more than finding new users.",
+      "Selling hardware next to a service is tempting but can drag on profit, as Cultsport shows."
+    ],
+    "interviewQuestions": [
+      { "question": "Cult.fit renewals are falling. How would you find out why?", "hint": "Split by plan, city and how often members worked out. Check price changes, slot availability and competitor launches. Talk to churned users." },
+      { "question": "Design a feature to fill off-peak slots from 11 am to 4 pm.", "hint": "Identify who is free then (students, homemakers, remote workers). Offer a cheaper off-peak pass or special formats. Track utilisation and avoid hurting peak revenue." },
+      { "question": "Should Cult.fit keep selling Cultsport products?", "hint": "Compare its loss to its role in keeping members. Look at margin, overlap with members, and focus. Suggest a narrower range if it does not help retention." },
+      { "question": "What is the north star metric for Cult.fit and why?", "hint": "Pick weekly active members or workouts per member. Explain how it predicts renewal. Add guardrails like crowding." },
+      { "question": "How would you take Cult.fit to tier-2 cities?", "hint": "Lower price, franchise-led, fewer but popular formats, local trainers. Test in 2 to 3 cities and measure fill rate and payback." }
+    ],
+    "glossary": [
+      { "term": "EBITDA", "meaning": "Profit before interest, taxes and the yearly loss in value of equipment and buildings; a rough view of operating profit." },
+      { "term": "DRHP", "meaning": "The draft document a company files with SEBI before an IPO, listing its numbers and risks." },
+      { "term": "Franchise", "meaning": "A partner who runs a centre under Cult's brand and shares revenue with Cult." },
+      { "term": "Utilisation", "meaning": "How full a centre or class is compared with how many people it can hold." },
+      { "term": "North star metric", "meaning": "The one number that best shows whether users are getting value." },
+      { "term": "Churn", "meaning": "Members who stop paying and leave." }
+    ],
+    "assumptions": [
+      "Pass prices are rough ranges from public listings and sale offers; actual prices change by city and season.",
+      "The unit economics example is an illustration, not a reported figure.",
+      "Weekly active members as north star is our choice; Cult.fit has not published its internal metric.",
+      "Churn and renewal rates are not public."
+    ]
+  }
+}

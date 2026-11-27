@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Meesho",
+  "website": "meesho.com",
+  "domain": "meesho.com",
+  "market": "India",
+  "category": "Social e-commerce",
+  "why": "Listed in Dec 2025; zero-commission model for small sellers and value e-commerce economics."
+ },
+ {
+  "company": "Nykaa",
+  "website": "nykaa.com",
+  "domain": "nykaa.com",
+  "market": "India",
+  "category": "Beauty e-commerce",
+  "why": "Content-to-commerce and inventory model; omnichannel retail with offline stores."
+ },
+ {
+  "company": "Myntra",
+  "website": "myntra.com",
+  "domain": "myntra.com",
+  "market": "India",
+  "category": "Fashion e-commerce",
+  "why": "Personalisation, returns cost, M-Now fast delivery; fashion discovery problem."
+ },
+ {
+  "company": "Lenskart",
+  "website": "lenskart.com",
+  "domain": "lenskart.com",
+  "market": "India",
+  "category": "D2C eyewear",
+  "why": "Omnichannel D2C with tech-led try-on; 2025 IPO made it a hot interview topic."
+ },
+ {
+  "company": "Ola / Ola Electric",
+  "website": "olaelectric.com",
+  "domain": "olaelectric.com",
+  "market": "India",
+  "category": "Mobility / EV",
+  "why": "Ride-hailing to EV pivot; service quality issues are a strong 'fix this product' case."
+ },
+ {
+  "company": "Rapido",
+  "website": "rapido.bike",
+  "domain": "rapido.bike",
+  "market": "India",
+  "category": "Mobility",
+  "why": "Bike taxis and subscription (zero-commission) model for drivers; beat incumbents on price."
+ },
+ {
+  "company": "Uber India",
+  "website": "uber.com/in",
+  "domain": "uber.com",
+  "market": "India · global parent",
+  "category": "Mobility",
+  "why": "Localisation of a global product: autos, cash, Uber Moto; compare with Rapido and Ola."
+ },
+ {
+  "company": "MakeMyTrip",
+  "website": "makemytrip.com",
+  "domain": "makemytrip.com",
+  "market": "India",
+  "category": "Travel",
+  "why": "OTA with trains, buses and hotels; trust, price comparison and post-booking experience."
+ },
+ {
+  "company": "Urban Company",
+  "website": "urbancompany.com",
+  "domain": "urbancompany.com",
+  "market": "India",
+  "category": "Home services marketplace",
+  "why": "Supply-side quality control and standardising services; listed in 2025."
+ },
+ {
+  "company": "Physics Wallah",
+  "website": "pw.live",
+  "domain": "pw.live",
+  "market": "India",
+  "category": "Edtech",
+  "why": "Listed on the stock market; affordable creator-led edtech that survived the edtech crash."
+ },
+ {
+  "company": "ShareChat / Moj",
+  "website": "sharechat.com",
+  "domain": "sharechat.com",
+  "market": "India",
+  "category": "Social / short video",
+  "why": "Vernacular social for Bharat; filled the TikTok gap after the 2020 ban."
+ },
+ {
+  "company": "Dream11",
+  "website": "dream11.com",
+  "domain": "dream11.com",
+  "market": "India",
+  "category": "Fantasy sports",
+  "why": "Had to rethink its model after the 2025 online real-money gaming ban; pivot strategy case."
+ },
+ {
+  "company": "Practo",
+  "website": "practo.com",
+  "domain": "practo.com",
+  "market": "India",
+  "category": "Healthtech",
+  "why": "Doctor discovery and teleconsultation; trust and two-sided marketplace design."
+ }
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "company": "Google Meet",
+  "website": "meet.google.com",
+  "domain": "meet.google.com",
+  "market": "US · global",
+  "category": "Video calls",
+  "why": "Free inside Gmail; compare with Zoom on bundled vs. standalone video calls."
+ },
+ {
+  "company": "Microsoft Excel",
+  "website": "microsoft.com/excel",
+  "domain": "microsoft.com-excel",
+  "market": "US · global",
+  "category": "Productivity",
+  "why": "Most used business tool; Copilot in Excel."
+ },
+ {
+  "company": "Jira (Atlassian)",
+  "website": "atlassian.com",
+  "domain": "atlassian.com",
+  "market": "Australia · global",
+  "category": "Work management",
+  "why": "The PM's own tool; sales-less business growth."
+ },
+ {
+  "company": "Miro",
+  "website": "miro.com",
+  "domain": "miro.com",
+  "market": "Netherlands · global",
+  "category": "Collaboration",
+  "why": "Visual whiteboard; growth through the product itself in teams."
+ },
+ {
+  "company": "Fresha",
+  "website": "fresha.com",
+  "domain": "fresha.com",
+  "market": "UK · global",
+  "category": "Booking software",
+  "why": "Free booking software for salons, making money via payments."
+ },
+ {
+  "company": "Multiverse",
+  "website": "multiverse.io",
+  "domain": "multiverse.io",
+  "market": "UK · US",
+  "category": "Workforce online learning",
+  "why": "Apprenticeships as an alternative to university; AI skills."
+ },
+ {
+  "company": "Hims & Hers",
+  "website": "forhims.com",
+  "domain": "forhims.com",
+  "market": "US",
+  "category": "Telehealth direct-to-customer",
+  "why": "Destigmatising care with direct-to-customer branding; growth from weight-loss drugs."
+ },
+ {
+  "company": "Babylon Health",
+  "website": "babylonhealth.com",
+  "domain": "babylonhealth.com",
+  "market": "UK",
+  "category": "Health app (failed)",
+  "why": "AI health promise that collapsed; failure teardown."
+ },
+ {
+  "company": "Calm",
+  "website": "calm.com",
+  "domain": "calm.com",
+  "market": "US · global",
+  "category": "Mental wellness",
+  "why": "Subscription wellness app; content and habit design."
+ },
+ {
+  "company": "Peloton",
+  "website": "onepeloton.com",
+  "domain": "onepeloton.com",
+  "market": "US",
+  "category": "Connected fitness",
+  "why": "Boom-and-bust case; hardware plus subscription."
+ },
+ {
+  "company": "Strava",
+  "website": "strava.com",
+  "domain": "strava.com",
+  "market": "US · global",
+  "category": "Fitness social",
+  "why": "Social fitness with a subscription; community features and retention."
+ },
+ {
+  "company": "WHOOP",
+  "website": "whoop.com",
+  "domain": "whoop.com",
+  "market": "US · global",
+  "category": "Wearables",
+  "why": "Screenless, subscription-only wearable; data as the product."
+ },
+ {
+  "company": "Oura Ring",
+  "website": "ouraring.com",
+  "domain": "ouraring.com",
+  "market": "Finland · global",
+  "category": "Wearables",
+  "why": "Ring form factor with subscription; compare with WHOOP."
+ },
+ {
+  "company": "Nothing",
+  "website": "nothing.tech",
+  "domain": "nothing.tech",
+  "market": "UK · global",
+  "category": "Consumer hardware",
+  "why": "London phone brand with Glyph design; strong India sales; brand-led challenger."
+ }
+]

@@ -1,0 +1,262 @@
+{
+  "company": "Cars24",
+  "domain": "cars24.com",
+  "website": "https://cars24.com",
+  "sources": [
+    "https://inc42.com/buzz/cars24-trims-fy26-net-loss-by-19-yoy-to-₹441-cr-revenue-slides-18/",
+    "https://inc42.com/buzz/ipo-bound-cars24-claims-adjusted-ebitda-profitability-in-q4-fy26/",
+    "https://entrackr.com/fintrackr/cars24-reports-10-revenue-decline-in-fy25-losses-rise-marginally-11160853",
+    "https://www.outlookbusiness.com/news/cars24-to-lay-off-120-more-employees-shuts-non-core-units-inspare-and-fourdoor",
+    "https://www.businesstoday.in/bt-tv/drive-today/video/gst-cut-caused-short-term-pain-but-used-car-market-disruption-has-begun-cars24-cfo-511068-2026-01-15"
+  ],
+  "report": {
+    "company": "Cars24",
+    "tagline": "An app that buys, sells, finances and services used cars, so you can do the whole deal without trusting a stranger.",
+    "category": "Used-car marketplace",
+    "simpleSummary": "Selling an old car in India usually means haggling with a local dealer and worrying about paperwork. Cars24 inspects your car, gives you a price, pays you and handles the RC transfer. On the other side, buyers can pick a checked car online, get a loan, and return it within a few days if they don't like it. Cars24 makes money on the gap between buying and selling price, plus loans, fees and services around owning a car.",
+    "keyNumbers": [
+      { "label": "India revenue (FY26)", "value": "₹5,092 crore, down 18%", "note": "Cars24 India filings via Inc42. Fell because wholesale moved to a commission model, so less car value is counted as revenue." },
+      { "label": "Net revenue (FY26)", "value": "₹1,411 crore, up 27%", "note": "Company-reported adjusted figure, unaudited, via Inc42. This is what Cars24 actually keeps." },
+      { "label": "India net loss (FY26)", "value": "₹441 crore, down from ₹543 crore", "note": "Filings via Inc42. Company claims a first profitable quarter (₹20 crore adjusted EBITDA) in Q4 FY26." },
+      { "label": "Loans disbursed (FY26)", "value": "₹3,220 crore, up 47%", "note": "Company-reported via Inc42. Lending arm made ₹21 crore profit." },
+      { "label": "Monthly active users", "value": "3.8 crore", "note": "Company-reported for H2 FY26. Boosted by CarInfo and VehicleInfo apps it bought." },
+      { "label": "Funding and valuation", "value": "$1.3 billion+ raised, last valued $3.2 billion+", "note": "News reports. IPO expected within 2026 to 2027, date not fixed." }
+    ],
+    "overview": {
+      "whatItDoes": "Cars24 is a used-car company that sits between sellers and buyers and takes on the risk itself. It buys cars from people, fixes them, and sells them to retail buyers or dealers. It also gives car loans, insurance, warranties, challan payments and RC transfer help. The idea is that you trust the Cars24 brand instead of a stranger.",
+      "howItWorks": [
+        "Seller enters car details and gets a price estimate in the app.",
+        "An inspector checks the car at home or at a branch, and Cars24 makes a final offer.",
+        "If the seller agrees, Cars24 pays and handles the RC transfer paperwork.",
+        "The car is either auctioned to dealers on the Cars24 dealer app, or repaired and listed for retail buyers.",
+        "Retail buyers browse cars with inspection reports, book a test drive, take a loan from Cars24 Financial Services, and get home delivery with a return window.",
+        "After purchase, owners use CarInfo and the Cars24 app for challans, insurance renewal and service."
+      ],
+      "valueProposition": "For sellers: a fair price, same-day money and no paperwork headache. For buyers: a checked car, a loan on the spot and the option to return it, which a local dealer rarely offers."
+    },
+    "personas": [
+      {
+        "name": "First-time car buyer in a metro",
+        "description": "A 27-year-old salaried person in Pune or Bengaluru who wants a ₹4 to 7 lakh hatchback and fears getting cheated.",
+        "goals": ["A car with no hidden accident history", "A loan with small monthly payments", "No running around for paperwork"],
+        "frustrations": ["Can't judge a car's condition", "Dealers hide flood or accident damage", "Banks are slow to approve used-car loans"]
+      },
+      {
+        "name": "Upgrading seller",
+        "description": "A family selling a 6-year-old Swift to buy a new SUV.",
+        "goals": ["Quick and fair price", "Money in the bank the same day", "Safe RC transfer so challans don't come to them later"],
+        "frustrations": ["Price quoted online drops after inspection", "Fear of fraud from private buyers", "Dealers lowball"]
+      },
+      {
+        "name": "Small used-car dealer",
+        "description": "A dealer in a tier-2 city who needs steady stock to resell.",
+        "goals": ["Regular supply of cars", "Honest inspection reports", "Fast payment and delivery"],
+        "frustrations": ["Bidding wars push prices up", "Cars don't match the report", "Thin margins"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Buyers can't tell if a used car has hidden damage.", "howSolved": "A detailed inspection report with photos, plus a return window and warranty on retail cars.", "severity": "high" },
+      { "pain": "Sellers get lowballed by local dealers.", "howSolved": "Many dealers bid on the car through Cars24's auction app, which pushes the price up.", "severity": "high" },
+      { "pain": "RC transfer paperwork takes weeks and leaves sellers liable for challans.", "howSolved": "Cars24 handles the transfer and tracks it.", "severity": "medium" },
+      { "pain": "Used-car loans are hard to get from banks.", "howSolved": "Instant loan offers from its own lending arm inside the app.", "severity": "medium" },
+      { "pain": "Sellers wait days to get paid.", "howSolved": "Payment soon after the deal, often the same day.", "severity": "medium" },
+      { "pain": "Owners forget challans, insurance and service dates.", "howSolved": "CarInfo app shows challans, insurance expiry and vehicle details by number plate.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Instant price estimate and home inspection", "whatItDoes": "Gives a quote from car details and sends an inspector to check it.", "whyItMatters": "This is the top of the supply funnel. Getting good cars cheaply is where margin starts." },
+      { "feature": "Dealer auction app", "whatItDoes": "Lets thousands of dealers bid on inspected cars.", "whyItMatters": "Moves cars fast and gives sellers a better price. It is now a commission business, which is lower risk." },
+      { "feature": "Retail listings with return window", "whatItDoes": "Sells refurbished cars online with inspection reports, home test drives and returns.", "whyItMatters": "Solves the trust problem for buyers and earns a higher margin than wholesale." },
+      { "feature": "Cars24 Financial Services loans", "whatItDoes": "Approves car loans inside the purchase flow.", "whyItMatters": "Most buyers need a loan. Lending is profitable and makes each sale more valuable." },
+      { "feature": "CarInfo and ownership services", "whatItDoes": "Challan checks, RC details, insurance and service for any car owner.", "whyItMatters": "Brings 3.8 crore monthly users who are future buyers and sellers, at low cost." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Selling a car",
+        "persona": "Upgrading seller",
+        "steps": [
+          { "step": "Enter car number", "detail": "App pulls model and year from the RC and shows a price range." },
+          { "step": "Book inspection", "detail": "Picks a home slot or visits a Cars24 branch." },
+          { "step": "Inspection", "detail": "Inspector checks body, engine and documents and uploads photos." },
+          { "step": "Get final offer", "detail": "Price is set after dealers bid. This is where the quote often drops." },
+          { "step": "Accept and get paid", "detail": "Seller hands over keys and documents and receives money." },
+          { "step": "RC transfer", "detail": "Cars24 moves ownership and shares proof with the seller." }
+        ]
+      },
+      {
+        "name": "Buying a first car",
+        "persona": "First-time car buyer in a metro",
+        "steps": [
+          { "step": "Browse", "detail": "Filters by budget, model and city, and reads the inspection report." },
+          { "step": "Check loan", "detail": "Sees a pre-approved loan amount and monthly EMI." },
+          { "step": "Test drive", "detail": "Books a test drive at home or at a hub." },
+          { "step": "Book and pay", "detail": "Pays a token amount, then down payment plus loan." },
+          { "step": "Delivery", "detail": "Car arrives with papers and insurance." },
+          { "step": "Return window", "detail": "Can return the car within the set days if unhappy." },
+          { "step": "Ownership", "detail": "Uses the app for challans, service and insurance renewal." }
+        ]
+      },
+      {
+        "name": "Dealer buying stock",
+        "persona": "Small used-car dealer",
+        "steps": [
+          { "step": "Open dealer app", "detail": "Sees cars live for auction near their city." },
+          { "step": "Read report", "detail": "Checks photos and condition scores." },
+          { "step": "Bid", "detail": "Places bids in a timed auction." },
+          { "step": "Win and pay", "detail": "Pays the price plus Cars24's commission." },
+          { "step": "Pickup", "detail": "Collects the car or gets it delivered." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Cars24 makes money in four ways: the margin on cars it buys and resells, commission on dealer auctions, interest on car loans, and fees for ownership services like insurance, warranties and challans.",
+      "revenueStreams": [
+        { "stream": "Retail car sales", "detail": "Buys a car, refurbishes it, sells it at a markup. Biggest revenue line (₹4,439 crore of product sales in FY26)." },
+        { "stream": "Wholesale commission", "detail": "Since mid-FY26, earns a fee when dealers win auctions, instead of buying and reselling the car itself." },
+        { "stream": "Lending", "detail": "Cars24 Financial Services earns interest on loans. ₹299 crore turnover and ₹21 crore profit in FY26." },
+        { "stream": "Services", "detail": "Insurance, warranties, RC transfer and challan services. Services revenue more than doubled to ₹206 crore in FY26." }
+      ],
+      "pricing": "Car prices vary by car. Loans carry interest set per buyer. Service fees and commissions are not public.",
+      "costDrivers": [
+        "Buying cars (₹4,256 crore in FY26, the largest cost)",
+        "Refurbishing, storage and holding cars that don't sell fast",
+        "Staff for inspection and sales (₹806 crore including large ESOP costs)",
+        "Marketing to get sellers and buyers",
+        "Loan losses when borrowers don't repay"
+      ],
+      "unitEconomics": "Rough walk through one retail car: Cars24 buys a car for about ₹4.5 lakh and sells it for about ₹5 lakh. Out of the ₹50,000 gap, refurbishing, delivery, inspection and holding costs eat a big part, often ₹25,000 to ₹35,000. If the buyer also takes a loan and a warranty, Cars24 earns extra over the loan's life. So a car sold with a loan is worth much more than a car sold for cash. A car stuck in the yard for months loses value and can turn the deal into a loss. These are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TV and digital ads with the 'sell your car in a day' promise",
+        "CarInfo and VehicleInfo apps, which owners use to check challans and RC details",
+        "Google searches like 'sell my car' and 'used car price'",
+        "Team-BHP forum readers who research cars",
+        "Dealer network that keeps coming back for stock"
+      ],
+      "whatBringsUsersBack": [
+        "Challan and insurance reminders in CarInfo",
+        "Loan EMIs keep buyers connected for years",
+        "Selling back the same car when upgrading",
+        "Dealers bid daily for stock"
+      ],
+      "moat": "Scale on both sides. Cars24 has years of price data on lakhs of cars, a large dealer network for auctions, its own lending licence and a big owner base through CarInfo. A new player would need all of these at once to price cars well and move them fast."
+    },
+    "competitors": [
+      { "name": "Spinny", "positioning": "Full-stack used-car retailer focused on quality and a 5-day return, mostly in metros.", "howThisProductDiffers": "Cars24 does both wholesale and retail and has lending and ownership services, while Spinny focuses on premium retail experience." },
+      { "name": "CarDekho / OLX Autos style classifieds", "positioning": "Listings where buyer and seller deal directly or via dealers.", "howThisProductDiffers": "Cars24 owns the transaction and the risk, which builds trust but costs more." },
+      { "name": "Maruti True Value and brand-certified programs", "positioning": "Carmaker-backed used cars with brand trust and service network.", "howThisProductDiffers": "Cars24 sells many brands and has a faster online flow, but lacks carmaker backing." },
+      { "name": "Local dealers", "positioning": "Neighbourhood dealers with personal relationships and cash deals.", "howThisProductDiffers": "Cars24 offers inspection, loans and returns, while local dealers win on haggling and flexibility." }
+    ],
+    "northStar": {
+      "metric": "Number of cars transacted per month where the customer completed the deal without a complaint or return",
+      "why": "Each clean transaction means a seller got paid fairly and a buyer got a car they trust. It also drives lending and service revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Supply: cars bought from sellers",
+        "description": "Without good cars at the right price, nothing else works.",
+        "children": [
+          { "metric": "Inspection bookings per week", "description": "How many sellers book after seeing a quote." },
+          { "metric": "Offer acceptance rate", "description": "Share of inspected cars where sellers accept the final price." },
+          { "metric": "Gap between first quote and final offer", "description": "A smaller gap builds trust and raises acceptance." }
+        ]
+      },
+      {
+        "metric": "Retail conversion",
+        "description": "How many browsing buyers end up buying.",
+        "children": [
+          { "metric": "Test drives booked per listing", "description": "Shows real interest." },
+          { "metric": "Test drive to purchase rate", "description": "Shows if car and report match." },
+          { "metric": "Days a car stays in stock", "description": "Faster sales cut holding cost and price drops." }
+        ]
+      },
+      {
+        "metric": "Attach rate of loans and services",
+        "description": "Extra money per car beyond the price gap.",
+        "children": [
+          { "metric": "Share of buyers taking a Cars24 loan", "description": "Loans are the most profitable add-on." },
+          { "metric": "Warranty and insurance attach rate", "description": "Adds fees and lowers buyer worry." }
+        ]
+      },
+      {
+        "metric": "Trust after the sale",
+        "description": "Clean deals bring repeat and referral customers.",
+        "children": [
+          { "metric": "Return rate within the return window", "description": "High returns mean reports were wrong." },
+          { "metric": "Complaints per 100 cars", "description": "Tracks problems like delayed RC transfer or hidden damage." },
+          { "metric": "RC transfer completion within 30 days", "description": "A common complaint area." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loan default rate in Cars24 Financial Services",
+      "Return rate on retail cars",
+      "Average loss per car on aged stock",
+      "Customer complaint rate on consumer forums"
+    ],
+    "strengths": [
+      "Largest used-car platform in India with both seller and buyer sides",
+      "Own lending arm that is profitable",
+      "3.8 crore monthly users through CarInfo and ownership apps",
+      "Net revenue growing 27% while costs fall, first profitable quarter in Q4 FY26",
+      "Profitable operations in UAE and Australia"
+    ],
+    "weaknesses": [
+      "Still loss-making for the full year (₹441 crore loss in FY26)",
+      "Cars sold fell 11% in H2 FY26",
+      "Holding cars on the books is risky when prices move",
+      "Many layoffs and senior exits, including co-founders in 2026",
+      "Trust gap from complaints about price drops after inspection"
+    ],
+    "risks": [
+      "GST cuts on new cars in 2025 made new cars cheaper and hurt used-car prices",
+      "Spinny and carmaker programs fight for the same buyers",
+      "Rising loan defaults if the economy slows",
+      "IPO market mood can change the valuation"
+    ],
+    "userComplaints": [
+      "Online quote is high but the final offer after inspection is much lower",
+      "Delays in RC transfer, so sellers still get challans",
+      "Hidden faults found after buying a car",
+      "Slow refunds when cancelling a booking",
+      "Many sales calls after checking a price"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show a price range with clear reasons before inspection, like 'minus ₹15,000 if tyres are worn'", "problem": "Sellers feel cheated when the final offer drops", "expectedImpact": "Higher offer acceptance and fewer angry reviews", "metricToTrack": "Offer acceptance rate and gap between quote and final offer", "effort": "medium" },
+      { "idea": "Live RC transfer tracker with a promise date and payout if late", "problem": "Sellers keep getting challans after selling", "expectedImpact": "More trust and referrals from sellers", "metricToTrack": "RC transfers done within 30 days", "effort": "low" },
+      { "idea": "Sell-back guarantee: buyers know what Cars24 will pay for the car after 3 years", "problem": "Buyers worry the car will lose value", "expectedImpact": "Higher retail conversion and future supply", "metricToTrack": "Retail conversion and repeat sellers", "effort": "high" },
+      { "idea": "Price drops on cars aging past 45 days, shown as 'deal' badges", "problem": "Aged stock causes losses", "expectedImpact": "Fewer days in stock and lower losses", "metricToTrack": "Average days in stock", "effort": "low" },
+      { "idea": "Use CarInfo challan data to send 'your car is worth ₹X today' nudges", "problem": "Supply depends on costly ads", "expectedImpact": "Cheaper seller leads", "metricToTrack": "Seller leads from CarInfo and cost per lead", "effort": "low" }
+    ],
+    "pmLessons": [
+      "In high-price used goods, trust is the product. Inspection, returns and paperwork help are what people pay for.",
+      "Taking on stock risk builds trust but can burn cash. Cars24 moved wholesale to commission to cut that risk.",
+      "The add-ons (loans, insurance) can be more profitable than the main sale.",
+      "A free utility app like CarInfo can bring future customers at very low cost.",
+      "Revenue can fall while the business gets healthier. Look at net revenue and margins, not just top line."
+    ],
+    "interviewQuestions": [
+      { "question": "Sellers complain the final price is lower than the online quote. How would you fix this?", "hint": "Split the problem: bad estimate model, or sellers hiding faults. Propose a range with reasons, photo-based pre-check, and track acceptance rate and complaints." },
+      { "question": "What should be Cars24's north star metric?", "hint": "Pick clean completed transactions. Explain why GMV alone is wrong, then break it into supply, conversion, attach rate and trust." },
+      { "question": "Should Cars24 hold inventory or be a pure marketplace?", "hint": "Compare trust and margin against cash and risk. Note the shift of wholesale to commission and suggest a mix by car type." },
+      { "question": "How would you grow Cars24 in tier-2 cities?", "hint": "Look at supply and demand separately. Use dealer partners, CarInfo users and local hubs. Watch loan defaults." },
+      { "question": "How would you measure if CarInfo is worth the acquisition?", "hint": "Track how many CarInfo users become sellers or buyers, cost per lead versus ads, and service revenue." }
+    ],
+    "glossary": [
+      { "term": "GMV", "meaning": "Gross merchandise value: the total value of all cars and services sold on the platform." },
+      { "term": "Net revenue", "meaning": "The money Cars24 keeps after removing what it paid for the cars." },
+      { "term": "EBITDA", "meaning": "Profit before interest, tax and accounting costs like depreciation, used to see if operations make money." },
+      { "term": "Attach rate", "meaning": "The share of customers who buy an extra product, like a loan, along with the main purchase." },
+      { "term": "Wholesale", "meaning": "Selling cars to dealers instead of directly to end buyers." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "ESOP", "meaning": "Employee stock options, a way of paying staff in company shares." },
+      { "term": "IPO", "meaning": "When a company first sells its shares to the public on a stock exchange." }
+    ],
+    "assumptions": [
+      "Per-car margin and cost numbers in unit economics are rough estimates, not company data.",
+      "Return window length and warranty terms may differ by city and car.",
+      "User complaints are summarised from common patterns on review sites and forums, not a full survey.",
+      "Seller payment timing ('often same day') is the company promise and may vary."
+    ]
+  }
+}

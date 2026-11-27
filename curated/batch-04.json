@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Cult.fit",
+  "website": "cult.fit",
+  "domain": "cult.fit",
+  "market": "India",
+  "category": "Fitness",
+  "why": "Gyms, at-home and online classes in one membership; offline + digital bundling."
+ },
+ {
+  "company": "Spinny",
+  "website": "spinny.com",
+  "domain": "spinny.com",
+  "market": "India",
+  "category": "Used-car retail",
+  "why": "Full-stack inventory model; compare with Cars24 on trust in used cars."
+ },
+ {
+  "company": "OYO",
+  "website": "oyorooms.com",
+  "domain": "oyorooms.com",
+  "market": "India · global",
+  "category": "Hospitality",
+  "why": "Asset-light hotels, pivots and IPO attempts; a full product lifecycle case."
+ },
+ {
+  "company": "ixigo",
+  "website": "ixigo.com",
+  "domain": "ixigo.com",
+  "market": "India",
+  "category": "Travel",
+  "why": "Train-first travel app for Bharat; listed and profitable. AI trip planning."
+ },
+ {
+  "company": "redBus",
+  "website": "redbus.in",
+  "domain": "redbus.in",
+  "market": "India",
+  "category": "Bus ticketing",
+  "why": "Fragmented-supply aggregator; classic first-mile marketplace."
+ },
+ {
+  "company": "BookMyShow",
+  "website": "bookmyshow.com",
+  "domain": "bookmyshow.com",
+  "market": "India",
+  "category": "Entertainment ticketing",
+  "why": "Live-events boom (concerts) and handling ticket-drop traffic spikes."
+ },
+ {
+  "company": "Pocket FM",
+  "website": "pocketfm.com",
+  "domain": "pocketfm.com",
+  "market": "India · US",
+  "category": "Audio series",
+  "why": "Micro-payment audio dramas; grew fast in the US too. New content format case."
+ },
+ {
+  "company": "Kuku FM",
+  "website": "kukufm.com",
+  "domain": "kukufm.com",
+  "market": "India",
+  "category": "Audio / video",
+  "why": "Vernacular audiobooks and micro-dramas; filed for IPO."
+ },
+ {
+  "company": "Namma Yatri",
+  "website": "nammayatri.in",
+  "domain": "nammayatri.in",
+  "market": "India",
+  "category": "Mobility (open network)",
+  "why": "Zero-commission auto app built on ONDC-style open rails."
+ },
+ {
+  "company": "Licious",
+  "website": "licious.in",
+  "domain": "licious.in",
+  "market": "India",
+  "category": "D2C meat",
+  "why": "Solving trust and freshness through a cold supply chain."
+ },
+ {
+  "company": "Country Delight",
+  "website": "countrydelight.in",
+  "domain": "countrydelight.in",
+  "market": "India",
+  "category": "Subscription dairy",
+  "why": "Daily subscription habit; retention via morning delivery."
+ },
+ {
+  "company": "Dunzo",
+  "website": "dunzo.com",
+  "domain": "dunzo.com",
+  "market": "India",
+  "category": "Quick commerce (failed)",
+  "why": "Early leader that collapsed; a must-know failure teardown."
+ },
+ {
+  "company": "BYJU'S",
+  "website": "byjus.com",
+  "domain": "byjus.com",
+  "market": "India",
+  "category": "Edtech (failed)",
+  "why": "From India's top startup to insolvency; growth-at-all-costs lessons."
+ }
+]

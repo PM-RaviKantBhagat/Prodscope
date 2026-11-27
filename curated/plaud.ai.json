@@ -1,0 +1,268 @@
+{
+  "company": "Plaud",
+  "domain": "plaud.ai",
+  "website": "https://www.plaud.ai",
+  "sources": [
+    "https://kr-asia.com/plaud-reaches-usd-100-million-arr-in-two-years-as-ai-hardware-gains-traction",
+    "https://sacra.com/c/plaud",
+    "https://itbrief.com.au/story/plaud-says-arr-jumps-to-usd-100-million-in-two-years",
+    "https://www.notebookcheck.net/Review-of-the-Plaud-Note-Pro-AI-recorder.1254695.0.html",
+    "https://tomsguide.com/ai/plaud-notepin-review",
+    "https://www.bestbuy.com/product/plaud-note-pro-smart-ai-voice-audio-recorder-black/JJGH8KP8TF/sku/6665434/reviews"
+  ],
+  "report": {
+    "company": "Plaud",
+    "tagline": "A credit-card-sized AI voice recorder that turns your meetings, calls and lectures into transcripts and summaries.",
+    "category": "AI hardware",
+    "simpleSummary": "Plaud sells a small recorder, about as thin as a few credit cards, that sticks to the back of your phone or clips on your shirt. You press one button and it records a meeting, a phone call or a doctor visit. The Plaud app then writes out every word and gives you a short summary and to-do list. You get some free minutes each month, and you pay a yearly fee if you need more.",
+    "keyNumbers": [
+      { "label": "Software ARR", "value": "About $100 million", "note": "Company announcement, June 2026. Up from about $1 million two years earlier. ARR means yearly recurring subscription revenue." },
+      { "label": "Users", "value": "Over 2 million", "note": "Company announcement, June 2026. Plaud says it has shipped over 2 million devices." },
+      { "label": "Total revenue 2025", "value": "About $250 million", "note": "Estimate by research firm Sacra, includes hardware. Up about 83% from 2024. Not audited." },
+      { "label": "Countries", "value": "170+", "note": "Company announcement, June 2026." },
+      { "label": "Outside funding", "value": "About $5 million", "note": "Sacra. A small convertible note in April 2025. Plaud says it is mostly self-funded from sales." },
+      { "label": "Pro plan price", "value": "$99.99 a year", "note": "Plaud pricing page as reported by Sacra. Unlimited plan is $239.99 a year." }
+    ],
+    "overview": {
+      "whatItDoes": "Plaud makes AI voice recorders: Plaud Note and Note Pro (card shaped, sits on the back of a phone) and NotePin (a small wearable pin). The device records audio, and the Plaud app sends it to AI models that transcribe it, label who spoke, and write summaries. Plaud earns money twice: once when you buy the device and again every year if you subscribe for more minutes and features.",
+      "howItWorks": [
+        "You buy a device for roughly $159 to $179 on Amazon, Best Buy, Costco or plaud.ai.",
+        "You press one button to start recording. For phone calls, Note uses a vibration sensor to capture both sides of the call through the phone body.",
+        "Audio syncs to the Plaud app over Bluetooth or Wi-Fi.",
+        "The app transcribes the recording in over 100 languages and labels speakers.",
+        "You pick a summary template (meeting notes, sales call, doctor visit, lecture) and get a summary, mind map and action items.",
+        "Ask Plaud lets you ask questions across all your past recordings, like 'What did the client say about pricing last week?'"
+      ],
+      "valueProposition": "You stop taking notes and start listening. Unlike a phone app or a Zoom bot, Plaud works in person and on calls, with one button and no setup."
+    },
+    "personas": [
+      {
+        "name": "Field salesperson or consultant",
+        "description": "Has 4 to 8 client meetings a day, many in person, and must log notes in a CRM.",
+        "goals": ["Never miss what a client promised", "Spend less time writing meeting notes", "Share a clean summary with the team fast"],
+        "frustrations": ["Zoom bots do not work in coffee shop meetings", "Typing notes during a meeting looks rude", "Free minutes run out mid-month"]
+      },
+      {
+        "name": "Doctor, lawyer or therapist",
+        "description": "Professional whose day is long conversations that must be written up.",
+        "goals": ["Cut paperwork time", "Accurate records of what was said"],
+        "frustrations": ["Worry about where sensitive audio is stored", "Medical and legal terms get transcribed wrong"]
+      },
+      {
+        "name": "University student",
+        "description": "Records lectures and study groups.",
+        "goals": ["Searchable notes for exams", "Summaries of long lectures"],
+        "frustrations": ["Device plus subscription is a lot of money for a student", "Lecture halls have poor audio"]
+      },
+      {
+        "name": "Busy professional with ADHD or memory needs",
+        "description": "Uses it as a memory aid for calls, ideas and to-dos.",
+        "goals": ["Capture thoughts quickly", "Get a to-do list without effort"],
+        "frustrations": ["Forgetting to press record", "App sync can be slow"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Taking notes in a meeting means you stop listening.", "howSolved": "One-button recording plus automatic transcript and summary.", "severity": "high" },
+      { "pain": "Meeting bots only work on Zoom, Teams or Meet, not in person.", "howSolved": "A physical device that records any room or phone call.", "severity": "high" },
+      { "pain": "Recording phone calls on an iPhone is hard.", "howSolved": "Note's vibration sensor picks up call audio through the phone.", "severity": "medium" },
+      { "pain": "Writing up a long conversation takes an hour.", "howSolved": "Templates for each job turn audio into a ready-to-share summary in minutes.", "severity": "high" },
+      { "pain": "Finding what someone said weeks ago.", "howSolved": "Ask Plaud searches and answers across all recordings.", "severity": "medium" },
+      { "pain": "Phone recording apps drain battery and get interrupted by calls.", "howSolved": "Separate device with its own battery and storage.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Plaud Note and Note Pro", "whatItDoes": "Thin card recorder that attaches to a phone with a magnet. Note Pro adds a small screen and longer range.", "whyItMatters": "The hardware is the front door. It gets Plaud into people's hands through retail, where software apps cannot be sold." },
+      { "feature": "NotePin", "whatItDoes": "A wearable pin you clip on a shirt or wear on the wrist.", "whyItMatters": "Captures conversations on the move, which widens daily use beyond desk meetings." },
+      { "feature": "AI transcription and speaker labels", "whatItDoes": "Turns audio into text in over 100 languages and marks who said what.", "whyItMatters": "The basic job users pay for. Accuracy decides whether they trust it." },
+      { "feature": "Summary templates", "whatItDoes": "Ready formats for sales calls, medical visits, lectures and more.", "whyItMatters": "Makes the output useful for a specific job, which is what justifies paying for Pro." },
+      { "feature": "Ask Plaud", "whatItDoes": "Chat with your recordings to find facts or draft follow-ups.", "whyItMatters": "The more you record, the more useful it becomes, which raises switching costs." },
+      { "feature": "Subscription minute plans", "whatItDoes": "Free Starter plan with 300 minutes a month, Pro at $99.99 a year, Unlimited at $239.99 a year.", "whyItMatters": "This is the recurring revenue that turns a one-time gadget sale into a lasting business." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First purchase and setup",
+        "persona": "Field salesperson or consultant",
+        "steps": [
+          { "step": "Sees it", "detail": "Notices a YouTube review or an Amazon listing for 'AI note taker'." },
+          { "step": "Buys device", "detail": "Pays about $159 to $179 on Amazon or at Costco." },
+          { "step": "Pairs app", "detail": "Downloads the Plaud app and connects over Bluetooth." },
+          { "step": "First recording", "detail": "Records a client meeting with one button press." },
+          { "step": "Aha moment", "detail": "Gets a clean summary and action list minutes after the meeting." },
+          { "step": "Shares it", "detail": "Sends the summary to a colleague or pastes it into the CRM." }
+        ]
+      },
+      {
+        "name": "Upgrade to paid plan",
+        "persona": "Doctor, lawyer or therapist",
+        "steps": [
+          { "step": "Daily use", "detail": "Records several patient or client sessions every day." },
+          { "step": "Hits limit", "detail": "Uses up the 300 free monthly minutes in the first week." },
+          { "step": "Sees prompt", "detail": "App shows the Pro and Unlimited plans." },
+          { "step": "Compares", "detail": "Works out that $239.99 a year is less than an hour of their time a month." },
+          { "step": "Subscribes", "detail": "Pays for Unlimited and switches on the medical template." },
+          { "step": "Habit", "detail": "Recording becomes part of every appointment." }
+        ]
+      },
+      {
+        "name": "Finding an old detail",
+        "persona": "University student",
+        "steps": [
+          { "step": "Need", "detail": "Exam is next week and they forget a point from a lecture a month ago." },
+          { "step": "Opens app", "detail": "Goes to Ask Plaud." },
+          { "step": "Asks", "detail": "Types 'What did the professor say about supply curves?'" },
+          { "step": "Gets answer", "detail": "Plaud answers and links to the exact lecture and time." },
+          { "step": "Reviews", "detail": "Listens to the clip and exports notes." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Plaud makes money from two things: selling the recorder, and yearly subscriptions for more AI minutes and features. The device is profitable on its own and also brings in subscribers.",
+      "revenueStreams": [
+        { "stream": "Hardware sales", "detail": "Note, Note Pro and NotePin sold for roughly $159 to $179 through its site, Amazon, Best Buy and Costco. Most of the estimated $250 million 2025 revenue." },
+        { "stream": "Software subscriptions", "detail": "Pro at $99.99 a year and Unlimited at $239.99 a year. Passed $100 million ARR in June 2026." },
+        { "stream": "Add-on minute packs", "detail": "Extra transcription minutes, for example 3,000 minutes for $59.99." },
+        { "stream": "Accessories and bundles", "detail": "Cases, wrist straps, clips and retail bundles that include months of Pro." }
+      ],
+      "pricing": "Device about $159 to $179. Starter plan free with 300 minutes a month. Pro $99.99 a year. Unlimited $239.99 a year.",
+      "costDrivers": [
+        "AI model costs for transcription and summaries, which grow with every minute recorded",
+        "Making the device (parts, factory, packaging) and shipping",
+        "Retail margins paid to Amazon, Best Buy and Costco",
+        "Marketing through influencers, YouTube reviewers and ads",
+        "Customer support and device returns"
+      ],
+      "unitEconomics": "Rough estimate for one customer: Plaud sells a $159 device. After making it, shipping it and paying the retailer, it may keep about $50 to $70. If that buyer then pays $99.99 a year for Pro, and records about 1,200 minutes a month, AI costs might be $2 to $5 a month, so Plaud keeps roughly $40 to $75 a year from the plan. Unlimited users who record all day cost much more to serve, so their margin is thinner. The key is that the device sale already pays back the cost of getting the customer, so every subscription year is mostly extra profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Amazon listings and search ads for 'AI voice recorder'",
+        "YouTube and TikTok reviews by tech and productivity creators",
+        "Retail shelves at Best Buy and Costco",
+        "Affiliate and reseller programs",
+        "Word of mouth when a colleague sees the summary shared after a meeting"
+      ],
+      "whatBringsUsersBack": [
+        "Every meeting is a new reason to press the button",
+        "Recordings pile up into a searchable memory, which Ask Plaud makes useful",
+        "Job-specific templates make the output part of daily work",
+        "Paid plan renews yearly, so the habit is locked in"
+      ],
+      "moat": "Plaud's lead is in distribution and habit. It has 2 million devices in pockets and shelf space at big retailers. Phone makers and meeting apps can copy the software, but a dedicated device that works in person and on calls, with years of a user's recordings inside it, is harder to replace. The moat is not deep: AI models are available to anyone, so Plaud must keep winning on hardware design and workflow features."
+    },
+    "competitors": [
+      { "name": "Otter.ai", "positioning": "Software meeting notes app and bot for Zoom, Teams and Meet.", "howThisProductDiffers": "Plaud works in person and on phone calls through a device, while Otter mostly lives inside online meetings." },
+      { "name": "Granola and Fireflies", "positioning": "AI notetakers that sit on your laptop or join video calls.", "howThisProductDiffers": "Plaud does not need a laptop or a video call; it targets people who meet face to face." },
+      { "name": "Apple Intelligence and Google Recorder", "positioning": "Free call recording and summaries built into phones.", "howThisProductDiffers": "Plaud is a separate device with better microphones and templates, but free built-in tools are its biggest long-term threat." },
+      { "name": "Bee (Amazon) and Notta Memo", "positioning": "Cheaper wearables and recorders with AI summaries.", "howThisProductDiffers": "Plaud is more expensive but has more users, more retail reach and a more mature app." }
+    ],
+    "northStar": {
+      "metric": "Weekly minutes of conversation turned into summaries that users open or share",
+      "why": "Plaud only delivers value when a recording becomes a summary someone reads or uses. Counting opened or shared summaries, not just raw minutes, shows the product is saving people real work."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active devices",
+        "description": "How many devices record at least once a week.",
+        "children": [
+          { "metric": "New devices activated", "description": "Devices sold and paired with the app, driven by retail and marketing." },
+          { "metric": "Week-4 device retention", "description": "Share of new devices still used a month later." },
+          { "metric": "Setup completion rate", "description": "Share of buyers who pair the device and make a first recording." }
+        ]
+      },
+      {
+        "metric": "Recordings per active user",
+        "description": "How often each user captures a conversation.",
+        "children": [
+          { "metric": "Recordings per week", "description": "Grows when the device fits more moments, like calls and in-person meetings." },
+          { "metric": "Failed or empty recordings", "description": "Recordings lost to sync errors or forgotten button presses." }
+        ]
+      },
+      {
+        "metric": "Summary usefulness",
+        "description": "Whether the output is good enough to act on.",
+        "children": [
+          { "metric": "Summary open rate", "description": "Share of recordings whose summary is opened." },
+          { "metric": "Share or export rate", "description": "Summaries sent to others or to tools like Notion or a CRM." },
+          { "metric": "Transcript correction rate", "description": "How often users fix words, a sign of accuracy problems." }
+        ]
+      },
+      {
+        "metric": "Paid conversion",
+        "description": "Users who move from free to Pro or Unlimited.",
+        "children": [
+          { "metric": "Free-limit hit rate", "description": "Share of free users who reach 300 minutes." },
+          { "metric": "Upgrade rate after limit", "description": "Share who pay after hitting the limit." },
+          { "metric": "Annual renewal rate", "description": "Share of paying users who renew after a year." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "AI cost per transcribed minute",
+      "Device return rate",
+      "Privacy or data complaints and incidents",
+      "App store rating"
+    ],
+    "strengths": [
+      "Rare hardware company with real recurring software revenue, over $100 million ARR",
+      "Grew mostly on its own sales, with very little outside funding",
+      "Strong retail and Amazon presence in many countries",
+      "Simple product: one button, clear outcome",
+      "Works for in-person meetings and phone calls, where software bots cannot go"
+    ],
+    "weaknesses": [
+      "Core AI is bought from model providers, so the software is easy to copy",
+      "Users pay twice (device and plan), which feels unfair to some",
+      "Depends on the phone app and cloud sync, which can fail",
+      "Light user data on long-term retention after the first year"
+    ],
+    "risks": [
+      "Apple, Google and Samsung building free recording and summaries into phones",
+      "Cheaper Chinese rivals and big players like ByteDance's Lark and Amazon's Bee",
+      "Recording consent laws vary by country and US state; misuse can create legal trouble",
+      "Data privacy concerns about where audio is stored and processed, especially for a company with roots in China",
+      "AI model price changes squeezing subscription margins"
+    ],
+    "userComplaints": [
+      "Free 300 minutes run out fast, and the subscription feels like a paywall after paying for hardware",
+      "Speaker labels mix people up in group meetings",
+      "Sync between device and app is sometimes slow or fails",
+      "Worries about privacy and cloud storage of sensitive conversations",
+      "Customer support is slow for returns and refunds"
+    ],
+    "improvementIdeas": [
+      { "idea": "Offer a cheaper monthly plan and a one-time 'lifetime minutes' pack bundled at checkout", "problem": "Users feel they pay twice and get stuck at the free limit", "expectedImpact": "More free users convert, and fewer feel tricked", "metricToTrack": "Upgrade rate after hitting the free limit", "effort": "low" },
+      { "idea": "On-device or local-only processing mode for sensitive recordings", "problem": "Doctors, lawyers and privacy-minded users fear cloud storage", "expectedImpact": "Opens regulated customers who pay for Unlimited", "metricToTrack": "Paid users in healthcare and legal segments", "effort": "high" },
+      { "idea": "Voice enrolment so the app learns each regular speaker's voice", "problem": "Speaker labels mix people up", "expectedImpact": "More trusted transcripts and fewer manual fixes", "metricToTrack": "Transcript correction rate", "effort": "medium" },
+      { "idea": "Direct push of summaries into Salesforce, HubSpot and EHR systems", "problem": "Users copy-paste summaries into the tools they actually work in", "expectedImpact": "Plaud becomes part of the work tool, raising retention", "metricToTrack": "Share or export rate per active user", "effort": "medium" },
+      { "idea": "Sync health check with clear alerts and auto retry", "problem": "Recordings fail to sync and users lose trust", "expectedImpact": "Fewer lost recordings and support tickets", "metricToTrack": "Failed or empty recordings per 1,000", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Hardware can be a customer acquisition channel for software. The device sale pays for the marketing, so the subscription is mostly profit.",
+      "Pick the moment where software alone fails. Plaud won in-person meetings and phone calls, which Zoom bots cannot reach.",
+      "A narrow, one-button product is easier to explain in a 30-second review, which helps retail and creator marketing.",
+      "When your core tech is bought from someone else, your edge must come from distribution, workflow and habit."
+    ],
+    "interviewQuestions": [
+      { "question": "Plaud's free plan gives 300 minutes a month. How would you decide whether to raise or lower that limit?", "hint": "Explain the trade-off between activation and paid conversion. Look at the free-limit hit rate, upgrade rate after limit, retention and AI cost per minute. Propose an A/B test by region." },
+      { "question": "Apple adds free call recording and summaries to every iPhone. What should Plaud do?", "hint": "Separate where Apple wins (phone calls) from where Plaud wins (in-person rooms, better mics, job templates). Double down on professional workflows and integrations. Track churn among iPhone users." },
+      { "question": "What should Plaud's north star metric be?", "hint": "Pick something showing value delivered, like summaries opened or shared per week. Break it into active devices, recordings per user, summary usefulness and paid conversion." },
+      { "question": "Design a version of Plaud for doctors.", "hint": "Persona, pain (paperwork, accuracy, privacy), features (medical template, EHR export, local processing, consent prompts), pricing and success metric (minutes of paperwork saved)." },
+      { "question": "Should Plaud make the device free and charge only a subscription?", "hint": "Compare upfront cash, return risk, churn, and how a free device changes who buys. Consider a bundle test at Costco. Watch payback period and renewal rate." }
+    ],
+    "glossary": [
+      { "term": "ARR", "meaning": "Annual recurring revenue: the subscription money a company would earn in a year if nothing changed." },
+      { "term": "north star metric", "meaning": "The one number that best shows a product is delivering value to its users." },
+      { "term": "customer acquisition channel", "meaning": "A way a company gets new customers, like ads, retail or word of mouth." },
+      { "term": "retention", "meaning": "The share of users who keep using a product after a period of time." },
+      { "term": "paid conversion", "meaning": "The share of free users who start paying." },
+      { "term": "switching costs", "meaning": "The effort or loss a user faces when moving to a rival product." },
+      { "term": "churn", "meaning": "The share of customers who stop using or paying in a period." },
+      { "term": "payback period", "meaning": "How long it takes to earn back what it cost to win a customer." }
+    ],
+    "assumptions": [
+      "Device margin of $50 to $70 and AI cost per minute are rough estimates, not company figures",
+      "2025 total revenue of $250 million is a third-party estimate by Sacra",
+      "Device prices of $159 to $179 reflect common US list prices and change often with sales",
+      "Persona mix is inferred from reviews and marketing, not from company user data"
+    ]
+  }
+}

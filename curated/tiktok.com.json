@@ -1,0 +1,538 @@
+{
+  "company": "TikTok",
+  "domain": "tiktok.com",
+  "website": "https://tiktok.com",
+  "sources": [
+    "https://techcrunch.com/2025/12/30/heres-whats-you-should-know-about-the-us-tiktok-deal",
+    "https://www.rnz.co.nz/news/world/584839/tiktok-seals-deal-for-new-us-joint-venture-to-avoid-american-ban",
+    "https://technode.com/2026/04/20/bytedance-2025-profit-drops-over-70-amid-surging-ai-investment",
+    "https://www.scmp.com/tech/article/3350720/bytedance-profit-plunges-ai-push-tiktok-shop-powers-overseas-growth-reports",
+    "https://www.emarketer.com/content/tiktok-drives-bytedance-within--1-billion-of-meta-2025",
+    "https://fortune.com/2025/12/19/tiktok-agrees-u-s-joint-venture-deal-with-oracle-silver-lake-and-mgx/"
+  ],
+  "report": {
+    "company": "TikTok",
+    "tagline": "A short video app that shows you an endless feed picked by what you watch, not who you follow.",
+    "category": "Short video",
+    "simpleSummary": "TikTok is an app full of short videos, usually 15 seconds to a few minutes long. You open it and a video starts playing right away. You swipe up for the next one. It learns what you like from how long you watch each video, so in a few minutes the feed feels made for you. It makes money from ads and from TikTok Shop, where you can buy things you see in videos.",
+    "keyNumbers": [
+      {
+        "label": "Monthly users worldwide",
+        "value": "About 1.6 billion+",
+        "note": "Estimate from third-party trackers, 2025. TikTok does not publish an exact global figure. Excludes Douyin, the separate China app."
+      },
+      {
+        "label": "ByteDance revenue (parent company)",
+        "value": "About $186 billion in 2025",
+        "note": "eMarketer projection, up about 20% year on year, almost equal to Meta. Includes Douyin in China."
+      },
+      {
+        "label": "ByteDance overseas revenue growth",
+        "value": "Nearly +50% in 2025",
+        "note": "Chinese media reports via SCMP and TechNode, April 2026. Overseas is now over 30% of total revenue."
+      },
+      {
+        "label": "TikTok Shop sales growth (GMV)",
+        "value": "Nearly +70% in 2025",
+        "note": "Same April 2026 reports. Dollar value not confirmed."
+      },
+      {
+        "label": "US users",
+        "value": "About 170 million",
+        "note": "TikTok's own claim from 2024. Now run by a new US joint venture."
+      },
+      {
+        "label": "TikTok US joint venture value",
+        "value": "About $14 billion",
+        "note": "Axios estimate cited by TechCrunch. Oracle, Silver Lake and MGX own 45%, ByteDance just under 20%. Deal closed January 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "TikTok shows a full-screen feed of short videos called the For You page. Anyone can film, edit and post a video with music and effects inside the app. A strong recommendation system decides who sees each video. TikTok has been banned in India since June 2020, so Indian users moved to Instagram Reels, YouTube Shorts, Moj and Josh.",
+      "howItWorks": [
+        "The app opens straight into a video. No need to follow anyone first.",
+        "It watches signals like watch time, replays, likes, shares and skips to guess what you like.",
+        "Every new video is shown to a small group first. If they watch it fully, it is shown to a bigger group. So an unknown creator can go viral.",
+        "Creators use built-in tools: music library, filters, duets, stitches and the CapCut editor.",
+        "Brands pay for ads in the feed, and sellers list products in TikTok Shop that creators sell through videos and live streams."
+      ],
+      "valueProposition": "Instant entertainment that feels personal, with no work to set up. For creators, a real chance to go viral without existing followers."
+    },
+    "personas": [
+      {
+        "name": "Bored scroller",
+        "description": "A 19-year-old in Texas who opens TikTok many times a day for fun, memes and trends.",
+        "goals": [
+          "Be entertained quickly",
+          "Keep up with trends and jokes friends talk about",
+          "Find new music"
+        ],
+        "frustrations": [
+          "Loses hours without meaning to",
+          "Feed sometimes gets stuck on one topic"
+        ]
+      },
+      {
+        "name": "Aspiring creator",
+        "description": "A 24-year-old cook in Jakarta posting recipe videos hoping to build a following.",
+        "goals": [
+          "Go viral and grow followers",
+          "Earn money from brand deals, Creator Rewards and Shop commissions"
+        ],
+        "frustrations": [
+          "Views drop suddenly without reason",
+          "Payout per view is low"
+        ]
+      },
+      {
+        "name": "Small online seller",
+        "description": "A skincare brand owner in the UK selling through TikTok Shop with creator affiliates.",
+        "goals": [
+          "Sell more with short videos and live streams",
+          "Find creators to promote products for a commission"
+        ],
+        "frustrations": [
+          "High fees and discounts eat margin",
+          "Slow payouts and strict policy checks"
+        ]
+      },
+      {
+        "name": "Learner",
+        "description": "A 30-year-old who uses TikTok to search for tips on finance, travel and recipes instead of Google.",
+        "goals": [
+          "Get quick, visual answers",
+          "Save useful videos for later"
+        ],
+        "frustrations": [
+          "Hard to tell if advice is reliable",
+          "Search results mix in unrelated content"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Finding fun content takes effort on apps where you must follow people first.",
+        "howSolved": "The For You feed works from the first second, using an interest graph instead of a friend list.",
+        "severity": "high"
+      },
+      {
+        "pain": "New creators get no reach on follower-based apps.",
+        "howSolved": "Every video gets a test audience, so quality can win over follower count.",
+        "severity": "high"
+      },
+      {
+        "pain": "Making a good video needs editing skills.",
+        "howSolved": "Built-in music, effects and templates, plus CapCut, make editing easy.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Brands find it hard to reach young people who skip TV and banner ads.",
+        "howSolved": "Native-looking ads and creator partnerships inside the feed.",
+        "severity": "high"
+      },
+      {
+        "pain": "Shopping online feels boring and hard to trust.",
+        "howSolved": "TikTok Shop lets people buy from a video or live stream where they see the product in use.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "For You page",
+        "whatItDoes": "An endless, personal feed of videos chosen by the recommendation system.",
+        "whyItMatters": "It is the product. It keeps people watching and creates ad slots."
+      },
+      {
+        "feature": "Creation tools",
+        "whatItDoes": "Camera, sounds library, filters, duets, stitches and templates.",
+        "whyItMatters": "Makes posting easy, so there is always fresh content to feed the algorithm."
+      },
+      {
+        "feature": "Sounds and trends",
+        "whatItDoes": "Any audio can be reused by others, which starts trends and challenges.",
+        "whyItMatters": "Trends spread fast and pull users in, and TikTok became a top place to discover music."
+      },
+      {
+        "feature": "TikTok Shop",
+        "whatItDoes": "Shoppable videos, live shopping and an in-app store with affiliate commissions for creators.",
+        "whyItMatters": "The fastest-growing revenue source, turning watching into buying."
+      },
+      {
+        "feature": "TikTok LIVE and gifts",
+        "whatItDoes": "Live streams where viewers buy coins and send virtual gifts to creators.",
+        "whyItMatters": "Direct money from fans, with TikTok keeping a large share."
+      },
+      {
+        "feature": "Search",
+        "whatItDoes": "Search videos by topic, used by many young people like a search engine.",
+        "whyItMatters": "Opens a new ad format and competes with Google for young users."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First open",
+        "persona": "Bored scroller",
+        "steps": [
+          {
+            "step": "Install and open",
+            "detail": "Video plays at once, even before signing up."
+          },
+          {
+            "step": "Pick interests (optional)",
+            "detail": "Taps a few topics like comedy or pets."
+          },
+          {
+            "step": "Swipe and learn",
+            "detail": "Watches some videos fully, skips others. The app learns fast."
+          },
+          {
+            "step": "Feed feels personal",
+            "detail": "Within 20 to 30 minutes, the feed shows mostly what they like."
+          },
+          {
+            "step": "Sign up to save",
+            "detail": "Creates an account to like, follow and comment."
+          },
+          {
+            "step": "Daily habit",
+            "detail": "Returns several times a day, averaging close to 1 hour a day."
+          }
+        ]
+      },
+      {
+        "name": "Creator's first viral video",
+        "persona": "Aspiring creator",
+        "steps": [
+          {
+            "step": "Films a recipe",
+            "detail": "Shoots 30 seconds on the phone camera."
+          },
+          {
+            "step": "Adds a trending sound",
+            "detail": "Picks audio from the trending list."
+          },
+          {
+            "step": "Posts",
+            "detail": "Video shown to a few hundred people first."
+          },
+          {
+            "step": "Test passes",
+            "detail": "Watch-through rate is high, so TikTok pushes it to thousands, then millions."
+          },
+          {
+            "step": "Followers grow",
+            "detail": "Gains 20,000 followers in a week."
+          },
+          {
+            "step": "Earns money",
+            "detail": "Joins Creator Rewards and gets brand and Shop affiliate offers."
+          }
+        ]
+      },
+      {
+        "name": "Buying from a video",
+        "persona": "Small online seller",
+        "steps": [
+          {
+            "step": "Lists product in TikTok Shop",
+            "detail": "Uploads a serum with price and stock."
+          },
+          {
+            "step": "Signs up creators",
+            "detail": "Offers 15% to 20% commission to affiliates."
+          },
+          {
+            "step": "Creator posts video",
+            "detail": "Video shows before-and-after results with an orange cart link."
+          },
+          {
+            "step": "Viewer taps cart",
+            "detail": "Buys in-app without leaving TikTok."
+          },
+          {
+            "step": "Order delivered",
+            "detail": "Seller ships or uses Fulfilled by TikTok."
+          },
+          {
+            "step": "Repeat",
+            "detail": "Seller runs live streams with discounts to drive more sales."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "TikTok makes most of its money from ads shown between videos. It also earns a commission on TikTok Shop sales and a cut of virtual gifts on LIVE.",
+      "revenueStreams": [
+        {
+          "stream": "Advertising",
+          "detail": "In-feed ads, TopView ads that play when the app opens, branded hashtag challenges and search ads."
+        },
+        {
+          "stream": "TikTok Shop commission",
+          "detail": "TikTok takes a referral fee on each sale, often around 6% to 8% in the US (estimate), plus fees for fulfilment and promotions."
+        },
+        {
+          "stream": "LIVE gifts and coins",
+          "detail": "Users buy coins and send gifts to creators. TikTok keeps a large share, reported at around half."
+        },
+        {
+          "stream": "Subscriptions and tools",
+          "detail": "Creator subscriptions and paid business tools bring in smaller amounts."
+        }
+      ],
+      "pricing": "Free for users. Ads bought through TikTok Ads Manager, often with a minimum daily budget of about $50 per campaign. Shop fees vary by country.",
+      "costDrivers": [
+        "Video storage and streaming bandwidth for billions of daily views",
+        "Content moderation teams and AI to remove harmful videos",
+        "Creator payouts through Creator Rewards and LIVE gifts",
+        "Discounts and free shipping subsidies to grow TikTok Shop",
+        "Compliance costs like Project Texas, Project Clover in Europe and the US joint venture"
+      ],
+      "unitEconomics": "A US user watching about 55 minutes a day sees dozens of ads. If TikTok earns roughly $40 to $60 a year from that user in ads (estimate), and spends a few dollars a year on streaming and moderation, the user is very profitable. Users in poorer markets bring in a dollar or two a year, so they help mostly with content and scale. In Shop, on a $30 order, TikTok might keep $2 to $3 in fees but often spends some of that on discounts to grow."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Videos shared to WhatsApp, Instagram and other apps with the TikTok watermark",
+        "Heavy paid marketing in its early years",
+        "Trends and sounds that spill into culture, news and music charts",
+        "No sign-up needed to start watching"
+      ],
+      "whatBringsUsersBack": [
+        "Variable reward: the next video might be great, so people keep swiping",
+        "Notifications about new videos from creators they follow",
+        "Creators returning to check views and comments",
+        "LIVE streams and Shop deals"
+      ],
+      "moat": "The recommendation system is trained on billions of daily watch signals. The more people watch, the better it gets at guessing what each person wants. Creators also go where viewers are, which makes it hard for a new app to catch up."
+    },
+    "competitors": [
+      {
+        "name": "Instagram Reels",
+        "positioning": "Short video inside Instagram, built on your follow graph. The biggest short video app in India since TikTok's ban.",
+        "howThisProductDiffers": "TikTok is fully interest-led and was built for video first. Reels mixes in friends and Instagram's huge existing user base."
+      },
+      {
+        "name": "YouTube Shorts",
+        "positioning": "Short videos inside YouTube, linking to long videos.",
+        "howThisProductDiffers": "YouTube has better revenue sharing and long-form content. TikTok's feed is stronger at fast discovery."
+      },
+      {
+        "name": "Moj and Josh (India)",
+        "positioning": "Indian short video apps that grew after TikTok was banned in 2020, focused on regional languages.",
+        "howThisProductDiffers": "They copied the TikTok format but struggled to make money and keep users once Reels and Shorts arrived."
+      },
+      {
+        "name": "Douyin",
+        "positioning": "ByteDance's sister app in China, with deep shopping and local services.",
+        "howThisProductDiffers": "Douyin shows where TikTok wants to go: a shopping and payments app as much as an entertainment app."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily time spent watching videos users enjoy (watch time from fully watched or liked videos)",
+      "why": "TikTok's value is entertainment that fits you. Time spent on videos people finish or like shows real enjoyment, not just mindless scrolling. More good watch time also means more ad slots and Shop sales."
+    },
+    "kpiTree": [
+      {
+        "metric": "Daily active users",
+        "description": "How many people open TikTok each day.",
+        "children": [
+          {
+            "metric": "New user day-7 retention",
+            "description": "Share of new users still active after a week. Shows if the feed hooks them fast."
+          },
+          {
+            "metric": "Shares to other apps",
+            "description": "Videos shared on WhatsApp and others bring in new viewers."
+          },
+          {
+            "metric": "Push notification open rate",
+            "description": "Brings people back each day."
+          }
+        ]
+      },
+      {
+        "metric": "Feed quality",
+        "description": "How well each video matches the viewer.",
+        "children": [
+          {
+            "metric": "Average watch-through rate",
+            "description": "Share of each video watched. Higher means better picks."
+          },
+          {
+            "metric": "Skips in first 2 seconds",
+            "description": "Fast skips mean a bad match."
+          },
+          {
+            "metric": "'Not interested' taps",
+            "description": "Direct signal of poor recommendations."
+          }
+        ]
+      },
+      {
+        "metric": "Creator supply",
+        "description": "Fresh videos every day.",
+        "children": [
+          {
+            "metric": "Daily uploads",
+            "description": "More new videos keep the feed fresh."
+          },
+          {
+            "metric": "First-time creators",
+            "description": "New creators show the tools are easy."
+          },
+          {
+            "metric": "Creators earning money",
+            "description": "Paid creators post more often."
+          }
+        ]
+      },
+      {
+        "metric": "Commerce engagement",
+        "description": "Watching that turns into buying.",
+        "children": [
+          {
+            "metric": "Product link click rate",
+            "description": "Share of Shop video views that tap the cart."
+          },
+          {
+            "metric": "Repeat buyers",
+            "description": "Shows trust in Shop."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Reports of harmful or unsafe content per million views",
+      "Teen screen time over set limits",
+      "Ad load: ads per 100 videos watched",
+      "Shop refund and complaint rate"
+    ],
+    "strengths": [
+      "Best-in-class recommendation system that hooks new users within minutes",
+      "Huge creator base and culture-shaping trends",
+      "TikTok Shop gives a second big revenue line beyond ads",
+      "Strong with Gen Z, who are hard to reach elsewhere"
+    ],
+    "weaknesses": [
+      "Lower creator payouts than YouTube",
+      "Seen as addictive and bad for focus, especially for teens",
+      "Shop quality issues with fake or low-quality products",
+      "Heavy dependence on one feed, so any algorithm change hits creators hard"
+    ],
+    "risks": [
+      "Government bans: India banned it in 2020 and the US forced a sale into a joint venture in January 2026",
+      "Rules on children's safety and data in the EU, UK and US",
+      "Reels and Shorts copying features with bigger user bases",
+      "Changes to the US algorithm after retraining by Oracle could hurt the US feed quality"
+    ],
+    "userComplaints": [
+      "Too addictive and hard to put down",
+      "Too many TikTok Shop and ad videos in the feed",
+      "Accounts or videos removed without clear reason",
+      "Creators complain about low and falling payouts",
+      "Worry about data privacy and Chinese ownership"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Feed control panel with topic sliders",
+        "problem": "Users feel the feed gets stuck on one topic or too much shopping.",
+        "expectedImpact": "Users feel in control, which can raise satisfaction and long-term retention.",
+        "metricToTrack": "'Not interested' taps per user and 30-day retention",
+        "effort": "medium"
+      },
+      {
+        "idea": "Shop trust badge based on return rates and verified reviews",
+        "problem": "Buyers fear fake or poor products.",
+        "expectedImpact": "Higher conversion and repeat buying.",
+        "metricToTrack": "Repeat purchase rate within 60 days",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear reasons and quick appeals for removed videos",
+        "problem": "Creators feel punished without explanation.",
+        "expectedImpact": "Less creator churn and fewer support tickets.",
+        "metricToTrack": "Creator 90-day retention and appeal resolution time",
+        "effort": "low"
+      },
+      {
+        "idea": "Mindful mode with daily summary and soft stop",
+        "problem": "Users and regulators worry about addiction.",
+        "expectedImpact": "Better trust with parents and regulators, small hit on time spent.",
+        "metricToTrack": "Share of teens using the mode, and daily active users over 90 days",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "An interest graph can beat a social graph. TikTok won by showing good content to anyone, not just content from friends.",
+      "Remove the cold start. TikTok works in the first minute without follows or setup.",
+      "Give supply a fair chance. Letting unknown creators go viral kept fresh videos coming.",
+      "Policy is product risk. TikTok lost India overnight in 2020, showing that a great product can still be stopped by government."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "TikTok is banned in India. If you were PM of Instagram Reels, how would you win the users TikTok left behind?",
+        "hint": "Segment ex-TikTok users (small-town creators, regional languages). Talk about creator tools, regional content, monetisation, and a metric like daily creators from tier 2 and 3 cities."
+      },
+      {
+        "question": "What is the difference between an interest graph and a social graph? Which is better for a new app?",
+        "hint": "Interest graph uses behaviour, social graph uses friends. Interest graph solves the empty feed problem early but is harder to build."
+      },
+      {
+        "question": "How would you measure the health of the For You feed?",
+        "hint": "Pick watch time on enjoyed videos as the main metric, then watch-through rate, skips, 'not interested' taps, and guardrails like harmful content reports."
+      },
+      {
+        "question": "Should TikTok push more Shop videos in the feed?",
+        "hint": "Weigh Shop revenue against user annoyance. Propose a test, track purchase rate and also session length and retention."
+      },
+      {
+        "question": "Why did Moj and Josh struggle after TikTok's ban?",
+        "hint": "Talk about weaker recommendations, paying creators to post, no ad business at scale, and Reels and Shorts arriving with huge built-in audiences."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Interest graph",
+        "meaning": "A map of what each person likes, built from what they watch, used to pick content."
+      },
+      {
+        "term": "Social graph",
+        "meaning": "A map of who knows or follows whom, used by apps like Facebook to pick content."
+      },
+      {
+        "term": "GMV",
+        "meaning": "Gross merchandise value: the total value of goods sold through a platform before fees."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back after a set time."
+      },
+      {
+        "term": "Watch-through rate",
+        "meaning": "How much of a video people watch on average before swiping away."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows a product is giving real value to its users."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you improve the main metric."
+      },
+      {
+        "term": "Ad load",
+        "meaning": "How many ads are shown compared to normal content."
+      },
+      {
+        "term": "Cold start",
+        "meaning": "The problem a new app or user faces when there is no data yet to personalise anything."
+      }
+    ],
+    "assumptions": [
+      "Global user count is an estimate from third-party trackers; TikTok does not publish it.",
+      "Revenue per US user and Shop fee ranges are rough estimates from public seller rate cards and analyst reports.",
+      "Reports say US users may move to a new app version under the joint venture; final details were unclear at the time of writing.",
+      "ByteDance financials are from Chinese media reports and analyst projections, not audited filings."
+    ]
+  }
+}
