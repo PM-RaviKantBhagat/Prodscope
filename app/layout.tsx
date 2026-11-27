@@ -3,6 +3,8 @@ import Link from "next/link";
 import Logo from "@/components/Logo";
 import HeaderNav from "@/components/HeaderNav";
 import RegisterSW from "@/components/RegisterSW";
+import { gameList } from "@/lib/learn/games";
+import { SECTION_ORDER, sectionSlug } from "@/lib/sections";
 import { getGroups } from "@/lib/gallery";
 import "./globals.css";
 
@@ -24,6 +26,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     id: g.id,
     items: g.items.map((t) => ({ slug: t.slug, company: t.company, category: t.category })),
   }));
+  const games = gameList();
+  const playGroups = SECTION_ORDER.map((section) => ({
+    section,
+    id: sectionSlug(section),
+    items: games.filter((x) => x.section === section).map((x) => ({ slug: x.slug, company: x.company, category: "" })),
+  })).filter((g) => g.items.length > 0);
   return (
     <html lang="en">
       <body>
@@ -33,7 +41,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <Link href="/" className="brand">
               <Logo /> <span>prodscope</span>
             </Link>
-            <HeaderNav groups={groups} />
+            <HeaderNav groups={groups} playGroups={playGroups} />
           </div>
         </header>
         <main>{children}</main>

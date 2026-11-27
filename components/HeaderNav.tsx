@@ -8,10 +8,20 @@ export type NavGroup = { section: string; id: string; items: { slug: string; com
 
 const norm = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, " ").trim();
 
-export default function HeaderNav({ groups }: { groups: NavGroup[] }) {
+export default function HeaderNav({ groups, playGroups }: { groups: NavGroup[]; playGroups: NavGroup[] }) {
   const router = useRouter();
   const pathname = usePathname();
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menu, setMenu] = useState<null | "tear" | "play">(null);
+  const [cat, setCat] = useState<string | null>(null);
+  const menuGroups = menu === "play" ? playGroups : groups;
+  // On wide screens show the first category straight away; on phones the list comes first.
+  const cur = menuGroups.find((g) => g.id === cat) ?? null;
+  const openMenu = (m: null | "tear" | "play") => {
+    setMenu(m);
+    setCat(m && typeof window !== "undefined" && window.innerWidth > 720 ? (m === "play" ? playGroups : groups)[0]?.id ?? null : null);
+  };
+  const close = () => setMenu(null);
+  const setMenuOpen = (v: boolean) => !v && setMenu(null);
   const [q, setQ] = useState("");
   const [focused, setFocused] = useState(false);
   const [active, setActive] = useState(0);
@@ -108,34 +118,55 @@ export default function HeaderNav({ groups }: { groups: NavGroup[] }) {
 
       <nav className="topnav">
         <div className="cats" ref={menuRef}>
-          <button className="cats-btn" aria-expanded={menuOpen} onClick={() => setMenuOpen((o) => !o)}>
-            Categories <span aria-hidden="true">{menuOpen ? "▴" : "▾"}</span>
+          <button className="cats-btn" aria-expanded={menu === "tear"} onClick={() => openMenu(menu === "tear" ? null : "tear")}>
+            Teardowns <span aria-hidden="true">{menu === "tear" ? "▴" : "▾"}</span>
           </button>
-          {menuOpen && (
-            <div className="cats-panel">
-              <div className="cats-tools">
-                <Link href="/play" onClick={() => setMenuOpen(false)}>Play a product</Link>
-                <Link href="/learn" onClick={() => setMenuOpen(false)}>Skill lessons</Link>
-                <Link href="/compare" onClick={() => setMenuOpen(false)}>Compare two products</Link>
-                <Link href="/practice" onClick={() => setMenuOpen(false)}>Write your own teardown</Link>
-                <Link href="/my" onClick={() => setMenuOpen(false)}>My progress and saved</Link>
-              </div>
-              {groups.map((g) => (
-                <div key={g.id} className="cats-col">
-                  <div className="cats-head">
-                    {g.section} <span>{g.items.length}</span>
-                  </div>
-                  <ul>
-                    {g.items.map((t) => (
-                      <li key={t.slug}><Link href={`/t/${t.slug}`} onClick={() => setMenuOpen(false)}>{t.company}</Link></li>
-                    ))}
-                  </ul>
+          <button className="cats-btn" aria-expanded={menu === "play"} onClick={() => openMenu(menu === "play" ? null : "play")}>
+            ▶ Play <span aria-hidden="true">{menu === "play" ? "▴" : "▾"}</span>
+          </button>
+          {menu && (
+            <div className="mega" role="dialog" aria-label={menu === "tear" ? "Teardowns" : "Play the product"}>
+              <div className="mega-top">
+                <div>
+                  <b>{menu === "tear" ? "Product teardowns" : "Play the product"}</b>
+                  <span>{menu === "tear" ? "Read a full PM breakdown of any product." : "Run a product as its PM. Wrong calls cost a life."}</span>
                 </div>
-              ))}
+                <div className="cats-tools">
+                  {(menu === "tear"
+                    ? [["/compare", "Compare two products"], ["/practice", "Write your own teardown"], ["/my", "My progress and saved"]]
+                    : [["/play/random", "Random game"], ["/learn", "Skill lessons"], ["/play", "All games and badges"]]
+                  ).map(([href, label]) => (
+                    <Link key={href} href={href} onClick={close}>{label}</Link>
+                  ))}
+                </div>
+              </div>
+              <div className={`mega-body ${cat ? "has-cat" : ""}`}>
+                <ul className="mega-cats">
+                  {menuGroups.map((g) => (
+                    <li key={g.id}>
+                      <button className={g.id === cur?.id ? "on" : ""} onClick={() => setCat(g.id)} onMouseEnter={() => window.matchMedia("(hover: hover)").matches && setCat(g.id)}>
+                        {g.section} <span>{g.items.length}</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+                {cur && (
+                  <div className="mega-items">
+                    <button className="mega-back" onClick={() => setCat(null)}>← All categories</button>
+                    <div className="mega-head">{cur.section}</div>
+                    <ul>
+                      {cur.items.map((t) => (
+                        <li key={t.slug}>
+                          <Link href={menu === "tear" ? `/t/${t.slug}` : `/play/${t.slug}`} onClick={close}>{t.company}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </div>
-        <Link href="/play" className="playlink" aria-label="Play">▶<span> Play</span></Link>
         <Link href="/my" className="mylink" title="My progress and saved teardowns">★ My progress</Link>
         <Link href="/#start" className="pill">New teardown</Link>
       </nav>
