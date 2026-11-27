@@ -1,0 +1,267 @@
+{
+  "company": "PolicyBazaar",
+  "domain": "policybazaar.com",
+  "website": "https://policybazaar.com",
+  "sources": [
+    "https://inc42.com/buzz/pb-fintech-q2-pat-jumps-42-to-₹192-cr-revenue-increases-35/",
+    "https://yourstory.com/2026/10/pb-fintech-net-profit-rises-43-rise-in-net-profit",
+    "https://yourstory.com/2026/08/pb-fintech-net-profit-up-92-in-q1-of-fy27",
+    "https://www.kotakneo.com/financial-results/pb-fintech-share-price-q2fy2026-27-results/",
+    "https://yourstory.com/2026/05/info-edges-investment-bets-power-profit-surge-core-recruitment-business-holds-firm"
+  ],
+  "report": {
+    "company": "PolicyBazaar",
+    "tagline": "India's largest site for comparing and buying insurance, backed by advisors who call you, explain plans and help you claim.",
+    "category": "Insurtech",
+    "simpleSummary": "PolicyBazaar lets you compare health, term life and car insurance from many companies in one place. Most Indians don't trust insurance and find it confusing, so PolicyBazaar has thousands of advisors who phone you, explain the plans and help you when you make a claim. Insurance companies pay PolicyBazaar a commission for every policy it sells, and again when you renew. Its parent, PB Fintech, also runs Paisabazaar for loans and credit cards.",
+    "keyNumbers": [
+      { "label": "Insurance premium sold (Q2 FY27)", "value": "₹9,385 crore, up 38%", "note": "PB Fintech results, October 2026 quarter." },
+      { "label": "Revenue (Q2 FY27)", "value": "₹2,178 crore, up 35%", "note": "PB Fintech consolidated. Core online business (PolicyBazaar plus Paisabazaar) was ₹1,336 crore, up 40%." },
+      { "label": "Net profit (Q2 FY27)", "value": "₹192 crore, up 43%", "note": "PB Fintech consolidated. Adjusted EBITDA margin about 10%." },
+      { "label": "New health insurance premium growth", "value": "46% year on year", "note": "Q2 FY27, company-reported. Health is now its fastest-growing line." },
+      { "label": "Agents on PB Partners", "value": "About 5.5 lakh", "note": "Q2 FY27, up 1.3 lakh in one quarter. This is its offline reach in small towns." },
+      { "label": "Share price", "value": "About ₹1,000", "note": "BSE close after Q2 FY27 results; PB Fintech is listed since 2021." }
+    ],
+    "overview": {
+      "whatItDoes": "PolicyBazaar is an insurance marketplace started in 2008. You enter a few details and see plans from most Indian insurers side by side, with price, cover and claim record. Advisors call to help you pick. After you buy, it reminds you to renew and helps when you claim. Insurers pay it a commission, so it is free for you.",
+      "howItWorks": [
+        "You fill a short form: age, city, family members, and need (health, term life, car, bike, travel).",
+        "The site shows plans from many insurers with price, cover, waiting periods and claim settlement ratio.",
+        "An advisor calls within minutes to explain and answer questions; most sales close on this call.",
+        "You pay online; the money goes to the insurer, which issues the policy.",
+        "The insurer pays PolicyBazaar a commission, and more on each renewal.",
+        "When you claim, PolicyBazaar's claims team talks to the insurer and hospital on your behalf.",
+        "PB Partners lets local agents sell the same plans in smaller towns using PolicyBazaar's app."
+      ],
+      "valueProposition": "Pick the right policy at a fair price, without being pushed by one company's agent, and have someone on your side when you claim. For insurers: a cheap way to reach crores of buyers they could not reach through branches."
+    },
+    "personas": [
+      {
+        "name": "New parent buying term cover",
+        "description": "A 30-year-old IT worker in Gurugram who just had a baby and wants ₹1 to 2 crore of life cover.",
+        "goals": ["Protect the family if something happens", "Lowest price for the cover", "Trust the claim will be paid"],
+        "frustrations": ["Too many similar plans", "Fear the claim will be rejected", "Bank staff pushing ULIPs"]
+      },
+      {
+        "name": "Child buying health cover for parents",
+        "description": "A 35-year-old buying health insurance for parents aged 62 and 65 with diabetes.",
+        "goals": ["Cover for existing illness", "Short waiting period", "Cashless hospital network nearby"],
+        "frustrations": ["High premiums for seniors", "Rejections due to health history", "Fine print on room rent limits"]
+      },
+      {
+        "name": "Car owner renewing",
+        "description": "Owns a 4-year-old Hyundai Creta and renews every year.",
+        "goals": ["Cheapest renewal with zero depreciation cover", "Done in five minutes"],
+        "frustrations": ["Dealer quotes are high", "Forgets the date and loses no-claim bonus"]
+      },
+      {
+        "name": "Small-town first-time buyer",
+        "description": "A shop owner in a tier-3 town who has never bought health insurance.",
+        "goals": ["Someone local he can trust", "Explained in Hindi"],
+        "frustrations": ["Online forms feel risky", "No idea which company is good"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Insurance plans are hard to compare; each uses different terms.", "howSolved": "Side-by-side comparison with plain features, price and claim record.", "severity": "high" },
+      { "pain": "People fear the insurer will reject their claim.", "howSolved": "Claims assistance team that follows up with insurers and hospitals.", "severity": "high" },
+      { "pain": "Agents and bank staff push one company's or high-commission products.", "howSolved": "Plans from many insurers in one place.", "severity": "medium" },
+      { "pain": "Buyers want a human to explain before paying.", "howSolved": "Advisor calls and, in small towns, PB Partners agents.", "severity": "high" },
+      { "pain": "People forget renewals and lose benefits like no-claim bonus.", "howSolved": "Reminders and one-click renewal.", "severity": "medium" },
+      { "pain": "Seniors and people with illness struggle to find any cover.", "howSolved": "Advisors find insurers that accept their profile.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Plan comparison engine", "whatItDoes": "Shows plans from most insurers side by side with price and key terms.", "whyItMatters": "Brings people in through Google and makes PolicyBazaar the starting point for insurance." },
+      { "feature": "Advisor calls", "whatItDoes": "Trained advisors call leads to explain and close the sale.", "whyItMatters": "Most Indians won't buy insurance without talking to someone. This is what turns visitors into buyers." },
+      { "feature": "Claims assistance", "whatItDoes": "A team that helps file claims and chases insurers.", "whyItMatters": "The main reason users trust PolicyBazaar over buying direct, and drives renewals." },
+      { "feature": "PB Partners", "whatItDoes": "App for 5.5 lakh local agents to sell plans from many insurers.", "whyItMatters": "Reaches small towns where people buy through someone they know." },
+      { "feature": "Renewal reminders", "whatItDoes": "Alerts and quick renewal before expiry.", "whyItMatters": "Renewal commission is almost pure profit." },
+      { "feature": "Paisabazaar (sister product)", "whatItDoes": "Compares loans and credit cards and shows free credit scores.", "whyItMatters": "Second revenue line and a way to reach the same users." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying term insurance",
+        "persona": "New parent buying term cover",
+        "steps": [
+          { "step": "Search", "detail": "Googles 'best term insurance' and lands on PolicyBazaar." },
+          { "step": "Enter details", "detail": "Age, income, smoker or not." },
+          { "step": "Compare", "detail": "Sees ₹1 crore cover prices, roughly ₹1,000 to ₹1,500 a month for a 30-year-old non-smoker." },
+          { "step": "Advisor call", "detail": "Advisor explains claim settlement ratios and riders." },
+          { "step": "Pay", "detail": "Pays the first premium online." },
+          { "step": "Medical check", "detail": "Insurer arranges a home or lab test." },
+          { "step": "Policy issued", "detail": "Policy appears in the account with renewal date." }
+        ]
+      },
+      {
+        "name": "Health claim for a parent",
+        "persona": "Child buying health cover for parents",
+        "steps": [
+          { "step": "Admission", "detail": "Parent admitted to a network hospital." },
+          { "step": "Call PolicyBazaar", "detail": "Claims team opens a case." },
+          { "step": "Cashless request", "detail": "Hospital sends request to the insurer." },
+          { "step": "Query", "detail": "Insurer asks for old reports; claims team helps." },
+          { "step": "Approval", "detail": "Insurer approves; the bill is paid at discharge." },
+          { "step": "Renewal", "detail": "Family renews next year because the claim went well." }
+        ]
+      },
+      {
+        "name": "Car insurance renewal",
+        "persona": "Car owner renewing",
+        "steps": [
+          { "step": "Reminder", "detail": "SMS and WhatsApp before expiry." },
+          { "step": "Enter car number", "detail": "Car details fill in automatically." },
+          { "step": "Compare", "detail": "Sees prices and add-ons like zero depreciation." },
+          { "step": "Pay", "detail": "Buys in a few minutes." },
+          { "step": "Policy", "detail": "Policy PDF arrives by email." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "PolicyBazaar is free for buyers. Insurers pay it a commission on each policy, plus fees for services like lead generation and tech. Renewals bring more commission at little cost. New businesses like PB Partners and PB Health add more revenue but have lower margins.",
+      "revenueStreams": [
+        { "stream": "Insurance commissions", "detail": "A share of the first-year premium, higher on health and term, plus smaller commission on renewals." },
+        { "stream": "Services to insurers", "detail": "Fees for marketing, lead generation, tech and outsourced services." },
+        { "stream": "PB Partners", "detail": "Commission on policies sold by local agents, shared with those agents." },
+        { "stream": "Paisabazaar", "detail": "Fees from banks for loans and credit cards sold. Disbursals fell 80% in Q2 FY27 as lenders cut back." }
+      ],
+      "pricing": "Free for users. Insurers set policy prices. Commissions follow IRDAI limits, and exact rates are not public.",
+      "costDrivers": [
+        "Thousands of advisors and claims staff",
+        "Online ads and TV campaigns",
+        "Payouts to PB Partners agents",
+        "Tech and AI tools for calls and support"
+      ],
+      "unitEconomics": "Take one ₹20,000 health policy. PolicyBazaar may earn ₹3,000 to ₹5,000 in year one. Getting and closing that customer (ads plus advisor time) may cost ₹2,000 to ₹3,000. So the first sale makes a small profit. Each renewal then brings another commission at very little cost. A customer who stays five years is worth several times the first sale. These numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Top Google rankings for insurance searches",
+        "TV and digital ads",
+        "Advisor calls on every lead",
+        "PB Partners agents in small towns",
+        "Paisabazaar's credit score users"
+      ],
+      "whatBringsUsersBack": [
+        "Yearly renewals with reminders",
+        "Good claim help builds loyalty",
+        "New needs like car, travel or parents' health"
+      ],
+      "moat": "Brand trust, tie-ups with almost every insurer, and a large trained advisor and claims team. A plain comparison website can copy the listings, but not the people and the claims help built over 15+ years."
+    },
+    "competitors": [
+      { "name": "Acko and Digit", "positioning": "Digital insurers selling their own policies directly.", "howThisProductDiffers": "PolicyBazaar offers many insurers and advisor help; direct insurers offer one brand, often cheaper." },
+      { "name": "Banks (bancassurance)", "positioning": "Sell insurance to account holders in branches.", "howThisProductDiffers": "PolicyBazaar offers real choice; banks often push one partner's products." },
+      { "name": "Traditional agents (LIC and others)", "positioning": "Local agents people know personally.", "howThisProductDiffers": "PolicyBazaar has more choice and online ease; it is copying the agent model through PB Partners." },
+      { "name": "Ditto (Zerodha-backed)", "positioning": "Advice-first, no spam calls.", "howThisProductDiffers": "PolicyBazaar has far more scale and claims support, but more aggressive calling." }
+    ],
+    "northStar": {
+      "metric": "Number of active policies that renewed or had a claim successfully supported in the month",
+      "why": "Insurance delivers value only if it stays active and pays out when needed. This metric rewards trust, not just first sales."
+    },
+    "kpiTree": [
+      {
+        "metric": "New policies sold",
+        "description": "Fresh customers covered.",
+        "children": [
+          { "metric": "Lead to sale rate", "description": "How well advisors turn interest into purchase." },
+          { "metric": "Health and term share of sales", "description": "These pay more and protect users more." },
+          { "metric": "Cost per policy sold", "description": "Ads plus advisor time per sale." }
+        ]
+      },
+      {
+        "metric": "Renewals",
+        "description": "Policies kept year after year.",
+        "children": [
+          { "metric": "Renewal rate", "description": "Shows users trust the product." },
+          { "metric": "On-time renewals", "description": "Avoids lost benefits." }
+        ]
+      },
+      {
+        "metric": "Claims experience",
+        "description": "Help when it matters.",
+        "children": [
+          { "metric": "Claims assisted per month", "description": "Volume of help given." },
+          { "metric": "Days to settle", "description": "Speed matters most to families." },
+          { "metric": "Claim satisfaction score", "description": "Predicts renewal." }
+        ]
+      },
+      {
+        "metric": "Reach beyond metros",
+        "description": "New buyers in small towns.",
+        "children": [
+          { "metric": "Active PB Partners agents", "description": "5.5 lakh now." },
+          { "metric": "Policies per agent", "description": "Agent productivity." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Complaints about spam or pushy calls",
+      "Mis-selling cases and early cancellations",
+      "Claim rejection rate for policies sold",
+      "IRDAI penalties or warnings"
+    ],
+    "strengths": [
+      "Clear leader in online insurance in India",
+      "Profitable and growing 35%+",
+      "Human advisors and claims help create trust",
+      "Ties with almost all insurers",
+      "Health premium growing 46%"
+    ],
+    "weaknesses": [
+      "Heavy calling annoys many users",
+      "Human sales is costly and hard to scale",
+      "New businesses have thin margins",
+      "Paisabazaar is volatile and fell sharply in Q2 FY27"
+    ],
+    "risks": [
+      "IRDAI rule changes on commissions and expenses",
+      "Insurers building their own direct digital sales",
+      "Data privacy laws (DPDP Act) limiting calls and lead sharing",
+      "A slowdown in lending hurting Paisabazaar"
+    ],
+    "userComplaints": [
+      "Constant sales calls after asking for a quote",
+      "Advisors push to buy quickly",
+      "Claim help is slower than promised in some cases",
+      "Premium jumps at renewal",
+      "Hard to cancel or get a refund"
+    ],
+    "improvementIdeas": [
+      { "idea": "Let users pick 'no calls, WhatsApp only' when getting a quote", "problem": "Spam call complaints hurt the brand", "expectedImpact": "Better trust with little drop in sales", "metricToTrack": "Complaint rate and conversion by channel", "effort": "low" },
+      { "idea": "Show real claim settlement days by insurer, from PolicyBazaar's own data", "problem": "Fear of claim rejection", "expectedImpact": "Smarter choices and fewer bad claims experiences", "metricToTrack": "Claim satisfaction and renewal rate", "effort": "medium" },
+      { "idea": "AI voice agent for simple renewals and car policies", "problem": "Human advisors are costly", "expectedImpact": "Lower cost per sale", "metricToTrack": "Cost per renewal", "effort": "medium" },
+      { "idea": "Family insurance dashboard showing gaps in cover", "problem": "Users have scattered policies and miss needs", "expectedImpact": "More policies per family", "metricToTrack": "Policies per customer", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "For low-trust products like insurance, a human on the phone can beat a perfect website.",
+      "Renewals turn a thin first sale into long-term profit, so design for the second year, not just the first.",
+      "A marketplace earns trust by showing choice and being on the user's side at claims time.",
+      "Growth tactics like heavy calling work, but they can wear down the brand.",
+      "To reach small towns, borrow the agent model and give agents better tools."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you cut spam calls without losing sales?", "hint": "Segment users, let them choose a channel, test WhatsApp and callbacks, and track conversion and complaints together." },
+      { "question": "Why does PolicyBazaar still use so many humans?", "hint": "Talk about trust, complex products, fear of claims, and how conversion changes with a call." },
+      { "question": "How would you raise health policy renewals?", "hint": "Find why people drop: price jumps, bad claims, forgetting. Fix each with reminders, claim help and cheaper plan options." },
+      { "question": "How should PolicyBazaar respond to Acko and Digit?", "hint": "Lean on choice, advice and claims help. Partner with them as insurers on the platform." },
+      { "question": "What should be the north star metric?", "hint": "Active policies kept or claims supported. Explain why first-year premium alone is wrong." }
+    ],
+    "glossary": [
+      { "term": "Premium", "meaning": "The price you pay for an insurance policy." },
+      { "term": "Commission", "meaning": "The fee an insurer pays PolicyBazaar for each policy sold." },
+      { "term": "Renewal rate", "meaning": "The share of policies that are renewed after a year." },
+      { "term": "Claim settlement ratio", "meaning": "The share of claims an insurer pays out." },
+      { "term": "IRDAI", "meaning": "The Insurance Regulatory and Development Authority of India, the insurance regulator." },
+      { "term": "Mis-selling", "meaning": "Selling a product that does not fit the buyer's needs." },
+      { "term": "Bancassurance", "meaning": "Banks selling insurance to their customers." },
+      { "term": "EBITDA", "meaning": "Profit before interest, tax and accounting costs like depreciation." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "No-claim bonus", "meaning": "A discount on car insurance for not making claims." }
+    ],
+    "assumptions": [
+      "Commission and cost per policy numbers are estimates.",
+      "Term insurance price range is a typical estimate for a 30-year-old non-smoker.",
+      "Total customer numbers are not disclosed.",
+      "Complaints are summarised from common reviews and social media."
+    ]
+  }
+}

@@ -161,44 +161,104 @@
         "name": "First chat",
         "persona": "Free-tier student",
         "steps": [
-          { "step": "Hears about it", "detail": "Sees a friend or a YouTube video say DeepSeek is free and as smart as ChatGPT." },
-          { "step": "Downloads app", "detail": "Installs from the Play Store and signs up with email or Google." },
-          { "step": "Asks a hard question", "detail": "Pastes a calculus problem and turns on DeepThink." },
-          { "step": "Reads reasoning", "detail": "Watches the model think step by step, then gets the answer." },
-          { "step": "Hits a busy moment", "detail": "Sometimes sees a 'server busy' message and retries a minute later." },
-          { "step": "Makes it a habit", "detail": "Uses it daily for homework because there is no paywall." }
+          {
+            "step": "Hears about it",
+            "detail": "Sees a friend or a YouTube video say DeepSeek is free and as smart as ChatGPT."
+          },
+          {
+            "step": "Downloads app",
+            "detail": "Installs from the Play Store and signs up with email or Google."
+          },
+          {
+            "step": "Asks a hard question",
+            "detail": "Pastes a calculus problem and turns on DeepThink."
+          },
+          {
+            "step": "Reads reasoning",
+            "detail": "Watches the model think step by step, then gets the answer."
+          },
+          {
+            "step": "Hits a busy moment",
+            "detail": "Sometimes sees a 'server busy' message and retries a minute later."
+          },
+          {
+            "step": "Makes it a habit",
+            "detail": "Uses it daily for homework because there is no paywall."
+          }
         ]
       },
       {
         "name": "Switching an app's AI provider",
         "persona": "Cost-sensitive developer",
         "steps": [
-          { "step": "Sees the price gap", "detail": "Compares the OpenAI bill with DeepSeek's pricing page and sees a 10x difference." },
-          { "step": "Creates API key", "detail": "Signs up on platform.deepseek.com and tops up $10 of credit." },
-          { "step": "Changes two lines", "detail": "Swaps the base URL and key in the existing OpenAI SDK code." },
-          { "step": "Runs side by side test", "detail": "Sends the same 500 support tickets to both models and compares answers." },
-          { "step": "Moves traffic", "detail": "Routes most cheap tasks to V4-Flash and hard ones to V4-Pro." },
-          { "step": "Tops up monthly", "detail": "Pays as usage grows, often a few hundred dollars instead of thousands." }
+          {
+            "step": "Sees the price gap",
+            "detail": "Compares the OpenAI bill with DeepSeek's pricing page and sees a 10x difference."
+          },
+          {
+            "step": "Creates API key",
+            "detail": "Signs up on platform.deepseek.com and tops up $10 of credit."
+          },
+          {
+            "step": "Changes two lines",
+            "detail": "Swaps the base URL and key in the existing OpenAI SDK code."
+          },
+          {
+            "step": "Runs side by side test",
+            "detail": "Sends the same 500 support tickets to both models and compares answers."
+          },
+          {
+            "step": "Moves traffic",
+            "detail": "Routes most cheap tasks to V4-Flash and hard ones to V4-Pro."
+          },
+          {
+            "step": "Tops up monthly",
+            "detail": "Pays as usage grows, often a few hundred dollars instead of thousands."
+          }
         ]
       },
       {
         "name": "Self-hosting inside a company",
         "persona": "Enterprise self-hoster",
         "steps": [
-          { "step": "Security review", "detail": "Checks the licence and whether open weights send any data out (they do not)." },
-          { "step": "Downloads weights", "detail": "Pulls the model from Hugging Face." },
-          { "step": "Picks hardware", "detail": "Runs it on rented GPUs or via a cloud that hosts DeepSeek, like Alibaba Cloud or Azure." },
-          { "step": "Fine-tunes", "detail": "Trains it a little on internal documents." },
-          { "step": "Rolls out", "detail": "Launches an internal assistant for staff, paying only for hardware." }
+          {
+            "step": "Security review",
+            "detail": "Checks the licence and whether open weights send any data out (they do not)."
+          },
+          {
+            "step": "Downloads weights",
+            "detail": "Pulls the model from Hugging Face."
+          },
+          {
+            "step": "Picks hardware",
+            "detail": "Runs it on rented GPUs or via a cloud that hosts DeepSeek, like Alibaba Cloud or Azure."
+          },
+          {
+            "step": "Fine-tunes",
+            "detail": "Trains it a little on internal documents."
+          },
+          {
+            "step": "Rolls out",
+            "detail": "Launches an internal assistant for staff, paying only for hardware."
+          }
         ]
       }
     ],
     "businessModel": {
       "summary": "DeepSeek makes money almost only from its API. Developers pay per token used. The chat app is free and works as marketing. Open weights earn nothing directly but spread the brand. Owner High-Flyer funds research, so the company can price low and focus on research over sales.",
       "revenueStreams": [
-        { "stream": "API usage fees", "detail": "Pay per million tokens in and out. V4-Pro is about $3.48 per million output tokens, V4-Flash about $0.28." },
-        { "stream": "Cached and off-peak pricing", "detail": "Repeated input and night-time usage (Beijing time) cost less, which fills idle servers." },
-        { "stream": "Enterprise and cloud deals", "detail": "Likely some revenue from Chinese companies and cloud partners, details not public." }
+        {
+          "stream": "API usage fees",
+          "detail": "Pay per million tokens in and out. V4-Pro is about $3.48 per million output tokens, V4-Flash about $0.28."
+        },
+        {
+          "stream": "Cached and off-peak pricing",
+          "detail": "Repeated input and night-time usage (Beijing time) cost less, which fills idle servers."
+        },
+        {
+          "stream": "Enterprise and cloud deals",
+          "detail": "Likely some revenue from Chinese companies and cloud partners, details not public."
+        }
       ],
       "pricing": "Chat app: free. API (April 2026): V4-Pro about $3.48 per million output tokens; V4-Flash about $0.28 per million output tokens; input and cached input cheaper. See api-docs.deepseek.com for current rates.",
       "costDrivers": [
@@ -226,50 +286,103 @@
       "moat": "DeepSeek's real edge is cost: it squeezes more out of each chip than most rivals, and its owner does not need quick profits. That moat is thin, because open weights let anyone copy the model and other Chinese labs like Alibaba Qwen and Moonshot Kimi price just as low. Its brand as 'the cheap, open one' is the stickiest part."
     },
     "competitors": [
-      { "name": "ChatGPT (OpenAI)", "positioning": "The default consumer AI with the most users and paid plans from $20 a month.", "howThisProductDiffers": "DeepSeek is free in the app and about 10x cheaper on the API, but has fewer features like voice, images and plugins." },
-      { "name": "Qwen (Alibaba)", "positioning": "Chinese open models backed by Alibaba Cloud.", "howThisProductDiffers": "Both are open and cheap. Qwen has a giant cloud sales team; DeepSeek has the stronger research brand." },
-      { "name": "Kimi (Moonshot AI)", "positioning": "Chinese model known for long context and agent tasks.", "howThisProductDiffers": "Similar pricing; DeepSeek has wider global awareness from the 2025 shock." },
-      { "name": "Gemini (Google)", "positioning": "Built into Android and Google apps with a cheap Flash tier.", "howThisProductDiffers": "Google has distribution and trust in the West; DeepSeek wins on open weights and price at the top tier." },
-      { "name": "Meta Llama and Mistral", "positioning": "Western open-weight models.", "howThisProductDiffers": "Western companies trust them more on data rules, but DeepSeek's recent models usually score higher." }
+      {
+        "name": "ChatGPT (OpenAI)",
+        "positioning": "The default consumer AI with the most users and paid plans from $20 a month.",
+        "howThisProductDiffers": "DeepSeek is free in the app and about 10x cheaper on the API, but has fewer features like voice, images and plugins."
+      },
+      {
+        "name": "Qwen (Alibaba)",
+        "positioning": "Chinese open models backed by Alibaba Cloud.",
+        "howThisProductDiffers": "Both are open and cheap. Qwen has a giant cloud sales team; DeepSeek has the stronger research brand."
+      },
+      {
+        "name": "Kimi (Moonshot AI)",
+        "positioning": "Chinese model known for long context and agent tasks.",
+        "howThisProductDiffers": "Similar pricing; DeepSeek has wider global awareness from the 2025 shock."
+      },
+      {
+        "name": "Gemini (Google)",
+        "positioning": "Built into Android and Google apps with a cheap Flash tier.",
+        "howThisProductDiffers": "Google has distribution and trust in the West; DeepSeek wins on open weights and price at the top tier."
+      },
+      {
+        "name": "Meta Llama and Mistral",
+        "positioning": "Western open-weight models.",
+        "howThisProductDiffers": "Western companies trust them more on data rules, but DeepSeek's recent models usually score higher."
+      }
     ],
     "northStar": {
       "metric": "Tokens served per week to paying API customers and active app users",
-      "why": "Every token is a piece of useful work done for someone. Growth in tokens shows people trust DeepSeek with more real tasks, and paid tokens tie that value to money."
+      "why": "Every token is a piece of useful work done for someone. Growth in tokens shows people trust DeepSeek with more real tasks, and paid tokens tie that value to money. A good north star metric tracks value to users, not just money. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
     },
     "kpiTree": [
       {
         "metric": "Active API customers",
         "description": "How many developers and companies send paid traffic each week.",
         "children": [
-          { "metric": "New API sign-ups to first paid call", "description": "Share of new accounts that top up and make a real call; shows onboarding works." },
-          { "metric": "Monthly API customer retention", "description": "Share of paying customers still active next month; drops if reliability is poor." },
-          { "metric": "Enterprise and cloud partner count", "description": "Large accounts bring steady high volume." }
+          {
+            "metric": "New API sign-ups to first paid call",
+            "description": "Share of new accounts that top up and make a real call; shows onboarding works."
+          },
+          {
+            "metric": "Monthly API customer retention",
+            "description": "Share of paying customers still active next month; drops if reliability is poor."
+          },
+          {
+            "metric": "Enterprise and cloud partner count",
+            "description": "Large accounts bring steady high volume."
+          }
         ]
       },
       {
         "metric": "Tokens per API customer",
         "description": "How much work each customer sends.",
         "children": [
-          { "metric": "Share of traffic on V4-Pro vs Flash", "description": "More Pro use means harder, higher value tasks." },
-          { "metric": "Average context length", "description": "Longer inputs show use for documents and code, which grows token volume." },
-          { "metric": "Agent and tool-call usage", "description": "Agents make many calls per task, multiplying tokens." }
+          {
+            "metric": "Share of traffic on V4-Pro vs Flash",
+            "description": "More Pro use means harder, higher value tasks."
+          },
+          {
+            "metric": "Average context length",
+            "description": "Longer inputs show use for documents and code, which grows token volume."
+          },
+          {
+            "metric": "Agent and tool-call usage",
+            "description": "Agents make many calls per task, multiplying tokens."
+          }
         ]
       },
       {
         "metric": "Weekly active app users",
         "description": "People using the free chat app, who later bring DeepSeek into work.",
         "children": [
-          { "metric": "Day 7 retention of new users", "description": "Share of new users who come back in a week; shows real value." },
-          { "metric": "DeepThink usage rate", "description": "Share of chats using reasoning, the feature that sets it apart." },
-          { "metric": "Server busy error rate", "description": "Failed requests push users away to rivals." }
+          {
+            "metric": "Day 7 retention of new users",
+            "description": "Share of new users who come back in a week; shows real value."
+          },
+          {
+            "metric": "DeepThink usage rate",
+            "description": "Share of chats using reasoning, the feature that sets it apart."
+          },
+          {
+            "metric": "Server busy error rate",
+            "description": "Failed requests push users away to rivals."
+          }
         ]
       },
       {
         "metric": "Cost per million tokens served",
         "description": "Compute cost to serve, which decides how low prices can go.",
         "children": [
-          { "metric": "GPU utilisation", "description": "Busy chips mean less waste per token." },
-          { "metric": "Cache hit rate", "description": "Reused inputs are cheap to serve." }
+          {
+            "metric": "GPU utilisation",
+            "description": "Busy chips mean less waste per token."
+          },
+          {
+            "metric": "Cache hit rate",
+            "description": "Reused inputs are cheap to serve."
+          }
         ]
       }
     ],
@@ -374,17 +487,50 @@
       }
     ],
     "glossary": [
-      { "term": "API", "meaning": "A way for software to use DeepSeek's AI directly, paying for what it uses." },
-      { "term": "Token", "meaning": "A small chunk of text, about three quarters of a word, used to measure and charge for AI usage." },
-      { "term": "Open weights", "meaning": "The model's files are published so anyone can download and run it themselves." },
-      { "term": "Context", "meaning": "How much text the model can read and remember in one conversation or request." },
-      { "term": "Mixture of experts", "meaning": "A model design where only a small part of the model works on each word, saving compute." },
-      { "term": "Gross profit", "meaning": "Money left from sales after paying the direct cost of serving them, before salaries and research." },
-      { "term": "Retention", "meaning": "The share of users or customers who keep coming back over time." },
-      { "term": "North star metric", "meaning": "The one number a company uses to track whether it is delivering real value to users." },
-      { "term": "Run rate", "meaning": "Current monthly revenue multiplied by 12, a rough guess at yearly revenue." },
-      { "term": "SLA", "meaning": "A written promise about uptime and support, often with refunds if it is broken." },
-      { "term": "Conversion", "meaning": "The share of free users who become paying users." }
+      {
+        "term": "API",
+        "meaning": "A way for software to use DeepSeek's AI directly, paying for what it uses."
+      },
+      {
+        "term": "Token",
+        "meaning": "A small chunk of text, about three quarters of a word, used to measure and charge for AI usage."
+      },
+      {
+        "term": "Open weights",
+        "meaning": "The model's files are published so anyone can download and run it themselves."
+      },
+      {
+        "term": "Context",
+        "meaning": "How much text the model can read and remember in one conversation or request."
+      },
+      {
+        "term": "Mixture of experts",
+        "meaning": "A model design where only a small part of the model works on each word, saving compute."
+      },
+      {
+        "term": "Gross profit",
+        "meaning": "Money left from sales after paying the direct cost of serving them, before salaries and research."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users or customers who keep coming back over time."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to track whether it is delivering real value to users."
+      },
+      {
+        "term": "Run rate",
+        "meaning": "Current monthly revenue multiplied by 12, a rough guess at yearly revenue."
+      },
+      {
+        "term": "SLA",
+        "meaning": "A written promise about uptime and support, often with refunds if it is broken."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of free users who become paying users."
+      }
     ],
     "assumptions": [
       "Monthly app user numbers are estimates from third-party trackers; DeepSeek publishes none.",

@@ -1,0 +1,248 @@
+{
+  "company": "boAt",
+  "domain": "boat-lifestyle.com",
+  "website": "https://boat-lifestyle.com",
+  "sources": [
+    "https://yourstory.com/2026/08/boat-fy26-net-profit-soars-to-rs-845-crore",
+    "https://www.exchange4media.com/marketing-news/boat-posts-38-jump-in-pat-for-fy26-goes-debt-free-157672.html",
+    "https://www.indmoney.com/ipo/boat-ipo",
+    "https://inc42.com/buzz/boat-files-updated-drhp-for-inr-1500-cr-ipo",
+    "https://www.outlookbusiness.com/start-up/boat-auditors-flag-financial-mismatch-compliance-issues-as-it-prepares-for-2nd-ipo-attempt"
+  ],
+  "report": {
+    "company": "boAt",
+    "tagline": "India's best-selling earphone and smartwatch brand, built on low prices, bold design and influencer marketing.",
+    "category": "Consumer electronics D2C",
+    "simpleSummary": "boAt sells earphones, headphones, speakers, smartwatches and chargers at prices young Indians can afford, usually ₹999 to ₹2,999. It doesn't invent new technology. It designs products, gets factories to make them, and spends heavily on cricketers, film stars and Instagram to make the brand feel cool. Most sales happen on Amazon and Flipkart, and more and more in shops.",
+    "keyNumbers": [
+      { "label": "Revenue (FY26)", "value": "₹2,931 crore", "note": "Company results via YourStory, August 2026." },
+      { "label": "Net profit (FY26)", "value": "₹84.5 crore, up 38%", "note": "Company results; FY25 profit was ₹61 crore." },
+      { "label": "Cash and debt", "value": "About ₹397 crore cash, no bank debt", "note": "End of FY26, company-reported." },
+      { "label": "Market share in personal audio", "value": "34% by volume, 26% by value", "note": "FY25, from IPO papers via INDmoney." },
+      { "label": "Online share of revenue", "value": "About 71%", "note": "FY25, from IPO papers. 12,000+ offline retailers." },
+      { "label": "IPO", "value": "Filed for ₹1,500 crore issue", "note": "Updated draft filed with SEBI; listing date not confirmed in sources found." }
+    ],
+    "overview": {
+      "whatItDoes": "boAt (Imagine Marketing Ltd) is a consumer electronics brand started in 2016 by Aman Gupta and Sameer Mehta. It sells audio products, smartwatches, chargers, cables and gaming accessories. It designs and markets the products, while factories in India (including its own joint venture) and abroad make them. It sells through Amazon, Flipkart, its own website, quick commerce apps and shops.",
+      "howItWorks": [
+        "boAt studies what young buyers want and designs products with features like long battery and bass-heavy sound.",
+        "Factories, now mostly in India (about 71% of units in FY25), make the products.",
+        "boAt launches products on Amazon and Flipkart with big sale-day discounts.",
+        "Celebrities and influencers promote new launches.",
+        "Products also go to 12,000+ shops through 112 distributors.",
+        "Service centres and an online warranty process handle repairs."
+      ],
+      "valueProposition": "Stylish gadgets that look and sound good at a price most young Indians can afford, from a brand that feels like theirs."
+    },
+    "personas": [
+      {
+        "name": "College student",
+        "description": "19-year-old in Indore with ₹1,500 to spend on earbuds.",
+        "goals": ["Good bass", "Looks cool", "Long battery"],
+        "frustrations": ["Apple and Sony too costly", "Cheap brands break fast"]
+      },
+      {
+        "name": "Young professional",
+        "description": "25-year-old in Bengaluru buying a smartwatch.",
+        "goals": ["Fitness tracking", "Calls on watch", "Under ₹3,000"],
+        "frustrations": ["Inaccurate health data", "Poor app"]
+      },
+      {
+        "name": "Gift buyer",
+        "description": "Buys gadgets as gifts during festivals.",
+        "goals": ["Well-known brand", "Good discount"],
+        "frustrations": ["Fake products", "Delivery delays"]
+      },
+      {
+        "name": "Small-town shopper",
+        "description": "Buys from a local mobile shop.",
+        "goals": ["See product before buying", "Easy warranty"],
+        "frustrations": ["No service centre nearby"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Good-sounding earphones were too costly for most young buyers.", "howSolved": "Products from ₹999 with features buyers care about.", "severity": "high" },
+      { "pain": "Cheap brands felt unreliable and unbranded.", "howSolved": "A trusted, aspirational Indian brand with warranty.", "severity": "medium" },
+      { "pain": "Smartwatches were out of reach.", "howSolved": "Watches under ₹2,000.", "severity": "medium" },
+      { "pain": "Chargers and cables break often.", "howSolved": "Durable branded accessories.", "severity": "low" },
+      { "pain": "Buyers want to try before buying.", "howSolved": "12,000+ shops stock boAt.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Airdopes earbuds", "whatItDoes": "Wireless earbuds at low prices.", "whyItMatters": "Biggest seller; audio was 84% of FY25 revenue." },
+      { "feature": "Rockerz neckbands and headphones", "whatItDoes": "Bass-heavy wireless audio.", "whyItMatters": "Original hit product line." },
+      { "feature": "Smartwatches (Wave, Storm, Lunar)", "whatItDoes": "Budget watches with calling and fitness.", "whyItMatters": "Second category; turned profitable in FY26." },
+      { "feature": "Chargers, cables and gaming", "whatItDoes": "Everyday accessories.", "whyItMatters": "Profit rose to ₹46 crore in FY26." },
+      { "feature": "Influencer and celebrity marketing", "whatItDoes": "Cricketers and stars as 'boAtheads'.", "whyItMatters": "Builds the brand image that lets boAt charge a little more than unknown brands." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying earbuds on a sale day",
+        "persona": "College student",
+        "steps": [
+          { "step": "See ad", "detail": "Sees an Instagram reel with a cricketer." },
+          { "step": "Search", "detail": "Searches 'boAt earbuds' on Amazon." },
+          { "step": "Compare", "detail": "Compares with Noise and Realme by rating and price." },
+          { "step": "Wait for sale", "detail": "Buys in Great Indian Festival at ₹1,299." },
+          { "step": "Use", "detail": "Uses daily for music and calls." },
+          { "step": "Warranty claim", "detail": "If one earbud fails, files a claim online." }
+        ]
+      },
+      {
+        "name": "Buying a smartwatch",
+        "persona": "Young professional",
+        "steps": [
+          { "step": "Research", "detail": "Watches YouTube reviews." },
+          { "step": "Choose", "detail": "Picks a watch with calling under ₹2,500." },
+          { "step": "Buy", "detail": "Orders on Flipkart." },
+          { "step": "Set up", "detail": "Installs boAt Crest app." },
+          { "step": "Daily use", "detail": "Tracks steps and sleep." }
+        ]
+      },
+      {
+        "name": "Shop purchase",
+        "persona": "Small-town shopper",
+        "steps": [
+          { "step": "Visit shop", "detail": "Goes to local mobile store." },
+          { "step": "Try product", "detail": "Tests sound." },
+          { "step": "Buy", "detail": "Pays cash or UPI." },
+          { "step": "Register warranty", "detail": "Registers online." },
+          { "step": "Service", "detail": "Visits service centre if needed." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "boAt earns the gap between what it pays factories and what customers pay, after marketplace fees and marketing. It keeps costs low by not owning big factories and spends heavily on marketing.",
+      "revenueStreams": [
+        { "stream": "Audio products", "detail": "Earbuds, headphones, speakers; about 84% of FY25 revenue." },
+        { "stream": "Wearables", "detail": "Smartwatches; about 11% of FY25 revenue." },
+        { "stream": "Accessories and gaming", "detail": "Chargers, cables, gaming gear." },
+        { "stream": "International", "detail": "₹45 crore in FY26, small but doubling." }
+      ],
+      "pricing": "Most products ₹799 to ₹4,999 on its website and marketplaces, with frequent discounts.",
+      "costDrivers": [
+        "Factory cost of products",
+        "Marketplace commissions and logistics",
+        "Celebrity and digital marketing",
+        "Warranty and returns",
+        "Staff"
+      ],
+      "unitEconomics": "Take a pair of earbuds sold for ₹1,299. Manufacturing might cost ₹600 to ₹700. Amazon or Flipkart fees and shipping take ₹150 to ₹250. Marketing per unit takes ₹100 to ₹150, and warranty and returns another ₹50. boAt may keep ₹50 to ₹100 as profit. With ₹84 crore profit on ₹2,931 crore revenue, boAt makes about ₹3 on every ₹100 of sales. These per-unit numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Celebrity and influencer marketing",
+        "Amazon and Flipkart sale events",
+        "Cricket sponsorships",
+        "Offline retail expansion",
+        "Quick commerce apps like Blinkit"
+      ],
+      "whatBringsUsersBack": [
+        "Earbuds wear out and get replaced every 1 to 2 years",
+        "New categories like watches and chargers",
+        "Brand loyalty among young buyers"
+      ],
+      "moat": "Strong brand among young Indians, top rankings on marketplaces, and scale that gets better factory prices. But products are easy to copy, so the moat is mainly the brand and distribution."
+    },
+    "competitors": [
+      { "name": "Noise", "positioning": "Leader in budget smartwatches.", "howThisProductDiffers": "boAt is stronger in audio; Noise in watches." },
+      { "name": "Realme, Redmi, OnePlus", "positioning": "Phone brands selling cheap earbuds.", "howThisProductDiffers": "Phone brands bundle with phones; boAt is audio-first." },
+      { "name": "JBL, Sony", "positioning": "Premium global audio brands.", "howThisProductDiffers": "boAt is cheaper and more youth-focused." },
+      { "name": "Apple AirPods", "positioning": "Premium earbuds.", "howThisProductDiffers": "boAt serves price-sensitive buyers." }
+    ],
+    "northStar": {
+      "metric": "Number of boAt products in active use after 6 months",
+      "why": "Shows products are good enough to keep using, which drives repeat purchase and word of mouth."
+    },
+    "kpiTree": [
+      {
+        "metric": "Units sold",
+        "description": "Sales volume.",
+        "children": [
+          { "metric": "Marketplace ranking", "description": "Top ranks drive sales." },
+          { "metric": "Offline stores stocking boAt", "description": "Reach." }
+        ]
+      },
+      {
+        "metric": "Product quality",
+        "description": "Products that last.",
+        "children": [
+          { "metric": "Return rate", "description": "Shows defects." },
+          { "metric": "Warranty claims per 100 units", "description": "Quality over time." }
+        ]
+      },
+      {
+        "metric": "Repeat purchase",
+        "description": "Customers buying again.",
+        "children": [
+          { "metric": "Repeat buyer rate", "description": "Loyalty." },
+          { "metric": "Categories per customer", "description": "Cross-sell." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross margin",
+      "Return rate",
+      "Warranty cost",
+      "Marketing spend as share of revenue"
+    ],
+    "strengths": [
+      "Top audio brand in India",
+      "Profitable and debt-free",
+      "Strong youth brand",
+      "Mostly made in India"
+    ],
+    "weaknesses": [
+      "Thin profit margins",
+      "Products easy to copy",
+      "Quality complaints",
+      "Auditors flagged financial issues before IPO"
+    ],
+    "risks": [
+      "Price wars with Chinese and phone brands",
+      "Shrinking smartwatch market",
+      "Dependence on Amazon and Flipkart",
+      "Data breach history (2024 leak of customer data was reported)"
+    ],
+    "userComplaints": [
+      "Earbuds stop working within a year",
+      "Slow warranty replacements",
+      "Smartwatch health data not accurate",
+      "Customer support hard to reach"
+    ],
+    "improvementIdeas": [
+      { "idea": "Doorstep warranty swap in top 50 cities", "problem": "Slow warranty replacements", "expectedImpact": "Higher loyalty", "metricToTrack": "Warranty resolution days", "effort": "medium" },
+      { "idea": "Premium line with better build quality", "problem": "Thin margins", "expectedImpact": "Higher margin", "metricToTrack": "Gross margin", "effort": "high" },
+      { "idea": "Trade-in program for old earbuds", "problem": "Repeat purchase", "expectedImpact": "More repeat buyers", "metricToTrack": "Repeat purchase rate", "effort": "low" },
+      { "idea": "Better app for smartwatches with clear health insights", "problem": "Watch users churn", "expectedImpact": "More daily use", "metricToTrack": "Watch app weekly active users", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Brand and distribution can win in hardware even without new technology.",
+      "Low prices bring volume but thin margins.",
+      "Selling online first and then going offline helps reach more people.",
+      "Easy-to-copy products need a strong brand to stay ahead."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you improve boAt's margins?", "hint": "Premium line, lower returns, more offline, better product mix." },
+      { "question": "Should boAt make its own factories?", "hint": "Compare control and cost with capital needs." },
+      { "question": "How would you fight Noise in smartwatches?", "hint": "Find user needs, app experience, bundles." },
+      { "question": "What is boAt's north star metric?", "hint": "Products in active use after 6 months; explain why." },
+      { "question": "How would you grow boAt abroad?", "hint": "Pick markets with similar buyers, start online, measure repeat sales." }
+    ],
+    "glossary": [
+      { "term": "D2C", "meaning": "Direct to consumer: brands selling directly to buyers." },
+      { "term": "Gross margin", "meaning": "Revenue left after paying for making the product." },
+      { "term": "Cross-sell", "meaning": "Selling another product to an existing customer." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Churn", "meaning": "When users stop using a product." },
+      { "term": "Moat", "meaning": "What makes a business hard to copy." },
+      { "term": "IPO", "meaning": "When a company first sells shares to the public." },
+      { "term": "Quick commerce", "meaning": "Apps that deliver products in minutes." }
+    ],
+    "assumptions": [
+      "Per-unit costs are estimates.",
+      "IPO status after the updated draft filing was not confirmed.",
+      "Complaints are from reviews and social media.",
+      "Data breach claim is based on 2024 news reports."
+    ]
+  }
+}

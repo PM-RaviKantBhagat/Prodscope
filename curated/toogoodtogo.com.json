@@ -1,0 +1,251 @@
+{
+  "company": "Too Good To Go",
+  "domain": "toogoodtogo.com",
+  "website": "https://toogoodtogo.com",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+    "https://thefoodbillionaire.substack.com/p/too-good-to-go-600m-meals-dkk-725m",
+    "https://andrewdremin.com/too-good-to-go-non-food-expansion/",
+    "https://shopappy.com/retail/supermarkets-grocers/ms-too-good-to-go-bakery-bags-350-stores",
+    "https://www.prnewswire.com/news-releases/too-good-to-go-accelerates-us-expansion-through-rapidly-growing-partner-network-302539498.html",
+    "https://simpleandhomely.co.uk/2025/05/24/too-good-to-go-roundup/"
+  ],
+  "report": {
+    "company": "Too Good To Go",
+    "tagline": "An app that lets cafes, bakeries and supermarkets sell their unsold food at the end of the day as cheap 'Surprise Bags', so less food gets thrown away.",
+    "category": "Food-waste marketplace",
+    "simpleSummary": "Too Good To Go is an app for rescuing food that shops would otherwise throw away. A bakery, cafe or supermarket posts a 'Surprise Bag' of leftover food, usually worth about three times what you pay. You pay in the app, for example £3.80 for a bag worth around £10, and pick it up at a set time near closing. You do not know exactly what is inside, which is part of the fun. It started in Copenhagen, Denmark, in 2015.",
+    "keyNumbers": [
+      { "label": "Meals saved", "value": "About 600 million", "note": "The Food Billionaire analysis (Substack), 2025. Too Good To Go counts each bag as about one meal saved." },
+      { "label": "Revenue", "value": "About DKK 725 million (roughly €97 million)", "note": "The Food Billionaire analysis; the year this covers is not clear from the headline, and later years are likely higher. Treat as an estimate." },
+      { "label": "Registered users", "value": "Over 100 million", "note": "Estimate based on company statements; active users are far fewer." },
+      { "label": "Typical UK Surprise Bag", "value": "£3 to £5 for about £10 to £15 of food", "note": "Example: M&S bakery bags at £3.80 for about £10 of food in 350 stores, per ShopAppy." },
+      { "label": "Markets", "value": "About 19 countries in Europe and North America", "note": "Approximate, company website; expanding in the US." }
+    ],
+    "overview": {
+      "whatItDoes": "Too Good To Go runs a marketplace between food businesses with surplus food and people who want a cheap meal. Shops get some money back for food they would bin, users get food at a big discount, and less food goes to waste. It now also sells near-expiry packaged goods and is testing non-food surplus.",
+      "howItWorks": [
+        "A store lists how many Surprise Bags it expects to have today, the price, and a pick-up window, often near closing time.",
+        "Users browse a map or list of nearby bags and reserve one by paying in the app.",
+        "At the pick-up time, the user shows the app at the counter and gets a bag of whatever is left that day.",
+        "Too Good To Go keeps a fixed fee per bag sold, and stores pay a yearly membership fee to list.",
+        "Users rate the bag, and stores with poor ratings get fewer bookings.",
+        "The 'Too Good To Go Parcels' and in-app shop sell boxes of near-expiry groceries delivered to the door in some countries."
+      ],
+      "valueProposition": "For users: good food for about a third of the price, and a small way to fight food waste. For stores: money back on food they would throw away, plus new customers walking in."
+    },
+    "personas": [
+      {
+        "name": "Budget-conscious student",
+        "description": "19 to 24, lives near a city centre, eats on a tight budget.",
+        "goals": ["Cheap meals", "Treats like pastries for less"],
+        "frustrations": ["Bags sell out in seconds", "Pick-up times clash with lectures"]
+      },
+      {
+        "name": "Eco-minded young professional",
+        "description": "25 to 35, cares about food waste and the climate.",
+        "goals": ["Reduce waste", "Try new local cafes"],
+        "frustrations": ["Bag contents vary a lot", "Store forgot about the bag or had nothing left"]
+      },
+      {
+        "name": "Bakery or cafe owner",
+        "description": "Runs an independent bakery that throws away bread every night.",
+        "goals": ["Recover some money", "Attract new customers", "Reduce waste for the brand image"],
+        "frustrations": ["Hard to predict how many bags to list", "Customers expecting too much in the bag"]
+      },
+      {
+        "name": "Supermarket sustainability manager",
+        "description": "Works at a chain like M&S, Morrisons or Greggs with waste targets.",
+        "goals": ["Hit food waste targets", "Simple process for store staff"],
+        "frustrations": ["Staff time to pack bags", "Brand risk if bags disappoint"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Food is expensive, especially treats and fresh bakery items.", "howSolved": "Surprise Bags at about a third of normal price.", "severity": "high" },
+      { "pain": "Stores bin good food every evening.", "howSolved": "Sell surplus as Surprise Bags and get some money back.", "severity": "high" },
+      { "pain": "People feel guilty about food waste but do not know how to help.", "howSolved": "Every bag is a visible, easy action, with 'meals saved' tracked in the app.", "severity": "medium" },
+      { "pain": "Small cafes struggle to reach new customers.", "howSolved": "The app sends nearby users who may become regulars.", "severity": "medium" },
+      { "pain": "Near-expiry packaged goods are hard to sell.", "howSolved": "In-app shop and Parcels for longer-life surplus.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Surprise Bags", "whatItDoes": "Bags of mixed surplus food at a fixed low price.", "whyItMatters": "Stores do not have to list each item; surprise makes it fun and keeps it simple." },
+      { "feature": "Map and favourites", "whatItDoes": "Shows bags near you and lets you favourite stores.", "whyItMatters": "Builds habits around a few nearby stores." },
+      { "feature": "Pick-up windows", "whatItDoes": "Set times, usually near closing.", "whyItMatters": "Matches when surplus exists and keeps stores' workflow simple." },
+      { "feature": "Ratings", "whatItDoes": "Users rate bag quality and store experience.", "whyItMatters": "Keeps stores honest and builds trust." },
+      { "feature": "Impact tracker", "whatItDoes": "Shows meals saved, money saved and CO2 avoided.", "whyItMatters": "Turns the mission into a reason to keep using the app." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First Surprise Bag",
+        "persona": "Budget-conscious student",
+        "steps": [
+          { "step": "Discover", "detail": "A friend posts a TikTok of a huge Greggs bag for £3." },
+          { "step": "Install", "detail": "Downloads the app and allows location." },
+          { "step": "Browse", "detail": "Sees bags near campus on the map." },
+          { "step": "Reserve", "detail": "Pays £3.50 for a bakery bag with a 5pm to 5.30pm pick-up." },
+          { "step": "Collect", "detail": "Shows the app at the counter and gets the bag." },
+          { "step": "Rate", "detail": "Rates the bag 5 stars and favourites the store." }
+        ]
+      },
+      {
+        "name": "Weekly habit",
+        "persona": "Eco-minded young professional",
+        "steps": [
+          { "step": "Alert", "detail": "Gets a notification that a favourite cafe has bags today." },
+          { "step": "Reserve fast", "detail": "Books before it sells out." },
+          { "step": "Collect after work", "detail": "Picks up on the way home." },
+          { "step": "Track impact", "detail": "Sees meals saved go up in the app." },
+          { "step": "Share", "detail": "Shares impact stats with friends." }
+        ]
+      },
+      {
+        "name": "Store joins",
+        "persona": "Bakery or cafe owner",
+        "steps": [
+          { "step": "Sign up", "detail": "Signs up and pays the yearly membership fee." },
+          { "step": "Set bags", "detail": "Chooses bag price, value and daily quantity." },
+          { "step": "Pack", "detail": "Staff pack leftovers before closing." },
+          { "step": "Hand over", "detail": "Customers show the app and collect." },
+          { "step": "Adjust", "detail": "Changes daily quantity based on how much is left over." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Too Good To Go earns a fixed fee on each bag sold and a yearly membership fee from each store. It holds no food and does not deliver Surprise Bags, so its costs are mostly staff, tech and marketing.",
+      "revenueStreams": [
+        { "stream": "Fee per bag", "detail": "A fixed part of each bag's price, often around £1 in the UK." },
+        { "stream": "Store membership", "detail": "A yearly fee each store pays to list, around £39 in the UK." },
+        { "stream": "Parcels and in-app shop", "detail": "Margin on near-expiry packaged goods sold online." },
+        { "stream": "Partnerships", "detail": "Deals with big chains and brands." }
+      ],
+      "pricing": "Users pay the bag price, usually £3 to £5 in the UK. Stores pay a yearly membership fee and give Too Good To Go a fixed fee per bag sold.",
+      "costDrivers": [
+        "Sales teams to sign up stores",
+        "Customer support for disputes about bag contents",
+        "Technology and app development",
+        "Marketing in new countries",
+        "Payment processing"
+      ],
+      "unitEconomics": "On a £3.80 bag, Too Good To Go might keep about £1 to £1.10, and the store keeps the rest. Card fees cost about £0.10. There is no delivery or stock cost. So most of that £1 is gross profit. The challenge is that each bag earns very little, so the company needs huge volume to pay for sales teams, support and marketing. Analysts question whether it can turn revenue growth into steady profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral TikTok and Instagram videos of big bags",
+        "Partnerships with big brands like Greggs, M&S and Costa",
+        "Press coverage about food waste",
+        "Word of mouth"
+      ],
+      "whatBringsUsersBack": [
+        "Favourite stores and alerts",
+        "Cheap meals",
+        "The surprise and fun",
+        "Impact stats"
+      ],
+      "moat": "Too Good To Go has the largest network of food stores and users for surplus food in Europe. Stores join because users are there, and users come because stores are there. Its brand is tied to the anti-waste mission, which is hard to copy."
+    },
+    "competitors": [
+      { "name": "Olio", "positioning": "Free sharing app for surplus food.", "howThisProductDiffers": "Too Good To Go is paid and store-focused; Olio is mostly free and neighbour-to-neighbour." },
+      { "name": "Supermarket yellow stickers", "positioning": "Reduced prices on near-expiry items in store.", "howThisProductDiffers": "Too Good To Go lets you reserve ahead and gets bigger discounts." },
+      { "name": "Karma", "positioning": "Swedish app for surplus food.", "howThisProductDiffers": "Too Good To Go is much bigger and in more countries." },
+      { "name": "Flashfood", "positioning": "North American app for discounted groceries.", "howThisProductDiffers": "Flashfood lists specific items; Too Good To Go uses surprise bags." }
+    ],
+    "northStar": {
+      "metric": "Surprise Bags collected per week",
+      "why": "Each collected bag means food saved from the bin, a happy user and money back to a store. It captures the mission and the business together."
+    },
+    "kpiTree": [
+      {
+        "metric": "Bags listed",
+        "description": "Supply of bags each day.",
+        "children": [
+          { "metric": "Active stores", "description": "Stores listing at least once a week, driven by sales team sign-ups and how many stores stay after the first year." },
+          { "metric": "Bags per store per day", "description": "How much surplus each store puts on the app; better forecasting lets stores list more with confidence." },
+          { "metric": "Big-chain store coverage", "description": "Share of a partner chain's stores (like Greggs or M&S) that actively list, a cheap way to add supply." }
+        ]
+      },
+      {
+        "metric": "Sell-through",
+        "description": "Share of listed bags reserved.",
+        "children": [
+          { "metric": "Active users near stores", "description": "Demand near each store." },
+          { "metric": "Favourite alert conversion", "description": "Alerts that lead to reservations." }
+        ]
+      },
+      {
+        "metric": "Collection rate",
+        "description": "Share of reserved bags collected.",
+        "children": [
+          { "metric": "Store cancellations", "description": "Stores cancelling because nothing was left." },
+          { "metric": "User no-shows", "description": "Users missing the pick-up." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Average bag rating",
+      "Store cancellation rate",
+      "Store churn",
+      "Refund rate"
+    ],
+    "strengths": [
+      "Clear mission users love",
+      "Simple model with no stock or delivery",
+      "Big network of stores in Europe",
+      "Strong brand partners"
+    ],
+    "weaknesses": [
+      "Low revenue per bag",
+      "Bag quality varies",
+      "Popular bags sell out fast",
+      "Profit is uncertain"
+    ],
+    "risks": [
+      "Stores getting better at reducing waste, so less surplus",
+      "Supermarkets building their own apps",
+      "Competition from Olio and local apps",
+      "User disappointment hurting the brand"
+    ],
+    "userComplaints": [
+      "Bags sometimes poor value or with items they cannot eat",
+      "Store cancels last minute",
+      "Bags sell out in seconds",
+      "Staff unaware of the bag at pick-up",
+      "Dietary needs not met"
+    ],
+    "improvementIdeas": [
+      { "idea": "Dietary tags on bags, such as vegetarian or no nuts.", "problem": "Users get items they cannot eat.", "expectedImpact": "Higher ratings and repeat use.", "metricToTrack": "Average bag rating", "effort": "low" },
+      { "idea": "Waste forecasting for stores using past sales.", "problem": "Stores list the wrong number of bags, leading to cancellations.", "expectedImpact": "Fewer cancellations.", "metricToTrack": "Store cancellation rate", "effort": "medium" },
+      { "idea": "Waitlist for popular bags.", "problem": "Bags sell out fast.", "expectedImpact": "More bags sold and less frustration.", "metricToTrack": "Sell-through", "effort": "low" },
+      { "idea": "Staff training mode in the store app.", "problem": "Staff do not know about bags at pick-up.", "expectedImpact": "Smoother pick-ups.", "metricToTrack": "Pick-up complaints", "effort": "low" }
+    ],
+    "pmLessons": [
+      "A mission can drive growth and loyalty if it is easy to act on.",
+      "A surprise element can turn a constraint, unknown leftovers, into a fun feature.",
+      "Low-revenue-per-transaction models need huge scale to make money.",
+      "Two-sided marketplaces need both sides to have a good experience; one bad bag can lose a user."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you improve bag quality without losing the surprise?", "hint": "Separate what users hate (items they cannot eat, poor value) from what they enjoy (not knowing exactly what is coming). Suggest dietary tags and a minimum value promise, and measure average rating and 30-day repeat use." },
+      { "question": "How would you grow Too Good To Go in the US?", "hint": "Name the barriers: people drive more, chains have central waste rules, and fewer users live near each store. Pick one dense city and one partner type, like bakery chains, and set a sell-through target." },
+      { "question": "What is Too Good To Go's north star metric, and how would you break it down?", "hint": "Bags collected per week. Split it into bags listed (supply), share reserved (sell-through) and share actually collected, each with two or three inputs a team can move." },
+      { "question": "How would you reduce last-minute store cancellations?", "hint": "Find the cause first: stores overestimate leftovers or forget the bags. Suggest forecasting from past surplus and staff reminders, and track cancellation rate with store churn as a guardrail." },
+      { "question": "Should Too Good To Go expand beyond food?", "hint": "Weigh fit with the anti-waste mission, real demand and the extra complexity for stores. Suggest a small test in one market with a clear success bar before rolling out." }
+    ],
+    "glossary": [
+      { "term": "Surprise Bag", "meaning": "A bag of unsold food sold at a discount, with the exact contents unknown until pick-up." },
+      { "term": "Marketplace", "meaning": "A platform that connects sellers and buyers." },
+      { "term": "Sell-through", "meaning": "The share of listed bags that get reserved." },
+      { "term": "Two-sided marketplaces", "meaning": "Platforms that need both buyers and sellers to work." },
+      { "term": "Gross profit", "meaning": "What is left from revenue after direct costs." },
+      { "term": "Churn", "meaning": "The share of users or partners who stop using the product." },
+      { "term": "North star", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Revenue and user numbers are estimates; the year for the revenue figure is unclear.",
+      "Fee per bag and store membership fee are approximate UK figures.",
+      "Countries count is approximate.",
+      "Meals saved is Too Good To Go's own measure."
+    ]
+  }
+}

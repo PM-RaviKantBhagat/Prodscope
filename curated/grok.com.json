@@ -1,0 +1,560 @@
+{
+  "company": "Grok",
+  "domain": "grok.com",
+  "website": "https://grok.com",
+  "sources": [
+    "https://finance.yahoo.com/sectors/technology/articles/xai-burned-6-4b-last-222608682.html",
+    "https://pulse2.com/spacex-grok-reaches-117-million-users-as-ai-push-accelerates/",
+    "https://sacra.com/c/xai/",
+    "https://www.wionews.com/world/grok-tripled-its-users-in-three-months-then-growth-suddenly-stalled-1785196377181/amp",
+    "https://www.kucoin.com/news/flash/xai-2025-operational-loss-surpasses-6-4-billion-despite-revenue-growth"
+  ],
+  "report": {
+    "company": "Grok",
+    "tagline": "xAI's chatbot, built into X, that answers with live posts from X and a deliberately edgy personality.",
+    "category": "AI assistant",
+    "simpleSummary": "Grok is an AI chatbot made by Elon Musk's company xAI. It sits inside the X app (formerly Twitter) and also has its own app and website. You can ask it anything, and it can pull in what people are posting on X right now. It is known for a cheeky, less filtered tone, which wins fans and also gets it into trouble.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "117 million (March 2026)",
+        "note": "From the SpaceX IPO filing. Combined X and Grok MAU was 550 million, so Grok reaches about one in five X-family users."
+      },
+      {
+        "label": "xAI revenue",
+        "value": "$3.2 billion (2025)",
+        "note": "SpaceX filing. Includes X advertising, which is most of it. Only $465 million was AI and infrastructure revenue."
+      },
+      {
+        "label": "Subscription revenue",
+        "value": "$365 million (2025)",
+        "note": "X Premium and Grok subscriptions combined, from the SpaceX filing."
+      },
+      {
+        "label": "Operating loss",
+        "value": "$6.4 billion (2025)",
+        "note": "SpaceX filing. Up from $1.56 billion loss in 2024. Driven by compute and data centres."
+      },
+      {
+        "label": "AI capital spending",
+        "value": "$7.7 billion in Q1 2026 alone",
+        "note": "SpaceX filing. About $30 billion a year at that pace, mostly for the Colossus supercomputers in Memphis."
+      },
+      {
+        "label": "Top paid plan",
+        "value": "$300 a month (SuperGrok Heavy)",
+        "note": "Price on grok.com. SuperGrok is about $30 a month. Prices change often."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Grok is a general AI assistant for questions, writing, coding, image and video creation. Its special trick is real-time access to X posts, so it can explain breaking news or a trending topic. It lives inside X, which gives it hundreds of millions of potential users from day one.",
+      "howItWorks": [
+        "On X, users tap the Grok button or tag @grok under any post to ask it to explain or fact-check.",
+        "On grok.com and the Grok app, it works like ChatGPT with chat, voice mode, file upload and a 'Think' reasoning mode.",
+        "Grok Imagine creates images and short videos from text prompts.",
+        "Companions like 'Ani' are animated characters you can talk to by voice.",
+        "Free users get limited use; X Premium, SuperGrok ($30 a month) and SuperGrok Heavy ($300 a month) unlock more.",
+        "Developers can pay per token to use Grok models through the xAI API."
+      ],
+      "valueProposition": "The AI that knows what is happening right now on X and talks to you without corporate filters."
+    },
+    "personas": [
+      {
+        "name": "X power user",
+        "description": "Someone who spends an hour a day on X following news, crypto or politics and wants quick context on viral posts.",
+        "goals": [
+          "Understand a trending thread fast",
+          "Check if a viral claim is true",
+          "Get a summary of today's news"
+        ],
+        "frustrations": [
+          "Grok's fact-checks are sometimes wrong",
+          "Free limits run out quickly",
+          "Answers sometimes repeat the owner's views"
+        ]
+      },
+      {
+        "name": "Creator making images and video",
+        "description": "A meme page or YouTuber who uses Grok Imagine for quick visuals.",
+        "goals": [
+          "Make eye-catching images in seconds",
+          "Fewer content restrictions than rivals",
+          "Post straight to X"
+        ],
+        "frustrations": [
+          "Sudden policy changes that block prompts",
+          "Quality not always as good as Midjourney",
+          "Generation limits on cheaper plans"
+        ]
+      },
+      {
+        "name": "Developer testing frontier models",
+        "description": "An engineer comparing Grok, Claude, GPT and Gemini on coding and reasoning.",
+        "goals": [
+          "Find the best model per price",
+          "Use long context for big codebases",
+          "Get fast responses"
+        ],
+        "frustrations": [
+          "Brand risk of using Grok in customer-facing apps",
+          "Fewer tools and integrations than OpenAI",
+          "Concern about safety testing"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Other chatbots do not know what happened in the last hour.",
+        "howSolved": "Grok searches live X posts and the web, so it can explain breaking news.",
+        "severity": "high"
+      },
+      {
+        "pain": "Viral posts on X often lack context or are misleading.",
+        "howSolved": "Users tag @grok under a post to get an explanation or check, right in the thread.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Some users find other AI assistants preachy or overly cautious.",
+        "howSolved": "Grok is tuned to be more casual and answer edgier questions.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Making images and video usually needs a separate paid tool.",
+        "howSolved": "Grok Imagine is built into the same app and X.",
+        "severity": "low"
+      },
+      {
+        "pain": "Switching between apps to search and chat is slow.",
+        "howSolved": "Grok is one tap away inside X, which many people already have open.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "@grok on X",
+        "whatItDoes": "Anyone can tag Grok in a reply to ask about a post, and Grok replies publicly.",
+        "whyItMatters": "Every public reply is free advertising seen by millions, a built-in growth loop."
+      },
+      {
+        "feature": "Real-time X search",
+        "whatItDoes": "Pulls in fresh posts and trends when answering.",
+        "whyItMatters": "The main thing rivals cannot easily copy, because xAI owns X's data."
+      },
+      {
+        "feature": "Think and Heavy modes",
+        "whatItDoes": "Reasoning modes that take longer to solve hard maths and coding problems, with Heavy running several agents at once.",
+        "whyItMatters": "Justifies the $30 and $300 paid plans for power users."
+      },
+      {
+        "feature": "Grok Imagine",
+        "whatItDoes": "Text to image and text to short video.",
+        "whyItMatters": "Drives engagement and shareable content on X, but also caused safety scandals."
+      },
+      {
+        "feature": "Companions and voice",
+        "whatItDoes": "Animated characters and voice chat for casual conversation.",
+        "whyItMatters": "Raises time spent and gives a reason to subscribe beyond work tasks."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Checking a viral post",
+        "persona": "X power user",
+        "steps": [
+          {
+            "step": "Sees a viral claim",
+            "detail": "Scrolling X, sees a shocking claim with 2 million views."
+          },
+          {
+            "step": "Tags Grok",
+            "detail": "Replies '@grok is this true?'"
+          },
+          {
+            "step": "Gets public reply",
+            "detail": "Grok replies in the thread with context and links."
+          },
+          {
+            "step": "Others read it",
+            "detail": "Thousands see the Grok reply and learn they can do the same."
+          },
+          {
+            "step": "Hits free limit",
+            "detail": "After several questions, gets prompted to upgrade to Premium."
+          },
+          {
+            "step": "Upgrades or waits",
+            "detail": "Pays for X Premium or waits for limits to reset."
+          }
+        ]
+      },
+      {
+        "name": "Signing up for SuperGrok",
+        "persona": "Developer testing frontier models",
+        "steps": [
+          {
+            "step": "Reads a benchmark post",
+            "detail": "Sees a new Grok model top a leaderboard."
+          },
+          {
+            "step": "Tries free on grok.com",
+            "detail": "Signs in with an X account and tests a coding task."
+          },
+          {
+            "step": "Hits model limits",
+            "detail": "The best model or Heavy mode is locked."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Pays $30 a month for SuperGrok."
+          },
+          {
+            "step": "Compares daily",
+            "detail": "Uses Grok alongside Claude and ChatGPT, keeping whichever wins."
+          },
+          {
+            "step": "Decides to stay or cancel",
+            "detail": "Keeps paying only if Grok wins on enough tasks."
+          }
+        ]
+      },
+      {
+        "name": "Making a meme video",
+        "persona": "Creator making images and video",
+        "steps": [
+          {
+            "step": "Opens Grok app",
+            "detail": "Goes to the Imagine tab."
+          },
+          {
+            "step": "Types a prompt",
+            "detail": "Describes a funny scene."
+          },
+          {
+            "step": "Picks a result",
+            "detail": "Chooses one of several generated images and animates it."
+          },
+          {
+            "step": "Posts to X",
+            "detail": "Shares directly, and followers ask how it was made."
+          },
+          {
+            "step": "Comes back",
+            "detail": "Returns the next day for the next trend."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Grok makes money from subscriptions (bundled with X Premium or sold as SuperGrok), from developer API usage, and indirectly by keeping people on X where ads are shown. Today it loses a lot of money because xAI spends tens of billions on compute. The bet is that owning X's distribution and data, plus SpaceX's money, lets it catch up with OpenAI and Google.",
+      "revenueStreams": [
+        {
+          "stream": "Consumer subscriptions",
+          "detail": "X Premium and Premium+ include Grok; standalone SuperGrok is about $30 a month and SuperGrok Heavy $300 a month. Together with X subscriptions, $365 million in 2025."
+        },
+        {
+          "stream": "xAI API",
+          "detail": "Developers pay per token for Grok models. Part of the $465 million AI and infrastructure revenue in 2025."
+        },
+        {
+          "stream": "Data licensing",
+          "detail": "$88 million in 2025 from licensing X data."
+        },
+        {
+          "stream": "Indirect ad support",
+          "detail": "Grok features keep users on X, where ads earn money."
+        },
+        {
+          "stream": "Government and enterprise",
+          "detail": "Grok for Government and business plans, still small."
+        }
+      ],
+      "pricing": "Free tier with limits. SuperGrok about $30 a month. SuperGrok Heavy about $300 a month. Also included in X Premium and Premium+ (prices vary by country). API priced per million tokens.",
+      "costDrivers": [
+        "GPUs and data centres (Colossus in Memphis, about 1 gigawatt of compute)",
+        "Electricity and cooling",
+        "Free usage on X by hundreds of millions of people",
+        "AI researcher salaries",
+        "Content safety and legal costs after scandals"
+      ],
+      "unitEconomics": "A SuperGrok subscriber pays about $30 a month. A heavy user might use $10 to 20 of compute, so a typical subscriber is likely profitable on serving costs. But xAI as a whole spent about $2 for every $1 of revenue in 2025 on operations alone, plus billions on chips. For each of the 117 million monthly users, xAI earns only a few dollars a year. So Grok loses money per user overall today, and needs either many more paying users or a much bigger API business."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Built into X, which has hundreds of millions of monthly users",
+        "Public @grok replies that show the product to everyone reading a thread",
+        "Elon Musk's posts to over 200 million followers announcing new models",
+        "Viral image and video features, sometimes controversial",
+        "Partnerships such as integration into Telegram and Tesla cars"
+      ],
+      "whatBringsUsersBack": [
+        "Daily news habit on X, with Grok one tap away",
+        "New model releases every few months that grab attention",
+        "Companions and voice chats that build a personal habit",
+        "Subscription bundled with X Premium, so paying X users already have it"
+      ],
+      "moat": "Grok's edge is distribution and data: it lives inside X and can read X posts in real time, which no rival can do. Deep pockets from SpaceX let it buy huge amounts of compute. But model quality is close to rivals, and its brand is tied to Musk, which helps with some users and scares off many businesses."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT (OpenAI)",
+        "positioning": "The most used AI assistant, broad features, strong brand with businesses.",
+        "howThisProductDiffers": "Grok has live X data and a looser tone, but far fewer users and weaker enterprise trust."
+      },
+      {
+        "name": "Gemini (Google)",
+        "positioning": "AI in Search, Android and Workspace with over 1 billion monthly users.",
+        "howThisProductDiffers": "Google has far more distribution; Grok wins only on real-time social content."
+      },
+      {
+        "name": "Meta AI",
+        "positioning": "AI built into WhatsApp, Instagram and Facebook.",
+        "howThisProductDiffers": "Same 'built into social' play, but Meta's apps are much bigger; Grok is more of a power-user tool."
+      },
+      {
+        "name": "Claude (Anthropic)",
+        "positioning": "Trusted AI for coding and business work.",
+        "howThisProductDiffers": "Claude is chosen for safety and coding; Grok competes on price and fewer restrictions."
+      },
+      {
+        "name": "Perplexity",
+        "positioning": "AI answer engine with live web search and sources.",
+        "howThisProductDiffers": "Both offer fresh information; Perplexity is web-wide with citations, Grok is strongest on X posts."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly users who get at least one answer they act on or share",
+      "why": "It counts people who got real value, not just opened the app. Sharing or acting on an answer is the core loop on X, and it captures both usefulness and spread. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Reach inside X",
+        "description": "How many X users discover and try Grok.",
+        "children": [
+          {
+            "metric": "Share of X MAU who use Grok",
+            "description": "About one in five today; the biggest lever for growth."
+          },
+          {
+            "metric": "@grok mentions per day",
+            "description": "Public tags show and spread the product."
+          },
+          {
+            "metric": "Grok button tap rate on posts",
+            "description": "Shows if the in-feed entry point is working."
+          }
+        ]
+      },
+      {
+        "metric": "Answer quality and trust",
+        "description": "Whether answers are correct and useful.",
+        "children": [
+          {
+            "metric": "Fact-check accuracy rate",
+            "description": "Measured on sampled public replies; wrong replies damage trust in public."
+          },
+          {
+            "metric": "Thumbs up rate",
+            "description": "Direct user rating of answers."
+          },
+          {
+            "metric": "Safety incident count",
+            "description": "Harmful outputs that make news drive users and advertisers away."
+          }
+        ]
+      },
+      {
+        "metric": "Repeat usage",
+        "description": "Whether users come back.",
+        "children": [
+          {
+            "metric": "Week 4 retention of new Grok users",
+            "description": "Share still active a month later."
+          },
+          {
+            "metric": "Sessions per user per week",
+            "description": "Habit strength."
+          },
+          {
+            "metric": "Standalone app share of usage",
+            "description": "Usage outside X shows Grok is valued on its own."
+          }
+        ]
+      },
+      {
+        "metric": "Paying users",
+        "description": "Users on SuperGrok or X Premium who use Grok.",
+        "children": [
+          {
+            "metric": "Free to paid conversion rate",
+            "description": "Share of active users who subscribe."
+          },
+          {
+            "metric": "Monthly paid churn",
+            "description": "Share of subscribers who cancel each month."
+          },
+          {
+            "metric": "Heavy plan uptake",
+            "description": "Share of payers on the $300 plan, which drives revenue per user."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Number of harmful or illegal outputs flagged by regulators or press",
+      "Advertiser retention on X",
+      "Compute cost per active user",
+      "Regulatory actions or country bans"
+    ],
+    "strengths": [
+      "Built-in distribution through X with 550 million combined users",
+      "Unique real-time data from X posts",
+      "Huge compute budget backed by SpaceX",
+      "Fast shipping: new models and features every few months",
+      "Strong fan base among X users who like its tone"
+    ],
+    "weaknesses": [
+      "Large losses: $6.4 billion operating loss in 2025",
+      "Brand tied to Elon Musk, which puts off many businesses and some users",
+      "Repeated safety scandals, from offensive posts in 2025 to sexualised deepfake images in early 2026",
+      "Growth stalled after a fast rise, according to 2026 reports",
+      "Small enterprise business compared with OpenAI, Anthropic and Google"
+    ],
+    "risks": [
+      "Regulators in the UK, EU, India and Southeast Asia investigating or restricting Grok over deepfake images",
+      "Advertisers avoiding X if Grok creates harmful content",
+      "Rivals adding real-time social data through deals with Reddit and others",
+      "Compute costs rising faster than revenue",
+      "Leadership and talent churn at xAI"
+    ],
+    "userComplaints": [
+      "Wrong or biased fact-checks posted publicly under viral posts",
+      "Answers that seem to echo Elon Musk's own opinions",
+      "Image tools used to create non-consensual sexual images of real people",
+      "Confusing plans: X Premium vs SuperGrok vs Heavy, with limits that change",
+      "Free limits that run out quickly"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Add visible sources and a confidence label to every public @grok reply",
+        "problem": "Wrong public fact-checks hurt trust and spread misinformation.",
+        "expectedImpact": "Fewer viral mistakes, higher trust in Grok replies.",
+        "metricToTrack": "Fact-check accuracy rate and share of replies with sources",
+        "effort": "medium"
+      },
+      {
+        "idea": "Block image edits of real, identifiable people without their consent",
+        "problem": "Deepfake scandals triggered regulator action and scared advertisers.",
+        "expectedImpact": "Fewer bans and investigations, safer brand for advertisers.",
+        "metricToTrack": "Number of safety incidents and regulator complaints",
+        "effort": "medium"
+      },
+      {
+        "idea": "Simplify plans into one clear ladder shown inside X",
+        "problem": "Users are confused about what X Premium, SuperGrok and Heavy include.",
+        "expectedImpact": "Higher conversion and fewer support complaints.",
+        "metricToTrack": "Free to paid conversion rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Launch a regional low-price plan for India and Southeast Asia",
+        "problem": "$30 a month is too expensive in large, fast-growing markets.",
+        "expectedImpact": "More paying users where X is popular.",
+        "metricToTrack": "Paid users in India and Southeast Asia",
+        "effort": "low"
+      },
+      {
+        "idea": "Personal daily briefing built from the accounts you follow",
+        "problem": "Growth stalled; users need a daily reason to open Grok.",
+        "expectedImpact": "Stronger daily habit and retention.",
+        "metricToTrack": "Week 4 retention and daily active users",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Distribution is a big advantage. Being one tap away inside X got Grok to 100 million plus users faster than almost any new app.",
+      "Personality can be a feature, but it needs guardrails. The same edginess that attracts fans causes scandals that cost trust.",
+      "Public use is a growth loop. Every @grok reply teaches other users what the product does.",
+      "Unique data is a moat. Real-time X posts are something rivals cannot copy easily.",
+      "Users is not the same as revenue. Grok has huge reach but earns only a few dollars per user a year."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Grok's user growth stalled in 2026. How would you diagnose why?",
+        "hint": "Break down the funnel: X users who see Grok, try it, return, pay. Check by country, platform and entry point. Look at events like the deepfake scandal. Form hypotheses and the data to test each."
+      },
+      {
+        "question": "How would you design safety rules for Grok Imagine without killing what users like about it?",
+        "hint": "List harms (real people, minors, violence). Separate hard bans from adjustable defaults. Use age checks and opt-ins. Measure harmful outputs and creator retention together."
+      },
+      {
+        "question": "Should Grok be a separate app or stay inside X?",
+        "hint": "Compare reach and data (inside X) with brand freedom and business trust (separate). Look at where usage and paying users come from. Suggest both, with a clear role for each."
+      },
+      {
+        "question": "What is the right north star for Grok?",
+        "hint": "Avoid pure revenue or MAU. Suggest something like weekly users who act on or share an answer. Explain drivers and guardrails like safety incidents."
+      },
+      {
+        "question": "xAI loses billions. How would you grow Grok's revenue per user?",
+        "hint": "Segment free, Premium, SuperGrok, Heavy, API. Ideas: better conversion, regional pricing, business plans, ads in Grok answers. Weigh each against trust and user experience."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "MAU",
+        "meaning": "Monthly active users: people who used the product at least once in a month."
+      },
+      {
+        "term": "API",
+        "meaning": "A way for other software to use Grok's AI and pay per use."
+      },
+      {
+        "term": "Token",
+        "meaning": "A small chunk of text, used to measure and price AI usage."
+      },
+      {
+        "term": "Operating loss",
+        "meaning": "How much more a company spends running its business than it earns from sales."
+      },
+      {
+        "term": "Distribution",
+        "meaning": "The channels that put a product in front of users, like being built into X."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a given period."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard for competitors to copy."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The single number that best shows whether users are getting value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you chase growth."
+      },
+      {
+        "term": "Deepfake",
+        "meaning": "A fake but realistic image or video of a real person made with AI."
+      }
+    ],
+    "assumptions": [
+      "Compute cost per SuperGrok subscriber is an estimate, not disclosed by xAI.",
+      "Subscription revenue of $365 million combines X Premium and Grok; the split is not public.",
+      "Prices for SuperGrok and Heavy are from the site at time of writing and change often.",
+      "The north star metric is our suggestion, not one xAI publishes.",
+      "Reports of stalled growth are from news coverage in 2026 and may have changed since."
+    ]
+  }
+}

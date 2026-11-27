@@ -1,0 +1,260 @@
+{
+  "company": "Temu",
+  "domain": "temu.com",
+  "website": "https://temu.com",
+  "sources": [
+    "https://shopappy.com/ecommerce/temu/pdd-q2-2026-results-temu-eu-parcel-duty",
+    "https://qz.com/pdd-holdings-stock-jumps-profit-beat-temu-111926",
+    "https://ppc.land/temu-owner-pdd-cuts-marketing-spend-17-as-revenue-stalls/",
+    "https://theinference.org/article/temu-turns-off-spin-the-wheel-in-europe-a-day-before-black-friday-and-pdd-s-28-8-margin-pays-for-it",
+    "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
+    "https://supplychaindive.com/news/temu-owner-invests-in-local-fulfillment-in-face-of-de-minimis-changes/829446",
+    "https://english.ebrun.com/20260611/680238.shtml"
+  ],
+  "report": {
+    "company": "Temu",
+    "tagline": "A shopping app selling very cheap goods, mostly made in China, to shoppers in the US, UK, Europe and over 80 other countries.",
+    "category": "Discount e-commerce",
+    "simpleSummary": "Temu is an app where you can buy a phone case for £2 or a dress for £8. Most items come straight from Chinese factories, which is why they are so cheap. The app feels like a game, with spinning wheels, coupons and countdown timers. It is owned by PDD Holdings, the company behind China's Pinduoduo.",
+    "keyNumbers": [
+      { "label": "PDD revenue, Q2 2026", "value": "RMB 112.4 billion (about $16.6 billion)", "note": "PDD Q2 2026 results via ShopAppy. Temu is not reported separately; its fees sit in 'transaction services', RMB 54.7 billion, up 13%." },
+      { "label": "PDD revenue growth, Q3 2026", "value": "Roughly flat", "note": "Q3 2026 results reported November 2026 (Quartz, PPC Land). Operating profit rose about 25% after marketing spend was cut about 17%." },
+      { "label": "Temu GMV, 2025", "value": "About $70 to 80 billion", "note": "Estimate from analyst reports; PDD does not disclose Temu GMV." },
+      { "label": "Monthly active users", "value": "Several hundred million worldwide", "note": "Estimate from app data firms. Tech Times reported Temu lost about 11% of EU users ahead of an August 2026 EU deadline." },
+      { "label": "EU fine", "value": "€200 million", "note": "European Commission Digital Services Act fine for not assessing risk from illegal products, 2026." },
+      { "label": "Launch", "value": "September 2022 (US)", "note": "Company history; now in over 80 countries." }
+    ],
+    "overview": {
+      "whatItDoes": "Temu lets factories and sellers, mostly in China, sell directly to shoppers abroad at very low prices. Temu sets the selling price, runs the app and arranges shipping. Since the US ended duty-free entry for small parcels in 2025, Temu has moved more stock into local warehouses and onto local sellers.",
+      "howItWorks": [
+        "Under the 'fully managed' model, a Chinese supplier sends stock to a Temu warehouse in China; Temu sets the retail price, markets it and ships it.",
+        "Under the newer 'local' or semi-managed model, sellers keep stock in US or European warehouses and ship themselves, which avoids per-parcel import duties.",
+        "Shoppers browse an endless feed of deals, collect coupons and play games such as spin-the-wheel for discounts.",
+        "Free shipping and free returns on the first return for most orders, plus price-adjustment refunds if the price drops.",
+        "Referral rewards give credits when friends sign up and buy."
+      ],
+      "valueProposition": "Very low prices on everyday items, gadgets and clothes, with free shipping and the fun of hunting for deals."
+    },
+    "personas": [
+      {
+        "name": "Price-first family shopper",
+        "description": "Parent in the US or UK on a tight budget who buys kitchen tools, kids' clothes and party items.",
+        "goals": ["Lowest possible price", "Free delivery", "Many items in one order"],
+        "frustrations": ["Poor quality on some items", "Long delivery times", "Items that look different from photos"]
+      },
+      {
+        "name": "Hobbyist and crafter",
+        "description": "Buys craft supplies, phone accessories and small tools in bulk.",
+        "goals": ["Cheap supplies in big quantities", "Find odd items not sold locally"],
+        "frustrations": ["Sizes and specs not accurate", "Hard to know what will last"]
+      },
+      {
+        "name": "Deal-hunting student",
+        "description": "18 to 24, enjoys the game features and impulse buys.",
+        "goals": ["Fun, cheap finds", "Free credits from referrals"],
+        "frustrations": ["Pushy notifications", "Coupon rules that are hard to understand"]
+      },
+      {
+        "name": "Chinese manufacturer",
+        "description": "Factory owner who wants to sell abroad without building a brand.",
+        "goals": ["High order volume", "Simple access to overseas shoppers"],
+        "frustrations": ["Temu pushes prices down hard", "Fines for late shipping or quality issues"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Everyday items cost too much in local shops.", "howSolved": "Factory-direct prices, often a third of high street prices.", "severity": "high" },
+      { "pain": "Shipping fees kill small orders.", "howSolved": "Free shipping on most orders, with minimum order thresholds.", "severity": "high" },
+      { "pain": "Shopping feels boring.", "howSolved": "Games, flash deals and coupons make browsing feel like play.", "severity": "medium" },
+      { "pain": "Fear of losing money on a bad item.", "howSolved": "Free first return within 90 days and credits for late deliveries.", "severity": "medium" },
+      { "pain": "Factories cannot reach foreign shoppers.", "howSolved": "Temu handles marketing, payments and shipping for them.", "severity": "high" }
+    ],
+    "coreFeatures": [
+      { "feature": "Fully managed model", "whatItDoes": "Temu controls pricing and logistics; suppliers just make and send goods.", "whyItMatters": "Keeps prices very low and consistent, and lets Temu move fast across countries." },
+      { "feature": "Local warehouse programme", "whatItDoes": "Stock is held in the US or EU and shipped domestically.", "whyItMatters": "Avoids per-parcel duties after de minimis rules ended, and speeds delivery." },
+      { "feature": "Gamified deals", "whatItDoes": "Spin-the-wheel, Fishland, countdown timers and lightning deals.", "whyItMatters": "Increases time in app and purchase frequency. Temu turned off spin-the-wheel in Europe in November 2026 under regulatory pressure." },
+      { "feature": "Referral credits", "whatItDoes": "Users get credits and free items for inviting friends.", "whyItMatters": "Cheap growth channel that copies Pinduoduo's group-buying playbook." },
+      { "feature": "Price adjustment and delivery credits", "whatItDoes": "Refunds the difference if the price drops; credit if delivery is late.", "whyItMatters": "Lowers fear of buying from an unknown seller." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First order",
+        "persona": "Price-first family shopper",
+        "steps": [
+          { "step": "See ad", "detail": "Sees a 'Shop like a billionaire' style ad on Facebook or TikTok." },
+          { "step": "Install app", "detail": "Gets a welcome coupon and a spin-the-wheel offer." },
+          { "step": "Browse", "detail": "Scrolls an endless feed of £1 to £10 items." },
+          { "step": "Hit threshold", "detail": "Adds extra items to reach free shipping." },
+          { "step": "Pay", "detail": "Pays by card, Apple Pay or PayPal." },
+          { "step": "Wait", "detail": "Items arrive in 5 to 12 days from China, or 2 to 5 days if from a local warehouse." }
+        ]
+      },
+      {
+        "name": "Referral loop",
+        "persona": "Deal-hunting student",
+        "steps": [
+          { "step": "Get offer", "detail": "App offers free items if three friends sign up." },
+          { "step": "Share link", "detail": "Sends the link on WhatsApp or Snapchat." },
+          { "step": "Friends join", "detail": "Each friend gets their own welcome coupon." },
+          { "step": "Claim reward", "detail": "Student gets credits or free products." },
+          { "step": "Buy again", "detail": "Uses the credit, adding more paid items to reach the threshold." }
+        ]
+      },
+      {
+        "name": "Return after a bad item",
+        "persona": "Hobbyist and crafter",
+        "steps": [
+          { "step": "Receive item", "detail": "Tool arrives smaller than expected." },
+          { "step": "Open return", "detail": "Selects the item in the app and picks a reason." },
+          { "step": "Choose refund", "detail": "Picks credit to the Temu balance for a faster refund, or card." },
+          { "step": "Drop off", "detail": "Drops at a post office or courier point; first return free." },
+          { "step": "Decide", "detail": "Either keeps buying cheap items or stops trusting the app." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Temu buys goods from suppliers at a very low price, sells them at a slightly higher price, and keeps the gap. With local sellers it takes a commission instead. It spent billions on ads to grow, and in 2026 cut marketing to focus on profit.",
+      "revenueStreams": [
+        { "stream": "Price gap on managed goods", "detail": "Temu pays the supplier a fixed price and sets the retail price; the difference is its revenue, reported as transaction services." },
+        { "stream": "Commission from local sellers", "detail": "Sellers on the local warehouse programme pay a percentage of each sale." },
+        { "stream": "Late-shipping and quality fines", "detail": "Suppliers can be fined for delays or poor quality, though this is a small slice." }
+      ],
+      "pricing": "Free to use. Items commonly priced from about £1 to £20 in the UK or $1 to $25 in the US. Free shipping on most orders. In the US, prices rose in 2025 after tariffs, and an import charge line appeared on some orders.",
+      "costDrivers": [
+        "Marketing: huge spend on Meta, Google and TikTok ads, plus Super Bowl ads in 2023 and 2024",
+        "International shipping, historically by air",
+        "Import duties after the US and EU ended low-value parcel exemptions",
+        "Coupons, credits and free returns",
+        "Compliance costs and fines in Europe"
+      ],
+      "unitEconomics": "On a £20 UK order of five items, Temu might pay suppliers about £12 and spend £4 to £5 on air shipping and handling. That leaves about £3 to £4 before marketing. If a new customer cost £15 to £25 in ads to win, Temu loses money on the first order and only profits if the customer buys several more times. EU duties of €3 per item category from July 2026 can wipe out the margin on a €12 item, which is why Temu is pushing local warehouses."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Massive paid ads on social media and Google",
+        "Referral rewards and free gifts for inviting friends",
+        "Super Bowl ads in 2023 and 2024",
+        "Influencer haul videos on TikTok and YouTube",
+        "Launching in new countries every few months"
+      ],
+      "whatBringsUsersBack": [
+        "Daily games and check-in rewards",
+        "Push notifications about price drops and coupons",
+        "Lightning deals with countdown timers",
+        "Credits in the Temu balance that must be spent",
+        "The sheer number of cheap items to discover"
+      ],
+      "moat": "Temu's edge is cost: direct access to thousands of Chinese factories and PDD's deep pockets (over RMB 450 billion in cash). That is hard for Western retailers to match. But the moat is weaker than it looks, because tariffs and duties can erase the price gap overnight."
+    },
+    "competitors": [
+      { "name": "Shein", "positioning": "Fast fashion from China with an on-demand supply chain.", "howThisProductDiffers": "Temu sells everything, not just fashion, and pushes prices lower with less brand control." },
+      { "name": "Amazon Haul", "positioning": "Amazon's low-price section with items under $20.", "howThisProductDiffers": "Temu has more cheap items and games; Amazon has faster delivery and more trust." },
+      { "name": "AliExpress", "positioning": "Alibaba's cross-border marketplace.", "howThisProductDiffers": "Temu sets prices centrally and markets more aggressively; AliExpress is a looser marketplace." },
+      { "name": "TikTok Shop", "positioning": "Shopping inside short videos.", "howThisProductDiffers": "Temu is search and deals; TikTok Shop is driven by creators." },
+      { "name": "Walmart and dollar stores", "positioning": "Low-price local retail.", "howThisProductDiffers": "Temu is cheaper on many items but slower and less trusted." }
+    ],
+    "northStar": {
+      "metric": "Monthly repeat purchasers whose order arrived as described",
+      "why": "Temu's model only works if customers come back without more paid ads. Counting repeat buyers who were happy with the item measures real value, not just installs from ad spend."
+    },
+    "kpiTree": [
+      {
+        "metric": "New buyers",
+        "description": "People making a first purchase in a month.",
+        "children": [
+          { "metric": "Cost to acquire a customer", "description": "Ad spend divided by new buyers." },
+          { "metric": "Referral share of new buyers", "description": "Cheaper than paid ads." },
+          { "metric": "Install to first order rate", "description": "How many app installs turn into buyers." }
+        ]
+      },
+      {
+        "metric": "Repeat rate",
+        "description": "Share of buyers who buy again within 60 days.",
+        "children": [
+          { "metric": "Second-order rate within 30 days", "description": "Early sign of habit." },
+          { "metric": "Push notification open rate", "description": "Shows if reminders work without annoying users." },
+          { "metric": "Credit redemption rate", "description": "Credits spent mean another order." }
+        ]
+      },
+      {
+        "metric": "Order satisfaction",
+        "description": "Share of orders arriving on time and as described.",
+        "children": [
+          { "metric": "Item-not-as-described rate", "description": "Quality problems that cause returns and churn." },
+          { "metric": "Average delivery days", "description": "Faster with local warehouses." },
+          { "metric": "Return rate", "description": "High returns signal quality issues." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Product safety incidents and illegal item reports",
+      "Contribution margin per order after duties",
+      "Uninstall rate after notification campaigns",
+      "Regulatory complaints in the EU and UK"
+    ],
+    "strengths": [
+      "Prices far below Western competitors",
+      "PDD's huge cash pile and profits from China fund losses abroad",
+      "Very fast product and market expansion",
+      "Strong app engagement from games and deals"
+    ],
+    "weaknesses": [
+      "Heavy dependence on paid ads to grow",
+      "Quality and product safety concerns",
+      "Long delivery times for items shipped from China",
+      "Low brand trust, especially in the US and Europe",
+      "Business is exposed to every change in trade rules"
+    ],
+    "risks": [
+      "US tariffs and the end of the $800 de minimis exemption in 2025",
+      "EU €3 per item category duty from July 2026, plus a proposed €2 handling fee",
+      "Digital Services Act enforcement, fines and bans on dark-pattern games",
+      "Data privacy and national security concerns about Chinese-owned apps",
+      "Amazon Haul and TikTok Shop copying the low-price model"
+    ],
+    "userComplaints": [
+      "Items look very different from photos or break quickly",
+      "Long or unpredictable delivery times",
+      "Aggressive notifications and game-like pressure to buy",
+      "Refunds sent as Temu credit rather than money",
+      "Prices rose in the US after tariffs, shrinking the deal"
+    ],
+    "improvementIdeas": [
+      { "idea": "Verified quality badge based on return rates and buyer photos, shown in search.", "problem": "Buyers cannot tell good items from junk, leading to returns and churn.", "expectedImpact": "Fewer returns and higher repeat purchase.", "metricToTrack": "Item-not-as-described rate", "effort": "medium" },
+      { "idea": "Show 'arrives in 3 days from local warehouse' filter and rank local items first.", "problem": "Slow delivery from China and new duties per parcel.", "expectedImpact": "Faster delivery, better margins after duties.", "metricToTrack": "Share of orders from local warehouses", "effort": "low" },
+      { "idea": "Replace pressure games in all markets with a simple loyalty tier based on spending.", "problem": "Regulators and users dislike dark patterns; EU forced changes.", "expectedImpact": "Lower regulatory risk and fewer uninstalls.", "metricToTrack": "Uninstall rate and 60-day repeat rate", "effort": "medium" },
+      { "idea": "Give refunds to the original card by default, with an opt-in bonus for credit.", "problem": "Users feel trapped when refunds become credit.", "expectedImpact": "Higher trust and fewer complaints.", "metricToTrack": "Refund-related complaint rate", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Growth bought with ads is fragile. When Temu cut marketing in 2026, revenue went flat. Look for organic repeat behaviour.",
+      "Regulation can change a business model overnight. The end of duty-free small parcels forced Temu to rebuild its logistics.",
+      "Games and urgency increase engagement but can cross into dark patterns that regulators ban.",
+      "Price is a strong hook, but quality and trust decide whether customers return."
+    ],
+    "interviewQuestions": [
+      { "question": "The US removed duty-free entry for small parcels. How would you change Temu's product?", "hint": "Identify the cost impact per order. Options: local warehouses, bigger baskets, price changes. Pick one, show user and margin impact, and metrics." },
+      { "question": "How would you measure if Temu's gamification is healthy or harmful?", "hint": "Compare engagement with satisfaction and long-term retention. Track complaints, uninstalls and regulatory risk as guardrails." },
+      { "question": "Temu cut marketing 17% and revenue went flat. What would you do as PM for retention?", "hint": "Find why users stop buying: quality, delivery, price. Propose two features, prioritise by impact and effort, define success." },
+      { "question": "Design a feature to build trust with first-time UK buyers.", "hint": "List fears: quality, delivery, refunds. Ideas: quality badges, delivery promise, easy refunds. Choose one and set metrics." },
+      { "question": "Compare Temu's and Shein's business models.", "hint": "Temu: everything store, fully managed, lowest price. Shein: fashion, test-and-reorder supply chain. Compare risks from tariffs and brand." }
+    ],
+    "glossary": [
+      { "term": "GMV", "meaning": "Gross merchandise volume: the total value of goods sold on a platform." },
+      { "term": "De minimis", "meaning": "A rule letting low-value parcels enter a country without import duty; the US limit was $800 until 2025." },
+      { "term": "Fully managed model", "meaning": "A setup where the platform, not the seller, sets the price and handles marketing and shipping." },
+      { "term": "Gamification", "meaning": "Using game features like spins, points and timers to make people use an app more." },
+      { "term": "Dark patterns", "meaning": "Design tricks that push users to do things they might not choose freely." },
+      { "term": "Cost to acquire a customer", "meaning": "How much a company spends on marketing to win one new paying customer, also called CAC." },
+      { "term": "Contribution margin", "meaning": "What a company keeps from one order after paying the direct costs of that order." },
+      { "term": "Digital Services Act", "meaning": "An EU law that makes large online platforms manage the risks of illegal and harmful content and products." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Temu GMV and user numbers are outside estimates; PDD does not report Temu separately.",
+      "The £20 order unit economics uses rough estimates for supplier cost, shipping and acquisition cost.",
+      "The 'transaction services' line includes Temu revenue but may include other items.",
+      "Delivery time ranges are typical figures from user reports and may vary."
+    ]
+  }
+}

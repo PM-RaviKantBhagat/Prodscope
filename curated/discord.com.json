@@ -1,0 +1,554 @@
+{
+  "company": "Discord",
+  "domain": "discord.com",
+  "website": "https://discord.com",
+  "sources": [
+    "https://tech-insider.org/discord-ipo-2026/",
+    "https://www.tubefilter.com/2026/01/07/discord-is-going-public/",
+    "https://www.morningstar.com/stocks/gaming-communication-company-discord-files-ipo",
+    "https://techcrunch.com/2026/02/24/discord-delays-global-rollout-of-age-verification-after-backlash/",
+    "https://www.nbcnews.com/tech/tech-news/discord-pushes-back-age-verification-rollout-backlash-rcna260604",
+    "https://www.techradar.com/computing/software/what-a-great-way-to-kill-your-community-discord-users-are-furious-about-its-new-age-verification-checks-and-are-now-hunting-for-alternatives",
+    "https://sacra.com/c/discord/"
+  ],
+  "report": {
+    "company": "Discord",
+    "tagline": "A free app for text, voice and video chat in group spaces called servers, built for gamers and now used by all kinds of communities.",
+    "category": "Community chat",
+    "simpleSummary": "Discord is like a WhatsApp group crossed with a clubhouse that is always open. You join 'servers', such as a friend group, a game's fan club or a coding community, and each server has text channels and voice rooms you can drop into. Gamers use it to talk while they play, and creators and study groups use it to gather fans. It is free, and Discord makes money by selling an optional upgrade called Nitro, perks for servers, and sponsored game 'Quests'.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "200 million+",
+        "note": "Discord's own figure from April 2025. Outside estimates in 2026 put it near 250 million, but that is not confirmed."
+      },
+      {
+        "label": "Annual revenue",
+        "value": "Roughly $800 million to $1 billion (2025)",
+        "note": "Estimate based on analyst reports such as Sacra. Discord has not published audited financials."
+      },
+      {
+        "label": "IPO status",
+        "value": "Confidential filing in January 2026; no public listing yet",
+        "note": "Reported by Bloomberg and others. As of mid-November 2026 no public S-1 or listing date."
+      },
+      {
+        "label": "Last private valuation",
+        "value": "$15 billion (2021 round); secondary market marks $6 billion to $10 billion in 2026",
+        "note": "Secondary-market estimates from Forge and others, so uncertain."
+      },
+      {
+        "label": "Profitability",
+        "value": "Positive adjusted EBITDA for five quarters (to early 2025)",
+        "note": "Company statement in April 2025. Adjusted figure, not audited."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Discord gives groups a shared, always-on space with organised text channels, drop-in voice rooms, video calls and screen sharing. It started in 2015 as voice chat for gamers and is now used by study groups, crypto projects, creators and open-source teams. Most users never pay.",
+      "howItWorks": [
+        "Anyone can create a server for free and invite people with a link.",
+        "Servers are split into channels, like #general or #memes, plus voice channels you can join with one click.",
+        "Server owners set roles and permissions, and add bots for moderation, music or games.",
+        "Users can upgrade to Nitro for bigger uploads, HD streaming, custom emojis everywhere and profile perks.",
+        "Users can 'boost' a server they love, paying to unlock better audio, more emoji slots and a custom invite link for that server.",
+        "Game studios pay for Quests: tasks like 'play this game for 15 minutes' that reward users with in-app items or Orbs, Discord's reward currency."
+      ],
+      "valueProposition": "A free, reliable place for a group to hang out together in text and voice, with tools to run a community of 5 people or 5 million."
+    },
+    "personas": [
+      {
+        "name": "The teen and college gamer",
+        "description": "An 18-year-old in Pune who plays Valorant and BGMI with friends every night and keeps voice chat open while playing.",
+        "goals": [
+          "Talk to friends with clear, low-lag voice while gaming",
+          "Share clips and memes",
+          "Find teammates for ranked matches"
+        ],
+        "frustrations": [
+          "Nitro features like HD screen share are behind a paywall",
+          "Age verification requests that ask for a face scan or ID",
+          "Spam DMs and scam 'free Nitro' links"
+        ]
+      },
+      {
+        "name": "The community owner",
+        "description": "A YouTuber or game developer running a server with 80,000 members to talk with fans and share updates.",
+        "goals": [
+          "Keep fans engaged between videos or game updates",
+          "Moderate easily as the server grows",
+          "Earn some money from superfans"
+        ],
+        "frustrations": [
+          "Moderation takes hours a day",
+          "Messages scroll away so announcements get lost",
+          "Few built-in ways to earn money compared with Patreon or YouTube"
+        ]
+      },
+      {
+        "name": "The study or hobby group member",
+        "description": "A student in a 2,000-member UPSC or coding server who joins voice study rooms and asks doubts in text channels.",
+        "goals": [
+          "Study with others for motivation",
+          "Get quick answers from peers"
+        ],
+        "frustrations": [
+          "The app feels cluttered and built for gamers",
+          "Hard to find old answers because chat is not easy to search"
+        ]
+      },
+      {
+        "name": "The game marketer",
+        "description": "A marketing lead at a game studio who wants players to try a new title.",
+        "goals": [
+          "Reach engaged gamers where they hang out",
+          "Pay for actual playtime, not just views"
+        ],
+        "frustrations": [
+          "Limited targeting and measurement compared with YouTube or Meta",
+          "Users dislike anything that feels like an ad"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Group voice calls on phone apps are clunky; you have to call everyone each time.",
+        "howSolved": "Voice channels are always open, so friends just drop in and out, like walking into a room.",
+        "severity": "high"
+      },
+      {
+        "pain": "Big WhatsApp or Telegram groups become one messy stream.",
+        "howSolved": "Servers split chat into topic channels with roles and permissions, so a large community stays organised.",
+        "severity": "high"
+      },
+      {
+        "pain": "Running a large online community needs many tools.",
+        "howSolved": "Built-in roles, AutoMod, onboarding questions and thousands of third-party bots handle moderation and engagement.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sharing gameplay live with friends is hard.",
+        "howSolved": "Go Live screen sharing lets you stream your game to a voice channel.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Gamers want to look unique online.",
+        "howSolved": "Nitro and the Shop sell avatar decorations, profile effects and custom emojis.",
+        "severity": "low"
+      },
+      {
+        "pain": "Game studios struggle to get players to actually try a game.",
+        "howSolved": "Quests pay rewards to users who play or stream a game, so studios pay for real engagement.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Servers and channels",
+        "whatItDoes": "Group spaces split into text and voice channels, with roles controlling who sees what.",
+        "whyItMatters": "This structure is what lets a community of millions stay organised. It is the core reason groups choose Discord."
+      },
+      {
+        "feature": "Voice channels and Go Live",
+        "whatItDoes": "Always-on voice rooms with low lag, plus screen and game streaming to friends.",
+        "whyItMatters": "Keeps friends together for hours each night, which drives daily habit."
+      },
+      {
+        "feature": "Nitro",
+        "whatItDoes": "Paid plan with bigger uploads, HD streaming, custom emojis across servers, 2 server boosts and profile perks.",
+        "whyItMatters": "The biggest revenue source, sold to the most active users."
+      },
+      {
+        "feature": "Server Boosts",
+        "whatItDoes": "Users pay to unlock better audio, more emoji slots, banners and a vanity link for a server.",
+        "whyItMatters": "Lets fans pay to support a community they love, and spreads spending across servers."
+      },
+      {
+        "feature": "Quests and Orbs",
+        "whatItDoes": "Sponsored tasks from game studios that reward users with in-app items or Orbs, which can be spent in the Shop.",
+        "whyItMatters": "Discord's main ad product. It earns money from free users without putting banner ads in chats."
+      },
+      {
+        "feature": "Bots, apps and Activities",
+        "whatItDoes": "Third-party bots and in-call games or watch-together Activities.",
+        "whyItMatters": "Developers extend Discord for free, making servers more useful and sticky."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Joining through friends",
+        "persona": "The teen and college gamer",
+        "steps": [
+          {
+            "step": "Gets an invite link",
+            "detail": "A friend shares a link in WhatsApp: 'join our server for tonight's game'."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Downloads the app, adds email and date of birth."
+          },
+          {
+            "step": "Joins voice",
+            "detail": "Clicks the 'Gaming' voice channel and is talking to friends within a minute."
+          },
+          {
+            "step": "Shares a clip",
+            "detail": "Posts a clip in #highlights and gets emoji reactions."
+          },
+          {
+            "step": "Joins more servers",
+            "detail": "Joins the official server of their game and a meme server."
+          },
+          {
+            "step": "Daily habit",
+            "detail": "Opens Discord every evening before gaming, often leaving it open for hours."
+          }
+        ]
+      },
+      {
+        "name": "Upgrading to Nitro",
+        "persona": "The teen and college gamer",
+        "steps": [
+          {
+            "step": "Hits a limit",
+            "detail": "Tries to upload a large clip or use a custom emoji from another server and is blocked."
+          },
+          {
+            "step": "Sees the Nitro offer",
+            "detail": "A pop-up shows what Nitro unlocks, sometimes with a free trial."
+          },
+          {
+            "step": "Compares plans",
+            "detail": "Nitro Basic for about $2.99 a month or full Nitro for about $9.99, with Indian pricing lower."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Pays through the app store or card, often monthly."
+          },
+          {
+            "step": "Uses perks",
+            "detail": "Boosts a favourite server, adds an animated avatar and streams in HD."
+          },
+          {
+            "step": "Renews or cancels",
+            "detail": "Keeps paying if perks feel part of daily use; cancels if they feel cosmetic."
+          }
+        ]
+      },
+      {
+        "name": "Building a creator community",
+        "persona": "The community owner",
+        "steps": [
+          {
+            "step": "Creates a server",
+            "detail": "Uses a template with channels for announcements, chat and support."
+          },
+          {
+            "step": "Sets up onboarding",
+            "detail": "Adds rules, questions and roles so new members pick their interests."
+          },
+          {
+            "step": "Adds moderation",
+            "detail": "Turns on AutoMod and adds bots to block spam and slurs."
+          },
+          {
+            "step": "Promotes the link",
+            "detail": "Shares the invite in YouTube descriptions and on Instagram."
+          },
+          {
+            "step": "Runs events",
+            "detail": "Hosts weekly voice Q&A sessions and game nights."
+          },
+          {
+            "step": "Gets boosts",
+            "detail": "Fans boost the server, unlocking better audio and a custom invite link."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Discord is free and makes money in three ways: Nitro subscriptions from its most active users, Server Boosts and Shop items, and sponsored Quests from game studios. It does not sell banner ads inside chats. Most revenue still comes from subscriptions.",
+      "revenueStreams": [
+        {
+          "stream": "Nitro subscriptions",
+          "detail": "The largest stream. Full Nitro is about $9.99 a month or $99.99 a year in the US; Nitro Basic about $2.99 a month."
+        },
+        {
+          "stream": "Server Boosts",
+          "detail": "About $4.99 a month per boost in the US. Servers need several boosts to reach higher levels."
+        },
+        {
+          "stream": "Shop",
+          "detail": "One-time purchases of avatar decorations and profile effects, often a few dollars each."
+        },
+        {
+          "stream": "Quests (advertising)",
+          "detail": "Game studios pay for users to play or watch their games, with rewards in Orbs or items. Launched in 2024 and growing."
+        }
+      ],
+      "pricing": "Free. Nitro about $9.99 a month or $99.99 a year (US); Nitro Basic about $2.99 a month; Server Boost about $4.99 a month. Prices are lower in India and other markets.",
+      "costDrivers": [
+        "Voice and video servers, which cost far more to run than text",
+        "Trust and safety staff, especially for child safety and age checks",
+        "Engineering for apps on desktop, mobile and consoles",
+        "App store fees of up to 30% on mobile Nitro purchases",
+        "Payments to vendors, such as age verification providers"
+      ],
+      "unitEconomics": "Suppose a user pays $9.99 a month for Nitro. If bought through an app store, Apple or Google may keep up to 30%, leaving about $7. Serving a heavy voice user costs maybe $1 to $2 a month in servers, an estimate. So a paying user earns Discord a few dollars of profit a month. Free users cost money to serve and earn little except through Quests, so Discord needs a few percent of users to pay to cover everyone. That is why it pushes Nitro trials and Quests hard."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Invite links shared by friends: each new server brings its members",
+        "Game studios and creators who make Discord their official community",
+        "Integrations with PlayStation and Xbox for voice chat",
+        "Word of mouth among teens and students"
+      ],
+      "whatBringsUsersBack": [
+        "Friends hanging out in voice every evening",
+        "Notifications from active servers",
+        "Quests that reward playing games",
+        "Status, roles and identity inside communities"
+      ],
+      "moat": "Your friends and communities are already on Discord, and moving a whole server elsewhere is painful. The bots, roles and years of setup are hard to rebuild. This is a network effect: the app becomes more valuable as more of your people use it."
+    },
+    "competitors": [
+      {
+        "name": "WhatsApp Communities and Telegram",
+        "positioning": "Group chat on apps people already have.",
+        "howThisProductDiffers": "Discord has drop-in voice rooms, many channels and deep moderation tools. WhatsApp is simpler but messy for big groups."
+      },
+      {
+        "name": "Slack",
+        "positioning": "Paid team chat for workplaces.",
+        "howThisProductDiffers": "Discord is free, consumer-focused and voice-first. Slack charges per seat and is built for companies."
+      },
+      {
+        "name": "Reddit",
+        "positioning": "Public forums organised by topic.",
+        "howThisProductDiffers": "Discord is real-time and private, while Reddit is public and searchable. Many communities use both."
+      },
+      {
+        "name": "In-game and console voice chat",
+        "positioning": "Built-in voice on PlayStation, Xbox and games.",
+        "howThisProductDiffers": "Discord works across all games and devices, so friend groups stay together."
+      },
+      {
+        "name": "Open-source alternatives (TeamSpeak, Matrix, Revolt)",
+        "positioning": "Privacy-focused or self-hosted chat.",
+        "howThisProductDiffers": "Much smaller networks. They gained interest during the 2026 age verification backlash but lack Discord's reach."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly hours users spend together in servers and voice channels with people they know",
+      "why": "Discord's value is time spent with friends and communities. Shared hours show people are getting real value; they also drive Nitro sales and Quests."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active social connections",
+        "description": "How many friends and servers each user is actively connected to.",
+        "children": [
+          {
+            "metric": "Invites accepted per user",
+            "description": "More invites mean more people joining together."
+          },
+          {
+            "metric": "Servers with 3+ active members per week",
+            "description": "Small active servers are the heart of daily use."
+          }
+        ]
+      },
+      {
+        "metric": "Voice and video time",
+        "description": "Time spent in voice, video and Go Live sessions.",
+        "children": [
+          {
+            "metric": "Voice sessions per daily user",
+            "description": "How often users drop into voice."
+          },
+          {
+            "metric": "Call quality score",
+            "description": "Lag and drop rates; bad calls push users away."
+          },
+          {
+            "metric": "Activities started in calls",
+            "description": "Games and watch-together sessions extend time together."
+          }
+        ]
+      },
+      {
+        "metric": "Community health",
+        "description": "Whether servers feel safe and well run.",
+        "children": [
+          {
+            "metric": "Spam and scam reports per 1,000 users",
+            "description": "Lower is better; scams drive users away."
+          },
+          {
+            "metric": "AutoMod adoption in large servers",
+            "description": "More tool use means less moderator burnout."
+          },
+          {
+            "metric": "New member day-7 retention",
+            "description": "Share of new server members still active after a week; retention means users sticking around."
+          }
+        ]
+      },
+      {
+        "metric": "Monetisation of engaged users",
+        "description": "Turning time spent into money without hurting experience.",
+        "children": [
+          {
+            "metric": "Nitro conversion rate",
+            "description": "Share of monthly users who pay for Nitro."
+          },
+          {
+            "metric": "Quest completion rate",
+            "description": "Share of users who start and finish a Quest; drives ad revenue."
+          },
+          {
+            "metric": "Nitro monthly churn",
+            "description": "Share of subscribers who cancel each month."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Account sign-up completion after age checks are added",
+      "Child safety incident reports",
+      "Voice call drop rate",
+      "Share of users who mute or hide Quests"
+    ],
+    "strengths": [
+      "Default hangout app for gamers worldwide, with 200 million+ monthly users",
+      "Voice channels that rivals have not copied well",
+      "Revenue from users rather than heavy ads, so the product feels clean",
+      "Huge developer ecosystem of bots and apps",
+      "New ad product, Quests, that fits gaming and pays for real playtime"
+    ],
+    "weaknesses": [
+      "Only a small share of users pay, so revenue per user is low for its size",
+      "Heavy reliance on gaming and young users",
+      "Chat is hard to search and onboarding into big servers is confusing",
+      "Trust damaged by a 2025 breach at a support vendor that exposed some users' ID photos, and by the 2026 age verification plan"
+    ],
+    "risks": [
+      "Child safety laws in the UK, Australia and US states that require age checks, which add friction",
+      "Lawsuits and media reports about predators and extremist groups on servers",
+      "Bans in some countries, such as Russia and Turkey in 2024",
+      "Users moving to alternatives if privacy concerns grow",
+      "Public market pressure after an IPO pushing more ads, which users dislike"
+    ],
+    "userComplaints": [
+      "Anger over age verification using face scans or ID uploads, announced in February 2026 then delayed after backlash",
+      "Fear of data leaks after the 2025 vendor breach",
+      "Too much push to buy Nitro and Shop items",
+      "Spam bots, phishing links and fake 'free Nitro' scams",
+      "App feels bloated with Quests, Activities and Shop",
+      "Inconsistent moderation and account bans with little explanation"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Privacy-first age check that runs on the device and stores no ID, with a clear explanation screen",
+        "problem": "Users fear sharing faces or IDs after the 2025 breach, and regulators require age checks.",
+        "expectedImpact": "More users complete age checks without leaving, keeping Discord legal and trusted.",
+        "metricToTrack": "Age check completion rate and weekly active users in regulated markets",
+        "effort": "high"
+      },
+      {
+        "idea": "AI 'catch me up' summaries of busy channels since your last visit",
+        "problem": "Large servers move too fast and announcements get lost.",
+        "expectedImpact": "More members stay active in big servers instead of muting them.",
+        "metricToTrack": "Day-30 retention of new server members",
+        "effort": "medium"
+      },
+      {
+        "idea": "Server Subscriptions push for creators, with lower fees for small servers",
+        "problem": "Creators earn little on Discord and send fans to Patreon.",
+        "expectedImpact": "More money stays on Discord and creators invest more in their servers.",
+        "metricToTrack": "Creator subscription revenue and number of paid servers",
+        "effort": "medium"
+      },
+      {
+        "idea": "One-tap scam link warning using shared lists of known phishing domains",
+        "problem": "Fake Nitro and crypto scams steal accounts.",
+        "expectedImpact": "Fewer hacked accounts and more trust.",
+        "metricToTrack": "Account takeover reports per 1,000 users",
+        "effort": "low"
+      },
+      {
+        "idea": "Regional Nitro pricing and UPI payment for India",
+        "problem": "Many Indian users cannot or will not pay dollar prices by card.",
+        "expectedImpact": "Higher Nitro conversion in India and similar markets.",
+        "metricToTrack": "Nitro conversion rate in India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A strong habit, like friends in voice every night, can be worth more than a big feature list.",
+      "Charging a small share of heavy users can fund a free product for everyone, if the paid perks feel worth it.",
+      "Safety changes need careful rollout. Discord's 2026 age check plan shows how a needed rule can trigger a user revolt if trust is low.",
+      "Ads can fit a product if they match why users come. Quests reward gamers for playing games, not for watching banners."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase Nitro subscriptions without annoying free users?",
+        "hint": "Segment users by behaviour, find moments where a limit is felt (uploads, streaming), test trials there, and track conversion with a guardrail on free user retention."
+      },
+      {
+        "question": "Discord must add age checks to meet new laws. How would you design the rollout?",
+        "hint": "Start with the user fear (privacy), choose the least invasive method, explain clearly, roll out by country, measure completion and drop-off, and plan for edge cases like adults misjudged as teens."
+      },
+      {
+        "question": "What is Discord's north star metric and why?",
+        "hint": "Pick time spent together, not just DAU. Show how it links to retention and money, then break it into connections, voice time, health and monetisation."
+      },
+      {
+        "question": "How would you grow Discord beyond gaming, for example among students in India?",
+        "hint": "Pick a segment, list its jobs-to-be-done (study rooms, doubt solving), find gaps in onboarding and search, propose 2 features, and define a launch metric."
+      },
+      {
+        "question": "Should Discord add banner ads in chats after its IPO?",
+        "hint": "Weigh revenue against user trust and the clean experience. Compare with Quests. Suggest a test design and the guardrail metrics you would watch."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Network effect",
+        "meaning": "When a product becomes more useful as more people use it."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a period."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "A company's profit before interest, taxes, depreciation and some other costs it chooses to exclude."
+      },
+      {
+        "term": "IPO",
+        "meaning": "Initial public offering: when a private company first sells shares on a stock exchange."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company tracks to show if users are getting real value."
+      },
+      {
+        "term": "Conversion rate",
+        "meaning": "The share of users who take a desired action, such as starting a paid plan."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you work on your main goal."
+      }
+    ],
+    "assumptions": [
+      "Revenue of roughly $800 million to $1 billion is an estimate from outside analysts; Discord has not published figures.",
+      "Server cost per heavy user of $1 to $2 a month is a rough estimate for illustration.",
+      "Nitro prices are US list prices and may have changed or differ by region.",
+      "The claim that Nitro is the largest revenue stream is based on analyst reports, not company disclosures."
+    ]
+  }
+}

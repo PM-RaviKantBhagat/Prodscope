@@ -1,0 +1,566 @@
+{
+  "company": "Revolut",
+  "domain": "revolut.com",
+  "website": "https://revolut.com",
+  "sources": [
+    "https://www.revolut.com/annual-report-2025/",
+    "https://www.revolut.com/en-GB/news/revolut_reports_record_profit_of_2_3bn_for_2025_as_revenue_surges_to_6bn/",
+    "https://www.revolut.com/en-GB/news/revolut_launches_uk_bank/",
+    "https://www.euronews.com/2026/03/24/revolut-reported-record-financial-results-with-revenue-rising-by-46-to-52bn-in-2025",
+    "https://www.ajbell.co.uk/news/articles/revolut-reveals-record-profit-landmark-year-customer-base-jumps",
+    "https://www.fxcintel.com/research/reports/ct-revolut-2025-earnings"
+  ],
+  "report": {
+    "company": "Revolut",
+    "tagline": "A UK money app that started with cheap foreign exchange and grew into a global super-app for banking, cards, savings, trading and travel.",
+    "category": "App-only bank / super-app",
+    "simpleSummary": "Revolut is a bank in an app. You get a card, an account and can spend in 150+ currencies with low fees, which made it famous with travellers. Over time it added savings, stock and crypto trading, insurance, eSIMs for travel and business accounts. Most features are free, and people pay a monthly plan for extras. After years of waiting, it launched as a full UK bank in 2026, and it is now also live in India.",
+    "keyNumbers": [
+      {
+        "label": "Revenue",
+        "value": "About $6 billion (2025)",
+        "note": "Revolut 2025 annual report, published March 2026. Up about 46% on 2024."
+      },
+      {
+        "label": "Profit before tax",
+        "value": "About $2.3 billion (2025)",
+        "note": "Revolut 2025 annual report. Record profit."
+      },
+      {
+        "label": "Retail customers",
+        "value": "About 70 million worldwide (2025)",
+        "note": "Annual report and press coverage. Revolut targets 100 million."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $75 billion (late 2025)",
+        "note": "From a share sale reported in November 2025. One of Europe's most valuable private tech companies."
+      },
+      {
+        "label": "UK banking licence",
+        "value": "Full UK bank launched in 2026",
+        "note": "Revolut news release. Licence was granted with restrictions in July 2024 after a three-year wait, then 'mobilisation' ended in 2026."
+      },
+      {
+        "label": "Premium plan price (UK)",
+        "value": "£7.99 a month; Metal £14.99; Ultra £45",
+        "note": "Revolut UK pricing page. Standard plan is free."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Revolut gives people an account, card and app to spend, save, send, invest and travel. Businesses use Revolut Business for accounts, cards and payments. It earns from card fees, currency exchange, subscriptions, interest on deposits and trading.",
+      "howItWorks": [
+        "Download the app, verify ID in minutes and get a virtual card instantly, physical card by post.",
+        "Spend abroad at the real exchange rate up to a monthly limit, then pay a small fee on free plans.",
+        "Send money to friends, split bills, and pay with Apple Pay or Google Pay.",
+        "Save in instant-access accounts, invest in stocks and ETFs, buy crypto and gold.",
+        "Pay for a plan (Plus, Premium, Metal, Ultra) to get higher limits, travel insurance, lounge access and more perks.",
+        "In India, Revolut offers a multi-currency card and account focused on travel and sending money abroad."
+      ],
+      "valueProposition": "One app for all your money, especially cheap and easy when you travel or deal with other currencies."
+    },
+    "personas": [
+      {
+        "name": "Frequent traveller",
+        "description": "A young professional in London who travels in Europe several times a year.",
+        "goals": [
+          "Pay abroad without fees",
+          "Get an eSIM and insurance easily",
+          "Track spending"
+        ],
+        "frustrations": [
+          "Weekend FX markups",
+          "Account suddenly frozen",
+          "Hard to talk to a human"
+        ]
+      },
+      {
+        "name": "Indian student going abroad",
+        "description": "A student in Pune heading to study in Europe who needs to move rupees and spend in euros.",
+        "goals": [
+          "Cheap foreign exchange",
+          "Card that works abroad",
+          "Send money home easily"
+        ],
+        "frustrations": [
+          "Indian rules on overseas spending (LRS, TCS)",
+          "Fewer features in India than UK",
+          "New brand, unsure about trust"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Runs an online shop selling across Europe.",
+        "goals": [
+          "Multi-currency accounts",
+          "Cards for staff",
+          "Accept payments cheaply"
+        ],
+        "frustrations": [
+          "Compliance checks freezing payments",
+          "Support delays",
+          "Fees on higher plans"
+        ]
+      },
+      {
+        "name": "Everyday saver and investor",
+        "description": "Uses Revolut as a main account and invests small amounts.",
+        "goals": [
+          "Good savings interest",
+          "Easy investing",
+          "All money in one place"
+        ],
+        "frustrations": [
+          "Too many features clutter the app",
+          "Upsell prompts to paid plans",
+          "Trust in a newer bank"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Banks charge high fees and poor exchange rates abroad.",
+        "howSolved": "Real exchange rate with low or no fees up to plan limits.",
+        "severity": "high"
+      },
+      {
+        "pain": "Opening a bank account is slow and needs branch visits.",
+        "howSolved": "Open an account in minutes with an app and ID.",
+        "severity": "high"
+      },
+      {
+        "pain": "Money is spread across many apps for saving, trading and travel.",
+        "howSolved": "One app for banking, savings, stocks, crypto and travel extras.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sending money abroad is slow and expensive.",
+        "howSolved": "Low-cost international transfers, often instant between Revolut users.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to control spending and subscriptions.",
+        "howSolved": "Instant notifications, budgets, freezing cards and disposable virtual cards.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Multi-currency account and card",
+        "whatItDoes": "Hold and spend in many currencies at good rates.",
+        "whyItMatters": "The original hook that brought in travellers and still drives sign-ups."
+      },
+      {
+        "feature": "Paid plans",
+        "whatItDoes": "Plus, Premium, Metal and Ultra add perks like insurance, lounges, higher limits and better rates.",
+        "whyItMatters": "Steady subscription revenue."
+      },
+      {
+        "feature": "Savings and interest",
+        "whatItDoes": "Instant-access savings accounts paying interest.",
+        "whyItMatters": "Brings deposits that Revolut earns interest on."
+      },
+      {
+        "feature": "Trading and crypto",
+        "whatItDoes": "Buy stocks, ETFs, crypto and commodities in the app.",
+        "whyItMatters": "Big revenue line, especially in strong markets."
+      },
+      {
+        "feature": "Revolut Business",
+        "whatItDoes": "Business accounts, cards, invoicing and payments.",
+        "whyItMatters": "Higher value customers and transaction revenue."
+      },
+      {
+        "feature": "Travel and lifestyle extras",
+        "whatItDoes": "eSIMs, hotel booking, insurance and more.",
+        "whyItMatters": "Builds the super-app and extra revenue per user."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First trip",
+        "persona": "Frequent traveller",
+        "steps": [
+          {
+            "step": "Hears from friends",
+            "detail": "Friend splits a bill via Revolut and sends a referral link."
+          },
+          {
+            "step": "Downloads and signs up",
+            "detail": "Verifies ID in minutes."
+          },
+          {
+            "step": "Tops up",
+            "detail": "Adds money from a bank account."
+          },
+          {
+            "step": "Travels",
+            "detail": "Pays in euros with no fees."
+          },
+          {
+            "step": "Buys an eSIM",
+            "detail": "Gets mobile data in the app."
+          },
+          {
+            "step": "Upgrades",
+            "detail": "Takes Premium for travel insurance."
+          }
+        ]
+      },
+      {
+        "name": "Studying abroad from India",
+        "persona": "Indian student going abroad",
+        "steps": [
+          {
+            "step": "Sees Revolut India",
+            "detail": "Hears about it online."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Completes KYC with Aadhaar and PAN."
+          },
+          {
+            "step": "Loads rupees",
+            "detail": "Converts to euros at a good rate."
+          },
+          {
+            "step": "Uses card abroad",
+            "detail": "Pays rent and groceries."
+          },
+          {
+            "step": "Gets money from parents",
+            "detail": "Parents top up the card from India."
+          }
+        ]
+      },
+      {
+        "name": "Main account switch",
+        "persona": "Everyday saver and investor",
+        "steps": [
+          {
+            "step": "Gets salary in",
+            "detail": "Sets Revolut as salary account after UK bank launch."
+          },
+          {
+            "step": "Opens savings",
+            "detail": "Moves money to instant-access savings."
+          },
+          {
+            "step": "Starts investing",
+            "detail": "Buys fractional shares."
+          },
+          {
+            "step": "Sets budgets",
+            "detail": "Uses spending categories."
+          },
+          {
+            "step": "Upgrades to Metal",
+            "detail": "For cashback and higher interest."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Revolut earns from many small streams: card fees when you pay, currency exchange margins, monthly plans, interest on customer deposits, and trading and crypto fees. Its trick is low cost: no branches, heavy automation, and selling many products to each customer.",
+      "revenueStreams": [
+        {
+          "stream": "Card interchange",
+          "detail": "A small fee paid by shops on every card payment."
+        },
+        {
+          "stream": "Foreign exchange",
+          "detail": "Margins above limits and at weekends."
+        },
+        {
+          "stream": "Subscriptions",
+          "detail": "Plus, Premium, Metal and Ultra plans."
+        },
+        {
+          "stream": "Interest income",
+          "detail": "Earns on customer deposits held at central banks and in bonds."
+        },
+        {
+          "stream": "Wealth and crypto",
+          "detail": "Fees on stock, crypto and commodity trading."
+        },
+        {
+          "stream": "Business accounts",
+          "detail": "Plans and transaction fees from Revolut Business."
+        }
+      ],
+      "pricing": "UK: Standard free; Plus £3.99 a month; Premium £7.99; Metal £14.99; Ultra £45. Fees for FX above plan limits and at weekends. Business plans from free to higher tiers. India pricing differs.",
+      "costDrivers": [
+        "Compliance, anti-money laundering and fraud prevention",
+        "Customer support",
+        "Technology and app development",
+        "Marketing and customer acquisition",
+        "Card production and payment network fees",
+        "Expanding into new countries and licences"
+      ],
+      "unitEconomics": "With about 70 million customers and $6 billion revenue, Revolut earns about $85 a year per customer on average. Its profit before tax was about $2.3 billion, so about $33 profit per customer per year. A free user may earn $20 to 40 a year from card fees and interest; a Metal subscriber earns much more. Costs per customer are low because there are no branches and most support is automated."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Referral rewards for inviting friends",
+        "Travel use cases spreading among students and young professionals",
+        "Social payments: splitting bills pulls friends in",
+        "Expanding into new countries such as India, Mexico and Brazil",
+        "Brand and marketing campaigns"
+      ],
+      "whatBringsUsersBack": [
+        "Daily card spending and instant notifications",
+        "Salary deposits and savings",
+        "Investing and crypto price checks",
+        "Plan perks that renew monthly"
+      ],
+      "moat": "Revolut's moat is scale plus low cost plus product range. With 70 million users, licences in many countries and one tech stack, it can launch features worldwide cheaply. The more products a user takes, the harder it is to leave. Banks can copy features, but not easily their costs."
+    },
+    "competitors": [
+      {
+        "name": "Monzo",
+        "positioning": "UK app bank loved for UX and community.",
+        "howThisProductDiffers": "Monzo is UK-focused and simpler; Revolut is global with more features."
+      },
+      {
+        "name": "Wise",
+        "positioning": "Cheap money transfers and multi-currency account.",
+        "howThisProductDiffers": "Wise focuses on transfers; Revolut is a broad super-app."
+      },
+      {
+        "name": "Traditional banks (HSBC, Barclays)",
+        "positioning": "Full-service banks with branches.",
+        "howThisProductDiffers": "Banks offer trust and loans; Revolut wins on app and price."
+      },
+      {
+        "name": "Niyo and Scapia (India)",
+        "positioning": "Indian travel cards and forex.",
+        "howThisProductDiffers": "Local players know India; Revolut brings a global brand."
+      },
+      {
+        "name": "N26 and Nubank",
+        "positioning": "Digital banks in Europe and Latin America.",
+        "howThisProductDiffers": "Revolut is in more countries with more products."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly customers who use Revolut as their main account (salary in, daily spending)",
+      "why": "Main account users bring the most value and revenue. It shows trust and daily value, not just sign-ups. This north star metric ties both together. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "New customers",
+        "description": "Sign-ups and activations.",
+        "children": [
+          {
+            "metric": "Referral sign-ups",
+            "description": "Customers brought by friends."
+          },
+          {
+            "metric": "KYC completion rate",
+            "description": "Share who finish verification."
+          },
+          {
+            "metric": "First card payment",
+            "description": "Activation in first week."
+          }
+        ]
+      },
+      {
+        "metric": "Primary account adoption",
+        "description": "Customers moving their main money.",
+        "children": [
+          {
+            "metric": "Salary deposits",
+            "description": "Users with salary into Revolut."
+          },
+          {
+            "metric": "Monthly card spend",
+            "description": "Daily use."
+          },
+          {
+            "metric": "Direct debits set up",
+            "description": "Bills paid from Revolut."
+          }
+        ]
+      },
+      {
+        "metric": "Products per customer",
+        "description": "Cross-selling.",
+        "children": [
+          {
+            "metric": "Savings users",
+            "description": "Customers with savings."
+          },
+          {
+            "metric": "Investing users",
+            "description": "Customers trading."
+          },
+          {
+            "metric": "Paid plan share",
+            "description": "Customers on paid plans."
+          }
+        ]
+      },
+      {
+        "metric": "Trust and service",
+        "description": "Support and safety.",
+        "children": [
+          {
+            "metric": "Fraud losses",
+            "description": "Money lost by customers."
+          },
+          {
+            "metric": "Support resolution time",
+            "description": "Time to solve issues."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud losses and scam complaints",
+      "Account freeze complaints",
+      "Regulatory breaches",
+      "Customer support satisfaction"
+    ],
+    "strengths": [
+      "Huge scale: about 70 million customers",
+      "Highly profitable for a fintech",
+      "Wide product range in one app",
+      "Fast launch of new features and countries",
+      "Low cost model with no branches"
+    ],
+    "weaknesses": [
+      "Customer support and account freezes",
+      "Long struggle to get a full UK banking licence",
+      "Fraud and scam complaints",
+      "App complexity",
+      "Brand trust lower than old banks"
+    ],
+    "risks": [
+      "Regulators in UK, EU and India tightening rules",
+      "Fraud and money-laundering failures",
+      "Competition from banks and fintechs",
+      "Falling interest rates reducing income",
+      "Crypto market drops"
+    ],
+    "userComplaints": [
+      "Accounts frozen without clear explanation",
+      "Slow or automated chat support",
+      "Scam victims not getting money back",
+      "Too many upsell prompts",
+      "Fees at weekends or above limits"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear status tracker and human call-back for frozen accounts",
+        "problem": "Frozen accounts are the biggest source of anger.",
+        "expectedImpact": "Better trust and fewer complaints.",
+        "metricToTrack": "Account freeze complaints and resolution time",
+        "effort": "medium"
+      },
+      {
+        "idea": "Simpler home screen with mode for 'just banking'",
+        "problem": "App feels cluttered.",
+        "expectedImpact": "More main-account users among older users.",
+        "metricToTrack": "Primary account adoption",
+        "effort": "low"
+      },
+      {
+        "idea": "India student pack with education payments and parent top-ups",
+        "problem": "Indian students face complex overseas payment rules.",
+        "expectedImpact": "Faster growth in India.",
+        "metricToTrack": "India active customers",
+        "effort": "medium"
+      },
+      {
+        "idea": "Real-time scam check on new payees with in-app warnings",
+        "problem": "Customers lose money to scams.",
+        "expectedImpact": "Fewer fraud losses.",
+        "metricToTrack": "Fraud losses",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Start with one sharp hook. Cheap FX for travellers brought users in before Revolut added everything else.",
+      "Cross-selling builds value. Each extra product raises revenue per user and makes leaving harder.",
+      "Regulation is product work. The long wait for a UK licence limited what Revolut could offer.",
+      "Growth needs trust. Frozen accounts and support problems can undo the value of great features.",
+      "Low costs are a strategy. No branches lets Revolut serve millions profitably."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you get UK users to make Revolut their main bank now it has a full licence?",
+        "hint": "Barriers: trust, salary switching, features. Ideas: switching service, deposit protection messaging, rewards. Measure salary deposits."
+      },
+      {
+        "question": "Revolut has too many features. How would you decide what to show on the home screen?",
+        "hint": "Segment users. Use data on use. Personalise. Test with A/B. Track engagement and confusion."
+      },
+      {
+        "question": "Design Revolut's entry into India.",
+        "hint": "Choose target: travellers and students. Check rules (LRS, RBI). Compare with Niyo and Scapia. Define metrics."
+      },
+      {
+        "question": "How would you reduce account freeze complaints without letting fraud in?",
+        "hint": "Balance safety and experience. Better risk models, clear communication, faster review. Track both fraud and complaints."
+      },
+      {
+        "question": "Should Revolut launch a free plan with all features to grow faster?",
+        "hint": "Compare subscription revenue loss with growth. Look at what drives plan upgrades. Suggest tests."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Super-app",
+        "meaning": "One app that offers many services, like banking, trading and travel."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A small fee the shop pays the card issuer each time you pay by card."
+      },
+      {
+        "term": "KYC",
+        "meaning": "Know your customer: checks a bank does to confirm who you are."
+      },
+      {
+        "term": "Mobilisation",
+        "meaning": "A UK stage where a new bank has a licence with limits while it builds up."
+      },
+      {
+        "term": "Cross-selling",
+        "meaning": "Selling more products to existing customers."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets value, like making a first card payment."
+      },
+      {
+        "term": "ETF",
+        "meaning": "A fund that you can buy like a share."
+      },
+      {
+        "term": "LRS",
+        "meaning": "Liberalised Remittance Scheme: India's rule on how much money people can send abroad each year."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow; Revolut's guardrail metrics include fraud losses."
+      }
+    ],
+    "assumptions": [
+      "Customer count of about 70 million is from reports around the 2025 annual report.",
+      "Per-customer revenue and profit are simple averages we calculated.",
+      "Valuation is from a 2025 share sale and may have changed.",
+      "India product details are based on launch reports and may change.",
+      "The north star metric is our suggestion."
+    ]
+  }
+}

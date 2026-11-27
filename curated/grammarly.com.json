@@ -1,0 +1,542 @@
+{
+  "company": "Grammarly",
+  "domain": "grammarly.com",
+  "website": "https://grammarly.com",
+  "sources": [
+    "https://techcrunch.com/2025/10/29/grammarly-rebrands-to-superhuman-launches-a-new-ai-assistant/",
+    "https://grammarly.com/blog/company/announcing-company-rebrand-to-superhuman",
+    "https://www.businesswire.com/news/home/20250529436291/en",
+    "https://sacra.com/research/why-grammarly-bought-superhuman/",
+    "https://www.techradar.com/ai-platforms-assistants/grammarly-has-rebranded-as-superhuman-launching-a-new-ai-assistant-that-works-across-100-apps",
+    "https://sqmagazine.co.uk/grammarly-ai-statistics/"
+  ],
+  "report": {
+    "company": "Grammarly",
+    "tagline": "The writing assistant that checks and improves your writing in every app, now part of an AI productivity suite under the parent company Superhuman.",
+    "category": "AI writing",
+    "simpleSummary": "Grammarly fixes your writing as you type. It works in email, Word, Google Docs, LinkedIn and almost any website, underlining mistakes and suggesting clearer words. It was an AI product years before ChatGPT. When ChatGPT made writing help free, Grammarly had to change, so it bought the Coda docs app and the Superhuman email app, and in October 2025 renamed the whole company Superhuman, while Grammarly stays the main product.",
+    "keyNumbers": [
+      {
+        "label": "Daily users",
+        "value": "About 40 million",
+        "note": "Company statements, 2025. Fairly reliable but not audited."
+      },
+      {
+        "label": "Organisations using it",
+        "value": "About 50,000 teams and businesses",
+        "note": "Company statements, 2025."
+      },
+      {
+        "label": "Annual revenue",
+        "value": "About $700 million (estimate, 2025)",
+        "note": "Third-party estimates such as Sacra. Grammarly is private and does not publish accounts."
+      },
+      {
+        "label": "Growth financing",
+        "value": "$1 billion from General Catalyst (May 2025)",
+        "note": "Business Wire. Not a normal equity round; repaid from future revenue on sales and marketing it funds."
+      },
+      {
+        "label": "Last valuation",
+        "value": "About $13 billion (2021)",
+        "note": "From the 2021 round. No newer public price; real value today may be different."
+      },
+      {
+        "label": "Pro price",
+        "value": "About $12 a month billed yearly",
+        "note": "Grammarly pricing page. Monthly billing costs more. India has lower local pricing."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Grammarly checks spelling, grammar, tone and clarity, and uses generative AI to rewrite, draft and reply. It works everywhere through a browser extension, desktop app and phone keyboard. Under the Superhuman brand, it is now bundled with Coda (docs), Superhuman Mail and Superhuman Go, an AI assistant that works across apps.",
+      "howItWorks": [
+        "Install the browser extension, desktop app or mobile keyboard; it reads what you type in other apps.",
+        "Underlines show errors and suggestions; click to accept.",
+        "Generative AI can rewrite a paragraph, change tone, or draft a reply from a short prompt.",
+        "AI agents for students check citations, predict a grade and detect AI-written text.",
+        "Teams set style guides and brand tones so everyone writes the same way.",
+        "Free plan covers basic fixes; Pro unlocks full rewrites, tone and more AI prompts."
+      ],
+      "valueProposition": "Write clearly and confidently in any app, without copy-pasting into a separate AI tool."
+    },
+    "personas": [
+      {
+        "name": "Non-native English professional",
+        "description": "An engineer in Hyderabad who writes emails to US clients and wants to sound polished.",
+        "goals": [
+          "Write correct, professional English",
+          "Sound confident, not rude",
+          "Save time on emails"
+        ],
+        "frustrations": [
+          "Pro price is high in dollars",
+          "Some suggestions change what they meant",
+          "Free version shows locked premium suggestions"
+        ]
+      },
+      {
+        "name": "University student",
+        "description": "Writes essays and worries about grammar, citations and AI detectors.",
+        "goals": [
+          "Better grades",
+          "Avoid plagiarism",
+          "Prove work is their own"
+        ],
+        "frustrations": [
+          "AI detectors falsely flag their writing",
+          "Cost on a student budget",
+          "Too many suggestions feel distracting"
+        ]
+      },
+      {
+        "name": "Company communications lead",
+        "description": "Manages brand voice for 2,000 staff at a tech company.",
+        "goals": [
+          "Consistent brand tone",
+          "Fewer errors in customer messages",
+          "Data security"
+        ],
+        "frustrations": [
+          "Staff already use ChatGPT and Copilot",
+          "Hard to prove return on spend",
+          "Overlap with Microsoft and Google built-in tools"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Writing mistakes make people look unprofessional.",
+        "howSolved": "Real-time grammar and spelling fixes in every app.",
+        "severity": "high"
+      },
+      {
+        "pain": "Non-native speakers worry about tone and phrasing.",
+        "howSolved": "Tone detector and rewrite suggestions for clarity and politeness.",
+        "severity": "high"
+      },
+      {
+        "pain": "Copy-pasting into ChatGPT for every email is slow.",
+        "howSolved": "AI help appears right where you write, in Gmail, Slack or LinkedIn.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Students fear being falsely accused of using AI.",
+        "howSolved": "Authorship tracks how a document was written to show it is your work.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Company messages sound different from person to person.",
+        "howSolved": "Shared style guides and brand tones for teams.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Real-time writing suggestions",
+        "whatItDoes": "Grammar, spelling, clarity and tone checks as you type.",
+        "whyItMatters": "The core habit; used many times a day across apps."
+      },
+      {
+        "feature": "Generative AI rewrite and drafting",
+        "whatItDoes": "Rewrites text, changes tone and drafts replies from prompts.",
+        "whyItMatters": "Keeps Grammarly relevant against ChatGPT."
+      },
+      {
+        "feature": "Works everywhere",
+        "whatItDoes": "Extension, desktop app and keyboard work in over 500,000 apps and sites.",
+        "whyItMatters": "The main edge over chatbots that live in one window."
+      },
+      {
+        "feature": "Authorship and AI detector",
+        "whatItDoes": "Shows how text was written and checks for AI-generated content.",
+        "whyItMatters": "Serves students and teachers worried about AI cheating."
+      },
+      {
+        "feature": "Superhuman Go assistant",
+        "whatItDoes": "An AI agent that pulls context from email, calendar and docs to help across apps.",
+        "whyItMatters": "Grammarly's bet to move from a writing fixer to an AI work assistant."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Free to Pro",
+        "persona": "Non-native English professional",
+        "steps": [
+          {
+            "step": "Installs extension",
+            "detail": "A friend recommends it for emails."
+          },
+          {
+            "step": "Sees red underlines",
+            "detail": "Fixes mistakes in Gmail for free."
+          },
+          {
+            "step": "Sees premium hints",
+            "detail": "Notices locked suggestions for clarity and tone."
+          },
+          {
+            "step": "Weekly report",
+            "detail": "Gets an email showing how many mistakes were caught."
+          },
+          {
+            "step": "Upgrades",
+            "detail": "Buys Pro on a discount offer."
+          },
+          {
+            "step": "Daily habit",
+            "detail": "Uses AI rewrites for important client emails."
+          }
+        ]
+      },
+      {
+        "name": "Essay with Authorship",
+        "persona": "University student",
+        "steps": [
+          {
+            "step": "Writes essay",
+            "detail": "In Google Docs with Grammarly on."
+          },
+          {
+            "step": "Checks citations",
+            "detail": "Uses the citation agent."
+          },
+          {
+            "step": "Runs AI detector",
+            "detail": "Checks it will not be flagged."
+          },
+          {
+            "step": "Turns on Authorship",
+            "detail": "Records how the essay was written."
+          },
+          {
+            "step": "Submits",
+            "detail": "Shares the Authorship report with the teacher."
+          }
+        ]
+      },
+      {
+        "name": "Team rollout",
+        "persona": "Company communications lead",
+        "steps": [
+          {
+            "step": "Notices errors",
+            "detail": "Customer emails have mistakes and mixed tone."
+          },
+          {
+            "step": "Trial",
+            "detail": "Starts a Grammarly business trial."
+          },
+          {
+            "step": "Sets style guide",
+            "detail": "Adds brand words and tone rules."
+          },
+          {
+            "step": "Rolls out",
+            "detail": "Deploys to 2,000 staff through IT."
+          },
+          {
+            "step": "Reviews analytics",
+            "detail": "Checks suggestions accepted and time saved."
+          },
+          {
+            "step": "Decides on suite",
+            "detail": "Considers upgrading to the Superhuman suite with Coda and Mail."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Grammarly makes money from subscriptions. Individuals pay for Pro; companies pay per user for business plans. The free plan is the main way people find it. The new Superhuman suite tries to sell more per user by bundling Grammarly with Coda, Superhuman Mail and Go.",
+      "revenueStreams": [
+        {
+          "stream": "Individual Pro subscriptions",
+          "detail": "About $12 a month billed yearly; more if billed monthly."
+        },
+        {
+          "stream": "Business and Enterprise plans",
+          "detail": "Per-user pricing for teams with style guides, admin and security."
+        },
+        {
+          "stream": "Education plans",
+          "detail": "Licences sold to universities."
+        },
+        {
+          "stream": "Superhuman suite",
+          "detail": "Bundles including Coda, Superhuman Mail and Go at higher prices."
+        }
+      ],
+      "pricing": "Free plan. Pro about $12 a month billed yearly (higher monthly). Enterprise: custom. Superhuman suite bundles priced separately. Prices from grammarly.com and may change; local prices in India are lower.",
+      "costDrivers": [
+        "AI model costs for generative features, including fees to large language model providers",
+        "Marketing, especially paid ads and YouTube sponsorships",
+        "Engineering for apps that work across thousands of websites",
+        "Free users who never pay",
+        "Integrating Coda and Superhuman"
+      ],
+      "unitEconomics": "A Pro user pays about $144 a year. Classic grammar checks are cheap to run, maybe a few cents a month, so old Grammarly had high margins. Generative AI rewrites cost more per use, maybe $1 to 3 a month for an active user, which cuts margins. Grammarly spends heavily on ads; if it costs $50 to $100 to win a paying user and they stay two years, it earns back that cost several times. The $1 billion from General Catalyst is to fund exactly this marketing."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Huge YouTube and online ad campaigns",
+        "Free plan with visible 'premium' suggestions that tease upgrades",
+        "Word of mouth among students and non-native speakers",
+        "Search for 'grammar checker' and 'AI detector'",
+        "Sales to businesses and universities"
+      ],
+      "whatBringsUsersBack": [
+        "Works automatically in every app, so it is used daily",
+        "Weekly writing reports with scores",
+        "Personal dictionary and style settings",
+        "Business style guides tie teams to the product"
+      ],
+      "moat": "Grammarly's moat is being everywhere you type, plus a habit built by tens of millions of users over a decade. Rivals like ChatGPT need you to switch windows. But Microsoft, Google and Apple are adding similar features directly into their own apps and keyboards, which weakens this moat."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT",
+        "positioning": "Free general AI that can rewrite anything.",
+        "howThisProductDiffers": "Grammarly works inline everywhere; ChatGPT needs copy-paste but is more flexible."
+      },
+      {
+        "name": "Microsoft Copilot and Editor",
+        "positioning": "Writing help built into Word and Outlook.",
+        "howThisProductDiffers": "Microsoft is built into Office; Grammarly works across all apps and the web."
+      },
+      {
+        "name": "Google Gemini in Docs and Gmail",
+        "positioning": "AI writing in Google Workspace.",
+        "howThisProductDiffers": "Free for many Workspace users; Grammarly is cross-app and stronger on grammar detail."
+      },
+      {
+        "name": "Apple Writing Tools",
+        "positioning": "AI rewrite built into iPhone and Mac.",
+        "howThisProductDiffers": "Free with Apple devices; Grammarly works on Windows and Android too and has team features."
+      },
+      {
+        "name": "QuillBot",
+        "positioning": "Paraphrasing and grammar tool popular with students.",
+        "howThisProductDiffers": "QuillBot is cheaper; Grammarly has stronger brand and business features."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active users who accept at least 10 suggestions",
+      "why": "Accepted suggestions mean Grammarly actually improved someone's writing. Weekly use shows the habit is alive. This north star metric tracks real help, not just installs. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "People using Grammarly each week.",
+        "children": [
+          {
+            "metric": "New installs to first accepted suggestion",
+            "description": "Activation in the first day."
+          },
+          {
+            "metric": "Apps covered per user",
+            "description": "Using it in more apps builds habit."
+          },
+          {
+            "metric": "Mobile keyboard adoption",
+            "description": "Extends use to phones."
+          }
+        ]
+      },
+      {
+        "metric": "Suggestions accepted per user",
+        "description": "Value delivered per user.",
+        "children": [
+          {
+            "metric": "Acceptance rate",
+            "description": "Share of suggestions accepted."
+          },
+          {
+            "metric": "AI prompts used",
+            "description": "Generative rewrites and drafts."
+          },
+          {
+            "metric": "Dismiss rate",
+            "description": "High dismissals show annoying suggestions."
+          }
+        ]
+      },
+      {
+        "metric": "Paid conversion",
+        "description": "Free users moving to paid.",
+        "children": [
+          {
+            "metric": "Premium suggestion clicks",
+            "description": "Interest in locked features."
+          },
+          {
+            "metric": "Trial to paid",
+            "description": "Share of trials that pay."
+          },
+          {
+            "metric": "Regional price conversion",
+            "description": "Conversion in India and other markets."
+          }
+        ]
+      },
+      {
+        "metric": "Business seats",
+        "description": "Company users.",
+        "children": [
+          {
+            "metric": "Seats per business account",
+            "description": "Expansion inside companies."
+          },
+          {
+            "metric": "Suite upgrade rate",
+            "description": "Teams upgrading to the Superhuman bundle."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Suggestions that change meaning (error rate)",
+      "Privacy complaints about reading text",
+      "AI cost per active user",
+      "Refund and auto-renewal complaints"
+    ],
+    "strengths": [
+      "Works in almost every app, unlike chatbots",
+      "About 40 million daily users and a strong brand",
+      "Years of writing data to improve suggestions",
+      "Business features like style guides",
+      "Bought Coda and Superhuman to expand the product line"
+    ],
+    "weaknesses": [
+      "Core feature now feels free elsewhere because of ChatGPT and built-in tools",
+      "Brand confusion after renaming the company Superhuman",
+      "Generative AI costs reduce old high margins",
+      "Heavy dependence on paid marketing",
+      "AI detector accuracy is questioned"
+    ],
+    "risks": [
+      "Microsoft, Google and Apple bundling free writing AI",
+      "Users moving to chat-first workflows",
+      "Privacy and data rules on reading everything users type",
+      "Integration risk with Coda and Superhuman",
+      "Repaying the $1 billion financing from revenue"
+    ],
+    "userComplaints": [
+      "Expensive subscription and auto-renewal surprises",
+      "Suggestions that change meaning or make writing sound bland",
+      "Too many premium upsell prompts in the free plan",
+      "AI detector false positives",
+      "Extension slows down some websites"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Lower regional pricing in India and Southeast Asia with UPI and wallet payments",
+        "problem": "Dollar pricing is too high for many non-native English users, a core audience.",
+        "expectedImpact": "More paying users in large markets.",
+        "metricToTrack": "Paid conversion in India",
+        "effort": "low"
+      },
+      {
+        "idea": "'Keep my voice' setting that limits rewrites to clarity, not style",
+        "problem": "Users say suggestions make writing bland or change meaning.",
+        "expectedImpact": "Higher acceptance and less frustration.",
+        "metricToTrack": "Acceptance rate and dismiss rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear renewal reminders and easy cancel",
+        "problem": "Auto-renewal complaints hurt trust.",
+        "expectedImpact": "Fewer complaints and refunds, better brand.",
+        "metricToTrack": "Refund and complaint rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Team writing analytics that show time saved and errors avoided",
+        "problem": "Companies struggle to justify paying when Copilot is bundled.",
+        "expectedImpact": "Stronger business renewals.",
+        "metricToTrack": "Seats per business account",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Being early is not safety. A pre-ChatGPT AI product had to rethink itself when writing help became free.",
+      "Distribution inside workflows matters. Working where people type is Grammarly's real edge.",
+      "When your core is commoditised, expand the job. Grammarly bought Coda and Superhuman to become an AI work suite.",
+      "Freemium needs a clear reason to pay. Teasing premium suggestions works, but too much upsell annoys users.",
+      "Rebrands are risky. Renaming the company can confuse users of a famous product."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "ChatGPT made writing help free. How would you keep Grammarly relevant?",
+        "hint": "Name Grammarly's unique strengths: inline everywhere, habits, team style. Build on them with agents and context. Measure retention and conversion."
+      },
+      {
+        "question": "Was renaming the company Superhuman a good idea?",
+        "hint": "Weigh brand equity of Grammarly against a broader suite story. Consider users, investors and employees. Suggest how to measure impact."
+      },
+      {
+        "question": "How would you grow paid users in India?",
+        "hint": "Segment users: students, IT professionals. Price locally, add UPI, partner with colleges. Track conversion and churn."
+      },
+      {
+        "question": "Design metrics for Grammarly's AI detector.",
+        "hint": "Accuracy, false positive rate, user trust, teacher adoption. Discuss harms of false accusations."
+      },
+      {
+        "question": "Microsoft adds free writing AI to Windows keyboards. What do you do?",
+        "hint": "Assess overlap. Focus on cross-platform, team features and quality. Consider partnerships and pricing."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Freemium",
+        "meaning": "A free basic plan with paid upgrades for more features."
+      },
+      {
+        "term": "Generative AI",
+        "meaning": "AI that creates new text, images or audio instead of only checking them."
+      },
+      {
+        "term": "Browser extension",
+        "meaning": "A small add-on for a web browser that adds features to every website."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Users who stop paying."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets real value."
+      },
+      {
+        "term": "Acceptance rate",
+        "meaning": "The share of suggestions users accept."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard for others to copy."
+      },
+      {
+        "term": "Brand equity",
+        "meaning": "The value a well-known name brings to a company."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow; Grammarly's guardrail metrics include meaning-change errors."
+      }
+    ],
+    "assumptions": [
+      "Revenue of about $700 million is a third-party estimate.",
+      "AI cost per user and customer acquisition cost are rough estimates.",
+      "The $13 billion valuation is from 2021 and may not reflect value today.",
+      "User numbers are company claims.",
+      "The north star metric is our proposal."
+    ]
+  }
+}

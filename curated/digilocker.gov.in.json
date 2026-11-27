@@ -1,0 +1,262 @@
+{
+  "company": "DigiLocker / UPI stack",
+  "domain": "digilocker.gov.in",
+  "website": "https://digilocker.gov.in",
+  "sources": [
+    "https://www.freepressjournal.in/business/digilocker-crosses-7243-crore-users-umang-records-1166-crore-registrations-govt-informs-rajya-sabha",
+    "https://www.freepressjournal.in/business/upi-transactions-hit-2547-billion-in-october-value-soars-to-3153-lakh-crore",
+    "https://www.freepressjournal.in/business/upi-transactions-fall-18-in-september-to-2407-billion-ahead-of-october-15-mdr-rollout",
+    "https://indiantelevision.com/regulators/digital-india-powers-wider-access-with-144-crore-aadhaar-ids-and-55-crore-upi-users/",
+    "https://en.wikipedia.org/wiki/DigiLocker",
+    "https://inc42.com/features/mdr-and-ai-inside-the-two-acronyms-that-could-shape-razorpays-₹6000-cr-ipo/"
+  ],
+  "report": {
+    "company": "DigiLocker / UPI stack",
+    "tagline": "India's free public digital rails: Aadhaar proves who you are, DigiLocker holds your official documents, and UPI moves money instantly.",
+    "category": "Public digital infra",
+    "simpleSummary": "The government built a few free building blocks that any app can plug into. Aadhaar lets you prove your identity with a number and an OTP. DigiLocker keeps real copies of your marksheets, licence and PAN card on your phone. UPI lets you send money to anyone in seconds for free, and apps like PhonePe and Google Pay are built on top of it.",
+    "keyNumbers": [
+      { "label": "DigiLocker registered users", "value": "72.4 crore+", "note": "Government reply in Rajya Sabha, August 2026." },
+      { "label": "Document types available in DigiLocker", "value": "5,437", "note": "As of 31 July 2026; 661 from central and 4,776 from state governments." },
+      { "label": "UPI transactions (October 2026)", "value": "2,547 crore, worth ₹31.5 lakh crore", "note": "NPCI data via Free Press Journal. Up 23% in volume over a year." },
+      { "label": "UPI daily average (October 2026)", "value": "About 82 crore transactions, about ₹1 lakh crore", "note": "NPCI data, first month daily value crossed ₹1 lakh crore." },
+      { "label": "Aadhaar IDs issued", "value": "About 144 crore", "note": "Government figure reported in 2026." },
+      { "label": "UPI users", "value": "About 55 crore", "note": "Government figure reported in 2026; counts unique users, so treat as approximate." }
+    ],
+    "overview": {
+      "whatItDoes": "India Stack is a set of public digital systems built by the government and non-profit bodies. Aadhaar (by UIDAI) gives each resident a digital ID. DigiLocker (by MeitY) stores official documents issued straight from the source, like CBSE or the transport department. UPI (by NPCI) lets any bank account send money to any other, through any app. Private companies build products on top for free or very low cost.",
+      "howItWorks": [
+        "Aadhaar: you share your number, get an OTP on your phone, and the app confirms who you are (eKYC).",
+        "DigiLocker: issuers like CBSE, RTO and Income Tax push your documents into your locker. They count as originals by law.",
+        "Requesters like banks and telecom firms can pull a verified document with your consent instead of asking for a photocopy.",
+        "UPI: you link your bank to an app and get an ID like name@bank. Money moves bank to bank in seconds.",
+        "Apps like PhonePe, Google Pay and Paytm are only front ends; NPCI runs the switch in the middle.",
+        "Most of these services are free to citizens, and UPI is free for most payments to merchants too."
+      ],
+      "valueProposition": "For citizens: no queues, no photocopies, free instant payments. For companies: they can verify customers and collect money cheaply, so they can build products for crores of people that would cost too much otherwise."
+    },
+    "personas": [
+      {
+        "name": "Student applying to college",
+        "description": "An 18-year-old who needs to submit Class 10 and 12 marksheets.",
+        "goals": ["Share marksheets instantly", "No attestation trips", "Not lose papers"],
+        "frustrations": ["Board not yet linked to DigiLocker", "Name spelling mismatch", "Login OTP fails"]
+      },
+      {
+        "name": "Kirana store owner",
+        "description": "Runs a small grocery shop and accepts UPI with a QR code and soundbox.",
+        "goals": ["Get paid instantly", "No card machine fees", "Know payment arrived"],
+        "frustrations": ["Fake payment screenshots", "Server down at peak times", "Fear of tax notices"]
+      },
+      {
+        "name": "Fintech product manager",
+        "description": "Builds a lending app that needs to verify users and collect EMIs.",
+        "goals": ["Onboard users in minutes", "Low verification cost", "Auto-debit EMIs"],
+        "frustrations": ["Rules change often", "Some documents not in DigiLocker", "UPI app limits"]
+      },
+      {
+        "name": "Rural pensioner",
+        "description": "A 68-year-old in a village who gets a pension and uses Aadhaar for ration.",
+        "goals": ["Get benefits without middlemen", "Withdraw money nearby"],
+        "frustrations": ["Fingerprint doesn't match", "Fraud calls asking for OTP", "Low digital skills"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Proving identity used to need many paper documents and branch visits.", "howSolved": "Aadhaar eKYC verifies identity in seconds with an OTP.", "severity": "high" },
+      { "pain": "Fake certificates and photocopies make checks slow and risky.", "howSolved": "DigiLocker documents come straight from the issuer, so they can't be faked.", "severity": "high" },
+      { "pain": "Sending money was slow and cards cost merchants 1 to 2% per payment.", "howSolved": "UPI sends money instantly and is free for most payments.", "severity": "high" },
+      { "pain": "Each bank had its own app and you couldn't pay someone at another bank easily.", "howSolved": "UPI works across all banks and apps.", "severity": "medium" },
+      { "pain": "Government benefits leaked through middlemen.", "howSolved": "Direct transfers to Aadhaar-linked bank accounts.", "severity": "medium" },
+      { "pain": "Losing physical documents means weeks of reissue work.", "howSolved": "Digital originals always available in DigiLocker.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Aadhaar eKYC", "whatItDoes": "Confirms a person's identity using their Aadhaar number and OTP or fingerprint.", "whyItMatters": "Cut the cost of onboarding a bank or telecom customer from hundreds of rupees to a few rupees." },
+      { "feature": "DigiLocker issued documents", "whatItDoes": "Stores marksheets, driving licence, PAN, vehicle RC and more, issued directly by the source.", "whyItMatters": "Legally valid originals reduce fraud and paperwork." },
+      { "feature": "DigiLocker consent-based sharing", "whatItDoes": "Lets banks, colleges and employers fetch a document with the user's permission.", "whyItMatters": "Private apps can verify users without asking for uploads." },
+      { "feature": "UPI", "whatItDoes": "Instant bank-to-bank payments through any app using a UPI ID or QR code.", "whyItMatters": "Made digital payments normal for crores of small merchants." },
+      { "feature": "UPI AutoPay and credit on UPI", "whatItDoes": "Auto-debits for subscriptions and EMIs; RuPay credit cards and credit lines can be used on UPI.", "whyItMatters": "Opens lending and subscription businesses on the same rails." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Opening a bank account digitally",
+        "persona": "Fintech product manager",
+        "steps": [
+          { "step": "User installs app", "detail": "Enters phone number." },
+          { "step": "Aadhaar eKYC", "detail": "Enters Aadhaar and OTP; name and address fill in." },
+          { "step": "Fetch PAN from DigiLocker", "detail": "User gives consent and PAN is pulled." },
+          { "step": "Video KYC", "detail": "Short video call if required by RBI rules." },
+          { "step": "Account opens", "detail": "Account live in minutes." },
+          { "step": "Link UPI", "detail": "User sets UPI PIN and can pay right away." }
+        ]
+      },
+      {
+        "name": "Paying at a kirana shop",
+        "persona": "Kirana store owner",
+        "steps": [
+          { "step": "Display QR", "detail": "Shop shows a QR from PhonePe, Paytm or a bank." },
+          { "step": "Customer scans", "detail": "Customer scans with any UPI app." },
+          { "step": "Enter amount and PIN", "detail": "Customer types amount and UPI PIN." },
+          { "step": "Money moves", "detail": "NPCI routes it from customer's bank to shop's bank in seconds." },
+          { "step": "Soundbox confirms", "detail": "Voice says 'received ₹200', so no fake screenshots." }
+        ]
+      },
+      {
+        "name": "Submitting marksheets",
+        "persona": "Student applying to college",
+        "steps": [
+          { "step": "Sign in to DigiLocker", "detail": "Uses Aadhaar or phone OTP." },
+          { "step": "Search issuer", "detail": "Chooses CBSE or state board." },
+          { "step": "Fetch document", "detail": "Enters roll number and year; marksheet appears." },
+          { "step": "Share", "detail": "Shares with the college through DigiLocker or a link." },
+          { "step": "College verifies", "detail": "College trusts it as an original, no attestation." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "These are public goods, not businesses. They are funded mostly by the government and banks. The point is to make it cheap for private companies to build products, so the money is made by apps built on top, not by the rails.",
+      "revenueStreams": [
+        { "stream": "Government funding", "detail": "UIDAI and MeitY budgets pay for Aadhaar and DigiLocker." },
+        { "stream": "Verification fees", "detail": "Private companies pay small per-check fees for Aadhaar eKYC and some DigiLocker pulls." },
+        { "stream": "UPI subsidy", "detail": "The government pays banks an incentive for small UPI payments since merchants pay zero fee." },
+        { "stream": "Planned UPI MDR on large payments", "detail": "A 0.4% fee (capped at ₹300) on some merchant payments above ₹2,000, and ₹5 flat in categories like fuel and telecom, was due 15 October 2026 but pushed to after Diwali. Over 95% of merchant payments stay free." }
+      ],
+      "pricing": "Free for citizens. UPI is free for person-to-person and most merchant payments. Aadhaar eKYC costs a few rupees per check for private companies. DigiLocker partner pricing is not widely published.",
+      "costDrivers": [
+        "Data centres and security for crores of daily requests",
+        "Bank incentives for free UPI",
+        "Onboarding new document issuers across states",
+        "Fraud prevention and grievance handling"
+      ],
+      "unitEconomics": "Look at one ₹200 UPI payment at a kirana shop. The customer pays nothing and the shop pays nothing. The banks and NPCI spend a fraction of a rupee to process it, partly covered by a government incentive. With a card, the shop would have paid about ₹2 to ₹4. For a fintech, Aadhaar eKYC costs a few rupees per user, against ₹100+ for a paper KYC visit. The rails lose or break even so that the whole economy saves. Per-transaction costs here are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Government mandates, like linking Aadhaar to bank accounts and benefits",
+        "Private apps (PhonePe, Google Pay, Paytm) marketing UPI with cashback",
+        "Demonetisation in 2016 and COVID pushed people to digital payments",
+        "Boards and universities pushing marksheets into DigiLocker",
+        "Apps showing 'Fetch from DigiLocker' during sign-up"
+      ],
+      "whatBringsUsersBack": [
+        "Daily small payments become a habit",
+        "Every new government service uses Aadhaar and DigiLocker",
+        "Merchants keep QR codes because customers expect them",
+        "Documents stay updated automatically"
+      ],
+      "moat": "They are open and run by the state, so everyone builds on them. Every bank, app and shop is already connected, and laws recognise DigiLocker documents as originals. No private company can match that reach or legal standing."
+    },
+    "competitors": [
+      { "name": "Card networks (Visa, Mastercard)", "positioning": "Global card payments that charge merchants a fee.", "howThisProductDiffers": "UPI is free and works from any bank account, so it took most small payments in India." },
+      { "name": "Private wallets (old Paytm wallet model)", "positioning": "Closed wallets where you load money first.", "howThisProductDiffers": "UPI works across all apps and banks without loading money." },
+      { "name": "Private KYC and document vaults", "positioning": "Paid services to verify identity or store documents.", "howThisProductDiffers": "DigiLocker has documents straight from issuers and legal backing." },
+      { "name": "Other countries' systems (Brazil Pix, Singapore PayNow)", "positioning": "Instant public payment systems.", "howThisProductDiffers": "UPI is the largest by volume and is now being linked to other countries." }
+    ],
+    "northStar": {
+      "metric": "Number of successful citizen actions per day done on the rails (payments, verifications and document shares)",
+      "why": "Each one is a task a citizen or business finished faster and cheaper than before. It shows real use, not just sign-ups."
+    },
+    "kpiTree": [
+      {
+        "metric": "UPI successful payments",
+        "description": "Daily payments that go through.",
+        "children": [
+          { "metric": "Active UPI users", "description": "People paying at least once a month." },
+          { "metric": "Merchants accepting UPI", "description": "More places to pay." },
+          { "metric": "Payment success rate", "description": "Failed payments push people back to cash." }
+        ]
+      },
+      {
+        "metric": "DigiLocker document use",
+        "description": "Documents fetched and shared.",
+        "children": [
+          { "metric": "Issuers live", "description": "More boards and departments mean more documents." },
+          { "metric": "Requester organisations", "description": "More banks and colleges accepting DigiLocker." },
+          { "metric": "Share and fetch requests per month", "description": "Real use beyond sign-up." }
+        ]
+      },
+      {
+        "metric": "Identity verifications",
+        "description": "Aadhaar checks that let people access services.",
+        "children": [
+          { "metric": "eKYC success rate", "description": "OTP and fingerprint failures block people." },
+          { "metric": "Average time to verify", "description": "Faster checks mean faster onboarding." }
+        ]
+      },
+      {
+        "metric": "Trust and safety",
+        "description": "People keep using it only if it feels safe.",
+        "children": [
+          { "metric": "Fraud cases per lakh transactions", "description": "Scams hurt trust." },
+          { "metric": "Grievances resolved in time", "description": "Shows the system fixes problems." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "UPI fraud losses per crore transactions",
+      "Aadhaar data leak incidents",
+      "System downtime during peak hours",
+      "Share of payments still free for small merchants"
+    ],
+    "strengths": [
+      "Huge scale: 72 crore DigiLocker users and over 2,500 crore UPI payments a month",
+      "Free or near-free, so anyone can build on it",
+      "Legal backing for DigiLocker documents",
+      "Open to all apps, which created strong competition among apps"
+    ],
+    "weaknesses": [
+      "UPI has no clear way to pay for itself; banks lose money on free payments",
+      "Two apps (PhonePe and Google Pay) handle most UPI volume",
+      "DigiLocker coverage varies by state and issuer",
+      "Aadhaar authentication fails for some elderly and manual workers"
+    ],
+    "risks": [
+      "Cyber attacks and data leaks",
+      "Fraud through social engineering and fake UPI requests",
+      "Funding pressure if subsidies drop",
+      "Privacy concerns and legal challenges"
+    ],
+    "userComplaints": [
+      "UPI payments fail or get stuck, with slow refunds",
+      "Scam calls and fake collect requests",
+      "DigiLocker document missing or name mismatch",
+      "OTP not received or Aadhaar fingerprint not matching",
+      "Hard to reach a human for grievance help"
+    ],
+    "improvementIdeas": [
+      { "idea": "One-tap 'stuck payment' tracker inside all UPI apps with a fixed refund date", "problem": "Failed payments and slow refunds", "expectedImpact": "More trust and fewer complaints", "metricToTrack": "Share of failed payments refunded within 24 hours", "effort": "medium" },
+      { "idea": "Warning screen for first-time large payments to new UPI IDs", "problem": "Scam collect requests", "expectedImpact": "Fewer fraud losses", "metricToTrack": "Fraud cases per lakh transactions", "effort": "low" },
+      { "idea": "DigiLocker 'request my document' that alerts the issuer if a record is missing", "problem": "Missing or mismatched documents", "expectedImpact": "Higher document coverage", "metricToTrack": "Fetch success rate", "effort": "medium" },
+      { "idea": "Face authentication as default fallback when fingerprints fail", "problem": "Elderly and manual workers fail Aadhaar checks", "expectedImpact": "More people get benefits", "metricToTrack": "Authentication success rate for users over 60", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Open public rails let private companies compete on experience. PhonePe and Google Pay won by building on free UPI.",
+      "Making the base layer free can grow a whole market, but someone must pay. UPI's MDR debate shows this.",
+      "Trust can come from the source. DigiLocker works because documents come from the issuer.",
+      "Before building a feature, check if a public rail already solves it. Many Indian startups exist because eKYC and UPI made onboarding cheap.",
+      "Design for the weakest user too. Fingerprint failures show that average success rates hide real pain."
+    ],
+    "interviewQuestions": [
+      { "question": "UPI is free. How should it be funded?", "hint": "List who benefits (merchants, apps, government). Compare options: subsidy, MDR on large merchants, value-added services. Protect small merchants." },
+      { "question": "How would you increase DigiLocker usage among private companies?", "hint": "Find why they don't use it (coverage, API ease, cost). Propose a simple SDK, more issuers and clear pricing. Track requester count and fetches." },
+      { "question": "Design a feature to cut UPI fraud for first-time users.", "hint": "Map the scam flow, add friction only at risky moments, use plain-language warnings, and measure fraud and drop-off." },
+      { "question": "Why did UPI beat wallets in India?", "hint": "Interoperability, zero cost, bank account link, no loading money, and government push." },
+      { "question": "You are a PM at a lending startup. Which India Stack parts would you use and why?", "hint": "Aadhaar eKYC to onboard, DigiLocker for PAN and income proof, UPI AutoPay for EMIs, Account Aggregator for bank data." }
+    ],
+    "glossary": [
+      { "term": "India Stack", "meaning": "The set of public digital systems in India, such as Aadhaar, DigiLocker and UPI, that anyone can build on." },
+      { "term": "eKYC", "meaning": "Electronic know-your-customer: verifying a person's identity online instead of on paper." },
+      { "term": "MDR", "meaning": "Merchant discount rate: the fee a shop pays for accepting a digital payment." },
+      { "term": "Interoperability", "meaning": "Different apps and banks working with each other." },
+      { "term": "NPCI", "meaning": "National Payments Corporation of India, the body that runs UPI." },
+      { "term": "P2M", "meaning": "Person to merchant: a payment from a customer to a shop." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Public good", "meaning": "Something built for everyone to use, usually funded by the government." }
+    ],
+    "assumptions": [
+      "Per-transaction costs and card fee comparisons are rough estimates.",
+      "DigiLocker partner pricing could not be confirmed, so it is described generally.",
+      "The final date and design of the UPI MDR may change after Diwali 2026.",
+      "The 55 crore UPI user figure is a government headline and may count users differently from NPCI."
+    ]
+  }
+}

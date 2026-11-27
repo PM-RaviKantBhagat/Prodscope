@@ -1,0 +1,552 @@
+{
+  "company": "Coinbase",
+  "domain": "coinbase.com",
+  "website": "https://coinbase.com",
+  "sources": [
+    "https://www.quiverquant.com/news/Coinbase+Posts+%24719+Million+Q3+Net+Income+on+%241.2+Billion+Revenue",
+    "https://finance.technews.tw/2026/10/30/coinbase-third-quarter-2026-earnings/",
+    "https://www.benzinga.com/node/62721640",
+    "https://finviz.com/news/412706/after-q3-2026-what-coinbases-revenue-mix-says-about-its-valuation",
+    "https://coincentral.com/coinbase-reports-higher-earnings-despite-revenue-decline/",
+    "https://www.aol.com/articles/coinbase-coin-q3-2025-earnings-230233812.html"
+  ],
+  "report": {
+    "company": "Coinbase",
+    "tagline": "The largest US crypto exchange, where people and companies buy, sell, store and earn on Bitcoin, Ethereum and stablecoins.",
+    "category": "Crypto",
+    "simpleSummary": "Coinbase is an app where you can buy and sell crypto like Bitcoin with money from your bank account. It keeps your crypto safe for you, like a bank keeps cash. It makes money from trading fees, from interest on the USDC digital dollar, from staking, and from a monthly membership. Its big selling point is trust: it is a listed US company that follows the rules, in an industry known for scams and collapses.",
+    "keyNumbers": [
+      {
+        "label": "Q3 2026 net income",
+        "value": "About $719 million",
+        "note": "Quiver Quant and news reports, October 2026. Helped by gains on crypto Coinbase holds and lower costs, after three quarters of losses."
+      },
+      {
+        "label": "Q3 2026 revenue",
+        "value": "About $1.2 billion (reported)",
+        "note": "Quiver Quant headline. Core trading revenue was weak in 2026; check the shareholder letter for exact total."
+      },
+      {
+        "label": "Prediction markets",
+        "value": "About $200 million annualised revenue",
+        "note": "Benzinga, Q3 2026. A new product line."
+      },
+      {
+        "label": "Full-year revenue",
+        "value": "About $7 billion (2025, estimate)",
+        "note": "Our estimate from quarterly results in 2025. Coinbase revenue swings a lot with crypto prices."
+      },
+      {
+        "label": "Monthly transacting users",
+        "value": "About 9 to 10 million (estimate)",
+        "note": "Coinbase reported around 9 to 10 million in 2025. Likely lower in a weak 2026 market."
+      },
+      {
+        "label": "Coinbase One price",
+        "value": "From about $4.99 a month",
+        "note": "Coinbase site. Higher tiers up to about $29.99 a month. Gives zero trading fees on many trades and better staking rewards."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Coinbase lets people and institutions buy, sell, store, send and earn on crypto. It runs a simple app for beginners, Advanced Trade for active traders, Coinbase Prime for big institutions, a derivatives business after buying Deribit, and Base, a blockchain network for apps. It also earns a share of interest from USDC, a stablecoin pegged to the US dollar.",
+      "howItWorks": [
+        "Sign up, verify your ID and link a bank account or card.",
+        "Buy crypto with one tap; Coinbase charges a fee and a spread.",
+        "Coins are held in your Coinbase account, or you can move them to your own wallet.",
+        "Hold USDC and earn rewards; stake Ethereum or Solana to earn more.",
+        "Active traders use Advanced Trade with lower fees; institutions use Prime and custody.",
+        "Coinbase One members pay monthly for no trading fees on many trades and other perks."
+      ],
+      "valueProposition": "The safest, simplest and most regulated way to buy and hold crypto."
+    },
+    "personas": [
+      {
+        "name": "First-time crypto buyer",
+        "description": "A 28-year-old in the US who wants to buy a little Bitcoin after hearing about it.",
+        "goals": [
+          "Buy safely",
+          "Understand what they own",
+          "Avoid scams"
+        ],
+        "frustrations": [
+          "Fees are higher than expected",
+          "Price swings are scary",
+          "Hard to reach a human in support"
+        ]
+      },
+      {
+        "name": "Active trader",
+        "description": "Trades crypto daily and compares fees across exchanges.",
+        "goals": [
+          "Low fees",
+          "Fast execution",
+          "Access to derivatives"
+        ],
+        "frustrations": [
+          "Fees higher than Binance",
+          "Outages on volatile days",
+          "Fewer coins than offshore exchanges"
+        ]
+      },
+      {
+        "name": "Institution",
+        "description": "A fund or company that holds Bitcoin, including firms that run Bitcoin ETFs.",
+        "goals": [
+          "Safe custody",
+          "Regulatory compliance",
+          "Large trades without moving price"
+        ],
+        "frustrations": [
+          "Concentration risk using one custodian",
+          "Fees for custody",
+          "Regulatory uncertainty"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "People fear crypto exchanges will lose their money, like FTX did.",
+        "howSolved": "Coinbase is a US listed company, audited, and holds customer assets separately.",
+        "severity": "high"
+      },
+      {
+        "pain": "Buying crypto is confusing for beginners.",
+        "howSolved": "Simple app with one-tap buy and learning content.",
+        "severity": "high"
+      },
+      {
+        "pain": "Institutions need safe, regulated custody.",
+        "howSolved": "Coinbase Custody and Prime serve funds, including most US Bitcoin ETFs.",
+        "severity": "high"
+      },
+      {
+        "pain": "Cash in a bank earns little.",
+        "howSolved": "USDC rewards and staking pay returns on holdings.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sending money abroad is slow and costly.",
+        "howSolved": "USDC can be sent globally in seconds at low cost.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Simple buy and sell",
+        "whatItDoes": "One-tap crypto purchases with bank, card or PayPal.",
+        "whyItMatters": "Brings in new users and earns the highest fees."
+      },
+      {
+        "feature": "USDC and stablecoin rewards",
+        "whatItDoes": "Hold a digital dollar and earn rewards; Coinbase shares USDC interest income with Circle.",
+        "whyItMatters": "Steady revenue that does not depend on trading."
+      },
+      {
+        "feature": "Staking",
+        "whatItDoes": "Earn rewards by locking coins like ETH to help run the network.",
+        "whyItMatters": "Recurring revenue from a cut of rewards."
+      },
+      {
+        "feature": "Coinbase One",
+        "whatItDoes": "Monthly membership with no trading fees on many trades and boosted rewards.",
+        "whyItMatters": "Turns trading into subscription revenue and builds loyalty."
+      },
+      {
+        "feature": "Base and Coinbase Wallet",
+        "whatItDoes": "A blockchain network and wallet for apps, payments and onchain trading.",
+        "whyItMatters": "Bet on a future where more finance runs onchain."
+      },
+      {
+        "feature": "Derivatives and prediction markets",
+        "whatItDoes": "Futures and options through Deribit, and event contracts.",
+        "whyItMatters": "Diversifies revenue for active traders."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First Bitcoin purchase",
+        "persona": "First-time crypto buyer",
+        "steps": [
+          {
+            "step": "Hears Bitcoin is rising",
+            "detail": "From news or friends."
+          },
+          {
+            "step": "Downloads app",
+            "detail": "Chooses Coinbase because it is well known."
+          },
+          {
+            "step": "Verifies ID",
+            "detail": "Uploads a driver's licence and selfie."
+          },
+          {
+            "step": "Links bank",
+            "detail": "Connects a bank account."
+          },
+          {
+            "step": "Buys $100 of Bitcoin",
+            "detail": "Pays a fee of a few dollars."
+          },
+          {
+            "step": "Checks price daily",
+            "detail": "Gets price alerts and learns more."
+          }
+        ]
+      },
+      {
+        "name": "Moving to Coinbase One",
+        "persona": "Active trader",
+        "steps": [
+          {
+            "step": "Trades often",
+            "detail": "Pays fees on each trade."
+          },
+          {
+            "step": "Sees offer",
+            "detail": "Coinbase One with no fees."
+          },
+          {
+            "step": "Calculates savings",
+            "detail": "Fees saved are more than the monthly price."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Pays monthly."
+          },
+          {
+            "step": "Trades more",
+            "detail": "Uses staking boosts too."
+          }
+        ]
+      },
+      {
+        "name": "Institution custody",
+        "persona": "Institution",
+        "steps": [
+          {
+            "step": "Launches a fund",
+            "detail": "Needs a regulated custodian."
+          },
+          {
+            "step": "Due diligence",
+            "detail": "Checks audits and insurance."
+          },
+          {
+            "step": "Signs with Prime",
+            "detail": "Sets up custody and trading."
+          },
+          {
+            "step": "Deposits assets",
+            "detail": "Billions in Bitcoin held."
+          },
+          {
+            "step": "Pays fees",
+            "detail": "Custody fees based on assets."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Coinbase makes money in two main ways. Transaction revenue comes from fees when people trade. Subscription and services revenue comes from USDC interest, staking, custody, Coinbase One and other services. The second type is steadier, which Coinbase has grown so it relies less on trading booms.",
+      "revenueStreams": [
+        {
+          "stream": "Retail trading fees",
+          "detail": "Fees and spreads on buys and sells, highest in the simple app."
+        },
+        {
+          "stream": "Institutional trading",
+          "detail": "Lower fees but large volumes from funds."
+        },
+        {
+          "stream": "Stablecoin revenue",
+          "detail": "Share of interest earned on USDC reserves, under a deal with Circle."
+        },
+        {
+          "stream": "Staking",
+          "detail": "Coinbase keeps a cut of staking rewards."
+        },
+        {
+          "stream": "Coinbase One subscriptions",
+          "detail": "Monthly fees from members."
+        },
+        {
+          "stream": "Custody and other services",
+          "detail": "Fees for holding assets for institutions, Base and derivatives."
+        }
+      ],
+      "pricing": "Simple trade: a fee plus spread, often around 1 to 2% for small buys. Advanced Trade: from about 0.6% for small traders down to near zero for large ones. Coinbase One: from about $4.99 to $29.99 a month. Staking: commission on rewards. Prices from coinbase.com and change.",
+      "costDrivers": [
+        "Compliance, legal and licensing in many countries",
+        "Technology and security",
+        "Customer support",
+        "Marketing, including sports sponsorships",
+        "Paying USDC rewards to customers",
+        "Costs of the 2025 data breach and refunds"
+      ],
+      "unitEconomics": "A retail user who buys $1,000 of crypto in the simple app might pay $15 to 20 in fees. If they hold $2,000 in USDC, Coinbase earns roughly $40 to 60 a year in interest share, and pays part back as rewards. A Coinbase One member paying $30 a year and trading a bit is worth more over time. Costs to serve are mostly fixed (compliance, tech), so in crypto booms profit soars, and in slumps it can turn to losses, as seen in late 2025 to mid 2026."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Crypto price rallies bring new users",
+        "Brand trust as a US-listed company in the S&P 500",
+        "Referral rewards",
+        "Sports and TV ads",
+        "Learning rewards that pay users to learn about coins"
+      ],
+      "whatBringsUsersBack": [
+        "Price alerts and market news",
+        "USDC and staking rewards",
+        "Coinbase One benefits",
+        "Recurring buys set to run weekly"
+      ],
+      "moat": "Coinbase's moat is trust and regulation. It has licences in many places, years of clean records and serves as custodian for most US Bitcoin ETFs. New entrants find it hard and slow to copy that. But trading itself is easy to copy, and fees are under pressure from Robinhood and others."
+    },
+    "competitors": [
+      {
+        "name": "Robinhood",
+        "positioning": "Stock and crypto trading app with low fees.",
+        "howThisProductDiffers": "Robinhood combines stocks and crypto cheaply; Coinbase has deeper crypto products and custody."
+      },
+      {
+        "name": "Binance",
+        "positioning": "World's largest crypto exchange by volume.",
+        "howThisProductDiffers": "Binance has lower fees and more coins; Coinbase is more regulated in the US."
+      },
+      {
+        "name": "Kraken",
+        "positioning": "US exchange popular with traders.",
+        "howThisProductDiffers": "Similar trust; Coinbase is bigger and listed."
+      },
+      {
+        "name": "Traditional brokers (Schwab, Fidelity)",
+        "positioning": "Adding crypto and ETFs.",
+        "howThisProductDiffers": "Brokers have huge customer bases; Coinbase has crypto-native features."
+      },
+      {
+        "name": "CoinDCX and WazirX (India)",
+        "positioning": "Indian crypto exchanges.",
+        "howThisProductDiffers": "Local players with rupee support; Coinbase invested in CoinDCX and has limited Indian presence."
+      }
+    ],
+    "northStar": {
+      "metric": "Total assets held on Coinbase by active customers",
+      "why": "Assets on platform show trust. People only keep money where they feel safe. It also drives most revenue: trading, staking, USDC and custody all grow with assets. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "Users who transact or hold assets.",
+        "children": [
+          {
+            "metric": "Monthly transacting users",
+            "description": "People who make a transaction each month."
+          },
+          {
+            "metric": "Sign-up to first purchase",
+            "description": "Activation of new users."
+          },
+          {
+            "metric": "Reactivated users",
+            "description": "Old users returning in rallies."
+          }
+        ]
+      },
+      {
+        "metric": "Assets per customer",
+        "description": "How much each user keeps.",
+        "children": [
+          {
+            "metric": "USDC balance per user",
+            "description": "Steady, interest-earning holdings."
+          },
+          {
+            "metric": "Staked assets",
+            "description": "Locked assets that earn rewards."
+          },
+          {
+            "metric": "Recurring buy users",
+            "description": "Regular buying grows balances."
+          }
+        ]
+      },
+      {
+        "metric": "Institutional assets",
+        "description": "Assets held for funds and companies.",
+        "children": [
+          {
+            "metric": "Custody assets",
+            "description": "Assets under custody."
+          },
+          {
+            "metric": "New institutional clients",
+            "description": "Growth of Prime."
+          }
+        ]
+      },
+      {
+        "metric": "Subscription engagement",
+        "description": "Users on recurring products.",
+        "children": [
+          {
+            "metric": "Coinbase One members",
+            "description": "Loyal paying users."
+          },
+          {
+            "metric": "Member churn",
+            "description": "Members who cancel."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Security incidents and account takeovers",
+      "Customer support response time",
+      "Regulatory actions",
+      "Uptime on volatile trading days"
+    ],
+    "strengths": [
+      "Most trusted US crypto brand",
+      "Licences and compliance across many countries",
+      "Growing steady revenue from USDC, staking and subscriptions",
+      "Custodian for most US Bitcoin ETFs",
+      "New products: Base, derivatives, prediction markets"
+    ],
+    "weaknesses": [
+      "Revenue swings heavily with crypto prices",
+      "Retail fees are high compared with rivals",
+      "Customer support complaints",
+      "2025 data breach where bribed support staff leaked customer data",
+      "Depends on Circle and USDC for a large share of income"
+    ],
+    "risks": [
+      "Crypto price crashes reducing trading",
+      "Fee pressure from Robinhood, brokers and banks",
+      "Regulation changes in the US and abroad",
+      "Hacks or scams harming trust",
+      "Stablecoin competition from banks and big tech"
+    ],
+    "userComplaints": [
+      "Slow customer support and hard to reach a human",
+      "High fees on simple buys",
+      "Frozen accounts with little explanation",
+      "Scam calls after the 2025 data breach",
+      "App outages during big price moves"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Live chat with a human within 10 minutes for account locks",
+        "problem": "Users with frozen accounts feel helpless.",
+        "expectedImpact": "Higher trust and lower churn.",
+        "metricToTrack": "Support response time and churn after locks",
+        "effort": "medium"
+      },
+      {
+        "idea": "Show total fees clearly before each trade with a cheaper option suggestion",
+        "problem": "Users feel fees are hidden in spreads.",
+        "expectedImpact": "More trust and more Advanced Trade or Coinbase One use.",
+        "metricToTrack": "Coinbase One sign-ups",
+        "effort": "low"
+      },
+      {
+        "idea": "Scam warning when a user tries to send crypto to a new address after a call",
+        "problem": "Users lose money to scams pretending to be Coinbase.",
+        "expectedImpact": "Fewer scam losses.",
+        "metricToTrack": "Reported scam losses",
+        "effort": "medium"
+      },
+      {
+        "idea": "USDC payments for freelancers sending money across borders",
+        "problem": "Cross-border payments are slow and costly.",
+        "expectedImpact": "More USDC balances and non-trading revenue.",
+        "metricToTrack": "USDC balance per user",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Trust is a product. In crypto, being regulated and safe is the main reason people pick Coinbase.",
+      "Reduce dependence on one revenue source. Coinbase built USDC and subscriptions to smooth out trading swings.",
+      "External markets drive usage. Product teams must plan for booms and busts.",
+      "Security failures hurt brand fast. The 2025 breach showed insider risk is real.",
+      "Make costs clear. Hidden fees push users away."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Crypto prices fall and trading drops. How would you keep Coinbase users engaged?",
+        "hint": "Shift focus to earning (USDC, staking), recurring buys, learning. Measure retention and assets on platform."
+      },
+      {
+        "question": "How would you measure trust in Coinbase?",
+        "hint": "Assets on platform, deposits after news, support satisfaction, security incidents, surveys."
+      },
+      {
+        "question": "Should Coinbase lower retail fees?",
+        "hint": "Compare revenue loss with gains from volume and retention. Consider Coinbase One as a middle path. Test in a segment."
+      },
+      {
+        "question": "Design a product to grow USDC use.",
+        "hint": "Use cases: savings, payments, remittances. Target users. Remove friction. Track balances and transfers."
+      },
+      {
+        "question": "After a data breach, what would you prioritise?",
+        "hint": "Protect users (reimburse, alerts), fix root cause, communicate clearly, measure trust and scam losses."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Stablecoin",
+        "meaning": "A crypto coin designed to stay at a fixed value, like USDC at one US dollar."
+      },
+      {
+        "term": "Staking",
+        "meaning": "Locking crypto to help run a blockchain and earning rewards for it."
+      },
+      {
+        "term": "Custody",
+        "meaning": "Holding and protecting assets for someone else."
+      },
+      {
+        "term": "Spread",
+        "meaning": "The gap between buying and selling price, which is a hidden fee."
+      },
+      {
+        "term": "Transaction revenue",
+        "meaning": "Money a company earns from fees each time customers trade."
+      },
+      {
+        "term": "ETF",
+        "meaning": "Exchange-traded fund: a fund you can buy like a share, such as one that holds Bitcoin."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets value, such as making a first purchase."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Users or members who stop using or paying."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value; for Coinbase, assets held."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow; Coinbase's guardrail metrics include security incidents."
+      }
+    ],
+    "assumptions": [
+      "Q3 2026 revenue of about $1.2 billion is from a news headline and may refer to part of revenue; check the official letter.",
+      "Full-year 2025 revenue and 2026 transacting users are our estimates.",
+      "Per-user revenue estimates in unit economics are rough.",
+      "Fee levels vary by country, payment method and trade size.",
+      "The north star metric is our proposal."
+    ]
+  }
+}

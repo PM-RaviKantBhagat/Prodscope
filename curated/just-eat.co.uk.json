@@ -1,0 +1,247 @@
+{
+  "company": "Just Eat Takeaway",
+  "domain": "just-eat.co.uk",
+  "website": "https://just-eat.co.uk",
+  "sources": [
+    "https://www.restaurantonline.co.uk/Article/2026/11/26/just-eat-takeaway-returns-to-order-growth-after-four-and-a-half-years/",
+    "https://londonlovesbusiness.com/just-eat-returns-to-order-growth-after-55-month-decline-as-prosus-turnaround-gathers-pace/",
+    "https://amuse-media.com/en/hospitality/just-eat-takeaway-revenue-falls-prosus",
+    "https://www.aol.com/news/prosus-pushes-ahead-just-eat-071507522.html",
+    "https://londonlovesbusiness.com/just-eat-owner-prosus-bets-on-ai-as-profits-surge-following-3-6bn-takeover/",
+    "https://techfundingnews.com/doordash-acquires-deliveroo-for-2-9b-are-just-eat-and-uber-eats-next/"
+  ],
+  "report": {
+    "company": "Just Eat Takeaway",
+    "tagline": "One of Europe's biggest takeaway apps, mixing restaurants that deliver themselves with orders delivered by its own couriers, now owned by Prosus.",
+    "category": "Food delivery",
+    "simpleSummary": "Just Eat is the takeaway app many UK families have used for years. You pick a local restaurant and order; sometimes the restaurant's own driver brings it, and sometimes a Just Eat courier does. It runs as Just Eat in the UK, Lieferando in Germany and Thuisbezorgd in the Netherlands. The Dutch-South African tech investor Prosus bought it for about £3.6 billion in 2025.",
+    "keyNumbers": [
+      { "label": "Takeover price", "value": "About £3.6 billion (€4.1 billion)", "note": "Prosus acquisition completed in 2025, per AOL and London Loves Business." },
+      { "label": "Order trend", "value": "Back to growth after 55 months of decline", "note": "Reported 26 November 2026 by Restaurant Online and others." },
+      { "label": "Revenue trend", "value": "Down about 13%", "note": "AMUSE, November 2026. Partly due to selling Grubhub in the US and lower fees, while orders grew." },
+      { "label": "Markets", "value": "About 15 countries, mostly in Europe", "note": "Approximate; UK, Germany and the Netherlands are the biggest." },
+      { "label": "Grubhub sale", "value": "About $650 million", "note": "Sold to Wonder in 2025 after buying it for about $7.3 billion in 2021. Widely reported figures." }
+    ],
+    "overview": {
+      "whatItDoes": "Just Eat Takeaway runs takeaway apps across Europe. It started as a pure marketplace where restaurants handle their own delivery and pay a small commission. Over time it added its own couriers so it could list restaurants like McDonald's that do not deliver.",
+      "howItWorks": [
+        "Customers open the app and see local restaurants with delivery time, minimum order and fees.",
+        "In the marketplace model, the restaurant's own driver delivers and Just Eat takes a lower commission, around 14%.",
+        "In the delivery model, a Just Eat courier picks up the food and the commission is higher, often around 30%.",
+        "Customers pay by card or in some markets cash, and track the order in the app.",
+        "Just Eat+ members pay a monthly fee for free delivery on orders over a minimum.",
+        "Prosus is adding AI tools, such as better search and order predictions, from its other food apps like iFood."
+      ],
+      "valueProposition": "The widest choice of local takeaways, including small independents that only deliver themselves, all in one app."
+    },
+    "personas": [
+      {
+        "name": "Family weekend orderer",
+        "description": "Parent in a UK town who orders a Friday night takeaway.",
+        "goals": ["Familiar local restaurants", "Good value for a family order"],
+        "frustrations": ["Fees and minimum orders", "Late delivery from restaurant drivers"]
+      },
+      {
+        "name": "Independent takeaway owner",
+        "description": "Runs a kebab or Chinese takeaway with its own drivers.",
+        "goals": ["More orders", "Lower commission"],
+        "frustrations": ["Commission still eats profits", "Being buried below chains in search"]
+      },
+      {
+        "name": "Student",
+        "description": "Orders late-night food with friends.",
+        "goals": ["Cheap deals", "Fast delivery"],
+        "frustrations": ["Delivery fees on small orders"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Calling takeaways is slow and orders get wrong.", "howSolved": "Order and pay in the app with menus and photos.", "severity": "high" },
+      { "pain": "Small takeaways cannot afford their own website or app.", "howSolved": "Just Eat brings them customers for a commission.", "severity": "high" },
+      { "pain": "Some restaurants do not deliver.", "howSolved": "Just Eat couriers deliver for them.", "severity": "medium" },
+      { "pain": "Delivery fees add up.", "howSolved": "Just Eat+ gives free delivery above a minimum.", "severity": "medium" },
+      { "pain": "Not knowing when food will arrive.", "howSolved": "Order tracking in the app.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Marketplace listings", "whatItDoes": "Lists restaurants that deliver themselves.", "whyItMatters": "Low-cost model with huge restaurant choice." },
+      { "feature": "Just Eat couriers", "whatItDoes": "Own delivery for restaurants without drivers.", "whyItMatters": "Wins big chains and areas with no delivery." },
+      { "feature": "Just Eat+", "whatItDoes": "Monthly membership with free delivery.", "whyItMatters": "Increases order frequency." },
+      { "feature": "Sponsored listings", "whatItDoes": "Restaurants pay to rank higher.", "whyItMatters": "Extra high-margin revenue." },
+      { "feature": "Grocery and convenience", "whatItDoes": "Delivery from supermarkets and convenience stores.", "whyItMatters": "New order occasions." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Friday night takeaway",
+        "persona": "Family weekend orderer",
+        "steps": [
+          { "step": "Open app", "detail": "Opens Just Eat and sees saved favourites." },
+          { "step": "Choose", "detail": "Picks the usual pizza place." },
+          { "step": "Order", "detail": "Adds family meal deal to the basket." },
+          { "step": "Pay", "detail": "Pays by card or Apple Pay." },
+          { "step": "Track", "detail": "Waits for the restaurant's driver." },
+          { "step": "Rate", "detail": "Rates the order." }
+        ]
+      },
+      {
+        "name": "Restaurant joins",
+        "persona": "Independent takeaway owner",
+        "steps": [
+          { "step": "Sign up", "detail": "Applies and pays a one-off joining fee." },
+          { "step": "Menu", "detail": "Uploads menu." },
+          { "step": "Choose model", "detail": "Picks own delivery for lower commission." },
+          { "step": "Go live", "detail": "Receives orders on a tablet." },
+          { "step": "Promote", "detail": "Pays for sponsored listing." }
+        ]
+      },
+      {
+        "name": "Joining Just Eat+",
+        "persona": "Student",
+        "steps": [
+          { "step": "Prompt", "detail": "Sees savings at checkout." },
+          { "step": "Trial", "detail": "Starts a free trial." },
+          { "step": "Order more", "detail": "Orders more often." },
+          { "step": "Pay", "detail": "Trial turns into monthly payment." },
+          { "step": "Stay or cancel", "detail": "Keeps it if ordering often." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Just Eat earns commission from restaurants and fees from customers. Marketplace orders cost little to serve. Delivery orders earn more commission but cost more due to courier pay. Prosus is focused on growing orders and profit through better tech.",
+      "revenueStreams": [
+        { "stream": "Marketplace commission", "detail": "Around 14% on orders the restaurant delivers." },
+        { "stream": "Delivery commission", "detail": "Around 30% when Just Eat delivers." },
+        { "stream": "Customer fees", "detail": "Service and delivery fees." },
+        { "stream": "Advertising", "detail": "Sponsored listings for restaurants." },
+        { "stream": "Just Eat+", "detail": "Membership fees." }
+      ],
+      "pricing": "Commission around 14% (restaurant delivers) or around 30% (Just Eat delivers), plus a joining fee. Customer service fee and delivery fee vary. Just Eat+ is a monthly fee in some markets.",
+      "costDrivers": [
+        "Courier pay",
+        "Marketing",
+        "Tech and staff",
+        "Customer support and refunds"
+      ],
+      "unitEconomics": "On a £25 marketplace order, Just Eat earns about £3.50 in commission plus about £1 in service fee, with little delivery cost. On a £25 delivery order, it earns about £7.50 plus fees, but pays a courier about £5. Marketplace orders often earn more profit per order. This is why Just Eat stayed strong in towns with many independent takeaways."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TV ads and sponsorships",
+        "Restaurant partners promoting the app",
+        "Discounts for new users",
+        "Wide restaurant choice in smaller towns"
+      ],
+      "whatBringsUsersBack": [
+        "Saved favourite restaurants",
+        "Just Eat+ free delivery",
+        "Offers and meal deals",
+        "Familiar brand"
+      ],
+      "moat": "Just Eat has a deep list of independent takeaways in UK and European towns, built over 20 years. Many small restaurants list only on Just Eat. Its own-delivery restaurants cost little to serve. But Uber Eats and Deliveroo compete hard in big cities."
+    },
+    "competitors": [
+      { "name": "Deliveroo (DoorDash)", "positioning": "Premium restaurants with own riders.", "howThisProductDiffers": "Just Eat has more independent takeaways and towns." },
+      { "name": "Uber Eats", "positioning": "Global delivery app.", "howThisProductDiffers": "Just Eat is stronger with local takeaways." },
+      { "name": "Swiggy and Zomato", "positioning": "Indian delivery apps.", "howThisProductDiffers": "Just Eat uses more marketplace orders; Indian apps deliver almost every order." },
+      { "name": "Restaurant own apps", "positioning": "Domino's and others selling direct.", "howThisProductDiffers": "Just Eat offers choice in one app." }
+    ],
+    "northStar": {
+      "metric": "Weekly orders delivered within the promised time and without a complaint",
+      "why": "Just Eat's big weakness is that half its orders are delivered by restaurant drivers it does not control. Counting only on-time, complaint-free orders makes the team care about that whole experience, not just order volume, and it grows only when customers and restaurants both win."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "Customers who ordered at least once in the last month.",
+        "children": [
+          { "metric": "New customer first-order rate", "description": "Share of new installs who order within 14 days." },
+          { "metric": "Lapsed customer win-back", "description": "Customers returning after 90 days or more without an order, the group that shrank during the 55-month decline." },
+          { "metric": "Just Eat+ members", "description": "Members with free delivery who order more often." }
+        ]
+      },
+      {
+        "metric": "Orders per customer",
+        "description": "How often an active customer orders each month.",
+        "children": [
+          { "metric": "Restaurants in range at peak time", "description": "More choice on Friday night means fewer empty searches." },
+          { "metric": "Reorder rate on favourites", "description": "Share of orders placed from a saved restaurant or past order." },
+          { "metric": "Non-dinner orders", "description": "Lunch, grocery and convenience orders that add new occasions." }
+        ]
+      },
+      {
+        "metric": "Delivery quality",
+        "description": "Share of orders arriving on time and correct.",
+        "children": [
+          { "metric": "On-time rate for restaurant-delivered orders", "description": "The weakest link, since Just Eat does not employ these drivers." },
+          { "metric": "On-time rate for courier-delivered orders", "description": "Shows whether Just Eat's own delivery network keeps up at busy times." },
+          { "metric": "Missing or wrong item rate", "description": "The biggest driver of refunds and bad reviews." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Restaurant churn, especially among independents on the lower marketplace commission",
+      "Courier earnings per hour",
+      "Contribution margin per order",
+      "Refund cost per 100 orders"
+    ],
+    "strengths": [
+      "The deepest list of independent takeaways in many UK and European towns, built over 20 years",
+      "The marketplace model, where restaurants deliver, costs very little per order",
+      "Prosus brings money and tech from iFood and other food apps",
+      "A household brand in the UK, Germany (Lieferando) and the Netherlands (Thuisbezorgd)"
+    ],
+    "weaknesses": [
+      "Orders fell for 55 months in a row before returning to growth in late 2026",
+      "Revenue still fell about 13% even as orders grew",
+      "Weaker than Deliveroo and Uber Eats with premium restaurants in big cities",
+      "Delivery quality depends on restaurant drivers it does not control",
+      "Lost billions on Grubhub, bought for about $7.3 billion and sold for about $650 million"
+    ],
+    "risks": [
+      "DoorDash-owned Deliveroo and Uber Eats spending heavily to win UK cities",
+      "Rules on gig workers' rights raising courier costs",
+      "Households cutting back on takeaways as living costs rise",
+      "Big chains moving customers onto their own apps, like Domino's"
+    ],
+    "userComplaints": [
+      "Food arrives late or cold when the restaurant's own driver delivers",
+      "Service and delivery fees make a £20 meal cost £25 or more",
+      "Refunds for missing items are slow or refused",
+      "Wrong items and missing sides",
+      "Support is hard to reach and often a chatbot"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show a reliability score for each restaurant's own delivery, based on its last 100 orders, and rank reliable ones higher.", "problem": "Customers blame Just Eat when restaurant drivers are late.", "expectedImpact": "Higher on-time rate and a reason for restaurants to improve.", "metricToTrack": "On-time rate for restaurant-delivered orders", "effort": "medium" },
+      { "idea": "One-tap 'your usual Friday order' suggestion, using Prosus's ordering prediction tools.", "problem": "Order frequency fell for years and lapsed customers drifted away.", "expectedImpact": "More repeat orders from existing customers.", "metricToTrack": "Reorder rate on favourites", "effort": "medium" },
+      { "idea": "Show the full price, with all fees, on the restaurant list rather than at checkout.", "problem": "Fee surprises cause abandoned baskets and complaints.", "expectedImpact": "Higher checkout conversion and fewer fee complaints.", "metricToTrack": "Checkout conversion", "effort": "low" },
+      { "idea": "Menu health report for independents: which dishes get viewed but not bought, and which get complaints.", "problem": "Small takeaways want more orders but lack data skills.", "expectedImpact": "Better menus and fewer restaurants leaving.", "metricToTrack": "Restaurant churn", "effort": "low" }
+    ],
+    "pmLessons": [
+      "A low-cost marketplace, where restaurants deliver themselves, can be very profitable, but you inherit their quality problems.",
+      "Big acquisitions can destroy value. Grubhub cost about $7.3 billion and sold for about $650 million four years later.",
+      "Turnarounds take years. Just Eat needed 55 months to get orders growing again.",
+      "Running your own delivery wins chains like McDonald's but costs more per order, so mix the two models carefully."
+    ],
+    "interviewQuestions": [
+      { "question": "Why do you think Just Eat's orders fell for 55 months, and how would you reverse it?", "hint": "List causes: the post-COVID drop, Deliveroo and Uber Eats in cities, cutting promotions to save money. Pick the biggest, propose two fixes, and name the metric that shows it worked." },
+      { "question": "Marketplace or own delivery: which should Just Eat push?", "hint": "Compare cost per order, control over quality and restaurant reach. Conclude it depends on town size and restaurant type, and suggest a rule for choosing." },
+      { "question": "How would you grow Just Eat+?", "hint": "Find who orders often but has not joined. Test price points and perks. Track sign-ups, orders per member and whether the fee covers the free delivery cost." },
+      { "question": "Design a feature for independent takeaways.", "hint": "Pick one pain: low visibility, poor menus or no data. Suggest a tool, how a restaurant would use it, and measure orders per restaurant and churn." },
+      { "question": "You are a PM at Prosus. What would you change in Just Eat's first year?", "hint": "Prioritise by impact: delivery reliability, personalisation, fees. Explain why one comes first and set a 12-month goal." }
+    ],
+    "glossary": [
+      { "term": "Marketplace model", "meaning": "When the platform lists restaurants but the restaurant handles delivery itself." },
+      { "term": "Commission", "meaning": "The share of each order a restaurant pays to the platform." },
+      { "term": "Contribution margin", "meaning": "What a company keeps from one order after paying the direct costs of that order." },
+      { "term": "Churn", "meaning": "The share of users or partners who stop using the product." },
+      { "term": "Gig worker", "meaning": "Someone who works job by job, often through an app, rather than as an employee." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Commission rates are typical published rates and vary by restaurant.",
+      "Per-order economics are estimates.",
+      "Market count is approximate.",
+      "Grubhub sale price is from press reports."
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "company": "Moneybox",
+  "domain": "moneyboxapp.com",
+  "website": "https://www.moneyboxapp.com",
+  "sources": [
+    "https://www.cityam.com/?p=2427674",
+    "https://financialit.net/news/infrastructure/moneybox-records-third-consecutive-year-profitability-ps115-million-revenue",
+    "https://support.moneyboxapp.com/moneybox-strengthens-market-position-as-profitability-scale-and-product-diversification-drive-record-year/",
+    "https://support.moneyboxapp.com/wp-content/uploads/2026/05/Moneybox-Annual-Report.pdf",
+    "https://support.moneyboxapp.com/app/q2-2026-shareholder-update/",
+    "https://mail.financialplanningtoday.co.uk/news/moneybox-preps-regulated-advice-offering-as-assets-climb-to-£22bn"
+  ],
+  "report": {
+    "company": "Moneybox",
+    "tagline": "A UK app that helps first-time savers and investors put money away through round-ups, ISAs, Lifetime ISAs and pensions.",
+    "category": "Savings / investing",
+    "simpleSummary": "Moneybox is an app that makes saving and investing easy for people who have never done it. It can round up your card spending to the nearest pound and invest the spare change. It offers tax-free accounts called ISAs, including the Lifetime ISA, where the government adds 25% on top of what you save for your first home. It also lets you combine old pensions into one place.",
+    "keyNumbers": [
+      { "label": "Revenue 2025", "value": "£115.6 million", "note": "Moneybox annual results for 2025, reported by City AM, May 2026. Up more than 20%." },
+      { "label": "Profit before tax 2025", "value": "£14.9 million", "note": "City AM. Down 23% from £19.4 million as it spent more on tech and marketing. Third profitable year in a row." },
+      { "label": "Assets under administration", "value": "About £19 billion end-2025, about £22 billion in 2026", "note": "Annual results and Financial Planning Today, 2026. Up 62% in 2025." },
+      { "label": "Customers", "value": "About 1.7 million", "note": "Moneybox 2025 round-up. City AM says over 1.6 million." },
+      { "label": "First-home buyers helped", "value": "200,000+", "note": "Customers who used a Moneybox Lifetime ISA for a first-home deposit, per City AM." },
+      { "label": "Staff", "value": "419", "note": "City AM, 2025. Down from 437, as it leans on automation." }
+    ],
+    "overview": {
+      "whatItDoes": "Moneybox offers savings accounts, cash and stocks and shares ISAs, Lifetime ISAs, Junior ISAs, a pension and simple investment funds, all in one app. It targets people starting out, especially young adults saving for a first home. It earns from small subscription, platform and fund fees and from a share of interest on cash savings.",
+      "howItWorks": [
+        "You sign up, answer a few questions and pick a goal, like a house deposit or retirement.",
+        "You connect your bank card. Moneybox rounds up each purchase, so a £2.60 coffee adds 40p to your saving pot.",
+        "You can also set weekly deposits or one-off top-ups, and add 'boosts' on payday.",
+        "Money goes into the account you choose: a cash savings account with partner banks, or investment funds picked from a short list.",
+        "In a Lifetime ISA, the government adds 25% on up to £4,000 a year, so up to £1,000 free money.",
+        "The pension product finds and combines old workplace pensions into one Moneybox pension."
+      ],
+      "valueProposition": "Saving and investing made small, simple and automatic, with tax benefits, so first-timers actually start."
+    },
+    "personas": [
+      {
+        "name": "First-time home saver",
+        "description": "23 to 32, renting, saving for a deposit on a first home.",
+        "goals": ["Get the 25% Lifetime ISA bonus", "Save automatically without thinking", "Know when they can afford a flat"],
+        "frustrations": ["25% penalty if they withdraw for anything other than a house", "House price cap of £450,000 for a Lifetime ISA"]
+      },
+      {
+        "name": "Nervous first investor",
+        "description": "Has cash in a bank account but never invested.",
+        "goals": ["Start with small amounts", "Simple choices, not hundreds of funds", "Understand risk"],
+        "frustrations": ["Fear of losing money", "Fees feel high on small balances"]
+      },
+      {
+        "name": "Job hopper with lost pensions",
+        "description": "30 to 45, has had five employers and five small pensions.",
+        "goals": ["See all pensions in one place", "Lower fees"],
+        "frustrations": ["Transfers take weeks", "Unsure if moving loses benefits"]
+      },
+      {
+        "name": "Parent saving for a child",
+        "description": "Wants to put money aside for a child's future.",
+        "goals": ["Junior ISA with regular deposits", "Grandparents able to contribute"],
+        "frustrations": ["Locked until the child turns 18"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Saving feels hard and gets forgotten.", "howSolved": "Round-ups and automatic weekly deposits save without effort.", "severity": "high" },
+      { "pain": "First-time buyers struggle to build a deposit.", "howSolved": "Lifetime ISA with a 25% government bonus and goal tracking.", "severity": "high" },
+      { "pain": "Investing looks complicated and risky.", "howSolved": "Three simple risk levels and a short list of funds, with education in the app.", "severity": "high" },
+      { "pain": "Old pensions are scattered and forgotten.", "howSolved": "Pension finder and transfer into one Moneybox pension.", "severity": "medium" },
+      { "pain": "Cash in a current account earns little interest.", "howSolved": "Cash ISAs and savings accounts with partner banks at competitive rates.", "severity": "medium" },
+      { "pain": "Buying a home is confusing.", "howSolved": "Home-buying guidance and tools in the app, built around the Lifetime ISA.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Round-ups", "whatItDoes": "Rounds up card spending to the nearest pound and saves the difference.", "whyItMatters": "Gets non-savers started with tiny, painless amounts. It is the hook that brings people in." },
+      { "feature": "Lifetime ISA", "whatItDoes": "Save up to £4,000 a year with a 25% government bonus for a first home or retirement.", "whyItMatters": "Moneybox is one of the largest providers; it brings in young customers who stay for years." },
+      { "feature": "Stocks and Shares ISA", "whatItDoes": "Invest in a short list of funds tax-free, with risk levels.", "whyItMatters": "Builds large balances that earn platform fees." },
+      { "feature": "Cash savings and Cash ISA", "whatItDoes": "Easy access and notice accounts through partner banks.", "whyItMatters": "Captures savers who are not ready to invest, and earns a share of interest." },
+      { "feature": "Pension and pension finder", "whatItDoes": "Find and combine old pensions into one personal pension.", "whyItMatters": "Pensions bring the biggest balances and long-term revenue." },
+      { "feature": "Goals and boosts", "whatItDoes": "Set targets, payday boosts and multipliers on round-ups.", "whyItMatters": "Keeps users engaged and saving more each month." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Starting a Lifetime ISA",
+        "persona": "First-time home saver",
+        "steps": [
+          { "step": "Hears about the bonus", "detail": "A friend or TikTok video explains the 25% Lifetime ISA bonus." },
+          { "step": "Downloads app", "detail": "Signs up and verifies identity in minutes." },
+          { "step": "Opens Lifetime ISA", "detail": "Chooses cash or investments inside the ISA." },
+          { "step": "Sets up savings", "detail": "Links a card for round-ups and sets £50 a week." },
+          { "step": "Gets the bonus", "detail": "Government bonus is paid in monthly." },
+          { "step": "Buys a home", "detail": "Requests a withdrawal to the conveyancer for the deposit." }
+        ]
+      },
+      {
+        "name": "First investment",
+        "persona": "Nervous first investor",
+        "steps": [
+          { "step": "Answers questions", "detail": "Picks a goal and how much risk they are happy with." },
+          { "step": "Chooses fund mix", "detail": "Gets a suggested mix of funds at cautious, balanced or adventurous." },
+          { "step": "Adds money", "detail": "Starts with £50 and round-ups." },
+          { "step": "Watches value", "detail": "Checks growth and reads short guides in the app." },
+          { "step": "Increases deposits", "detail": "Raises weekly deposits after a pay rise." }
+        ]
+      },
+      {
+        "name": "Combining pensions",
+        "persona": "Job hopper with lost pensions",
+        "steps": [
+          { "step": "Opens pension", "detail": "Creates a Moneybox pension in the app." },
+          { "step": "Finds old pensions", "detail": "Enters past employers; Moneybox helps trace providers." },
+          { "step": "Requests transfers", "detail": "Moneybox requests the transfers on the user's behalf." },
+          { "step": "Waits", "detail": "Transfers arrive over a few weeks." },
+          { "step": "Tracks in one place", "detail": "Sees one combined balance and projected retirement income." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Moneybox makes money from small fees on the money customers keep with it. It charges a monthly subscription, a yearly platform fee on investments, and earns a share of interest on cash savings. The more money customers hold, the more it earns.",
+      "revenueStreams": [
+        { "stream": "Subscription fee", "detail": "About £1 a month for investment accounts, often free for the first months." },
+        { "stream": "Platform fee", "detail": "About 0.45% a year on invested money, with lower rates on large pensions." },
+        { "stream": "Cash savings margin", "detail": "Moneybox earns a cut of the interest paid by partner banks on cash accounts." },
+        { "stream": "Other services", "detail": "Home-buying services and, in future, paid financial advice." }
+      ],
+      "pricing": "Subscription about £1 a month for investment accounts (first three months free for new users). Platform fee 0.45% a year for ISAs and pensions, reducing for pension balances over £100,000. Fund providers charge their own fees, about 0.12% to 0.58%. Cash accounts have no subscription. Prices from moneyboxapp.com, check for changes.",
+      "costDrivers": [
+        "Marketing to win young customers",
+        "Technology and software development",
+        "Fund and banking partners",
+        "Customer support and compliance",
+        "Staff, kept low through automation"
+      ],
+      "unitEconomics": "Take a customer with £10,000 in a Stocks and Shares ISA. Moneybox earns about £45 a year in platform fees and £12 in subscription, so about £57. A cash saver with £10,000 earns it maybe £30 to £50 a year from its interest share. If it costs £100 to £150 to win a customer through ads, it takes two to three years to earn that back. The good news: young customers stay for decades and their balances grow, so a customer worth £57 now can be worth hundreds a year later. With £19 billion held, revenue of £115.6 million is about 0.6% of assets."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Social media and finfluencers explaining the Lifetime ISA",
+        "Referral rewards that add money to both accounts",
+        "App store rankings and search for 'Lifetime ISA' and 'best ISA'",
+        "Partnerships with employers and home-buying services",
+        "TV and online ads"
+      ],
+      "whatBringsUsersBack": [
+        "Watching balances grow, especially with the monthly government bonus",
+        "Round-ups that trigger with every purchase",
+        "Weekly deposit notifications and goal tracking",
+        "ISA season every April, when people top up before the tax year ends"
+      ],
+      "moat": "Moneybox has a large base of young savers in tax-wrapped accounts. Moving an ISA or pension is a hassle, so customers rarely leave. It is one of the biggest Lifetime ISA providers, a niche many big platforms ignored."
+    },
+    "competitors": [
+      { "name": "Chip", "positioning": "AI auto-saving app with cash savings and investments.", "howThisProductDiffers": "Moneybox is bigger, with pensions and a strong Lifetime ISA position; Chip leans on its auto-save algorithm." },
+      { "name": "Trading 212", "positioning": "Free share dealing app with ISAs and cash interest.", "howThisProductDiffers": "Trading 212 suits people who want to pick shares; Moneybox suits people who want simple, guided saving." },
+      { "name": "Nutmeg (JPMorgan)", "positioning": "Managed portfolios for people who want hands-off investing.", "howThisProductDiffers": "Moneybox starts at lower amounts and adds round-ups and the Lifetime ISA." },
+      { "name": "Vanguard UK", "positioning": "Low-cost funds and ISAs from a global giant.", "howThisProductDiffers": "Vanguard is cheaper for large balances; Moneybox is easier for beginners." },
+      { "name": "Groww (India, for comparison)", "positioning": "India's biggest investing app, built on SIPs in mutual funds for first-time investors.", "howThisProductDiffers": "Both target first-timers. Groww earns from trading and broking; Moneybox earns from fees on assets held in tax-free wrappers." }
+    ],
+    "northStar": {
+      "metric": "Money customers add each month (net inflows) into savings and investments",
+      "why": "Inflows show that customers are actually saving, which is the value Moneybox promises. They also grow assets, which drives revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active savers",
+        "description": "Customers who add money in a month.",
+        "children": [
+          { "metric": "Sign-up to first deposit rate", "description": "How many new users actually start saving." },
+          { "metric": "Round-up connection rate", "description": "Users who link a card for round-ups save more often." },
+          { "metric": "Monthly retention", "description": "Retention means the share of savers still active next month." }
+        ]
+      },
+      {
+        "metric": "Deposit per saver",
+        "description": "How much each saver adds.",
+        "children": [
+          { "metric": "Regular deposit amount", "description": "Weekly or monthly automatic deposits." },
+          { "metric": "Payday boost use", "description": "Extra deposits around payday." },
+          { "metric": "ISA top-ups near tax year end", "description": "Seasonal deposits before April." }
+        ]
+      },
+      {
+        "metric": "Products per customer",
+        "description": "Customers using more than one Moneybox account.",
+        "children": [
+          { "metric": "Lifetime ISA to pension cross-sell", "description": "Moving first-home savers into pensions." },
+          { "metric": "Pension transfers in", "description": "Old pensions moved to Moneybox." },
+          { "metric": "Cash to investment moves", "description": "Savers ready to invest." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Withdrawals and account closures",
+      "Lifetime ISA penalty withdrawals (bad customer outcome)",
+      "Complaints and Consumer Duty outcomes",
+      "Cost to acquire a customer"
+    ],
+    "strengths": [
+      "Profitable three years in a row with revenue growing over 20%",
+      "Strong with young first-time savers and the Lifetime ISA",
+      "Customers in tax wrappers stay for years",
+      "Lean team using automation"
+    ],
+    "weaknesses": [
+      "Fees are high for small balances compared with free apps like Trading 212",
+      "Profit fell in 2025 as costs rose",
+      "Limited investment choice for experienced investors",
+      "Depends on government rules on ISAs and the Lifetime ISA"
+    ],
+    "risks": [
+      "Government changes to ISA or Lifetime ISA rules, which have been debated",
+      "Falling interest rates cut cash savings income",
+      "Big players like Vanguard and banks targeting young savers",
+      "Market falls scare first-time investors away"
+    ],
+    "userComplaints": [
+      "Withdrawals and transfers take longer than expected",
+      "Lifetime ISA penalty and house price cap feel unfair",
+      "Subscription fee feels high on small balances",
+      "Support response times in busy ISA season"
+    ],
+    "improvementIdeas": [
+      { "idea": "Free subscription for balances under £500", "problem": "Small savers feel the £1 fee is unfair.", "expectedImpact": "Better retention of new savers.", "metricToTrack": "Churn of customers under £500", "effort": "low" },
+      { "idea": "Lifetime ISA penalty warning and alternatives before withdrawal", "problem": "Users lose 25% when withdrawing for other reasons.", "expectedImpact": "Fewer penalty withdrawals and better outcomes.", "metricToTrack": "Penalty withdrawal rate", "effort": "low" },
+      { "idea": "Faster pension transfers with live status tracking", "problem": "Transfers take weeks and users worry.", "expectedImpact": "More pension transfers completed.", "metricToTrack": "Average transfer time and completion rate", "effort": "medium" },
+      { "idea": "Low-cost advice service for first-time buyers", "problem": "Users want help but cannot afford advisers.", "expectedImpact": "New revenue and more loyal customers.", "metricToTrack": "Advice take-up and revenue per user", "effort": "high" }
+    ],
+    "pmLessons": [
+      "Make the first step tiny. Round-ups get people saving before they feel the cost.",
+      "Owning a niche, here the Lifetime ISA, can beat competing head-on with bigger platforms.",
+      "Fee-on-assets businesses grow slowly at first but compound as customers' balances grow.",
+      "Products tied to tax rules carry policy risk; a good PM plans for rule changes."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you increase the average balance per Moneybox customer?", "hint": "Split into new deposits and growth. Ideas: payday boosts, salary percentage, pension transfers. Measure inflows per user." },
+      { "question": "Compare Moneybox with Groww. What can each learn from the other?", "hint": "Users: first-timers in both. Groww uses SIPs and broking revenue; Moneybox uses tax wrappers and asset fees. Discuss trust, simplicity, monetisation." },
+      { "question": "The government proposes to scrap the Lifetime ISA. What do you do?", "hint": "Assess impact on new customers and revenue. Plan alternatives: Cash ISA, pensions, home-buying services. Communicate early with users." },
+      { "question": "How do you reduce churn among new savers?", "hint": "Find when churn happens. Use onboarding, round-ups, early wins and fee waivers. Track 90-day retention." },
+      { "question": "What north star metric would you pick?", "hint": "Net inflows or active savers. Explain why downloads or assets alone can mislead." }
+    ],
+    "glossary": [
+      { "term": "ISA", "meaning": "Individual Savings Account: a UK account where savings and investments grow tax-free." },
+      { "term": "Lifetime ISA", "meaning": "An ISA for first homes or retirement where the government adds 25% on up to £4,000 a year." },
+      { "term": "Assets under administration", "meaning": "The total money customers hold with the company." },
+      { "term": "Platform fee", "meaning": "A yearly percentage charged on the money you have invested." },
+      { "term": "Net inflows", "meaning": "Money added by customers minus money taken out." },
+      { "term": "Retention", "meaning": "The share of customers who keep using a product over time." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." },
+      { "term": "Cross-sell", "meaning": "Selling an extra product to a customer who already uses one of yours." }
+    ],
+    "assumptions": [
+      "Fee levels are from the public Moneybox pricing page as we understand it and may have changed.",
+      "Customer acquisition cost of £100 to £150 is an estimate, not reported.",
+      "Cash savings margin per customer is an estimate."
+    ]
+  }
+}

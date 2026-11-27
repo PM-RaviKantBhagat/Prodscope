@@ -1,0 +1,249 @@
+{
+  "company": "Atomberg",
+  "domain": "atomberg.com",
+  "website": "https://atomberg.com",
+  "sources": [
+    "https://www.indmoney.com/blog/ipo/atomberg-technologies-ipo-sebi-approval",
+    "https://yourstory.com/2026/10/atomberg-technologies-receives-sebi-nod-for-ipo",
+    "https://inc42.com/buzz/atomberg-files-drhp-with-for-₹450-cr-ipo/",
+    "https://www.businesstoday.in/markets/ipo-corner/story/atomberg-technologies-ipo-premium-fan-maker-files-drhp-with-sebi-launch-ipo-check-details-550552-2026-08-21",
+    "https://www.chittorgarh.com/ipo/atomberg-technologies-ipo/3227/"
+  ],
+  "report": {
+    "company": "Atomberg",
+    "tagline": "A fan maker whose BLDC motor fans use about half the electricity of normal fans, now growing into smart locks and kitchen appliances.",
+    "category": "Smart appliances D2C",
+    "simpleSummary": "Most ceiling fans in India use old motors that waste power. Atomberg, started by two IIT Bombay graduates, makes fans with a better motor (called BLDC) that use around 28 to 35 watts instead of 70 to 80. They cost more upfront, about ₹3,000 to ₹6,000, but save money on electricity bills. Atomberg now sells about half of all premium fans in India, and also sells smart locks, mixer grinders and water purifiers.",
+    "keyNumbers": [
+      { "label": "Revenue (FY26)", "value": "₹1,294 crore, up 35%", "note": "IPO papers via INDmoney." },
+      { "label": "Net loss (FY26)", "value": "₹149 crore, up from ₹117 crore", "note": "IPO papers. Fans business makes money; kitchen and components lose money." },
+      { "label": "Home appliances segment (FY26)", "value": "₹1,158 crore revenue, ₹135 crore segment profit", "note": "Fans and smart locks; about 90% of revenue." },
+      { "label": "Premium fan market share", "value": "About 46% by value", "note": "Redseer report cited in IPO papers, FY26." },
+      { "label": "IPO", "value": "₹450 crore fresh issue plus share sale by investors", "note": "SEBI approval received October 2026; founders not selling shares." },
+      { "label": "R&D spend (FY26)", "value": "₹87 crore, about 7% of revenue", "note": "IPO papers; high for an Indian appliance maker." }
+    ],
+    "overview": {
+      "whatItDoes": "Atomberg Technologies designs and makes energy-efficient BLDC ceiling fans with remotes and smart controls. It started in 2012 and sold motors and fans online first, then built a dealer network. It now also sells smart door locks, mixer grinders, water purifiers and juicers, and sells its own motors and controllers to other businesses.",
+      "howItWorks": [
+        "Atomberg designs its own BLDC motors and electronics in-house.",
+        "Fans are made at its factories and partner plants.",
+        "Sales happen on Amazon, Flipkart, its website and through electrical shops and dealers.",
+        "Electricians install the fan; Atomberg's app or remote controls speed and modes.",
+        "After-sales service is handled by Atomberg's service network.",
+        "Its motor technology is reused in mixers and sold as components to other firms."
+      ],
+      "valueProposition": "Pay a little more for a fan once and save on electricity every month. A fan running 12 hours a day can save around ₹1,000 to ₹1,500 a year on the bill, so it pays back in 2 to 3 years."
+    },
+    "personas": [
+      {
+        "name": "New homeowner",
+        "description": "A family moving into a new flat buying 4 to 5 fans.",
+        "goals": ["Lower electricity bills", "Good-looking fans", "Remote control"],
+        "frustrations": ["Higher upfront cost", "Not sure about new brand"]
+      },
+      {
+        "name": "Home with power cuts",
+        "description": "Family in a tier-2 town with inverter backup.",
+        "goals": ["Fans that run longer on inverter", "Durable"],
+        "frustrations": ["Inverter drains fast", "Service centres far"]
+      },
+      {
+        "name": "Electrician or dealer",
+        "description": "Recommends fans to customers.",
+        "goals": ["Good margin", "Few complaints"],
+        "frustrations": ["Fans return with faults", "New tech to learn"]
+      },
+      {
+        "name": "Smart home buyer",
+        "description": "Young couple adding smart locks and app control.",
+        "goals": ["App control", "Modern design"],
+        "frustrations": ["App bugs", "Poor integration"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Normal fans use a lot of electricity.", "howSolved": "BLDC motors use about half the power.", "severity": "high" },
+      { "pain": "Fans drain inverters during power cuts.", "howSolved": "Low power draw means 2 to 3 times longer backup.", "severity": "high" },
+      { "pain": "Fan speeds controlled only by wall regulator.", "howSolved": "Remote and app control with timer and sleep mode.", "severity": "medium" },
+      { "pain": "Fans hum and heat up.", "howSolved": "Quieter, cooler motors.", "severity": "low" },
+      { "pain": "Kitchen mixers are loud and weak.", "howSolved": "BLDC mixers with more power and less noise.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Renesa and Efficio BLDC fans", "whatItDoes": "Energy-efficient ceiling fans with remotes.", "whyItMatters": "Core product and profit engine." },
+      { "feature": "Smart fans with app control", "whatItDoes": "Control via app and voice assistants.", "whyItMatters": "Appeals to premium buyers and supports higher prices." },
+      { "feature": "Smart locks", "whatItDoes": "Fingerprint and app-based door locks.", "whyItMatters": "New category using same channels." },
+      { "feature": "BLDC mixer grinders", "whatItDoes": "Powerful, quieter mixers.", "whyItMatters": "Extends motor tech to kitchens, though loss-making now." },
+      { "feature": "Proprietary components", "whatItDoes": "Sells motors and controllers to other companies.", "whyItMatters": "Spreads R&D cost; ₹156 crore revenue in FY26 but loss-making." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying fans for a new home",
+        "persona": "New homeowner",
+        "steps": [
+          { "step": "Research", "detail": "Hears about BLDC fans saving power." },
+          { "step": "Compare", "detail": "Checks Atomberg against Havells and Crompton on Amazon." },
+          { "step": "Calculate savings", "detail": "Sees bill savings on the product page." },
+          { "step": "Buy", "detail": "Orders 4 fans at about ₹3,500 each." },
+          { "step": "Install", "detail": "Electrician installs them." },
+          { "step": "Use", "detail": "Uses remote for sleep mode." },
+          { "step": "Notice savings", "detail": "Electricity bill drops." }
+        ]
+      },
+      {
+        "name": "Dealer recommendation",
+        "persona": "Electrician or dealer",
+        "steps": [
+          { "step": "Customer asks", "detail": "Customer wants a fan." },
+          { "step": "Recommend", "detail": "Dealer suggests Atomberg for savings." },
+          { "step": "Sell", "detail": "Customer buys at shop." },
+          { "step": "Install", "detail": "Electrician fits it." },
+          { "step": "Service", "detail": "Handles complaints with Atomberg." }
+        ]
+      },
+      {
+        "name": "Fan repair",
+        "persona": "Home with power cuts",
+        "steps": [
+          { "step": "Issue", "detail": "Fan stops after voltage spike." },
+          { "step": "Raise ticket", "detail": "Calls or uses app." },
+          { "step": "Technician visit", "detail": "Technician checks fan." },
+          { "step": "Repair", "detail": "Replaces controller." },
+          { "step": "Done", "detail": "Fan works again." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Atomberg makes money by selling fans and appliances at a premium price over regular fans. Fans earn strong profit; kitchen appliances and component sales are still losing money.",
+      "revenueStreams": [
+        { "stream": "Fans and smart locks", "detail": "₹1,158 crore in FY26, segment margin 11.7%." },
+        { "stream": "Kitchen appliances", "detail": "₹124 crore revenue, ₹43 crore loss." },
+        { "stream": "Components to businesses", "detail": "₹156 crore revenue, ₹37 crore loss." }
+      ],
+      "pricing": "Fans mostly ₹2,500 to ₹6,000 on its website and marketplaces; smart locks and mixers priced separately.",
+      "costDrivers": [
+        "Parts and electronics",
+        "Marketing (₹135 crore in FY26)",
+        "R&D (₹87 crore)",
+        "Service network",
+        "Dealer margins"
+      ],
+      "unitEconomics": "Take a ₹3,500 fan. Making it might cost ₹2,000 (product margin was about 43%). Dealer or marketplace fees, shipping and service take ₹700 to ₹900. Marketing takes about ₹350. That leaves around ₹300 to ₹400 per fan. Losses in newer categories eat up this profit at the company level. These per-unit numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Online marketplaces",
+        "Dealer and electrician networks",
+        "Ads on energy savings",
+        "Word of mouth",
+        "Government energy rating rules pushing efficient fans"
+      ],
+      "whatBringsUsersBack": [
+        "More rooms or new homes",
+        "Other appliances under the same brand",
+        "Satisfied users recommend to family"
+      ],
+      "moat": "Own motor and electronics technology and design skill. It took years to make cheap, reliable BLDC fans. Big brands now make BLDC fans too, so the moat is narrowing to brand and R&D speed."
+    },
+    "competitors": [
+      { "name": "Crompton", "positioning": "Market leader in fans with BLDC line.", "howThisProductDiffers": "Atomberg is BLDC-only and stronger in premium fans." },
+      { "name": "Havells", "positioning": "Premium electrical brand.", "howThisProductDiffers": "Atomberg focuses on efficiency and smart features." },
+      { "name": "Orient and Usha", "positioning": "Traditional fan makers.", "howThisProductDiffers": "Atomberg is newer and tech-led." },
+      { "name": "Superfan, Ottomate", "positioning": "Other BLDC specialists.", "howThisProductDiffers": "Atomberg is far bigger." }
+    ],
+    "northStar": {
+      "metric": "Units of electricity saved per month by Atomberg fans in use",
+      "why": "Shows real customer value: lower bills. It grows with fans sold and fans that keep working."
+    },
+    "kpiTree": [
+      {
+        "metric": "Fans sold",
+        "description": "New fans installed.",
+        "children": [
+          { "metric": "Online sales", "description": "Marketplace and website." },
+          { "metric": "Dealer sales", "description": "Shops and electricians." }
+        ]
+      },
+      {
+        "metric": "Fans in working use",
+        "description": "Fans still running.",
+        "children": [
+          { "metric": "Failure rate in first year", "description": "Quality check." },
+          { "metric": "Service resolution time", "description": "Faster fixes keep fans running." }
+        ]
+      },
+      {
+        "metric": "Power saved per fan",
+        "description": "Efficiency of each fan.",
+        "children": [
+          { "metric": "Average watts used", "description": "Lower is better." },
+          { "metric": "Hours used daily", "description": "More use means more savings." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross margin",
+      "Warranty claim rate",
+      "Losses in new categories",
+      "Operating cash flow"
+    ],
+    "strengths": [
+      "Clear product edge in energy savings",
+      "Leader in premium fans",
+      "Strong R&D",
+      "Founders still fully invested"
+    ],
+    "weaknesses": [
+      "Loss-making overall",
+      "Negative operating cash flow",
+      "New categories losing money",
+      "Service network thinner than big brands"
+    ],
+    "risks": [
+      "Big brands cutting BLDC prices",
+      "Rising parts costs",
+      "Slow uptake of new categories",
+      "IPO market mood"
+    ],
+    "userComplaints": [
+      "Fans fail after voltage spikes",
+      "Slow service in small towns",
+      "Remote stops working",
+      "App bugs"
+    ],
+    "improvementIdeas": [
+      { "idea": "Built-in surge protection on all fans", "problem": "Failures after voltage spikes", "expectedImpact": "Fewer repairs", "metricToTrack": "First-year failure rate", "effort": "medium" },
+      { "idea": "Show yearly savings tracker in app", "problem": "Users forget the value", "expectedImpact": "More referrals", "metricToTrack": "Referral sales", "effort": "low" },
+      { "idea": "Focus kitchen products on one hit item first", "problem": "Kitchen losses", "expectedImpact": "Lower losses", "metricToTrack": "Kitchen segment margin", "effort": "medium" },
+      { "idea": "Electrician loyalty program", "problem": "Dealer push", "expectedImpact": "More offline sales", "metricToTrack": "Dealer sales growth", "effort": "low" }
+    ],
+    "pmLessons": [
+      "A real product improvement can beat big brands if it saves customers money.",
+      "Explain value in rupees saved, not technical terms.",
+      "Expanding into new categories can drain profits.",
+      "Incumbents will copy, so keep improving."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you convince buyers to pay more for an Atomberg fan?", "hint": "Show savings in rupees, payback time, and trust." },
+      { "question": "Should Atomberg keep expanding into new categories?", "hint": "Compare losses with long-term brand value." },
+      { "question": "How would you respond to Crompton's BLDC price cuts?", "hint": "Brand, features, service, and segment focus." },
+      { "question": "What is Atomberg's north star metric?", "hint": "Electricity saved by fans in use." },
+      { "question": "How would you grow in small towns?", "hint": "Dealers, electricians, service, and inverter-friendly messaging." }
+    ],
+    "glossary": [
+      { "term": "BLDC", "meaning": "Brushless direct current motor, a more efficient type of motor." },
+      { "term": "Segment margin", "meaning": "Profit from one part of the business as a share of its revenue." },
+      { "term": "Payback", "meaning": "Time it takes for savings to cover the extra cost." },
+      { "term": "R&D", "meaning": "Research and development." },
+      { "term": "Operating cash flow", "meaning": "Cash the business makes or loses from running operations." },
+      { "term": "Gross margin", "meaning": "Revenue left after paying for making the product." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Moat", "meaning": "What makes a business hard to copy." },
+      { "term": "D2C", "meaning": "Direct to consumer: selling to buyers directly." }
+    ],
+    "assumptions": [
+      "Power use and savings figures are typical estimates.",
+      "Online and offline sales split was not found.",
+      "Per-unit numbers are estimates.",
+      "Complaints are from reviews."
+    ]
+  }
+}

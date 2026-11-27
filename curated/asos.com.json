@@ -1,0 +1,254 @@
+{
+  "company": "ASOS",
+  "domain": "asos.com",
+  "website": "https://asos.com",
+  "sources": [
+    "https://www.asosplc.com/media/duwjosx5/fy26-results-rns-final.pdf",
+    "https://fashionunited.uk/news/business/asos-delivers-turnaround-as-fy26-pre-tax-profit-reaches-24-4-million-pounds/2026110591200",
+    "https://uk.finance.yahoo.com/news/asos-returns-quarterly-sales-growth-080302859.html",
+    "https://finance.yahoo.com/markets/stocks/articles/asos-plc-asomf-q4-2026-030509031.html",
+    "https://us.fashionnetwork.com/news/Asos-recovery-continues-womenswear-strong-uk-germany-france-us-are-key-opportunities,1882175.html",
+    "https://en.wikipedia.org/wiki/ASOS_(retailer)"
+  ],
+  "report": {
+    "company": "ASOS",
+    "tagline": "A UK online-only fashion store for people in their twenties, selling its own labels and hundreds of other brands.",
+    "category": "Fashion e-commerce",
+    "simpleSummary": "ASOS is a big online clothes shop from London, aimed at people aged about 18 to 30. It sells its own brands like ASOS Design and Topshop, plus brands like Nike and Levi's. It has no shops: you order online, try at home, and send back what does not fit. After years of losses it made a small profit again in 2026.",
+    "keyNumbers": [
+      { "label": "Adjusted EBITDA, FY26", "value": "£170.3 million", "note": "ASOS FY26 results (52 weeks to 30 August 2026). Up 29%. EBITDA is profit before interest, tax and write-downs." },
+      { "label": "Pre-tax profit, FY26", "value": "£24.4 million", "note": "FashionUnited on FY26 results; a turnaround after large losses in prior years." },
+      { "label": "Revenue, FY26", "value": "About £2.4 billion", "note": "Estimate. FY25 revenue was about £2.5 billion; sales fell for most of FY26 before returning to growth in Q4." },
+      { "label": "Active customers", "value": "About 17 million", "note": "Estimate based on earlier reports; ASOS cut back discount-led customers to protect margin." },
+      { "label": "Markets", "value": "Ships to about 200 countries; UK is roughly 40% of sales", "note": "Company reports; UK share is approximate." }
+    ],
+    "overview": {
+      "whatItDoes": "ASOS sells clothes, shoes, beauty and accessories online to young adults. It mixes its own brands with partner brands. Its turnaround plan has been to hold less stock, cut discounts and focus on higher-margin own labels.",
+      "howItWorks": [
+        "Shoppers browse about 50,000 or more products on the app, filtering by size, style and brand.",
+        "ASOS Design, Topshop, Topman, Collusion and other own brands are designed in London and made by suppliers.",
+        "Partner brands either sell stock to ASOS, or ship it through ASOS's 'Partner Fulfils' model where ASOS takes a commission.",
+        "Test and React: ASOS buys small first runs of some items and reorders winners, copying the speed of Shein.",
+        "Orders ship from big warehouses in Barnsley (UK) and Berlin; ASOS Premier gives a year of free next-day delivery.",
+        "Customers return what does not fit; returns under a minimum basket in the UK carry a fee."
+      ],
+      "valueProposition": "A huge range of on-trend clothes in many sizes, from both ASOS's own labels and big brands, delivered fast with easy returns."
+    },
+    "personas": [
+      {
+        "name": "Fashion-loving student",
+        "description": "19 to 24, shops for nights out and festivals.",
+        "goals": ["New looks often", "Affordable prices", "Fast delivery before events"],
+        "frustrations": ["Return fees", "Shein is cheaper", "Sizes run inconsistently"]
+      },
+      {
+        "name": "Young professional",
+        "description": "25 to 32, buys workwear and brands like Nike and Levi's.",
+        "goals": ["One place for many brands", "Reliable fit", "Next-day delivery"],
+        "frustrations": ["Out-of-stock sizes", "Too many choices"]
+      },
+      {
+        "name": "Plus-size or tall shopper",
+        "description": "Finds high street shops have few options in their size.",
+        "goals": ["Curve, Tall and Petite ranges", "Styles that match standard sizes"],
+        "frustrations": ["Limited range in some sizes", "Fit varies"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "High street shops have limited range and sizes.", "howSolved": "Tens of thousands of items, with Curve, Tall, Petite and Maternity ranges.", "severity": "high" },
+      { "pain": "Need an outfit fast.", "howSolved": "Next-day and named-day delivery, free with ASOS Premier.", "severity": "medium" },
+      { "pain": "Unsure about fit buying online.", "howSolved": "Fit Assistant, catwalk videos and model size info.", "severity": "high" },
+      { "pain": "Shopping many brands means many sites.", "howSolved": "Hundreds of brands in one basket and one return.", "severity": "medium" },
+      { "pain": "Trend clothes are pricey.", "howSolved": "Own-label ASOS Design at mid-low prices, often £15 to £40.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "ASOS Premier", "whatItDoes": "Yearly paid plan for unlimited next-day delivery.", "whyItMatters": "Premier members order much more often and are ASOS's most loyal customers." },
+      { "feature": "Fit Assistant", "whatItDoes": "Suggests a size based on height, weight and past purchases.", "whyItMatters": "Fewer returns, which are ASOS's biggest hidden cost." },
+      { "feature": "Own brands (ASOS Design, Topshop)", "whatItDoes": "In-house labels across trends and basics.", "whyItMatters": "Higher margin than partner brands." },
+      { "feature": "Test and React", "whatItDoes": "Small first orders and fast reorders of winners.", "whyItMatters": "Cuts unsold stock and discounting." },
+      { "feature": "Partner Fulfils", "whatItDoes": "Brands ship items directly while ASOS takes a commission.", "whyItMatters": "Wider range without holding stock." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying a festival outfit",
+        "persona": "Fashion-loving student",
+        "steps": [
+          { "step": "Inspiration", "detail": "Sees an ASOS Design look on TikTok." },
+          { "step": "Browse", "detail": "Filters the 'Festival' edit by size and price." },
+          { "step": "Size check", "detail": "Uses Fit Assistant to pick a size." },
+          { "step": "Order", "detail": "Pays with Klarna to split the cost." },
+          { "step": "Delivery", "detail": "Gets next-day delivery with Premier." },
+          { "step": "Return", "detail": "Returns one item via a drop-off point." }
+        ]
+      },
+      {
+        "name": "Joining Premier",
+        "persona": "Young professional",
+        "steps": [
+          { "step": "Checkout prompt", "detail": "Sees delivery cost and a Premier offer at checkout." },
+          { "step": "Join", "detail": "Pays about £15 to £20 for a year." },
+          { "step": "Order more", "detail": "Places small orders without worrying about fees." },
+          { "step": "Renew", "detail": "Gets a reminder and auto-renews." }
+        ]
+      },
+      {
+        "name": "Finding a Tall-range item",
+        "persona": "Plus-size or tall shopper",
+        "steps": [
+          { "step": "Search", "detail": "Searches 'tall jeans' and filters ASOS Tall." },
+          { "step": "Compare", "detail": "Checks model height and inseam length." },
+          { "step": "Buy two sizes", "detail": "Orders two sizes to be safe." },
+          { "step": "Return one", "detail": "Keeps the better fit and returns the other." },
+          { "step": "Save preference", "detail": "Saves the fit for future recommendations." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "ASOS buys or makes clothes and sells them online at a markup. Own labels earn more per item than partner brands. Its profit depends on selling at full price and keeping returns and delivery costs low.",
+      "revenueStreams": [
+        { "stream": "Own-brand sales", "detail": "ASOS Design, Topshop, Topman and others at higher margins." },
+        { "stream": "Partner brand sales", "detail": "Brands like Nike and Adidas, bought wholesale or on commission." },
+        { "stream": "Premier and delivery fees", "detail": "Yearly Premier subscriptions and paid delivery." },
+        { "stream": "Advertising", "detail": "Brands pay for placement and campaigns on the site." },
+        { "stream": "Return fees", "detail": "UK customers pay a fee on returns from low-value orders." }
+      ],
+      "pricing": "Most own-label items are £10 to £60. Free standard UK delivery on orders over a minimum; ASOS Premier costs about £15 to £20 a year for unlimited next-day delivery. A return fee of about £3.95 applies to UK orders under £40.",
+      "costDrivers": [
+        "Cost of goods",
+        "Returns handling, since young fashion shoppers return a large share of items",
+        "Delivery and warehouse costs",
+        "Marketing",
+        "Discounts to clear unsold stock"
+      ],
+      "unitEconomics": "On a £60 UK order, ASOS earns about £28 in gross margin if sold near full price. Picking, packing and delivery cost about £7 to £8. If the customer returns one £20 item, ASOS loses that sale and pays about £3 to £4 to handle the return. Marketing for that order is about £3 to £5. So ASOS keeps maybe £5 to £10 per order before overheads, which is why cutting returns and discounts drove the FY26 profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Instagram and TikTok content and influencers",
+        "Google shopping ads",
+        "Student discounts through UNiDAYS",
+        "Partnerships with big brands like Nike"
+      ],
+      "whatBringsUsersBack": [
+        "New arrivals every day",
+        "Premier free delivery",
+        "Saved items and back-in-stock alerts",
+        "Seasonal sales and emails"
+      ],
+      "moat": "ASOS's moat is weaker than before. It has a strong brand with UK young adults, big data on fit and returns, and own brands like Topshop. But Shein and Zalando can match range and price, so ASOS must win on curation and fit."
+    },
+    "competitors": [
+      { "name": "Shein", "positioning": "Much cheaper fast fashion with daily new styles.", "howThisProductDiffers": "ASOS has better quality, big brands and faster UK delivery, but higher prices." },
+      { "name": "Zalando", "positioning": "Europe's biggest online fashion platform.", "howThisProductDiffers": "Zalando is bigger in Europe and brand-led; ASOS has stronger own labels." },
+      { "name": "Next", "positioning": "UK fashion with stores and an online platform for other brands.", "howThisProductDiffers": "Next targets older families and has stores; ASOS is younger and online only." },
+      { "name": "Vinted", "positioning": "Second-hand fashion marketplace.", "howThisProductDiffers": "ASOS sells new; Vinted is cheaper and greener." },
+      { "name": "boohoo and PrettyLittleThing", "positioning": "Cheap UK online fashion.", "howThisProductDiffers": "ASOS has more brands and a broader age group." }
+    ],
+    "northStar": {
+      "metric": "Full-price items kept per active customer per year",
+      "why": "It measures customers finding clothes they like and keep, without heavy discounts. It ties together range, fit and pricing."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "People who bought in the last 12 months.",
+        "children": [
+          { "metric": "New customer orders", "description": "First-time buyers per month." },
+          { "metric": "Lapsed customer reactivation", "description": "Returning after 12 months." }
+        ]
+      },
+      {
+        "metric": "Orders per customer",
+        "description": "How often each customer orders.",
+        "children": [
+          { "metric": "Premier membership share", "description": "Members order more often." },
+          { "metric": "App sessions per user", "description": "More visits, more purchases." },
+          { "metric": "Back-in-stock alert conversion", "description": "Turns lost sales into orders." }
+        ]
+      },
+      {
+        "metric": "Keep rate",
+        "description": "Share of items not returned.",
+        "children": [
+          { "metric": "Fit Assistant usage", "description": "More use means fewer wrong sizes." },
+          { "metric": "Size-related return rate", "description": "Main reason for returns." }
+        ]
+      },
+      {
+        "metric": "Full-price sell-through",
+        "description": "Share of items sold without discount.",
+        "children": [
+          { "metric": "Test and React share", "description": "Share of stock bought in small test runs." },
+          { "metric": "Stock age", "description": "Older stock needs discounts." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Customer satisfaction scores",
+      "Gross margin",
+      "Delivery speed",
+      "Return policy complaints"
+    ],
+    "strengths": [
+      "Strong brand with UK young adults",
+      "Wide range in many sizes",
+      "Own labels including Topshop and Topman",
+      "Back to profit in FY26 after a tough turnaround"
+    ],
+    "weaknesses": [
+      "Sales were still falling for most of FY26",
+      "High returns hurt margins",
+      "Price gap with Shein and Temu",
+      "Fewer active customers after cutting heavy discounts",
+      "No stores to win shoppers who want to try on"
+    ],
+    "risks": [
+      "Shein and Temu taking price-sensitive young shoppers",
+      "Weak UK consumer spending",
+      "Rising costs for shipping and returns",
+      "Resale apps like Vinted reducing demand for new clothes"
+    ],
+    "userComplaints": [
+      "Return fees on small orders",
+      "Refunds take too long",
+      "Items arrive damaged or differ from photos",
+      "Accounts blocked for returning too often",
+      "Customer service hard to reach"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show a 'fit confidence' score on each item using past returns from similar customers.", "problem": "Wrong sizes drive costly returns.", "expectedImpact": "Lower return rate.", "metricToTrack": "Size-related return rate", "effort": "medium" },
+      { "idea": "Instant refund for loyal customers when the return is scanned at drop-off.", "problem": "Slow refunds annoy customers and hurt repeat orders.", "expectedImpact": "Higher satisfaction and repeat purchase.", "metricToTrack": "Repeat purchase within 30 days of a return", "effort": "low" },
+      { "idea": "Premier tier with free returns and early access, priced higher.", "problem": "Return fees push customers away.", "expectedImpact": "More Premier revenue and loyalty.", "metricToTrack": "Premier sign-ups and orders per member", "effort": "medium" },
+      { "idea": "Resale section where customers sell ASOS items back for credit.", "problem": "Shoppers moving to Vinted for cheaper, greener fashion.", "expectedImpact": "Keeps customers in the ASOS app.", "metricToTrack": "Resale credits spent on new orders", "effort": "high" }
+    ],
+    "pmLessons": [
+      "Growth at any cost can backfire. ASOS grew with discounts, then had to shrink to become profitable.",
+      "Returns are a hidden cost in online fashion. Features that improve fit can matter more than new features.",
+      "A test-and-react supply chain can cut unsold stock, even for an established company.",
+      "When a cheaper rival appears, compete on what they lack, like brands, quality and speed."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you cut ASOS's return rate without hurting sales?", "hint": "Find return reasons. Ideas: fit tools, better photos, return fees. Track return rate and conversion together." },
+      { "question": "Should ASOS charge for all returns?", "hint": "Weigh lower costs against lost customers. Test in segments. Watch repeat purchase and satisfaction." },
+      { "question": "How would you win back young shoppers from Shein?", "hint": "Pick a segment. Compete on quality, brands, speed or style. Propose 2 ideas and metrics." },
+      { "question": "What metric would you use for ASOS Premier?", "hint": "Value to users: orders per member, renewal rate. Guardrail: delivery cost per order." },
+      { "question": "Design a feature to help plus-size shoppers.", "hint": "Understand pains: range, fit, images. Ideas: models in many sizes, fit reviews. Measure conversion and returns." }
+    ],
+    "glossary": [
+      { "term": "EBITDA", "meaning": "Profit before interest, tax, depreciation and amortisation; a rough view of operating profit." },
+      { "term": "Gross margin", "meaning": "What is left from a sale after paying for the goods themselves." },
+      { "term": "Sell-through", "meaning": "The share of stock sold within a set time." },
+      { "term": "Keep rate", "meaning": "The share of bought items that customers do not return." },
+      { "term": "Own brand", "meaning": "A label designed and sold by the retailer itself." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "FY26 revenue and active customer counts are estimates; the full results PDF could not be read directly.",
+      "Premier price and return fee are based on recent UK pricing and may have changed.",
+      "Per-order cost estimates are rough, not company data.",
+      "UK share of sales is approximate."
+    ]
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "company": "Zomato (Eternal)",
+  "domain": "zomato.com",
+  "website": "https://zomato.com",
+  "sources": [
+    "https://www.kotakneo.com/news/stocks/eternal-q2-results-profit-rises-revenue-growth-blinkit-adds-stores/",
+    "https://compoundingai.in/market-news/eternal-q2-fy27-results-analysis",
+    "https://www.businesstoday.in/technology/news/story/eternal-founder-deepinder-goyal-steps-down-as-group-ceo-names-blinkits-albinder-dhindsa-as-successor-512063-2026-01-21",
+    "https://www.outlookbusiness.com/news/swiggy-launches-one-blck-amidst-growing-competition-from-zomato-gold-zepto-pass",
+    "https://www.ciol.com/news/swiggy-q2-food-ebitda-hits-341-cr-instamart-loss-895-cr-12741327",
+    "https://www.storyboard18.com/how-it-works/blinkit-contributes-75-of-eternals-q3-fy26-revenue-88050.htm"
+  ],
+  "report": {
+    "company": "Zomato (Eternal)",
+    "tagline": "India's biggest food delivery app, connecting hungry diners, restaurants and delivery riders.",
+    "category": "Food delivery",
+    "simpleSummary": "Zomato is an app where you pick a restaurant, order food and a rider brings it to you, usually in about 30 minutes. Restaurants pay Zomato a cut of each order, and you pay a small fee too. If you pay for Zomato Gold, you get free delivery and discounts. Zomato is owned by Eternal, which also owns Blinkit, and food delivery is its steady, profitable business.",
+    "keyNumbers": [
+      {
+        "label": "Food delivery order value, July to September 2026",
+        "value": "₹11,445 crore in one quarter, up 21.5% from a year ago",
+        "note": "Eternal Q2 FY27 results, October 2026 (net order value, after discounts)."
+      },
+      {
+        "label": "Food delivery profit, July to September 2026",
+        "value": "₹627 crore adjusted EBITDA, up 25%",
+        "note": "Eternal Q2 FY27 results, October 2026. That is about 5.5% of order value."
+      },
+      {
+        "label": "Profit compared with Swiggy food",
+        "value": "Zomato food earned about 1.8 times Swiggy food's ₹341 crore in the same quarter",
+        "note": "Our comparison of both companies' Q2 FY27 results."
+      },
+      {
+        "label": "Eternal group profit, July to September 2026",
+        "value": "₹125 crore net profit on ₹24,138 crore revenue",
+        "note": "Eternal Q2 FY27 results. Blinkit is now about 79% of group revenue."
+      },
+      {
+        "label": "Market share in food delivery",
+        "value": "About 55-58% of Indian food delivery",
+        "note": "Estimate based on Zomato's and Swiggy's reported order values; neither company publishes share."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Zomato started in 2008 as a restaurant menu and review site and moved into food delivery in 2015. Today it is a three-sided marketplace: diners order food, restaurants cook it, and delivery partners bring it. Its parent company was renamed Eternal in 2025. Founder Deepinder Goyal stepped down as group CEO in January 2026 and Blinkit's Albinder Dhindsa took over.",
+      "howItWorks": [
+        "Restaurants list their menus on Zomato and set prices.",
+        "Diners browse, filter by cuisine, rating, price or delivery time, and order.",
+        "Zomato assigns a nearby delivery partner who picks up the food and brings it to the diner, with live tracking.",
+        "Restaurants pay Zomato a commission on each order and can pay extra for ads to appear higher.",
+        "Diners pay the food price, a platform fee, and delivery and packaging charges unless they have Gold.",
+        "Ratings from diners help other diners choose and push restaurants to keep quality up."
+      ],
+      "valueProposition": "For diners: food from almost any good restaurant nearby, fast, with ratings to choose well. For restaurants: lots of extra orders without opening new outlets. For riders: flexible work and daily earnings."
+    },
+    "personas": [
+      {
+        "name": "Working professional ordering dinner",
+        "description": "A 30-year-old in Delhi-NCR or Mumbai who orders dinner or lunch several times a week.",
+        "goals": [
+          "Good food fast after a long day",
+          "Reliable ratings to avoid bad restaurants",
+          "Save on delivery fees"
+        ],
+        "frustrations": [
+          "Fees adding ₹50 to ₹80 to the bill",
+          "Food arriving cold or late",
+          "Menu prices higher than in the restaurant"
+        ]
+      },
+      {
+        "name": "Restaurant owner",
+        "description": "Owns a cloud kitchen and one dine-in outlet; 50% of revenue comes from delivery apps.",
+        "goals": [
+          "More orders and repeat customers",
+          "Lower commission and ad spend",
+          "Clear data on what sells"
+        ],
+        "frustrations": [
+          "Commissions of around a fifth or more of each order",
+          "Pressure to run discounts and buy ads to stay visible",
+          "Unfair bad ratings due to late delivery"
+        ]
+      },
+      {
+        "name": "Delivery partner",
+        "description": "A 25-year-old who delivers full-time on a bike in Bengaluru.",
+        "goals": [
+          "Steady daily earnings",
+          "Safe working conditions and insurance",
+          "Short waits at restaurants"
+        ],
+        "frustrations": [
+          "Pay per order falling during low-demand hours",
+          "Long waits at restaurants",
+          "Traffic and weather risks"
+        ]
+      },
+      {
+        "name": "Student on a budget",
+        "description": "A 20-year-old who orders cheap meals and snacks late at night.",
+        "goals": [
+          "Meals under ₹200",
+          "Coupons and deals"
+        ],
+        "frustrations": [
+          "Small orders made expensive by fees",
+          "Fewer late-night restaurants"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "No time or energy to cook",
+        "howSolved": "Thousands of restaurants deliver within about 30 minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing which restaurant is good",
+        "howSolved": "Ratings, reviews, photos and dish-level ratings guide the choice.",
+        "severity": "high"
+      },
+      {
+        "pain": "Restaurants cannot reach enough customers on their own",
+        "howSolved": "Zomato brings demand from millions of users and handles delivery.",
+        "severity": "high"
+      },
+      {
+        "pain": "Delivery fees make frequent ordering expensive",
+        "howSolved": "Zomato Gold gives free delivery and discounts above a minimum order.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Riders need flexible work",
+        "howSolved": "Riders can log in when they want and get paid per order with incentives.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Ordering food for a big group or party is messy",
+        "howSolved": "Large-order and group-ordering options in select cities.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Restaurant discovery and ratings",
+        "whatItDoes": "Search, filters, dish photos and ratings for delivery and dining.",
+        "whyItMatters": "Zomato's oldest strength; helps diners pick and keeps restaurants honest."
+      },
+      {
+        "feature": "Fast delivery with live tracking",
+        "whatItDoes": "Shows food preparation and rider location until it reaches you.",
+        "whyItMatters": "Reduces anxiety and support calls; speed is a key reason to pick Zomato."
+      },
+      {
+        "feature": "Zomato Gold",
+        "whatItDoes": "A paid membership with free delivery above a minimum order and extra discounts.",
+        "whyItMatters": "Makes heavy users order more often and choose Zomato over Swiggy."
+      },
+      {
+        "feature": "Restaurant ads",
+        "whatItDoes": "Restaurants pay to appear higher in search and on the home screen.",
+        "whyItMatters": "High-margin revenue that boosts profit per order."
+      },
+      {
+        "feature": "Restaurant partner app",
+        "whatItDoes": "Lets restaurants manage orders, menus, prices and see sales insights.",
+        "whyItMatters": "Good tools keep restaurants on the platform and improve food prep time."
+      },
+      {
+        "feature": "Feeding India and rider welfare programmes",
+        "whatItDoes": "Optional donation at checkout and insurance and support for riders.",
+        "whyItMatters": "Builds brand trust and helps address criticism of gig work."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First food order",
+        "persona": "Working professional ordering dinner",
+        "steps": [
+          {
+            "step": "Downloads the app",
+            "detail": "Sees a funny push notification or a friend's recommendation."
+          },
+          {
+            "step": "Sets location",
+            "detail": "Allows location; app shows restaurants nearby with delivery times."
+          },
+          {
+            "step": "Browses and picks",
+            "detail": "Filters by rating 4+ and cuisine, picks a North Indian place."
+          },
+          {
+            "step": "Reviews the bill",
+            "detail": "Sees food price, platform fee, delivery and packaging charges; applies a first-order coupon."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays via UPI."
+          },
+          {
+            "step": "Tracks and receives",
+            "detail": "Watches the rider and gets food in about 30 minutes."
+          },
+          {
+            "step": "Rates",
+            "detail": "Rates food and delivery, which helps future diners."
+          }
+        ]
+      },
+      {
+        "name": "Restaurant joins Zomato",
+        "persona": "Restaurant owner",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Registers on the partner site with FSSAI licence, GST and bank details."
+          },
+          {
+            "step": "Uploads menu",
+            "detail": "Adds dishes, prices and photos."
+          },
+          {
+            "step": "Goes live",
+            "detail": "Starts getting orders in the partner app."
+          },
+          {
+            "step": "Runs offers or ads",
+            "detail": "Pays for ads or discounts to get early visibility."
+          },
+          {
+            "step": "Tracks performance",
+            "detail": "Checks ratings, order count and kitchen prep time."
+          },
+          {
+            "step": "Adjusts",
+            "detail": "Removes slow dishes, adds popular items, improves packing."
+          }
+        ]
+      },
+      {
+        "name": "Becoming a Gold member",
+        "persona": "Student on a budget",
+        "steps": [
+          {
+            "step": "Sees savings at checkout",
+            "detail": "App shows how much Gold would save on this order."
+          },
+          {
+            "step": "Buys Gold",
+            "detail": "Pays for a 3-month plan."
+          },
+          {
+            "step": "Orders more",
+            "detail": "Free delivery above the minimum order makes ordering feel cheaper."
+          },
+          {
+            "step": "Sees total savings",
+            "detail": "Gold page shows money saved so far."
+          },
+          {
+            "step": "Renews",
+            "detail": "Renews because savings are higher than the price."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Zomato makes money from three sides. Restaurants pay commissions and ad fees. Diners pay platform fees, delivery fees and Gold membership. Out of this, Zomato pays riders and covers discounts. In mid-2026 it kept about ₹5.5 of profit for every ₹100 of food sold.",
+      "revenueStreams": [
+        {
+          "stream": "Restaurant commissions",
+          "detail": "A cut of each order, often in the range of 18-25% depending on the deal (estimate)."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Restaurants pay to rank higher and appear in banners."
+        },
+        {
+          "stream": "Customer fees",
+          "detail": "Platform fee per order, delivery fee for non-members, rain and long-distance fees."
+        },
+        {
+          "stream": "Zomato Gold",
+          "detail": "Paid membership fees."
+        }
+      ],
+      "pricing": "Menu prices set by restaurants. Platform fee per order has risen over time and is around ₹10 to ₹15 in big cities (changes often). Delivery fee depends on distance and Gold status. Gold plan price varies by offer. Exact current fees not fixed or fully public.",
+      "costDrivers": [
+        "Delivery partner pay and incentives",
+        "Discounts and marketing",
+        "Customer support and refunds",
+        "Technology and staff",
+        "Rider insurance and welfare"
+      ],
+      "unitEconomics": "Take a ₹450 order (estimate). Zomato keeps about ₹100 to ₹110 from restaurant commission, ads and customer fees, its take rate. It pays the rider about ₹50 to ₹60, spends some on discounts and support, and is left with about ₹25 (5.5% of order value, matching its ₹627 crore EBITDA on ₹11,445 crore of orders in Q2 FY27). Profit per order rises when orders are bigger, riders carry more orders per hour, and ad income grows."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Witty push notifications and social media that keep the brand top of mind",
+        "First-order offers and Gold trials",
+        "Cross-promotion with Blinkit and the District app",
+        "Expanding into hundreds of smaller cities",
+        "IPL and festival campaigns"
+      ],
+      "whatBringsUsersBack": [
+        "Habit of ordering dinner and late-night food",
+        "Gold savings that make Zomato the default app",
+        "Personalised recommendations and reorder",
+        "Trust in ratings and quick refunds for problems"
+      ],
+      "moat": "Zomato has a three-sided network: more diners attract more restaurants, more restaurants attract more diners, and more orders keep riders busy so delivery stays fast and cheap. Its bigger order volume than Swiggy gives it more profit per order to invest. A new player would need years to match this, as many low-commission rivals have found."
+    },
+    "competitors": [
+      {
+        "name": "Swiggy",
+        "positioning": "Number two in food delivery, with food and Instamart in one app and Swiggy One membership.",
+        "howThisProductDiffers": "Zomato is bigger and earns about 1.8 times Swiggy's food profit; Swiggy bundles food and groceries in one app while Zomato keeps Blinkit separate."
+      },
+      {
+        "name": "Rapido and ONDC-based food apps",
+        "positioning": "Low-commission or zero-commission models that charge restaurants less.",
+        "howThisProductDiffers": "Zomato has more restaurants, users and riders; rivals compete on lower restaurant costs."
+      },
+      {
+        "name": "Restaurant direct ordering (Domino's, McDonald's own apps)",
+        "positioning": "Big chains with their own apps and delivery fleets.",
+        "howThisProductDiffers": "Zomato offers choice across all restaurants; chain apps offer loyalty and no platform fee."
+      },
+      {
+        "name": "Quick commerce food (Blinkit Bistro, Zepto Cafe, Swiggy Snacc)",
+        "positioning": "10-minute snacks and meals from dark kitchens.",
+        "howThisProductDiffers": "Zomato offers full restaurant meals and choice; quick food apps win on speed for snacks."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly orders delivered on time and rated 4 stars or more",
+      "why": "It shows that diners got good food on time, restaurants got paid orders, and riders completed trips. Good orders also lead to repeat orders and profit."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly transacting customers",
+        "description": "People who order at least once in a month.",
+        "children": [
+          {
+            "metric": "New customer first orders",
+            "description": "New users placing a first order each month."
+          },
+          {
+            "metric": "Month-1 retention",
+            "description": "Share of new users who order again in the next month."
+          },
+          {
+            "metric": "Gold members",
+            "description": "Number of active paid members."
+          }
+        ]
+      },
+      {
+        "metric": "Orders per customer",
+        "description": "How often each customer orders in a month.",
+        "children": [
+          {
+            "metric": "Restaurant choice in area",
+            "description": "Number of good-rated restaurants within reach."
+          },
+          {
+            "metric": "Recommendation click rate",
+            "description": "Share of users who order from suggested restaurants."
+          },
+          {
+            "metric": "Effective price paid",
+            "description": "Final bill including fees versus menu price."
+          }
+        ]
+      },
+      {
+        "metric": "Delivery quality",
+        "description": "How often food arrives on time and in good condition.",
+        "children": [
+          {
+            "metric": "Restaurant prep time",
+            "description": "Minutes from order to food ready."
+          },
+          {
+            "metric": "Rider assignment time",
+            "description": "Minutes to find a rider."
+          },
+          {
+            "metric": "On-time delivery rate",
+            "description": "Orders delivered within promised time."
+          }
+        ]
+      },
+      {
+        "metric": "Supply health",
+        "description": "Restaurants and riders active on the platform.",
+        "children": [
+          {
+            "metric": "Active restaurant partners",
+            "description": "Restaurants taking orders each month."
+          },
+          {
+            "metric": "Rider earnings per hour",
+            "description": "Higher earnings keep riders online at peak times."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Food delivery adjusted EBITDA margin (about 5.5% of order value) must not fall",
+      "Restaurant partner churn",
+      "Rider earnings per hour and safety incidents",
+      "Fee-related complaints and checkout drop-off"
+    ],
+    "strengths": [
+      "Largest food delivery network in India with steady profits",
+      "Strong, playful brand with high recall",
+      "Owns Blinkit, giving it data, riders and cash across food and groceries",
+      "Better profit per order than Swiggy food"
+    ],
+    "weaknesses": [
+      "Food delivery growth (about 21%) is slower than quick commerce",
+      "Many failed experiments (Zomato Legends, 10-minute food, quick-food apps) show trouble finding new food growth",
+      "Fees and commissions draw criticism from diners and restaurants",
+      "Group focus has shifted to Blinkit after the CEO change"
+    ],
+    "risks": [
+      "Competition Commission and restaurant association complaints about commissions and private labels",
+      "Low-commission rivals like Rapido taking restaurants and price-sensitive users",
+      "Gig worker welfare rules raising rider costs",
+      "Quick commerce food (10-minute snacks) eating into food orders",
+      "Consumer spending slowdown in cities"
+    ],
+    "userComplaints": [
+      "Platform fee, packaging and delivery charges make the bill much higher than the menu price",
+      "Restaurant prices on Zomato higher than dine-in",
+      "Cold, late or spilled food",
+      "Wrong or missing items with slow refunds",
+      "Customer support hard to reach beyond chatbots"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show the final 'pay this much' price on every restaurant and dish card",
+        "problem": "Users feel fees are hidden until checkout.",
+        "expectedImpact": "Fewer abandoned carts and better trust.",
+        "metricToTrack": "Checkout drop-off rate and fee complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Kitchen prep-time alerts that give restaurants a nudge when food is running late",
+        "problem": "Late or cold food hurts ratings and repeat orders.",
+        "expectedImpact": "Faster deliveries and fewer complaints.",
+        "metricToTrack": "Average prep time and on-time delivery rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Budget meals tab with dishes under ₹150 including all fees",
+        "problem": "Students and smaller-city users find orders too costly.",
+        "expectedImpact": "More orders from price-sensitive users.",
+        "metricToTrack": "Orders per user among new and young users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Restaurant 'growth score' showing how to raise orders without ads (photos, prep time, menu changes)",
+        "problem": "Restaurants feel they must pay for ads to survive.",
+        "expectedImpact": "Better restaurant loyalty and better menus for diners.",
+        "metricToTrack": "Restaurant churn and organic order growth",
+        "effort": "medium"
+      },
+      {
+        "idea": "Gold savings dashboard with monthly summary",
+        "problem": "Members do not see the value and may not renew.",
+        "expectedImpact": "Higher renewal rate.",
+        "metricToTrack": "Gold renewal rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Marketplaces must keep every side happy. Pushing commissions too high can drive restaurants away, which hurts diners.",
+      "Membership works when savings are clear. Gold pays for itself in a few orders, which makes users loyal.",
+      "Experiments that fail are fine if you learn fast. Zomato shut many side projects and focused on what worked.",
+      "A strong brand voice, like witty push notifications, can be a cheap growth engine."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Zomato's food delivery growth has slowed to about 20%. How would you speed it up?",
+        "hint": "Split growth into more users, more orders per user and bigger orders. Look at smaller cities, budget meals, new occasions (breakfast, office lunch) and Gold. Pick one with a test plan."
+      },
+      {
+        "question": "Should Zomato raise its platform fee by ₹5?",
+        "hint": "Estimate extra revenue per order versus drop in orders. Test in a few cities. Watch frequency, Gold sign-ups and competitor pricing."
+      },
+      {
+        "question": "How would you balance diners, restaurants and riders when designing a new feature?",
+        "hint": "Name each side's goal. Score the feature's impact on each. Choose guardrails for the sides not targeted, like restaurant churn or rider pay."
+      },
+      {
+        "question": "What is the north star metric for Zomato food delivery?",
+        "hint": "Choose something that captures value for all sides, like on-time well-rated orders. Explain why GOV alone misses quality. Break it into users, frequency, quality and supply."
+      },
+      {
+        "question": "Diners complain food arrives cold. How do you fix it?",
+        "hint": "Find the cause: prep delay, rider wait, long distance or poor packaging. Use data to see which is biggest. Propose fixes for each, with metrics."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Marketplace",
+        "meaning": "A platform that connects buyers and sellers and takes a cut of each sale."
+      },
+      {
+        "term": "Three-sided marketplace",
+        "meaning": "A platform that must serve three groups at once: here, diners, restaurants and riders."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of each order's value that the platform keeps as revenue."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit from running the business before interest, tax, wear and tear on assets, and share-based staff pay."
+      },
+      {
+        "term": "Net order value",
+        "meaning": "The total value of orders placed on the app after discounts."
+      },
+      {
+        "term": "GOV",
+        "meaning": "Gross order value: the total value of all orders before discounts."
+      },
+      {
+        "term": "Retention",
+        "meaning": "How many users keep using the product over time."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team uses to judge whether the product is giving real value to users."
+      },
+      {
+        "term": "Churn",
+        "meaning": "When customers or partners stop using a product."
+      },
+      {
+        "term": "Cloud kitchen",
+        "meaning": "A kitchen that only cooks for delivery and has no dine-in seating."
+      }
+    ],
+    "assumptions": [
+      "Market share of 55-58% is an estimate from comparing reported order values of Zomato and Swiggy.",
+      "The ₹450 average order and commission range of 18-25% are estimates, not published figures.",
+      "Platform fee and Gold prices change often; numbers are recent examples, not fixed prices.",
+      "Fresh web searches ran out while writing this file, so fee details and restaurant counts were not re-checked for late 2026."
+    ]
+  }
+}

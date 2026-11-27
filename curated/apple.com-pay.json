@@ -1,0 +1,254 @@
+{
+  "company": "Apple Wallet & Pay",
+  "domain": "apple.com-pay",
+  "website": "https://www.apple.com/apple-pay",
+  "sources": [
+    "https://macrumors.com/2026/10/21/uk-proposes-to-help-apple-pay-rivals/",
+    "https://techcrunch.com/2024/07/11/eu-ends-apple-pay-antitrust-probe-with-binding-commitments-to-open-up-contactless-payments/",
+    "https://ec.europa.eu/commission/presscorner/api/files/document/print/fin/ip_24_3706/IP_24_3706_EN.pdf",
+    "https://www.macrumors.com/2024/07/11/apple-opens-iphone-nfc-access-eu/",
+    "https://www.computerworld.com/article/2516133/apple-agrees-to-open-up-apple-pay-in-europe.html",
+    "https://www.iclarified.com/94191/eu-and-apple-reach-agreement-on-nfc-access-for-mobile-payments-on-iphone"
+  ],
+  "report": {
+    "company": "Apple Wallet & Pay",
+    "tagline": "Apple's built-in wallet on iPhone and Apple Watch that lets you tap to pay in shops, pay in one tap online, and carry cards, tickets, keys and IDs.",
+    "category": "Payments",
+    "simpleSummary": "Apple Pay lets you pay by holding your iPhone or Apple Watch near a card machine. You add your bank card to the Wallet app once, then double-click the side button, look at the phone and tap. The shop never sees your real card number. Shoppers and shops pay Apple nothing; instead the bank that issued your card pays Apple a small cut of each payment.",
+    "keyNumbers": [
+      { "label": "Users", "value": "Estimated 700 to 800+ million worldwide", "note": "Analyst estimates. Apple does not publish Apple Pay user numbers, so treat as a rough guide." },
+      { "label": "Markets", "value": "About 80+ countries and regions", "note": "Apple's list of supported regions. Not launched in India as of late 2026 (based on public reports)." },
+      { "label": "Fee Apple charges banks (US)", "value": "About 0.15% of credit card spend", "note": "Widely reported since launch in 2014; Apple has never published its fees. Reportedly a small fixed fee on debit. UK and EU fees are also not public." },
+      { "label": "Launched", "value": "October 2014 (US), July 2015 (UK)", "note": "Public launch dates." },
+      { "label": "EU NFC access", "value": "Free for rival wallets since 2024", "note": "European Commission commitments, July 2024. Rival tap-to-pay apps have since launched in the EU (MacRumors, 2026)." },
+      { "label": "UK CMA proposal", "value": "Lower NFC fees and allow HCE", "note": "CMA consultation, October 2026, closed 17 November 2026. Final decision pending. No rival wallet has launched in the UK under Apple's current terms." }
+    ],
+    "overview": {
+      "whatItDoes": "Apple Pay turns iPhones and Apple Watches into payment cards that work in shops, in apps and online. Apple Wallet holds bank cards plus Apple Card, Apple Cash, transit cards, boarding passes, event tickets, car and hotel keys, and in some US states driving licences. Merchants can also take card payments on their own iPhone with Tap to Pay on iPhone. For years Apple was the only one allowed to use the iPhone's tap-to-pay chip, which is why regulators are now forcing it open.",
+      "howItWorks": [
+        "You add a card in Wallet. Your bank and Visa or Mastercard create a token, a stand-in card number, which is stored in a secure chip in the phone called the Secure Element.",
+        "At a shop, you double-click the side button, look at the phone for Face ID, then hold it near the terminal. The phone sends the token over NFC.",
+        "The bank approves the payment as normal. The shop sees only the token, not your real card number, so a data leak at the shop does not expose your card.",
+        "Apple charges the card-issuing bank a small fee on each payment. Banks agreed to this in return for being in Apple Pay.",
+        "Online and in apps, an Apple Pay button fills in card, address and email in one tap with Face ID.",
+        "Express Transit lets you tap through London Underground gates without unlocking the phone."
+      ],
+      "valueProposition": "The fastest and safest way to pay with an iPhone: no card to carry, no card number shared with shops, and checkout online in one tap."
+    },
+    "personas": [
+      {
+        "name": "iPhone commuter in London",
+        "description": "25 to 40, taps to pay for coffee, the Tube and groceries every day and rarely carries a wallet.",
+        "goals": ["Pay in a second", "Tap through Tube gates", "Leave the wallet at home"],
+        "frustrations": ["Phone battery dying", "Occasional terminal that fails to read the phone"]
+      },
+      {
+        "name": "Online shopper",
+        "description": "Buys from apps and websites on the phone.",
+        "goals": ["Check out without typing card and address", "Feel safe paying a new site"],
+        "frustrations": ["Sites without an Apple Pay button", "Forms on small screens"]
+      },
+      {
+        "name": "Bank product manager",
+        "description": "Works at a UK or Indian bank deciding how to handle iPhone payments.",
+        "goals": ["Get customers to use its cards in Apple Pay", "Lower fees to Apple", "Offer its own tap-to-pay app on iPhone"],
+        "frustrations": ["Paying Apple on every tap", "Apple controls the NFC chip and its terms"]
+      },
+      {
+        "name": "Small merchant",
+        "description": "Runs a market stall, salon or food truck.",
+        "goals": ["Take card payments without buying a terminal", "Get paid quickly"],
+        "frustrations": ["Terminal rental costs", "Slow setup with banks"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Carrying several cards and a wallet is a hassle.", "howSolved": "All cards, transit and tickets live in Wallet on the phone and watch.", "severity": "medium" },
+      { "pain": "Card numbers get stolen in shop data leaks and skimming.", "howSolved": "Tokens and Face ID mean the shop never sees your real card number.", "severity": "high" },
+      { "pain": "Typing card details and addresses on a phone is slow, and shoppers abandon checkout.", "howSolved": "One-tap Apple Pay online and in apps.", "severity": "high" },
+      { "pain": "Contactless cards have a £100 limit in the UK.", "howSolved": "Apple Pay uses Face ID, so many shops accept higher amounts.", "severity": "low" },
+      { "pain": "Small merchants need expensive terminals.", "howSolved": "Tap to Pay on iPhone turns an iPhone into a card reader.", "severity": "medium" },
+      { "pain": "Losing tickets, boarding passes and keys.", "howSolved": "Passes and keys stored in Wallet.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Tap to pay in shops", "whatItDoes": "Pay with iPhone or Apple Watch through NFC.", "whyItMatters": "A daily habit that makes the iPhone harder to leave for Android." },
+      { "feature": "Apple Pay online and in apps", "whatItDoes": "One-tap checkout with saved card, address and email.", "whyItMatters": "Raises merchant conversion and takes share from PayPal on mobile." },
+      { "feature": "Express Transit", "whatItDoes": "Tap through transport gates without unlocking.", "whyItMatters": "Builds the habit in cities like London, New York and Tokyo." },
+      { "feature": "Wallet passes, keys and IDs", "whatItDoes": "Boarding passes, tickets, car and hotel keys, and state IDs in some US states.", "whyItMatters": "Makes Wallet a daily app, not only for payments." },
+      { "feature": "Apple Card and Apple Cash (US)", "whatItDoes": "Apple's own credit card and person-to-person payments.", "whyItMatters": "Extra revenue and deeper lock-in for US users." },
+      { "feature": "Tap to Pay on iPhone", "whatItDoes": "Merchants accept contactless payments on an iPhone through apps like Stripe and Square.", "whyItMatters": "Brings small businesses into Apple's payment world." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First tap in a shop",
+        "persona": "iPhone commuter in London",
+        "steps": [
+          { "step": "Prompted to add a card", "detail": "The bank app or iPhone setup suggests adding a card to Wallet." },
+          { "step": "Adds card", "detail": "Taps 'Add to Apple Wallet' in the bank app or scans the card." },
+          { "step": "Bank verifies", "detail": "The bank confirms with a code or in its app. A token is created." },
+          { "step": "Pays for coffee", "detail": "Double-clicks, Face ID, taps the terminal. Done in about a second." },
+          { "step": "Turns on Express Transit", "detail": "Picks a card for TfL so gates open without Face ID." },
+          { "step": "Stops carrying the card", "detail": "Uses Apple Pay for almost every in-person payment." }
+        ]
+      },
+      {
+        "name": "Buying in an app",
+        "persona": "Online shopper",
+        "steps": [
+          { "step": "Adds item", "detail": "Adds trainers to the basket in a retailer's app." },
+          { "step": "Sees Apple Pay button", "detail": "Picks Apple Pay instead of filling in a form." },
+          { "step": "Confirms", "detail": "Checks address and card on the sheet, then Face ID." },
+          { "step": "Gets confirmation", "detail": "Order placed in a few seconds." },
+          { "step": "Tracks", "detail": "Order and receipt show in Wallet for some merchants." }
+        ]
+      },
+      {
+        "name": "Bank decides on iPhone payments",
+        "persona": "Bank product manager",
+        "steps": [
+          { "step": "Signs Apple's agreement", "detail": "Agrees fees and terms to be in Apple Pay." },
+          { "step": "Connects tokens", "detail": "Links to Visa or Mastercard token services." },
+          { "step": "Launches", "detail": "Promotes 'Add to Apple Wallet' in the bank app." },
+          { "step": "Pays fees", "detail": "Pays Apple a cut of each Apple Pay transaction." },
+          { "step": "Weighs own wallet", "detail": "In the EU, considers its own tap-to-pay app using free NFC access. In the UK, waits for the CMA ruling." },
+          { "step": "Tracks", "detail": "Measures share of card spend going through Apple Pay." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Apple Pay is free for shoppers and merchants. Apple earns a small fee from banks on each payment and fees from some third-party NFC apps. The bigger value is that it keeps people buying iPhones and Apple Watches.",
+      "revenueStreams": [
+        { "stream": "Issuer fees", "detail": "Banks pay Apple a share of each Apple Pay transaction, reported at about 0.15% of US credit spend." },
+        { "stream": "Apple Card", "detail": "Revenue share from Apple's card partner bank in the US." },
+        { "stream": "NFC access fees", "detail": "Fees from third-party payment apps that use iPhone NFC outside the EU." },
+        { "stream": "Device loyalty", "detail": "Indirect: a daily payment habit makes users less likely to switch to Android." }
+      ],
+      "pricing": "Free for shoppers and merchants. Banks pay Apple fees that are not public. Merchants pay their normal card processing fees.",
+      "costDrivers": [
+        "Engineering for security, the Secure Element and Wallet",
+        "Bank and card network partnerships in each country",
+        "Legal and regulatory costs in the EU, UK and US",
+        "Fraud prevention and customer support"
+      ],
+      "unitEconomics": "Take a £4 coffee paid with Apple Pay on a credit card. If Apple's fee is about 0.15%, Apple earns 0.6p. A user who spends £10,000 a year through Apple Pay on credit earns Apple about £15. Small per person, but across hundreds of millions of users it is likely billions of dollars a year (estimate). Apple's cost per payment is close to zero, since the bank and network do the work. The real value is that each tap makes the £1,000 iPhone harder to leave."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Pre-installed on every iPhone and Apple Watch, with prompts during setup",
+        "Banks push customers to add cards from their own apps",
+        "Transit systems like TfL accepting phone taps",
+        "Merchants adding Apple Pay buttons to raise conversion"
+      ],
+      "whatBringsUsersBack": [
+        "Daily in-shop payments",
+        "Express Transit on the commute",
+        "Passes, keys and tickets stored in Wallet",
+        "One-tap checkout in favourite apps"
+      ],
+      "moat": "Apple controls the iPhone and its NFC chip, so it decides who can offer tap-to-pay on iPhone. Being the default on every iPhone gives it a habit no bank app can match. Regulators in the EU (2024) and the UK (2026 proposal) are weakening this moat by forcing NFC access."
+    },
+    "competitors": [
+      { "name": "Google Wallet", "positioning": "Android's built-in wallet.", "howThisProductDiffers": "Android lets other wallets use NFC; Apple kept it closed until regulators stepped in." },
+      { "name": "Bank tap-to-pay apps in the EU", "positioning": "Banks and schemes like Vipps MobilePay using iPhone NFC since 2024.", "howThisProductDiffers": "Apple Pay is the default and simpler; bank apps avoid Apple's fees." },
+      { "name": "PayPal", "positioning": "Online checkout across devices.", "howThisProductDiffers": "Apple Pay is faster on iPhone; PayPal works on any device and offers buyer protection." },
+      { "name": "Curve Pay", "positioning": "Wallet that sits on top of all your cards.", "howThisProductDiffers": "Curve depends on Apple's NFC access, now owned by Lloyds." },
+      { "name": "UPI (India, for comparison)", "positioning": "India's free, instant bank-to-bank payment system, used by QR code.", "howThisProductDiffers": "UPI has zero fees and runs on any phone; cards are less common in India, which is one reason Apple Pay has not launched there." }
+    ],
+    "northStar": {
+      "metric": "Monthly active Apple Pay payers",
+      "why": "It shows Apple Pay is part of people's daily lives, which is what keeps them on iPhone. This is a better north star metric than fee revenue, which is small and depends on bank deals."
+    },
+    "kpiTree": [
+      {
+        "metric": "Users with a card in Wallet",
+        "description": "iPhone users who have set up Apple Pay.",
+        "children": [
+          { "metric": "Bank coverage", "description": "Share of banks in a country that support Apple Pay." },
+          { "metric": "Setup completion rate", "description": "Users who finish adding a card after starting." },
+          { "metric": "Add-to-Wallet from bank apps", "description": "Cards added through bank app buttons." }
+        ]
+      },
+      {
+        "metric": "In-store payments per user",
+        "description": "How often users tap to pay.",
+        "children": [
+          { "metric": "Contactless acceptance", "description": "Share of shops taking contactless." },
+          { "metric": "Express Transit use", "description": "Commuters tapping daily." },
+          { "metric": "Payment failure rate at terminals", "description": "Failures push users back to cards." }
+        ]
+      },
+      {
+        "metric": "Online and in-app payments per user",
+        "description": "How often users pay online with Apple Pay.",
+        "children": [
+          { "metric": "Merchant integration", "description": "Sites and apps showing an Apple Pay button." },
+          { "metric": "Checkout conversion", "description": "Share of Apple Pay checkouts completed." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud rate on Apple Pay transactions",
+      "Regulatory findings and fines",
+      "Bank partner satisfaction",
+      "Privacy incidents"
+    ],
+    "strengths": [
+      "Default on every iPhone and Apple Watch",
+      "Strong security and privacy through tokens and Face ID",
+      "Huge user base and daily habit",
+      "Wallet goes beyond payments into tickets, keys and IDs"
+    ],
+    "weaknesses": [
+      "Regulators challenge Apple's control of NFC",
+      "Banks resent the fees",
+      "Not launched in India, a huge payments market",
+      "Apple Pay Later was shut down in 2024, showing limits in credit"
+    ],
+    "risks": [
+      "UK CMA rules lowering NFC fees and allowing HCE",
+      "EU access letting banks build their own iPhone wallets",
+      "US antitrust case against Apple that includes wallet complaints",
+      "Bank-to-bank payments like UPI and Pix reducing card use"
+    ],
+    "userComplaints": [
+      "Some banks and cards not supported",
+      "Terminals failing to read the phone",
+      "Not available in some countries, including India",
+      "Need to re-add cards after a new card or phone"
+    ],
+    "improvementIdeas": [
+      { "idea": "Launch in India with UPI inside Wallet", "problem": "Apple Pay is missing from a market where UPI dominates and cards are less common.", "expectedImpact": "Millions of iPhone users in India start using Wallet daily.", "metricToTrack": "Monthly active Apple Pay payers in India", "effort": "high" },
+      { "idea": "Tiered, published fees for small banks and credit unions", "problem": "Small banks find fees and terms hard, and regulators criticise them.", "expectedImpact": "More bank coverage and less regulatory pressure.", "metricToTrack": "Bank coverage by country", "effort": "low" },
+      { "idea": "Spending summary across all cards in Wallet", "problem": "Users cannot see spending across cards in one place.", "expectedImpact": "More reasons to open Wallet.", "metricToTrack": "Wallet app weekly active users", "effort": "medium" },
+      { "idea": "Auto-update cards when the bank issues a new one", "problem": "Users must re-add replaced cards.", "expectedImpact": "Fewer drop-offs after card replacement.", "metricToTrack": "Share of users still active 30 days after a card replacement", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Owning the platform gives huge power, but regulators may limit it if rivals are blocked.",
+      "A feature can be worth more for loyalty than for direct revenue; Apple Pay keeps people on iPhone.",
+      "Make the default the easiest choice, and most users will never change it.",
+      "Payments habits are local: what works in London may not work in India, where UPI rules."
+    ],
+    "interviewQuestions": [
+      { "question": "How should Apple respond to the UK CMA's proposal to open NFC?", "hint": "Weigh security, fee revenue, iPhone loyalty and regulatory goodwill. Look at what happened in the EU after 2024. Suggest a clear plan." },
+      { "question": "Should Apple Pay launch in India? How?", "hint": "Look at iPhone share, UPI's dominance, RBI rules on data and payments, and bank partners. A UPI-first launch may make more sense than cards." },
+      { "question": "How would you measure Apple Pay's success if fee revenue is small?", "hint": "Active payers, payments per user, retention of iPhone users who use Apple Pay versus those who do not." },
+      { "question": "Why do you think Apple shut down Apple Pay Later?", "hint": "Credit risk, regulation, cost of being a lender, and a move to partner with existing lenders like Klarna and Affirm instead." },
+      { "question": "Design a feature to increase online Apple Pay use.", "hint": "Find why merchants do not add it and why users skip it. Ideas: easier merchant setup, loyalty cards at checkout. Metric: online payments per user." }
+    ],
+    "glossary": [
+      { "term": "NFC", "meaning": "Near-field communication: the chip that lets a phone or card tap to pay." },
+      { "term": "Token", "meaning": "A stand-in card number used instead of your real one, so shops never see it." },
+      { "term": "Secure Element", "meaning": "A separate, locked chip in the phone that stores payment details." },
+      { "term": "HCE", "meaning": "Host card emulation: a way for payment apps to tap-to-pay without using the Secure Element." },
+      { "term": "Conversion", "meaning": "The share of shoppers who complete a purchase." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "UPI", "meaning": "Unified Payments Interface: India's free, instant system for paying from your bank account by phone." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." }
+    ],
+    "assumptions": [
+      "User numbers are analyst estimates; Apple does not publish them.",
+      "Fee levels are reported in the press, not confirmed by Apple, and may differ by country.",
+      "India availability is based on public reports as of late 2026.",
+      "Total Apple Pay fee revenue of billions of dollars is our estimate."
+    ]
+  }
+}

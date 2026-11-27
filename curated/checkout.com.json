@@ -1,0 +1,500 @@
+{
+  "company": "Checkout.com",
+  "domain": "checkout.com",
+  "website": "https://www.checkout.com",
+  "sources": [
+    "https://www.checkout.com/newsroom/checkout-com-returns-to-full-year-profitability-and-surpasses-300b-in-volume-as-it-positions-for-the-era-of-agentic-commerce",
+    "https://www.checkout.com/blog/annual-letter-2025",
+    "https://tech.eu/2026/02/24/checkoutcom-ups-headcount-says-2025-full-year-profitable/",
+    "https://www.checkout.com/newsroom/checkout-com-accelerates-towards-full-year-profitability-and-announces-employee-share-buy-back-and-a-new-12bn-valuation",
+    "https://sacra.com/c/checkout-com"
+  ],
+  "report": {
+    "company": "Checkout.com",
+    "tagline": "A London-based payments company that processes online card and wallet payments for large global businesses like Uber, eBay and Spotify.",
+    "category": "Payments infrastructure",
+    "simpleSummary": "When you pay for an Uber ride or a Spotify subscription, a company in the background has to take your card details, check with your bank, and move the money to the business. Checkout.com does that job for big online companies. It focuses on large merchants that sell in many countries and care about every small improvement in how many payments go through. It does not sell to shoppers directly; shoppers never see it.",
+    "keyNumbers": [
+      {
+        "label": "Payment volume 2025",
+        "value": "Over $300 billion",
+        "note": "Checkout.com press release, February 2026. Up 64% year on year."
+      },
+      {
+        "label": "Net revenue growth 2025",
+        "value": "Over 30%",
+        "note": "Press release. Second year in a row above 30%. Absolute figure not published; likely above $1 billion (estimate based on earlier reports)."
+      },
+      {
+        "label": "Profitability 2025",
+        "value": "Full-year EBITDA profit, adjusted margin above 10%",
+        "note": "Press release, February 2026."
+      },
+      {
+        "label": "Enterprise merchants",
+        "value": "Over 1,000",
+        "note": "Press release. 63 merchants each process more than $1 billion a year, up from 39."
+      },
+      {
+        "label": "Valuation",
+        "value": "$12 billion (internal, 2025)",
+        "note": "Set in an employee share buyback in 2025, down from a peak of $40 billion in 2022."
+      },
+      {
+        "label": "Staff",
+        "value": "About 2,000",
+        "note": "Press release, up 15%."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Checkout.com lets businesses accept card payments, digital wallets like Apple Pay and local payment methods online, all through one connection. It also handles payouts, fraud checks and identity checks. It is built for large merchants that want high success rates and detailed data.",
+      "howItWorks": [
+        "A business connects its website or app to Checkout.com through an API.",
+        "When a shopper pays, Checkout.com sends the request to the card network (Visa, Mastercard) and the shopper's bank to approve it.",
+        "It runs fraud checks with its own tools in milliseconds.",
+        "As an 'acquirer' in many countries, it holds licences to settle money directly to the merchant, which removes middlemen.",
+        "Merchants see detailed data on why payments fail and tools to raise approval rates.",
+        "It is adding support for payments made by AI shopping agents, such as Google's Universal Commerce Protocol."
+      ],
+      "valueProposition": "More payments approved, at lower cost, with one global platform and deep data, for businesses where a 1% gain in approval is worth millions."
+    },
+    "personas": [
+      {
+        "name": "Head of payments at a global app",
+        "description": "Runs payments at a company like a ride-hailing or streaming app, processing billions a year.",
+        "goals": [
+          "Higher approval rates",
+          "Lower fees",
+          "Local payment methods in each market"
+        ],
+        "frustrations": [
+          "Every 0.1% of failed payments is lost revenue",
+          "Being tied to one provider"
+        ]
+      },
+      {
+        "name": "Ecommerce CTO",
+        "description": "Runs tech at a large online retailer like ASOS or a marketplace like Vinted.",
+        "goals": [
+          "Fast, reliable checkout",
+          "Clean data and APIs"
+        ],
+        "frustrations": [
+          "Outages on peak days like Black Friday",
+          "Complex integrations"
+        ]
+      },
+      {
+        "name": "Crypto or fintech company",
+        "description": "Needs card payments and payouts for its users.",
+        "goals": [
+          "Fast payouts",
+          "Strong fraud and identity checks"
+        ],
+        "frustrations": [
+          "Many providers will not serve high-risk sectors"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Failed payments lose sales.",
+        "howSolved": "Tools to raise approval rates, like retries and data shared with banks.",
+        "severity": "high"
+      },
+      {
+        "pain": "Using many providers in different countries is complex.",
+        "howSolved": "One platform with local acquiring in many markets.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fraud costs merchants money.",
+        "howSolved": "Built-in fraud detection tuned on its network.",
+        "severity": "high"
+      },
+      {
+        "pain": "Payment fees are opaque.",
+        "howSolved": "Interchange++ pricing that shows each cost separately.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Outages on peak days.",
+        "howSolved": "High uptime (99.999% claimed) and fast processing.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paying out to sellers and drivers globally is hard.",
+        "howSolved": "Payouts to cards and accounts in many countries.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Unified payments API",
+        "whatItDoes": "Accept cards, wallets and local methods through one integration.",
+        "whyItMatters": "Saves merchants engineering time and brings more volume."
+      },
+      {
+        "feature": "Acquiring licences",
+        "whatItDoes": "Settles payments directly in many countries.",
+        "whyItMatters": "Lower cost and higher approval than going through partners."
+      },
+      {
+        "feature": "Fraud detection",
+        "whatItDoes": "Real-time risk scoring of each payment.",
+        "whyItMatters": "Cuts fraud while keeping good payments approved."
+      },
+      {
+        "feature": "Payouts",
+        "whatItDoes": "Send money to cards and bank accounts globally.",
+        "whyItMatters": "Needed by marketplaces and gig apps."
+      },
+      {
+        "feature": "Identity checks",
+        "whatItDoes": "Checks customers' identities for regulated businesses.",
+        "whyItMatters": "Extra service that deepens the relationship."
+      },
+      {
+        "feature": "Agentic commerce support",
+        "whatItDoes": "Lets AI agents make payments safely through new protocols.",
+        "whyItMatters": "Prepares for a new channel of online shopping."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Enterprise merchant switches to Checkout.com",
+        "persona": "Head of payments at a global app",
+        "steps": [
+          {
+            "step": "Reviews performance",
+            "detail": "Sees approval rates are low in some countries with the current provider."
+          },
+          {
+            "step": "Runs a test",
+            "detail": "Routes a share of traffic to Checkout.com to compare."
+          },
+          {
+            "step": "Compares",
+            "detail": "Measures approval rate, fraud and cost."
+          },
+          {
+            "step": "Negotiates",
+            "detail": "Agrees interchange++ pricing and volume tiers."
+          },
+          {
+            "step": "Integrates",
+            "detail": "Builds to the API for all regions."
+          },
+          {
+            "step": "Scales",
+            "detail": "Moves more volume as results hold."
+          }
+        ]
+      },
+      {
+        "name": "Preparing for Black Friday",
+        "persona": "Ecommerce CTO",
+        "steps": [
+          {
+            "step": "Forecasts",
+            "detail": "Shares expected traffic with Checkout.com."
+          },
+          {
+            "step": "Tests load",
+            "detail": "Runs tests to make sure checkout holds."
+          },
+          {
+            "step": "Tunes fraud rules",
+            "detail": "Adjusts rules for peak shopping."
+          },
+          {
+            "step": "Monitors live",
+            "detail": "Watches approval rates on the dashboard."
+          },
+          {
+            "step": "Reviews",
+            "detail": "Looks at failed payments after the peak."
+          }
+        ]
+      },
+      {
+        "name": "Marketplace payouts",
+        "persona": "Crypto or fintech company",
+        "steps": [
+          {
+            "step": "Sets up payouts",
+            "detail": "Connects the payouts API."
+          },
+          {
+            "step": "Verifies users",
+            "detail": "Uses identity checks for new sellers."
+          },
+          {
+            "step": "Pays sellers",
+            "detail": "Sends payouts to cards and accounts."
+          },
+          {
+            "step": "Tracks",
+            "detail": "Monitors failed payouts and fraud."
+          },
+          {
+            "step": "Expands",
+            "detail": "Adds new countries."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Checkout.com charges merchants a small fee on each payment, on top of the card network and bank fees it passes through. It earns more from extras like fraud tools, payouts and identity checks.",
+      "revenueStreams": [
+        {
+          "stream": "Processing fees",
+          "detail": "A markup on each payment, usually a small percentage or fixed fee above interchange and scheme fees."
+        },
+        {
+          "stream": "Value-added services",
+          "detail": "Fraud detection, identity checks and data tools."
+        },
+        {
+          "stream": "Payouts and FX",
+          "detail": "Fees for sending money and converting currency."
+        }
+      ],
+      "pricing": "Custom pricing for each merchant, usually interchange++ (the card network and bank costs plus a Checkout.com fee). Not public.",
+      "costDrivers": [
+        "Card network and bank fees (passed through to merchants)",
+        "Technology and infrastructure for very high uptime",
+        "Staff, mostly engineers and sales",
+        "Licences and compliance in many countries",
+        "Fraud and chargeback losses"
+      ],
+      "unitEconomics": "Take a $100 online payment. The merchant might pay about $1.50 in total. Most of that, about $1.20 to $1.35, goes to the shopper's bank and the card network. Checkout.com keeps maybe 15 to 30 cents. With $300 billion in volume, a keep rate of about 0.3% to 0.4% would mean net revenue of roughly $1 billion or more. Big merchants push this markup down, so Checkout.com relies on high volume and selling extras."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Direct enterprise sales teams",
+        "Winning share of volume from merchants who use several providers",
+        "Reputation for approval rates and data",
+        "New hubs in the US and Brazil"
+      ],
+      "whatBringsUsersBack": [
+        "Payments run continuously; merchants stay if performance is good",
+        "Deep integration makes switching costly",
+        "New features like payouts and identity checks"
+      ],
+      "moat": "Its own acquiring licences, a high-performance platform, and deep relationships with big merchants. Rivals like Stripe and Adyen have similar strengths, so the moat is performance and price rather than a lock-in."
+    },
+    "competitors": [
+      {
+        "name": "Stripe",
+        "positioning": "Developer-friendly platform from startups to enterprises, with many products.",
+        "howThisProductDiffers": "Checkout.com focuses on large enterprises and custom pricing; Stripe is broader."
+      },
+      {
+        "name": "Adyen",
+        "positioning": "Enterprise payments platform with online and in-store payments, listed and profitable.",
+        "howThisProductDiffers": "Adyen is larger and stronger in-store; Checkout.com focuses on online."
+      },
+      {
+        "name": "PayPal Braintree",
+        "positioning": "Processing for large merchants with PayPal and Venmo.",
+        "howThisProductDiffers": "Checkout.com is independent and stronger outside the US."
+      },
+      {
+        "name": "Worldpay",
+        "positioning": "Large legacy processor.",
+        "howThisProductDiffers": "Checkout.com has more modern technology and data."
+      }
+    ],
+    "northStar": {
+      "metric": "Value of successful payments processed for merchants",
+      "why": "Merchants care about getting paid. Successful payment value captures both volume and approval quality. That is what makes it a good north star metric: it moves only when customers get real value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Merchant volume",
+        "description": "Total payments sent to Checkout.com.",
+        "children": [
+          {
+            "metric": "New enterprise merchants",
+            "description": "Merchants signed."
+          },
+          {
+            "metric": "Share of wallet",
+            "description": "Share of each merchant's volume sent to Checkout.com."
+          },
+          {
+            "metric": "Merchant growth",
+            "description": "Merchants growing their own sales."
+          }
+        ]
+      },
+      {
+        "metric": "Approval rate",
+        "description": "Share of payments approved.",
+        "children": [
+          {
+            "metric": "Fraud false declines",
+            "description": "Good payments wrongly blocked."
+          },
+          {
+            "metric": "Issuer decline rate",
+            "description": "Payments declined by banks."
+          },
+          {
+            "metric": "Retry success",
+            "description": "Failed payments recovered."
+          }
+        ]
+      },
+      {
+        "metric": "Platform reliability",
+        "description": "Uptime and speed.",
+        "children": [
+          {
+            "metric": "Uptime",
+            "description": "Share of time the system is available."
+          },
+          {
+            "metric": "Processing time",
+            "description": "Time to approve a payment."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud and chargeback rate",
+      "Net revenue per dollar processed",
+      "Outage minutes",
+      "Regulatory issues"
+    ],
+    "strengths": [
+      "Top enterprise clients like Uber, eBay, Spotify and Temu",
+      "Fast volume growth and back to profit",
+      "Own acquiring licences",
+      "Strong reliability on peak days"
+    ],
+    "weaknesses": [
+      "Valuation fell sharply from its 2022 peak",
+      "Depends on a small number of very large merchants",
+      "Low margins on big merchants",
+      "Less presence in in-store payments"
+    ],
+    "risks": [
+      "Price wars with Stripe and Adyen",
+      "Big merchants spreading volume across providers",
+      "Regulation of card fees",
+      "Account-to-account payments reducing card use"
+    ],
+    "userComplaints": [
+      "Merchants say onboarding and support for smaller accounts is slow",
+      "Strict risk checks can hold funds",
+      "Pricing not public, hard to compare"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Public approval rate benchmarks by country and industry",
+        "problem": "Merchants cannot easily compare providers.",
+        "expectedImpact": "Easier sales and trust.",
+        "metricToTrack": "Sales cycle length",
+        "effort": "medium"
+      },
+      {
+        "idea": "Self-serve onboarding for mid-size merchants",
+        "problem": "Growth depends on a few giants.",
+        "expectedImpact": "Broader customer base.",
+        "metricToTrack": "Mid-size merchants signed",
+        "effort": "high"
+      },
+      {
+        "idea": "Agent payment trust kit for merchants",
+        "problem": "Merchants worry about fraud in AI agent purchases.",
+        "expectedImpact": "Leadership in agentic commerce.",
+        "metricToTrack": "Agent-initiated payment volume",
+        "effort": "medium"
+      },
+      {
+        "idea": "Real-time failed payment alerts with fixes",
+        "problem": "Merchants lose sales without knowing why.",
+        "expectedImpact": "Higher approval rates.",
+        "metricToTrack": "Approval rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "In B2B infrastructure, small improvements in a core metric like approval rate are worth millions to customers.",
+      "Valuation is not success. Checkout.com's value fell but the business kept growing and became profitable.",
+      "Focusing on a segment (large global merchants) makes product choices clearer.",
+      "New channels like AI agents create openings for infrastructure players."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you raise the approval rate for a merchant?",
+        "hint": "Break down declines by cause: fraud, issuer, technical. Ideas: network tokens, retries, data sharing. Guardrail: fraud."
+      },
+      {
+        "question": "Checkout.com vs Stripe: how would you position Checkout.com?",
+        "hint": "Segment: enterprise vs everyone. Strengths: performance, pricing, licences. Weaknesses: breadth."
+      },
+      {
+        "question": "How would you prepare for agentic commerce?",
+        "hint": "Define agent payments. Issues: identity, consent, fraud. Product: tokens, limits, logs. Metric: agent volume."
+      },
+      {
+        "question": "What metrics would you put on the merchant dashboard?",
+        "hint": "Approval rate, fraud rate, cost per payment, speed. Prioritise what merchants act on."
+      },
+      {
+        "question": "Should Checkout.com serve small businesses?",
+        "hint": "Weigh the cost to serve, competition, brand focus and revenue."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Acquirer",
+        "meaning": "A licensed company that processes card payments for merchants and settles money to them."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A fee paid to the shopper's bank on each card payment."
+      },
+      {
+        "term": "Interchange++",
+        "meaning": "Pricing that shows interchange, card network fees and the provider's own fee separately."
+      },
+      {
+        "term": "Approval rate",
+        "meaning": "The share of payments that are approved."
+      },
+      {
+        "term": "Chargeback",
+        "meaning": "When a shopper disputes a payment and the money is taken back from the merchant."
+      },
+      {
+        "term": "EBITDA",
+        "meaning": "Earnings before interest, tax, depreciation and amortisation, a rough measure of operating profit."
+      },
+      {
+        "term": "Agentic commerce",
+        "meaning": "Shopping done by AI agents acting on a person's behalf."
+      },
+      {
+        "term": "API",
+        "meaning": "A way for software to talk to other software."
+      },
+      {
+        "term": "Share of wallet",
+        "meaning": "The share of a customer's total spending in a category that goes to you."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to measure the value it delivers to users."
+      }
+    ],
+    "assumptions": [
+      "Net revenue above $1 billion is our estimate from earlier reports and 30% growth.",
+      "The per-payment economics are estimates.",
+      "Merchant complaints are based on general reviews; Checkout.com has few public consumer reviews."
+    ]
+  }
+}

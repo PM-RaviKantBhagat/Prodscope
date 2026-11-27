@@ -1,0 +1,249 @@
+{
+  "company": "PayPal",
+  "domain": "paypal.com",
+  "website": "https://www.paypal.com",
+  "sources": [
+    "https://www.fxcintel.com/research/analysis/ct-paypal-q3-2026-earnings",
+    "https://newsroom.paypal-corp.com/2026-10-27-PayPal-Reports-Third-Quarter-2026-Results",
+    "https://www.marketbeat.com/instant-alerts/transcript-paypal-q3-earnings-call-highlights-2026-10-27/",
+    "https://www.rttnews.com/3703541/paypal-raises-2026-non-gaap-eps-guidance.aspx",
+    "https://fortune.com/company/paypal-holdings/earnings/q3-2026/"
+  ],
+  "report": {
+    "company": "PayPal",
+    "tagline": "A global online payments company that lets people pay at checkout, send money to friends through PayPal and Venmo, and lets businesses accept payments.",
+    "category": "Payments",
+    "simpleSummary": "PayPal lets you pay online without typing your card details on every website. You log in, click the yellow PayPal button and the payment goes through. It also owns Venmo, which Americans use to split bills with friends. Behind the scenes, its Braintree service processes card payments for big companies like Uber and Airbnb, even when you never see the PayPal name.",
+    "keyNumbers": [
+      { "label": "Revenue Q3 2026", "value": "$8.6 billion", "note": "PayPal Q3 2026 results via FXC Intelligence. Up only 2%." },
+      { "label": "Total payment volume Q3 2026", "value": "$487 billion", "note": "FXC Intelligence. Up 6%. US volume up 11%; international down 1%." },
+      { "label": "Active accounts", "value": "440 million", "note": "Q3 2026. Average revenue per account about $19.51 a year." },
+      { "label": "Branded checkout volume Q3 2026", "value": "$133.5 billion, growing about 1%", "note": "FXC Intelligence. Slow growth in this most profitable part is PayPal's core problem." },
+      { "label": "Operating income Q3 2026", "value": "$1.4 billion (GAAP), 16.3% margin", "note": "FXC Intelligence. Non-GAAP $1.6 billion." },
+      { "label": "CEO", "value": "Enrique Lores", "note": "Former HP CEO, joined in Q1 2026, replacing Alex Chriss. Targeting at least $700 million of cost savings by end-2026." }
+    ],
+    "overview": {
+      "whatItDoes": "PayPal runs three main businesses. Branded checkout is the PayPal button shoppers use on websites. Venmo and PayPal peer-to-peer let people send money to each other. Unbranded processing (Braintree and PayPal Complete Payments) handles card payments for merchants behind the scenes. It also offers PayPal Pay Later, a debit card, PYUSD stablecoin and Fastlane guest checkout.",
+      "howItWorks": [
+        "A shopper links a bank account or card to PayPal once.",
+        "At checkout, they click PayPal, log in and approve; no card details are shared with the shop.",
+        "The merchant pays PayPal a fee, often around 3.5% plus a fixed fee for branded checkout in the US.",
+        "With Venmo, friends send money for free from a balance or bank; instant transfers to a bank cost a fee.",
+        "Braintree processes cards for big merchants at a much lower margin than the PayPal button.",
+        "Pay Later lets shoppers split purchases into four payments, paid for by merchants."
+      ],
+      "valueProposition": "For shoppers: a fast, safe way to pay online with buyer protection. For merchants: more sales from shoppers who trust PayPal, and a full set of payment tools."
+    },
+    "personas": [
+      {
+        "name": "Online shopper",
+        "description": "Buys online from many sites and does not want to share card details.",
+        "goals": ["Safe checkout", "Buyer protection if items do not arrive", "Fast login"],
+        "frustrations": ["Login and password friction", "Apple Pay is faster on iPhone"]
+      },
+      {
+        "name": "Venmo user",
+        "description": "20 to 35, American, splits rent and dinners with friends.",
+        "goals": ["Pay friends instantly", "Social feed of payments"],
+        "frustrations": ["Instant transfer fees", "Scams"]
+      },
+      {
+        "name": "Small online seller",
+        "description": "Sells on eBay or its own store.",
+        "goals": ["Accept payments easily", "Get paid fast"],
+        "frustrations": ["High fees", "Funds held or accounts limited"]
+      },
+      {
+        "name": "Enterprise payments lead",
+        "description": "Runs payments at a large merchant using Braintree.",
+        "goals": ["Low cost per payment", "High approval rates"],
+        "frustrations": ["Stripe and Adyen offering better tools"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Typing card details on every site is slow and risky.", "howSolved": "One login pays anywhere PayPal is accepted.", "severity": "high" },
+      { "pain": "Fear of fraud when buying from unknown sites.", "howSolved": "Buyer protection that refunds you if items do not arrive.", "severity": "high" },
+      { "pain": "Splitting bills with friends is awkward.", "howSolved": "Venmo makes paying friends instant and social.", "severity": "medium" },
+      { "pain": "Merchants lose sales at checkout.", "howSolved": "Trusted button raises conversion.", "severity": "high" },
+      { "pain": "Guest checkout is slow.", "howSolved": "Fastlane remembers details for guests.", "severity": "medium" },
+      { "pain": "Big purchases feel hard to afford.", "howSolved": "Pay Later instalments.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "PayPal checkout button", "whatItDoes": "Pay online with a PayPal login.", "whyItMatters": "The most profitable product; growth here drives profit." },
+      { "feature": "Venmo", "whatItDoes": "Peer-to-peer payments and a debit card in the US.", "whyItMatters": "Huge young user base; PayPal is now trying to earn more from it." },
+      { "feature": "Braintree", "whatItDoes": "Card processing for large merchants.", "whyItMatters": "Big volume but low margin." },
+      { "feature": "Fastlane", "whatItDoes": "One-click guest checkout using saved details.", "whyItMatters": "Wins guest shoppers who do not log in." },
+      { "feature": "Pay Later", "whatItDoes": "Pay in 3 or 4 instalments.", "whyItMatters": "Competes with Klarna and raises basket size." },
+      { "feature": "Buyer and seller protection", "whatItDoes": "Refunds for undelivered items and seller cover.", "whyItMatters": "Builds trust, the main reason people choose PayPal." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Checkout with PayPal",
+        "persona": "Online shopper",
+        "steps": [
+          { "step": "Adds item", "detail": "Puts a £40 item in the basket." },
+          { "step": "Clicks PayPal", "detail": "Picks PayPal at checkout." },
+          { "step": "Logs in", "detail": "Uses saved login or passkey." },
+          { "step": "Chooses funding", "detail": "Picks a card, bank or Pay Later." },
+          { "step": "Pays", "detail": "Approves the payment." },
+          { "step": "Gets protection", "detail": "Can open a dispute if the item does not arrive." }
+        ]
+      },
+      {
+        "name": "Splitting rent on Venmo",
+        "persona": "Venmo user",
+        "steps": [
+          { "step": "Opens Venmo", "detail": "Finds roommate by name." },
+          { "step": "Sends money", "detail": "Sends $800 for rent." },
+          { "step": "Adds note", "detail": "Adds an emoji note." },
+          { "step": "Roommate receives", "detail": "Balance appears instantly." },
+          { "step": "Cashes out", "detail": "Roommate pays a fee for instant transfer or waits for free." }
+        ]
+      },
+      {
+        "name": "Seller gets paid",
+        "persona": "Small online seller",
+        "steps": [
+          { "step": "Adds PayPal", "detail": "Adds PayPal to the online store." },
+          { "step": "Sells", "detail": "Customer pays with PayPal." },
+          { "step": "Pays fee", "detail": "PayPal keeps a fee." },
+          { "step": "Ships", "detail": "Adds tracking for seller protection." },
+          { "step": "Withdraws", "detail": "Moves money to the bank." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "PayPal makes most of its money from fees merchants pay on each transaction. The branded PayPal button earns the most per dollar; Braintree processing earns much less. It also earns from currency conversion, Venmo instant transfers and cards, and interest on customer balances.",
+      "revenueStreams": [
+        { "stream": "Branded checkout fees", "detail": "Merchants pay about 3.5% plus a fixed fee in the US." },
+        { "stream": "Unbranded processing", "detail": "Braintree fees, lower margin." },
+        { "stream": "Consumer fees", "detail": "Instant transfers, currency conversion, cross-border fees." },
+        { "stream": "Credit and interest", "detail": "Pay Later, credit products and interest on balances." }
+      ],
+      "pricing": "US merchant fees around 3.49% + $0.49 for standard PayPal checkout. Sending to friends from a bank or balance is free in the US; card funding costs about 2.9%. Currency conversion includes a markup of about 3% to 4%. Check the fee pages for your country.",
+      "costDrivers": [
+        "Card network and bank fees (the biggest cost)",
+        "Fraud and credit losses",
+        "Staff and technology",
+        "Marketing",
+        "Compliance worldwide"
+      ],
+      "unitEconomics": "Take a $100 branded PayPal checkout paid by a card. The merchant pays about $3.98. PayPal pays maybe $1.50 to $2 to the card network and bank. It keeps about $2. If the shopper pays from a PayPal balance or bank, PayPal's cost is much lower and it keeps more. On a $100 Braintree payment, PayPal might keep only 20 to 40 cents. That is why branded checkout growing at only about 1% matters more than total volume growing 6%."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Being on millions of checkouts",
+        "Venmo's social network effect",
+        "eBay history and marketplace deals",
+        "Fastlane for guest shoppers"
+      ],
+      "whatBringsUsersBack": [
+        "Saved login on many sites",
+        "Buyer protection",
+        "Venmo for regular splits",
+        "PayPal and Venmo debit cards and rewards"
+      ],
+      "moat": "440 million accounts, trust built over 25 years, and acceptance on millions of sites. Venmo's network effect, where friends use it because friends use it, is hard to copy. But Apple Pay is eroding the checkout advantage on phones."
+    },
+    "competitors": [
+      { "name": "Apple Pay", "positioning": "Tap or Face ID checkout built into iPhones.", "howThisProductDiffers": "Apple Pay is faster on iPhone; PayPal works on any device and has buyer protection." },
+      { "name": "Stripe", "positioning": "Developer payments platform with Link one-click checkout.", "howThisProductDiffers": "Stripe wins on tools for merchants; PayPal has more consumer accounts." },
+      { "name": "Shop Pay", "positioning": "Shopify's fast checkout.", "howThisProductDiffers": "Shop Pay is strong on Shopify stores; PayPal is everywhere." },
+      { "name": "Klarna", "positioning": "BNPL and shopping app.", "howThisProductDiffers": "PayPal Pay Later is cheaper for merchants but less of a shopping destination." },
+      { "name": "Zelle and Cash App", "positioning": "US peer-to-peer apps.", "howThisProductDiffers": "Venmo is more social; Zelle is bank-linked." }
+    ],
+    "northStar": {
+      "metric": "Monthly active accounts that complete at least one branded checkout",
+      "why": "It shows shoppers choosing PayPal where it is most valuable and most profitable."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active accounts",
+        "description": "Accounts used in the last year.",
+        "children": [
+          { "metric": "New accounts", "description": "Sign-ups." },
+          { "metric": "Dormant accounts reactivated", "description": "Old users returning." }
+        ]
+      },
+      {
+        "metric": "Checkout frequency",
+        "description": "Branded checkouts per active account.",
+        "children": [
+          { "metric": "Button presence on merchant sites", "description": "Where PayPal is shown first." },
+          { "metric": "Login success rate", "description": "Passkeys and saved logins." },
+          { "metric": "Fastlane conversion", "description": "Guests who complete checkout." }
+        ]
+      },
+      {
+        "metric": "Revenue per transaction",
+        "description": "Margin per dollar.",
+        "children": [
+          { "metric": "Share funded by balance or bank", "description": "Lower cost than cards." },
+          { "metric": "Pay Later share", "description": "Higher merchant fees." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud loss rate",
+      "Account limitation complaints",
+      "Transaction margin"
+    ],
+    "strengths": [
+      "440 million accounts and global acceptance",
+      "Trusted brand with buyer protection",
+      "Venmo's strong US network",
+      "Profitable with large cash flow"
+    ],
+    "weaknesses": [
+      "Branded checkout growing only about 1%",
+      "International revenue falling",
+      "Low-margin Braintree volume",
+      "Old, clunky checkout compared with Apple Pay"
+    ],
+    "risks": [
+      "Apple Pay and Shop Pay taking checkout share",
+      "Regulation of fees",
+      "Account-to-account payments",
+      "EU de minimis rule changes hurting cross-border trade"
+    ],
+    "userComplaints": [
+      "Accounts limited and funds held",
+      "High fees for sellers and currency conversion",
+      "Poor customer service",
+      "Scams on Venmo and PayPal"
+    ],
+    "improvementIdeas": [
+      { "idea": "Passkey login by default on all devices", "problem": "Login friction loses checkouts.", "expectedImpact": "Higher checkout conversion.", "metricToTrack": "Checkout conversion rate", "effort": "medium" },
+      { "idea": "Clear reasons and timelines for account limits", "problem": "Sellers are angry about held funds.", "expectedImpact": "Fewer complaints and churn.", "metricToTrack": "Seller churn", "effort": "medium" },
+      { "idea": "Rewards for paying from PayPal balance", "problem": "Card funding costs PayPal money.", "expectedImpact": "Higher margin per checkout.", "metricToTrack": "Share funded by balance or bank", "effort": "low" },
+      { "idea": "Venmo checkout at more merchants", "problem": "Venmo earns little.", "expectedImpact": "More revenue from Venmo users.", "metricToTrack": "Venmo checkout volume", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Total volume can grow while the profitable part shrinks. Always look at the mix.",
+      "A trusted brand is not enough if a rival is faster; checkout speed decides.",
+      "Owning the device (Apple) beats owning the website button.",
+      "Network effects, like Venmo's, are powerful but need a way to earn money."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you increase branded checkout growth?", "hint": "Break down by presence, selection, conversion. Ideas: passkeys, Fastlane, rewards. Measure conversion." },
+      { "question": "How would you monetise Venmo?", "hint": "Find ways that add value: debit card, checkout, business profiles. Avoid hurting P2P." },
+      { "question": "PayPal vs Apple Pay: how should PayPal respond?", "hint": "Compare strengths. Focus on cross-device, protection, rewards." },
+      { "question": "How would you reduce seller complaints about held funds?", "hint": "Clear status, reasons, timelines. Guardrail: fraud." },
+      { "question": "What is PayPal's north star metric?", "hint": "Active accounts using branded checkout. Explain why TPV alone misleads." }
+    ],
+    "glossary": [
+      { "term": "TPV", "meaning": "Total payment volume: all money moved through PayPal." },
+      { "term": "Branded checkout", "meaning": "When shoppers pay using the PayPal button." },
+      { "term": "Peer-to-peer", "meaning": "Sending money directly between people." },
+      { "term": "Transaction margin", "meaning": "Revenue minus direct transaction costs." },
+      { "term": "Network effect", "meaning": "When a product gets more useful as more people use it." },
+      { "term": "Conversion", "meaning": "The share of shoppers who complete a purchase." },
+      { "term": "Churn", "meaning": "The share of customers who stop using a product." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." }
+    ],
+    "assumptions": [
+      "Unit economics per checkout are estimates.",
+      "Fees vary by country and change often."
+    ]
+  }
+}

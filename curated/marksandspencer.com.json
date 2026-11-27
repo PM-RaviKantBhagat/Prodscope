@@ -1,0 +1,242 @@
+{
+  "company": "Marks & Spencer app",
+  "domain": "marksandspencer.com",
+  "website": "https://marksandspencer.com",
+  "sources": [
+    "https://www.beaveronline.co.uk/business/marks-and-spencer-half-year-profit-doubles-403m-sales-rebound-after-cyber-attack/9427/",
+    "https://cypro.co.uk/insights/cyber-bulletins/ms-cyber-attack-profit-rebounds-as-clothing-lags/",
+    "https://www.trusona.com/blog/ms-scatteredspider-attack",
+    "https://www.techzine.eu/news/security/130938/ms-hack-to-cost-retailer-over-300-million-pounds/",
+    "https://www.hl.co.uk/news/ms-profits-plunge-by-more-than-half-after-major-cyber-attack",
+    "https://www.databarracks.com/app/uploads/2026/05/Databarracks-Anatomy-of-a-Crisis-Deconstructing-the-Marks-and-Spencer-Cyber-Attack-1.pdf"
+  ],
+  "report": {
+    "company": "Marks & Spencer app",
+    "tagline": "The app and website of the UK's best-known clothing and food retailer, with Sparks loyalty rewards built in.",
+    "category": "Retail",
+    "simpleSummary": "Marks & Spencer, or M&S, is a famous British chain that sells clothes, home goods and premium food. Its app lets you buy clothes online, reserve items, scan your Sparks loyalty card and get personal offers. In April 2025 hackers broke into its systems and M&S had to stop online orders for about seven weeks. It is now a well-known case of how a business handles a crisis.",
+    "keyNumbers": [
+      { "label": "H1 profit before tax, 2026/27", "value": "£403 million", "note": "Half year to September 2026, per The Beaver and other reports. More than double the attack-hit prior year." },
+      { "label": "Cost of 2025 cyber attack", "value": "About £300 million", "note": "M&S estimate of lost operating profit, reported 2025; about £100 million recovered from insurance." },
+      { "label": "Online orders paused", "value": "About 46 days", "note": "From 25 April 2025 until online clothing orders restarted in June 2025." },
+      { "label": "Group revenue", "value": "About £14 billion a year", "note": "Approximate, from FY2024/25 results (£13.9 billion)." },
+      { "label": "Sparks members", "value": "About 18 to 19 million", "note": "Estimate from M&S statements; exact number varies by report." }
+    ],
+    "overview": {
+      "whatItDoes": "M&S sells clothing, beauty, home and premium food in about 1,000 UK stores and online. The app handles clothing and home orders, Sparks loyalty, and store tools like click and collect. Food delivery is done by Ocado, where M&S owns half of Ocado Retail.",
+      "howItWorks": [
+        "Shoppers browse and buy clothing, beauty and home items in the app; orders are delivered or collected in store.",
+        "Sparks is built into the app: shoppers scan it at the till and get personal offers, birthday treats and charity donations.",
+        "In-store, the app can check stock and scan to buy, and staff can order missing sizes for home delivery.",
+        "M&S Food online grocery is sold through Ocado.com, not the M&S app.",
+        "After the 2025 attack, M&S rebuilt systems with tighter identity checks and moved faster on a planned technology upgrade."
+      ],
+      "valueProposition": "Trusted quality clothing and food from a brand people know, with rewards for loyal shoppers and the choice to buy online or in store."
+    },
+    "personas": [
+      {
+        "name": "Loyal middle-aged shopper",
+        "description": "45 to 65, buys underwear, knitwear and food at M&S for years.",
+        "goals": ["Reliable quality", "Easy reorders of favourite items", "Sparks rewards"],
+        "frustrations": ["App feels clunky", "Data stolen in the 2025 attack", "Out-of-stock sizes"]
+      },
+      {
+        "name": "Busy working parent",
+        "description": "35 to 45, buys school uniform and kids' clothes online.",
+        "goals": ["Order fast", "Click and collect near work"],
+        "frustrations": ["Delivery delays", "Returns process"]
+      },
+      {
+        "name": "Younger style-led shopper",
+        "description": "25 to 35, rediscovered M&S clothing through social media hits.",
+        "goals": ["Trend pieces at good quality", "Find sold-out items"],
+        "frustrations": ["Popular items sell out", "Brand still seen as 'for older people'"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Finding quality basics that last.", "howSolved": "M&S's own-brand clothing known for durability and fit.", "severity": "high" },
+      { "pain": "Missing sizes in store.", "howSolved": "App and staff can order from online stock for delivery.", "severity": "medium" },
+      { "pain": "Loyalty schemes feel generic.", "howSolved": "Sparks personal offers based on what you buy.", "severity": "medium" },
+      { "pain": "Not wanting to wait for delivery.", "howSolved": "Click and collect from about 1,000 stores.", "severity": "medium" },
+      { "pain": "Trust after the data breach.", "howSolved": "Password resets, clear updates and stronger security after the attack.", "severity": "high" }
+    ],
+    "coreFeatures": [
+      { "feature": "Sparks in the app", "whatItDoes": "Digital loyalty card with personal offers and rewards.", "whyItMatters": "Gives M&S data on customers and brings them back to stores and the app." },
+      { "feature": "Click and collect", "whatItDoes": "Order online and pick up in a store.", "whyItMatters": "Cheaper than home delivery and brings people into stores." },
+      { "feature": "Scan and shop", "whatItDoes": "Scan products in store to see details and order other sizes.", "whyItMatters": "Joins store and online stock to save sales." },
+      { "feature": "Personal offers", "whatItDoes": "Tailored discounts based on shopping history.", "whyItMatters": "Targets spending without blanket price cuts." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying knitwear online",
+        "persona": "Loyal middle-aged shopper",
+        "steps": [
+          { "step": "Open app", "detail": "Logs in with Sparks account." },
+          { "step": "Browse", "detail": "Filters knitwear by size and colour." },
+          { "step": "Choose delivery", "detail": "Picks free click and collect at a local store." },
+          { "step": "Pay", "detail": "Pays with saved card." },
+          { "step": "Collect", "detail": "Collects in store and buys food while there." }
+        ]
+      },
+      {
+        "name": "During the 2025 outage",
+        "persona": "Busy working parent",
+        "steps": [
+          { "step": "Try to order", "detail": "Finds online ordering paused." },
+          { "step": "Get email", "detail": "Receives a notice that personal data was stolen and to watch for scams." },
+          { "step": "Shop in store", "detail": "Buys in a store instead; contactless payments still worked." },
+          { "step": "Return online", "detail": "Comes back when online clothing restarts in June." },
+          { "step": "Reset password", "detail": "Asked to reset the password on the next login." }
+        ]
+      },
+      {
+        "name": "Using Sparks rewards",
+        "persona": "Younger style-led shopper",
+        "steps": [
+          { "step": "Sign up", "detail": "Joins Sparks in the app for a welcome offer." },
+          { "step": "Scan at till", "detail": "Scans the app barcode at checkout." },
+          { "step": "Get offers", "detail": "Receives tailored offers on clothing and food." },
+          { "step": "Redeem", "detail": "Uses an offer on the next shop." },
+          { "step": "Donate", "detail": "Picks a charity that gets a small donation per shop." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "M&S makes money by selling its own-brand clothing, home goods and food at mid-to-premium prices. Online sales are mainly clothing and home. Sparks is not a revenue stream on its own but drives repeat visits and targeted offers.",
+      "revenueStreams": [
+        { "stream": "Food", "detail": "Premium food in stores and via Ocado, the largest share of sales." },
+        { "stream": "Clothing and home", "detail": "Own-brand clothing and home goods, in store and online." },
+        { "stream": "Ocado Retail share", "detail": "M&S owns 50% of Ocado Retail, which sells M&S food online." },
+        { "stream": "International and franchise", "detail": "Stores abroad and franchise partners." }
+      ],
+      "pricing": "Clothing is mid-priced, for example T-shirts around £10 to £15 and jumpers £25 to £60. Standard UK delivery around £4.99, with free click and collect on most orders. Sparks is free.",
+      "costDrivers": [
+        "Cost of goods",
+        "Staff in about 1,000 UK stores",
+        "Store rent and energy",
+        "Technology, including rebuilding systems after the attack",
+        "Delivery and distribution"
+      ],
+      "unitEconomics": "On a £60 online clothing order, M&S keeps about £33 in gross margin (clothing margins are around 55%). Picking, packing and delivery cost about £6 to £8, or less if collected in store. Marketing and payment add a few pounds. The 2025 attack showed how fragile this is: about £300 million of operating profit was lost when online orders stopped for 46 days."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Store traffic: about 1,000 UK stores send shoppers to the app",
+        "Social media hits like popular jeans and dresses",
+        "Sparks sign-ups at the till",
+        "Christmas and food marketing"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly food shops",
+        "Personal Sparks offers",
+        "Reliable basics like underwear and school uniform",
+        "Click and collect bringing people into stores"
+      ],
+      "moat": "M&S has a trusted British brand built over 140 years, stores near most people, and a premium food business that brings shoppers back weekly. That trust is hard to copy, but the cyber attack showed it can be damaged quickly."
+    },
+    "competitors": [
+      { "name": "Next", "positioning": "UK fashion and home with a strong online platform.", "howThisProductDiffers": "M&S has food and a wider older audience; Next is stronger online." },
+      { "name": "John Lewis", "positioning": "Premium department store with Waitrose.", "howThisProductDiffers": "M&S has more own-brand clothing and cheaper prices." },
+      { "name": "Primark", "positioning": "Very cheap fashion, mostly in stores.", "howThisProductDiffers": "M&S is higher quality and online." },
+      { "name": "Tesco and Sainsbury's", "positioning": "Big grocers with clothing lines.", "howThisProductDiffers": "M&S food is premium and its clothing is more trusted." }
+    ],
+    "northStar": {
+      "metric": "Monthly active Sparks members who shop with M&S in more than one category",
+      "why": "Members who buy both food and clothing are loyal and valuable. It shows that M&S gives them value across its range."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active Sparks members",
+        "description": "Members who shopped in the last month.",
+        "children": [
+          { "metric": "New Sparks sign-ups", "description": "From stores and the app." },
+          { "metric": "App login rate", "description": "Share of members using the app monthly." }
+        ]
+      },
+      {
+        "metric": "Cross-category shopping",
+        "description": "Members buying both food and clothing.",
+        "children": [
+          { "metric": "Offer redemption rate", "description": "Personal offers used." },
+          { "metric": "Click and collect plus food basket", "description": "Collections that include food." }
+        ]
+      },
+      {
+        "metric": "Online order reliability",
+        "description": "Orders delivered complete and on time.",
+        "children": [
+          { "metric": "Site and app uptime", "description": "Systems available to customers." },
+          { "metric": "On-time delivery rate", "description": "Orders arriving as promised." },
+          { "metric": "Time to restore after incidents", "description": "How fast systems come back after an outage." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Security incidents and account takeovers",
+      "Customer trust or satisfaction score",
+      "Clothing gross margin",
+      "Store stock availability"
+    ],
+    "strengths": [
+      "Trusted brand with deep customer loyalty",
+      "Premium food business that drives frequent visits",
+      "Store network for click and collect and returns",
+      "Profit rebounded strongly after the attack"
+    ],
+    "weaknesses": [
+      "Old technology systems exposed by the attack",
+      "Reliance on third-party IT suppliers",
+      "Clothing online recovered more slowly than food",
+      "App experience weaker than online-first rivals"
+    ],
+    "risks": [
+      "Further cyber attacks; retailers face a ransomware surge",
+      "Customer trust loss after data breaches",
+      "Weak UK consumer spending",
+      "Competition from cheaper online fashion"
+    ],
+    "userComplaints": [
+      "Online orders unavailable for weeks during the 2025 attack",
+      "Worry and scam emails after personal data was stolen",
+      "Gift cards and click and collect not working during the outage",
+      "App glitches and slow loading",
+      "Returns and refund delays"
+    ],
+    "improvementIdeas": [
+      { "idea": "An 'offline mode' fallback: let stores take online-style orders for home delivery even when the website is down.", "problem": "During the 2025 attack, online sales stopped completely.", "expectedImpact": "Keep some online revenue during future outages.", "metricToTrack": "Revenue lost per day of outage", "effort": "high" },
+      { "idea": "Passkeys and two-step login for all M&S accounts.", "problem": "Account security and trust after the data breach.", "expectedImpact": "Fewer account takeovers and more trust.", "metricToTrack": "Share of accounts with passkeys", "effort": "medium" },
+      { "idea": "In-app status page with clear updates during incidents.", "problem": "Customers were confused about what worked and what did not.", "expectedImpact": "Fewer support contacts and less frustration.", "metricToTrack": "Support contacts per day during incidents", "effort": "low" },
+      { "idea": "Sparks offers that reward buying clothing after a food shop.", "problem": "Clothing online recovered slower than food.", "expectedImpact": "More cross-category shopping.", "metricToTrack": "Share of members buying both", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Security is a product feature. One attack cost M&S about £300 million and weeks of online sales.",
+      "Plan for failure. A good product needs a backup plan for when systems go down.",
+      "Clear communication during a crisis protects trust as much as the fix itself.",
+      "Loyalty programmes like Sparks give data to personalise offers instead of cutting prices for everyone."
+    ],
+    "interviewQuestions": [
+      { "question": "You are PM at M&S on day one of the cyber attack. What do you do first?", "hint": "Prioritise customer safety and communication, then keep stores running, then restore online in stages. Define what success looks like each week." },
+      { "question": "How would you rebuild customer trust after the data breach?", "hint": "Transparency, security features, rewards for staying. Measure trust via surveys and login rates." },
+      { "question": "How would you increase app usage among older shoppers?", "hint": "Understand barriers: tech confidence, value. Ideas: simpler login, Sparks-first home screen. Measure monthly active users." },
+      { "question": "What metrics would you track for the M&S app?", "hint": "Active users, conversion, Sparks scans, order reliability. Guardrails: uptime and security incidents." },
+      { "question": "Should M&S sell food in its own app instead of through Ocado?", "hint": "Weigh control and data against cost and Ocado's delivery strength. Suggest a test in one city." }
+    ],
+    "glossary": [
+      { "term": "Ransomware", "meaning": "Malicious software that locks a company's systems until a payment is made." },
+      { "term": "Social engineering", "meaning": "Tricking people, such as help desk staff, into giving away access." },
+      { "term": "Click and collect", "meaning": "Buying online and picking the order up in a store." },
+      { "term": "Gross margin", "meaning": "What is left from a sale after paying for the goods themselves." },
+      { "term": "Uptime", "meaning": "The share of time a system is working and available." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "Passkeys", "meaning": "A login method that uses your phone or device instead of a password." }
+    ],
+    "assumptions": [
+      "Sparks member count is an estimate.",
+      "Clothing gross margin of about 55% is an approximation from past M&S reports.",
+      "Delivery price and item prices are typical, not fixed.",
+      "The attack is widely attributed to the Scattered Spider group using help desk impersonation, per security reports."
+    ]
+  }
+}

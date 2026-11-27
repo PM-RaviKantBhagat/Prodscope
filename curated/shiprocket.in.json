@@ -1,0 +1,268 @@
+{
+  "company": "Shiprocket",
+  "domain": "shiprocket.in",
+  "website": "https://shiprocket.in",
+  "sources": [
+    "https://inc42.com/features/beyond-the-shiprocket-ipo-takeoff/",
+    "https://inc42.com/buzz/shiprocket-turns-profitable-in-q2-revenue-jumps-35-yoy-to-₹674-cr/",
+    "https://inc42.com/buzz/shiprocket-makes-bumper-market-debut-lists-at-35-premium/",
+    "https://www.kotakneo.com/news/ipos/shiprocket-ipo-opens-12-august-2026-price-band-public-issue/",
+    "https://www.chittorgarh.com/ipo_review/shiprocket-ipo/5171/"
+  ],
+  "report": {
+    "company": "Shiprocket",
+    "tagline": "A platform that lets online sellers ship orders through many courier companies from one dashboard, and adds tools for checkout, marketing and cash flow.",
+    "category": "E-commerce enabler",
+    "simpleSummary": "If you run a small online store on Instagram or Shopify, you need a courier. Shiprocket connects you to 25+ courier companies like Delhivery and Blue Dart at bulk rates, so you get better prices than you could alone. You print a label, the courier picks up, and Shiprocket tracks it. It also sells tools for faster checkout, WhatsApp marketing and early cash-on-delivery payouts.",
+    "keyNumbers": [
+      { "label": "Revenue (FY26)", "value": "₹2,024 crore, up 24%", "note": "IPO filings via Inc42. Net loss about ₹79 crore." },
+      { "label": "Revenue (Q2 FY27)", "value": "₹674 crore, up 35%; first profit of ₹0.6 crore", "note": "Company results, November 2026." },
+      { "label": "Active merchants", "value": "2.36 lakh", "note": "Trailing 12 months to September 2026." },
+      { "label": "GMV handled", "value": "₹37,399 crore over 12 months", "note": "Value of goods shipped or processed, trailing 12 months to September 2026." },
+      { "label": "IPO", "value": "Listed August 2026 at ₹97 issue price, opened ₹131", "note": "Subscribed nearly 100 times. Market cap about ₹10,230 crore after listing." },
+      { "label": "Net revenue retention", "value": "107.8% in FY26", "note": "Existing merchants spent about 8% more than the year before." }
+    ],
+    "overview": {
+      "whatItDoes": "Shiprocket is a software and logistics platform for online sellers in India. Its core product is a courier aggregator: one account to ship with many courier companies. Around it, it sells warehousing and fast delivery (Shiprocket Fulfillment and Quick), cross-border shipping (ShiprocketX), one-click checkout (Fastrr), marketing (Engage 360) and cash flow products (Early COD).",
+      "howItWorks": [
+        "A seller signs up and connects their Shopify, WooCommerce, Amazon or Instagram store.",
+        "Orders flow into the Shiprocket dashboard.",
+        "Shiprocket suggests the best courier by price, speed and delivery success in that pincode.",
+        "Seller prints labels; the courier picks up.",
+        "Buyer gets tracking on WhatsApp and SMS.",
+        "For cash-on-delivery, Shiprocket collects the money from couriers and pays the seller, faster with Early COD for a fee."
+      ],
+      "valueProposition": "Small sellers get big-company shipping rates, reach across 24,000+ pincodes and one place to manage all couriers. Add-ons help them sell more and get paid faster."
+    },
+    "personas": [
+      {
+        "name": "Instagram home brand",
+        "description": "A two-person team selling handmade candles from Jaipur, 300 orders a month.",
+        "goals": ["Cheap shipping", "Few lost parcels", "Simple tool"],
+        "frustrations": ["Couriers won't give small sellers good rates", "COD returns", "Late payments"]
+      },
+      {
+        "name": "Growing D2C brand",
+        "description": "Skincare brand doing 10,000 orders a month on its own site.",
+        "goals": ["Faster delivery", "Lower RTO", "Better checkout conversion"],
+        "frustrations": ["Fake COD orders", "Many tools that don't talk", "Rising ad costs"]
+      },
+      {
+        "name": "Cross-border seller",
+        "description": "Sells Indian clothing to the US and UK.",
+        "goals": ["Affordable international shipping", "Customs help"],
+        "frustrations": ["High DHL rates", "Customs paperwork"]
+      },
+      {
+        "name": "Operations manager",
+        "description": "Runs warehouse and shipping for a mid-size brand.",
+        "goals": ["Same-day dispatch", "Inventory near customers"],
+        "frustrations": ["Own warehouse is costly", "Courier performance varies by city"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Small sellers pay high courier rates and have no bargaining power.", "howSolved": "Bulk rates across 25+ couriers.", "severity": "high" },
+      { "pain": "Cash-on-delivery orders get returned (RTO), costing two-way shipping.", "howSolved": "Risk scoring of COD orders and buyer verification via WhatsApp.", "severity": "high" },
+      { "pain": "Sellers wait a week or more for COD money.", "howSolved": "Early COD pays out faster for a fee.", "severity": "medium" },
+      { "pain": "Managing many couriers and tracking is messy.", "howSolved": "One dashboard and automatic courier choice.", "severity": "medium" },
+      { "pain": "Checkout drop-offs lose sales.", "howSolved": "Fastrr one-click checkout with saved addresses.", "severity": "medium" },
+      { "pain": "Running a warehouse is too costly for small brands.", "howSolved": "Shiprocket Fulfillment warehouses on a pay-per-use basis.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Courier aggregator", "whatItDoes": "Ship with many couriers from one account with smart courier selection.", "whyItMatters": "Core business, 73% of revenue, about 12.6% EBITDA margin." },
+      { "feature": "RTO protection", "whatItDoes": "Flags risky COD orders and confirms with buyers.", "whyItMatters": "Cuts the biggest hidden cost for Indian online sellers." },
+      { "feature": "Fastrr Checkout", "whatItDoes": "One-click checkout using saved buyer details across Shiprocket's network.", "whyItMatters": "Helps sellers convert more visitors and gives Shiprocket buyer data." },
+      { "feature": "Engage 360", "whatItDoes": "WhatsApp and SMS marketing for abandoned carts and updates.", "whyItMatters": "Martech revenue grew 102% in Q2 FY27." },
+      { "feature": "Fulfillment and Quick", "whatItDoes": "Warehousing and fast local delivery.", "whyItMatters": "Bigger revenue per seller; omnichannel revenue up 79%." },
+      { "feature": "ShiprocketX", "whatItDoes": "International shipping for Indian sellers.", "whyItMatters": "Higher-value shipments and a growth market." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First shipment",
+        "persona": "Instagram home brand",
+        "steps": [
+          { "step": "Sign up", "detail": "Creates account with KYC." },
+          { "step": "Add money", "detail": "Recharges wallet to pay for shipping." },
+          { "step": "Add order", "detail": "Enters order manually or imports from store." },
+          { "step": "Pick courier", "detail": "Sees rates and picks recommended courier." },
+          { "step": "Print label", "detail": "Downloads label and sticks on parcel." },
+          { "step": "Pickup", "detail": "Courier collects the parcel." },
+          { "step": "Delivered", "detail": "Buyer gets updates; seller sees delivery status." }
+        ]
+      },
+      {
+        "name": "Fixing high COD returns",
+        "persona": "Growing D2C brand",
+        "steps": [
+          { "step": "Notice problem", "detail": "RTO rate hits 25% on COD orders." },
+          { "step": "Turn on RTO tools", "detail": "Enables risk score and WhatsApp confirmation." },
+          { "step": "Risky orders flagged", "detail": "Asks buyers to prepay or confirm." },
+          { "step": "Fewer returns", "detail": "RTO falls, saving shipping both ways." },
+          { "step": "Add Fastrr", "detail": "Uses checkout to push prepaid payments." }
+        ]
+      },
+      {
+        "name": "Moving stock to Shiprocket warehouses",
+        "persona": "Operations manager",
+        "steps": [
+          { "step": "Choose warehouses", "detail": "Picks cities near buyers." },
+          { "step": "Send stock", "detail": "Ships inventory in bulk." },
+          { "step": "Orders routed", "detail": "Each order ships from the nearest warehouse." },
+          { "step": "Faster delivery", "detail": "Delivery time drops to 1 to 2 days." },
+          { "step": "Pay per use", "detail": "Pays for storage and picking." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Shiprocket buys courier capacity at bulk rates and resells it to sellers with a margin. It also charges for add-ons like checkout, marketing, warehousing, cross-border shipping and early COD payouts.",
+      "revenueStreams": [
+        { "stream": "Shipping margin", "detail": "Difference between what sellers pay and what couriers charge. Core business: ₹1,485 crore in FY26." },
+        { "stream": "Fulfillment and quick commerce", "detail": "Storage, picking and fast delivery fees." },
+        { "stream": "Checkout and martech", "detail": "Fees for Fastrr and Engage 360." },
+        { "stream": "Cross-border", "detail": "International shipping margin." },
+        { "stream": "Fintech", "detail": "Fees for Early COD and seller financing." }
+      ],
+      "pricing": "Pay-as-you-go shipping from about ₹20 to ₹30 per 500 grams within a city, higher across zones; plans with lower rates for higher volume. Add-ons priced separately.",
+      "costDrivers": [
+        "Payments to courier partners (the biggest cost)",
+        "Warehouse rent and staff",
+        "Tech and product teams",
+        "Sales and support for lakhs of small sellers",
+        "Losses from emerging businesses (₹169 crore adjusted EBITDA loss in FY26)"
+      ],
+      "unitEconomics": "Take one ₹800 order shipped within a state. The seller pays Shiprocket about ₹50 to ship it. Shiprocket pays the courier about ₹42 to ₹44. So it keeps about ₹6 to ₹8, roughly 12% to 15%. If the seller also uses checkout and Early COD, Shiprocket earns a few rupees more on the same order. The core shipping business is profitable; new products are still losing money while they grow. Per-order numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search for 'cheapest courier for ecommerce'",
+        "Shopify and WooCommerce app listings",
+        "Content and YouTube tutorials for new sellers",
+        "Sales team for larger brands",
+        "Emerging products bringing new merchants (17,300 in Q2 FY27)"
+      ],
+      "whatBringsUsersBack": [
+        "Every order needs shipping",
+        "Store integrations make orders flow in automatically",
+        "Wallet balance and COD money held on the platform",
+        "Using more products ties sellers in"
+      ],
+      "moat": "Shipping data from 23 crore+ transactions tells Shiprocket which courier performs best in each pincode, and its volume gets bulk rates small rivals can't match. Buyer data across Fastrr checkout gets better as more sellers join."
+    },
+    "competitors": [
+      { "name": "Delhivery", "positioning": "Large courier with its own network that also sells directly to sellers.", "howThisProductDiffers": "Shiprocket is neutral and offers many couriers; Delhivery owns its trucks and hubs." },
+      { "name": "NimbusPost, Shipway, ClickPost", "positioning": "Other aggregators and tracking tools.", "howThisProductDiffers": "Shiprocket is much bigger and has more add-ons." },
+      { "name": "Amazon Easy Ship and Flipkart logistics", "positioning": "Marketplace shipping for their own sellers.", "howThisProductDiffers": "Shiprocket serves sellers' own websites and multiple channels." },
+      { "name": "GoKwik", "positioning": "Checkout and RTO tools for D2C brands.", "howThisProductDiffers": "Shiprocket bundles checkout with shipping." }
+    ],
+    "northStar": {
+      "metric": "Orders delivered successfully on the first attempt for active sellers per month",
+      "why": "A delivered order means the seller gets paid and the buyer is happy. It captures courier choice, RTO control and speed in one number."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active sellers",
+        "description": "Sellers shipping each month.",
+        "children": [
+          { "metric": "New sellers activated", "description": "First shipment done." },
+          { "metric": "Seller churn", "description": "Sellers leaving." },
+          { "metric": "Power merchants", "description": "10,000+ sellers doing 100+ orders monthly." }
+        ]
+      },
+      {
+        "metric": "Orders per seller",
+        "description": "Volume per seller.",
+        "children": [
+          { "metric": "Share of seller's orders on Shiprocket", "description": "Versus other couriers." },
+          { "metric": "Net revenue retention", "description": "107.8% in FY26." }
+        ]
+      },
+      {
+        "metric": "Delivery success",
+        "description": "Orders delivered, not returned.",
+        "children": [
+          { "metric": "RTO rate", "description": "Returns cost sellers both ways." },
+          { "metric": "First-attempt delivery rate", "description": "Fewer failed attempts." },
+          { "metric": "Average delivery days", "description": "Speed wins buyers." }
+        ]
+      },
+      {
+        "metric": "Products per seller",
+        "description": "Cross-sell of emerging products.",
+        "children": [
+          { "metric": "Core sellers using an emerging product", "description": "9.3% now." },
+          { "metric": "Revenue per seller", "description": "Up 25% in Q2 FY27." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Lost or damaged parcel rate",
+      "COD remittance delay",
+      "Weight dispute complaints",
+      "Emerging business EBITDA loss"
+    ],
+    "strengths": [
+      "Market leader among shipping aggregators",
+      "Profitable core shipping business",
+      "Strong IPO and first quarterly profit",
+      "Data from crores of shipments",
+      "Growing add-on products"
+    ],
+    "weaknesses": [
+      "Thin consolidated margins (2.1% adjusted EBITDA in Q2 FY27)",
+      "Emerging businesses still losing money",
+      "Depends on couriers it does not control",
+      "Many small sellers churn"
+    ],
+    "risks": [
+      "Couriers like Delhivery selling direct at lower rates",
+      "Quick commerce changing how D2C brands sell",
+      "Amazon and Flipkart pulling sellers to their own logistics",
+      "Price wars among aggregators"
+    ],
+    "userComplaints": [
+      "Weight disputes: extra charges after shipping",
+      "Delayed COD payouts",
+      "Lost or damaged parcels with slow claims",
+      "Support is slow to respond",
+      "Courier pickups missed"
+    ],
+    "improvementIdeas": [
+      { "idea": "Photo-based weight check at pickup shared with seller", "problem": "Weight disputes and surprise charges", "expectedImpact": "Fewer disputes and more trust", "metricToTrack": "Weight disputes per 1,000 shipments", "effort": "medium" },
+      { "idea": "Lost parcel auto-refund within 7 days", "problem": "Slow claims", "expectedImpact": "Better seller retention", "metricToTrack": "Claim resolution time", "effort": "medium" },
+      { "idea": "Bundle checkout and RTO tools free for first 3 months", "problem": "Only 9.3% use emerging products", "expectedImpact": "More cross-sell", "metricToTrack": "Share of sellers using 2+ products", "effort": "low" },
+      { "idea": "Seller scorecard showing courier performance by pincode", "problem": "Sellers can't see why deliveries fail", "expectedImpact": "Lower RTO", "metricToTrack": "RTO rate", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Aggregating small buyers gives them big-buyer prices, which is a strong value proposition.",
+      "Start with a must-have product (shipping), then add tools on top.",
+      "Net revenue retention shows if existing customers are growing with you.",
+      "Thin-margin core businesses need high-margin add-ons."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you reduce RTO for Shiprocket sellers?", "hint": "Break RTO by cause (fake orders, wrong address, delay). Propose risk scoring, prepaid nudges, address checks. Track RTO rate." },
+      { "question": "How should Shiprocket compete with Delhivery selling direct?", "hint": "Neutrality, multi-courier choice, data and add-ons. Measure churn to Delhivery." },
+      { "question": "What is Shiprocket's north star metric?", "hint": "Successful first-attempt deliveries. Explain drivers." },
+      { "question": "How would you grow emerging product adoption?", "hint": "Target power merchants, bundle, show ROI, measure cross-sell rate." },
+      { "question": "How do you handle weight disputes?", "hint": "Root cause, measurement at pickup, transparency, quick resolution." }
+    ],
+    "glossary": [
+      { "term": "Aggregator", "meaning": "A platform that combines many providers in one place." },
+      { "term": "RTO", "meaning": "Return to origin: when a parcel can't be delivered and comes back to the seller." },
+      { "term": "COD", "meaning": "Cash on delivery: the buyer pays when the parcel arrives." },
+      { "term": "D2C", "meaning": "Direct to consumer: brands selling through their own website or social channels." },
+      { "term": "GMV", "meaning": "Gross merchandise value: total value of goods sold." },
+      { "term": "Net revenue retention", "meaning": "How much existing customers spend this year compared to last year." },
+      { "term": "EBITDA", "meaning": "Profit before interest, tax and accounting costs like depreciation." },
+      { "term": "Martech", "meaning": "Marketing technology, tools that help businesses market to customers." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Churn", "meaning": "The share of customers who stop using a product." },
+      { "term": "ROI", "meaning": "Return on investment: how much you gain for what you spend." },
+      { "term": "Value proposition", "meaning": "The main reason a customer should choose a product." }
+    ],
+    "assumptions": [
+      "Per-order shipping prices and margins are estimates.",
+      "Number of courier partners and pincodes are approximate public claims.",
+      "Complaints are summarised from seller forums and reviews."
+    ]
+  }
+}

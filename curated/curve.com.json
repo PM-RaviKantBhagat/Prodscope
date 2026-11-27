@@ -1,0 +1,252 @@
+{
+  "company": "Curve",
+  "domain": "curve.com",
+  "website": "https://www.curve.com",
+  "sources": [
+    "https://www.cityam.com/curve-swings-to-9m-loss-as-uncertainty-looms-ahead-of-lloyds-takeover",
+    "https://www.curve.com/blog/press/curve-is-joining-lloyds-banking-group/",
+    "https://www.finextra.com/newsarticle/46934/lloyds-bank-completes-controversial-acquisition-of-curve",
+    "https://www.bankingdive.com/news/lloyds-bank-uk-acquire-fintech-curve-digital-wallet-120-million-idc-investor-concern/806065/",
+    "https://tech.eu/2025/03/11/curve-halves-losses-as-it-puts-us-expansion-plans-on-hold/",
+    "https://www.finextra.com/newsarticle/34862/curves-customers-far-outnumber-active-users-leaked-numbers-suggest"
+  ],
+  "report": {
+    "company": "Curve",
+    "tagline": "A card and digital wallet that combines all your bank cards into one, so you can switch which card pays even after you have paid.",
+    "category": "Money app",
+    "simpleSummary": "Curve is one card that sits on top of all your other cards. You add your Barclays debit card, your Amex and your Monzo card to the Curve app, then pay with the Curve card or phone. Curve passes the payment to whichever card you choose. If you paid with the wrong card, you can move the payment to another card afterwards. Lloyds Banking Group bought Curve to use its wallet technology.",
+    "keyNumbers": [
+      { "label": "Revenue 2024", "value": "£37 million", "note": "Curve accounts for 2024, reported by City AM in 2026. Down £2 million from 2023." },
+      { "label": "Loss 2024", "value": "£9.5 million", "note": "City AM. After a £3 million profit the year before." },
+      { "label": "Sale price to Lloyds", "value": "About £120 million", "note": "Sky News report cited by City AM and Banking Dive. Not officially confirmed. Deal agreed November 2025 and completed in 2026 (Finextra)." },
+      { "label": "Last private valuation", "value": "About £133 million (2023)", "note": "City AM. Earlier hype put it much higher, and some investors lost money on the sale." },
+      { "label": "Staff", "value": "196", "note": "Group headcount at end of 2024, down from 208, City AM." },
+      { "label": "Lloyds customers it could reach", "value": "About 28 million", "note": "Lloyds and Curve announcement, 2025." }
+    ],
+    "overview": {
+      "whatItDoes": "Curve is a Mastercard debit card and app that routes each payment to one of your existing cards. It adds features your bank cards may not have, like moving a past payment to a different card, lower fees abroad and cashback. It also offers Curve Pay, a tap-to-pay wallet on phones. In 2026 it became part of Lloyds Banking Group.",
+      "howItWorks": [
+        "You add your existing debit and credit cards to the Curve app.",
+        "You pay with the Curve card, or Curve Pay on your phone, and choose which card is active.",
+        "Curve charges your chosen card for the same amount in the background.",
+        "'Go Back in Time' lets you move a past payment to another card within a set number of days.",
+        "Smart Rules can pick a card automatically, for example your credit card for anything over £100.",
+        "Paid plans add more free foreign exchange, cashback and extra features."
+      ],
+      "valueProposition": "Carry one card instead of many, always pay with the best card for each purchase, and fix mistakes after you have paid."
+    },
+    "personas": [
+      {
+        "name": "Card juggler",
+        "description": "30 to 45, has several debit and credit cards to collect points and manage bills.",
+        "goals": ["Carry one card", "Pick the best card for each payment", "Avoid using the wrong card"],
+        "frustrations": ["Fat wallet", "Missing card rewards by using the wrong card"]
+      },
+      {
+        "name": "Traveller",
+        "description": "Travels a few times a year and wants to avoid foreign transaction fees on their bank card.",
+        "goals": ["Low fees abroad", "Use existing cards abroad without fees"],
+        "frustrations": ["Bank fees of about 3% abroad", "Curve's free FX limit on the free plan"]
+      },
+      {
+        "name": "Amex holder",
+        "description": "Has an American Express card but many shops in the UK and Europe do not accept it.",
+        "goals": ["Use Amex where only Mastercard is accepted", "Earn Amex points everywhere"],
+        "frustrations": ["Amex has limited the use of its cards through Curve at times"]
+      },
+      {
+        "name": "Bank product leader",
+        "description": "Works at Lloyds and wants a strong digital wallet for its customers.",
+        "goals": ["A wallet that competes with Apple Pay", "Keep customers inside Lloyds apps"],
+        "frustrations": ["Apple and Google own the wallet experience on phones"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Carrying many cards is annoying and risky.", "howSolved": "One Curve card or phone wallet for all your cards.", "severity": "medium" },
+      { "pain": "Paying with the wrong card and missing rewards or going overdrawn.", "howSolved": "Go Back in Time moves the payment to another card afterwards.", "severity": "high" },
+      { "pain": "Bank cards charge fees abroad.", "howSolved": "Curve converts at near the wholesale rate within plan limits.", "severity": "medium" },
+      { "pain": "Some shops do not take Amex.", "howSolved": "Curve is a Mastercard, so it works where Amex does not, while charging the Amex in the background.", "severity": "medium" },
+      { "pain": "Hard to see spending across many cards.", "howSolved": "All payments appear in one app.", "severity": "low" },
+      { "pain": "Android users wanted a wallet that is not Google's.", "howSolved": "Curve Pay on Android, and later on iPhone in the EU after Apple opened tap-to-pay.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "One card for all cards", "whatItDoes": "Routes each payment to your chosen card.", "whyItMatters": "The core idea; it reduces wallet clutter and gives Curve every payment." },
+      { "feature": "Go Back in Time", "whatItDoes": "Moves a past payment to another card.", "whyItMatters": "The most loved feature and a clear reason to use Curve over a bank card." },
+      { "feature": "Smart Rules", "whatItDoes": "Picks the card automatically by amount, shop or time.", "whyItMatters": "Saves effort and makes Curve the default way to pay." },
+      { "feature": "Curve Pay", "whatItDoes": "Tap-to-pay wallet on phones that works with all your cards.", "whyItMatters": "Lets Curve compete with Apple Pay and Google Pay; key reason Lloyds bought it." },
+      { "feature": "Fee-free foreign exchange", "whatItDoes": "Low-cost currency conversion within a monthly limit.", "whyItMatters": "Brings in travellers and drives upgrades to paid plans." },
+      { "feature": "Paid plans", "whatItDoes": "Monthly plans with more FX, cashback and insurance.", "whyItMatters": "Subscription revenue that does not depend on card fees." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Setting up Curve",
+        "persona": "Card juggler",
+        "steps": [
+          { "step": "Downloads app", "detail": "Hears about Curve from a points blog and signs up." },
+          { "step": "Adds cards", "detail": "Enters details of three or four existing cards." },
+          { "step": "Gets card", "detail": "Orders the Curve card and adds it to the phone wallet." },
+          { "step": "Sets a rule", "detail": "Uses Smart Rules to send big payments to a credit card." },
+          { "step": "Pays", "detail": "Taps Curve at a shop; payment goes to the chosen card." },
+          { "step": "Fixes a mistake", "detail": "Moves a payment to another card using Go Back in Time." }
+        ]
+      },
+      {
+        "name": "Spending abroad",
+        "persona": "Traveller",
+        "steps": [
+          { "step": "Checks plan limit", "detail": "Sees how much fee-free FX the plan allows each month." },
+          { "step": "Pays abroad", "detail": "Uses Curve in euros; it charges a UK debit card in pounds." },
+          { "step": "Avoids bank fee", "detail": "The bank sees a UK payment, so no foreign fee." },
+          { "step": "Hits limit", "detail": "Pays a small fee above the free limit." },
+          { "step": "Upgrades", "detail": "Considers a paid plan for the next trip." }
+        ]
+      },
+      {
+        "name": "Using Curve inside Lloyds",
+        "persona": "Bank product leader",
+        "steps": [
+          { "step": "Deal closes", "detail": "Lloyds completes the purchase of Curve in 2026." },
+          { "step": "Plans integration", "detail": "Decides which Curve features to add to Lloyds, Halifax and Bank of Scotland apps." },
+          { "step": "Builds wallet", "detail": "Uses Curve technology to give Lloyds customers a wallet on Android and, where allowed, iPhone." },
+          { "step": "Launches", "detail": "Offers card switching and rewards to millions of Lloyds customers." },
+          { "step": "Measures use", "detail": "Tracks how many payments go through the Lloyds wallet instead of Apple Pay." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Curve made money from a small fee on each card payment, from foreign exchange fees above free limits, and from paid plan subscriptions. The problem: it often pays more to charge your underlying card than it earns on the Curve card, so the model is thin.",
+      "revenueStreams": [
+        { "stream": "Interchange", "detail": "A small fee the shop's bank pays each time the Curve card is used." },
+        { "stream": "Subscriptions", "detail": "Monthly fees for paid plans with more benefits." },
+        { "stream": "FX fees", "detail": "Fees on foreign spending above free limits and on weekends." },
+        { "stream": "Partnership value", "detail": "Now mainly a technology asset inside Lloyds rather than a standalone business." }
+      ],
+      "pricing": "Free plan with limited fee-free FX and features. Paid plans have ranged from a few pounds a month up to about £15 for the top tier with insurance and higher limits. Check the app for current plans.",
+      "costDrivers": [
+        "Fees Curve pays when it charges your underlying card (especially credit cards and Amex)",
+        "Card issuing and processing costs",
+        "Fraud losses",
+        "Staff and technology",
+        "Marketing"
+      ],
+      "unitEconomics": "Take a £50 shop payment on Curve. Curve earns about 10p to 20p in interchange from the shop's side. Then it charges your credit card for £50, and that may cost Curve around 10p to 40p, because the card in the middle pays too. So Curve can make nothing or lose money on each payment. Subscriptions help, but most users stay on the free plan. That thin margin is why Curve struggled to grow profitably and ended up being sold to a bank."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Points and travel blogs that recommend Curve",
+        "Referral bonuses",
+        "Press about the 'one card' idea",
+        "Now, potentially, Lloyds' 28 million customers"
+      ],
+      "whatBringsUsersBack": [
+        "Using it for every payment once it is the default card",
+        "Go Back in Time to fix mistakes",
+        "Cashback and points stacking"
+      ],
+      "moat": "Weak as a standalone. Card networks and Amex can limit how cards are used through Curve, and Apple and Google own the phone wallet. The technology and the Curve Pay wallet were valuable enough for Lloyds to buy, but the business model alone did not create a strong moat."
+    },
+    "competitors": [
+      { "name": "Apple Pay and Google Wallet", "positioning": "Phone wallets built into the operating system that hold all your cards.", "howThisProductDiffers": "Curve lets you move a payment after the fact and set rules; Apple and Google are default and free." },
+      { "name": "Revolut", "positioning": "All-in-one money app with low FX fees.", "howThisProductDiffers": "Revolut holds your money; Curve sits on top of other cards." },
+      { "name": "Wise", "positioning": "Multi-currency account and card.", "howThisProductDiffers": "Wise is better for holding currencies; Curve is better for using existing cards." },
+      { "name": "Bank apps", "positioning": "Banks adding their own wallet and rewards features.", "howThisProductDiffers": "Curve works across banks; now it is part of one bank." }
+    ],
+    "northStar": {
+      "metric": "Monthly payments made through Curve per active user",
+      "why": "If Curve is truly the 'one card', users pay with it often. Frequency shows that the product replaced their other cards."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "Users who make at least one payment a month.",
+        "children": [
+          { "metric": "Cards added per new user", "description": "More cards added means more reasons to use Curve." },
+          { "metric": "Wallet setup rate", "description": "Users who add Curve to their phone pay more often." },
+          { "metric": "Lloyds customers activated", "description": "Lloyds users who switch on the Curve-powered wallet." }
+        ]
+      },
+      {
+        "metric": "Payments per user",
+        "description": "How often each user pays with Curve.",
+        "children": [
+          { "metric": "Smart Rules set up", "description": "Rules make Curve the default." },
+          { "metric": "Go Back in Time use", "description": "Shows users value the flexibility." },
+          { "metric": "Payment decline rate", "description": "Declines push users back to other cards." }
+        ]
+      },
+      {
+        "metric": "Revenue per payment",
+        "description": "How much Curve keeps on each payment.",
+        "children": [
+          { "metric": "Share of payments charged to debit cards", "description": "Debit cards cost Curve less than credit cards." },
+          { "metric": "Paid plan conversion", "description": "Subscriptions add revenue per user." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud losses",
+      "Payment decline rate",
+      "Net loss per active user",
+      "Complaints about blocked cards"
+    ],
+    "strengths": [
+      "Unique features like Go Back in Time that banks did not have",
+      "Wallet technology valuable to a big bank",
+      "Strong fan base among card and points enthusiasts",
+      "Early mover in alternative tap-to-pay wallets"
+    ],
+    "weaknesses": [
+      "Very thin margin on each payment",
+      "Revenue fell in 2024 and it swung back to a loss",
+      "Card networks and Amex can block or limit use",
+      "Never reached the scale needed to be profitable on its own",
+      "Auditors flagged doubt about its future before the sale"
+    ],
+    "risks": [
+      "Inside Lloyds, the brand and app may be phased out",
+      "Apple and Google keep control of phone wallets",
+      "Changes in interchange rules or card scheme fees",
+      "Investor disputes over the low sale price"
+    ],
+    "userComplaints": [
+      "Amex and some cards stopped working or had limits through Curve",
+      "Fees and limits on the free plan cut over time",
+      "Payments declined at the till",
+      "Slow support and uncertainty after the Lloyds deal"
+    ],
+    "improvementIdeas": [
+      { "idea": "Add Curve's Go Back in Time to Lloyds, Halifax and Bank of Scotland apps", "problem": "Lloyds needs a reason for customers to use its wallet over Apple Pay.", "expectedImpact": "More payments in Lloyds' own wallet.", "metricToTrack": "Share of Lloyds card payments in its own wallet", "effort": "medium" },
+      { "idea": "Default routing to debit cards with a nudge for rewards on credit", "problem": "Credit card routing costs Curve money.", "expectedImpact": "Higher revenue per payment.", "metricToTrack": "Revenue per payment", "effort": "low" },
+      { "idea": "Clear status page for each card type's support", "problem": "Users are surprised when Amex or other cards stop working.", "expectedImpact": "Fewer complaints and declines.", "metricToTrack": "Decline rate by card type", "effort": "low" },
+      { "idea": "Curve Pay on iPhone for UK users once rules allow", "problem": "iPhone users could not use Curve Pay in the UK.", "expectedImpact": "Larger wallet user base.", "metricToTrack": "Curve Pay monthly active users", "effort": "high" }
+    ],
+    "pmLessons": [
+      "A great feature is not a business. Curve's product was loved but its revenue per payment was too thin.",
+      "Building on top of other companies' rails (card networks, Amex, Apple) means they can change the rules on you.",
+      "Sometimes the best outcome for a product is to become part of a bigger platform.",
+      "Check unit economics early: if each transaction loses money, more growth makes it worse."
+    ],
+    "interviewQuestions": [
+      { "question": "Why did Curve struggle to become profitable?", "hint": "Walk through one payment: interchange earned vs cost to charge the underlying card. Add low paid conversion and platform dependence." },
+      { "question": "You are a PM at Lloyds after buying Curve. What do you build first?", "hint": "Pick the users (Lloyds customers on Android), the feature (wallet with Go Back in Time), and the metric (wallet payments). Explain trade-offs." },
+      { "question": "How would you increase Curve's paid plan conversion?", "hint": "Find which features users would pay for, like FX and insurance. Test pricing and trials. Measure conversion and churn." },
+      { "question": "Apple opened NFC access in the EU. What does that mean for Curve?", "hint": "It lets Curve Pay work on iPhone in the EU. Discuss reach, cost of building, and Apple's fees." },
+      { "question": "What north star metric would you pick for Curve?", "hint": "Payments per active user shows replacement of other cards. Compare with sign-ups or revenue." }
+    ],
+    "glossary": [
+      { "term": "Interchange", "meaning": "A small fee the shop's bank pays the card issuer each time a card is used." },
+      { "term": "FX", "meaning": "Foreign exchange: converting one currency into another." },
+      { "term": "NFC", "meaning": "Near-field communication: the chip in a phone that lets you tap to pay." },
+      { "term": "Unit economics", "meaning": "How much money a business makes or loses on one customer or one transaction." },
+      { "term": "Going concern", "meaning": "An auditor's check on whether a company can keep operating for the next year." },
+      { "term": "Churn", "meaning": "The share of customers who stop using or paying for a product." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." }
+    ],
+    "assumptions": [
+      "The per-payment economics are estimates based on typical UK interchange and card costs.",
+      "Plan prices are approximate and may have changed after the Lloyds deal.",
+      "Customer numbers are not reported here; Curve has claimed millions of sign-ups, but active users were reported to be far fewer.",
+      "The auditor's going concern warning is mentioned in news reports; the article said the auditor flagged a 'material uncertainty'."
+    ]
+  }
+}

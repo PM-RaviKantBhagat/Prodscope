@@ -1,0 +1,248 @@
+{
+  "company": "Zilch",
+  "domain": "zilch.com",
+  "website": "https://www.zilch.com",
+  "sources": [
+    "https://tech.eu/2026/11/05/zilch-sees-revenues-uplift-but-losses-increase/",
+    "https://dealroom.co/news/169948-zilch-reports-147-5m-fy26-revenue-and-a-300m-annualised-run-rate/",
+    "https://tech.eu/2025/08/13/zilch-revenues-double-as-tops-five-million-customer-mark/",
+    "https://www.businesswire.com/news/home/20260107714872/en/Zilch-to-Acquire-Fjord-Bank-to-Kickstart-European-Expansion",
+    "https://paymentexpert.com/2026/09/30/zilch-eyeing-ipo-2027-london-stock-ex/",
+    "https://en.wikipedia.org/wiki/Zilch_(company)"
+  ],
+  "report": {
+    "company": "Zilch",
+    "tagline": "A UK buy now, pay later card and app that works almost anywhere Mastercard is accepted, kept cheap for shoppers by brand deals and advertising.",
+    "category": "buy now, pay later",
+    "simpleSummary": "Zilch is a card and app that lets you split a purchase into smaller payments. Most buy now, pay later services only work at certain shops, but the Zilch card works almost anywhere that takes Mastercard, online or in store. You can pay in full and get cashback, or split into four payments over six weeks with no interest. Zilch keeps costs low for shoppers by earning money from brands that pay to reach its users, a bit like how Google is free because advertisers pay.",
+    "keyNumbers": [
+      { "label": "Revenue FY26", "value": "£147.5 million", "note": "Year to March 2026, Tech.eu, November 2026. Up 36%." },
+      { "label": "Loss FY26", "value": "About £36 million", "note": "Tech.eu gives £35.8 to £35.9 million, up from £12.5 million, due to marketing and higher credit loss provisions on longer loans. Zilch reports two quarters in a row of adjusted profit before tax." },
+      { "label": "Spending through Zilch FY26", "value": "£2.4 billion", "note": "Gross merchandise value, Tech.eu, up 28%." },
+      { "label": "Active users", "value": "970,000", "note": "Tech.eu, up 21%. Zilch says over 5 million people have signed up (2025), so most registered users are not active." },
+      { "label": "Spend per active user", "value": "About £2,500 a year", "note": "Tech.eu, up 6%." },
+      { "label": "Valuation and IPO", "value": "$2 billion (2021); London IPO targeted for 2027", "note": "Tech.eu and Payment Expert, 2026. Backed by Goldman Sachs and eBay." }
+    ],
+    "overview": {
+      "whatItDoes": "Zilch gives shoppers a card and app to pay in full with cashback or split payments, plus longer loans for bigger buys. It is authorised by the FCA as a consumer credit firm. It earns from brand commissions and ads, card fees, small fees on some splits and interest on longer loans. In January 2026 it agreed to buy Fjord Bank in Poland to expand into Europe.",
+      "howItWorks": [
+        "You download the app, pass identity and credit checks and get a spending limit.",
+        "You add the Zilch card to Apple Pay or Google Pay, or get a physical card.",
+        "At checkout, you choose to pay in full with cashback, or split into four payments: 25% today and the rest over six weeks.",
+        "At partner brands, Zilch earns a commission from the brand and passes some back to you as extra rewards.",
+        "Brands pay to show deals in the app, reaching shoppers at the moment they are ready to buy.",
+        "Longer loans let you spread bigger buys over months, with interest."
+      ],
+      "valueProposition": "Flexible payments and cashback almost anywhere, with no interest on pay in 4, paid for mainly by brands rather than shoppers."
+    },
+    "personas": [
+      {
+        "name": "Budget-conscious young shopper",
+        "description": "20 to 30, lives in the UK, spends on clothes, food and travel and wants to spread costs across payday.",
+        "goals": ["Split purchases without interest", "Use it at any shop, not just partners", "Earn cashback"],
+        "frustrations": ["Spending limit too low", "Small fees when splitting at non-partner shops"]
+      },
+      {
+        "name": "Deal hunter",
+        "description": "Uses cashback apps and voucher codes to save money.",
+        "goals": ["Cashback on everyday spending", "Exclusive brand deals in one place"],
+        "frustrations": ["Cashback slow to appear", "Deals change often"]
+      },
+      {
+        "name": "Brand marketer",
+        "description": "Works at a UK retailer and wants to reach young shoppers.",
+        "goals": ["Reach shoppers when they are ready to buy", "Pay mainly for actual sales"],
+        "frustrations": ["Rising costs of Meta and Google ads", "Hard to prove ads led to sales"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Most BNPL services only work at partner shops.", "howSolved": "The Zilch card works almost anywhere that takes Mastercard.", "severity": "high" },
+      { "pain": "Credit cards charge high interest if you do not clear the balance.", "howSolved": "Pay in 4 over six weeks with no interest.", "severity": "high" },
+      { "pain": "Some BNPL providers make money from late fees.", "howSolved": "Zilch earns mostly from brands and card fees, and caps late fees.", "severity": "medium" },
+      { "pain": "Cashback apps are scattered across many apps.", "howSolved": "Cashback built into the card for every purchase.", "severity": "medium" },
+      { "pain": "Brands find it costly to reach shoppers online.", "howSolved": "Deals shown in the Zilch app at the moment of buying, with sales tracked.", "severity": "medium" },
+      { "pain": "Big purchases are hard to fit in one month.", "howSolved": "Longer loans for larger amounts.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Zilch card", "whatItDoes": "A Mastercard usable online and in store, in full or split.", "whyItMatters": "'Use anywhere' is Zilch's main difference from Klarna and Clearpay." },
+      { "feature": "Pay in 4", "whatItDoes": "Split a purchase into four payments over six weeks, interest-free.", "whyItMatters": "The core credit product that brings users in." },
+      { "feature": "Pay in full with cashback", "whatItDoes": "Get money back on purchases, more at partner brands.", "whyItMatters": "Turns Zilch into a daily card, not only for big buys." },
+      { "feature": "Deals and ads", "whatItDoes": "Brand offers shown in the app.", "whyItMatters": "The ad-subsidised model that keeps costs low for shoppers." },
+      { "feature": "Longer loans", "whatItDoes": "Spread bigger purchases over several months with interest.", "whyItMatters": "Adds revenue per user but raised credit losses in FY26." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First split payment",
+        "persona": "Budget-conscious young shopper",
+        "steps": [
+          { "step": "Sees an ad", "detail": "Watches a TikTok about paying in 4 anywhere and installs Zilch." },
+          { "step": "Signs up", "detail": "Passes identity and credit checks in minutes." },
+          { "step": "Gets a limit", "detail": "Receives a starting spending limit." },
+          { "step": "Adds card", "detail": "Adds the virtual card to Apple Pay." },
+          { "step": "Splits a purchase", "detail": "Splits an £80 jacket into four £20 payments, paying £20 today." },
+          { "step": "Repays", "detail": "Pays the other £60 over six weeks by automatic card payments." },
+          { "step": "Limit grows", "detail": "Gets a higher limit after repaying on time." }
+        ]
+      },
+      {
+        "name": "Earning cashback on everyday spend",
+        "persona": "Deal hunter",
+        "steps": [
+          { "step": "Browses deals", "detail": "Looks at brand offers in the app." },
+          { "step": "Buys at a partner", "detail": "Pays in full with Zilch at a partner brand." },
+          { "step": "Gets cashback", "detail": "Cashback appears in the app as rewards." },
+          { "step": "Uses rewards", "detail": "Uses the rewards on the next purchase." },
+          { "step": "Checks before shopping", "detail": "Opens Zilch first to look for deals." }
+        ]
+      },
+      {
+        "name": "Brand runs a campaign",
+        "persona": "Brand marketer",
+        "steps": [
+          { "step": "Signs a deal", "detail": "Agrees an ad or commission deal with Zilch." },
+          { "step": "Creates offer", "detail": "Sets a cashback offer for Zilch users." },
+          { "step": "Reaches users", "detail": "The offer appears in the app and in emails." },
+          { "step": "Tracks sales", "detail": "Measures sales from Zilch users through card data." },
+          { "step": "Renews", "detail": "Adds budget if sales are strong." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Zilch makes money from brands (commissions and ads), interchange on card spending, small fees on some split payments, and interest on longer loans. The idea is that brands pay so shoppers do not have to.",
+      "revenueStreams": [
+        { "stream": "Brand commissions and ads", "detail": "Brands pay Zilch for sales it sends them and for showing offers in the app." },
+        { "stream": "Interchange", "detail": "A small fee the shop's bank pays each time the Zilch card is used." },
+        { "stream": "Split fees", "detail": "A small fee on some split payments at non-partner shops." },
+        { "stream": "Loan interest", "detail": "Interest on longer loans for bigger purchases." }
+      ],
+      "pricing": "Free to download and use. Pay in 4 is interest-free. A small fee may apply when splitting at non-partner shops. Longer loans charge interest. Fees change, so check the app for current terms.",
+      "costDrivers": [
+        "Credit losses on unpaid splits and loans, which rose with longer loans in FY26",
+        "Marketing and brand building to win users",
+        "Funding costs for the money it lends",
+        "Card processing and network fees",
+        "Staff and technology"
+      ],
+      "unitEconomics": "An active user spends about £2,500 a year with Zilch. Revenue of £147.5 million on £2.4 billion of spending is about 6%, so roughly £150 a year per active user. Credit losses, funding and card costs take a large part of that. The FY26 loss of about £36 million spread across 970,000 active users means Zilch lost about £37 per active user in the year after marketing. Growing brand revenue per user, which costs almost nothing to serve, is how Zilch plans to make a profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TikTok and Instagram ads and influencers",
+        "Brand partnerships that promote Zilch",
+        "Referral rewards",
+        "Expansion into Europe through Fjord Bank"
+      ],
+      "whatBringsUsersBack": [
+        "Cashback on daily spending",
+        "Fresh brand deals in the app",
+        "Higher limits as you repay on time",
+        "Card saved in the phone wallet"
+      ],
+      "moat": "Weak to moderate. The ad-subsidised model and the 'use anywhere' card are different, but bigger players like Klarna have copied a card product. Zilch's main assets are its spending data on young UK shoppers, which brands pay to reach, and its brand relationships."
+    },
+    "competitors": [
+      { "name": "Klarna", "positioning": "Global BNPL leader with 122 million users and a card.", "howThisProductDiffers": "Zilch is far smaller but leans harder on the 'use anywhere' card and brand-funded rewards." },
+      { "name": "Clearpay (Afterpay)", "positioning": "BNPL at partner shops, owned by Block.", "howThisProductDiffers": "Zilch works at far more shops through its card." },
+      { "name": "PayPal Pay in 3", "positioning": "BNPL built into PayPal checkout.", "howThisProductDiffers": "Zilch adds cashback and works in shops, not just online." },
+      { "name": "Credit cards", "positioning": "Traditional revolving credit with rewards.", "howThisProductDiffers": "No interest on pay in 4, and easier approval for young users." }
+    ],
+    "northStar": {
+      "metric": "Monthly active users who spend and repay on time",
+      "why": "It shows users getting value from the card without falling into debt, and it drives brand revenue and safe lending revenue. Signed-up users alone would be misleading, since most do not use the card."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "Users spending each month.",
+        "children": [
+          { "metric": "Sign-up to first spend", "description": "Share of new users who make a first purchase." },
+          { "metric": "Card added to phone wallet", "description": "Users with the card in Apple Pay or Google Pay pay more often." },
+          { "metric": "Reactivation of dormant sign-ups", "description": "Turning some of the 5 million registered users into active ones." }
+        ]
+      },
+      {
+        "metric": "Spend per active user",
+        "description": "How much each user spends a year, about £2,500 now.",
+        "children": [
+          { "metric": "Cashback offer use", "description": "Users using brand offers." },
+          { "metric": "Partner brand share of spend", "description": "Spend at partners earns more for Zilch." },
+          { "metric": "Pay in full share", "description": "Daily spending paid in full builds frequency." }
+        ]
+      },
+      {
+        "metric": "Repayment health",
+        "description": "On-time repayment of splits and loans.",
+        "children": [
+          { "metric": "Default rate", "description": "Share of balances not repaid." },
+          { "metric": "Early arrears", "description": "Missed first payments, an early warning sign." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Credit loss rate, especially on longer loans",
+      "Complaints about fees",
+      "Cost to acquire an active user",
+      "Share of users with several overdue splits"
+    ],
+    "strengths": [
+      "Card works almost anywhere Mastercard is accepted",
+      "Revenue growing over 30% a year",
+      "Ad-funded model differs from rivals",
+      "Backed by Goldman Sachs and eBay",
+      "Two quarters of adjusted profit"
+    ],
+    "weaknesses": [
+      "Loss widened to about £36 million in FY26",
+      "Only about 1 million active users versus 5 million sign-ups",
+      "Higher credit losses on longer loans",
+      "Much smaller than Klarna"
+    ],
+    "risks": [
+      "New FCA BNPL rules from 2026 adding affordability checks and costs",
+      "Rising defaults in a weak UK economy",
+      "Brands cutting ad budgets in a downturn",
+      "Execution risk expanding into Europe through Fjord Bank",
+      "IPO market conditions"
+    ],
+    "userComplaints": [
+      "Low spending limits",
+      "Unexpected fees on some splits",
+      "Payments declined at checkout",
+      "Cashback slow to appear"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show a clear path to a higher limit in the app", "problem": "Low limits frustrate users and push them to rivals.", "expectedImpact": "More engagement and more on-time repayment.", "metricToTrack": "On-time repayment rate and spend per user", "effort": "low" },
+      { "idea": "Reactivation offer for dormant sign-ups: bonus cashback on the first purchase", "problem": "About 4 million registered users are not active.", "expectedImpact": "More active users at a lower cost than new ads.", "metricToTrack": "Reactivation rate", "effort": "low" },
+      { "idea": "Show any split fee before the user confirms", "problem": "Users complain about surprise fees.", "expectedImpact": "Fewer complaints and better trust.", "metricToTrack": "Fee-related complaints", "effort": "low" },
+      { "idea": "Self-serve ad tool for small brands", "problem": "Brand revenue needs to grow faster to reach profit.", "expectedImpact": "More brand revenue per active user.", "metricToTrack": "Ad revenue per active user", "effort": "medium" },
+      { "idea": "Tighter limits on longer loans for new users", "problem": "Longer loans raised credit losses.", "expectedImpact": "Lower losses with small revenue impact.", "metricToTrack": "Credit loss rate on longer loans", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Who pays matters. Zilch tries to make brands pay so shoppers do not have to.",
+      "Registered users are not active users; build metrics around activity.",
+      "Longer loans grow revenue but raise risk; always pair growth metrics with loss metrics.",
+      "Being different from the leader, here with a 'use anywhere' card, can win a niche."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you grow Zilch's ad revenue without annoying users?", "hint": "Find what brands want (reach, proven sales) and what users want (useful deals). Build relevant offers. Measure revenue per user and app satisfaction." },
+      { "question": "How do you turn registered users into active ones?", "hint": "Find where users drop off: limit too low, no card in wallet, forgot. Use offers and onboarding fixes. Track activation rate." },
+      { "question": "Zilch vs Klarna: how should Zilch compete?", "hint": "Pick a niche: use anywhere, cashback, UK young shoppers. Avoid matching Klarna's merchant network head-on." },
+      { "question": "How would you manage credit risk on longer loans?", "hint": "Better checks, lower starting limits, early warnings, help for users who miss payments. Guardrail: default rate." },
+      { "question": "What north star metric would you pick for Zilch?", "hint": "Active users who repay on time. Explain why sign-ups or GMV alone mislead." }
+    ],
+    "glossary": [
+      { "term": "BNPL", "meaning": "Buy now, pay later: splitting a purchase into instalments, usually with no interest." },
+      { "term": "Interchange", "meaning": "A small fee the shop's bank pays the card issuer each time a card is used." },
+      { "term": "Credit losses", "meaning": "Money lost when borrowers do not repay." },
+      { "term": "Gross merchandise value", "meaning": "The total value of purchases made through a platform." },
+      { "term": "GMV", "meaning": "Short for gross merchandise value." },
+      { "term": "Run rate", "meaning": "What yearly revenue would be if the current month's revenue continued all year." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." }
+    ],
+    "assumptions": [
+      "Per-user economics are estimates based on reported totals.",
+      "Fee details are approximate and change; check the app.",
+      "The run rate of about $300 million is a company claim and was not used in our calculations."
+    ]
+  }
+}

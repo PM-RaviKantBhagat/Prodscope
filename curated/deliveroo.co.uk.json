@@ -1,0 +1,253 @@
+{
+  "company": "Deliveroo",
+  "domain": "deliveroo.co.uk",
+  "website": "https://deliveroo.co.uk",
+  "sources": [
+    "https://www.lbc.co.uk/article/6e907954501949aa807eed5e390e3793-5HjdDhN_2/",
+    "https://www.lbc.co.uk/article/7c9f1b89c0e5465e8c2bfbd9348954a6-5HjdTTr_2/",
+    "https://www.marketscreener.com/news/doordash-to-wind-down-deliveroo-and-wolt-operations-in-four-countries-ce7e5cdbd880f02d",
+    "https://foodondemand.com/02112026/the-pure-play-playbook-what-doordashs-deliveroo-acquisition-will-likely-reveal-about-a-maturing-model/",
+    "https://techfundingnews.com/doordash-acquires-deliveroo-for-2-9b-are-just-eat-and-uber-eats-next/",
+    "https://en.wikipedia.org/wiki/Deliveroo"
+  ],
+  "report": {
+    "company": "Deliveroo",
+    "tagline": "A UK food and grocery delivery app that brings meals from local restaurants and shops to your door in about 30 minutes, now owned by DoorDash.",
+    "category": "Food delivery",
+    "simpleSummary": "Deliveroo is an app for ordering takeaway. You pick a restaurant or a shop, order, and a rider on a bike or scooter brings it to you, usually in 20 to 40 minutes. Deliveroo takes a cut from the restaurant and charges you a delivery and service fee. It started in London in 2013 and was bought by the US company DoorDash in 2025.",
+    "keyNumbers": [
+      { "label": "Acquisition price", "value": "£2.9 billion", "note": "DoorDash takeover approved by the UK High Court in 2025, per LBC. 180p per share." },
+      { "label": "Gross transaction value, 2024", "value": "About £7.4 billion", "note": "Deliveroo 2024 annual results, its last full year as a listed company." },
+      { "label": "Revenue, 2024", "value": "About £2.1 billion", "note": "Deliveroo 2024 annual results; first full year of a small net profit." },
+      { "label": "Monthly active customers", "value": "About 7 million", "note": "Estimate based on Deliveroo's 2024 reporting across its markets." },
+      { "label": "Market exits under DoorDash", "value": "Qatar and Singapore", "note": "LBC and MarketScreener, 2026. DoorDash is winding down Deliveroo and Wolt in four countries in total." }
+    ],
+    "overview": {
+      "whatItDoes": "Deliveroo connects hungry customers, restaurants and self-employed riders. Customers order in the app, restaurants cook, and riders deliver. It also delivers groceries from supermarkets and its own 'Hop' grocery stores, and runs 'Editions' kitchens for brands that want to cook in new areas.",
+      "howItWorks": [
+        "You open the app and see restaurants and shops that can reach you, with delivery time and fee.",
+        "You order and pay in the app; Deliveroo sends the order to the restaurant's tablet.",
+        "A self-employed rider is matched to the order and picks it up when it is ready.",
+        "The rider delivers; you can track them live on a map.",
+        "Deliveroo Plus members pay a monthly fee for free delivery on orders above a minimum.",
+        "Restaurants pay Deliveroo a commission on each order, often around 25 to 35% if Deliveroo delivers."
+      ],
+      "valueProposition": "Meals from local favourite restaurants, and groceries, delivered fast, without needing to cook or go out."
+    },
+    "personas": [
+      {
+        "name": "Young city professional",
+        "description": "25 to 35, lives in a London flat, orders 2 to 3 times a week.",
+        "goals": ["Fast, tasty food after work", "Choice of local restaurants", "Free delivery with Plus"],
+        "frustrations": ["High fees", "Cold food or late delivery", "Wrong items"]
+      },
+      {
+        "name": "Independent restaurant owner",
+        "description": "Runs a local pizza or curry restaurant.",
+        "goals": ["More orders on quiet nights", "Reach new customers"],
+        "frustrations": ["Commission eats into profit", "Customer complaints blamed on the restaurant"]
+      },
+      {
+        "name": "Rider",
+        "description": "Self-employed rider working evenings and weekends.",
+        "goals": ["Steady, fair pay per order", "Flexible hours"],
+        "frustrations": ["Pay per order falling", "Waiting at restaurants unpaid", "Safety on the roads"]
+      },
+      {
+        "name": "Family top-up shopper",
+        "description": "Parent who needs milk or nappies fast.",
+        "goals": ["Grocery delivery in 20 to 30 minutes"],
+        "frustrations": ["Higher prices than in store", "Substitutions"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "No time or energy to cook after work.", "howSolved": "Hot food from local restaurants delivered in about 30 minutes.", "severity": "high" },
+      { "pain": "Favourite restaurants do not deliver.", "howSolved": "Deliveroo riders deliver for restaurants that have no drivers of their own.", "severity": "high" },
+      { "pain": "Restaurants have empty tables midweek.", "howSolved": "Extra orders from delivery customers.", "severity": "medium" },
+      { "pain": "Running out of groceries.", "howSolved": "Grocery delivery from supermarkets and Hop.", "severity": "medium" },
+      { "pain": "Delivery fees add up.", "howSolved": "Deliveroo Plus gives free delivery on orders above a minimum.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Live order tracking", "whatItDoes": "Shows the rider's location and arrival time.", "whyItMatters": "Reduces anxiety and support contacts." },
+      { "feature": "Deliveroo Plus", "whatItDoes": "Monthly membership with free delivery and perks.", "whyItMatters": "Members order more often and stay longer." },
+      { "feature": "Grocery delivery and Hop", "whatItDoes": "Groceries from partners and Deliveroo's own Hop stores.", "whyItMatters": "More order occasions beyond dinner." },
+      { "feature": "Editions", "whatItDoes": "Delivery-only kitchens where restaurants cook in new areas.", "whyItMatters": "Brings popular brands to areas with poor choice." },
+      { "feature": "Restaurant tablet and tools", "whatItDoes": "Order management and promotions for partners.", "whyItMatters": "Keeps restaurants on the platform and running smoothly." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First order",
+        "persona": "Young city professional",
+        "steps": [
+          { "step": "Install", "detail": "Downloads after seeing an offer of free delivery on the first order." },
+          { "step": "Browse", "detail": "Scrolls local restaurants by cuisine and delivery time." },
+          { "step": "Order", "detail": "Orders a £25 burger meal." },
+          { "step": "Track", "detail": "Watches the rider on the map." },
+          { "step": "Receive", "detail": "Food arrives in 30 minutes." },
+          { "step": "Rate", "detail": "Rates the order and gets an offer for Plus." }
+        ]
+      },
+      {
+        "name": "Joining Deliveroo Plus",
+        "persona": "Young city professional",
+        "steps": [
+          { "step": "Prompt", "detail": "Sees how much they would have saved with Plus." },
+          { "step": "Trial", "detail": "Starts a free trial." },
+          { "step": "Order more", "detail": "Orders more often since delivery is free." },
+          { "step": "Convert", "detail": "Trial becomes a paid monthly membership." },
+          { "step": "Stay", "detail": "Keeps Plus while ordering at least twice a month." }
+        ]
+      },
+      {
+        "name": "Restaurant joins Deliveroo",
+        "persona": "Independent restaurant owner",
+        "steps": [
+          { "step": "Sign up", "detail": "Applies online and agrees commission." },
+          { "step": "Set up menu", "detail": "Uploads menu and photos." },
+          { "step": "Go live", "detail": "Receives a tablet and goes live." },
+          { "step": "Get orders", "detail": "Starts receiving orders on quiet nights." },
+          { "step": "Promote", "detail": "Pays for promotions to rank higher." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Deliveroo takes a commission from restaurants and charges customers delivery and service fees. It pays riders per order. It earns more from ads, Plus memberships and groceries. Under DoorDash, it can share technology and cut costs.",
+      "revenueStreams": [
+        { "stream": "Restaurant commission", "detail": "A share of each order, often around 25 to 35% when Deliveroo delivers." },
+        { "stream": "Customer fees", "detail": "Delivery fees and a service fee on each order." },
+        { "stream": "Deliveroo Plus", "detail": "Monthly membership fees." },
+        { "stream": "Advertising", "detail": "Restaurants and brands pay to appear higher or in promotions." },
+        { "stream": "Grocery", "detail": "Margin on Hop and partner grocery orders." }
+      ],
+      "pricing": "Delivery fees vary by distance and demand, often £0.99 to £3.99, plus a service fee. Deliveroo Plus costs about £3.49 to £7.99 a month depending on tier. Restaurant commissions are not public but often around 25 to 35%.",
+      "costDrivers": [
+        "Rider pay",
+        "Marketing and customer discounts",
+        "Technology and staff",
+        "Customer support and refunds",
+        "Running Hop grocery stores and Editions kitchens"
+      ],
+      "unitEconomics": "On a £25 order, the restaurant might pay Deliveroo about £7.50 in commission and the customer about £3 in delivery and service fees. That is about £10.50. The rider might be paid about £5, payments cost about £0.50, and refunds and support about £0.50. That leaves around £4 before marketing, tech and office costs. Deliveroo made its first tiny full-year profit in 2024, so margins per order are thin."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "First-order discounts and free delivery",
+        "TV and digital ads",
+        "Restaurant partners promoting the app",
+        "Grocery delivery bringing new uses",
+        "Deliveroo Plus partnerships, such as with Amazon Prime in the UK"
+      ],
+      "whatBringsUsersBack": [
+        "Plus free delivery",
+        "Favourite restaurants saved in the app",
+        "Personal offers and promotions",
+        "Fast and reliable delivery"
+      ],
+      "moat": "Deliveroo's moat is local: in each city, it has many restaurants, many riders and many customers. More customers attract more restaurants and riders, which makes delivery faster. DoorDash's tech and scale should help, but Uber Eats and Just Eat have similar networks in the UK."
+    },
+    "competitors": [
+      { "name": "Uber Eats", "positioning": "Global delivery app linked to Uber rides.", "howThisProductDiffers": "Deliveroo is stronger with premium restaurants in London; Uber Eats has a bigger global brand." },
+      { "name": "Just Eat", "positioning": "UK's oldest delivery app, now owned by Prosus.", "howThisProductDiffers": "Just Eat started as a marketplace where restaurants deliver themselves; Deliveroo built its own rider network." },
+      { "name": "Swiggy and Zomato (India)", "positioning": "Indian food delivery leaders with quick commerce.", "howThisProductDiffers": "Similar model but much lower order values; Indian apps rely more on ads and quick grocery delivery." },
+      { "name": "Supermarket delivery", "positioning": "Tesco Whoosh and others for groceries.", "howThisProductDiffers": "Deliveroo covers restaurants and groceries in one app." }
+    ],
+    "northStar": {
+      "metric": "Weekly orders delivered on time and without complaint",
+      "why": "Each good order means a happy customer, a paid restaurant and a paid rider. It shows that the marketplace is working for all three groups."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "Customers ordering at least once a month.",
+        "children": [
+          { "metric": "New customer first-order rate", "description": "Sign-ups who place an order." },
+          { "metric": "Plus members", "description": "Members order more often." }
+        ]
+      },
+      {
+        "metric": "Orders per customer",
+        "description": "How often each customer orders.",
+        "children": [
+          { "metric": "Restaurant choice", "description": "Number of restaurants in range." },
+          { "metric": "Grocery orders", "description": "Extra orders beyond meals." }
+        ]
+      },
+      {
+        "metric": "Delivery quality",
+        "description": "Share of orders delivered on time and correct.",
+        "children": [
+          { "metric": "Average delivery time", "description": "Faster means happier customers." },
+          { "metric": "Rider availability", "description": "Enough riders at busy times." },
+          { "metric": "Order accuracy", "description": "Correct items delivered." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Rider earnings per hour",
+      "Restaurant churn",
+      "Refund and complaint rate",
+      "Contribution margin per order"
+    ],
+    "strengths": [
+      "Strong in UK cities, especially London",
+      "Premium restaurant partners",
+      "Backed by DoorDash's tech and scale",
+      "Plus membership builds loyalty"
+    ],
+    "weaknesses": [
+      "Thin profit margins",
+      "High commissions annoy restaurants",
+      "Rider pay and conditions criticised",
+      "Smaller than Uber Eats globally"
+    ],
+    "risks": [
+      "UK rules on gig workers' rights",
+      "Uber Eats and Just Eat price wars",
+      "Customers cutting back on takeaways",
+      "Integration with DoorDash causing disruption"
+    ],
+    "userComplaints": [
+      "High delivery and service fees",
+      "Late or cold food",
+      "Missing or wrong items",
+      "Hard to get refunds",
+      "Riders not finding addresses"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show the full cost, including all fees, before choosing a restaurant.", "problem": "Customers are annoyed by fees at checkout.", "expectedImpact": "Fewer abandoned orders and more trust.", "metricToTrack": "Checkout conversion", "effort": "low" },
+      { "idea": "Photo proof of delivery and AI address checks.", "problem": "Riders cannot find addresses, leading to late or missing orders.", "expectedImpact": "Fewer missing orders.", "metricToTrack": "Missing order rate", "effort": "medium" },
+      { "idea": "Restaurant dashboard showing which dishes get complaints.", "problem": "Wrong or poor-quality items.", "expectedImpact": "Better food quality.", "metricToTrack": "Complaint rate per restaurant", "effort": "low" },
+      { "idea": "Pay riders for waiting time at restaurants.", "problem": "Riders wait unpaid, reducing availability.", "expectedImpact": "More riders available and better pay.", "metricToTrack": "Rider earnings per hour", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Marketplaces with three sides (customers, restaurants, riders) must balance all three, or one side leaves.",
+      "Thin margins mean small changes in fees, pay or refunds can decide profit or loss.",
+      "Subscriptions like Plus can raise order frequency, but must pay for themselves.",
+      "Being bought by a bigger rival can bring scale, but also exits from smaller markets."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you increase order frequency on Deliveroo?", "hint": "Segment customers. Ideas: Plus, grocery, personal offers. Measure orders per customer." },
+      { "question": "How should DoorDash integrate Deliveroo?", "hint": "Share tech, keep brand. Watch customer and rider impact. Set metrics." },
+      { "question": "Design a feature to reduce late deliveries.", "hint": "Find causes: rider supply, restaurant prep, address issues. Pick one and propose a fix." },
+      { "question": "Compare Deliveroo with Swiggy and Zomato.", "hint": "Order values, fees, quick commerce, ads. Discuss what each could learn." },
+      { "question": "Should Deliveroo raise restaurant commission?", "hint": "Weigh revenue against restaurant churn. Model impact. Suggest tests." }
+    ],
+    "glossary": [
+      { "term": "Gross transaction value", "meaning": "The total value of all orders placed on the platform, including food, fees and tips." },
+      { "term": "Commission", "meaning": "The share of each order a restaurant pays to the platform." },
+      { "term": "Contribution margin", "meaning": "What a company keeps from one order after paying the direct costs of that order." },
+      { "term": "Gig worker", "meaning": "Someone who works job by job, often through an app, rather than as an employee." },
+      { "term": "Quick commerce", "meaning": "Very fast delivery of groceries and daily items, often in under 30 minutes." },
+      { "term": "Churn", "meaning": "The share of users or partners who stop using the product." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Monthly active customers and 2024 figures are approximate from Deliveroo's last public results.",
+      "Commission range and per-order economics are estimates.",
+      "Deliveroo Plus prices are approximate and may have changed under DoorDash.",
+      "The Amazon Prime partnership may have changed after the acquisition."
+    ]
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "company": "Substack",
+  "domain": "substack.com",
+  "website": "https://substack.com",
+  "sources": [
+    "https://searchengineland.com/guide/substack-users",
+    "https://www.hollywoodreporter.com/business/business-news/substack-number-subscribers-video-trump-1236158048/",
+    "https://axios.com/2025/07/17/substack-newsletter-funding-creator-economy",
+    "https://variety.com/2025/digital/news/substack-raises-100-million-chernin-group-skims-investors-1236463721",
+    "https://fourweekmba.com/the-substackification-of-media-5-million-paid-subscriptions-and-the-150m-exit-that-validated-everything/",
+    "https://en.wikipedia.org/wiki/Substack"
+  ],
+  "report": {
+    "company": "Substack",
+    "tagline": "A platform where writers and video creators publish newsletters and charge readers a monthly subscription, with Substack taking 10%.",
+    "category": "Creator publishing",
+    "simpleSummary": "Substack lets anyone start a newsletter that lands in readers' email inbox and in the Substack app. Writers can keep it free or charge, say $8 a month, for paid posts, and Substack keeps 10% of what readers pay. Readers find new writers through recommendations from writers they already read, so popular writers help grow each other. Famous journalists, historians and podcasters now run whole businesses on it.",
+    "keyNumbers": [
+      {
+        "label": "Paid subscriptions",
+        "value": "5 million+",
+        "note": "Substack announced this milestone in 2025 (Hollywood Reporter). Counts subscriptions, not unique people; likely higher by late 2026."
+      },
+      {
+        "label": "Total active subscriptions (free and paid)",
+        "value": "About 35 million",
+        "note": "September 2025 figure cited by Search Engine Land. Paid share is about 6%."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $1.1 billion",
+        "note": "After a $100 million round led by BOND and The Chernin Group in July 2025 (Axios)."
+      },
+      {
+        "label": "Writers earning money",
+        "value": "17,000+ paid writers; top 10 earn over $40 million a year combined",
+        "note": "Search Engine Land summary of company statements, 2025."
+      },
+      {
+        "label": "Substack's own revenue",
+        "value": "Roughly $45 million to $60 million a year",
+        "note": "Our estimate: 10% of reader payments, assuming 5 million paid subscriptions at around $80 to $100 a year each. Substack does not publish revenue."
+      },
+      {
+        "label": "Biggest exit from the platform",
+        "value": "The Free Press sold to Paramount for about $150 million (2025)",
+        "note": "Reported widely in 2025. A publication that grew on Substack."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Substack gives writers, podcasters and video makers a free tool to publish and get paid by subscribers. It handles email delivery, a website, payments and an app. Readers get a single app to read, listen to and chat with all the creators they follow.",
+      "howItWorks": [
+        "A writer signs up for free, names a publication and starts posting.",
+        "Readers subscribe with their email; posts arrive by email and in the Substack app.",
+        "The writer turns on paid subscriptions at a price they choose, often $5 to $10 a month or $50 to $100 a year.",
+        "Substack keeps 10% and Stripe takes about 3% for card processing; the writer keeps the rest and owns the email list.",
+        "Writers recommend other publications; new subscribers see those recommendations when they sign up.",
+        "Notes (a short-post feed), Chat, live video and podcasts keep readers inside the app."
+      ],
+      "valueProposition": "For creators: a free way to earn directly from readers, keep your audience and avoid algorithms and ads. For readers: support writers you like and get their best work in one place."
+    },
+    "personas": [
+      {
+        "name": "The independent journalist",
+        "description": "A political reporter who left a newspaper and runs a newsletter with 120,000 free and 9,000 paid subscribers at $8 a month.",
+        "goals": [
+          "Earn a full-time income from readers",
+          "Write freely without editors or ads"
+        ],
+        "frustrations": [
+          "Substack's 10% cut gets large as revenue grows",
+          "Hard to grow paid subscribers once early fans have joined"
+        ]
+      },
+      {
+        "name": "The niche expert",
+        "description": "An Indian equity analyst writing a weekly stock research newsletter for 3,000 readers.",
+        "goals": [
+          "Build a reputation and earn side income",
+          "Reach readers abroad"
+        ],
+        "frustrations": [
+          "Few Indian readers pay in dollars by card",
+          "Setting up payouts from India can be harder than in the US"
+        ]
+      },
+      {
+        "name": "The paying reader",
+        "description": "A 35-year-old professional in London who pays for four newsletters.",
+        "goals": [
+          "Read smart, ad-free writing",
+          "Support writers directly"
+        ],
+        "frustrations": [
+          "Subscriptions add up quickly",
+          "Inbox gets crowded"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Writers depend on newspapers or social media algorithms to reach readers and earn money.",
+        "howSolved": "Direct subscriptions and an email list the writer owns.",
+        "severity": "high"
+      },
+      {
+        "pain": "Setting up a website, email delivery and payments is technical and costly.",
+        "howSolved": "Substack does it all for free, earning only when the writer earns.",
+        "severity": "high"
+      },
+      {
+        "pain": "New writers can't find readers.",
+        "howSolved": "Recommendations and the Notes feed bring readers from other publications.",
+        "severity": "high"
+      },
+      {
+        "pain": "Readers are tired of ads and clickbait.",
+        "howSolved": "Paid newsletters are ad-free and writer-led.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Creators want to add video, podcasts and live streams without new tools.",
+        "howSolved": "Substack added podcasts, video and live streaming in the same app.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Paid subscriptions",
+        "whatItDoes": "Writers set prices for monthly, yearly and founding-member plans.",
+        "whyItMatters": "The core money engine for writers and for Substack's 10% cut."
+      },
+      {
+        "feature": "Recommendations",
+        "whatItDoes": "Writers recommend other publications; new subscribers are offered these at sign-up.",
+        "whyItMatters": "Creates a network effect: each writer's audience helps others grow."
+      },
+      {
+        "feature": "Substack app and Notes",
+        "whatItDoes": "One app to read, listen, watch and post short notes, like a social feed.",
+        "whyItMatters": "Moves readers from email to the app, where Substack controls discovery."
+      },
+      {
+        "feature": "Video, podcasts and Live",
+        "whatItDoes": "Creators publish videos and podcasts and stream live with other creators.",
+        "whyItMatters": "Competes with YouTube and Patreon for video creators."
+      },
+      {
+        "feature": "Chat",
+        "whatItDoes": "Group chat for a writer and their subscribers.",
+        "whyItMatters": "Builds community and reasons to stay paid."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Launching a paid newsletter",
+        "persona": "The independent journalist",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Creates a publication for free."
+          },
+          {
+            "step": "Imports list",
+            "detail": "Uploads 20,000 emails from old Twitter followers."
+          },
+          {
+            "step": "Writes free posts",
+            "detail": "Posts weekly for free to build trust."
+          },
+          {
+            "step": "Turns on paid",
+            "detail": "Sets $8 a month or $80 a year."
+          },
+          {
+            "step": "Gets recommended",
+            "detail": "Another writer recommends them, bringing 2,000 new subscribers."
+          },
+          {
+            "step": "Converts readers",
+            "detail": "About 5% to 10% of free readers become paid."
+          }
+        ]
+      },
+      {
+        "name": "Reader discovering a new writer",
+        "persona": "The paying reader",
+        "steps": [
+          {
+            "step": "Subscribes to a writer",
+            "detail": "Signs up after seeing a link on X."
+          },
+          {
+            "step": "Sees recommendations",
+            "detail": "Is offered three related newsletters."
+          },
+          {
+            "step": "Downloads the app",
+            "detail": "Reads in the app and follows Notes."
+          },
+          {
+            "step": "Finds a favourite",
+            "detail": "Reads a free post and likes it."
+          },
+          {
+            "step": "Pays",
+            "detail": "Subscribes for $70 a year."
+          }
+        ]
+      },
+      {
+        "name": "Growing a niche newsletter from India",
+        "persona": "The niche expert",
+        "steps": [
+          {
+            "step": "Starts free",
+            "detail": "Writes weekly stock notes."
+          },
+          {
+            "step": "Shares on LinkedIn",
+            "detail": "Posts snippets to attract readers."
+          },
+          {
+            "step": "Builds 3,000 subscribers",
+            "detail": "Mostly Indian readers."
+          },
+          {
+            "step": "Tries paid",
+            "detail": "Sets $5 a month; few Indians pay."
+          },
+          {
+            "step": "Targets NRIs",
+            "detail": "Focuses on Indian readers abroad who pay in dollars."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Substack makes money mainly from one thing: 10% of every paid subscription. It does not run ads. Its revenue grows only when writers earn more, so it focuses on helping writers get more paying readers.",
+      "revenueStreams": [
+        {
+          "stream": "10% of subscriptions",
+          "detail": "The main revenue. Stripe fees are paid by the writer on top."
+        },
+        {
+          "stream": "In-app purchases",
+          "detail": "Readers can pay in the iOS app; Substack passes on app store costs through higher in-app prices."
+        },
+        {
+          "stream": "Pledges and founding members",
+          "detail": "Readers can pay more as founding members; still 10% cut."
+        }
+      ],
+      "pricing": "Free for creators. Substack takes 10% of paid subscription revenue, plus Stripe card fees of about 2.9% + $0.30 per payment. Writers set prices, minimum about $5 a month.",
+      "costDrivers": [
+        "Email delivery to tens of millions of inboxes",
+        "Engineering for the app, video and live",
+        "Content moderation and legal costs",
+        "Advances and deals paid to win big writers (Substack Pro, used in early years)"
+      ],
+      "unitEconomics": "Take a reader paying $80 a year. Substack keeps $8, Stripe takes about $2.60, and the writer keeps about $69. Sending emails and hosting cost Substack well under $1 per reader per year, so most of the $8 is margin before staff costs. Free readers cost little but earn nothing. Substack needs many writers with many paid readers, and its take rate (the share it keeps) is 10%."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Famous writers and journalists bring their audiences",
+        "Recommendations between publications",
+        "Notes and the app feed",
+        "Links shared on X, LinkedIn and WhatsApp"
+      ],
+      "whatBringsUsersBack": [
+        "New posts in the inbox",
+        "Notes feed",
+        "Chats with writers",
+        "Paid subscriptions renew automatically"
+      ],
+      "moat": "Recommendations create a network effect. Writers grow by being on Substack, and readers have all subscriptions in one app. Rivals like Beehiiv and Ghost charge less but lack this network."
+    },
+    "competitors": [
+      {
+        "name": "Beehiiv",
+        "positioning": "Newsletter tool with flat monthly fees and no cut of subscriptions, plus an ad network.",
+        "howThisProductDiffers": "Substack takes 10% but brings discovery and an app."
+      },
+      {
+        "name": "Ghost",
+        "positioning": "Open-source publishing with 0% cut.",
+        "howThisProductDiffers": "Ghost is cheaper at scale but has no reader network."
+      },
+      {
+        "name": "Patreon",
+        "positioning": "Memberships for creators of all kinds.",
+        "howThisProductDiffers": "Substack is writing-first and has free email reach."
+      },
+      {
+        "name": "Medium",
+        "positioning": "Paid membership pool shared among writers.",
+        "howThisProductDiffers": "Substack lets writers set their own price and own their list."
+      },
+      {
+        "name": "YouTube",
+        "positioning": "Video platform paid by ads and memberships.",
+        "howThisProductDiffers": "Substack is subscription-first, with no ads."
+      }
+    ],
+    "northStar": {
+      "metric": "Total paid subscriptions active on the platform",
+      "why": "Each paid subscription means a reader valued a writer enough to pay. It also drives writer income and Substack's revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active writers",
+        "description": "Writers who publish at least weekly. Without fresh posts, readers stop opening the app.",
+        "children": [
+          {
+            "metric": "New publications that post 4+ times in their first month",
+            "description": "Shows new writers stick around past the first post."
+          },
+          {
+            "metric": "Writers who switch on paid subscriptions",
+            "description": "More paid publications means more things readers can buy."
+          },
+          {
+            "metric": "Writers posting video or live",
+            "description": "Video brings in creators from YouTube and keeps readers longer."
+          }
+        ]
+      },
+      {
+        "metric": "Free subscriber growth",
+        "description": "New readers joining free lists, the top of the paid funnel.",
+        "children": [
+          {
+            "metric": "Subscribers from recommendations",
+            "description": "The network effect at work: readers sent by other writers."
+          },
+          {
+            "metric": "Weekly app active readers",
+            "description": "App readers see Notes and recommendations, so they find more writers."
+          },
+          {
+            "metric": "Subscribes per Notes view",
+            "description": "Shows whether the feed turns browsing into subscriptions."
+          }
+        ]
+      },
+      {
+        "metric": "Free-to-paid conversion",
+        "description": "Share of free readers who start paying.",
+        "children": [
+          {
+            "metric": "Paywall views per free reader",
+            "description": "Readers must see paid content to want it."
+          },
+          {
+            "metric": "Checkout completion rate",
+            "description": "Drop-off at payment, especially in the iOS app and outside the US."
+          },
+          {
+            "metric": "Trial-to-paid rate",
+            "description": "How often free trials turn into paying readers."
+          }
+        ]
+      },
+      {
+        "metric": "Paid retention",
+        "description": "Paid readers who renew, so each subscription lasts longer.",
+        "children": [
+          {
+            "metric": "Monthly churn of paid subscriptions",
+            "description": "Lower churn means more income per reader."
+          },
+          {
+            "metric": "Share of annual plans",
+            "description": "Annual payers cancel less often."
+          },
+          {
+            "metric": "Paid reader opens per month",
+            "description": "Readers who stop opening are about to cancel."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Email deliverability: share of posts landing in the inbox, not spam",
+      "Unsubscribe rate after Substack-sent emails and app nudges",
+      "Share of top-100 earning writers who leave for Beehiiv or Ghost",
+      "Content policy complaints from readers and advertisers"
+    ],
+    "strengths": [
+      "A real network effect: writers recommend each other, so joining Substack brings readers you could not reach alone",
+      "5 million+ paid subscriptions, more than any other newsletter platform",
+      "Famous writers and journalists make it the default brand for paid newsletters",
+      "Simple model where Substack only earns when writers earn, which builds trust",
+      "Writers own their email list, so the promise of independence is real"
+    ],
+    "weaknesses": [
+      "The 10% cut gets expensive for large writers, who can save money on flat-fee tools",
+      "Only about 6% of subscriptions are paid, so most readers bring no money",
+      "Revenue is concentrated: the top 10 writers earn over $40 million a year combined",
+      "Payment options are built for card-paying US and UK readers, weak in India",
+      "The app competes with email, and many readers still prefer the inbox"
+    ],
+    "risks": [
+      "Beehiiv and Ghost offering 0% cuts to lure top writers",
+      "Moderation controversies over extremist newsletters, which pushed some writers away in 2024",
+      "Subscription fatigue as readers cap how many newsletters they pay for",
+      "Apple and Google app store fees on in-app subscriptions",
+      "Email providers like Gmail changing filters and hiding newsletters"
+    ],
+    "userComplaints": [
+      "Too many paid newsletters to afford; readers want bundles",
+      "The app pushes Notes and video when readers only want to read",
+      "Substack hosts extremist content and is slow to act",
+      "Writers say the 10% cut is too high once they earn a lot",
+      "Prices in the iOS app are higher than on the web"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Reader bundles: pay one price, for example $25 a month, to read up to five chosen paid newsletters, with revenue split by reading time",
+        "problem": "Subscription fatigue: readers stop at two or three paid newsletters.",
+        "expectedImpact": "More readers pay, and mid-sized writers get paid readers they would not win alone.",
+        "metricToTrack": "Paid subscriptions per paying reader and total paid subscriptions",
+        "effort": "high"
+      },
+      {
+        "idea": "Lower take rate tiers, such as 7% above $1 million a year in reader payments",
+        "problem": "Top writers leave for flat-fee tools to save money.",
+        "expectedImpact": "Keeps big writers, who bring audiences that help everyone through recommendations.",
+        "metricToTrack": "Retention of top-100 earning writers",
+        "effort": "low"
+      },
+      {
+        "idea": "Rupee pricing with UPI and UPI AutoPay for Indian readers",
+        "problem": "Indian readers rarely pay dollar prices by card, so Indian writers struggle to earn.",
+        "expectedImpact": "Higher free-to-paid conversion in India and more Indian writers.",
+        "metricToTrack": "Paid conversion rate among Indian readers",
+        "effort": "medium"
+      },
+      {
+        "idea": "Topic pages that rank publications by reader retention, not just size",
+        "problem": "New writers are hard to find, and big names dominate the feed.",
+        "expectedImpact": "Better discovery for good small writers and more subscriptions per app visit.",
+        "metricToTrack": "Subscriptions from discovery per weekly app reader",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Align your revenue with your customers' success. Substack only earns when writers earn, which makes writers trust it.",
+      "A network effect can come from creators helping each other, not just users inviting friends. Recommendations turned single newsletters into a network.",
+      "A percentage cut feels fair when creators are small but painful when they are big. Plan pricing for your best customers early.",
+      "Moving readers from email to your own app gives you control, but you must make the app better than the inbox."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase free-to-paid conversion on Substack?",
+        "hint": "Map the funnel from free reader to payer. Find the biggest drop (paywall views, checkout, trials). Propose 2 tests, such as timed trials or better paywall placement, with conversion as the metric and unsubscribes as a guardrail."
+      },
+      {
+        "question": "Should Substack lower its 10% take rate?",
+        "hint": "Estimate revenue lost vs writers kept. Segment writers by earnings. Consider tiered rates or extra paid tools instead. Name the metric you would watch: top writer retention."
+      },
+      {
+        "question": "What should Substack's north star metric be?",
+        "hint": "Argue for active paid subscriptions, since each one is a reader valuing a writer. Break it into active writers, free readers, conversion and retention."
+      },
+      {
+        "question": "How would you grow Substack in India?",
+        "hint": "Look at supply (Indian writers, regional languages) and demand (readers' willingness to pay). Fix payments (UPI, rupee pricing), then pick a pilot niche like personal finance."
+      },
+      {
+        "question": "Explain how recommendations create a network effect on Substack.",
+        "hint": "Draw the loop: writer A recommends B, B gains readers, B recommends A back, both grow. Show why a new rival cannot copy this without many writers."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Take rate",
+        "meaning": "The share of each payment a platform keeps for itself."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paid subscribers who cancel in a period."
+      },
+      {
+        "term": "Conversion rate",
+        "meaning": "The share of free readers who become paying readers."
+      },
+      {
+        "term": "Funnel",
+        "meaning": "The steps a reader goes through from first visit to paying, with some dropping off at each step."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows a product is giving users real value."
+      },
+      {
+        "term": "Guardrail",
+        "meaning": "A metric that must not get worse while you work to improve your main goal."
+      }
+    ],
+    "assumptions": [
+      "Substack's own revenue of $45 million to $60 million is estimated from 10% of reader payments; the company does not publish revenue.",
+      "Paid subscriptions are likely above 5 million by late 2026, but no newer official number was found.",
+      "Difficulty of payouts and payments for Indian writers and readers is inferred from Stripe's limited India support.",
+      "Typical prices of $5 to $10 a month are common examples, not an official average."
+    ]
+  }
+}

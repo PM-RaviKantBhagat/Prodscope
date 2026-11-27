@@ -1,0 +1,242 @@
+{
+  "company": "Tesco Clubcard",
+  "domain": "tesco.com",
+  "website": "https://tesco.com",
+  "sources": [
+    "https://www.tescoplc.com/media/ch1fbgss/tesco-plc-preliminary-results-statement-fy26.pdf",
+    "https://www.investing.com/news/company-news/tesco-fy-202526-slides-market-share-hits-decade-high-on-customer-focus-93CH-4617412",
+    "https://www.emarketer.com/content/how-tesco-built-retail-platform-powered-by-loyalty-data-ai",
+    "https://www.marketingweek.com/tesco-cma-clubcard-pricing/",
+    "https://www.which.co.uk/reviews/supermarkets/article/loyalty-schemes-compared-a4ERY9a5NFJd",
+    "https://en.wikipedia.org/wiki/Dunnhumby"
+  ],
+  "report": {
+    "company": "Tesco Clubcard",
+    "tagline": "The UK's biggest supermarket loyalty scheme, giving lower 'Clubcard Prices' and points to members in exchange for their shopping data.",
+    "category": "Retail loyalty",
+    "simpleSummary": "Clubcard is Tesco's free loyalty card. You scan it when you shop and get special lower prices on thousands of items, plus points that turn into vouchers. In return, Tesco learns exactly what you buy. It uses that data to set prices, choose stock and sell targeted ads to brands.",
+    "keyNumbers": [
+      { "label": "Clubcard members", "value": "About 23 million UK households", "note": "Tesco statements; approximate." },
+      { "label": "UK grocery market share", "value": "About 28%", "note": "Kantar data quoted in Tesco's FY 2025/26 results; described as a decade high." },
+      { "label": "Group adjusted operating profit, FY26", "value": "About £3 billion", "note": "Estimate based on Tesco FY 2025/26 results reports." },
+      { "label": "Clubcard Plus price", "value": "£7.99 a month", "note": "Tesco website; gives 10% off two big shops a month." },
+      { "label": "Points value", "value": "1 point per £1, 1p per point", "note": "Tesco Clubcard terms; vouchers can be worth up to 2x with Reward Partners." }
+    ],
+    "overview": {
+      "whatItDoes": "Clubcard gives members special prices and points. Since 2020, Tesco has shown two prices on shelves: the normal price and a lower 'Clubcard Price'. You only get the lower one if you scan your card. This made Clubcard almost essential for Tesco shoppers.",
+      "howItWorks": [
+        "Sign up free in the Tesco app or in store.",
+        "Scan the card at checkout, online or in the app to get Clubcard Prices.",
+        "Earn 1 point per £1 spent (2 points per £1 on fuel at Tesco). Every 150 points become a £1.50 voucher.",
+        "Spend vouchers at Tesco, or swap them with Reward Partners like restaurants and days out for up to 2x their value.",
+        "Tesco and its data business dunnhumby analyse what members buy to set prices and sell targeted ads to brands through Tesco Media and Insight."
+      ],
+      "valueProposition": "Lower prices on everyday shopping and rewards, just for scanning a free card."
+    },
+    "personas": [
+      {
+        "name": "Budget family shopper",
+        "description": "Weekly big shop for a family of four.",
+        "goals": ["Save money on every shop", "Use vouchers for treats"],
+        "frustrations": ["Prices higher without the card", "Hard to tell if Clubcard Prices are real deals"]
+      },
+      {
+        "name": "Older shopper",
+        "description": "65+, uses a plastic card and paper vouchers.",
+        "goals": ["Simple savings", "No app needed"],
+        "frustrations": ["Move to digital-only features", "Small print"]
+      },
+      {
+        "name": "Brand marketer",
+        "description": "Works for a consumer goods brand buying ads through Tesco Media.",
+        "goals": ["Reach buyers likely to try their product", "Measure sales from ads"],
+        "frustrations": ["High ad prices", "Data shared only in aggregate"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Grocery prices rising fast.", "howSolved": "Clubcard Prices on thousands of items each week.", "severity": "high" },
+      { "pain": "Loyalty rewards feel tiny.", "howSolved": "Points turn into vouchers that can be doubled with partners.", "severity": "medium" },
+      { "pain": "Generic offers that do not match what you buy.", "howSolved": "Personal Clubcard Challenges and coupons based on shopping history.", "severity": "medium" },
+      { "pain": "Brands do not know who buys their products.", "howSolved": "dunnhumby data and Tesco Media ads targeted to Clubcard members.", "severity": "medium" },
+      { "pain": "Big shops cost a lot.", "howSolved": "Clubcard Plus gives 10% off two shops a month.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Clubcard Prices", "whatItDoes": "Lower prices for members on selected items.", "whyItMatters": "Made Clubcard nearly compulsory for Tesco shoppers and boosted sign-ups." },
+      { "feature": "Points and vouchers", "whatItDoes": "1 point per £1, turned into vouchers.", "whyItMatters": "Keeps people coming back to use their points." },
+      { "feature": "Reward Partners", "whatItDoes": "Swap vouchers for up to 2x value at partners.", "whyItMatters": "Makes points feel worth more." },
+      { "feature": "Clubcard Challenges", "whatItDoes": "Personal goals like 'spend £X on fresh fruit for bonus points'.", "whyItMatters": "Nudges extra spending." },
+      { "feature": "Tesco Media and Insight", "whatItDoes": "Ads targeted by Clubcard data, sold to brands.", "whyItMatters": "High-profit income that helps pay for lower prices." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Joining Clubcard",
+        "persona": "Budget family shopper",
+        "steps": [
+          { "step": "See price tag", "detail": "Notices a yellow Clubcard Price label." },
+          { "step": "Sign up", "detail": "Downloads the Tesco app and joins in minutes." },
+          { "step": "Scan", "detail": "Scans the app barcode at the till." },
+          { "step": "Save", "detail": "Receipt shows Clubcard savings." },
+          { "step": "Earn points", "detail": "Points build up toward vouchers." }
+        ]
+      },
+      {
+        "name": "Using vouchers",
+        "persona": "Budget family shopper",
+        "steps": [
+          { "step": "Get vouchers", "detail": "Vouchers issued every quarter or converted early in the app." },
+          { "step": "Compare", "detail": "Checks Reward Partners for 2x value." },
+          { "step": "Choose", "detail": "Swaps for a restaurant meal or uses at Tesco." },
+          { "step": "Redeem", "detail": "Scans the code to pay." },
+          { "step": "Return", "detail": "Keeps shopping to earn more." }
+        ]
+      },
+      {
+        "name": "Brand campaign",
+        "persona": "Brand marketer",
+        "steps": [
+          { "step": "Brief", "detail": "Wants to grow sales of a new snack." },
+          { "step": "Target", "detail": "Tesco Media selects shoppers who buy similar snacks." },
+          { "step": "Run ads", "detail": "Ads appear in the app, online and on store screens." },
+          { "step": "Measure", "detail": "dunnhumby reports extra sales from exposed shoppers." },
+          { "step": "Repeat", "detail": "Brand books more campaigns." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Clubcard costs Tesco money through discounts and points. In return it brings more shoppers, more frequent visits and detailed data. Tesco earns from that data through better pricing, ads and supplier funding.",
+      "revenueStreams": [
+        { "stream": "Higher grocery sales", "detail": "Members shop more often and spend more at Tesco." },
+        { "stream": "Retail media", "detail": "Brands pay Tesco Media and Insight to reach Clubcard members." },
+        { "stream": "Supplier-funded Clubcard Prices", "detail": "Brands often fund part of the discount for visibility." },
+        { "stream": "Clubcard Plus", "detail": "£7.99 a month subscription." },
+        { "stream": "Data insights", "detail": "dunnhumby sells insights and tools to suppliers." }
+      ],
+      "pricing": "Clubcard is free. Clubcard Plus costs £7.99 a month. Points: 1 per £1 in store and online.",
+      "costDrivers": [
+        "Discounts given through Clubcard Prices",
+        "Points paid out as vouchers (about 1% of spend)",
+        "Technology and data teams",
+        "Marketing to keep members"
+      ],
+      "unitEconomics": "On a £100 shop, a member might save £5 to £10 through Clubcard Prices and earn £1 in points. Part of the discount is often paid by the brands. Tesco gains because the member shops more often at Tesco, and that data lets Tesco sell targeted ads. Tesco's operating margin is only about 4%, so every point of loyalty matters."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Clubcard Prices labels in every Tesco store",
+        "App sign-up prompts",
+        "TV and digital marketing",
+        "Partners like Reward Partners and fuel"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly grocery needs",
+        "Lower Clubcard Prices",
+        "Points and vouchers",
+        "Personal Challenges"
+      ],
+      "moat": "Clubcard has decades of data on what UK households buy. Tesco uses it to set prices and sell ads. Its size means brands want to work with it. Rivals like Nectar copied the idea, but Tesco's scale is hard to beat."
+    },
+    "competitors": [
+      { "name": "Sainsbury's Nectar", "positioning": "Loyalty scheme with Nectar Prices and partners.", "howThisProductDiffers": "Similar model; Tesco has more members and market share." },
+      { "name": "Aldi and Lidl", "positioning": "Discount grocers with low prices for everyone.", "howThisProductDiffers": "Clubcard gives member prices; discounters keep it simple with no card needed (Lidl Plus app aside)." },
+      { "name": "Asda Rewards", "positioning": "Cashback-style loyalty.", "howThisProductDiffers": "Clubcard is bigger and has more data." },
+      { "name": "M&S Sparks", "positioning": "Premium loyalty with personal offers.", "howThisProductDiffers": "Clubcard is broader and more price-focused." }
+    ],
+    "northStar": {
+      "metric": "Weekly active Clubcard households saving money with Clubcard Prices",
+      "why": "Households saving every week get real value, so they keep shopping at Tesco. It shows the scheme is working for customers, not just for Tesco."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active members",
+        "description": "Households scanning the card at least once a month.",
+        "children": [
+          { "metric": "New sign-ups", "description": "From store prompts and the app." },
+          { "metric": "Scan rate at checkout", "description": "Share of transactions with a Clubcard." }
+        ]
+      },
+      {
+        "metric": "Visit frequency",
+        "description": "How often members shop.",
+        "children": [
+          { "metric": "Challenge completion", "description": "Members completing personal goals." },
+          { "metric": "Voucher redemption", "description": "Vouchers being used." }
+        ]
+      },
+      {
+        "metric": "Savings delivered",
+        "description": "Average Clubcard savings per member.",
+        "children": [
+          { "metric": "Clubcard Price item count", "description": "How many items have member prices." },
+          { "metric": "Personalised offer use", "description": "Offers redeemed." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Customer trust in pricing (complaints and Which? findings)",
+      "Margin after discounts",
+      "Data privacy complaints",
+      "Non-member price gap versus rivals"
+    ],
+    "strengths": [
+      "Largest loyalty base in UK grocery",
+      "Deep data through dunnhumby",
+      "Strong retail media business",
+      "Clubcard Prices made the card nearly essential"
+    ],
+    "weaknesses": [
+      "Non-members pay more, which some see as unfair",
+      "Points value is low (about 1%)",
+      "Reward Partner value was cut from 3x to 2x in 2023",
+      "Complex offers can confuse customers"
+    ],
+    "risks": [
+      "Regulation on loyalty pricing; Which? raised a complaint to the CMA about unclear Clubcard pricing",
+      "Data privacy laws limiting use of data",
+      "Discounters winning on simple low prices",
+      "Customer pushback against data collection"
+    ],
+    "userComplaints": [
+      "Clubcard Prices are not always real savings",
+      "Unit prices were not shown on Clubcard deals (Tesco later agreed to show them)",
+      "Reward Partner value was reduced",
+      "Points expire or vouchers are easy to lose",
+      "App issues scanning or loading offers"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show 'you saved £X this year' and a price history for Clubcard Price items.", "problem": "Shoppers doubt Clubcard Prices are real deals.", "expectedImpact": "More trust and fewer complaints.", "metricToTrack": "Trust score and complaints", "effort": "low" },
+      { "idea": "Auto-apply vouchers at checkout when the customer chooses.", "problem": "Vouchers are forgotten and expire.", "expectedImpact": "More redemption and loyalty.", "metricToTrack": "Voucher redemption rate", "effort": "low" },
+      { "idea": "Simpler Clubcard for older customers with a printed monthly savings summary.", "problem": "Older shoppers struggle with app-only features.", "expectedImpact": "Higher engagement among older members.", "metricToTrack": "Active members over 65", "effort": "medium" },
+      { "idea": "Let members choose which data uses they allow, with bonus points for sharing.", "problem": "Privacy concerns about data use.", "expectedImpact": "More trust and better data consent.", "metricToTrack": "Consent rate", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Loyalty schemes are data businesses. Tesco gives small discounts and gets data worth much more.",
+      "Member prices can boost sign-ups, but must be fair and clear or they create a trust problem.",
+      "Second revenue streams like retail media can pay for customer benefits.",
+      "Small changes to rewards, like the Reward Partner cut, can anger loyal users."
+    ],
+    "interviewQuestions": [
+      { "question": "Is Clubcard Prices good or bad for customers?", "hint": "Weigh savings for members against higher prices for non-members. Discuss fairness and trust. Suggest how to measure." },
+      { "question": "How would you increase Clubcard app use?", "hint": "Find why people use the plastic card. Ideas: digital-only offers, savings tracker. Metric: monthly active app users." },
+      { "question": "How does Tesco make money from Clubcard?", "hint": "More visits, retail media, supplier funding, data insights. Compare to cost of discounts and points." },
+      { "question": "Design a new Clubcard feature for young shoppers.", "hint": "Understand needs: meal deals, budgets. Ideas: student offers, budget tracker. Metrics: sign-ups and visits." },
+      { "question": "What would you do if the CMA banned member-only prices?", "hint": "Plan B: personal offers, points boost, subscriptions. Measure impact on visits and margins." }
+    ],
+    "glossary": [
+      { "term": "Loyalty scheme", "meaning": "A programme that rewards customers for shopping with a company again and again." },
+      { "term": "Retail media", "meaning": "Ads that a retailer sells to brands, shown on its website, app or stores." },
+      { "term": "CMA", "meaning": "Competition and Markets Authority: the UK regulator for fair competition and consumer protection." },
+      { "term": "Unit price", "meaning": "The price per kilo, litre or item, used to compare value." },
+      { "term": "Operating margin", "meaning": "Profit from normal business as a share of revenue." },
+      { "term": "Market share", "meaning": "A company's share of all sales in a market." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Member numbers and operating profit are approximate from reports, since the results PDF could not be read directly.",
+      "Savings per £100 shop is a rough estimate.",
+      "Supplier funding share of Clubcard Prices is not public.",
+      "Points and voucher rules may have changed since the latest terms."
+    ]
+  }
+}

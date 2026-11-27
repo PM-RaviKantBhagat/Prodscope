@@ -1,0 +1,246 @@
+{
+  "company": "Gymshark",
+  "domain": "gymshark.com",
+  "website": "https://gymshark.com",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gymshark",
+    "https://suzannahcranwell.substack.com/p/gymshark-gross-profit-self-funded-growth",
+    "https://businessmodelanalyst.com/gymshark-swot-analysis/",
+    "https://entrepreneurplus.co.uk/how-does-gymshark-make-money-the-garage-brand-betting-big-on-bricks/",
+    "https://www.forbes.com/sites/robertolsen-1/2026/07/04/britains-youngest-billionaire-wants-more-control-over-gymshark/",
+    "https://europeanbusinessmagazine.com/gymshark-buyback/"
+  ],
+  "report": {
+    "company": "Gymshark",
+    "tagline": "A UK gym-clothing brand that grew from a garage to a global name by building a community of fitness influencers instead of buying ads.",
+    "category": "direct-to-customer apparel",
+    "simpleSummary": "Gymshark makes leggings, shorts, sports bras and hoodies for people who work out. It started in 2012 when Ben Francis, then 19, sewed and screen-printed clothes in his parents' garage in Birmingham. It grew by sending clothes to fitness YouTubers and Instagram stars, whose fans wanted to look like them. It sells mainly through its own website and app, and now has shops like its Regent Street flagship in London.",
+    "keyNumbers": [
+      { "label": "Revenue, latest full year", "value": "About £650 million", "note": "Estimate based on reports citing about £646 million in sales; financial year ends in late July." },
+      { "label": "Profit trend", "value": "Revenue at a record, profit much lower", "note": "Business Model Analyst SWOT 2026 describes 'record revenue, vanishing profit' as costs and store spending rose. Exact figure not confirmed here." },
+      { "label": "Valuation at 2020 investment", "value": "Over £1 billion", "note": "When US firm L Catterton bought about 21% in 2020, per widely reported figures." },
+      { "label": "Founder control", "value": "Ben Francis buying back stake", "note": "Forbes (July 2026) and European Business Magazine report Francis seeking more control by buying back shares sold to L Catterton." },
+      { "label": "Customers", "value": "Sells in over 130 countries; the US is its largest market", "note": "Company statements; approximate." }
+    ],
+    "overview": {
+      "whatItDoes": "Gymshark designs gym clothes and sells them mostly direct to customers online, without department stores in the middle. Its marketing runs on 'Gymshark Athletes', a roster of fitness creators who wear the clothes and post workouts. It has opened its own stores and a training app to deepen the community.",
+      "howItWorks": [
+        "Gymshark designs ranges like Vital Seamless and Adapt leggings in Solihull, England, and has them made by partner factories.",
+        "Most sales happen on gymshark.com and the app, in collection 'drops' that create urgency.",
+        "Gymshark Athletes, paid fitness creators, wear the kit in workout videos and on Instagram and TikTok.",
+        "The free Gymshark Training app offers workout plans, tying the brand to the actual workout.",
+        "Own stores, such as Regent Street in London and newer US locations, double as community spaces with events and runs.",
+        "Discounts are mostly kept to big events like Black Friday, to protect the brand's full-price image."
+      ],
+      "valueProposition": "Gym clothes that look and feel good, made for real workouts, at prices below Lululemon, from a brand that feels like part of the fitness scene you follow online."
+    },
+    "personas": [
+      {
+        "name": "Young gym regular",
+        "description": "18 to 28, trains 4 to 5 times a week and follows fitness creators.",
+        "goals": ["Kit that flatters and holds up in heavy sessions", "Look like the creators they follow", "Prices below Lululemon"],
+        "frustrations": ["Sizes selling out at drops", "Seamless items that bobble or go see-through", "Delivery delays at busy launches"]
+      },
+      {
+        "name": "Fitness creator",
+        "description": "Builds a following posting workouts; might become a Gymshark Athlete.",
+        "goals": ["Get paid and get free kit", "Grow their own audience with the brand's help"],
+        "frustrations": ["Few paid spots", "Brand control over content"]
+      },
+      {
+        "name": "Lifestyle wearer",
+        "description": "25 to 35, wears gym clothes to work from home and for errands as much as for training.",
+        "goals": ["Comfort and style", "Quality that lasts"],
+        "frustrations": ["Price going up", "Fewer basics in stock"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Gym clothes from big sports brands feel generic and not made for weight training.", "howSolved": "Designs made for gym movement, like squat-proof leggings and fitted lifting tops.", "severity": "high" },
+      { "pain": "Premium brands like Lululemon are too expensive for young gym-goers.", "howSolved": "Leggings around £40 to £55 instead of £90 or more.", "severity": "high" },
+      { "pain": "Training alone without a plan.", "howSolved": "Gymshark Training app with free workout plans.", "severity": "medium" },
+      { "pain": "Not feeling part of a fitness community.", "howSolved": "Creator-led content, events and community runs at stores.", "severity": "medium" },
+      { "pain": "Not sure about fit when buying online.", "howSolved": "Size guides, try-on videos from creators and free returns in many markets.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Gymshark Athletes", "whatItDoes": "A roster of fitness creators who wear and promote the brand.", "whyItMatters": "Built the brand without big ad budgets; trust from creators drives sales." },
+      { "feature": "Collection drops", "whatItDoes": "New ranges released at set times with countdowns.", "whyItMatters": "Creates hype and spikes in traffic and sales." },
+      { "feature": "Gymshark Training app", "whatItDoes": "Free workout plans and tracking.", "whyItMatters": "Puts the brand in the daily workout, not just in shopping." },
+      { "feature": "Flagship stores", "whatItDoes": "Stores like Regent Street with community events.", "whyItMatters": "Lets people try on and makes the brand feel real offline." },
+      { "feature": "Direct-to-customer website and app", "whatItDoes": "Gymshark sells most items itself.", "whyItMatters": "Keeps the full margin and the customer data." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First purchase after a creator video",
+        "persona": "Young gym regular",
+        "steps": [
+          { "step": "Watch", "detail": "Sees a favourite creator train in Gymshark Vital leggings on TikTok." },
+          { "step": "Click", "detail": "Taps the link in bio to gymshark.com." },
+          { "step": "Choose size", "detail": "Checks the size guide and reviews on fit." },
+          { "step": "Buy", "detail": "Pays about £45 with Klarna or a card." },
+          { "step": "Train", "detail": "Wears it to the gym and posts a mirror photo, tagging the brand." },
+          { "step": "Join", "detail": "Downloads the Gymshark Training app from a prompt in the email." }
+        ]
+      },
+      {
+        "name": "Shopping a drop",
+        "persona": "Young gym regular",
+        "steps": [
+          { "step": "Notification", "detail": "Gets an app alert that a new collection drops at 6pm." },
+          { "step": "Wait", "detail": "Joins the site at launch." },
+          { "step": "Grab size", "detail": "Rushes to buy before sizes sell out." },
+          { "step": "Delivery", "detail": "Waits for shipping during a busy period." },
+          { "step": "Share", "detail": "Posts the new kit on Instagram." }
+        ]
+      },
+      {
+        "name": "Visiting a flagship store",
+        "persona": "Lifestyle wearer",
+        "steps": [
+          { "step": "Discover", "detail": "Walks past the Regent Street store." },
+          { "step": "Try on", "detail": "Tries several sizes in store." },
+          { "step": "Join event", "detail": "Signs up for a community run." },
+          { "step": "Buy", "detail": "Buys in store or orders a missing size online." },
+          { "step": "Stay", "detail": "Joins the email list for future drops." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Gymshark makes clothes and sells most of them directly to customers, keeping the margin a wholesaler or shop would take. It spends on creators, events and stores instead of TV ads. Profit has dropped as it invests in stores, the US and new teams.",
+      "revenueStreams": [
+        { "stream": "Online sales", "detail": "The website and app make up most of revenue." },
+        { "stream": "Own stores", "detail": "Flagships in London and newer US stores." },
+        { "stream": "Wholesale", "detail": "Small partnerships with selected retailers in some markets." }
+      ],
+      "pricing": "Leggings around £40 to £55, sports bras around £30 to £40, hoodies around £45 to £60 in the UK. Free delivery over a minimum order in many markets. Discounts mostly at Black Friday and seasonal sales.",
+      "costDrivers": [
+        "Cost of making the clothes",
+        "Payments to Gymshark Athletes and creators",
+        "Store rent and staff, especially in London and the US",
+        "Shipping and returns",
+        "Head office teams in Solihull and the US"
+      ],
+      "unitEconomics": "On a £50 pair of leggings sold online, Gymshark keeps about £30 in gross margin, since gross margins for direct-to-customer apparel are often around 60%. Shipping, packing and payment cost about £5 to £7. Marketing, mainly creator fees and events, adds several pounds per order. Returns of wrong sizes eat into the rest. In stores, gross margin is similar, but rent and staff costs are higher, which is why profit has fallen while revenue grew."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Gymshark Athletes and other fitness creators on YouTube, Instagram and TikTok",
+        "Collection drops that trend on social media",
+        "Community events like runs, lifting meet-ups and store openings",
+        "Stores in high-traffic places like Regent Street",
+        "Word of mouth in gyms"
+      ],
+      "whatBringsUsersBack": [
+        "New drops and colours every few weeks",
+        "Gymshark Training app workouts",
+        "Email and app alerts for launches",
+        "Feeling part of a fitness community"
+      ],
+      "moat": "Gymshark's real advantage is its community. It has years of relationships with fitness creators, and many young gym-goers grew up seeing it as 'their' brand. That trust is hard to buy. But clothes are easy to copy, and rivals like Alphalete and Lululemon also use creators, so the moat depends on staying culturally relevant."
+    },
+    "competitors": [
+      { "name": "Lululemon", "positioning": "Premium athleisure with high prices.", "howThisProductDiffers": "Gymshark is cheaper and focused on gym training and creators." },
+      { "name": "Nike and Adidas", "positioning": "Global sports giants.", "howThisProductDiffers": "Gymshark is gym-focused and feels more community-led." },
+      { "name": "Alphalete and other creator brands", "positioning": "Brands started by fitness creators.", "howThisProductDiffers": "Gymshark is bigger with more stores and range." },
+      { "name": "Shein and Primark activewear", "positioning": "Very cheap gym clothes.", "howThisProductDiffers": "Gymshark is higher quality and brand-led." }
+    ],
+    "northStar": {
+      "metric": "Number of repeat customers who buy at full price within 12 months",
+      "why": "It shows that people liked the product enough to come back without needing discounts. It ties together product quality, community and brand strength."
+    },
+    "kpiTree": [
+      {
+        "metric": "New customers",
+        "description": "First-time buyers.",
+        "children": [
+          { "metric": "Creator-driven traffic", "description": "Visits from Gymshark Athletes' links." },
+          { "metric": "Drop launch conversion", "description": "Share of launch visitors who buy." },
+          { "metric": "Store first-time buyers", "description": "New customers from stores." }
+        ]
+      },
+      {
+        "metric": "Repeat purchase rate",
+        "description": "Customers who buy again within 12 months.",
+        "children": [
+          { "metric": "Training app weekly users", "description": "App users stay closer to the brand." },
+          { "metric": "Email and app alert click rate", "description": "Shows if launches bring people back." }
+        ]
+      },
+      {
+        "metric": "Full-price sell-through",
+        "description": "Share of stock sold without discount.",
+        "children": [
+          { "metric": "Size availability at launch", "description": "Sold-out sizes lose sales." },
+          { "metric": "Product rating", "description": "Quality issues lead to returns and discounts." },
+          { "metric": "Return rate", "description": "Returns hurt margins." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross margin",
+      "Product quality complaints",
+      "Delivery times during drops",
+      "Creator partnership costs per order"
+    ],
+    "strengths": [
+      "Strong community and creator network",
+      "Brand loved by young gym-goers",
+      "Direct-to-customer model keeps margins and data",
+      "Founder-led with clear brand vision"
+    ],
+    "weaknesses": [
+      "Profit has fallen as costs rose",
+      "Products are easy to copy",
+      "Quality complaints on some ranges",
+      "Heavy reliance on social media trends"
+    ],
+    "risks": [
+      "Changes in social media algorithms reducing creator reach",
+      "Lululemon, Nike and creator brands competing for the same buyers",
+      "Cheap copies from Shein and Temu",
+      "Rising costs in the US expansion and stores"
+    ],
+    "userComplaints": [
+      "Seamless leggings bobbling or going see-through",
+      "Sizes selling out quickly during drops",
+      "Slow delivery and customer service at busy times",
+      "Prices rising over the years",
+      "Returns process in some countries"
+    ],
+    "improvementIdeas": [
+      { "idea": "Restock alerts with 'notify me' and reserved stock for app users.", "problem": "Sizes sell out at drops, frustrating loyal fans.", "expectedImpact": "More sales and less frustration.", "metricToTrack": "Restock alert conversion", "effort": "low" },
+      { "idea": "Wear-test badge showing how products held up after 30 washes.", "problem": "Quality complaints about bobbling and see-through fabric.", "expectedImpact": "Fewer returns and more trust.", "metricToTrack": "Quality-related return rate", "effort": "medium" },
+      { "idea": "Link the Training app to purchases, suggesting kit for each workout plan.", "problem": "The app and shop feel separate.", "expectedImpact": "More app users buying.", "metricToTrack": "App-to-purchase conversion", "effort": "medium" },
+      { "idea": "Store events tied to local gyms and run clubs.", "problem": "Stores are costly; they must bring in loyal customers.", "expectedImpact": "Higher store sales and repeat visits.", "metricToTrack": "Sales per store event attendee", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Community can be a growth engine. Gymshark grew through creators rather than ads.",
+      "Direct-to-customer keeps margin and data, but fulfilment and returns are now your job.",
+      "Revenue growth is not the same as profit. New stores and markets cost money before they pay back.",
+      "Creating hype with drops works, but stockouts can frustrate the most loyal fans."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you measure the return on Gymshark's creator partnerships?", "hint": "Track sales from creator links and codes, new customer share, and cost per order. Compare with paid ads." },
+      { "question": "Should Gymshark open more stores?", "hint": "Weigh brand building and try-ons against rent costs. Use metrics like store payback period and online sales near stores." },
+      { "question": "Design a feature for the Gymshark Training app that drives sales.", "hint": "Link workouts to kit, offer rewards for streaks, early access to drops. Measure app-to-purchase conversion." },
+      { "question": "How would you handle quality complaints about seamless leggings?", "hint": "Find the root cause from reviews and returns. Fix product, communicate clearly, offer replacements. Track return rate." },
+      { "question": "How would you grow Gymshark in the US?", "hint": "Look at US creators, stores, delivery speed and competition. Pick a priority and define success metrics." }
+    ],
+    "glossary": [
+      { "term": "Direct-to-customer", "meaning": "When a brand sells straight to buyers through its own website, app or shops, not through other retailers." },
+      { "term": "Drop", "meaning": "A new product release at a set time, often in limited quantities." },
+      { "term": "Gross margin", "meaning": "What is left from a sale after paying for the goods themselves." },
+      { "term": "Sell-through", "meaning": "The share of stock sold within a set time." },
+      { "term": "Wholesale", "meaning": "Selling products in bulk to other shops that then sell them to customers." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "Payback period", "meaning": "How long it takes for an investment, like a new store, to earn back what it cost." }
+    ],
+    "assumptions": [
+      "Revenue and profit figures are estimates from secondary reports; Gymshark's own accounts could not be read directly.",
+      "The 60% gross margin and per-order costs are rough estimates for direct-to-customer apparel.",
+      "Product prices are typical UK prices and vary by range and season.",
+      "Details of the founder's buyback are based on press headlines and may not be final."
+    ]
+  }
+}

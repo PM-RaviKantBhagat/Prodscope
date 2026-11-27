@@ -1,0 +1,255 @@
+{
+  "company": "Ocado",
+  "domain": "ocado.com",
+  "website": "https://ocado.com",
+  "sources": [
+    "https://www.ocadogroup.com/investors/results-and-presentations/half-year-results-2026",
+    "https://uk.investing.com/news/company-news/ocado-h1-2026-slides-retail-shines-as-tech-unit-faces-headwinds-93CH-4774734",
+    "https://shopappy.com/retail/supermarkets-grocers/ocado-h1-2026-kroger-payout-revenue",
+    "https://kalkine.co.uk/news/technology/why-ocado-group-lseocdo-says-its-grocery-technology-business-is-set-to-turn-cash-flow-positive",
+    "https://businesswithinterest.co.uk/stories/ocado-supermarket-technology-empire"
+  ],
+  "report": {
+    "company": "Ocado",
+    "tagline": "A UK online-only supermarket that runs on robot warehouses, and a technology company that sells those robots to grocers around the world.",
+    "category": "Online grocery / robotics",
+    "simpleSummary": "Ocado is two businesses. First, Ocado.com is a UK online supermarket with no shops: you order a weekly shop and a van brings it in a one-hour slot. It sells M&S food and big brands. Second, Ocado builds giant warehouses where thousands of robots pick groceries, and licenses that system to supermarkets like Kroger in the US and Coles in Australia.",
+    "keyNumbers": [
+      { "label": "Ocado Retail ownership", "value": "50% Ocado Group, 50% M&S", "note": "Joint venture set up in 2019 when M&S bought half of Ocado's retail arm." },
+      { "label": "Reported revenue jump, H1 2026", "value": "About 54%, but only about 1% underlying", "note": "ShopAppy on Ocado H1 2026 results; the jump came mostly from a one-off Kroger compensation payment after site closures." },
+      { "label": "Technology Solutions cash flow", "value": "Targeted to turn positive", "note": "Kalkine and Ocado H1 2026 results; Ocado has said the tech business would be cash-flow positive around FY26." },
+      { "label": "Ocado Retail sales", "value": "About £3 billion a year", "note": "Estimate based on recent Ocado Retail reporting; it is one of the UK's fastest-growing grocers." },
+      { "label": "Ocado Retail active customers", "value": "Over 1 million", "note": "Estimate from Ocado Retail updates." }
+    ],
+    "overview": {
+      "whatItDoes": "Ocado Retail sells groceries online in the UK and delivers them from large automated warehouses called customer fulfilment centres. Ocado Group's Technology Solutions arm designs the robots, software and vans and licenses them to grocers worldwide for upfront and ongoing fees.",
+      "howItWorks": [
+        "Customers order on Ocado.com or the app, usually a full weekly shop, and choose a one-hour delivery slot.",
+        "In a customer fulfilment centre (CFC), thousands of robots move on a grid above stacked crates, bringing items to pickers or robot arms.",
+        "An average order of about 50 items can be picked in minutes, with very high accuracy and little waste.",
+        "Vans leave on routes planned by software and deliver in the chosen slot, with live tracking.",
+        "Partners like Kroger, Coles, Aeon and Lotte pay Ocado fees to build and run CFCs with its tech.",
+        "Ocado Zoom offered rapid delivery in parts of London, but Ocado's core is planned weekly shops, not 10-minute delivery."
+      ],
+      "valueProposition": "For shoppers: a full weekly shop with M&S food and big brands, delivered accurately in a one-hour slot. For grocers: a ready-made online system that is cheaper per order than store picking at scale."
+    },
+    "personas": [
+      {
+        "name": "Busy family weekly shopper",
+        "description": "Parent with a full-time job, does one big shop a week online.",
+        "goals": ["Full shop with no store trip", "Fresh food that lasts", "Reliable one-hour slot"],
+        "frustrations": ["Delivery fees on small orders", "Slots filling up near Christmas", "Prices slightly above Tesco and Aldi"]
+      },
+      {
+        "name": "M&S food fan",
+        "description": "Likes M&S food but wants it delivered with branded groceries.",
+        "goals": ["M&S products and big brands in one order"],
+        "frustrations": ["Some M&S lines missing online"]
+      },
+      {
+        "name": "Grocery chain executive",
+        "description": "Head of e-commerce at a supermarket abroad considering Ocado's tech.",
+        "goals": ["Profitable online grocery", "Proven technology"],
+        "frustrations": ["High upfront cost", "Long build times", "Online demand lower than planned, as at Kroger"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Weekly shopping takes hours.", "howSolved": "Order online in minutes and get delivery in a chosen hour.", "severity": "high" },
+      { "pain": "Store-picked orders often have missing items or swaps.", "howSolved": "Robot warehouses have very high order accuracy and stock control.", "severity": "high" },
+      { "pain": "Fresh food goes off quickly.", "howSolved": "Food goes straight from warehouse to door, often with longer shelf life promises.", "severity": "medium" },
+      { "pain": "Grocers lose money on online orders picked in stores.", "howSolved": "Ocado's automated CFCs cut labour cost per order at high volume.", "severity": "high" },
+      { "pain": "Building online grocery tech is hard.", "howSolved": "Grocers license Ocado's full system rather than building their own.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Customer fulfilment centres (the Hive)", "whatItDoes": "A grid of robots that store and fetch crates of groceries.", "whyItMatters": "Cuts cost per order and gives high accuracy." },
+      { "feature": "One-hour delivery slots", "whatItDoes": "Customers pick an hour; vans arrive on time.", "whyItMatters": "Reliability builds weekly habits." },
+      { "feature": "M&S range", "whatItDoes": "M&S food sold online through Ocado.", "whyItMatters": "Exclusive premium food that rivals online cannot offer." },
+      { "feature": "Ocado Smart Platform", "whatItDoes": "Robots, software, vans and data licensed to partners.", "whyItMatters": "Main growth and profit hope for Ocado Group." },
+      { "feature": "Robot picking arms", "whatItDoes": "Robotic arms pick items from crates.", "whyItMatters": "Reduces human picking cost further." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First weekly shop",
+        "persona": "Busy family weekly shopper",
+        "steps": [
+          { "step": "Discover", "detail": "Gets a voucher like £20 off the first shop." },
+          { "step": "Build basket", "detail": "Searches and adds about 50 items." },
+          { "step": "Choose slot", "detail": "Picks a one-hour Saturday morning slot." },
+          { "step": "Pay", "detail": "Pays and sees delivery fee or free delivery over a minimum." },
+          { "step": "Delivery", "detail": "Driver brings bags to the kitchen on time." },
+          { "step": "Save", "detail": "Saves the order as a favourite list for next week." }
+        ]
+      },
+      {
+        "name": "Joining Smart Pass",
+        "persona": "Busy family weekly shopper",
+        "steps": [
+          { "step": "Prompt", "detail": "Sees how much Smart Pass would save on delivery." },
+          { "step": "Join", "detail": "Pays monthly for free deliveries and perks." },
+          { "step": "Order weekly", "detail": "Orders every week without thinking about fees." },
+          { "step": "Renew", "detail": "Keeps membership as habit forms." }
+        ]
+      },
+      {
+        "name": "Partner adopts Ocado tech",
+        "persona": "Grocery chain executive",
+        "steps": [
+          { "step": "Evaluate", "detail": "Visits a UK CFC and reviews cost per order." },
+          { "step": "Sign", "detail": "Agrees a multi-year contract with fees." },
+          { "step": "Build", "detail": "CFC is built over two to three years." },
+          { "step": "Launch", "detail": "Online orders start in one region." },
+          { "step": "Review", "detail": "Checks if order volume is high enough to pay back." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Ocado Retail earns money by selling groceries online at a margin. Ocado Group earns fees from licensing its warehouse technology to grocers worldwide. The tech business costs a lot upfront, and its success depends on partners getting enough online orders.",
+      "revenueStreams": [
+        { "stream": "Online grocery sales (Ocado Retail)", "detail": "UK grocery sales, shared 50/50 with M&S." },
+        { "stream": "Technology fees", "detail": "Upfront fees and ongoing fees from partners using CFCs." },
+        { "stream": "Delivery fees and Smart Pass", "detail": "Charges for delivery and membership." },
+        { "stream": "Retail media", "detail": "Brands pay for ads on Ocado.com." },
+        { "stream": "One-off compensation", "detail": "Payments such as Kroger's after closing CFCs, which inflated H1 2026 revenue." }
+      ],
+      "pricing": "Delivery fees vary by slot and order size; free delivery on larger orders at off-peak slots. Smart Pass is a monthly membership. Partner fees are not public.",
+      "costDrivers": [
+        "Building and running CFCs, including robots and buildings",
+        "Delivery vans and drivers",
+        "Food cost and waste",
+        "Research and development for robots and software",
+        "Marketing to win customers"
+      ],
+      "unitEconomics": "On a £120 weekly shop, Ocado Retail might earn about £30 in gross margin. Picking in a robot warehouse might cost a few pounds, and delivery about £8 to £10. Marketing and overheads take a few more pounds. At high volume, this can be profitable; at low volume, the fixed cost of the CFC makes each order lose money. That is the problem Kroger faced, leading it to close some CFCs."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "First-order discounts",
+        "M&S food exclusive online",
+        "Referral codes",
+        "Price matching with Tesco on some items"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly shop habit",
+        "Saved favourites and past orders",
+        "Smart Pass free delivery",
+        "Reliable slots and accurate orders"
+      ],
+      "moat": "Ocado has over 20 years of building robot warehouses and software, with many patents. Few companies can match its system. But the moat is only valuable if grocers have enough online orders to fill the warehouses."
+    },
+    "competitors": [
+      { "name": "Tesco", "positioning": "UK's biggest grocer, picks online orders from stores and warehouses.", "howThisProductDiffers": "Ocado is online-only with robot warehouses; Tesco is cheaper with more reach." },
+      { "name": "Blinkit and Zepto (India)", "positioning": "10-minute delivery from small dark stores.", "howThisProductDiffers": "Ocado does big planned shops from huge robot warehouses; quick commerce does small top-ups from local stores." },
+      { "name": "AutoStore and Symbotic", "positioning": "Warehouse robotics firms.", "howThisProductDiffers": "Ocado sells a full grocery system, including software and delivery." },
+      { "name": "Instacart", "positioning": "Store picking for many grocers.", "howThisProductDiffers": "Instacart is cheaper to start but costs more per order at scale." }
+    ],
+    "northStar": {
+      "metric": "Weekly orders delivered complete and on time",
+      "why": "It shows customers getting their full shop in their chosen hour, which is what keeps them using Ocado. For partners, it shows CFCs being used."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "Customers ordering at least once a month.",
+        "children": [
+          { "metric": "First-shop conversion", "description": "Share of visitors with a first-shop voucher who complete an order." },
+          { "metric": "Smart Pass members", "description": "Members pay monthly for free delivery, so they order more often and churn less." },
+          { "metric": "90-day retention", "description": "Share of new customers still ordering three months later, the clearest sign the weekly habit stuck." }
+        ]
+      },
+      {
+        "metric": "Order frequency",
+        "description": "Orders per customer per month.",
+        "children": [
+          { "metric": "Favourites reorder rate", "description": "Orders built from saved lists." },
+          { "metric": "Slot availability", "description": "Slots available when customers want them." }
+        ]
+      },
+      {
+        "metric": "Order quality",
+        "description": "Orders complete and on time.",
+        "children": [
+          { "metric": "Order accuracy", "description": "Correct items with no swaps." },
+          { "metric": "On-time delivery", "description": "Delivered in the hour." },
+          { "metric": "Freshness complaints", "description": "Items that went off quickly." }
+        ]
+      },
+      {
+        "metric": "CFC utilisation",
+        "description": "How full each warehouse is.",
+        "children": [
+          { "metric": "Orders per week per CFC", "description": "Higher means lower cost per order." },
+          { "metric": "Partner order growth", "description": "Partners filling their CFCs." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Cost per order",
+      "Food waste",
+      "Customer satisfaction",
+      "Partner churn"
+    ],
+    "strengths": [
+      "World-class robot warehouse technology",
+      "High order accuracy",
+      "M&S food exclusive online",
+      "Global partners using its tech"
+    ],
+    "weaknesses": [
+      "Huge upfront costs for CFCs",
+      "Relies on partners' online growth",
+      "Kroger closed some CFCs",
+      "Ocado Retail prices above discounters"
+    ],
+    "risks": [
+      "Partners pulling back on CFCs",
+      "Online grocery growth slowing",
+      "Cheaper robotics competitors",
+      "Quick commerce changing habits"
+    ],
+    "userComplaints": [
+      "Delivery fees on smaller orders",
+      "Slots filling up at busy times",
+      "Prices higher than Tesco or Aldi",
+      "Occasional missing items",
+      "Short use-by dates on some fresh items"
+    ],
+    "improvementIdeas": [
+      { "idea": "Dynamic slot pricing that rewards flexible customers.", "problem": "Peak slots fill up.", "expectedImpact": "Better slot availability and lower costs.", "metricToTrack": "Slot fill rate", "effort": "medium" },
+      { "idea": "Price comparison badge on key items versus Tesco.", "problem": "Customers think Ocado is expensive.", "expectedImpact": "More trust on value.", "metricToTrack": "Basket size", "effort": "low" },
+      { "idea": "Smaller, cheaper CFC designs for partners.", "problem": "Partners struggle to fill big CFCs.", "expectedImpact": "Faster payback for partners.", "metricToTrack": "CFC utilisation", "effort": "high" },
+      { "idea": "Freshness guarantee with use-by dates shown.", "problem": "Complaints about short use-by dates.", "expectedImpact": "More trust in fresh food.", "metricToTrack": "Freshness complaints", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Great technology needs enough demand. Kroger's CFC closures show the cost of overestimating demand.",
+      "Fixed costs change unit economics. More orders make each one cheaper.",
+      "Owning a full system is a strong moat, but partners need to succeed for it to matter.",
+      "Planned weekly shops and 10-minute top-ups solve different problems; pick the job your product does best."
+    ],
+    "interviewQuestions": [
+      { "question": "Kroger closed some Ocado CFCs. What went wrong, and what would you change?", "hint": "Explain that online demand in those regions was lower than planned, so a huge fixed-cost warehouse sat half empty. Suggest smaller sites, phased builds or help for partners to grow demand, and track orders per week per CFC." },
+      { "question": "Compare Ocado with Blinkit in India.", "hint": "Ocado does planned 50-item weekly shops from giant robot warehouses; Blinkit does 10-minute, 5-item top-ups from small dark stores. Compare cost per order, basket size and which customer job each one does best." },
+      { "question": "How would you grow Ocado Retail's customer base?", "hint": "The main barrier is the belief that Ocado is expensive. Ideas: price match badges, M&S exclusives, first-shop offers. Measure new customers and 90-day retention, with gross margin as a guardrail." },
+      { "question": "What is Ocado's north star metric, and how would you break it down?", "hint": "Weekly orders delivered complete and on time. Split it into active customers, order frequency, order quality and warehouse utilisation, each with two or three inputs a team can move." },
+      { "question": "Should Ocado relaunch a rapid delivery service like Zoom?", "hint": "Weigh demand for top-ups against the cost of small sites that do not use Ocado's robots. Suggest a time-boxed test in one dense London area with clear stop rules." }
+    ],
+    "glossary": [
+      { "term": "Customer fulfilment centre", "meaning": "A large warehouse where online orders are picked and packed, in Ocado's case by robots." },
+      { "term": "Joint venture", "meaning": "A business owned by two companies together." },
+      { "term": "Unit economics", "meaning": "How much money a business makes or loses on one order or customer." },
+      { "term": "Fixed costs", "meaning": "Costs that stay the same no matter how many orders you have, like rent." },
+      { "term": "Utilisation", "meaning": "How much of a facility's capacity is being used." },
+      { "term": "Quick commerce", "meaning": "Very fast delivery of groceries, often in under 30 minutes." },
+      { "term": "Dark store", "meaning": "A small warehouse used only for delivery orders, not open to shoppers." },
+      { "term": "Retail media", "meaning": "Ads that a retailer sells to brands, shown on its website or app." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Ocado Retail sales and customer numbers are estimates.",
+      "Per-order economics are rough estimates, not company data.",
+      "The tech cash flow target is based on company guidance and may change.",
+      "Kroger compensation details are based on press reports."
+    ]
+  }
+}

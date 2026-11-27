@@ -23,7 +23,7 @@ For each product, write `/home/user/teardown/curated/<domain>.json` (domain exac
 
 ## Research (do this for every product)
 
-Use WebSearch, usually 2 to 4 searches per product: what it does and how it makes money; latest numbers (users, revenue, orders, funding, profit or loss, for 2025 or 2026 where possible); competitors; what users complain about (reviews, Reddit, news). Read a page with the web-fetch agent only if a search result is not enough. Today is 27 November 2026. Prefer the latest facts. If a product shut down or failed, say so and teach why.
+Use WebSearch, at most 3 searches per product (search is a shared, limited budget across many writers), combining questions into one search where you can: what it does and how it makes money; latest numbers (users, revenue, orders, funding, profit or loss, for 2025 or 2026 where possible); competitors; what users complain about (reviews, Reddit, news). Avoid fetching pages; search results are usually enough. Fetch at most one page per product, only if essential. If search stops working, stop and report which products are left; never write a teardown without research. Today is 27 November 2026. Prefer the latest facts. If a product shut down or failed, say so and teach why.
 
 If a number is uncertain, still give your best estimate, and say so in `note` (e.g. "Estimate from news reports, 2025"). Never present a guess as fact. List inferences in `assumptions`.
 

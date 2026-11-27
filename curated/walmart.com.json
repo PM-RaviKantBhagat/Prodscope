@@ -1,0 +1,262 @@
+{
+  "company": "Walmart",
+  "domain": "walmart.com",
+  "website": "https://walmart.com",
+  "sources": [
+    "https://theshelbyreport.com/2026/11/19/walmart-u-s-comps-rise-2-9-in-q3-as-e-commerce-grows-23/",
+    "https://fashionunited.com/news/business/strong-ecommerce-and-ad-sales-drive-walmarts-q3-revenue-growth-and-guidance-upgrade/2026111975860",
+    "https://www.indmoney.com/blog/us-stocks/walmart-plus-sams-club-plus-120-bundle",
+    "https://cirpamazon.substack.com/p/walmart-crosses-a-hurdle-but-still",
+    "https://www.kiplinger.com/personal-finance/should-you-get-walmart-plus-or-amazon-prime",
+    "https://ppc.land/walmarts-global-ad-growth-drops-to-25-as-flipkarts-sale-slips-a-quarter/"
+  ],
+  "report": {
+    "company": "Walmart",
+    "tagline": "America's biggest retailer, using its 4,600 US stores as mini warehouses to deliver groceries and goods in hours.",
+    "category": "Online-plus-stores retail",
+    "simpleSummary": "Walmart is the huge US supermarket and discount store chain. You can now order on its app and get groceries and household items delivered from your nearest store, often in under three hours. A Walmart+ membership makes delivery free and adds perks like fuel discounts and a streaming service. Walmart also owns most of Flipkart in India.",
+    "keyNumbers": [
+      { "label": "Revenue, Q3 FY27 (Aug to Oct 2026)", "value": "$188.8 billion", "note": "Walmart Q3 FY27 results via The Shelby Report. Up 5.2%. Walmart's financial year ends in January." },
+      { "label": "US e-commerce growth", "value": "+23%", "note": "Q3 FY27. The 11th quarter in a row above 20%." },
+      { "label": "Advertising growth", "value": "+37% globally", "note": "Q3 FY27. Walmart Connect in the US up 36%. Full-year global ads are above $5 billion (estimate from earlier reported run rate, incl. Vizio)." },
+      { "label": "Deliveries under 3 hours", "value": "Over 37% of store-fulfilled orders", "note": "Q3 FY27 company statement." },
+      { "label": "Walmart+ members", "value": "Roughly 30 to 35 million US households", "note": "Estimate. Walmart does not publish the count; based on CIRP survey estimates, 2025 to 2026." },
+      { "label": "US stores", "value": "About 4,600 Walmart stores plus 600 Sam's Clubs", "note": "Company figures; Walmart says about 90% of Americans live within 10 miles of a store." }
+    ],
+    "overview": {
+      "whatItDoes": "Walmart sells groceries, household goods, electronics and clothing at low prices through stores and its app. It turned its stores into delivery hubs, so an online order is picked from the shelf of a nearby store and driven to your door. It also runs a marketplace for outside sellers and a fast-growing ad business.",
+      "howItWorks": [
+        "You order in the Walmart app, choosing delivery, pickup at the store, or shipping.",
+        "Store staff pick the items from shelves near you. Drivers from Spark Driver, Walmart's gig delivery app, bring them in as little as 30 minutes for an express fee.",
+        "Walmart+ members ($98 a year or $12.95 a month) get free delivery on orders over $35, plus fuel discounts and Paramount+ or Peacock.",
+        "Outside sellers list millions of extra items on Walmart Marketplace and can pay Walmart to store and ship them (Walmart Fulfillment Services).",
+        "Brands pay Walmart Connect to show ads in the app and on its Vizio smart TVs, using Walmart's shopper data.",
+        "In 2026 Walmart launched a $120 a year bundle of Walmart+ and Sam's Club Plus."
+      ],
+      "valueProposition": "Everyday low prices on groceries with same-day delivery from a store near you. For families, it is often cheaper than Amazon for food and essentials."
+    },
+    "personas": [
+      {
+        "name": "Budget-conscious suburban parent",
+        "description": "35, two kids, does one big weekly grocery shop and many top-ups.",
+        "goals": ["Lowest price on groceries", "Save time on store trips", "Reliable same-day delivery"],
+        "frustrations": ["Substitutions for out-of-stock items", "Delivery fees without a membership", "Missing items in the bag"]
+      },
+      {
+        "name": "Rural shopper",
+        "description": "Lives far from big cities, where Walmart is the main store for miles.",
+        "goals": ["Get everything in one place", "Save money on fuel"],
+        "frustrations": ["Fewer delivery slots", "Slow shipping for marketplace items"]
+      },
+      {
+        "name": "SNAP or low-income household",
+        "description": "Uses government food benefits and watches every dollar.",
+        "goals": ["Pay with benefits online", "Free delivery at a low cost"],
+        "frustrations": ["Upfront membership cost"]
+      },
+      {
+        "name": "Marketplace seller",
+        "description": "A brand or small business that also sells on Amazon.",
+        "goals": ["Reach a new set of shoppers", "Lower fees than Amazon"],
+        "frustrations": ["Lower traffic than Amazon for some categories", "Strict performance rules"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Grocery shopping takes hours every week.", "howSolved": "Same-day delivery and pickup from the local store, often in under 3 hours.", "severity": "high" },
+      { "pain": "Food prices keep rising.", "howSolved": "Everyday low prices and Rollbacks, with the same prices online as in store for most items.", "severity": "high" },
+      { "pain": "Delivery fees add up.", "howSolved": "Walmart+ gives free delivery over $35 for $98 a year; Walmart+ Assist halves the fee for people on benefits.", "severity": "medium" },
+      { "pain": "Rural areas get slow delivery.", "howSolved": "Stores near rural homes act as the warehouse, so delivery can still be same day.", "severity": "medium" },
+      { "pain": "Fuel and streaming costs.", "howSolved": "Walmart+ includes fuel savings and Paramount+ or Peacock.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Store-fulfilled delivery", "whatItDoes": "Orders are picked from the nearest store and delivered by Spark drivers.", "whyItMatters": "Uses stores Walmart already pays for, so fast delivery is cheaper than building new warehouses. Grew over 40% in Q3 FY27." },
+      { "feature": "Walmart+", "whatItDoes": "Paid membership with free delivery, fuel savings, streaming and Scan and Go.", "whyItMatters": "Members order more often and stay loyal. Membership income rose 43% in Q3 FY27." },
+      { "feature": "Walmart Marketplace", "whatItDoes": "Outside sellers list items Walmart does not stock.", "whyItMatters": "Adds hundreds of millions of items without inventory cost. Grew 49% in Q3 FY27." },
+      { "feature": "Walmart Connect", "whatItDoes": "Ads in search results, on product pages, in stores and on Vizio TVs.", "whyItMatters": "High-profit revenue that pays for cheap delivery." },
+      { "feature": "Pickup", "whatItDoes": "Shopper orders online and staff load the car at the store.", "whyItMatters": "Free for the customer and cheap for Walmart, a gateway to online habits." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First grocery delivery",
+        "persona": "Budget-conscious suburban parent",
+        "steps": [
+          { "step": "Discover", "detail": "Sees a 'Free 30-day Walmart+ trial' banner in the app." },
+          { "step": "Fill basket", "detail": "Adds $90 of groceries, picks the 'Reorder' list of past store purchases." },
+          { "step": "Pick slot", "detail": "Chooses a 2-hour slot today; free over $35 with the trial." },
+          { "step": "Approve swaps", "detail": "Gets alerts if an item is out and approves a substitute." },
+          { "step": "Delivery", "detail": "Driver leaves bags at the door with a photo." },
+          { "step": "Convert", "detail": "After 30 days the trial turns into a paid $12.95 monthly plan." }
+        ]
+      },
+      {
+        "name": "Weekly top-up as a member",
+        "persona": "Budget-conscious suburban parent",
+        "steps": [
+          { "step": "Open app", "detail": "Home screen shows usual items and Rollback deals." },
+          { "step": "Add items", "detail": "Adds milk, bread and nappies in under 2 minutes." },
+          { "step": "Express option", "detail": "Pays extra for delivery within an hour when urgent." },
+          { "step": "Receive", "detail": "Order arrives in under 3 hours." },
+          { "step": "Fuel stop", "detail": "Uses Walmart+ fuel discount at a Walmart or Murphy station." }
+        ]
+      },
+      {
+        "name": "Seller launches on Marketplace",
+        "persona": "Marketplace seller",
+        "steps": [
+          { "step": "Apply", "detail": "Applies to Walmart Marketplace with business details." },
+          { "step": "List products", "detail": "Imports listings from its Amazon catalogue." },
+          { "step": "Choose fulfilment", "detail": "Sends stock to Walmart Fulfillment Services for 2-day shipping badges." },
+          { "step": "Buy ads", "detail": "Runs sponsored product ads through Walmart Connect." },
+          { "step": "Track", "detail": "Monitors on-time shipping and returns rate to stay eligible." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Walmart makes most of its money selling goods at thin margins, about 3 to 4% operating profit. Online growth adds three higher-margin layers: membership fees, marketplace commissions and advertising. Those layers help pay for fast delivery.",
+      "revenueStreams": [
+        { "stream": "Retail sales", "detail": "Groceries and general goods sold in stores and online, the vast majority of revenue." },
+        { "stream": "Membership fees", "detail": "Walmart+ ($98 a year) and Sam's Club fees. Membership income grew 43% in the US in Q3 FY27." },
+        { "stream": "Advertising", "detail": "Walmart Connect ads in the app, stores and on Vizio TVs. Up 37% globally in Q3 FY27." },
+        { "stream": "Marketplace commissions", "detail": "Usually 6 to 15% of the item price, plus fulfilment fees." },
+        { "stream": "International", "detail": "Flipkart and PhonePe in India, Walmex in Mexico, Walmart Canada and others; about $35.9 billion of sales in Q3 FY27." }
+      ],
+      "pricing": "Walmart+ costs $98 a year or $12.95 a month in the US. Free delivery on orders over $35 for members; non-members pay about $7.95 to $9.95 per delivery. Express delivery under an hour costs about $10 extra. Walmart+ and Sam's Club Plus bundle: $120 a year.",
+      "costDrivers": [
+        "Cost of the goods themselves, the biggest cost by far",
+        "Store staff wages, including pickers for online orders",
+        "Delivery driver payouts through Spark",
+        "Store rent, energy and upkeep",
+        "Technology and automation in distribution centres"
+      ],
+      "unitEconomics": "On a $100 grocery delivery for a Walmart+ member, Walmart earns about $24 gross margin on the goods. Picking costs about $5 to $8 and the driver about $7 to $10, so the order alone is close to break-even. What makes it work: the member fee (about $8 a month), ad money from brands on that order (a few dollars), and the fact that online customers spend more in total. Walmart says its US e-commerce business turned profitable in 2025."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Existing store shoppers moved online through pickup and app prompts",
+        "Free 30-day Walmart+ trials",
+        "Walmart+ Assist at half price for people on SNAP and other benefits",
+        "The $120 Walmart+ and Sam's Club Plus bundle",
+        "Higher-income households tempted by fast delivery; Walmart says these are its fastest-growing shopper group"
+      ],
+      "whatBringsUsersBack": [
+        "Groceries are needed every week",
+        "Free delivery over $35 makes members order more often",
+        "Saved lists and one-tap reorder",
+        "Fuel savings and streaming make the membership feel worth it",
+        "Low prices that customers trust"
+      ],
+      "moat": "Walmart already has about 4,600 US stores near almost every American, full of groceries. Using them as delivery hubs gives fast delivery without building new warehouses. Its huge buying power keeps prices low. Rivals like Amazon must build fresh food networks from scratch."
+    },
+    "competitors": [
+      { "name": "Amazon", "positioning": "Largest online retailer, Prime at $139 a year with fast shipping and video.", "howThisProductDiffers": "Walmart is stronger in groceries and in rural areas, and Walmart+ is cheaper. Amazon has more items and stronger video." },
+      { "name": "Costco", "positioning": "Membership warehouse with bulk low prices.", "howThisProductDiffers": "Walmart offers smaller basket sizes and same-day delivery; Sam's Club is its Costco rival." },
+      { "name": "Target", "positioning": "Slightly more upmarket general store with Target Circle 360.", "howThisProductDiffers": "Walmart has lower prices and bigger grocery range." },
+      { "name": "Instacart and DoorDash", "positioning": "Delivery apps for many grocers.", "howThisProductDiffers": "Walmart owns the stock and the stores, so it controls price and availability." },
+      { "name": "Kroger", "positioning": "Largest pure supermarket chain.", "howThisProductDiffers": "Walmart has wider general merchandise and a bigger ad and marketplace business." }
+    ],
+    "northStar": {
+      "metric": "Weekly households receiving an online order on time and complete",
+      "why": "It captures how many families Walmart actually saves time for each week, and it only grows if orders are fast and correct. Habits form when a family relies on Walmart for every weekly shop."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active online households",
+        "description": "Households that ordered online at least once in the last month.",
+        "children": [
+          { "metric": "Store shopper to app conversion", "description": "Share of in-store shoppers who place an online order." },
+          { "metric": "Walmart+ trial to paid rate", "description": "Share of trials that become paying members." },
+          { "metric": "Walmart+ member retention", "description": "Share of members who renew after a year." }
+        ]
+      },
+      {
+        "metric": "Order frequency",
+        "description": "Orders per active household per month.",
+        "children": [
+          { "metric": "Express delivery uptake", "description": "Use of sub-1-hour delivery for urgent top-ups." },
+          { "metric": "Reorder list usage", "description": "Share of orders started from a saved list." },
+          { "metric": "Categories per household", "description": "Groceries plus general goods; more categories, more orders." }
+        ]
+      },
+      {
+        "metric": "Order quality",
+        "description": "Share of orders on time and complete.",
+        "children": [
+          { "metric": "In-stock rate at the picking store", "description": "Fewer stockouts means fewer substitutions." },
+          { "metric": "On-time delivery rate", "description": "Delivered within the chosen slot." },
+          { "metric": "Substitution acceptance rate", "description": "Share of swaps the customer is happy with." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Cost per delivered order",
+      "In-store availability for walk-in shoppers (online picking must not empty shelves)",
+      "Ad load in search results, so shoppers still find the cheapest relevant item",
+      "Customer complaints about missing or wrong items"
+    ],
+    "strengths": [
+      "Stores near almost every US home act as ready-made delivery hubs",
+      "Lowest grocery prices among big US chains",
+      "Fast-growing, high-margin ads and membership income",
+      "Huge cash flow to fund automation and price cuts",
+      "Owns Flipkart, a leader in Indian e-commerce"
+    ],
+    "weaknesses": [
+      "Thin retail margins leave little room for error",
+      "Walmart+ is much smaller than Amazon Prime, which has an estimated 180 million-plus US members",
+      "Marketplace quality is uneven, with some low-quality third-party sellers",
+      "Weaker brand appeal for fashion and premium items",
+      "Order accuracy and substitutions still frustrate customers"
+    ],
+    "risks": [
+      "Tariffs on imported goods raising costs and prices",
+      "Amazon expanding same-day fresh grocery delivery into more US towns",
+      "Pressure on wages for store staff and drivers",
+      "Regulation of gig work for Spark drivers",
+      "Economic slowdown hitting general merchandise spending"
+    ],
+    "userComplaints": [
+      "Missing items and poor substitutions in grocery orders",
+      "Drivers leaving orders at the wrong address",
+      "Marketplace items that differ from listing photos",
+      "Walmart+ perks seen as weaker than Amazon Prime's",
+      "App search shows sponsored items above cheaper ones"
+    ],
+    "improvementIdeas": [
+      { "idea": "Live in-stock check at the picking store before checkout, with a clear 'likely out of stock' flag and preferred swap choice.", "problem": "Customers get surprise substitutions or missing items.", "expectedImpact": "Fewer complaints and refunds, more trust in delivery.", "metricToTrack": "Order completeness rate", "effort": "medium" },
+      { "idea": "Show members a monthly 'you saved $X with Walmart+' summary including delivery, fuel and streaming.", "problem": "Members feel Walmart+ is weaker than Prime and cancel.", "expectedImpact": "Higher renewal rates.", "metricToTrack": "Walmart+ 12-month retention", "effort": "low" },
+      { "idea": "Seller quality score that hides poorly rated marketplace sellers from top search spots.", "problem": "Marketplace items that do not match listings hurt Walmart's brand.", "expectedImpact": "Lower return rates on marketplace items.", "metricToTrack": "Marketplace return and complaint rate", "effort": "medium" },
+      { "idea": "Delivery photo verification with GPS check and a one-tap 'not my door' report.", "problem": "Orders left at the wrong address.", "expectedImpact": "Fewer lost orders and refunds.", "metricToTrack": "Wrong-address incidents per 1,000 orders", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Use assets you already have. Walmart turned stores into warehouses instead of copying Amazon's network.",
+      "Thin-margin businesses can win online by adding high-margin layers like ads and memberships on top of each order.",
+      "A cheaper membership can win if it targets the most frequent need, here weekly groceries.",
+      "Speed is a product feature. Under-3-hour delivery changed how often families order."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you grow Walmart+ against Amazon Prime?", "hint": "Pick a segment (families, rural, benefit users). Find why they do not join or why they cancel. Propose features or bundles. Track trial-to-paid and retention." },
+      { "question": "Walmart's store-fulfilled delivery grew 40%. What could go wrong for in-store shoppers?", "hint": "Think empty shelves, crowded aisles from pickers, staff stress. Suggest guardrail metrics and fixes like dedicated picking hours or backroom stock." },
+      { "question": "How should Walmart decide how many ads to show in search?", "hint": "Balance ad revenue versus conversion and trust. Run A/B tests with different ad loads, measure revenue per search and repeat purchase." },
+      { "question": "Design an improved substitution experience.", "hint": "Map the journey: out-of-stock found, choice offered, customer response. Ideas: preferences at add-to-cart, AI suggestions, refunds. Metric: acceptance rate." },
+      { "question": "What is the north star for Walmart's online business, and why?", "hint": "Value delivered, not revenue. Suggest weekly households with on-time complete orders. Break into households, frequency and quality." }
+    ],
+    "glossary": [
+      { "term": "E-commerce", "meaning": "Buying and selling goods online." },
+      { "term": "Marketplace", "meaning": "A platform where outside sellers list and sell their own goods to the platform's customers." },
+      { "term": "Store-fulfilled delivery", "meaning": "When online orders are picked from a nearby store's shelves rather than a central warehouse." },
+      { "term": "Retail media", "meaning": "Ads that a retailer sells to brands, shown on its website, app or stores." },
+      { "term": "Gross margin", "meaning": "What is left from a sale after paying for the goods themselves." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Retention", "meaning": "The share of customers who keep using or paying after a set time." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "Break-even", "meaning": "When income exactly covers costs, with no profit or loss." }
+    ],
+    "assumptions": [
+      "Walmart+ member count is an outside estimate; Walmart does not publish it.",
+      "Per-order picking and delivery costs in the unit economics example are rough estimates, not company figures.",
+      "Gross margin of about 24% is based on Walmart's reported company-wide gross margin.",
+      "Marketplace commission range of 6 to 15% is from Walmart's published referral fee table and varies by category."
+    ]
+  }
+}

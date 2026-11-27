@@ -1,0 +1,524 @@
+{
+  "company": "Granola",
+  "domain": "granola.ai",
+  "website": "https://granola.ai",
+  "sources": [
+    "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+    "https://techcrunch.com/2025/05/14/ai-note-taking-app-granola-raises-43m-at-250m-valuation-launches-collaborative-features",
+    "https://thenextweb.com/news/granola-series-c-meeting-ai-enterprise-context",
+    "https://laffaz.com/granola-ai-meeting-app-125m-series-c-unicorn",
+    "https://www.vktr.com/digital-workplace/granola-raises-125m-launches-enterprise-context-tools/"
+  ],
+  "report": {
+    "company": "Granola",
+    "tagline": "An AI notepad for meetings that listens through your computer, with no bot joining the call, and turns your rough notes into clean summaries.",
+    "category": "AI meeting notes",
+    "simpleSummary": "Granola is a notes app for meetings. You open it during a call and jot a few rough notes. Granola quietly listens to the audio on your laptop or phone, and when the meeting ends it combines your notes with what was said into a tidy summary. Unlike most rivals, no robot 'notetaker' joins the call, which makes it feel natural and polite.",
+    "keyNumbers": [
+      {
+        "label": "Valuation",
+        "value": "$1.5 billion (March 2026)",
+        "note": "Series C reported by TechCrunch. Up from $250 million in May 2025, about 6x in 10 months."
+      },
+      {
+        "label": "Series C raise",
+        "value": "$125 million (March 2026)",
+        "note": "TechCrunch and The Next Web. Money to build enterprise features and APIs."
+      },
+      {
+        "label": "Earlier raise",
+        "value": "$43 million Series B (May 2025)",
+        "note": "TechCrunch."
+      },
+      {
+        "label": "Early traction",
+        "value": "Grew from about 5,000 weekly users at launch",
+        "note": "Laffaz report, 2026. Current user count not public; we estimate hundreds of thousands of weekly users."
+      },
+      {
+        "label": "Business price",
+        "value": "About $14 per user a month",
+        "note": "Granola pricing page. Free plan with limits. Enterprise plan higher, around $35 per user."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Granola is a desktop and iPhone app that captures meeting audio, transcribes it and writes notes. It works with any call app (Zoom, Google Meet, Teams, Slack) and in-person meetings, because it records the device audio directly. It is moving from personal notes to a company-wide 'memory' of meetings that teams and AI tools can search.",
+      "howItWorks": [
+        "Granola sees your calendar and pops up when a meeting starts.",
+        "It transcribes your computer's microphone and speaker audio; no bot joins the call.",
+        "You type short notes during the meeting if you want.",
+        "Afterward, AI expands your notes into a full summary using the transcript, in your format or a template.",
+        "Chat with one meeting or all past meetings, for example 'What did the client say about pricing?'",
+        "Share notes to Slack, Notion or a CRM, and use shared team folders and APIs for company knowledge."
+      ],
+      "valueProposition": "Great meeting notes without a bot in the call and without breaking your focus."
+    },
+    "personas": [
+      {
+        "name": "Startup founder or investor",
+        "description": "A VC or founder with 8 back-to-back calls a day who needs to remember every detail.",
+        "goals": [
+          "Stay present in conversations",
+          "Remember key facts later",
+          "Share notes with partners"
+        ],
+        "frustrations": [
+          "Bots in calls feel awkward with founders and clients",
+          "Typing notes means missing the conversation",
+          "Searching old notes is hard"
+        ]
+      },
+      {
+        "name": "Sales rep",
+        "description": "Account executive at a B2B software company doing discovery calls.",
+        "goals": [
+          "Capture client needs",
+          "Update the CRM quickly",
+          "Prepare for follow-ups"
+        ],
+        "frustrations": [
+          "CRM updates take time",
+          "Bots scare some prospects",
+          "Company security approval for new tools"
+        ]
+      },
+      {
+        "name": "Product manager",
+        "description": "Runs user interviews and team meetings.",
+        "goals": [
+          "Collect user quotes",
+          "Find patterns across interviews",
+          "Share decisions with the team"
+        ],
+        "frustrations": [
+          "Transcripts are too long to read",
+          "Notes scattered across tools",
+          "Speaker labels sometimes wrong"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Taking notes in meetings means not listening fully.",
+        "howSolved": "Granola listens and writes; you only jot a few key points.",
+        "severity": "high"
+      },
+      {
+        "pain": "Meeting bots joining calls feel intrusive and awkward.",
+        "howSolved": "Granola records device audio, so no bot appears.",
+        "severity": "high"
+      },
+      {
+        "pain": "Raw AI transcripts are long and unhelpful.",
+        "howSolved": "Combines your notes with the transcript to write focused, structured notes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Finding what was said weeks ago is hard.",
+        "howSolved": "Chat across all your past meetings.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Teams lose context when people miss meetings.",
+        "howSolved": "Shared folders and links to notes in Slack and other tools.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Bot-free recording",
+        "whatItDoes": "Captures system audio from your device for any call or in person.",
+        "whyItMatters": "The main difference from Otter and Fireflies; it makes the product feel human and polite."
+      },
+      {
+        "feature": "Enhanced notes",
+        "whatItDoes": "AI improves your typed notes using the transcript.",
+        "whyItMatters": "Keeps the user in control and produces notes that match what they care about."
+      },
+      {
+        "feature": "Templates and recipes",
+        "whatItDoes": "Formats for sales calls, interviews, one-on-ones and more.",
+        "whyItMatters": "Fits notes to the job and saves editing time."
+      },
+      {
+        "feature": "Chat across meetings",
+        "whatItDoes": "Ask questions over one or many meetings.",
+        "whyItMatters": "Turns notes into a searchable memory, which increases switching costs."
+      },
+      {
+        "feature": "Team spaces and APIs",
+        "whatItDoes": "Shared folders, admin controls and APIs that feed meeting context to other AI tools.",
+        "whyItMatters": "The path to enterprise revenue and the 'company context' strategy."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First meeting",
+        "persona": "Startup founder or investor",
+        "steps": [
+          {
+            "step": "Hears from a peer",
+            "detail": "Another VC mentions Granola on X."
+          },
+          {
+            "step": "Downloads Mac app",
+            "detail": "Connects Google Calendar."
+          },
+          {
+            "step": "Joins a Zoom call",
+            "detail": "Granola pops up; they type 3 bullet points."
+          },
+          {
+            "step": "Meeting ends",
+            "detail": "Gets a full summary in seconds."
+          },
+          {
+            "step": "Wow moment",
+            "detail": "Notes are better than they would have written."
+          },
+          {
+            "step": "Uses daily",
+            "detail": "Opens Granola for every call."
+          }
+        ]
+      },
+      {
+        "name": "Team adoption",
+        "persona": "Sales rep",
+        "steps": [
+          {
+            "step": "Uses it alone",
+            "detail": "Starts on the free plan."
+          },
+          {
+            "step": "Shares notes",
+            "detail": "Sends a link to their manager."
+          },
+          {
+            "step": "Manager signs up",
+            "detail": "Then the whole team."
+          },
+          {
+            "step": "Company buys Business",
+            "detail": "Pays about $14 per user a month."
+          },
+          {
+            "step": "Connects CRM",
+            "detail": "Pushes notes to the CRM."
+          }
+        ]
+      },
+      {
+        "name": "Research synthesis",
+        "persona": "Product manager",
+        "steps": [
+          {
+            "step": "Runs 10 interviews",
+            "detail": "Granola captures each."
+          },
+          {
+            "step": "Uses interview template",
+            "detail": "Notes show pains, quotes and requests."
+          },
+          {
+            "step": "Puts them in a folder",
+            "detail": "Groups all interviews."
+          },
+          {
+            "step": "Asks a question",
+            "detail": "'What are the top 3 complaints?'"
+          },
+          {
+            "step": "Shares findings",
+            "detail": "Posts summary to the team."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Granola sells subscriptions. Individuals start free, then pay when they hit limits. Teams and companies pay per user per month for sharing, admin controls and security. Growth is bottom-up: one person loves it, then their team and company buy it.",
+      "revenueStreams": [
+        {
+          "stream": "Business plan",
+          "detail": "About $14 per user a month for unlimited meetings and team features."
+        },
+        {
+          "stream": "Enterprise plan",
+          "detail": "Higher price for admin, security and APIs."
+        },
+        {
+          "stream": "Individual paid plans",
+          "detail": "For users who outgrow free limits."
+        }
+      ],
+      "pricing": "Free plan with limited meeting history. Business about $14 per user a month. Enterprise about $35 per user a month or custom. Prices from granola.ai and may change.",
+      "costDrivers": [
+        "Transcription and AI model costs for every meeting",
+        "Engineering for Mac, Windows and iPhone apps",
+        "Free users",
+        "Enterprise security and compliance work",
+        "Small marketing spend"
+      ],
+      "unitEconomics": "A Business user pays $14 a month. If they have 40 meetings a month, transcription and AI summaries might cost $2 to 4. So each paying user is likely profitable with a 70% or so gross margin. Since growth comes mostly from word of mouth, the cost to win a user is low, which makes each customer very valuable over time."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth among founders, investors and tech workers",
+        "Shared note links that show the product to others",
+        "Posts on X and LinkedIn praising the experience",
+        "Being bot-free means no awkward exposure, but users recommend it",
+        "Bottom-up team adoption inside companies"
+      ],
+      "whatBringsUsersBack": [
+        "Every meeting triggers Granola via the calendar",
+        "Past notes become more valuable over time",
+        "Chat across meetings encourages regular search",
+        "Team folders bind colleagues together"
+      ],
+      "moat": "Granola's moat is a simple, loved experience and the growing memory of each user's meetings. The more meetings you store, the harder it is to leave. But big players like Zoom, Microsoft and Google can build similar features, so Granola must win on quality and becoming the company's meeting knowledge base."
+    },
+    "competitors": [
+      {
+        "name": "Otter.ai",
+        "positioning": "Early AI transcription and meeting assistant.",
+        "howThisProductDiffers": "Otter often uses a bot; Granola is bot-free and focuses on note quality."
+      },
+      {
+        "name": "Fireflies.ai and Fathom",
+        "positioning": "Meeting bots with summaries and CRM integrations.",
+        "howThisProductDiffers": "Strong for sales teams; Granola feels lighter and more personal."
+      },
+      {
+        "name": "Zoom AI Companion and Google Gemini in Meet",
+        "positioning": "Built-in notes in call apps.",
+        "howThisProductDiffers": "Free with the call app but only work there; Granola works across all apps."
+      },
+      {
+        "name": "Microsoft Copilot in Teams",
+        "positioning": "Meeting recaps for Microsoft 365 users.",
+        "howThisProductDiffers": "Built into Teams; Granola works across Zoom, Meet and in-person."
+      },
+      {
+        "name": "Notion AI Meeting Notes",
+        "positioning": "Meeting notes inside Notion.",
+        "howThisProductDiffers": "Fits Notion users; Granola is focused only on meetings."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly meetings with notes that are opened, shared or searched later",
+      "why": "Notes create value when people use them after the meeting. This north star metric shows real value, and it grows with both meeting volume and how useful the notes are. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Meetings captured",
+        "description": "How many meetings Granola records.",
+        "children": [
+          {
+            "metric": "Calendar connected rate",
+            "description": "Users who link calendars, which triggers capture."
+          },
+          {
+            "metric": "Capture rate per scheduled meeting",
+            "description": "Share of meetings recorded."
+          },
+          {
+            "metric": "Platforms covered",
+            "description": "Mac, Windows and iPhone usage."
+          }
+        ]
+      },
+      {
+        "metric": "Note quality",
+        "description": "How useful the notes are.",
+        "children": [
+          {
+            "metric": "Edit rate after summary",
+            "description": "Less editing means better notes."
+          },
+          {
+            "metric": "Template use",
+            "description": "Shows notes fit the task."
+          },
+          {
+            "metric": "User rating",
+            "description": "Thumbs up on notes."
+          }
+        ]
+      },
+      {
+        "metric": "Notes reused",
+        "description": "Use after the meeting.",
+        "children": [
+          {
+            "metric": "Shares per note",
+            "description": "Spreads value and growth."
+          },
+          {
+            "metric": "Chat queries per user",
+            "description": "Searching past meetings."
+          },
+          {
+            "metric": "Integrations pushed",
+            "description": "Notes sent to Slack, Notion or CRM."
+          }
+        ]
+      },
+      {
+        "metric": "Team adoption",
+        "description": "Companies using it together.",
+        "children": [
+          {
+            "metric": "Users per company",
+            "description": "Spread inside companies."
+          },
+          {
+            "metric": "Free to Business upgrade",
+            "description": "Teams that start paying."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Consent complaints from meeting participants",
+      "Transcription accuracy",
+      "AI cost per meeting",
+      "Data security incidents"
+    ],
+    "strengths": [
+      "Bot-free design that people love",
+      "Very simple, clean experience",
+      "Strong word of mouth with influential users",
+      "Works across all call apps and in person",
+      "Fast valuation growth and good funding"
+    ],
+    "weaknesses": [
+      "Other participants may not know they are being transcribed",
+      "Windows and mobile came later than Mac",
+      "Fewer sales features than Gong or Fireflies",
+      "No saved audio recordings in many cases, which some users want",
+      "Small team versus big rivals"
+    ],
+    "risks": [
+      "Recording consent laws in some US states and other countries",
+      "Zoom, Microsoft and Google offering free built-in notes",
+      "AI model costs and dependence on model providers",
+      "Enterprise security requirements slowing deals",
+      "Copycats with lower prices"
+    ],
+    "userComplaints": [
+      "Speaker names sometimes mixed up",
+      "Free plan limits feel tight",
+      "Concerns about not notifying others in the call",
+      "Occasional missed audio or failed captures",
+      "Windows app less polished than Mac"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Optional one-click consent message sent to the meeting chat",
+        "problem": "Participants may not know they are transcribed, causing legal and trust risks.",
+        "expectedImpact": "Fewer complaints and easier enterprise approval.",
+        "metricToTrack": "Consent complaints and enterprise win rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Speaker voice profiles to label regular colleagues correctly",
+        "problem": "Mixed-up speakers reduce trust in notes.",
+        "expectedImpact": "Better note quality and fewer edits.",
+        "metricToTrack": "Edit rate after summary",
+        "effort": "medium"
+      },
+      {
+        "idea": "Native CRM sync with auto-filled fields for sales teams",
+        "problem": "Sales reps waste time updating CRMs.",
+        "expectedImpact": "More sales team adoption and paid seats.",
+        "metricToTrack": "Business seats in sales teams",
+        "effort": "medium"
+      },
+      {
+        "idea": "Weekly digest of decisions and action items across all meetings",
+        "problem": "Users forget follow-ups.",
+        "expectedImpact": "More weekly engagement and value.",
+        "metricToTrack": "Weekly active users",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Small UX choices can define a product. Removing the bot made Granola feel different from every rival.",
+      "Keep the user in control. Expanding the user's own notes builds trust.",
+      "Bottom-up growth works. Delight individuals and teams follow.",
+      "Data builds stickiness. A library of past meetings makes leaving harder.",
+      "Watch for platform risk. Zoom, Microsoft and Google can copy features."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Granola does not send a bot into meetings. What are the trade-offs?",
+        "hint": "Pros: natural, polite, works everywhere. Cons: consent, no video, depends on device audio. Suggest mitigations."
+      },
+      {
+        "question": "How would you take Granola from individuals to enterprises?",
+        "hint": "Map buyer needs: security, admin, consent, integrations. Use bottom-up usage data to sell. Measure seats per company."
+      },
+      {
+        "question": "Zoom makes AI notes free for all users. How should Granola respond?",
+        "hint": "Focus on cross-platform, in-person, quality and memory. Consider pricing and partnerships."
+      },
+      {
+        "question": "Define a north star for Granola.",
+        "hint": "Meetings with notes used after. Break into captured, quality, reuse and team adoption."
+      },
+      {
+        "question": "How would you design Granola for Indian teams?",
+        "hint": "Hindi and Hinglish transcription, low price, WhatsApp sharing, mobile focus. Test with startups."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bottom-up growth",
+        "meaning": "When individual users adopt a product first and then their company buys it."
+      },
+      {
+        "term": "Transcription",
+        "meaning": "Turning spoken audio into written text."
+      },
+      {
+        "term": "CRM",
+        "meaning": "Customer relationship management: software sales teams use to track customers."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "The share of revenue left after direct costs like AI and transcription."
+      },
+      {
+        "term": "Switching costs",
+        "meaning": "The effort or loss a user faces when moving to another product."
+      },
+      {
+        "term": "Platform risk",
+        "meaning": "The danger that a bigger company whose platform you rely on copies you or cuts you off."
+      },
+      {
+        "term": "Word of mouth",
+        "meaning": "Users telling others about a product."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that protects a business from competitors."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow; Granola's guardrail metrics include consent complaints."
+      }
+    ],
+    "assumptions": [
+      "Current user numbers are not public; estimates are ours.",
+      "Cost per meeting and gross margin are our estimates.",
+      "Enterprise pricing is approximate.",
+      "Pricing details may have changed since writing.",
+      "The north star metric is our proposal."
+    ]
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "company": "Telegram",
+  "domain": "telegram.org",
+  "website": "https://telegram.org",
+  "sources": [
+    "https://techcrunch.com/2025/03/19/telegram-founder-pavel-durov-says-app-now-has-1b-users-calls-whatsapp-a-cheap-watered-down-imitation",
+    "https://cointelegraph.com/news/telegram-revenue-2-billion-full-year-target-report",
+    "https://finance.yahoo.com/news/telegram-revenue-surges-65-870m-160000131.html",
+    "https://www.kucoin.com/news/flash/telegram-2025-h1-revenue-hits-870m-but-posts-220m-loss-amid-ton-price-drop",
+    "https://techeconomy.ng/telegram-is-now-profitable-pavel-durov-announces-1-billion-revenue-milestone/",
+    "https://sqmagazine.co.uk/telegram-statistics/"
+  ],
+  "report": {
+    "company": "Telegram",
+    "tagline": "A cloud-based messaging app with huge groups, broadcast channels and mini-apps, used by more than a billion people.",
+    "category": "Messaging",
+    "simpleSummary": "Telegram is a chat app like WhatsApp, but your messages live in the cloud, so you can open them on any phone or laptop at once. Groups can have up to 200,000 members, and 'channels' let anyone broadcast to millions, like a newsletter inside your chat app. In India, people use it for stock tips, exam prep, job alerts and, often, pirated movies. It makes money from Telegram Premium, ads in big channels, and crypto deals tied to the TON blockchain.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "1 billion+",
+        "note": "Founder Pavel Durov said Telegram crossed 1 billion monthly users in March 2025. Not independently audited."
+      },
+      {
+        "label": "Revenue, first half of 2025",
+        "value": "$870 million, up 65%",
+        "note": "Unaudited figures shared with bond investors, reported by the Financial Times in 2025. About a third came from Toncoin-related deals."
+      },
+      {
+        "label": "Revenue, full year 2024",
+        "value": "About $1.4 billion, first profitable year",
+        "note": "Reported in news coverage of Telegram's investor materials. Durov said 2024 was Telegram's first profitable year."
+      },
+      {
+        "label": "Net result, first half of 2025",
+        "value": "Loss of about $220 million",
+        "note": "Mainly from writing down the value of Toncoin it holds, after the coin's price fell. FT report, 2025."
+      },
+      {
+        "label": "Telegram Premium subscribers",
+        "value": "About 15 million",
+        "note": "Durov's public statement in 2025. Estimate; could be higher by late 2026."
+      },
+      {
+        "label": "Staff",
+        "value": "Around 30 to 60 core engineers",
+        "note": "Durov often says Telegram is run by a very small team. Exact count is not public."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Telegram lets people chat one-to-one, in groups of up to 200,000, and broadcast to unlimited followers through channels. Messages sync across devices from the cloud. Developers build bots and mini-apps that run inside Telegram, from games to shops.",
+      "howItWorks": [
+        "Sign up with a phone number, but chat by username so your number can stay hidden.",
+        "Chats are stored on Telegram's servers, so they sync on all devices. End-to-end encrypted 'Secret Chats' are optional, not the default.",
+        "Channels let one person or brand post to unlimited subscribers; groups let members talk together.",
+        "Bots and Mini Apps run inside chats, for things like games, payments, file search and trading.",
+        "Telegram Stars, an in-app currency, is used to buy digital goods, pay creators and unlock paid posts.",
+        "Big public channels show sponsored messages, and owners can share in the ad money."
+      ],
+      "valueProposition": "Fast, free messaging that works on every device, with huge groups and broadcast channels that WhatsApp does not match, and a platform for bots and mini-apps."
+    },
+    "personas": [
+      {
+        "name": "The Indian exam aspirant",
+        "description": "A 21-year-old in Patna preparing for SSC and banking exams, subscribed to 30 channels for notes, PDFs and daily quizzes.",
+        "goals": [
+          "Get free study material and current affairs every day",
+          "Ask doubts in large study groups"
+        ],
+        "frustrations": [
+          "Too many spam channels and fake job offers",
+          "Files and messages hard to find later",
+          "Phone storage fills up with downloaded PDFs"
+        ]
+      },
+      {
+        "name": "The channel creator",
+        "description": "Runs a stock market tips channel with 300,000 subscribers and posts several times a day.",
+        "goals": [
+          "Grow subscribers",
+          "Earn money from ads, paid posts or a premium group"
+        ],
+        "frustrations": [
+          "Ad revenue share is paid in Toncoin, which is hard to cash out in India",
+          "Copycat channels steal content",
+          "Risk of channel takedown after complaints"
+        ]
+      },
+      {
+        "name": "The privacy-minded power user",
+        "description": "A tech worker who uses Telegram on phone, laptop and tablet, likes usernames instead of numbers and uses many folders.",
+        "goals": [
+          "Use chat on every device without a phone link",
+          "Keep their phone number private"
+        ],
+        "frustrations": [
+          "Normal chats are not end-to-end encrypted by default",
+          "Telegram shares more user data with authorities since 2024"
+        ]
+      },
+      {
+        "name": "The crypto and mini-app user",
+        "description": "Plays tap-to-earn games and uses the built-in Wallet to hold TON or USDT.",
+        "goals": [
+          "Earn rewards and trade inside one app",
+          "Pay creators with Stars"
+        ],
+        "frustrations": [
+          "Many mini-app games turn out to be low-value or scams",
+          "Crypto prices fall and rewards lose value"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "WhatsApp groups max out at 1,024 people and are messy at scale.",
+        "howSolved": "Groups of up to 200,000 members with admin tools, topics, slow mode and pinned messages.",
+        "severity": "high"
+      },
+      {
+        "pain": "Sharing big files like lecture videos is hard on most chat apps.",
+        "howSolved": "Files up to 2 GB free (4 GB with Premium), stored in the cloud.",
+        "severity": "high"
+      },
+      {
+        "pain": "Creators need a way to reach followers directly without an algorithm hiding posts.",
+        "howSolved": "Channels deliver every post to subscribers' chat list, with view counts and reactions.",
+        "severity": "high"
+      },
+      {
+        "pain": "Using chat on many devices usually requires your phone to stay online.",
+        "howSolved": "Cloud sync lets you log in on any device independently.",
+        "severity": "medium"
+      },
+      {
+        "pain": "People do not want to share their phone number with strangers in groups.",
+        "howSolved": "Usernames and privacy settings hide your number.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small developers struggle to reach users with a new app.",
+        "howSolved": "Mini Apps run inside Telegram, reaching users without an app store download.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Channels",
+        "whatItDoes": "One-to-many broadcast feeds with unlimited subscribers.",
+        "whyItMatters": "The main reason many Indians install Telegram, and the inventory for Telegram Ads."
+      },
+      {
+        "feature": "Supergroups",
+        "whatItDoes": "Group chats of up to 200,000 people with topics, polls and admin controls.",
+        "whyItMatters": "Lets communities like exam groups and trading clubs run at a scale WhatsApp cannot."
+      },
+      {
+        "feature": "Cloud storage and multi-device",
+        "whatItDoes": "Unlimited cloud history and large file sharing, synced to all devices.",
+        "whyItMatters": "Makes Telegram a free file locker and a desktop-friendly chat app."
+      },
+      {
+        "feature": "Telegram Premium",
+        "whatItDoes": "Paid plan with 4 GB uploads, faster downloads, voice-to-text, more folders, no ads and badges.",
+        "whyItMatters": "Steady subscription revenue from about 15 million power users."
+      },
+      {
+        "feature": "Bots, Mini Apps and Stars",
+        "whatItDoes": "Developer apps inside Telegram, paid for with Stars, the in-app currency.",
+        "whyItMatters": "Turns Telegram into a platform where it earns a cut of digital purchases."
+      },
+      {
+        "feature": "Telegram Ads",
+        "whatItDoes": "Short sponsored messages shown in public channels with 1,000+ subscribers.",
+        "whyItMatters": "Earns money from free users, and shares 50% with channel owners to keep creators on Telegram."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Joining for study material",
+        "persona": "The Indian exam aspirant",
+        "steps": [
+          {
+            "step": "Finds a link",
+            "detail": "A YouTube teacher says 'join my Telegram for free PDFs' and shares a t.me link."
+          },
+          {
+            "step": "Installs and signs up",
+            "detail": "Downloads Telegram and verifies a phone number with an OTP."
+          },
+          {
+            "step": "Joins the channel",
+            "detail": "Subscribes and downloads the day's notes."
+          },
+          {
+            "step": "Discovers more",
+            "detail": "The teacher shares links to related channels and a doubt group."
+          },
+          {
+            "step": "Organises",
+            "detail": "Creates a folder called 'Exam' to group 30 channels."
+          },
+          {
+            "step": "Daily habit",
+            "detail": "Opens Telegram each morning for current affairs and the daily quiz."
+          }
+        ]
+      },
+      {
+        "name": "Earning from a channel",
+        "persona": "The channel creator",
+        "steps": [
+          {
+            "step": "Starts a channel",
+            "detail": "Creates a public channel with a simple username."
+          },
+          {
+            "step": "Grows subscribers",
+            "detail": "Promotes it on Instagram and X, and swaps shout-outs with other channels."
+          },
+          {
+            "step": "Crosses 1,000 subscribers",
+            "detail": "Becomes eligible for revenue sharing from Telegram Ads."
+          },
+          {
+            "step": "Turns on paid content",
+            "detail": "Sells paid posts or a private premium group for Stars or a subscription."
+          },
+          {
+            "step": "Collects earnings",
+            "detail": "Receives ad share in Toncoin through Fragment and converts it on a crypto exchange."
+          },
+          {
+            "step": "Keeps posting",
+            "detail": "Posts daily to keep views high, since ad earnings depend on views."
+          }
+        ]
+      },
+      {
+        "name": "Upgrading to Premium",
+        "persona": "The privacy-minded power user",
+        "steps": [
+          {
+            "step": "Hits a limit",
+            "detail": "Wants to send a 3 GB video or join more than 500 channels."
+          },
+          {
+            "step": "Sees Premium",
+            "detail": "Telegram shows what Premium unlocks."
+          },
+          {
+            "step": "Checks price",
+            "detail": "About $4.99 a month in the US; lower in India."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Pays through the app store or a bot, or receives Premium as a gift from a friend."
+          },
+          {
+            "step": "Uses perks",
+            "detail": "Turns voice notes into text, removes ads, adds animated emoji status."
+          },
+          {
+            "step": "Renews",
+            "detail": "Stays because uploads and voice-to-text become part of daily use."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Telegram is free and makes money from four things: Premium subscriptions, ads in public channels, a cut of in-app purchases made with Stars, and crypto-related deals and sales linked to the TON blockchain. It spends very little because the team is tiny. Crypto income makes results swing up and down with coin prices.",
+      "revenueStreams": [
+        {
+          "stream": "Telegram Premium",
+          "detail": "About 15 million subscribers paying around $4.99 a month in the US, less in India. Likely several hundred million dollars a year."
+        },
+        {
+          "stream": "Telegram Ads",
+          "detail": "Sponsored messages in big public channels. Channel owners get 50% of ad revenue from their channel, paid in Toncoin."
+        },
+        {
+          "stream": "Stars and mini-app purchases",
+          "detail": "Users buy Stars to pay for digital goods, paid posts and gifts. Telegram keeps a share."
+        },
+        {
+          "stream": "TON and partnership deals",
+          "detail": "Exclusivity deals with the TON ecosystem and sales of Toncoin, about $300 million in H1 2025. Also auctions of usernames and collectible gifts on Fragment."
+        }
+      ],
+      "pricing": "Free. Telegram Premium about $4.99 a month in the US, with lower local prices in India and other countries. Ads are bought through Telegram's ad platform.",
+      "costDrivers": [
+        "Servers and storage for unlimited cloud history and 2 GB files",
+        "Bandwidth for media, which is the biggest cost driver",
+        "Legal and compliance costs after Durov's 2024 arrest in France",
+        "Interest on bonds Telegram issued to fund itself",
+        "A small team of engineers and moderators"
+      ],
+      "unitEconomics": "With 1 billion users and about $1.4 billion revenue in 2024, Telegram earns about $1.40 per user per year. Revenue per user is ARPU (average revenue per user). Most of that comes from the 1.5% who pay for Premium: one Premium user at $4.99 a month brings about $60 a year before app store fees. Free users cost money in storage and bandwidth, so Telegram depends on a small paying group plus ads and crypto deals. Its tiny team keeps costs low, which is how a $1.40-per-user business made a profit in 2024."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Invite links to channels and groups shared on YouTube, Instagram and WhatsApp",
+        "Content people cannot easily get elsewhere: exam material, stock tips, and sadly pirated films",
+        "Bans or outages of WhatsApp and other apps push users over",
+        "Viral mini-app games like Notcoin and Hamster Kombat in 2024"
+      ],
+      "whatBringsUsersBack": [
+        "Daily posts in subscribed channels",
+        "Active large groups with constant chatter",
+        "Mini-app games with daily rewards",
+        "Cloud history and files, so Telegram becomes a personal storage locker"
+      ],
+      "moat": "Millions of channels and groups exist only on Telegram, so followers have to come here. Creators can't easily move their audiences because subscribers do not share contact details with them. The bot and mini-app ecosystem also takes years to build."
+    },
+    "competitors": [
+      {
+        "name": "WhatsApp",
+        "positioning": "Default chat app in India with over 500 million users, owned by Meta, end-to-end encrypted by default.",
+        "howThisProductDiffers": "Telegram has bigger groups, larger files, cloud sync and a stronger channel product. WhatsApp has more users and default encryption."
+      },
+      {
+        "name": "Signal",
+        "positioning": "Non-profit, privacy-first messenger.",
+        "howThisProductDiffers": "Signal encrypts everything by default but has no channels or bots. Telegram trades some privacy for features."
+      },
+      {
+        "name": "Discord",
+        "positioning": "Community chat with voice rooms.",
+        "howThisProductDiffers": "Telegram is simpler and phone-first; Discord is stronger for gaming and voice."
+      },
+      {
+        "name": "Instagram broadcast channels and YouTube",
+        "positioning": "Creator broadcast tools inside social apps.",
+        "howThisProductDiffers": "Telegram channels deliver every post with no algorithm and allow files, links and paid groups."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily active users who read or send messages in at least one group or channel",
+      "why": "Telegram's edge over WhatsApp is groups and channels. Users who use them daily get the unique value Telegram offers and are the ones who see ads and buy Premium."
+    },
+    "kpiTree": [
+      {
+        "metric": "Channel reach",
+        "description": "How many people read channels each day.",
+        "children": [
+          {
+            "metric": "New channel subscriptions per day",
+            "description": "Shows discovery is working."
+          },
+          {
+            "metric": "Average views per channel post",
+            "description": "Drives ad revenue and creator earnings."
+          },
+          {
+            "metric": "Active channels with daily posts",
+            "description": "More active creators means more reasons to open the app."
+          }
+        ]
+      },
+      {
+        "metric": "Group engagement",
+        "description": "How active groups are.",
+        "children": [
+          {
+            "metric": "Messages per active group per day",
+            "description": "A lively group brings members back."
+          },
+          {
+            "metric": "Spam messages removed",
+            "description": "Less spam keeps groups useful."
+          }
+        ]
+      },
+      {
+        "metric": "Platform usage",
+        "description": "Use of bots, mini-apps and Stars.",
+        "children": [
+          {
+            "metric": "Weekly mini-app users",
+            "description": "Shows the platform is growing beyond chat."
+          },
+          {
+            "metric": "Stars spent per paying user",
+            "description": "Shows creators and developers are earning."
+          }
+        ]
+      },
+      {
+        "metric": "Paid conversion",
+        "description": "Turning heavy users into Premium subscribers.",
+        "children": [
+          {
+            "metric": "Premium conversion rate",
+            "description": "Share of monthly users who pay."
+          },
+          {
+            "metric": "Premium renewal rate",
+            "description": "Share of subscribers who renew; shows retention, meaning people stay."
+          },
+          {
+            "metric": "Premium gifts sent",
+            "description": "Gifting spreads Premium to new users."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Reports of illegal content such as child abuse, piracy and scams",
+      "Government takedown and ban orders by country",
+      "App crash and message delivery failure rates",
+      "Ad hide rate in channels"
+    ],
+    "strengths": [
+      "Over 1 billion users with a very small team, so costs per user are tiny",
+      "Best-in-class channels and huge groups",
+      "Cloud sync that works on many devices",
+      "A real developer platform with bots, Mini Apps and payments",
+      "Became profitable in 2024"
+    ],
+    "weaknesses": [
+      "Revenue swings with crypto prices: a TON price drop caused a loss in H1 2025",
+      "Normal chats are not end-to-end encrypted by default, despite a privacy image",
+      "Weak moderation makes it a home for piracy, scams and illegal content",
+      "Very low revenue per user compared with WhatsApp or Instagram",
+      "Depends heavily on one founder"
+    ],
+    "risks": [
+      "Legal action in France against Durov and pressure from EU regulators",
+      "Bans or blocks in countries, including Indian government pressure over piracy and fraud",
+      "Bond debt that must be repaid, partly frozen in Russia due to sanctions",
+      "WhatsApp copying channels and adding communities",
+      "Apple and Google rules on in-app payments and crypto"
+    ],
+    "userComplaints": [
+      "Spam, scam groups and fake investment channels",
+      "Fake job and 'task' scams targeting Indians",
+      "Accounts banned or limited without explanation",
+      "Too much push for Premium and Stars",
+      "Ads in channels",
+      "Mini-app crypto games that promised money and paid little"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Verified badge and scam warning for channels that post investment or job offers",
+        "problem": "Fake trading and job scams hurt Indian users and attract government action.",
+        "expectedImpact": "Fewer users lose money and lower regulatory risk.",
+        "metricToTrack": "Scam reports per million users in India",
+        "effort": "medium"
+      },
+      {
+        "idea": "Pay channel ad share in local currency through UPI in India",
+        "problem": "Creators find Toncoin payouts hard to cash out.",
+        "expectedImpact": "More creators stay and post on Telegram, which keeps readers coming.",
+        "metricToTrack": "Monthly active channels with ad revenue",
+        "effort": "high"
+      },
+      {
+        "idea": "Smart search across all channels and files with AI summaries",
+        "problem": "Users subscribed to dozens of channels cannot find old notes or posts.",
+        "expectedImpact": "Higher daily use and a clear Premium perk.",
+        "metricToTrack": "Searches per user and Premium conversion",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lower-priced Premium Lite in India with key perks only",
+        "problem": "Premium at global prices is too expensive for students.",
+        "expectedImpact": "More paying users in Telegram's biggest market.",
+        "metricToTrack": "Premium subscribers in India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A tiny team can serve a billion users if the product focuses on a few things done well.",
+      "Features WhatsApp chose not to build, like huge groups and channels, became Telegram's whole identity.",
+      "Revenue tied to crypto is fragile: Telegram showed a loss in 2025 even while sales grew.",
+      "Weak moderation helps growth early but creates legal and trust risks later."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Telegram and WhatsApp both have over a billion users. Why do people in India use both?",
+        "hint": "Use jobs-to-be-done: WhatsApp for personal chats with known people, Telegram for channels, big groups and files. Show how this shapes each product's roadmap."
+      },
+      {
+        "question": "How would you increase Telegram Premium subscribers in India?",
+        "hint": "Segment users (students, traders, creators), find the most-felt limit for each, test local pricing and UPI, and track conversion and renewal."
+      },
+      {
+        "question": "Design a system to reduce scam channels without hurting creators.",
+        "hint": "Define harms, signals (new channels pushing payments, user reports), actions (labels, limits, verification), and track false positives as a guardrail metric."
+      },
+      {
+        "question": "Telegram's 2025 loss came from crypto, not operations. How would you reduce this risk?",
+        "hint": "Separate core revenue (Premium, ads) from crypto income, grow the stable part, and set treasury rules. Explain the trade-off with TON partnership income."
+      },
+      {
+        "question": "What should Telegram's north star metric be?",
+        "hint": "Argue for daily users engaging with groups or channels, explain why it captures unique value, and break it into reach, engagement, platform and conversion."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "ARPU",
+        "meaning": "Average revenue per user: total revenue divided by the number of users."
+      },
+      {
+        "term": "End-to-end encrypted",
+        "meaning": "Describes a message that only the sender and receiver can read, not even the company."
+      },
+      {
+        "term": "Mini App",
+        "meaning": "A small app that runs inside Telegram without being downloaded from an app store."
+      },
+      {
+        "term": "Telegram Stars",
+        "meaning": "Telegram's in-app currency used to pay for digital goods and creators."
+      },
+      {
+        "term": "Toncoin (TON)",
+        "meaning": "The cryptocurrency of the TON blockchain, closely linked to Telegram."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users or subscribers who keep using or paying over time."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company tracks to show it delivers real value to users."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you improve your main goal."
+      }
+    ],
+    "assumptions": [
+      "The 15 million Premium subscriber figure is from a 2025 statement and may be higher now.",
+      "Premium pricing in India varies by platform and was not confirmed for 2026.",
+      "Revenue per user of about $1.40 is a simple calculation from 2024 revenue and user numbers.",
+      "Telegram is not a public company, so all financials are unaudited figures from investor reports.",
+      "The guardrail list on government bans is inferred from past events, not company disclosures."
+    ]
+  }
+}

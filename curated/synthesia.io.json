@@ -1,0 +1,532 @@
+{
+  "company": "Synthesia",
+  "domain": "synthesia.io",
+  "website": "https://synthesia.io",
+  "sources": [
+    "https://synthesia.io/post/series-e-200-million-4-billion-valuation-future-work",
+    "https://techcrunch.com/2026/01/26/synthesia-hits-4b-valuation-lets-employees-cash-in",
+    "https://siliconangle.com/2026/01/26/synthesia-raises-200m-4b-valuation-build-worker-skills-using-ai-avatars/",
+    "https://www.eweek.com/news/synthesia-january-2026-funding/",
+    "https://sacra.com/c/synthesia"
+  ],
+  "report": {
+    "company": "Synthesia",
+    "tagline": "A London AI company that turns a script into a training video with a realistic AI presenter, in 140+ languages, without cameras or studios.",
+    "category": "AI video",
+    "simpleSummary": "Synthesia lets companies make videos without filming. You type a script, pick an AI presenter (an avatar that looks and talks like a real person), and in a few minutes you get a video. The same video can be turned into dozens of languages. Most customers are big companies making staff training, onboarding and product how-to videos.",
+    "keyNumbers": [
+      {
+        "label": "Valuation",
+        "value": "$4 billion (January 2026)",
+        "note": "Series E, reported by TechCrunch and the company. Doubled from about $2.1 billion in 2025."
+      },
+      {
+        "label": "Series E raise",
+        "value": "$200 million, led by GV (Google Ventures)",
+        "note": "Company announcement, January 2026. Included a share sale for employees."
+      },
+      {
+        "label": "Annual recurring revenue",
+        "value": "Over $100 million (2025), likely $150 million or more in 2026",
+        "note": "Company said it passed $100 million ARR in 2025. 2026 figure is our estimate from growth reports."
+      },
+      {
+        "label": "Business customers",
+        "value": "Over 60,000 companies, including most of the Fortune 100",
+        "note": "Company claims, 2025 to 2026."
+      },
+      {
+        "label": "Starter price",
+        "value": "About $29 a month (cheaper yearly)",
+        "note": "Synthesia pricing page. Creator plan about $89 a month. Enterprise custom."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Synthesia is a web app for making videos with AI presenters. It is used mainly for training, internal communication, sales enablement and customer education. It replaces filming with a script editor, so updating a video means editing text, not reshooting.",
+      "howItWorks": [
+        "Pick a template or start from a document, PowerPoint or web link; the AI drafts a script and scenes.",
+        "Choose from 240+ stock avatars or create a personal avatar of yourself from a short recording.",
+        "The avatar reads the script with lip-sync, gestures and natural voice in 140+ languages.",
+        "Add screen recordings, images and quizzes; some plans make interactive videos.",
+        "Translate the whole video in one click and keep every language in sync when the script changes.",
+        "Share by link, embed, or export to learning systems used by HR teams."
+      ],
+      "valueProposition": "Professional training videos in minutes, in every language your staff speak, at a fraction of the cost of filming."
+    },
+    "personas": [
+      {
+        "name": "Learning and development manager",
+        "description": "Runs training at a global company with 30,000 staff across India, Europe and the US.",
+        "goals": [
+          "Make engaging training quickly",
+          "Translate into many languages",
+          "Update content when rules change"
+        ],
+        "frustrations": [
+          "Video agencies are slow and cost lakhs per video",
+          "Staff skip long text documents",
+          "Hard to prove training worked"
+        ]
+      },
+      {
+        "name": "Product marketing manager",
+        "description": "Makes product demo and how-to videos at a software company.",
+        "goals": [
+          "Explain new features fast",
+          "Personalised videos for different customers",
+          "Keep brand consistent"
+        ],
+        "frustrations": [
+          "Avatars can look stiff for marketing",
+          "Brand kits and custom avatars cost more",
+          "Needs approval workflows"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Runs an online course and wants a presenter without being on camera.",
+        "goals": [
+          "Look professional",
+          "Avoid camera and editing work",
+          "Low cost"
+        ],
+        "frustrations": [
+          "Monthly minutes limits",
+          "Price for custom avatar",
+          "Viewers can tell it is AI"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Filming videos needs cameras, studios, actors and editors.",
+        "howSolved": "Type a script and get a finished video with an AI presenter.",
+        "severity": "high"
+      },
+      {
+        "pain": "Global companies must train staff in dozens of languages.",
+        "howSolved": "One-click translation into 140+ languages with synced lip movement.",
+        "severity": "high"
+      },
+      {
+        "pain": "Updating an old video means reshooting.",
+        "howSolved": "Edit the text and regenerate in minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Staff do not read long policy documents.",
+        "howSolved": "Turns documents into short, watchable videos, with quizzes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Fear of deepfakes and misuse.",
+        "howSolved": "Consent rules for avatars, content moderation and enterprise security certifications.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "AI avatars",
+        "whatItDoes": "Realistic presenters with expressions and gestures, including personal avatars of real employees.",
+        "whyItMatters": "The core reason customers buy; makes video creation possible without filming."
+      },
+      {
+        "feature": "AI dubbing and translation",
+        "whatItDoes": "Translates scripts and voices into 140+ languages.",
+        "whyItMatters": "Huge value for global companies, and a reason to choose Synthesia over local video agencies."
+      },
+      {
+        "feature": "AI video assistant",
+        "whatItDoes": "Turns documents, slides or links into a draft video.",
+        "whyItMatters": "Cuts creation time and makes it easy for non-video people."
+      },
+      {
+        "feature": "Interactive videos and quizzes",
+        "whatItDoes": "Adds clickable choices and questions inside videos.",
+        "whyItMatters": "Helps training teams measure learning, tying Synthesia to HR outcomes."
+      },
+      {
+        "feature": "Enterprise controls",
+        "whatItDoes": "Team workspaces, brand kits, approvals, single sign-on and security certifications.",
+        "whyItMatters": "Needed to sell to large companies, which bring most revenue."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First training video",
+        "persona": "Learning and development manager",
+        "steps": [
+          {
+            "step": "Gets a request",
+            "detail": "Compliance needs new anti-fraud training in 12 languages."
+          },
+          {
+            "step": "Tries free",
+            "detail": "Makes a free demo video from a template."
+          },
+          {
+            "step": "Uploads policy PDF",
+            "detail": "AI drafts a 5-minute script and scenes."
+          },
+          {
+            "step": "Edits and picks avatar",
+            "detail": "Chooses a presenter and adds the company logo."
+          },
+          {
+            "step": "Translates",
+            "detail": "Creates 12 language versions in one go."
+          },
+          {
+            "step": "Publishes to LMS",
+            "detail": "Exports to the learning system and tracks completions."
+          }
+        ]
+      },
+      {
+        "name": "Company-wide rollout",
+        "persona": "Learning and development manager",
+        "steps": [
+          {
+            "step": "Pilot success",
+            "detail": "Training team saves weeks on first project."
+          },
+          {
+            "step": "Security review",
+            "detail": "IT checks certifications and data rules."
+          },
+          {
+            "step": "Signs Enterprise",
+            "detail": "Buys seats for HR, sales and support teams."
+          },
+          {
+            "step": "Creates personal avatars",
+            "detail": "CEO and trainers record avatars with consent."
+          },
+          {
+            "step": "Scales",
+            "detail": "Hundreds of videos a year across departments."
+          }
+        ]
+      },
+      {
+        "name": "Course creator",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Starts on the Starter plan."
+          },
+          {
+            "step": "Writes lesson scripts",
+            "detail": "Pastes course text."
+          },
+          {
+            "step": "Generates videos",
+            "detail": "Picks a stock avatar."
+          },
+          {
+            "step": "Hits minute limits",
+            "detail": "Upgrades to Creator for more minutes."
+          },
+          {
+            "step": "Sells course",
+            "detail": "Uploads to an online course platform."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Synthesia sells software subscriptions. Small users pay monthly self-serve plans with a set number of video minutes. Most revenue comes from Enterprise contracts with large companies, priced by seats, minutes and features like custom avatars and security.",
+      "revenueStreams": [
+        {
+          "stream": "Enterprise subscriptions",
+          "detail": "Annual contracts with large companies; likely the majority of revenue."
+        },
+        {
+          "stream": "Self-serve plans",
+          "detail": "Starter (about $29 a month) and Creator (about $89 a month) with video minute limits."
+        },
+        {
+          "stream": "Custom avatars",
+          "detail": "Studio or personal avatars, included in some plans or charged extra."
+        },
+        {
+          "stream": "API",
+          "detail": "Generate videos programmatically for personalised outreach and product videos."
+        }
+      ],
+      "pricing": "Free plan with limited minutes. Starter about $29 a month. Creator about $89 a month. Enterprise: custom. Yearly billing is cheaper. Prices from synthesia.io and may change.",
+      "costDrivers": [
+        "GPU compute to generate video, which is far more expensive than text",
+        "Research on avatar and voice models",
+        "Enterprise sales and customer success teams",
+        "Trust and safety moderation",
+        "Recording studios for custom avatars"
+      ],
+      "unitEconomics": "A big company might pay $50,000 to $500,000 a year. Making a 5-minute video might cost Synthesia a few dollars in compute. Compared with an agency charging $5,000 or more per filmed video, customers save a lot, and Synthesia keeps a healthy margin. Self-serve users paying $29 a month are profitable on compute, but many churn after a project. Enterprise retention is the real money maker."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free demo video on the website with no sign-up",
+        "Enterprise sales targeting HR and training teams",
+        "Content marketing and SEO for 'AI video generator' searches",
+        "Customers sharing videos that show Synthesia's quality",
+        "Partnerships with learning systems and video tools"
+      ],
+      "whatBringsUsersBack": [
+        "Training needs never end; content must be updated",
+        "Personal avatars and brand kits saved in the account",
+        "Video libraries in many languages to maintain",
+        "Annual enterprise contracts"
+      ],
+      "moat": "Synthesia's moat is enterprise trust plus a focus on training. Big companies have approved it through security and legal checks, built libraries of videos and personal avatars, and connected it to their learning systems. Switching means redoing all of that. Avatar quality alone is not a moat, since rivals like HeyGen and Google improve fast."
+    },
+    "competitors": [
+      {
+        "name": "HeyGen",
+        "positioning": "AI avatar video, popular with marketers and creators.",
+        "howThisProductDiffers": "HeyGen grew fast with creators and marketing; Synthesia focuses on enterprise training and security."
+      },
+      {
+        "name": "Colossyan",
+        "positioning": "AI video for workplace learning.",
+        "howThisProductDiffers": "Similar target; Synthesia is bigger, with more avatars and languages."
+      },
+      {
+        "name": "Google Vids and Veo",
+        "positioning": "AI video tools inside Google Workspace.",
+        "howThisProductDiffers": "Google bundles into Workspace; Synthesia offers deeper training features and avatar quality."
+      },
+      {
+        "name": "Traditional video agencies",
+        "positioning": "Human crews and studios.",
+        "howThisProductDiffers": "Agencies give high polish but cost far more and take weeks."
+      },
+      {
+        "name": "D-ID and Hour One",
+        "positioning": "Other avatar video tools.",
+        "howThisProductDiffers": "Smaller and less enterprise focused."
+      }
+    ],
+    "northStar": {
+      "metric": "Minutes of Synthesia video watched by viewers each month",
+      "why": "Videos only create value when people watch them. Watched minutes capture both customer creation and real audience impact, which helps renewals. As a north star metric, it beats videos made, because unwatched videos deliver nothing. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Videos created",
+        "description": "Volume of videos customers make.",
+        "children": [
+          {
+            "metric": "Active creators per account",
+            "description": "More creators means more videos."
+          },
+          {
+            "metric": "Time to first video",
+            "description": "Faster start improves activation."
+          },
+          {
+            "metric": "Template use",
+            "description": "Templates speed up creation."
+          }
+        ]
+      },
+      {
+        "metric": "Languages per video",
+        "description": "Translation multiplies reach.",
+        "children": [
+          {
+            "metric": "Share translated",
+            "description": "Videos translated at least once."
+          },
+          {
+            "metric": "Translation quality rating",
+            "description": "User satisfaction with dubbing."
+          }
+        ]
+      },
+      {
+        "metric": "Viewer engagement",
+        "description": "How long people watch.",
+        "children": [
+          {
+            "metric": "Completion rate",
+            "description": "Viewers who finish a video."
+          },
+          {
+            "metric": "Quiz pass rate",
+            "description": "Shows learning happened."
+          },
+          {
+            "metric": "Shares per video",
+            "description": "Spread within companies."
+          }
+        ]
+      },
+      {
+        "metric": "Account expansion",
+        "description": "Customers growing usage.",
+        "children": [
+          {
+            "metric": "Net revenue retention",
+            "description": "Spending growth from existing customers."
+          },
+          {
+            "metric": "Departments using Synthesia",
+            "description": "Spread beyond HR."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Misuse incidents (deepfakes, misinformation)",
+      "Compute cost per video minute",
+      "Enterprise churn",
+      "Avatar quality complaints"
+    ],
+    "strengths": [
+      "Clear focus on enterprise training, a large and steady market",
+      "Trusted by large companies with strong security",
+      "Many languages and avatars",
+      "Strong funding at $4 billion valuation",
+      "Early leader since 2017"
+    ],
+    "weaknesses": [
+      "Avatars can still feel robotic in emotional or marketing content",
+      "Self-serve users churn after short projects",
+      "Video compute is expensive",
+      "Pricing by minutes can feel limiting",
+      "Less known among creators than HeyGen"
+    ],
+    "risks": [
+      "Big tech bundling AI video for free, like Google Vids",
+      "Fast-improving general video models such as Veo and Sora",
+      "Deepfake laws and public distrust",
+      "Price pressure from cheaper rivals",
+      "Budget cuts in HR and training"
+    ],
+    "userComplaints": [
+      "Avatars look or sound unnatural in some languages",
+      "Video minute limits are low on cheaper plans",
+      "Custom avatars are expensive",
+      "Rendering can be slow for long videos",
+      "Editing controls are limited compared with real video editors"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Training analytics dashboard linking video views to quiz scores and completions",
+        "problem": "Training teams struggle to prove value.",
+        "expectedImpact": "Stronger renewals and bigger contracts.",
+        "metricToTrack": "Net revenue retention",
+        "effort": "medium"
+      },
+      {
+        "idea": "Auto-update: when a source policy document changes, flag and redraft the affected videos",
+        "problem": "Outdated training videos are a compliance risk.",
+        "expectedImpact": "More regular use and value for regulated customers.",
+        "metricToTrack": "Videos updated per account per month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Hindi and Indian language avatar quality push with local accents",
+        "problem": "Indian companies need natural Hindi, Tamil and other voices.",
+        "expectedImpact": "More customers in India's large IT and services firms.",
+        "metricToTrack": "Paid accounts in India",
+        "effort": "medium"
+      },
+      {
+        "idea": "Pay-as-you-go minutes for small users",
+        "problem": "Small creators churn when a monthly plan feels wasteful.",
+        "expectedImpact": "Keeps occasional users and reduces churn.",
+        "metricToTrack": "Self-serve churn",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Pick a boring but valuable use case. Training videos are not flashy, but companies pay well and keep paying.",
+      "Enterprise trust can beat raw tech. Security and consent rules win big buyers.",
+      "Updates matter more than creation. Editing text instead of reshooting is a big reason customers stay.",
+      "Translation multiplies value. One video in 20 languages is worth much more than one.",
+      "Know your threats. Big tech bundling free tools is the main risk for focused startups."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you defend Synthesia against Google Vids being free in Workspace?",
+        "hint": "Identify what Synthesia does better: avatars, languages, training features, security. Focus on enterprise training needs. Measure win rate and churn."
+      },
+      {
+        "question": "What is the right north star for Synthesia?",
+        "hint": "Compare videos made, minutes generated and minutes watched. Argue for watched minutes and break into creation, translation and engagement."
+      },
+      {
+        "question": "How would you reduce churn among self-serve users?",
+        "hint": "Find why they leave: one-off projects, price, limits. Ideas: pay-as-you-go, templates, reminders. Track month 2 retention."
+      },
+      {
+        "question": "How should Synthesia handle the risk of avatars being used for misinformation?",
+        "hint": "Consent rules, content checks, watermarks, banning political content, clear reporting. Balance safety with ease of use."
+      },
+      {
+        "question": "Design a feature that helps sales teams use Synthesia.",
+        "hint": "Personalised videos per prospect using the API. Define workflow, data sources and success metric like reply rate."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Avatar",
+        "meaning": "A digital person on screen created by AI to present a video."
+      },
+      {
+        "term": "ARR",
+        "meaning": "Annual recurring revenue: the yearly value of current subscriptions."
+      },
+      {
+        "term": "Enterprise",
+        "meaning": "Large companies that buy software with contracts for many users."
+      },
+      {
+        "term": "Self-serve",
+        "meaning": "Plans you can buy online without talking to sales."
+      },
+      {
+        "term": "LMS",
+        "meaning": "Learning management system: software companies use to run staff training."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Customers who stop paying."
+      },
+      {
+        "term": "Net revenue retention",
+        "meaning": "How much existing customers spend this year compared with last, including upgrades and losses."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets real value, like making their first video."
+      },
+      {
+        "term": "Deepfake",
+        "meaning": "Fake but realistic video of a real person made with AI."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that protects a business from competitors."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow; Synthesia's guardrail metrics include misuse incidents."
+      }
+    ],
+    "assumptions": [
+      "2026 ARR of $150 million or more is our estimate from growth reports, not an official figure.",
+      "Enterprise share of revenue is inferred from the customer base.",
+      "Compute cost per video and enterprise contract sizes are rough estimates.",
+      "Pricing is from the website and may change.",
+      "The north star metric is our suggestion."
+    ]
+  }
+}

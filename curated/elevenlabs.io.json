@@ -1,0 +1,409 @@
+{
+  "company": "ElevenLabs",
+  "domain": "elevenlabs.io",
+  "website": "https://elevenlabs.io",
+  "sources": [
+    "https://elevenlabs.io/blog/500m-arr-and-new-investors",
+    "https://elevenlabs.io/blog/series-d",
+    "https://siliconangle.com/2026/02/04/voice-ai-startup-elevenlabs-triples-valuation-500m-round/",
+    "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price",
+    "https://cryptobriefing.com/elevenlabs-ipo-2028-11b-valuation/",
+    "https://sacra.com/c/elevenlabs/"
+  ],
+  "report": {
+    "company": "ElevenLabs",
+    "tagline": "AI voice company that turns text into lifelike speech in 70+ languages, clones voices, dubs videos and powers talking AI agents.",
+    "category": "AI voice",
+    "simpleSummary": "ElevenLabs makes computer voices that sound like real people. You paste text and it reads it aloud with emotion, in your own cloned voice or one of thousands of others. It can also translate a video into Hindi or Spanish while keeping the speaker's voice. Companies use it to build AI phone agents that talk to customers, and creators use it for audiobooks, YouTube and podcasts.",
+    "keyNumbers": [
+      {
+        "label": "Annual recurring revenue",
+        "value": "Over $500 million (early 2026)",
+        "note": "ElevenLabs blog, 2026. Up from about $200 million in 2025. Likely higher by late 2026."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $22 billion (mid 2026)",
+        "note": "From a $300 million employee share sale, reported by The Next Web. Doubled from $11 billion in February 2026."
+      },
+      {
+        "label": "Series D raise",
+        "value": "$500 million at $11 billion (February 2026)",
+        "note": "Company blog and SiliconANGLE. Investors include Sequoia, a16z, BlackRock and Nvidia."
+      },
+      {
+        "label": "Languages supported",
+        "value": "70+ languages, including Hindi, Tamil and other Indian languages",
+        "note": "ElevenLabs product pages, 2026. Coverage differs by model."
+      },
+      {
+        "label": "Entry price",
+        "value": "$5 a month (Starter); Creator $22 a month",
+        "note": "ElevenLabs pricing page. Free plan gives about 10,000 credits a month."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "ElevenLabs builds AI audio models and sells them through apps and an API. Its main products are text to speech, voice cloning, dubbing, speech to text, music and sound effects, and a platform for voice agents that hold live phone or app conversations.",
+      "howItWorks": [
+        "Text to speech: paste text, pick a voice and get natural audio, with control over emotion and pace using models like Eleven v3 and v4.",
+        "Voice cloning: upload a minute of audio for an instant clone, or about 30 minutes for a professional clone.",
+        "Voice Library: voice owners share their voices and earn money when others use them.",
+        "Dubbing: upload a video and get it translated into other languages in the original speaker's voice.",
+        "Agents platform: companies build voice bots that answer calls, connected to their systems, priced per minute.",
+        "Everything uses credits on monthly plans, or pay-as-you-go through the API."
+      ],
+      "valueProposition": "Studio-quality voice in any language in seconds, for a tiny fraction of the cost and time of hiring voice actors."
+    },
+    "personas": [
+      {
+        "name": "YouTube creator",
+        "description": "A creator in Delhi who makes explainer videos and wants versions in Hindi, English and Tamil.",
+        "goals": [
+          "Reach more viewers in more languages",
+          "Save time on voiceovers",
+          "Keep their own voice"
+        ],
+        "frustrations": [
+          "Credits run out on long videos",
+          "Accent or pronunciation of names sometimes wrong",
+          "Cost adds up for daily content"
+        ]
+      },
+      {
+        "name": "Customer support leader",
+        "description": "Head of support at an Indian e-commerce company handling millions of calls.",
+        "goals": [
+          "Answer calls 24 hours a day in local languages",
+          "Cut cost per call",
+          "Keep customers happy"
+        ],
+        "frustrations": [
+          "Agents mishearing noisy calls",
+          "Integration with old phone systems",
+          "Need for human handover"
+        ]
+      },
+      {
+        "name": "Audiobook publisher",
+        "description": "Small publisher that wants audio versions of its whole catalogue.",
+        "goals": [
+          "Turn books into audio cheaply",
+          "Natural, expressive narration",
+          "Publish fast"
+        ],
+        "frustrations": [
+          "Some platforms limit AI narration",
+          "Emotion in long dialogue scenes",
+          "Listener resistance to AI voices"
+        ]
+      },
+      {
+        "name": "App developer",
+        "description": "Builds a language learning app and needs fast voices through an API.",
+        "goals": [
+          "Low delay for real-time speech",
+          "Good price at high volume",
+          "Many voices and languages"
+        ],
+        "frustrations": [
+          "Cheaper rivals and open models",
+          "Rate limits at peak times",
+          "Credit pricing is complex"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Hiring voice actors and studios is slow and costly.",
+        "howSolved": "Generate professional narration in seconds for a few dollars.",
+        "severity": "high"
+      },
+      {
+        "pain": "Content only reaches people who speak its language.",
+        "howSolved": "AI dubbing translates videos while keeping the speaker's own voice.",
+        "severity": "high"
+      },
+      {
+        "pain": "Old computer voices sound robotic and people stop listening.",
+        "howSolved": "Models add emotion, pauses and tone, with audio tags like [whispers] or [laughs].",
+        "severity": "high"
+      },
+      {
+        "pain": "Call centres are expensive and customers wait on hold.",
+        "howSolved": "Voice agents answer instantly, any time, in many languages.",
+        "severity": "high"
+      },
+      {
+        "pain": "People who lose their voice to illness cannot speak as themselves.",
+        "howSolved": "Voice cloning and the Impact Program give free voices to people with ALS and other conditions.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Reading long articles and PDFs is tiring.",
+        "howSolved": "The ElevenReader app reads any text aloud.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Text to speech",
+        "whatItDoes": "Turns text into speech with lifelike voices and emotion controls.",
+        "whyItMatters": "The core product and biggest driver of creator subscriptions."
+      },
+      {
+        "feature": "Voice cloning and Voice Library",
+        "whatItDoes": "Copies a voice from a sample; owners can share it and earn payouts.",
+        "whyItMatters": "Builds a marketplace of voices that rivals do not have."
+      },
+      {
+        "feature": "Dubbing",
+        "whatItDoes": "Translates and re-voices videos in 30 or more languages.",
+        "whyItMatters": "Opens global audiences for creators and media companies."
+      },
+      {
+        "feature": "Agents platform",
+        "whatItDoes": "Build real-time voice agents with speech to text, an AI model and voice, connected to phones and apps.",
+        "whyItMatters": "The fastest-growing enterprise business, priced per minute."
+      },
+      {
+        "feature": "Scribe speech to text",
+        "whatItDoes": "Transcribes audio with speaker labels in many languages.",
+        "whyItMatters": "Completes the audio stack, needed for agents to listen."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Creator dubs a video",
+        "persona": "YouTube creator",
+        "steps": [
+          { "step": "Signs up free", "detail": "Tries text to speech with free credits." },
+          { "step": "Clones own voice", "detail": "Records a short sample and verifies it is their voice." },
+          { "step": "Uploads a video", "detail": "Picks Hindi and Tamil for dubbing." },
+          { "step": "Reviews", "detail": "Fixes a few words in the editor." },
+          { "step": "Upgrades", "detail": "Pays $22 a month for Creator to get more credits." },
+          { "step": "Publishes", "detail": "Uploads dubbed audio tracks on YouTube and sees new viewers." }
+        ]
+      },
+      {
+        "name": "Company launches a voice agent",
+        "persona": "Customer support leader",
+        "steps": [
+          { "step": "Defines use case", "detail": "Order status and return calls in Hindi and English." },
+          { "step": "Builds agent", "detail": "Picks a voice, writes instructions and connects the order system." },
+          { "step": "Tests", "detail": "Runs test calls and checks transcripts." },
+          { "step": "Pilots", "detail": "Routes 10% of calls to the agent with human handover." },
+          { "step": "Scales", "detail": "Signs an enterprise contract priced per minute." },
+          { "step": "Monitors", "detail": "Tracks resolution rate and customer ratings." }
+        ]
+      },
+      {
+        "name": "Developer integrates the API",
+        "persona": "App developer",
+        "steps": [
+          { "step": "Reads docs", "detail": "Gets an API key." },
+          { "step": "Tests fast model", "detail": "Uses Flash model for low delay." },
+          { "step": "Integrates", "detail": "Adds voice to lessons in the app." },
+          { "step": "Grows usage", "detail": "Moves to a Scale or Business plan." },
+          { "step": "Optimises cost", "detail": "Caches common phrases to save credits." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "ElevenLabs sells monthly subscriptions with credits to creators and small businesses, and usage-based or enterprise contracts to companies and developers. Voice agents are charged per minute. Voice Library pays voice owners a share, which grows supply of voices.",
+      "revenueStreams": [
+        { "stream": "Self-serve subscriptions", "detail": "Starter $5, Creator $22, Pro $99, Scale $330 and Business $1,320 a month, each with credits." },
+        { "stream": "API usage", "detail": "Developers pay by characters or credits used." },
+        { "stream": "Voice agents", "detail": "Per-minute pricing for conversations, plus enterprise contracts." },
+        { "stream": "Enterprise deals", "detail": "Custom contracts with media, gaming, telecom and support companies." },
+        { "stream": "Apps", "detail": "ElevenReader and other consumer app subscriptions." }
+      ],
+      "pricing": "Free: about 10,000 credits a month. Starter: $5 a month. Creator: $22 a month. Pro: $99 a month. Scale: $330 a month. Business: $1,320 a month. Enterprise: custom. Agents billed per minute. Prices from elevenlabs.io.",
+      "costDrivers": [
+        "GPU compute to train and run audio models",
+        "Payouts to voice owners in the Voice Library",
+        "Research team salaries",
+        "Safety and moderation to stop voice misuse",
+        "Enterprise sales and support"
+      ],
+      "unitEconomics": "A Creator subscriber pays $22 a month for about 100,000 credits, roughly 100 minutes of high-quality speech. Generating that audio probably costs ElevenLabs a few dollars of compute, so the margin is good. Voice agents earn per minute; if a company pays around $0.08 to 0.10 per minute and ElevenLabs pays some of that to an AI language model provider and for compute, it still keeps a healthy share. Since ElevenLabs owns its voice models, it keeps more margin than companies that just resell other models."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral audio clips and dubbed videos shared online",
+        "Free plan to try voices",
+        "Developers finding it as the best-known voice API",
+        "Enterprise partnerships with media, gaming and telecom firms",
+        "Voice Library creators promoting their own voices"
+      ],
+      "whatBringsUsersBack": [
+        "Creators publish content every week",
+        "Agents run every day once deployed",
+        "Cloned voices and saved projects live on the platform",
+        "New models regularly improve quality"
+      ],
+      "moat": "ElevenLabs leads on voice quality and has its own models, a huge Voice Library and data from millions of users improving the models. Enterprises trust it for safety features. But big labs like OpenAI and Google also make good voices, so it must keep its quality lead."
+    },
+    "competitors": [
+      { "name": "OpenAI voice models", "positioning": "Real-time voice in ChatGPT and the API.", "howThisProductDiffers": "OpenAI is strong for conversation; ElevenLabs has more voices, cloning, dubbing and fine control." },
+      { "name": "Google Cloud Text-to-Speech and Gemini audio", "positioning": "Cloud voice tools for enterprises.", "howThisProductDiffers": "Google has scale and price; ElevenLabs is seen as more natural and creator-friendly." },
+      { "name": "Cartesia and Deepgram", "positioning": "Fast, low-delay voice APIs for agents.", "howThisProductDiffers": "They compete on speed and price; ElevenLabs offers a full platform and more languages." },
+      { "name": "Murf, Play.ht and WellSaid", "positioning": "Voiceover tools for creators and businesses.", "howThisProductDiffers": "ElevenLabs has better quality and a much larger user base." },
+      { "name": "Sarvam AI", "positioning": "Indian AI company with voice models for Indian languages.", "howThisProductDiffers": "Sarvam focuses on India and may be cheaper locally; ElevenLabs is global with broader products." }
+    ],
+    "northStar": {
+      "metric": "Minutes of audio generated or spoken by agents that users keep and publish",
+      "why": "Audio that is kept, published or used in a real call means real value. It covers creators and agent customers and ties directly to revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Creator audio published",
+        "description": "Audio creators keep and use.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Free users who subscribe." },
+          { "metric": "Regeneration rate", "description": "How often users regenerate; lower means better first results." },
+          { "metric": "Dubbing projects completed", "description": "Finished dubbing jobs." }
+        ]
+      },
+      {
+        "metric": "Agent minutes",
+        "description": "Minutes of live agent conversations.",
+        "children": [
+          { "metric": "Agents in production", "description": "Agents handling real traffic." },
+          { "metric": "Call resolution rate", "description": "Calls solved without a human." },
+          { "metric": "Response delay", "description": "Milliseconds before the agent speaks; lower feels natural." }
+        ]
+      },
+      {
+        "metric": "API usage",
+        "description": "Developer volume.",
+        "children": [
+          { "metric": "Active API keys", "description": "Developers using it each month." },
+          { "metric": "Characters per developer", "description": "Volume per account." }
+        ]
+      },
+      {
+        "metric": "Voice supply",
+        "description": "Breadth of voices and languages.",
+        "children": [
+          { "metric": "Voice Library voices used", "description": "Shared voices earning payouts." },
+          { "metric": "Language quality scores", "description": "Quality in Hindi and other languages." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Number of misuse cases (scams, political deepfakes)",
+      "Gross margin per minute",
+      "Customer complaints about unauthorised voice cloning",
+      "API uptime"
+    ],
+    "strengths": [
+      "Best-known voice quality in the market",
+      "Owns its models, so better margins",
+      "Full audio stack: speech, listening, dubbing, music, agents",
+      "Strong growth to over $500 million ARR",
+      "Big Voice Library with paid voice owners"
+    ],
+    "weaknesses": [
+      "Credit pricing is confusing",
+      "Voice cloning misuse damages reputation",
+      "Heavy competition on price from open models",
+      "Indian language quality varies by dialect",
+      "Depends on other companies' language models for agent reasoning"
+    ],
+    "risks": [
+      "Laws on deepfakes and voice rights in the US, EU and India",
+      "Big AI labs offering voice free inside their products",
+      "Voice actors' unions pushing back",
+      "Fraud using cloned voices, such as the 2024 fake Biden robocall made with an ElevenLabs voice",
+      "Falling prices for speech models"
+    ],
+    "userComplaints": [
+      "Credits run out fast and do not roll over fully",
+      "Mispronounced names and words",
+      "Inconsistent results between generations",
+      "Account bans or limits with little explanation",
+      "Expensive for long-form content"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Pronunciation dictionary shared across projects with one-click fixes",
+        "problem": "Mispronounced names waste credits and time.",
+        "expectedImpact": "Fewer regenerations and happier creators.",
+        "metricToTrack": "Regeneration rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Visible watermark and public check tool for every voice clip",
+        "problem": "Misuse of cloned voices for scams hurts trust.",
+        "expectedImpact": "Less misuse and easier sales to cautious enterprises.",
+        "metricToTrack": "Misuse cases reported",
+        "effort": "medium"
+      },
+      {
+        "idea": "Indian-language agent bundle with local phone numbers and UPI-friendly billing",
+        "problem": "Indian businesses need local language, telephony and payment options.",
+        "expectedImpact": "More agent customers in India.",
+        "metricToTrack": "Agent minutes in India",
+        "effort": "medium"
+      },
+      {
+        "idea": "Simple cost calculator in minutes instead of credits",
+        "problem": "Users do not understand credits.",
+        "expectedImpact": "Better conversion and fewer billing complaints.",
+        "metricToTrack": "Free to paid conversion",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Quality can be the whole strategy. ElevenLabs won because its voices sounded clearly more human.",
+      "Serve both creators and enterprises. Creators bring fame and feedback; enterprises bring large contracts.",
+      "Build a two-sided market where you can. Paying voice owners grows the library and keeps them loyal.",
+      "Safety is a product feature. Voice cloning without safeguards can destroy trust.",
+      "Owning the model protects margins compared with reselling someone else's."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you stop voice cloning from being misused without hurting honest users?",
+        "hint": "List misuse types. Options: voice verification, blocked voices, watermarks, detection tool, limits. Measure misuse and conversion together."
+      },
+      {
+        "question": "Should ElevenLabs focus on creators or enterprises?",
+        "hint": "Compare revenue, growth, margins and strategic value. Show how creators feed brand and data. Recommend a balance with reasons."
+      },
+      {
+        "question": "Design a voice agent product for Indian banks.",
+        "hint": "Users, languages, use cases (balance, card block), compliance, human handover. Define success like resolution rate."
+      },
+      {
+        "question": "Users find credits confusing. How would you redesign pricing?",
+        "hint": "Research how users think (minutes, videos). Options: minutes-based plans, rollover, pay-as-you-go. Test with A/B."
+      },
+      {
+        "question": "OpenAI launches free voice cloning. What do you do?",
+        "hint": "Find what is unique: library, dubbing, quality, enterprise tools. Double down; consider pricing; protect key segments."
+      }
+    ],
+    "glossary": [
+      { "term": "ARR", "meaning": "Annual recurring revenue: yearly value of current subscriptions and contracts." },
+      { "term": "API", "meaning": "A way for other software to use ElevenLabs' voices and pay for use." },
+      { "term": "Voice cloning", "meaning": "Using AI to copy someone's voice from a recording." },
+      { "term": "Dubbing", "meaning": "Replacing the speech in a video with another language." },
+      { "term": "Credits", "meaning": "Units you spend to generate audio on ElevenLabs." },
+      { "term": "Voice agent", "meaning": "An AI that talks with people by voice in real time, like on a phone call." },
+      { "term": "Deepfake", "meaning": "Fake but realistic audio or video of a real person made with AI." },
+      { "term": "Two-sided market", "meaning": "A platform that serves two groups, like voice owners and voice users, who benefit from each other." },
+      { "term": "Conversion", "meaning": "Share of free users who start paying." },
+      { "term": "Gross margin", "meaning": "Share of revenue left after direct costs like compute." },
+      { "term": "Moat", "meaning": "Something that makes a business hard to copy." },
+      { "term": "North star metric", "meaning": "The one number that best shows users get value." },
+      { "term": "Tender offer", "meaning": "A sale where employees and early investors sell shares to new investors." }
+    ],
+    "assumptions": [
+      "The $22 billion valuation is from a tender offer (a share sale by staff), not a new primary round.",
+      "Cost per minute and margin are our estimates.",
+      "Revenue by late 2026 is likely above $500 million but no newer official figure was found.",
+      "Per-minute agent pricing varies by plan and contract.",
+      "The north star metric is our proposal."
+    ]
+  }
+}

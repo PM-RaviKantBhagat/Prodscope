@@ -1,0 +1,267 @@
+{
+  "company": "Arm",
+  "domain": "arm.com",
+  "website": "https://www.arm.com",
+  "sources": [
+    "https://newsroom.arm.com/news/arm-holdings-plc-reports-results-for-the-second-quarter-of-the-fiscal-year-ending-2027",
+    "https://www.guru3d.com/story/arm-posts-billion-in-quarterly-revenue-and-raises-its-agi-cpu-ambition/",
+    "https://www.securities.io/arm-q2-revenue-rises-27-as-licensing-growth-outpaces-royalties/",
+    "https://futurumgroup.com/insights/arm-q1-fy-2027-data-center-royalties-strengthen-as-agi-cpu-gains-traction/",
+    "https://futurumgroup.com/insights/qualcomm-wins-liability-verdict-against-arm-with-royalty-suspension-ruling-to-follow/",
+    "https://www.tomshardware.com/pc-components/cpus/qualcomms-big-win-over-arm-could-reverberate-throughout-the-industry-ala-licensees-could-potentially-develop-custom-designs-without-renegotiating-terms",
+    "https://www.fool.com/earnings/call-transcripts/2026/05/07/arm-arm-q4-2026-earnings-call-transcript"
+  ],
+  "report": {
+    "company": "Arm",
+    "tagline": "A UK company that designs the brain of almost every smartphone chip and earns a fee on each chip made with its designs.",
+    "category": "Chips / design licensing",
+    "simpleSummary": "Arm does not usually make chips. It designs the blueprint for the processor, the part of a chip that does the thinking, and lets companies like Apple, Qualcomm, MediaTek and Google use it. They pay Arm once to use the blueprint and then a small fee for every chip they sell. Since almost every phone in the world runs on Arm designs, those small fees add up to billions. In 2026 Arm also started selling its own complete server chip, called the AGI CPU.",
+    "keyNumbers": [
+      { "label": "Quarterly revenue (Jul to Sep 2026)", "value": "$1.44 billion", "note": "Arm Q2 FY27 results, November 2026. Up about 27% from a year earlier." },
+      { "label": "Royalty revenue (same quarter)", "value": "$670 million", "note": "Arm Q2 FY27 results. Up only 8%, below analyst estimates, as phone markets slowed." },
+      { "label": "Licensing revenue (same quarter)", "value": "$773 million", "note": "Arm Q2 FY27 results. Licensing is lumpy because it includes upfront fees from big deals." },
+      { "label": "Annual revenue FY26", "value": "About $4.8 to $5 billion", "note": "Our estimate from quarterly results for the year to March 2026. FY25 was about $4 billion." },
+      { "label": "Expected AGI CPU sales", "value": "$2 billion", "note": "Arm's expectation across FY27 and FY28, after $1 billion of orders at the March 2026 launch. Not guaranteed." },
+      { "label": "Share of big cloud deployments", "value": "Over 50% in 2025", "note": "Arm's own claim for new compute deployed at major cloud providers. It expects over 60% by end of 2026." }
+    ],
+    "overview": {
+      "whatItDoes": "Arm designs CPU architectures and ready-made processor cores. Chip companies license these designs and build them into their own chips for phones, laptops, cars, servers and smart devices. Arm earns an upfront licence fee and then a royalty on every chip shipped. Arm is about 90% owned by SoftBank and listed on Nasdaq.",
+      "howItWorks": [
+        "Arm creates an instruction set architecture: the basic language a processor understands. The current version is Armv9.",
+        "A chip company signs a licence. Some take ready-made cores like Cortex; a few, like Apple and Qualcomm, license the architecture and design their own cores.",
+        "Arm also sells Compute Subsystems (CSS): bigger, pre-tested building blocks that save customers time and pay Arm a higher royalty.",
+        "The customer designs and sells its chip, made by factories like TSMC.",
+        "For every chip shipped, the customer pays Arm a royalty, usually a small percentage of the chip price.",
+        "Software makers write apps for Arm once, and they run on billions of Arm-based devices, which keeps everyone on Arm."
+      ],
+      "valueProposition": "Chip makers get a proven, power-efficient processor design and a huge software ecosystem without spending years and billions building their own from scratch."
+    },
+    "personas": [
+      {
+        "name": "Smartphone chip maker",
+        "description": "Companies like MediaTek and Qualcomm that sell chips to phone brands.",
+        "goals": ["Fast, battery-friendly chips", "Get new chips to market quickly", "Keep costs low"],
+        "frustrations": ["Rising Arm royalty rates on newer designs", "Arm competing with customers by selling its own chips"]
+      },
+      {
+        "name": "Cloud company building its own server chips",
+        "description": "Amazon (Graviton), Google (Axion), Microsoft (Cobalt) designing chips for their data centers.",
+        "goals": ["Cheaper, lower-power servers than Intel and AMD", "Custom chips tuned to their software"],
+        "frustrations": ["Long design cycles", "Dependence on one architecture owner"]
+      },
+      {
+        "name": "Car and device maker",
+        "description": "Automotive and gadget companies needing safe, reliable chips.",
+        "goals": ["Chips that meet safety rules", "Long product support"],
+        "frustrations": ["Complex licensing terms", "Pressure to try open RISC-V instead"]
+      },
+      {
+        "name": "Software developer",
+        "description": "Builds apps and tools that must run on phones, Macs and servers.",
+        "goals": ["Write once and run on many devices", "Good tools and performance"],
+        "frustrations": ["Some older Windows software still runs poorly on Arm laptops"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Designing a processor from scratch costs billions and takes years.", "howSolved": "License ready-made Cortex cores or Compute Subsystems and focus on the rest of the chip.", "severity": "high" },
+      { "pain": "Phones need long battery life.", "howSolved": "Arm designs are known for doing more work per unit of power.", "severity": "high" },
+      { "pain": "A new chip is useless without software.", "howSolved": "Android, iOS and most apps already run on Arm, so new chips get a full software library on day one.", "severity": "high" },
+      { "pain": "Data centers spend heavily on electricity for AI.", "howSolved": "Arm-based server chips like Graviton and the AGI CPU use less power per task.", "severity": "medium" },
+      { "pain": "Smaller chip companies lack big design teams.", "howSolved": "Compute Subsystems give them a pre-built, tested design.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Armv9 architecture", "whatItDoes": "The current Arm instruction set with security and AI features.", "whyItMatters": "Newer versions earn Arm a higher royalty rate per chip, roughly double v8 according to Arm." },
+      { "feature": "Cortex CPU cores", "whatItDoes": "Ready-made processor designs for phones, cars and devices.", "whyItMatters": "Main product for most licensees; drives royalty volume." },
+      { "feature": "Neoverse", "whatItDoes": "Processor designs for servers and cloud.", "whyItMatters": "Growth engine as cloud firms move away from Intel and AMD." },
+      { "feature": "Compute Subsystems (CSS)", "whatItDoes": "Pre-integrated blocks of cores, memory links and more, ready to drop into a chip.", "whyItMatters": "Saves customers months and earns Arm a higher royalty." },
+      { "feature": "AGI CPU", "whatItDoes": "Arm's own complete data center processor, launched in March 2026 and sold directly.", "whyItMatters": "A big shift from earning a small fee to selling a whole chip, with much more revenue per unit, but it competes with some customers." },
+      { "feature": "Software ecosystem", "whatItDoes": "Tools, compilers and partnerships so software runs well on Arm.", "whyItMatters": "Keeps developers and chip makers locked into Arm." }
+    ],
+    "userJourneys": [
+      {
+        "name": "A chip maker licenses a new core",
+        "persona": "Smartphone chip maker",
+        "steps": [
+          { "step": "Plan", "detail": "Chip maker plans a phone chip for launch in two years." },
+          { "step": "Evaluate", "detail": "Compares Arm's newest Cortex cores and CSS against designing in-house." },
+          { "step": "Sign licence", "detail": "Pays an upfront licence fee, often millions of dollars." },
+          { "step": "Design", "detail": "Builds the chip with Arm's design and its own graphics and modem parts." },
+          { "step": "Manufacture", "detail": "TSMC or Samsung makes the chip." },
+          { "step": "Ship and pay royalty", "detail": "Each chip sold to a phone brand triggers a royalty to Arm." }
+        ]
+      },
+      {
+        "name": "A cloud company builds a server chip",
+        "persona": "Cloud company building its own server chips",
+        "steps": [
+          { "step": "Problem", "detail": "Power and chip costs for AI servers are rising." },
+          { "step": "Choose", "detail": "Picks Arm Neoverse CSS to build a custom chip." },
+          { "step": "Design", "detail": "Adds its own custom parts on top of the Arm subsystem." },
+          { "step": "Deploy", "detail": "Rolls it out across data centers." },
+          { "step": "Port software", "detail": "Moves its cloud services to run on Arm." },
+          { "step": "Scale", "detail": "Orders more chips each year, paying Arm royalties on each." }
+        ]
+      },
+      {
+        "name": "Buying a ready-made Arm server chip",
+        "persona": "Cloud company building its own server chips",
+        "steps": [
+          { "step": "Need", "detail": "Wants more AI compute quickly without a chip design team." },
+          { "step": "Talk to Arm", "detail": "Reviews the AGI CPU." },
+          { "step": "Order", "detail": "Places an order for servers built on it." },
+          { "step": "Deploy", "detail": "Installs in data centers alongside AI accelerators." },
+          { "step": "Reorder", "detail": "Buys more if performance per watt is good." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Arm makes money in three ways: upfront licence fees to use its designs, royalties on every chip shipped, and since 2026, selling its own AGI CPU chips.",
+      "revenueStreams": [
+        { "stream": "Licensing", "detail": "Upfront and subscription fees to use Arm designs, including Arm Total Access deals. $773 million in Jul to Sep 2026." },
+        { "stream": "Royalties", "detail": "A fee per chip shipped, usually a small share of the chip price. $670 million in Jul to Sep 2026, up 8%." },
+        { "stream": "AGI CPU product sales", "detail": "Selling complete server processors. Arm expects about $2 billion across FY27 and FY28." }
+      ],
+      "pricing": "Not public. Licence fees are negotiated per deal. Royalty rates are often reported at around 1% to 5% of chip price, higher for Armv9 and Compute Subsystems.",
+      "costDrivers": [
+        "Engineers who design processors (the biggest cost)",
+        "Stock-based pay for staff",
+        "For the AGI CPU: buying chips from factories, which brings real manufacturing costs",
+        "Legal costs, including the long fight with Qualcomm",
+        "Sales and support for licensees"
+      ],
+      "unitEconomics": "Rough example: a $40 phone chip on Armv9 might pay Arm a royalty of about $0.50 to $1.50. That sounds tiny, but Arm's cost to collect it is almost zero, because the design work was already paid for. Multiply by billions of chips a year and most of that money is profit. Licensing fees cover a lot of the design cost upfront. The AGI CPU changes the maths: Arm might earn thousands of dollars per server chip, but it must pay the factory, so the margin per dollar is much lower than royalties."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Being the default design for phones, so new chip makers start with Arm",
+        "Selling to cloud giants that want lower power servers",
+        "Pushing into Windows laptops with Qualcomm and others",
+        "Offering Compute Subsystems to make Arm easier for smaller firms",
+        "Partnerships with software makers so their code runs best on Arm"
+      ],
+      "whatBringsUsersBack": [
+        "Each new chip generation needs a new licence",
+        "Royalties come every time a chip ships, for years",
+        "Software built for Arm makes switching to another design painful",
+        "Higher-value Armv9 and CSS upgrades for each new product"
+      ],
+      "moat": "Arm's moat is the network effect of software. Billions of devices and almost every mobile app already run on Arm, so a chip maker that leaves Arm also leaves that software. The open RISC-V design is free to use and is a slow-growing threat, but it would take years to build the same software base."
+    },
+    "competitors": [
+      { "name": "x86 (Intel and AMD)", "positioning": "The traditional design for PCs and servers.", "howThisProductDiffers": "Arm wins on power use and licenses designs to anyone, while Intel and AMD sell their own chips." },
+      { "name": "RISC-V", "positioning": "A free, open instruction set anyone can use without royalties.", "howThisProductDiffers": "Arm has a far bigger software base and tested designs, but RISC-V is cheaper and gaining in China, cars and small devices." },
+      { "name": "Qualcomm's own Oryon cores", "positioning": "Custom cores built on an Arm architecture licence.", "howThisProductDiffers": "Arm earns less from custom cores than from its own designs, and the two companies have fought in court over licence terms." },
+      { "name": "Nvidia", "positioning": "AI chip leader that uses Arm cores in Grace CPUs.", "howThisProductDiffers": "Nvidia is a big customer, but Arm's AGI CPU now competes with server chips like Grace." }
+    ],
+    "northStar": {
+      "metric": "Number of Arm-based chips shipped per year, weighted by the royalty value per chip",
+      "why": "Every chip shipped means a customer chose Arm to power a real product, and higher-value chips mean Arm is delivering more useful technology. It captures both reach and depth of value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Chip volume shipped",
+        "description": "How many Arm chips customers ship.",
+        "children": [
+          { "metric": "Smartphone share", "description": "Share of phones using Arm, near 99%." },
+          { "metric": "Data center share", "description": "Share of new cloud compute on Arm." },
+          { "metric": "PC and car design wins", "description": "New chips in laptops and vehicles." }
+        ]
+      },
+      {
+        "metric": "Royalty per chip",
+        "description": "Average fee Arm earns on each chip.",
+        "children": [
+          { "metric": "Armv9 share of royalties", "description": "Newer designs pay more." },
+          { "metric": "CSS adoption", "description": "Number of chips using Compute Subsystems, which pay more." },
+          { "metric": "Average chip selling price", "description": "Royalties are often a share of chip price." }
+        ]
+      },
+      {
+        "metric": "Licensing pipeline",
+        "description": "Future royalties signed today.",
+        "children": [
+          { "metric": "New licences signed", "description": "Each one turns into chips in 2 to 4 years." },
+          { "metric": "Arm Total Access subscribers", "description": "Customers on broad access plans." }
+        ]
+      },
+      {
+        "metric": "AGI CPU sales",
+        "description": "Revenue from Arm's own chips.",
+        "children": [
+          { "metric": "Orders booked", "description": "Signed customer orders." },
+          { "metric": "Performance per watt vs rivals", "description": "Main reason a buyer picks it." },
+          { "metric": "Gross margin per chip", "description": "Profit after manufacturing cost." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Customer trust, such as licensees moving to RISC-V",
+      "Overall gross margin",
+      "Legal disputes with licensees",
+      "Engineering staff retention"
+    ],
+    "strengths": [
+      "Designs used in almost every smartphone",
+      "Royalties are high-margin and recur for years",
+      "Huge software ecosystem that is hard to copy",
+      "Growing share in cloud and AI data centers",
+      "Ability to raise royalty rates with each new generation"
+    ],
+    "weaknesses": [
+      "Royalty growth slowed to 8% in mid 2026, below expectations",
+      "Selling its own AGI CPU puts Arm in competition with its customers",
+      "Heavy dependence on a few big customers like Apple and Qualcomm",
+      "Lost a key court case to Qualcomm over licence terms",
+      "Licensing revenue swings with timing of big deals"
+    ],
+    "risks": [
+      "RISC-V growth, especially in China",
+      "US-China export rules that limit sales to Chinese chip makers",
+      "Phone market slowdown reducing chip volumes",
+      "Customers designing their own cores to pay lower royalties",
+      "SoftBank control and its other bets affecting Arm's choices"
+    ],
+    "userComplaints": [
+      "Chip makers complain that Arm keeps raising royalty rates",
+      "Customers worry Arm will compete with them by selling its own chips",
+      "Qualcomm and others argue Arm's licence terms are unfair",
+      "Some Windows on Arm laptops still have app compatibility problems"
+    ],
+    "improvementIdeas": [
+      { "idea": "Clear, published 'no compete' rules for which markets Arm will and will not sell its own chips in", "problem": "Customer fear about Arm competing with them", "expectedImpact": "Keeps licensees from moving to RISC-V", "metricToTrack": "New licences signed and licensee churn", "effort": "low" },
+      { "idea": "Lower-cost CSS package for small chip startups, with royalty paid later", "problem": "Startups pick RISC-V because it is cheaper upfront", "expectedImpact": "Wins the next generation of chip companies", "metricToTrack": "New startup licences per year", "effort": "medium" },
+      { "idea": "Fund a Windows on Arm app-porting program with Microsoft", "problem": "App gaps slow Arm laptop sales", "expectedImpact": "More Arm PCs shipped", "metricToTrack": "Arm share of Windows laptop shipments", "effort": "medium" },
+      { "idea": "Royalty pricing tied to performance level, not just chip price", "problem": "Complaints that royalty rises feel arbitrary", "expectedImpact": "Fairer pricing that still grows royalty per chip", "metricToTrack": "Royalty per chip and contract renewal rate", "effort": "high" }
+    ],
+    "pmLessons": [
+      "A platform can earn small amounts on huge volume. A dollar per chip on billions of chips is a big, high-margin business.",
+      "The real moat is often the ecosystem, not the technology. Software built for Arm keeps customers from leaving.",
+      "Moving into your customers' market can grow revenue but can also break trust. Every platform must weigh this.",
+      "Value-based pricing works: Arm earns more by selling more complete, more useful building blocks."
+    ],
+    "interviewQuestions": [
+      { "question": "Should Arm sell its own chips, or stick to licensing?", "hint": "Compare revenue per chip, margins and customer trust. Look at which markets have no conflict. Use metrics like licensee churn and AGI CPU margin." },
+      { "question": "How would you respond to the growth of RISC-V?", "hint": "Identify where RISC-V wins (cost, China, small devices). Propose cheaper entry plans and stronger software tools. Track new licences." },
+      { "question": "Royalty revenue grew only 8% last quarter. What would you investigate?", "hint": "Split by phones, cloud, cars and PCs. Check unit volumes, royalty per chip, timing of customer shipments, and the Qualcomm ruling." },
+      { "question": "What is Arm's north star metric?", "hint": "Chips shipped weighted by royalty value. Break into volume, royalty per chip, licensing pipeline and own-chip sales." },
+      { "question": "How would you price Compute Subsystems?", "hint": "Value-based: time saved and performance gained for the customer. Consider upfront fee vs higher royalty, and the risk of pushing customers away." }
+    ],
+    "glossary": [
+      { "term": "royalty", "meaning": "A fee paid to Arm for every chip shipped using its design." },
+      { "term": "licence fee", "meaning": "An upfront payment to use Arm's designs." },
+      { "term": "instruction set architecture", "meaning": "The basic set of commands a processor understands, like its language." },
+      { "term": "network effect", "meaning": "When a product becomes more valuable because more people use it." },
+      { "term": "ecosystem", "meaning": "All the software, tools and partners built around a platform." },
+      { "term": "north star metric", "meaning": "The one number that best shows a product is giving its users value." },
+      { "term": "gross margin", "meaning": "The share of revenue left after the direct cost of making what you sell." },
+      { "term": "value-based pricing", "meaning": "Charging based on how much the product is worth to the customer, not how much it cost to make." },
+      { "term": "moat", "meaning": "What makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "FY26 annual revenue of $4.8 to $5 billion is our estimate from quarterly figures",
+      "Royalty per phone chip of $0.50 to $1.50 is an illustration, not an Arm figure",
+      "Royalty range of 1% to 5% of chip price comes from industry reporting, not Arm disclosures",
+      "AGI CPU margins being lower than royalties is inferred from it being a physical product"
+    ]
+  }
+}

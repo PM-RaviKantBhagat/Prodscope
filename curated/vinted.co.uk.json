@@ -1,0 +1,253 @@
+{
+  "company": "Vinted",
+  "domain": "vinted.co.uk",
+  "website": "https://vinted.co.uk",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vinted",
+    "https://www.just-style.com/news/vinted-revenue-tops-1bn-in-2025-as-secondhand-market-soars/",
+    "https://uk.finance.yahoo.com/news/vinted-sales-surge-near-1bn-102239667.html",
+    "https://www.revenuememo.com/p/how-does-vinted-make-money",
+    "https://www.voolist.com/blog/vinted-fees-2026",
+    "https://revendor.app/blog/vinted-statistics-revenue-profit"
+  ],
+  "report": {
+    "company": "Vinted",
+    "tagline": "A second-hand marketplace from Lithuania where selling is free and buyers pay a small protection fee, now huge in the UK and Europe.",
+    "category": "Resale marketplace",
+    "simpleSummary": "Vinted is an app where you sell clothes, shoes and bits from home that you no longer want. Listing and selling cost the seller nothing. The buyer pays the price plus a small 'buyer protection' fee and postage, and gets a refund if the item never arrives or is not as described. It started in Vilnius in 2008 and is now one of the most downloaded shopping apps in the UK.",
+    "keyNumbers": [
+      { "label": "Revenue, 2025", "value": "Over $1 billion (roughly €1 billion)", "note": "Just Style report on Vinted's 2025 results. Exact euro figure not confirmed here." },
+      { "label": "Revenue and profit, 2024", "value": "€813 million revenue, about €77 million net profit", "note": "Vinted 2024 annual results as widely reported. Vinted first turned a profit in 2023." },
+      { "label": "Valuation", "value": "About €8 billion", "note": "Estimate. Reported from a 2025 secondary share sale; up from about €5 billion in 2024." },
+      { "label": "Registered members", "value": "Over 100 million", "note": "Estimate from company and press figures. Monthly active users are lower and not published." },
+      { "label": "Markets", "value": "About 20 European countries, plus a smaller US business", "note": "Vinted website, approximate. The UK is one of its biggest markets." }
+    ],
+    "overview": {
+      "whatItDoes": "Vinted is a peer-to-peer marketplace: ordinary people sell used items to other people. It started with clothes and now covers shoes, kids' items, books, electronics and home goods. Its big idea is that sellers pay nothing, so people list far more items than on fee-charging sites like eBay or Depop.",
+      "howItWorks": [
+        "A seller takes photos in the app, adds brand, size and condition, picks a price and lists it for free.",
+        "Buyers search or browse, 'favourite' items, and can send an offer or bundle several items from one seller.",
+        "At checkout the buyer pays the item price, a buyer protection fee of about £0.70 plus 5% of the price in the UK, and postage.",
+        "Vinted holds the money until the buyer confirms the item arrived as described, then releases it to the seller's Vinted balance.",
+        "The seller ships with a prepaid label or a QR code at a drop-off point, including Vinted's own Vinted Go lockers in some countries.",
+        "Sellers can pay to 'Bump' a listing up the feed for a few days, or buy a Wardrobe Spotlight to push their whole shop."
+      ],
+      "valueProposition": "For sellers: turn your wardrobe into cash at no cost. For buyers: branded clothes for a fraction of shop prices, with a refund if something goes wrong."
+    },
+    "personas": [
+      {
+        "name": "Budget-conscious parent",
+        "description": "30 to 45, buys kids' clothes that will be outgrown in months and sells the old ones.",
+        "goals": ["Spend as little as possible on fast-changing kids' sizes", "Clear cupboard space and make back some money"],
+        "frustrations": ["Buyers who ask many questions and then vanish", "Lost or late parcels", "Low offers on good items"]
+      },
+      {
+        "name": "Eco-minded young adult",
+        "description": "18 to 28, prefers second-hand over Shein or Primark for cost and environmental reasons.",
+        "goals": ["Branded or vintage items cheaply", "Reduce clothing waste"],
+        "frustrations": ["Fakes of popular brands", "Items smaller or more worn than the photos showed", "Buyer fee makes cheap items less of a deal"]
+      },
+      {
+        "name": "Side-hustle reseller",
+        "description": "Buys at charity shops and car boot sales and resells on Vinted, sometimes cross-listing on eBay and Depop.",
+        "goals": ["Sell volume quickly", "Keep more of each sale than on eBay"],
+        "frustrations": ["HMRC sales reporting rules since 2024", "Bumps feel necessary to get seen", "Account holds when sales spike"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Selling on eBay or Depop costs the seller a cut of every sale.", "howSolved": "No selling fee at all; the buyer pays the protection fee instead.", "severity": "high" },
+      { "pain": "New clothes are expensive, especially for growing kids.", "howSolved": "Used items, often branded, at a fraction of the shop price.", "severity": "high" },
+      { "pain": "Fear of paying a stranger and getting nothing.", "howSolved": "Payment held by Vinted until the buyer confirms; refund if not received or not as described.", "severity": "high" },
+      { "pain": "Posting parcels is a hassle.", "howSolved": "Prepaid labels, QR codes with no printer needed, and drop-off points or Vinted Go lockers.", "severity": "medium" },
+      { "pain": "Unworn clothes go to landfill.", "howSolved": "Easy resale keeps items in use longer.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Free selling", "whatItDoes": "Sellers list and sell without paying a fee or commission.", "whyItMatters": "Brings in huge supply. More items attract more buyers, which attracts more sellers." },
+      { "feature": "Buyer protection", "whatItDoes": "Buyer pays about £0.70 plus 5%; Vinted holds the payment and refunds if there is a problem.", "whyItMatters": "Vinted's main revenue stream and the reason buyers trust strangers." },
+      { "feature": "Built-in shipping", "whatItDoes": "Prepaid labels, QR drop-off and tracking chosen at checkout.", "whyItMatters": "Removes the hardest part of selling and gives Vinted a margin on postage." },
+      { "feature": "Bumps and Wardrobe Spotlight", "whatItDoes": "Paid boosts that push a listing or a whole wardrobe higher for a few days.", "whyItMatters": "Second revenue stream that charges keen sellers without taxing casual ones." },
+      { "feature": "Vinted Go lockers", "whatItDoes": "Vinted's own lockers and drop-off network in some markets.", "whyItMatters": "Lowers shipping cost per parcel and gives Vinted more control over delivery." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First sale",
+        "persona": "Budget-conscious parent",
+        "steps": [
+          { "step": "Install", "detail": "Hears from another parent that selling on Vinted is free." },
+          { "step": "List", "detail": "Photographs a winter coat, picks the brand and size, and lists it at £12." },
+          { "step": "Get an offer", "detail": "A buyer offers £10; the parent accepts in chat." },
+          { "step": "Ship", "detail": "Shows a QR code at a parcel shop; no printer needed." },
+          { "step": "Buyer confirms", "detail": "Buyer marks the item as OK, or two days pass with no complaint." },
+          { "step": "Cash out", "detail": "£10 lands in the Vinted balance and is withdrawn to the bank." }
+        ]
+      },
+      {
+        "name": "First purchase",
+        "persona": "Eco-minded young adult",
+        "steps": [
+          { "step": "Search", "detail": "Searches for Levi's 501 jeans in their size." },
+          { "step": "Compare", "detail": "Checks photos, condition and the seller's reviews." },
+          { "step": "Bundle", "detail": "Adds a second item from the same seller to save on postage." },
+          { "step": "Pay", "detail": "Pays £18 plus about £1.60 buyer protection and postage." },
+          { "step": "Receive and check", "detail": "Item arrives in a few days; buyer confirms it is as described." }
+        ]
+      },
+      {
+        "name": "Running a reselling side hustle",
+        "persona": "Side-hustle reseller",
+        "steps": [
+          { "step": "Source", "detail": "Buys a bag of branded items at a car boot sale." },
+          { "step": "List in batches", "detail": "Lists 30 items in one evening." },
+          { "step": "Bump", "detail": "Pays to bump the best ten for more views." },
+          { "step": "Ship daily", "detail": "Drops off several parcels each day." },
+          { "step": "Track for tax", "detail": "Keeps records because platforms now report sellers above set thresholds to HMRC." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Vinted charges buyers, not sellers. Every order carries a buyer protection fee, sellers can pay for boosts, and Vinted earns a margin on shipping. Free selling floods the app with listings, and those listings pull in buyers.",
+      "revenueStreams": [
+        { "stream": "Buyer protection fee", "detail": "About £0.70 plus 5% of the item price on every UK order; the largest share of revenue." },
+        { "stream": "Seller boosts", "detail": "Bumps and Wardrobe Spotlight, paid by sellers who want more visibility." },
+        { "stream": "Shipping", "detail": "Margin on labels and on Vinted Go lockers." },
+        { "stream": "Advertising", "detail": "Ads shown in the app in some markets." }
+      ],
+      "pricing": "Free to list and sell. UK buyer protection fee about £0.70 plus 5% of the item price. Postage set by the chosen carrier. Bumps from about £1 per item.",
+      "costDrivers": [
+        "TV and online marketing to win buyers in new countries",
+        "Payment processing on every order",
+        "Trust and safety: fraud checks, dispute handling, fake detection",
+        "Building the shipping network, including Vinted Go",
+        "Engineering and customer support"
+      ],
+      "unitEconomics": "On a £20 item in the UK, the buyer pays about £1.70 in buyer protection fee (£0.70 plus 5% of £20). Card payment costs take perhaps £0.30 to £0.40, so Vinted keeps about £1.30 before support and fraud costs. Add a small margin on postage and occasional bumps. Each order earns little, but volume is huge. 2024 revenue of €813 million with about €77 million net profit shows that after marketing and staff, Vinted keeps roughly 9 to 10% of its revenue as profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TV and social ads, especially when entering a new country",
+        "Word of mouth: 'I made £200 clearing my wardrobe'",
+        "Free selling, which pulls sellers away from eBay and Depop",
+        "TikTok and YouTube 'Vinted haul' and reselling videos"
+      ],
+      "whatBringsUsersBack": [
+        "Thousands of new listings every day in your size and favourite brands",
+        "Offers, messages and price-drop alerts on favourited items",
+        "Sellers coming back to list the next bag of clothes",
+        "Vinted balance money that is easiest to spend on Vinted"
+      ],
+      "moat": "Vinted has more second-hand listings than any rival in much of Europe because selling is free. More listings mean buyers find what they want, which brings more sellers. Its own shipping network also lowers costs. A rival would need to match both the free model and the supply at the same time."
+    },
+    "competitors": [
+      { "name": "Depop (owned by eBay)", "positioning": "Style-led, Gen Z resale with a social feed.", "howThisProductDiffers": "Vinted is bigger, broader and cheaper; Depop is more curated and trend-led." },
+      { "name": "eBay", "positioning": "Broad marketplace; UK private sellers now pay no fees either.", "howThisProductDiffers": "Vinted is simpler and fashion-first; eBay is stronger in collectibles and electronics." },
+      { "name": "Facebook Marketplace", "positioning": "Free local listings.", "howThisProductDiffers": "Vinted offers nationwide shipping, payments and buyer protection." },
+      { "name": "Shein and Primark", "positioning": "Cheap new fast fashion.", "howThisProductDiffers": "Vinted offers branded used items at similar prices, with a greener story." }
+    ],
+    "northStar": {
+      "metric": "Items sold per month where the buyer confirmed the item as described",
+      "why": "Each confirmed sale means a buyer got what they paid for and a seller made money. Counting only confirmed sales filters out disputes and scams, so the metric rises only when the marketplace works for both sides."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "People who bought at least once in the month.",
+        "children": [
+          { "metric": "New buyer first-order rate", "description": "Share of new sign-ups who buy within 30 days." },
+          { "metric": "Repeat buyer rate", "description": "Share of buyers who buy again within 60 days." },
+          { "metric": "Seller-to-buyer conversion", "description": "Sellers who spend their Vinted balance on another item." }
+        ]
+      },
+      {
+        "metric": "Live supply",
+        "description": "Good items listed and available.",
+        "children": [
+          { "metric": "New listings per week", "description": "Supply growth from free selling." },
+          { "metric": "Seller return rate", "description": "Sellers who list again within 90 days." }
+        ]
+      },
+      {
+        "metric": "Listing conversion",
+        "description": "Share of listings that sell within 30 days.",
+        "children": [
+          { "metric": "Search-to-purchase rate", "description": "Searches that end in a sale." },
+          { "metric": "Offer acceptance rate", "description": "Offers that turn into orders." },
+          { "metric": "Checkout drop-off at the fee line", "description": "Buyers who leave when they see the protection fee and postage." }
+        ]
+      },
+      {
+        "metric": "Order trust",
+        "description": "Share of orders with no dispute.",
+        "children": [
+          { "metric": "Not-as-described claim rate", "description": "Disputes over condition, size or fakes." },
+          { "metric": "Lost parcel rate", "description": "Orders that never arrive." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud and fake-item reports per 1,000 orders",
+      "Median days from order to delivery",
+      "Buyer complaints about fees",
+      "Seller support tickets about payouts and account holds"
+    ],
+    "strengths": [
+      "Free selling gives it the most second-hand supply in much of Europe",
+      "Profitable since 2023, unlike most resale apps",
+      "Simple app that casual sellers can use",
+      "Own shipping network lowers cost per parcel"
+    ],
+    "weaknesses": [
+      "All income rides on buyer fees, which make cheap items less of a bargain",
+      "Thin social features compared with Depop",
+      "Much smaller in the US than in Europe",
+      "Scams and fake items reported often"
+    ],
+    "risks": [
+      "UK and EU platform reporting rules putting off casual and side-hustle sellers",
+      "eBay removing UK private seller fees and owning Depop, competing on the same supply",
+      "Regulators tightening rules on marketplace liability for fakes",
+      "Consumer slowdown cutting spending even on second-hand"
+    ],
+    "userComplaints": [
+      "Scams, including buyers claiming an item never arrived",
+      "Slow, scripted customer support during disputes",
+      "Buyer fee plus postage can almost double the cost of a £3 item",
+      "Accounts frozen with little explanation",
+      "Parcels lost at drop-off points"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show the full price with fee and postage in search results, not only at checkout.", "problem": "Buyers abandon carts when the fee appears at the last step.", "expectedImpact": "Fewer abandoned checkouts and fewer fee complaints.", "metricToTrack": "Checkout drop-off at the fee line", "effort": "low" },
+      { "idea": "Verified seller badge after ID check and 20 clean sales, with faster payouts.", "problem": "Buyers fear scams and fakes from new sellers.", "expectedImpact": "Higher conversion on badged sellers' listings.", "metricToTrack": "Not-as-described claim rate", "effort": "medium" },
+      { "idea": "Price suggestion based on sold prices of the same brand and size.", "problem": "Sellers guess prices, then wait or get lowballed.", "expectedImpact": "Faster sales and more listings that sell.", "metricToTrack": "Median days to sale", "effort": "medium" },
+      { "idea": "In-app tax helper that shows sellers their yearly totals against the reporting threshold.", "problem": "Side-hustle sellers are confused by HMRC reporting rules.", "expectedImpact": "Fewer sellers quitting from fear of tax.", "metricToTrack": "Seller return rate after January reporting", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Making one side of a marketplace free can grow supply fast. Vinted made selling free and charged buyers instead.",
+      "A fee feels fair when it is named as protection. Calling it 'buyer protection' turned a cost into a trust feature.",
+      "Owning a slice of logistics, like Vinted Go lockers, can lower cost per order and improve the experience.",
+      "A plain, simple product can beat a stylish rival if it is cheaper and easier for the busiest user group."
+    ],
+    "interviewQuestions": [
+      { "question": "Why does Vinted charge buyers and not sellers?", "hint": "Explain supply-side growth and network effects. Compare with eBay and Depop. Note how the 'protection' framing makes buyers accept the fee." },
+      { "question": "How would you grow Vinted in the US?", "hint": "List barriers: awareness, shipping costs, competition from Poshmark and Depop. Pick one, propose a feature, and set a metric like new listings per week." },
+      { "question": "How would you cut scams on Vinted without slowing honest sales?", "hint": "Name scam types. Ideas: seller verification, payment holds for new accounts, photo checks. Track fraud rate with conversion as a guardrail." },
+      { "question": "Design a feature that helps casual sellers sell faster.", "hint": "Pricing tips from sold data, AI listing from photos, bundle prompts. Measure median days to sale." },
+      { "question": "What is Vinted's north star metric?", "hint": "Confirmed items sold. Break it into active buyers, live supply, listing conversion and order trust." }
+    ],
+    "glossary": [
+      { "term": "Peer-to-peer marketplace", "meaning": "A platform where ordinary people sell directly to other people." },
+      { "term": "Buyer protection fee", "meaning": "A fee buyers pay that covers refunds if something goes wrong." },
+      { "term": "Network effects", "meaning": "When a product gets more valuable as more people use it." },
+      { "term": "Supply", "meaning": "In a marketplace, the items or sellers available for buyers to choose from." },
+      { "term": "Listing conversion", "meaning": "The share of listed items that actually sell." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "Registered member count and valuation are estimates from press reports, not company filings.",
+      "The UK buyer protection fee of about £0.70 plus 5% is Vinted's published rate and may change.",
+      "2025 revenue in euros is approximate, based on the reported 'over $1 billion' figure.",
+      "Payment cost per order in the unit economics example is a rough estimate based on typical card fees."
+    ]
+  }
+}

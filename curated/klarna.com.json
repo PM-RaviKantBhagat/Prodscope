@@ -1,0 +1,540 @@
+{
+  "company": "Klarna",
+  "domain": "klarna.com",
+  "website": "https://www.klarna.com",
+  "sources": [
+    "https://thenextweb.com/news/klarna-q3-2026-results-revenue-1bn-us-fair-financing",
+    "https://finviz.com/news/423903/klarna-reports-third-quarter-2026-results",
+    "https://www.thecerbatgem.com/2026/11/17/klarna-group-q3-earnings-call-highlights.html",
+    "https://www.businesswire.com/news/home/20251118831361/en/Klarna-Delivers-Record-breaking-Q3-as-AI-Powered-Digital-Bank-$903-Million-in-Revenue-and-4-Million-Card-Sign-ups-in-4-Months",
+    "https://www.americanbanker.com/payments/news/klarna-lays-out-neobank-aspirations",
+    "https://sacra.com/c/klarna/"
+  ],
+  "report": {
+    "company": "Klarna",
+    "tagline": "A shopping and payments app that lets you split purchases into interest-free instalments, paid for mostly by the shops.",
+    "category": "buy now, pay later",
+    "simpleSummary": "Klarna lets you buy something now and pay for it later. At checkout on a site like ASOS or Sephora you pick Klarna and split a £90 purchase into three payments of £30, with no interest if you pay on time. The shop pays Klarna a fee because people buy more when they can split the cost. Klarna is now also a shopping app, a debit and credit card, and a savings account.",
+    "keyNumbers": [
+      {
+        "label": "Revenue Q3 2026",
+        "value": "$1.01 billion",
+        "note": "Klarna Q3 2026 results, up 12%. Fourth quarter in a row above $1 billion."
+      },
+      {
+        "label": "Gross volume Q3 2026",
+        "value": "$36.1 billion",
+        "note": "Q3 2026 results, up 10%. US volume $8.2 billion, up 24%."
+      },
+      {
+        "label": "Net loss Q3 2026",
+        "value": "$65 million",
+        "note": "Q3 2026 results, narrower than $95 million a year earlier. Adjusted operating income was $21 million."
+      },
+      {
+        "label": "Active users",
+        "value": "122 million",
+        "note": "Klarna Q3 2026, as reported by The Next Web."
+      },
+      {
+        "label": "Merchants",
+        "value": "1.35 million",
+        "note": "Q3 2026, up 59%."
+      },
+      {
+        "label": "IPO",
+        "value": "$40 a share, September 2025",
+        "note": "Listed on the New York Stock Exchange. Shares later fell far below the high (The Next Web, 2026)."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Klarna gives shoppers short, interest-free ways to pay in instalments and longer loans with interest for bigger buys. Shops pay Klarna a fee on each sale. It also runs a shopping app with deals and price tracking, a Klarna Card, and a savings and balance account, as it tries to become a full digital bank.",
+      "howItWorks": [
+        "At checkout, the shopper chooses Klarna and picks Pay in 3 or 4, Pay in 30 days, or Financing over months.",
+        "Klarna runs a quick check in seconds and decides whether to approve this one purchase.",
+        "The shop gets paid in full right away, minus Klarna's fee. Klarna takes the risk that the shopper will not pay.",
+        "The shopper pays Klarna back through the app, usually by automatic card payments.",
+        "Klarna funds the loans mostly with deposits from its savings customers, which costs less than borrowing from banks.",
+        "Its AI assistant handles a large share of customer chats, which keeps support costs low."
+      ],
+      "valueProposition": "Shoppers spread the cost of a purchase without interest or a credit card. Shops sell more and get more customers through Klarna's app."
+    },
+    "personas": [
+      {
+        "name": "Young online shopper",
+        "description": "20 to 30, buys fashion and beauty online, may not have a credit card.",
+        "goals": [
+          "Split purchases to fit a monthly budget",
+          "Try clothes before paying",
+          "Get deals"
+        ],
+        "frustrations": [
+          "Late fees if a payment fails",
+          "Losing track of how many plans are open"
+        ]
+      },
+      {
+        "name": "Big-ticket buyer",
+        "description": "Buying a laptop, sofa or phone and wants to spread it over 6 to 24 months.",
+        "goals": [
+          "Lower monthly payments",
+          "Fast approval at checkout"
+        ],
+        "frustrations": [
+          "Interest on longer plans can be high",
+          "Unclear effect on credit score"
+        ]
+      },
+      {
+        "name": "Online merchant",
+        "description": "Ecommerce brand selling online in the UK, US and Europe.",
+        "goals": [
+          "Higher conversion and bigger baskets",
+          "New customers from the Klarna app",
+          "Get paid upfront with no credit risk"
+        ],
+        "frustrations": [
+          "Klarna's fee is higher than card fees",
+          "Shoppers returning items under BNPL terms"
+        ]
+      },
+      {
+        "name": "Everyday card user",
+        "description": "Uses the Klarna Card for groceries and bills and pays later in some cases.",
+        "goals": [
+          "One app for spending, paying later and saving",
+          "Cashback and rewards"
+        ],
+        "frustrations": [
+          "Features differ by country",
+          "Customer support that feels automated"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Paying a big amount at once strains the monthly budget.",
+        "howSolved": "Pay in 3 or 4 interest-free instalments, or longer financing.",
+        "severity": "high"
+      },
+      {
+        "pain": "Shoppers do not want to pay for clothes they may return.",
+        "howSolved": "Pay in 30 days lets you try first and pay only for what you keep.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Many young shoppers have no credit card or a thin credit history.",
+        "howSolved": "Klarna approves each purchase with its own quick check.",
+        "severity": "high"
+      },
+      {
+        "pain": "Shops lose sales when people abandon their cart over price.",
+        "howSolved": "Instalments at checkout raise conversion and order size.",
+        "severity": "high"
+      },
+      {
+        "pain": "Shops struggle to find new customers online.",
+        "howSolved": "Klarna's app sends shoppers to merchants and promotes deals.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Tracking returns and refunds is painful.",
+        "howSolved": "Report a return in the app and pause payments until the refund is processed.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Pay in 3 / Pay in 4",
+        "whatItDoes": "Split a purchase into equal payments every two weeks or month, with no interest.",
+        "whyItMatters": "The core product. Merchants pay for it because it raises sales."
+      },
+      {
+        "feature": "Pay in 30 days",
+        "whatItDoes": "Buy now and pay in full within 30 days.",
+        "whyItMatters": "Solves the try-before-you-buy problem for fashion."
+      },
+      {
+        "feature": "Fair Financing",
+        "whatItDoes": "Longer loans of 6 to 36 months, sometimes with interest.",
+        "whyItMatters": "Bigger loans earn interest; volume grew 61% to $5.2 billion in Q3 2026."
+      },
+      {
+        "feature": "Klarna Card",
+        "whatItDoes": "A card that can spend from your balance or let you pay later, usable anywhere.",
+        "whyItMatters": "Moves Klarna from occasional checkout to daily spending. Card volume more than doubled to $4.5 billion in Q3 2026."
+      },
+      {
+        "feature": "Shopping app",
+        "whatItDoes": "Search products, track prices, get deals and manage all payments.",
+        "whyItMatters": "Brings repeat visits and sells ads to merchants."
+      },
+      {
+        "feature": "AI assistant",
+        "whatItDoes": "Answers most customer chats about payments, refunds and disputes.",
+        "whyItMatters": "Cuts the cost of support per customer, a major cost for a business with millions of small loans."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First purchase with Pay in 3",
+        "persona": "Young online shopper",
+        "steps": [
+          {
+            "step": "Adds to basket",
+            "detail": "Puts a £90 jacket in the basket on a fashion site."
+          },
+          {
+            "step": "Chooses Klarna",
+            "detail": "Sees 'Pay in 3 payments of £30' at checkout."
+          },
+          {
+            "step": "Quick check",
+            "detail": "Enters email, phone and card. Klarna approves in seconds."
+          },
+          {
+            "step": "First payment",
+            "detail": "Pays £30 now; the shop is paid £90 minus Klarna's fee."
+          },
+          {
+            "step": "Downloads app",
+            "detail": "Gets prompted to track payments and returns in the Klarna app."
+          },
+          {
+            "step": "Repays",
+            "detail": "Two more £30 payments are taken automatically 30 and 60 days later."
+          }
+        ]
+      },
+      {
+        "name": "Financing a laptop",
+        "persona": "Big-ticket buyer",
+        "steps": [
+          {
+            "step": "Picks financing",
+            "detail": "Chooses 12 months at checkout for a £1,200 laptop."
+          },
+          {
+            "step": "Reads terms",
+            "detail": "Sees the monthly amount and any interest rate before agreeing."
+          },
+          {
+            "step": "Credit check",
+            "detail": "Klarna runs a fuller check for a longer loan."
+          },
+          {
+            "step": "Approved",
+            "detail": "Order is placed and the shop is paid in full."
+          },
+          {
+            "step": "Monthly payments",
+            "detail": "Pays each month by card or bank, with reminders in the app."
+          },
+          {
+            "step": "Pays early",
+            "detail": "Can pay off early in the app to reduce interest."
+          }
+        ]
+      },
+      {
+        "name": "Merchant adds Klarna",
+        "persona": "Online merchant",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Applies through Klarna or a payment provider like Stripe or Adyen."
+          },
+          {
+            "step": "Integrates",
+            "detail": "Turns on Klarna in the checkout through a plugin."
+          },
+          {
+            "step": "Shows messages",
+            "detail": "Adds 'Pay in 3' messages on product pages to lift conversion."
+          },
+          {
+            "step": "Gets paid",
+            "detail": "Receives full payment upfront minus a fee on each order."
+          },
+          {
+            "step": "Buys ads",
+            "detail": "Promotes products in the Klarna app to reach new shoppers."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Klarna makes most of its money from shops, not shoppers. Shops pay a fee on each Klarna sale. Klarna also earns interest on longer loans, late fees, card fees, subscriptions and advertising. Its biggest costs are bad loans and the cost of funding the loans.",
+      "revenueStreams": [
+        {
+          "stream": "Merchant fees",
+          "detail": "Shops pay a percentage plus a small fixed fee on every sale, often around 3% to 6%, more than a card payment costs them."
+        },
+        {
+          "stream": "Interest on financing",
+          "detail": "Longer Fair Financing loans charge interest to shoppers."
+        },
+        {
+          "stream": "Card interchange",
+          "detail": "A small fee from the shop's bank each time the Klarna Card is used."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Merchants pay to promote products and deals in the Klarna app."
+        },
+        {
+          "stream": "Subscriptions and consumer fees",
+          "detail": "Paid plans and late fees in some markets. Subscription revenue grew more than 500% to $43 million in Q3 2026."
+        }
+      ],
+      "pricing": "Pay in 3 and Pay in 30 days are free for shoppers who pay on time. In the UK a missed payment can mean a late fee of up to £5. Financing interest varies by loan and country. Merchant fees are not fully public and are agreed with each shop.",
+      "costDrivers": [
+        "Credit losses: shoppers who do not repay (provisions were 0.56% of volume in Q3 2026)",
+        "Funding costs: interest paid to savers and lenders to fund loans",
+        "Processing costs: card network and bank fees on each repayment",
+        "Marketing and merchant deals",
+        "Staff and technology, reduced with AI"
+      ],
+      "unitEconomics": "Take a £100 order paid in three parts. The shop pays Klarna about £4 to £5. Klarna pays maybe £1 for funding the money for six weeks and around £1 in processing costs. It expects to lose about 50p to 60p on average to people who do not pay. That leaves roughly £1.50 to £2.50 per order before staff and marketing. Klarna's 'transaction margin', revenue minus these direct costs, was $371 million on $36 billion of volume in Q3 2026, around 1% of volume. Profit comes from huge volume and keeping bad loans low."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Being shown at checkout on 1.35 million merchant sites",
+        "Partnerships with payment providers like Stripe, Adyen and Apple Pay, which put Klarna in front of more shops",
+        "The Klarna shopping app and deals",
+        "Big brand partners, for example Apple's device programmes and large US retailers",
+        "Marketing and celebrity campaigns in the US"
+      ],
+      "whatBringsUsersBack": [
+        "Saved details make the next Klarna checkout one tap",
+        "The Klarna Card for daily spending",
+        "Deals, price drop alerts and cashback in the app",
+        "Higher spending limits as you repay on time"
+      ],
+      "moat": "Klarna has huge data on how millions of shoppers repay, which helps it approve the right people and keep losses low. Being on 1.35 million merchant checkouts and in a 122 million user app creates a network effect: more shoppers attract more shops, and more shops attract more shoppers. Its bank licence lets it fund loans cheaply with deposits."
+    },
+    "competitors": [
+      {
+        "name": "Affirm",
+        "positioning": "US leader in longer, interest-bearing loans and partner with Amazon and Shopify.",
+        "howThisProductDiffers": "Klarna is larger globally and stronger in short interest-free plans; Affirm is bigger in US financing."
+      },
+      {
+        "name": "PayPal Pay in 3 / Pay in 4",
+        "positioning": "BNPL built into PayPal checkout, free for merchants already on PayPal.",
+        "howThisProductDiffers": "PayPal has huge reach but BNPL is a side feature; Klarna is a full shopping app and card."
+      },
+      {
+        "name": "Clearpay (Afterpay)",
+        "positioning": "Owned by Block; popular with fashion shoppers, linked to Cash App.",
+        "howThisProductDiffers": "Klarna offers more payment types, including financing and a card."
+      },
+      {
+        "name": "Zilch",
+        "positioning": "UK BNPL funded more by ads and merchant commissions.",
+        "howThisProductDiffers": "Klarna has far more merchants and users; Zilch focuses on a card usable anywhere."
+      },
+      {
+        "name": "Credit cards",
+        "positioning": "The traditional way to pay later, with interest after a grace period.",
+        "howThisProductDiffers": "Klarna's short plans have no interest and approve people with no credit history."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of purchases repaid on time by active users each month",
+      "why": "It captures value for shoppers (they got what they wanted and could afford it), merchants (a completed sale) and Klarna (revenue with low losses). Counting only volume would reward lending to people who cannot pay. That is what makes it a good north star metric: it moves only when customers get real value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "Shoppers who used Klarna in the period.",
+        "children": [
+          {
+            "metric": "Checkout selection rate",
+            "description": "Share of shoppers who pick Klarna when it is offered."
+          },
+          {
+            "metric": "Approval rate",
+            "description": "Share of applications approved, balanced with risk."
+          },
+          {
+            "metric": "App downloads per new user",
+            "description": "Users in the app come back more."
+          }
+        ]
+      },
+      {
+        "metric": "Purchases per active user",
+        "description": "How often each user buys with Klarna.",
+        "children": [
+          {
+            "metric": "Card transactions per cardholder",
+            "description": "Daily card use drives frequency."
+          },
+          {
+            "metric": "App sessions per user",
+            "description": "Deals and search bring repeat visits."
+          },
+          {
+            "metric": "Merchant coverage",
+            "description": "More shops accepting Klarna means more chances to use it."
+          }
+        ]
+      },
+      {
+        "metric": "On-time repayment rate",
+        "description": "Share of payments made on schedule.",
+        "children": [
+          {
+            "metric": "Payment reminder open rate",
+            "description": "Reminders help users pay on time."
+          },
+          {
+            "metric": "Auto-pay setup rate",
+            "description": "Automatic payments reduce missed payments."
+          },
+          {
+            "metric": "Credit loss rate",
+            "description": "Losses as a share of volume; lower means better approvals."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Credit losses as a share of volume",
+      "Share of users with several overdue plans",
+      "Customer satisfaction with support after AI handling",
+      "Regulatory complaints"
+    ],
+    "strengths": [
+      "Huge reach: 122 million users and 1.35 million merchants",
+      "Low loss rates thanks to short loans and repayment data",
+      "Revenue above $1 billion a quarter and growing in the US",
+      "Cheap funding from customer deposits",
+      "Heavy use of AI keeps costs per customer low"
+    ],
+    "weaknesses": [
+      "Still loss-making on a net basis in 2026",
+      "Stock fell sharply after the IPO, hurting staff morale and paying with shares",
+      "Merchant fees are high, so large shops push back",
+      "Reliance on fashion and discretionary spending, which falls in a downturn"
+    ],
+    "risks": [
+      "UK regulation of BNPL by the FCA from 2026 adds affordability checks and costs",
+      "Rising defaults if the US or UK economy weakens",
+      "Apple Pay, PayPal and banks offering their own instalments",
+      "Criticism that BNPL encourages overspending and debt among young people"
+    ],
+    "userComplaints": [
+      "Late fees and payments taken when users expected a refund",
+      "Slow handling of returns and disputes with merchants",
+      "AI support that cannot solve complex problems; hard to reach a human",
+      "Spending limits that change without explanation",
+      "Too many open plans make it hard to track what is owed"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Monthly 'what you owe' summary with a single total and next dates",
+        "problem": "Users lose track across many open plans and miss payments.",
+        "expectedImpact": "Fewer late payments and less debt stress.",
+        "metricToTrack": "On-time repayment rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Auto-pause payments when a return is scanned by the courier",
+        "problem": "Users are charged while waiting for refunds, a top complaint.",
+        "expectedImpact": "Fewer disputes and support chats.",
+        "metricToTrack": "Support contacts per return",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear 'talk to a person' route after two failed AI answers",
+        "problem": "AI support frustrates users with complex problems.",
+        "expectedImpact": "Higher support satisfaction without large cost rise.",
+        "metricToTrack": "Customer satisfaction score on resolved chats",
+        "effort": "low"
+      },
+      {
+        "idea": "Merchant results dashboard showing extra sales from Klarna",
+        "problem": "Merchants push back on high fees.",
+        "expectedImpact": "Better merchant retention and fee acceptance.",
+        "metricToTrack": "Merchant churn rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Spending cap the user sets in the app",
+        "problem": "Criticism that BNPL pushes overspending, and regulators watching.",
+        "expectedImpact": "Builds trust and reduces losses.",
+        "metricToTrack": "Share of users setting a cap and their loss rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Find who benefits most and charge them. Klarna made shops pay because they gain from higher sales.",
+      "Lending products live or die on risk. Growth without good approval decisions just creates losses.",
+      "Moving from one moment (checkout) to daily use (card, app) is how a feature becomes a platform.",
+      "AI can cut support costs, but users still need a human path when things go wrong."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase Klarna Card usage among existing app users?",
+        "hint": "Segment users by how they use Klarna. Find barriers like awareness and trust. Ideas: rewards, default card in wallet, bill payments. Metric: card transactions per user. Guardrail: losses."
+      },
+      {
+        "question": "The FCA is regulating BNPL. What product changes would you make?",
+        "hint": "Name the rules: affordability checks, clear terms. Make checks fast to keep conversion. Add spending controls. Measure conversion and complaints."
+      },
+      {
+        "question": "A big merchant wants a lower fee. How do you respond?",
+        "hint": "Show value with data: conversion lift, order size, new customers from the app. Offer ads or tiers. Know your floor based on costs."
+      },
+      {
+        "question": "How do you measure whether the AI assistant is good?",
+        "hint": "Resolution rate, repeat contacts, satisfaction, time to resolve, escalation rate. Compare to human support. Watch for silent failures."
+      },
+      {
+        "question": "Pick a north star for Klarna.",
+        "hint": "Pick something that shows value to shoppers and merchants, like purchases repaid on time. Explain why GMV alone is risky in lending."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "BNPL",
+        "meaning": "Buy now, pay later: splitting a purchase into instalments, usually with no interest."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of shoppers who complete a purchase."
+      },
+      {
+        "term": "Transaction margin",
+        "meaning": "Revenue minus the direct costs of each transaction, like funding, processing and bad loans."
+      },
+      {
+        "term": "Credit losses",
+        "meaning": "Money lost when borrowers do not pay back."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A small fee the shop's bank pays the card issuer every time a card is used."
+      },
+      {
+        "term": "GMV",
+        "meaning": "Gross merchandise value: the total value of everything bought through a platform."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to measure the value it delivers to users."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      }
+    ],
+    "assumptions": [
+      "The per-order economics on a £100 order are estimates based on Klarna's transaction margin and typical merchant fees, not reported per-order figures.",
+      "Merchant fee range of 3% to 6% is from public merchant pricing and news reports and varies by deal.",
+      "UK late fee may vary; check Klarna's current UK terms."
+    ]
+  }
+}

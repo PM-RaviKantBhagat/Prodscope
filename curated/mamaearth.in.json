@@ -1,0 +1,248 @@
+{
+  "company": "Mamaearth (Honasa)",
+  "domain": "mamaearth.in",
+  "website": "https://mamaearth.in",
+  "sources": [
+    "https://inc42.com/buzz/mamaearth-parent-honasas-q2-profit-jumps-87-yoy-to-₹73-cr/",
+    "https://www.exchange4media.com/marketing-news/honasa-consumer-posts-36-revenue-growth-in-q2-fy27-ebitda-nearly-doubles-160075.html",
+    "https://yourstory.com/2026/11/mamaearth-parent-profit-surges-goyal-defends-temple-amid-backlash",
+    "https://www.multibagg.ai/market-pulse/articles/honasa-focus-categories-offline-growth-ppt-cmw4obgy8001nu02rq7bswk27",
+    "https://inc42.com/buzz/mamaearth-parent-honasa-posts-inr-39-cr-profit-in-q2-fy26"
+  ],
+  "report": {
+    "company": "Mamaearth (Honasa)",
+    "tagline": "A beauty and personal care company that started online with 'toxin-free' baby products and now runs a house of brands sold in lakhs of shops.",
+    "category": "Beauty D2C",
+    "simpleSummary": "Mamaearth began in 2016 selling baby care products online that were free of harsh chemicals. It grew fast with Instagram influencers and Amazon, then added face washes, shampoos and creams for adults. Its parent company, Honasa Consumer, now owns several brands: Mamaearth, The Derma Co, Aqualogica, Dr. Sheth's, BBlunt and Staze. After struggling in 2024, it pushed into neighbourhood shops and is growing fast again.",
+    "keyNumbers": [
+      { "label": "Revenue (Q2 FY27)", "value": "₹731 crore, up 36%", "note": "Honasa results via Inc42, November 2026." },
+      { "label": "Net profit (Q2 FY27)", "value": "₹73 crore, up 87%", "note": "Honasa results. EBITDA about ₹93 crore, margin about 12.7%." },
+      { "label": "Revenue (H1 FY27)", "value": "₹1,487 crore, up 31%", "note": "Honasa results; profit ₹164 crore." },
+      { "label": "General trade reach", "value": "About 3.2 lakh shops", "note": "Company-reported, Q2 FY27." },
+      { "label": "Market share in its categories", "value": "About 5% of a ₹50,000 crore market", "note": "Company estimate for categories like face cleansers and shampoos." },
+      { "label": "Channel growth", "value": "Shops and modern trade up about 40%; e-commerce up about 20%", "note": "Q2 FY27, company-reported." }
+    ],
+    "overview": {
+      "whatItDoes": "Honasa Consumer (listed in 2023) sells skin care, hair care, baby care and colour cosmetics under several brands. Mamaearth is the mass brand with natural ingredients. The Derma Co is science-led skincare. Aqualogica is hydration skincare. Dr. Sheth's uses Indian ingredients with science. Products are made by contract manufacturers, and sold online, in supermarkets and in local shops.",
+      "howItWorks": [
+        "Honasa finds a trend (like vitamin C or onion hair oil) and launches products fast with contract manufacturers.",
+        "Influencers and ads on Instagram and YouTube push new launches.",
+        "Products sell on Amazon, Nykaa, Flipkart, quick commerce apps and its own sites.",
+        "Distributors take products to lakhs of local shops (general trade).",
+        "Supermarkets and beauty chains (modern trade) also stock them.",
+        "Each brand targets a different buyer, so they don't eat each other's sales."
+      ],
+      "valueProposition": "Safe, trendy beauty products at mass prices (₹200 to ₹600), available everywhere, from brands that feel modern."
+    },
+    "personas": [
+      {
+        "name": "New mother",
+        "description": "First-time mom wanting safe baby products.",
+        "goals": ["No harsh chemicals", "Trusted brand"],
+        "frustrations": ["Confusing labels", "Fear of rashes"]
+      },
+      {
+        "name": "College student with skin concerns",
+        "description": "20-year-old dealing with acne.",
+        "goals": ["Affordable products that work", "Trendy ingredients"],
+        "frustrations": ["Expensive foreign brands", "Products that don't work"]
+      },
+      {
+        "name": "Small-town shopper",
+        "description": "Buys from local chemist or kirana shop.",
+        "goals": ["Brand seen on TV and Instagram", "Fair price"],
+        "frustrations": ["Brand not available locally"]
+      },
+      {
+        "name": "Skincare enthusiast",
+        "description": "28-year-old reads ingredient lists.",
+        "goals": ["Active ingredients", "Value for money"],
+        "frustrations": ["Marketing over substance"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Parents worry about chemicals in baby products.", "howSolved": "Toxin-free, certified baby care.", "severity": "high" },
+      { "pain": "Good skincare was expensive.", "howSolved": "Mass prices with trendy ingredients.", "severity": "medium" },
+      { "pain": "New brands are hard to find in small towns.", "howSolved": "Distribution to 3.2 lakh shops.", "severity": "medium" },
+      { "pain": "Buyers want science-backed products.", "howSolved": "The Derma Co and Dr. Sheth's.", "severity": "medium" },
+      { "pain": "Too many choices confuse buyers.", "howSolved": "Clear brand per need.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Mamaearth range", "whatItDoes": "Face washes, shampoos, baby care.", "whyItMatters": "Biggest brand, growing high teens." },
+      { "feature": "The Derma Co", "whatItDoes": "Science-based skincare.", "whyItMatters": "Fast-growing younger brand." },
+      { "feature": "Aqualogica, Dr. Sheth's, BBlunt, Staze", "whatItDoes": "Brands for different needs.", "whyItMatters": "Grew 45%+ in Q2 FY27." },
+      { "feature": "Influencer marketing", "whatItDoes": "Creators promote products.", "whyItMatters": "Built brands cheaply online." },
+      { "feature": "General trade distribution", "whatItDoes": "Gets products into local shops.", "whyItMatters": "Main driver of the 2026 turnaround." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying onion shampoo online",
+        "persona": "College student with skin concerns",
+        "steps": [
+          { "step": "See reel", "detail": "Influencer talks about hair fall." },
+          { "step": "Search", "detail": "Finds it on Amazon." },
+          { "step": "Read reviews", "detail": "Checks ratings." },
+          { "step": "Buy", "detail": "Orders with discount." },
+          { "step": "Use", "detail": "Uses for a month." },
+          { "step": "Repurchase", "detail": "Buys again or tries another product." }
+        ]
+      },
+      {
+        "name": "Buying in a local shop",
+        "persona": "Small-town shopper",
+        "steps": [
+          { "step": "See ad", "detail": "Sees TV ad." },
+          { "step": "Visit shop", "detail": "Asks local chemist." },
+          { "step": "Buy", "detail": "Buys a small pack." },
+          { "step": "Try", "detail": "Uses at home." },
+          { "step": "Return", "detail": "Buys bigger pack next time." }
+        ]
+      },
+      {
+        "name": "Buying baby products",
+        "persona": "New mother",
+        "steps": [
+          { "step": "Ask friends", "detail": "Gets advice from mom groups." },
+          { "step": "Check labels", "detail": "Looks for toxin-free claims." },
+          { "step": "Buy kit", "detail": "Orders baby care set." },
+          { "step": "Use", "detail": "Uses daily." },
+          { "step": "Repeat", "detail": "Buys monthly." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Honasa makes money by selling products at prices well above manufacturing cost, then spending a big part on marketing and distribution. It owns no factories.",
+      "revenueStreams": [
+        { "stream": "Online sales", "detail": "Amazon, Nykaa, Flipkart, quick commerce and own sites." },
+        { "stream": "General trade", "detail": "Local shops through distributors." },
+        { "stream": "Modern trade", "detail": "Supermarkets and beauty chains." },
+        { "stream": "International", "detail": "Small sales in Gulf and other markets." }
+      ],
+      "pricing": "Most products ₹200 to ₹600 on its own sites and marketplaces, with frequent discounts.",
+      "costDrivers": [
+        "Contract manufacturing",
+        "Advertising and influencers",
+        "Distributor and retailer margins",
+        "Marketplace fees"
+      ],
+      "unitEconomics": "Take a ₹400 face wash. Making and packing it may cost ₹100 to ₹120. Retailer and distributor margins take ₹80 to ₹120. Marketing takes ₹100 or more. Honasa may keep ₹40 to ₹60. With a 12.7% EBITDA margin in Q2 FY27, Honasa keeps about ₹12 to ₹13 for every ₹100 of sales before tax and other costs. Per-unit numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Influencers and Instagram",
+        "TV ads with celebrities",
+        "Marketplace promotions",
+        "Local shop distribution",
+        "Founder Ghazal Alagh's public profile, including Shark Tank India"
+      ],
+      "whatBringsUsersBack": [
+        "Products run out monthly",
+        "New launches",
+        "Multiple brands for different needs"
+      ],
+      "moat": "Speed of launching trending products, a portfolio of brands for different needs, and wide distribution. But products are easy to copy, so it must keep launching and building brand trust."
+    },
+    "competitors": [
+      { "name": "Hindustan Unilever", "positioning": "Largest FMCG with brands like Dove.", "howThisProductDiffers": "Honasa is faster and more digital." },
+      { "name": "Minimalist (owned by HUL)", "positioning": "Ingredient-led skincare.", "howThisProductDiffers": "Honasa's The Derma Co competes directly." },
+      { "name": "Plum and Dot & Key", "positioning": "D2C skincare brands.", "howThisProductDiffers": "Honasa has more brands and offline reach." },
+      { "name": "Himalaya", "positioning": "Herbal personal care.", "howThisProductDiffers": "Mamaearth feels more modern." }
+    ],
+    "northStar": {
+      "metric": "Monthly repeat buyers across all Honasa brands",
+      "why": "Repeat buyers show products work and customers trust the brands."
+    },
+    "kpiTree": [
+      {
+        "metric": "Reach",
+        "description": "Where buyers can find products.",
+        "children": [
+          { "metric": "Shops stocking products", "description": "3.2 lakh now." },
+          { "metric": "Online search ranking", "description": "Visibility." }
+        ]
+      },
+      {
+        "metric": "Trial",
+        "description": "First purchases.",
+        "children": [
+          { "metric": "New buyers", "description": "From ads and shops." },
+          { "metric": "Small pack sales", "description": "Low-risk trial." }
+        ]
+      },
+      {
+        "metric": "Repeat",
+        "description": "Second and later purchases.",
+        "children": [
+          { "metric": "Repeat rate", "description": "Shows product works." },
+          { "metric": "Products per buyer", "description": "Cross-sell." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross margin",
+      "Marketing spend as share of revenue",
+      "Inventory held at distributors",
+      "Product complaints"
+    ],
+    "strengths": [
+      "Fast-growing again",
+      "House of brands",
+      "Strong digital marketing",
+      "Growing offline reach"
+    ],
+    "weaknesses": [
+      "Mamaearth growth slower than younger brands",
+      "Depends on marketing",
+      "Past distributor stock issues in 2024"
+    ],
+    "risks": [
+      "Big FMCG firms copying",
+      "Quick commerce changing retail",
+      "Backlash against founders affecting brand",
+      "Ingredient claim scrutiny"
+    ],
+    "userComplaints": [
+      "Products don't match claims",
+      "Too many ads",
+      "Price hikes",
+      "Skin reactions"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show clinical test results on packs and listings", "problem": "Doubts about claims", "expectedImpact": "More trust", "metricToTrack": "Repeat rate", "effort": "medium" },
+      { "idea": "Small sachets for local shops", "problem": "Trial in small towns", "expectedImpact": "More new buyers", "metricToTrack": "New buyers in general trade", "effort": "low" },
+      { "idea": "Personalised regimen quiz on website", "problem": "Confusion among brands", "expectedImpact": "More cross-sell", "metricToTrack": "Products per buyer", "effort": "medium" },
+      { "idea": "Cut low-performing products", "problem": "Too many products", "expectedImpact": "Better margins", "metricToTrack": "Gross margin", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Online brands need offline reach to grow big in India.",
+      "A house of brands lets you serve different buyers.",
+      "Influencer marketing works early but gets costly.",
+      "Brand trust depends on product claims being real."
+    ],
+    "interviewQuestions": [
+      { "question": "Why did Mamaearth move offline?", "hint": "Online growth slowed, most buying is offline, trial in shops." },
+      { "question": "How would you grow Mamaearth vs younger brands?", "hint": "Refresh brand, new products, keep trust." },
+      { "question": "What is Honasa's north star metric?", "hint": "Repeat buyers across brands." },
+      { "question": "Should Honasa launch more brands?", "hint": "Weigh focus vs reach." },
+      { "question": "How would you handle a product claim controversy?", "hint": "Be transparent, test results, fast response." }
+    ],
+    "glossary": [
+      { "term": "D2C", "meaning": "Direct to consumer: brands selling directly to buyers." },
+      { "term": "General trade", "meaning": "Small local shops." },
+      { "term": "Modern trade", "meaning": "Supermarkets and retail chains." },
+      { "term": "House of brands", "meaning": "One company owning many separate brands." },
+      { "term": "EBITDA", "meaning": "Profit before interest, tax and accounting costs like depreciation." },
+      { "term": "FMCG", "meaning": "Fast-moving consumer goods, like soap and shampoo." },
+      { "term": "Gross margin", "meaning": "Revenue left after paying for making the product." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Cross-sell", "meaning": "Selling another product to an existing customer." },
+      { "term": "Moat", "meaning": "What makes a business hard to copy." },
+      { "term": "Quick commerce", "meaning": "Apps that deliver in minutes." }
+    ],
+    "assumptions": [
+      "Per-unit numbers are estimates.",
+      "Brand-level financials are not disclosed.",
+      "Complaints are from reviews."
+    ]
+  }
+}

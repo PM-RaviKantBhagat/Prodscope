@@ -1,0 +1,552 @@
+{
+  "company": "Lovable",
+  "domain": "lovable.dev",
+  "website": "https://lovable.dev",
+  "sources": [
+    "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+    "https://aimagazine.com/news/lovable-europes-vibe-coding-platform-crosses-us-600m-arr",
+    "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
+    "https://thenextweb.com/news/lovable-build-economy-500m-arr-vibe-coding",
+    "https://www.vktr.com/ai-platforms/lovable-raises-400-million-at-133-billion-valuation/",
+    "https://www.sacra.com/c/lovable"
+  ],
+  "report": {
+    "company": "Lovable",
+    "tagline": "A Swedish AI tool that builds working web apps from a plain-English chat, so people who cannot code can ship software.",
+    "category": "AI app builder",
+    "simpleSummary": "Lovable lets you build an app by describing it in a chat. You type something like 'a booking app for my yoga studio with payments', and in a minute you see a working website you can click through. You keep chatting to change it, then publish it with one click. It is aimed at founders, designers and business people who cannot code, and it became one of the fastest-growing software companies ever.",
+    "keyNumbers": [
+      {
+        "label": "Annual recurring revenue",
+        "value": "Over $600 million (late 2026)",
+        "note": "AI Magazine, 2026. It was about $400 million in March 2026 and $500 million in July 2026, per TechCrunch and The Next Web."
+      },
+      {
+        "label": "Revenue added in one month",
+        "value": "About $100 million (February 2026)",
+        "note": "Company claim reported by TechCrunch, March 2026."
+      },
+      {
+        "label": "Employees",
+        "value": "About 146 (March 2026)",
+        "note": "TechCrunch. That is over $2.5 million of yearly revenue per employee."
+      },
+      {
+        "label": "Users",
+        "value": "Nearly 8 million (November 2025)",
+        "note": "Company statement at Web Summit, reported by TechCrunch. Likely higher now."
+      },
+      {
+        "label": "Valuation",
+        "value": "Reported around $13 billion (2026)",
+        "note": "News reports of a $400 million round in 2026. Previous round was $6.6 billion in December 2025. Treat latest as approximate."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Lovable turns a written idea into a full web app: screens, buttons, database, logins and payments. The AI writes real code (React and TypeScript) that you own. You can edit by chatting, by clicking on parts of the page, or by opening the code.",
+      "howItWorks": [
+        "You describe your app in a chat box, or upload a screenshot or Figma design.",
+        "The AI writes the code and shows a live preview in seconds.",
+        "You ask for changes in plain words, or click on an element to edit it visually.",
+        "Lovable Cloud adds a database, user logins, file storage and AI features without setup; Supabase and Stripe are built in.",
+        "One click publishes the app to a web address; you can connect your own domain and sync code to GitHub.",
+        "Each message uses credits; paid plans give more credits a month."
+      ],
+      "valueProposition": "Go from idea to a live app in an afternoon, without hiring developers or learning to code."
+    },
+    "personas": [
+      {
+        "name": "Non-technical founder",
+        "description": "A first-time founder in Bengaluru with a startup idea but no technical co-founder.",
+        "goals": [
+          "Build a working product to show investors",
+          "Test the idea with real users fast",
+          "Avoid paying an agency ₹10 lakh"
+        ],
+        "frustrations": [
+          "AI gets stuck in loops fixing the same bug",
+          "Credits run out quickly",
+          "Not sure if the app is secure or can scale"
+        ]
+      },
+      {
+        "name": "Product manager or designer at a company",
+        "description": "A PM who wants to turn ideas into clickable prototypes without waiting for engineering.",
+        "goals": [
+          "Show stakeholders a real prototype, not slides",
+          "Test ideas with users this week",
+          "Hand working code to engineers"
+        ],
+        "frustrations": [
+          "Company security rules about new tools",
+          "Prototype code may not match the company's tech stack",
+          "Hard to collaborate with a big team"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Runs a coaching business and wants a custom booking and client portal.",
+        "goals": [
+          "Custom tool without monthly SaaS fees for many apps",
+          "Simple to update themselves",
+          "Take payments"
+        ],
+        "frustrations": [
+          "Breaks when asking for complex changes",
+          "Confusing technical errors",
+          "Worried about data privacy for clients"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Hiring developers or an agency is expensive and slow.",
+        "howSolved": "The AI builds the app from a chat for $25 a month on the Pro plan.",
+        "severity": "high"
+      },
+      {
+        "pain": "No-code tools like Bubble have a steep learning curve and lock you in.",
+        "howSolved": "You just describe what you want, and you own the real code, which you can export to GitHub.",
+        "severity": "high"
+      },
+      {
+        "pain": "Setting up databases, logins and hosting is hard for beginners.",
+        "howSolved": "Lovable Cloud and Supabase integration set these up automatically.",
+        "severity": "high"
+      },
+      {
+        "pain": "Ideas die in documents because building a prototype takes weeks.",
+        "howSolved": "A clickable prototype appears in minutes to test with users.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Changing a design means explaining it to someone else.",
+        "howSolved": "Visual edits let you click and change text, colours and layout directly.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Chat to build",
+        "whatItDoes": "Describe an app or change and the AI writes the code.",
+        "whyItMatters": "The core experience that lets non-coders build software."
+      },
+      {
+        "feature": "Live preview and visual edits",
+        "whatItDoes": "See the app running instantly and click elements to change them.",
+        "whyItMatters": "Gives instant feedback, which makes building feel fun and fast."
+      },
+      {
+        "feature": "Lovable Cloud and integrations",
+        "whatItDoes": "Built-in database, auth, storage and AI, plus Supabase, Stripe and GitHub.",
+        "whyItMatters": "Turns demos into real apps with users and payments, which keeps people paying."
+      },
+      {
+        "feature": "One-click publish",
+        "whatItDoes": "Deploys the app to a live link with custom domains on paid plans.",
+        "whyItMatters": "Shipping something real is the 'wow' moment that drives word of mouth."
+      },
+      {
+        "feature": "Security scan",
+        "whatItDoes": "Checks for common security problems like exposed data before publishing.",
+        "whyItMatters": "Addresses a big worry after 2025 reports of Lovable apps leaking data."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First app",
+        "persona": "Non-technical founder",
+        "steps": [
+          {
+            "step": "Sees a demo",
+            "detail": "Watches a viral X or LinkedIn post of someone building an app in 10 minutes."
+          },
+          {
+            "step": "Signs up free",
+            "detail": "Gets a few free credits a day."
+          },
+          {
+            "step": "Types the idea",
+            "detail": "'A marketplace for home tutors in Pune with booking and reviews.'"
+          },
+          {
+            "step": "Sees it live",
+            "detail": "A working app appears; feels magical."
+          },
+          {
+            "step": "Runs out of credits",
+            "detail": "After a dozen changes, free credits end."
+          },
+          {
+            "step": "Upgrades",
+            "detail": "Pays $25 a month for Pro to keep going."
+          },
+          {
+            "step": "Publishes",
+            "detail": "Shares the link with 20 test users."
+          }
+        ]
+      },
+      {
+        "name": "Prototype for a meeting",
+        "persona": "Product manager or designer at a company",
+        "steps": [
+          {
+            "step": "Has a new feature idea",
+            "detail": "Needs buy-in from leadership."
+          },
+          {
+            "step": "Uploads a Figma screen",
+            "detail": "Lovable turns it into a working page."
+          },
+          {
+            "step": "Adds fake data",
+            "detail": "Asks the AI to fill in sample customers."
+          },
+          {
+            "step": "Shows in meeting",
+            "detail": "Leaders click through a real prototype."
+          },
+          {
+            "step": "Hands off",
+            "detail": "Exports code to GitHub for engineers."
+          }
+        ]
+      },
+      {
+        "name": "Fixing a stuck bug",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Asks for a big change",
+            "detail": "Adds recurring payments."
+          },
+          {
+            "step": "Error appears",
+            "detail": "The app breaks with a technical message."
+          },
+          {
+            "step": "Clicks 'Try to fix'",
+            "detail": "AI tries again, using more credits."
+          },
+          {
+            "step": "Loops",
+            "detail": "Same error after three tries."
+          },
+          {
+            "step": "Reverts",
+            "detail": "Uses version history to go back and asks in smaller steps."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Lovable sells monthly subscriptions that include a set number of credits. Each chat message uses credits. Heavier users buy bigger plans or top-ups. Companies pay for Business and Enterprise plans with team features and security. Lovable also earns from cloud hosting and AI usage inside apps built on Lovable Cloud.",
+      "revenueStreams": [
+        {
+          "stream": "Pro subscriptions",
+          "detail": "From about $25 a month for 100 monthly credits plus daily credits, with higher tiers for more credits."
+        },
+        {
+          "stream": "Business plans",
+          "detail": "From about $50 a month with team workspaces, single sign-on and data opt-out."
+        },
+        {
+          "stream": "Enterprise contracts",
+          "detail": "Custom pricing for large companies."
+        },
+        {
+          "stream": "Lovable Cloud and AI usage",
+          "detail": "Usage-based charges for hosting, database and AI features in published apps."
+        },
+        {
+          "stream": "Credit top-ups",
+          "detail": "Extra credits when monthly ones run out."
+        }
+      ],
+      "pricing": "Free: a few credits a day. Pro: from about $25 a month. Business: from about $50 a month. Enterprise: custom. Cloud and AI usage billed by use above a free allowance. Prices from lovable.dev and may change.",
+      "costDrivers": [
+        "AI model costs paid to Anthropic, OpenAI and Google for every message",
+        "Hosting and database costs for published apps",
+        "Free users who never pay",
+        "Small but highly paid engineering team",
+        "Marketing and community events"
+      ],
+      "unitEconomics": "A Pro user pays about $25 a month. If they use all 100 or so credits, each message might cost Lovable a few cents to tens of cents in AI fees, so model costs could be $5 to 15. That leaves a gross margin of maybe 40 to 70%, lower than normal software because AI costs are high. Users who loop on bugs burn credits and cost more, but they also often buy top-ups. Lovable's tiny team of about 146 people keeps other costs low."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral demos on X, LinkedIn and YouTube of apps built in minutes",
+        "Users sharing apps with a 'Built with Lovable' link",
+        "Templates and community showcases",
+        "Hackathons and events worldwide",
+        "Word of mouth among founders and PMs"
+      ],
+      "whatBringsUsersBack": [
+        "Live apps that need updates and new features",
+        "Credits refresh every month, encouraging use",
+        "Hosting on Lovable Cloud keeps apps on the platform",
+        "New AI models make the builder better every few months"
+      ],
+      "moat": "Lovable's moat is still forming. Its brand and community are strong, and apps hosted on Lovable Cloud create switching costs. But it relies on the same AI models as rivals, so the core building ability is easy to copy. Speed of shipping and ease of use are its main defences."
+    },
+    "competitors": [
+      {
+        "name": "Bolt.new (StackBlitz)",
+        "positioning": "Chat-to-app builder running in the browser.",
+        "howThisProductDiffers": "Very similar; Lovable has more brand pull with non-technical users and a built-in backend."
+      },
+      {
+        "name": "Replit",
+        "positioning": "Online coding platform with an AI agent.",
+        "howThisProductDiffers": "Replit suits people who want to see and touch code; Lovable is simpler for non-coders."
+      },
+      {
+        "name": "v0 (Vercel)",
+        "positioning": "AI for building web UI and apps, tied to Vercel hosting.",
+        "howThisProductDiffers": "v0 targets developers and front-end work; Lovable targets full apps for non-developers."
+      },
+      {
+        "name": "Cursor and Claude Code",
+        "positioning": "AI coding tools for developers.",
+        "howThisProductDiffers": "Much more powerful for engineers, but need coding skills; Lovable needs none."
+      },
+      {
+        "name": "Base44 (Wix) and Bubble",
+        "positioning": "No-code and AI app builders.",
+        "howThisProductDiffers": "Bubble locks you into its platform; Lovable gives you real code you own."
+      }
+    ],
+    "northStar": {
+      "metric": "Apps published and used by real end users each week",
+      "why": "A published app that other people use means the builder created real value. It filters out abandoned experiments and links to retention and revenue. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "New builders activated",
+        "description": "Sign-ups who build a working first version.",
+        "children": [
+          {
+            "metric": "Sign-up to first preview",
+            "description": "Share who see a working app on day one."
+          },
+          {
+            "metric": "Time to first preview",
+            "description": "Minutes from first prompt to live preview."
+          },
+          {
+            "metric": "Template use rate",
+            "description": "Templates help beginners start faster."
+          }
+        ]
+      },
+      {
+        "metric": "Build success",
+        "description": "How often prompts work the first time.",
+        "children": [
+          {
+            "metric": "Error rate per prompt",
+            "description": "Share of messages that break the app."
+          },
+          {
+            "metric": "Fix loop rate",
+            "description": "Share of sessions with three or more failed fix attempts."
+          },
+          {
+            "metric": "Credits per successful change",
+            "description": "Lower is better for users and costs."
+          }
+        ]
+      },
+      {
+        "metric": "Publish rate",
+        "description": "Projects that go live.",
+        "children": [
+          {
+            "metric": "Projects published",
+            "description": "Share of projects published."
+          },
+          {
+            "metric": "Backend connected",
+            "description": "Share using Cloud or Supabase, a sign of a real app."
+          },
+          {
+            "metric": "Custom domain added",
+            "description": "Shows serious intent."
+          }
+        ]
+      },
+      {
+        "metric": "End-user usage",
+        "description": "Real people using the apps.",
+        "children": [
+          {
+            "metric": "Weekly visitors per published app",
+            "description": "Proves the app is used."
+          },
+          {
+            "metric": "Apps updated monthly",
+            "description": "Active apps keep builders subscribed."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Security incidents in published apps",
+      "Gross margin per paying user",
+      "Monthly paid churn",
+      "Refund and complaint rate about credits"
+    ],
+    "strengths": [
+      "Very fast growth: about $600 million ARR within two years of launch",
+      "Very simple for non-coders",
+      "Tiny, efficient team",
+      "Strong brand and community",
+      "Owns hosting and backend through Lovable Cloud"
+    ],
+    "weaknesses": [
+      "Gross margins squeezed by AI model costs",
+      "Users hit bug loops that waste credits",
+      "Apps built by beginners can have security holes",
+      "Hard to build complex apps that scale",
+      "Many users may churn after building one project"
+    ],
+    "risks": [
+      "AI labs like OpenAI, Anthropic and Google building their own app builders",
+      "Price rises by model providers",
+      "Copycat competitors with lower prices",
+      "Security scandal from a data leak in a popular Lovable app",
+      "'Vibe coding' hype cooling down"
+    ],
+    "userComplaints": [
+      "Credits burned on the AI repeatedly failing to fix the same bug",
+      "Apps break when projects get bigger",
+      "Unclear credit pricing and running out fast",
+      "Security issues, such as database rules left open",
+      "Slow or limited support for paying users"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Do not charge credits for failed automatic fix attempts",
+        "problem": "Users feel cheated when credits are used on the AI's own mistakes.",
+        "expectedImpact": "Higher trust, fewer complaints and lower churn.",
+        "metricToTrack": "Monthly paid churn and complaint rate about credits",
+        "effort": "low"
+      },
+      {
+        "idea": "Plan mode that writes a simple step-by-step plan before big changes",
+        "problem": "Large changes cause errors and loops.",
+        "expectedImpact": "Higher success rate for complex requests.",
+        "metricToTrack": "Error rate per prompt and fix loop rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Mandatory security check with plain-English fixes before publishing",
+        "problem": "Beginners publish apps that leak user data.",
+        "expectedImpact": "Fewer security incidents and more enterprise trust.",
+        "metricToTrack": "Security incidents per thousand published apps",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lower-priced plan for India and emerging markets",
+        "problem": "$25 a month is a lot for students and small businesses in India.",
+        "expectedImpact": "More paying users in large markets.",
+        "metricToTrack": "Paid users in India",
+        "effort": "low"
+      },
+      {
+        "idea": "Built-in analytics for every published app",
+        "problem": "Builders do not know if anyone uses their app, so they stop.",
+        "expectedImpact": "More app updates and longer subscriptions.",
+        "metricToTrack": "Apps updated monthly",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Time to 'wow' wins. Seeing a working app in a minute is what made Lovable spread.",
+      "AI costs shape pricing. Credits link price to cost, but feel unfair when the AI fails.",
+      "A new audience can be bigger than the old one. Lovable grew by serving non-coders, not developers.",
+      "Small teams can scale fast when AI and users do much of the work.",
+      "Quick growth needs quality and safety. Security problems can undo trust fast."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Lovable users complain about credits wasted on bug loops. How would you fix this?",
+        "hint": "Size the problem with data. Options: free retries, better error detection, plan mode, refunds. Weigh cost to Lovable against churn. Pick a metric."
+      },
+      {
+        "question": "What should Lovable's north star metric be?",
+        "hint": "Avoid sign-ups or revenue alone. Suggest published apps with real users. Break into activation, build success, publish and usage."
+      },
+      {
+        "question": "How would Lovable win enterprise customers?",
+        "hint": "Identify buyers (PM and design teams). Needs: security, single sign-on, matching tech stack, collaboration. Plan a pilot and success metrics."
+      },
+      {
+        "question": "OpenAI launches a free app builder in ChatGPT. What does Lovable do?",
+        "hint": "What is unique: hosting, backend, community, focus. Double down there. Consider pricing and partnerships."
+      },
+      {
+        "question": "Many users build one app then leave. How would you improve retention?",
+        "hint": "Segment by goal. Ideas: analytics, templates for next app, team features, hosting value. Track month 2 and 3 retention."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "ARR",
+        "meaning": "Annual recurring revenue: the yearly value of current subscriptions."
+      },
+      {
+        "term": "Vibe coding",
+        "meaning": "Building software by describing what you want to an AI instead of writing code."
+      },
+      {
+        "term": "Credits",
+        "meaning": "Units you spend on each AI request in Lovable; plans include a monthly amount."
+      },
+      {
+        "term": "Backend",
+        "meaning": "The hidden part of an app that stores data and handles logins."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "The share of revenue left after paying direct costs like AI and hosting."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a period."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the product over time."
+      },
+      {
+        "term": "Switching costs",
+        "meaning": "The effort or money it takes for a user to move to a rival."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that protects a business from competitors."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow."
+      },
+      {
+        "term": "Activation",
+        "meaning": "The moment a new user first gets real value from a product."
+      }
+    ],
+    "assumptions": [
+      "The latest valuation of about $13 billion is from news reports and may not be confirmed.",
+      "AI cost per message and gross margin are our estimates.",
+      "Plan prices are from the website at time of writing and change often.",
+      "User numbers in late 2026 are likely well above the 8 million reported in 2025, but no newer figure was found.",
+      "The north star metric is our suggestion."
+    ]
+  }
+}

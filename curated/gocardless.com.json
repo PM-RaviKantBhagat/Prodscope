@@ -1,0 +1,509 @@
+{
+  "company": "GoCardless",
+  "domain": "gocardless.com",
+  "website": "https://gocardless.com",
+  "sources": [
+    "https://tech.eu/2026/04/13/gocardless-sees-revenue-boost-plans-to-cut-around-90-roles/",
+    "https://gocardless.com/blog/gocardless-grows-in-fy-25",
+    "https://www.uktech.news/fintech/gocardless-records-first-profitable-quarter-20251008",
+    "https://tech.eu/2025/12/11/mollie-buys-gocardless-in-1-05bn-deal/",
+    "https://www.crowdfundinsider.com/2026/09/305461-mollie-closes-on-acquisition-of-uk-fintech-gocardless/",
+    "https://fintechmagazine.com/news/why-acquiring-gocardless-is-mollies-biggest-win"
+  ],
+  "report": {
+    "company": "GoCardless",
+    "tagline": "A UK payments company that lets businesses pull recurring and one-off payments straight from customers' bank accounts, instead of using cards.",
+    "category": "Payments infrastructure",
+    "simpleSummary": "GoCardless helps businesses collect money directly from their customers' bank accounts. Think of a gym, a software company or a utility that bills you every month: instead of charging your card, they use GoCardless to take a Direct Debit from your bank. It is cheaper than cards, and payments do not fail when a card expires. In 2026 it was bought by Mollie, a Dutch payments company.",
+    "keyNumbers": [
+      {
+        "label": "Revenue FY25",
+        "value": "£155.5 million",
+        "note": "Companies House accounts for the year to June 2025, reported by Tech.eu. Up about 18% from £131.3 million. GoCardless's own release said 22% growth on its measure."
+      },
+      {
+        "label": "Loss FY25",
+        "value": "£25.5 million",
+        "note": "Tech.eu, down from £33.6 million. First quarter with positive adjusted EBITDA came in late 2025, and it expected its first adjusted EBITDA positive year in FY26."
+      },
+      {
+        "label": "Payment volume FY25",
+        "value": "£79.2 billion",
+        "note": "Tech.eu. About double the year before, helped by buying the open banking firm Nuapay."
+      },
+      {
+        "label": "Sale to Mollie",
+        "value": "About €1.05 to €1.1 billion",
+        "note": "Announced December 2025, completed September 2026 (Crowdfund Insider). Below its 2022 private valuation of about $2.1 billion."
+      },
+      {
+        "label": "Business customers",
+        "value": "About 100,000",
+        "note": "Company claim; treat as approximate."
+      },
+      {
+        "label": "Staff",
+        "value": "626",
+        "note": "FY25 accounts, Tech.eu."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "GoCardless runs bank-to-bank payments for businesses. It handles Direct Debit in the UK and similar schemes in Europe, the US, Australia and more, plus instant open banking payments. Businesses connect through its dashboard, billing software like Xero, or an API. It charges a small fee per payment.",
+      "howItWorks": [
+        "A business sends its customer a GoCardless payment page or adds it to its checkout.",
+        "The customer enters bank details once and agrees a mandate, which is permission for the business to collect payments.",
+        "Each billing date, GoCardless pulls the payment from the customer's bank through the local bank scheme, like Bacs in the UK or SEPA in Europe.",
+        "Money settles to the business a few days later, minus GoCardless's fee.",
+        "Success+ uses data from millions of payments to retry failed ones at the best time.",
+        "Instant Bank Pay uses open banking to take one-off payments instantly, without a card."
+      ],
+      "valueProposition": "Collect recurring payments cheaply and reliably, without card expiry, high card fees or chasing customers."
+    },
+    "personas": [
+      {
+        "name": "Subscription business finance lead",
+        "description": "Runs billing at a SaaS company, gym chain or membership business.",
+        "goals": [
+          "Lower payment fees",
+          "Fewer failed payments",
+          "Less time chasing invoices"
+        ],
+        "frustrations": [
+          "Card fees of 1.5% to 3%",
+          "Card expiry causing churn",
+          "Slow Direct Debit setup with banks"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Accountant, cleaner or tutor who invoices clients monthly.",
+        "goals": [
+          "Get paid on time",
+          "Simple setup through accounting software"
+        ],
+        "frustrations": [
+          "Late payments",
+          "Manual bank transfer matching"
+        ]
+      },
+      {
+        "name": "Platform product manager",
+        "description": "Works at a software platform that wants to offer payments to its own users.",
+        "goals": [
+          "Embed bank payments in its product",
+          "Earn revenue from payments"
+        ],
+        "frustrations": [
+          "Building bank connections in many countries"
+        ]
+      },
+      {
+        "name": "End customer paying a bill",
+        "description": "Pays a gym or utility monthly.",
+        "goals": [
+          "Set it and forget it",
+          "Easy to cancel"
+        ],
+        "frustrations": [
+          "Unrecognised Direct Debits",
+          "Payments taken on the wrong date"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Card payments are expensive for recurring billing.",
+        "howSolved": "Bank payments with lower fees, often capped per payment.",
+        "severity": "high"
+      },
+      {
+        "pain": "Cards expire or get replaced, causing failed payments and lost customers.",
+        "howSolved": "Bank accounts rarely change, so payments keep working.",
+        "severity": "high"
+      },
+      {
+        "pain": "Setting up Direct Debit with a bank is slow and paper-heavy.",
+        "howSolved": "Online sign-up in minutes with a GoCardless account.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Chasing late invoices wastes time.",
+        "howSolved": "Automatic collection on the due date.",
+        "severity": "high"
+      },
+      {
+        "pain": "Failed payments need manual retries.",
+        "howSolved": "Success+ retries automatically on the best day.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Collecting in many countries means many bank schemes.",
+        "howSolved": "One platform covering 30+ countries.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Direct Debit collection",
+        "whatItDoes": "Pull recurring or one-off payments from bank accounts.",
+        "whyItMatters": "The core product and most of the revenue."
+      },
+      {
+        "feature": "Instant Bank Pay",
+        "whatItDoes": "Open banking payments that arrive instantly.",
+        "whyItMatters": "Covers one-off payments and first payments where Direct Debit is too slow."
+      },
+      {
+        "feature": "Success+",
+        "whatItDoes": "Smart retries of failed payments using network data.",
+        "whyItMatters": "Recovers revenue for businesses and is a paid upsell."
+      },
+      {
+        "feature": "Protect+",
+        "whatItDoes": "Fraud checks and verified mandates.",
+        "whyItMatters": "Reduces fraud losses for both GoCardless and merchants."
+      },
+      {
+        "feature": "Integrations",
+        "whatItDoes": "Plug-ins with Xero, QuickBooks, Sage, Zuora and hundreds of other tools.",
+        "whyItMatters": "Partners bring in many small businesses cheaply."
+      },
+      {
+        "feature": "API",
+        "whatItDoes": "Lets software companies build bank payments into their products.",
+        "whyItMatters": "Wins large volumes from platforms."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Small business sets up Direct Debit",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Finds GoCardless",
+            "detail": "Sees it in the Xero app store."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Creates an account and verifies business details."
+          },
+          {
+            "step": "Connects Xero",
+            "detail": "Links invoices to GoCardless."
+          },
+          {
+            "step": "Invites clients",
+            "detail": "Sends a link; clients enter bank details once."
+          },
+          {
+            "step": "Collects",
+            "detail": "Payments are pulled automatically when invoices are due."
+          },
+          {
+            "step": "Reconciles",
+            "detail": "Payments are matched to invoices in Xero."
+          }
+        ]
+      },
+      {
+        "name": "Subscription business cuts card failures",
+        "persona": "Subscription business finance lead",
+        "steps": [
+          {
+            "step": "Reviews churn",
+            "detail": "Sees many customers lost to failed card payments."
+          },
+          {
+            "step": "Adds bank option",
+            "detail": "Offers 'Pay by bank' at checkout through the API."
+          },
+          {
+            "step": "Migrates customers",
+            "detail": "Moves existing Direct Debit mandates from the old provider."
+          },
+          {
+            "step": "Turns on Success+",
+            "detail": "Failed payments are retried at the best time."
+          },
+          {
+            "step": "Measures savings",
+            "detail": "Tracks lower fees and fewer failed payments."
+          }
+        ]
+      },
+      {
+        "name": "Customer pays a gym",
+        "persona": "End customer paying a bill",
+        "steps": [
+          {
+            "step": "Joins gym online",
+            "detail": "Picks Direct Debit at sign-up."
+          },
+          {
+            "step": "Enters bank details",
+            "detail": "Fills in sort code and account number on a GoCardless page."
+          },
+          {
+            "step": "Gets confirmation",
+            "detail": "Receives an email with the mandate and the Direct Debit Guarantee."
+          },
+          {
+            "step": "Pays monthly",
+            "detail": "Payment is taken on the same day each month."
+          },
+          {
+            "step": "Cancels",
+            "detail": "Can cancel at any time through the bank app."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "GoCardless makes money by charging a small fee on each payment it collects, plus paid add-ons like smart retries and fraud tools. Its costs are bank scheme fees, fraud losses and staff.",
+      "revenueStreams": [
+        {
+          "stream": "Per-payment fees",
+          "detail": "A percentage plus a fixed amount, often capped, for each payment collected."
+        },
+        {
+          "stream": "Add-ons",
+          "detail": "Success+, Protect+ and other paid features."
+        },
+        {
+          "stream": "International and FX",
+          "detail": "Extra fees for collecting in other countries and converting currency."
+        },
+        {
+          "stream": "Enterprise and platform deals",
+          "detail": "Custom pricing for large businesses and software partners."
+        }
+      ],
+      "pricing": "UK standard plan has been about 1% + 20p per domestic transaction, capped at £4. Higher plans and international payments cost more. Enterprise pricing is custom. Check gocardless.com/pricing for current rates.",
+      "costDrivers": [
+        "Bank scheme fees (Bacs, SEPA and others)",
+        "Fraud losses (£2.6 million in FY25)",
+        "Staff, especially engineering and sales",
+        "Compliance in many countries",
+        "Partner commissions"
+      ],
+      "unitEconomics": "Take a £50 monthly gym payment. GoCardless charges about 1% + 20p, so 70p. The bank scheme fee is a few pence. Fraud and failure costs might be another few pence. So GoCardless keeps about 50p to 60p of gross profit per payment. A gym with 1,000 members brings about £600 a month of gross profit. The business saves money too: a card might cost it about 1.5% + 20p, or 95p. GoCardless's revenue was about 0.2% of the £79 billion it processed in FY25, because large payments hit the fee cap."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Integrations in accounting and billing apps like Xero and QuickBooks",
+        "Partnerships with software platforms",
+        "Direct sales to large subscription businesses",
+        "Search and content around 'Direct Debit for small business'",
+        "Now, cross-selling to Mollie's merchants in Europe"
+      ],
+      "whatBringsUsersBack": [
+        "Recurring payments run automatically every month",
+        "Mandates are hard to move to another provider",
+        "Add-ons that improve collection rates"
+      ],
+      "moat": "Once a business has thousands of customer mandates with GoCardless, moving them is risky and slow. Data from millions of payments makes its retry and fraud tools better than a new rival's. It also has connections to bank schemes in many countries."
+    },
+    "competitors": [
+      {
+        "name": "Stripe",
+        "positioning": "Global payments platform with cards, bank debits and billing.",
+        "howThisProductDiffers": "Stripe is card-first and broader; GoCardless is a specialist in bank payments."
+      },
+      {
+        "name": "Adyen",
+        "positioning": "Enterprise payments platform.",
+        "howThisProductDiffers": "Adyen focuses on large merchants and cards; GoCardless serves many smaller recurring billers."
+      },
+      {
+        "name": "Banks' own Direct Debit services",
+        "positioning": "Banks offering Direct Debit to business clients.",
+        "howThisProductDiffers": "GoCardless is faster to set up and easier for small businesses."
+      },
+      {
+        "name": "Open banking players like TrueLayer",
+        "positioning": "Instant bank payments through APIs.",
+        "howThisProductDiffers": "GoCardless combines recurring Direct Debit with open banking."
+      }
+    ],
+    "northStar": {
+      "metric": "Value of payments successfully collected on time for businesses each month",
+      "why": "Businesses come to GoCardless to get paid on time. Successful, on-time collections show that value, and they drive revenue. That is what makes it a good north star metric: it moves only when customers get real value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active merchants",
+        "description": "Businesses collecting payments each month.",
+        "children": [
+          {
+            "metric": "Sign-up to first payment rate",
+            "description": "Share of new merchants who collect a payment."
+          },
+          {
+            "metric": "Partner-sourced sign-ups",
+            "description": "New merchants from integrations."
+          },
+          {
+            "metric": "Merchant churn",
+            "description": "Merchants who stop using GoCardless."
+          }
+        ]
+      },
+      {
+        "metric": "Payments per merchant",
+        "description": "How many payments each merchant collects.",
+        "children": [
+          {
+            "metric": "Mandates set up per merchant",
+            "description": "More customers on Direct Debit."
+          },
+          {
+            "metric": "Checkout conversion on the payment page",
+            "description": "Share of customers who finish setting up a mandate."
+          }
+        ]
+      },
+      {
+        "metric": "Payment success rate",
+        "description": "Share of payments that succeed first time or after retry.",
+        "children": [
+          {
+            "metric": "First-attempt success",
+            "description": "Payments that go through on the first try."
+          },
+          {
+            "metric": "Recovery rate with Success+",
+            "description": "Failed payments recovered on retry."
+          },
+          {
+            "metric": "Fraud rate",
+            "description": "Fraudulent mandates as a share of payments."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud losses",
+      "Indemnity claims from end customers",
+      "Payout delay to merchants",
+      "Cost per payment"
+    ],
+    "strengths": [
+      "Leader in UK Direct Debit for small and mid-size businesses",
+      "Sticky mandates and recurring revenue",
+      "Coverage of bank schemes in many countries",
+      "Now part of Mollie, giving access to Mollie's European merchants"
+    ],
+    "weaknesses": [
+      "Loss-making until late 2025",
+      "Sold for about half its 2022 valuation",
+      "Bank payments are slower than cards to settle",
+      "Revenue per payment is small, especially with fee caps"
+    ],
+    "risks": [
+      "Stripe and Adyen bundling bank payments cheaply",
+      "Open banking and variable recurring payments changing the market",
+      "Integration risk during the Mollie merger",
+      "Fraud rules and indemnity claims"
+    ],
+    "userComplaints": [
+      "End customers see unfamiliar Direct Debits and raise disputes",
+      "Payouts take a few days",
+      "Fees rising on standard plans",
+      "Support response times for small merchants"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear merchant name and logo on bank statements and in bank apps",
+        "problem": "Customers dispute payments they do not recognise.",
+        "expectedImpact": "Fewer disputes and indemnity claims.",
+        "metricToTrack": "Disputes per 10,000 payments",
+        "effort": "medium"
+      },
+      {
+        "idea": "Faster payouts for trusted merchants",
+        "problem": "Small businesses want cash sooner.",
+        "expectedImpact": "Higher merchant satisfaction and retention.",
+        "metricToTrack": "Merchant churn",
+        "effort": "medium"
+      },
+      {
+        "idea": "Bundle GoCardless into Mollie checkout for European merchants",
+        "problem": "Need to grow after the merger.",
+        "expectedImpact": "More merchants using bank payments.",
+        "metricToTrack": "Mollie merchants activating GoCardless",
+        "effort": "high"
+      },
+      {
+        "idea": "Self-serve 'switch from cards' calculator",
+        "problem": "Businesses do not see their savings.",
+        "expectedImpact": "More sign-ups from card-heavy businesses.",
+        "metricToTrack": "Calculator to sign-up conversion",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Boring infrastructure can be a strong business if it saves customers money every month.",
+      "Switching costs, like moving mandates, create loyalty.",
+      "Growth at any cost hurt the valuation; profitability came late and the company was sold below its peak.",
+      "Partnerships with software customers already use are a cheap way to grow."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why would a business choose GoCardless over Stripe?",
+        "hint": "Compare costs, failure rates, use case (recurring vs one-off) and coverage. Explain when each wins."
+      },
+      {
+        "question": "How would you increase payment success rates?",
+        "hint": "Break failures into causes. Ideas: retries, reminders, timing near payday. Track success and dispute rates."
+      },
+      {
+        "question": "After the Mollie deal, how would you integrate the products?",
+        "hint": "Find overlapping customers, quick wins, and risks. Prioritise by revenue and effort."
+      },
+      {
+        "question": "How would you measure the health of GoCardless's business?",
+        "hint": "Volume, revenue per payment, merchant churn, success rate, fraud losses. Pick a north star."
+      },
+      {
+        "question": "Should GoCardless enter India?",
+        "hint": "Discuss UPI AutoPay and NACH, which already do recurring payments cheaply. Is there room? Who would pay?"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Direct Debit",
+        "meaning": "A UK system where a business can pull payments from your bank account with your permission."
+      },
+      {
+        "term": "Mandate",
+        "meaning": "The permission a customer gives a business to take payments from their bank account."
+      },
+      {
+        "term": "Open banking",
+        "meaning": "Rules that let approved apps start payments or read data from your bank account safely."
+      },
+      {
+        "term": "API",
+        "meaning": "A way for software to talk to other software, so apps can build GoCardless into their products."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of customers who stop using a product."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit before interest, tax, depreciation and some one-off costs, a rough measure of operating profit."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to measure the value it delivers to users."
+      }
+    ],
+    "assumptions": [
+      "The 100,000 business customers figure is a company claim and may be out of date.",
+      "UK pricing is based on the public standard plan and may have changed.",
+      "The per-payment economics are estimates.",
+      "The difference between 18% and 22% growth is assumed to be due to different measures of revenue."
+    ]
+  }
+}

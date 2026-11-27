@@ -1,0 +1,495 @@
+{
+  "company": "Bumble",
+  "domain": "bumble.com",
+  "website": "https://bumble.com",
+  "sources": [
+    "https://www.panabee.com/news/bumble-earnings-q3-2026",
+    "https://ir.bumble.com/news/news-details/2026/Bumble-Inc--Announces-Second-Quarter-2026-Results/default.aspx",
+    "https://stockstory.org/us/stocks/nasdaq/bmbl/news/earnings/bumble-nasdaqbmbl-misses-q3-2026-sales-expectations",
+    "https://www.sec.gov/Archives/edgar/data/0001830043/000183004326000123/bmbl-20260930.htm",
+    "https://quartr.com/events/bumble-inc-bmbl-q3-2026_3eHBGTFd"
+  ],
+  "report": {
+    "company": "Bumble",
+    "tagline": "The dating app where women make the first move, now shrinking on purpose to chase quality users and agreeing to be taken private in 2026.",
+    "category": "Dating",
+    "simpleSummary": "Bumble is a swipe dating app with one famous twist: in matches between a man and a woman, the woman sends the first message. It was built to make dating feel safer and less spammy for women. The company also runs Bumble For Friends for finding friends and Badoo, a dating app popular in Europe and Latin America. After years of falling users, Bumble cut staff, stopped chasing cheap sign-ups, and in October 2026 agreed to be bought for about $1.3 billion.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$207 million, down 16% year on year",
+        "note": "Bumble Q3 2026 results as summarised by Panabee and StockStory. Check against the 10-Q."
+      },
+      {
+        "label": "Total paying users, Q3 2026",
+        "value": "3.08 million, down 14%",
+        "note": "Bumble Q3 2026 results. Bumble App paying users were 1.99 million, down 15%."
+      },
+      {
+        "label": "Takeover deal",
+        "value": "$6.05 per share in cash, about $1.3 billion enterprise value",
+        "note": "Merger agreement with Ithaca Holdco signed 12 October 2026. Closing date not yet confirmed."
+      },
+      {
+        "label": "Annual revenue",
+        "value": "About $960 million (2025)",
+        "note": "Estimate based on 2025 quarterly results; 2024 revenue was about $1.07 billion."
+      },
+      {
+        "label": "Staff cut",
+        "value": "About 30% of employees in 2025",
+        "note": "Bumble's 2025 restructuring, as reported in its filings."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Bumble lets people swipe on nearby profiles, match, and chat. In man-woman matches, the woman has 24 hours to start the chat or the match expires. It also offers friend-finding and runs Badoo. Most money comes from paid plans for daters who want more visibility.",
+      "howItWorks": [
+        "Sign up, verify with a selfie, add photos, prompts and what you are looking for.",
+        "Swipe right or left on profiles.",
+        "In a man-woman match, the woman messages first within 24 hours. 'Opening Moves' lets women set a question the man can answer first.",
+        "Same-sex matches let either person start.",
+        "Paid plans (Bumble Boost, Premium and Premium+) add features like seeing who liked you, Backtrack and unlimited filters.",
+        "Bumble For Friends is a separate app for making platonic friends."
+      ],
+      "valueProposition": "A dating app where women control who can message them, which means less unwanted contact and a calmer experience."
+    },
+    "personas": [
+      {
+        "name": "The woman who left Tinder",
+        "description": "A 28-year-old in Mumbai tired of unwanted messages on other apps.",
+        "goals": [
+          "Only talk to men she chooses",
+          "Find a serious relationship"
+        ],
+        "frustrations": [
+          "Having to start every chat feels like work",
+          "Many matches expire before she has time"
+        ]
+      },
+      {
+        "name": "The man who wants replies",
+        "description": "A 31-year-old in Chicago who gets matches but waits for women to message.",
+        "goals": [
+          "More conversations",
+          "Stand out among profiles"
+        ],
+        "frustrations": [
+          "Matches expire without any message",
+          "Paying Premium feels like it changes little"
+        ]
+      },
+      {
+        "name": "The newcomer looking for friends",
+        "description": "Moved to Bengaluru for work and uses Bumble For Friends to meet people.",
+        "goals": [
+          "Build a social circle in a new city"
+        ],
+        "frustrations": [
+          "Few active users in her area",
+          "Chats fizzle before meeting"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Women receive many unwanted or rude messages on dating apps.",
+        "howSolved": "Only women can start chats in man-woman matches.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fake profiles make online dating unsafe.",
+        "howSolved": "Selfie verification and ID verification badges.",
+        "severity": "high"
+      },
+      {
+        "pain": "Starting the chat can feel like a chore for women.",
+        "howSolved": "Opening Moves: women set a question men can answer to begin the chat.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Making friends as an adult in a new city is hard.",
+        "howSolved": "Bumble For Friends matches people for friendship.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Unwanted explicit photos.",
+        "howSolved": "Private Detector, an AI filter that blurs nude images.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Women message first",
+        "whatItDoes": "In man-woman matches, only the woman can start; the match expires after 24 hours.",
+        "whyItMatters": "Bumble's brand and the main reason women chose it."
+      },
+      {
+        "feature": "Opening Moves",
+        "whatItDoes": "Women can set preset questions men answer first.",
+        "whyItMatters": "Reduces the burden of starting chats, which was a top complaint."
+      },
+      {
+        "feature": "Verification and Private Detector",
+        "whatItDoes": "Selfie and ID checks, plus AI that blurs explicit photos.",
+        "whyItMatters": "Supports the safety promise that sets Bumble apart."
+      },
+      {
+        "feature": "Premium and Premium+",
+        "whatItDoes": "Paid tiers to see who liked you, Backtrack, extend matches and get more visibility.",
+        "whyItMatters": "Main revenue source."
+      },
+      {
+        "feature": "Bumble For Friends",
+        "whatItDoes": "Separate app to meet friends.",
+        "whyItMatters": "Extends the brand beyond dating, though it earns little so far."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First match",
+        "persona": "The woman who left Tinder",
+        "steps": [
+          {
+            "step": "Downloads Bumble",
+            "detail": "Hears it is safer for women."
+          },
+          {
+            "step": "Verifies",
+            "detail": "Takes a selfie to get a blue check."
+          },
+          {
+            "step": "Sets Opening Moves",
+            "detail": "Chooses 'What is your ideal Sunday?'"
+          },
+          {
+            "step": "Swipes",
+            "detail": "Swipes on profiles with filters for intentions."
+          },
+          {
+            "step": "Matches",
+            "detail": "A match appears with a 24-hour timer."
+          },
+          {
+            "step": "Chats",
+            "detail": "He answers her Opening Move; she replies."
+          }
+        ]
+      },
+      {
+        "name": "Upgrading to Premium",
+        "persona": "The man who wants replies",
+        "steps": [
+          {
+            "step": "Loses matches",
+            "detail": "Several matches expire without messages."
+          },
+          {
+            "step": "Sees offer",
+            "detail": "Premium promises to extend matches and show who liked him."
+          },
+          {
+            "step": "Pays",
+            "detail": "Buys a weekly or monthly plan."
+          },
+          {
+            "step": "Uses features",
+            "detail": "Extends matches by 24 hours and Backtracks a swipe."
+          },
+          {
+            "step": "Judges value",
+            "detail": "Cancels if still few chats."
+          }
+        ]
+      },
+      {
+        "name": "Finding friends",
+        "persona": "The newcomer looking for friends",
+        "steps": [
+          {
+            "step": "Downloads Bumble For Friends",
+            "detail": "Sets interests like running and books."
+          },
+          {
+            "step": "Matches",
+            "detail": "Matches with people nearby."
+          },
+          {
+            "step": "Joins group chat",
+            "detail": "Joins a group for a local run club."
+          },
+          {
+            "step": "Meets up",
+            "detail": "Meets a few people at the weekend."
+          },
+          {
+            "step": "Returns",
+            "detail": "Uses it again only if the meet-up went well."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Bumble makes money from subscriptions and one-off purchases on Bumble and Badoo. Revenue equals paying users times what each pays. Both are falling, so revenue is falling. The 2025 to 2026 reset cut marketing and staff to protect profit while it tries to attract better-quality users.",
+      "revenueStreams": [
+        {
+          "stream": "Bumble App subscriptions",
+          "detail": "Boost, Premium and Premium+. Bumble App had 1.99 million payers in Q3 2026."
+        },
+        {
+          "stream": "Badoo and other apps",
+          "detail": "Badoo subscriptions and credits, popular in Europe and Latin America."
+        },
+        {
+          "stream": "In-app purchases",
+          "detail": "SuperSwipes and Spotlight boosts."
+        }
+      ],
+      "pricing": "Free to start. US Premium is often about $40 to $60 a month, with weekly plans and Premium+ costing more. In India, plans are a few hundred to over ₹1,000 a month. Prices vary.",
+      "costDrivers": [
+        "App store fees",
+        "Marketing, which Bumble cut sharply in 2025",
+        "Staff, cut by about 30% in 2025",
+        "Safety and verification"
+      ],
+      "unitEconomics": "Revenue per paying user is about $22 a month ($207 million / 3.08 million payers / 3 months). App stores can take up to 30%, leaving about $15. When Bumble spent a lot on ads to win users, many of them left fast, so the cost to win a payer (CAC, customer acquisition cost) was high compared to what each payer brought in. The reset cuts that spending to make each user profitable."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Brand: 'women make the first move'",
+        "Word of mouth among women",
+        "Brand campaigns instead of paid performance ads since 2025",
+        "Cross-promotion from Badoo and Bumble For Friends"
+      ],
+      "whatBringsUsersBack": [
+        "24-hour match timers create urgency",
+        "New matches",
+        "Opening Move replies",
+        "Friend group chats"
+      ],
+      "moat": "Bumble's moat is its brand among women. But the women-first rule is easy to copy, and its user pool is shrinking, so the moat is weak."
+    },
+    "competitors": [
+      {
+        "name": "Hinge",
+        "positioning": "Relationship-focused app with prompts.",
+        "howThisProductDiffers": "Hinge is growing about 19%; Bumble is shrinking about 16%."
+      },
+      {
+        "name": "Tinder",
+        "positioning": "Biggest swipe app.",
+        "howThisProductDiffers": "Bumble gives women control; Tinder is larger."
+      },
+      {
+        "name": "Aisle",
+        "positioning": "Indian relationship app.",
+        "howThisProductDiffers": "Bumble is global; Aisle is India-focused."
+      },
+      {
+        "name": "Meetup and run clubs",
+        "positioning": "In-person friend-making.",
+        "howThisProductDiffers": "Bumble For Friends is app-first."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly matches where the first message gets a reply",
+      "why": "Bumble's value starts with a woman choosing to message. A reply shows real two-way interest."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active quality users",
+        "description": "Users with complete, verified profiles.",
+        "children": [
+          {
+            "metric": "Verified profile share",
+            "description": "Shows trust."
+          },
+          {
+            "metric": "Profile completion",
+            "description": "Better profiles get more matches."
+          }
+        ]
+      },
+      {
+        "metric": "Match rate",
+        "description": "Share of swipes that become matches.",
+        "children": [
+          {
+            "metric": "Recommendation relevance",
+            "description": "Shown profiles that get likes."
+          },
+          {
+            "metric": "Women's swipe-right rate",
+            "description": "Shows women find profiles appealing."
+          },
+          {
+            "metric": "Men's profile quality score",
+            "description": "Better men's profiles get more right swipes from women, which lifts matches for both sides."
+          }
+        ]
+      },
+      {
+        "metric": "First messages",
+        "description": "Matches where the woman starts.",
+        "children": [
+          {
+            "metric": "Opening Move use",
+            "description": "Makes starting easier."
+          },
+          {
+            "metric": "Match expiry rate",
+            "description": "Lower is better."
+          }
+        ]
+      },
+      {
+        "metric": "Replies",
+        "description": "First messages that get a reply.",
+        "children": [
+          {
+            "metric": "Reply within 24 hours",
+            "description": "Speed shows interest."
+          },
+          {
+            "metric": "Chats reaching 10+ messages",
+            "description": "Shows a reply turned into a real conversation, the step before a date."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Harassment reports",
+      "Payer retention",
+      "Women's share of active users",
+      "Revenue per paying user, which must not drop as prices are tested"
+    ],
+    "strengths": [
+      "Strong brand among women built on the 'women make the first move' rule",
+      "Safety tools such as selfie verification and Private Detector, which blurs explicit photos",
+      "Owns Badoo, which reaches Europe and Latin America where Bumble is weaker",
+      "Cost cuts in 2025 protect profit while revenue falls",
+      "Takeover gives room to fix the product away from quarterly stock market pressure"
+    ],
+    "weaknesses": [
+      "Revenue down 16% and paying users down 14% in Q3 2026",
+      "The women-first rule, once the hook, now feels like a chore to many women",
+      "Lost the 'serious dating' position to Hinge, which grows about 19% a year",
+      "Bumble For Friends earns little and has thin user numbers in many cities",
+      "Years of paid ads brought in users who left fast"
+    ],
+    "risks": [
+      "Gen Z moving away from dating apps toward meeting in person",
+      "Uncertainty and staff loss during the takeover",
+      "App store fees of up to 30% and rules on payments",
+      "Match Group's Hinge and Tinder copying women-safety features",
+      "Safety laws on age and identity checks that add sign-up friction"
+    ],
+    "userComplaints": [
+      "Premium and Premium+ feel expensive for what they add",
+      "Matches expire after 24 hours before anyone messages",
+      "Fake profiles and scammers despite verification",
+      "Few active users in smaller cities",
+      "Accounts banned without clear reasons",
+      "Women say starting every chat is tiring"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Let women turn on 'he can start' for a match, keeping women's control but removing the burden",
+        "problem": "Many women find starting every chat tiring, and matches expire unused.",
+        "expectedImpact": "Fewer expired matches and more conversations, without losing the safety promise.",
+        "metricToTrack": "Match expiry rate and reply rate on first messages",
+        "effort": "low"
+      },
+      {
+        "idea": "When a man's matches expire, show him specific profile tips, like adding a prompt answer or a clearer first photo",
+        "problem": "Men feel ignored and cancel Premium when matches expire.",
+        "expectedImpact": "Better men's profiles, more first messages from women, lower Premium churn.",
+        "metricToTrack": "First-message rate on men's matches and Premium cancellation rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Small local meet-ups (6 to 8 people) booked inside Bumble For Friends, starting in Bengaluru, London and Austin",
+        "problem": "Friend chats fizzle before anyone meets.",
+        "expectedImpact": "More real meet-ups, which give people a reason to return.",
+        "metricToTrack": "Meet-ups per active user and 30-day retention",
+        "effort": "medium"
+      },
+      {
+        "idea": "A cheaper India plan with just 'see who liked you' and match extensions, payable through UPI",
+        "problem": "Premium prices are high for many Indian users.",
+        "expectedImpact": "More paying users in India at lower cost to serve.",
+        "metricToTrack": "Payers in India and revenue per payer",
+        "effort": "low"
+      },
+      {
+        "idea": "Mandatory selfie verification before a profile can be shown to others",
+        "problem": "Fake profiles erode the safety promise that sets Bumble apart.",
+        "expectedImpact": "Fewer scam reports and more trust among women.",
+        "metricToTrack": "Scam reports per 1,000 users and share of verified profiles",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A strong brand idea, like women messaging first, can launch a product, but it needs updating as users' needs change.",
+      "Buying users with ads is costly if they don't stay. Bumble's reset shows that fewer, better users can be worth more than many cheap ones.",
+      "Watch the competitor that solves the same problem better. Hinge took the 'serious dating' customer while Bumble focused on its rule.",
+      "Retention beats acquisition in dating: a user who leaves after one bad week cost money and gave nothing back."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why is Bumble shrinking while Hinge is growing?",
+        "hint": "Compare the core experience (swipe plus women-first vs prompts), brand promise, who each attracts, and pricing. Use numbers: Bumble revenue down 16%, Hinge up about 19%. End with what Bumble should copy or avoid."
+      },
+      {
+        "question": "Should Bumble drop its women-message-first rule?",
+        "hint": "State the trade-off: brand and safety vs friction and expired matches. Propose a test, like letting women choose per match, with metrics (expiry rate, replies) and guardrails (harassment reports)."
+      },
+      {
+        "question": "What should Bumble's north star metric be?",
+        "hint": "Pick replied first messages, not swipes or downloads. Break it into quality users, matches, first messages and replies, each with metrics a team can move."
+      },
+      {
+        "question": "How would you grow Bumble For Friends?",
+        "hint": "Friend apps need local density. Pick 2 to 3 cities, focus on groups and events, and measure meet-ups, not chats."
+      },
+      {
+        "question": "After the takeover closes, what would you do first as Bumble's head of product?",
+        "hint": "Pick one focus metric, find the biggest drop-off in the funnel, cut low-value features, and set 90-day goals on retention."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "CAC",
+        "meaning": "Customer acquisition cost: how much it costs to win one new customer."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The main number that shows real value for users."
+      },
+      {
+        "term": "Payers",
+        "meaning": "Users who pay in a period."
+      },
+      {
+        "term": "Enterprise value",
+        "meaning": "The total value of a company, including its debt, minus cash."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the app over time."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a period."
+      },
+      {
+        "term": "Funnel",
+        "meaning": "The steps from sign-up to paying, where some users drop off at each step."
+      }
+    ],
+    "assumptions": [
+      "2025 revenue of about $960 million is an estimate.",
+      "Prices vary by market and age.",
+      "Ithaca Holdco details beyond the price are not public."
+    ]
+  }
+}

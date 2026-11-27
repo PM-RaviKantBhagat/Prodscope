@@ -1,0 +1,393 @@
+{
+  "company": "DeepMind (Google)",
+  "domain": "deepmind.google",
+  "website": "https://deepmind.google",
+  "sources": [
+    "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+    "https://siliconangle.com/2026/08/11/googles-gemini-ai-app-passes-1-billion-monthly-active-users/",
+    "https://www.techrepublic.com/article/news-google-gemini-950-million-monthly-users-alphabet-earnings/",
+    "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+    "https://deepmind.google"
+  ],
+  "report": {
+    "company": "DeepMind (Google)",
+    "tagline": "Google's AI lab that turns research breakthroughs like AlphaFold and Gemini into products used by over a billion people.",
+    "category": "AI research to product",
+    "simpleSummary": "Google DeepMind is the AI research lab inside Google, based in London. It built AlphaGo, which beat the world Go champion, and AlphaFold, which predicts the shape of proteins and won a Nobel Prize. Today its biggest job is building Gemini, the AI model behind the Gemini app, Google Search's AI answers and many Google products. DeepMind does not sell much itself; it makes Google's products smarter, and Google makes the money.",
+    "keyNumbers": [
+      {
+        "label": "Gemini app monthly users",
+        "value": "Over 1 billion (August 2026)",
+        "note": "Google announcement, August 2026. Up from about 950 million reported at earlier 2026 earnings."
+      },
+      {
+        "label": "AlphaFold protein structures",
+        "value": "Over 200 million predicted",
+        "note": "AlphaFold Database run with EMBL-EBI. Used by millions of researchers in about 190 countries, per DeepMind."
+      },
+      {
+        "label": "Nobel Prize",
+        "value": "Chemistry, 2024",
+        "note": "Demis Hassabis and John Jumper, for AlphaFold. Public record."
+      },
+      {
+        "label": "Google AI Pro price in India",
+        "value": "About ₹1,950 a month",
+        "note": "Google One pricing, 2025 to 2026. Free offers for students and Jio users widened reach in India. US price $19.99."
+      },
+      {
+        "label": "Isomorphic Labs funding",
+        "value": "$600 million (2025)",
+        "note": "First outside round for the drug discovery spin-out built on AlphaFold. Reported widely, March 2025."
+      },
+      {
+        "label": "Team size",
+        "value": "About 6,000 people (estimate)",
+        "note": "News estimates after Google Brain merged into DeepMind in 2023. Not officially confirmed."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "DeepMind builds AI models and scientific tools. Its Gemini models power the Gemini app, AI Overviews and AI Mode in Google Search, Gmail, Android and Google Cloud. Its science work, like AlphaFold and weather models, is given to researchers or turned into separate businesses.",
+      "howItWorks": [
+        "Researchers invent new methods, for example reinforcement learning in AlphaGo or protein structure prediction in AlphaFold.",
+        "The Gemini team trains large models on Google's own TPU chips in Google data centres.",
+        "Product teams across Google ship Gemini inside Search, Android, Workspace, YouTube and the Gemini app.",
+        "Developers pay to use Gemini through Google AI Studio and Vertex AI on Google Cloud.",
+        "Science projects are released free (AlphaFold Database) or spun into companies like Isomorphic Labs for drug discovery.",
+        "Generative tools like Veo (video), Imagen and Nano Banana (images) and Genie (interactive worlds) reach users through Google apps."
+      ],
+      "valueProposition": "For Google, DeepMind turns world-class research into an edge across every product. For users and scientists, it delivers AI that is useful at huge scale, often for free."
+    },
+    "personas": [
+      {
+        "name": "Everyday Gemini user",
+        "description": "A college student in Pune using Gemini on an Android phone for study, translation and photo questions.",
+        "goals": [
+          "Quick help in Hindi or English",
+          "Free or cheap AI",
+          "Ask about photos and screenshots"
+        ],
+        "frustrations": [
+          "Answers sometimes wrong or overcautious",
+          "Confusing plan names (AI Pro, Ultra)",
+          "Feature rollout varies by country"
+        ]
+      },
+      {
+        "name": "Life sciences researcher",
+        "description": "A biologist at an Indian institute who uses AlphaFold to understand a protein before running lab tests.",
+        "goals": [
+          "Get protein structures without months of lab work",
+          "Free access",
+          "Trustworthy confidence scores"
+        ],
+        "frustrations": [
+          "Some predictions are low confidence",
+          "Limits on newer AlphaFold 3 for commercial use",
+          "Needs computational skill to use well"
+        ]
+      },
+      {
+        "name": "Developer on Google Cloud",
+        "description": "An engineer at a fintech building a document reader on Gemini via Vertex AI.",
+        "goals": [
+          "Strong model at a good price",
+          "Long context to read big files",
+          "Enterprise security"
+        ],
+        "frustrations": [
+          "Many model versions and quick deprecations",
+          "Two different consoles (AI Studio and Vertex)",
+          "Rate limits on new models"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Working out a protein's shape took years of lab work and lakhs of rupees.",
+        "howSolved": "AlphaFold predicts it in minutes, and the database gives over 200 million structures for free.",
+        "severity": "high"
+      },
+      {
+        "pain": "People want answers, not ten blue links.",
+        "howSolved": "Gemini powers AI Overviews and AI Mode in Search, giving direct answers with links.",
+        "severity": "high"
+      },
+      {
+        "pain": "AI assistants are expensive for many users in India and other markets.",
+        "howSolved": "The Gemini app is free with a strong model; Google ran free AI Pro offers for students and Jio users.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Developers need models that read very long documents or videos.",
+        "howSolved": "Gemini models handle around a million tokens of text, audio and video input.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Weather forecasts for extreme events are slow and costly to run.",
+        "howSolved": "DeepMind's weather models give fast, accurate forecasts used in Google products.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Gemini models",
+        "whatItDoes": "Family of AI models (Pro, Flash, Flash-Lite) that understand text, images, audio and video.",
+        "whyItMatters": "The core asset; it powers Google's answer to ChatGPT and protects the Search business."
+      },
+      {
+        "feature": "Gemini app",
+        "whatItDoes": "Chat assistant on Android, iOS and web, with Gemini Live voice, Deep Research and image tools.",
+        "whyItMatters": "Direct consumer relationship and a path to paid Google AI plans."
+      },
+      {
+        "feature": "AlphaFold",
+        "whatItDoes": "Predicts 3D shapes of proteins and, with AlphaFold 3, how they interact with other molecules.",
+        "whyItMatters": "Built DeepMind's scientific reputation and led to Isomorphic Labs' drug discovery business."
+      },
+      {
+        "feature": "Veo, Imagen and Nano Banana",
+        "whatItDoes": "Generate video and images from text, used in Gemini, YouTube and Google Flow.",
+        "whyItMatters": "Viral features that bring new users to Gemini."
+      },
+      {
+        "feature": "Science and research tools",
+        "whatItDoes": "Projects like AlphaEvolve (finding better algorithms), weather forecasting and materials discovery.",
+        "whyItMatters": "Keeps top researchers, creates future products and improves Google's own data centres."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Student uses Gemini",
+        "persona": "Everyday Gemini user",
+        "steps": [
+          { "step": "Finds it on phone", "detail": "Long-presses the power button on an Android phone and Gemini opens." },
+          { "step": "Asks a question", "detail": "Takes a photo of a maths problem and asks for steps." },
+          { "step": "Gets an answer", "detail": "Gemini explains in Hindi when asked." },
+          { "step": "Tries a feature", "detail": "Makes an image with Nano Banana and shares it on Instagram." },
+          { "step": "Gets an offer", "detail": "Sees a free AI Pro offer for students." },
+          { "step": "Uses daily", "detail": "Makes Gemini the default assistant." }
+        ]
+      },
+      {
+        "name": "Researcher uses AlphaFold",
+        "persona": "Life sciences researcher",
+        "steps": [
+          { "step": "Has a protein of interest", "detail": "Studying a protein linked to a disease." },
+          { "step": "Searches the database", "detail": "Finds the predicted structure in the AlphaFold Database." },
+          { "step": "Checks confidence", "detail": "Looks at colour-coded confidence scores." },
+          { "step": "Plans experiments", "detail": "Designs fewer, better lab tests based on the shape." },
+          { "step": "Publishes", "detail": "Cites AlphaFold in a paper, spreading use." }
+        ]
+      },
+      {
+        "name": "Developer ships with Gemini",
+        "persona": "Developer on Google Cloud",
+        "steps": [
+          { "step": "Tries in AI Studio", "detail": "Tests Gemini Flash free with sample invoices." },
+          { "step": "Compares price", "detail": "Finds Flash cheaper than rival models for the same task." },
+          { "step": "Moves to Vertex AI", "detail": "Uses the enterprise version for security and billing." },
+          { "step": "Launches", "detail": "Processes thousands of documents a day." },
+          { "step": "Upgrades models", "detail": "Switches to newer versions as old ones are retired." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "DeepMind is a cost centre inside Alphabet. It earns little directly. Its value shows up as Google revenue: Search ads protected by AI answers, Google One AI subscriptions, Google Cloud AI usage and Workspace plans with Gemini. Science work earns through spin-outs like Isomorphic Labs and through reputation.",
+      "revenueStreams": [
+        { "stream": "Google Search ads (indirect)", "detail": "Gemini powers AI Overviews and AI Mode, which keep people searching on Google where ads are shown." },
+        { "stream": "Google AI subscriptions", "detail": "Google AI Pro (about $19.99 or ₹1,950 a month) and AI Ultra (about $249.99 a month) via Google One." },
+        { "stream": "Gemini API and Vertex AI", "detail": "Developers and companies pay per token through Google Cloud." },
+        { "stream": "Workspace", "detail": "Gemini is included in Workspace business plans, which helped raise their prices." },
+        { "stream": "Spin-outs and partnerships", "detail": "Isomorphic Labs drug discovery deals with Eli Lilly and Novartis." }
+      ],
+      "pricing": "Gemini app: free. Google AI Pro: about $19.99 a month (India about ₹1,950). Google AI Ultra: about $249.99 a month. Gemini API: free tier in AI Studio, then priced per million tokens by model. AlphaFold Database: free.",
+      "costDrivers": [
+        "Training compute on Google TPU chips",
+        "Serving Gemini to over a billion app users and billions of Search users",
+        "Salaries for thousands of top researchers and engineers",
+        "Data centres and energy",
+        "Long research bets with no near-term revenue"
+      ],
+      "unitEconomics": "Most Gemini app users pay nothing, so each costs Google some compute, perhaps cents per day for heavy users. Google earns it back mainly through Search ads and the share that upgrade. A Google AI Pro subscriber paying $19.99 a month also gets 2 TB storage, so the plan is likely profitable. Google's big advantage is its own TPU chips: it does not pay Nvidia's margins, so each answer costs Google less than it costs most rivals."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Pre-installed on Android phones as the default assistant",
+        "Inside Google Search, Gmail, Chrome and YouTube",
+        "Free and discounted offers, such as free AI Pro for Indian students and Jio users",
+        "Viral features like Nano Banana image editing",
+        "Scientific fame (AlphaFold, Nobel Prize) that attracts talent and press"
+      ],
+      "whatBringsUsersBack": [
+        "Daily Search use with AI answers",
+        "Gemini Live voice and camera help on phones",
+        "Connection to Gmail, Calendar and Drive for personal help",
+        "Bundled Google One storage in paid plans"
+      ],
+      "moat": "DeepMind has three things few others have together: top research talent, Google's own chips and data centres, and Google's distribution to billions of people through Search and Android. A startup can build a good model, but it cannot put it on 3 billion phones or run it as cheaply."
+    },
+    "competitors": [
+      { "name": "OpenAI (ChatGPT)", "positioning": "The leading AI assistant brand with the most paying users.", "howThisProductDiffers": "Gemini has more distribution through Android and Search and cheaper compute; ChatGPT has stronger brand loyalty." },
+      { "name": "Anthropic", "positioning": "Enterprise and coding-focused AI lab.", "howThisProductDiffers": "Anthropic is stronger in coding tools; DeepMind is broader, from consumer to science." },
+      { "name": "Meta AI", "positioning": "Open Llama models and AI inside WhatsApp and Instagram.", "howThisProductDiffers": "Both have massive distribution; DeepMind has a far deeper science and research record." },
+      { "name": "Microsoft and OpenAI partnership", "positioning": "AI in Office and Windows.", "howThisProductDiffers": "Microsoft leads in office software; Google leads in search and mobile." },
+      { "name": "Science AI startups", "positioning": "Companies like EvolutionaryScale and Chai Discovery building biology models.", "howThisProductDiffers": "DeepMind and Isomorphic have the AlphaFold head start and Google funding." }
+    ],
+    "northStar": {
+      "metric": "Weekly people and researchers who complete a task with a DeepMind model",
+      "why": "DeepMind's value is how many real problems its models solve, whether a student's question or a scientist's protein. Counting completed tasks across Gemini and science tools captures that."
+    },
+    "kpiTree": [
+      {
+        "metric": "Gemini app engagement",
+        "description": "Consumers getting value from the app.",
+        "children": [
+          { "metric": "Daily active users to monthly active users ratio", "description": "Shows whether Gemini is a daily habit." },
+          { "metric": "Gemini Live sessions", "description": "Voice and camera use on phones." },
+          { "metric": "Paid AI plan conversions", "description": "Users upgrading to AI Pro or Ultra." }
+        ]
+      },
+      {
+        "metric": "AI in Google products",
+        "description": "Use of Gemini inside Search, Workspace and Android.",
+        "children": [
+          { "metric": "AI Mode queries per user", "description": "Use of AI answers in Search." },
+          { "metric": "Workspace Gemini actions", "description": "AI tasks in Gmail and Docs." },
+          { "metric": "Search satisfaction", "description": "Users finding what they need, which protects ad revenue." }
+        ]
+      },
+      {
+        "metric": "Developer and Cloud usage",
+        "description": "Businesses building on Gemini.",
+        "children": [
+          { "metric": "Tokens processed per month", "description": "Total usage via API and Vertex AI." },
+          { "metric": "Paying API customers", "description": "Companies spending money on Gemini." },
+          { "metric": "Model quality rank", "description": "Position on public leaderboards." }
+        ]
+      },
+      {
+        "metric": "Science impact",
+        "description": "Research tools in use.",
+        "children": [
+          { "metric": "AlphaFold Database users", "description": "Researchers using structures." },
+          { "metric": "Papers citing DeepMind tools", "description": "Proof of real scientific use." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Harmful or false AI answers in Search that make news",
+      "Serving cost per query",
+      "Search ad revenue per query",
+      "Publisher traffic from Google (regulators watch this)"
+    ],
+    "strengths": [
+      "World-class research team with a Nobel Prize",
+      "Own TPU chips lower the cost per answer",
+      "Distribution through Search, Android, Chrome and Workspace",
+      "Wide range: consumer AI, cloud, science and robotics",
+      "Strong model quality after Gemini 3"
+    ],
+    "weaknesses": [
+      "Slow early launches let ChatGPT take the lead in 2023",
+      "Confusing product and plan names",
+      "Public mistakes in AI Overviews and image generation hurt trust",
+      "Many research projects never become products",
+      "AI answers may cut clicks to websites, which reduces Google's own ad space"
+    ],
+    "risks": [
+      "Antitrust cases in the US, EU and India over Search and Android defaults",
+      "AI chatbots replacing Search and its ad revenue",
+      "Publishers and regulators objecting to AI Overviews using their content",
+      "Talent poaching by OpenAI, Meta and startups",
+      "Rising energy and compute costs"
+    ],
+    "userComplaints": [
+      "AI Overviews sometimes give wrong or odd answers",
+      "Gemini refuses harmless requests or is overcautious",
+      "Gemini replacing Google Assistant broke some smart home and routine features",
+      "Confusing subscription tiers and features locked by country",
+      "Privacy concerns about Gemini reading Gmail and other personal data"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show a simple confidence label and source link on every AI Overview",
+        "problem": "Wrong AI answers in Search hurt trust.",
+        "expectedImpact": "Fewer viral errors and more clicks to sources, easing publisher complaints.",
+        "metricToTrack": "Reported wrong answers per million queries and clicks to sources",
+        "effort": "medium"
+      },
+      {
+        "idea": "Bring back missing Google Assistant smart home features in Gemini",
+        "problem": "Users lost routines when Gemini replaced Assistant.",
+        "expectedImpact": "Less churn and fewer complaints from Android and Nest users.",
+        "metricToTrack": "Gemini daily active users on home devices",
+        "effort": "medium"
+      },
+      {
+        "idea": "Low-cost AI plan for India priced near ₹199 to 299 a month",
+        "problem": "₹1,950 a month is too much for most Indian users once free offers end.",
+        "expectedImpact": "Keeps students and Jio offer users paying after the free period.",
+        "metricToTrack": "Paid conversion after free trial ends",
+        "effort": "low"
+      },
+      {
+        "idea": "AlphaFold 'lab assistant' in Gemini for biology students",
+        "problem": "Many researchers lack the skills to use AlphaFold well.",
+        "expectedImpact": "More researchers using structures correctly.",
+        "metricToTrack": "Active AlphaFold users",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Research is only valuable when it reaches users. DeepMind's impact jumped when Gemini shipped inside Google's products.",
+      "Distribution beats being first. ChatGPT launched first, but Google's Android and Search reach helped Gemini pass a billion users.",
+      "Owning your cost base matters. Google's own chips make AI cheaper to serve at huge scale.",
+      "Give some things away to build trust. Free AlphaFold made DeepMind the most respected AI science lab.",
+      "New products can threaten old ones. AI answers can reduce Search clicks, so Google must balance user value with ad revenue."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you decide which DeepMind research project to turn into a product?",
+        "hint": "Score by user need, market size, fit with Google products, readiness and risk. Give an example like AlphaFold to Isomorphic Labs."
+      },
+      {
+        "question": "Gemini passed 1 billion monthly users. What metric would you watch next?",
+        "hint": "Move from reach to depth: daily to monthly ratio, tasks done, retention and paid conversion. Explain why MAU is not enough."
+      },
+      {
+        "question": "AI Overviews may reduce clicks to websites. How would you balance users, publishers and Google's ad revenue?",
+        "hint": "List each party's goals. Measure user satisfaction, clicks out and ad revenue. Test designs like more source links. Recommend a balanced plan."
+      },
+      {
+        "question": "Design a Gemini feature for Indian farmers.",
+        "hint": "Understand users: language, low-end phones, weak internet. Use voice and camera for crop disease and weather. Define success and partners."
+      },
+      {
+        "question": "Why might Google give AlphaFold away for free?",
+        "hint": "Reputation, talent, scientific progress, future business through Isomorphic Labs, and data and partnerships. Compare with lost direct revenue."
+      }
+    ],
+    "glossary": [
+      { "term": "MAU", "meaning": "Monthly active users: people who used a product at least once in a month." },
+      { "term": "Cost centre", "meaning": "A part of a company that spends money but does not directly earn it." },
+      { "term": "TPU", "meaning": "Google's own computer chip designed to run AI models." },
+      { "term": "Token", "meaning": "A small chunk of text or data used to measure and charge for AI use." },
+      { "term": "Reinforcement learning", "meaning": "A way to train AI by rewarding good actions, like a game score." },
+      { "term": "Spin-out", "meaning": "A new company created from a project inside a bigger company." },
+      { "term": "Distribution", "meaning": "The channels that put a product in front of users." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "Antitrust", "meaning": "Laws that stop big companies from unfairly blocking competition." },
+      { "term": "Churn", "meaning": "Users who stop using or paying for a product." },
+      { "term": "North star metric", "meaning": "The one number that best shows the product is delivering value." },
+      { "term": "Conversion", "meaning": "The share of free users who start paying." }
+    ],
+    "assumptions": [
+      "DeepMind's own revenue and cost are not reported separately by Alphabet; treating it as a cost centre is our inference.",
+      "Team size of about 6,000 is a news estimate.",
+      "Per-user compute costs are rough estimates.",
+      "India prices for Google AI Pro may vary and offers change often.",
+      "The north star metric is our suggestion, not an official Google metric."
+    ]
+  }
+}

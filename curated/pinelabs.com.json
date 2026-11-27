@@ -1,0 +1,262 @@
+{
+  "company": "Pine Labs",
+  "domain": "pinelabs.com",
+  "website": "https://pinelabs.com",
+  "sources": [
+    "https://thefintechtimes.com/pine-labs-turns-profitable-in-fy26-with-₹113-cr-pat-and-50-gtv-growth/",
+    "https://yourstory.com/2026/10/pine-labs-sees-65x-growth-in-net-profit-in-q2-fy27",
+    "https://inc42.com/buzz/pine-labs-posts-₹59-cr-profit-in-q4-revenue-up-15/",
+    "https://inc42.com/features/how-pine-labs-shifted-gears-from-pos-devices-to-an-ai-powered-fintech-stack/",
+    "https://www.business-standard.com/markets/news/pine-labs-share-price-nse-bse-q2-results-profit-revenue-ebitda-buy-sell-hold-125120400277_1.html"
+  ],
+  "report": {
+    "company": "Pine Labs",
+    "tagline": "The card machine and payment software behind most big Indian stores, best known for letting shoppers convert purchases into EMIs at the counter.",
+    "category": "Merchant payments",
+    "simpleSummary": "When you buy a phone at Croma and the cashier offers 'no-cost EMI on HDFC card', that is usually Pine Labs. It makes the payment machines and software that stores use to take cards, UPI and EMIs. Brands like Samsung and banks pay Pine Labs to run their offers at the counter. It also runs gift cards and prepaid cards for companies.",
+    "keyNumbers": [
+      { "label": "Revenue (FY26)", "value": "₹2,711 crore, up 19%", "note": "Company results, May 2026." },
+      { "label": "Net profit (FY26)", "value": "₹113 crore, first full-year profit", "note": "Company results; FY25 was a ₹145 crore loss." },
+      { "label": "Revenue (Q2 FY27)", "value": "₹806 crore, up 24%; profit ₹38.6 crore", "note": "Company results, October 2026." },
+      { "label": "Payments processed (FY26)", "value": "$194 billion GTV, up 50%", "note": "Company results." },
+      { "label": "Terminals", "value": "About 20 lakh", "note": "Company results, FY26. More than 2.5 crore transactions a day by Q2 FY27." },
+      { "label": "Network", "value": "450+ brands, 177 financial institutions, 22 countries", "note": "Company results, FY26." }
+    ],
+    "overview": {
+      "whatItDoes": "Pine Labs is a merchant payments company listed on Indian stock exchanges since November 2025. It gives stores payment terminals (POS machines) and software that accept cards, UPI and EMIs. Its big trick is putting bank and brand offers, like cashback or no-cost EMI, right at the checkout. It also issues gift and prepaid cards for companies and runs online payments.",
+      "howItWorks": [
+        "A store installs a Pine Labs Android POS terminal or soundbox, often through a partner bank.",
+        "When a customer pays, the terminal checks which EMI and cashback offers apply to their card and product.",
+        "The customer picks an offer; the bank converts the payment into EMIs and the brand pays the interest for no-cost EMI.",
+        "Pine Labs routes the payment and earns fees from the merchant, the bank and the brand.",
+        "Plutus software connects to the store's billing system so staff don't type amounts by hand.",
+        "Qwikcilver, its issuing arm, runs gift cards and prepaid cards for brands and companies."
+      ],
+      "valueProposition": "For stores: one machine for all payments plus offers that help sell costly items. For brands and banks: a way to push their offers to shoppers at the exact moment they buy. For shoppers: costly items become affordable through EMIs."
+    },
+    "personas": [
+      {
+        "name": "Electronics chain manager",
+        "description": "Runs 50 stores selling phones, TVs and laptops.",
+        "goals": ["Sell more high-price items", "Fast checkout", "One system for all stores"],
+        "frustrations": ["Customers walk out over price", "Different machines per bank", "Offers are hard to explain"]
+      },
+      {
+        "name": "Shopper buying a ₹60,000 phone",
+        "description": "A salaried person who prefers paying monthly.",
+        "goals": ["No-cost EMI", "Instant cashback", "Simple process"],
+        "frustrations": ["Hidden processing fees", "Offer not applied", "Confusing terms"]
+      },
+      {
+        "name": "Brand partnerships manager",
+        "description": "Works at a phone or appliance brand and funds EMI offers.",
+        "goals": ["Drive sales during launches", "Track offer ROI", "Reach all stores"],
+        "frustrations": ["Paying for offers without data", "Offers misapplied by stores"]
+      },
+      {
+        "name": "Bank card business head",
+        "description": "Wants more spending on the bank's cards.",
+        "goals": ["More EMI loans on cards", "More card usage in stores"],
+        "frustrations": ["Shoppers pay by UPI instead", "Weak presence at checkout"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Shoppers can't afford expensive items in one payment.", "howSolved": "EMI on debit and credit cards at the counter, often no-cost through brand subsidy.", "severity": "high" },
+      { "pain": "Stores need many machines for many banks and payment types.", "howSolved": "One terminal for cards, UPI, EMI and wallets.", "severity": "high" },
+      { "pain": "Brands and banks can't reach shoppers at the moment of purchase.", "howSolved": "Offers engine built into the terminal.", "severity": "high" },
+      { "pain": "Billing and payment systems don't talk, so staff make errors.", "howSolved": "Plutus software links billing and payment.", "severity": "medium" },
+      { "pain": "Companies struggle to run gift cards and employee prepaid cards.", "howSolved": "Qwikcilver issuing platform.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Android POS terminals", "whatItDoes": "Smart card machines that run apps and accept all payment types.", "whyItMatters": "The physical base of the business; 20 lakh terminals in stores." },
+      { "feature": "Affordability (EMI and offers) engine", "whatItDoes": "Shows and applies bank and brand EMI and cashback offers at checkout.", "whyItMatters": "Pine Labs' biggest edge and a high-margin revenue source." },
+      { "feature": "Plutus billing integration", "whatItDoes": "Connects store billing with the terminal.", "whyItMatters": "Makes Pine Labs part of the store's daily workflow." },
+      { "feature": "Qwikcilver gift and prepaid cards", "whatItDoes": "Issues and manages gift cards and corporate cards.", "whyItMatters": "A second business line with steady fees." },
+      { "feature": "Online payments (Plural)", "whatItDoes": "Gateway for websites, with the same offers.", "whyItMatters": "Brings the EMI edge online; online payments grew 45%+ in Q2 FY27." },
+      { "feature": "Soundboxes", "whatItDoes": "UPI speakers for smaller shops.", "whyItMatters": "Helps reach smaller stores; 10 lakh committed." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying a phone on EMI",
+        "persona": "Shopper buying a ₹60,000 phone",
+        "steps": [
+          { "step": "Pick product", "detail": "Chooses a phone at the store." },
+          { "step": "Ask about offers", "detail": "Cashier enters the product on the terminal." },
+          { "step": "See options", "detail": "Terminal shows EMI tenures and cashback by bank." },
+          { "step": "Choose", "detail": "Picks 6-month no-cost EMI on an HDFC card." },
+          { "step": "Pay", "detail": "Taps card and enters PIN." },
+          { "step": "Get slip", "detail": "Receipt shows EMI amount; bank converts it." }
+        ]
+      },
+      {
+        "name": "Brand runs a launch offer",
+        "persona": "Brand partnerships manager",
+        "steps": [
+          { "step": "Plan offer", "detail": "Brand decides ₹5,000 cashback with select banks." },
+          { "step": "Set up", "detail": "Pine Labs loads the offer into all terminals." },
+          { "step": "Go live", "detail": "Stores across India apply it automatically." },
+          { "step": "Track", "detail": "Brand sees sales by store and bank." },
+          { "step": "Pay", "detail": "Brand pays subsidy and Pine Labs fee." }
+        ]
+      },
+      {
+        "name": "Store chain rollout",
+        "persona": "Electronics chain manager",
+        "steps": [
+          { "step": "Sign deal", "detail": "Agrees on pricing per terminal." },
+          { "step": "Install", "detail": "Terminals placed at counters." },
+          { "step": "Integrate billing", "detail": "Plutus connects to the store's software." },
+          { "step": "Train staff", "detail": "Cashiers learn the offers flow." },
+          { "step": "Daily use", "detail": "Reports show sales and settlements." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Pine Labs makes money from three sides: stores pay for terminals and payment processing, banks and brands pay for EMI and offer programs, and companies pay for gift and prepaid card services.",
+      "revenueStreams": [
+        { "stream": "Payment processing", "detail": "Fees on card and UPI payments through its terminals and online gateway." },
+        { "stream": "Terminal rental and software", "detail": "Monthly rent for POS machines and Plutus software." },
+        { "stream": "Affordability (EMI) fees", "detail": "Brands and banks pay a fee per EMI or offer transaction. 30% of terminals now earn from this layer." },
+        { "stream": "Issuing (Qwikcilver)", "detail": "Fees for running gift cards, prepaid cards and loyalty programs." },
+        { "stream": "International", "detail": "Over ₹400 crore from Southeast Asia, UAE and others, about 15% of revenue." }
+      ],
+      "pricing": "Not public. Terminal rent and fees are negotiated per merchant and bank.",
+      "costDrivers": [
+        "Fees to banks and card networks",
+        "Buying and maintaining terminals",
+        "Field staff to install and service machines",
+        "Tech and product teams"
+      ],
+      "unitEconomics": "Take one ₹60,000 phone sold on no-cost EMI. The store pays a small payment fee. The brand pays for the interest so the shopper pays no extra, and pays Pine Labs a fee for running the offer, say a few hundred rupees. The bank also pays to get the EMI loan. So one EMI sale earns Pine Labs much more than a normal card swipe of the same size. Company says more than ₹50 of every extra ₹100 in revenue now becomes EBITDA. Per-sale fees are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Partnerships with banks that distribute terminals",
+        "Deals with large retail chains and brands",
+        "Expanding to smaller stores with soundboxes",
+        "International expansion in Southeast Asia and UAE",
+        "Online gateway for brands already using its offline system"
+      ],
+      "whatBringsUsersBack": [
+        "Terminals are in daily use at checkout",
+        "Brands return for every product launch and festive sale",
+        "Banks rely on it to push EMI loans",
+        "Billing integration makes switching hard"
+      ],
+      "moat": "Pine Labs sits in the middle of stores, brands and banks. Its offers engine connects to 177 financial institutions and 450+ brands. A new rival would need all three sides at once to match it."
+    },
+    "competitors": [
+      { "name": "Paytm", "positioning": "Soundbox and card machine leader for small shops.", "howThisProductDiffers": "Pine Labs focuses on large retailers and EMI offers; Paytm on small merchants and UPI." },
+      { "name": "PhonePe", "positioning": "UPI leader with soundboxes and POS.", "howThisProductDiffers": "Pine Labs has deeper bank and brand EMI ties." },
+      { "name": "Razorpay POS and PayU", "positioning": "Online-first gateways adding offline devices.", "howThisProductDiffers": "Pine Labs started offline and is now going online." },
+      { "name": "Bank-owned POS (HDFC, ICICI)", "positioning": "Banks giving their own machines.", "howThisProductDiffers": "Pine Labs works with all banks on one device." }
+    ],
+    "northStar": {
+      "metric": "Value of payments processed through terminals that use at least one value-added service (EMI, offers, billing integration)",
+      "why": "It shows stores and shoppers getting more than a plain swipe. It is also where Pine Labs makes the most money."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active terminals",
+        "description": "Terminals used daily.",
+        "children": [
+          { "metric": "New terminals installed", "description": "Grows reach." },
+          { "metric": "Terminal uptime", "description": "Broken machines lose sales." },
+          { "metric": "Terminal churn", "description": "Merchants returning machines." }
+        ]
+      },
+      {
+        "metric": "Affordability usage",
+        "description": "EMI and offer transactions.",
+        "children": [
+          { "metric": "Share of terminals using EMI", "description": "30% now." },
+          { "metric": "Offers live per brand", "description": "More offers, more reasons to use." },
+          { "metric": "EMI conversion at checkout", "description": "Share of eligible buyers picking EMI." }
+        ]
+      },
+      {
+        "metric": "Online and international growth",
+        "description": "New growth areas.",
+        "children": [
+          { "metric": "Online payment volume", "description": "Up 45%+ in Q2 FY27." },
+          { "metric": "International revenue", "description": "About 15% of revenue." }
+        ]
+      },
+      {
+        "metric": "Issuing volume",
+        "description": "Gift and prepaid card value.",
+        "children": [
+          { "metric": "Cards issued", "description": "Number of gift and prepaid cards." },
+          { "metric": "Corporate clients", "description": "Companies using Qwikcilver." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Payment failure rate at the counter",
+      "Shopper complaints about hidden EMI charges",
+      "Fraud losses on gift cards",
+      "Gross margin per terminal"
+    ],
+    "strengths": [
+      "Leader in EMI at checkout in India",
+      "Profitable since FY26 with strong cash flow",
+      "Deep ties with banks and brands",
+      "Growing international business"
+    ],
+    "weaknesses": [
+      "Revenue tied to big-ticket spending like electronics",
+      "UPI is growing faster than cards, and UPI earns little",
+      "Hardware needs capital and field service",
+      "Small shops are dominated by Paytm and PhonePe"
+    ],
+    "risks": [
+      "RBI rules on no-cost EMI and card fees",
+      "Banks building their own offer systems",
+      "Fintech players adding EMI on UPI",
+      "Weak consumer spending in a slowdown"
+    ],
+    "userComplaints": [
+      "Shoppers find 'no-cost EMI' still has processing fees",
+      "Offers not applied correctly at the counter",
+      "Merchants report slow service for broken terminals",
+      "Settlement delays for some merchants",
+      "Gift card balance or validity issues"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show full EMI cost on the terminal screen and SMS before the shopper pays", "problem": "Shoppers feel cheated by hidden fees", "expectedImpact": "More trust and fewer disputes", "metricToTrack": "EMI-related complaints per 10,000 transactions", "effort": "low" },
+      { "idea": "Pay-later on UPI at the counter using bank credit lines", "problem": "UPI is replacing cards and EMIs", "expectedImpact": "Keeps EMI revenue as UPI grows", "metricToTrack": "EMI transactions on UPI", "effort": "high" },
+      { "idea": "Self-help on terminal to report issues and book service", "problem": "Slow fixes for broken machines", "expectedImpact": "Less downtime", "metricToTrack": "Average time to fix terminal issues", "effort": "medium" },
+      { "idea": "Offer ROI dashboard for brands with sales lift by store", "problem": "Brands can't prove offers work", "expectedImpact": "More brand spend on offers", "metricToTrack": "Brand renewals and offers live", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Owning the moment of purchase is powerful. Pine Labs earns from brands and banks, not only stores.",
+      "A B2B2C business serves several customers in one transaction, so design for each one.",
+      "Hardware is a way in; software and services are where the margin is.",
+      "Watch for shifts like UPI replacing cards that can weaken your core revenue."
+    ],
+    "interviewQuestions": [
+      { "question": "UPI is replacing cards in stores. How should Pine Labs respond?", "hint": "Explain the impact on EMI revenue, then propose credit on UPI, offers on UPI and value-added services. Measure revenue per terminal." },
+      { "question": "How would you grow EMI usage at checkout?", "hint": "Break the funnel: shown, understood, chosen, approved. Improve each step and track conversion." },
+      { "question": "Who is Pine Labs' customer?", "hint": "Name stores, brands, banks and shoppers. Explain what each pays for and why." },
+      { "question": "How would you decide whether to enter small kirana stores?", "hint": "Compare cost of devices and service with likely revenue. Look at Paytm and PhonePe strength. Suggest a soundbox plus EMI test." },
+      { "question": "Design a dashboard for brand partners.", "hint": "Show offer reach, sales lift, cost per sale and store-level data. Keep it simple and action-led." }
+    ],
+    "glossary": [
+      { "term": "POS", "meaning": "Point of sale: the machine at a shop counter that accepts payments." },
+      { "term": "EMI", "meaning": "Equated monthly instalment: paying for something in equal monthly parts." },
+      { "term": "No-cost EMI", "meaning": "An EMI where the brand or store pays the interest so the shopper doesn't." },
+      { "term": "GTV", "meaning": "Gross transaction value: the total value of payments processed." },
+      { "term": "B2B2C", "meaning": "A business that sells to other businesses, which then serve consumers." },
+      { "term": "EBITDA", "meaning": "Profit before interest, tax and accounting costs like depreciation." },
+      { "term": "ROI", "meaning": "Return on investment: how much you gain for what you spend." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Gross margin", "meaning": "Revenue left after paying the direct costs of providing the service." }
+    ],
+    "assumptions": [
+      "Fee per EMI sale is an estimate, not company data.",
+      "Merchant count was not disclosed; terminal count is used instead.",
+      "Complaints are summarised from forums and review sites.",
+      "IPO in November 2025 is based on news reports of listing and the share price coverage."
+    ]
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "company": "Monzo",
+  "domain": "monzo.com",
+  "website": "https://monzo.com",
+  "sources": [
+    "https://monzo.com/annual-report/2026",
+    "https://www.uktech.news/fintech/monzo-reports-strong-profitable-growth-with-1-7bn-revenue-for-fy2026-20260519",
+    "https://ffnews.com/newsarticle/monzo-reports-strong-profitable-growth-1-7bn-revenue-and-172-6m-profit-as-it-adds-record-customers-in-the-uk-and-sets-its-sights-on-europe/",
+    "https://ffnews.com/newsarticle/fintech/monzo-races-past-14-million-customers-amid-record-growth-and-standout-engagement/",
+    "https://tech.eu/2026/05/19/monzo-to-launch-in-spain-as-ramps-up-eu-expansion-plans/",
+    "https://www.expressandstar.com/uk-news/monzo-annual-profit-surges-as-paying-subscribers-boost-digital-bank-5694749"
+  ],
+  "report": {
+    "company": "Monzo",
+    "tagline": "A UK app-only bank with the hot coral card, known for a friendly app that makes managing money simple, and now solidly profitable.",
+    "category": "App-only bank",
+    "simpleSummary": "Monzo is a bank that lives in your phone. You get a bright coral debit card, instant notifications when you spend, and 'Pots' to put money aside for bills or holidays. It started as a prepaid card in 2015, grew through word of mouth and crowdfunding, and became a full UK bank. After years of losses, it now makes good profits, mainly from interest, card fees, loans and paid plans.",
+    "keyNumbers": [
+      {
+        "label": "Revenue",
+        "value": "About £1.7 billion (year to March 2026)",
+        "note": "Monzo Annual Report 2026."
+      },
+      {
+        "label": "Profit before tax",
+        "value": "About £172.6 million (year to March 2026)",
+        "note": "Monzo Annual Report 2026, reported by FF News. Up from about £60 million the year before."
+      },
+      {
+        "label": "Customers",
+        "value": "Over 14 million",
+        "note": "Monzo, 2026. Roughly one in five UK adults."
+      },
+      {
+        "label": "Paid plans",
+        "value": "Extra £3, Perks £7, Max £17 a month",
+        "note": "Monzo pricing page. Paying subscribers grew strongly and helped profit, per news reports."
+      },
+      {
+        "label": "Expansion",
+        "value": "Launching in Spain and the EU via Ireland",
+        "note": "Tech.eu, May 2026. First big push outside the UK after an earlier US attempt."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Monzo offers UK current accounts, savings, loans, overdrafts, credit cards (Monzo Flex), investments, pensions and business accounts, all in an app. Its strength is design: clear spending insights, instant alerts and tools that help people budget.",
+      "howItWorks": [
+        "Open an account in the app in minutes with a photo ID and selfie video.",
+        "Get a coral card; every payment shows up instantly with the shop's logo.",
+        "Use Pots to save for goals and pay bills, and 'Salary Sorter' to split pay automatically.",
+        "Get paid a day early with Get Paid Early, and round up spending into savings.",
+        "Borrow with loans, overdrafts or Monzo Flex (buy now, pay later style).",
+        "Pay for Extra, Perks or Max for features like better savings rates, Railcard, travel insurance and phone insurance."
+      ],
+      "valueProposition": "Banking that is easy, friendly and helps you feel in control of your money."
+    },
+    "personas": [
+      {
+        "name": "Young professional",
+        "description": "A 26-year-old in Manchester, salary paid into Monzo, using Pots to save for rent and holidays.",
+        "goals": [
+          "Know where money goes",
+          "Save without effort",
+          "Get paid early"
+        ],
+        "frustrations": [
+          "Account freezes during checks",
+          "Interest rates lower than some rivals",
+          "Want more investing options"
+        ]
+      },
+      {
+        "name": "Student",
+        "description": "University student who opened Monzo because friends use it to split bills.",
+        "goals": [
+          "Split costs easily",
+          "Avoid overspending",
+          "Free account"
+        ],
+        "frustrations": [
+          "Overdraft costs",
+          "Fewer student perks than big banks",
+          "Support delays"
+        ]
+      },
+      {
+        "name": "Sole trader",
+        "description": "A freelancer using Monzo Business for invoicing and tax pots.",
+        "goals": [
+          "Separate business money",
+          "Put aside tax automatically",
+          "Simple invoicing"
+        ],
+        "frustrations": [
+          "Fees on higher business plans",
+          "Payment holds",
+          "Limited lending for small businesses"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Old bank apps make it hard to see spending.",
+        "howSolved": "Instant notifications, clear categories and spending insights.",
+        "severity": "high"
+      },
+      {
+        "pain": "Saving takes willpower.",
+        "howSolved": "Pots, round-ups and Salary Sorter automate saving.",
+        "severity": "high"
+      },
+      {
+        "pain": "Opening a bank account is slow.",
+        "howSolved": "Opening takes minutes on the app.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Splitting bills with friends is messy.",
+        "howSolved": "Shared tabs and payments to contacts by phone number.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Fees abroad are high with many banks.",
+        "howSolved": "No Monzo fees for card spending abroad.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Instant notifications and spending insights",
+        "whatItDoes": "Shows each payment instantly with categories and trends.",
+        "whyItMatters": "The original delight that made people talk about Monzo."
+      },
+      {
+        "feature": "Pots",
+        "whatItDoes": "Separate spaces for savings and bills, including interest-earning savings pots.",
+        "whyItMatters": "Builds deposits and daily habit."
+      },
+      {
+        "feature": "Get Paid Early",
+        "whatItDoes": "Receive salary a day early.",
+        "whyItMatters": "Encourages users to switch their salary to Monzo."
+      },
+      {
+        "feature": "Lending (loans, overdrafts, Flex)",
+        "whatItDoes": "Borrow in the app with instant decisions.",
+        "whyItMatters": "Big source of interest revenue."
+      },
+      {
+        "feature": "Paid plans",
+        "whatItDoes": "Extra, Perks and Max with rewards and insurance.",
+        "whyItMatters": "Steady fee income that does not depend on interest rates."
+      },
+      {
+        "feature": "Monzo Business",
+        "whatItDoes": "Accounts, invoicing and tax pots for small businesses.",
+        "whyItMatters": "Higher-value customers and fees."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Opening an account",
+        "persona": "Student",
+        "steps": [
+          {
+            "step": "Friend sends money",
+            "detail": "Splitting a pizza bill via Monzo."
+          },
+          {
+            "step": "Downloads app",
+            "detail": "Signs up with a passport and selfie video."
+          },
+          {
+            "step": "Gets coral card",
+            "detail": "Card arrives in a few days; virtual card instantly."
+          },
+          {
+            "step": "First spend",
+            "detail": "Sees instant notification."
+          },
+          {
+            "step": "Creates a Pot",
+            "detail": "Saves for a festival ticket."
+          },
+          {
+            "step": "Uses daily",
+            "detail": "Splits bills with friends."
+          }
+        ]
+      },
+      {
+        "name": "Switching salary",
+        "persona": "Young professional",
+        "steps": [
+          {
+            "step": "Sees Get Paid Early",
+            "detail": "Wants pay a day sooner."
+          },
+          {
+            "step": "Uses switching service",
+            "detail": "Moves from old bank in 7 days."
+          },
+          {
+            "step": "Sets Salary Sorter",
+            "detail": "Splits pay into bills, savings and spending."
+          },
+          {
+            "step": "Takes a loan",
+            "detail": "Gets a car loan in the app."
+          },
+          {
+            "step": "Upgrades to Perks",
+            "detail": "For Railcard and better savings."
+          }
+        ]
+      },
+      {
+        "name": "Freelancer setup",
+        "persona": "Sole trader",
+        "steps": [
+          {
+            "step": "Opens Monzo Business",
+            "detail": "Free plan first."
+          },
+          {
+            "step": "Sets tax pot",
+            "detail": "Auto-saves a share of income for tax."
+          },
+          {
+            "step": "Sends invoices",
+            "detail": "From the app."
+          },
+          {
+            "step": "Upgrades",
+            "detail": "Pays for Business Pro features."
+          },
+          {
+            "step": "Connects accounting",
+            "detail": "Links Xero or similar."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Monzo earns mostly from interest: on loans and overdrafts, and on customer deposits it holds. It also earns card interchange fees, subscription fees from paid plans, and fees from business accounts. Low costs from an app-only model, and growth through word of mouth, helped it become profitable.",
+      "revenueStreams": [
+        {
+          "stream": "Net interest income",
+          "detail": "Interest from loans, overdrafts and Flex, plus interest on deposits held at the Bank of England."
+        },
+        {
+          "stream": "Card interchange",
+          "detail": "Fee paid by shops each time customers pay by card."
+        },
+        {
+          "stream": "Subscriptions",
+          "detail": "Extra (£3), Perks (£7) and Max (£17) a month."
+        },
+        {
+          "stream": "Business accounts",
+          "detail": "Monthly fees and transaction fees."
+        },
+        {
+          "stream": "Partnerships",
+          "detail": "Insurance, investments and pensions through partners."
+        }
+      ],
+      "pricing": "Personal: free standard account. Extra £3 a month, Perks £7, Max £17. Business: free plan and paid plans. Loans and overdrafts at interest rates based on credit. Prices from monzo.com.",
+      "costDrivers": [
+        "Financial crime and fraud prevention",
+        "Customer support",
+        "Technology and engineering",
+        "Credit losses on loans",
+        "Marketing and expansion into Europe",
+        "Regulatory costs, including a £21 million FCA fine in 2025 over financial crime controls"
+      ],
+      "unitEconomics": "With about 14 million customers and £1.7 billion revenue, Monzo earns roughly £120 a year per customer. Profit before tax of about £172.6 million is about £12 per customer. A customer with salary in, a loan and a Perks plan may be worth several hundred pounds a year; a free user who only splits bills earns little. Getting more customers to use Monzo as their main bank is the key to profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth and the eye-catching coral card",
+        "Paying friends and splitting bills pulls in new users",
+        "Community forum and crowdfunding that built loyal fans",
+        "Referral rewards",
+        "Marketing campaigns and growing brand trust"
+      ],
+      "whatBringsUsersBack": [
+        "Instant notifications on every spend",
+        "Salary paid in, often a day early",
+        "Pots and savings goals",
+        "Paid plan perks"
+      ],
+      "moat": "Monzo's moat is brand love and habit. Millions of UK users check it daily, have salaries paid in and use Pots, which makes switching painful. Its community and friendly tone are hard to copy. Its licences and low-cost tech help too."
+    },
+    "competitors": [
+      {
+        "name": "Revolut",
+        "positioning": "Global super-app with travel and trading.",
+        "howThisProductDiffers": "Revolut has more features and countries; Monzo is simpler and more UK-focused."
+      },
+      {
+        "name": "Starling Bank",
+        "positioning": "UK app bank strong in business banking.",
+        "howThisProductDiffers": "Starling is strong with businesses; Monzo has more retail customers and brand buzz."
+      },
+      {
+        "name": "Chase UK",
+        "positioning": "JPMorgan's UK app bank.",
+        "howThisProductDiffers": "Chase offers cashback and big-bank backing; Monzo has stronger community and features."
+      },
+      {
+        "name": "Traditional banks (Barclays, Lloyds)",
+        "positioning": "Big banks with branches and mortgages.",
+        "howThisProductDiffers": "Banks offer mortgages and trust; Monzo wins on app experience."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of customers using Monzo as their main account (salary deposited monthly)",
+      "why": "Main-account users trust Monzo with their money and use more products. This north star metric is a clear sign of value and drives revenue. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "New customers",
+        "description": "Sign-ups and activation.",
+        "children": [
+          {
+            "metric": "Referral sign-ups",
+            "description": "New users from friends."
+          },
+          {
+            "metric": "Account opening completion",
+            "description": "Share who finish sign-up."
+          },
+          {
+            "metric": "First spend within 7 days",
+            "description": "Activation."
+          }
+        ]
+      },
+      {
+        "metric": "Salary switching",
+        "description": "Customers moving salary in.",
+        "children": [
+          {
+            "metric": "Get Paid Early users",
+            "description": "Users with salary in."
+          },
+          {
+            "metric": "Current Account Switch Service volume",
+            "description": "Full switches from other banks."
+          }
+        ]
+      },
+      {
+        "metric": "Products per customer",
+        "description": "Cross-selling.",
+        "children": [
+          {
+            "metric": "Savings users",
+            "description": "Customers using savings pots."
+          },
+          {
+            "metric": "Borrowing users",
+            "description": "Customers with loans or Flex."
+          },
+          {
+            "metric": "Paid plan subscribers",
+            "description": "Customers on Extra, Perks or Max."
+          }
+        ]
+      },
+      {
+        "metric": "Trust and service",
+        "description": "Customer experience.",
+        "children": [
+          {
+            "metric": "Support resolution time",
+            "description": "How fast problems are solved."
+          },
+          {
+            "metric": "Fraud losses",
+            "description": "Money lost to scams."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Account freeze complaints",
+      "Credit loss rate on loans",
+      "Fraud and financial crime incidents",
+      "App store rating"
+    ],
+    "strengths": [
+      "Strong brand and loved app",
+      "Over 14 million customers",
+      "Now clearly profitable",
+      "Growing paid plans",
+      "Active community and word of mouth"
+    ],
+    "weaknesses": [
+      "Mostly UK-only so far",
+      "Account freezes and support complaints",
+      "FCA fine in 2025 for weak financial crime controls",
+      "Limited mortgages and some products",
+      "Depends on interest income, which falls with rate cuts"
+    ],
+    "risks": [
+      "Falling interest rates cutting income",
+      "Competition from Revolut, Chase and big banks",
+      "Regulatory pressure on fraud and money laundering",
+      "Credit losses in a weak economy",
+      "Risk of expansion into Europe failing, as the US push struggled"
+    ],
+    "userComplaints": [
+      "Accounts frozen without clear reasons",
+      "Slow support during reviews",
+      "Scam refunds not given",
+      "Paid plans not worth it for some users",
+      "Lower savings rates than some rivals"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Mortgage product in the app",
+        "problem": "Customers go to other banks for mortgages, weakening main-account use.",
+        "expectedImpact": "More loyal, higher-value customers.",
+        "metricToTrack": "Products per customer",
+        "effort": "high"
+      },
+      {
+        "idea": "Clear tracker for account reviews with estimated time",
+        "problem": "Frozen accounts cause anger and churn.",
+        "expectedImpact": "Fewer complaints and better trust.",
+        "metricToTrack": "Account freeze complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Personalised paid plan recommendation based on spending",
+        "problem": "Users do not see value in paid plans.",
+        "expectedImpact": "More subscribers.",
+        "metricToTrack": "Paid plan subscribers",
+        "effort": "low"
+      },
+      {
+        "idea": "Spain launch built around multi-currency and community",
+        "problem": "Monzo needs growth beyond the UK.",
+        "expectedImpact": "New customers in Europe.",
+        "metricToTrack": "EU active customers",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Delight can drive growth. Instant notifications and a coral card got people talking.",
+      "Community builds loyalty. Monzo's early fans helped shape and spread it.",
+      "Profit comes from depth. Getting salaries and loans matters more than sign-ups.",
+      "Compliance is not optional. Weak controls led to a fine.",
+      "Expansion is hard. Monzo's US push struggled, so Europe must be planned carefully."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you get more Monzo users to switch their salary?",
+        "hint": "Find barriers: trust, hassle, features. Ideas: Get Paid Early, switching rewards, better savings. Measure salary deposits."
+      },
+      {
+        "question": "Should Monzo launch mortgages?",
+        "hint": "Compare value, risk, cost and capital. Consider partnerships. Measure products per customer."
+      },
+      {
+        "question": "How would you reduce account freeze complaints?",
+        "hint": "Balance fraud control and experience. Better communication and faster reviews. Track complaints and fraud."
+      },
+      {
+        "question": "Design Monzo's launch in Spain.",
+        "hint": "Target users, local needs, competition, rules. Use community and design. Define metrics."
+      },
+      {
+        "question": "What should Monzo's north star metric be?",
+        "hint": "Main-account customers. Break into new users, salary switching, products and trust."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "App-only bank",
+        "meaning": "A bank with no branches where everything happens in a phone app."
+      },
+      {
+        "term": "Net interest income",
+        "meaning": "Interest a bank earns on loans and deposits minus interest it pays out."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A small fee shops pay the card issuer each time you pay by card."
+      },
+      {
+        "term": "Cross-selling",
+        "meaning": "Selling more products to existing customers."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets value, like their first card payment."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Customers who stop using the product."
+      },
+      {
+        "term": "FCA",
+        "meaning": "Financial Conduct Authority: the UK regulator for financial companies."
+      },
+      {
+        "term": "Credit losses",
+        "meaning": "Money lost when borrowers do not repay loans."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard for others to copy."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow; Monzo's guardrail metrics include credit loss rate."
+      }
+    ],
+    "assumptions": [
+      "Per-customer revenue and profit are simple averages we calculated.",
+      "Paid plan prices may have changed.",
+      "Details of the EU expansion are based on May 2026 news.",
+      "The north star metric is our proposal.",
+      "Main-account share of customers is not public."
+    ]
+  }
+}

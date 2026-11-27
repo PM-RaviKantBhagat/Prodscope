@@ -1,0 +1,269 @@
+{
+  "company": "Etsy",
+  "domain": "etsy.com",
+  "website": "https://www.etsy.com",
+  "sources": [
+    "https://www.valueaddedresource.net/etsy-q3-2026-earnings/",
+    "https://www.sec.gov/Archives/edgar/data/0001370637/000137063726000090/q326shareholderletter.htm",
+    "https://www.zacks.com/stock/news/3018920/etsy-q3-earnings-beat-estimates-on-gms-ads-growth-revenues-rise-yy",
+    "https://www.retail-insight-network.com/newsletters/etsy-reports-third-quarter-gms-and-revenue-growth",
+    "https://quartr.com/events/etsy-etsy-q3-2026_3PiVJ3Ww"
+  ],
+  "report": {
+    "company": "Etsy",
+    "tagline": "An online marketplace where millions of small sellers sell handmade, vintage and unique items to buyers around the world.",
+    "category": "Marketplace",
+    "simpleSummary": "Etsy is a website and app where you can buy things you will not find in a normal shop: a hand-stamped necklace with your mum's name, a vintage 1970s lamp, or a printable wedding invite. The sellers are mostly individuals and tiny businesses working from home. Etsy does not hold stock; it runs the marketplace and takes a cut of each sale. Its big fight is keeping cheap mass-made goods from crowding out real makers.",
+    "keyNumbers": [
+      { "label": "Gross merchandise sales Q3 2026", "value": "$2.65 billion", "note": "Etsy Q3 2026 results, up 8.8%. Full-year 2026 GMS growth guided at about 7%." },
+      { "label": "Revenue Q3 2026", "value": "$692.5 million", "note": "Up 10.9%. Take rate 26.2%, up 0.5 points, driven by ads." },
+      { "label": "Active buyers", "value": "About 88 million", "note": "Trailing twelve months to Q3 2026, up 1%, first growth after two years of decline." },
+      { "label": "Active sellers", "value": "About 5.8 million", "note": "Q3 2026, up 6.5%. Seller retention at its highest since 2021." },
+      { "label": "Adjusted EBITDA margin", "value": "About 30%", "note": "Q3 2026: $210.4 million, a 30.4% margin. Etsy is highly profitable." },
+      { "label": "Depop sale", "value": "$1.4 billion to eBay", "note": "Closed 30 July 2026. Etsy also sold Reverb, to focus on the core Etsy marketplace." }
+    ],
+    "overview": {
+      "whatItDoes": "Etsy connects buyers with independent sellers of handmade, vintage, craft supplies and personalised goods. Sellers set up shops, list items and handle making and shipping. Etsy provides search, payments, buyer protection, ads and shipping labels, and takes fees on each sale. It is run by CEO Kruti Patel Goyal since 2026.",
+      "howItWorks": [
+        "A seller opens a shop, pays $0.20 to list each item for four months, and writes titles, tags and photos.",
+        "Buyers search, browse gift guides or get personalised recommendations in the app.",
+        "When something sells, Etsy takes a 6.5% transaction fee plus payment processing fees (about 3% plus a small fixed fee in the US, a bit higher in the UK).",
+        "Sellers can pay for Etsy Ads to rank higher in search, and Etsy runs Offsite Ads on Google and social media, charging 12% to 15% of the sale if it brings a buyer.",
+        "Etsy's search now weighs quality and the likely post-purchase experience, not just whether a listing will sell.",
+        "Etsy's Purchase Protection refunds buyers if an order does not arrive or is not as described."
+      ],
+      "valueProposition": "For buyers: unique, personal and handmade items you cannot find elsewhere. For sellers: access to about 88 million buyers without building their own website."
+    },
+    "personas": [
+      {
+        "name": "Thoughtful gift buyer",
+        "description": "28 to 45, shops for birthdays, weddings and holidays and wants something personal.",
+        "goals": ["Find a unique, personalised gift", "Arrive on time for the occasion", "Support small makers"],
+        "frustrations": ["Search full of mass-produced items that look identical", "Long or unclear shipping times"]
+      },
+      {
+        "name": "Home-based maker",
+        "description": "Makes jewellery, candles or prints at home; Etsy is a side or main income.",
+        "goals": ["Get found in search", "Keep fees reasonable", "Steady sales"],
+        "frustrations": ["Fees add up to 15% to 25% of a sale with ads", "Competing with resellers of cheap factory goods", "Search changes that cut traffic overnight"]
+      },
+      {
+        "name": "Vintage seller",
+        "description": "Sources and sells vintage clothes and homeware.",
+        "goals": ["Reach collectors", "Fair visibility for one-of-a-kind items"],
+        "frustrations": ["One-off items struggle in search", "Depop and eBay competing for vintage buyers"]
+      },
+      {
+        "name": "Digital download seller",
+        "description": "Sells printable planners, templates and patterns.",
+        "goals": ["Passive income", "Protection from copycats"],
+        "frustrations": ["AI-generated copies flooding the category", "New rules on AI content"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Mass retail feels generic; buyers want something personal.", "howSolved": "Millions of handmade and personalised items from small sellers.", "severity": "high" },
+      { "pain": "Small makers cannot afford to build traffic to their own website.", "howSolved": "A ready audience of about 88 million buyers.", "severity": "high" },
+      { "pain": "Buying from unknown small sellers feels risky.", "howSolved": "Reviews, Star Seller badges and Purchase Protection.", "severity": "high" },
+      { "pain": "Finding the right unique item among 100 million listings is hard.", "howSolved": "Personalised search and feeds; Etsy says personalisation added about 2 points to GMS growth.", "severity": "high" },
+      { "pain": "Sellers struggle with payments and shipping.", "howSolved": "Etsy Payments and discounted shipping labels.", "severity": "medium" },
+      { "pain": "Vintage and rare items are hard to find.", "howSolved": "Dedicated vintage category and search filters.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Search and recommendations", "whatItDoes": "Ranks listings by relevance, quality and expected buyer experience.", "whyItMatters": "Most sales start with search; ranking decides which sellers succeed and how happy buyers are." },
+      { "feature": "Personalisation options", "whatItDoes": "Buyers add names, dates or custom text to an item.", "whyItMatters": "Personalised items are hard for Amazon and Temu to copy." },
+      { "feature": "Etsy Ads and Offsite Ads", "whatItDoes": "Sellers pay to show listings higher in search and Etsy advertises listings across the web.", "whyItMatters": "Ads drove the rise in take rate to 26.2%." },
+      { "feature": "Star Seller and reviews", "whatItDoes": "Badges for sellers with fast shipping, good messages and high ratings.", "whyItMatters": "Builds buyer trust and rewards good sellers." },
+      { "feature": "Etsy Purchase Protection", "whatItDoes": "Refunds buyers if orders do not arrive or are not as described.", "whyItMatters": "Removes the risk of buying from small sellers." },
+      { "feature": "Gift Mode and gift guides", "whatItDoes": "Helps buyers find gifts by recipient and occasion.", "whyItMatters": "Gifting is Etsy's biggest buying moment, especially in Q4." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying a personalised gift",
+        "persona": "Thoughtful gift buyer",
+        "steps": [
+          { "step": "Searches", "detail": "Types 'personalised necklace for mum' on Google and lands on Etsy." },
+          { "step": "Browses", "detail": "Compares photos, prices and reviews across several shops." },
+          { "step": "Checks seller", "detail": "Looks for a Star Seller badge and delivery estimate." },
+          { "step": "Personalises", "detail": "Adds the name 'Asha' in the personalisation box." },
+          { "step": "Pays", "detail": "Checks out with card, PayPal or Apple Pay." },
+          { "step": "Tracks", "detail": "Gets updates as the seller makes and ships the item." },
+          { "step": "Reviews", "detail": "Leaves a review and photo after it arrives." }
+        ]
+      },
+      {
+        "name": "Opening a shop and making the first sale",
+        "persona": "Home-based maker",
+        "steps": [
+          { "step": "Opens shop", "detail": "Creates a shop name and sets up Etsy Payments." },
+          { "step": "Lists items", "detail": "Pays $0.20 per listing and writes titles and tags." },
+          { "step": "Takes photos", "detail": "Uploads real photos of handmade items." },
+          { "step": "Tries ads", "detail": "Sets a small daily Etsy Ads budget." },
+          { "step": "Makes a sale", "detail": "Pays transaction, payment and maybe Offsite Ads fees." },
+          { "step": "Ships", "detail": "Buys a discounted label from Etsy and ships." },
+          { "step": "Earns badges", "detail": "Works toward Star Seller with fast shipping and replies." }
+        ]
+      },
+      {
+        "name": "Returning buyer",
+        "persona": "Thoughtful gift buyer",
+        "steps": [
+          { "step": "Opens app", "detail": "Sees a personalised home feed from past views." },
+          { "step": "Favourites", "detail": "Saves items and shops to come back later." },
+          { "step": "Gets alerts", "detail": "Receives a sale alert from a favourite shop." },
+          { "step": "Buys again", "detail": "Buys a second item from the same seller." },
+          { "step": "Shares", "detail": "Sends a gift idea to a friend." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Etsy makes money from sellers, not buyers. It charges listing fees, a cut of each sale, payment processing fees, and sells ads and shipping labels. Its take rate, the share of each sale Etsy keeps, is about 26%.",
+      "revenueStreams": [
+        { "stream": "Marketplace fees", "detail": "$0.20 listing fee, 6.5% transaction fee and payment processing fees. $468 million in Q3 2026." },
+        { "stream": "Services: ads", "detail": "Etsy Ads (sellers pay per click) and Offsite Ads (12% to 15% of sales Etsy brings from outside)." },
+        { "stream": "Services: shipping labels and others", "detail": "Margin on shipping labels and other seller tools. Services revenue was $224 million in Q3 2026." },
+        { "stream": "Etsy Plus", "detail": "Optional seller subscription with extra tools for about $10 a month." }
+      ],
+      "pricing": "Listing fee $0.20 per item. Transaction fee 6.5% of the total including shipping. Payment processing about 3% + $0.25 in the US (UK about 4% + £0.20). Offsite Ads fee 15% of the sale, or 12% for sellers who made over $10,000 in a year. Shoppers pay nothing extra. Check Etsy's fee page for current rates by country.",
+      "costDrivers": [
+        "Marketing, mainly Google and social ads to bring buyers (about $207 million in Q3 2026)",
+        "Engineering for search, recommendations and the app",
+        "Trust and safety: removing mass-produced, fake and AI-spam listings",
+        "Payment processing costs paid to card networks",
+        "Customer support and Purchase Protection refunds"
+      ],
+      "unitEconomics": "Take a $40 personalised necklace with $5 shipping. The seller pays $0.20 to list it, about $2.93 in transaction fees, and about $1.60 in payment processing. If it came through Offsite Ads, the seller pays another $6.75. So Etsy collects about $4.70 to $11.50 on this sale. Etsy's cost of processing the payment is about $1.30, and it spends heavily on marketing to bring buyers back. With a 30% adjusted EBITDA margin, Etsy keeps roughly $1.50 to $3.50 of profit on this sale. For the seller, fees take 12% to 25% of the price."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search, where Etsy listings rank for 'personalised gift' and similar searches",
+        "Offsite Ads on Google, Meta and Pinterest",
+        "Gifting seasons like Christmas, Valentine's and Mother's Day",
+        "Word of mouth and social sharing of unique finds",
+        "Sellers promoting their own shops on Instagram and TikTok"
+      ],
+      "whatBringsUsersBack": [
+        "Personalised home feed and recommendations",
+        "Favourites and shop follows",
+        "Gifting occasions throughout the year",
+        "Email and app alerts about sales and new items"
+      ],
+      "moat": "Etsy has a two-sided network effect: 88 million buyers attract 5.8 million sellers, and the huge range of unique items attracts buyers. Its brand means 'handmade and personal', which Amazon Handmade and Temu have not matched. The moat weakens if Etsy fills with mass-made goods that buyers can get cheaper elsewhere."
+    },
+    "competitors": [
+      { "name": "Amazon Handmade", "positioning": "Amazon's handmade section with fast Prime delivery.", "howThisProductDiffers": "Amazon wins on delivery speed; Etsy wins on range of unique and personalised items and on brand." },
+      { "name": "Temu and Shein", "positioning": "Very cheap factory goods shipped from China.", "howThisProductDiffers": "Etsy competes on uniqueness and quality, not price. Copies of Etsy designs on Temu are a threat." },
+      { "name": "eBay (now owns Depop)", "positioning": "Marketplace for used, vintage and collectibles.", "howThisProductDiffers": "Etsy is stronger for handmade and gifting; eBay for collectibles and resale." },
+      { "name": "Shopify", "positioning": "Lets sellers build their own online store.", "howThisProductDiffers": "Shopify gives control and lower fees but no built-in buyers; Etsy brings traffic." },
+      { "name": "Meesho (India, for comparison)", "positioning": "Indian marketplace for small sellers, zero commission, earns from ads and logistics.", "howThisProductDiffers": "Meesho competes on low prices; Etsy charges sellers more and positions on uniqueness." }
+    ],
+    "northStar": {
+      "metric": "Number of buyers who make a repeat purchase within 12 months",
+      "why": "Repeat buyers show that Etsy delivered a good item and a good experience. It also measures trust and search quality, and drives GMS without heavy marketing spend."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "Buyers who bought in the last 12 months.",
+        "children": [
+          { "metric": "New buyers from Google and ads", "description": "Buyers acquired through marketing." },
+          { "metric": "Reactivated buyers", "description": "Lapsed buyers returning." },
+          { "metric": "App installs", "description": "App buyers buy more often." }
+        ]
+      },
+      {
+        "metric": "Purchase frequency",
+        "description": "Purchases per active buyer per year, still below last year in Q3 2026.",
+        "children": [
+          { "metric": "Recommendation click-through", "description": "Personalised feed engagement." },
+          { "metric": "Gift Mode use", "description": "Gifting brings repeat occasions." },
+          { "metric": "Favourites and follows", "description": "Signals buyers want to return." }
+        ]
+      },
+      {
+        "metric": "Purchase experience quality",
+        "description": "Whether orders arrive on time and as described.",
+        "children": [
+          { "metric": "On-time delivery rate", "description": "Late gifts ruin trust." },
+          { "metric": "Case rate", "description": "Share of orders with a buyer complaint." },
+          { "metric": "Share of mass-produced listings removed", "description": "Keeps the marketplace unique." }
+        ]
+      },
+      {
+        "metric": "Seller health",
+        "description": "Sellers who keep listing and selling.",
+        "children": [
+          { "metric": "Seller retention", "description": "Highest since 2021 in Q3 2026." },
+          { "metric": "Share of sellers with a sale in 30 days", "description": "Sellers who see results stay." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Seller fees as a share of sales (take rate), so sellers are not squeezed out",
+      "Buyer complaint and refund rate",
+      "Share of listings that break handmade rules",
+      "Marketing cost per active buyer"
+    ],
+    "strengths": [
+      "Unique catalogue and strong 'handmade and personal' brand",
+      "Two-sided network effect with 88 million buyers and 5.8 million sellers",
+      "Very profitable, around 30% adjusted EBITDA margin",
+      "Ads business growing and raising take rate",
+      "Active buyer numbers growing again"
+    ],
+    "weaknesses": [
+      "Buyer frequency is falling",
+      "Mass-produced and resold goods hurt trust and the brand",
+      "Sellers resent rising fees and mandatory Offsite Ads",
+      "Depends on Google search and paid marketing for traffic"
+    ],
+    "risks": [
+      "Temu, Shein and Amazon copying designs at lower prices",
+      "AI-generated listings and images flooding categories",
+      "Changes to Google search reducing free traffic",
+      "Seller backlash over fees and AI training terms",
+      "Weak consumer spending on discretionary gifts"
+    ],
+    "userComplaints": [
+      "Sellers: high and rising fees, especially Offsite Ads",
+      "Sellers: sudden drops in search traffic after algorithm changes",
+      "Sellers: account suspensions and payment reserves",
+      "Buyers: items that look mass-produced or come from dropshipping",
+      "Buyers: slow shipping and late gifts"
+    ],
+    "improvementIdeas": [
+      { "idea": "Verified 'Made by seller' badge with maker video or workshop photos", "problem": "Buyers cannot tell real handmade items from resold factory goods.", "expectedImpact": "Higher buyer trust and conversion on genuine makers.", "metricToTrack": "Conversion rate on verified listings and buyer complaint rate", "effort": "medium" },
+      { "idea": "Delivery-date guarantee for gift orders", "problem": "Late gifts are a top complaint.", "expectedImpact": "More repeat buyers.", "metricToTrack": "On-time delivery rate and repeat purchase rate", "effort": "medium" },
+      { "idea": "Seller traffic dashboard explaining ranking changes", "problem": "Sellers lose traffic with no explanation.", "expectedImpact": "Better seller retention and listing quality.", "metricToTrack": "Seller retention", "effort": "low" },
+      { "idea": "Reorder reminders for occasions buyers bought for last year", "problem": "Purchase frequency is falling.", "expectedImpact": "More repeat purchases.", "metricToTrack": "Purchase frequency", "effort": "low" },
+      { "idea": "Opt-out of Offsite Ads for smaller sellers below a lower threshold", "problem": "Sellers resent the 15% fee.", "expectedImpact": "Better seller sentiment.", "metricToTrack": "Seller satisfaction and churn", "effort": "low" }
+    ],
+    "pmLessons": [
+      "A marketplace's brand is its supply. If cheap mass-made goods take over, buyers lose the reason to come.",
+      "Raising take rate through ads boosts revenue but can push away sellers; watch both sides.",
+      "Search ranking is product policy. What you rank shapes what sellers make.",
+      "Selling side businesses (Depop, Reverb) to focus on the core is a valid strategy."
+    ],
+    "interviewQuestions": [
+      { "question": "Purchase frequency is falling. How would you fix it?", "hint": "Segment buyers. Find drop-off reasons. Ideas: occasion reminders, personalisation, gift mode. Metric: purchases per buyer." },
+      { "question": "How would you keep Etsy unique as mass-produced items grow?", "hint": "Policy, detection, badges, ranking. Balance seller growth with quality. Guardrail: false removals." },
+      { "question": "Etsy wants to raise ad revenue. What are the risks?", "hint": "Seller costs, buyer experience with too many ads. Track take rate and seller churn together." },
+      { "question": "Compare Etsy with Meesho.", "hint": "Both serve small sellers. Different monetisation (fees vs zero commission), price points, buyers. What can each learn?" },
+      { "question": "What north star metric would you choose for Etsy?", "hint": "Repeat buyers or GMS from repeat buyers. Explain why GMS alone hides quality problems." }
+    ],
+    "glossary": [
+      { "term": "GMS", "meaning": "Gross merchandise sales: the total value of everything sold on the marketplace." },
+      { "term": "Take rate", "meaning": "The share of each sale's value that the marketplace keeps as revenue." },
+      { "term": "Network effect", "meaning": "When a product gets more useful as more people use it." },
+      { "term": "Adjusted EBITDA", "meaning": "Profit before interest, tax, depreciation and some one-off costs, a rough measure of operating profit." },
+      { "term": "Conversion", "meaning": "The share of visitors who make a purchase." },
+      { "term": "Dropshipping", "meaning": "Selling items made and shipped by someone else without the seller ever handling them." },
+      { "term": "Churn", "meaning": "The share of users who stop using a product." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." }
+    ],
+    "assumptions": [
+      "UK payment processing fee and Etsy Plus price are approximate.",
+      "Per-sale profit is an estimate based on Etsy's overall margin.",
+      "The choice of repeat buyers as north star is our recommendation, not Etsy's stated metric."
+    ]
+  }
+}

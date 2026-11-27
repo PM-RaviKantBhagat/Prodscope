@@ -1,0 +1,482 @@
+{
+  "company": "Hinge",
+  "domain": "hinge.co",
+  "website": "https://hinge.co",
+  "sources": [
+    "https://finance.biggo.com/news/US_MTCH_2026-11-02",
+    "https://www.globaldatinginsights.com/featured/match-group-q3-2026-results-hinge-growth-and-new-plans-for-tinder/",
+    "https://www.sec.gov/Archives/edgar/data/0000891103/000089110326000163/mtch-20260930.htm",
+    "https://quartr.com/events/match-group-inc-mtch-q3-2026_3efEDr5G",
+    "https://www.tradingkey.com/news/transcripts/262266245-"
+  ],
+  "report": {
+    "company": "Hinge",
+    "tagline": "A dating app 'designed to be deleted', where you like a specific photo or answer on someone's profile instead of swiping.",
+    "category": "Dating",
+    "simpleSummary": "Hinge is a dating app for people who want a relationship, not just a match. Every profile has photos plus three short prompts, like 'My most irrational fear is...'. Instead of swiping, you like or comment on one specific thing, which makes starting a chat easy. It is owned by Match Group, the same company as Tinder, and it is the fastest-growing big dating app, making money from paid plans that show who likes you and give better placement.",
+    "keyNumbers": [
+      {
+        "label": "Revenue growth, Q3 2026",
+        "value": "About 19% year on year",
+        "note": "Match Group Q3 2026 earnings call."
+      },
+      {
+        "label": "Annual revenue",
+        "value": "About $650 million in 2025; on track for $1 billion in 2027",
+        "note": "2025 figure is our estimate from Match Group filings. The $1 billion 2027 target was repeated by management in November 2026."
+      },
+      {
+        "label": "Monthly active users growth, Q3 2026",
+        "value": "About 12% year on year",
+        "note": "Match Group Q3 2026 earnings call. Absolute users not disclosed."
+      },
+      {
+        "label": "Revenue per payer",
+        "value": "About $30 a month",
+        "note": "Match Group management comment, Q3 2026."
+      },
+      {
+        "label": "Payer penetration",
+        "value": "Just over half of Tinder's",
+        "note": "Match Group Q3 2026: a smaller share of Hinge users pay, leaving room to grow."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Hinge matches people looking for serious dating. Profiles combine six photos or videos with three written or voice prompts. Users send likes or comments on a specific part of a profile, which leads to better first messages and, Hinge says, more dates.",
+      "howItWorks": [
+        "Sign up, add six photos or videos, three prompts and details like religion, height and dating intentions.",
+        "Browse the Discover feed, one profile at a time.",
+        "Like or comment on a specific photo or prompt; the other person sees what you liked.",
+        "If they like you back, you match and chat.",
+        "Paid tiers, Hinge+ and HingeX, show everyone who liked you, unlimited likes and priority placement.",
+        "Roses are special likes used for 'Standouts', which are highly compatible profiles."
+      ],
+      "valueProposition": "Fewer but better matches, with real conversations, for people who want a relationship."
+    },
+    "personas": [
+      {
+        "name": "The relationship-minded professional",
+        "description": "A 29-year-old woman in London who wants a long-term partner and left Tinder because it felt casual.",
+        "goals": [
+          "Meet someone serious",
+          "Have real conversations quickly"
+        ],
+        "frustrations": [
+          "Matches that go quiet",
+          "Paying for HingeX to be seen"
+        ]
+      },
+      {
+        "name": "The early-career man",
+        "description": "A 27-year-old in New York who finds prompts help him show personality.",
+        "goals": [
+          "Get more likes back",
+          "Write prompts that stand out"
+        ],
+        "frustrations": [
+          "Daily free like limit is low",
+          "Feels he needs to pay to get noticed"
+        ]
+      },
+      {
+        "name": "The Indian NRI or returning graduate",
+        "description": "A 26-year-old who studied in the US and uses Hinge in a big city, filtering by religion and intentions.",
+        "goals": [
+          "Find someone with similar values",
+          "Avoid family pressure apps like matrimony sites"
+        ],
+        "frustrations": [
+          "Smaller user pool outside big cities",
+          "Filters behind the paywall"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Swiping apps feel shallow and lead to low-effort messages like 'hi'.",
+        "howSolved": "Liking a specific prompt or photo gives an easy, personal starting point.",
+        "severity": "high"
+      },
+      {
+        "pain": "Too many matches with no real conversation.",
+        "howSolved": "Daily like limits and 'Your Turn' reminders push people to reply instead of collecting matches.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to know if someone wants the same thing.",
+        "howSolved": "Profiles show dating intentions, such as 'long-term relationship'.",
+        "severity": "medium"
+      },
+      {
+        "pain": "People don't know how to write a good profile.",
+        "howSolved": "Prompt Feedback, an AI tool, suggests how to make answers more specific.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Searching for compatible people takes time.",
+        "howSolved": "Most Compatible and Standouts suggest people based on past likes.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Prompts",
+        "whatItDoes": "Three short questions answered in text or voice on every profile.",
+        "whyItMatters": "Shows personality and gives an easy way to start talking. It is Hinge's signature design."
+      },
+      {
+        "feature": "Likes and comments on specific content",
+        "whatItDoes": "You like one photo or prompt and can add a comment.",
+        "whyItMatters": "Leads to more replies than a blind swipe."
+      },
+      {
+        "feature": "Most Compatible and Standouts",
+        "whatItDoes": "Daily suggestions of highly compatible people; Standouts need a Rose to like.",
+        "whyItMatters": "Improves match quality and sells Roses."
+      },
+      {
+        "feature": "Hinge+ and HingeX",
+        "whatItDoes": "Paid plans: see all likes, unlimited likes, advanced filters; HingeX adds priority and skip-the-line.",
+        "whyItMatters": "Main source of revenue at about $30 per payer a month."
+      },
+      {
+        "feature": "Your Turn Limits and Match Note",
+        "whatItDoes": "Limits how many chats wait on you, and lets you leave a note when unmatching.",
+        "whyItMatters": "Reduces ghosting, where someone stops replying without warning."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First match",
+        "persona": "The relationship-minded professional",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Hears from friends that Hinge is for 'serious' dating."
+          },
+          {
+            "step": "Builds profile",
+            "detail": "Adds photos and picks prompts; uses AI feedback to improve one answer."
+          },
+          {
+            "step": "Sets intentions",
+            "detail": "Chooses 'long-term relationship'."
+          },
+          {
+            "step": "Likes a prompt",
+            "detail": "Comments on a man's answer about his favourite street food."
+          },
+          {
+            "step": "Matches",
+            "detail": "He likes her back and replies to the comment."
+          },
+          {
+            "step": "Moves to a date",
+            "detail": "They meet after a few days of chatting."
+          }
+        ]
+      },
+      {
+        "name": "Buying HingeX",
+        "persona": "The early-career man",
+        "steps": [
+          {
+            "step": "Hits like limit",
+            "detail": "Runs out of free daily likes."
+          },
+          {
+            "step": "Sees likes queue",
+            "detail": "Sees he has likes but cannot see them all."
+          },
+          {
+            "step": "Compares plans",
+            "detail": "Sees Hinge+ and HingeX with weekly, monthly and 3-month prices."
+          },
+          {
+            "step": "Buys HingeX",
+            "detail": "Pays for priority likes."
+          },
+          {
+            "step": "Gets more matches",
+            "detail": "Profile shown higher, gets replies."
+          },
+          {
+            "step": "Renews or deletes",
+            "detail": "If he meets someone, he deletes the app, which is the goal."
+          }
+        ]
+      },
+      {
+        "name": "Deleting the app after meeting someone",
+        "persona": "The relationship-minded professional",
+        "steps": [
+          {
+            "step": "Goes on several dates",
+            "detail": "Sees the same person over weeks."
+          },
+          {
+            "step": "Pauses profile",
+            "detail": "Hides her profile while exploring the relationship."
+          },
+          {
+            "step": "Answers feedback",
+            "detail": "Hinge asks 'We met?' to learn which matches turned into dates."
+          },
+          {
+            "step": "Deletes",
+            "detail": "Deletes the app, true to its 'designed to be deleted' line."
+          },
+          {
+            "step": "Recommends",
+            "detail": "Tells single friends, which brings new users."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Hinge makes money from paid plans, Hinge+ and HingeX, plus one-off purchases like Roses and Boosts. About $30 a month per payer. The goal of helping users leave sounds strange, but happy couples bring friends, and singles keep joining.",
+      "revenueStreams": [
+        {
+          "stream": "Subscriptions",
+          "detail": "Hinge+ and HingeX, bought weekly, monthly or for several months. Most of revenue."
+        },
+        {
+          "stream": "A la carte",
+          "detail": "Roses, Boosts and Super Boosts."
+        }
+      ],
+      "pricing": "Free to start. In the US, Hinge+ is often around $30 to $35 a month and HingeX around $50, with discounts for longer plans. Prices vary by market and are shown in-app.",
+      "costDrivers": [
+        "App store fees of up to 30%",
+        "Brand marketing in new countries",
+        "AI and engineering teams",
+        "Trust and safety"
+      ],
+      "unitEconomics": "One payer brings about $30 a month. Up to $9 can go to app stores. Running the app costs a little per user. A payer who stays 3 months brings about $60 to $65 after fees. Because users leave when they find someone, Hinge depends on steady new sign-ups and referrals, not long subscriptions."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth from couples who met on Hinge",
+        "Brand campaigns about being 'designed to be deleted'",
+        "Expansion into new countries in Europe and Latin America",
+        "Users switching from Tinder and Bumble"
+      ],
+      "whatBringsUsersBack": [
+        "Daily Most Compatible suggestions",
+        "New likes and comments",
+        "Your Turn reminders to reply",
+        "Fresh likes each day"
+      ],
+      "moat": "Hinge owns the 'serious dating' brand among young professionals. Its data on which matches lead to dates improves its suggestions. Being part of Match Group gives it money and know-how."
+    },
+    "competitors": [
+      {
+        "name": "Tinder",
+        "positioning": "Swipe app, casual image, largest pool.",
+        "howThisProductDiffers": "Hinge is slower, more personal and focused on relationships."
+      },
+      {
+        "name": "Bumble",
+        "positioning": "Women message first.",
+        "howThisProductDiffers": "Hinge lets anyone start, with prompts; Bumble is shrinking."
+      },
+      {
+        "name": "Aisle and matrimony sites",
+        "positioning": "Indian apps for serious relationships and marriage.",
+        "howThisProductDiffers": "Hinge is casual-serious and global; Aisle and Shaadi are more family and marriage focused."
+      },
+      {
+        "name": "The League and Raya",
+        "positioning": "Exclusive, invite-only dating.",
+        "howThisProductDiffers": "Hinge is open to everyone."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly number of matches that lead to a date (users confirming 'We met')",
+      "why": "Hinge promises to get you off the app. Dates are the clearest proof it is working."
+    },
+    "kpiTree": [
+      {
+        "metric": "Quality profiles",
+        "description": "Profiles good enough to get likes.",
+        "children": [
+          {
+            "metric": "Profile completion rate",
+            "description": "Share with 6 photos and 3 prompts."
+          },
+          {
+            "metric": "AI prompt feedback use",
+            "description": "More use means better prompts."
+          }
+        ]
+      },
+      {
+        "metric": "Match rate",
+        "description": "Share of likes that become matches.",
+        "children": [
+          {
+            "metric": "Like-back rate on Most Compatible",
+            "description": "Shows recommendation quality."
+          },
+          {
+            "metric": "Comment rate on likes",
+            "description": "Comments get more replies."
+          }
+        ]
+      },
+      {
+        "metric": "Conversations",
+        "description": "Matches that become real chats.",
+        "children": [
+          {
+            "metric": "First-reply rate",
+            "description": "Share of matches that get a reply."
+          },
+          {
+            "metric": "Ghosting rate",
+            "description": "Share of chats that stop without warning."
+          }
+        ]
+      },
+      {
+        "metric": "Dates",
+        "description": "Matches that meet in person.",
+        "children": [
+          {
+            "metric": "'We met' confirmations",
+            "description": "Direct signal of value."
+          },
+          {
+            "metric": "Second-date rate",
+            "description": "Shows match quality."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Scam and safety reports",
+      "Revenue per payer",
+      "Share of women users",
+      "App store rating"
+    ],
+    "strengths": [
+      "Fastest-growing major dating app: revenue up about 19% in Q3 2026",
+      "Clear brand for serious dating",
+      "Prompts produce better conversations",
+      "Room to grow paying users, as payer share is only about half of Tinder's"
+    ],
+    "weaknesses": [
+      "Business goal of users leaving means constant need for new users",
+      "Smaller user pool outside big cities",
+      "Increasing paywall frustrates users"
+    ],
+    "risks": [
+      "Gen Z moving away from dating apps",
+      "App store fee increases from 2027",
+      "Competition from AI dating apps",
+      "Copycats adding prompts"
+    ],
+    "userComplaints": [
+      "Too expensive for HingeX",
+      "Feeling invisible without paying",
+      "Matches that ghost",
+      "Fewer profiles in small towns",
+      "Fake profiles"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "After a chat passes 20 messages, suggest a date with two nearby venues and a one-tap 'Want to meet?' card",
+        "problem": "Many good chats stall before anyone suggests meeting, which breaks Hinge's 'designed to be deleted' promise.",
+        "expectedImpact": "More chats turn into dates, and happy users bring friends.",
+        "metricToTrack": "'We met' confirmations per 100 matches",
+        "effort": "medium"
+      },
+      {
+        "idea": "Give every free user one Rose a week to send to a Standout",
+        "problem": "Free users complain they feel invisible unless they pay for HingeX.",
+        "expectedImpact": "More matches for free users, better retention, and a taste of paid features that can lift upgrades.",
+        "metricToTrack": "Day-30 retention of free users and Hinge+ conversion",
+        "effort": "low"
+      },
+      {
+        "idea": "Launch in Delhi, Mumbai and Bengaluru with college and workplace campaigns and filters for religion, language and family plans",
+        "problem": "Indian users report a small pool outside a few metros, so matches dry up.",
+        "expectedImpact": "A bigger local pool and more matches per user in India.",
+        "metricToTrack": "Monthly active users and matches per user in Indian metros",
+        "effort": "high"
+      },
+      {
+        "idea": "Nudge users to close or reply to chats older than 3 days, with a ready-made Match Note",
+        "problem": "Ghosting is a top complaint and makes people leave dating apps.",
+        "expectedImpact": "Fewer dead chats and more replies.",
+        "metricToTrack": "Ghosting rate (chats with no reply after 72 hours)",
+        "effort": "low"
+      },
+      {
+        "idea": "Free safety check: require a video selfie before sending a comment",
+        "problem": "Fake profiles and scams reduce trust, especially for women.",
+        "expectedImpact": "Fewer scam reports and more women staying active.",
+        "metricToTrack": "Scam reports per 1,000 users and women's retention",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A strong promise, 'designed to be deleted', can build trust and growth.",
+      "Small design choices, like liking a specific prompt, change user behaviour.",
+      "Measuring real-world outcomes like dates keeps the team focused on value."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Hinge wants users to delete it. How can it still grow revenue to $1 billion?",
+        "hint": "Break revenue into new users x payer share x revenue per payer x months paid. Show how referrals from couples, new countries and short weekly plans fill the funnel even when users leave."
+      },
+      {
+        "question": "What should Hinge's north star metric be?",
+        "hint": "Pick dates (confirmed through 'We met'), not matches or likes. Explain why, then break it into profile quality, match rate, conversations and dates, with a guardrail on safety."
+      },
+      {
+        "question": "How would you reduce ghosting on Hinge?",
+        "hint": "Define ghosting with a number, find causes (too many chats, low interest), test changes to Your Turn Limits or nudges, and track reply rates plus a guardrail on time spent."
+      },
+      {
+        "question": "Should Hinge launch a big push in India?",
+        "hint": "Size the market of urban singles, look at culture and competitors like Aisle and matrimony sites, decide pricing in rupees, and pick a launch metric such as matches per user in the first city."
+      },
+      {
+        "question": "How would you test whether prompts beat photos for starting conversations?",
+        "hint": "Compare reply rate and date rate for likes on prompts vs likes on photos, control for profile quality, and run an A/B test on prompt placement."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "North star metric",
+        "meaning": "The main number that shows real value for users."
+      },
+      {
+        "term": "Ghosting",
+        "meaning": "When someone stops replying without warning."
+      },
+      {
+        "term": "Payer penetration",
+        "meaning": "The share of users who pay."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the app."
+      },
+      {
+        "term": "A/B test",
+        "meaning": "An experiment that shows two versions to similar users to see which works better."
+      },
+      {
+        "term": "Funnel",
+        "meaning": "The steps users go through, from sign-up to paying, where some drop off at each step."
+      }
+    ],
+    "assumptions": [
+      "2025 revenue of about $650 million is an estimate.",
+      "Prices are typical and vary by market.",
+      "Expansion details are based on past company statements."
+    ]
+  }
+}

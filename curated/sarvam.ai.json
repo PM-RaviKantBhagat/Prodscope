@@ -1,0 +1,265 @@
+{
+  "company": "Sarvam AI",
+  "domain": "sarvam.ai",
+  "website": "https://sarvam.ai",
+  "sources": [
+    "https://www.sarvam.ai/announcing-series-b",
+    "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+    "https://analyticsindiamag.com/ai-news/sarvam-ai-takes-aim-at-every-layer-of-the-ai-stack",
+    "https://www.businesstoday.in/tech-today/story/sarvam-ai-launches-30b-and-105b-open-source-models-516729-2026-02-18",
+    "https://www.businesstoday.in/magazine/cover-story/story/the-sarvam-moment-520734-2026-03-16"
+  ],
+  "report": {
+    "company": "Sarvam AI",
+    "tagline": "An Indian AI company that builds language and voice models for Indian languages and sells them to businesses and government.",
+    "category": "AI (Indic LLMs)",
+    "simpleSummary": "Sarvam builds AI that understands and speaks Hindi, Tamil, Bengali and other Indian languages. Banks and insurers use its voice bots to call crores of customers in their own language. Developers pay to use its models through an API. It also has a free chat app called Indus, like a home-grown ChatGPT.",
+    "keyNumbers": [
+      { "label": "Series B funding", "value": "$234 million first close of a $300 million round", "note": "Sarvam blog, 2026. Led by HCLTech with $150 million; Bessemer, Khosla and Peak XV also in." },
+      { "label": "Valuation", "value": "$1.5 billion", "note": "Post-money valuation at Series B, company announcement." },
+      { "label": "API calls per day", "value": "10 million+", "note": "Company-reported, 2026." },
+      { "label": "Voice agent minutes processed", "value": "325 million+", "note": "Company-reported at Epoch conference, July 2026." },
+      { "label": "Customers", "value": "500+ enterprises, startups and organisations", "note": "Company-reported, July 2026. Revenue is not public." },
+      { "label": "GPUs", "value": "About 2,000 NVIDIA Blackwell, planned 10,000", "note": "Reported by Analytics India Magazine, 2026." }
+    ],
+    "overview": {
+      "whatItDoes": "Sarvam trains its own large AI models (Sarvam-30B and Sarvam-105B) and speech models that work well in Indian languages. It sells these to businesses as voice agents, document reading tools and an API. It also runs Indus, a consumer chat app. Its pitch is 'sovereign AI', meaning AI built and run in India that Indian firms and government can control.",
+      "howItWorks": [
+        "Sarvam trains models on Indian-language text and speech using its own GPUs in India.",
+        "Developers call the models through an API and pay per use.",
+        "Enterprises use ready products: voice agents for sales and support calls, Sarvam Vision for reading documents, and work agents for internal tasks.",
+        "Sarvam's own engineers work inside big clients to set up these tools (forward-deployed work).",
+        "Consumers use the Indus app to chat by typing or speaking in their language.",
+        "Some models are open source, so anyone can download and run them."
+      ],
+      "valueProposition": "For Indian businesses and government: AI that speaks the customer's language, keeps data inside India and costs less than foreign AI. For users: an assistant that understands how Indians actually talk, including mixed Hindi-English."
+    },
+    "personas": [
+      {
+        "name": "Bank or insurer head of customer operations",
+        "description": "Runs call centres that contact crores of customers for renewals, payments and support.",
+        "goals": ["Reach customers in their language", "Cut call centre cost", "Keep data in India"],
+        "frustrations": ["Human agents are costly", "Foreign AI handles Indian languages poorly", "Compliance worries"]
+      },
+      {
+        "name": "Indian startup developer",
+        "description": "Builds a vernacular app and needs speech-to-text and text-to-speech.",
+        "goals": ["Good accuracy in Hindi and Tamil", "Low price per call", "Easy API"],
+        "frustrations": ["Global models mispronounce Indian names", "Costs in dollars", "Slow responses"]
+      },
+      {
+        "name": "Government department",
+        "description": "A ministry or state that wants to reach farmers or digitise records.",
+        "goals": ["Reach rural citizens by voice", "Read handwritten land records", "Sovereign control of AI"],
+        "frustrations": ["Low literacy limits apps", "Old paper records", "Rules on data leaving India"]
+      },
+      {
+        "name": "Everyday non-English user",
+        "description": "A shop owner in Lucknow who is more comfortable speaking Hindi than typing English.",
+        "goals": ["Ask questions by voice", "Get answers in Hindi", "Free to use"],
+        "frustrations": ["ChatGPT replies feel foreign", "Typing in Hindi is hard", "Waitlists and slow replies"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Most AI models work best in English and struggle with Indian languages and accents.", "howSolved": "Models trained on Indian languages, including speech models Saaras (listening) and Bulbul (speaking).", "severity": "high" },
+      { "pain": "Calling crores of customers with humans is very expensive.", "howSolved": "Voice agents that call in local languages, like a campaign to 4.5 crore policyholders.", "severity": "high" },
+      { "pain": "Banks and government can't send sensitive data abroad.", "howSolved": "Models hosted in India, and open models that clients can run themselves.", "severity": "high" },
+      { "pain": "Paper and handwritten records can't be searched.", "howSolved": "Sarvam Vision reads Indian-language documents; 3.5 crore+ pages digitised.", "severity": "medium" },
+      { "pain": "Foreign AI costs a lot in dollars.", "howSolved": "Pricing set to undercut international providers.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Voice agents", "whatItDoes": "AI that makes and takes phone calls in Indian languages.", "whyItMatters": "Biggest paid use so far, replacing call centre work for banks, insurers and government." },
+      { "feature": "Sarvam-105B and 30B models", "whatItDoes": "Large language models for reasoning and chat, built in India. The 30B runs on smaller hardware.", "whyItMatters": "Proves Sarvam can build its own models, which matters for the sovereign AI pitch and government deals." },
+      { "feature": "Speech models (Saaras, Bulbul)", "whatItDoes": "Convert speech to text and text to natural speech in many Indian languages.", "whyItMatters": "Voice is how many Indians prefer to use tech. This is Sarvam's strongest edge." },
+      { "feature": "Sarvam Vision", "whatItDoes": "Reads printed and handwritten Indian-language documents.", "whyItMatters": "Opens government and bank digitisation projects." },
+      { "feature": "Indus app", "whatItDoes": "Free chat app on Android, iOS and web, with voice input and output.", "whyItMatters": "Builds brand and gets real user feedback, though it is not a big earner." },
+      { "feature": "Developer API and inference platform", "whatItDoes": "Pay-as-you-go access to Sarvam and other open models, hosted in India.", "whyItMatters": "Brings in many small customers and steady usage revenue." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Insurer launches a renewal voice campaign",
+        "persona": "Bank or insurer head of customer operations",
+        "steps": [
+          { "step": "Pilot", "detail": "Sarvam team sets up a test with a few thousand customers." },
+          { "step": "Script and languages", "detail": "Picks languages by state and writes what the bot should say." },
+          { "step": "Connect systems", "detail": "Links the bot to policy data and payment links." },
+          { "step": "Run calls", "detail": "Bot calls customers, answers questions and sends payment links." },
+          { "step": "Hand over", "detail": "Hard cases go to a human agent." },
+          { "step": "Measure", "detail": "Compares renewals and cost per call with human agents." },
+          { "step": "Scale", "detail": "Rolls out to crores of customers and signs a bigger contract." }
+        ]
+      },
+      {
+        "name": "Developer adds Hindi voice to an app",
+        "persona": "Indian startup developer",
+        "steps": [
+          { "step": "Sign up", "detail": "Creates an account on the Sarvam developer platform." },
+          { "step": "Try in playground", "detail": "Tests speech-to-text on sample audio." },
+          { "step": "Get API key", "detail": "Adds credits and gets a key." },
+          { "step": "Build", "detail": "Calls the API from the app." },
+          { "step": "Launch and pay", "detail": "Pays per minute or per call as usage grows." }
+        ]
+      },
+      {
+        "name": "Asking Indus a question",
+        "persona": "Everyday non-English user",
+        "steps": [
+          { "step": "Download", "detail": "Installs Indus from the Play Store." },
+          { "step": "Sign in", "detail": "Uses phone number or Google." },
+          { "step": "Wait", "detail": "May hit a waitlist because compute is limited." },
+          { "step": "Speak", "detail": "Asks a question in Hindi by voice." },
+          { "step": "Listen", "detail": "Gets a spoken or written reply in Hindi." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Sarvam makes money mostly from businesses and government. It charges enterprises for voice agents and custom AI projects, charges developers per API use, and earns from hosting models for others. The Indus app is free.",
+      "revenueStreams": [
+        { "stream": "Enterprise contracts", "detail": "Banks, insurers and fintechs pay for voice agents, sales tools and work agents, often with setup help." },
+        { "stream": "Government projects", "detail": "Ministries and states pay for voice outreach and document digitisation." },
+        { "stream": "API and inference", "detail": "Developers pay per call, per minute of audio or per amount of text." },
+        { "stream": "Fine-tuning service", "detail": "Firms pay to train models on their own data." }
+      ],
+      "pricing": "Pay-as-you-go API pricing in rupees on the developer platform, said to be lower than global rivals. Enterprise and government pricing is not public. Indus is free.",
+      "costDrivers": [
+        "GPUs and electricity to train and run models (moving from 2,000 to 10,000 GPUs)",
+        "Top AI researchers and engineers, often paid global salaries",
+        "Engineers placed inside client companies",
+        "Data collection for Indian languages",
+        "Free Indus usage"
+      ],
+      "unitEconomics": "Think of one voice call. A human agent call in India may cost ₹10 to ₹20 once salary and office costs are added. If Sarvam's bot handles a 2-minute call for a few rupees, the client saves money and Sarvam keeps the gap between its price and its GPU cost. The catch is training: building a new big model costs crores of rupees up front, and that only pays off if many clients use it. These numbers are estimates; Sarvam does not publish prices per client or revenue."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Big government launches, like models unveiled at the India AI Impact Summit",
+        "Strategic investor HCLTech bringing enterprise clients",
+        "Open-source models that developers try for free",
+        "Case studies from big clients, like the farmer outreach for the Agriculture Ministry",
+        "Partnerships such as HMD (Nokia feature phones) and Bosch (cars)"
+      ],
+      "whatBringsUsersBack": [
+        "Voice agents get built into a client's daily operations",
+        "APIs become part of a developer's app",
+        "Fine-tuned models on a client's own data are hard to move",
+        "New model upgrades like Bulbul v4"
+      ],
+      "moat": "Deep focus on Indian languages and voice, data and compute inside India, and close ties with government and big Indian firms. Global AI firms can match model quality, but trust on data, local language quality and on-site teams take years to build."
+    },
+    "competitors": [
+      { "name": "OpenAI (ChatGPT)", "positioning": "Global leader with 10 crore+ weekly users in India and cheap India plans.", "howThisProductDiffers": "Sarvam is weaker on general model strength but stronger on Indian voice, local hosting and government trust." },
+      { "name": "Google Gemini", "positioning": "Built into Android and Google apps with strong Indian language support.", "howThisProductDiffers": "Google has distribution; Sarvam offers India-run, customisable models for regulated firms." },
+      { "name": "Krutrim (Ola)", "positioning": "Another Indian AI company with its own models and cloud.", "howThisProductDiffers": "Sarvam has more enterprise voice traction and a big enterprise-focused investor." },
+      { "name": "Voice bot startups (e.g. Gnani.ai, Uniphore)", "positioning": "Call centre automation specialists.", "howThisProductDiffers": "Sarvam owns the base models, so it can improve quality and cost across products." }
+    ],
+    "northStar": {
+      "metric": "Minutes of successful Indian-language AI conversations per month (calls or chats that finish the user's task)",
+      "why": "It counts real value delivered to people speaking their own language, and it grows only when clients trust Sarvam with live customers."
+    },
+    "kpiTree": [
+      {
+        "metric": "Enterprise adoption",
+        "description": "More clients running live voice and agent workflows.",
+        "children": [
+          { "metric": "Pilots turned into paid contracts", "description": "Shows the product works beyond demos." },
+          { "metric": "Live campaigns per client", "description": "Shows spread inside each client." },
+          { "metric": "Time from pilot to launch", "description": "Faster launches mean less setup cost." }
+        ]
+      },
+      {
+        "metric": "Conversation quality",
+        "description": "Calls that finish the task without a human.",
+        "children": [
+          { "metric": "Task completion rate", "description": "Share of calls that end in payment, renewal or answer." },
+          { "metric": "Speech recognition error rate by language", "description": "Lower errors mean fewer failed calls." },
+          { "metric": "Human handover rate", "description": "Lower is better if satisfaction holds." }
+        ]
+      },
+      {
+        "metric": "Developer usage",
+        "description": "API calls from startups and builders.",
+        "children": [
+          { "metric": "New paying developers", "description": "Breadth of the base." },
+          { "metric": "API calls per day", "description": "Now 1 crore+." },
+          { "metric": "Response time", "description": "Slow APIs push developers away." }
+        ]
+      },
+      {
+        "metric": "Cost per minute",
+        "description": "Cheaper serving lets Sarvam win on price and still make money.",
+        "children": [
+          { "metric": "GPU use rate", "description": "Idle GPUs waste money." },
+          { "metric": "Model size per task", "description": "Using smaller models like 30B where enough." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Wrong or harmful answers reported by clients",
+      "Data security incidents",
+      "Gross margin on API and voice products",
+      "Cash burn per month"
+    ],
+    "strengths": [
+      "Best-known Indian AI brand with strong government ties",
+      "Real paid use in voice for banks, insurers and ministries",
+      "Own models trained in India, some open source",
+      "Large funding and a strategic investor (HCLTech) that sells to enterprises"
+    ],
+    "weaknesses": [
+      "Revenue not public and likely small compared to its spending",
+      "General model quality behind OpenAI, Google and Anthropic",
+      "Indus has waitlists and limited compute",
+      "Heavy custom work per client is slow to scale"
+    ],
+    "risks": [
+      "Global AI firms keep cutting prices and adding Indian languages",
+      "Training a 1-trillion-parameter model is very costly and may not pay off",
+      "Dependence on government contracts and policy",
+      "GPU supply and cost"
+    ],
+    "userComplaints": [
+      "Indus app waitlist and slow replies due to limited compute",
+      "Chat history can't be deleted without deleting the account",
+      "Answers less accurate than ChatGPT on general questions",
+      "Developers want clearer, stable pricing and docs"
+    ],
+    "improvementIdeas": [
+      { "idea": "Self-serve voice agent builder with templates for EMI reminders and renewals", "problem": "Custom setup for each client is slow and costly", "expectedImpact": "More mid-size clients without extra engineers", "metricToTrack": "Self-serve voice agents launched per month", "effort": "medium" },
+      { "idea": "Public language-wise quality scorecard updated monthly", "problem": "Clients doubt if Sarvam beats global models in their language", "expectedImpact": "Faster sales and more trust", "metricToTrack": "Pilot to paid conversion", "effort": "low" },
+      { "idea": "Indus on WhatsApp and feature phones via voice call", "problem": "Many target users won't install a new app", "expectedImpact": "Reach crores of non-English users cheaply", "metricToTrack": "Weekly active Indus users outside top 10 cities", "effort": "high" },
+      { "idea": "Let Indus users delete chats and control data", "problem": "Privacy complaints", "expectedImpact": "Higher trust and retention", "metricToTrack": "30-day retention of Indus users", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Pick a niche giants underserve. Sarvam won with Indian voice and local data, not by trying to beat ChatGPT at everything.",
+      "In B2B AI, the first sale often needs engineers on site. Turning that into a self-serve product is how it scales.",
+      "A consumer app can be a showcase, not the main business.",
+      "Trust (data in India, open models) can be a product feature for regulated customers.",
+      "Compute cost decides AI pricing. Using the smallest model that works protects margin."
+    ],
+    "interviewQuestions": [
+      { "question": "Should Sarvam focus on Indus (consumers) or enterprises?", "hint": "Compare revenue, cost of free users and competition with ChatGPT. Argue enterprise first, keep Indus as a feedback and brand tool." },
+      { "question": "How would you measure if a voice agent for an insurer is working?", "hint": "Task completion, renewal rate versus humans, cost per call, complaints and handover rate." },
+      { "question": "How would you price Sarvam's speech API?", "hint": "Per minute, in rupees, tiered by volume. Anchor below global rivals and above GPU cost. Offer free credits to start." },
+      { "question": "Global AI firms now support Hindi. How does Sarvam stay relevant?", "hint": "Go deeper: dialects, code-mixed speech, phone audio, data residency, on-site support and government trust." },
+      { "question": "Design a product for farmers using Sarvam's tech.", "hint": "Voice-first by phone call, local language, mandi prices and weather, works on feature phones. Measure repeat calls and actions taken." }
+    ],
+    "glossary": [
+      { "term": "LLM", "meaning": "Large language model: an AI trained on huge amounts of text to read and write like a person." },
+      { "term": "API", "meaning": "A way for one piece of software to use another's features through code." },
+      { "term": "Sovereign AI", "meaning": "AI that a country builds, hosts and controls itself, so data stays inside it." },
+      { "term": "Open source", "meaning": "Software or models anyone can download, use and change for free." },
+      { "term": "Inference", "meaning": "Running a trained AI model to answer a question, which costs computing power each time." },
+      { "term": "Fine-tuning", "meaning": "Training an existing model further on a company's own data so it fits their needs." },
+      { "term": "Forward-deployed", "meaning": "Engineers who work inside a client's team to set up and adapt the product." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Gross margin", "meaning": "What is left from revenue after paying the direct cost of serving it, like GPUs." },
+      { "term": "Retention", "meaning": "Keeping users coming back over time." }
+    ],
+    "assumptions": [
+      "Revenue and per-client pricing are not public; unit economics use estimated call costs.",
+      "The split of revenue between private and government clients is based on a company comment that most comes from the private sector.",
+      "Indus usage figures were not found, so its impact is judged from launch coverage.",
+      "Competitor positions are based on public news, not market share data."
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "company": "Shein",
+  "domain": "shein.com",
+  "website": "https://shein.com",
+  "sources": [
+    "https://insideretail.com.au/business/a-us99m-loss-a-e3-toll-and-a-valuation-halved-inside-sheins-filing-202607",
+    "https://www.upi.com/Top_News/World-News/2026/09/01/Hong-Kong-shein-shares-flat-after-IPO/9721788259285/",
+    "https://ouispeakfashion.com/shein-hong-kong-ipo-raises-1-74-billion",
+    "https://kr-asia.com/sheins-ipo-case-rests-on-the-technology-behind-its-fashion-business",
+    "https://techcrunch.com/?p=2958249",
+    "https://www.scmp.com/business/banking-finance/article/3361931/fast-fashion-giant-shein-swings-us99m-first-quarter-loss-ahead-hong-kong-listing"
+  ],
+  "report": {
+    "company": "Shein",
+    "tagline": "An online fast-fashion store that makes thousands of new, very cheap styles every day and only scales up the ones that sell.",
+    "category": "Fast fashion",
+    "simpleSummary": "Shein is a clothing app with a huge range of cheap, trendy clothes, often under $15. It adds thousands of new items every day. It first makes just a small batch of each item, watches what people click and buy, and then makes more of the hits. In India it came back in 2025 through a separate app run by Reliance.",
+    "keyNumbers": [
+      { "label": "Revenue, 2025", "value": "$41.85 billion", "note": "Shein Hong Kong IPO filing via Inside Retail. Up 8%, slower than 20.7% in 2024." },
+      { "label": "Net profit, 2025", "value": "$2.06 billion", "note": "IPO filing. Down 38.7% as tariffs and duties bit." },
+      { "label": "Q1 2026 result", "value": "$99 million loss on $9.05 billion revenue", "note": "IPO filing. Revenue up only 1.1%. US revenue fell 14.3%." },
+      { "label": "Active customers", "value": "About 273 million", "note": "IPO filing, across about 160 markets; over 1 billion orders in 2025." },
+      { "label": "IPO valuation", "value": "About $26.5 billion", "note": "Hong Kong listing, 1 September 2026, raising about $1.74 billion. Down from a $100 billion private valuation in 2022." }
+    ],
+    "overview": {
+      "whatItDoes": "Shein designs and sells cheap fashion, beauty and home goods online, shipped mostly from China. Its key idea is the test-and-reorder supply chain: make 100 to 200 pieces of a new design, put it online, and only reorder if data shows it sells. It also runs a marketplace where other brands and sellers list products.",
+      "howItWorks": [
+        "Designers and AI tools spot trends from search and social media, then send designs to thousands of small partner factories, mostly around Guangzhou.",
+        "Each new item is made in a tiny first batch, often 100 to 200 units, ready in about 7 to 10 days.",
+        "Shein lists thousands of new items a day. The app tracks clicks, saves and purchases for each one.",
+        "Hits are reordered fast in bigger batches; flops stop. This keeps unsold stock very low.",
+        "Orders ship from central warehouses in China (over 90% of 2025 revenue), and increasingly from local warehouses and marketplace sellers.",
+        "In India, Shein licences its brand and tech to Reliance Retail, which runs the 'Shein India Fast Fashion' app with Indian-made stock and data stored in India."
+      ],
+      "valueProposition": "The latest styles at very low prices, with endless new choice every day."
+    },
+    "personas": [
+      {
+        "name": "Trend-led young woman",
+        "description": "17 to 25, follows TikTok and Instagram trends, wants new outfits often.",
+        "goals": ["Look on-trend for little money", "Lots of choice", "Outfits for events and photos"],
+        "frustrations": ["Sizing that varies by item", "Fabric quality", "Guilt about waste"]
+      },
+      {
+        "name": "Budget family shopper",
+        "description": "Buys kids' clothes, home items and basics.",
+        "goals": ["Cheap basics", "Free shipping over a threshold"],
+        "frustrations": ["Slow delivery", "Return hassle"]
+      },
+      {
+        "name": "Indian tier-2 city shopper",
+        "description": "Uses the Reliance-run Shein India app, prices around ₹300 to ₹1,000.",
+        "goals": ["Global styles at Indian prices", "Fast local delivery"],
+        "frustrations": ["Smaller range than the global app", "Competition from Myntra and Meesho deals"]
+      },
+      {
+        "name": "Marketplace seller",
+        "description": "Brand or factory selling through Shein's marketplace.",
+        "goals": ["Access to Shein's huge audience", "Low fees"],
+        "frustrations": ["Price pressure", "Strict quality rules"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Trendy clothes in shops are expensive and slow to arrive.", "howSolved": "New styles go from idea to sale in about 2 weeks at very low prices.", "severity": "high" },
+      { "pain": "Stores have limited sizes and choice.", "howSolved": "Hundreds of thousands of items online in many sizes, including plus sizes.", "severity": "medium" },
+      { "pain": "Brands lose money on unsold stock and pass it on in prices.", "howSolved": "Small test batches mean little waste and lower prices.", "severity": "high" },
+      { "pain": "Shoppers do not know how an item fits.", "howSolved": "Customer photos, size reviews and fit feedback on each item.", "severity": "medium" },
+      { "pain": "Small factories cannot reach global buyers.", "howSolved": "Shein sends them orders and handles sales and shipping.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Test-and-reorder supply chain", "whatItDoes": "Make small batches, measure demand, reorder winners.", "whyItMatters": "Low unsold stock lets Shein price low and still profit." },
+      { "feature": "Daily new arrivals", "whatItDoes": "Thousands of new items added every day.", "whyItMatters": "Gives users a reason to open the app daily." },
+      { "feature": "Review photos and fit data", "whatItDoes": "Shoppers post photos with height, weight and size worn, earning points.", "whyItMatters": "Reduces wrong-size orders and returns." },
+      { "feature": "Points and coupons", "whatItDoes": "Points for reviews, check-ins and purchases, spent as discounts.", "whyItMatters": "Brings users back and fills the review system." },
+      { "feature": "Shein Marketplace", "whatItDoes": "Outside sellers list fashion, beauty and home goods.", "whyItMatters": "Expands range and shifts stock risk to sellers." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First haul",
+        "persona": "Trend-led young woman",
+        "steps": [
+          { "step": "Discover", "detail": "Sees a Shein haul video on TikTok with a discount code." },
+          { "step": "Install", "detail": "Gets a first-order discount in the app." },
+          { "step": "Browse", "detail": "Filters new arrivals by style and price, saves items to a wishlist." },
+          { "step": "Check fit", "detail": "Reads reviews with photos from people of a similar size." },
+          { "step": "Checkout", "detail": "Adds items to cross the free shipping threshold." },
+          { "step": "Unbox", "detail": "Order arrives in 7 to 14 days; posts her own haul video." }
+        ]
+      },
+      {
+        "name": "Weekly browse",
+        "persona": "Trend-led young woman",
+        "steps": [
+          { "step": "Check in", "detail": "Opens the app for daily points." },
+          { "step": "New arrivals", "detail": "Scrolls today's new items." },
+          { "step": "Flash sale", "detail": "Buys a top during a timed sale." },
+          { "step": "Review", "detail": "Posts a photo review to earn points." },
+          { "step": "Use points", "detail": "Spends points on the next order." }
+        ]
+      },
+      {
+        "name": "Shopping on Shein India",
+        "persona": "Indian tier-2 city shopper",
+        "steps": [
+          { "step": "Install", "detail": "Downloads the Shein India Fast Fashion app run by Reliance." },
+          { "step": "Browse", "detail": "Sees dresses at ₹399 to ₹899." },
+          { "step": "Pay", "detail": "Pays by UPI or cash on delivery." },
+          { "step": "Delivery", "detail": "Gets delivery in a few days from Indian warehouses." },
+          { "step": "Return", "detail": "Uses doorstep pickup for returns." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Shein makes money by selling its own clothes at a markup, kept low by small batches and almost no unsold stock. It also takes commissions from marketplace sellers. Profit fell in 2025 because tariffs and the end of duty-free small parcels raised costs.",
+      "revenueStreams": [
+        { "stream": "Own-brand sales", "detail": "Most revenue comes from Shein-designed items sold at a markup." },
+        { "stream": "Marketplace commissions", "detail": "A cut of sales by outside sellers; Shein is moving toward this model to reduce stock risk." },
+        { "stream": "Licensing in India", "detail": "Reliance Retail pays Shein to use its brand and tech for the India app." }
+      ],
+      "pricing": "Most items between about $5 and $30 in the US, or £5 to £25 in the UK. Free shipping above a basket threshold. In India, most items are ₹300 to ₹1,500 on the Reliance app.",
+      "costDrivers": [
+        "Cost of goods from partner factories",
+        "International air freight",
+        "Import duties after the US ended de minimis and the EU began a €3 per-parcel charge",
+        "Marketing on social media and influencers",
+        "Returns handling"
+      ],
+      "unitEconomics": "On a $60 US order of four items, Shein might pay factories about $25 and spend about $10 to $12 on shipping and duties now that small parcels pay tariffs. Marketing and payment add $10 or so. That leaves roughly $10 or less before returns and overhead. 2025 net margin was about 5% ($2.06 billion on $41.85 billion), down from about 9% in 2024, which shows how duties squeezed each order."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Influencer and haul videos on TikTok, Instagram and YouTube",
+        "Paid ads on social media and Google",
+        "First-order discounts and referral codes",
+        "Entering new markets, including India's return through Reliance in 2025"
+      ],
+      "whatBringsUsersBack": [
+        "Thousands of new items every day",
+        "Daily check-in points",
+        "Flash sales and coupons",
+        "Wishlists and price-drop alerts"
+      ],
+      "moat": "Shein's real asset is its network of thousands of small factories linked to its software. It can turn a trend into a product in days and make only what sells. Rivals have tried to copy it but find it hard to build this speed and data loop."
+    },
+    "competitors": [
+      { "name": "Temu", "positioning": "Everything store with factory-direct prices.", "howThisProductDiffers": "Shein is fashion-first with its own designs and a test-and-reorder system." },
+      { "name": "Zara (Inditex)", "positioning": "Fast fashion with stores and higher prices.", "howThisProductDiffers": "Shein is far cheaper with more styles, but lower quality and no stores." },
+      { "name": "H&M", "positioning": "Global high street fast fashion.", "howThisProductDiffers": "Shein updates faster and is online-only." },
+      { "name": "Myntra and Meesho (India)", "positioning": "Indian fashion and low-price marketplaces.", "howThisProductDiffers": "Shein India brings global trend speed; Myntra has more brands and Meesho lower prices." },
+      { "name": "Vinted and Depop", "positioning": "Second-hand fashion.", "howThisProductDiffers": "Shein sells new items; resale wins with eco-minded shoppers." }
+    ],
+    "northStar": {
+      "metric": "Number of items kept (not returned) per active customer per month",
+      "why": "Kept items show that customers found clothes they liked at a price that worked. Returns cost money and show the item failed. It ties trend accuracy, fit and price together."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active customers",
+        "description": "People who bought in the last 12 months.",
+        "children": [
+          { "metric": "New customers per month", "description": "From ads, influencers and referrals." },
+          { "metric": "Cost to acquire a customer", "description": "Ad spend per new buyer." },
+          { "metric": "12-month retention", "description": "Share who buy again within a year." }
+        ]
+      },
+      {
+        "metric": "Orders per customer",
+        "description": "How often a customer buys.",
+        "children": [
+          { "metric": "Daily app opens", "description": "Driven by new arrivals and check-ins." },
+          { "metric": "Wishlist to purchase rate", "description": "How often saved items get bought." }
+        ]
+      },
+      {
+        "metric": "Keep rate",
+        "description": "Share of items not returned.",
+        "children": [
+          { "metric": "Size-related return rate", "description": "Returns because of wrong fit." },
+          { "metric": "Quality complaint rate", "description": "Complaints about fabric or stitching." },
+          { "metric": "Reviews with photos per item", "description": "More fit data, fewer wrong orders." }
+        ]
+      },
+      {
+        "metric": "Hit rate of new items",
+        "description": "Share of new designs that get reordered.",
+        "children": [
+          { "metric": "Time from design to listing", "description": "Faster means fresher trends." },
+          { "metric": "Sell-through of first batch", "description": "Share of test batch sold within 2 weeks." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Supplier compliance audit pass rate (labour and safety)",
+      "Gross margin per order after duties",
+      "Product safety recalls and regulatory warnings",
+      "Delivery time"
+    ],
+    "strengths": [
+      "Fastest and most data-driven fashion supply chain",
+      "Very low prices with low unsold stock",
+      "Huge global customer base of about 273 million",
+      "Strong social media presence with young shoppers"
+    ],
+    "weaknesses": [
+      "Growth has nearly stopped: 1.1% in Q1 2026",
+      "US revenue falling after tariffs",
+      "Most stock still ships from China, exposing it to duties",
+      "Reputation problems on labour, design copying and environment",
+      "Inconsistent quality and sizing"
+    ],
+    "risks": [
+      "More tariffs and import duties in the US and EU",
+      "EU rules on textile waste and possible fast-fashion levies, such as France's proposed law",
+      "Lawsuits over copied designs",
+      "Forced labour concerns, including cotton sourcing",
+      "Temu and TikTok Shop competing for the same young, price-led buyers"
+    ],
+    "userComplaints": [
+      "Clothes look different from photos or wear out after a few washes",
+      "Sizing is inconsistent between items",
+      "Long delivery times",
+      "Returns can be slow or costly in some markets",
+      "Worries about chemicals in products after media tests"
+    ],
+    "improvementIdeas": [
+      { "idea": "Personal fit profile that recommends a size per item using your past keeps and returns.", "problem": "Sizing differs by item, driving returns.", "expectedImpact": "Lower return rate and higher satisfaction.", "metricToTrack": "Size-related return rate", "effort": "medium" },
+      { "idea": "'Lasts 30+ washes' quality tier tested by Shein, shown as a badge.", "problem": "Shoppers distrust quality.", "expectedImpact": "Higher keep rate and better brand image.", "metricToTrack": "Keep rate for badged items", "effort": "high" },
+      { "idea": "Show delivery date by warehouse and push local-warehouse items in search.", "problem": "Slow delivery and duty costs from China.", "expectedImpact": "Faster delivery and lower duty per order.", "metricToTrack": "Share of orders shipped from local warehouses", "effort": "low" },
+      { "idea": "Shein Exchange: in-app resale for Shein items, as tested in some markets.", "problem": "Environmental criticism and closet waste.", "expectedImpact": "Better reputation and more engagement.", "metricToTrack": "Resale listings per month", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Test small and scale winners. Shein's small batches are like A/B testing for physical products.",
+      "Data loops are a moat: every click teaches the supply chain what to make next.",
+      "A business built on a policy gap, like duty-free small parcels, can lose its edge when the policy changes.",
+      "Entering a market that banned you can work through a local partner, as Shein did with Reliance in India."
+    ],
+    "interviewQuestions": [
+      { "question": "Shein's growth slowed to 1%. Where would you look for new growth?", "hint": "Split by market, category and customer type. Consider marketplace, local warehouses, new markets like India. Prioritise by size and margin." },
+      { "question": "How would you reduce Shein's return rate?", "hint": "Find the top reasons: fit, quality, looks. Ideas: fit profiles, better photos, quality tiers. Track keep rate and conversion as guardrail." },
+      { "question": "Explain Shein's test-and-reorder model to a non-PM.", "hint": "Use simple steps: small batch, measure clicks and sales, reorder winners. Link to low stock and low prices." },
+      { "question": "Should Shein move to a full marketplace model?", "hint": "Pros: less stock risk, more range. Cons: less control over quality and speed. Recommend a mix with criteria." },
+      { "question": "How would you design Shein India's app differently from the global app?", "hint": "Indian needs: UPI, cash on delivery, regional sizing, faster delivery, festive collections. Pick 2 and set metrics." }
+    ],
+    "glossary": [
+      { "term": "Fast fashion", "meaning": "Cheap clothing made quickly to follow the latest trends." },
+      { "term": "Test-and-reorder", "meaning": "Making a small batch of a product, watching sales, and only making more if it sells." },
+      { "term": "Sell-through", "meaning": "The share of stock that is sold within a set time." },
+      { "term": "De minimis", "meaning": "A rule letting low-value parcels enter a country without import duty." },
+      { "term": "Marketplace", "meaning": "A platform where outside sellers list and sell their own goods." },
+      { "term": "Keep rate", "meaning": "The share of bought items that customers do not return." },
+      { "term": "Cost to acquire a customer", "meaning": "How much a company spends on marketing to win one new paying customer." },
+      { "term": "Retention", "meaning": "The share of customers who keep buying after a set time." },
+      { "term": "IPO", "meaning": "Initial public offering: when a company first sells shares on a stock market." },
+      { "term": "Net margin", "meaning": "Profit as a share of revenue after all costs." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." },
+      { "term": "A/B testing", "meaning": "Showing two versions to different users to see which works better." }
+    ],
+    "assumptions": [
+      "Batch size of 100 to 200 units and 7 to 10 day lead time are widely reported industry estimates.",
+      "The $60 order example uses rough cost estimates, not company data.",
+      "India app price ranges are based on reported launch pricing in 2025.",
+      "The Reliance licensing structure is based on news reports; exact fees are not public."
+    ]
+  }
+}

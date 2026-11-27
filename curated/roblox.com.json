@@ -1,0 +1,545 @@
+{
+  "company": "Roblox",
+  "domain": "roblox.com",
+  "website": "https://roblox.com",
+  "sources": [
+    "https://www.gamingamigos.com/post/roblox-q3-2026",
+    "https://www.investing.com/news/company-news/roblox-q3-2026-slides-first-user-decline-marks-inflection-point-93CH-4985385",
+    "https://en.shiftdelete.net/roblox-q3-earnings/",
+    "https://about.roblox.com/newsroom/2026/02/moving-beyond-self-reported-age",
+    "https://tech-insider.org/roblox-age-verification-2026/",
+    "https://www.bleeckerstreetresearch.com/research/rblx"
+  ],
+  "report": {
+    "company": "Roblox",
+    "tagline": "A free platform with millions of games made by its own users, paid for with a virtual currency called Robux.",
+    "category": "Gaming platform",
+    "simpleSummary": "Roblox is like a YouTube for games. Anyone can build a game with Roblox's free tools, and players jump between millions of them, like Grow a Garden or Brookhaven, on phones, PCs and consoles. Playing is free, but players buy Robux with real money to get outfits, pets or power-ups. Roblox keeps most of that money and pays a share to the creators who made the games. Most players are kids and teens, so child safety is its biggest challenge.",
+    "keyNumbers": [
+      {
+        "label": "Daily active users, Q3 2026",
+        "value": "138 million, down 9% year on year",
+        "note": "Roblox Q3 2026 results. First yearly drop in daily users; 2025 was a record year driven by viral hits."
+      },
+      {
+        "label": "Bookings, Q3 2026",
+        "value": "$1.70 billion, down 12%",
+        "note": "Roblox Q3 2026 results. Bookings are what players spent on Robux in the quarter."
+      },
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$1.57 billion, up 16%",
+        "note": "Roblox Q3 2026 results. Revenue rises while bookings fall because Roblox spreads each purchase over the months an item is used."
+      },
+      {
+        "label": "Hours played, Q3 2026",
+        "value": "34 billion, down 15%",
+        "note": "Roblox Q3 2026 results."
+      },
+      {
+        "label": "Net loss, Q3 2026",
+        "value": "$230 million",
+        "note": "Roblox Q3 2026 results, narrower than $258 million a year earlier. Free cash flow was positive at $364 million."
+      },
+      {
+        "label": "Paid to creators",
+        "value": "About $1 billion+ a year through Developer Exchange",
+        "note": "Roblox said creators earned $923 million in 2024; 2025 was higher. Estimate for 2025 and 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Roblox hosts millions of 3D games, called 'experiences', that players make using Roblox Studio. Players use one avatar and one friend list across all games. Roblox earns money when players buy Robux and spend it on items in games or on their avatar.",
+      "howItWorks": [
+        "Players sign up free, create an avatar and pick from games in the Home and Charts pages.",
+        "Creators build games in Roblox Studio using the Luau language and, increasingly, AI tools.",
+        "Players buy Robux, for example 400 Robux for about $4.99, or subscribe to Roblox Premium for monthly Robux.",
+        "They spend Robux on game passes, items and avatar clothes; creators earn Robux from these sales.",
+        "Creators swap earned Robux for real money through Developer Exchange (DevEx).",
+        "Roblox uses age checks, parental controls and chat filters, and since 2026 requires facial age estimation to use chat."
+      ],
+      "valueProposition": "For players: endless free games with friends in one place. For creators: free tools and a built-in audience of over 100 million daily users who already have Robux to spend."
+    },
+    "personas": [
+      {
+        "name": "The 11-year-old player",
+        "description": "A child in Hyderabad who plays Roblox on a parent's phone after school with classmates.",
+        "goals": [
+          "Play the newest popular game with friends",
+          "Get a cool avatar"
+        ],
+        "frustrations": [
+          "Needs parents' permission to buy Robux",
+          "Chat locked behind age checks",
+          "Games full of pay-to-win items"
+        ]
+      },
+      {
+        "name": "The worried parent",
+        "description": "A parent in Texas who pays $9.99 a month for Roblox Premium but worries about strangers.",
+        "goals": [
+          "Keep the child safe from predators and scams",
+          "Control spending"
+        ],
+        "frustrations": [
+          "News stories about grooming on Roblox",
+          "Hard-to-understand parental controls",
+          "Surprise Robux purchases"
+        ]
+      },
+      {
+        "name": "The teen creator",
+        "description": "A 17-year-old who built a simulator game that earns 500,000 Robux a month.",
+        "goals": [
+          "Turn game-making into income",
+          "Get discovered on Charts"
+        ],
+        "frustrations": [
+          "Creators keep only about a quarter of what players pay in dollars",
+          "Discovery favours a few viral hits",
+          "Copycat games"
+        ]
+      },
+      {
+        "name": "The professional studio",
+        "description": "A 40-person studio that makes Roblox games full time.",
+        "goals": [
+          "Predictable income",
+          "Brand deals and ads"
+        ],
+        "frustrations": [
+          "Algorithm changes swing traffic",
+          "Rising costs to compete with viral games"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Kids want to play with friends but games are scattered on different apps and consoles.",
+        "howSolved": "One app with millions of games, one avatar and one friend list on phone, PC, Xbox and PlayStation.",
+        "severity": "high"
+      },
+      {
+        "pain": "Making and selling a game usually needs money, skills and a publisher.",
+        "howSolved": "Free Roblox Studio, AI tools and a built-in store and audience.",
+        "severity": "high"
+      },
+      {
+        "pain": "Parents fear strangers contacting their children.",
+        "howSolved": "Age checks for chat, limits on chat between adults and children, and parental controls.",
+        "severity": "high"
+      },
+      {
+        "pain": "Kids get bored of one game quickly.",
+        "howSolved": "New games appear every day and jump to the top of Charts.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Kids want to express themselves online.",
+        "howSolved": "Avatar shop with millions of items made by creators.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Experiences (user-made games)",
+        "whatItDoes": "Millions of games built by creators, from Brookhaven to Grow a Garden.",
+        "whyItMatters": "Free, endless content Roblox does not pay to make up front."
+      },
+      {
+        "feature": "Robux and Roblox Premium",
+        "whatItDoes": "Virtual currency bought with real money; Premium gives monthly Robux.",
+        "whyItMatters": "All Roblox's money comes through Robux."
+      },
+      {
+        "feature": "Roblox Studio and AI tools",
+        "whatItDoes": "Free creation tools, now with AI that writes code and makes 3D objects. A new 'Build' feature lets players make games with prompts.",
+        "whyItMatters": "More creators mean more games, which keeps players."
+      },
+      {
+        "feature": "Developer Exchange (DevEx)",
+        "whatItDoes": "Lets creators convert earned Robux into cash.",
+        "whyItMatters": "Pays over $1 billion a year, which attracts top studios."
+      },
+      {
+        "feature": "Safety tools and age checks",
+        "whatItDoes": "Facial age estimation for chat, parental controls and AI chat filters.",
+        "whyItMatters": "Needed to keep parents' trust and satisfy regulators."
+      },
+      {
+        "feature": "Avatar Marketplace",
+        "whatItDoes": "Store for avatar clothes and accessories.",
+        "whyItMatters": "Self-expression drives spending even outside games."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First session",
+        "persona": "The 11-year-old player",
+        "steps": [
+          {
+            "step": "Hears from friends",
+            "detail": "Classmates talk about a new game."
+          },
+          {
+            "step": "Downloads Roblox",
+            "detail": "Signs up with a birthday and username."
+          },
+          {
+            "step": "Builds avatar",
+            "detail": "Picks free clothes and hair."
+          },
+          {
+            "step": "Joins the game",
+            "detail": "Finds it in Charts and joins in seconds."
+          },
+          {
+            "step": "Adds friends",
+            "detail": "Adds classmates and plays together."
+          },
+          {
+            "step": "Wants items",
+            "detail": "Sees a rare pet others have and asks a parent for Robux."
+          }
+        ]
+      },
+      {
+        "name": "Buying Robux",
+        "persona": "The worried parent",
+        "steps": [
+          {
+            "step": "Child asks",
+            "detail": "Child asks for Robux for a game pass."
+          },
+          {
+            "step": "Sets up controls",
+            "detail": "Links a parent account to set spending limits."
+          },
+          {
+            "step": "Buys",
+            "detail": "Buys 800 Robux or a gift card from a store."
+          },
+          {
+            "step": "Child spends",
+            "detail": "Child buys a game pass and avatar item."
+          },
+          {
+            "step": "Gets alerts",
+            "detail": "Parent gets spending notifications."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Switches to Premium for monthly Robux."
+          }
+        ]
+      },
+      {
+        "name": "Making money as a creator",
+        "persona": "The teen creator",
+        "steps": [
+          {
+            "step": "Learns Studio",
+            "detail": "Watches YouTube tutorials and uses AI assistant."
+          },
+          {
+            "step": "Publishes a game",
+            "detail": "Releases a simple simulator."
+          },
+          {
+            "step": "Adds monetisation",
+            "detail": "Sells game passes and items for Robux."
+          },
+          {
+            "step": "Gets traffic",
+            "detail": "Game enters Charts after a TikTok video goes viral."
+          },
+          {
+            "step": "Earns Robux",
+            "detail": "Earns hundreds of thousands of Robux."
+          },
+          {
+            "step": "Cashes out",
+            "detail": "Converts Robux into dollars through DevEx."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Roblox makes money from one thing: players buying Robux. It also earns a little from ads in games. It pays creators a share through DevEx, and app stores take up to 30%. The rest pays for servers, safety and staff.",
+      "revenueStreams": [
+        {
+          "stream": "Robux purchases",
+          "detail": "One-time Robux packs through app stores, website and gift cards. Most of bookings."
+        },
+        {
+          "stream": "Roblox Premium",
+          "detail": "Monthly plans at about $4.99, $9.99 and $19.99 in the US with monthly Robux."
+        },
+        {
+          "stream": "Advertising and brand deals",
+          "detail": "Ads in games and branded experiences for brands like Nike and Netflix. Small but growing."
+        }
+      ],
+      "pricing": "Free to play. 400 Robux about $4.99 in the US; Roblox Premium about $4.99 to $19.99 a month. Prices in India are set in rupees in app stores.",
+      "costDrivers": [
+        "App store fees of up to 30% on mobile purchases",
+        "DevEx payments to creators",
+        "Servers for 138 million daily users",
+        "Trust and safety staff and age checks",
+        "Research and development staff"
+      ],
+      "unitEconomics": "On a $10 Robux purchase made on a phone, Apple or Google keeps up to $3. Creators earn roughly $2.50 to $3 after converting Robux to cash. Servers and safety cost perhaps $1 to $2. Roblox keeps about $2 to $3 before staff costs. Average bookings per daily user were $12.29 in Q3 2026. More web purchases and gift cards help because they avoid app store fees."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Kids telling friends at school",
+        "Viral games on TikTok and YouTube",
+        "New platforms like PlayStation",
+        "Growth in Asia, including India and Indonesia"
+      ],
+      "whatBringsUsersBack": [
+        "Playing with friends daily",
+        "New game updates every week",
+        "Daily rewards in games",
+        "Avatar collecting"
+      ],
+      "moat": "Roblox has millions of games, creators and players in one place. Creators go where players are, and players go where games are. This network effect is very hard to copy."
+    },
+    "competitors": [
+      {
+        "name": "Fortnite (Epic Games)",
+        "positioning": "Battle royale with user-made islands and creator payouts.",
+        "howThisProductDiffers": "Roblox has more creators and younger users."
+      },
+      {
+        "name": "Minecraft",
+        "positioning": "Building game with servers and a marketplace.",
+        "howThisProductDiffers": "Roblox is a platform of many games."
+      },
+      {
+        "name": "Mobile games like Free Fire and BGMI",
+        "positioning": "Popular mobile games in India.",
+        "howThisProductDiffers": "Roblox offers many games, not one."
+      },
+      {
+        "name": "TikTok and YouTube",
+        "positioning": "Short video entertainment.",
+        "howThisProductDiffers": "Roblox is interactive and social."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly hours played together with friends",
+      "why": "Roblox's value is fun with friends. Hours with friends drive retention and spending, and they fall fast if safety or content quality slips. This is Roblox's north star metric because it tracks value, not just money."
+    },
+    "kpiTree": [
+      {
+        "metric": "Daily users",
+        "description": "Players who open Roblox each day.",
+        "children": [
+          {
+            "metric": "New sign-ups",
+            "description": "New players joining."
+          },
+          {
+            "metric": "Age check completion rate",
+            "description": "Share of users who complete age checks."
+          },
+          {
+            "metric": "Day-7 retention",
+            "description": "New players returning; retention means players stay."
+          }
+        ]
+      },
+      {
+        "metric": "Social play",
+        "description": "Playing with friends.",
+        "children": [
+          {
+            "metric": "Friends added per user",
+            "description": "More friends mean more playtime."
+          },
+          {
+            "metric": "Share of sessions with a friend",
+            "description": "Shows social value."
+          },
+          {
+            "metric": "Party and group joins",
+            "description": "How often friends join a game together; group play lengthens sessions."
+          }
+        ]
+      },
+      {
+        "metric": "Content quality",
+        "description": "Great games keep players.",
+        "children": [
+          {
+            "metric": "New games reaching 10,000 daily players",
+            "description": "Shows new hits."
+          },
+          {
+            "metric": "Hours in top 100 games",
+            "description": "Shows quality."
+          },
+          {
+            "metric": "Day-30 retention in new games",
+            "description": "Shows if new games are fun beyond a viral week."
+          }
+        ]
+      },
+      {
+        "metric": "Safety",
+        "description": "Parents' trust.",
+        "children": [
+          {
+            "metric": "Reports of harmful chats",
+            "description": "Lower is better."
+          },
+          {
+            "metric": "Parental control adoption",
+            "description": "More use means more trust."
+          },
+          {
+            "metric": "Scam and phishing reports",
+            "description": "Fake 'free Robux' scams hurt trust among parents."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Child safety incidents",
+      "Average bookings per daily user",
+      "Creator payout total",
+      "Refund rate"
+    ],
+    "strengths": [
+      "A huge library of free, user-made games that Roblox does not pay to make up front",
+      "A strong network effect: creators go where players are and players go where games and friends are",
+      "Pays creators over $1 billion a year, which pulls in professional studios",
+      "Works on phones, PCs, Xbox and PlayStation with one avatar and friend list",
+      "Positive free cash flow ($364 million in Q3 2026) even with a net loss",
+      "AI tools let more people make games: over 80% of the top 100 games use them"
+    ],
+    "weaknesses": [
+      "Daily users fell 9%, bookings 12% and hours 15% in Q3 2026, the first yearly drop",
+      "Still loses money on a net basis ($230 million in Q3 2026), largely from staff stock pay",
+      "Growth depends on a few viral hits, like Grow a Garden in 2025, which are hard to repeat",
+      "Damaged reputation over child safety and grooming cases",
+      "Creators keep only about a quarter of each consumer dollar after app store fees and DevEx rates"
+    ],
+    "risks": [
+      "Lawsuits by US states and parents over child safety, and new laws like the UK Online Safety Act",
+      "Bans or blocks in countries such as Turkey and several Middle East states",
+      "App store fees of up to 30% on mobile Robux sales",
+      "Fortnite and other platforms courting Roblox creators with better payouts",
+      "Big console releases like GTA 6 taking older players' time, which Roblox's own finance chief flagged"
+    ],
+    "userComplaints": [
+      "Fear of predators and unsafe chat, raised in lawsuits and news reports",
+      "Facial age checks that lock kids and some adults out of chat",
+      "Pay-to-win games that push children to keep buying Robux",
+      "Scams and fake 'free Robux' sites",
+      "Creators say their share is too low and DevEx payouts are slow",
+      "Copycat games that clone hits within days"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "A simple weekly parent report: who my child chatted with, which games they played and what they spent, with one-tap blocks",
+        "problem": "Parents fear strangers and surprise spending, and current controls are hard to understand.",
+        "expectedImpact": "More parents trust Roblox and allow Premium, which lifts retention and spending.",
+        "metricToTrack": "Share of under-13 accounts linked to a parent and Premium subscriptions from linked accounts",
+        "effort": "medium"
+      },
+      {
+        "idea": "Raise the DevEx rate for creators whose games keep players for 30 days, not just those who go viral",
+        "problem": "Creators earn a small share and chase short-lived viral tricks.",
+        "expectedImpact": "More games built for long-term fun, steadier hours played.",
+        "metricToTrack": "Day-30 retention of players in top 1,000 games",
+        "effort": "medium"
+      },
+      {
+        "idea": "A 'Rising' section on Home that guarantees traffic tests for new games with strong early retention",
+        "problem": "Discovery favours a few hits, so growth swings with viral games.",
+        "expectedImpact": "More new hits each quarter and less dependence on one game.",
+        "metricToTrack": "New games reaching 10,000 daily players per month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Let teens verify age with a parent's approval instead of a face scan, as an alternative path",
+        "problem": "Many users drop off at facial age checks, cutting chat and social play.",
+        "expectedImpact": "More users complete age checks, recovering social play while keeping safety rules.",
+        "metricToTrack": "Age check completion rate and sessions with a friend",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lower-price Robux packs payable by UPI and lite mode for low-end Android phones in India",
+        "problem": "Indian players often can't pay by card and play on cheap phones.",
+        "expectedImpact": "More paying users in India and longer sessions.",
+        "metricToTrack": "Paying users and bookings per daily user in India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "User-made content can scale a platform cheaply, but you must share money fairly or the best creators leave.",
+      "When most users are children, safety is the product. One scandal can undo years of growth.",
+      "Check the right number: Roblox revenue grew 16% while bookings fell 12%, because revenue is spread out over time.",
+      "Viral hits flatter growth. Compare against a strong year and ask what is repeatable."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Roblox daily users fell 9% in Q3 2026. How would you find out why?",
+        "hint": "Split by age, country, platform and new vs returning. Check timing against age checks for chat, country bans and the fade of 2025 viral hits. List hypotheses and the data that would confirm each."
+      },
+      {
+        "question": "Design a feature to make Roblox safer for kids without killing social play.",
+        "hint": "Define harms (strangers, scams), user groups (kids, parents, teens), options (defaults, parent approval, AI filters), and metrics: harmful chat reports down, sessions with friends steady."
+      },
+      {
+        "question": "What should Roblox's north star metric be?",
+        "hint": "Argue for hours played with friends. Show why it beats raw users or bookings, then break it into daily users, social play, content quality and safety."
+      },
+      {
+        "question": "How would you grow Roblox in India?",
+        "hint": "Look at device limits (cheap Android), payments (UPI, small packs), content (local games, cricket), and safety for kids. Pick one launch metric."
+      },
+      {
+        "question": "Should Roblox raise the share it pays creators?",
+        "hint": "Model the cost per point of payout vs the gain in game quality and player hours. Consider targeting payouts at long-term retention. Name guardrail metrics like margin and bookings per user."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bookings",
+        "meaning": "The money players spend on Robux in a period, before it is spread out as revenue."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of players who keep coming back over time."
+      },
+      {
+        "term": "DevEx",
+        "meaning": "Developer Exchange, Roblox's program that turns creators' earned Robux into cash."
+      },
+      {
+        "term": "Free cash flow",
+        "meaning": "Cash a company has left after running the business and paying for equipment."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows a product is giving users real value."
+      },
+      {
+        "term": "Guardrail metric",
+        "meaning": "A number that must not get worse while you improve your main goal."
+      }
+    ],
+    "assumptions": [
+      "Creator payouts of about $1 billion a year are estimated from 2024 figures and growth.",
+      "Unit economics per $10 purchase are rough estimates using public DevEx rates and app store fees.",
+      "Reasons for the user decline, such as age checks, include analyst and media views; Roblox mainly cited tough comparisons with 2025.",
+      "India pricing and payment details are inferred, not from Roblox disclosures."
+    ]
+  }
+}

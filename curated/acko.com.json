@@ -1,0 +1,259 @@
+{
+  "company": "Acko",
+  "domain": "acko.com",
+  "website": "https://acko.com",
+  "sources": [
+    "https://inc42.com/buzz/ipo-bound-acko-turns-profitable-posts-₹43-6-cr-profit-in-fy26/",
+    "https://inc42.com/buzz/acko-narrows-fy25-loss-by-36-7-to-inr-424-cr/",
+    "https://www.whalesbook.com/news/English/insurance/Insurtech-Acko-Shrinks-FY25-Loss-by-37percent-on-Strong-Revenue-Faces-IRDAI-Scrutiny/691ab9a79ea315aded33da23",
+    "https://entrackr.com/fintrackr/acko-posts-rs-2837-cr-revenue-in-fy25-trims-losses-by-37-10782318",
+    "https://www.exchange4media.com/announcements-news/acko-turns-profitable-with-rs-436-crore-net-profit-in-fy26-ahead-of-ipo-154653.html"
+  ],
+  "report": {
+    "company": "Acko",
+    "tagline": "An online-only insurance company that sells car, bike, health and life cover through its app, and tries to make claims fast and painless.",
+    "category": "Insurtech",
+    "simpleSummary": "Acko is an insurance company with no branches and no agents. You buy car or health insurance on its app in a few minutes, usually cheaper than others because it saves on agent commissions. When your car gets dented, you file the claim in the app, and Acko may pick up the car, repair it and drop it back. Its whole bet is that a good claims experience makes people stay.",
+    "keyNumbers": [
+      { "label": "Insurance arm net profit (FY26)", "value": "₹43.6 crore, first profit", "note": "Acko General Insurance via Inc42. FY25 was a ₹193 crore loss." },
+      { "label": "Net earned premium (FY26)", "value": "₹1,918 crore, up 26%", "note": "Acko General Insurance via Inc42." },
+      { "label": "Claims ratio (FY26)", "value": "66.3%, down from 70%", "note": "Net claims paid as a share of earned premium. Lower means more room for profit." },
+      { "label": "Group revenue (FY25)", "value": "₹2,837 crore, loss ₹424 crore", "note": "Consolidated, via Inc42. FY26 group numbers not yet seen." },
+      { "label": "Funding raised", "value": "About $458 million", "note": "Investors include General Atlantic, Multiples, Lightspeed, Elevation and Accel." },
+      { "label": "IPO target valuation", "value": "$2 to 2.5 billion", "note": "News reports; confidential filing planned in H2 2026, listing targeted H1 2027." }
+    ],
+    "overview": {
+      "whatItDoes": "Acko is a licensed general insurer that also has a life insurance arm. It sells car, bike, health, travel and life policies directly online, and also embeds small insurance products in partner apps like travel and e-commerce sites. Because it has no agents, it can price policies lower. It builds its own claims tools, such as app-based car inspections and pickup-and-drop repairs.",
+      "howItWorks": [
+        "You enter your car number or health details in the Acko app or site.",
+        "Acko shows a price instantly, often lower than rivals, because it pays no agent commission.",
+        "You pay and the policy is issued in minutes.",
+        "To claim, you upload photos or video in the app; small claims can be approved quickly.",
+        "For cars, Acko can pick up the car, repair it at a partner garage and return it.",
+        "Acko also sells tiny policies inside partner apps, like trip cancellation cover when booking a flight."
+      ],
+      "valueProposition": "Cheaper insurance bought in minutes, with fast app-based claims and no agent calling you."
+    },
+    "personas": [
+      {
+        "name": "Young car owner",
+        "description": "A 28-year-old in Bengaluru with a 2-year-old Baleno.",
+        "goals": ["Cheapest renewal", "Easy claims", "No agent calls"],
+        "frustrations": ["Dealer-pushed insurance is costly", "Garage visits for claims", "Long paperwork"]
+      },
+      {
+        "name": "Startup employee",
+        "description": "Covered by employer group health insurance through Acko.",
+        "goals": ["Cashless hospital claims", "Simple app"],
+        "frustrations": ["HR has to step in for every claim", "Unclear cover limits"]
+      },
+      {
+        "name": "Young family buying health cover",
+        "description": "Couple in their early 30s buying their first retail health plan.",
+        "goals": ["Full cover with no room-rent limit", "Fair price", "Fast claims"],
+        "frustrations": ["Fine print", "Fear of rejection"]
+      },
+      {
+        "name": "Online shopper or traveller",
+        "description": "Books flights or buys gadgets online.",
+        "goals": ["Cheap add-on protection", "Instant claim"],
+        "frustrations": ["Doesn't remember the cover exists", "Claim needs too many documents"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Insurance bought through dealers and agents costs more.", "howSolved": "Direct online sales with lower prices.", "severity": "high" },
+      { "pain": "Car claims mean garage visits, surveyor waits and paperwork.", "howSolved": "Video inspection in app and pickup-and-drop repairs.", "severity": "high" },
+      { "pain": "Health claims are slow and confusing.", "howSolved": "App tracking and cashless network; group plans for startups.", "severity": "high" },
+      { "pain": "Buying insurance takes long and involves sales calls.", "howSolved": "Buy in minutes without speaking to anyone.", "severity": "medium" },
+      { "pain": "Small risks like trip delays have no cover.", "howSolved": "Bite-sized policies inside partner apps.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Instant car and bike insurance", "whatItDoes": "Quote and buy in minutes using the vehicle number.", "whyItMatters": "Motor is Acko's main business and entry point." },
+      { "feature": "App-based claims", "whatItDoes": "Upload photos or video to start a claim; track progress live.", "whyItMatters": "Claims is the core product. A good claim means renewal and referrals." },
+      { "feature": "Pickup-and-drop repairs", "whatItDoes": "Acko collects the car, gets it fixed and returns it.", "whyItMatters": "Turns a painful process into a service people talk about." },
+      { "feature": "Health insurance (retail and group)", "whatItDoes": "Plans for families and for companies' employees.", "whyItMatters": "Large and growing market; group plans bring many users at once." },
+      { "feature": "Embedded insurance", "whatItDoes": "Small policies inside partner apps.", "whyItMatters": "Brings crores of first-time policy holders cheaply, though small in revenue." },
+      { "feature": "Acko Drive", "whatItDoes": "Platform to buy new cars online with insurance bundled.", "whyItMatters": "Catches buyers at the moment they first need car insurance." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Car insurance renewal",
+        "persona": "Young car owner",
+        "steps": [
+          { "step": "Get reminder", "detail": "Sees an Acko ad or reminder before expiry." },
+          { "step": "Enter car number", "detail": "Car details load automatically." },
+          { "step": "See price", "detail": "Compares with dealer quote; Acko is often lower." },
+          { "step": "Add-ons", "detail": "Picks zero depreciation and roadside help." },
+          { "step": "Pay", "detail": "Pays by UPI." },
+          { "step": "Policy issued", "detail": "Gets policy in the app instantly." }
+        ]
+      },
+      {
+        "name": "Car damage claim",
+        "persona": "Young car owner",
+        "steps": [
+          { "step": "Accident", "detail": "Bumper dented in traffic." },
+          { "step": "Start claim", "detail": "Opens app and uploads photos and video." },
+          { "step": "Assessment", "detail": "Acko reviews damage remotely." },
+          { "step": "Pickup", "detail": "Car picked up from home." },
+          { "step": "Repair", "detail": "Fixed at a partner garage." },
+          { "step": "Drop", "detail": "Car returned; Acko pays the garage directly." }
+        ]
+      },
+      {
+        "name": "Cashless hospital claim",
+        "persona": "Startup employee",
+        "steps": [
+          { "step": "Admission", "detail": "Goes to a network hospital." },
+          { "step": "Show policy", "detail": "Shares Acko e-card." },
+          { "step": "Approval", "detail": "Hospital requests cashless approval from Acko." },
+          { "step": "Treatment", "detail": "Treatment continues." },
+          { "step": "Discharge", "detail": "Acko settles the bill; employee pays only what isn't covered." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Acko is the insurer, so it keeps the premium and pays claims. It makes money if premiums plus investment income are more than claims and running costs. It saves money by not paying agents, and spends it on tech, marketing and claims.",
+      "revenueStreams": [
+        { "stream": "Motor insurance premiums", "detail": "Car and bike cover, the biggest line." },
+        { "stream": "Health insurance premiums", "detail": "Retail and group health plans." },
+        { "stream": "Investment income", "detail": "Interest on premiums held before claims are paid; ₹265 crore in FY26." },
+        { "stream": "Embedded and travel cover", "detail": "Small policies sold through partners." },
+        { "stream": "Life insurance", "detail": "Pure protection term plans through Acko Life." }
+      ],
+      "pricing": "Prices shown instantly on the site based on vehicle, age and cover. Car insurance often starts at a few thousand rupees a year; health plans vary by age and city.",
+      "costDrivers": [
+        "Claims paid (₹1,271 crore net in FY26)",
+        "Marketing to win direct customers",
+        "Tech and staff (operating expenses ₹623 crore in FY26)",
+        "Partner fees for embedded policies"
+      ],
+      "unitEconomics": "Think of ₹100 of premium earned. In FY26 Acko paid about ₹66 in claims and about ₹32 in running costs. That leaves only ₹1 to ₹2 of underwriting profit. Investment income on held premiums tipped the year into profit. So Acko's survival depends on keeping the claims ratio low and cutting costs, while still paying claims fast. These figures are worked from reported totals."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search for car insurance",
+        "Cheeky TV and digital ads",
+        "Embedded policies in partner apps",
+        "Group health deals with startups",
+        "Acko Drive for new car buyers"
+      ],
+      "whatBringsUsersBack": [
+        "Yearly motor and health renewals",
+        "Good claims experience",
+        "Lower renewal price with no-claim bonus"
+      ],
+      "moat": "Direct relationship with customers, its own claims tech and repair network, and pricing data from crores of policies. Old insurers have agent networks they can't easily drop, so they struggle to match Acko's price."
+    },
+    "competitors": [
+      { "name": "Digit Insurance", "positioning": "Listed digital-first insurer that sells mainly through agents and partners.", "howThisProductDiffers": "Acko sells mostly direct; Digit uses agents and is profitable at larger scale." },
+      { "name": "ICICI Lombard, Bajaj Allianz", "positioning": "Large traditional insurers with agents and banks.", "howThisProductDiffers": "Acko is cheaper and app-first but much smaller." },
+      { "name": "PolicyBazaar", "positioning": "Marketplace that sells many insurers.", "howThisProductDiffers": "Acko sells only its own policies, without advisors." },
+      { "name": "Star Health, Niva Bupa", "positioning": "Health-only specialists.", "howThisProductDiffers": "Acko has health and motor together but less health depth." }
+    ],
+    "northStar": {
+      "metric": "Claims settled within the promised time with a positive customer rating, per month",
+      "why": "A claim is the moment insurance proves its worth. Fast, fair claims drive renewals and word of mouth."
+    },
+    "kpiTree": [
+      {
+        "metric": "Claim speed",
+        "description": "How fast claims are paid.",
+        "children": [
+          { "metric": "Average days to settle", "description": "Speed is what users remember." },
+          { "metric": "Share settled in app without surveyor", "description": "Lower cost and faster." }
+        ]
+      },
+      {
+        "metric": "Claim fairness",
+        "description": "Customers feel treated well.",
+        "children": [
+          { "metric": "Claim rejection rate", "description": "Too high hurts trust." },
+          { "metric": "Complaints to IRDAI per 10,000 policies", "description": "Shows real problems." }
+        ]
+      },
+      {
+        "metric": "Policies in force",
+        "description": "Active customers.",
+        "children": [
+          { "metric": "New policies sold direct", "description": "Growth." },
+          { "metric": "Renewal rate", "description": "Shows satisfaction." }
+        ]
+      },
+      {
+        "metric": "Underwriting quality",
+        "description": "Pricing risk right.",
+        "children": [
+          { "metric": "Claims ratio", "description": "66% in FY26." },
+          { "metric": "Expense ratio", "description": "Must fit IRDAI expense limits." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Claims ratio",
+      "Expense of management within IRDAI limits",
+      "Customer complaint rate",
+      "Solvency ratio"
+    ],
+    "strengths": [
+      "Strong brand among young digital users",
+      "First profit in the insurance arm in FY26",
+      "Claims tech and repair network",
+      "Low cost from direct sales"
+    ],
+    "weaknesses": [
+      "Thin underwriting margin",
+      "IRDAI rejected its request for relief on expense limits",
+      "Health claim complaints",
+      "Group still loss-making in FY25"
+    ],
+    "risks": [
+      "Regulator pressure on expenses and partnerships (₹1 crore fine over Ola payments)",
+      "Price war with Digit and big insurers",
+      "Rising health claim costs",
+      "IPO market mood"
+    ],
+    "userComplaints": [
+      "Health claims rejected or partly paid",
+      "Slow customer support for complex claims",
+      "Renewal premiums rise",
+      "Garage network thin in smaller cities"
+    ],
+    "improvementIdeas": [
+      { "idea": "Clear 'why this was deducted' breakdown for every claim", "problem": "Users feel claims are unfairly cut", "expectedImpact": "Higher trust and fewer complaints", "metricToTrack": "Claim complaints per 10,000 claims", "effort": "low" },
+      { "idea": "Expand pickup-and-drop to tier-2 cities via garage partners", "problem": "Service is weak outside metros", "expectedImpact": "Better renewals in new markets", "metricToTrack": "Renewal rate in tier-2", "effort": "high" },
+      { "idea": "AI pre-check of health claim documents before submission", "problem": "Claims delayed by missing papers", "expectedImpact": "Faster settlements", "metricToTrack": "Days to settle", "effort": "medium" },
+      { "idea": "Turn embedded policy buyers into motor or health customers", "problem": "Embedded users are low value", "expectedImpact": "Cheap acquisition of big policies", "metricToTrack": "Conversion from embedded to retail policy", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "In insurance, the claim is the product. Design it first.",
+      "Cutting out middlemen lowers price, but you then pay to find customers yourself.",
+      "In regulated businesses, a strong product can still be slowed by rules on costs.",
+      "Small embedded products bring users cheaply but need a path to bigger ones."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you improve Acko's health claims experience?", "hint": "Map the claim flow, find delays and rejections, propose document checks, clear deductions and status updates. Track days to settle and complaints." },
+      { "question": "Is direct-only sales right for Acko?", "hint": "Compare cost savings to marketing cost. Consider partners for reach." },
+      { "question": "What is Acko's north star metric?", "hint": "Claims settled fast and fairly. Explain why it beats premium growth." },
+      { "question": "How would you grow in tier-2 cities?", "hint": "Garage partners, vernacular app, local marketing, measure claims experience." },
+      { "question": "How should Acko stay within IRDAI expense limits?", "hint": "Cut marketing cost, use automation, focus on renewals." }
+    ],
+    "glossary": [
+      { "term": "Claims ratio", "meaning": "The share of premium paid out as claims." },
+      { "term": "Net earned premium", "meaning": "Premium for the period after sharing risk with reinsurers." },
+      { "term": "Underwriting", "meaning": "Deciding who to insure and at what price." },
+      { "term": "Embedded insurance", "meaning": "Insurance sold inside another app's checkout." },
+      { "term": "IRDAI", "meaning": "India's insurance regulator." },
+      { "term": "Expense of management", "meaning": "IRDAI's limit on how much insurers can spend to run the business." },
+      { "term": "Solvency ratio", "meaning": "How much spare money an insurer holds to pay claims." },
+      { "term": "Renewal rate", "meaning": "The share of policies renewed after a year." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Expense ratio", "meaning": "Running costs as a share of premium." }
+    ],
+    "assumptions": [
+      "The underwriting breakdown is worked from reported totals and may differ from official ratios.",
+      "Motor being the largest line is based on past disclosures.",
+      "Complaints are summarised from reviews and social media."
+    ]
+  }
+}

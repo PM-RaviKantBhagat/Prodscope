@@ -1,0 +1,539 @@
+{
+  "company": "Le Chat (Mistral)",
+  "domain": "mistral.ai",
+  "website": "https://mistral.ai",
+  "sources": [
+    "https://sacra.com/research/400m-year-napoleon-of-sovereign-ai/",
+    "https://sacra.com/c/mistral/",
+    "https://siecledigital.fr/2026/01/22/mistral-ai-vise-le-milliard-de-dollars-de-revenus-des-2026/",
+    "https://techcrunch.com/2025/02/28/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/embed",
+    "https://www.gradually.ai/en/mistral-ai-statistics/"
+  ],
+  "report": {
+    "company": "Le Chat (Mistral)",
+    "tagline": "Europe's leading AI lab, selling open models and a chat assistant to companies and governments that want AI they control.",
+    "category": "AI assistant",
+    "simpleSummary": "Mistral is a French AI company. Its chatbot, Le Chat, works like ChatGPT and has a free plan. But most of its money comes from big European companies and governments that want AI they can run on their own servers, under European rules. Many of its models are open, so anyone can download them.",
+    "keyNumbers": [
+      {
+        "label": "Annual recurring revenue",
+        "value": "About $400 million (January 2026)",
+        "note": "Sacra estimate, up from about $20 million a year earlier. Mistral has said it aims for about €1 billion in revenue in 2026."
+      },
+      {
+        "label": "Valuation",
+        "value": "About €11.7 billion ($13.8 billion)",
+        "note": "Series C in September 2025, led by Dutch chip-equipment maker ASML. Reliable, widely reported."
+      },
+      {
+        "label": "Latest round size",
+        "value": "About €1.7 billion ($2 billion)",
+        "note": "Series C, 2025. ASML put in about €1.3 billion."
+      },
+      {
+        "label": "Le Chat Pro price",
+        "value": "About $14.99 (€14.99) a month",
+        "note": "Mistral pricing page. Team plan about $24.99 per user. Free tier available."
+      },
+      {
+        "label": "Big enterprise customers",
+        "value": "HSBC, BNP Paribas, AXA, Stellantis, CMA CGM, TotalEnergies",
+        "note": "Named in public deals and reports, 2024 to 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Mistral builds AI models and sells them three ways: Le Chat for people and teams, an API called La Plateforme for developers, and private deployments for big companies and governments. Its pitch is control. Customers can run Mistral models on their own servers or in Europe, so their data stays under their control and under EU law.",
+      "howItWorks": [
+        "Le Chat on web and mobile answers questions, searches the web, reads documents, makes images and has a fast 'Flash Answers' mode.",
+        "Developers call Mistral models such as Mistral Large, Medium, Small, Codestral for code and Magistral for reasoning, paying per token.",
+        "Many models are released openly under the Apache 2.0 licence, so companies can download and run them for free.",
+        "Large customers sign deals where Mistral engineers help build custom AI on the customer's own servers or on Mistral Compute, its French data centres.",
+        "Le Chat Enterprise connects to company tools like Google Drive, SharePoint and Gmail, and can be installed inside the company's own cloud."
+      ],
+      "valueProposition": "Strong AI that a European company or government can own and control, at a lower price than US labs."
+    },
+    "personas": [
+      {
+        "name": "European bank CIO",
+        "description": "Head of technology at a French or German bank who must keep customer data inside the EU.",
+        "goals": [
+          "Use AI without sending data to US clouds",
+          "Pass regulators' checks under the EU AI Act and GDPR",
+          "Cut costs on document work"
+        ],
+        "frustrations": [
+          "US providers' data terms are hard to accept",
+          "Fewer ready-made tools than Microsoft Copilot",
+          "Long setup projects"
+        ]
+      },
+      {
+        "name": "Developer who wants open models",
+        "description": "A startup engineer who prefers open weights so they can fine-tune and self-host.",
+        "goals": [
+          "Free, high-quality models to run locally",
+          "Cheap API for production",
+          "Small models that run on a laptop or phone"
+        ],
+        "frustrations": [
+          "Mistral's top model trails the very best US models",
+          "Not every model is open; the strongest ones may be licence-only",
+          "Docs and tooling less complete than OpenAI's"
+        ]
+      },
+      {
+        "name": "French-speaking everyday user",
+        "description": "A student or office worker in France who uses Le Chat because it is French, fast and free.",
+        "goals": [
+          "Quick answers in good French",
+          "Free image generation and document reading",
+          "Support a European alternative"
+        ],
+        "frustrations": [
+          "Answers can be less detailed than ChatGPT",
+          "Fewer integrations and plug-ins",
+          "Less known outside Europe"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "European companies worry about US laws giving access to their data.",
+        "howSolved": "Mistral is EU-based and can deploy models on the customer's servers or in French data centres.",
+        "severity": "high"
+      },
+      {
+        "pain": "Closed models cannot be changed or run in-house.",
+        "howSolved": "Open-weight models can be downloaded, fine-tuned and hosted anywhere.",
+        "severity": "high"
+      },
+      {
+        "pain": "Top US AI APIs are expensive for large volumes.",
+        "howSolved": "Mistral's small and medium models are priced well below frontier models for similar everyday tasks.",
+        "severity": "medium"
+      },
+      {
+        "pain": "AI answers in European languages are often weaker than in English.",
+        "howSolved": "Mistral trains with a strong focus on French, German, Spanish, Italian and other languages.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Slow chatbot replies break the flow of work.",
+        "howSolved": "Flash Answers on Le Chat returns up to around 1,000 words a second using fast chips from Cerebras.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Le Chat",
+        "whatItDoes": "Chat assistant with web search, document upload, image generation, code, 'Deep Research' and memory, on web, iOS and Android.",
+        "whyItMatters": "Builds brand and a direct link with users, and is the entry point for Le Chat Pro and Enterprise sales."
+      },
+      {
+        "feature": "Open-weight models",
+        "whatItDoes": "Models like Mistral Small and Devstral released under Apache 2.0 for free download.",
+        "whyItMatters": "Wins developer trust and makes Mistral the default open choice in Europe."
+      },
+      {
+        "feature": "La Plateforme API",
+        "whatItDoes": "Pay-per-token access to all Mistral models, including OCR, speech (Voxtral) and coding models.",
+        "whyItMatters": "Main way smaller companies pay Mistral."
+      },
+      {
+        "feature": "Private deployment and custom models",
+        "whatItDoes": "Mistral engineers install and tune models inside a customer's own cloud or data centre.",
+        "whyItMatters": "Biggest contracts come from banks, carmakers, shipping firms and defence."
+      },
+      {
+        "feature": "Mistral Compute",
+        "whatItDoes": "Mistral's own AI data centres in France, built with Nvidia chips.",
+        "whyItMatters": "Lets customers buy fully European AI infrastructure and gives Mistral a new revenue line."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Bank rolls out private AI",
+        "persona": "European bank CIO",
+        "steps": [
+          {
+            "step": "Board asks for AI",
+            "detail": "Board wants AI for analysts but legal blocks US cloud tools."
+          },
+          {
+            "step": "Meets Mistral",
+            "detail": "Mistral sales and engineers propose an on-premise setup."
+          },
+          {
+            "step": "Pilot",
+            "detail": "A three month pilot summarises reports for 200 staff."
+          },
+          {
+            "step": "Security sign-off",
+            "detail": "Data never leaves the bank's servers, which satisfies compliance."
+          },
+          {
+            "step": "Multi-year contract",
+            "detail": "Signs a deal for licences, support and custom tuning."
+          },
+          {
+            "step": "Expands",
+            "detail": "Adds Le Chat Enterprise for thousands of staff."
+          }
+        ]
+      },
+      {
+        "name": "Developer ships with open model",
+        "persona": "Developer who wants open models",
+        "steps": [
+          {
+            "step": "Downloads Mistral Small",
+            "detail": "Gets the weights from Hugging Face."
+          },
+          {
+            "step": "Tests locally",
+            "detail": "Runs it on a laptop to see quality."
+          },
+          {
+            "step": "Fine-tunes",
+            "detail": "Trains it on the product's support data."
+          },
+          {
+            "step": "Moves to API for scale",
+            "detail": "Uses La Plateforme to avoid managing GPUs."
+          },
+          {
+            "step": "Pays per token",
+            "detail": "Monthly bill grows with traffic."
+          }
+        ]
+      },
+      {
+        "name": "Free user to Pro",
+        "persona": "French-speaking everyday user",
+        "steps": [
+          {
+            "step": "Hears about Le Chat",
+            "detail": "Sees news or a telecom offer from Free mobile that bundles Le Chat Pro."
+          },
+          {
+            "step": "Downloads app",
+            "detail": "Signs up and asks questions in French."
+          },
+          {
+            "step": "Uses daily",
+            "detail": "Uploads PDFs and asks for summaries."
+          },
+          {
+            "step": "Hits limits",
+            "detail": "Runs out of free messages or deep research runs."
+          },
+          {
+            "step": "Upgrades",
+            "detail": "Pays about €14.99 a month for Pro."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Mistral makes most of its money from large enterprise and government deals: licences to run its models privately, plus engineering help. It also earns from API usage and Le Chat subscriptions. Open models are given away to build reach and trust, and the best models and services are paid.",
+      "revenueStreams": [
+        {
+          "stream": "Enterprise and government contracts",
+          "detail": "Multi-year deals with firms like CMA CGM, Stellantis and HSBC, and with the French state. Likely the largest share."
+        },
+        {
+          "stream": "API (La Plateforme)",
+          "detail": "Pay per million tokens for each model."
+        },
+        {
+          "stream": "Le Chat Pro and Team",
+          "detail": "About €14.99 a month for Pro and about €24.99 per user for Team."
+        },
+        {
+          "stream": "Cloud partner resale",
+          "detail": "Models sold through Azure, AWS, Google Cloud and others, with revenue share."
+        },
+        {
+          "stream": "Compute",
+          "detail": "Selling capacity on Mistral Compute data centres, newer and growing."
+        }
+      ],
+      "pricing": "Le Chat: Free; Pro about €14.99 a month; Team about €24.99 per user a month; Enterprise custom. API: priced per million tokens per model, listed on mistral.ai. Open models: free to download.",
+      "costDrivers": [
+        "GPU compute for training new models",
+        "Serving costs for API and Le Chat",
+        "Building Mistral Compute data centres",
+        "Engineers placed with enterprise customers",
+        "Top AI researcher salaries in Paris, London and the US"
+      ],
+      "unitEconomics": "A big enterprise deal might be worth several million euros a year. Much of the cost is engineers who help set it up, so early margins are lower than pure software, but improve as the customer expands. A Le Chat Pro user paying €14.99 a month probably costs a few euros in compute, so is profitable. Overall, Mistral still loses money because training each new model costs hundreds of millions, but its spending is much smaller than OpenAI's, so it needs less revenue to break even."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "'Sovereign AI' pitch to European governments and regulated industries",
+        "Open models on Hugging Face that developers try for free",
+        "Partnerships with cloud providers (Azure, AWS, Google Cloud) and telecoms like Free in France",
+        "Support from French and EU political leaders and big European investors like ASML",
+        "Press attention as Europe's AI champion"
+      ],
+      "whatBringsUsersBack": [
+        "Custom models built on a company's own data are hard to move",
+        "Long enterprise contracts",
+        "Le Chat connected to work tools like Drive and SharePoint",
+        "Frequent new model releases"
+      ],
+      "moat": "Mistral's moat is being European. Banks, defence and governments that legally or politically cannot depend on US AI pick Mistral first. Custom on-premise setups are sticky. Its tech lead is not a moat, since US and Chinese labs often have stronger models."
+    },
+    "competitors": [
+      {
+        "name": "OpenAI (ChatGPT)",
+        "positioning": "The largest AI company, strong consumer brand and enterprise offering.",
+        "howThisProductDiffers": "Mistral is cheaper, offers open models and EU data control; OpenAI has better top models and far more users."
+      },
+      {
+        "name": "Anthropic (Claude)",
+        "positioning": "Trusted enterprise AI, strong at coding.",
+        "howThisProductDiffers": "Mistral can run on-premise and in the EU; Anthropic wins on top coding quality."
+      },
+      {
+        "name": "Microsoft Copilot",
+        "positioning": "AI built into Office for every big company.",
+        "howThisProductDiffers": "Copilot is already in Office; Mistral wins where companies want independence from US providers."
+      },
+      {
+        "name": "Meta Llama",
+        "positioning": "Free open models from Meta.",
+        "howThisProductDiffers": "Both are open; Mistral sells support and custom deployment that Meta does not."
+      },
+      {
+        "name": "DeepSeek and Qwen",
+        "positioning": "Cheap, strong Chinese open models.",
+        "howThisProductDiffers": "Often score higher, but European buyers avoid Chinese models for trust reasons."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of enterprise workflows running on Mistral models in production",
+      "why": "A workflow in production means a real business task is done better by Mistral every day. It shows value delivered, and it is what drives contract renewals and revenue. A good north star metric tracks value to users, not just money. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Enterprise customers in production",
+        "description": "Companies that moved from pilot to real use.",
+        "children": [
+          {
+            "metric": "Pilot to production rate",
+            "description": "Share of pilots that become paid deployments."
+          },
+          {
+            "metric": "Time to production",
+            "description": "Weeks from contract to live; shorter means faster value."
+          },
+          {
+            "metric": "New enterprise logos per quarter",
+            "description": "New companies signed."
+          }
+        ]
+      },
+      {
+        "metric": "Workflows per customer",
+        "description": "How many use cases each customer runs.",
+        "children": [
+          {
+            "metric": "Le Chat Enterprise seats active",
+            "description": "Employees using it weekly."
+          },
+          {
+            "metric": "Connected tools per customer",
+            "description": "More connectors means more use cases."
+          },
+          {
+            "metric": "Net revenue retention",
+            "description": "Whether customers spend more each year."
+          }
+        ]
+      },
+      {
+        "metric": "Developer adoption",
+        "description": "Developers building on Mistral models.",
+        "children": [
+          {
+            "metric": "Open model downloads",
+            "description": "Top of the funnel."
+          },
+          {
+            "metric": "API paying accounts",
+            "description": "Developers who moved to paid."
+          },
+          {
+            "metric": "Tokens served per month",
+            "description": "Real usage volume."
+          }
+        ]
+      },
+      {
+        "metric": "Model quality",
+        "description": "Whether Mistral models are good enough to win tasks.",
+        "children": [
+          {
+            "metric": "Benchmark gap to top model",
+            "description": "How far behind the best US model."
+          },
+          {
+            "metric": "European language scores",
+            "description": "Quality in French, German and others, a key selling point."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross margin on enterprise deals",
+      "Customer data incidents (must be zero)",
+      "Cash burn per quarter",
+      "Le Chat answer accuracy"
+    ],
+    "strengths": [
+      "Clear position as Europe's sovereign AI choice",
+      "Open models with strong developer goodwill",
+      "Efficient: strong models with far less money than US rivals",
+      "Big strategic investors like ASML and Nvidia",
+      "Deep relationships with French and EU governments"
+    ],
+    "weaknesses": [
+      "Top models trail the best from OpenAI, Anthropic and Google",
+      "Le Chat has far fewer users than ChatGPT or Gemini",
+      "Enterprise deals need heavy engineering work, which is slow to scale",
+      "Less brand awareness outside Europe",
+      "Much smaller compute budget than US labs"
+    ],
+    "risks": [
+      "US labs opening EU data centres and offering similar data guarantees",
+      "Chinese open models getting better and cheaper",
+      "EU AI Act compliance costs",
+      "Customers using free open models without paying Mistral",
+      "Needing to raise ever-bigger rounds to keep up on training"
+    ],
+    "userComplaints": [
+      "Le Chat answers less detailed or accurate than ChatGPT on hard questions",
+      "Fewer integrations and features than US assistants",
+      "Confusion about which model to use for what",
+      "Some enterprise users say setup and support take long",
+      "Image and voice features less polished than rivals"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Ready-made Le Chat agents for banks and insurers (KYC checks, claims summaries)",
+        "problem": "Enterprise deals take long because each one is custom.",
+        "expectedImpact": "Faster time to production and more deals per sales team.",
+        "metricToTrack": "Time to production and pilot to production rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "One-click 'which model' recommender in La Plateforme",
+        "problem": "Developers are confused by many model names.",
+        "expectedImpact": "More developers pick the right model and stay.",
+        "metricToTrack": "API paying accounts and 30-day retention",
+        "effort": "low"
+      },
+      {
+        "idea": "Native Microsoft 365 and Teams connector in Le Chat Enterprise",
+        "problem": "Most European companies live in Microsoft tools, so Copilot is the default.",
+        "expectedImpact": "Lets Mistral compete inside the tools staff already use.",
+        "metricToTrack": "Le Chat Enterprise weekly active seats",
+        "effort": "medium"
+      },
+      {
+        "idea": "Public 'sovereignty scorecard' for each deployment option",
+        "problem": "Buyers struggle to compare data guarantees between Mistral and US labs' EU offers.",
+        "expectedImpact": "Makes Mistral's key strength easy to see and sell.",
+        "metricToTrack": "Win rate in competitive enterprise deals",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "You do not need the best model to win. Mistral wins many deals because it is European and controllable.",
+      "Open source can be a sales funnel. Free models bring developers who later pay for scale and support.",
+      "Know your real customer. Le Chat is visible, but enterprises and governments pay most of the bills.",
+      "Regulation can create demand. EU data rules push buyers toward local suppliers.",
+      "Custom work wins early deals but does not scale; productise it as soon as patterns repeat."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Mistral's models are often behind US rivals. How would you position Le Chat to grow anyway?",
+        "hint": "Pick a segment (EU regulated firms, French speakers). Lead with control, language and price. Show features that prove it. Define success metrics."
+      },
+      {
+        "question": "Should Mistral keep releasing open models if customers can use them without paying?",
+        "hint": "Weigh reach and trust against lost revenue. Suggest a split: smaller models open, top models paid. Track how many open users convert."
+      },
+      {
+        "question": "How would you cut time to production for enterprise customers?",
+        "hint": "Map the steps from contract to live. Find the slowest. Propose templates, connectors and self-serve tools. Measure weeks to live."
+      },
+      {
+        "question": "Design a north star and KPI tree for Le Chat Enterprise.",
+        "hint": "North star like weekly active seats doing real tasks. Drivers: activation, use cases per user, retention, expansion."
+      },
+      {
+        "question": "OpenAI opens EU data centres with the same data rules. What does Mistral do?",
+        "hint": "Identify what is still unique: open weights, on-premise, EU ownership. Double down on those. Consider price and deeper government ties."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Annual recurring revenue",
+        "meaning": "Yearly value of ongoing subscriptions and contracts at today's pace."
+      },
+      {
+        "term": "Open weights",
+        "meaning": "Model files published so anyone can download and run them."
+      },
+      {
+        "term": "Sovereign AI",
+        "meaning": "AI a country or company controls fully, without depending on foreign providers."
+      },
+      {
+        "term": "On-premise",
+        "meaning": "Software installed on the customer's own servers instead of the supplier's cloud."
+      },
+      {
+        "term": "API",
+        "meaning": "A way for software to use Mistral's models and pay per use."
+      },
+      {
+        "term": "Token",
+        "meaning": "A small chunk of text used to measure and charge for AI usage."
+      },
+      {
+        "term": "Fine-tune",
+        "meaning": "Train an existing model a bit more on your own data so it fits your task."
+      },
+      {
+        "term": "Net revenue retention",
+        "meaning": "How much existing customers spend this year compared with last year, including upgrades and losses."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows the product is delivering value."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Share of revenue left after the direct costs of delivering the service."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that protects a business from competitors copying it."
+      },
+      {
+        "term": "GDPR",
+        "meaning": "The EU's main law on how companies handle personal data."
+      }
+    ],
+    "assumptions": [
+      "Revenue split between enterprise, API and Le Chat is not public; enterprise being largest is inferred from deals and Sacra analysis.",
+      "Le Chat Pro and Team prices are from the site and may vary by country.",
+      "Margin estimates for enterprise deals and Pro users are our rough guesses.",
+      "The 2026 revenue target of about €1 billion comes from French press and is a goal, not a result.",
+      "Le Chat user numbers are not given because recent official figures could not be found."
+    ]
+  }
+}

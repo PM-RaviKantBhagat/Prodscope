@@ -1,0 +1,524 @@
+{
+  "company": "Zopa",
+  "domain": "zopa.com",
+  "website": "https://www.zopa.com",
+  "sources": [
+    "https://www.zopa.com/blog/article/zopa-delivers-65-million-profit-in-2025",
+    "https://tech.eu/2026/03/19/zopa-reports-third-consecutive-year-of-profit-says-take-up-of-new-current-account-topping-expectations/",
+    "https://www.cityam.com/?p=2408470",
+    "https://www.uktech.news/fintech/zopa-bank-earnings-soar-in-third-year-of-profit-20260319",
+    "https://www.finextra.com/newsarticle/45877/zopa-to-launch-current-accounts-following-second-profitable-year",
+    "https://www.computerweekly.com/news/366640502/Zopa-Bank-continues-its-transformation-with-further-growth"
+  ],
+  "report": {
+    "company": "Zopa",
+    "tagline": "A UK digital bank that started as the world's first person-to-person lending site and now offers loans, car finance, credit cards, savings and a current account.",
+    "category": "Digital bank / lending",
+    "simpleSummary": "Zopa is an app bank in the UK. It is best known for personal loans and car finance, with a quick decision and fair rates for people with good credit. It pays good interest on savings, and since 2025 it also has a current account called Biscuit. It started in 2005 as a website where ordinary people lent money to each other, then turned itself into a full bank.",
+    "keyNumbers": [
+      {
+        "label": "Profit before tax 2025",
+        "value": "£44.9 million (Zopa headlines £65 million on its own basis)",
+        "note": "Tech.eu and Zopa's own release, March 2026. The £65 million figure likely excludes one-off items such as motor finance provisions."
+      },
+      {
+        "label": "Customers",
+        "value": "About 1.7 million",
+        "note": "Zopa 2025 results. More than 500,000 new customers in the year."
+      },
+      {
+        "label": "Deposits",
+        "value": "£6.4 billion",
+        "note": "Zopa 2025 results, up 17%."
+      },
+      {
+        "label": "Loans outstanding",
+        "value": "£3.8 billion",
+        "note": "Zopa 2025 results, gross loans up 23%."
+      },
+      {
+        "label": "Revenue growth 2025",
+        "value": "Up 24%",
+        "note": "Tech.eu, March 2026. Absolute revenue not given in our sources."
+      },
+      {
+        "label": "Current account take-up",
+        "value": "Hundreds of thousands, 40% ahead of plan",
+        "note": "Zopa, March 2026. Exact number not disclosed."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Zopa lends money to UK consumers through personal loans, car finance and credit cards, and funds those loans with savings deposits. It decides who to lend to with its own credit models. It added a current account in 2025 to become people's everyday bank.",
+      "howItWorks": [
+        "You check your loan rate in the app or on a comparison site without hurting your credit score (a soft search).",
+        "Zopa's model looks at your credit file, income and bank data and gives a personal rate in minutes.",
+        "If you accept, money usually lands the same day, and you repay monthly by direct debit.",
+        "Savers put money in fixed-term or easy-access accounts and ISAs, protected up to £85,000 by FSCS.",
+        "Zopa earns the gap between what borrowers pay and what savers earn, minus losses on bad loans.",
+        "The Biscuit current account adds everyday spending, salary and Boosted savings pots."
+      ],
+      "valueProposition": "Fair, fast credit with a price based on your real risk, and good savings rates, from a bank built only for the app."
+    },
+    "personas": [
+      {
+        "name": "Debt consolidator",
+        "description": "30 to 45, has several credit card balances and wants one cheaper loan.",
+        "goals": [
+          "Lower monthly payments",
+          "One payment instead of several",
+          "Quick decision"
+        ],
+        "frustrations": [
+          "High credit card interest",
+          "Fear that applying hurts the credit score"
+        ]
+      },
+      {
+        "name": "Car buyer",
+        "description": "Buying a used car at a dealer and needs finance.",
+        "goals": [
+          "Fair interest rate",
+          "Approval at the dealership"
+        ],
+        "frustrations": [
+          "Dealer finance that hides commissions",
+          "Confusing terms"
+        ]
+      },
+      {
+        "name": "Rate-chasing saver",
+        "description": "Keeps a few thousand pounds in savings and moves money for better rates.",
+        "goals": [
+          "High interest",
+          "Easy access and ISAs",
+          "FSCS protection"
+        ],
+        "frustrations": [
+          "Rates that drop after a bonus period",
+          "Too many apps for different pots"
+        ]
+      },
+      {
+        "name": "Credit builder",
+        "description": "Young adult or newcomer to the UK with a thin credit file.",
+        "goals": [
+          "Build a credit score",
+          "A card with a low limit and clear terms"
+        ],
+        "frustrations": [
+          "Being declined by big banks",
+          "High interest on starter cards"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Credit card debt with high interest is hard to pay down.",
+        "howSolved": "A fixed-rate loan to consolidate debt, with a clear end date.",
+        "severity": "high"
+      },
+      {
+        "pain": "Applying for credit can hurt your score if declined.",
+        "howSolved": "Rate check with a soft search before applying.",
+        "severity": "high"
+      },
+      {
+        "pain": "Waiting days for loan money.",
+        "howSolved": "Fast decisions and same-day payouts in many cases.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Big banks pay low interest on savings.",
+        "howSolved": "Competitive easy-access, fixed and ISA rates.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Dealer car finance can be opaque.",
+        "howSolved": "Clear rates through dealer partners and direct.",
+        "severity": "medium"
+      },
+      {
+        "pain": "People with thin credit files get declined.",
+        "howSolved": "A credit card designed to build credit with low limits and in-app tools.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Personal loans",
+        "whatItDoes": "Loans of about £1,000 to £25,000 over 1 to 7 years with rates based on your risk.",
+        "whyItMatters": "The core profit engine and the product Zopa is known for."
+      },
+      {
+        "feature": "Car finance",
+        "whatItDoes": "Hire purchase and loans through dealers and direct.",
+        "whyItMatters": "Large market and repeat partnerships with dealers."
+      },
+      {
+        "feature": "Credit cards",
+        "whatItDoes": "Cards for building credit and everyday spending, managed in the app.",
+        "whyItMatters": "Earns interest and fees and brings younger customers."
+      },
+      {
+        "feature": "Savings and ISAs",
+        "whatItDoes": "Smart ISA, fixed term and easy access accounts.",
+        "whyItMatters": "Provides cheap, stable money to fund loans."
+      },
+      {
+        "feature": "Biscuit current account",
+        "whatItDoes": "An everyday account with debit card, salary payments and Boosted pots that pay higher interest.",
+        "whyItMatters": "Brings daily use and data on income, which helps lending decisions."
+      },
+      {
+        "feature": "Credit models",
+        "whatItDoes": "In-house risk models that use credit file and bank data to price each loan.",
+        "whyItMatters": "Keeps losses low while approving more good customers."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Consolidating credit card debt",
+        "persona": "Debt consolidator",
+        "steps": [
+          {
+            "step": "Compares loans",
+            "detail": "Checks rates on ClearScore or MoneySuperMarket, where Zopa appears."
+          },
+          {
+            "step": "Soft rate check",
+            "detail": "Gets a personal rate without hurting the credit score."
+          },
+          {
+            "step": "Applies",
+            "detail": "Confirms income and job details. Zopa may ask to see bank data."
+          },
+          {
+            "step": "Decision",
+            "detail": "Gets approved in minutes for, say, £8,000 over 4 years."
+          },
+          {
+            "step": "Pays off cards",
+            "detail": "Money lands and is used to clear credit cards."
+          },
+          {
+            "step": "Repays monthly",
+            "detail": "Pays a fixed amount by direct debit and tracks progress in the app."
+          }
+        ]
+      },
+      {
+        "name": "Opening a savings account",
+        "persona": "Rate-chasing saver",
+        "steps": [
+          {
+            "step": "Sees rate",
+            "detail": "Finds Zopa in a best-buy savings table."
+          },
+          {
+            "step": "Downloads app",
+            "detail": "Signs up and verifies ID."
+          },
+          {
+            "step": "Chooses product",
+            "detail": "Picks a Smart ISA or a fixed-term account."
+          },
+          {
+            "step": "Deposits",
+            "detail": "Moves money from another bank by bank transfer."
+          },
+          {
+            "step": "Earns interest",
+            "detail": "Sees interest added and gets offers for other products."
+          }
+        ]
+      },
+      {
+        "name": "Switching to Biscuit current account",
+        "persona": "Rate-chasing saver",
+        "steps": [
+          {
+            "step": "Hears about Biscuit",
+            "detail": "Gets an in-app message as an existing saver."
+          },
+          {
+            "step": "Opens account",
+            "detail": "Opens it in minutes since ID is already verified."
+          },
+          {
+            "step": "Pays salary in",
+            "detail": "Uses the switch service to move salary and bills."
+          },
+          {
+            "step": "Uses Boosted pots",
+            "detail": "Puts money in pots with higher interest."
+          },
+          {
+            "step": "Gets credit offers",
+            "detail": "Zopa uses account data to offer better loan rates."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Zopa makes money by lending. It pays savers interest, lends that money at higher rates, and keeps the difference after losses. The current account adds cheaper deposits and better data for lending.",
+      "revenueStreams": [
+        {
+          "stream": "Interest on personal loans",
+          "detail": "The biggest stream. Rates depend on borrower risk."
+        },
+        {
+          "stream": "Car finance interest",
+          "detail": "Loans through dealers and direct."
+        },
+        {
+          "stream": "Credit card interest and fees",
+          "detail": "Interest on balances not paid in full, and interchange on card spend."
+        },
+        {
+          "stream": "Current account income",
+          "detail": "Interchange, a small fee the shop's bank pays when you use the card, plus cheaper deposits."
+        }
+      ],
+      "pricing": "Personal loan representative APR varies by amount and term, typically in the mid to high single digits for larger loans, higher for small ones. Savings rates change often. Current account is free. See zopa.com for current rates.",
+      "costDrivers": [
+        "Interest paid to savers",
+        "Credit losses on loans that are not repaid",
+        "Marketing and fees paid to comparison sites and car dealers",
+        "Staff, technology and compliance",
+        "Provisions for the UK motor finance commission review (£7.9 million in 2025)"
+      ],
+      "unitEconomics": "Take an £8,000 loan at about 9% interest. Zopa earns roughly £720 in interest in the first year. It pays about 4% to savers to fund it, about £320. It expects to lose perhaps 2% to 3% of the loan to defaults, about £200. It pays maybe £100 to £150 to the comparison site that sent the customer. That leaves a small profit of about £50 to £100 in year one, more if the customer takes a second product. This is why good credit models matter: a 1% change in losses can wipe out the profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Comparison sites like ClearScore, MoneySuperMarket and Experian",
+        "Best-buy savings tables",
+        "Car dealer partnerships",
+        "Cross-selling: savers get loan offers and borrowers get savings offers",
+        "Partnerships such as embedded finance with retailers"
+      ],
+      "whatBringsUsersBack": [
+        "Monthly loan repayments in the app",
+        "Repeat borrowing with better rates for good payers",
+        "Savings interest and Boosted pots",
+        "Biscuit current account for everyday use"
+      ],
+      "moat": "Twenty years of repayment data and credit models tuned to UK borrowers, plus a full bank licence that gives it cheap deposits. Rivals can copy the app, but not the data or the risk know-how quickly."
+    },
+    "competitors": [
+      {
+        "name": "Monzo",
+        "positioning": "Big app bank adding loans and savings to a large current account base.",
+        "howThisProductDiffers": "Zopa started with lending and is adding a current account; Monzo started with the account and is adding lending."
+      },
+      {
+        "name": "Starling Bank",
+        "positioning": "App bank strong with small businesses.",
+        "howThisProductDiffers": "Zopa is mainly a consumer lender; Starling is mainly an everyday account bank."
+      },
+      {
+        "name": "Big banks (Lloyds, Barclays, NatWest)",
+        "positioning": "Full range of products, branches and huge customer bases.",
+        "howThisProductDiffers": "Zopa is quicker and often cheaper on loans, but has fewer products."
+      },
+      {
+        "name": "Chase UK",
+        "positioning": "JPMorgan's UK app bank with strong savings and cashback.",
+        "howThisProductDiffers": "Zopa has deep lending history; Chase UK has deep pockets."
+      },
+      {
+        "name": "Funding Circle",
+        "positioning": "Another former person-to-person lender, focused on small business loans.",
+        "howThisProductDiffers": "Zopa became a bank; Funding Circle stayed a lending platform."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of customers with an active Zopa product who are repaying or saving successfully",
+      "why": "It shows customers getting value, either credit they can afford or savings growing, and it ties directly to Zopa's profit. Counting new loans alone could reward risky lending. That is what makes it a good north star metric: it moves only when customers get real value."
+    },
+    "kpiTree": [
+      {
+        "metric": "New customers",
+        "description": "People taking a first Zopa product.",
+        "children": [
+          {
+            "metric": "Comparison site conversion",
+            "description": "Share of rate checks that turn into loans."
+          },
+          {
+            "metric": "Approval rate within risk limits",
+            "description": "More good borrowers approved."
+          },
+          {
+            "metric": "Savings rate ranking",
+            "description": "Position in best-buy tables drives deposits."
+          }
+        ]
+      },
+      {
+        "metric": "Products per customer",
+        "description": "How many Zopa products each customer holds.",
+        "children": [
+          {
+            "metric": "Saver to borrower cross-sell",
+            "description": "Savers who take a loan or card."
+          },
+          {
+            "metric": "Biscuit adoption among existing customers",
+            "description": "Moves customers to daily use."
+          },
+          {
+            "metric": "Repeat loan rate",
+            "description": "Good payers coming back for another loan."
+          }
+        ]
+      },
+      {
+        "metric": "Healthy repayment",
+        "description": "Loans repaid on time.",
+        "children": [
+          {
+            "metric": "Default rate",
+            "description": "Share of loans not repaid."
+          },
+          {
+            "metric": "Early arrears rate",
+            "description": "Missed first payments, an early warning sign."
+          },
+          {
+            "metric": "Payment holiday requests",
+            "description": "Signs of customer stress."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Credit loss rate",
+      "Complaints to the Financial Ombudsman",
+      "Capital ratio, the money a bank must keep as a safety buffer",
+      "Customer outcomes under the FCA Consumer Duty"
+    ],
+    "strengths": [
+      "Three years of profit in a row",
+      "Strong credit models from 20 years of lending",
+      "Good brand on comparison sites",
+      "Full bank licence gives cheap, stable funding",
+      "Current account ahead of plan"
+    ],
+    "weaknesses": [
+      "Profit depends on credit losses staying low",
+      "Smaller customer base than Monzo or Revolut",
+      "Current account is new and lacks features of mature rivals",
+      "Exposed to motor finance commission review"
+    ],
+    "risks": [
+      "A UK recession would raise loan defaults",
+      "Falling interest rates squeeze savings margins",
+      "Bigger app banks adding lending at lower prices",
+      "FCA rules on car finance commissions and Consumer Duty"
+    ],
+    "userComplaints": [
+      "Loan declined even after a good rate check",
+      "Savings rates dropping after customers move money in",
+      "Slow customer support in busy periods",
+      "Current account missing features like some payment options"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show the likely approval odds and main reasons with the soft rate check",
+        "problem": "Users feel misled when declined after a quote.",
+        "expectedImpact": "Fewer complaints and better trust.",
+        "metricToTrack": "Quote to approval rate and complaint rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lower loan rate for customers who pay salary into Biscuit",
+        "problem": "Current account growth needs a reason to switch.",
+        "expectedImpact": "More main accounts and better lending data.",
+        "metricToTrack": "Share of customers with salary paid in",
+        "effort": "low"
+      },
+      {
+        "idea": "Rate drop alert with one-tap move to best Zopa rate",
+        "problem": "Savers feel tricked when rates fall.",
+        "expectedImpact": "Higher savings retention.",
+        "metricToTrack": "Deposit outflows after rate changes",
+        "effort": "low"
+      },
+      {
+        "idea": "Early-help tool for borrowers who miss a payment",
+        "problem": "Arrears turn into defaults.",
+        "expectedImpact": "Lower losses and better customer outcomes.",
+        "metricToTrack": "Share of early arrears that recover",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "In lending, the risk model is the product. The app gets customers in, but the model decides profit.",
+      "Pivoting from a marketplace to a bank traded growth speed for cheaper, steadier funding.",
+      "Adding a daily-use product like a current account can improve the core business through better data.",
+      "Win one product first, then cross-sell."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Zopa launched a current account. How would you measure if it is working?",
+        "hint": "Define success: main accounts, deposits, cross-sell, cost. Pick a north star like salary-funded accounts. Guardrails: fraud, complaints."
+      },
+      {
+        "question": "Why did Zopa stop being a person-to-person lending platform?",
+        "hint": "Explain funding: retail lenders pull money in crises, banks have stable deposits and FSCS. Talk about regulation and trust."
+      },
+      {
+        "question": "How would you grow loans without raising defaults?",
+        "hint": "Better data (open banking), better targeting, repeat customers, price for risk. Track approval rate and default rate together."
+      },
+      {
+        "question": "Design a product for credit builders.",
+        "hint": "Persona: thin file. Low-limit card, education, rewards for on-time payment. Metric: score improvement and on-time rate."
+      },
+      {
+        "question": "A rival offers 1% better savings rates. What do you do?",
+        "hint": "Check how rate-sensitive your savers are, the cost of matching, and other ways to retain like pots and ISAs. Model the trade-off."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "APR",
+        "meaning": "Annual percentage rate: the yearly cost of borrowing including interest and fees."
+      },
+      {
+        "term": "Soft search",
+        "meaning": "A credit check that does not affect your credit score."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A small fee the shop's bank pays the card issuer each time a card is used."
+      },
+      {
+        "term": "Credit losses",
+        "meaning": "Money lost when borrowers do not repay."
+      },
+      {
+        "term": "FSCS",
+        "meaning": "The UK scheme that protects up to £85,000 of savings if a bank fails."
+      },
+      {
+        "term": "Consumer Duty",
+        "meaning": "FCA rules that make firms show they deliver good outcomes for customers."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to measure the value it delivers to users."
+      },
+      {
+        "term": "Cross-sell",
+        "meaning": "Selling an extra product to a customer who already uses one of yours."
+      }
+    ],
+    "assumptions": [
+      "The gap between £44.9 million and £65 million profit is assumed to be due to one-off items; we did not see the exact breakdown.",
+      "Loan unit economics use illustrative rates, funding costs and loss rates, not Zopa's reported figures.",
+      "Loan amount range and APR description are based on typical public pricing and may have changed."
+    ]
+  }
+}

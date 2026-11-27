@@ -1,0 +1,268 @@
+{
+  "company": "Razorpay",
+  "domain": "razorpay.com",
+  "website": "https://razorpay.com",
+  "sources": [
+    "https://inc42.com/features/mdr-and-ai-inside-the-two-acronyms-that-could-shape-razorpays-₹6000-cr-ipo/",
+    "https://inc42.com/buzz/razorpay-slips-into-red-in-fy25-revenue-zooms-65-yoy",
+    "https://www.angelone.in/news/ipos/razorpay-picks-axis-capital-kotak-mahindra-capital-jp-morgan-and-citi-for-proposed-700-million-ipo",
+    "https://www.angelone.in/news/ipos/razorpay-takes-first-step-towards-ipo-files-confidential-drhp-with-sebi",
+    "https://www.freepressjournal.in/business/upi-transactions-hit-2547-billion-in-october-value-soars-to-3153-lakh-crore"
+  ],
+  "report": {
+    "company": "Razorpay",
+    "tagline": "A payments company that lets Indian businesses accept online payments, pay out money and manage cash with a few lines of code.",
+    "category": "Payments infra",
+    "simpleSummary": "When you pay on a website like Swiggy or a small D2C brand, a payment gateway sits between you and the bank. Razorpay is the most popular one in India. A business adds Razorpay to its site, and customers can pay by UPI, card, net banking or EMI. Razorpay takes a small cut of each payment and also sells tools for payouts, payroll and business banking.",
+    "keyNumbers": [
+      { "label": "Revenue (FY25)", "value": "₹3,783 crore, up 65%", "note": "Company filings via Inc42. FY26 numbers not yet public." },
+      { "label": "Payments processed", "value": "About $180 billion a year", "note": "Company figure as of end-2024, via Inc42 analysis." },
+      { "label": "IPO plan", "value": "₹5,000 to 6,000 crore, listing likely Jan to Mar 2027", "note": "News reports, November 2026. SEBI approval reported." },
+      { "label": "Expected valuation", "value": "About $5 billion", "note": "News reports; down from $7.5 billion in 2021." },
+      { "label": "Clients", "value": "80% are SMBs, startups and digital brands; 105 of 119 Indian unicorns", "note": "Company claims, 2025." },
+      { "label": "UPI share of flows", "value": "About half", "note": "Inc42 analysis, 2026." }
+    ],
+    "overview": {
+      "whatItDoes": "Razorpay helps businesses collect money online and move it. Its main product is a payment gateway that accepts UPI, cards, net banking, wallets and EMIs. It also offers payment links, subscriptions, payouts to vendors, a business current account (RazorpayX), payroll and offline POS devices. It is moving into AI agents that recover abandoned carts and handle disputes.",
+      "howItWorks": [
+        "A business signs up and finishes online KYC.",
+        "Developers add Razorpay checkout to their website or app using its APIs and plugins (Shopify, WooCommerce).",
+        "Customer pays; Razorpay routes the payment to the bank or card network and confirms in seconds.",
+        "Money settles to the business bank account, usually the next working day, minus Razorpay's fee.",
+        "Dashboards show payments, refunds and disputes; RazorpayX handles payouts and payroll.",
+        "Agent Studio offers AI agents for abandoned carts, failed subscriptions and disputes."
+      ],
+      "valueProposition": "For businesses: start accepting all payment methods in a day, with good success rates and simple developer tools, so they can focus on selling. For developers: clean APIs and documentation."
+    },
+    "personas": [
+      {
+        "name": "Early-stage startup founder",
+        "description": "Building a SaaS or D2C product and needs to collect payments fast.",
+        "goals": ["Go live in a day", "Accept UPI and cards", "Low fees"],
+        "frustrations": ["Long KYC", "Funds put on hold", "Confusing pricing"]
+      },
+      {
+        "name": "Developer at a growing D2C brand",
+        "description": "Integrates checkout and handles failures.",
+        "goals": ["Clean APIs", "High payment success rate", "Good webhooks"],
+        "frustrations": ["Downtime during sales", "Hard-to-debug failures"]
+      },
+      {
+        "name": "Finance head at a mid-size company",
+        "description": "Manages collections, vendor payouts and payroll.",
+        "goals": ["See all money flows in one place", "Automate payouts", "Fast reconciliation"],
+        "frustrations": ["Many bank portals", "Manual matching of payments", "Slow settlements"]
+      },
+      {
+        "name": "Large enterprise payments manager",
+        "description": "Runs payments for an airline or big e-commerce firm.",
+        "goals": ["Lowest fee", "Back-up gateways", "Custom terms"],
+        "frustrations": ["Paying 2% is too much at scale", "Switching cost between gateways"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Setting up online payments with a bank took weeks and lots of paperwork.", "howSolved": "Online onboarding and live payments often within a day.", "severity": "high" },
+      { "pain": "Customers want to pay many ways, and each method needs separate setup.", "howSolved": "One checkout with 100+ methods including UPI, cards, EMI and wallets.", "severity": "high" },
+      { "pain": "Failed payments lose sales.", "howSolved": "Smart routing to the bank or network most likely to succeed.", "severity": "high" },
+      { "pain": "Paying vendors and staff means logging into bank portals.", "howSolved": "RazorpayX payouts and payroll through APIs and dashboards.", "severity": "medium" },
+      { "pain": "Matching payments to orders by hand wastes time.", "howSolved": "Automatic reports and reconciliation tools.", "severity": "medium" },
+      { "pain": "Abandoned carts and failed renewals lose revenue.", "howSolved": "AI agents that follow up and retry.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Payment gateway and checkout", "whatItDoes": "Accepts all online payment methods on a site or app.", "whyItMatters": "Core money maker and the first product every customer buys." },
+      { "feature": "Payment links and pages", "whatItDoes": "Lets a business collect money by sharing a link on WhatsApp or email, no website needed.", "whyItMatters": "Brings in small sellers and freelancers." },
+      { "feature": "Subscriptions and UPI AutoPay", "whatItDoes": "Automatically charges customers every month.", "whyItMatters": "Serves SaaS, OTT and EMI businesses with recurring revenue." },
+      { "feature": "RazorpayX (payouts, current account, payroll)", "whatItDoes": "Sends money out to vendors, customers and staff.", "whyItMatters": "Handles both sides of a business's money, making it harder to leave Razorpay." },
+      { "feature": "Razorpay POS", "whatItDoes": "Card and UPI machines for physical stores.", "whyItMatters": "Lets online brands accept payments offline too." },
+      { "feature": "Agent Studio", "whatItDoes": "AI agents built on Claude for carts, disputes and cash flow forecasts.", "whyItMatters": "A new way to add value beyond thin payment fees." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Going live with payments",
+        "persona": "Early-stage startup founder",
+        "steps": [
+          { "step": "Sign up", "detail": "Creates account with email and phone." },
+          { "step": "KYC", "detail": "Uploads PAN, GST and bank details online." },
+          { "step": "Test mode", "detail": "Tries payments with test keys." },
+          { "step": "Integrate", "detail": "Adds Shopify plugin or a few lines of code." },
+          { "step": "Activate", "detail": "Account approved and live keys issued." },
+          { "step": "First payment", "detail": "Customer pays; money settles the next day." }
+        ]
+      },
+      {
+        "name": "Handling a big sale day",
+        "persona": "Developer at a growing D2C brand",
+        "steps": [
+          { "step": "Plan", "detail": "Expects 10x traffic during a sale." },
+          { "step": "Monitor", "detail": "Watches success rates on the dashboard." },
+          { "step": "Failures spike", "detail": "A bank's UPI goes down." },
+          { "step": "Smart routing", "detail": "Razorpay shifts traffic to other routes." },
+          { "step": "Retry", "detail": "Customers retry with another method." },
+          { "step": "Review", "detail": "Reads the report after the sale." }
+        ]
+      },
+      {
+        "name": "Paying vendors",
+        "persona": "Finance head at a mid-size company",
+        "steps": [
+          { "step": "Open RazorpayX", "detail": "Links a current account." },
+          { "step": "Upload list", "detail": "Uploads vendor payment file." },
+          { "step": "Approve", "detail": "Manager approves payouts." },
+          { "step": "Send", "detail": "Money goes by IMPS, NEFT or UPI." },
+          { "step": "Reconcile", "detail": "Report matches payouts to invoices." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Razorpay earns a small fee on each payment it processes. It also earns from banking, payouts, payroll, POS and lending partnerships. Big clients pay lower fees; small businesses pay the standard rate.",
+      "revenueStreams": [
+        { "stream": "Payment gateway fees", "detail": "A percentage of each payment, about 2% on standard plans for most domestic methods, higher on international cards." },
+        { "stream": "RazorpayX and payouts", "detail": "Fees per payout and for current account and payroll features." },
+        { "stream": "Offline POS", "detail": "Device rent and transaction fees from physical stores." },
+        { "stream": "International", "detail": "Malaysia (Curlec) and Singapore, the fastest-growing part." },
+        { "stream": "Possible UPI MDR", "detail": "If a 0.4% fee on large UPI merchant payments goes live, analysts estimate ₹192 to 461 crore extra yearly revenue." }
+      ],
+      "pricing": "Standard plan around 2% per transaction on most Indian payment methods and about 3% on international and some cards, with no setup fee. Large clients get custom lower rates. Check the site for current rates.",
+      "costDrivers": [
+        "Fees paid to banks and card networks on every payment (the biggest cost)",
+        "Engineering and product teams",
+        "Sales and support",
+        "Fraud and dispute losses",
+        "Large ESOP costs (₹1,209 crore in FY25)"
+      ],
+      "unitEconomics": "Take a ₹1,000 card payment at a small brand. Razorpay charges about ₹20. Around ₹15 to ₹17 goes to the issuing bank and card network. Razorpay keeps about ₹3 to ₹5 before its own costs. For UPI, most payments have no merchant fee by law, so Razorpay earns very little and recovers money through other products. This is why payments is a thin-margin business: FY24 profit was only ₹34 crore on ₹2,068 crore revenue. Per-transaction splits are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Developers recommend it because of good docs and APIs",
+        "Startup ecosystem: deals with accelerators and VCs",
+        "Plugins for Shopify, WooCommerce and others",
+        "Sales team for large companies",
+        "Content and events like FTX (Razorpay's fintech event)"
+      ],
+      "whatBringsUsersBack": [
+        "Payments are built into the business's code, so switching is painful",
+        "Using more products (payouts, payroll) ties the business closer",
+        "Daily dashboard use for money tracking",
+        "Settlement cash flows depend on it"
+      ],
+      "moat": "Deep developer trust, a large share of startups and digital brands, and many connected products. Once a business runs collections, payouts and payroll through Razorpay, moving away takes months of work."
+    },
+    "competitors": [
+      { "name": "PayU India", "positioning": "Largest by revenue (about ₹4,420 crore payments revenue FY25), strong with big enterprises.", "howThisProductDiffers": "Razorpay is stronger with startups and developers and has broader banking tools." },
+      { "name": "Cashfree", "positioning": "Smaller gateway (₹640 crore FY25 revenue) known for payouts and enterprise clients.", "howThisProductDiffers": "Razorpay is bigger and offers more products in one place." },
+      { "name": "Pine Labs", "positioning": "Leader in offline POS and EMI at checkout.", "howThisProductDiffers": "Razorpay is online-first; Pine Labs is stronger in physical retail." },
+      { "name": "Paytm and PhonePe payment gateways", "positioning": "Consumer payment apps also selling gateways.", "howThisProductDiffers": "Razorpay is business-only and neutral, not competing with merchants for consumers." }
+    ],
+    "northStar": {
+      "metric": "Successful payment volume processed for active businesses per month",
+      "why": "It shows money actually reaching businesses. It grows only if businesses sell more and trust Razorpay with more of their flows."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active businesses",
+        "description": "Businesses processing payments each month.",
+        "children": [
+          { "metric": "New businesses activated", "description": "Sign-ups that finish KYC and take a payment." },
+          { "metric": "Time to first payment", "description": "Faster onboarding means more activations." },
+          { "metric": "Business churn", "description": "Merchants leaving for cheaper rivals." }
+        ]
+      },
+      {
+        "metric": "Payment success rate",
+        "description": "Share of attempted payments that succeed.",
+        "children": [
+          { "metric": "UPI success rate", "description": "Half of flows are UPI." },
+          { "metric": "Card success rate", "description": "Depends on routing and bank uptime." }
+        ]
+      },
+      {
+        "metric": "Volume per business",
+        "description": "How much each business sends through Razorpay.",
+        "children": [
+          { "metric": "Share of wallet", "description": "Share of a business's total payments on Razorpay versus backup gateways." },
+          { "metric": "Products per business", "description": "More products mean deeper use." }
+        ]
+      },
+      {
+        "metric": "Revenue per rupee processed",
+        "description": "How much Razorpay earns on the flow.",
+        "children": [
+          { "metric": "Take rate", "description": "Share of payment value kept as revenue." },
+          { "metric": "Revenue from non-payment products", "description": "Payouts, banking and AI agents." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Downtime minutes during peak hours",
+      "Fraud and chargeback losses",
+      "Settlement delays",
+      "Merchant support complaint resolution time"
+    ],
+    "strengths": [
+      "Strongest developer brand in Indian payments",
+      "Used by most Indian unicorns",
+      "Wide product range beyond payments",
+      "Revenue grew 65% in FY25",
+      "Growing in Southeast Asia"
+    ],
+    "weaknesses": [
+      "Thin margins in payments",
+      "Most UPI earns nothing by law",
+      "Big losses in FY25 from ESOP and moving its base to India",
+      "Big clients push for lower fees"
+    ],
+    "risks": [
+      "RBI rules on payment aggregators can tighten",
+      "UPI MDR could be delayed or removed again",
+      "Price wars with PayU, Cashfree and others",
+      "IPO market mood"
+    ],
+    "userComplaints": [
+      "Funds put on hold or accounts frozen with little warning",
+      "Slow support for small merchants",
+      "Settlement delays",
+      "KYC rejections without clear reasons",
+      "Fees seen as high by small sellers"
+    ],
+    "improvementIdeas": [
+      { "idea": "Clear account health score that warns before funds are held, with steps to fix", "problem": "Merchants are shocked by sudden holds", "expectedImpact": "Fewer angry merchants and less churn", "metricToTrack": "Complaints on fund holds and merchant churn", "effort": "medium" },
+      { "idea": "Bundle UPI acceptance with paid add-ons like AI cart recovery", "problem": "UPI earns almost nothing", "expectedImpact": "Higher revenue per merchant", "metricToTrack": "Revenue per active business", "effort": "medium" },
+      { "idea": "Instant settlement as default for small sellers at a small fee", "problem": "Small sellers need cash flow", "expectedImpact": "More loyalty and fee income", "metricToTrack": "Instant settlement adoption", "effort": "low" },
+      { "idea": "AI support agent that explains KYC rejections and payment failures", "problem": "Slow support for small merchants", "expectedImpact": "Faster resolution at low cost", "metricToTrack": "Time to resolve tickets", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Developer experience can win a B2B market. Razorpay grew because engineers liked its APIs.",
+      "When the core product is thin margin, you need extra products to make money.",
+      "Regulation can wipe out a revenue line overnight. UPI zero MDR shows this.",
+      "Switching cost is a moat. Once a product is in the customer's code and finance flows, they stay.",
+      "Serve startups early and grow with them as they become big."
+    ],
+    "interviewQuestions": [
+      { "question": "UPI has zero MDR. How would you make money from UPI payments?", "hint": "Explore value-added services, large-merchant MDR, faster settlement, analytics and lending. Keep small merchants free." },
+      { "question": "How would you improve payment success rate?", "hint": "Break down failures by method, bank and step. Suggest smart routing, retries and better error messages. Track success rate by segment." },
+      { "question": "A big client wants to cut fees by half. What do you do?", "hint": "Understand their volume and alternatives. Offer volume pricing, add-on value, or a mixed deal. Protect overall margin." },
+      { "question": "Should Razorpay build AI agents?", "hint": "Find painful merchant tasks (carts, disputes), check willingness to pay, start with one agent, measure revenue recovered." },
+      { "question": "What is Razorpay's north star metric?", "hint": "Successful payment volume for active businesses. Explain drivers: active businesses, success rate, volume per business, take rate." }
+    ],
+    "glossary": [
+      { "term": "Payment gateway", "meaning": "A service that lets a website or app accept online payments and passes them to banks." },
+      { "term": "MDR", "meaning": "Merchant discount rate: the fee a business pays for accepting a digital payment." },
+      { "term": "Take rate", "meaning": "The share of each payment that a platform keeps as its revenue." },
+      { "term": "Settlement", "meaning": "When money collected from customers is moved into the business's bank account." },
+      { "term": "Chargeback", "meaning": "When a customer disputes a card payment and the money is taken back from the business." },
+      { "term": "SMB", "meaning": "Small and medium business." },
+      { "term": "ESOP", "meaning": "Employee stock options, a way of paying staff in company shares." },
+      { "term": "Share of wallet", "meaning": "How much of a customer's total spending in a category goes to you." },
+      { "term": "Churn", "meaning": "The share of customers who stop using a product." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "KYC", "meaning": "Know your customer: checks to confirm a business or person is real." }
+    ],
+    "assumptions": [
+      "The split of a card fee between Razorpay and banks is an estimate.",
+      "Standard pricing is from Razorpay's public plan and may vary.",
+      "FY26 results were not public at the time of writing.",
+      "Complaints are summarised from common patterns on social media and review sites."
+    ]
+  }
+}

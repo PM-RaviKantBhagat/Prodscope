@@ -1,0 +1,510 @@
+{
+  "company": "Tinder",
+  "domain": "tinder.com",
+  "website": "https://tinder.com",
+  "sources": [
+    "https://finance.biggo.com/news/US_MTCH_2026-11-02",
+    "https://www.globaldatinginsights.com/featured/match-group-q3-2026-results-hinge-growth-and-new-plans-for-tinder/",
+    "https://awareinvest.com/terminal/intel/match-group-reports-q3-2026-results-tinder-dau-returns-to-growth-2026-11-02-57ca9a003338bff78ec933d2b067f103",
+    "https://uk.investing.com/news/stock-market-news/match-group-q3-2026-slides-margins-surge-as-tinder-stabilizes-93CH-4950793",
+    "https://www.sec.gov/Archives/edgar/data/0000891103/000089110326000163/mtch-20260930.htm"
+  ],
+  "report": {
+    "company": "Tinder",
+    "tagline": "The swipe-based dating app owned by Match Group, now trying to win back Gen Z after years of shrinking users.",
+    "category": "Dating",
+    "simpleSummary": "Tinder shows you photos of people nearby, one at a time. Swipe right if you like them, left if you don't, and if both of you swipe right it's a 'match' and you can chat. It is free to use, but you can pay for extras like seeing who already liked you or unlimited swipes. Tinder made swiping famous, but many young people now find it tiring, so it is adding new ways to meet, like going on a double date with a friend.",
+    "keyNumbers": [
+      {
+        "label": "Tinder direct revenue trend, Q3 2026",
+        "value": "Down 2% year on year (currency neutral)",
+        "note": "Match Group Q3 2026 results. Full-year 2026 expected to fall by a low single-digit percent."
+      },
+      {
+        "label": "Tinder annual revenue",
+        "value": "About $1.9 billion (2025)",
+        "note": "Estimate from Match Group filings for 2025. Tinder is Match Group's biggest brand."
+      },
+      {
+        "label": "Paying users (payers) trend, Q3 2026",
+        "value": "Down 4% year on year, roughly 8.5 to 9 million payers",
+        "note": "The decline rate is from Match Group Q3 2026. The absolute payer count is our estimate from earlier filings."
+      },
+      {
+        "label": "Monthly active users trend, Q3 2026",
+        "value": "Down 5.5% year on year",
+        "note": "Match Group Q3 2026, improved from about minus 10% a few quarters earlier."
+      },
+      {
+        "label": "Daily active users",
+        "value": "Back to year-on-year growth in September 2026, first time in 3.5 years",
+        "note": "Match Group Q3 2026 earnings call. US daily users turned positive at the end of October."
+      },
+      {
+        "label": "Double Date matches",
+        "value": "30 million",
+        "note": "Match Group Q3 2026 commentary on the feature launched in 2025."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Tinder helps people meet new people nearby for dates, relationships or friendship. You build a profile with photos and a short bio, swipe through others, and chat only when both people like each other. Match Group, which also owns Hinge, makes money by selling subscriptions and one-off boosts.",
+      "howItWorks": [
+        "Sign up with a phone number, add photos, age, interests and what you are looking for.",
+        "Tinder shows a stack of nearby profiles ranked by its algorithm.",
+        "Swipe right to like, left to pass, or send a Super Like to stand out.",
+        "When two people like each other, they match and can message.",
+        "Free users get limited likes; paid plans (Tinder Plus, Gold and Platinum) add unlimited likes, see who liked you, and priority.",
+        "Safety tools like Face Check (a video selfie check) and photo verification fight fake profiles."
+      ],
+      "valueProposition": "The biggest pool of single people in most cities, with a fast and simple way to find a match, free to start."
+    },
+    "personas": [
+      {
+        "name": "The young man in a metro city",
+        "description": "A 24-year-old software engineer in Gurugram who swipes daily but gets few matches.",
+        "goals": [
+          "Get more matches and real dates",
+          "Not waste hours swiping"
+        ],
+        "frustrations": [
+          "Very few matches on the free plan",
+          "Paying for Gold and still not getting replies",
+          "Fake profiles and scam accounts"
+        ]
+      },
+      {
+        "name": "The Gen Z woman",
+        "description": "A 22-year-old student in London who finds swiping shallow and gets too many low-effort messages.",
+        "goals": [
+          "Meet people who share her interests",
+          "Feel safe meeting a stranger"
+        ],
+        "frustrations": [
+          "Hundreds of matches but few good conversations",
+          "Feels like a game, not a way to meet people",
+          "Worries about safety and catfishing"
+        ]
+      },
+      {
+        "name": "The traveller",
+        "description": "Uses Tinder Passport to meet locals before and during trips.",
+        "goals": [
+          "Meet people in a new city quickly",
+          "Find friends or dates abroad"
+        ],
+        "frustrations": [
+          "Passport is behind a paywall",
+          "Profiles in new cities may be inactive"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Meeting new single people outside work or friends is hard, especially in a new city.",
+        "howSolved": "Tinder shows a large pool of nearby singles instantly.",
+        "severity": "high"
+      },
+      {
+        "pain": "Approaching someone and being rejected is scary.",
+        "howSolved": "Mutual matching means you only chat when both people are interested.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fake profiles and catfishing make online dating risky.",
+        "howSolved": "Photo verification and Face Check confirm a real person matches the photos.",
+        "severity": "high"
+      },
+      {
+        "pain": "Going on a first date with a stranger feels awkward.",
+        "howSolved": "Double Date lets you pair up with a friend and match with another pair.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Busy users want to know who is already interested.",
+        "howSolved": "Tinder Gold shows who liked you so you can match right away.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Swipe and match",
+        "whatItDoes": "Right to like, left to pass; a match opens a chat.",
+        "whyItMatters": "Simple and fast, it built Tinder's brand and huge user pool."
+      },
+      {
+        "feature": "Tinder Gold and Platinum",
+        "whatItDoes": "Subscriptions that show who liked you, give unlimited likes, Super Likes and priority placement.",
+        "whyItMatters": "The main source of revenue. Pricing varies by age and country."
+      },
+      {
+        "feature": "Boosts and Super Likes",
+        "whatItDoes": "One-time purchases that put your profile at the top for 30 minutes or highlight your like.",
+        "whyItMatters": "Extra revenue from free and paid users who want more attention."
+      },
+      {
+        "feature": "Double Date",
+        "whatItDoes": "Pair with a friend and swipe on other pairs.",
+        "whyItMatters": "Aimed at Gen Z, who prefer group settings. It has produced 30 million matches."
+      },
+      {
+        "feature": "Face Check and verification",
+        "whatItDoes": "A video selfie that checks you match your photos and helps detect duplicate fake accounts.",
+        "whyItMatters": "Trust is a top reason women leave dating apps; fewer fakes keep them on."
+      },
+      {
+        "feature": "AI-assisted matching",
+        "whatItDoes": "New AI tools that help pick photos and suggest more compatible profiles.",
+        "whyItMatters": "Aims to reduce swipe fatigue by showing fewer, better options."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First match",
+        "persona": "The Gen Z woman",
+        "steps": [
+          {
+            "step": "Downloads after a friend's story",
+            "detail": "Hears a friend met someone on Tinder."
+          },
+          {
+            "step": "Builds a profile",
+            "detail": "Adds 4 photos, a bio and interests, and verifies with a video selfie."
+          },
+          {
+            "step": "Sets preferences",
+            "detail": "Chooses age range, distance and relationship goals."
+          },
+          {
+            "step": "Swipes",
+            "detail": "Swipes through 50 profiles in 10 minutes."
+          },
+          {
+            "step": "Gets matches",
+            "detail": "Receives many matches and messages within hours."
+          },
+          {
+            "step": "Filters chats",
+            "detail": "Replies only to people who send thoughtful messages."
+          },
+          {
+            "step": "Plans a date",
+            "detail": "Meets one match for coffee after a week of chatting."
+          }
+        ]
+      },
+      {
+        "name": "Paying for Gold",
+        "persona": "The young man in a metro city",
+        "steps": [
+          {
+            "step": "Runs out of likes",
+            "detail": "Hits the daily like limit on the free plan."
+          },
+          {
+            "step": "Sees blurred likes",
+            "detail": "Sees '20+ likes' blurred, tempting him to pay."
+          },
+          {
+            "step": "Checks prices",
+            "detail": "Sees Plus, Gold and Platinum, with monthly and 6-month prices."
+          },
+          {
+            "step": "Buys Gold",
+            "detail": "Pays through Google Play, often choosing a longer plan for a lower monthly rate."
+          },
+          {
+            "step": "Matches with likes",
+            "detail": "Matches instantly with people who already liked him."
+          },
+          {
+            "step": "Decides to renew",
+            "detail": "Renews if he gets dates; cancels if matches don't reply."
+          }
+        ]
+      },
+      {
+        "name": "Trying Double Date",
+        "persona": "The Gen Z woman",
+        "steps": [
+          {
+            "step": "Invites a friend",
+            "detail": "Links profiles with a friend inside the app."
+          },
+          {
+            "step": "Swipes as a pair",
+            "detail": "Both see pairs of other users and swipe together."
+          },
+          {
+            "step": "Gets a pair match",
+            "detail": "A group chat opens with four people."
+          },
+          {
+            "step": "Plans a group outing",
+            "detail": "Meets for drinks as a group, which feels safer."
+          },
+          {
+            "step": "Returns to Tinder",
+            "detail": "Uses Tinder more often because it feels social, not like a game."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Tinder makes money mainly from subscriptions (Plus, Gold, Platinum) and one-off purchases like Boosts and Super Likes. There are also some ads. Revenue depends on the number of payers times what each pays.",
+      "revenueStreams": [
+        {
+          "stream": "Subscriptions",
+          "detail": "Tinder Plus, Gold and Platinum. Most of revenue. Prices vary by country, age and plan length."
+        },
+        {
+          "stream": "A la carte purchases",
+          "detail": "Boosts, Super Likes and other one-off items."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Ads shown between profiles to free users; a small share of revenue."
+        }
+      ],
+      "pricing": "Free to start. In the US, Tinder Gold often costs about $25 to $40 a month depending on age and plan length; Platinum costs more. In India, monthly plans are usually a few hundred to over ₹1,000. Prices are personalised and not published as a single list.",
+      "costDrivers": [
+        "App store fees of up to 30% on in-app purchases; Match warned of higher fees from 2027",
+        "Marketing to win back users, especially Gen Z",
+        "Trust and safety teams and verification tools",
+        "Engineers and AI development",
+        "Servers and data for matching"
+      ],
+      "unitEconomics": "Take one US Gold subscriber paying about $30 a month. Apple or Google may keep up to $9 in fees. The cost to run the app for that user is small, maybe $1 to $2. So Tinder keeps about $19 a month, or about $230 a year if the user stays. Most users never pay, so Tinder needs a big free pool to keep paying users matching. Key ratio: payers divided by monthly users. If users fall, payers fall too, which is why Tinder's revenue dropped even as prices rose."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Brand fame: 'Tinder' is the word many people use for dating apps",
+        "Word of mouth from friends who met partners",
+        "Performance marketing and campus campaigns aimed at Gen Z",
+        "Features like Double Date that invite friends into the app"
+      ],
+      "whatBringsUsersBack": [
+        "New likes and match notifications",
+        "Daily free likes that reset",
+        "Ongoing chats with matches",
+        "Subscriptions already paid for"
+      ],
+      "moat": "Tinder has the largest pool of users in most cities. Daters go where the most people are, so a new app struggles to compete. This network effect weakens if Gen Z stops using dating apps altogether."
+    },
+    "competitors": [
+      {
+        "name": "Hinge",
+        "positioning": "'Designed to be deleted', focused on serious relationships with prompts.",
+        "howThisProductDiffers": "Tinder is faster and more casual. Hinge, also owned by Match, is growing about 19% a year while Tinder shrinks."
+      },
+      {
+        "name": "Bumble",
+        "positioning": "Women message first.",
+        "howThisProductDiffers": "Tinder has a bigger user base; Bumble is shrinking and agreed in 2026 to be taken private."
+      },
+      {
+        "name": "Aisle and other Indian apps",
+        "positioning": "Serious relationships for Indians, often with paid messaging.",
+        "howThisProductDiffers": "Tinder is more casual and urban; Aisle targets marriage-minded users."
+      },
+      {
+        "name": "Instagram and in-person events",
+        "positioning": "Meeting through social media, friends and run clubs.",
+        "howThisProductDiffers": "Tinder offers a direct path to new single people, but many Gen Z users prefer meeting 'organically'."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly number of mutual conversations that lead to an exchange of at least 10 messages or a date",
+      "why": "Tinder's value is real connections, not swipes. Good conversations are the closest measurable signal that users are meeting people they like."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active daters",
+        "description": "How many users swipe in a week.",
+        "children": [
+          {
+            "metric": "New sign-ups among 18-to-25-year-olds",
+            "description": "Gen Z is the key growth gap."
+          },
+          {
+            "metric": "Reactivated users",
+            "description": "Lapsed users who come back."
+          }
+        ]
+      },
+      {
+        "metric": "Match rate",
+        "description": "Share of likes that become matches.",
+        "children": [
+          {
+            "metric": "Profile quality score",
+            "description": "Photos, bio and verification completion."
+          },
+          {
+            "metric": "Recommendation relevance",
+            "description": "How often shown profiles get a right swipe."
+          },
+          {
+            "metric": "Gender balance in a city",
+            "description": "Too few women lowers men's match rates."
+          }
+        ]
+      },
+      {
+        "metric": "Conversation quality",
+        "description": "How many matches turn into real chats.",
+        "children": [
+          {
+            "metric": "Reply rate on first message",
+            "description": "Shows whether matches are engaging."
+          },
+          {
+            "metric": "Chats with 10+ messages",
+            "description": "A sign of real interest."
+          }
+        ]
+      },
+      {
+        "metric": "Trust and safety",
+        "description": "Whether users feel safe.",
+        "children": [
+          {
+            "metric": "Verified profile share",
+            "description": "More verified profiles means fewer fakes."
+          },
+          {
+            "metric": "Scam reports per 1,000 users",
+            "description": "Lower is better."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Payer count and revenue per payer",
+      "Share of women among active users",
+      "Unmatch and block rates",
+      "Subscription refund requests"
+    ],
+    "strengths": [
+      "Most famous dating brand worldwide",
+      "Largest user pool in many cities",
+      "Strong cash generator for Match Group",
+      "Daily users growing again since September 2026",
+      "New social features like Double Date working with Gen Z"
+    ],
+    "weaknesses": [
+      "Monthly users and payers still shrinking",
+      "Seen as a hookup app by many people looking for relationships",
+      "Swipe fatigue: users feel it is a game",
+      "Gender imbalance hurts men's experience, pushing them to pay"
+    ],
+    "risks": [
+      "Gen Z moving away from dating apps",
+      "Hinge, owned by the same parent, takes serious daters",
+      "Higher app store fees from 2027",
+      "Safety regulations and lawsuits over scams and assaults",
+      "Lawsuits over age-based pricing"
+    ],
+    "userComplaints": [
+      "Paywall is too aggressive; key features need Gold or Platinum",
+      "Few matches for men even after paying",
+      "Fake profiles, bots and crypto scams",
+      "Bans without explanation",
+      "Different prices for different ages feel unfair",
+      "Matches that never reply"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show fewer, better daily picks with reasons for each match",
+        "problem": "Swipe fatigue and low-quality matches.",
+        "expectedImpact": "Higher match and reply rates, more Gen Z retention.",
+        "metricToTrack": "Reply rate on first message",
+        "effort": "medium"
+      },
+      {
+        "idea": "Free verification badge required to send messages",
+        "problem": "Fake profiles and scams.",
+        "expectedImpact": "Fewer scam reports and more women staying.",
+        "metricToTrack": "Scam reports per 1,000 users",
+        "effort": "low"
+      },
+      {
+        "idea": "Clear, published prices by plan in each country",
+        "problem": "Users feel age-based pricing is unfair.",
+        "expectedImpact": "Higher trust and conversion.",
+        "metricToTrack": "Gold conversion rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Campus and interest-based events booked through Tinder",
+        "problem": "Gen Z prefers meeting in person in groups.",
+        "expectedImpact": "More sign-ups among 18 to 25-year-olds.",
+        "metricToTrack": "New Gen Z sign-ups",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A simple core action, like a swipe, can build a huge brand, but it can also start to feel shallow.",
+      "In a two-sided product, losing one side, like women users, hurts everyone.",
+      "Raising prices can hide user decline for a while, but revenue follows users over time.",
+      "Owning a rival (Hinge) can help the parent company even if the original brand shrinks."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Tinder monthly users are falling. How would you find out why?",
+        "hint": "Segment by age, gender and country. Look at sign-up, match and reply rates. Compare against Hinge and Bumble. List hypotheses and data to test."
+      },
+      {
+        "question": "Design a feature to win back Gen Z users.",
+        "hint": "Start with Gen Z needs (safety, groups, shared interests), propose one feature, define success metrics and a guardrail."
+      },
+      {
+        "question": "Should Tinder charge different prices by age?",
+        "hint": "Weigh revenue against fairness and legal risk. Consider willingness to pay. Suggest test design and metrics."
+      },
+      {
+        "question": "What should Tinder's north star metric be?",
+        "hint": "Choose meaningful conversations, not swipes. Break into active daters, match rate, conversation quality, safety."
+      },
+      {
+        "question": "How would you increase the share of women on Tinder?",
+        "hint": "Identify why women leave (safety, low-effort messages), propose features, track women's retention."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Payers",
+        "meaning": "Users who paid for a subscription or item in a period."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The main number that shows a product is giving users real value."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the app over time."
+      },
+      {
+        "term": "Two-sided",
+        "meaning": "A product that needs two groups of users, like men and women on a dating app, to work."
+      },
+      {
+        "term": "Swipe fatigue",
+        "meaning": "Tiredness users feel after swiping through many profiles with little result."
+      },
+      {
+        "term": "Currency neutral",
+        "meaning": "A growth figure that removes the effect of exchange rate changes."
+      }
+    ],
+    "assumptions": [
+      "Tinder's 2025 revenue of about $1.9 billion is an estimate based on Match Group filings.",
+      "The absolute payer count of 8.5 to 9 million is estimated from earlier quarters and the 4% decline.",
+      "Price ranges are typical and vary by user age, country and plan length.",
+      "Cost to serve one user is a rough estimate."
+    ]
+  }
+}

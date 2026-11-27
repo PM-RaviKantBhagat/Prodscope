@@ -1,0 +1,243 @@
+{
+  "company": "Depop",
+  "domain": "depop.com",
+  "website": "https://depop.com",
+  "sources": [
+    "https://valueaddedresource.net/ebay-q3-2026-earnings",
+    "https://en.wikipedia.org/wiki/Depop",
+    "https://resalerank.com/ebay-depop-acquisition/",
+    "https://www.exportyourstore.com/blog/ebay-acquired-depop",
+    "https://entrepreneurplus.co.uk/how-does-depop-make-money-now-the-zero-fee-bet-thats-paying-off/",
+    "https://alidropship.com/is-depop-legit/"
+  ],
+  "report": {
+    "company": "Depop",
+    "tagline": "A second-hand fashion app where young people buy and sell vintage and pre-loved clothes, now owned by eBay.",
+    "category": "Resale marketplace",
+    "simpleSummary": "Depop is an app for buying and selling used clothes, a bit like Instagram meets a vintage shop. Sellers post photos of their clothes, buyers scroll and follow sellers they like. Most users are under 26. It was owned by Etsy and was bought by eBay in 2026.",
+    "keyNumbers": [
+      { "label": "Active buyers", "value": "About 11 million", "note": "eBay Q3 2026 update, up from about 9 million." },
+      { "label": "Active sellers", "value": "About 5 million", "note": "eBay Q3 2026 update." },
+      { "label": "Revenue, 2025", "value": "About $187 million", "note": "Value Added Resource, from eBay deal disclosures." },
+      { "label": "Operating loss, 2025", "value": "About $109 million", "note": "Value Added Resource; eBay expects Depop to add to profit by 2028." },
+      { "label": "Sale price", "value": "About $1.4 billion", "note": "eBay purchase from Etsy, closed 30 July 2026. Etsy paid about $1.6 billion in 2021." }
+    ],
+    "overview": {
+      "whatItDoes": "Depop lets anyone sell used or vintage clothes from their phone. Buyers discover items through a feed and search, and sellers build a following like a small online shop. It makes money from buyer fees, payment fees and paid boosts.",
+      "howItWorks": [
+        "Sellers snap photos, add a description and price, and post.",
+        "Buyers scroll a feed, search by brand or style, and follow sellers.",
+        "Buyers pay through Depop Payments, which holds the money and protects buyers.",
+        "In the UK, sellers pay no selling fee since 2024; buyers pay a buyer protection fee instead.",
+        "In the US, new sellers pay no selling fee but pay payment processing of about 3.3% plus $0.45.",
+        "Sellers can pay to 'Boost' listings for more visibility, paying a fee only when a boosted item sells."
+      ],
+      "valueProposition": "Unique, affordable, eco-friendly fashion, and an easy way to make money from clothes you no longer wear."
+    },
+    "personas": [
+      {
+        "name": "Gen Z vintage lover",
+        "description": "18 to 24, wants unique Y2K and vintage pieces.",
+        "goals": ["Find unique items", "Shop sustainably", "Low prices"],
+        "frustrations": ["Fakes", "Sellers not responding", "High shipping costs"]
+      },
+      {
+        "name": "Wardrobe declutterer",
+        "description": "Sells clothes they no longer wear.",
+        "goals": ["Make some money", "Simple listing"],
+        "frustrations": ["Low offers", "Scam buyers"]
+      },
+      {
+        "name": "Small vintage reseller",
+        "description": "Runs a side business sourcing vintage from charity shops.",
+        "goals": ["Steady sales", "Grow followers"],
+        "frustrations": ["Competition from Vinted", "Algorithm changes"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Fast fashion is wasteful and samey.", "howSolved": "Unique second-hand and vintage items.", "severity": "high" },
+      { "pain": "Selling clothes is a hassle.", "howSolved": "List in minutes from your phone; no UK selling fees.", "severity": "medium" },
+      { "pain": "Fear of scams.", "howSolved": "Depop Payments and buyer protection.", "severity": "high" },
+      { "pain": "Hard to find your style in charity shops.", "howSolved": "Search and follow sellers with your style.", "severity": "medium" },
+      { "pain": "Shipping is confusing.", "howSolved": "Prepaid shipping labels in some markets.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Social feed and following", "whatItDoes": "Follow sellers and see their new listings.", "whyItMatters": "Builds habit and loyalty, like Instagram." },
+      { "feature": "Depop Payments", "whatItDoes": "Secure payments with buyer protection.", "whyItMatters": "Builds trust and earns fees." },
+      { "feature": "Boost", "whatItDoes": "Paid promotion of listings.", "whyItMatters": "Extra income for Depop." },
+      { "feature": "Offers and bundles", "whatItDoes": "Buyers make offers or buy several items together.", "whyItMatters": "Raises sales and order value." },
+      { "feature": "Shipping labels", "whatItDoes": "Prepaid labels for easy shipping.", "whyItMatters": "Makes selling simpler." }
+    ],
+    "userJourneys": [
+      {
+        "name": "First purchase",
+        "persona": "Gen Z vintage lover",
+        "steps": [
+          { "step": "Discover", "detail": "Sees a Depop find on TikTok." },
+          { "step": "Install", "detail": "Downloads the app and sets style preferences." },
+          { "step": "Browse", "detail": "Scrolls the feed and searches for a vintage jacket." },
+          { "step": "Offer", "detail": "Makes an offer to the seller." },
+          { "step": "Buy", "detail": "Pays through Depop Payments with buyer fee." },
+          { "step": "Receive", "detail": "Gets the jacket and leaves a review." }
+        ]
+      },
+      {
+        "name": "First sale",
+        "persona": "Wardrobe declutterer",
+        "steps": [
+          { "step": "Photo", "detail": "Takes photos of a dress." },
+          { "step": "List", "detail": "Adds brand, size, price." },
+          { "step": "Get offers", "detail": "Receives offers from buyers." },
+          { "step": "Sell", "detail": "Accepts and ships with a label." },
+          { "step": "Get paid", "detail": "Money arrives after delivery." }
+        ]
+      },
+      {
+        "name": "Growing a shop",
+        "persona": "Small vintage reseller",
+        "steps": [
+          { "step": "Source", "detail": "Finds items at charity shops." },
+          { "step": "List in bulk", "detail": "Posts many items each week." },
+          { "step": "Boost", "detail": "Pays to boost key items." },
+          { "step": "Build followers", "detail": "Followers see new drops." },
+          { "step": "Scale", "detail": "Becomes a Top Seller." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Depop makes money from buyer protection fees, payment processing and boosts. After removing seller fees in the UK and for new US sellers, more of its income comes from buyers and paid promotion. It still loses money.",
+      "revenueStreams": [
+        { "stream": "Buyer protection fee", "detail": "A fee buyers pay on each UK order." },
+        { "stream": "Payment processing", "detail": "About 3.3% plus $0.45 per US sale." },
+        { "stream": "Boosted listings", "detail": "Sellers pay a fee when boosted items sell." },
+        { "stream": "Shipping", "detail": "Margins on shipping labels." }
+      ],
+      "pricing": "UK: free to sell; buyers pay a buyer protection fee. US: no selling fee for new listings since 2024, payment processing about 3.3% plus $0.45. Boost fee about 8% when a boosted item sells.",
+      "costDrivers": [
+        "Marketing to win buyers and sellers",
+        "Payment processing",
+        "Trust and safety teams",
+        "Technology and staff"
+      ],
+      "unitEconomics": "On a £25 UK sale, the buyer might pay about £1 to £2 in buyer protection fee. Depop also gets money from boosted listings. Payment costs take some of this. With an operating loss of about $109 million on $187 million revenue in 2025, Depop loses money per order after marketing and staff. eBay hopes to cut costs and add buyers through cross-listing."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TikTok and Instagram content from sellers",
+        "Word of mouth among Gen Z",
+        "Free selling in the UK",
+        "eBay cross-promotion, such as testing Depop listings in eBay search"
+      ],
+      "whatBringsUsersBack": [
+        "New listings from followed sellers",
+        "Offers and messages",
+        "Saved searches and likes",
+        "Selling to make money"
+      ],
+      "moat": "Depop has a strong brand with Gen Z and a community feel. Its sellers build followings that are hard to move. But Vinted competes on price, so the moat is mainly brand and culture."
+    },
+    "competitors": [
+      { "name": "Vinted", "positioning": "Free selling, buyer pays fee, large European user base.", "howThisProductDiffers": "Depop is more curated and style-led; Vinted is bigger and cheaper." },
+      { "name": "eBay", "positioning": "Broad marketplace, now Depop's owner.", "howThisProductDiffers": "Depop is younger and fashion-only." },
+      { "name": "Poshmark", "positioning": "US social resale.", "howThisProductDiffers": "Depop is younger and more vintage." },
+      { "name": "Shein", "positioning": "Cheap new fast fashion.", "howThisProductDiffers": "Depop is second-hand and more sustainable." }
+    ],
+    "northStar": {
+      "metric": "Monthly items sold between users",
+      "why": "Each sale means a buyer found something they wanted and a seller earned money. It shows the marketplace working for both sides."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "People buying at least once a month.",
+        "children": [
+          { "metric": "New buyer sign-ups", "description": "From TikTok and Instagram content, and now from Depop listings tested in eBay search." },
+          { "metric": "First purchase rate", "description": "Share of sign-ups who buy within 30 days; low rates mean the feed is not showing them their style." },
+          { "metric": "Followed sellers per buyer", "description": "Buyers who follow several sellers get a feed of new drops and come back more often." }
+        ]
+      },
+      {
+        "metric": "Active listings",
+        "description": "Items for sale.",
+        "children": [
+          { "metric": "New listings per seller", "description": "Supply growth." },
+          { "metric": "Seller retention", "description": "Sellers listing again." }
+        ]
+      },
+      {
+        "metric": "Conversion",
+        "description": "Share of listings that sell.",
+        "children": [
+          { "metric": "Search to purchase", "description": "Searches ending in a sale." },
+          { "metric": "Offer acceptance rate", "description": "Offers that turn into sales." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud and fake item reports",
+      "Seller satisfaction",
+      "Buyer fee complaints",
+      "Shipping times"
+    ],
+    "strengths": [
+      "Strong Gen Z brand",
+      "Social, community feel",
+      "Now backed by eBay's resources",
+      "Free selling in the UK"
+    ],
+    "weaknesses": [
+      "Loses money",
+      "Smaller than Vinted",
+      "Fakes and scams",
+      "Reliance on young users who switch apps quickly"
+    ],
+    "risks": [
+      "Vinted's growth in the UK and US",
+      "eBay integration hurting Depop's culture",
+      "Changes in fashion trends",
+      "Regulation on resale and taxes"
+    ],
+    "userComplaints": [
+      "The UK buyer protection fee plus postage makes cheap items poor value",
+      "Fake designer and streetwear items, and sellers asking to be paid outside the app",
+      "Support is slow and scripted when a dispute goes wrong",
+      "Search is weak at finding exact sizes and styles compared with Vinted",
+      "Sellers taking days to ship, with little penalty"
+    ],
+    "improvementIdeas": [
+      { "idea": "AI listing tool from photos, using eBay's Magical Listing tech.", "problem": "Listing takes time.", "expectedImpact": "More listings.", "metricToTrack": "Listings per seller", "effort": "medium" },
+      { "idea": "Verified vintage badge for trusted sellers.", "problem": "Fakes and trust issues.", "expectedImpact": "More trust and sales.", "metricToTrack": "Fraud reports", "effort": "medium" },
+      { "idea": "Show total cost including fees upfront.", "problem": "Buyer fee surprise at checkout.", "expectedImpact": "Fewer abandoned carts.", "metricToTrack": "Checkout conversion", "effort": "low" },
+      { "idea": "Cross-list to eBay with one tap.", "problem": "Sellers want more buyers.", "expectedImpact": "More sales per item.", "metricToTrack": "Sell-through rate", "effort": "medium" }
+    ],
+    "pmLessons": [
+      "Community and culture can be a product's core value, not just features.",
+      "Shifting fees from sellers to buyers can grow supply, but must be clear to buyers.",
+      "Being bought by a bigger company brings resources but risks losing what made the product special.",
+      "Growth without a path to profit is risky; Depop still loses money."
+    ],
+    "interviewQuestions": [
+      { "question": "How should Depop compete with Vinted, which is bigger and cheaper?", "hint": "Do not fight on price. Depop's edge is style, vintage curation and a social feed for under-26s. Pick that segment, propose two features that deepen it, and measure repeat purchase and seller retention." },
+      { "question": "eBay paid about $1.4 billion for a business losing about $109 million a year. What should eBay do with Depop?", "hint": "Share the tech underneath (payments, Magical Listing, shipping) but keep the brand and feed separate. Name the risk of losing Gen Z if it starts to feel like eBay, and set a path-to-profit metric." },
+      { "question": "How would you reduce scams on Depop?", "hint": "List scam types: fake items, buyers claiming non-delivery, off-app payment requests. Suggest verification and payment holds for new accounts, and track fraud rate with conversion as a guardrail." },
+      { "question": "Design a feature that helps casual sellers sell faster.", "hint": "Pick the biggest blocker: pricing, photos or visibility. Ideas: sold-price suggestions, AI listing from photos, a free first boost. Measure median days to sale." },
+      { "question": "Was removing UK seller fees a good idea?", "hint": "Compare more listings against a higher price for buyers. Rough out the revenue effect, then say how you would test it by market or seller type before going further." }
+    ],
+    "glossary": [
+      { "term": "Resale marketplace", "meaning": "A platform where people sell used items to each other." },
+      { "term": "Buyer protection fee", "meaning": "A fee buyers pay that covers refunds if something goes wrong." },
+      { "term": "Sell-through rate", "meaning": "The share of listed items that actually sell." },
+      { "term": "Conversion", "meaning": "The share of people or listings that complete a desired action, such as buying or selling." },
+      { "term": "Operating loss", "meaning": "When costs from normal business are higher than revenue." },
+      { "term": "Retention", "meaning": "The share of users who keep using the product after a set time." },
+      { "term": "North star metric", "meaning": "The single number a company uses to measure the value it delivers to users." },
+      { "term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal." },
+      { "term": "Moat", "meaning": "Something that makes a business hard for rivals to copy." }
+    ],
+    "assumptions": [
+      "UK buyer fee size is an estimate based on typical levels.",
+      "Boost fee of about 8% is based on Depop's published rate and may have changed.",
+      "User age profile is based on Depop's claim that most users are under 26."
+    ]
+  }
+}

@@ -501,11 +501,11 @@
       },
       {
         "question": "How would you increase the share of Google visitors who become logged-in users?",
-        "hint": "Map the logged-out journey, find the moment of highest intent (wanting to ask or follow), reduce friction there, avoid annoying pop-ups. Define a conversion metric and a guardrail on bounce rate."
+        "hint": "Map the logged-out journey, find the moment of highest intent (wanting to ask or follow), reduce friction there, avoid annoying pop-ups. Define a conversion metric and a guardrail metric on bounce rate."
       },
       {
         "question": "Should Reddit renew its data deal with Google if Google's AI answers reduce Reddit's traffic?",
-        "hint": "Compare licence income (about $60 million a year) with lost ad revenue from fewer clicks. Consider negotiating link-backs or attribution. Think about leverage: Reddit data is unique, but Google controls distribution."
+        "hint": "Compare licence income (about $60 million a year) with lost ad revenue from fewer clicks. Consider negotiating link-backs or attribution. Think about bargaining power: Reddit data is unique, but Google controls distribution."
       },
       {
         "question": "Design a feature to fight AI-generated spam without hurting real users.",

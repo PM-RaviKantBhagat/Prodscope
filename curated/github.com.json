@@ -1,0 +1,544 @@
+{
+  "company": "GitHub Copilot",
+  "domain": "github.com",
+  "website": "https://github.com/features/copilot",
+  "sources": [
+    "https://techcrunch.com/2025/07/30/github-copilot-crosses-20-million-all-time-users/",
+    "https://tech-insider.org/github-copilot-market-share-2026/",
+    "https://tech-insider.org/ai-coding-assistants-2026/",
+    "https://sacra.com/chat/h/e3861432-c418-4bb1-bc67-ac5d2e3c5af9/",
+    "https://dev.to/hanzla_baig/github-copilot-is-losing-users-in-2026-heres-what-developers-are-switching-to-144h",
+    "https://github.com/features/copilot"
+  ],
+  "report": {
+    "company": "GitHub Copilot",
+    "tagline": "The AI pair programmer built into VS Code and GitHub that suggests code, answers questions and now completes whole tasks as an agent.",
+    "category": "AI dev tools",
+    "simpleSummary": "GitHub Copilot is an AI helper for programmers. As you type code, it guesses the next lines and you press Tab to accept. You can also chat with it about your code, or give it a task like 'fix this bug' and it writes the change and opens a pull request for you to review. It was the first AI coding tool used by millions, and it is owned by Microsoft.",
+    "keyNumbers": [
+      {
+        "label": "All-time users",
+        "value": "Over 20 million (July 2025)",
+        "note": "Microsoft earnings call, reported by TechCrunch. Counts everyone who ever used it, including free users."
+      },
+      {
+        "label": "Fortune 100 adoption",
+        "value": "About 90% of Fortune 100 companies",
+        "note": "Microsoft statement, 2025."
+      },
+      {
+        "label": "Share of AI coding tool usage",
+        "value": "Still the largest, but losing share to Cursor and Claude Code",
+        "note": "2026 developer surveys report Cursor and Claude Code each near 18% of AI coding use. Exact Copilot share varies by survey."
+      },
+      {
+        "label": "Individual price",
+        "value": "$10 a month (Pro), $39 a month (Pro+)",
+        "note": "GitHub pricing page. Free tier available. India price is charged in dollars, about ₹850 a month for Pro."
+      },
+      {
+        "label": "Business price",
+        "value": "$19 per user a month (Business), $39 (Enterprise)",
+        "note": "GitHub pricing page. Extra 'premium requests' cost $0.04 each."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Copilot helps developers write, understand and fix code faster. It works inside code editors like VS Code, JetBrains and Visual Studio, and on github.com. It started as autocomplete and now includes chat, an agent mode that edits many files, and a coding agent that works on GitHub issues by itself.",
+      "howItWorks": [
+        "Code completion: as you type, grey text suggests the next line or block; press Tab to accept.",
+        "Copilot Chat: ask questions about your code, get explanations or tests, in the editor or on github.com.",
+        "Agent mode: describe a change and Copilot plans it, edits several files and runs commands, asking for approval.",
+        "Coding agent: assign a GitHub issue to Copilot; it works in the cloud and opens a pull request for review.",
+        "You can choose models from OpenAI, Anthropic and Google; stronger models use 'premium requests' that are limited per plan.",
+        "Companies control settings, block code that matches public code, and see usage dashboards."
+      ],
+      "valueProposition": "Write and ship code faster without leaving the tools and GitHub workflow your team already uses, with company-grade security."
+    },
+    "personas": [
+      {
+        "name": "Professional developer at a large company",
+        "description": "A backend engineer at a bank in Bengaluru whose company bought Copilot Enterprise.",
+        "goals": [
+          "Spend less time on boilerplate and tests",
+          "Understand old code quickly",
+          "Stay within company security rules"
+        ],
+        "frustrations": [
+          "Suggestions sometimes wrong or outdated",
+          "Agent mode slower than Cursor",
+          "Premium request limits run out"
+        ]
+      },
+      {
+        "name": "Engineering manager",
+        "description": "Leads 40 developers and must prove AI tools are worth the cost.",
+        "goals": [
+          "Faster delivery of features",
+          "Measure productivity gains",
+          "Keep code quality and security"
+        ],
+        "frustrations": [
+          "Hard to measure real impact",
+          "Developers asking for Cursor or Claude Code instead",
+          "Unclear billing with premium requests"
+        ]
+      },
+      {
+        "name": "Student or hobby coder",
+        "description": "A college student learning to code who uses the free tier or the free student plan.",
+        "goals": [
+          "Learn faster with explanations",
+          "Finish projects",
+          "Pay nothing"
+        ],
+        "frustrations": [
+          "Free limits are small",
+          "Can become a crutch instead of learning",
+          "Wrong code that looks right"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Writing repetitive code, tests and boilerplate takes a lot of time.",
+        "howSolved": "Completion suggests it as you type; Chat can write tests for a whole file.",
+        "severity": "high"
+      },
+      {
+        "pain": "Understanding unfamiliar or old code is slow.",
+        "howSolved": "Ask Copilot Chat to explain a function or a whole repository.",
+        "severity": "high"
+      },
+      {
+        "pain": "Small bugs and chores sit in the backlog for weeks.",
+        "howSolved": "Assign the issue to the Copilot coding agent, which opens a pull request.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Companies cannot let developers use random AI tools with private code.",
+        "howSolved": "Copilot Business and Enterprise offer admin controls, no training on company code, and IP protection.",
+        "severity": "high"
+      },
+      {
+        "pain": "Switching between editor, browser and docs breaks focus.",
+        "howSolved": "Answers come right inside VS Code and GitHub.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Code completions",
+        "whatItDoes": "Inline suggestions as you type, including 'next edit suggestions' that predict where you will edit next.",
+        "whyItMatters": "The original habit-forming feature; it is used many times an hour."
+      },
+      {
+        "feature": "Copilot Chat",
+        "whatItDoes": "Ask questions, generate code and tests, and explain errors in the editor or on github.com.",
+        "whyItMatters": "Moves Copilot from typing help to a thinking partner."
+      },
+      {
+        "feature": "Agent mode",
+        "whatItDoes": "Makes multi-file changes, runs terminal commands and fixes its own errors in the editor.",
+        "whyItMatters": "Matches what Cursor and Claude Code offer; key to keeping developers from switching."
+      },
+      {
+        "feature": "Copilot coding agent",
+        "whatItDoes": "Works on assigned GitHub issues in the background and opens pull requests.",
+        "whyItMatters": "Uses GitHub's unique position: it owns issues, pull requests and Actions."
+      },
+      {
+        "feature": "Model choice and Agent HQ",
+        "whatItDoes": "Pick models from OpenAI, Anthropic and Google, and manage several coding agents from one place on GitHub.",
+        "whyItMatters": "Turns GitHub into the home for all coding agents, not just its own."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Company rollout",
+        "persona": "Engineering manager",
+        "steps": [
+          {
+            "step": "Developers ask for AI",
+            "detail": "Team wants an AI tool; security wants control."
+          },
+          {
+            "step": "Trial",
+            "detail": "Starts a free 30-day Copilot Business trial for 20 developers."
+          },
+          {
+            "step": "Set policies",
+            "detail": "Admin blocks public code matches and picks allowed models."
+          },
+          {
+            "step": "Measure",
+            "detail": "Checks acceptance rate and pull request times in the metrics dashboard."
+          },
+          {
+            "step": "Buy",
+            "detail": "Pays $19 per user a month for all 40 developers."
+          },
+          {
+            "step": "Upgrade",
+            "detail": "Moves to Enterprise at $39 for the coding agent and custom knowledge."
+          }
+        ]
+      },
+      {
+        "name": "Daily coding",
+        "persona": "Professional developer at a large company",
+        "steps": [
+          {
+            "step": "Opens VS Code",
+            "detail": "Copilot is already signed in through GitHub."
+          },
+          {
+            "step": "Writes a function",
+            "detail": "Accepts several suggestions with Tab."
+          },
+          {
+            "step": "Hits an error",
+            "detail": "Asks Chat to explain and fix it."
+          },
+          {
+            "step": "Uses agent mode",
+            "detail": "Asks it to add a new API endpoint across 5 files."
+          },
+          {
+            "step": "Reviews diff",
+            "detail": "Checks and edits the changes."
+          },
+          {
+            "step": "Opens pull request",
+            "detail": "Copilot writes the PR description and review comments."
+          }
+        ]
+      },
+      {
+        "name": "Backlog cleanup",
+        "persona": "Engineering manager",
+        "steps": [
+          {
+            "step": "Picks small issues",
+            "detail": "Finds 10 small bugs in the backlog."
+          },
+          {
+            "step": "Assigns to Copilot",
+            "detail": "Sets Copilot as the assignee on each issue."
+          },
+          {
+            "step": "Agent works",
+            "detail": "Copilot writes code and runs tests in GitHub Actions."
+          },
+          {
+            "step": "Review",
+            "detail": "Developers review the pull requests and ask for changes in comments."
+          },
+          {
+            "step": "Merge",
+            "detail": "Merges the good ones; backlog shrinks."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "GitHub makes money from Copilot through monthly subscriptions per user, mostly from companies. Plans include a set number of 'premium requests' for advanced models and agents, and extra requests are billed by use. Copilot also makes GitHub's other paid products, like Enterprise and Actions, more valuable.",
+      "revenueStreams": [
+        {
+          "stream": "Business and Enterprise seats",
+          "detail": "$19 and $39 per user a month; the biggest revenue source."
+        },
+        {
+          "stream": "Individual plans",
+          "detail": "Pro at $10 and Pro+ at $39 a month."
+        },
+        {
+          "stream": "Premium request overages",
+          "detail": "$0.04 per extra request beyond plan limits."
+        },
+        {
+          "stream": "GitHub Actions minutes",
+          "detail": "Coding agent runs on Actions, which drives compute usage."
+        },
+        {
+          "stream": "Bundles with Microsoft",
+          "detail": "Sold alongside Azure and Microsoft enterprise deals."
+        }
+      ],
+      "pricing": "Free: limited completions and chats a month. Pro: $10 a month. Pro+: $39 a month. Business: $19 per user a month. Enterprise: $39 per user a month. Extra premium requests: $0.04 each. Free for verified students, teachers and popular open-source maintainers.",
+      "costDrivers": [
+        "Model inference costs, including payments to OpenAI, Anthropic and Google",
+        "Compute for the coding agent in GitHub Actions",
+        "Engineering for editor plugins across VS Code, JetBrains, Visual Studio, Xcode and others",
+        "Free users and free student plans",
+        "Sales and support for enterprise"
+      ],
+      "unitEconomics": "A Business seat pays $19 a month. A light user who mostly uses completions may cost a few dollars in compute, so the seat is profitable. A heavy user running agent mode with top models all day could cost more than $19, which is why GitHub added premium request limits and $0.04 overage charges in 2025. Profit depends on the mix: many light users in a big company pay for the few heavy ones."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Built into GitHub, used by over 100 million developers",
+        "Default AI in VS Code, the most popular code editor",
+        "Microsoft enterprise sales bundles",
+        "Free tier and free plans for students and open-source maintainers",
+        "Word of mouth from the first mass AI coding tool"
+      ],
+      "whatBringsUsersBack": [
+        "Completions used dozens of times every hour",
+        "Tied to GitHub workflow: issues, pull requests, code review",
+        "Company pays, so developers do not cancel",
+        "New models added quickly"
+      ],
+      "moat": "GitHub owns where code lives and where teams work together: repositories, issues, pull requests and Actions. Copilot can act on all of that directly. Enterprise contracts and security approvals make it the safe default. But the editor experience can be copied, and rivals like Cursor have moved faster on AI features."
+    },
+    "competitors": [
+      {
+        "name": "Cursor",
+        "positioning": "AI-first code editor, a fork of VS Code, loved for speed and agent features.",
+        "howThisProductDiffers": "Cursor often ships AI features first and feels faster; Copilot is cheaper, works in many editors and has GitHub integration."
+      },
+      {
+        "name": "Claude Code (Anthropic)",
+        "positioning": "Terminal-based coding agent that handles big tasks.",
+        "howThisProductDiffers": "Claude Code is strong for autonomous work; Copilot offers Claude models inside its own product and GitHub workflow."
+      },
+      {
+        "name": "OpenAI Codex",
+        "positioning": "Cloud coding agent and CLI from OpenAI.",
+        "howThisProductDiffers": "Similar agent idea; Copilot has GitHub's repositories and enterprise trust."
+      },
+      {
+        "name": "Windsurf and Google Antigravity",
+        "positioning": "Other AI coding editors.",
+        "howThisProductDiffers": "Copilot has more enterprise customers; rivals compete on new agent experiences."
+      },
+      {
+        "name": "Amazon Q Developer",
+        "positioning": "AWS's coding assistant.",
+        "howThisProductDiffers": "Q is strongest for AWS users; Copilot is broader and more widely used."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly accepted code changes per active developer (completions, edits and merged agent pull requests)",
+      "why": "Accepted and merged code means Copilot did useful work that a developer chose to keep. It measures real value, not just usage. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active developers",
+        "description": "People using Copilot each week.",
+        "children": [
+          {
+            "metric": "Seat activation rate",
+            "description": "Share of paid seats used weekly."
+          },
+          {
+            "metric": "Free to paid conversion",
+            "description": "Free users moving to Pro."
+          },
+          {
+            "metric": "Editor coverage",
+            "description": "Share of usage outside VS Code (JetBrains, Xcode), widening reach."
+          }
+        ]
+      },
+      {
+        "metric": "Completion value",
+        "description": "Quality of inline suggestions.",
+        "children": [
+          {
+            "metric": "Acceptance rate",
+            "description": "Share of suggestions accepted."
+          },
+          {
+            "metric": "Suggestion latency",
+            "description": "Time to show a suggestion; slow ones get ignored."
+          }
+        ]
+      },
+      {
+        "metric": "Agent value",
+        "description": "Agent mode and coding agent results.",
+        "children": [
+          {
+            "metric": "Agent pull request merge rate",
+            "description": "Share of agent PRs merged."
+          },
+          {
+            "metric": "Agent tasks per user per week",
+            "description": "How often developers hand off work."
+          },
+          {
+            "metric": "Task completion without human fix",
+            "description": "Agent finishes without major edits."
+          }
+        ]
+      },
+      {
+        "metric": "Retention",
+        "description": "Keeping developers and companies.",
+        "children": [
+          {
+            "metric": "Seat renewal rate",
+            "description": "Companies renewing licences."
+          },
+          {
+            "metric": "Developer switching to rivals",
+            "description": "Survey share moving to Cursor or Claude Code."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Security vulnerabilities in accepted code",
+      "Compute cost per active seat",
+      "Bugs introduced by agent pull requests",
+      "Developer satisfaction score"
+    ],
+    "strengths": [
+      "Owns GitHub, where most code and teamwork live",
+      "Largest installed base of any AI coding tool",
+      "Trusted by enterprises, with Microsoft sales",
+      "Lower price than most rivals",
+      "Multi-model: offers OpenAI, Anthropic and Google models"
+    ],
+    "weaknesses": [
+      "Seen as slower to ship new AI features than Cursor",
+      "Depends on other companies' models for quality",
+      "Premium request limits confused and annoyed users",
+      "Agent quality varies by task",
+      "Leadership changes after GitHub was folded deeper into Microsoft in 2025"
+    ],
+    "risks": [
+      "Cursor and Claude Code winning developers' hearts, then their companies",
+      "Model providers like Anthropic and OpenAI competing directly with their own tools",
+      "Rising model costs squeezing margins",
+      "Legal questions about AI trained on public code",
+      "Developers getting free AI tools bundled elsewhere"
+    ],
+    "userComplaints": [
+      "Agent mode slower or less smart than Cursor or Claude Code",
+      "Premium request limits run out and overage billing is confusing",
+      "Wrong or outdated code suggestions",
+      "Context limits mean it misses parts of big codebases",
+      "Features arrive in VS Code first, other editors later"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear in-editor meter showing premium requests used and left, with a cost preview before big agent runs",
+        "problem": "Users are surprised by limits and overage bills.",
+        "expectedImpact": "Fewer complaints and more trust in upgrading.",
+        "metricToTrack": "Support tickets about billing and Pro+ upgrades",
+        "effort": "low"
+      },
+      {
+        "idea": "Repository-wide memory that learns team conventions from past pull requests",
+        "problem": "Suggestions ignore team style and miss context in big codebases.",
+        "expectedImpact": "Higher acceptance rate and fewer edits.",
+        "metricToTrack": "Acceptance rate and agent PR merge rate",
+        "effort": "high"
+      },
+      {
+        "idea": "Agent impact report for managers showing time saved and PRs merged by Copilot",
+        "problem": "Managers struggle to prove value, and developers ask for rivals.",
+        "expectedImpact": "Easier renewals and upgrades to Enterprise.",
+        "metricToTrack": "Seat renewal and Enterprise upgrade rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Faster release train: ship new agent features to all editors within 30 days",
+        "problem": "Developers see Copilot as behind Cursor.",
+        "expectedImpact": "Fewer developers switching.",
+        "metricToTrack": "Developer switching rate in surveys",
+        "effort": "medium"
+      },
+      {
+        "idea": "Regional pricing for India and other emerging markets",
+        "problem": "$10 a month is expensive for many Indian developers and students after graduation.",
+        "expectedImpact": "More paying individual users in fast-growing developer markets.",
+        "metricToTrack": "Paid individual users in India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Being first is not enough. Copilot started the category, but Cursor won many fans by moving faster.",
+      "Own the workflow. GitHub's issues and pull requests let Copilot do things editor-only tools cannot.",
+      "Pricing must match costs. Agent features cost more to run, so GitHub had to add usage limits, which upset users.",
+      "Enterprise trust is a growth engine. Security controls let Copilot spread through big companies.",
+      "Measure accepted work, not suggestions shown."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Cursor is winning developers who used to use Copilot. What would you do as Copilot PM?",
+        "hint": "Find why they switch: speed, agent quality, UX. Use surveys and churn data. Prioritise fixes, use GitHub's unique strengths, and set a metric like switching rate."
+      },
+      {
+        "question": "How would you measure Copilot's impact on developer productivity?",
+        "hint": "Mix output (PRs merged, cycle time), quality (bugs, reverts) and experience (surveys). Use test and control teams."
+      },
+      {
+        "question": "Should Copilot charge per seat or per use?",
+        "hint": "Seat is simple for buyers; use matches cost. Consider hybrid with included requests. Think about heavy and light users and enterprise budgets."
+      },
+      {
+        "question": "Design the experience for assigning an issue to the Copilot coding agent.",
+        "hint": "Walk through: picking issues, setting expectations, progress updates, review and feedback. Define success as merge rate and time saved."
+      },
+      {
+        "question": "Copilot lets users choose models from OpenAI, Anthropic and Google. Is that a good strategy?",
+        "hint": "Pros: best model always, less dependency. Cons: cost, confusion, rivals gaining bargaining power. Suggest a smart default with an advanced option."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Pull request",
+        "meaning": "A proposed code change that teammates review before it is added to the main code."
+      },
+      {
+        "term": "Agent",
+        "meaning": "AI that can plan and carry out a task with several steps, like editing files and running tests."
+      },
+      {
+        "term": "Premium requests",
+        "meaning": "Copilot's monthly allowance for using advanced models and agents; extra ones cost money."
+      },
+      {
+        "term": "Acceptance rate",
+        "meaning": "The share of AI code suggestions developers keep."
+      },
+      {
+        "term": "Seat",
+        "meaning": "One user licence paid for each month."
+      },
+      {
+        "term": "Inference",
+        "meaning": "Running an AI model to produce an answer, which costs compute each time."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that protects a business from being copied."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows the product delivers value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you grow."
+      },
+      {
+        "term": "Backlog",
+        "meaning": "The list of work a team has not done yet."
+      }
+    ],
+    "assumptions": [
+      "Paid subscriber and revenue numbers for 2026 are not public; we avoided giving a precise figure.",
+      "Per-seat compute cost is our estimate.",
+      "Market share figures come from third-party surveys that differ in method.",
+      "India rupee price is a rough conversion; GitHub bills in dollars.",
+      "The north star metric is our suggestion."
+    ]
+  }
+}

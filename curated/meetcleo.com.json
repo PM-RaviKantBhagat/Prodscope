@@ -1,0 +1,514 @@
+{
+  "company": "Cleo",
+  "domain": "meetcleo.com",
+  "website": "https://web.meetcleo.com",
+  "sources": [
+    "https://sacra.com/c/cleo",
+    "https://www.arr.club/cleo/cleo-reaches-280m-arr",
+    "https://dealroom.co/news/134420-gto-for-your-financial-life-inside-cleo-s-400m-arr-bet-on-agentic-money-/",
+    "https://www.aol.com/news/cleo-ai-pay-17-million-140718925.html",
+    "https://www.ftc.gov/system/files/ftc_gov/pdf/cleo_ai_redacted_complaint_2025.03.27.pdf",
+    "https://thenextweb.com/news/cleo-launches-ai-money-coach-fix-spending-habits",
+    "https://sifted.eu/articles/ai-fintech-cleo-return-uk",
+    "https://apps.apple.com/app/id1447274646"
+  ],
+  "report": {
+    "company": "Cleo",
+    "tagline": "A chat-based money app with a cheeky AI personality that helps young Americans budget, save and get small cash advances before payday.",
+    "category": "AI money coach",
+    "simpleSummary": "Cleo is an app you talk to about your money, like texting a funny, honest friend. You link your bank account, then ask things like 'can I afford pizza tonight?' and Cleo answers using your real spending. If you choose 'roast mode', it teases you about your takeaway habit. If you are short before payday, a paid plan lets you borrow a small amount, like $50 to $250, with no interest.",
+    "keyNumbers": [
+      {
+        "label": "Annual recurring revenue",
+        "value": "About $280 million",
+        "note": "ARR.club and Sacra, 2025 to 2026. Cleo said it doubled revenue in a year and became profitable. Reports in 2026 describe a push toward $400 million ARR. Private company, so treat as estimate."
+      },
+      {
+        "label": "Profitability",
+        "value": "Profitable",
+        "note": "Company statements reported by ARR.club, 2025. Not audited public numbers."
+      },
+      {
+        "label": "FTC settlement",
+        "value": "$17 million",
+        "note": "US Federal Trade Commission, March 2025, over claims about cash advance amounts and hard-to-cancel subscriptions. FTC later sent about $15.8 million in refunds (2026 reports)."
+      },
+      {
+        "label": "Main market",
+        "value": "US, most revenue",
+        "note": "Cleo moved its focus from the UK to the US in 2019 and has since returned to the UK (Sifted)."
+      },
+      {
+        "label": "Paid plans",
+        "value": "$5.99 to $14.99 a month",
+        "note": "Cleo Plus and Cleo Builder prices from the app store listing; prices change."
+      },
+      {
+        "label": "Users",
+        "value": "Several million",
+        "note": "Estimate. Cleo has claimed over 7 million users over its life; active and paying numbers are not public."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Cleo is a money app built around a chat window. It reads your bank transactions through a secure connection and uses AI to answer questions, set budgets, nudge you to save and warn you about bills. It makes money mostly from subscriptions that unlock cash advances and credit building.",
+      "howItWorks": [
+        "You download the app and connect your bank account through Plaid, so Cleo can see your balance and transactions.",
+        "You chat with Cleo. It answers money questions, shows where your money went, and can be in 'hype' or 'roast' mode.",
+        "Cleo sets a budget, tracks bills and can move small amounts into savings automatically.",
+        "On a paid plan, you can get a cash advance, usually a small amount at first, which grows as you repay on time.",
+        "The advance is repaid automatically from your next paycheck. Instant delivery costs an extra fee; standard delivery is free but slower.",
+        "Cleo Builder adds a secured credit card that reports to credit bureaus to help build your credit score."
+      ],
+      "valueProposition": "Money help that feels like talking to a friend, not a bank, plus a small safety net before payday, for people who would otherwise pay overdraft fees."
+    },
+    "personas": [
+      {
+        "name": "Gen Z paycheck-to-paycheck worker",
+        "description": "20 to 28, works retail or gig jobs in the US, often runs low before payday.",
+        "goals": [
+          "Avoid overdraft fees",
+          "Get $100 to make it to Friday",
+          "Understand where money goes"
+        ],
+        "frustrations": [
+          "Bank overdraft fees of $35",
+          "Advance limits lower than advertised",
+          "Subscription fees add up"
+        ]
+      },
+      {
+        "name": "Budget-curious student",
+        "description": "College student who wants to spend less on takeaways and clothes.",
+        "goals": [
+          "A fun way to budget",
+          "Small savings goals"
+        ],
+        "frustrations": [
+          "Budgeting apps feel boring",
+          "Too many notifications"
+        ]
+      },
+      {
+        "name": "Credit builder",
+        "description": "Has a low or thin credit score and wants to rent an apartment or get a car loan.",
+        "goals": [
+          "Raise credit score",
+          "Get a card without a hard credit check"
+        ],
+        "frustrations": [
+          "Declined by banks",
+          "Not sure how credit scores work"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Running out of money days before payday and paying overdraft fees.",
+        "howSolved": "Small cash advances with no interest on a paid plan.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing where your money goes.",
+        "howSolved": "Chat answers and spending breakdowns from real bank data.",
+        "severity": "high"
+      },
+      {
+        "pain": "Budgeting apps are dull, so people stop using them.",
+        "howSolved": "A funny personality, roast mode and memes keep people engaged.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Saving feels impossible on a tight income.",
+        "howSolved": "Auto-save of small amounts and savings challenges.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Low credit score blocks renting and borrowing.",
+        "howSolved": "Credit builder card that reports to bureaus.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Surprise bills and subscriptions drain accounts.",
+        "howSolved": "Bill tracking and alerts before payments go out.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "AI chat money coach",
+        "whatItDoes": "Answers money questions in chat or voice using your bank data, with memory of past conversations in Cleo 3.0.",
+        "whyItMatters": "The product's identity and daily hook; it builds trust and engagement."
+      },
+      {
+        "feature": "Roast and hype modes",
+        "whatItDoes": "Cleo teases you about spending or cheers your progress.",
+        "whyItMatters": "Makes budgeting shareable on TikTok and drives free growth."
+      },
+      {
+        "feature": "Cash advance",
+        "whatItDoes": "Small interest-free advances repaid from the next paycheck, on a paid plan.",
+        "whyItMatters": "The main reason people pay. It drives most revenue."
+      },
+      {
+        "feature": "Autosave and savings goals",
+        "whatItDoes": "Moves small amounts into savings based on spending.",
+        "whyItMatters": "Delivers real value and keeps users opening the app."
+      },
+      {
+        "feature": "Cleo Builder",
+        "whatItDoes": "Secured credit card to build credit history.",
+        "whyItMatters": "Higher-priced plan and a long-term reason to stay."
+      },
+      {
+        "feature": "Bill and subscription alerts",
+        "whatItDoes": "Warns before bills hit and spots subscriptions.",
+        "whyItMatters": "Prevents overdrafts and shows Cleo saves money."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First cash advance",
+        "persona": "Gen Z paycheck-to-paycheck worker",
+        "steps": [
+          {
+            "step": "Sees a TikTok",
+            "detail": "Watches a creator get roasted by Cleo and downloads the app."
+          },
+          {
+            "step": "Links bank",
+            "detail": "Connects a checking account through Plaid."
+          },
+          {
+            "step": "Chats",
+            "detail": "Asks 'how much did I spend on Uber Eats?' and laughs at the answer."
+          },
+          {
+            "step": "Checks advance",
+            "detail": "Sees an offer for an advance if they join Cleo Plus."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Pays $5.99 a month and requests $50."
+          },
+          {
+            "step": "Chooses delivery",
+            "detail": "Pays an express fee for instant money, or waits a few days for free."
+          },
+          {
+            "step": "Repays",
+            "detail": "Cleo pulls the $50 back on payday; the limit may grow next time."
+          }
+        ]
+      },
+      {
+        "name": "Building a budget",
+        "persona": "Budget-curious student",
+        "steps": [
+          {
+            "step": "Links bank",
+            "detail": "Connects account in the app."
+          },
+          {
+            "step": "Gets a spending summary",
+            "detail": "Cleo shows top categories for the month."
+          },
+          {
+            "step": "Sets a budget",
+            "detail": "Agrees a weekly limit for eating out."
+          },
+          {
+            "step": "Gets nudges",
+            "detail": "Receives messages when close to the limit."
+          },
+          {
+            "step": "Saves leftovers",
+            "detail": "Turns on autosave for spare cash."
+          }
+        ]
+      },
+      {
+        "name": "Raising a credit score",
+        "persona": "Credit builder",
+        "steps": [
+          {
+            "step": "Upgrades to Builder",
+            "detail": "Pays about $14.99 a month for Cleo Builder."
+          },
+          {
+            "step": "Funds card",
+            "detail": "Moves money in as the card's security."
+          },
+          {
+            "step": "Uses card",
+            "detail": "Spends small amounts and pays automatically."
+          },
+          {
+            "step": "Reports",
+            "detail": "Cleo reports on-time payments to credit bureaus."
+          },
+          {
+            "step": "Tracks score",
+            "detail": "Watches the score rise in the app."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Cleo makes money from monthly subscriptions, mainly bought to unlock cash advances, plus express fees for instant transfers. The chat and budgeting are the free hook; the advance is what people pay for.",
+      "revenueStreams": [
+        {
+          "stream": "Cleo Plus subscription",
+          "detail": "About $5.99 a month for cash advances, credit score tracking and more."
+        },
+        {
+          "stream": "Cleo Builder subscription",
+          "detail": "About $14.99 a month for the credit builder card plus Plus features."
+        },
+        {
+          "stream": "Express transfer fees",
+          "detail": "A few dollars to get an advance instantly instead of waiting."
+        },
+        {
+          "stream": "Interchange",
+          "detail": "A small fee the shop's bank pays when the Cleo card is used."
+        }
+      ],
+      "pricing": "Free app with chat and budgeting. Cleo Plus about $5.99 a month; Cleo Builder about $14.99 a month. Express fee for instant advances varies by amount. Prices from app store listings; check the app for current pricing.",
+      "costDrivers": [
+        "Losses on cash advances that are never repaid",
+        "Cost of moving money (payment processors and bank fees)",
+        "Paid marketing on TikTok, Instagram and app stores",
+        "AI model costs for chat",
+        "Compliance and legal costs, including the FTC case"
+      ],
+      "unitEconomics": "Take one Cleo Plus subscriber who takes a $100 advance each month. Cleo earns $5.99 in subscription and maybe $4 in express fees, about $10 a month or $120 a year. It loses some advances: if 5% to 10% are not repaid, that costs $5 to $10 a month. Moving money costs about $0.50 to $1. So a typical subscriber may bring $2 to $4 a month of profit before marketing. Paid marketing might cost $20 to $40 per subscriber, so Cleo needs subscribers to stay many months. This is why the FTC case about cancellation mattered: easy cancelling lowers how long subscribers stay."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TikTok and Instagram clips of roast mode going viral",
+        "Paid social ads aimed at young US users",
+        "App store search for 'cash advance app' and 'budget app'",
+        "Referrals and word of mouth among friends"
+      ],
+      "whatBringsUsersBack": [
+        "Payday cycle: users come back every pay period for an advance",
+        "Daily balance and spending messages",
+        "Chat memory, so Cleo knows your goals",
+        "Growing advance limits as you repay on time"
+      ],
+      "moat": "A strong brand voice that young users love and share, plus years of data on who repays small advances. The chat personality is hard to copy without sounding fake, and the repayment data helps set limits safely."
+    },
+    "competitors": [
+      {
+        "name": "Dave",
+        "positioning": "US cash advance app with ExtraCash and a bank account.",
+        "howThisProductDiffers": "Cleo leads with chat and personality; Dave is more of a banking app."
+      },
+      {
+        "name": "Brigit",
+        "positioning": "Cash advances and credit building with a subscription.",
+        "howThisProductDiffers": "Similar money model; Cleo has a stronger brand with Gen Z."
+      },
+      {
+        "name": "EarnIn",
+        "positioning": "Lets workers access earned wages before payday, tip-based.",
+        "howThisProductDiffers": "EarnIn ties to hours worked; Cleo uses bank data and subscriptions."
+      },
+      {
+        "name": "Chime",
+        "positioning": "Large US app bank with SpotMe fee-free overdraft.",
+        "howThisProductDiffers": "Chime is a full account; Cleo sits on top of the user's existing bank."
+      },
+      {
+        "name": "ChatGPT and bank chatbots",
+        "positioning": "General AI or bank assistants that can answer money questions.",
+        "howThisProductDiffers": "Cleo sees real bank data and can move money and give advances."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of users who ended the month without an overdraft or missed bill",
+      "why": "Cleo's promise is to help people get through the month. This metric tracks that outcome directly, rather than just advances taken or subscriptions sold. That is what makes it a good north star metric: it moves only when customers get real value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Engaged users",
+        "description": "Users who chat or check money weekly.",
+        "children": [
+          {
+            "metric": "Bank link rate",
+            "description": "Share of downloads that connect a bank; without it Cleo is useless."
+          },
+          {
+            "metric": "Weekly chat sessions per user",
+            "description": "Engagement with the coach."
+          },
+          {
+            "metric": "Notification open rate",
+            "description": "Shows if nudges are useful."
+          }
+        ]
+      },
+      {
+        "metric": "Healthy money behaviours",
+        "description": "Users saving and staying within budget.",
+        "children": [
+          {
+            "metric": "Autosave adoption",
+            "description": "Share of users with autosave on."
+          },
+          {
+            "metric": "Budget adherence",
+            "description": "Share of users staying within their set budget."
+          },
+          {
+            "metric": "Bill alert accuracy",
+            "description": "Alerts that came before a real bill."
+          }
+        ]
+      },
+      {
+        "metric": "Safe advance use",
+        "description": "Advances repaid on time.",
+        "children": [
+          {
+            "metric": "Repayment rate",
+            "description": "Share of advances repaid on payday."
+          },
+          {
+            "metric": "Repeat advance dependency",
+            "description": "Users taking an advance every cycle, a warning sign."
+          },
+          {
+            "metric": "Limit growth",
+            "description": "Users earning higher limits by repaying."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Ease of cancelling subscriptions (time and steps)",
+      "Complaints to regulators like the FTC and CFPB",
+      "Advance default rate",
+      "Share of users stuck in advance cycles"
+    ],
+    "strengths": [
+      "Memorable brand voice that drives free viral growth",
+      "Profitable with fast revenue growth",
+      "Deep data on bank transactions and repayment",
+      "Early mover in AI money coaching"
+    ],
+    "weaknesses": [
+      "Revenue depends on cash advances to people with tight budgets",
+      "FTC case damaged trust around cancellation and advance limits",
+      "Relies on third-party bank connections like Plaid",
+      "Advance limits often lower than users expect"
+    ],
+    "risks": [
+      "US regulators treating cash advances like loans with stricter rules",
+      "Banks offering free overdraft buffers",
+      "General AI assistants adding bank data access",
+      "Rising credit losses in a downturn"
+    ],
+    "userComplaints": [
+      "Advance amount much lower than advertised",
+      "Hard to cancel the subscription (central to the FTC case)",
+      "Express fees feel expensive for small advances",
+      "Bank connection breaks and needs re-linking",
+      "Pushy upsells to paid plans"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "One-tap cancel and pause inside chat",
+        "problem": "Hard cancellation hurt trust and led to the FTC case.",
+        "expectedImpact": "Better trust and fewer complaints; paused users come back.",
+        "metricToTrack": "Cancellation time and return rate of paused users",
+        "effort": "low"
+      },
+      {
+        "idea": "Show the exact advance amount before asking for payment",
+        "problem": "Users pay and then get less than expected.",
+        "expectedImpact": "Fewer refund requests and complaints.",
+        "metricToTrack": "Refund requests per new subscriber",
+        "effort": "low"
+      },
+      {
+        "idea": "Advance-free streak rewards",
+        "problem": "Some users get stuck taking advances every payday.",
+        "expectedImpact": "Healthier users who stay longer as subscribers.",
+        "metricToTrack": "Share of users breaking the advance cycle",
+        "effort": "medium"
+      },
+      {
+        "idea": "Paycheck split coaching with employer direct deposit",
+        "problem": "Users run short because bills hit before pay.",
+        "expectedImpact": "Fewer overdrafts.",
+        "metricToTrack": "Overdraft-free months per user",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A product's voice can be a growth engine. Cleo's personality made budgeting shareable.",
+      "The free hook (chat) and the paid product (advances) can be different; know what people pay for.",
+      "Dark patterns like hard cancellation can bring short-term revenue but cost trust and fines.",
+      "In money products for low-income users, design for good outcomes, not just usage."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow Cleo revenue without making users more dependent on advances?",
+        "hint": "Find other paid value: credit building, savings, bill negotiation. Track advance cycles as a guardrail. Talk about long-term retention."
+      },
+      {
+        "question": "Cleo was fined by the FTC. How would you redesign the subscription flow?",
+        "hint": "Clear pricing, exact advance amount, easy cancel, reminders. Measure trust and complaints, not just conversion."
+      },
+      {
+        "question": "How do you measure if the AI coach is actually helping?",
+        "hint": "Outcome metrics: fewer overdrafts, savings growth, budget adherence. Compare users who chat with those who do not."
+      },
+      {
+        "question": "Should Cleo launch in India?",
+        "hint": "Look at UPI, account aggregator data, regulation of lending apps by RBI, and how people borrow. Discuss what to localise."
+      },
+      {
+        "question": "ChatGPT can now read bank data. How does Cleo stay relevant?",
+        "hint": "Focus on actions (advances, savings), trust, personality and data history. Consider partnerships."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "ARR",
+        "meaning": "Annual recurring revenue: how much subscription revenue a company would make in a year at its current rate."
+      },
+      {
+        "term": "Cash advance",
+        "meaning": "A small amount of money given before payday and paid back from the next pay."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A small fee the shop's bank pays the card issuer each time a card is used."
+      },
+      {
+        "term": "Dark patterns",
+        "meaning": "Design tricks that push users into choices they did not mean to make, like hard-to-find cancel buttons."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of customers who keep using or paying for a product over time."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to measure the value it delivers to users."
+      },
+      {
+        "term": "Plaid",
+        "meaning": "A service that lets apps connect securely to a user's bank account to read transactions."
+      }
+    ],
+    "assumptions": [
+      "ARR and profitability are company claims reported by third parties, not audited figures.",
+      "User numbers are an estimate.",
+      "The unit economics use estimated default rates, express fees and marketing costs.",
+      "Plan prices may differ by app version and over time."
+    ]
+  }
+}

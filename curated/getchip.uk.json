@@ -1,0 +1,242 @@
+{
+  "company": "Chip",
+  "domain": "getchip.uk",
+  "website": "https://getchip.uk",
+  "sources": [
+    "https://getchip.uk/news-room/chip-hits-ps3-billion-in-total-deposits",
+    "https://finextra.com/newsarticle/43290/chip-reports-first-profitable-quarter",
+    "https://ffnews.com/newsarticle/fintech/wealth-app-chip-celebrates-first-profitable-quarter/",
+    "https://apps.apple.com/gb/app/chip-savings-and-investments/id1141297472",
+    "https://www.cbinsights.com/company/chip-financial"
+  ],
+  "report": {
+    "company": "Chip",
+    "tagline": "A UK savings and investing app that uses an algorithm to move small amounts from your bank account into savings automatically.",
+    "category": "Savings",
+    "simpleSummary": "Chip is an app that saves money for you. You connect your bank account, and Chip looks at your income and spending, then quietly moves small amounts it thinks you can afford into savings. Those savings earn interest in accounts held with partner banks. You can also invest in funds, open ISAs, or try a prize savings account where you can win cash.",
+    "keyNumbers": [
+      { "label": "Total deposits", "value": "£3 billion", "note": "Chip news room, February 2026, up from £1 billion at an earlier milestone. Next target is £5 billion." },
+      { "label": "Profitability", "value": "First profitable quarter reported", "note": "Finextra and FF News, around early 2025. Full-year profitability not confirmed in our sources." },
+      { "label": "Founded", "value": "2016, London", "note": "Company history; founded by Simon Rogerson." },
+      { "label": "Funding", "value": "Raised heavily through crowdfunding plus venture capital", "note": "Chip ran several crowdfunding rounds where its own users bought shares. Exact total not confirmed here; CB Insights lists its rounds." },
+      { "label": "Customers", "value": "Not public; estimated several hundred thousand active savers", "note": "Estimate. Chip has not published a recent user count in our sources." }
+    ],
+    "overview": {
+      "whatItDoes": "Chip helps people save without thinking. Its auto-save feature studies your bank data and moves affordable amounts into a Chip savings pot. It offers easy-access savings, Cash ISAs, a prize savings account, and investment funds and ISAs. It earns from a share of interest, a paid plan, and fees on investments.",
+      "howItWorks": [
+        "You download the app and connect your current account through open banking, which lets Chip read your transactions safely.",
+        "Chip's algorithm looks at your balance, income and bills, then picks an amount to save every few days.",
+        "You can set how aggressive auto-save is, add one-off deposits, or set regular saves on payday.",
+        "Savings sit in accounts with partner banks and are protected up to £85,000 by FSCS.",
+        "You can move money into investment funds or a stocks and shares ISA from the same app.",
+        "A paid plan, ChipX, unlocks more auto-save options and extra features."
+      ],
+      "valueProposition": "Saving happens automatically at a pace you can afford, so you build a pot without having to remember or decide each time."
+    },
+    "personas": [
+      {
+        "name": "Forgetful saver",
+        "description": "25 to 35, salaried, means to save but never gets round to it.",
+        "goals": ["Save without effort", "Build an emergency fund"],
+        "frustrations": ["Forgets to move money", "Gets nervous when auto-save moves too much"]
+      },
+      {
+        "name": "Rate hunter",
+        "description": "Keeps money where interest is best and moves it often.",
+        "goals": ["High easy-access rate", "Quick withdrawals"],
+        "frustrations": ["Rates cut after moving in", "Withdrawals taking a day"]
+      },
+      {
+        "name": "Curious first investor",
+        "description": "Has savings and wants to try investing with small amounts.",
+        "goals": ["Simple fund choices", "Invest inside an ISA"],
+        "frustrations": ["Unclear fees", "Fear of losing money"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "People forget or avoid saving.", "howSolved": "Auto-save moves money automatically based on what you can afford.", "severity": "high" },
+      { "pain": "Saving too much at once can leave you short.", "howSolved": "The algorithm checks your balance and income before saving, and you can control the pace.", "severity": "high" },
+      { "pain": "Big banks pay low interest on easy-access savings.", "howSolved": "Competitive rates through partner bank accounts.", "severity": "medium" },
+      { "pain": "Saving feels boring.", "howSolved": "Prize savings account with cash prizes and savings challenges.", "severity": "low" },
+      { "pain": "Starting to invest feels hard.", "howSolved": "A curated list of funds and ISAs in the same app.", "severity": "medium" },
+      { "pain": "Hard to see all your money in one place.", "howSolved": "Net worth tracking across accounts.", "severity": "low" }
+    ],
+    "coreFeatures": [
+      { "feature": "Auto-save", "whatItDoes": "Algorithm moves small amounts every few days based on your bank data.", "whyItMatters": "The core idea; it brings in deposits without user effort." },
+      { "feature": "Easy-access savings", "whatItDoes": "Interest-bearing savings through partner banks.", "whyItMatters": "Where most deposits sit; Chip earns a share of interest." },
+      { "feature": "Cash ISA and stocks and shares ISA", "whatItDoes": "Tax-free savings and investing.", "whyItMatters": "Brings larger balances and stickier customers." },
+      { "feature": "Prize savings account", "whatItDoes": "Your money earns a chance to win cash prizes instead of or alongside interest.", "whyItMatters": "Makes saving fun and stands out from banks." },
+      { "feature": "Investment funds", "whatItDoes": "Funds from big managers like BlackRock and Vanguard.", "whyItMatters": "Adds fee income and keeps users as they grow." },
+      { "feature": "ChipX paid plan", "whatItDoes": "Unlocks extra auto-save rules and features for a monthly fee.", "whyItMatters": "Recurring revenue not tied to interest rates." }
+    ],
+    "userJourneys": [
+      {
+        "name": "Starting auto-save",
+        "persona": "Forgetful saver",
+        "steps": [
+          { "step": "Downloads app", "detail": "Sees an Instagram ad and installs Chip." },
+          { "step": "Connects bank", "detail": "Links a current account through open banking." },
+          { "step": "Sets pace", "detail": "Chooses how fast auto-save should go." },
+          { "step": "First save", "detail": "Chip moves £12 a few days later and sends a notification." },
+          { "step": "Watches pot grow", "detail": "Sees the balance and interest grow over weeks." },
+          { "step": "Adjusts", "detail": "Slows auto-save before a big expense." }
+        ]
+      },
+      {
+        "name": "Moving savings for a better rate",
+        "persona": "Rate hunter",
+        "steps": [
+          { "step": "Sees rate", "detail": "Finds Chip's easy-access rate in a best-buy table." },
+          { "step": "Opens account", "detail": "Signs up and verifies ID." },
+          { "step": "Deposits", "detail": "Moves a lump sum by bank transfer." },
+          { "step": "Earns interest", "detail": "Interest is added monthly." },
+          { "step": "Withdraws", "detail": "Takes money out when needed, usually the same or next day." }
+        ]
+      },
+      {
+        "name": "First investment",
+        "persona": "Curious first investor",
+        "steps": [
+          { "step": "Explores funds", "detail": "Browses a short list of funds by theme or risk." },
+          { "step": "Opens ISA", "detail": "Opens a stocks and shares ISA in the app." },
+          { "step": "Invests", "detail": "Moves £100 from savings into a fund." },
+          { "step": "Tracks", "detail": "Checks performance in the app." },
+          { "step": "Sets regular invest", "detail": "Adds a monthly amount on payday." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Chip makes money by keeping part of the interest partner banks pay on savings, by charging a monthly fee for ChipX, and by charging a small yearly fee on investments.",
+      "revenueStreams": [
+        { "stream": "Interest share", "detail": "Partner banks pay interest on deposits; Chip keeps a slice and passes the rest to savers." },
+        { "stream": "ChipX subscription", "detail": "A few pounds a month for extra auto-save features." },
+        { "stream": "Investment fees", "detail": "A yearly percentage of money invested." }
+      ],
+      "pricing": "Free to save. ChipX is a paid monthly plan of a few pounds a month. Investment accounts have a yearly platform fee plus fund fees. Exact current prices are in the app and change over time.",
+      "costDrivers": [
+        "Marketing to win savers in a crowded market",
+        "Open banking and payment costs for each auto-save",
+        "Technology and the auto-save algorithm",
+        "Partner bank and compliance costs",
+        "Support for withdrawals and account issues"
+      ],
+      "unitEconomics": "Take a saver with £5,000 at Chip. If partner banks pay around 4.5% and Chip passes 4% to the saver, Chip keeps about 0.5%, or £25 a year. A ChipX subscriber adds maybe £40 to £60 a year. Investment fees on £2,000 might add £5 to £10. If it costs £50 to £100 to win a saver, Chip needs them to stay two years or more. This is why total deposits, now £3 billion, matter so much: revenue grows with the money held."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Social media ads about painless saving",
+        "Best-buy rate tables",
+        "Referral bonuses",
+        "Crowdfunding rounds that turned users into shareholders and promoters"
+      ],
+      "whatBringsUsersBack": [
+        "Notifications every time auto-save moves money",
+        "Watching interest and balance grow",
+        "Prize draws",
+        "ISA season top-ups"
+      ],
+      "moat": "Modest. Auto-save is easy to copy, and many banks now have round-ups. Chip's edge is its years of tuning the algorithm, a loyal crowd of user-shareholders, and an all-in-one savings and investing app."
+    },
+    "competitors": [
+      { "name": "Moneybox", "positioning": "Round-ups and ISAs for first-time savers, with Lifetime ISA and pensions.", "howThisProductDiffers": "Moneybox is bigger and stronger in Lifetime ISA and pensions; Chip leads on algorithm-based auto-save." },
+      { "name": "Plum", "positioning": "Another AI auto-saving app with investments.", "howThisProductDiffers": "Very similar; competition comes down to rates, features and brand." },
+      { "name": "Monzo and Starling savings pots", "positioning": "Bank apps with built-in round-ups and pots.", "howThisProductDiffers": "Banks have the current account; Chip offers more savings and investment options in one place." },
+      { "name": "Trading 212", "positioning": "Free investing app paying interest on cash.", "howThisProductDiffers": "Trading 212 targets investors; Chip targets savers first." }
+    ],
+    "northStar": {
+      "metric": "Total money auto-saved by users each month",
+      "why": "It shows Chip doing its core job, saving for people who would not have saved otherwise. It also grows deposits, which drive revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active auto-savers",
+        "description": "Users with auto-save on and saving monthly.",
+        "children": [
+          { "metric": "Bank connection rate", "description": "Share of sign-ups who link a bank, needed for auto-save." },
+          { "metric": "Auto-save switched on rate", "description": "Users who turn on auto-save." },
+          { "metric": "Auto-save pause rate", "description": "Users pausing because saves feel too big." }
+        ]
+      },
+      {
+        "metric": "Average saved per user",
+        "description": "How much each user saves each month.",
+        "children": [
+          { "metric": "Auto-save pace setting", "description": "Users on faster settings save more." },
+          { "metric": "Payday deposits", "description": "Extra deposits on payday." },
+          { "metric": "Withdrawal rate", "description": "Money taken out quickly lowers net saving." }
+        ]
+      },
+      {
+        "metric": "Money kept with Chip",
+        "description": "Deposits that stay over time.",
+        "children": [
+          { "metric": "Rate ranking", "description": "Position in best-buy tables." },
+          { "metric": "Investment and ISA adoption", "description": "Users moving into longer-term products." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Users going overdrawn after an auto-save",
+      "Withdrawal speed",
+      "Complaints",
+      "Cost to acquire a saver"
+    ],
+    "strengths": [
+      "Clear, easy idea: saving on autopilot",
+      "£3 billion in deposits and growing",
+      "Reached a profitable quarter",
+      "Loyal community of user-shareholders"
+    ],
+    "weaknesses": [
+      "Revenue depends on interest rates",
+      "Auto-save is easy for banks to copy",
+      "Smaller than Moneybox and big banks",
+      "Money held at partner banks gives less control"
+    ],
+    "risks": [
+      "Falling interest rates cut both savings appeal and revenue",
+      "Banks and Monzo copying features",
+      "Partner bank changes",
+      "Open banking connection issues"
+    ],
+    "userComplaints": [
+      "Auto-save moving money at a bad time and causing a tight balance",
+      "Withdrawals not instant",
+      "Rates cut soon after moving money in",
+      "Paid plan needed for some features"
+    ],
+    "improvementIdeas": [
+      { "idea": "Bill-aware auto-save that pauses before known direct debits", "problem": "Auto-save sometimes leaves users short before a bill.", "expectedImpact": "Fewer pauses and more trust.", "metricToTrack": "Auto-save pause rate", "effort": "medium" },
+      { "idea": "Instant withdrawals up to £500", "problem": "Slow withdrawals worry users.", "expectedImpact": "More users comfortable saving more.", "metricToTrack": "Average balance per saver", "effort": "medium" },
+      { "idea": "Rate guarantee for 3 months on new deposits", "problem": "Users feel tricked by rate cuts.", "expectedImpact": "Better retention of deposits.", "metricToTrack": "Deposit outflows after rate changes", "effort": "low" },
+      { "idea": "Emergency fund goal with a target based on spending", "problem": "Users save without a clear goal.", "expectedImpact": "Higher saving and engagement.", "metricToTrack": "Share of users hitting their goal", "effort": "low" }
+    ],
+    "pmLessons": [
+      "Automation removes the hardest part of saving: deciding. Default behaviour is a powerful product lever.",
+      "A simple feature can be copied quickly; you need trust, rates or community to stay ahead.",
+      "When revenue depends on interest rates, plan for when rates fall.",
+      "Letting users control automated features keeps trust high."
+    ],
+    "interviewQuestions": [
+      { "question": "How would you make auto-save save more without upsetting users?", "hint": "Balance savings amount with safety. Use bill data, payday timing and user controls. Guardrail: overdraft rate." },
+      { "question": "Compare Chip with Moneybox. Which would you invest in?", "hint": "Compare scale, products, revenue mix, profitability and moat. Pick one and explain." },
+      { "question": "Interest rates fall to 2%. What happens to Chip and what do you do?", "hint": "Revenue and appeal fall. Push investments, ChipX and prize savings. Track deposits and revenue per user." },
+      { "question": "How would you get users to move from savings to investing?", "hint": "Find the readiness moment (emergency fund done). Offer education and small first steps. Metric: savings to investment conversion." },
+      { "question": "What is Chip's north star metric?", "hint": "Money auto-saved per month. Explain why downloads or deposits alone can mislead." }
+    ],
+    "glossary": [
+      { "term": "Open banking", "meaning": "UK rules that let you safely share your bank data with approved apps." },
+      { "term": "FSCS", "meaning": "The UK scheme that protects up to £85,000 of savings if a bank fails." },
+      { "term": "ISA", "meaning": "Individual Savings Account: a UK account where savings grow tax-free." },
+      { "term": "Prize savings account", "meaning": "A savings account where you can win cash prizes instead of earning only interest." },
+      { "term": "Retention", "meaning": "The share of customers or money that stays with a product over time." },
+      { "term": "North star metric", "meaning": "The one number a company uses to measure the value it delivers to users." }
+    ],
+    "assumptions": [
+      "Customer numbers are an estimate; Chip did not publish a figure in our sources.",
+      "Interest share and fee figures in unit economics are illustrative estimates.",
+      "ChipX and investment fee levels are approximate; check the app for current prices.",
+      "Profitability is based on a reported profitable quarter, not a full year."
+    ]
+  }
+}

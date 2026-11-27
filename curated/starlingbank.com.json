@@ -1,0 +1,563 @@
+{
+  "company": "Starling Bank",
+  "domain": "starlingbank.com",
+  "website": "https://www.starlingbank.com",
+  "sources": [
+    "https://www.starlingbank.com/investors/2025/annual-report-2025/",
+    "https://www.starlingbank.com/investors/2026/annual-report-2026/",
+    "https://thenextweb.com/news/starling-bank-fy26-profit-dip-credit-loss-provisions",
+    "https://tech.eu/2026/05/21/starling-s-saas-business-sees-revenue-surge-but-group-profits-dip/",
+    "https://www.cityam.com/?p=2334756",
+    "https://thenextweb.com/news/starling-bank-130-job-cuts-ai-restructuring",
+    "https://www.fintechfutures.com/job-cuts-new-hires/starling-group-ceo-raman-bhatia-departure",
+    "https://en.wikipedia.org/wiki/Starling_Bank"
+  ],
+  "report": {
+    "company": "Starling Bank",
+    "tagline": "A UK bank that lives only in an app, for people and small businesses, which also sells its banking software to other banks.",
+    "category": "App-only bank / business",
+    "simpleSummary": "Starling is a proper UK bank, but with no branches. You open a current account on your phone in minutes, and the app shows every payment instantly, splits bills and sorts your spending. It is especially popular with small businesses and sole traders. It also sells the software it built to run itself, called Engine, to banks in other countries.",
+    "keyNumbers": [
+      {
+        "label": "Revenue FY25",
+        "value": "£714 million",
+        "note": "Starling annual report, year to March 2025. FY26 revenue dipped slightly as interest rates fell (news reports, May 2026); exact FY26 figure not confirmed here."
+      },
+      {
+        "label": "Profit before tax FY25",
+        "value": "£223 million",
+        "note": "Annual report FY25, down from £301 million in FY24 after a £29 million FCA fine and Covid loan provisions. FY26 profit fell again (The Next Web, May 2026)."
+      },
+      {
+        "label": "Customer accounts",
+        "value": "About 4.6 million",
+        "note": "FY25 annual report, up 10%. Includes about 600,000+ business accounts (estimate)."
+      },
+      {
+        "label": "Customer deposits",
+        "value": "About £12 billion",
+        "note": "FY25 annual report."
+      },
+      {
+        "label": "Profitable years in a row",
+        "value": "5",
+        "note": "Starling press release on FY26 results, May 2026."
+      },
+      {
+        "label": "FCA fine",
+        "value": "£29 million",
+        "note": "October 2024, for weak financial crime controls while growing fast. Widely reported."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Starling offers free personal, joint and business current accounts in an app, plus savings, loans and overdrafts. It earns most of its money by lending out deposits and earning interest. Its software arm, Engine, rents the same technology to other banks, such as Salt Bank in Romania and AMP Bank in Australia.",
+      "howItWorks": [
+        "You download the app, scan your ID and take a video selfie. The account is open in minutes, with a card on its way and a digital card ready for Apple Pay or Google Pay.",
+        "Every payment shows up in real time with the shop name and category, so you always know your balance.",
+        "Spaces let you set aside money for bills or goals, and Bills Manager pays bills from a separate pot.",
+        "Business owners get invoicing, tax estimates, receipt capture and accounting links, with paid add-ons like the Business Toolkit.",
+        "Deposits are protected up to £85,000 by the UK government scheme (FSCS), because Starling holds a full banking licence.",
+        "Engine packages Starling's own banking system as cloud software for other banks, who pay a setup fee and ongoing licence fees."
+      ],
+      "valueProposition": "A real bank account with no monthly fee, instant notifications and useful tools, without ever visiting a branch. For small businesses, an account that opens in a day instead of weeks."
+    },
+    "personas": [
+      {
+        "name": "Sole trader",
+        "description": "Plumber, hairdresser or freelancer who needs a business account and wants to keep tax simple.",
+        "goals": [
+          "Open a business account quickly",
+          "Send invoices and get paid fast",
+          "Know how much to save for tax"
+        ],
+        "frustrations": [
+          "High street banks take weeks and ask for paperwork",
+          "Monthly fees on traditional business accounts"
+        ]
+      },
+      {
+        "name": "Young professional",
+        "description": "25 to 35, salaried, wants an everyday account that helps them budget.",
+        "goals": [
+          "Instant spending alerts",
+          "Separate pots for rent, bills and holidays",
+          "No fees abroad"
+        ],
+        "frustrations": [
+          "Old banks with clunky apps",
+          "Hidden fees on card use abroad"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "Runs a 5 to 20 person company with several staff cards and suppliers to pay.",
+        "goals": [
+          "Multiple users and cards",
+          "Easy bulk payments and accounting links",
+          "Access to credit"
+        ],
+        "frustrations": [
+          "Limited business lending compared with big banks",
+          "Account checks that freeze payments"
+        ]
+      },
+      {
+        "name": "Overseas bank executive",
+        "description": "Runs a bank in Europe, Asia or North America that wants to modernise or launch a digital bank.",
+        "goals": [
+          "Launch a digital bank fast",
+          "Lower technology costs",
+          "Proven software that a real bank runs on"
+        ],
+        "frustrations": [
+          "Old core systems that are slow to change",
+          "Long, expensive technology projects"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Opening a business account at a high street bank takes weeks.",
+        "howSolved": "App sign-up with checks done digitally, often open the same day.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing your real balance until payments clear.",
+        "howSolved": "Real-time notifications and a live balance on every payment.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Fees for using your card abroad.",
+        "howSolved": "No Starling fees on card spending or cash abroad, using the Mastercard rate.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Budgeting is hard when everything sits in one balance.",
+        "howSolved": "Spaces, saving goals and Bills Manager separate money by purpose.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Sole traders struggle with tax and bookkeeping.",
+        "howSolved": "Tax estimates, receipt capture and links to Xero, QuickBooks and its own Ember accounting tool.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Banks abroad are stuck on old, expensive technology.",
+        "howSolved": "Engine offers a cloud banking platform already proven at a UK bank.",
+        "severity": "high"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Personal and joint current accounts",
+        "whatItDoes": "Free accounts with instant notifications, card controls and fee-free spending abroad.",
+        "whyItMatters": "Brings in cheap deposits, which Starling lends out at higher rates."
+      },
+      {
+        "feature": "Business accounts",
+        "whatItDoes": "Free business accounts for sole traders and limited companies, with invoicing and multi-user access.",
+        "whyItMatters": "Business deposits are large and sticky, and businesses are its strongest segment."
+      },
+      {
+        "feature": "Spaces and Bills Manager",
+        "whatItDoes": "Pots for goals and bills, with round-ups into a space.",
+        "whyItMatters": "Encourages users to keep more money in Starling and use it as their main account."
+      },
+      {
+        "feature": "Business Toolkit and Ember",
+        "whatItDoes": "Paid add-ons for invoicing, VAT and tax, plus Ember accounting software it bought in 2024.",
+        "whyItMatters": "Adds subscription revenue that does not depend on interest rates."
+      },
+      {
+        "feature": "Lending",
+        "whatItDoes": "Overdrafts, personal loans, mortgages through its Fleet arm and business loans.",
+        "whyItMatters": "Lending is where it earns interest; growing it safely is the main profit lever."
+      },
+      {
+        "feature": "Engine",
+        "whatItDoes": "Starling's banking software sold to banks abroad as a cloud service.",
+        "whyItMatters": "A second business with software-like margins, less tied to UK interest rates."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Opening a business account",
+        "persona": "Sole trader",
+        "steps": [
+          {
+            "step": "Downloads app",
+            "detail": "Finds Starling through an accountant or comparison site and installs the app."
+          },
+          {
+            "step": "Chooses business account",
+            "detail": "Picks sole trader or limited company. For a company, Starling checks Companies House."
+          },
+          {
+            "step": "Verifies identity",
+            "detail": "Scans passport or driving licence and records a short selfie video."
+          },
+          {
+            "step": "Account opens",
+            "detail": "Gets sort code and account number, often the same day, and a digital card."
+          },
+          {
+            "step": "Sends first invoice",
+            "detail": "Creates an invoice in the app and shares a link."
+          },
+          {
+            "step": "Adds Toolkit",
+            "detail": "Pays monthly for the Business Toolkit to handle VAT and tax returns."
+          }
+        ]
+      },
+      {
+        "name": "Switching main account",
+        "persona": "Young professional",
+        "steps": [
+          {
+            "step": "Opens personal account",
+            "detail": "Signs up in the app in about 10 minutes."
+          },
+          {
+            "step": "Uses Current Account Switch",
+            "detail": "Moves salary, direct debits and balance from the old bank in 7 working days."
+          },
+          {
+            "step": "Sets up Spaces",
+            "detail": "Creates spaces for rent, holidays and an emergency fund."
+          },
+          {
+            "step": "Turns on round-ups",
+            "detail": "Card payments round up to the nearest pound into a saving space."
+          },
+          {
+            "step": "Uses card abroad",
+            "detail": "Spends on holiday with no Starling fee and gets instant alerts."
+          },
+          {
+            "step": "Takes an overdraft or loan",
+            "detail": "Applies in the app with a decision shown on screen."
+          }
+        ]
+      },
+      {
+        "name": "A bank buys Engine",
+        "persona": "Overseas bank executive",
+        "steps": [
+          {
+            "step": "Sees a live example",
+            "detail": "Looks at Salt Bank in Romania, which launched on Engine and signed up customers fast."
+          },
+          {
+            "step": "Scoping",
+            "detail": "Engine team agrees which products to launch and which local systems to connect."
+          },
+          {
+            "step": "Contract",
+            "detail": "Bank pays an upfront setup fee and agrees yearly licence fees."
+          },
+          {
+            "step": "Build and test",
+            "detail": "Engine configures the platform and connects to local payment systems."
+          },
+          {
+            "step": "Launch",
+            "detail": "Bank launches its app to customers on Engine's cloud platform."
+          },
+          {
+            "step": "Scale",
+            "detail": "Fees grow as the bank adds customers and products."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Starling makes most of its money as a lender: it pays little or no interest on current account money and earns more by lending it out or holding it at the Bank of England. It adds card fees, paid business tools and software licence fees from Engine.",
+      "revenueStreams": [
+        {
+          "stream": "Net interest income",
+          "detail": "Interest earned on loans and money held at the Bank of England, minus interest paid to savers. The largest share of revenue, so falling rates hurt."
+        },
+        {
+          "stream": "Card and payment fees",
+          "detail": "Interchange, a small fee the shop's bank pays each time a Starling card is used."
+        },
+        {
+          "stream": "Business subscriptions",
+          "detail": "Monthly fees for the Business Toolkit, Ember accounting and other add-ons."
+        },
+        {
+          "stream": "Engine software",
+          "detail": "Setup and licence fees from banks abroad. Small today but growing fast, and less tied to interest rates."
+        }
+      ],
+      "pricing": "Personal and business current accounts are free with no monthly fee. Business Toolkit is a paid add-on at about £7 a month. Overdrafts and loans have published interest rates based on your credit. Engine pricing is not public.",
+      "costDrivers": [
+        "Staff costs for engineers, support and compliance teams",
+        "Fraud and financial crime controls, which the FCA said were too weak during fast growth",
+        "Credit losses on loans that are not paid back, including government-backed Covid loans",
+        "Technology and cloud hosting",
+        "Marketing and customer acquisition"
+      ],
+      "unitEconomics": "Take a personal customer who keeps an average of £2,000 in their account. If Starling earns about 4% on that money and pays almost nothing on current account balances, that customer is worth about £80 a year in interest, plus perhaps £20 to £40 a year in card fees. Serving them in an app costs much less than a branch bank, perhaps £30 to £50 a year including support and fraud checks. Business customers hold more money and pay for add-ons, so they are worth more. When interest rates fall, the £80 shrinks fast, which is why Starling is pushing Engine and paid tools."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth and strong app store ratings",
+        "Accountants and business networks recommending it to sole traders",
+        "Current Account Switch Service from other banks",
+        "Comparison sites and 'best business bank' awards",
+        "Engine sales to banks abroad through direct enterprise selling"
+      ],
+      "whatBringsUsersBack": [
+        "Salary paid in, so it becomes the main daily account",
+        "Real-time notifications on every payment",
+        "Spaces and Bills Manager that run the month's money",
+        "Business tools like invoicing and tax used weekly"
+      ],
+      "moat": "Starling built its own core banking system in-house instead of renting one, and it holds a full UK banking licence. That combination lets it launch features fast and run cheaply, and it can sell the same system to other banks. A new rival would need years and a licence to copy it."
+    },
+    "competitors": [
+      {
+        "name": "Monzo",
+        "positioning": "The biggest UK app bank, popular with young people, with paid plans.",
+        "howThisProductDiffers": "Starling has fewer customers but is older in business banking and was profitable earlier. Monzo leans on subscriptions and a younger brand."
+      },
+      {
+        "name": "Revolut",
+        "positioning": "Global money app with trading, crypto and travel, now a UK bank.",
+        "howThisProductDiffers": "Starling is UK-focused and simpler, with a stronger position with small businesses."
+      },
+      {
+        "name": "Tide",
+        "positioning": "App-based business account for small firms.",
+        "howThisProductDiffers": "Tide is not a full bank in the UK, so Starling can offer FSCS protection and its own lending."
+      },
+      {
+        "name": "High street banks (Barclays, Lloyds, NatWest)",
+        "positioning": "Branches, mortgages and a full range of products.",
+        "howThisProductDiffers": "Starling is faster to open, cheaper to run and has a better-rated app, but a smaller product range."
+      },
+      {
+        "name": "Thought Machine and Mambu",
+        "positioning": "Core banking software sold to banks.",
+        "howThisProductDiffers": "Engine's pitch is that it runs a real profitable bank, while these sell software only."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of customers who use Starling as their main account (salary or business takings paid in each month)",
+      "why": "A main account means the customer trusts Starling with their money and uses it daily. That brings deposits and card spend, which drive revenue. Raw sign-ups do not show this, since many people open an app account and never use it. That is what makes it a good north star metric: it moves only when customers get real value."
+    },
+    "kpiTree": [
+      {
+        "metric": "New active accounts",
+        "description": "Accounts opened that receive money in the first month.",
+        "children": [
+          {
+            "metric": "Sign-up completion rate",
+            "description": "Share of people who finish onboarding, which moves with ID check speed."
+          },
+          {
+            "metric": "Business account approval time",
+            "description": "Faster approval wins sole traders from rivals."
+          },
+          {
+            "metric": "Switches from other banks",
+            "description": "Switches bring salary and direct debits at once."
+          }
+        ]
+      },
+      {
+        "metric": "Share of customers with salary or takings paid in",
+        "description": "How many accounts are the main account.",
+        "children": [
+          {
+            "metric": "Spaces and Bills Manager use",
+            "description": "Customers who budget in the app are likelier to move salary."
+          },
+          {
+            "metric": "Card transactions per month",
+            "description": "Daily use shows it is the main card."
+          },
+          {
+            "metric": "App rating and support satisfaction",
+            "description": "Trust keeps salary in."
+          }
+        ]
+      },
+      {
+        "metric": "Products per customer",
+        "description": "How many Starling products each customer uses.",
+        "children": [
+          {
+            "metric": "Overdraft and loan take-up",
+            "description": "Lending earns interest and deepens use."
+          },
+          {
+            "metric": "Business Toolkit attach rate",
+            "description": "Share of business accounts paying for add-ons."
+          },
+          {
+            "metric": "Savings and fixed term deposits",
+            "description": "More money held at Starling."
+          }
+        ]
+      },
+      {
+        "metric": "Engine bank clients live",
+        "description": "Banks abroad running on Engine.",
+        "children": [
+          {
+            "metric": "Signed contracts",
+            "description": "New banks agreeing to use Engine."
+          },
+          {
+            "metric": "Time to launch",
+            "description": "Faster launches prove the product and win referrals."
+          },
+          {
+            "metric": "End customers on Engine banks",
+            "description": "More end customers means higher licence fees."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud and money-laundering control failures (after the 2024 FCA fine)",
+      "Credit losses as a share of loans",
+      "Wrongly frozen or closed accounts",
+      "Cost to income ratio"
+    ],
+    "strengths": [
+      "Profitable for five years in a row, unlike many app banks",
+      "Own technology means fast changes and low running costs",
+      "Strong reputation with sole traders and small businesses",
+      "Engine gives it a second, global business",
+      "Full UK banking licence with FSCS deposit protection"
+    ],
+    "weaknesses": [
+      "Profit depends heavily on interest rates, which have been falling",
+      "The 2024 FCA fine showed weak financial crime controls, and it was told to limit high-risk customers for a time",
+      "Losses on government-backed Covid loans (Bounce Back Loans) created provisions",
+      "Smaller and growing slower than Monzo and Revolut in personal banking",
+      "Leadership change: group CEO Raman Bhatia is stepping down at the end of 2026"
+    ],
+    "risks": [
+      "Further Bank of England rate cuts squeeze interest income",
+      "Monzo, Revolut and big banks improving their apps narrows Starling's edge",
+      "Regulators may tighten rules on fraud reimbursement, raising costs",
+      "Engine sales cycles are long, and one failed launch could hurt its reputation"
+    ],
+    "userComplaints": [
+      "Accounts frozen or closed with little explanation during financial crime checks",
+      "Hard to reach a person quickly when something goes wrong",
+      "Fewer products than big banks, for example limited credit cards",
+      "Business customers want more lending options"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Status screen and expected timeline when an account is under review",
+        "problem": "Frozen accounts with no explanation drive the worst complaints.",
+        "expectedImpact": "Fewer support contacts and better trust during reviews.",
+        "metricToTrack": "Support contacts per account review",
+        "effort": "medium"
+      },
+      {
+        "idea": "Small business working capital line based on account cash flow",
+        "problem": "Business customers want more lending, and lending is the main profit lever.",
+        "expectedImpact": "Higher interest income per business customer.",
+        "metricToTrack": "Business lending balance and default rate",
+        "effort": "high"
+      },
+      {
+        "idea": "Bundle Ember accounting free for the first year with every new limited company",
+        "problem": "Toolkit and Ember take-up is low, and income needs to rely less on rates.",
+        "expectedImpact": "More paying business customers after the free year.",
+        "metricToTrack": "Paid add-on attach rate after 12 months",
+        "effort": "low"
+      },
+      {
+        "idea": "Salary switch reward with a clear in-app nudge",
+        "problem": "Many personal accounts are secondary, so deposits stay small.",
+        "expectedImpact": "More main accounts and larger balances.",
+        "metricToTrack": "Share of personal accounts with salary paid in",
+        "effort": "low"
+      },
+      {
+        "idea": "Engine launch case-study portal with live metrics from client banks",
+        "problem": "Banks are slow to trust a new software vendor.",
+        "expectedImpact": "Shorter sales cycles for Engine.",
+        "metricToTrack": "Days from first meeting to signed contract",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Building your own core technology is expensive at first but can become a product you sell.",
+      "Growth without strong controls can cost you: the FCA fine slowed Starling down. Safety features are product features.",
+      "A bank's profit depends on interest rates. A good PM looks for revenue that does not move with the Bank of England.",
+      "Picking a segment you can serve best, here small businesses, is a strong way to compete with bigger rivals."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Interest rates are falling. How would you grow Starling's revenue?",
+        "hint": "Split revenue by stream. Look at fee income (Toolkit, Ember), lending growth with controlled risk, and Engine. Prioritise by size and speed. Name a guardrail like credit losses."
+      },
+      {
+        "question": "Should Starling launch in another country or focus on Engine?",
+        "hint": "Compare cost, licence time, competition and capital needs. Engine lets it go global without a licence in each country. Pick one and explain the trade-off."
+      },
+      {
+        "question": "How would you increase the number of customers who use Starling as their main account?",
+        "hint": "Define main account. Find why people keep salary elsewhere. Ideas: switch rewards, salary advance, better budgeting. Metric: salary paid-in share."
+      },
+      {
+        "question": "Design an experience for a customer whose account is frozen for checks.",
+        "hint": "Balance user empathy with compliance. Show status, what is needed and a timeline, without tipping off criminals. Metric: time to resolve, complaints."
+      },
+      {
+        "question": "What metrics would you track for Engine?",
+        "hint": "Contracts signed, time to launch, end customers on client banks, revenue per client, client churn. Explain which is the leading indicator."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Net interest income",
+        "meaning": "The interest a bank earns on loans and holdings minus the interest it pays savers."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A small fee the shop's bank pays the card issuer each time a card is used."
+      },
+      {
+        "term": "FSCS",
+        "meaning": "The UK scheme that protects up to £85,000 of your money if a bank fails."
+      },
+      {
+        "term": "Core banking system",
+        "meaning": "The main software that keeps a bank's accounts, balances and payments."
+      },
+      {
+        "term": "Attach rate",
+        "meaning": "The share of customers who buy an add-on product on top of the main one."
+      },
+      {
+        "term": "Cost to income ratio",
+        "meaning": "How much a bank spends to earn each pound of income; lower is better."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to measure the value it delivers to users."
+      },
+      {
+        "term": "Provisions",
+        "meaning": "Money a bank sets aside in advance for loans it expects will not be paid back."
+      }
+    ],
+    "assumptions": [
+      "FY26 revenue and profit were not available in full; we use FY25 figures and describe FY26 direction from news reports.",
+      "The number of business accounts is an estimate.",
+      "The per-customer interest and cost figures in unit economics are illustrative estimates, not reported data.",
+      "Business Toolkit price may have changed; check the Starling site."
+    ]
+  }
+}

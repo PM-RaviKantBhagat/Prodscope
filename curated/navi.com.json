@@ -1,0 +1,259 @@
+{
+  "company": "Navi",
+  "domain": "navi.com",
+  "website": "https://navi.com",
+  "sources": [
+    "https://inc42.com/buzz/ipo-bound-navis-fy26-loss-more-than-triples-to-₹466-cr/",
+    "https://inc42.com/buzz/navi-finservs-fy26-profit-plunges-46-to-₹93-cr/",
+    "https://www.business-standard.com/companies/start-ups/navi-tech-upi-expansion-rajiv-naresh-interview-125112600879_1.html",
+    "https://entrackr.com/fintrackr/navi-technologies-swings-to-red-with-rs-126-cr-loss-in-fy25-11188584",
+    "https://www.cxodigitalpulse.com/?p=60691"
+  ],
+  "report": {
+    "company": "Navi",
+    "tagline": "A finance app from Flipkart co-founder Sachin Bansal that offers UPI payments, personal and home loans, health insurance and low-cost mutual funds.",
+    "category": "Fintech",
+    "simpleSummary": "Navi is one app for paying, borrowing, saving and insuring. People mostly come for UPI payments with cashback, then get offered a personal loan or a cheap mutual fund. Navi makes most of its money from the interest on loans. It keeps prices low to win users, and makes it back when some of them borrow.",
+    "keyNumbers": [
+      { "label": "Revenue (FY26)", "value": "₹2,982 crore, up 16%", "note": "Navi Technologies consolidated, via Inc42." },
+      { "label": "Net loss (FY26)", "value": "₹466 crore, up from ₹126 crore", "note": "Driven by UPI push spending. Broke even on profit before tax in Q4 FY26; Q1 FY27 profit before tax ₹104 crore per CareEdge." },
+      { "label": "Monthly transacting users", "value": "2.9 crore", "note": "Company-reported, FY26, more than double a year ago." },
+      { "label": "UPI market share", "value": "About 3.5%, India's 4th largest UPI app", "note": "About 80 crore transactions a month, 2026." },
+      { "label": "Loan book", "value": "₹13,138 crore, up 57%", "note": "FY26; personal loans are 92% of assets under management (₹19,740 crore)." },
+      { "label": "New funding", "value": "$100 million from Prosus", "note": "Announced 2026, its first outside institutional round; IPO of about ₹3,000 crore planned." }
+    ],
+    "overview": {
+      "whatItDoes": "Navi is a consumer finance app founded in 2018 by Sachin Bansal and Ankit Agarwal. It offers UPI payments, instant personal loans, home loans, loans against property, health insurance and index mutual funds. Lending is done by its own NBFC, Navi Finserv. It uses UPI as the daily habit that brings users in, then sells them loans and other products.",
+      "howItWorks": [
+        "User installs the app, links a bank account and starts paying by UPI, often with cashback.",
+        "Navi studies usage and credit data to pre-approve personal loans.",
+        "Loans are approved and paid out in minutes, fully online with Aadhaar and PAN.",
+        "Users repay via UPI AutoPay or bank mandates.",
+        "Navi also sells low-fee index funds and health insurance in the same app.",
+        "A credit line on UPI lets users borrow small amounts while paying."
+      ],
+      "valueProposition": "Cheap and fast financial products in one simple app. Free UPI with rewards, loans in minutes without paperwork, and some of the lowest-cost index funds in India."
+    },
+    "personas": [
+      {
+        "name": "Young salaried user",
+        "description": "A 25-year-old earning ₹35,000 a month in a tier-2 city.",
+        "goals": ["Rewards on daily payments", "Quick loan for emergencies", "Start investing small"],
+        "frustrations": ["Banks reject thin credit files", "High interest from apps", "Paperwork"]
+      },
+      {
+        "name": "Cashback seeker",
+        "description": "Switches UPI apps for the best rewards.",
+        "goals": ["Maximum cashback", "Fast payments"],
+        "frustrations": ["Rewards shrink over time", "Spam loan offers"]
+      },
+      {
+        "name": "First-time home buyer",
+        "description": "A 32-year-old couple buying a ₹50 lakh flat.",
+        "goals": ["Low interest rate", "Fast approval", "Low fees"],
+        "frustrations": ["Bank branch visits", "Hidden charges"]
+      },
+      {
+        "name": "Passive investor",
+        "description": "Wants to invest ₹2,000 a month in a Nifty index fund.",
+        "goals": ["Low fees", "Simple app"],
+        "frustrations": ["High expense ratios elsewhere", "Too many options"]
+      }
+    ],
+    "painPoints": [
+      { "pain": "Getting a small personal loan from a bank is slow and needs paperwork.", "howSolved": "Instant digital loans approved in minutes.", "severity": "high" },
+      { "pain": "People juggle many apps for paying, borrowing and investing.", "howSolved": "One app for UPI, loans, insurance and funds.", "severity": "medium" },
+      { "pain": "Mutual fund fees eat into returns.", "howSolved": "Very low-cost index funds.", "severity": "medium" },
+      { "pain": "UPI apps give little reason to choose one over another.", "howSolved": "Cashback and rewards on UPI.", "severity": "low" },
+      { "pain": "Health insurance buying is confusing.", "howSolved": "Simple digital health plans with app-based claims.", "severity": "medium" }
+    ],
+    "coreFeatures": [
+      { "feature": "Navi UPI", "whatItDoes": "Pay anyone by UPI with rewards.", "whyItMatters": "Brings daily users and data; now 4th largest UPI app." },
+      { "feature": "Instant personal loans", "whatItDoes": "Fully digital loans up to a few lakh rupees.", "whyItMatters": "Main source of revenue and profit." },
+      { "feature": "Home loans and loans against property", "whatItDoes": "Digital home and secured loans.", "whyItMatters": "Bigger loans with lower risk to balance personal loans." },
+      { "feature": "Index mutual funds", "whatItDoes": "Low-fee funds tracking indexes like Nifty 50.", "whyItMatters": "Builds trust and long-term users." },
+      { "feature": "Health insurance", "whatItDoes": "Digital health policies.", "whyItMatters": "Cross-sell to existing users." },
+      { "feature": "Credit line on UPI", "whatItDoes": "Borrow small amounts while paying via UPI.", "whyItMatters": "Joins payments and lending in one tap." }
+    ],
+    "userJourneys": [
+      {
+        "name": "From UPI to first loan",
+        "persona": "Young salaried user",
+        "steps": [
+          { "step": "Install for UPI", "detail": "Downloads Navi for cashback on payments." },
+          { "step": "Pay daily", "detail": "Uses it for groceries and bills." },
+          { "step": "See loan offer", "detail": "App shows a pre-approved loan." },
+          { "step": "Check terms", "detail": "Sees interest rate and EMI." },
+          { "step": "KYC", "detail": "Completes Aadhaar and PAN checks." },
+          { "step": "Get money", "detail": "Loan arrives in the bank in minutes." },
+          { "step": "Repay", "detail": "EMIs auto-debited." }
+        ]
+      },
+      {
+        "name": "Starting an index SIP",
+        "persona": "Passive investor",
+        "steps": [
+          { "step": "Open investments tab", "detail": "Sees Navi index funds." },
+          { "step": "Pick fund", "detail": "Chooses Nifty 50 index fund." },
+          { "step": "Set SIP", "detail": "₹2,000 every month." },
+          { "step": "Set AutoPay", "detail": "Links UPI AutoPay." },
+          { "step": "Track", "detail": "Checks returns in the app." }
+        ]
+      },
+      {
+        "name": "Home loan application",
+        "persona": "First-time home buyer",
+        "steps": [
+          { "step": "Check eligibility", "detail": "Enters income and property details." },
+          { "step": "Upload documents", "detail": "Salary slips and property papers." },
+          { "step": "Approval", "detail": "Gets sanction letter." },
+          { "step": "Property check", "detail": "Legal and technical checks." },
+          { "step": "Disbursal", "detail": "Money sent to seller." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Navi makes most of its money from interest on loans, mainly personal loans. UPI, cheap mutual funds and insurance are ways to get and keep users, so they can later be offered loans.",
+      "revenueStreams": [
+        { "stream": "Loan interest", "detail": "Interest and fees on personal, home and property loans through Navi Finserv." },
+        { "stream": "Insurance premiums", "detail": "Health insurance through Navi General Insurance." },
+        { "stream": "Mutual fund fees", "detail": "Small management fees on index funds." },
+        { "stream": "UPI", "detail": "Almost no direct revenue; a cost due to cashback." }
+      ],
+      "pricing": "Personal loan rates are set per user based on credit; index funds have very low fees; UPI is free for users.",
+      "costDrivers": [
+        "Interest Navi pays to borrow money (₹1,123 crore in FY26)",
+        "Marketing and cashback for UPI (other expenses up 80% to ₹1,112 crore)",
+        "Bad loans (₹408 crore impairment in FY26)",
+        "Staff and tech"
+      ],
+      "unitEconomics": "Take a ₹1 lakh personal loan at about 18% a year. Navi earns about ₹18,000 interest in a year. It pays maybe ₹9,000 to ₹10,000 on its own borrowing, sets aside a few thousand for defaults, and spends on getting and serving the customer. If the user came through UPI, the acquisition cost is spread across many cheap UPI users, most of whom never borrow. So the model works only if enough UPI users become good borrowers. Numbers are estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "UPI cashback and rewards",
+        "App store ads and digital marketing",
+        "Sachin Bansal's brand and PR",
+        "Low-cost fund marketing to investors",
+        "Referrals"
+      ],
+      "whatBringsUsersBack": [
+        "Daily UPI payments",
+        "EMIs due every month",
+        "SIPs running monthly",
+        "New loan offers after good repayment"
+      ],
+      "moat": "Combines high-frequency UPI with its own lending licence. Few UPI apps have their own NBFC, and few lenders have daily user activity. This gives Navi cheap users and payment data to judge credit."
+    },
+    "competitors": [
+      { "name": "PhonePe and Google Pay", "positioning": "UPI leaders with most volume, adding lending through partners.", "howThisProductDiffers": "Navi lends from its own NBFC and has more reasons to cross-sell, but much smaller UPI share." },
+      { "name": "Paytm", "positioning": "Payments plus lending through partners.", "howThisProductDiffers": "Navi is newer and owns its lending arm." },
+      { "name": "Bajaj Finance", "positioning": "Largest consumer lender with stores and digital.", "howThisProductDiffers": "Navi is fully digital and cheaper to run but smaller." },
+      { "name": "Groww and Zerodha", "positioning": "Investment apps with low-cost funds.", "howThisProductDiffers": "Navi is broader but less trusted for investing." }
+    ],
+    "northStar": {
+      "metric": "Monthly users who complete at least one financial action (payment, repayment, SIP or claim) on Navi",
+      "why": "Shows Navi is part of users' money lives. Active users are the base for safe lending."
+    },
+    "kpiTree": [
+      {
+        "metric": "UPI engagement",
+        "description": "Daily use that brings users.",
+        "children": [
+          { "metric": "Monthly UPI transacting users", "description": "Base of the funnel." },
+          { "metric": "Transactions per user", "description": "Shows habit." },
+          { "metric": "Cashback cost per transaction", "description": "Must fall over time." }
+        ]
+      },
+      {
+        "metric": "Loan conversion",
+        "description": "UPI users who borrow.",
+        "children": [
+          { "metric": "Pre-approved offers shown", "description": "Reach of lending." },
+          { "metric": "Offer to loan rate", "description": "Shows appeal." }
+        ]
+      },
+      {
+        "metric": "Loan quality",
+        "description": "Loans repaid on time.",
+        "children": [
+          { "metric": "Gross NPA", "description": "1.25% in FY26." },
+          { "metric": "Early defaults", "description": "Missed first EMIs." }
+        ]
+      },
+      {
+        "metric": "Cross-sell",
+        "description": "Users with more products.",
+        "children": [
+          { "metric": "Users with 2+ products", "description": "Deeper relationship." },
+          { "metric": "SIP and insurance adoption", "description": "Long-term ties." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross NPA",
+      "Customer complaints on loan recovery",
+      "Cash burn on UPI rewards",
+      "Regulatory compliance issues"
+    ],
+    "strengths": [
+      "Fast growth in UPI and users",
+      "Own NBFC with good asset quality",
+      "Low-cost products build trust",
+      "Profit before tax turned positive in Q4 FY26"
+    ],
+    "weaknesses": [
+      "92% of assets in risky personal loans",
+      "Loss widened in FY26 due to UPI spending",
+      "UPI itself earns nearly nothing",
+      "Depends on Sachin Bansal's capital and brand"
+    ],
+    "risks": [
+      "RBI action on lending prices (Navi Finserv was barred from new loans for some weeks in late 2024 over pricing)",
+      "Rising personal loan defaults",
+      "UPI market share caps and rules",
+      "Competition from big UPI apps lending"
+    ],
+    "userComplaints": [
+      "Aggressive loan recovery calls",
+      "High interest rates on personal loans",
+      "Cashback rewards shrinking",
+      "Too many loan pop-ups",
+      "Slow customer support"
+    ],
+    "improvementIdeas": [
+      { "idea": "Show total cost of loan in rupees before acceptance", "problem": "Users feel rates are hidden", "expectedImpact": "More trust and fewer complaints", "metricToTrack": "Loan complaints per 1,000 loans", "effort": "low" },
+      { "idea": "Smart rewards that drop for heavy users and rise for new ones", "problem": "Cashback costs too much", "expectedImpact": "Lower cost per active user", "metricToTrack": "Cashback cost per active user", "effort": "medium" },
+      { "idea": "Respectful repayment reminders with easy reschedule option", "problem": "Recovery call complaints", "expectedImpact": "Better repayment and brand", "metricToTrack": "Early default rate and complaints", "effort": "medium" },
+      { "idea": "Grow secured lending like home loans", "problem": "Too much personal loan risk", "expectedImpact": "Safer loan book", "metricToTrack": "Share of secured loans", "effort": "high" }
+    ],
+    "pmLessons": [
+      "A free, frequent product (UPI) can bring users cheaply, but must lead to a paid product.",
+      "Low prices can grow fast but burn cash; watch the path to profit.",
+      "In lending, growth is easy; repayment is the real test.",
+      "Regulation can stop a product overnight, so build in compliance."
+    ],
+    "interviewQuestions": [
+      { "question": "Is UPI cashback a good growth strategy for Navi?", "hint": "Compare cashback cost with lifetime value from loans. Look at how many UPI users borrow and repay." },
+      { "question": "How would you reduce personal loan defaults?", "hint": "Better credit scoring with UPI data, lower first loan limits, reminders and early help for stressed users." },
+      { "question": "What is Navi's north star metric?", "hint": "Monthly users completing a financial action. Break into UPI, lending, quality and cross-sell." },
+      { "question": "How would you cross-sell insurance to loan users?", "hint": "Find the moment of need, like after a loan, offer a simple plan, measure attach rate." },
+      { "question": "Should Navi focus on fewer products?", "hint": "Weigh focus against cross-sell benefits. Use data on which products drive profit." }
+    ],
+    "glossary": [
+      { "term": "NBFC", "meaning": "Non-bank finance company: a licensed lender that is not a bank." },
+      { "term": "NPA", "meaning": "Non-performing asset: a loan where repayments have stopped for 90 days or more." },
+      { "term": "Cross-sell", "meaning": "Selling a different product to an existing customer." },
+      { "term": "AUM", "meaning": "Assets under management: total value of loans or funds a company manages." },
+      { "term": "SIP", "meaning": "Systematic investment plan: investing a fixed amount every month." },
+      { "term": "Lifetime value", "meaning": "Total profit expected from a customer over time." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Attach rate", "meaning": "The share of customers who buy an extra product with the main one." }
+    ],
+    "assumptions": [
+      "Loan interest and cost numbers in unit economics are estimates.",
+      "The 2024 RBI action is based on public news of the time.",
+      "Complaints are summarised from app reviews and forums."
+    ]
+  }
+}

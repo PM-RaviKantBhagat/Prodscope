@@ -1,0 +1,542 @@
+{
+  "company": "Microsoft Copilot",
+  "domain": "copilot.microsoft.com",
+  "website": "https://copilot.microsoft.com",
+  "sources": [
+    "https://www.uctoday.com/unified-communications/microsoft-365-copilot-passes-30-million-paid-seats-as-cloud-and-ai-growth-power-record-quarter",
+    "https://www.uctoday.com/unified-communications/microsoft-earnings-2026-ai-copilot-enterprise/",
+    "https://www.theregister.com/2026/02/02/microsoft_ai_spend_copilot/",
+    "https://techcrunch.com/2026/01/29/satya-nadella-insists-people-are-using-microsofts-copilot-ai-a-lot",
+    "https://thenextweb.com/news/copilot-daily-users-nadella-foundry-agent-365"
+  ],
+  "report": {
+    "company": "Microsoft Copilot",
+    "tagline": "Microsoft's AI assistant, built into Word, Excel, Outlook, Teams and Windows, sold to companies per employee per month.",
+    "category": "AI productivity",
+    "simpleSummary": "Copilot is Microsoft's AI helper. In the office version, it sits inside Word, Excel, PowerPoint, Outlook and Teams and can draft emails, summarise meetings and build slides using your work files. Companies pay about $30 per employee a month for the full version. There is also a free consumer Copilot app, similar to ChatGPT, and it is now bundled into Microsoft 365 home plans.",
+    "keyNumbers": [
+      {
+        "label": "Microsoft 365 Copilot paid seats",
+        "value": "Over 30 million (late 2026)",
+        "note": "Reported after Microsoft's latest quarterly earnings, 2026. Up from about 20 million earlier in 2026. Seats are licences, not always active users."
+      },
+      {
+        "label": "Microsoft AI business run rate",
+        "value": "About $37 billion a year (2026)",
+        "note": "Microsoft earnings, 2026. Includes Azure AI and all Copilots, not only Microsoft 365 Copilot."
+      },
+      {
+        "label": "List price, Microsoft 365 Copilot",
+        "value": "$30 per user per month (annual)",
+        "note": "Microsoft pricing page. India list price about ₹2,500 per user per month. Copilot Business for small firms is cheaper, about $21."
+      },
+      {
+        "label": "Copilot Chat paid conversion",
+        "value": "About 3.3%",
+        "note": "The Register, February 2026, comparing free Copilot Chat users with paid seats. Shows how hard it is to upsell."
+      },
+      {
+        "label": "Commercial Microsoft 365 users",
+        "value": "Over 400 million paid seats",
+        "note": "Microsoft disclosures, 2025. This is the pool Copilot can sell into, so 30 million is under 10% penetration."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Copilot adds AI to the Microsoft tools people already use at work. It can read your emails, files, chats and meetings (only what you have access to) and use them to answer questions or create content. For consumers, the Copilot app and Windows Copilot act as a general chatbot.",
+      "howItWorks": [
+        "IT buys Microsoft 365 Copilot licences per user and turns them on in the admin centre.",
+        "Employees see a Copilot button in Word, Excel, PowerPoint, Outlook and Teams.",
+        "Copilot uses Microsoft Graph, the map of a company's emails, files and meetings, to ground answers in that company's data.",
+        "Copilot Chat is free for any Microsoft 365 work user, with web answers and pay-as-you-go agents; full in-app features need the paid licence.",
+        "Copilot Studio lets companies build their own agents, for example an HR policy bot, and pay by usage.",
+        "Consumers get Copilot in Windows, Edge and the Copilot app, and Microsoft 365 Personal and Family plans now include Copilot features with a price rise."
+      ],
+      "valueProposition": "Save hours a week on emails, meetings and documents, inside the tools you already use, with your company's security rules intact."
+    },
+    "personas": [
+      {
+        "name": "Enterprise IT buyer",
+        "description": "Head of digital workplace at a large company in Mumbai or London deciding whether to buy 10,000 Copilot seats.",
+        "goals": [
+          "Prove productivity gains to the CFO",
+          "Keep company data secure",
+          "Roll out AI without staff using random tools"
+        ],
+        "frustrations": [
+          "$30 a month per user is a big bill",
+          "Hard to measure return on investment",
+          "Copilot can surface files people should not see if permissions are messy"
+        ]
+      },
+      {
+        "name": "Busy middle manager",
+        "description": "A manager with 30 meetings a week and 200 emails a day.",
+        "goals": [
+          "Catch up on missed meetings fast",
+          "Draft replies quickly",
+          "Turn notes into a slide deck"
+        ],
+        "frustrations": [
+          "Copilot answers are sometimes generic or wrong",
+          "Works better in Teams than in Excel",
+          "Confusing which Copilot to use where"
+        ]
+      },
+      {
+        "name": "Home Microsoft 365 subscriber",
+        "description": "A family paying for Microsoft 365 Family for OneDrive storage and Office apps.",
+        "goals": [
+          "Keep using Word and Excel",
+          "Maybe try AI for school or budgets",
+          "Avoid paying more"
+        ],
+        "frustrations": [
+          "Price went up because Copilot was added without asking",
+          "Has to find the 'Classic' plan to avoid AI",
+          "Does not use Copilot much"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Too many meetings and emails; people miss important things.",
+        "howSolved": "Copilot in Teams writes meeting summaries and action items; in Outlook it summarises long threads.",
+        "severity": "high"
+      },
+      {
+        "pain": "Finding the right file or past decision takes ages.",
+        "howSolved": "Ask Copilot in plain words; it searches emails, chats and files you can access.",
+        "severity": "high"
+      },
+      {
+        "pain": "Starting a document or deck from a blank page is slow.",
+        "howSolved": "Copilot drafts Word docs and PowerPoint slides from a prompt or a source file.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Companies fear staff pasting secrets into public chatbots.",
+        "howSolved": "Copilot runs inside Microsoft's enterprise security, with data not used to train models.",
+        "severity": "high"
+      },
+      {
+        "pain": "Excel formulas and analysis are hard for non-experts.",
+        "howSolved": "Copilot in Excel explains data, suggests formulas and builds charts.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Copilot in Teams",
+        "whatItDoes": "Live meeting recap, action items and 'what did I miss' answers.",
+        "whyItMatters": "The most used and most loved feature; often the reason companies renew."
+      },
+      {
+        "feature": "Copilot in Outlook",
+        "whatItDoes": "Summarises threads, drafts replies and prioritises the inbox.",
+        "whyItMatters": "Email is a daily task for every office worker, so it drives habit."
+      },
+      {
+        "feature": "Copilot Chat with work grounding",
+        "whatItDoes": "A chat window that answers using company files, emails and the web.",
+        "whyItMatters": "Free version gets people trying it; paid version adds work data, which is the upsell."
+      },
+      {
+        "feature": "Copilot Studio and agents",
+        "whatItDoes": "Build custom AI agents connected to company systems; pay per use.",
+        "whyItMatters": "Opens revenue beyond per-seat licences and makes Copilot a platform."
+      },
+      {
+        "feature": "Researcher and Analyst agents",
+        "whatItDoes": "Deep research and data analysis agents inside Microsoft 365 Copilot.",
+        "whyItMatters": "Higher value tasks that help justify the $30 price."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Company buys Copilot",
+        "persona": "Enterprise IT buyer",
+        "steps": [
+          {
+            "step": "Pressure to adopt AI",
+            "detail": "CEO asks for an AI plan; staff are already using ChatGPT."
+          },
+          {
+            "step": "Tries free Copilot Chat",
+            "detail": "Turns on the free version for all staff."
+          },
+          {
+            "step": "Pilot paid seats",
+            "detail": "Buys 300 seats for a three month pilot across sales, HR and finance."
+          },
+          {
+            "step": "Fixes permissions",
+            "detail": "Cleans up SharePoint sharing so Copilot does not expose private files."
+          },
+          {
+            "step": "Measures time saved",
+            "detail": "Uses the Copilot Dashboard and surveys to estimate hours saved."
+          },
+          {
+            "step": "Rolls out or stalls",
+            "detail": "Buys more seats for heavy users only, or pauses if value is unclear."
+          }
+        ]
+      },
+      {
+        "name": "Manager's busy Monday",
+        "persona": "Busy middle manager",
+        "steps": [
+          {
+            "step": "Opens Outlook",
+            "detail": "Asks Copilot to summarise weekend emails."
+          },
+          {
+            "step": "Joins late to a meeting",
+            "detail": "Asks Copilot in Teams what was decided so far."
+          },
+          {
+            "step": "Drafts a deck",
+            "detail": "Asks PowerPoint Copilot to make slides from a Word report."
+          },
+          {
+            "step": "Fixes mistakes",
+            "detail": "Edits wrong numbers and generic text."
+          },
+          {
+            "step": "Shares with team",
+            "detail": "Sends recap and deck, saving about an hour."
+          }
+        ]
+      },
+      {
+        "name": "Home plan price change",
+        "persona": "Home Microsoft 365 subscriber",
+        "steps": [
+          {
+            "step": "Gets an email",
+            "detail": "Microsoft says the plan now includes Copilot and costs more."
+          },
+          {
+            "step": "Tries it once",
+            "detail": "Uses Copilot in Word to rewrite a letter."
+          },
+          {
+            "step": "Checks the bill",
+            "detail": "Notices the higher yearly charge."
+          },
+          {
+            "step": "Searches options",
+            "detail": "Finds a 'Classic' plan without Copilot by starting to cancel."
+          },
+          {
+            "step": "Decides",
+            "detail": "Stays on the new plan or downgrades to Classic."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Microsoft makes money from Copilot mainly by charging companies per user per month on top of their Microsoft 365 licence. It also charges for agents built in Copilot Studio by usage, and has raised the price of consumer Microsoft 365 plans that now include Copilot. Copilot also drives Azure cloud spend because it runs there.",
+      "revenueStreams": [
+        {
+          "stream": "Microsoft 365 Copilot seats",
+          "detail": "$30 per user per month for enterprises; Copilot Business about $21 for small businesses."
+        },
+        {
+          "stream": "Copilot Studio and agents",
+          "detail": "Pay-as-you-go 'Copilot credits' for custom agents and agent use in free Copilot Chat."
+        },
+        {
+          "stream": "Consumer Microsoft 365 plans",
+          "detail": "Personal and Family plans raised prices when Copilot was added; Microsoft 365 Premium at about $19.99 a month for heavier AI use."
+        },
+        {
+          "stream": "Role-based Copilots",
+          "detail": "Copilot for Sales, Service and Finance bundles."
+        },
+        {
+          "stream": "Azure usage",
+          "detail": "Copilot runs on Azure, so growth also feeds cloud revenue."
+        }
+      ],
+      "pricing": "Microsoft 365 Copilot: $30 per user per month (annual). Copilot Business: about $21 per user per month for firms under 300 users. Copilot Chat: free with work account. Consumer: Copilot app free; Microsoft 365 Personal and Family include Copilot; Microsoft 365 Premium about $19.99 a month.",
+      "costDrivers": [
+        "GPU compute in Azure data centres to run AI models",
+        "Payments and revenue share to OpenAI for models (under the Microsoft and OpenAI deal)",
+        "Building and maintaining Copilot across dozens of apps",
+        "Sales and customer success teams helping companies adopt",
+        "Free consumer and Copilot Chat usage"
+      ],
+      "unitEconomics": "One paid seat brings $360 a year. A typical office user might cost Microsoft $5 to 10 a month in compute, so a light or medium user is very profitable. A heavy user running Researcher and long meeting recaps all day could cost more. The real problem is not cost per seat, it is selling seats: only about 3 in 100 free Copilot Chat users became paid in early 2026, and many companies buy seats for only a small share of staff."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Existing Microsoft 365 contracts: sales teams add Copilot to renewals",
+        "Free Copilot Chat for all work users, as a try-before-you-buy",
+        "Bundling into consumer Microsoft 365 plans and Windows",
+        "Copilot key on new Windows laptops",
+        "Partners and consultancies like Accenture and Infosys selling Copilot rollouts"
+      ],
+      "whatBringsUsersBack": [
+        "Daily meeting recaps in Teams",
+        "Inbox summaries every morning in Outlook",
+        "Custom agents tied to company processes",
+        "It is already where the work happens, so no new app to open"
+      ],
+      "moat": "Microsoft owns where office work happens: Outlook, Teams, Word and Excel, plus the company data graph behind them. A rival can build a better chatbot but cannot easily see your Teams meetings or SharePoint files. Enterprise security and existing contracts make Copilot the default choice for IT."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT Enterprise (OpenAI)",
+        "positioning": "The most popular AI chatbot sold to companies.",
+        "howThisProductDiffers": "ChatGPT often gives better answers and staff prefer it, but Copilot is inside Office apps and uses company data with existing security."
+      },
+      {
+        "name": "Google Gemini for Workspace",
+        "positioning": "AI included in Google Workspace plans.",
+        "howThisProductDiffers": "Google bundled Gemini into Workspace pricing; Microsoft charges extra, which is a harder sell."
+      },
+      {
+        "name": "Claude for Work (Anthropic)",
+        "positioning": "Business AI known for writing and coding.",
+        "howThisProductDiffers": "Microsoft now also offers Anthropic models inside Copilot, so it competes and partners."
+      },
+      {
+        "name": "Granola, Otter and Zoom AI",
+        "positioning": "Meeting note tools.",
+        "howThisProductDiffers": "Specialists can be better at one job; Copilot covers meetings plus email and docs."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active Copilot users per paid seat, doing at least 3 tasks",
+      "why": "Paid seats only show that IT bought licences. Weekly use shows employees actually get value, which predicts renewals and expansion. A good north star metric tracks value to users, not just money. Guardrail metrics make sure growth does not come at the cost of trust, safety or margins."
+    },
+    "kpiTree": [
+      {
+        "metric": "Seat activation",
+        "description": "Share of paid seats that are actually used.",
+        "children": [
+          {
+            "metric": "First-week usage rate",
+            "description": "Share of new seats used in the first 7 days."
+          },
+          {
+            "metric": "Onboarding completion",
+            "description": "Users who finish in-app training prompts."
+          },
+          {
+            "metric": "Permission clean-up done",
+            "description": "Companies that fixed data sharing, which unblocks rollout."
+          }
+        ]
+      },
+      {
+        "metric": "Tasks per active user",
+        "description": "How often Copilot helps each week.",
+        "children": [
+          {
+            "metric": "Teams recaps per user",
+            "description": "The most used feature."
+          },
+          {
+            "metric": "Outlook drafts and summaries",
+            "description": "Daily email help."
+          },
+          {
+            "metric": "Word, Excel and PowerPoint actions",
+            "description": "Content creation tasks."
+          }
+        ]
+      },
+      {
+        "metric": "Answer quality",
+        "description": "Whether output is good enough to use.",
+        "children": [
+          {
+            "metric": "Accept rate of drafts",
+            "description": "Share of drafts sent with little editing."
+          },
+          {
+            "metric": "Thumbs up rate",
+            "description": "User rating on responses."
+          },
+          {
+            "metric": "Grounding accuracy",
+            "description": "Answers that cite the right company files."
+          }
+        ]
+      },
+      {
+        "metric": "Seat expansion",
+        "description": "Companies buying more seats.",
+        "children": [
+          {
+            "metric": "Free Copilot Chat to paid conversion",
+            "description": "About 3.3% today; a key lever."
+          },
+          {
+            "metric": "Seats per customer over time",
+            "description": "Shows pilots growing into rollouts."
+          },
+          {
+            "metric": "Seat renewal rate",
+            "description": "Share of seats renewed at contract end."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Data exposure incidents (overshared files surfaced by Copilot)",
+      "Compute cost per active seat",
+      "Microsoft 365 consumer plan churn after price rises",
+      "Response latency in Teams and Outlook"
+    ],
+    "strengths": [
+      "Already inside the apps over 400 million work users use daily",
+      "Access to company data through Microsoft Graph",
+      "Trusted enterprise security and compliance",
+      "Huge sales force and partner network",
+      "Can use models from both OpenAI and Anthropic"
+    ],
+    "weaknesses": [
+      "High price ($30) makes return on investment hard to prove",
+      "Confusing brand: many products called Copilot",
+      "Users often prefer ChatGPT for open-ended questions",
+      "Quality varies by app; Excel and PowerPoint features feel weaker",
+      "Low conversion from free to paid"
+    ],
+    "risks": [
+      "Google bundling Gemini into Workspace at no extra cost",
+      "OpenAI selling directly to Microsoft's enterprise customers",
+      "Consumer backlash and regulator attention over forced price rises with AI",
+      "Companies cutting AI budgets if productivity gains do not show up",
+      "Data protection rules in the EU and India"
+    ],
+    "userComplaints": [
+      "Answers are generic or miss context compared with ChatGPT",
+      "Too expensive for what it does, say many IT leaders",
+      "Consumer Microsoft 365 price rise to include Copilot without asking",
+      "Too many Copilots; unclear which one does what",
+      "Surfaces sensitive files when permissions are messy"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Per-team ROI report showing hours saved and tasks done, built into the admin centre",
+        "problem": "IT buyers cannot prove value to the CFO, so they buy few seats.",
+        "expectedImpact": "Easier renewals and seat expansion.",
+        "metricToTrack": "Seats per customer and renewal rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Flexible pricing: pay per active user per month instead of per assigned seat",
+        "problem": "Companies hesitate to pay $30 for staff who may not use it.",
+        "expectedImpact": "Lower risk for buyers and faster wide rollout.",
+        "metricToTrack": "Total active users and revenue per company",
+        "effort": "high"
+      },
+      {
+        "idea": "Pre-rollout 'oversharing scan' that fixes risky file permissions in one click",
+        "problem": "Fear of Copilot exposing private files delays rollouts.",
+        "expectedImpact": "Faster rollout and fewer data incidents.",
+        "metricToTrack": "Time from purchase to rollout and data exposure incidents",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear single Copilot brand with a simple 'what can I do here' card in each app",
+        "problem": "Users are confused by many Copilot names.",
+        "expectedImpact": "More users try features in Word, Excel and PowerPoint.",
+        "metricToTrack": "Tasks per active user across apps",
+        "effort": "low"
+      },
+      {
+        "idea": "Low-cost India and emerging market Copilot plan",
+        "problem": "About ₹2,500 per user a month is too expensive for most Indian companies.",
+        "expectedImpact": "More seats in price-sensitive markets.",
+        "metricToTrack": "Paid seats in India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Distribution is not adoption. Being in every Office app helped sell licences, but employees still have to find it useful daily.",
+      "Pricing shapes adoption. A $30 add-on makes buyers pick a few users, which slows habit across a company.",
+      "Measure usage, not purchases. Seats sold can hide low active use and future churn.",
+      "Forcing AI into a paid plan can backfire. Consumer price rises created backlash.",
+      "Trust and data access can beat a better model. Copilot's edge is knowing your work data safely."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Only about 3% of free Copilot Chat users convert to paid. How would you improve that?",
+        "hint": "Map the funnel: aware, try, repeat use, see paid value, buy. Find drop-offs. Ideas: show what paid would have done, team trials, ROI reports. Pick a metric like conversion in 90 days."
+      },
+      {
+        "question": "How would you measure whether Copilot is worth $30 a month for a company?",
+        "hint": "Define outcomes: time saved, faster tasks, quality. Combine usage data and surveys. Compare pilot and control groups. Turn hours saved into money."
+      },
+      {
+        "question": "Google includes Gemini in Workspace at no extra cost. How should Microsoft respond?",
+        "hint": "Options: bundle, lower price, prove more value, target segments. Weigh revenue loss against market share. Recommend with reasons."
+      },
+      {
+        "question": "Design Copilot features for a sales team.",
+        "hint": "List sales jobs: prep calls, log notes, follow up. Map Copilot to each. Prioritise by time saved. Define success metrics like deals per rep."
+      },
+      {
+        "question": "Consumers complained when Microsoft 365 home prices rose to include Copilot. What would you have done differently?",
+        "hint": "Talk about choice, clear value, opt-in trials and segmenting heavy versus light users. Measure churn and Copilot use after launch."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Seat",
+        "meaning": "One licence for one user, which companies pay for every month."
+      },
+      {
+        "term": "Run rate",
+        "meaning": "Current revenue pace multiplied out to a full year."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Return on investment",
+        "meaning": "How much value a company gets back compared with what it spent."
+      },
+      {
+        "term": "Penetration",
+        "meaning": "The share of possible customers who already use or pay for the product."
+      },
+      {
+        "term": "Grounding",
+        "meaning": "Making the AI answer using real, specific data like your company files, not just general knowledge."
+      },
+      {
+        "term": "Agent",
+        "meaning": "AI that can carry out a task with several steps, not only answer a question."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of customers who stop paying in a period."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that shows whether users are getting real value."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while you push growth."
+      },
+      {
+        "term": "Bundling",
+        "meaning": "Selling several products together as one package."
+      }
+    ],
+    "assumptions": [
+      "Compute cost per seat ($5 to 10 a month) is our estimate; Microsoft does not disclose it.",
+      "The 30 million seat figure is from news coverage of earnings and counts licences, not daily users.",
+      "India price is a rough conversion of list price and may differ by contract.",
+      "The north star is our proposal, not an official Microsoft metric.",
+      "Consumer plan prices vary by country and change over time."
+    ]
+  }
+}
