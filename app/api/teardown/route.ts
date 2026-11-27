@@ -98,6 +98,7 @@ export async function POST(req: Request) {
           section: sectionForDomain(domain),
           origin: "live",
         });
+        await store.bumpCounter("generations").catch(() => 0);
         if (useFreeQuota) await Promise.all([store.bumpCounter(`user:${who}`), store.bumpCounter("total")]);
         send({ type: "done", slug });
       } catch (err) {

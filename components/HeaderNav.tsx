@@ -113,6 +113,11 @@ export default function HeaderNav({ groups }: { groups: NavGroup[] }) {
           </button>
           {menuOpen && (
             <div className="cats-panel">
+              <div className="cats-tools">
+                <Link href="/compare" onClick={() => setMenuOpen(false)}>Compare two products</Link>
+                <Link href="/practice" onClick={() => setMenuOpen(false)}>Write your own teardown</Link>
+                <Link href="/my" onClick={() => setMenuOpen(false)}>My progress and saved</Link>
+              </div>
               {groups.map((g) => (
                 <div key={g.id} className="cats-col">
                   <Link href={`/#${g.id}`} className="cats-head" onClick={() => setMenuOpen(false)}>
@@ -128,6 +133,7 @@ export default function HeaderNav({ groups }: { groups: NavGroup[] }) {
             </div>
           )}
         </div>
+        <Link href="/my" className="mylink" title="My progress and saved teardowns">★ My progress</Link>
         <Link href="/#start" className="pill">New teardown</Link>
       </nav>
     </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Feedback from "@/components/Feedback";
+import ReportActions from "@/components/ReportActions";
 import { getStore } from "@/lib/store";
 
 export const dynamic = "force-dynamic";
@@ -44,9 +45,12 @@ function H({ id, shown, children }: { id: Id; shown: readonly (readonly [Id, str
 }
 
 export default async function TeardownPage({ params }: Props) {
-  const t = await getStore().get((await params).slug);
+  const store = getStore();
+  const t = await store.get((await params).slug);
   if (!t) notFound();
   const r = t.report;
+  // Count a page view for the usage dashboard. Never block the page on it.
+  await Promise.all([store.bumpCounter("views"), store.bumpCounter(`view:${t.slug}`)]).catch(() => 0);
   // Older live reports were made before some sections existed, so hide sections that are empty.
   const shown = SECTIONS.filter(([id]) => {
     if (id === "simple") return !!r.simpleSummary || list(r.keyNumbers).length > 0;
@@ -67,6 +71,7 @@ export default async function TeardownPage({ params }: Props) {
           <a className="chip plain" href={t.url} target="_blank" rel="noreferrer">{t.domain}</a>
           <span className="chip plain">{t.origin === "curated" ? "Researched" : "Generated"} {new Date(t.createdAt).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })}</span>
         </div>
+        <ReportActions slug={t.slug} />
       </header>
 
       <nav className="toc">

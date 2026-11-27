@@ -3,6 +3,17 @@ import path from "node:path";
 import { neon } from "@neondatabase/serverless";
 import type { FeedbackEntry, StoredTeardown } from "./schema";
 
+export type Stats = {
+  views: { today: number; week: number; month: number };
+  generations: { today: number; week: number; month: number };
+  practice: { today: number; week: number; month: number };
+  topViewed: { slug: string; company: string; views: number }[];
+  votes: { up: number; down: number };
+  recentFeedback: { slug: string; company: string; vote: string | null; comment: string; createdAt: string }[];
+  recentLive: { slug: string; company: string; domain: string; createdAt: string }[];
+  totals: { curated: number; live: number };
+};
+
 /** A light row for the gallery, without the full report. */
 export type GalleryItem = {
   slug: string;
@@ -31,6 +42,8 @@ export interface Store {
   /** Atomically increments a counter for today and returns the new value. */
   bumpCounter(key: string): Promise<number>;
   getCounter(key: string): Promise<number>;
+  /** Usage numbers for the private admin dashboard. */
+  stats(): Promise<Stats>;
 }
 
 const today = () => new Date().toISOString().slice(0, 10);
@@ -134,6 +147,49 @@ function pgStore(url: string): Store {
       const r = await sql`SELECT n FROM counters WHERE key = ${key} AND day = ${today()}`;
       return (r[0]?.n as number) ?? 0;
     },
+    async stats() {
+      await init();
+      const sums = (rows: Record<string, unknown>[]) => ({
+        today: Number(rows[0]?.today ?? 0),
+        week: Number(rows[0]?.week ?? 0),
+        month: Number(rows[0]?.month ?? 0),
+      });
+      const window = (key: string) => sql`SELECT
+          COALESCE(SUM(n) FILTER (WHERE day = current_date), 0) AS today,
+          COALESCE(SUM(n) FILTER (WHERE day > current_date - 7), 0) AS week,
+          COALESCE(SUM(n) FILTER (WHERE day > current_date - 30), 0) AS month
+        FROM counters WHERE key = ${key}`;
+      const [views, gens, practice, top, votes, fb, live, totals] = await Promise.all([
+        window("views"),
+        window("generations"),
+        window("practice"),
+        sql`SELECT substring(c.key from 6) AS slug, t.company, SUM(c.n)::int AS views
+          FROM counters c JOIN teardowns t ON t.slug = substring(c.key from 6)
+          WHERE c.key LIKE 'view:%' AND c.day > current_date - 30
+          GROUP BY 1, 2 ORDER BY 3 DESC LIMIT 15`,
+        sql`SELECT COALESCE(SUM(up), 0)::int AS up, COALESCE(SUM(down), 0)::int AS down FROM teardowns`,
+        sql`SELECT f.slug, t.company, f.vote, f.comment, f.created_at FROM feedback f
+          LEFT JOIN teardowns t ON t.slug = f.slug ORDER BY f.created_at DESC LIMIT 25`,
+        sql`SELECT slug, company, domain, created_at FROM teardowns WHERE origin = 'live' ORDER BY created_at DESC LIMIT 15`,
+        sql`SELECT COUNT(*) FILTER (WHERE origin = 'curated')::int AS curated, COUNT(*) FILTER (WHERE origin = 'live')::int AS live FROM teardowns`,
+      ]);
+      return {
+        views: sums(views),
+        generations: sums(gens),
+        practice: sums(practice),
+        topViewed: top.map((x) => ({ slug: x.slug as string, company: x.company as string, views: x.views as number })),
+        votes: { up: votes[0].up as number, down: votes[0].down as number },
+        recentFeedback: fb.map((x) => ({
+          slug: x.slug as string,
+          company: (x.company as string) ?? x.slug,
+          vote: (x.vote as string) ?? null,
+          comment: x.comment as string,
+          createdAt: new Date(x.created_at as string).toISOString(),
+        })),
+        recentLive: live.map((x) => ({ slug: x.slug as string, company: x.company as string, domain: x.domain as string, createdAt: new Date(x.created_at as string).toISOString() })),
+        totals: { curated: totals[0].curated as number, live: totals[0].live as number },
+      };
+    },
   };
 }
 
@@ -206,6 +262,35 @@ function fileStore(): Store {
       }),
     async getCounter(key) {
       return (await read()).counters[`${key}:${today()}`] ?? 0;
+    },
+    async stats() {
+      const db = await read();
+      const sum = (key: string, days: number) => {
+        let n = 0;
+        for (const [k, v] of Object.entries(db.counters)) {
+          const day = k.slice(-10);
+          if (k.slice(0, -11) === key && Date.now() - Date.parse(day) < days * 86_400_000) n += v;
+        }
+        return n;
+      };
+      const win = (key: string) => ({ today: sum(key, 1), week: sum(key, 7), month: sum(key, 30) });
+      const top = db.teardowns
+        .map((t) => ({ slug: t.slug, company: t.company, views: sum(`view:${t.slug}`, 30) }))
+        .filter((x) => x.views > 0)
+        .sort((a, b) => b.views - a.views)
+        .slice(0, 15);
+      return {
+        views: win("views"),
+        generations: win("generations"),
+        practice: win("practice"),
+        topViewed: top,
+        votes: { up: db.teardowns.reduce((n, t) => n + t.up, 0), down: db.teardowns.reduce((n, t) => n + t.down, 0) },
+        recentFeedback: db.feedback.slice(-25).reverse().map((f) => ({
+          slug: f.slug, company: db.teardowns.find((t) => t.slug === f.slug)?.company ?? f.slug, vote: f.vote, comment: f.comment, createdAt: f.createdAt,
+        })),
+        recentLive: db.teardowns.filter((t) => t.origin !== "curated").slice(-15).reverse().map((t) => ({ slug: t.slug, company: t.company, domain: t.domain, createdAt: t.createdAt })),
+        totals: { curated: db.teardowns.filter((t) => t.origin === "curated").length, live: db.teardowns.filter((t) => t.origin !== "curated").length },
+      };
     },
   };
 }

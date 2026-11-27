@@ -1,3 +1,4 @@
+import Link from "next/link";
 import TeardownForm from "@/components/TeardownForm";
 import { FREE_PER_PERSON_PER_DAY } from "@/lib/limits";
 import Gallery, { type GalleryGroup } from "@/components/Gallery";
@@ -56,6 +57,8 @@ export default async function Home() {
           <div><div className="ico">1</div><h3>200 products, ready to study</h3><p>The top products APM interviewers ask about, researched and written in plain words, grouped by category.</p></div>
           <div><div className="ico">2</div><h3>Thinks in PM frameworks</h3><p>North star, KPI tree, money per order, journeys, user complaints and prioritised ideas, laid out the way interviewers expect.</p></div>
           <div><div className="ico">3</div><h3>Any other product, on demand</h3><p>Not in the library? Enter its website and get a fresh AI teardown in a couple of minutes. Share it with your cohort.</p></div>
+          <div><div className="ico">4</div><h3>Practise like the interview</h3><p><Link href="/practice">Write your own teardown</Link> and get honest AI feedback, <Link href="/compare?a=zepto&b=blinkit">compare two products</Link> side by side, and drill flashcards.</p></div>
+          <div><div className="ico">5</div><h3>Track your prep</h3><p>Save teardowns, mark them studied, and see your <Link href="/my">progress in every category</Link>. No login needed.</p></div>
         </div>
       </section>
 
