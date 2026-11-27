@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import InstallApp from "./InstallApp";
 import { DAILY_GOAL, XP_PER_LEVEL, badgesOf, useLearn } from "./useLearn";
 
 type Section = { section: string; items: { slug: string; company: string }[] };
@@ -42,6 +43,7 @@ export default function PlayHub({ sections }: { sections: Section[] }) {
       <div className="hub-go">
         <Link className="btn" href="/play/random">Play a random product</Link>
         <Link className="btn ghost" href="/learn">Skill lessons</Link>
+        <InstallApp />
         <span className="hint">{s.ready ? won : 0} of {total} products won</span>
       </div>
 

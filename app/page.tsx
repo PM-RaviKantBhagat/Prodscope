@@ -1,4 +1,5 @@
 import Link from "next/link";
+import InstallApp from "@/components/InstallApp";
 import TeardownForm from "@/components/TeardownForm";
 import { FREE_PER_PERSON_PER_DAY } from "@/lib/limits";
 
@@ -52,6 +53,7 @@ export default function Home() {
           <div className="hub-go">
             <Link className="btn" href="/play">Start playing</Link>
             <Link className="btn ghost" href="/play/zepto">Try Zepto</Link>
+            <InstallApp />
           </div>
         </div>
       </section>
