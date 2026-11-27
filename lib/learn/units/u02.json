@@ -1,0 +1,80 @@
+{
+  "id": "u02",
+  "title": "How products make money",
+  "summary": "Learn the few ways products earn money, and how to tell if each order or user makes or loses money.",
+  "icon": "💰",
+  "lessons": [
+    {
+      "id": "u02-l1",
+      "title": "The main ways to make money",
+      "teach": [
+        "Most products earn money in one of a few ways: selling things, taking a cut (commission), subscriptions, ads, or fees.",
+        "Many big products mix two or more. Zomato takes a commission from restaurants, charges delivery fees, and sells ads to restaurants.",
+        "The way a product makes money shapes what it builds. Ad products want your time. Subscription products want you to stay every month."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Match each product to its main way of making money.", "pairs": [{ "left": "Netflix", "right": "Monthly subscription" }, { "left": "Instagram", "right": "Ads" }, { "left": "Airbnb", "right": "A cut of every booking" }, { "left": "Amazon Basics", "right": "Selling its own products" }], "explain": "Four common models: subscription, ads, commission and direct sales." },
+        { "type": "mcq", "prompt": "Which is a commission model?", "options": ["Spotify Premium at a fixed monthly price", "Uber keeping part of each ride fare", "Google showing search ads", "Apple selling an iPhone"], "answer": 1, "explain": "Uber keeps a share of every fare and passes the rest to the driver. That share is its commission." },
+        { "type": "tf", "prompt": "A free app can still make a lot of money.", "answer": true, "explain": "Free apps like YouTube and Instagram earn from ads. Others like Candy Crush earn from a few users buying extras." },
+        { "type": "spot", "prompt": "One line gets the money model wrong. Which one?", "lines": ["Zerodha: small fee on each trade", "LinkedIn: ads, premium plans and recruiter tools", "Wikipedia: earns mainly from ads", "Canva: free plan plus paid Pro plans"], "wrong": 2, "explain": "Wikipedia runs on donations and shows no ads. That's part of why people trust it." },
+        { "type": "mcq", "prompt": "What is 'freemium'?", "options": ["Everything is free forever", "A basic version is free and you pay for extra features", "You pay first and get a refund", "Only rich users can join"], "answer": 1, "explain": "Notion, Canva and Spotify all give a free version so many people try it, then some pay for more." },
+        { "type": "tree", "prompt": "Pick the 3 ways Zomato makes money.", "root": "Zomato revenue", "options": ["Commission from restaurants on each order", "Delivery and platform fees from customers", "Ads that restaurants buy to show up higher", "Selling user phone numbers", "Charging restaurants rent for kitchens they own"], "correct": [0, 1, 2], "explain": "Commission, customer fees and ads. Selling personal data would break trust and the law." },
+        { "type": "tf", "prompt": "An ad business wants users to spend more time in the app.", "answer": true, "explain": "More time means more ads shown. That's why Instagram added Reels and endless feeds." }
+      ]
+    },
+    {
+      "id": "u02-l2",
+      "title": "Price and value",
+      "teach": [
+        "People pay when the value they get feels bigger than the price. Price is not about your cost, it is about the value to the user.",
+        "Products often use tiers, like Free, Pro and Team, so different people can pay different amounts for different value.",
+        "Small changes in price can change who buys. Always watch what happens to sign ups and cancellations after a price change."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Why does Spotify offer Student, Individual and Family plans?", "options": ["To confuse users", "Different people value it differently and can pay different amounts", "Students listen to more music", "Families get worse sound"], "answer": 1, "explain": "Students have less money, families share. Tiers let Spotify earn from all of them instead of losing some." },
+        { "type": "tf", "prompt": "The right price is always your cost plus a little profit.", "answer": false, "explain": "Price follows value. Software costs almost nothing per extra user, but Figma charges based on what teams get from it." },
+        { "type": "order", "prompt": "Put these Notion style plans from cheapest to most expensive.", "steps": ["Free for one person", "Plus for small teams", "Business for growing companies", "Enterprise with security and admin tools"], "explain": "Each tier adds value for a bigger, richer customer, so the price climbs." },
+        { "type": "mcq", "prompt": "A food app raises its delivery fee. What should the PM watch first?", "options": ["Number of app installs", "Orders per user and cart drop off", "Office costs", "The logo colour"], "answer": 1, "explain": "If people order less or quit at checkout, the extra fee may cost more than it earns." },
+        { "type": "spot", "prompt": "Which pricing idea is likely to backfire?", "lines": ["Showing all fees clearly on the cart page", "A free trial with a reminder before it ends", "Adding a surprise fee on the last screen", "A cheaper yearly plan"], "wrong": 2, "explain": "Surprise fees break trust and raise drop offs. Quick commerce apps have faced complaints and penalties for this." },
+        { "type": "match", "prompt": "Match the pricing trick to its purpose.", "pairs": [{ "left": "Free trial", "right": "Let people feel the value first" }, { "left": "Yearly plan discount", "right": "Lock in users for longer" }, { "left": "Free delivery above ₹199", "right": "Make carts bigger" }, { "left": "Student plan", "right": "Reach people with less money" }], "explain": "Each trick solves a specific goal: trying, staying, spending more, or reaching new people." },
+        { "type": "tf", "prompt": "Swiggy One and Zomato Gold are ways to make users order more often.", "answer": true, "explain": "Members paid upfront, so they feel they should use the free deliveries. That builds a habit." }
+      ]
+    },
+    {
+      "id": "u02-l3",
+      "title": "Unit economics: money per order",
+      "teach": [
+        "Unit economics means: on one order, ride or user, do you make or lose money? It is the simplest test of a healthy business.",
+        "For an order: what you earn (commission, fees, ads) minus what it costs (delivery, discounts, payment fees, support).",
+        "A company can grow fast and still lose money on every order. Growth then makes losses bigger, not smaller."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "A delivery app earns ₹60 per order and spends ₹75 per order. What is true?", "options": ["It makes ₹15 per order", "It loses ₹15 per order", "It breaks even", "It cannot be known"], "answer": 1, "explain": "60 minus 75 is minus 15. More orders like this mean more losses, until costs fall or earnings rise." },
+        { "type": "tree", "prompt": "Pick the 3 things that add to what a quick delivery app earns per order.", "root": "Earnings per order", "options": ["Margin on the products sold", "Ads paid by brands", "Delivery or handling fee", "Rider pay per trip", "Discount coupons"], "correct": [0, 1, 2], "explain": "Margin, ads and fees bring money in. Rider pay and discounts are costs that take money out." },
+        { "type": "tf", "prompt": "If you lose money per order, growing faster always fixes it.", "answer": false, "explain": "Only if growth lowers the cost per order, for example busier stores and riders. Otherwise you just lose more." },
+        { "type": "order", "prompt": "Put the steps to check unit economics in order.", "steps": ["Pick the unit, like one order", "Add up what you earn per unit", "Add up what each unit costs", "Subtract to see profit or loss per unit"], "explain": "Unit first, then money in, money out, and the difference." },
+        { "type": "mcq", "prompt": "What is 'average order value' (AOV)?", "options": ["How much users like an order", "The average amount spent per order", "The number of orders per day", "The delivery time"], "answer": 1, "explain": "Higher AOV helps because fixed costs like the rider trip get spread over a bigger order. That's why apps push 'add ₹50 more for free delivery'." },
+        { "type": "spot", "prompt": "One of these will not improve money per order. Which?", "lines": ["Bigger baskets per order", "More ads from brands", "Giving bigger discounts to everyone", "Shorter rider trips from closer stores"], "wrong": 2, "explain": "Bigger discounts cost more on every order. The others raise earnings or cut costs." },
+        { "type": "mcq", "prompt": "Why do quick commerce apps sell ads to brands?", "options": ["Ads cost almost nothing to add and boost money per order", "Users love ads", "The government asks them to", "Ads make delivery faster"], "answer": 0, "explain": "Brands pay to be seen on the app. That money has almost no extra cost, so it improves profit per order a lot." }
+      ]
+    },
+    {
+      "id": "u02-l4",
+      "title": "Getting and keeping customers",
+      "teach": [
+        "CAC is how much it costs to get one new customer. LTV is how much money a customer brings over their whole time with you.",
+        "A healthy product earns much more from a customer than it spends to get them. A common rule is LTV at least 3 times CAC.",
+        "Keeping users is cheaper than finding new ones. That's why retention matters so much for money."
+      ],
+      "questions": [
+        { "type": "match", "prompt": "Match each term to its meaning.", "pairs": [{ "left": "CAC", "right": "Cost to get one new customer" }, { "left": "LTV", "right": "Money a customer brings over time" }, { "left": "Churn", "right": "Share of customers who leave" }, { "left": "Payback period", "right": "Time to earn back the cost of a customer" }], "explain": "These four numbers tell you if growth is healthy or just expensive." },
+        { "type": "mcq", "prompt": "An app spends ₹500 to get a user who brings ₹300 in total. What should it do?", "options": ["Spend more on ads", "Fix it: lower CAC or raise LTV", "Ignore it", "Hire more people"], "answer": 1, "explain": "It loses ₹200 per user. Spending more just loses more. Make users stay longer or find cheaper ways to get them." },
+        { "type": "tf", "prompt": "If fewer users leave each month, LTV goes up.", "answer": true, "explain": "Users who stay longer pay for longer. Netflix works hard on retention for this reason." },
+        { "type": "tree", "prompt": "Pick the 3 things that raise LTV.", "root": "Lifetime value (LTV)", "options": ["Users stay more months", "Users spend more each month", "Higher margin on what they buy", "More money spent on TV ads", "A bigger office"], "correct": [0, 1, 2], "explain": "LTV is roughly time stayed x spend x margin. Ads and offices change costs, not the value of a user." },
+        { "type": "spot", "prompt": "One of these is not a cheap way to get users. Which?", "lines": ["Referral rewards from happy users", "Showing up in Google search", "Word of mouth", "Big celebrity TV ads every week"], "wrong": 3, "explain": "TV ads with celebrities cost a lot per user. Referrals, search and word of mouth are usually much cheaper." },
+        { "type": "mcq", "prompt": "Why do apps like CRED and PhonePe give cashback?", "options": ["To get and keep users, hoping they earn more from them later", "Because it is free", "To lose money on purpose forever", "Because users ask"], "answer": 0, "explain": "Cashback is a CAC and retention cost. It only works if those users later bring in more money, for example through loans or ads." },
+        { "type": "order", "prompt": "Order these from what you check first to last when growth feels too costly.", "steps": ["Look at CAC by channel", "Look at how many users stay after 30 days", "Estimate LTV", "Compare LTV to CAC and cut bad channels"], "explain": "Know what you spend, see who stays, estimate value, then decide." }
+      ]
+    }
+  ]
+}

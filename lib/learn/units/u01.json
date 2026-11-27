@@ -1,0 +1,80 @@
+{
+  "id": "u01",
+  "title": "Users and their problems",
+  "summary": "Every good product starts with a real person and a real pain. Learn to see both clearly.",
+  "icon": "🧑",
+  "lessons": [
+    {
+      "id": "u01-l1",
+      "title": "Who is the user?",
+      "teach": [
+        "A user is the person who uses the product. A customer is the person who pays. Sometimes they are the same person, sometimes not.",
+        "On Swiggy the person ordering is both user and customer. On Google Search you are the user, but advertisers are the customers who pay.",
+        "Many products have two or more sides. Uber has riders and drivers. Both are users, and the product must work for both."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "On YouTube, who pays most of the money?", "options": ["Viewers", "Advertisers", "Creators", "Phone makers"], "answer": 1, "explain": "Most viewers watch for free. Advertisers pay to show ads, and YouTube shares part of that money with creators." },
+        { "type": "tf", "prompt": "The user and the customer are always the same person.", "answer": false, "explain": "On Instagram you are the user but brands buying ads are the customer. On a kids app the child uses it and the parent pays." },
+        { "type": "match", "prompt": "Match each product to its two main sides.", "pairs": [{ "left": "Uber", "right": "Riders and drivers" }, { "left": "Airbnb", "right": "Guests and hosts" }, { "left": "Zomato", "right": "Diners and restaurants" }, { "left": "LinkedIn Jobs", "right": "Job seekers and recruiters" }], "explain": "Each is a marketplace. It only works when both sides show up, so the PM must think about both." },
+        { "type": "spot", "prompt": "One of these lines mixes up user and customer. Which one?", "lines": ["Slack: the team uses it, the company pays", "Google Search: you search, advertisers pay", "Netflix: the viewer watches and the viewer pays", "Gmail: advertisers use it, you pay"], "wrong": 3, "explain": "In free Gmail, you are the user and you do not pay. Google earns from ads and from paid Workspace plans for companies." },
+        { "type": "mcq", "prompt": "For a school app like Byju's, who often decides to buy?", "options": ["The student", "The parent", "The teacher", "The app store"], "answer": 1, "explain": "The child learns, but the parent pays. So the sales story speaks to parents about marks and the future." },
+        { "type": "order", "prompt": "Put the steps to understand a new product's users in order.", "steps": ["List everyone who touches the product", "Mark who uses it and who pays", "Pick the most important group", "Talk to a few of them"], "explain": "First see everyone, then sort them, then focus, then learn from real people." },
+        { "type": "tf", "prompt": "A PM should care about drivers on Uber even though they are not paying for rides.", "answer": true, "explain": "Without enough drivers, riders wait too long and leave. Both sides decide if the marketplace works." }
+      ]
+    },
+    {
+      "id": "u01-l2",
+      "title": "Personas: picturing the user",
+      "teach": [
+        "A persona is a short, made up picture of a typical user: who they are, what they want, and what gets in the way.",
+        "A good persona is based on real research, not guesses. It has a goal and a pain, not just age and city.",
+        "Most products have 2 or 3 key personas. Trying to please everyone usually pleases no one."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "Which persona is most useful for a PM?", "options": ["Riya, 26, lives in Pune", "Riya, 26, works late and wants dinner in under 30 minutes without cooking", "Riya likes the colour blue", "Riya has 500 Instagram followers"], "answer": 1, "explain": "It has a goal (dinner fast) and a pain (no time to cook). That is what helps you design features." },
+        { "type": "tf", "prompt": "A persona should be based on talking to real users.", "answer": true, "explain": "Personas made from guesses often describe the team, not the user. Short interviews keep them honest." },
+        { "type": "match", "prompt": "Match each persona to the product that fits them best.", "pairs": [{ "left": "A student saving for a phone", "right": "Groww (small investments)" }, { "left": "A shop owner taking digital payments", "right": "PhonePe for Business" }, { "left": "A traveller wanting a cheap stay", "right": "OYO" }, { "left": "A freelancer sending invoices abroad", "right": "Razorpay" }], "explain": "Each product solves a clear job for a clear type of person." },
+        { "type": "spot", "prompt": "One line in this persona does not help design. Which one?", "lines": ["Goal: book a train ticket in 2 minutes", "Pain: Tatkal tickets sell out fast", "Fact: uses a cheap Android phone with slow internet", "Fact: favourite movie is Sholay"], "wrong": 3, "explain": "Favourite movie does not change what you build. Phone type and slow internet do, for an app like IRCTC or ixigo." },
+        { "type": "mcq", "prompt": "Why do teams limit themselves to 2 or 3 key personas?", "options": ["Designers get tired", "Focus: you can make a few people very happy", "Investors ask for it", "More personas cost money to print"], "answer": 1, "explain": "Focus wins. Early Instagram focused on people sharing nice photos fast, not on every kind of social user." },
+        { "type": "order", "prompt": "Put these parts of a persona in the order you would write them.", "steps": ["Who they are in one line", "What they are trying to get done", "What gets in their way today", "How they solve it now"], "explain": "Who, then the goal, then the pain, then the current workaround, which is the thing you must beat." },
+        { "type": "tf", "prompt": "If two personas want opposite things, you must always build for both equally.", "answer": false, "explain": "You often pick one as the main persona. Tinder, for example, designs mainly for quick casual swiping, not long profile reading." }
+      ]
+    },
+    {
+      "id": "u01-l3",
+      "title": "Finding the real problem",
+      "teach": [
+        "Users tell you what they want, but a PM looks for the problem behind it. People asked for faster horses; the problem was getting somewhere quickly.",
+        "A simple trick is to ask 'why?' a few times until you reach the real pain.",
+        "A problem is worth solving when it happens often, hurts a lot, and people already try to fix it."
+      ],
+      "questions": [
+        { "type": "mcq", "prompt": "A user says 'add a dark mode to the banking app'. What is a good first question?", "options": ["Which colour exactly?", "When do you use the app and what bothers you?", "Should we charge for it?", "Do you like our logo?"], "answer": 1, "explain": "Maybe they check balance at night and the screen hurts their eyes. Knowing the real moment helps you solve it well." },
+        { "type": "order", "prompt": "Put the 'ask why' chain in order for 'I want food delivered faster'.", "steps": ["I want food faster", "Why? Because I order when I'm already hungry", "Why? Because I forget to plan meals", "Real problem: no easy way to plan meals ahead"], "explain": "Each 'why' digs deeper. Now ideas like scheduled orders or meal plans appear, not just faster riders." },
+        { "type": "tree", "prompt": "Pick the 3 signs that a problem is worth solving.", "root": "Problem worth solving", "options": ["It happens often", "It hurts a lot when it happens", "People already pay or hack around it", "The founder finds it fun", "A competitor has a nice logo"], "correct": [0, 1, 2], "explain": "Frequent, painful, and already being worked around. That is why UPI took off: paying small amounts was frequent and cash was a pain." },
+        { "type": "tf", "prompt": "If users already use messy workarounds, that is a good sign the problem is real.", "answer": true, "explain": "Before Splitwise, friends used notes and Excel to split bills. The workaround proved the pain." },
+        { "type": "spot", "prompt": "Which line is a solution, not a problem?", "lines": ["I lose track of who owes me money", "I can never find a free slot with my doctor", "I need a chatbot in the app", "My parcel arrives when I'm not home"], "wrong": 2, "explain": "A chatbot is one possible answer. The problem behind it might be 'I can't get help quickly'." },
+        { "type": "match", "prompt": "Match each product to the problem it solves.", "pairs": [{ "left": "Practo", "right": "Hard to find and book a good doctor" }, { "left": "Splitwise", "right": "Messy bill splitting with friends" }, { "left": "Urban Company", "right": "Finding a trusted plumber or cleaner" }, { "left": "CRED", "right": "Forgetting credit card due dates" }], "explain": "Each one started from a pain that was frequent and annoying." },
+        { "type": "mcq", "prompt": "What does 'jobs to be done' mean?", "options": ["A list of tasks for the PM", "The progress a user is trying to make when they 'hire' a product", "Job listings on Naukri", "A hiring plan"], "answer": 1, "explain": "People 'hire' Zepto to get forgotten groceries fast, not because they love apps. Thinking in jobs keeps you focused on the outcome." }
+      ]
+    },
+    {
+      "id": "u01-l4",
+      "title": "User journeys and pain points",
+      "teach": [
+        "A user journey is every step a person takes to get something done, from first hearing about you to coming back again.",
+        "At each step, look for pain points: moments of confusion, waiting, or worry. These are where users quit.",
+        "Fixing the biggest drop off step often does more than adding a new feature."
+      ],
+      "questions": [
+        { "type": "order", "prompt": "Put a first time food order on Swiggy in order.", "steps": ["Open the app", "Pick a restaurant", "Add items to cart", "Pay", "Track the delivery"], "explain": "Mapping the steps lets you ask where people get stuck, for example at payment." },
+        { "type": "mcq", "prompt": "In a journey, 80% of users add to cart but only 30% pay. Where should you look first?", "options": ["The home page", "The checkout and payment step", "The app icon", "The delivery partner app"], "answer": 1, "explain": "The biggest drop is between cart and payment. Surprise fees or failed payments are common causes." },
+        { "type": "tf", "prompt": "A user journey ends the moment the user pays.", "answer": false, "explain": "It continues: delivery, eating, rating, and coming back. Repeat use is where most of the value is." },
+        { "type": "spot", "prompt": "Which of these is not a pain point?", "lines": ["Hidden delivery fee shown only at the end", "OTP takes two minutes to arrive", "Order arrives 5 minutes early and hot", "No way to change the address after ordering"], "wrong": 2, "explain": "Early and hot is a happy moment. The others make users worried or annoyed." },
+        { "type": "match", "prompt": "Match each pain point to a likely fix.", "pairs": [{ "left": "Users don't trust a new seller", "right": "Show ratings and reviews" }, { "left": "Users forget to finish signup", "right": "Send a reminder with one tap to continue" }, { "left": "Payment fails often", "right": "Offer UPI and save the last method" }, { "left": "Users can't find a product", "right": "Better search with typo fixing" }], "explain": "A good fix targets the exact reason people stop." },
+        { "type": "tree", "prompt": "Pick the 3 steps that directly decide if a new Uber rider finishes a first trip.", "root": "First trip completed", "options": ["Signs up successfully", "Gets a driver within a few minutes", "Payment works", "Sees an ad on TV", "Follows Uber on Instagram"], "correct": [0, 1, 2], "explain": "These are steps inside the journey. Ads and social follows may bring people in, but don't decide if the trip happens." },
+        { "type": "mcq", "prompt": "What is the best way to find real pain points?", "options": ["Guess in a meeting", "Watch real users try the product and read their complaints", "Ask only the CEO", "Copy a competitor's roadmap"], "answer": 1, "explain": "Watching 5 users try your app usually shows the big problems. App store reviews are a free source too." }
+      ]
+    }
+  ]
+}

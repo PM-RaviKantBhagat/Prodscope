@@ -1,8 +1,6 @@
 import Link from "next/link";
 import TeardownForm from "@/components/TeardownForm";
 import { FREE_PER_PERSON_PER_DAY } from "@/lib/limits";
-import Gallery, { type GalleryGroup } from "@/components/Gallery";
-import { getGroups } from "@/lib/gallery";
 
 export const dynamic = "force-dynamic";
 
@@ -32,11 +30,7 @@ function Preview() {
   );
 }
 
-export default async function Home() {
-  const groups: GalleryGroup[] = (await getGroups()).map((g) => ({
-    ...g,
-    items: g.items.map((t) => ({ slug: t.slug, company: t.company, tagline: t.tagline, category: t.category, curated: t.origin === "curated", up: t.up })),
-  }));
+export default function Home() {
   return (
     <>
       <section className="hero" id="start">
@@ -51,20 +45,23 @@ export default async function Home() {
         <Preview />
       </section>
 
-      <section className="band">
-        <h2>Built for APM prep</h2>
-        <div className="features">
-          <div><div className="ico">1</div><h3>200 products, ready to study</h3><p>The top products APM interviewers ask about, researched and written in plain words, grouped by category.</p></div>
-          <div><div className="ico">2</div><h3>Thinks in PM frameworks</h3><p>North star, KPI tree, money per order, journeys, user complaints and prioritised ideas, laid out the way interviewers expect.</p></div>
-          <div><div className="ico">3</div><h3>Any other product, on demand</h3><p>Not in the library? Enter its website and get a fresh AI teardown in a couple of minutes. Share it with your cohort.</p></div>
-          <div><div className="ico">4</div><h3>Practise like the interview</h3><p><Link href="/practice">Write your own teardown</Link> and get honest AI feedback, <Link href="/compare?a=zepto&b=blinkit">compare two products</Link> side by side, and drill flashcards.</p></div>
-          <div><div className="ico">5</div><h3>Track your prep</h3><p>Save teardowns, mark them studied, and see your <Link href="/my">progress in every category</Link>. No login needed.</p></div>
+      <section className="band play-band">
+        <div>
+          <h2>Learn product by playing it.</h2>
+          <p className="lede">Run Zepto, Spotify or any of 200 products as its PM. Make the calls, lose lives on wrong ones, and win with a full picture of the product.</p>
+          <div className="hub-go">
+            <Link className="btn" href="/play">Start playing</Link>
+            <Link className="btn ghost" href="/play/zepto">Try Zepto</Link>
+          </div>
         </div>
       </section>
 
-      <section className="band" id="recent">
-        <h2>Teardown library</h2>
-        {groups.length === 0 ? <p className="hint">No teardowns yet. Be the first.</p> : <Gallery groups={groups} />}
+      <section className="band">
+        <div className="features">
+          <div><h3>200 products, ready to study</h3><p>Find any of them from the search bar or the Categories menu above.</p></div>
+          <div><h3>Practise like the interview</h3><p><Link href="/practice">Write your own teardown</Link> for AI feedback, or <Link href="/compare?a=zepto&b=blinkit">compare two products</Link>.</p></div>
+          <div><h3>Track your prep</h3><p>Save teardowns and see <Link href="/my">your progress</Link>. No login needed.</p></div>
+        </div>
       </section>
     </>
   );

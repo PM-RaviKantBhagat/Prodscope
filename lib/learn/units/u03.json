@@ -1,0 +1,398 @@
+{
+ "id": "u03",
+ "title": "Metrics and the north star",
+ "summary": "Pick the one number that shows users are getting value, and the numbers that move it.",
+ "icon": "⭐",
+ "lessons": [
+  {
+   "id": "u03-l1",
+   "title": "What a north star metric is",
+   "teach": [
+    "A north star metric is the one number that best shows users are getting real value. If it goes up, the product is helping more people.",
+    "Revenue is usually a bad north star. It can rise while users get less value, for example by adding hidden fees."
+   ],
+   "questions": [
+    {
+     "type": "mcq",
+     "prompt": "Which is the best north star for Zepto?",
+     "options": [
+      "Monthly revenue",
+      "App downloads",
+      "Orders delivered on time and complete each week",
+      "Number of dark stores"
+     ],
+     "answer": 2,
+     "explain": "It counts value the customer actually felt: the right items, fast. Revenue and downloads can grow while customers get a worse experience."
+    },
+    {
+     "type": "tf",
+     "prompt": "A good north star should be something a product team can influence.",
+     "answer": true,
+     "explain": "If no team can move it, it can't guide decisions. Spotify's time spent listening is moved by better recommendations."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each product to a sensible north star.",
+     "pairs": [
+      {
+       "left": "Airbnb",
+       "right": "Nights booked"
+      },
+      {
+       "left": "Duolingo",
+       "right": "Daily active learners"
+      },
+      {
+       "left": "Slack",
+       "right": "Messages sent by active teams"
+      }
+     ],
+     "explain": "Each one counts the moment the user gets value: a stay, a day of learning, a team talking."
+    },
+    {
+     "type": "order",
+     "prompt": "Put these steps for choosing a north star in order.",
+     "steps": [
+      "Write down the core value users get",
+      "List numbers that capture that value",
+      "Check the team can move it week to week",
+      "Add guardrail metrics so it can't be gamed"
+     ],
+     "explain": "Start from user value, then find a number, then test that it is useful and safe."
+    },
+    {
+     "type": "tree",
+     "prompt": "Pick the 3 numbers that directly drive weekly orders on a quick delivery app.",
+     "root": "Weekly orders",
+     "options": [
+      "Weekly active buyers",
+      "Orders per buyer per week",
+      "Share of orders that succeed",
+      "Number of office staff",
+      "App store rating"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Weekly orders = buyers x orders per buyer x success rate. Staff and ratings matter but are not direct parts of the formula."
+    },
+    {
+     "type": "spot",
+     "prompt": "One of these north star choices is weak. Which one?",
+     "lines": [
+      "Uber: completed trips",
+      "Netflix: hours watched by members",
+      "Swiggy: total discounts given",
+      "WhatsApp: messages sent"
+     ],
+     "wrong": 2,
+     "explain": "Discounts are a cost, not user value. More discounts can mean a weaker business, not happier users."
+    },
+    {
+     "type": "mcq",
+     "prompt": "What is a guardrail metric?",
+     "options": [
+      "The main goal",
+      "A number that must not get worse while you chase the goal",
+      "A metric only finance looks at",
+      "A vanity metric"
+     ],
+     "answer": 1,
+     "explain": "If Blinkit pushes faster delivery, a guardrail like order accuracy makes sure speed doesn't break quality."
+    }
+   ]
+  },
+  {
+   "id": "u03-l2",
+   "title": "Good metrics and vanity metrics",
+   "teach": [
+    "A vanity metric looks good but does not help you decide anything. Total downloads only goes up, even if everyone has stopped using the app.",
+    "A good metric changes when the product gets better or worse, and it points to an action.",
+    "Rates and ratios are often better than totals: share of users who come back, orders per user, time to deliver."
+   ],
+   "questions": [
+    {
+     "type": "mcq",
+     "prompt": "Which is a vanity metric?",
+     "options": [
+      "Share of new users still active after 30 days",
+      "Total app downloads ever",
+      "Orders per active user per week",
+      "Share of orders delivered on time"
+     ],
+     "answer": 1,
+     "explain": "Total downloads can only rise. It says nothing about whether people still use the app."
+    },
+    {
+     "type": "tf",
+     "prompt": "A good metric should help you decide what to do next.",
+     "answer": true,
+     "explain": "If 'week 1 return rate' drops, you know to look at the first week experience. That's an action."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which of these is a vanity metric for Spotify?",
+     "lines": [
+      "Hours listened per active user",
+      "Share of free users who become paid",
+      "Total songs in the catalogue",
+      "Monthly paying users who cancel"
+     ],
+     "wrong": 2,
+     "explain": "A huge catalogue sounds nice, but it doesn't show listeners are happy. The other three track real behaviour."
+    },
+    {
+     "type": "match",
+     "prompt": "Swap each vanity metric for a better one.",
+     "pairs": [
+      {
+       "left": "Total sign ups",
+       "right": "Sign ups who finish setup"
+      },
+      {
+       "left": "Page views",
+       "right": "Time spent reading per visit"
+      },
+      {
+       "left": "Followers",
+       "right": "Followers who engage each week"
+      },
+      {
+       "left": "Total orders ever",
+       "right": "Orders this week per active user"
+      }
+     ],
+     "explain": "Each better metric looks at real use now, not a big number that only grows."
+    },
+    {
+     "type": "mcq",
+     "prompt": "Why are rates often better than totals?",
+     "options": [
+      "They are smaller numbers",
+      "They show quality even as you grow",
+      "Investors dislike totals",
+      "They are easier to fake"
+     ],
+     "answer": 1,
+     "explain": "If users double but the 30 day return rate halves, the total hides a real problem. The rate shows it."
+    },
+    {
+     "type": "tf",
+     "prompt": "Daily active users divided by monthly active users shows how often people come back.",
+     "answer": true,
+     "explain": "This 'DAU/MAU' ratio is a stickiness check. WhatsApp is very high because people use it every day."
+    },
+    {
+     "type": "order",
+     "prompt": "Put these from least to most useful for judging a new feature.",
+     "steps": [
+      "Number of people who saw it",
+      "Number who tapped it once",
+      "Number who used it again next week"
+     ],
+     "explain": "Repeat use is the strongest sign a feature is truly valuable."
+    }
+   ]
+  },
+  {
+   "id": "u03-l3",
+   "title": "Retention: do users come back?",
+   "teach": [
+    "Retention is the share of users who come back after some time, like after 1 day, 7 days or 30 days.",
+    "If retention keeps falling to zero, the product has a leaky bucket: you keep pouring in users and they leak out.",
+    "Great products have a retention curve that falls at first and then flattens. The flat part is the group who found real value."
+   ],
+   "questions": [
+    {
+     "type": "mcq",
+     "prompt": "100 users join in May. 25 are still active in June. What is month 1 retention?",
+     "options": [
+      "75%",
+      "25%",
+      "100%",
+      "4%"
+     ],
+     "answer": 1,
+     "explain": "25 out of 100 came back, so 25%."
+    },
+    {
+     "type": "tf",
+     "prompt": "A retention curve that flattens is a good sign.",
+     "answer": true,
+     "explain": "It means a core group keeps using the product. That's a sign of product market fit."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which idea does not help retention?",
+     "lines": [
+      "A reminder at the time users usually order",
+      "Saving the last order for a one tap repeat",
+      "Spending more on ads for new users",
+      "A streak that rewards daily use"
+     ],
+     "wrong": 2,
+     "explain": "Ads bring new users. They don't make existing users come back."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each product to what keeps users coming back.",
+     "pairs": [
+      {
+       "left": "Duolingo",
+       "right": "Streaks and daily goals"
+      },
+      {
+       "left": "Instagram",
+       "right": "Stories and posts from friends"
+      },
+      {
+       "left": "Swiggy One",
+       "right": "Paid membership with free delivery"
+      },
+      {
+       "left": "Google Pay",
+       "right": "Daily payments to shops and friends"
+      }
+     ],
+     "explain": "Each has a reason to return: a habit, people you care about, money saved, or a daily need."
+    },
+    {
+     "type": "mcq",
+     "prompt": "A PM sees users leave after day 1. Where should they look first?",
+     "options": [
+      "The pricing page for companies",
+      "The first time experience: signup and first use",
+      "The careers page",
+      "The yearly report"
+     ],
+     "answer": 1,
+     "explain": "Day 1 drop off usually means users didn't reach value fast enough. Fix the first experience."
+    },
+    {
+     "type": "order",
+     "prompt": "Put these retention checks in time order.",
+     "steps": [
+      "Day 1 retention",
+      "Day 7 retention",
+      "Day 30 retention",
+      "Day 90 retention"
+     ],
+     "explain": "Track users over time to see where the curve flattens."
+    },
+    {
+     "type": "tf",
+     "prompt": "Growing sign ups fast can hide a retention problem.",
+     "answer": true,
+     "explain": "Active users can look fine while most new users leave. Always look at retention by joining month, called cohorts."
+    }
+   ]
+  },
+  {
+   "id": "u03-l4",
+   "title": "Guardrails and trade-offs",
+   "teach": [
+    "When you push one number, others can break. Guardrail metrics are the ones you promise not to hurt.",
+    "Faster delivery can mean more wrong items. More notifications can mean more uninstalls. Always pair a goal with a guardrail.",
+    "Good teams write their guardrails before they start an experiment, not after."
+   ],
+   "questions": [
+    {
+     "type": "match",
+     "prompt": "Match each goal to a sensible guardrail.",
+     "pairs": [
+      {
+       "left": "Faster delivery",
+       "right": "Order accuracy"
+      },
+      {
+       "left": "More notifications",
+       "right": "Uninstall rate"
+      },
+      {
+       "left": "More ads in the feed",
+       "right": "Time spent per user"
+      },
+      {
+       "left": "Higher prices",
+       "right": "Cancellations"
+      }
+     ],
+     "explain": "Each guardrail catches the most likely harm from chasing the goal."
+    },
+    {
+     "type": "tf",
+     "prompt": "Guardrails should be decided before the experiment starts.",
+     "answer": true,
+     "explain": "If you pick them after, it's easy to ignore the bad news. Decide upfront what counts as harm."
+    },
+    {
+     "type": "mcq",
+     "prompt": "YouTube pushes watch time. Which guardrail makes most sense?",
+     "options": [
+      "Number of employees",
+      "User satisfaction surveys and reports of harmful content",
+      "Number of countries",
+      "App size"
+     ],
+     "answer": 1,
+     "explain": "Watch time can rise from clickbait. Satisfaction and safety checks stop the team from winning the wrong way."
+    },
+    {
+     "type": "spot",
+     "prompt": "Which line is not a guardrail for a ride app pushing more trips?",
+     "lines": [
+      "Driver cancellations",
+      "Rider safety incidents",
+      "Number of rides",
+      "Rider support complaints"
+     ],
+     "wrong": 2,
+     "explain": "Number of rides is the goal itself. Guardrails watch what could go wrong while you chase it."
+    },
+    {
+     "type": "tree",
+     "prompt": "Swiggy wants more orders from discounts. Pick the 3 guardrails.",
+     "root": "Push orders with discounts",
+     "options": [
+      "Loss per order",
+      "Repeat orders without a coupon",
+      "Restaurant ratings",
+      "App icon clicks",
+      "Number of offices"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Watch money lost per order, whether users still order without a coupon, and food quality."
+    },
+    {
+     "type": "mcq",
+     "prompt": "An experiment raises sign ups by 10% but doubles complaints. What now?",
+     "options": [
+      "Ship it, sign ups are the goal",
+      "Hold it, find out why complaints rose",
+      "Delete all complaints",
+      "Stop measuring complaints"
+     ],
+     "answer": 1,
+     "explain": "A broken guardrail is a warning. Understand the harm before you ship."
+    },
+    {
+     "type": "order",
+     "prompt": "Put these experiment steps in order.",
+     "steps": [
+      "Pick the goal metric",
+      "Pick guardrail metrics",
+      "Run the test on some users",
+      "Check goal and guardrails, then decide"
+     ],
+     "explain": "Goal and guardrails come first, then the test, then a decision using both."
+    }
+   ]
+  }
+ ]
+}

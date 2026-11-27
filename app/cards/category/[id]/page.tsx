@@ -30,7 +30,7 @@ export default async function CategoryCards({ params }: Props) {
     <article className="page">
       <div className="eyebrow">Flashcards · category</div>
       <h1>{g.section}</h1>
-      <p className="lede">{cards.length} cards from {g.items.length} teardowns. <Link href={`/#${g.id}`}>See the teardowns</Link>.</p>
+      <p className="lede">{cards.length} cards from {g.items.length} teardowns.</p>
       <Flashcards cards={cards} deckId={`cat:${g.id}`} />
     </article>
   );

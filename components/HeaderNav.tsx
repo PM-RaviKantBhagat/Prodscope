@@ -114,15 +114,17 @@ export default function HeaderNav({ groups }: { groups: NavGroup[] }) {
           {menuOpen && (
             <div className="cats-panel">
               <div className="cats-tools">
+                <Link href="/play" onClick={() => setMenuOpen(false)}>Play a product</Link>
+                <Link href="/learn" onClick={() => setMenuOpen(false)}>Skill lessons</Link>
                 <Link href="/compare" onClick={() => setMenuOpen(false)}>Compare two products</Link>
                 <Link href="/practice" onClick={() => setMenuOpen(false)}>Write your own teardown</Link>
                 <Link href="/my" onClick={() => setMenuOpen(false)}>My progress and saved</Link>
               </div>
               {groups.map((g) => (
                 <div key={g.id} className="cats-col">
-                  <Link href={`/#${g.id}`} className="cats-head" onClick={() => setMenuOpen(false)}>
+                  <div className="cats-head">
                     {g.section} <span>{g.items.length}</span>
-                  </Link>
+                  </div>
                   <ul>
                     {g.items.map((t) => (
                       <li key={t.slug}><Link href={`/t/${t.slug}`} onClick={() => setMenuOpen(false)}>{t.company}</Link></li>
@@ -133,6 +135,7 @@ export default function HeaderNav({ groups }: { groups: NavGroup[] }) {
             </div>
           )}
         </div>
+        <Link href="/play" className="playlink" aria-label="Play">▶<span> Play</span></Link>
         <Link href="/my" className="mylink" title="My progress and saved teardowns">★ My progress</Link>
         <Link href="/#start" className="pill">New teardown</Link>
       </nav>
