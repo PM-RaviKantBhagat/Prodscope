@@ -1,0 +1,214 @@
+{
+  "company": "Rightmove",
+  "domain": "rightmove.co.uk",
+  "website": "https://www.rightmove.co.uk",
+  "sources": [
+    "https://thenegotiator.co.uk/news/marketing-news/rightmove-reports-h1-revenue-up-7-with-major-ai-progress/",
+    "https://www.investegate.co.uk/announcement/rns/rightmove--rmv/half-year-financial-report/9697048",
+    "https://joshthompson.co.uk/investing/rightmove-half-year-results-2026-new-homes-guidance-buybacks/",
+    "https://www.onlinemarketplaces.com/articles/agent-pens-open-letter-to-rightmove-after-12-price-hike/",
+    "https://primeresi.com/rightmove-faces-november-hearing-in-1-5bn-agent-fees-claim/",
+    "https://www.ii.co.uk/analysis-commentary/ii-view-rightmove-restarts-share-buybacks-ai-spend-gathers-pace-ii538293"
+  ],
+  "report": {
+    "company": "Rightmove",
+    "tagline": "The UK's biggest property website, where home hunters search for free and estate agents pay a monthly fee to list homes.",
+    "category": "Property portal",
+    "simpleSummary": "Rightmove is the website most people in the UK use to look for a house or flat to buy or rent. Searching is free. Estate agents and housebuilders pay Rightmove every month to show their homes there, because that is where the buyers are. It is one of the most profitable websites in Britain: it keeps about 70p of every pound it earns as operating profit.",
+    "keyNumbers": [
+      {"label": "Revenue, H1 2026", "value": "£225.8 million, up 7%", "note": "Rightmove half-year results, July 2026."},
+      {"label": "Underlying operating profit, H1 2026", "value": "£155.1 million, up 3%", "note": "Company results. Works out to an operating margin of about 69%."},
+      {"label": "Revenue, full year 2025", "value": "£425.1 million, up 9%", "note": "Company results, reported February 2026."},
+      {"label": "Average revenue per advertiser", "value": "About £1,600 a month", "note": "Estimate: ARPA was about £1,500 in 2024 and grows each year. Not confirmed for 2026."},
+      {"label": "Share price, 2026", "value": "Down about 42% year to date", "note": "The Negotiator, July 2026, after Rightmove cut New Homes revenue guidance and raised AI spending."},
+      {"label": "Agent fees legal claim", "value": "Up to £1.5 billion", "note": "Collective claim by agents that fees are too high; hearing set for November 2026. Not decided."}
+    ],
+    "overview": {
+      "whatItDoes": "Rightmove runs the UK's leading property portal for homes for sale, homes to rent, new builds and commercial property. Consumers search for free. Estate agents, letting agents and developers pay a monthly subscription to list properties and buy add-on products that make their listings stand out. It also earns from mortgage and rental services.",
+      "howItWorks": [
+        "Estate agents send all their listings to Rightmove automatically from their software.",
+        "Home hunters search by area, price and features, save searches and get instant alerts.",
+        "A buyer or tenant contacts the agent through the listing; this enquiry is a lead for the agent.",
+        "Agents pay a fixed monthly membership per branch, plus add-ons like Featured Property and Premium Listings.",
+        "Homeowners use the free online valuation tool, which sends them to local agents who want to win the sale.",
+        "Ask Rightmove, an AI search tool, lets people describe what they want in plain words."
+      ],
+      "valueProposition": "For movers: almost every home on the market in one place. For agents: the largest audience of active buyers and sellers, so a listing gets seen and a sale gets won."
+    },
+    "personas": [
+      {"name": "First-time buyer in London", "description": "A couple in their late 20s saving for a deposit and checking the app every evening.", "goals": ["See new homes first", "Know local prices", "Book viewings quickly"], "frustrations": ["Good homes go in days", "Some listings are already under offer", "Prices feel out of reach"]},
+      {"name": "Renter", "description": "A young professional looking for a flat to rent in Manchester.", "goals": ["Find a place before the current lease ends", "Avoid scams"], "frustrations": ["Agents do not reply", "Viewings fill up fast"]},
+      {"name": "Independent estate agent", "description": "A one-branch agency in a market town paying Rightmove every month.", "goals": ["Win instructions from sellers", "Get buyers for listings"], "frustrations": ["Fees rise every year", "No real alternative portal", "Paying for add-ons to keep up with rivals"]},
+      {"name": "Homeowner thinking of selling", "description": "A family checking what their home is worth.", "goals": ["Know the value", "Choose a good agent"], "frustrations": ["Online estimates differ from agent valuations"]}
+    ],
+    "painPoints": [
+      {"pain": "Homes for sale are spread across hundreds of agent websites.", "howSolved": "One portal with almost every listing.", "severity": "high"},
+      {"pain": "Good homes go before buyers see them.", "howSolved": "Instant alerts on new listings and price drops.", "severity": "high"},
+      {"pain": "Buyers do not know local prices.", "howSolved": "Sold price history and local market data.", "severity": "medium"},
+      {"pain": "Agents struggle to reach many buyers.", "howSolved": "The largest audience in UK property.", "severity": "high"},
+      {"pain": "Agents need sellers to list with them.", "howSolved": "Valuation leads from homeowners using the online valuation tool.", "severity": "medium"},
+      {"pain": "Searching by filters is clumsy.", "howSolved": "Ask Rightmove lets people search in plain words.", "severity": "low"}
+    ],
+    "coreFeatures": [
+      {"feature": "Property search and alerts", "whatItDoes": "Search by map, filters and keywords; instant alerts.", "whyItMatters": "Keeps buyers coming back daily, which is what agents pay for."},
+      {"feature": "Agent membership packages", "whatItDoes": "Monthly fee per branch with tiers like Essential, Enhanced and Optimiser.", "whyItMatters": "The core of revenue; higher tiers raise average revenue per advertiser."},
+      {"feature": "Featured Property and Premium Listings", "whatItDoes": "Paid add-ons that put a listing higher or make it bigger.", "whyItMatters": "Lets agents compete for attention and impress sellers."},
+      {"feature": "Online agent valuation", "whatItDoes": "Gives homeowners a value estimate and passes them to local agents.", "whyItMatters": "Valuation leads rose about 50% in H1 2026, which helps justify fees."},
+      {"feature": "Ask Rightmove", "whatItDoes": "AI chat-style property search.", "whyItMatters": "Defends against AI tools taking over the start of home search."},
+      {"feature": "Rightmove Mortgages and rentals services", "whatItDoes": "Mortgage in principle and tenant tools.", "whyItMatters": "New revenue beyond agent fees."}
+    ],
+    "userJourneys": [
+      {"name": "Buying a first home", "persona": "First-time buyer in London", "steps": [
+        {"step": "Sets a search", "detail": "Draws an area on the map and sets a budget."},
+        {"step": "Gets alerts", "detail": "Receives instant push alerts for new homes."},
+        {"step": "Checks prices", "detail": "Looks at sold prices nearby."},
+        {"step": "Enquires", "detail": "Sends an enquiry to the agent."},
+        {"step": "Views", "detail": "Books a viewing with the agent."},
+        {"step": "Offers", "detail": "Makes an offer through the agent, outside Rightmove."}
+      ]},
+      {"name": "Agent winning a new seller", "persona": "Independent estate agent", "steps": [
+        {"step": "Gets valuation lead", "detail": "A homeowner uses the online valuation tool."},
+        {"step": "Visits", "detail": "The agent visits and values the home."},
+        {"step": "Shows proof", "detail": "Shows the seller Rightmove reach and premium listing options."},
+        {"step": "Wins instruction", "detail": "Seller signs with the agent."},
+        {"step": "Lists", "detail": "Home goes on Rightmove, often with a paid add-on."},
+        {"step": "Gets enquiries", "detail": "Buyers contact the agent through the portal."}
+      ]},
+      {"name": "Renting a flat", "persona": "Renter", "steps": [
+        {"step": "Searches", "detail": "Filters for rent, area and bills."},
+        {"step": "Saves", "detail": "Saves favourites and sets an alert."},
+        {"step": "Contacts", "detail": "Sends an enquiry to the letting agent."},
+        {"step": "Views", "detail": "Attends a group viewing."},
+        {"step": "Applies", "detail": "Applies through the letting agent."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Rightmove makes money almost entirely from estate agents and housebuilders paying a monthly subscription to list homes, plus extra for add-on products. Consumers pay nothing. Because the site costs little to run and agents feel they must be on it, most revenue turns into profit.",
+      "revenueStreams": [
+        {"stream": "Agency subscriptions", "detail": "Monthly fees from estate and letting agent branches; the biggest share of revenue."},
+        {"stream": "New Homes", "detail": "Fees from housebuilders for developments; weak in 2026, which cut revenue guidance."},
+        {"stream": "Add-on products", "detail": "Featured Property, Premium Listings and other promotions."},
+        {"stream": "Other", "detail": "Mortgages, rental services, commercial property and data products."}
+      ],
+      "pricing": "Not public as a full price list. Agents pay per branch per month; estimated average revenue per advertiser is around £1,500 to £1,600 a month. In 2025 some agents reported price rises of around 12%.",
+      "costDrivers": [
+        "Staff, mainly engineers and sales",
+        "Marketing to consumers",
+        "Cloud hosting and data",
+        "New AI investment programme"
+      ],
+      "unitEconomics": "Take one agent branch paying about £1,600 a month, so about £19,000 a year. Serving that branch costs Rightmove little: listings upload automatically and the site is already built. With an operating margin near 69%, Rightmove keeps roughly £13,000 of that as profit. For the agent, if Rightmove helps win just one or two extra sales a year at a £3,000 to £4,000 fee each, the subscription pays for itself, which is why agents complain but stay."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Brand: 'on Rightmove' is how people say a home is for sale",
+        "Google search for areas and addresses",
+        "Agents linking to Rightmove listings",
+        "Free valuation tool attracting homeowners"
+      ],
+      "whatBringsUsersBack": [
+        "Instant alerts on new homes",
+        "Browsing as a hobby, sometimes called property porn",
+        "Saved homes and searches",
+        "Tracking local sold prices"
+      ],
+      "moat": "Rightmove has a strong network effect. Buyers go where the homes are, and agents list where the buyers are. Rivals like Zoopla and OnTheMarket have tried for years to break this, but agents cannot afford to leave Rightmove, which lets it raise prices. Its biggest risk is AI search tools becoming the new starting point."
+    },
+    "competitors": [
+      {"name": "Zoopla", "positioning": "Second UK property portal, owned by Houseful.", "howThisProductDiffers": "Rightmove has far more traffic and time spent, so it can charge more."},
+      {"name": "OnTheMarket", "positioning": "Portal owned by CoStar, spending heavily on marketing and cheap deals for agents.", "howThisProductDiffers": "CoStar has deep pockets, but agents still see Rightmove as essential."},
+      {"name": "Agent websites and social media", "positioning": "Agents marketing direct through their own sites, Instagram and TikTok.", "howThisProductDiffers": "Reaches fewer active buyers than Rightmove."},
+      {"name": "AI assistants like ChatGPT and Google AI Mode", "positioning": "Starting home search with chat.", "howThisProductDiffers": "Rightmove holds the listings data and is building Ask Rightmove to keep the search on its site."}
+    ],
+    "northStar": {
+      "metric": "Number of buyer and tenant enquiries sent to agents each month",
+      "why": "This north star metric shows real moving intent being matched with homes. It is value for movers and the reason agents keep paying."
+    },
+    "kpiTree": [
+      {"metric": "Active home hunters", "description": "People searching each month.", "children": [
+        {"metric": "Share of time on UK property portals", "description": "Rightmove's lead over rivals."},
+        {"metric": "App users with alerts on", "description": "Engaged, high-intent users."},
+        {"metric": "Listing coverage", "description": "Share of UK homes for sale listed."}
+      ]},
+      {"metric": "Enquiry rate", "description": "Share of listing views that lead to an enquiry.", "children": [
+        {"metric": "Listing quality score", "description": "Photos, floorplans and full details."},
+        {"metric": "Ask Rightmove usage", "description": "Better matching should mean more enquiries."}
+      ]},
+      {"metric": "Valuation leads", "description": "Homeowners asking agents to value their home.", "children": [
+        {"metric": "Online valuation tool users", "description": "Top of the seller funnel."},
+        {"metric": "Valuation-to-appointment rate", "description": "Share that book an agent visit."}
+      ]},
+      {"metric": "Agent satisfaction", "description": "Whether agents feel they get value.", "children": [
+        {"metric": "Agent retention", "description": "Highest H1 retention in over a decade in 2026."},
+        {"metric": "Leads per £ spent by agent", "description": "Value for money per branch."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Agent retention rate",
+      "Underlying operating margin",
+      "Consumer complaints about stale or fake listings"
+    ],
+    "strengths": [
+      "Clear market leader with a self-reinforcing network effect",
+      "Operating margin near 70%, among the highest of any listed UK company",
+      "Steady subscription revenue with high retention",
+      "Large data set of UK home prices and searches"
+    ],
+    "weaknesses": [
+      "Almost all revenue comes from one customer group, agents, who resent fee rises",
+      "New Homes business weak in 2026",
+      "Higher AI spend is slowing profit growth",
+      "Little control over the actual transaction after the enquiry"
+    ],
+    "risks": [
+      "£1.5 billion collective legal claim over agent fees",
+      "AI search tools bypassing the portal",
+      "Well-funded rival OnTheMarket backed by CoStar",
+      "A weak UK housing market reducing agent numbers"
+    ],
+    "userComplaints": [
+      "Agents say fee rises like 12% are excessive and they have no choice",
+      "Buyers see homes already under offer or sold",
+      "Some listings have poor photos or missing details",
+      "Renters say agents do not reply to enquiries",
+      "Small agents feel bigger agencies buy all the premium spots"
+    ],
+    "improvementIdeas": [
+      {"idea": "Performance-based pricing tier for small agents", "problem": "Small agents feel fees do not match results.", "expectedImpact": "Lower churn among small agents and less legal pressure.", "metricToTrack": "Small agent retention and leads per £", "effort": "medium"},
+      {"idea": "Auto-mark listings under offer after agent inactivity", "problem": "Buyers waste time on homes no longer available.", "expectedImpact": "Higher enquiry rates on live homes.", "metricToTrack": "Enquiries on unavailable homes", "effort": "low"},
+      {"idea": "Agent response time badge", "problem": "Renters and buyers get no reply.", "expectedImpact": "Faster replies and happier users.", "metricToTrack": "Median agent reply time", "effort": "low"},
+      {"idea": "Rightmove listings inside ChatGPT and other AI assistants with deep links", "problem": "AI search may become the new starting point.", "expectedImpact": "Keeps traffic and enquiries flowing.", "metricToTrack": "Enquiries from AI referrals", "effort": "medium"},
+      {"idea": "Agent ROI report each month", "problem": "Agents doubt the value of fees.", "expectedImpact": "Better retention and fewer fee complaints.", "metricToTrack": "Agent net promoter score", "effort": "low"}
+    ],
+    "pmLessons": [
+      "A strong network effect lets a business raise prices, but pushing too hard invites rivals, regulators and lawsuits.",
+      "Free for one side, paid for the other works when the free side is the reason the paying side shows up.",
+      "Even leaders must invest when the way people search changes, as Rightmove is doing with AI.",
+      "Show paying customers their return, or they will only see the bill."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you grow Rightmove revenue without raising agent fees?", "hint": "Look at new revenue: mortgages, rentals services, seller tools, data. Size each and pick one with a metric."},
+      {"question": "AI chatbots start answering home searches. What should Rightmove do?", "hint": "Threat vs chance. Options: build Ask Rightmove, partner with AI tools, protect data. Track share of searches starting on Rightmove."},
+      {"question": "Agents are angry about fees. How would you measure the risk of losing them?", "hint": "Retention by agent size, leads per £, sentiment, rival offers. Define early warning signals."},
+      {"question": "Improve the Rightmove app for first-time buyers.", "hint": "Persona, their journey, top pains like speed and affordability. Ideas: affordability filter, instant viewing booking. Metric: enquiry rate."},
+      {"question": "Why is Rightmove's margin so high, and can it last?", "hint": "Network effect, low cost to serve, pricing power. Threats: legal claim, AI, CoStar. Give a view."}
+    ],
+    "glossary": [
+      {"term": "Property portal", "meaning": "A website that collects homes for sale or rent from many agents in one place."},
+      {"term": "ARPA", "meaning": "Average revenue per advertiser: how much each agent branch pays on average each month."},
+      {"term": "Operating margin", "meaning": "The share of revenue left as profit after running costs."},
+      {"term": "Network effect", "meaning": "When a product becomes more valuable as more people use it."},
+      {"term": "Lead", "meaning": "An enquiry from a buyer, tenant or seller that an agent can follow up."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Retention", "meaning": "The share of customers who keep paying over time."},
+      {"term": "ROI", "meaning": "Return on investment: what you get back compared with what you spent."}
+    ],
+    "assumptions": [
+      "The ARPA estimate of about £1,600 a month is extrapolated from 2024 figures and has not been confirmed for 2026.",
+      "The £3,000 to £4,000 agent fee per sale is a typical UK figure, used for illustration.",
+      "The 69% margin is calculated from H1 2026 underlying operating profit and revenue.",
+      "Package names like Optimiser are from earlier company materials and may have changed."
+    ]
+  }
+}

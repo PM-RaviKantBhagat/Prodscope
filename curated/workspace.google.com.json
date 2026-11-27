@@ -1,0 +1,541 @@
+{
+  "company": "Gmail & Google Workspace",
+  "domain": "workspace.google.com",
+  "website": "https://workspace.google.com",
+  "sources": [
+    "https://sqmagazine.co.uk/google-workspace-statistics/",
+    "https://yourstory.com/2025/01/google-adds-gemini-ai-gmail-docs-sheets-workspace-users",
+    "https://www.techrepublic.com/article/google-workspace-gemini-pricing-plans/",
+    "https://www.pcworld.com/article/2578255/google-couldnt-sell-ai-for-workspace-so-it-upped-the-price-and-bundled.html",
+    "https://ia.acs.org.au/article/2025/-can-t-turn-it-off---google-faces-backlash-over-gmail-ai.html",
+    "https://www.forrester.com/blogs/google-pressures-microsoft-365-by-adding-gemini-to-workspace",
+    "https://www.axios.com/2025/01/21/microsoft-google-price-hikes-ai-chatbots"
+  ],
+  "report": {
+    "company": "Gmail & Google Workspace",
+    "tagline": "Google's email, documents, spreadsheets, video calls and storage, free for people and paid per user for businesses, now with Gemini AI built in.",
+    "category": "Productivity",
+    "simpleSummary": "Gmail is Google's free email, and Google Workspace is the paid version for businesses. With Workspace, a company gets email on its own domain (like you@yourcompany.com), plus Docs, Sheets, Slides, Drive, Meet and Calendar, all in the browser. Since January 2025, Google's Gemini AI is included: it can write emails, summarise long threads and build spreadsheets. Google raised prices a little when it added the AI, instead of charging for AI separately.",
+    "keyNumbers": [
+      {
+        "label": "Total Workspace users",
+        "value": "More than 3 billion",
+        "note": "Google figure, December 2025 and April 2026. Includes free Gmail and Docs users."
+      },
+      {
+        "label": "Paying business customers",
+        "value": "More than 11 million (December 2025)",
+        "note": "Google figure via SQ Magazine. In April 2026 Google said 'more than 13 million customers' without the word 'paying'."
+      },
+      {
+        "label": "Business Standard price",
+        "value": "$14 per user per month on annual plan",
+        "note": "Up from $12 in January 2025 when Gemini was bundled. Flexible plan $16.80."
+      },
+      {
+        "label": "Gemini assists in Workspace",
+        "value": "More than 2 billion a month",
+        "note": "Google figure, April 2025."
+      },
+      {
+        "label": "'Take notes for me' in Meet",
+        "value": "110 million attendees in one month, up 8.5x",
+        "note": "Google figure, April 2026."
+      },
+      {
+        "label": "Microsoft 365 paid seats (rival)",
+        "value": "More than 450 million",
+        "note": "Microsoft figure. Google counts organisations and Microsoft counts seats, so they are not directly comparable."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Google Workspace is a set of online work apps: Gmail, Calendar, Drive, Docs, Sheets, Slides, Meet, Chat and more. Everything runs in the browser and saves to the cloud, so many people can edit one file at once. Gemini AI is built into each app, and businesses pay a monthly fee per user.",
+      "howItWorks": [
+        "Anyone can use Gmail, Docs and Drive free with a Google account and 15 GB of storage.",
+        "A business signs up, connects its domain, and pays per user per month.",
+        "Admins add users, set security rules and manage devices from one console.",
+        "Teams edit files together in real time and share links instead of attachments.",
+        "Gemini writes drafts in Gmail and Docs, summarises threads and takes meeting notes in Meet.",
+        "Consumers can pay for more storage and AI through Google One AI plans."
+      ],
+      "valueProposition": "Simple, browser-based work tools with professional email, real-time teamwork on files and AI help included, at a lower price than many rivals."
+    },
+    "personas": [
+      {
+        "name": "Small business owner",
+        "description": "Runs a 10-person design agency in Pune.",
+        "goals": [
+          "Professional email on own domain",
+          "Share files with clients",
+          "Low cost"
+        ],
+        "frustrations": [
+          "Price rise in 2025",
+          "Paying for AI features they may not use"
+        ]
+      },
+      {
+        "name": "Startup employee",
+        "description": "Works in a fast-growing tech startup that runs fully on Google.",
+        "goals": [
+          "Work fast in Docs and Sheets",
+          "Find files quickly",
+          "Use AI to write faster"
+        ],
+        "frustrations": [
+          "Drive search is messy",
+          "Sheets struggles with very big data"
+        ]
+      },
+      {
+        "name": "IT admin in a mid-size company",
+        "description": "Manages 800 seats.",
+        "goals": [
+          "Security and compliance",
+          "Easy user management",
+          "Control AI data use"
+        ],
+        "frustrations": [
+          "Gemini turned on by default",
+          "Users wanting Microsoft Excel for finance"
+        ]
+      },
+      {
+        "name": "Free Gmail user",
+        "description": "A student who uses Gmail, Docs and Drive for college.",
+        "goals": [
+          "Free tools",
+          "Enough storage"
+        ],
+        "frustrations": [
+          "15 GB fills up with photos",
+          "AI features pushed in the inbox"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Emailing file versions back and forth.",
+        "howSolved": "One shared Doc that everyone edits live.",
+        "severity": "high"
+      },
+      {
+        "pain": "Setting up email servers and storage is hard for small companies.",
+        "howSolved": "Sign up in minutes, Google runs everything.",
+        "severity": "high"
+      },
+      {
+        "pain": "Long email threads take time to read.",
+        "howSolved": "Gemini summarises threads and suggests replies.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Taking meeting notes.",
+        "howSolved": "'Take notes for me' in Meet writes notes into a Doc.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Security worries with many tools.",
+        "howSolved": "One admin console, spam and phishing protection in Gmail.",
+        "severity": "high"
+      },
+      {
+        "pain": "Expensive software licences.",
+        "howSolved": "Plans from $7 per user per month with AI included.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Gmail with custom domain",
+        "whatItDoes": "Business email with strong spam filters.",
+        "whyItMatters": "The main reason small businesses buy Workspace."
+      },
+      {
+        "feature": "Docs, Sheets and Slides",
+        "whatItDoes": "Browser-based office apps with live co-editing and comments.",
+        "whyItMatters": "Real-time teamwork is where Google started ahead of Microsoft."
+      },
+      {
+        "feature": "Drive",
+        "whatItDoes": "Cloud storage with sharing links.",
+        "whyItMatters": "Storage limits drive upgrades for both businesses and consumers."
+      },
+      {
+        "feature": "Gemini in Workspace",
+        "whatItDoes": "AI writing, summaries, Sheets formulas, image creation and NotebookLM.",
+        "whyItMatters": "Justified the 2025 price rise and competes with Microsoft Copilot."
+      },
+      {
+        "feature": "Meet",
+        "whatItDoes": "Video meetings with AI notes and live captions.",
+        "whyItMatters": "Keeps meetings inside the bundle instead of Zoom."
+      },
+      {
+        "feature": "Admin console",
+        "whatItDoes": "Manage users, security, devices and data rules.",
+        "whyItMatters": "Makes IT teams comfortable choosing Google."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Small business signs up",
+        "persona": "Small business owner",
+        "steps": [
+          {
+            "step": "Searches for business email",
+            "detail": "Finds Workspace."
+          },
+          {
+            "step": "Starts a 14-day free trial",
+            "detail": "Adds company domain."
+          },
+          {
+            "step": "Verifies domain",
+            "detail": "Adds a DNS record, guided by Google."
+          },
+          {
+            "step": "Adds team",
+            "detail": "Creates 10 user accounts."
+          },
+          {
+            "step": "Moves old email",
+            "detail": "Uses migration tool."
+          },
+          {
+            "step": "Pays",
+            "detail": "Picks Business Standard."
+          },
+          {
+            "step": "Tries Gemini",
+            "detail": "Drafts a client proposal in Docs."
+          }
+        ]
+      },
+      {
+        "name": "Daily AI use in Gmail",
+        "persona": "Startup employee",
+        "steps": [
+          {
+            "step": "Opens inbox",
+            "detail": "Sees 60 new emails."
+          },
+          {
+            "step": "Summarises a thread",
+            "detail": "Clicks 'Summarise this email'."
+          },
+          {
+            "step": "Drafts a reply",
+            "detail": "Uses 'Help me write'."
+          },
+          {
+            "step": "Edits and sends",
+            "detail": "Checks tone and facts."
+          },
+          {
+            "step": "Opens a Doc",
+            "detail": "Asks Gemini to turn notes into a plan."
+          }
+        ]
+      },
+      {
+        "name": "Free user upgrades storage",
+        "persona": "Free Gmail user",
+        "steps": [
+          {
+            "step": "Gets storage warning",
+            "detail": "15 GB almost full."
+          },
+          {
+            "step": "Cannot receive email",
+            "detail": "Gmail stops when storage is full."
+          },
+          {
+            "step": "Sees Google One offer",
+            "detail": "Plans from about ₹130 a month in India."
+          },
+          {
+            "step": "Buys plan",
+            "detail": "Pays monthly with UPI or card."
+          },
+          {
+            "step": "Gets AI upsell",
+            "detail": "Later offered an AI plan with Gemini."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Google Workspace makes money from per-user pricing: businesses, schools and governments pay a monthly fee for each user. Free Gmail and Docs bring in billions of users who later pay for storage or bring Workspace to work. Since 2025, AI is included in the price instead of sold as a separate add-on.",
+      "revenueStreams": [
+        {
+          "stream": "Business plans",
+          "detail": "Starter $7, Standard $14, Plus $22 per user per month on annual billing."
+        },
+        {
+          "stream": "Enterprise plans",
+          "detail": "Custom pricing for large companies."
+        },
+        {
+          "stream": "Education plans",
+          "detail": "Free base tier, paid upgrades for schools."
+        },
+        {
+          "stream": "Google One storage and AI plans",
+          "detail": "Consumer subscriptions for more storage and Gemini."
+        },
+        {
+          "stream": "Indirect ad value",
+          "detail": "Free Gmail keeps users in Google's ecosystem; ads in free Gmail's Promotions tab."
+        }
+      ],
+      "pricing": "Business Starter $7, Business Standard $14, Business Plus $22 per user per month on annual billing (about 20% more on flexible monthly). Enterprise custom. Free personal Gmail with 15 GB.",
+      "costDrivers": [
+        "Data centres and storage for billions of users",
+        "AI computing for Gemini features",
+        "Engineering for many apps",
+        "Sales and partner commissions for enterprise"
+      ],
+      "unitEconomics": "A 10-person firm on Business Standard pays about $1,680 a year. Storage and computing for them cost Google little, because it already runs huge data centres, so margin before AI is high. Gemini adds real computing cost for heavy users, which is why Google raised prices by $2 per user instead of giving AI away. Free users cost money to serve, but a small share upgrading to Google One or bringing Workspace to work pays for them. Rough estimates; Alphabet does not report Workspace profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free Gmail, Docs and Drive used by billions",
+        "Students who used Google in school bringing it to work",
+        "Startups choosing Google by default",
+        "Bundling Gemini to compete with Microsoft Copilot on price"
+      ],
+      "whatBringsUsersBack": [
+        "Email is a daily habit",
+        "Shared files and calendars with coworkers",
+        "Data and history stored in Drive",
+        "AI features that save time"
+      ],
+      "moat": "Moving a company's email, files and calendars is painful, so customers stay. Gmail's huge free user base feeds paid adoption. Google's own AI models and data centres let it add AI at lower cost than many rivals."
+    },
+    "competitors": [
+      {
+        "name": "Microsoft 365",
+        "positioning": "Word, Excel, Outlook and Teams, with Copilot.",
+        "howThisProductDiffers": "Microsoft wins big companies and finance teams that need Excel. Google wins on simple, browser-first teamwork and price."
+      },
+      {
+        "name": "Zoho Workplace",
+        "positioning": "Low-cost Indian office suite and email.",
+        "howThisProductDiffers": "Zoho is cheaper and strong in India. Google has bigger brand and better AI."
+      },
+      {
+        "name": "Notion and Slack",
+        "positioning": "Docs and chat for teams.",
+        "howThisProductDiffers": "They do one thing well; Workspace is a full bundle."
+      },
+      {
+        "name": "ChatGPT and Claude",
+        "positioning": "Stand-alone AI assistants.",
+        "howThisProductDiffers": "Gemini works inside your email and files."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active users collaborating (editing, sharing or meeting) on paid Workspace accounts",
+      "why": "Collaboration shows the suite is where work happens. That keeps businesses renewing and adding seats, and shows AI is helping real work."
+    },
+    "kpiTree": [
+      {
+        "metric": "Paid seats",
+        "description": "Users on paid plans.",
+        "children": [
+          {
+            "metric": "Trial-to-paid conversion",
+            "description": "Share of trials that pay."
+          },
+          {
+            "metric": "Seat growth per customer",
+            "description": "Seats added by existing customers."
+          },
+          {
+            "metric": "Customer churn",
+            "description": "Businesses that leave."
+          }
+        ]
+      },
+      {
+        "metric": "Collaboration actions per user",
+        "description": "Edits, shares, comments and meetings.",
+        "children": [
+          {
+            "metric": "Shared files per user",
+            "description": "Files with 2+ editors."
+          },
+          {
+            "metric": "Meet minutes per user",
+            "description": "Meetings held in Meet."
+          }
+        ]
+      },
+      {
+        "metric": "Gemini weekly active use",
+        "description": "Users who use AI each week.",
+        "children": [
+          {
+            "metric": "Help me write uses",
+            "description": "AI drafts in Gmail and Docs."
+          },
+          {
+            "metric": "AI suggestions accepted",
+            "description": "Share of AI output kept."
+          },
+          {
+            "metric": "Meeting notes created",
+            "description": "AI notes in Meet."
+          }
+        ]
+      },
+      {
+        "metric": "Free-to-paid flow",
+        "description": "Free users who pay.",
+        "children": [
+          {
+            "metric": "Google One upgrades",
+            "description": "Storage plans bought."
+          },
+          {
+            "metric": "Business trials from free users",
+            "description": "Free users starting Workspace trials."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Spam and phishing reaching inboxes",
+      "Share of users turning off AI features",
+      "Uptime of Gmail and Drive",
+      "Data privacy complaints"
+    ],
+    "strengths": [
+      "Billions of free users feeding paid adoption",
+      "Best-in-class real-time collaboration",
+      "Own AI models and cheap computing",
+      "Lower price than Microsoft 365 with Copilot"
+    ],
+    "weaknesses": [
+      "Weaker in large enterprises and finance teams that rely on Excel",
+      "AI features can feel pushed, with no easy off switch for some users",
+      "Drive organisation and search frustrate users",
+      "Fewer advanced features than desktop Office"
+    ],
+    "risks": [
+      "Microsoft bundling Copilot and Teams in large companies",
+      "Cheaper rivals like Zoho in India",
+      "Privacy rules on AI use of email and documents",
+      "Antitrust action against Google affecting bundling"
+    ],
+    "userComplaints": [
+      "Price rise in January 2025 tied to AI that some businesses did not want",
+      "Gemini features in Gmail hard to turn off",
+      "Storage fills up on the free plan",
+      "Drive search and folder sharing are confusing",
+      "Sheets is slow with very large files"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "A clear 'AI off' admin switch per team with a lower price option",
+        "problem": "Some businesses feel forced to pay for AI they do not use.",
+        "expectedImpact": "Less churn among small, price-sensitive businesses.",
+        "metricToTrack": "Small business churn after renewal",
+        "effort": "low"
+      },
+      {
+        "idea": "Gemini 'inbox to-do' that turns emails into a task list each morning",
+        "problem": "Users drown in email.",
+        "expectedImpact": "More weekly AI use and time saved.",
+        "metricToTrack": "Gemini weekly active use",
+        "effort": "medium"
+      },
+      {
+        "idea": "AI file clean-up in Drive that groups and names messy files",
+        "problem": "Drive search and organisation frustrate users.",
+        "expectedImpact": "Faster file finding, happier users.",
+        "metricToTrack": "Search success rate in Drive",
+        "effort": "medium"
+      },
+      {
+        "idea": "India SMB bundle with UPI billing and GST invoices",
+        "problem": "Zoho is strong with Indian small businesses.",
+        "expectedImpact": "More paid seats in India.",
+        "metricToTrack": "New paid customers in India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Bundling AI into a tool people already use daily can beat selling AI separately; Google tried a $20 add-on, then folded it into the base price.",
+      "A free product with billions of users is a huge funnel for paid plans.",
+      "Raising prices with new value works better when users can see and use the value right away.",
+      "Pushing a new feature too hard, like AI that cannot be turned off, creates backlash."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Google bundled Gemini into Workspace and raised prices. Was that the right call?",
+        "hint": "Compare add-on vs bundle: adoption, revenue, churn, competition with Copilot. Say how you'd measure it."
+      },
+      {
+        "question": "How would you increase Gemini usage in Gmail?",
+        "hint": "Find moments of need (long threads, replies), add helpful prompts, measure weekly use and accepted suggestions."
+      },
+      {
+        "question": "What is the north star metric for Workspace?",
+        "hint": "Weekly collaborating users, not seats. Break down into seats, collaboration, AI use."
+      },
+      {
+        "question": "How would you win more large enterprises from Microsoft?",
+        "hint": "Target new teams, migration tools, Excel compatibility, price and AI value, security proof."
+      },
+      {
+        "question": "A user says AI in Gmail is annoying. What do you do?",
+        "hint": "Find which users and why, balance discovery with control, add settings, track opt-outs."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bundling",
+        "meaning": "Selling several products together for one price."
+      },
+      {
+        "term": "Per-user pricing",
+        "meaning": "Charging a fixed amount for each person using the product."
+      },
+      {
+        "term": "Add-on",
+        "meaning": "An extra product bought on top of the main plan."
+      },
+      {
+        "term": "Funnel",
+        "meaning": "The steps people move through, from first trying a product to paying."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of customers who leave in a given period."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team focuses on because it best shows the value users get."
+      },
+      {
+        "term": "Trial-to-paid conversion",
+        "meaning": "The share of free trial users who become paying customers."
+      },
+      {
+        "term": "Ecosystem",
+        "meaning": "A group of connected products that work better together."
+      }
+    ],
+    "assumptions": [
+      "Workspace revenue and profit are not reported separately by Alphabet; unit economics are estimates.",
+      "The India Google One price is approximate.",
+      "The 13 million customers figure may include non-paying organisations."
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "company": "Airtel Thanks",
+  "domain": "airtel.in",
+  "website": "https://www.airtel.in",
+  "sources": [
+    "https://telecomlead.com/4g-lte/bharti-airtel-q2-fy2027-revenue-rises-17-to-%E2%82%B960878-crore-arpu-hits-%E2%82%B9271-subscribers-reach-692-6-million-128569",
+    "https://ticker.finology.in/discover/market-update/bharti-airtel-q2-fy27-results-analysis",
+    "https://cxotoday.com/media-coverage/bharti-airtel-limited-q2-fy27-highlights/",
+    "https://www.businesstoday.in/technology/news/story/from-free-for-a-year-to-card-on-file-how-airtel-and-perplexitys-ai-bundle-is-testing-consumer-trust-510521-2026-01-12",
+    "https://www.digit.in/features/telecom/airtel-perplexity-pro-issue-explained-how-a-free-rs-17000-ai-perk-turned-into-a-trust-debate.html",
+    "https://telecomtalk.info/airtels-perplexity-pro-ends-existing-12month-access/1004521/",
+    "https://www.lightreading.com/wireless/jio-and-airtel-take-divergent-paths-in-india-s-tariff-battle"
+  ],
+  "report": {
+    "company": "Airtel Thanks",
+    "tagline": "Bharti Airtel's all-in-one app where Airtel customers recharge, pay bills, manage home broadband and TV, claim rewards and get loans, payments and streaming.",
+    "category": "Telecom app",
+    "simpleSummary": "Airtel is India's second-largest mobile network. Airtel Thanks is its app: you recharge your phone, pay your postpaid, Wi-Fi or DTH bill, check data, and fix problems. It also gives rewards, like free streaming on Airtel Xstream Play or AI tools, depending on your plan. And it sells money products: Airtel Payments Bank, UPI, loans and credit cards through partners. The idea is simple: if all your Airtel services live in one app with perks, you are less likely to leave Airtel.",
+    "keyNumbers": [
+      {"label": "India mobile ARPU", "value": "₹271 a month", "note": "Q2 FY27 (July to Sept 2026), up from ₹256 a year earlier. Highest among big Indian operators. TelecomLead."},
+      {"label": "India mobile customers", "value": "37.7 crore (377 million)", "note": "Q2 FY27. Postpaid 3.1 crore. 4G and 5G data customers 30.5 crore."},
+      {"label": "Consolidated revenue, Q2 FY27", "value": "₹60,878 crore, up 17%", "note": "Includes Africa. India and South Asia revenue was ₹42,308 crore."},
+      {"label": "Net profit, Q2 FY27", "value": "₹8,888 crore, up 31%", "note": "Finology and other reports of company results."},
+      {"label": "Home broadband customers", "value": "1.54 crore, up 29%", "note": "Q2 FY27. Homes ARPU fell to ₹509 as cheaper wireless Wi-Fi plans grew."},
+      {"label": "Monthly mobile churn", "value": "2.9%", "note": "Q2 FY27, up from 2.6%. Company results via TelecomLead."}
+    ],
+    "overview": {
+      "whatItDoes": "Airtel Thanks is the main customer app for Bharti Airtel in India. It handles prepaid recharges, postpaid and broadband bills, DTH, plan changes and support. It also bundles perks (Thanks rewards), streaming (Xstream Play), finance (Airtel Payments Bank, Airtel Finance loans and partner credit cards) and safety tools like AI spam call alerts.",
+      "howItWorks": [
+        "Users log in with their Airtel number and see all their Airtel connections in one place.",
+        "They recharge or pay bills with UPI, cards or Airtel Payments Bank.",
+        "Rewards depend on the plan: higher plans unlock things like Xstream Play, Apple Music or AI tool offers.",
+        "The app suggests upgrades: from prepaid to postpaid, from one SIM to a family plan, or adding Wi-Fi.",
+        "Airtel Finance offers personal loans, gold loans and credit cards from partner lenders inside the app.",
+        "Support, SIM issues, porting and complaint tracking are self-service."
+      ],
+      "valueProposition": "One app for every Airtel service, with rewards that make paying more for Airtel feel worth it, and quick fixes without calling customer care."
+    },
+    "personas": [
+      {"name": "Urban postpaid family", "description": "A family in Gurugram on an Airtel Black plan with mobile, Wi-Fi and DTH together.", "goals": ["One bill", "Bundled OTT apps", "Fast fixes"], "frustrations": ["Bill confusion with many add-ons", "Wi-Fi outages"]},
+      {"name": "Young prepaid user", "description": "A 22-year-old in Pune on a ₹379 plan with unlimited 5G.", "goals": ["Fast data", "Free perks", "Cheap recharges"], "frustrations": ["Prices rising", "Perks like free AI tools change without warning"]},
+      {"name": "Small-town user needing credit", "description": "A shop owner in Nashik who uses Airtel and needs a small loan.", "goals": ["Quick loan without paperwork", "Easy payments"], "frustrations": ["Loan offers unclear on interest", "Too many promotions"]},
+      {"name": "Spam-tired user", "description": "Anyone getting many spam calls and SMS.", "goals": ["Know which calls are spam"], "frustrations": ["Fraud calls and messages"]}
+    ],
+    "painPoints": [
+      {"pain": "Managing mobile, Wi-Fi and DTH separately is messy.", "howSolved": "One app and Airtel Black bundles with one bill.", "severity": "medium"},
+      {"pain": "Recharging and bill payment take time.", "howSolved": "Fast recharge and bill pay with UPI and saved methods.", "severity": "medium"},
+      {"pain": "Paying separately for many streaming apps is expensive.", "howSolved": "Plans include Xstream Play and partner OTT apps.", "severity": "medium"},
+      {"pain": "Spam and fraud calls.", "howSolved": "AI-based spam alerts on the network, shown in the phone call screen.", "severity": "high"},
+      {"pain": "Small loans are hard to get for people with little credit history.", "howSolved": "Airtel Finance uses partner lenders and Airtel data to offer loans.", "severity": "medium"},
+      {"pain": "Customer care calls take long.", "howSolved": "Self-service fixes and tracking in the app.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Recharge and bill pay", "whatItDoes": "Recharge prepaid and pay postpaid, Wi-Fi and DTH bills.", "whyItMatters": "The core reason people open the app, and a chance to upsell."},
+      {"feature": "Thanks rewards", "whatItDoes": "Perks unlocked by plan level, like OTT subscriptions or AI tool offers.", "whyItMatters": "Makes higher plans feel worth more, raising ARPU and lowering churn."},
+      {"feature": "Airtel Black", "whatItDoes": "Bundles mobile, Wi-Fi and DTH into one bill with priority service.", "whyItMatters": "Customers with several Airtel services rarely leave."},
+      {"feature": "Airtel Finance and Payments Bank", "whatItDoes": "Loans, credit cards, gold loans, FDs and payments.", "whyItMatters": "New revenue from commissions and fees beyond telecom."},
+      {"feature": "Xstream Play", "whatItDoes": "Streaming app with content from many OTT partners.", "whyItMatters": "Bundled entertainment keeps users in Airtel's ecosystem."},
+      {"feature": "Spam alerts", "whatItDoes": "Network-level AI flags suspected spam calls and SMS.", "whyItMatters": "A clear safety benefit that rivals had to copy."}
+    ],
+    "userJourneys": [
+      {"name": "Prepaid recharge with upsell", "persona": "Young prepaid user", "steps": [
+        {"step": "Gets reminder", "detail": "App notification says the plan ends tomorrow."},
+        {"step": "Opens app", "detail": "Sees current plan and suggested plans."},
+        {"step": "Compares", "detail": "Sees a higher plan includes extra data and Xstream Play."},
+        {"step": "Recharges", "detail": "Pays with UPI."},
+        {"step": "Claims reward", "detail": "Activates the perk in Thanks rewards."},
+        {"step": "Uses", "detail": "Streams cricket on the bundled app."}
+      ]},
+      {"name": "Moving to Airtel Black", "persona": "Urban postpaid family", "steps": [
+        {"step": "Sees offer", "detail": "App shows savings by combining mobile, Wi-Fi and DTH."},
+        {"step": "Chooses plan", "detail": "Picks a Black plan."},
+        {"step": "Installation", "detail": "Wi-Fi and DTH installed."},
+        {"step": "Single bill", "detail": "Gets one monthly bill in the app."},
+        {"step": "Priority support", "detail": "Uses dedicated support when Wi-Fi fails."}
+      ]},
+      {"name": "Taking a small loan", "persona": "Small-town user needing credit", "steps": [
+        {"step": "Sees loan offer", "detail": "Airtel Finance banner in the app."},
+        {"step": "Checks eligibility", "detail": "Enters PAN and basic details."},
+        {"step": "Gets offer", "detail": "Partner lender shows amount and interest."},
+        {"step": "Completes KYC", "detail": "Digital KYC in the app."},
+        {"step": "Gets money", "detail": "Loan credited to bank account."},
+        {"step": "Repays", "detail": "Pays EMIs through the app."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Airtel makes most of its money from mobile plans, then home broadband, business services and DTH. The Airtel Thanks app helps it earn more per user by pushing upgrades and bundles, and adds small new income from loans, cards and payments. Its strategy is to have fewer but higher-paying customers than Jio.",
+      "revenueStreams": [
+        {"stream": "Mobile services", "detail": "₹30,943 crore in Q2 FY27, from 37.7 crore customers."},
+        {"stream": "Home broadband", "detail": "Fibre and wireless Wi-Fi, 1.54 crore homes."},
+        {"stream": "Airtel Business", "detail": "₹5,878 crore in Q2 FY27 from enterprise connectivity and cloud."},
+        {"stream": "Digital TV", "detail": "DTH and IPTV, ₹771 crore in Q2 FY27, shrinking."},
+        {"stream": "Financial services", "detail": "Airtel Payments Bank, plus commissions from loans and cards through Airtel Finance."}
+      ],
+      "pricing": "Prepaid plans start around ₹199 to ₹249 for basic validity; popular unlimited 5G plans are around ₹349 to ₹399 for 28 days. Postpaid and Airtel Black family plans are monthly. Exact prices on airtel.in change often.",
+      "costDrivers": [
+        "Spectrum payments",
+        "Network towers, fibre and 5G equipment",
+        "Content and partner costs for perks",
+        "Marketing and distribution commissions",
+        "Customer service"
+      ],
+      "unitEconomics": "An average Airtel mobile user pays about ₹271 a month, roughly ₹3,250 a year, about ₹50 more a month than a Jio user. The network is a fixed cost, so most extra ARPU becomes profit. A perk that costs Airtel ₹20 to ₹30 a month in partner fees is worth it if it moves a user from a ₹299 plan to a ₹399 plan or stops them leaving. A family on Airtel Black paying mobile plus Wi-Fi might bring ₹1,500 or more a month and leaves far less often."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Porting users from Vi and Jio with better network claims",
+        "Retail stores and distributors selling SIMs",
+        "Free perks like AI tools and OTT apps",
+        "Wireless home Wi-Fi in towns without fibre",
+        "Bundled Airtel Black offers"
+      ],
+      "whatBringsUsersBack": [
+        "Recharges and monthly bills",
+        "Rewards tied to plans",
+        "Several services under one bill",
+        "Loan and card repayments"
+      ],
+      "moat": "Airtel's moat is a premium customer base and a national network that is hard and costly to build. The Thanks app strengthens this by bundling many services: a customer with mobile, Wi-Fi, DTH and a loan through Airtel has many reasons not to switch."
+    },
+    "competitors": [
+      {"name": "MyJio (Reliance Jio)", "positioning": "Largest network, lower prices, own content and AI apps.", "howThisProductDiffers": "Airtel earns more per user and focuses on premium plans; Jio has more users."},
+      {"name": "Vi (Vodafone Idea)", "positioning": "Third operator, weaker network.", "howThisProductDiffers": "Airtel has stronger 5G and finances, and gains Vi users."},
+      {"name": "Paytm and PhonePe", "positioning": "Payment apps where many people recharge and take loans.", "howThisProductDiffers": "Airtel Thanks owns the telecom relationship but competes with them on payments and loans."},
+      {"name": "Truecaller", "positioning": "Caller ID and spam blocking app.", "howThisProductDiffers": "Airtel's spam alerts run on the network with no app needed."}
+    ],
+    "northStar": {
+      "metric": "Number of customers using two or more Airtel services through the app each month",
+      "why": "This north star metric shows customers getting more value from Airtel, and these customers pay more and leave less often."
+    },
+    "kpiTree": [
+      {"metric": "Active app users", "description": "Customers using Airtel Thanks each month.", "children": [
+        {"metric": "Share of recharges in the app", "description": "Direct recharges save fees."},
+        {"metric": "Self-service fix rate", "description": "Issues solved without a call."}
+      ]},
+      {"metric": "Services per customer", "description": "Number of Airtel products each user has.", "children": [
+        {"metric": "Airtel Black households", "description": "Bundled homes."},
+        {"metric": "Wi-Fi attach rate", "description": "Mobile customers adding home Wi-Fi."},
+        {"metric": "Finance product users", "description": "Customers with an Airtel Finance loan or card."}
+      ]},
+      {"metric": "ARPU", "description": "Average revenue per mobile user.", "children": [
+        {"metric": "Prepaid to postpaid upgrades", "description": "Postpaid pays more."},
+        {"metric": "Higher plan uptake", "description": "Users moving to plans with perks."}
+      ]},
+      {"metric": "Retention", "description": "Customers who stay.", "children": [
+        {"metric": "Monthly churn", "description": "2.9% in Q2 FY27."},
+        {"metric": "Reward activation rate", "description": "Users who actually use perks stay longer."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Complaints about misleading offers",
+      "Loan default rate",
+      "Network quality scores"
+    ],
+    "strengths": [
+      "Highest ARPU among large Indian operators",
+      "Strong premium and postpaid base",
+      "Fast-growing home broadband",
+      "Spam protection that users value",
+      "Many services in one app"
+    ],
+    "weaknesses": [
+      "Fewer customers than Jio",
+      "Mobile churn rising to 2.9%",
+      "DTH business shrinking",
+      "Changing perks hurt trust, as with the Perplexity Pro offer"
+    ],
+    "risks": [
+      "Jio price moves and bundles",
+      "Regulation on tariffs and spectrum",
+      "Users pushing back on price hikes",
+      "Credit risk and RBI rules in lending"
+    ],
+    "userComplaints": [
+      "The free Perplexity Pro offer later asked for card details and auto-renewal, which users called misleading",
+      "Plan prices keep rising",
+      "App is crowded with offers and loan promotions",
+      "Wi-Fi outages and slow fixes",
+      "Perks change or end without clear notice"
+    ],
+    "improvementIdeas": [
+      {"idea": "Clear perk terms with end dates and no-card activation", "problem": "Perplexity Pro card-on-file confusion hurt trust.", "expectedImpact": "Fewer complaints and higher reward use.", "metricToTrack": "Complaints about offers; reward activation rate", "effort": "low"},
+      {"idea": "Personal savings view for Airtel Black", "problem": "Families unsure if bundles save money.", "expectedImpact": "More Black sign-ups.", "metricToTrack": "Airtel Black households", "effort": "low"},
+      {"idea": "Outage alerts with automatic credit", "problem": "Wi-Fi outages frustrate users.", "expectedImpact": "Lower churn in home broadband.", "metricToTrack": "Home broadband churn", "effort": "medium"},
+      {"idea": "Cleaner home screen with services first, offers second", "problem": "App feels cluttered.", "expectedImpact": "More self-service and trust.", "metricToTrack": "Self-service fix rate", "effort": "low"},
+      {"idea": "Churn risk alerts that trigger personal offers", "problem": "Mobile churn rising.", "expectedImpact": "Saved customers.", "metricToTrack": "Monthly churn", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "A telecom can grow by earning more from each user, not only by adding users.",
+      "Bundles reduce churn: the more services a customer has, the harder it is to leave.",
+      "Free perks win attention but must be clear; confusing terms turn a gift into a trust problem.",
+      "Owning the app gives a direct relationship to cross-sell finance and entertainment."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you reduce Airtel's mobile churn?", "hint": "Segment who leaves, why (price, network, offers), design fixes (targeted offers, bundles), measure churn by segment."},
+      {"question": "Is giving free AI subscriptions a good idea for Airtel?", "hint": "Cost per user, ARPU lift, brand, trust risks shown by the Perplexity case. Define success metrics."},
+      {"question": "What should Airtel Thanks' north star metric be?", "hint": "Customers using two or more Airtel services. Break into app use, services per customer, ARPU, retention."},
+      {"question": "Design a feature to sell home Wi-Fi to mobile users.", "hint": "Persona, trigger (high data use at home), offer, one-tap booking. Metric: Wi-Fi attach rate."},
+      {"question": "Should Airtel push loans in its app?", "hint": "Benefits (revenue, engagement) vs risks (defaults, trust, regulation). Guardrails like default rate."}
+    ],
+    "glossary": [
+      {"term": "ARPU", "meaning": "Average revenue per user: how much each user pays per month."},
+      {"term": "Churn", "meaning": "The share of customers who leave in a month."},
+      {"term": "Postpaid", "meaning": "Using the service first and paying a bill at the end of the month."},
+      {"term": "Bundle", "meaning": "Several services sold together as one package."},
+      {"term": "Attach rate", "meaning": "The share of customers who add a second product."},
+      {"term": "Cross-sell", "meaning": "Selling a different product to an existing customer."},
+      {"term": "Ecosystem", "meaning": "A set of connected products from one company that work together."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Retention", "meaning": "Keeping customers over time."}
+    ],
+    "assumptions": [
+      "Airtel Thanks monthly active users are not public; we did not find a figure.",
+      "Plan prices are approximate and change often.",
+      "The cost of perks per user is an illustrative estimate.",
+      "The Wi-Fi ARPU fall is assumed to come from cheaper wireless plans, based on reports."
+    ]
+  }
+}

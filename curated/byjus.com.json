@@ -1,0 +1,521 @@
+{
+ "company": "BYJU'S",
+ "domain": "byjus.com",
+ "website": "https://byjus.com",
+ "sources": [
+  "https://www.businesstoday.in/technology/news/story/can-byju-raveendran-still-shape-byjus-insolvency-outcome-534982-2026-06-04",
+  "https://www.businesstoday.in/technology/news/story/from-22-billion-peak-to-debt-traps-and-lawsuits-how-byjus-empire-collapsed-533611-2026-05-28",
+  "https://www.business-standard.com/companies/results/byju-s-reports-rs-5-014-cr-in-operating-revenue-rs-8-245-in-losses-in-fy22-124012300428_1.html",
+  "https://deccanherald.com/business/companies/how-byjus-journeyed-from-22-billion-to-225-million-in-less-than-two-years-2891142",
+  "https://www.outlookbusiness.com/explainers/how-byjus-american-dream-ended-in-a-bankruptcy-fire-sale-explained",
+  "https://www.freepressjournal.in/amp/tech/byjus-lenders-in-talks-to-take-30-stake-in-aakash-end-legal-battle-with-founder",
+  "https://www.nbcnewyork.com/news/business/money-report/the-rise-and-fall-of-byjus-once-a-startup-darling-in-india/5183250/"
+ ],
+ "report": {
+  "company": "BYJU'S",
+  "tagline": "Once India's most valuable startup, an online learning app for school students that grew on hard selling and debt, and has been in insolvency since 2024.",
+  "category": "Online learning (failed)",
+  "simpleSummary": "BYJU'S was an app with animated video lessons for school students, from Class 1 to exam prep. Sales teams called parents and pushed year-long courses that cost ₹30,000 to ₹1 lakh or more, often paid with loans. It used investor money and a $1.2 billion loan to buy other companies and sponsor the Indian cricket team. When schools reopened after COVID, sales fell, losses piled up, it could not pay its debts, and an Indian court put it into insolvency in 2024. In 2026 the company is run by a resolution professional, not its founder.",
+  "keyNumbers": [
+   {
+    "label": "Peak valuation",
+    "value": "About $22 billion (2022)",
+    "note": "Widely reported peak from its last big funding round, Business Today and Deccan Herald."
+   },
+   {
+    "label": "Revenue and loss, FY22",
+    "value": "₹5,014 crore revenue, ₹8,245 crore loss",
+    "note": "Audited FY22 results filed 22 months late, Business Standard, January 2024."
+   },
+   {
+    "label": "Value marked down by investor Prosus",
+    "value": "About $225 million",
+    "note": "Deccan Herald on investor markdowns by 2024, a fall of about 99% from peak."
+   },
+   {
+    "label": "Term loan from US lenders",
+    "value": "$1.2 billion (2021)",
+    "note": "Term Loan B raised in 2021; lenders led by GLAS Trust later forced default actions. Widely reported."
+   },
+   {
+    "label": "Debt that triggered insolvency",
+    "value": "About ₹158 crore owed to BCCI",
+    "note": "Unpaid cricket sponsorship dues that led to the July 2024 insolvency order. Widely reported; the BCCI later settled but the process continued."
+   },
+   {
+    "label": "Resolution plan deadline",
+    "value": "30 June 2026",
+    "note": "Deadline for bids in the insolvency process, Business Today, June 2026. Final outcome not confirmed in sources."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "BYJU'S sold online courses for school students, with pre-recorded animated lessons, quizzes and later live tutoring classes. It also owned other learning companies: Aakash (offline test prep), WhiteHat Jr (coding for kids), Great Learning (adult upskilling) and Epic (US reading app). Today it is in a corporate insolvency resolution process, and its main brands are being sold or fought over by lenders.",
+   "howItWorks": [
+    "Parents downloaded the free app and gave a phone number.",
+    "Sales staff called or visited homes to sell year-long or multi-year course packages, often with a tablet.",
+    "Many parents paid through no-cost EMI loans from partner lenders, so they owed money even if the child stopped using the app.",
+    "Students watched animated lessons and took adaptive quizzes; BYJU'S Classes added live tutoring.",
+    "The company used investor money and debt to buy companies and expand abroad."
+   ],
+   "valueProposition": "Engaging, well-made lessons at home that helped children understand concepts, not just memorise them. The weakness was that the price and the selling method did not match the value most families got."
+  },
+  "personas": [
+   {
+    "name": "Aspirational middle-class parent",
+    "description": "A parent in a tier-2 city who wants their child to do better than they did, and worries about falling behind.",
+    "goals": [
+     "Better school marks for the child",
+     "A head start for JEE or NEET",
+     "Something better than tuition classes"
+    ],
+    "frustrations": [
+     "High-pressure sales visits",
+     "Loan EMIs continued even after the child stopped using the app",
+     "Hard to get refunds"
+    ]
+   },
+   {
+    "name": "School student",
+    "description": "A Class 6 to 10 student who used the app after school.",
+    "goals": [
+     "Understand difficult topics like maths and science",
+     "Do well in school exams"
+    ],
+    "frustrations": [
+     "Recorded videos felt passive after a few weeks",
+     "Too much content, no clear plan"
+    ]
+   },
+   {
+    "name": "Investor or lender",
+    "description": "A global fund or US lender that put money into BYJU'S.",
+    "goals": [
+     "Fast revenue growth and a large IPO",
+     "Repayment of the $1.2 billion loan"
+    ],
+    "frustrations": [
+     "Delayed audited accounts",
+     "Missing money, including about $533 million moved through the US unit",
+     "Weak governance and an auditor that resigned"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Children find school maths and science hard to understand from textbooks.",
+    "howSolved": "Animated video lessons that showed concepts visually.",
+    "severity": "high"
+   },
+   {
+    "pain": "Good tutors are expensive or unavailable in smaller towns.",
+    "howSolved": "Lessons from well-known teachers on any phone or tablet.",
+    "severity": "high"
+   },
+   {
+    "pain": "During COVID, schools closed and parents needed learning at home.",
+    "howSolved": "Large library of self-paced content plus live classes.",
+    "severity": "high"
+   },
+   {
+    "pain": "Parents cannot track what their child is learning.",
+    "howSolved": "Progress reports and quiz scores in the app.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Paying ₹50,000 upfront is hard for many families.",
+    "howSolved": "EMI loans through partner lenders. This solved the payment pain but created a bigger debt pain for many families.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "BYJU'S Learning App",
+    "whatItDoes": "Animated video lessons and quizzes from Class 1 to 12 and exam prep.",
+    "whyItMatters": "The actual product. Many parents and students did like the lessons."
+   },
+   {
+    "feature": "Free trial and lead capture",
+    "whatItDoes": "Free sessions and content that collected parents' phone numbers.",
+    "whyItMatters": "Fed a huge sales team with leads. This was the real growth engine."
+   },
+   {
+    "feature": "Home sales and EMI financing",
+    "whatItDoes": "Sales staff sold high-priced packages, often financed by loans.",
+    "whyItMatters": "Pushed revenue up fast but led to complaints, refunds and a reputation crisis."
+   },
+   {
+    "feature": "BYJU'S Classes and Tuition Centres",
+    "whatItDoes": "Live online tutoring and later physical tuition centres after COVID.",
+    "whyItMatters": "An attempt to add real teaching when recorded videos alone were not enough."
+   },
+   {
+    "feature": "Acquired brands",
+    "whatItDoes": "Aakash, WhiteHat Jr, Great Learning, Epic, Toppr and others.",
+    "whyItMatters": "Bought growth but added cost and debt; Aakash became the most valuable asset left."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Getting sold a course",
+    "persona": "Aspirational middle-class parent",
+    "steps": [
+     {
+      "step": "Sees an ad",
+      "detail": "TV ads with Shah Rukh Khan or cricket team jerseys."
+     },
+     {
+      "step": "Downloads the app",
+      "detail": "Child tries free lessons; parent's number is captured."
+     },
+     {
+      "step": "Gets a sales call",
+      "detail": "Counsellor books a home visit or video session."
+     },
+     {
+      "step": "Hears a pitch",
+      "detail": "Child is tested and parent is told the child is falling behind."
+     },
+     {
+      "step": "Signs up with a loan",
+      "detail": "Pays through an EMI loan for a ₹50,000 or more package with a tablet."
+     },
+     {
+      "step": "Usage fades",
+      "detail": "Child stops after a few weeks, but EMIs continue."
+     },
+     {
+      "step": "Asks for a refund",
+      "detail": "Many parents reported long fights to cancel."
+     }
+    ]
+   },
+   {
+    "name": "Daily study session",
+    "persona": "School student",
+    "steps": [
+     {
+      "step": "Opens the app",
+      "detail": "Picks a subject and chapter."
+     },
+     {
+      "step": "Watches a lesson",
+      "detail": "Short animated video."
+     },
+     {
+      "step": "Takes a quiz",
+      "detail": "Adaptive questions based on answers."
+     },
+     {
+      "step": "Gets a doubt",
+      "detail": "Uses a doubt feature or waits for a live class."
+     },
+     {
+      "step": "Checks progress",
+      "detail": "Sees scores; parents get reports."
+     }
+    ]
+   },
+   {
+    "name": "From growth to insolvency",
+    "persona": "Investor or lender",
+    "steps": [
+     {
+      "step": "Funds rapid growth",
+      "detail": "Investors value BYJU'S at $22 billion in 2022."
+     },
+     {
+      "step": "Lends $1.2 billion",
+      "detail": "US term loan in 2021 to fund acquisitions."
+     },
+     {
+      "step": "Sees results slip",
+      "detail": "FY22 accounts arrive 22 months late with an ₹8,245 crore loss."
+     },
+     {
+      "step": "Declares default",
+      "detail": "Lenders say loan terms were broken and try to take control."
+     },
+     {
+      "step": "Insolvency begins",
+      "detail": "BCCI's ₹158 crore claim leads to an insolvency order in July 2024."
+     },
+     {
+      "step": "Fight over assets",
+      "detail": "Through 2026, lenders and the founder battle over Aakash and other assets."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "BYJU'S made money by selling expensive course packages upfront, using a large sales team. Revenue depended on a constant supply of new buyers, because many did not renew. When COVID ended, new sales fell and the high fixed costs and debt sank the company.",
+   "revenueStreams": [
+    {
+     "stream": "K-12 course packages",
+     "detail": "One-time or multi-year packages, often ₹30,000 to ₹1 lakh plus, many financed by EMI loans."
+    },
+    {
+     "stream": "Test prep (Aakash and BYJU'S exam prep)",
+     "detail": "Aakash offline coaching became the largest and steadiest revenue source."
+    },
+    {
+     "stream": "Coding and upskilling (WhiteHat Jr, Great Learning)",
+     "detail": "Paid classes for kids' coding and adult courses."
+    },
+    {
+     "stream": "International (Epic and others)",
+     "detail": "US subscriptions for reading and maths apps; Epic was sold off in US bankruptcy."
+    }
+   ],
+   "pricing": "Not public as a fixed list. Packages were sold one-to-one by sales staff, often ₹30,000 to ₹1 lakh or more, according to news and parent complaints.",
+   "costDrivers": [
+    "A very large sales force paid on targets",
+    "Celebrity and sports sponsorship, including BCCI and FIFA World Cup",
+    "Interest on the $1.2 billion term loan",
+    "Acquisition costs and running many separate companies",
+    "Content production and tablets"
+   ],
+   "unitEconomics": "Imagine one family buys a ₹60,000 package. To win that sale, BYJU'S paid for TV ads, many free trials, calls and home visits, and a commission to the salesperson, which together could take a large part of that ₹60,000. Revenue was also often counted before the service was delivered, which auditors later questioned. If the child stops using the app and does not renew, BYJU'S never earns a second payment to make back its CAC (the cost to win that customer). The model only worked while new sales kept rising."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Mass TV and celebrity advertising",
+    "Free app content to collect parent leads",
+    "Large outbound sales teams with tough targets",
+    "Buying other companies to add users and revenue"
+   ],
+   "whatBringsUsersBack": [
+    "Daily lessons and quizzes for engaged students",
+    "Live classes on a schedule",
+    "In practice, retention was weak for many families after the first months"
+   ],
+   "moat": "BYJU'S had strong brand awareness and good content, but neither was hard to copy. Cheaper rivals like Physics Wallah offered good teaching for a fraction of the price, and free YouTube content was everywhere. Without high retention or low costs, there was no real moat."
+  },
+  "competitors": [
+   {
+    "name": "Physics Wallah",
+    "positioning": "Low-price coaching with free YouTube content and offline centres.",
+    "howThisProductDiffers": "PW priced at a few thousand rupees a year and grew from organic YouTube reach; BYJU'S charged ten times more and relied on paid marketing and sales."
+   },
+   {
+    "name": "Vedantu",
+    "positioning": "Live online tutoring for K-12 and exam prep.",
+    "howThisProductDiffers": "Vedantu focused on live classes; BYJU'S on recorded animated content plus sales."
+   },
+   {
+    "name": "Unacademy",
+    "positioning": "Subscription test-prep platform with many educators.",
+    "howThisProductDiffers": "Unacademy sold monthly or yearly subscriptions online; BYJU'S sold larger packages door to door."
+   },
+   {
+    "name": "Local tuition teachers",
+    "positioning": "The default for most Indian families.",
+    "howThisProductDiffers": "Tuition is personal and cheap; BYJU'S was scalable but impersonal and expensive."
+   }
+  ],
+  "northStar": {
+   "metric": "Students actively learning each week (should have been). In practice BYJU'S chased new sales bookings.",
+   "why": "Learning only happens if a child keeps using the product. Tracking bookings instead hid that many paying families had stopped using the app, which later showed up as refunds, complaints and no renewals."
+  },
+  "kpiTree": [
+   {
+    "metric": "Active learners",
+    "description": "Paying students who study in a given week.",
+    "children": [
+     {
+      "metric": "Week-4 activity rate",
+      "description": "Share of new buyers still using the app a month later."
+     },
+     {
+      "metric": "Lessons completed per week",
+      "description": "Depth of usage per student."
+     }
+    ]
+   },
+   {
+    "metric": "Healthy new sales",
+    "description": "New customers won without pressure tactics.",
+    "children": [
+     {
+      "metric": "Lead to sale conversion",
+      "description": "Share of leads that buy."
+     },
+     {
+      "metric": "Refund and cancellation rate",
+      "description": "Share of sales later reversed, a sign of mis-selling."
+     },
+     {
+      "metric": "CAC",
+      "description": "Marketing and sales cost per paying customer."
+     }
+    ]
+   },
+   {
+    "metric": "Retention and renewal",
+    "description": "Families who come back next year.",
+    "children": [
+     {
+      "metric": "Renewal rate",
+      "description": "Share who buy again after their package ends."
+     },
+     {
+      "metric": "Parent NPS",
+      "description": "Whether parents would recommend BYJU'S."
+     }
+    ]
+   },
+   {
+    "metric": "Cash health",
+    "description": "Whether the business can pay for itself.",
+    "children": [
+     {
+      "metric": "Cash collected vs revenue booked",
+      "description": "Shows if revenue is real money in hand."
+     },
+     {
+      "metric": "Months of cash runway",
+      "description": "How long the company can run without new funding."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Refund and complaint rate",
+   "Share of sales financed by loans",
+   "Cash burn per month",
+   "Time to file audited accounts"
+  ],
+  "strengths": [
+   "Good animated content that many students liked",
+   "Huge brand awareness in India",
+   "Aakash, a strong offline test-prep business, remains valuable",
+   "Showed that Indian parents will pay for online learning"
+  ],
+  "weaknesses": [
+   "Growth depended on hard selling, not on product pull",
+   "Very high CAC with weak retention",
+   "Too many acquisitions too fast, paid partly with debt",
+   "Poor governance: late accounts, auditor resignation, board exits",
+   "Founder-centric control with little independent oversight"
+  ],
+  "risks": [
+   "Insolvency could end with assets sold at very low prices",
+   "Ongoing lawsuits in India, the US and Singapore",
+   "Consumer protection action over mis-selling",
+   "Cheaper rivals and free AI tutors make the old product less valuable"
+  ],
+  "userComplaints": [
+   "Aggressive and misleading sales tactics, including pressuring parents",
+   "Loans signed for courses the child stopped using",
+   "Refunds refused or delayed",
+   "Employees reporting unpaid salaries and mass layoffs",
+   "Customer support hard to reach"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Replace upfront packages with a monthly subscription that can be cancelled any time",
+    "problem": "Parents locked into loans for products their children stopped using.",
+    "expectedImpact": "Fewer complaints and refunds, and revenue that reflects real usage.",
+    "metricToTrack": "Monthly paid retention",
+    "effort": "medium"
+   },
+   {
+    "idea": "Pay sales staff on 90-day student activity, not on signed contracts",
+    "problem": "Sales incentives rewarded closing deals, not student learning.",
+    "expectedImpact": "Less mis-selling and better-fit customers.",
+    "metricToTrack": "Refund and cancellation rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Weekly study plan with a live teacher check-in",
+    "problem": "Recorded videos alone led to low usage after a few weeks.",
+    "expectedImpact": "Higher week-4 activity and more renewals.",
+    "metricToTrack": "Week-4 activity rate",
+    "effort": "high"
+   },
+   {
+    "idea": "Focus the business on Aakash and sell or close unrelated units",
+    "problem": "Too many companies, too much debt.",
+    "expectedImpact": "Lower fixed costs and a business that can survive.",
+    "metricToTrack": "Monthly cash burn",
+    "effort": "high"
+   }
+  ],
+  "pmLessons": [
+   "Sales can create revenue, but only product value creates retention. If users stop using what they bought, growth will reverse.",
+   "Growth bought with debt and ads hides weak unit economics until the money runs out.",
+   "A temporary boom, like COVID school closures, is not a lasting market. Plan for demand to return to normal.",
+   "Trust is a product feature. Mis-selling and refund fights destroyed the brand faster than any competitor could.",
+   "Governance matters for product teams too: if numbers are not trusted, investors, lenders and customers leave."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Why did BYJU'S fail, in one minute?",
+    "hint": "Structure as: weak retention, very high CAC, debt-funded acquisitions, post-COVID demand drop, governance failures. End with one lesson."
+   },
+   {
+    "question": "If you were the PM at BYJU'S in 2021, what one metric would you have pushed leadership to track?",
+    "hint": "Argue for active learners or 90-day retention over bookings, and explain how it would have revealed the problem early."
+   },
+   {
+    "question": "How would you redesign BYJU'S pricing for a small-town family?",
+    "hint": "Compare upfront packages, monthly plans and freemium. Use Physics Wallah's low price as a benchmark and discuss CAC payback."
+   },
+   {
+    "question": "Physics Wallah succeeded where BYJU'S failed. What is the core difference?",
+    "hint": "Organic acquisition vs paid sales, low price vs high price, teachers vs animation, profitability focus vs growth at all costs."
+   },
+   {
+    "question": "How would you rebuild trust with parents after a mis-selling scandal?",
+    "hint": "Easy cancellation, transparent pricing, refund guarantees, usage-based sales incentives, and public metrics on complaints."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Insolvency",
+    "meaning": "When a company cannot pay its debts and a court-led process decides what happens to it."
+   },
+   {
+    "term": "Corporate insolvency resolution process",
+    "meaning": "India's legal process where a resolution professional runs a failing company and creditors vote on a rescue or sale plan."
+   },
+   {
+    "term": "Term Loan B",
+    "meaning": "A large loan from institutional investors, usually repaid in one lump at the end."
+   },
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "EMI",
+    "meaning": "Equated monthly instalment: paying for something in fixed monthly loan payments."
+   },
+   {
+    "term": "Retention",
+    "meaning": "How many customers keep using or paying for a product over time."
+   },
+   {
+    "term": "Unit economics",
+    "meaning": "How much money a business makes or loses on one customer or one sale."
+   },
+   {
+    "term": "NPS",
+    "meaning": "Net promoter score: a survey score showing how likely customers are to recommend you."
+   },
+   {
+    "term": "Valuation",
+    "meaning": "What investors think a whole company is worth."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Package price range of ₹30,000 to ₹1 lakh is based on news reports and parent complaints, not an official price list.",
+   "The unit economics example is illustrative; BYJU'S never published CAC or per-customer profit.",
+   "The $533 million moved through the US unit comes from US court filings as widely reported, not from a source listed above.",
+   "The outcome of the June 2026 resolution plan deadline was not found in sources; the process may have moved on since."
+  ]
+ }
+}

@@ -1,0 +1,215 @@
+{
+  "company": "Microsoft Teams",
+  "domain": "teams.microsoft.com",
+  "website": "https://microsoft.com/microsoft-teams",
+  "sources": [
+    "https://www.theregister.com/2025/09/12/eu_regulators_let_microsoft_off/",
+    "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/12/evolving-our-productivity-offerings-to-resolve-european-competition-concerns-about-teams/",
+    "https://techcrunch.com/2025/09/12/microsoft-slips-unscathed-through-eu-competition-probe-after-promising-to-unbundle-teams",
+    "https://techcrunch.com/2023/08/31/microsoft-office-teams-europe-unbundle",
+    "https://techcommunity.microsoft.com/discussions/communityquestions/anyone-else-feel-like-teams-is-turning-into-slack-but-slower/4450761",
+    "https://www.computerworld.com/article/3691894/microsoft-rearchitects-teams-to-make-it-faster-and-smarter.html",
+    "https://capterra.com/p/168668/Microsoft-Teams/reviews/"
+  ],
+  "report": {
+    "company": "Microsoft Teams",
+    "tagline": "Microsoft's chat, meetings and calling app for work, sold as part of Microsoft 365.",
+    "category": "Workplace comms",
+    "simpleSummary": "Microsoft Teams is where many office workers chat, join video meetings and share files. It comes with Microsoft 365, the same subscription that gives you Word, Excel and Outlook, so many companies get it without buying anything extra. You can message coworkers, hold meetings with hundreds of people, and edit Office files together. Microsoft makes money because companies pay for Microsoft 365 per person each month.",
+    "keyNumbers": [
+      {"label": "Monthly active users", "value": "About 320 million", "note": "Microsoft's last public figure (late 2023), quoted by The Register in September 2025."},
+      {"label": "Slack total users (for comparison)", "value": "About 52 million", "note": "Figure quoted by The Register, September 2025. Shows how far Teams pulled ahead."},
+      {"label": "Users at the start of COVID", "value": "About 75 million daily users (April 2020)", "note": "Microsoft figure from 2020. Teams launched in 2017."},
+      {"label": "EU commitment length", "value": "7 years (10 years for interoperability)", "note": "EU accepted Microsoft's offer to sell suites without Teams, September 2025. No fine."},
+      {"label": "Standalone price", "value": "Teams Essentials about $4 per user per month; Teams Enterprise about $5.25", "note": "Microsoft list prices in the US after Teams was split out of new enterprise suites in 2024. May vary by country."},
+      {"label": "Copilot add-on", "value": "About $30 per user per month", "note": "Microsoft 365 Copilot list price for business, works inside Teams meetings and chats."}
+    ],
+    "overview": {
+      "whatItDoes": "Teams combines group chat, video meetings, phone calling and file sharing in one app. It is built into Microsoft 365, so files live in SharePoint and OneDrive, calendars in Outlook, and documents open in Word or Excel inside the chat. Copilot AI can summarise meetings and chats.",
+      "howItWorks": [
+        "A company buys Microsoft 365 and IT turns on Teams for every employee.",
+        "Employees chat one-on-one or in teams and channels, and join meetings from Outlook invites.",
+        "Files shared in Teams are stored in SharePoint or OneDrive and can be edited together.",
+        "Teams Phone lets people make and receive normal phone calls, for an extra fee.",
+        "Teams Premium and Copilot add AI meeting notes, recaps and translations for extra per-user fees.",
+        "Teams Rooms hardware turns meeting rooms into video rooms."
+      ],
+      "valueProposition": "One app for chat, meetings, calls and Office files, already paid for in your Microsoft 365 plan, with the security IT teams trust."
+    },
+    "personas": [
+      {"name": "Corporate employee", "description": "Works at a bank or IT services firm in Bengaluru, uses Teams 8 hours a day.", "goals": ["Join meetings fast", "Find files and chats", "Keep up with many group chats"], "frustrations": ["App feels slow and heavy", "Confusing chats vs channels", "Too many meetings"]},
+      {"name": "IT administrator", "description": "Manages 10,000 Microsoft 365 licences.", "goals": ["One vendor for security and compliance", "Lower tool costs", "Easy control of users and data"], "frustrations": ["Licence changes after unbundling", "Complex admin settings", "User complaints about performance"]},
+      {"name": "Small business owner", "description": "Runs a 20-person firm on Microsoft 365 Business Standard.", "goals": ["Cheap all-in-one tools", "Meet clients on video", "Share files"], "frustrations": ["Hard to set up", "Guests from other companies struggle to join"]},
+      {"name": "Teacher or student", "description": "Uses Teams for Education for classes and assignments.", "goals": ["Run online classes", "Share homework"], "frustrations": ["Hard to use on weak phones", "Notification overload"]}
+    ],
+    "painPoints": [
+      {"pain": "Paying for separate chat, video and file tools.", "howSolved": "One app included in Microsoft 365.", "severity": "high"},
+      {"pain": "Security and compliance worries with outside tools.", "howSolved": "Same identity, security and data controls as the rest of Microsoft 365.", "severity": "high"},
+      {"pain": "Editing files over email creates many versions.", "howSolved": "Co-edit Word, Excel and PowerPoint inside Teams.", "severity": "medium"},
+      {"pain": "Too many meetings to remember.", "howSolved": "Copilot meeting recaps and transcripts.", "severity": "medium"},
+      {"pain": "Separate phone systems are costly.", "howSolved": "Teams Phone replaces desk phones.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Chat and channels", "whatItDoes": "Group and one-on-one messaging, plus channels inside teams.", "whyItMatters": "Replaces internal email and competes head-on with Slack."},
+      {"feature": "Meetings", "whatItDoes": "Video calls up to 1,000 interactive users, with webinars and town halls for more.", "whyItMatters": "Meetings are the most-used part and the main reason Teams beat Zoom in companies."},
+      {"feature": "Office file integration", "whatItDoes": "Open and co-edit Word, Excel and PowerPoint inside Teams.", "whyItMatters": "Something Slack and Zoom cannot match as deeply."},
+      {"feature": "Copilot in Teams", "whatItDoes": "AI summaries, action items and answers about meetings and chats.", "whyItMatters": "Main upsell to raise revenue per user."},
+      {"feature": "Teams Phone and Rooms", "whatItDoes": "Phone calling and meeting room hardware.", "whyItMatters": "Extra paid add-ons that deepen lock-in."}
+    ],
+    "userJourneys": [
+      {"name": "Company rolls out Teams", "persona": "IT administrator", "steps": [
+        {"step": "Buys Microsoft 365", "detail": "Picks E3 or E5 licences, and from 2024 adds Teams separately for new enterprise suites."},
+        {"step": "Turns on Teams", "detail": "Sets policies for chat, guests and recording."},
+        {"step": "Migrates from Skype for Business", "detail": "Old tool retired by Microsoft."},
+        {"step": "Trains staff", "detail": "Shares quick guides."},
+        {"step": "Tracks usage", "detail": "Checks admin reports on active users."},
+        {"step": "Considers Copilot", "detail": "Tests AI with a pilot group before buying more."}
+      ]},
+      {"name": "A typical workday", "persona": "Corporate employee", "steps": [
+        {"step": "Opens Teams at login", "detail": "Starts automatically with Windows."},
+        {"step": "Checks activity feed", "detail": "Sees mentions and replies."},
+        {"step": "Joins a meeting from Outlook", "detail": "Clicks 'Join' on the calendar."},
+        {"step": "Shares a deck", "detail": "Presents PowerPoint inside the meeting."},
+        {"step": "Reads Copilot recap", "detail": "Gets action items after the call."},
+        {"step": "Edits shared Excel", "detail": "Updates numbers in the team channel."}
+      ]},
+      {"name": "Joining a meeting as a guest", "persona": "Small business owner", "steps": [
+        {"step": "Gets an invite", "detail": "Client sends a Teams link."},
+        {"step": "Opens in browser", "detail": "Chooses web instead of installing."},
+        {"step": "Waits in lobby", "detail": "Host lets them in."},
+        {"step": "Has the meeting", "detail": "Video and screen share."},
+        {"step": "Loses chat access after", "detail": "Guest chat history is limited."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Teams makes money mainly by making Microsoft 365 worth paying for. Companies pay per user per month for Microsoft 365, and Teams is part of that or a cheap add-on. Microsoft earns more from add-ons like Teams Premium, Teams Phone, Rooms and Copilot.",
+      "revenueStreams": [
+        {"stream": "Microsoft 365 subscriptions", "detail": "Per user per month, with Teams included in many plans and sold separately in new enterprise plans since 2024 and in the EU."},
+        {"stream": "Teams Essentials and Teams Enterprise standalone", "detail": "About $4 to $5.25 per user per month."},
+        {"stream": "Teams Premium", "detail": "Add-on for advanced meetings and AI, about $10 per user per month."},
+        {"stream": "Teams Phone", "detail": "Phone calling add-on, plus calling plans."},
+        {"stream": "Copilot", "detail": "About $30 per user per month for AI across Microsoft 365, including Teams."}
+      ],
+      "pricing": "Free personal version. Teams Essentials about $4 per user per month. Microsoft 365 Business Basic and Standard include Teams, from about $6 and $12.50 per user per month in the US. In India, Business Basic is around ₹145 per user per month. Enterprise plans priced with or without Teams.",
+      "costDrivers": [
+        "Cloud capacity for video meetings, run on Azure",
+        "AI model costs for Copilot features",
+        "Engineering for desktop, mobile and web apps",
+        "Enterprise sales and partner commissions"
+      ],
+      "unitEconomics": "A company on Microsoft 365 Business Standard pays about $12.50 per user per month, or $150 a year. Teams is one part of that. Video meetings cost more to run than chat, maybe a few dollars per heavy user per year, but Microsoft already runs Azure at huge scale, so the cost is low. The real money is in upsells: one user with Copilot adds $360 a year. Because Teams makes customers stay on Microsoft 365, its value is more in keeping customers than in its own fee. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Bundling: included with Microsoft 365, which most large companies already buy",
+        "Replacing Skype for Business, which Microsoft retired",
+        "COVID remote work pushed meetings online",
+        "Microsoft's huge sales and partner network"
+      ],
+      "whatBringsUsersBack": [
+        "Meetings scheduled in Outlook open in Teams",
+        "Coworkers chat there all day",
+        "Files and channels for each project",
+        "Default auto-start on Windows work laptops"
+      ],
+      "moat": "Most big companies already pay for Microsoft 365, so Teams is the default. It is tied to Outlook, Office files, security and identity in a way rivals cannot copy. The EU forced a split in Europe in 2025, but most customers still buy the full bundle."
+    },
+    "competitors": [
+      {"name": "Slack (Salesforce)", "positioning": "Chat-first work app loved by tech teams.", "howThisProductDiffers": "Teams is bundled and stronger on meetings and Office files. Slack has a better chat experience and more integrations."},
+      {"name": "Zoom", "positioning": "Simple, reliable video meetings.", "howThisProductDiffers": "Teams wins in big companies on bundle and Office ties. Zoom is easier for outside guests."},
+      {"name": "Google Workspace (Meet and Chat)", "positioning": "Google's bundle of email, docs, chat and video.", "howThisProductDiffers": "Teams fits Windows and Office-first companies. Google fits browser-first and startups."},
+      {"name": "Webex (Cisco)", "positioning": "Enterprise video and calling.", "howThisProductDiffers": "Teams has the Office bundle; Webex has strong meeting hardware."}
+    ],
+    "northStar": {
+      "metric": "Weekly active users who chat or meet in Teams at least 3 days a week",
+      "why": "Regular use shows Teams has become the place work happens. That keeps companies renewing Microsoft 365 and buying add-ons like Copilot."
+    },
+    "kpiTree": [
+      {"metric": "Licensed users activated", "description": "Share of paid seats that use Teams at all.", "children": [
+        {"metric": "First meeting within 7 days", "description": "New users who join or host a meeting."},
+        {"metric": "Mobile app installs", "description": "Users with Teams on their phone."}
+      ]},
+      {"metric": "Meeting minutes per user", "description": "Time spent in Teams meetings.", "children": [
+        {"metric": "Join success rate", "description": "Share of meeting joins without errors."},
+        {"metric": "Guest join rate", "description": "Outside guests joining smoothly."},
+        {"metric": "Call quality score", "description": "User ratings after calls."}
+      ]},
+      {"metric": "Messages per user", "description": "Chat activity.", "children": [
+        {"metric": "Channels active per team", "description": "Use beyond one-on-one chat."},
+        {"metric": "App load time", "description": "Seconds to open; slowness reduces use."}
+      ]},
+      {"metric": "Add-on adoption", "description": "Users with Copilot, Premium or Phone.", "children": [
+        {"metric": "Copilot weekly use", "description": "Share of Copilot seats used weekly."},
+        {"metric": "Meeting recap views", "description": "AI summaries opened."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "App memory use and load time",
+      "Meeting drop rate",
+      "Security incidents",
+      "Microsoft 365 seat churn"
+    ],
+    "strengths": [
+      "Bundled with Microsoft 365, the default for most companies",
+      "Deep ties with Outlook, Office files and Windows",
+      "Strong security and admin tools",
+      "Huge scale, about 320 million monthly users"
+    ],
+    "weaknesses": [
+      "Users find it slow, heavy and confusing",
+      "Chat is weaker than Slack's",
+      "Guest experience across companies is clunky",
+      "Many people use it because IT chose it, not because they love it"
+    ],
+    "risks": [
+      "Antitrust rules forcing more unbundling beyond the EU",
+      "Slack and Zoom winning teams who prefer better products",
+      "Copilot not proving its price, slowing AI upsells",
+      "Customers cutting seats in layoffs"
+    ],
+    "userComplaints": [
+      "Slow app and high memory use, even after the rebuilt 'new Teams'",
+      "Users say it feels like 'Slack but slower'",
+      "Chat bugs and missed notifications",
+      "Confusing difference between chats, teams and channels",
+      "Hard to switch between company accounts as a guest"
+    ],
+    "improvementIdeas": [
+      {"idea": "A 'lite' mode that loads only chat and calendar for low-memory laptops", "problem": "Users complain Teams is slow and heavy.", "expectedImpact": "Faster loads and happier users.", "metricToTrack": "App load time and weekly active users", "effort": "medium"},
+      {"idea": "Merge chats and channels into one simple inbox with filters", "problem": "People are confused about where to post.", "expectedImpact": "More messages in shared spaces, less missed info.", "metricToTrack": "Messages per user and missed-mention complaints", "effort": "high"},
+      {"idea": "One-tap guest switching across organisations", "problem": "Working with other companies is clunky.", "expectedImpact": "More cross-company use, fewer people choosing Slack Connect or Zoom.", "metricToTrack": "Guest join rate", "effort": "medium"},
+      {"idea": "Free Copilot meeting recap for 3 meetings a month on all plans", "problem": "Companies are unsure Copilot is worth $30.", "expectedImpact": "More Copilot trials that convert to paid seats.", "metricToTrack": "Copilot trial-to-paid conversion", "effort": "low"}
+    ],
+    "pmLessons": [
+      "Distribution can beat a better product. Teams overtook Slack by coming with Office, not by having a nicer chat app.",
+      "Bundling invites regulators. Slack's 2020 complaint led to EU commitments in 2025.",
+      "A product people use because IT chose it can grow huge but still be disliked, which leaves room for rivals.",
+      "Upsells like Copilot work best when the base product is already a daily habit."
+    ],
+    "interviewQuestions": [
+      {"question": "Why did Teams beat Slack in large companies?", "hint": "Distribution through Microsoft 365, the IT buyer, security, meetings during COVID. Contrast bottom-up vs top-down sales."},
+      {"question": "Users say Teams is slow. How would you prioritise fixing it?", "hint": "Measure load time and memory by device, find top slow flows, set a target, guardrail on features."},
+      {"question": "How would you measure Copilot's success inside Teams?", "hint": "Weekly use, meeting recaps viewed, time saved survey, Copilot seat renewal."},
+      {"question": "The EU forces Teams out of the bundle. What do you do?", "hint": "Price the standalone right, make it worth buying alone, improve interoperability, measure attach rate."},
+      {"question": "What is Teams' north star metric?", "hint": "Weekly engaged users, not licences sold. Break into activation, meetings, chat and add-ons."}
+    ],
+    "glossary": [
+      {"term": "Bundling", "meaning": "Selling several products together for one price."},
+      {"term": "Unbundling", "meaning": "Selling a product separately after it used to come only as part of a bundle."},
+      {"term": "Antitrust", "meaning": "Laws that stop a company from unfairly using its size to block rivals."},
+      {"term": "Upsell", "meaning": "Getting an existing customer to buy a more expensive plan or extra add-on."},
+      {"term": "Interoperability", "meaning": "When products from different companies can work together."},
+      {"term": "Lock-in", "meaning": "When leaving a product is hard because your work only works inside it."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Attach rate", "meaning": "The share of customers who buy an add-on along with the main product."},
+      {"term": "Churn", "meaning": "The share of customers or seats lost in a period."}
+    ],
+    "assumptions": [
+      "Teams' user count is the last public figure from 2023; it is likely higher now.",
+      "Cost to serve per user is an estimate.",
+      "Prices are US list prices and change by country and contract.",
+      "The India Business Basic price is an approximate list price."
+    ]
+  }
+}

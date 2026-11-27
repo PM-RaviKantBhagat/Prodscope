@@ -1,0 +1,216 @@
+{
+  "company": "Calendly",
+  "domain": "calendly.com",
+  "website": "https://calendly.com",
+  "sources": [
+    "https://www.usecarly.com/blog/calendly-review/",
+    "https://calendly.com/newsroom/press-release/calendly-new-ai-product-suite",
+    "https://www.aol.com/read-memo-calendlys-ceo-sent-133038924.html",
+    "https://cal.com/blog/is-calendly-free",
+    "https://sacra.com/research/cal-revenue-growth-valuation/",
+    "https://www.vendr.com/marketplace/calendly",
+    "https://zeeg.me/en/blog/post/calendly-pros-and-cons-review"
+  ],
+  "report": {
+    "company": "Calendly",
+    "tagline": "A scheduling link that lets people book time on your calendar without back-and-forth emails.",
+    "category": "Scheduling",
+    "simpleSummary": "Calendly ends the 'When are you free?' email chain. You connect your calendar and share a link. The other person opens it, sees your free slots and picks one, and the meeting appears in both calendars with a video link. Every person who books through your link sees Calendly, and many sign up themselves, which is how it grew to more than 50 million users with little advertising.",
+    "keyNumbers": [
+      {"label": "Users", "value": "More than 50 million", "note": "Calendly company claim, reported 2026."},
+      {"label": "Last funding valuation", "value": "$3 billion (January 2021)", "note": "Raised $350 million. No new round reported since."},
+      {"label": "Yearly revenue", "value": "Roughly $300 million or more", "note": "Third-party estimates from 2024 to 2025. Calendly is private and does not publish revenue. Weak estimate."},
+      {"label": "Standard plan price", "value": "$10 per seat per month billed yearly, $12 monthly", "note": "Calendly pricing as of September 2026."},
+      {"label": "Layoffs", "value": "About 70 people (13%) in December 2024, after 60 in July 2023", "note": "CEO memo and reports."},
+      {"label": "App Store rating", "value": "4.8 stars from about 55,000 ratings", "note": "Reported September 2026."}
+    ],
+    "overview": {
+      "whatItDoes": "Calendly connects to your Google, Outlook or iCloud calendar and creates a booking page with your available times. People pick a slot, and Calendly sends invites, reminders and video links. Teams use it to route leads to the right salesperson, share bookings in round-robin and collect payments. In 2026 it added an AI Notetaker and Callie, an email assistant that schedules for you.",
+      "howItWorks": [
+        "You sign up free and connect your calendar.",
+        "You create event types, such as a 30-minute intro call, with rules for buffers and notice.",
+        "You share your link by email, on your website or in your signature.",
+        "The invitee picks a time in their own time zone; both calendars update and a Zoom or Meet link is added.",
+        "Reminders reduce no-shows, and follow-up emails go out after the meeting.",
+        "Paid plans add more event types, team routing, payments, integrations and AI features."
+      ],
+      "valueProposition": "Book meetings in one step instead of five emails, with fewer no-shows and the right person on the call."
+    },
+    "personas": [
+      {"name": "Sales rep", "description": "Books 20 demo calls a week with prospects.", "goals": ["Book meetings fast", "Fewer no-shows", "Leads routed to the right rep"], "frustrations": ["Sending a link can feel rude to senior buyers", "Calendar sync errors cause double bookings"]},
+      {"name": "Freelance coach or consultant", "description": "Runs paid sessions with clients.", "goals": ["Let clients book and pay in one go", "Look professional", "Reduce admin"], "frustrations": ["Free plan has only one event type", "Price rose with AI features"]},
+      {"name": "Recruiter", "description": "Schedules hundreds of interviews.", "goals": ["Coordinate panels of interviewers", "Avoid time zone mistakes"], "frustrations": ["Complex panels need higher plans"]},
+      {"name": "Invitee", "description": "Anyone who receives a Calendly link.", "goals": ["Pick a time quickly"], "frustrations": ["Feels like the other person pushed work onto them"]}
+    ],
+    "painPoints": [
+      {"pain": "Back-and-forth emails to find a time.", "howSolved": "One link with live free slots.", "severity": "high"},
+      {"pain": "Time zone mistakes.", "howSolved": "Slots show in the invitee's own time zone.", "severity": "medium"},
+      {"pain": "People forget meetings.", "howSolved": "Automatic email and text reminders.", "severity": "medium"},
+      {"pain": "Leads go to the wrong person.", "howSolved": "Routing forms and round-robin for teams.", "severity": "medium"},
+      {"pain": "Taking notes and writing follow-ups.", "howSolved": "AI Notetaker records, transcribes and drafts follow-up emails.", "severity": "low"},
+      {"pain": "Collecting payment for sessions.", "howSolved": "Stripe and PayPal payments at booking.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Booking link and event types", "whatItDoes": "Shareable pages for each kind of meeting.", "whyItMatters": "The core product and the viral loop."},
+      {"feature": "Calendar sync", "whatItDoes": "Checks all connected calendars to avoid double booking.", "whyItMatters": "Trust: one double booking can make users quit."},
+      {"feature": "Routing forms and round-robin", "whatItDoes": "Sends each booking to the right person on a team.", "whyItMatters": "Main reason sales teams pay for Teams plans."},
+      {"feature": "Workflows and reminders", "whatItDoes": "Automatic reminders and follow-ups.", "whyItMatters": "Cuts no-shows, a clear money benefit for sales and coaches."},
+      {"feature": "Notetaker and Callie AI", "whatItDoes": "AI that records meetings and an email assistant that books times for you.", "whyItMatters": "Moves Calendly from booking into the whole meeting, and justifies Plus plans."},
+      {"feature": "Integrations", "whatItDoes": "Salesforce, HubSpot, Zoom, Teams, Stripe and more.", "whyItMatters": "Embeds Calendly into sales workflows, raising switching cost."}
+    ],
+    "userJourneys": [
+      {"name": "First booking and viral sign-up", "persona": "Invitee", "steps": [
+        {"step": "Receives a link", "detail": "In an email from a sales rep."},
+        {"step": "Opens booking page", "detail": "Sees slots in their time zone."},
+        {"step": "Books a time", "detail": "Enters name and email."},
+        {"step": "Gets confirmation", "detail": "Invite and video link land in calendar."},
+        {"step": "Sees 'Powered by Calendly'", "detail": "Thinks it is useful."},
+        {"step": "Signs up free", "detail": "Creates their own link."}
+      ]},
+      {"name": "Coach upgrades for paid sessions", "persona": "Freelance coach or consultant", "steps": [
+        {"step": "Uses free plan", "detail": "One event type for intro calls."},
+        {"step": "Wants a paid session type", "detail": "Needs a second event type."},
+        {"step": "Starts 14-day trial", "detail": "Tries Standard features."},
+        {"step": "Connects Stripe", "detail": "Clients pay when booking."},
+        {"step": "Pays $10 a month", "detail": "Upgrades to Standard."}
+      ]},
+      {"name": "Sales team rollout", "persona": "Sales rep", "steps": [
+        {"step": "Team lead buys Teams plan", "detail": "For 15 reps."},
+        {"step": "Sets routing form", "detail": "Leads from website go to the right region."},
+        {"step": "Connects Salesforce", "detail": "Bookings log as activities."},
+        {"step": "Turns on reminders", "detail": "No-shows fall."},
+        {"step": "Adds Notetaker", "detail": "Upgrades to Teams Plus for AI recaps."},
+        {"step": "Reviews analytics", "detail": "Sees meetings booked per rep."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Calendly makes money from per-seat subscriptions. Individuals can use it free with one event type; professionals and teams pay monthly for more features, routing, integrations and AI.",
+      "revenueStreams": [
+        {"stream": "Standard and Standard Plus", "detail": "$10 to $18 per seat per month billed yearly, for individuals."},
+        {"stream": "Teams and Teams Plus", "detail": "$16 to $24 per seat per month billed yearly, with routing and CRM links."},
+        {"stream": "Enterprise", "detail": "From about $15,000 a year with a 50-seat minimum, security and support."}
+      ],
+      "pricing": "Free: one event type and one calendar. Standard $10, Standard Plus $18, Teams $16, Teams Plus $24 per seat per month billed yearly (higher monthly). Enterprise from $15,000 a year. September 2026.",
+      "costDrivers": [
+        "Engineering and calendar integrations",
+        "Cloud hosting, low per user",
+        "AI computing for Notetaker and Callie",
+        "Sales team for enterprise",
+        "Customer support"
+      ],
+      "unitEconomics": "A sales team of 10 on Teams pays 10 x $16 x 12 = $1,920 a year. Serving them costs very little because a booking page is light to host, so gross margin is likely above 85%. Winning individual users is almost free because invitees sign up after seeing the product. AI Notetaker adds real per-meeting cost, which is why it sits only on Plus plans. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral loop: every booking shows Calendly to someone new",
+        "'Powered by Calendly' branding on free pages",
+        "Word of mouth among sales, recruiting and coaching professionals",
+        "Sales team for larger companies after many users adopt it"
+      ],
+      "whatBringsUsersBack": [
+        "Link in email signature and website",
+        "Every new meeting uses it",
+        "CRM and video integrations",
+        "AI recaps after each meeting"
+      ],
+      "moat": "Calendly's brand is so strong that 'send me your Calendly' is common. But the core feature is easy to copy, and Google Calendar, Microsoft Outlook, HubSpot and Zoom all offer booking pages. Its moat is team features like routing and integrations that sales teams depend on."
+    },
+    "competitors": [
+      {"name": "Cal.com", "positioning": "Open-source scheduling, generous free plan.", "howThisProductDiffers": "Cal.com is cheaper and more open. Calendly is better known and easier for teams."},
+      {"name": "Google Calendar appointment schedules", "positioning": "Booking pages built into Google Workspace.", "howThisProductDiffers": "Free in Workspace; fewer team and routing features."},
+      {"name": "Microsoft Bookings", "positioning": "Booking in Microsoft 365.", "howThisProductDiffers": "Bundled; Calendly works across calendars and has better UX."},
+      {"name": "HubSpot Meetings and Chili Piper", "positioning": "Scheduling inside sales tools.", "howThisProductDiffers": "Chili Piper is deeper for inbound sales routing; HubSpot bundles it."},
+      {"name": "AI assistants (Howie, Reclaim)", "positioning": "AI that schedules over email or manages time.", "howThisProductDiffers": "Calendly's Callie answers the same need."}
+    ],
+    "northStar": {
+      "metric": "Meetings booked per week through Calendly",
+      "why": "Each booking is time saved for two people. It also drives the viral loop, since each invitee sees the product, and shows paid users are getting value."
+    },
+    "kpiTree": [
+      {"metric": "Active hosts", "description": "Users with at least one booking a week.", "children": [
+        {"metric": "Sign-up to first link shared", "description": "Speed to first value."},
+        {"metric": "Calendar connection rate", "description": "Share of sign-ups who connect a calendar."}
+      ]},
+      {"metric": "Bookings per host", "description": "How often each host's link is used.", "children": [
+        {"metric": "Links shared per week", "description": "Email, website or signature."},
+        {"metric": "Booking page conversion", "description": "Share of page visitors who book."},
+        {"metric": "Event types per host", "description": "More use cases."}
+      ]},
+      {"metric": "Invitee-to-host conversion", "description": "Invitees who sign up.", "children": [
+        {"metric": "Branding click-through", "description": "Clicks on 'Powered by Calendly'."},
+        {"metric": "Post-booking sign-up rate", "description": "Sign-ups from confirmation pages."}
+      ]},
+      {"metric": "Paid seat growth", "description": "Seats on paid plans.", "children": [
+        {"metric": "Free-to-paid conversion", "description": "Free users who upgrade."},
+        {"metric": "Seats per team account", "description": "Expansion inside companies."},
+        {"metric": "Notetaker weekly use", "description": "Plus plan value."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Double booking and sync error rate",
+      "No-show rate",
+      "Monthly churn of paid seats",
+      "Support ticket volume"
+    ],
+    "strengths": [
+      "Category-defining brand",
+      "Built-in viral loop through every booking",
+      "Simple, reliable product with strong ratings",
+      "Strong team features for sales"
+    ],
+    "weaknesses": [
+      "Core feature is easy to copy and often free in suites",
+      "Free plan limited to one event type",
+      "Growth and valuation have stalled since 2021",
+      "Mobile app and sync issues reported"
+    ],
+    "risks": [
+      "Google, Microsoft and Zoom offering free booking pages",
+      "AI assistants that schedule without a link",
+      "Cheaper rivals like Cal.com",
+      "Price increases tied to AI pushing small users away"
+    ],
+    "userComplaints": [
+      "Free plan allows only one event type",
+      "Price went up with AI features some users do not want",
+      "Calendar sync problems and flaky mobile app",
+      "Redesigns made it harder to use",
+      "Sending a link can feel rude to the person receiving it"
+    ],
+    "improvementIdeas": [
+      {"idea": "Let free users create three event types, with Calendly branding", "problem": "One event type pushes users to free rivals like Cal.com.", "expectedImpact": "More active free users, more bookings and more viral sign-ups.", "metricToTrack": "Active hosts and invitee-to-host conversion", "effort": "low"},
+      {"idea": "'Suggest times' mode that sends two or three slots in the email itself", "problem": "Sending a link can feel like offloading work onto senior contacts.", "expectedImpact": "Higher booking rate in cold outreach.", "metricToTrack": "Booking page conversion for sales users", "effort": "low"},
+      {"idea": "Sync health check that warns before a double booking happens", "problem": "Sync errors break trust.", "expectedImpact": "Fewer double bookings and churn.", "metricToTrack": "Double booking rate", "effort": "medium"},
+      {"idea": "Free Notetaker for 5 meetings a month on all paid plans", "problem": "Users doubt AI is worth the Plus price.", "expectedImpact": "More upgrades to Plus plans.", "metricToTrack": "Standard-to-Plus upgrade rate", "effort": "low"}
+    ],
+    "pmLessons": [
+      "The best growth loops are built into the product: every Calendly booking shows the product to a new person.",
+      "A simple feature can build a big brand, but bundled rivals can copy it, so you need deeper team features.",
+      "Free plan limits must be set carefully: too tight and users leave for rivals, too loose and nobody pays.",
+      "Think about the other side of the experience: the invitee, who never chose your product."
+    ],
+    "interviewQuestions": [
+      {"question": "Explain Calendly's viral loop and how you would measure it.", "hint": "Host shares link, invitee books, invitee sees branding, invitee signs up. Measure invitee-to-host conversion and viral coefficient."},
+      {"question": "Google Calendar now offers free booking pages. How should Calendly respond?", "hint": "Go deeper on teams (routing, CRM), cross-calendar, AI. Don't fight on basic features."},
+      {"question": "How would you improve the invitee experience?", "hint": "Find invitee pain (feels pushed work, time zones), ideas like suggested times, track booking rate."},
+      {"question": "What is Calendly's north star metric?", "hint": "Meetings booked. Break into active hosts, bookings per host, invitee conversion, paid seats."},
+      {"question": "Should Calendly make the free plan more generous?", "hint": "Weigh viral growth against conversion. Suggest a test and measure total revenue over a year."}
+    ],
+    "glossary": [
+      {"term": "Viral loop", "meaning": "When using a product naturally shows it to new people who then sign up."},
+      {"term": "Viral coefficient", "meaning": "How many new users each existing user brings in."},
+      {"term": "Per-seat subscription", "meaning": "A monthly fee for each person using the product."},
+      {"term": "Round-robin", "meaning": "Sharing bookings evenly among team members in turn."},
+      {"term": "Free-to-paid conversion", "meaning": "The share of free users who start paying."},
+      {"term": "Churn", "meaning": "The share of paying customers who leave in a given period."},
+      {"term": "Gross margin", "meaning": "The share of revenue left after the direct cost of serving customers."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."}
+    ],
+    "assumptions": [
+      "Calendly's revenue is a third-party estimate.",
+      "Gross margin and cost to serve are estimates.",
+      "The 50 million user figure is Calendly's own claim and may include inactive accounts."
+    ]
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "company": "Kuku FM",
+  "domain": "kukufm.com",
+  "website": "https://kukufm.com",
+  "sources": [
+    "https://inc42.com/buzz/ipo-bound-kuku-technologies-turns-profitable-in-fy26-revenue-surges-6x-to-₹1484-cr/",
+    "https://inc42.com/features/indias-first-microdrama-ipo-arrives-but-will-investors-tune-in/",
+    "https://yourstory.com/2026/06/kuku-technologies-files-confidential-drhp-rs-3500-crore-ipo",
+    "https://www.kotakneo.com/news/ipos/kuku-technologies-plans-confidential-3500-crore-ipo-filing-1-8-billion-valuation/",
+    "https://www.outlookmoney.com/banking/upi-auto-debit-scam-kuku-fm-stage-paytm-google-pay-phonepe-how-cancel-auto-debit",
+    "https://english.dainikjagranmpcg.com/business/kuku-fm-and-several-other-platforms-under-fire-for-%E2%80%98dark/article-1908",
+    "https://www.newsbytesapp.com/news/entertainment/micro-drama-platforms-viewers-hesitate-to-subscribe-due-to-auto-renewal-charges/tldr"
+  ],
+  "report": {
+    "company": "Kuku FM",
+    "tagline": "An Indian app company that sells cheap subscriptions to audiobooks, audio shows and, through its Kuku TV app, short vertical video dramas in Hindi and other Indian languages.",
+    "category": "Audio / video",
+    "simpleSummary": "Kuku FM started as an app for audiobooks and audio shows in Hindi and other Indian languages, on topics from self-help to love stories. In 2024 its parent, Kuku Technologies, launched Kuku TV, an app of micro-dramas: soap-opera stories told in one to two minute vertical video episodes. You watch the first few episodes free and then pay for a subscription, often starting with a very cheap trial that renews automatically through UPI. Kuku TV made the company's revenue jump six times in a year, and it is now preparing to list on the stock market.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, FY26 (year to March 2026)",
+        "value": "₹1,484 crore, up from ₹242 crore (over 6 times)",
+        "note": "Kuku Technologies filings via Inc42. Over 99% came from subscriptions, and about 99% from India."
+      },
+      {
+        "label": "Profit, FY26",
+        "value": "₹183 crore net profit (₹89 crore before a tax credit); EBITDA ₹83 crore",
+        "note": "Inc42. FY25 was a ₹153 crore loss."
+      },
+      {
+        "label": "Marketing spend, FY26",
+        "value": "₹1,105 crore, about 78% of all costs",
+        "note": "Inc42. Nearly ₹3 of every ₹4 earned went back into ads to find new subscribers."
+      },
+      {
+        "label": "IPO plan",
+        "value": "₹2,500 to ₹3,500 crore issue at about ₹15,000 crore ($1.8 billion) valuation",
+        "note": "Confidential DRHP filed June 2026; SEBI approval in September 2026, per Inc42 and others. Size and valuation are from media sources."
+      },
+      {
+        "label": "Funding raised",
+        "value": "Over $156 million",
+        "note": "Inc42. Latest was an $85 million Series C led by Granite Asia in October 2025. Investors include Krafton, Vertex Ventures, IFC and 3one4 Capital."
+      },
+      {
+        "label": "Content library",
+        "value": "Over 20,000 titles in seven languages; 400 million app downloads across its apps",
+        "note": "Company claims via Inc42. Paying subscriber count is not public."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Kuku Technologies runs Kuku FM for audio and Kuku TV for micro-dramas, mainly for Hindi-speaking and regional Indian users. It makes nearly all its money from subscriptions paid through UPI autopay or app stores. It spends heavily on ads on Instagram and YouTube that show a dramatic clip and drop viewers into the app.",
+      "howItWorks": [
+        "A user sees an ad with a cliffhanger clip and installs Kuku TV or Kuku FM.",
+        "The first few episodes are free; then a paywall asks for a subscription.",
+        "Many plans start with a low-price trial and then auto-renew at a higher weekly or monthly price through UPI autopay.",
+        "Kuku TV shows are one to two minute vertical episodes, often romance, revenge or family drama, with a full story in 50 to 100 episodes.",
+        "Kuku FM offers audiobooks, audio shows and summaries on self-help, business, spirituality and stories.",
+        "The company is investing in AI tools to make content faster and cheaper."
+      ],
+      "valueProposition": "For users: cheap, gripping stories in their own language on a phone, in short bites. For the business: a subscription model that earns money from users directly, instead of relying on low Indian ad rates."
+    },
+    "personas": [
+      {
+        "name": "The afternoon drama binger",
+        "description": "A 34-year-old homemaker in Jaipur who watches Kuku TV love and revenge dramas after lunch.",
+        "goals": [
+          "Finish a gripping story quickly",
+          "Pay as little as possible"
+        ],
+        "frustrations": [
+          "Getting charged more than expected after a trial",
+          "Stories that feel repetitive"
+        ]
+      },
+      {
+        "name": "The self-improvement listener",
+        "description": "A 25-year-old sales executive in Kanpur who listens to Hindi audiobooks on money, motivation and careers on Kuku FM.",
+        "goals": [
+          "Learn in Hindi while commuting",
+          "Cheap access to many books"
+        ],
+        "frustrations": [
+          "Hard to cancel the subscription",
+          "Low-quality summaries mixed with good books"
+        ]
+      },
+      {
+        "name": "The young male drama viewer",
+        "description": "A 22-year-old in Bihar who watches action and gangster micro-dramas on a ₹10,000 Android phone.",
+        "goals": [
+          "Quick entertainment in breaks",
+          "Watch on mobile data"
+        ],
+        "frustrations": [
+          "Buffering on slow networks",
+          "Paywall after just a few episodes"
+        ]
+      },
+      {
+        "name": "The aspiring creator or actor",
+        "description": "A Mumbai-based actor or writer who works on micro-drama shoots for Kuku TV.",
+        "goals": [
+          "Steady work in a growing industry",
+          "Get noticed"
+        ],
+        "frustrations": [
+          "Low budgets and fast shoots",
+          "Worry that AI will replace some roles"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "TV serials are long and need a fixed time and a TV.",
+        "howSolved": "Micro-dramas tell a full story in short episodes on a phone.",
+        "severity": "high"
+      },
+      {
+        "pain": "Good audiobooks in Hindi and regional languages are hard to find.",
+        "howSolved": "A large library of audio content in seven languages.",
+        "severity": "high"
+      },
+      {
+        "pain": "Big streaming apps feel expensive for many Indian families.",
+        "howSolved": "Low entry prices and short weekly plans.",
+        "severity": "medium"
+      },
+      {
+        "pain": "People have only a few minutes at a time.",
+        "howSolved": "One to two minute episodes and short audio chapters.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Reading long books is hard for busy or less literate users.",
+        "howSolved": "Listen instead of read, in your own language.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Kuku TV micro-dramas",
+        "whatItDoes": "Vertical video dramas in one to two minute episodes.",
+        "whyItMatters": "Drove the jump from ₹242 crore to ₹1,484 crore revenue."
+      },
+      {
+        "feature": "Kuku FM audio library",
+        "whatItDoes": "Audiobooks, audio series and summaries in Indian languages.",
+        "whyItMatters": "The original product and a steady subscription base."
+      },
+      {
+        "feature": "Free episodes then paywall",
+        "whatItDoes": "Gives the first episodes free and asks to pay at a cliffhanger.",
+        "whyItMatters": "Hooks users before they pay, raising conversion."
+      },
+      {
+        "feature": "UPI autopay subscriptions",
+        "whatItDoes": "Low-price trial that renews automatically through UPI mandates.",
+        "whyItMatters": "Makes paying easy, but is also the top source of complaints."
+      },
+      {
+        "feature": "Performance marketing engine",
+        "whatItDoes": "Thousands of ad clips tested on Instagram and YouTube.",
+        "whyItMatters": "Finds subscribers at scale; it is 78% of costs."
+      },
+      {
+        "feature": "AI content tools",
+        "whatItDoes": "Tools to write, dub and translate content faster.",
+        "whyItMatters": "Can cut content cost and help expand to new languages and countries."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "From Instagram ad to subscriber",
+        "persona": "The afternoon drama binger",
+        "steps": [
+          {
+            "step": "Sees an ad",
+            "detail": "A Reel shows a slap scene and a betrayal with 'watch full story' text."
+          },
+          {
+            "step": "Installs Kuku TV",
+            "detail": "Opens straight into the show."
+          },
+          {
+            "step": "Watches free",
+            "detail": "Watches the first 5 to 10 episodes."
+          },
+          {
+            "step": "Hits the paywall",
+            "detail": "A cliffhanger, then a low-price trial offer."
+          },
+          {
+            "step": "Sets up UPI autopay",
+            "detail": "Approves a UPI mandate in PhonePe or Google Pay."
+          },
+          {
+            "step": "Finishes and renews",
+            "detail": "Finishes the story; the plan renews at the full price unless cancelled."
+          }
+        ]
+      },
+      {
+        "name": "Daily audio habit",
+        "persona": "The self-improvement listener",
+        "steps": [
+          {
+            "step": "Finds Kuku FM",
+            "detail": "Sees a YouTube ad for a Hindi audiobook on money."
+          },
+          {
+            "step": "Listens to a sample",
+            "detail": "Hears the first chapter free."
+          },
+          {
+            "step": "Subscribes",
+            "detail": "Buys a monthly or yearly plan."
+          },
+          {
+            "step": "Listens daily",
+            "detail": "Listens on the metro each morning."
+          },
+          {
+            "step": "Explores more",
+            "detail": "Gets recommendations for similar books."
+          },
+          {
+            "step": "Renews",
+            "detail": "Keeps paying if he uses it often."
+          }
+        ]
+      },
+      {
+        "name": "Trying to cancel",
+        "persona": "The afternoon drama binger",
+        "steps": [
+          {
+            "step": "Sees a charge",
+            "detail": "Notices an unexpected debit in her bank SMS."
+          },
+          {
+            "step": "Opens the app",
+            "detail": "Looks for a cancel button."
+          },
+          {
+            "step": "Searches online",
+            "detail": "Reads how to cancel the UPI mandate."
+          },
+          {
+            "step": "Cancels in UPI app",
+            "detail": "Revokes the mandate in her UPI app."
+          },
+          {
+            "step": "Leaves a review",
+            "detail": "Posts a one-star review about the charge."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Kuku makes almost all of its money from subscriptions: ₹1,475 crore of ₹1,484 crore in FY26. Ads and pay-per-view bring in very little. Most of the money goes back into ads to find new subscribers. It turned profitable in FY26 because revenue grew much faster than costs.",
+      "revenueStreams": [
+        {
+          "stream": "Subscriptions",
+          "detail": "Weekly, monthly and yearly plans for Kuku TV and Kuku FM, mostly via UPI autopay and app stores. Over 99% of revenue."
+        },
+        {
+          "stream": "Pay-per-view",
+          "detail": "One-off purchases of content, ₹6.9 crore in FY26."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Very small, ₹1.9 crore in FY26."
+        },
+        {
+          "stream": "International",
+          "detail": "₹20.5 crore from outside India, a small but growing share."
+        }
+      ],
+      "pricing": "Not fully public. Plans often start with a low-price trial and then renew at weekly or monthly prices shown in the app. Prices change by show and offer.",
+      "costDrivers": [
+        "Marketing and ads (₹1,105 crore in FY26)",
+        "Making micro-dramas and audio content",
+        "App store and payment fees",
+        "Staff (₹74 crore)",
+        "Servers and video streaming"
+      ],
+      "unitEconomics": "In FY26, for every ₹100 Kuku earned, it spent about ₹74 on marketing, about ₹5 on staff and about ₹6 on operations, leaving a small profit. So the key question is how long each subscriber stays. If finding a subscriber costs ₹300 in ads and they pay ₹150 a month, they must stay at least two months to break even. Users who sign up for a cheap trial and cancel right away lose money. Users who stay for months make the business profitable."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Instagram and YouTube ads with dramatic clips",
+        "Free episodes at the start of each show",
+        "Low-price trial offers",
+        "Word of mouth and WhatsApp shares"
+      ],
+      "whatBringsUsersBack": [
+        "Cliffhangers at the end of each episode",
+        "New shows every week",
+        "Daily habit during breaks",
+        "Auto-renewing subscriptions"
+      ],
+      "moat": "Kuku has a big library of Indian-language content and years of data on which ad clips and stories convert. Its marketing engine is hard to build. But the micro-drama format is easy to copy, and rivals like ShareChat's QuickTV and JioHotstar's Tadka have huge audiences."
+    },
+    "competitors": [
+      {
+        "name": "Pocket FM",
+        "positioning": "Audio series app, now mostly earning in the US with coins.",
+        "howThisProductDiffers": "Kuku earns 99% in India and uses subscriptions; Pocket FM uses pay-per-episode coins."
+      },
+      {
+        "name": "QuickTV (ShareChat)",
+        "positioning": "Micro-drama app that can promote to ShareChat and Moj users.",
+        "howThisProductDiffers": "Kuku spends on outside ads; QuickTV has its own user base."
+      },
+      {
+        "name": "JioHotstar Tadka",
+        "positioning": "Short-format shows inside JioHotstar, with 100 million users in two months.",
+        "howThisProductDiffers": "Kuku is a standalone app; Tadka gets free distribution to 440 million users."
+      },
+      {
+        "name": "Audible and Storytel",
+        "positioning": "Audiobook apps.",
+        "howThisProductDiffers": "Kuku FM is cheaper and focused on Hindi and regional content."
+      },
+      {
+        "name": "YouTube and Instagram Reels",
+        "positioning": "Free short videos.",
+        "howThisProductDiffers": "Kuku sells long stories split into paid episodes."
+      }
+    ],
+    "northStar": {
+      "metric": "Paying subscribers still active after 60 days",
+      "why": "As a north star metric, this shows users value the content enough to keep paying, which is what makes the heavy marketing spend pay back."
+    },
+    "kpiTree": [
+      {
+        "metric": "New subscribers",
+        "description": "Users who start a paid plan.",
+        "children": [
+          {
+            "metric": "Cost per install",
+            "description": "Ad spend per new user."
+          },
+          {
+            "metric": "Free-to-paid conversion",
+            "description": "Share who subscribe after free episodes."
+          },
+          {
+            "metric": "Ad creative hit rate",
+            "description": "Share of ad clips that bring cheap installs."
+          }
+        ]
+      },
+      {
+        "metric": "Subscriber retention",
+        "description": "Subscribers who keep paying.",
+        "children": [
+          {
+            "metric": "First renewal rate",
+            "description": "Share who pay after the trial."
+          },
+          {
+            "metric": "Month-2 retention",
+            "description": "Share still paying in month two."
+          },
+          {
+            "metric": "Refund and dispute rate",
+            "description": "Charges disputed by users."
+          }
+        ]
+      },
+      {
+        "metric": "Engagement",
+        "description": "How much subscribers watch or listen.",
+        "children": [
+          {
+            "metric": "Episodes per day",
+            "description": "Daily viewing per subscriber."
+          },
+          {
+            "metric": "Series completion rate",
+            "description": "Share who finish a show."
+          }
+        ]
+      },
+      {
+        "metric": "Content supply",
+        "description": "New shows released.",
+        "children": [
+          {
+            "metric": "New titles per month",
+            "description": "Fresh stories."
+          },
+          {
+            "metric": "Cost per show",
+            "description": "Production cost, which AI can lower."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Complaints about unexpected UPI debits",
+      "Play Store rating",
+      "Refund and chargeback rate",
+      "Regulatory notices on dark patterns"
+    ],
+    "strengths": [
+      "Revenue up over 6 times to ₹1,484 crore and profitable in FY26",
+      "Strong marketing engine",
+      "Large Indian-language library",
+      "Early leader in Indian micro-dramas"
+    ],
+    "weaknesses": [
+      "Very high marketing spend",
+      "Almost all revenue from India",
+      "Trust problems over auto-debit",
+      "Easy-to-copy content format"
+    ],
+    "risks": [
+      "Regulators acting on dark patterns and UPI autopay rules",
+      "Rivals with free distribution like JioHotstar and ShareChat",
+      "Rising ad costs on Meta and Google",
+      "IPO investors doubting how lasting the growth is"
+    ],
+    "userComplaints": [
+      "Charged after a cheap trial without clear warning",
+      "Money debited even after cancelling auto-pay",
+      "Hard to find how to cancel",
+      "Paywall after only a few episodes",
+      "Repetitive or low-quality stories"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Send a clear reminder 24 hours before the first full-price renewal, with a one-tap cancel button in the app.",
+        "problem": "Users complain about unexpected debits after trials, and regulators are watching dark patterns.",
+        "expectedImpact": "Fewer complaints and disputes, and more trust before the IPO.",
+        "metricToTrack": "Refund and dispute rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Offer a per-show pass at a fixed price instead of an auto-renewing plan.",
+        "problem": "Many users want one story, not a subscription.",
+        "expectedImpact": "Higher conversion from users who avoid autopay.",
+        "metricToTrack": "Free-to-paid conversion",
+        "effort": "medium"
+      },
+      {
+        "idea": "Personalised 'next show' within the last episode of a series.",
+        "problem": "Subscribers leave after finishing one story.",
+        "expectedImpact": "Better month-2 retention.",
+        "metricToTrack": "Month-2 retention",
+        "effort": "low"
+      },
+      {
+        "idea": "Use AI dubbing to launch top shows in Tamil, Telugu and Bengali.",
+        "problem": "Growth is concentrated in Hindi markets.",
+        "expectedImpact": "New users at lower content cost.",
+        "metricToTrack": "Subscribers from non-Hindi languages",
+        "effort": "medium"
+      },
+      {
+        "idea": "Low-data mode for micro-dramas.",
+        "problem": "Buffering on slow networks in small towns.",
+        "expectedImpact": "More episodes watched per day.",
+        "metricToTrack": "Episodes per day in Tier 3 towns",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A new format can change a company. Kuku TV micro-dramas grew revenue over six times in one year.",
+      "Marketing-led growth is only as good as retention. With ₹74 of every ₹100 going to ads, subscribers must stay to make money.",
+      "Easy payments can become a trust problem. UPI autopay boosted sign-ups but also complaints and regulator attention.",
+      "In India, users will pay small amounts directly if the content hooks them, which can beat low ad rates."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Kuku spends about 78% of its costs on marketing. Is that healthy?",
+        "hint": "Explain payback: cost to get a subscriber vs how much they pay over time. Ask for retention data. Say when high marketing is fine and when it is a red flag."
+      },
+      {
+        "question": "How would you reduce complaints about auto-debit without hurting revenue?",
+        "hint": "Separate users who feel tricked from those who forget. Propose reminders, easy cancel and per-show passes. Track refund rate, ratings and long-term revenue."
+      },
+      {
+        "question": "How would you compete with JioHotstar's Tadka?",
+        "hint": "Tadka has free distribution. Kuku must win on content, speed and niche genres. Pick a segment and measure share of micro-drama watch time."
+      },
+      {
+        "question": "What metrics would investors care about at Kuku's IPO?",
+        "hint": "Revenue growth, subscriber retention, marketing as a share of revenue, profit margin, and revenue concentration in India."
+      },
+      {
+        "question": "Design the first-time user experience for Kuku TV.",
+        "hint": "Start from the ad click. Decide how many free episodes, when to show the paywall and what price. Test and measure conversion and first renewal."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Micro-drama",
+        "meaning": "A show told in many one to two minute vertical video episodes, made for phones."
+      },
+      {
+        "term": "UPI autopay",
+        "meaning": "A UPI setting that lets an app take payments automatically on a schedule."
+      },
+      {
+        "term": "DRHP",
+        "meaning": "Draft red herring prospectus, the first document a company files with SEBI before an IPO."
+      },
+      {
+        "term": "IPO",
+        "meaning": "Initial public offering: when a company first sells shares on a stock exchange."
+      },
+      {
+        "term": "EBITDA",
+        "meaning": "Profit before interest, taxes and wear on equipment, used to show how much the core business earns."
+      },
+      {
+        "term": "Dark patterns",
+        "meaning": "Designs that trick users into paying or doing things they did not intend."
+      },
+      {
+        "term": "Free-to-paid conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep paying or using a product over time."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Payback",
+        "meaning": "How long it takes for a customer's payments to cover what was spent to acquire them."
+      }
+    ],
+    "assumptions": [
+      "The ₹300 cost to get a subscriber and ₹150 monthly price are examples, not reported figures.",
+      "We assume most FY26 revenue growth came from Kuku TV, based on news coverage; the company did not split revenue by app.",
+      "Subscription prices are not public and change often.",
+      "IPO size and valuation are from media reports."
+    ]
+  }
+}

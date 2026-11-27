@@ -1,0 +1,214 @@
+{
+  "company": "Apple App Store",
+  "domain": "apps.apple.com",
+  "website": "https://apps.apple.com",
+  "sources": [
+    "https://thenextweb.com/news/apple-eu-app-store-fees-dma-core-technology-commission",
+    "https://apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union",
+    "https://macrumors.com/2026/08/19/ec-epic-apple-app-store-changes",
+    "https://9to5mac.com/2026/07/30/apple-says-app-store-regulatory-changes-are-beginning-to-affect-services-growth/",
+    "https://macrumors.com/2026/11/02/apple-4q-2026-earnings",
+    "https://fourweekmba.com/ai-apple-services-hit-31-6b-record-as-growth-slows-to-9-8/",
+    "https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/"
+  ],
+  "report": {
+    "company": "Apple App Store",
+    "tagline": "The only main way to get apps on iPhones and iPads, where Apple reviews every app and takes a cut of digital purchases, now forced by regulators to open up.",
+    "category": "Platform",
+    "simpleSummary": "The App Store is where iPhone users download apps like WhatsApp, Instagram or games. Apple checks every app before it goes live, and handles payments with your Apple ID. When you pay for something digital inside an app, like game coins or a subscription, Apple has usually kept 15% to 30%. Regulators in Europe, Japan, Brazil and courts in the US have forced Apple to allow other payment options and, in some places, other app stores, which is changing how app makers earn money.",
+    "keyNumbers": [
+      {"label": "Apple Services revenue, July to Sept 2026", "value": "$31.6 billion, up about 10%", "note": "Apple fiscal Q4 2026 results (FourWeekMBA, MediaPost). Includes App Store, iCloud, Apple Music, ads and more; App Store alone is not reported."},
+      {"label": "App Store share of Services", "value": "Roughly a quarter to a third", "note": "Weak analyst estimate; Apple does not break it out."},
+      {"label": "Standard commission", "value": "30%, or 15% for small businesses and subscriptions after year one", "note": "Apple's long-standing rates outside regions with new rules."},
+      {"label": "New EU in-app purchase rate", "value": "26%, plus 5% Core Technology Commission model", "note": "Announced August 2026, effective 1 October 2026 (The Next Web). Rival stores pay only the 5% commission."},
+      {"label": "EU fine", "value": "€500 million", "note": "Fine in 2025 for blocking developers from steering users to cheaper offers (The Next Web)."},
+      {"label": "Ecosystem billings and sales", "value": "About $1.3 trillion (2024)", "note": "Apple-funded study published in 2025; most of this, like ride and shopping payments, pays Apple no commission."}
+    ],
+    "overview": {
+      "whatItDoes": "The App Store is Apple's marketplace for iPhone, iPad, Mac, Watch and Vision Pro apps. Developers pay $99 a year to publish. Apple reviews apps for safety, quality and rule-following, hosts and distributes them, and processes payments. On digital goods, Apple takes a commission. Physical goods and services, like Swiggy food orders or Uber rides, pay no commission.",
+      "howItWorks": [
+        "A developer joins the Apple Developer Program and submits an app for review.",
+        "Apple's reviewers check the app against the App Store Review Guidelines, usually within a day or two.",
+        "Users find apps through search, charts and editorial stories on the Today tab, plus paid Apple Search Ads.",
+        "Digital purchases use Apple's In-App Purchase system; Apple keeps 15% to 30% in most countries.",
+        "In the EU, Japan and Brazil, developers can use alternative payments, link out to the web, or use other app stores under new fee terms.",
+        "In the US, courts have forced Apple to let apps link to cheaper web payments; what Apple can charge on these is still being fought in court."
+      ],
+      "valueProposition": "For users: safe, easy apps with one-tap payments and easy refunds and subscription control. For developers: access to over a billion high-spending iPhone users, with payments and distribution handled."
+    },
+    "personas": [
+      {"name": "iPhone user", "description": "A professional in Mumbai with an iPhone who pays for Spotify and a few games.", "goals": ["Safe apps", "Easy payments", "Cancel subscriptions easily"], "frustrations": ["Some apps cost more inside iOS than on the web", "Cannot buy Kindle books in the app"]},
+      {"name": "Indie developer", "description": "A small team in Bengaluru selling a productivity app.", "goals": ["Get discovered", "Keep more revenue", "Fast reviews"], "frustrations": ["Paying 15% to 30%", "Unclear app rejections", "Hard to get featured"]},
+      {"name": "Large app company", "description": "A big streaming, music or game company like Spotify or Epic.", "goals": ["Pay less commission", "Own the customer relationship", "Sell directly"], "frustrations": ["Rules against steering users to web prices", "Fees even after EU changes"]},
+      {"name": "Regulator", "description": "EU, UK, Japan or Indian competition authorities.", "goals": ["Fair competition", "Lower prices for users"], "frustrations": ["Apple's complex fee changes that keep revenue high"]}
+    ],
+    "painPoints": [
+      {"pain": "Downloading apps from the web can be unsafe.", "howSolved": "Every app is reviewed and signed by Apple.", "severity": "high"},
+      {"pain": "Entering card details in each app is risky and slow.", "howSolved": "One-tap payment with Apple ID and Face ID.", "severity": "high"},
+      {"pain": "Cancelling subscriptions is hard.", "howSolved": "All App Store subscriptions managed in one place in Settings.", "severity": "medium"},
+      {"pain": "Small developers cannot build global payment and distribution systems.", "howSolved": "Apple handles payments, tax and delivery in 175 storefronts.", "severity": "high"},
+      {"pain": "Finding good apps among millions.", "howSolved": "Editorial curation, charts and search.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "App Review", "whatItDoes": "Human and automated review of every app and update.", "whyItMatters": "Apple's main argument for safety and its control over the platform."},
+      {"feature": "In-App Purchase", "whatItDoes": "Apple's payment system for digital goods.", "whyItMatters": "Where Apple collects its commission."},
+      {"feature": "Subscriptions management", "whatItDoes": "Users see and cancel all subscriptions in one place.", "whyItMatters": "Builds user trust, which raises willingness to pay."},
+      {"feature": "Apple Search Ads", "whatItDoes": "Paid ads at the top of App Store search.", "whyItMatters": "Fast-growing ad revenue; developers pay to be found."},
+      {"feature": "Alternative distribution and payments", "whatItDoes": "Rival stores and payment options in the EU, Japan and Brazil.", "whyItMatters": "Required by law; Apple designs fees to keep earning."},
+      {"feature": "Today tab editorial", "whatItDoes": "Stories and featured apps chosen by Apple editors.", "whyItMatters": "Discovery for quality apps and a reason to open the store."}
+    ],
+    "userJourneys": [
+      {"name": "Downloading and paying for an app", "persona": "iPhone user", "steps": [
+        {"step": "Searches", "detail": "Types 'photo editor' in App Store search."},
+        {"step": "Sees results", "detail": "First result may be a paid Search Ad."},
+        {"step": "Checks", "detail": "Reads ratings and privacy labels."},
+        {"step": "Downloads", "detail": "Installs with Face ID."},
+        {"step": "Subscribes", "detail": "Starts a free trial that converts to ₹499 a month."},
+        {"step": "Manages", "detail": "Cancels later in Settings if not needed."}
+      ]},
+      {"name": "Launching an app", "persona": "Indie developer", "steps": [
+        {"step": "Joins", "detail": "Pays $99 a year for the developer programme."},
+        {"step": "Builds", "detail": "Builds with Xcode and tests on TestFlight."},
+        {"step": "Submits", "detail": "Sends the app for review."},
+        {"step": "Fixes rejection", "detail": "Changes things Apple flags."},
+        {"step": "Launches", "detail": "App goes live worldwide."},
+        {"step": "Gets paid", "detail": "Receives revenue minus commission every month."}
+      ]},
+      {"name": "Choosing payments in the EU", "persona": "Large app company", "steps": [
+        {"step": "Reviews terms", "detail": "Compares 26% In-App Purchase with 20% alternative payments or 15% link-out."},
+        {"step": "Signs new terms", "detail": "Chooses the model for 12 months."},
+        {"step": "Adds web link", "detail": "Shows users a cheaper web price."},
+        {"step": "Measures", "detail": "Compares conversion on web vs in-app."},
+        {"step": "Adjusts", "detail": "Picks the option with best net revenue."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Apple makes money from the App Store by taking a commission on digital purchases and subscriptions, charging developers a yearly fee, and selling search ads. It is one of the most profitable businesses in the world because Apple controls the only main way to install apps on iPhone, and costs are low compared with revenue.",
+      "revenueStreams": [
+        {"stream": "Commission on digital purchases", "detail": "15% to 30% globally; new lower and different rates in the EU, Japan and Brazil."},
+        {"stream": "Apple Search Ads", "detail": "Developers pay to rank higher in App Store search."},
+        {"stream": "Developer programme fees", "detail": "$99 a year per developer account."},
+        {"stream": "Core Technology Commission (EU)", "detail": "5% on digital sales, even through rival stores, from October 2026."}
+      ],
+      "pricing": "Standard: 30% on digital purchases, 15% for developers earning under $1 million a year and for subscriptions after the first year. EU from 1 October 2026: 26% In-App Purchase, 20% alternative payments, 15% web link-out, 5% for rival store distribution; 10% to 15% in special programmes. Developer fee $99 a year.",
+      "costDrivers": [
+        "App Review teams",
+        "Payment processing and fraud handling",
+        "Servers and content delivery",
+        "Legal and regulatory costs and fines",
+        "Editorial and developer relations"
+      ],
+      "unitEconomics": "Take a ₹499 a month subscription bought through In-App Purchase in India. In year one, Apple keeps 30%, about ₹150 a month; from year two, 15%, about ₹75. Payment and hosting costs Apple only a few rupees, so most of that is profit. For the developer, the same user paying on the web would cost only about 2% to 3% in payment fees. That gap, about ₹130 a month, is why developers fight Apple and why regulators step in."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Every iPhone and iPad comes with the App Store",
+        "New iPhone sales, including growth in India",
+        "Developers promoting App Store links"
+      ],
+      "whatBringsUsersBack": [
+        "App updates and new downloads",
+        "Subscriptions billed through Apple ID",
+        "Today tab and game events",
+        "Purchases tied to the Apple ID, so switching to Android loses them"
+      ],
+      "moat": "The App Store's moat is control: on iPhone, Apple decides how apps get installed and paid for. Over a billion active iPhone users who spend more than Android users make the store essential for any developer. Regulation is the main force weakening this moat."
+    },
+    "competitors": [
+      {"name": "Google Play", "positioning": "Android's main app store, with more users but less spending per user.", "howThisProductDiffers": "Apple users spend more; Google moved earlier to lower fees and allow rival stores after court losses."},
+      {"name": "Epic Games Store (mobile)", "positioning": "Rival store in the EU, pushing lower fees.", "howThisProductDiffers": "Apple has users' trust and default placement; Epic offers developers a bigger share."},
+      {"name": "Web apps and web payments", "positioning": "Developers selling directly through websites.", "howThisProductDiffers": "Apple offers one-tap payments and trust; web saves developers money."},
+      {"name": "AltStore and other EU marketplaces", "positioning": "Alternative iOS app marketplaces under the DMA.", "howThisProductDiffers": "Much smaller and harder to install than the App Store."}
+    ],
+    "northStar": {
+      "metric": "Number of users who download or pay for an app they keep using after 30 days",
+      "why": "This north star metric shows apps delivering real value to users, which is good for users, developers and Apple, rather than just counting downloads."
+    },
+    "kpiTree": [
+      {"metric": "Active App Store users", "description": "People using the store each week.", "children": [
+        {"metric": "Weekly store visitors", "description": "Users opening the store."},
+        {"metric": "Search usage", "description": "Searches per user."}
+      ]},
+      {"metric": "Quality downloads", "description": "Downloads kept after 30 days.", "children": [
+        {"metric": "Search relevance", "description": "How often users find what they want."},
+        {"metric": "App review quality", "description": "Fewer scam or low-quality apps."},
+        {"metric": "Retention of new downloads", "description": "Apps still used after 30 days."}
+      ]},
+      {"metric": "Paying users", "description": "Users making purchases.", "children": [
+        {"metric": "Subscription conversion", "description": "Trials becoming paid."},
+        {"metric": "In-App Purchase share of digital sales", "description": "Share of payments through Apple vs alternatives."}
+      ]},
+      {"metric": "Developer success", "description": "Developers earning and staying.", "children": [
+        {"metric": "Developer earnings", "description": "Money paid to developers."},
+        {"metric": "Median review time", "description": "Faster reviews help developers ship."},
+        {"metric": "Developer satisfaction", "description": "Survey score."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Fraud and scam app rate",
+      "Refund and complaint rate",
+      "Regulatory fines and compliance findings"
+    ],
+    "strengths": [
+      "Most valuable app users in the world",
+      "Strong trust in safety and privacy",
+      "Simple payments and subscription management",
+      "Very high margins"
+    ],
+    "weaknesses": [
+      "Fees seen as too high by developers and regulators",
+      "App review can be slow or inconsistent",
+      "Search often shows ads or copycat apps first",
+      "Rules against steering users to cheaper web prices"
+    ],
+    "risks": [
+      "EU, UK, Japan, Brazil and India regulation lowering fees",
+      "US court rulings allowing free link-outs to the web",
+      "Developers shifting payments to the web",
+      "Services growth already slowed, which Apple linked to App Store changes in 2026"
+    ],
+    "userComplaints": [
+      "Developers say 15% to 30% is too much",
+      "Unclear or inconsistent app rejections",
+      "Scam and copycat apps in search results",
+      "Users confused why some apps cannot sell inside the app",
+      "EU developers say new fees are still too complex and high"
+    ],
+    "improvementIdeas": [
+      {"idea": "Clear rejection reasons with suggested fixes and a fast appeal", "problem": "Developers frustrated by unclear rejections.", "expectedImpact": "Faster launches and happier developers.", "metricToTrack": "Median time from rejection to approval", "effort": "low"},
+      {"idea": "Verified developer badge and copycat filter in search", "problem": "Scam and copycat apps.", "expectedImpact": "More trust and better downloads.", "metricToTrack": "Scam apps removed per month; search satisfaction", "effort": "medium"},
+      {"idea": "Lower global rate for small developers under $100,000 a year", "problem": "Indie developers struggle with fees and regulators push.", "expectedImpact": "Goodwill and less regulatory pressure.", "metricToTrack": "New developer sign-ups and retention", "effort": "low"},
+      {"idea": "Simple fee calculator in App Store Connect", "problem": "EU fee options are confusing.", "expectedImpact": "Better decisions, fewer complaints.", "metricToTrack": "Support tickets on fees", "effort": "low"}
+    ],
+    "pmLessons": [
+      "Platform rules are product decisions; fees and review rules shape what apps get built.",
+      "Controlling distribution is powerful, but too much control invites regulators.",
+      "Trust is a feature: safe payments and easy cancellations raise users' willingness to buy.",
+      "When regulation changes, the business must redesign pricing without breaking user trust."
+    ],
+    "interviewQuestions": [
+      {"question": "Should Apple lower its App Store commission globally?", "hint": "Revenue impact vs regulatory risk, developer goodwill, user prices. Model scenarios and propose a middle path."},
+      {"question": "How would you improve App Store search?", "hint": "User goals, problems (ads, copycats), ideas (better ranking, verified badges). Metric: search-to-kept-app rate."},
+      {"question": "How would you measure the impact of EU changes on developers?", "hint": "Share of payments outside Apple, developer earnings, user prices, adoption of rival stores."},
+      {"question": "What is the north star metric for the App Store?", "hint": "Users keeping apps they download or pay for. Break into users, quality downloads, paying users, developer success."},
+      {"question": "Design a better onboarding for new developers in India.", "hint": "Persona, barriers (fees in dollars, review), ideas (local pricing help, guides). Metric: first app approved within 30 days."}
+    ],
+    "glossary": [
+      {"term": "Commission", "meaning": "The share of a sale that Apple keeps."},
+      {"term": "In-App Purchase", "meaning": "Apple's payment system for buying digital items inside an app."},
+      {"term": "Steering", "meaning": "When an app tells users they can pay elsewhere, often cheaper."},
+      {"term": "DMA", "meaning": "The EU's Digital Markets Act, which sets rules for big tech platforms."},
+      {"term": "Link-out", "meaning": "A button inside an app that takes users to a website to pay."},
+      {"term": "Platform", "meaning": "A product that other businesses build on, like app makers building on iPhone."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Retention", "meaning": "The share of users who keep using something over time."}
+    ],
+    "assumptions": [
+      "App Store revenue share of Services is a weak estimate; Apple does not report it.",
+      "The ₹499 subscription example is illustrative.",
+      "US fee rules on link-outs are still in court; details may change.",
+      "The $1.3 trillion figure is from an Apple-funded 2025 study covering 2024."
+    ]
+  }
+}

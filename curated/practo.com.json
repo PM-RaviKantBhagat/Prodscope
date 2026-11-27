@@ -1,0 +1,516 @@
+{
+ "company": "Practo",
+ "domain": "practo.com",
+ "website": "https://www.practo.com",
+ "sources": [
+  "https://yourstory.com/2025/08/practo-turns-profitable-fy25-expand-global-footprint",
+  "https://yourstory.com/2025/08/ipo-bound-practo-shows-digital-health-can-scale-with-impact",
+  "https://entrackr.com/exclusive/exclusive-practo-eyes-global-markets-after-6-profitable-quarters-pilots-underway-in-us-9624045",
+  "https://www.practo.com/company/book-policy",
+  "https://voxya.com/consumer-complaints/doctors-exploited-by-practo-practo-taking-37-share-from-doctor-s-consultation-fee/181175",
+  "https://ca.trustpilot.com/review/practo.com"
+ ],
+ "report": {
+  "company": "Practo",
+  "tagline": "India's best-known app to find a doctor, book a clinic visit or video consult, and get health plans through your employer.",
+  "category": "Health app",
+  "simpleSummary": "Practo is like a directory and booking app for doctors. You search 'dentist near me', see doctors with fees, ratings and open slots, and book a visit. You can also chat or video call a doctor within minutes for a few hundred rupees. Practo makes money by charging doctors to appear higher in search, taking a cut of online consults, and selling health plans to companies for their employees. In FY25 it turned profitable for the first time and is preparing for an IPO.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, FY25",
+    "value": "₹234 crore",
+    "note": "Company figure reported by YourStory, August 2025. FY26 numbers not found."
+   },
+   {
+    "label": "Operating EBITDA, FY25",
+    "value": "₹15 crore profit",
+    "note": "YourStory. First full year of operating profit after six profitable quarters."
+   },
+   {
+    "label": "GMV, FY25",
+    "value": "₹3,500 crore",
+    "note": "Total value of consults, bookings and services through Practo, company figure via YourStory."
+   },
+   {
+    "label": "Verified doctors",
+    "value": "5 lakh+",
+    "note": "Company claim via YourStory, 2025."
+   },
+   {
+    "label": "Patients served",
+    "value": "50 million+",
+    "note": "Company claim, cumulative and global. Monthly active users not disclosed."
+   },
+   {
+    "label": "Contribution margin",
+    "value": "46% (up from 40%)",
+    "note": "YourStory, FY25."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Practo connects patients with doctors. Patients search, compare and book in-clinic appointments or online consultations, and can order lab tests. Doctors pay for listings and software. Employers and insurers buy Practo plans that give staff free or discounted consults. Practo launched in the UAE in 2025 and is testing the US.",
+   "howItWorks": [
+    "A patient searches by speciality, symptom or doctor name and sees profiles with fees, experience, reviews and slots.",
+    "For an in-clinic visit, the patient books a slot and pays the doctor at the clinic, or online.",
+    "For an online consult, the patient pays Practo and is connected to an available doctor by chat or video, often within minutes.",
+    "Doctors can pay for Prime, which gives more visibility and booking features.",
+    "Companies buy Practo plans for employees, covering consults, lab tests and health checks.",
+    "Practo keeps a share of online consult fees and earns subscription fees from doctors and companies."
+   ],
+   "valueProposition": "For patients: find a trusted doctor and get seen quickly, without calling clinics. For doctors: more patients and less admin. For employers: a cheap, popular health benefit."
+  },
+  "personas": [
+   {
+    "name": "Young urban professional",
+    "description": "A 28-year-old in Bengaluru with no family doctor.",
+    "goals": [
+     "Find a good doctor nearby quickly",
+     "Talk to a doctor online for minor issues",
+     "Use free consults from the employer plan"
+    ],
+    "frustrations": [
+     "Doctors running late or slots not honoured",
+     "Not sure if reviews are genuine",
+     "Refund delays for missed online consults"
+    ]
+   },
+   {
+    "name": "Independent clinic doctor",
+    "description": "A dermatologist running their own clinic who wants more patients.",
+    "goals": [
+     "Steady flow of new patients",
+     "Good online reputation",
+     "Simple scheduling"
+    ],
+    "frustrations": [
+     "Paying for Prime without enough bookings",
+     "Practo's share of online consult fees",
+     "Negative reviews they cannot control"
+    ]
+   },
+   {
+    "name": "HR benefits manager",
+    "description": "Runs employee benefits at a mid-sized IT company.",
+    "goals": [
+     "A health benefit employees actually use",
+     "Lower insurance claims",
+     "Predictable per-employee cost"
+    ],
+    "frustrations": [
+     "Low usage of benefits",
+     "Hard to measure value"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Finding a trusted doctor in a new city is hard.",
+    "howSolved": "Searchable profiles with qualifications, experience, fees and patient reviews.",
+    "severity": "high"
+   },
+   {
+    "pain": "Calling clinics to book and then waiting for hours.",
+    "howSolved": "Online slot booking and reminders.",
+    "severity": "high"
+   },
+   {
+    "pain": "Small health questions do not need a clinic trip.",
+    "howSolved": "Online consults by chat or video, often from about ₹199 to ₹500.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Doctors struggle to reach new patients online.",
+    "howSolved": "Listings in Practo search and paid Prime visibility.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Health records are scattered on paper.",
+    "howSolved": "Prescriptions and lab reports saved in the app.",
+    "severity": "low"
+   },
+   {
+    "pain": "Employers want a health benefit beyond insurance.",
+    "howSolved": "Corporate plans with free consults and checkups.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Doctor search and booking",
+    "whatItDoes": "Search by speciality and location, compare doctors, book slots.",
+    "whyItMatters": "The main reason patients open Practo and the base for doctor-side revenue."
+   },
+   {
+    "feature": "Online consultation",
+    "whatItDoes": "Chat or video with a doctor within minutes, with a digital prescription.",
+    "whyItMatters": "Practo earns a cut directly and it works anywhere in India."
+   },
+   {
+    "feature": "Practo Prime for doctors",
+    "whatItDoes": "Paid plan with better visibility, booking tools and support.",
+    "whyItMatters": "Recurring revenue from doctors; trust risk if patients see it as paid ranking."
+   },
+   {
+    "feature": "Patient reviews and verified profiles",
+    "whatItDoes": "Reviews from patients who booked through Practo and checked medical registrations.",
+    "whyItMatters": "Trust is the core value in healthcare discovery."
+   },
+   {
+    "feature": "Corporate health plans",
+    "whatItDoes": "Employer-paid plans with consults, lab tests and health checks for staff.",
+    "whyItMatters": "Large contracts that bring many users at once and steady revenue."
+   },
+   {
+    "feature": "Lab tests and health records",
+    "whatItDoes": "Book lab tests with home sample collection and store reports.",
+    "whyItMatters": "More revenue per patient and reasons to return."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Booking a clinic visit",
+    "persona": "Young urban professional",
+    "steps": [
+     {
+      "step": "Searches",
+      "detail": "Types 'dermatologist' and picks a nearby area."
+     },
+     {
+      "step": "Compares",
+      "detail": "Looks at fees, years of experience and reviews."
+     },
+     {
+      "step": "Books a slot",
+      "detail": "Chooses a time; gets SMS and app confirmation."
+     },
+     {
+      "step": "Visits the clinic",
+      "detail": "Pays the doctor's fee, often ₹500 to ₹1,000."
+     },
+     {
+      "step": "Gets prescription",
+      "detail": "Saved in the app if the doctor uses Practo tools."
+     },
+     {
+      "step": "Leaves a review",
+      "detail": "Practo asks for feedback after the visit."
+     }
+    ]
+   },
+   {
+    "name": "Quick online consult",
+    "persona": "Young urban professional",
+    "steps": [
+     {
+      "step": "Opens consult",
+      "detail": "Picks a problem like fever or skin rash."
+     },
+     {
+      "step": "Pays",
+      "detail": "Pays a few hundred rupees, or uses an employer plan for free."
+     },
+     {
+      "step": "Gets connected",
+      "detail": "A doctor joins by chat or video in minutes."
+     },
+     {
+      "step": "Gets a prescription",
+      "detail": "Digital prescription in the app."
+     },
+     {
+      "step": "Follows up",
+      "detail": "Free follow-up chat within a few days."
+     }
+    ]
+   },
+   {
+    "name": "Doctor joins Prime",
+    "persona": "Independent clinic doctor",
+    "steps": [
+     {
+      "step": "Creates profile",
+      "detail": "Free listing after registration checks."
+     },
+     {
+      "step": "Gets pitched Prime",
+      "detail": "Sales rep offers higher visibility."
+     },
+     {
+      "step": "Pays subscription",
+      "detail": "Annual fee, amount varies by city and speciality."
+     },
+     {
+      "step": "Gets bookings",
+      "detail": "Tracks new patients from Practo."
+     },
+     {
+      "step": "Renews or cancels",
+      "detail": "Decides based on bookings per rupee spent."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Practo earns from three groups: doctors (paid listings and software), patients (online consult fees and lab tests, where Practo keeps a cut), and employers or insurers (health plans for staff). It handled about ₹3,500 crore of GMV in FY25 but recorded ₹234 crore as revenue, because most money goes to doctors and labs.",
+   "revenueStreams": [
+    {
+     "stream": "Doctor subscriptions (Prime)",
+     "detail": "Annual fees for visibility and booking tools."
+    },
+    {
+     "stream": "Online consultation share",
+     "detail": "Practo keeps part of each consult fee; a doctor's complaint cited a share of about 37%."
+    },
+    {
+     "stream": "Corporate and insurance plans",
+     "detail": "Per-employee fees for health benefits."
+    },
+    {
+     "stream": "Lab tests and diagnostics",
+     "detail": "Commission on tests booked through Practo."
+    }
+   ],
+   "pricing": "Clinic visit fees are set by doctors, often ₹300 to ₹1,500 in big cities. Online consults typically start around ₹199 to ₹500. Doctor Prime and corporate plan prices are not public.",
+   "costDrivers": [
+    "Sales teams for doctors and corporate clients",
+    "Doctor payouts for online consults",
+    "Technology and app development",
+    "Customer support and refunds",
+    "Marketing to patients"
+   ],
+   "unitEconomics": "Take a ₹400 online consult. If Practo keeps about a third, it earns about ₹130, and pays for payment fees, support and marketing from that. Practo reports a 46% contribution margin, meaning after direct costs it keeps about ₹46 from every ₹100 of revenue to pay for sales, tech and overheads. That was enough to make ₹15 crore operating profit on ₹234 crore revenue in FY25, a thin margin of about 6%."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Google search: doctor profile pages rank for 'doctor near me' type searches",
+    "Corporate plans that put Practo in front of thousands of employees",
+    "Brand awareness built over 15 years",
+    "Doctors sharing their Practo profile links with patients"
+   ],
+   "whatBringsUsersBack": [
+    "Repeat visits to the same doctor",
+    "Free consults through employer plans",
+    "Saved prescriptions and reports",
+    "Family members booked from one account"
+   ],
+   "moat": "Practo has the largest set of doctor profiles and reviews in India, and strong Google rankings built over years. That makes it the default place to look up a doctor. A rival would need lakhs of doctors and years of reviews. But doctors and patients can easily book directly once they meet, which limits how much Practo can charge."
+  },
+  "competitors": [
+   {
+    "name": "Apollo 24/7",
+    "positioning": "Hospital chain's app with consults, pharmacy and diagnostics.",
+    "howThisProductDiffers": "Practo is neutral across many hospitals and clinics; Apollo pushes its own network and pharmacy."
+   },
+   {
+    "name": "Tata 1mg",
+    "positioning": "Online pharmacy with lab tests and consults.",
+    "howThisProductDiffers": "1mg leads on medicines; Practo leads on doctor discovery."
+   },
+   {
+    "name": "Google Maps and Justdial",
+    "positioning": "General local search with reviews.",
+    "howThisProductDiffers": "Practo has medical profiles, booking and verified reviews."
+   },
+   {
+    "name": "MediBuddy",
+    "positioning": "Corporate health benefits and online consults.",
+    "howThisProductDiffers": "Strong rival in corporate plans; Practo has stronger consumer brand in discovery."
+   }
+  ],
+  "northStar": {
+   "metric": "Completed consultations per month (clinic plus online) rated as satisfactory",
+   "why": "A completed, good consult is the moment a patient gets care and a doctor gets a patient. It drives doctor renewals and corporate plan value."
+  },
+  "kpiTree": [
+   {
+    "metric": "Patient demand",
+    "description": "People looking for care on Practo.",
+    "children": [
+     {
+      "metric": "Monthly searches",
+      "description": "Searches for doctors and specialities."
+     },
+     {
+      "metric": "Corporate plan members activated",
+      "description": "Employees who sign in and use their plan."
+     }
+    ]
+   },
+   {
+    "metric": "Booking conversion",
+    "description": "Searches that turn into bookings.",
+    "children": [
+     {
+      "metric": "Search to booking rate",
+      "description": "Share of searches ending in a booking."
+     },
+     {
+      "metric": "Slot availability",
+      "description": "Share of profiles with open slots this week."
+     },
+     {
+      "metric": "Online consult wait time",
+      "description": "Minutes from payment to doctor joining."
+     }
+    ]
+   },
+   {
+    "metric": "Consult completion and quality",
+    "description": "Bookings that happen and go well.",
+    "children": [
+     {
+      "metric": "No-show and cancellation rate",
+      "description": "By both doctors and patients."
+     },
+     {
+      "metric": "Post-consult rating",
+      "description": "Patient feedback score."
+     }
+    ]
+   },
+   {
+    "metric": "Doctor supply health",
+    "description": "Doctors who stay active and paying.",
+    "children": [
+     {
+      "metric": "Prime renewal rate",
+      "description": "Share of doctors renewing subscriptions."
+     },
+     {
+      "metric": "Bookings per Prime doctor",
+      "description": "Return on doctor spend."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Refund requests per 1,000 consults",
+   "Share of reviews flagged as fake",
+   "Doctor complaint rate about fees",
+   "Prescription safety incidents"
+  ],
+  "strengths": [
+   "Best-known doctor discovery brand in India",
+   "Profitable at operating level since FY25",
+   "Three revenue sources: doctors, patients, employers",
+   "Strong search engine traffic",
+   "Early international growth in the UAE"
+  ],
+  "weaknesses": [
+   "Revenue is small at ₹234 crore after 15 years",
+   "Doctors complain about fees and paid visibility",
+   "Patients bypass Practo after the first visit",
+   "Thin profit margin"
+  ],
+  "risks": [
+   "Hospital chains and pharmacies building their own apps",
+   "Telemedicine rules and data privacy law (DPDP Act)",
+   "Google and AI search answering health queries directly",
+   "IPO pressure to grow faster than the market allows"
+  ],
+  "userComplaints": [
+   "Doctors not available at booked times or consults not starting",
+   "Slow refunds for failed online consults",
+   "Doubts about whether reviews and rankings are genuine or paid",
+   "Doctors complaining about Practo's share of consult fees and pushy Prime sales"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Show a 'Sponsored' label on Prime-boosted results and a separate 'Top rated' sort",
+    "problem": "Patients doubt whether rankings are paid.",
+    "expectedImpact": "More trust in search results and better booking conversion.",
+    "metricToTrack": "Search to booking rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Auto-refund if a doctor does not join an online consult within 10 minutes",
+    "problem": "Refund delays are a top complaint.",
+    "expectedImpact": "Fewer complaints and higher repeat consult rate.",
+    "metricToTrack": "Refund requests per 1,000 consults",
+    "effort": "low"
+   },
+   {
+    "idea": "Prime performance dashboard showing bookings per rupee spent versus similar doctors",
+    "problem": "Doctors doubt Prime is worth paying for.",
+    "expectedImpact": "Higher Prime renewal rate.",
+    "metricToTrack": "Prime renewal rate",
+    "effort": "medium"
+   },
+   {
+    "idea": "Follow-up care plans for chronic patients such as diabetes, with monthly consults and lab tests",
+    "problem": "Patients use Practo once and then book doctors directly.",
+    "expectedImpact": "More repeat revenue per patient.",
+    "metricToTrack": "90-day repeat consult rate",
+    "effort": "high"
+   }
+  ],
+  "pmLessons": [
+   "In health, trust is the product. Paid ranking must be clear or it damages the whole marketplace.",
+   "Discovery marketplaces face leakage: once a patient finds a doctor, they may never need you again. Build reasons to come back.",
+   "Selling to employers can be a faster path to many users than winning them one by one.",
+   "Profit can come from discipline, not only scale: Practo cut costs and raised margins before its IPO."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Patients find a doctor on Practo and then book directly next time. How would you reduce this leakage?",
+    "hint": "Find what value Practo adds after the first visit: reminders, records, follow-ups, plans. Measure repeat bookings."
+   },
+   {
+    "question": "How should Practo rank doctors in search?",
+    "hint": "Balance patient relevance (distance, ratings, availability) with revenue (Prime). Discuss labelling and trust guardrails."
+   },
+   {
+    "question": "Design a product for Practo's corporate plan users to increase usage.",
+    "hint": "Segment employees, find barriers (awareness, need), propose nudges, define activation metric."
+   },
+   {
+    "question": "What north star metric would you use for Practo?",
+    "hint": "Completed quality consults; explain why GMV or downloads are weaker, and give the KPI tree."
+   },
+   {
+    "question": "Should Practo enter the US?",
+    "hint": "Compare market size, regulation, insurance-led payment and competitors like Zocdoc; suggest a narrow test first."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "GMV",
+    "meaning": "Gross merchandise value: the total money spent through the platform, before the platform's share."
+   },
+   {
+    "term": "EBITDA",
+    "meaning": "Profit before interest, tax, depreciation and amortisation, a rough view of operating profit."
+   },
+   {
+    "term": "Contribution margin",
+    "meaning": "What is left from revenue after direct costs of serving customers, before fixed costs."
+   },
+   {
+    "term": "IPO",
+    "meaning": "Initial public offering: when a company first sells shares on a stock exchange."
+   },
+   {
+    "term": "Leakage",
+    "meaning": "When buyers and sellers meet on a marketplace and then deal directly, cutting the platform out."
+   },
+   {
+    "term": "Marketplace",
+    "meaning": "A platform that connects two groups, like patients and doctors, and earns from the match."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Online consult price range is from typical prices on the app, not an official list.",
+   "The 37% share of consult fees comes from one doctor's complaint and may not apply to all doctors.",
+   "Revenue mix between doctors, consults and corporate plans is not public.",
+   "IPO timing was not confirmed in sources as of late 2026."
+  ]
+ }
+}

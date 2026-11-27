@@ -1,0 +1,274 @@
+{
+  "company": "Kindle",
+  "domain": "amazon.com-kindle",
+  "website": "https://amazon.com/kindle",
+  "sources": [
+    "https://www.androidauthority.com/critical-moment-for-amazon-kindle-2026-3718411/",
+    "https://kdp.amazon.com/earn?lang=en-US",
+    "https://blog.the-ebook-reader.com/2025/02/25/amazon-keeps-finding-new-ways-to-anger-kindle-customers/",
+    "https://blog.the-ebook-reader.com/2025/10/24/kindles-having-problems-downloading-ebooks-after-software-update/",
+    "https://goodereader.com/blog/electronic-readers/amazon-is-the-dominant-player-in-ebook-sales",
+    "https://www.writtenwordmedia.com/kdp-global-fund-payouts"
+  ],
+  "report": {
+    "company": "Kindle",
+    "tagline": "Amazon's e-reader devices, apps and e-book store, built so that buying and reading a book takes one tap.",
+    "category": "E-reading",
+    "simpleSummary": "Kindle is Amazon's way of selling you books you read on a screen. You can buy a Kindle device, a paper-like screen that is easy on the eyes and lasts weeks on one charge, or use the free Kindle app on your phone. You buy e-books from Amazon's store, or pay a monthly fee for Kindle Unlimited and read from a big library. Amazon makes most of its money from the books, not the device.",
+    "keyNumbers": [
+      {
+        "label": "Share of US e-book sales",
+        "value": "Roughly 65% to 80%",
+        "note": "Industry estimates from e-book trade blogs and analysts, 2024 to 2025. Amazon does not publish this. Weak estimate."
+      },
+      {
+        "label": "Kindle Unlimited author payout pool",
+        "value": "About $67 million in one month (June 2025)",
+        "note": "Amazon KDP's own published monthly fund figure. Shows how much reading happens inside the subscription."
+      },
+      {
+        "label": "Kindle Unlimited price",
+        "value": "$11.99 a month in the US, about ₹169 a month in India",
+        "note": "Amazon list prices, 2025 to 2026. India price is an estimate based on recent listings."
+      },
+      {
+        "label": "Device prices (2026 lineup)",
+        "value": "Base Kindle $150, Paperwhite Signature $250, Colorsoft Signature $320",
+        "note": "Android Authority review of the 2026 lineup, October 2026."
+      },
+      {
+        "label": "Kindle Unlimited catalogue",
+        "value": "More than 4 million titles",
+        "note": "Amazon marketing figure, commonly quoted 2024 to 2025. Mostly self-published books."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Kindle is a reading system with three parts: devices with E Ink screens, free reading apps for phones and computers, and Amazon's e-book store. Your books sync across all of them, so you can start a chapter on a Kindle and finish it on your phone. Amazon also runs Kindle Direct Publishing (KDP), which lets any author publish an e-book in minutes.",
+      "howItWorks": [
+        "You buy a Kindle device or download the free Kindle app and sign in with your Amazon account.",
+        "You buy e-books one at a time from the Kindle Store, or subscribe to Kindle Unlimited to borrow from millions of titles.",
+        "Books download over Wi-Fi in seconds and sync your last page, notes and highlights everywhere.",
+        "Authors upload books through KDP and get up to 70% of the price, or get paid per page read in Kindle Unlimited.",
+        "Cheaper devices show ads on the lock screen; you pay about $20 more to remove them."
+      ],
+      "valueProposition": "Any book, delivered in seconds, on a screen that feels like paper, at prices often lower than print, with your whole library always with you."
+    },
+    "personas": [
+      {
+        "name": "Heavy fiction reader",
+        "description": "Reads 50 or more books a year, often romance, thriller or fantasy series.",
+        "goals": ["Read a lot without spending a lot", "Get the next book in a series instantly", "Read comfortably at night"],
+        "frustrations": ["Kindle Unlimited is full of low-quality self-published books", "Cannot easily move books to other devices", "Store ads on the home screen"]
+      },
+      {
+        "name": "Commuter who reads on the phone",
+        "description": "Works in an office, reads in short bursts on a metro or bus using the Kindle app.",
+        "goals": ["Pick up where they left off on any device", "Cheap e-books, often under ₹200", "Make reading a habit"],
+        "frustrations": ["Cannot buy books inside the iPhone app because of Apple's fees", "Phone notifications break focus"]
+      },
+      {
+        "name": "Self-published author",
+        "description": "Writes genre fiction and earns money through KDP and Kindle Unlimited page reads.",
+        "goals": ["Reach readers without a publisher", "Earn steady monthly income", "Rank high in Kindle charts"],
+        "frustrations": ["Per-page payout changes every month", "Exclusivity rule for Kindle Unlimited blocks selling elsewhere", "AI-written copycat books flood the store"]
+      },
+      {
+        "name": "Student or professional learner",
+        "description": "Reads non-fiction and textbooks, highlights a lot and wants notes exported.",
+        "goals": ["Search and highlight inside books", "Carry many books in one light device", "Write notes by hand on Kindle Scribe"],
+        "frustrations": ["Textbooks are costly", "PDFs look poor on small screens", "Notes are hard to export"]
+      }
+    ],
+    "painPoints": [
+      {"pain": "Physical books are heavy and fill shelves.", "howSolved": "Thousands of books fit in a device lighter than a paperback.", "severity": "medium"},
+      {"pain": "Reading on a phone strains the eyes.", "howSolved": "E Ink screens look like paper, have no glare in sunlight and have an adjustable warm light on most models.", "severity": "high"},
+      {"pain": "Getting a new book means going to a store or waiting for delivery.", "howSolved": "One-tap buying delivers a book in under a minute.", "severity": "high"},
+      {"pain": "Heavy readers spend too much on books.", "howSolved": "Kindle Unlimited gives unlimited borrowing for one monthly fee.", "severity": "medium"},
+      {"pain": "Authors find it hard to get published.", "howSolved": "KDP lets anyone publish and earn royalties with no gatekeeper.", "severity": "medium"},
+      {"pain": "Losing your place between devices.", "howSolved": "Whispersync saves your last page, highlights and notes to the cloud.", "severity": "low"}
+    ],
+    "coreFeatures": [
+      {"feature": "E Ink display", "whatItDoes": "A screen that reflects light like paper instead of shining at you, with weeks of battery.", "whyItMatters": "It is the main reason readers buy a device instead of using a phone, and it locks them into Amazon's store."},
+      {"feature": "1-Click buying in the Kindle Store", "whatItDoes": "Buys and downloads a book with one tap, straight on the device.", "whyItMatters": "Removes almost all friction between wanting a book and paying for it."},
+      {"feature": "Kindle Unlimited", "whatItDoes": "A monthly subscription to borrow up to 20 books at a time from millions of titles.", "whyItMatters": "Turns one-off buyers into monthly payers and raises time spent reading."},
+      {"feature": "Whispersync", "whatItDoes": "Syncs your last page, notes and highlights across devices and apps.", "whyItMatters": "Lets the phone app and device work as one library, so readers read more."},
+      {"feature": "Kindle Direct Publishing (KDP)", "whatItDoes": "A self-service tool for authors to publish e-books and print-on-demand books.", "whyItMatters": "Brings in millions of cheap books that no rival store has, which feeds Kindle Unlimited."},
+      {"feature": "Kindle Colorsoft and Scribe", "whatItDoes": "A colour E Ink model for comics and covers, and a large model you can write on with a pen.", "whyItMatters": "Raises device prices and reaches readers who want more than plain text."}
+    ],
+    "userJourneys": [
+      {
+        "name": "First Kindle purchase",
+        "persona": "Heavy fiction reader",
+        "steps": [
+          {"step": "Sees a deal", "detail": "Notices a Kindle discount on Prime Day or in the Amazon app."},
+          {"step": "Picks a model", "detail": "Compares the base Kindle and Paperwhite, and chooses whether to pay to remove lock screen ads."},
+          {"step": "Device arrives pre-registered", "detail": "Kindle comes already signed in to the buyer's Amazon account."},
+          {"step": "Gets a free Kindle Unlimited trial", "detail": "Usually offered at setup, often 1 to 3 months free."},
+          {"step": "Downloads first books", "detail": "Borrows a series from Kindle Unlimited in a few taps."},
+          {"step": "Reads at night", "detail": "Uses the warm light and dark mode in bed."},
+          {"step": "Trial ends and converts", "detail": "Keeps paying $11.99 a month because the next book is always there."}
+        ]
+      },
+      {
+        "name": "Buying a new release",
+        "persona": "Commuter who reads on the phone",
+        "steps": [
+          {"step": "Hears about a book", "detail": "Sees it on Instagram or BookTok."},
+          {"step": "Searches Amazon", "detail": "Opens the Amazon app, not the Kindle app, on iPhone because Apple blocks in-app purchase."},
+          {"step": "Reads a free sample", "detail": "Sends the first chapter to the Kindle app."},
+          {"step": "Buys the e-book", "detail": "Pays, often less than the paperback price."},
+          {"step": "Reads in short sessions", "detail": "The app remembers the page each time."},
+          {"step": "Gets the next pick", "detail": "Amazon suggests similar books at the end of the last page."}
+        ]
+      },
+      {
+        "name": "Publishing a first book",
+        "persona": "Self-published author",
+        "steps": [
+          {"step": "Creates a KDP account", "detail": "Adds tax and bank details."},
+          {"step": "Uploads the manuscript and cover", "detail": "Uses Kindle Create or a Word file."},
+          {"step": "Sets price", "detail": "Picks $2.99 to $9.99 to qualify for the 70% royalty."},
+          {"step": "Enrols in KDP Select", "detail": "Agrees to sell only on Amazon for 90 days to join Kindle Unlimited."},
+          {"step": "Book goes live", "detail": "Usually within 72 hours."},
+          {"step": "Gets paid", "detail": "Receives sale royalties plus a share of the monthly page-read fund."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Kindle makes money from three things: selling e-books, Kindle Unlimited subscriptions, and devices. Devices are priced close to cost, and the money comes from the books readers buy for years after.",
+      "revenueStreams": [
+        {"stream": "E-book sales", "detail": "Amazon keeps about 30% of the price on most self-published books, and a negotiated cut on publisher books."},
+        {"stream": "Kindle Unlimited", "detail": "$11.99 a month in the US. Amazon pays authors from a monthly fund based on pages read and keeps the rest."},
+        {"stream": "Devices", "detail": "Kindle, Paperwhite, Colorsoft and Scribe, from about $110 to over $400."},
+        {"stream": "Lock screen ads", "detail": "Brands pay to show ads on cheaper devices; buyers pay about $20 to remove them."},
+        {"stream": "Prime and audiobooks", "detail": "Prime Reading is a Prime perk, and Audible audiobooks sync with Kindle books through Whispersync for Voice."}
+      ],
+      "pricing": "Base Kindle about $110 to $150 in the US, Paperwhite from about $160, Colorsoft from about $250, Signature editions up to $320 (2026 lineup). Kindle Unlimited $11.99 a month in the US. E-books usually $0.99 to $14.99.",
+      "costDrivers": [
+        "Device manufacturing and E Ink panels",
+        "Royalties paid to publishers and authors, including the monthly Kindle Unlimited fund",
+        "Cloud storage and delivery",
+        "Device discounts during Prime Day and holidays",
+        "Store moderation, such as removing spam and AI copycat books"
+      ],
+      "unitEconomics": "Take one reader who buys a $110 Kindle. Amazon may make almost nothing on the device, and a little more from lock screen ads. If that reader buys 10 e-books a year at $8, Amazon keeps about 30%, roughly $24 a year. If they pay for Kindle Unlimited at $144 a year, Amazon pays authors from the fund and keeps perhaps a third to half, roughly $50 to $70. Over a 4-year device life that is $100 to $300 of profit from one reader, which is why the device can be cheap. These splits are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Prime Day and Black Friday device discounts on Amazon's own home page",
+        "Free Kindle app on every phone",
+        "Kindle Unlimited free trials bundled with devices",
+        "Authors marketing their own Kindle books on social media, especially BookTok"
+      ],
+      "whatBringsUsersBack": [
+        "Series books: finishing book one makes you want book two right away",
+        "Kindle Unlimited monthly fee that feels wasted if unused",
+        "A growing library that only opens in Kindle apps",
+        "Daily deals and personalised recommendations"
+      ],
+      "moat": "Switching away is painful because your whole library is locked to Kindle by DRM (copy protection). Amazon also has the biggest catalogue of self-published books, many of them only on Kindle because of KDP Select exclusivity, and it can sell devices cheap because it earns on books for years."
+    },
+    "competitors": [
+      {"name": "Kobo (Rakuten)", "positioning": "E-readers and e-book store, strong in Canada, Japan and Europe, supports open formats and library loans.", "howThisProductDiffers": "Kindle has a much bigger store and Kindle Unlimited, but Kobo is more open and often cheaper for similar hardware."},
+      {"name": "Apple Books", "positioning": "Built-in e-book store on iPhone, iPad and Mac.", "howThisProductDiffers": "Apple Books has no E Ink device. Kindle works on every platform."},
+      {"name": "Google Play Books", "positioning": "E-books on Android and the web.", "howThisProductDiffers": "Smaller catalogue and no subscription. Kindle has deeper author and device ties."},
+      {"name": "Libby (OverDrive)", "positioning": "Free library e-book loans with a library card.", "howThisProductDiffers": "Libby is free but has wait lists. Kindle sells instant access."},
+      {"name": "Audible and Spotify audiobooks", "positioning": "Listening instead of reading.", "howThisProductDiffers": "They compete for the same reading time. Amazon owns Audible, so it wins either way in many cases."}
+    ],
+    "northStar": {
+      "metric": "Hours spent reading per week across Kindle devices and apps",
+      "why": "Reading time shows readers are getting value. More reading leads to more books bought, more Kindle Unlimited renewals and more page-read payouts to authors."
+    },
+    "kpiTree": [
+      {"metric": "Active readers", "description": "People who read at least once a week.", "children": [
+        {"metric": "Device activations", "description": "New Kindles set up each week."},
+        {"metric": "App installs that open a book", "description": "Free app users who actually start reading."},
+        {"metric": "30-day reader retention", "description": "Share of new readers still reading after a month."}
+      ]},
+      {"metric": "Sessions per reader", "description": "How often each reader opens a book.", "children": [
+        {"metric": "Series completion rate", "description": "Share of readers who start book two after book one."},
+        {"metric": "Recommendation click-through", "description": "Share of end-of-book suggestions that get opened."},
+        {"metric": "Book start rate after purchase", "description": "Share of bought or borrowed books that are opened within a week."}
+      ]},
+      {"metric": "Minutes per session", "description": "How long each reading session lasts.", "children": [
+        {"metric": "Page turn speed", "description": "Time to turn a page, which affects comfort."},
+        {"metric": "Book quality score", "description": "Average rating of books read, which falls if spam books spread."}
+      ]},
+      {"metric": "Paid reading share", "description": "Share of reading time that is from bought or Kindle Unlimited books.", "children": [
+        {"metric": "Kindle Unlimited trial-to-paid conversion", "description": "Share of trials that become paying subscriptions."},
+        {"metric": "Monthly subscriber churn", "description": "Share of Kindle Unlimited subscribers who cancel each month."},
+        {"metric": "Purchases per reader per year", "description": "Number of e-books bought by each active reader."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Author royalty per page read, so authors keep publishing on Kindle",
+      "Share of searches that return spam or AI copycat books",
+      "Device return rate and software bug reports",
+      "Customer complaints about lost book access"
+    ],
+    "strengths": [
+      "Biggest e-book catalogue and the most self-published books, many only on Kindle",
+      "Deep tie to Amazon accounts, payments and Prime",
+      "Can price devices near cost because books earn money for years",
+      "Trusted hardware with long battery life"
+    ],
+    "weaknesses": [
+      "Closed system: books use Amazon's own format and copy protection",
+      "Software feels slow to change and pushes store ads on the home screen",
+      "Kindle Unlimited is mostly self-published titles, few big-publisher bestsellers",
+      "Best features like page-turn buttons only on the most expensive models"
+    ],
+    "risks": [
+      "Readers moving to audiobooks and short video, cutting reading time",
+      "Kobo and Android e-readers winning power users who dislike lock-in",
+      "AI-generated books lowering store quality and author trust",
+      "Regulators looking at Amazon's power over book prices and authors",
+      "Apple and Google app store rules that block buying books in the phone apps"
+    ],
+    "userComplaints": [
+      "Amazon removed the 'Download and Transfer via USB' option in February 2025, making it harder to back up bought books",
+      "Software updates in 2025 caused book download problems and missing features",
+      "Lock screen and home screen ads, even on devices you own",
+      "Older Kindle models stopped getting store access",
+      "Kids Mode bugs where e-books disappeared",
+      "Physical page-turn buttons only on costly models, and no warm light on the base model"
+    ],
+    "improvementIdeas": [
+      {"idea": "Let readers download a backup copy of every book they bought, tied to their account", "problem": "Trust fell after Amazon removed USB download in 2025, and power users talk of leaving for Kobo.", "expectedImpact": "Fewer power users leave, and fewer bad reviews.", "metricToTrack": "Monthly churn of readers who buy 20+ books a year", "effort": "medium"},
+      {"idea": "Add a 'Publisher picks' shelf in Kindle Unlimited with rotating big-publisher titles", "problem": "Subscribers complain the catalogue is mostly low-quality self-published books.", "expectedImpact": "Higher trial-to-paid conversion and lower subscriber churn.", "metricToTrack": "Kindle Unlimited trial-to-paid conversion", "effort": "high"},
+      {"idea": "A clean home screen option that hides store suggestions", "problem": "Readers say the home screen feels like an ad for the store.", "expectedImpact": "Better reading experience, more sessions per reader.", "metricToTrack": "Sessions per reader per week, and purchases per reader as a guardrail", "effort": "low"},
+      {"idea": "Label and down-rank AI-generated books in search", "problem": "AI copycat books confuse buyers and hurt real authors.", "expectedImpact": "Better book quality, more trust from readers and authors.", "metricToTrack": "Refund rate on e-books bought from search", "effort": "medium"},
+      {"idea": "India reading streaks and ₹49 short-story packs on the Kindle app", "problem": "Phone readers in India read in short bursts and are price-sensitive.", "expectedImpact": "More weekly active readers in India.", "metricToTrack": "Weekly active readers in India", "effort": "low"}
+    ],
+    "pmLessons": [
+      "You can sell hardware cheap if you earn money from what people use it for. Kindle devices are the razor and books are the blades.",
+      "Lock-in builds a moat, but pushing it too hard, like removing book downloads, makes your most loyal users angry.",
+      "A two-sided product needs both sides healthy: if authors earn less per page, fewer good books arrive, and readers notice.",
+      "Subscriptions like Kindle Unlimited change what you measure: time spent reading matters more than books sold."
+    ],
+    "interviewQuestions": [
+      {"question": "Amazon sells the Kindle at close to cost. How would you decide the right price?", "hint": "Think in lifetime value: device margin plus books and Kindle Unlimited over 3 to 4 years. Compare to the cost of the device. Mention ads as a subsidy."},
+      {"question": "How would you improve Kindle Unlimited retention?", "hint": "Segment subscribers (heavy series readers vs light readers). Find why they cancel (no good books, low use). Suggest catalogue, recommendations, reminders. Pick one metric: monthly churn."},
+      {"question": "Should Amazon let readers export their books to other devices?", "hint": "Weigh trust and goodwill against lock-in. Think about publisher deals and piracy. Suggest a middle path, like account-tied backups."},
+      {"question": "What is the north star metric for Kindle?", "hint": "Pick reading time, not devices sold. Explain why it predicts revenue and break it into active readers, sessions and minutes."},
+      {"question": "How would you grow Kindle in India?", "hint": "Phone app first, low prices, regional language books, UPI payments, short reads. Device is a premium niche."}
+    ],
+    "glossary": [
+      {"term": "DRM", "meaning": "Copy protection that stops a digital book from being opened outside the store's own apps."},
+      {"term": "Lock-in", "meaning": "When leaving a product is hard because your stuff only works inside it."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "Lifetime value", "meaning": "The total money a business earns from one customer over the whole time they stay."},
+      {"term": "Churn", "meaning": "The share of paying customers who cancel in a given period."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Retention", "meaning": "The share of users who keep coming back after they first start."},
+      {"term": "Royalty", "meaning": "The share of each sale paid to the author or publisher."},
+      {"term": "Trial-to-paid conversion", "meaning": "The share of free trial users who become paying customers."}
+    ],
+    "assumptions": [
+      "Amazon's share of US e-book sales is an industry estimate, not a reported figure.",
+      "Amazon's profit on devices and its exact margin on Kindle Unlimited are not public; the unit economics are rough estimates.",
+      "The India Kindle Unlimited price is based on recent listings and may have changed.",
+      "Kindle Unlimited catalogue size is Amazon's marketing figure."
+    ]
+  }
+}

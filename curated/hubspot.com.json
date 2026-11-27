@@ -1,0 +1,217 @@
+{
+  "company": "HubSpot",
+  "domain": "hubspot.com",
+  "website": "https://hubspot.com",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001404655/000119312526447249/hubs-ex99_1.htm",
+    "https://ppc.land/hubspot-forecasts-q4-revenue-below-q3-as-growth-slows-to-12-from-17/",
+    "https://247wallst.com/cards/hubspot-q3-2026-earnings-hubs-01m6m6psgknqcmhbyqzjr78kcy",
+    "https://www.lyntonweb.com/library/why-companies-leaving-hubspot-2026",
+    "https://www.engagebay.com/blog/drawbacks-of-hubspot",
+    "https://prospeo.io/s/hubspot-pricing-reviews-pros-and-cons",
+    "https://www.capterra.com/p/152373/HubSpot-CRM/reviews?page=2"
+  ],
+  "report": {
+    "company": "HubSpot",
+    "tagline": "Software that helps small and mid-size businesses find customers, sell to them and support them, starting with a free CRM.",
+    "category": "CRM / marketing software",
+    "simpleSummary": "HubSpot is a set of tools a business uses to keep track of customers and win more of them. At its centre is a free CRM, a contact list that remembers every email, call and deal with each customer. On top of that, businesses pay for 'hubs' for marketing emails, sales, customer support, websites and AI agents. HubSpot also made 'inbound marketing' famous: attract customers with useful blog posts and free tools instead of cold calls.",
+    "keyNumbers": [
+      {"label": "Revenue (Q3 2026)", "value": "$947.6 million, up 17%", "note": "HubSpot Q3 2026 results filed with the SEC, November 2026."},
+      {"label": "Revenue (full year 2026, guidance)", "value": "About $3.69 billion, up 18%", "note": "Company guidance, November 2026."},
+      {"label": "Paying customers", "value": "311,704, up 12%", "note": "Q3 2026 results."},
+      {"label": "Average subscription revenue per customer", "value": "$12,038 a year, up 4%", "note": "Q3 2026 results."},
+      {"label": "Non-GAAP operating margin", "value": "22.6%", "note": "Q3 2026. GAAP margin was 7.6%."},
+      {"label": "Q4 2026 growth outlook", "value": "About 12%", "note": "Company guidance, a clear slowdown from 17%."}
+    ],
+    "overview": {
+      "whatItDoes": "HubSpot sells a connected set of business tools built on one customer database. Marketing Hub sends emails and runs ads and landing pages. Sales Hub tracks deals and calls. Service Hub runs help desks. Content Hub builds websites. Breeze AI agents can write content, answer customers and research prospects.",
+      "howItWorks": [
+        "A business starts with the free CRM and adds contacts, deals and emails.",
+        "Free tools like forms, live chat and email tracking bring in leads.",
+        "When the business needs more, it buys a hub at Starter, Professional or Enterprise level.",
+        "Prices depend on paid seats and how many marketing contacts are stored.",
+        "Breeze AI agents and credits handle tasks like replying to support tickets.",
+        "Thousands of partner agencies set up and resell HubSpot to clients."
+      ],
+      "valueProposition": "All your customer tools in one easy, connected system that a small team can set up without an IT department, starting free."
+    },
+    "personas": [
+      {"name": "Startup founder", "description": "Runs a 15-person B2B software startup in Bengaluru selling to the US.", "goals": ["Track leads and deals", "Send marketing emails", "Look professional"], "frustrations": ["Prices jump sharply from Starter to Professional", "Hard to know true cost as contacts grow"]},
+      {"name": "Marketing manager", "description": "Runs content, email and ads for a mid-size company.", "goals": ["Generate leads", "Prove marketing ROI", "Automate nurture emails"], "frustrations": ["Blog traffic falling as AI search answers questions", "Contact-based pricing"]},
+      {"name": "Sales rep", "description": "Works deals every day in the CRM.", "goals": ["Quick view of each customer", "Log calls and emails automatically", "Hit quota"], "frustrations": ["Too much data entry", "Pipeline reports need setup"]},
+      {"name": "Agency partner", "description": "A marketing agency that sets up HubSpot for clients.", "goals": ["Earn commission and service fees", "Easy client setup"], "frustrations": ["Clients churn when budgets shrink", "Frequent product and price changes"]}
+    ],
+    "painPoints": [
+      {"pain": "Customer info scattered in spreadsheets and inboxes.", "howSolved": "One free CRM that logs every interaction.", "severity": "high"},
+      {"pain": "Small teams cannot afford complex tools like Salesforce.", "howSolved": "Free start and easy setup without consultants.", "severity": "high"},
+      {"pain": "Getting leads is expensive.", "howSolved": "Inbound tools: blogs, SEO, forms, chat and email nurture.", "severity": "high"},
+      {"pain": "Marketing and sales do not share data.", "howSolved": "All hubs use the same customer database.", "severity": "medium"},
+      {"pain": "Support teams answer the same questions again and again.", "howSolved": "Breeze customer agent answers common questions with AI.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Free CRM", "whatItDoes": "Unlimited users can store contacts, companies and deals for free.", "whyItMatters": "The top of the funnel: millions try HubSpot without paying."},
+      {"feature": "Marketing Hub", "whatItDoes": "Emails, landing pages, forms, ads and automation.", "whyItMatters": "HubSpot's original product and a large share of revenue."},
+      {"feature": "Sales Hub", "whatItDoes": "Pipelines, sequences, call logging and forecasting.", "whyItMatters": "Moves HubSpot into Salesforce's core market."},
+      {"feature": "Service Hub", "whatItDoes": "Help desk, tickets, knowledge base and AI support agent.", "whyItMatters": "Adds another hub per customer, raising revenue per customer."},
+      {"feature": "Breeze AI agents", "whatItDoes": "AI that writes content, answers customers and researches prospects, paid with credits.", "whyItMatters": "HubSpot's bet on charging for outcomes, not just seats."},
+      {"feature": "App Marketplace and partners", "whatItDoes": "Over 1,500 integrations and thousands of agencies.", "whyItMatters": "Partners sell and set up HubSpot, a cheap sales channel."}
+    ],
+    "userJourneys": [
+      {"name": "Free CRM to paid", "persona": "Startup founder", "steps": [
+        {"step": "Reads a HubSpot blog post", "detail": "Finds it while searching for a sales template."},
+        {"step": "Downloads a free tool", "detail": "Signs up and gets the free CRM."},
+        {"step": "Imports contacts", "detail": "Uploads a spreadsheet."},
+        {"step": "Connects Gmail", "detail": "Emails log automatically."},
+        {"step": "Hits free limits", "detail": "Wants removal of HubSpot branding and more automation."},
+        {"step": "Buys Starter", "detail": "Pays a small monthly fee per seat."},
+        {"step": "Upgrades to Professional", "detail": "Needs automation; price jumps a lot."}
+      ]},
+      {"name": "Running a lead campaign", "persona": "Marketing manager", "steps": [
+        {"step": "Creates an ebook", "detail": "Uses AI to draft."},
+        {"step": "Builds landing page and form", "detail": "In Content and Marketing Hub."},
+        {"step": "Promotes", "detail": "Emails and LinkedIn ads."},
+        {"step": "Captures leads", "detail": "Form fills go into the CRM."},
+        {"step": "Nurtures", "detail": "Automated email sequence."},
+        {"step": "Hands to sales", "detail": "Lead score triggers a task for a rep."}
+      ]},
+      {"name": "Using an AI support agent", "persona": "Sales rep", "steps": [
+        {"step": "Turns on Breeze customer agent", "detail": "Connects the knowledge base."},
+        {"step": "Agent answers chats", "detail": "Handles common questions."},
+        {"step": "Hands off hard cases", "detail": "Creates a ticket for a human."},
+        {"step": "Reviews results", "detail": "Sees share of chats resolved by AI."},
+        {"step": "Buys more credits", "detail": "As usage grows."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "HubSpot makes money from subscriptions to its hubs, priced by seats and number of marketing contacts, plus AI credits. It uses a free CRM to attract businesses, then sells them more hubs and higher tiers over time.",
+      "revenueStreams": [
+        {"stream": "Hub subscriptions", "detail": "Marketing, Sales, Service, Content, Data and Commerce hubs at Starter, Professional and Enterprise tiers. $930 million in Q3 2026."},
+        {"stream": "Customer Platform bundles", "detail": "All hubs together at a discount."},
+        {"stream": "AI credits", "detail": "Usage-based credits for Breeze agents."},
+        {"stream": "Professional services", "detail": "Onboarding and setup, $17 million in Q3 2026."}
+      ],
+      "pricing": "Free CRM. Starter Customer Platform from about $15 to $20 per seat per month. Professional tiers start around $800 or more per month for Marketing Hub with a few seats. Enterprise from several thousand dollars per month. Prices vary by seats, contacts and region.",
+      "costDrivers": [
+        "Sales and marketing, the biggest cost",
+        "Research and development",
+        "Cloud hosting and AI computing",
+        "Partner commissions",
+        "Stock-based pay"
+      ],
+      "unitEconomics": "An average customer pays about $12,000 a year. Hosting and support cost a small share, so gross margin is around 85%. Winning that customer through ads, sales reps or partners might cost $10,000 to $15,000, so HubSpot earns it back in a year or so. It makes most of its profit by keeping customers for years and selling them more hubs. Small customers churn more, which is why HubSpot keeps pushing up-market. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Inbound marketing: HubSpot's own blog, free courses (HubSpot Academy) and templates",
+        "Free CRM and free tools",
+        "Partner agencies reselling HubSpot",
+        "Sales teams for larger companies"
+      ],
+      "whatBringsUsersBack": [
+        "Sales and marketing teams work in it daily",
+        "All customer history lives in the CRM",
+        "Automations run the business in the background",
+        "New hubs and AI features added over time"
+      ],
+      "moat": "Once a company's customer data, emails and automations live in HubSpot, moving is painful. The free CRM pulls in a huge number of small businesses, and thousands of partners and certified users know HubSpot. But AI search is weakening the inbound content engine that fed its growth."
+    },
+    "competitors": [
+      {"name": "Salesforce", "positioning": "Biggest CRM, strong in large enterprises.", "howThisProductDiffers": "HubSpot is easier and cheaper for small and mid-size firms. Salesforce is more powerful and customisable."},
+      {"name": "Zoho CRM", "positioning": "Low-cost Indian CRM suite.", "howThisProductDiffers": "Zoho is much cheaper. HubSpot has stronger marketing tools and brand."},
+      {"name": "Pipedrive", "positioning": "Simple sales CRM.", "howThisProductDiffers": "Pipedrive is cheaper for pure sales. HubSpot covers marketing and service too."},
+      {"name": "Mailchimp (Intuit)", "positioning": "Email marketing for small businesses.", "howThisProductDiffers": "Mailchimp is simpler and cheaper for email only."}
+    ],
+    "northStar": {
+      "metric": "Weekly active paying customers using two or more hubs",
+      "why": "Customers who use more than one hub get more value from one shared database, stay longer and spend more. It shows HubSpot is working as a platform."
+    },
+    "kpiTree": [
+      {"metric": "New paying customers", "description": "Businesses that start paying.", "children": [
+        {"metric": "Free CRM sign-ups", "description": "Top of the funnel."},
+        {"metric": "Free-to-paid conversion", "description": "Free users who buy a hub."},
+        {"metric": "Partner-sourced deals", "description": "Customers brought by agencies."}
+      ]},
+      {"metric": "Hubs per customer", "description": "How many products each customer uses.", "children": [
+        {"metric": "Cross-sell rate", "description": "Customers adding a second hub."},
+        {"metric": "Tier upgrades", "description": "Moves from Starter to Professional."}
+      ]},
+      {"metric": "Weekly active seats", "description": "Paid users logging in.", "children": [
+        {"metric": "Emails and calls logged", "description": "Daily CRM use."},
+        {"metric": "Automations running", "description": "Workflows that run the business."}
+      ]},
+      {"metric": "AI agent outcomes", "description": "Tasks completed by Breeze agents.", "children": [
+        {"metric": "Support chats resolved by AI", "description": "Share handled without a human."},
+        {"metric": "AI credits used", "description": "Usage that grows revenue."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Customer dollar retention",
+      "Small customer churn",
+      "Support satisfaction",
+      "Email deliverability"
+    ],
+    "strengths": [
+      "Easy to use and quick to set up",
+      "Free CRM that brings in huge numbers of businesses",
+      "One shared database across marketing, sales and service",
+      "Large partner and education ecosystem"
+    ],
+    "weaknesses": [
+      "Big price jumps between tiers",
+      "Growth slowing to about 12%",
+      "Customer growth relies on small businesses that churn more",
+      "Less customisable than Salesforce for complex needs"
+    ],
+    "risks": [
+      "AI search answering questions directly, cutting traffic to blogs and inbound marketing",
+      "AI-native CRMs and agents replacing seat-based tools",
+      "Salesforce moving down-market",
+      "Small business budgets shrinking in a slow economy"
+    ],
+    "userComplaints": [
+      "Expensive once you move past Starter",
+      "Pricing based on contacts and seats is hard to predict",
+      "Long contracts and hard cancellation",
+      "Reporting is limited unless you pay for higher tiers",
+      "Companies quietly leaving for cheaper tools in 2026"
+    ],
+    "improvementIdeas": [
+      {"idea": "A middle 'Growth' tier between Starter and Professional", "problem": "Customers complain of a big price jump.", "expectedImpact": "More upgrades and fewer customers leaving for cheaper tools.", "metricToTrack": "Starter-to-paid-upgrade rate and small customer churn", "effort": "low"},
+      {"idea": "Price calculator in the app that shows next year's bill as contacts grow", "problem": "Bills feel unpredictable.", "expectedImpact": "More trust, fewer surprise cancellations.", "metricToTrack": "Churn at renewal", "effort": "low"},
+      {"idea": "AI-search content kit: help customers get cited in ChatGPT and Google AI answers", "problem": "Inbound traffic is falling as AI answers questions.", "expectedImpact": "Keeps Marketing Hub valuable.", "metricToTrack": "Leads per customer from organic and AI sources", "effort": "medium"},
+      {"idea": "Outcome-based pricing for the support agent, per ticket resolved", "problem": "Customers doubt AI value.", "expectedImpact": "More AI adoption and revenue tied to value.", "metricToTrack": "Support chats resolved by AI", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "A free product at the centre, like HubSpot's CRM, can feed a big paid business if upgrades feel natural.",
+      "Content marketing can be a growth engine, but it depends on channels like Google that can change overnight.",
+      "Selling more products to existing customers is how many software companies grow revenue per customer.",
+      "Pricing steps matter: a huge jump between tiers pushes customers to leave instead of upgrade."
+    ],
+    "interviewQuestions": [
+      {"question": "AI search is reducing traffic to HubSpot's blog. How should HubSpot respond?", "hint": "Separate HubSpot's own growth from customers' growth. New channels, AI agents, partners. Measure leads per source."},
+      {"question": "How would you increase the number of customers using two or more hubs?", "hint": "Find natural next hubs, use data triggers, bundle pricing, track cross-sell rate."},
+      {"question": "Should HubSpot charge per seat or per outcome for AI agents?", "hint": "Compare predictability vs value, customer trust, revenue risk. Suggest a hybrid and a test."},
+      {"question": "What is HubSpot's north star metric?", "hint": "Customers active on multiple hubs. Explain why it predicts retention and revenue."},
+      {"question": "How would you win more small businesses in India from Zoho?", "hint": "Pricing in rupees, local payments, WhatsApp integration, partners, simple onboarding."}
+    ],
+    "glossary": [
+      {"term": "CRM", "meaning": "Customer relationship management: software that stores every customer and every interaction with them."},
+      {"term": "Inbound marketing", "meaning": "Attracting customers with useful content and free tools, instead of cold calls and ads."},
+      {"term": "Funnel", "meaning": "The steps people move through, from first hearing of a product to paying."},
+      {"term": "Free-to-paid conversion", "meaning": "The share of free users who start paying."},
+      {"term": "Cross-sell", "meaning": "Selling an extra product to a customer who already buys from you."},
+      {"term": "Churn", "meaning": "The share of customers who leave in a given period."},
+      {"term": "Gross margin", "meaning": "The share of revenue left after the direct cost of serving customers."},
+      {"term": "Up-market", "meaning": "Moving to sell to bigger companies that pay more."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Non-GAAP", "meaning": "Profit figures that leave out some costs, like stock pay, to show the core business."}
+    ],
+    "assumptions": [
+      "Cost to win a customer and payback period are estimates.",
+      "Plan prices are approximate and depend on seats, contacts and region.",
+      "Falling inbound traffic from AI search is based on industry reporting, not HubSpot data."
+    ]
+  }
+}

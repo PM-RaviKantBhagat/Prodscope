@@ -1,0 +1,507 @@
+{
+ "company": "Peloton",
+ "domain": "onepeloton.com",
+ "website": "https://www.onepeloton.com",
+ "sources": [
+  "https://www.pelobuddy.com/peloton-q4-fy2026-earnings/",
+  "https://finviz.com/news/378397/peloton-announces-q4-fy2026-financial-results",
+  "https://investor.onepeloton.com/news-releases/news-release-details/peloton-announces-q2-fy2026-financial-results",
+  "https://www.nasdaq.com/articles/peloton-interactive-q4-earnings-call-highlights",
+  "https://sgbonline.com/peloton-delivers-soft-guidance-on-subscriber-losses/"
+ ],
+ "report": {
+  "company": "Peloton",
+  "tagline": "A US company that sells connected exercise bikes, treadmills and rowers plus a monthly membership for live and on-demand classes.",
+  "category": "Connected fitness",
+  "simpleSummary": "Peloton sells an exercise bike or treadmill with a big screen. You pay a monthly membership to stream live and recorded classes led by energetic instructors, with a leaderboard so you can race other riders. It was a pandemic star, with sales doubling when gyms closed, then crashed when gyms reopened. Today it is smaller, sells fewer machines, but makes a small profit because most of its money comes from memberships.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, fiscal 2026 (year to June 2026)",
+    "value": "$2.45 billion (down 1.8%)",
+    "note": "Company results, Pelobuddy and Peloton press release, August 2026. Peak was about $4 billion in fiscal 2021."
+   },
+   {
+    "label": "Net income, fiscal 2026",
+    "value": "$63 million profit",
+    "note": "First full-year profit in years, versus a $119 million loss in fiscal 2025. Company results via Pelobuddy."
+   },
+   {
+    "label": "Connected Fitness subscribers",
+    "value": "2.55 million (down 8.8%)",
+    "note": "End of fiscal 2026, company results. App-only subscribers were 503,000."
+   },
+   {
+    "label": "Monthly churn",
+    "value": "2.2% in Q4 fiscal 2026",
+    "note": "Up from 1.8% a year earlier, after a membership price increase. Company results via Pelobuddy."
+   },
+   {
+    "label": "Free cash flow, fiscal 2026",
+    "value": "$378 million",
+    "note": "Company results. Adjusted EBITDA was $468 million."
+   },
+   {
+    "label": "Fiscal 2027 revenue guidance",
+    "value": "$2.3 billion to $2.4 billion",
+    "note": "Company guidance, August 2026: another small decline expected."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Peloton makes connected fitness hardware: Bike, Bike+, Tread, Row and the Cross Training series. Owners pay for the All-Access Membership to take classes in cycling, running, strength, yoga and more. People without hardware can use the Peloton App on phones, TVs or gym equipment. It also sells used and refurbished machines and commercial equipment for hotels and gyms.",
+   "howItWorks": [
+    "A customer buys or rents a Peloton machine online or in a showroom, often with monthly financing.",
+    "The machine connects to the internet and streams live and on-demand classes on its screen.",
+    "The All-Access Membership unlocks classes, metrics and the leaderboard for everyone in the household.",
+    "Instructors become personalities; riders follow favourites and join live classes.",
+    "Peloton IQ and other software features suggest workouts and track progress.",
+    "App-only members pay less and use classes with any equipment."
+   ],
+   "valueProposition": "A boutique fitness class experience at home, any time, with motivating instructors and a sense of community, so you actually keep working out."
+  },
+  "personas": [
+   {
+    "name": "Busy working parent",
+    "description": "A 40-year-old with kids who cannot get to a gym or spin studio.",
+    "goals": [
+     "Short, effective workouts at home",
+     "Motivation to stay consistent"
+    ],
+    "frustrations": [
+     "Membership price rises",
+     "Machine takes up space",
+     "Delivery and repair delays"
+    ]
+   },
+   {
+    "name": "Fitness enthusiast",
+    "description": "A 32-year-old who loves competition and tracks every ride.",
+    "goals": [
+     "Beat personal records",
+     "Climb the leaderboard",
+     "Ride with favourite instructors"
+    ],
+    "frustrations": [
+     "Favourite instructors leaving",
+     "Fewer live classes than before"
+    ]
+   },
+   {
+    "name": "Budget-conscious app user",
+    "description": "Uses the Peloton App with a cheap bike or at the gym.",
+    "goals": [
+     "Good classes without buying hardware"
+    ],
+    "frustrations": [
+     "App tiers are confusing",
+     "Many free YouTube alternatives"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "No time to go to a gym or studio class.",
+    "howSolved": "Classes at home, any time, from 5 minutes to an hour.",
+    "severity": "high"
+   },
+   {
+    "pain": "Working out alone is boring and easy to skip.",
+    "howSolved": "Live classes, instructors and leaderboards create energy and accountability.",
+    "severity": "high"
+   },
+   {
+    "pain": "Boutique spin classes cost $30 or more each.",
+    "howSolved": "Unlimited classes for a monthly fee shared by the household.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Hard to know which workout to do.",
+    "howSolved": "Programmes, personalised suggestions and Peloton IQ.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Not able to track progress.",
+    "howSolved": "Output metrics, streaks, badges and personal records.",
+    "severity": "low"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Live and on-demand classes",
+    "whatItDoes": "Thousands of classes across many workout types.",
+    "whyItMatters": "The content is what members pay for every month."
+   },
+   {
+    "feature": "Leaderboard",
+    "whatItDoes": "Shows how you rank against others in the same class.",
+    "whyItMatters": "Creates competition and community, a big reason people return."
+   },
+   {
+    "feature": "Instructors",
+    "whatItDoes": "Celebrity-style coaches with loyal followings.",
+    "whyItMatters": "Emotional connection that keeps people subscribed."
+   },
+   {
+    "feature": "Connected hardware",
+    "whatItDoes": "Bike, Tread, Row and Cross Training series with screens and sensors.",
+    "whyItMatters": "Locks members into the subscription; hardware owners churn far less than app users."
+   },
+   {
+    "feature": "Rental and refurbished options",
+    "whatItDoes": "Monthly rentals and cheaper used machines.",
+    "whyItMatters": "Lowers the upfront cost and brings in members who later subscribe."
+   },
+   {
+    "feature": "Peloton IQ and personalisation",
+    "whatItDoes": "AI-based workout suggestions and form guidance.",
+    "whyItMatters": "Helps members find the right next workout and stay engaged."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Buying a Bike",
+    "persona": "Busy working parent",
+    "steps": [
+     {
+      "step": "Sees an ad or a friend's bike",
+      "detail": "Gets curious about home workouts."
+     },
+     {
+      "step": "Compares options",
+      "detail": "Bike vs Bike+ vs rental vs refurbished."
+     },
+     {
+      "step": "Buys with financing",
+      "detail": "Pays monthly through a financing partner."
+     },
+     {
+      "step": "Delivery and setup",
+      "detail": "Bike arrives, setup takes minutes."
+     },
+     {
+      "step": "First ride",
+      "detail": "Takes a beginner class."
+     },
+     {
+      "step": "Builds habit",
+      "detail": "Rides three times a week, follows an instructor."
+     },
+     {
+      "step": "Adds strength",
+      "detail": "Tries strength and yoga classes on the same membership."
+     }
+    ]
+   },
+   {
+    "name": "Weekly workout routine",
+    "persona": "Fitness enthusiast",
+    "steps": [
+     {
+      "step": "Checks schedule",
+      "detail": "Books a live ride with a favourite instructor."
+     },
+     {
+      "step": "Rides live",
+      "detail": "Gets a shoutout from the instructor."
+     },
+     {
+      "step": "Climbs leaderboard",
+      "detail": "Chases a personal record."
+     },
+     {
+      "step": "Earns badge",
+      "detail": "Hits a streak or milestone."
+     },
+     {
+      "step": "Shares",
+      "detail": "Posts result in a Facebook or Reddit group."
+     }
+    ]
+   },
+   {
+    "name": "Thinking about cancelling",
+    "persona": "Budget-conscious app user",
+    "steps": [
+     {
+      "step": "Sees price rise",
+      "detail": "Membership price goes up."
+     },
+     {
+      "step": "Uses it less",
+      "detail": "Two weeks without a workout."
+     },
+     {
+      "step": "Compares free options",
+      "detail": "YouTube classes or gym membership."
+     },
+     {
+      "step": "Gets a retention offer",
+      "detail": "Pause or discount."
+     },
+     {
+      "step": "Stays or leaves",
+      "detail": "Decides based on habit strength."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Peloton sells hardware, often at low margin, to lock people into a high-margin monthly membership. Most of its revenue and almost all its gross profit now come from subscriptions.",
+   "revenueStreams": [
+    {
+     "stream": "Subscriptions",
+     "detail": "All-Access Membership for hardware owners and Peloton App tiers; the majority of revenue."
+    },
+    {
+     "stream": "Connected Fitness products",
+     "detail": "Sales and rentals of Bike, Tread, Row and accessories."
+    },
+    {
+     "stream": "Commercial and refurbished",
+     "detail": "Machines for hotels, gyms and used equipment sales."
+    }
+   ],
+   "pricing": "All-Access Membership is about $44 to $50 a month in the US after the October 2025 price rise; app tiers are cheaper. Bikes start at roughly $1,500, with rentals and refurbished options. Check the site for current prices.",
+   "costDrivers": [
+    "Hardware manufacturing and delivery",
+    "Instructor pay and studio production",
+    "Music licensing for classes",
+    "Marketing",
+    "Product recalls and warranty repairs"
+   ],
+   "unitEconomics": "A typical member pays about $45 a month, or about $540 a year. Content and music cost the same whether Peloton has 2 or 3 million members, so subscriptions have high gross margins. With monthly churn of about 2%, an average member stays about four years, worth roughly $2,000 in membership revenue. That is the LTV (lifetime value). Hardware is sold near cost, so the real question is whether the marketing and hardware discount to win a member costs less than that LTV."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "TV and social ads",
+    "Word of mouth from owners",
+    "Showrooms and retail partners like Amazon and Dick's",
+    "Rentals and refurbished machines at lower prices",
+    "Commercial placements in hotels and gyms"
+   ],
+   "whatBringsUsersBack": [
+    "Favourite instructors and live classes",
+    "Leaderboards, streaks and badges",
+    "Expensive machine at home that you feel you should use",
+    "New programmes and challenges"
+   ],
+   "moat": "Peloton's moat is its brand, its instructors and its 2.5 million paying members who already own the hardware. Switching means buying a new machine. But the classes are copyable, and cheaper bikes with app-based classes are common."
+  },
+  "competitors": [
+   {
+    "name": "Apple Fitness+",
+    "positioning": "Workout classes bundled with Apple devices.",
+    "howThisProductDiffers": "Cheaper and bundled, but no dedicated hardware or live leaderboard."
+   },
+   {
+    "name": "Tonal and iFIT (NordicTrack)",
+    "positioning": "Connected strength and cardio machines.",
+    "howThisProductDiffers": "Similar model; Peloton has the strongest instructor brand."
+   },
+   {
+    "name": "Gyms like Planet Fitness",
+    "positioning": "Low-cost gym memberships.",
+    "howThisProductDiffers": "Peloton is at-home and class-led; gyms offer equipment variety and social atmosphere."
+   },
+   {
+    "name": "Free YouTube workouts",
+    "positioning": "Free workouts from creators.",
+    "howThisProductDiffers": "Peloton adds structure, metrics and community for a fee."
+   }
+  ],
+  "northStar": {
+   "metric": "Members completing at least 8 workouts a month",
+   "why": "Members who work out regularly get fitter and are far less likely to cancel, which drives membership revenue."
+  },
+  "kpiTree": [
+   {
+    "metric": "New paying members",
+    "description": "People who join with hardware or the app.",
+    "children": [
+     {
+      "metric": "Hardware units sold and rented",
+      "description": "New machines placed in homes."
+     },
+     {
+      "metric": "App trial to paid",
+      "description": "Share of app trials that convert."
+     }
+    ]
+   },
+   {
+    "metric": "Workout frequency",
+    "description": "How often members work out.",
+    "children": [
+     {
+      "metric": "Workouts per member per month",
+      "description": "Core habit measure."
+     },
+     {
+      "metric": "Multi-modality rate",
+      "description": "Share doing more than one workout type."
+     },
+     {
+      "metric": "Live class attendance",
+      "description": "Share of workouts taken live."
+     }
+    ]
+   },
+   {
+    "metric": "Retention",
+    "description": "Members who keep paying.",
+    "children": [
+     {
+      "metric": "Monthly churn",
+      "description": "Share cancelling each month."
+     },
+     {
+      "metric": "Pause and win-back rate",
+      "description": "Members saved or returned."
+     }
+    ]
+   },
+   {
+    "metric": "Revenue per member",
+    "description": "Money per member.",
+    "children": [
+     {
+      "metric": "Average monthly membership price",
+      "description": "After discounts."
+     },
+     {
+      "metric": "Accessory and upgrade sales",
+      "description": "Extra purchases per member."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Product safety incidents and recalls",
+   "Monthly churn after price changes",
+   "App store and Trustpilot ratings",
+   "Delivery and repair times"
+  ],
+  "strengths": [
+   "Strong brand and loyal community",
+   "Back to profit with $378 million free cash flow in fiscal 2026",
+   "High-margin subscription base of 2.5 million connected members",
+   "Popular instructors"
+  ],
+  "weaknesses": [
+   "Shrinking subscriber base and revenue",
+   "Hardware is expensive and bulky",
+   "Churn rose after price increases",
+   "Past recalls, including Tread+ in 2021 and 2.2 million Bike seat posts in 2023, hurt trust"
+  ],
+  "risks": [
+   "Cheaper connected bikes and bundled apps from Apple and others",
+   "People returning to gyms and outdoor exercise",
+   "Consumer spending slowdown hits big-ticket purchases",
+   "Product safety regulation"
+  ],
+  "userComplaints": [
+   "Membership price increases",
+   "Slow customer service for repairs",
+   "Favourite instructors leaving",
+   "Hardware faults and recalls",
+   "Fewer live classes"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Early-warning churn model that nudges members after 10 days without a workout with a short class from their favourite instructor",
+    "problem": "Churn rose to 2.2% a month.",
+    "expectedImpact": "Lower monthly churn.",
+    "metricToTrack": "Monthly churn",
+    "effort": "low"
+   },
+   {
+    "idea": "Lower-priced membership tier for single-modality riders",
+    "problem": "Price rises push budget members away.",
+    "expectedImpact": "Keep members who would otherwise cancel.",
+    "metricToTrack": "Churn after price change",
+    "effort": "medium"
+   },
+   {
+    "idea": "Household challenges and family leaderboards",
+    "problem": "One family member often stops using it.",
+    "expectedImpact": "More workouts per account.",
+    "metricToTrack": "Workouts per member per month",
+    "effort": "low"
+   },
+   {
+    "idea": "Trade-in programme to upgrade old Bikes to the Cross Training series",
+    "problem": "Hardware sales falling.",
+    "expectedImpact": "More hardware revenue and renewed engagement.",
+    "metricToTrack": "Upgrade units sold",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "A temporary boom is not a new normal. Peloton built factories for pandemic demand that never came back.",
+   "Hardware can be a hook for a subscription. The membership is the real business.",
+   "Price rises can raise revenue but also churn. Measure both.",
+   "Community and personalities are a product. Instructors are a big reason people stay."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Peloton's churn rose from 1.8% to 2.2% after a price increase. What would you do?",
+    "hint": "Segment who churned, compare to usage, test tiers or discounts, and calculate whether extra revenue outweighs lost LTV."
+   },
+   {
+    "question": "Should Peloton keep making hardware or become a pure software company?",
+    "hint": "Compare churn of hardware vs app members, margins, brand, and competition; propose a mixed strategy."
+   },
+   {
+    "question": "Design a feature to get new Bike owners to their 10th workout.",
+    "hint": "Map the first 30 days, find drop-offs, propose onboarding programmes and nudges, track activation."
+   },
+   {
+    "question": "How would you grow the Peloton App without hardware?",
+    "hint": "Target gym users and cheap-bike owners, partner with gyms, differentiate from Apple Fitness+."
+   },
+   {
+    "question": "What is Peloton's north star metric?",
+    "hint": "Engaged members (workouts per month), and how it drives churn and revenue."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Churn",
+    "meaning": "The share of subscribers who cancel in a given period."
+   },
+   {
+    "term": "LTV",
+    "meaning": "Lifetime value: the total money a customer brings in while they stay."
+   },
+   {
+    "term": "Free cash flow",
+    "meaning": "Cash a company generates after paying for operations and investments."
+   },
+   {
+    "term": "Adjusted EBITDA",
+    "meaning": "Operating profit before interest, tax, depreciation and some one-off costs, as the company defines it."
+   },
+   {
+    "term": "Gross margin",
+    "meaning": "The share of revenue left after the direct cost of the product."
+   },
+   {
+    "term": "Activation",
+    "meaning": "When a new user reaches the point where they first get real value."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Membership price range and bike starting price are approximate and should be checked on the site.",
+   "The four-year average member life is a simple calculation from 2% monthly churn.",
+   "The claim that hardware is sold near cost is an inference from Peloton's reporting of low hardware margins.",
+   "Recall details are from widely reported news, not from the sources listed."
+  ]
+ }
+}

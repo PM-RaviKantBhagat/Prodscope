@@ -1,0 +1,542 @@
+{
+  "company": "Slack",
+  "domain": "slack.com",
+  "website": "https://slack.com",
+  "sources": [
+    "https://slack.com/blog/news/june-2025-pricing-and-packaging-announcement",
+    "https://www.techradar.com/pro/salesforce-raises-prices-on-slack-and-more-promises-more-ai-integration-as-a-result",
+    "https://www.techradar.com/pro/slack-users-get-more-ai-at-a-more-unified-price-and-every-salesforce-user-now-gets-free-slack-access",
+    "https://blog.zulip.com/2025/07/24/who-owns-your-slack-history/",
+    "https://mjtsai.com/blog/2024/06/26/slack-to-delete-old-messages-in-free-accounts/",
+    "https://learn.g2.com/slack-pricing"
+  ],
+  "report": {
+    "company": "Slack",
+    "tagline": "A chat app for work where teams talk in channels instead of long email threads, now owned by Salesforce.",
+    "category": "Workplace comms",
+    "simpleSummary": "Slack is like WhatsApp groups for your job, but organised. Each project or team gets a channel, everyone can search old messages, and you can plug in tools like Google Drive, Jira or GitHub. Small teams can start free, and companies pay per person per month for full history and AI features. It spread by teams starting it themselves, not by IT departments buying it.",
+    "keyNumbers": [
+      {
+        "label": "Acquisition price",
+        "value": "$27.7 billion",
+        "note": "Salesforce bought Slack in 2021. Public deal figure."
+      },
+      {
+        "label": "Yearly revenue",
+        "value": "Roughly $2 billion or more",
+        "note": "Slack's last separate report was about $900 million (FY21). Salesforce no longer reports Slack on its own; this is an analyst-style estimate. Weak estimate."
+      },
+      {
+        "label": "Paid customers",
+        "value": "169,000 (January 2021)",
+        "note": "Last figure Slack published as a public company. Likely much higher now."
+      },
+      {
+        "label": "Pro plan price",
+        "value": "About $8.75 per user per month (monthly billing), $7.25 on annual",
+        "note": "Slack pricing after the June 2025 changes. Varies by country."
+      },
+      {
+        "label": "Business+ price",
+        "value": "About $15 per user per month on annual billing, up from $12.50",
+        "note": "June 2025 pricing announcement, which bundled AI into paid plans."
+      },
+      {
+        "label": "The 'aha moment' metric",
+        "value": "2,000 messages sent by a team",
+        "note": "Slack's founders said teams that sent 2,000 messages almost always stayed. Widely quoted from early Slack."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Slack is a messaging app for work. Conversations happen in channels (by team, project or topic), direct messages and short audio or video huddles. Everything is searchable, and thousands of apps connect to it. Salesforce now sells it with AI that summarises channels and AI agents that do tasks inside Slack.",
+      "howItWorks": [
+        "Someone creates a workspace for their team for free and invites coworkers by email.",
+        "People talk in channels like #marketing or #launch-q3 instead of email chains.",
+        "Apps and bots post updates from tools like Jira, GitHub, Google Drive and Salesforce.",
+        "Slack Connect lets two companies share a channel, such as a client and an agency.",
+        "The free plan shows only 90 days of history, which pushes growing teams to pay.",
+        "Paid plans add full history, AI summaries, admin controls and security."
+      ],
+      "valueProposition": "Less email, faster answers, and one searchable place where a team's work talk lives, with all the other tools plugged in."
+    },
+    "personas": [
+      {
+        "name": "Startup founder",
+        "description": "Runs a 15-person company and set Slack up on day one.",
+        "goals": [
+          "Fast team communication",
+          "Connect tools like GitHub and Notion",
+          "Keep costs low"
+        ],
+        "frustrations": [
+          "Free plan hides messages older than 90 days",
+          "Per-seat price adds up as the team grows"
+        ]
+      },
+      {
+        "name": "Engineer in a tech company",
+        "description": "Gets alerts and code reviews in Slack and talks with teammates all day.",
+        "goals": [
+          "Get unblocked fast",
+          "Find old decisions",
+          "Mute noise"
+        ],
+        "frustrations": [
+          "Too many notifications",
+          "Pressure to reply instantly",
+          "Important info lost in threads"
+        ]
+      },
+      {
+        "name": "IT or admin lead",
+        "description": "Manages tools for a 2,000-person company.",
+        "goals": [
+          "Security and compliance",
+          "Control which apps connect",
+          "Reduce tool costs"
+        ],
+        "frustrations": [
+          "Microsoft Teams is already included in Microsoft 365",
+          "Price increases",
+          "Data export limits"
+        ]
+      },
+      {
+        "name": "Community manager",
+        "description": "Runs a free Slack community for a developer group.",
+        "goals": [
+          "Keep members engaged",
+          "Keep history"
+        ],
+        "frustrations": [
+          "Free plan deletes messages older than a year",
+          "No fair pricing for large free communities"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Email threads are slow and messy for daily team talk.",
+        "howSolved": "Channels and threads make conversations quick and organised.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to find past decisions.",
+        "howSolved": "Search across all messages and files on paid plans, plus AI recaps.",
+        "severity": "high"
+      },
+      {
+        "pain": "Switching between many tools.",
+        "howSolved": "Over 2,600 app integrations bring updates into Slack.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Working with outside partners over email is slow.",
+        "howSolved": "Slack Connect shared channels between companies.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Too many messages to read after a day off.",
+        "howSolved": "Slack AI channel and thread summaries.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Quick calls need a meeting link.",
+        "howSolved": "Huddles start a voice or video call in one click.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Channels",
+        "whatItDoes": "Group chats organised by team, project or topic, open or private.",
+        "whyItMatters": "Moves talk out of email and makes it visible to the right people."
+      },
+      {
+        "feature": "Search and history",
+        "whatItDoes": "Find any message, file or link.",
+        "whyItMatters": "Main reason teams pay, because the free plan limits history."
+      },
+      {
+        "feature": "Integrations and workflows",
+        "whatItDoes": "Apps, bots and no-code Workflow Builder.",
+        "whyItMatters": "Makes Slack the hub of work, which raises switching cost."
+      },
+      {
+        "feature": "Slack Connect",
+        "whatItDoes": "Shared channels with other companies.",
+        "whyItMatters": "Every shared channel shows Slack to a new company, a growth loop."
+      },
+      {
+        "feature": "Slack AI and Agentforce in Slack",
+        "whatItDoes": "Summaries, AI search, huddle notes and AI agents that act on tasks.",
+        "whyItMatters": "Justifies the 2025 price rise and ties Slack to Salesforce's AI push."
+      },
+      {
+        "feature": "Huddles",
+        "whatItDoes": "Instant voice or video calls inside a channel.",
+        "whyItMatters": "Keeps quick calls in Slack instead of Zoom or Teams."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Team adopts Slack bottom-up",
+        "persona": "Startup founder",
+        "steps": [
+          {
+            "step": "Signs up free",
+            "detail": "Creates a workspace with a work email."
+          },
+          {
+            "step": "Invites team",
+            "detail": "Sends invites to 10 coworkers."
+          },
+          {
+            "step": "Creates channels",
+            "detail": "#general, #product, #random."
+          },
+          {
+            "step": "Connects tools",
+            "detail": "Adds GitHub and Google Drive apps."
+          },
+          {
+            "step": "Hits 2,000 messages",
+            "detail": "Team now relies on Slack daily, the 'aha' point."
+          },
+          {
+            "step": "Hits 90-day limit",
+            "detail": "Old messages hidden; founder wants them back."
+          },
+          {
+            "step": "Upgrades to Pro",
+            "detail": "Pays per active user each month."
+          }
+        ]
+      },
+      {
+        "name": "Catching up after leave",
+        "persona": "Engineer in a tech company",
+        "steps": [
+          {
+            "step": "Opens Slack",
+            "detail": "Sees hundreds of unread messages."
+          },
+          {
+            "step": "Uses AI recap",
+            "detail": "Gets a summary of each busy channel."
+          },
+          {
+            "step": "Searches a decision",
+            "detail": "Asks AI search a question about the launch."
+          },
+          {
+            "step": "Replies in thread",
+            "detail": "Answers a teammate's question."
+          },
+          {
+            "step": "Mutes noisy channels",
+            "detail": "Sets notification preferences."
+          }
+        ]
+      },
+      {
+        "name": "Enterprise renewal",
+        "persona": "IT or admin lead",
+        "steps": [
+          {
+            "step": "Reviews contract",
+            "detail": "Sees the Business+ price rise in 2025."
+          },
+          {
+            "step": "Compares Teams",
+            "detail": "Teams comes with Microsoft 365."
+          },
+          {
+            "step": "Measures usage",
+            "detail": "Checks daily active users and Slack Connect channels."
+          },
+          {
+            "step": "Negotiates",
+            "detail": "Asks Salesforce for a bundle discount."
+          },
+          {
+            "step": "Decides",
+            "detail": "Renews if teams would revolt at a switch."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Slack makes money from per-seat pricing: a monthly fee for each user. Teams start free, and they pay when they need full history, AI and admin features. Since 2025, Salesforce bundles Slack with its other products.",
+      "revenueStreams": [
+        {
+          "stream": "Pro subscriptions",
+          "detail": "For small teams, about $7.25 to $8.75 per user per month."
+        },
+        {
+          "stream": "Business+ subscriptions",
+          "detail": "About $15 per user per month on annual billing, with AI and more admin tools."
+        },
+        {
+          "stream": "Enterprise Grid and Enterprise+",
+          "detail": "Custom-priced plans for large companies, with security and compliance."
+        },
+        {
+          "stream": "Salesforce bundles and AI agents",
+          "detail": "Slack sold together with Salesforce CRM and Agentforce agents."
+        }
+      ],
+      "pricing": "Free plan with 90 days of history. Pro about $8.75 per user per month billed monthly. Business+ about $15 per user per month billed yearly. Enterprise+ and Enterprise Grid custom. Billing only for active users.",
+      "costDrivers": [
+        "Cloud servers and storage for messages and files",
+        "AI model costs for summaries and agents",
+        "Enterprise sales and support teams",
+        "Security and compliance work"
+      ],
+      "unitEconomics": "A 50-person team on Pro pays about 50 x $8.75 = $437 a month, or about $5,250 a year. Hosting their messages and files costs Slack a small fraction of that, maybe 10% to 20%, so gross margin is high. The big cost is getting the customer, but free sign-ups and teams inviting each other make that cheap for small teams. Large companies need sales teams and discounts, so their margin is lower. AI features add model costs per user. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Bottom-up adoption: one team starts free, then other teams join",
+        "Invites: every new member is invited by a coworker",
+        "Slack Connect: shared channels pull partner companies in",
+        "Salesforce selling Slack to its existing customers, and giving Salesforce users basic Slack access"
+      ],
+      "whatBringsUsersBack": [
+        "Coworkers message you all day",
+        "Notifications and mentions",
+        "Bots and alerts from work tools",
+        "All work history lives there"
+      ],
+      "moat": "Once a company's conversations, integrations and workflows live in Slack, moving is painful. Slack Connect channels link companies to each other, adding network effects. But Microsoft Teams, bundled into Microsoft 365, weakens this moat in big companies."
+    },
+    "competitors": [
+      {
+        "name": "Microsoft Teams",
+        "positioning": "Chat and meetings included with Microsoft 365.",
+        "howThisProductDiffers": "Teams is 'free' with Office and stronger on video. Slack is preferred by tech teams for ease and integrations."
+      },
+      {
+        "name": "Google Chat",
+        "positioning": "Chat inside Google Workspace.",
+        "howThisProductDiffers": "Simpler and bundled; fewer integrations."
+      },
+      {
+        "name": "Discord",
+        "positioning": "Community chat, free.",
+        "howThisProductDiffers": "Free for communities but not built for business security."
+      },
+      {
+        "name": "Zulip, Mattermost, Pumble",
+        "positioning": "Cheaper or open-source Slack alternatives.",
+        "howThisProductDiffers": "Lower prices, own your data; much smaller ecosystem."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active teams sending at least 2,000 messages",
+      "why": "This north star metric works because Slack learned that teams that cross 2,000 messages stay. It shows a team has made Slack its main place to work, which drives paid upgrades and renewals."
+    },
+    "kpiTree": [
+      {
+        "metric": "New active workspaces",
+        "description": "Workspaces created and used by 3+ people.",
+        "children": [
+          {
+            "metric": "Invite acceptance rate",
+            "description": "Share of invites that become active members."
+          },
+          {
+            "metric": "Slack Connect signups",
+            "description": "New companies joining via shared channels."
+          },
+          {
+            "metric": "Time to first 10 members",
+            "description": "Speed of team spread."
+          }
+        ]
+      },
+      {
+        "metric": "Messages per active user",
+        "description": "How much work talk moves into Slack.",
+        "children": [
+          {
+            "metric": "Channels created per workspace",
+            "description": "Shows spread beyond one team."
+          },
+          {
+            "metric": "Apps connected per workspace",
+            "description": "Integrations that bring work in."
+          }
+        ]
+      },
+      {
+        "metric": "Free-to-paid conversion",
+        "description": "Share of active free workspaces that pay.",
+        "children": [
+          {
+            "metric": "Workspaces hitting the 90-day limit",
+            "description": "Main upgrade trigger."
+          },
+          {
+            "metric": "Upgrade page conversion",
+            "description": "Share who buy after seeing the prompt."
+          }
+        ]
+      },
+      {
+        "metric": "Paid seat retention",
+        "description": "Share of paid seats kept each year.",
+        "children": [
+          {
+            "metric": "Net revenue retention",
+            "description": "Revenue from existing customers this year vs last."
+          },
+          {
+            "metric": "AI feature weekly use",
+            "description": "Shows AI value that justifies higher prices."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Notifications per user per day, to avoid burnout",
+      "Uptime and message delivery speed",
+      "Share of enterprise renewals lost to Teams",
+      "Security incidents"
+    ],
+    "strengths": [
+      "Loved by tech and startup teams for ease of use",
+      "Biggest app ecosystem in workplace chat",
+      "Slack Connect links companies together",
+      "Backed by Salesforce's sales force and AI products"
+    ],
+    "weaknesses": [
+      "Costs extra while Teams is bundled with Microsoft 365",
+      "Can cause notification overload",
+      "Free plan limits upset communities and small teams",
+      "Video calls are weaker than Zoom or Teams"
+    ],
+    "risks": [
+      "Microsoft Teams winning big companies on price",
+      "Price increases pushing small teams to cheaper tools",
+      "AI assistants in other tools reducing the need for a chat hub",
+      "Tighter API rules in 2025 upsetting partners who build on Slack data"
+    ],
+    "userComplaints": [
+      "Free plan hides messages after 90 days, and from August 2024 deletes data older than one year",
+      "Business+ price rose in 2025",
+      "Too many notifications and pressure to always be online",
+      "Search and threads make important info easy to miss",
+      "2025 limits on how other apps can read Slack data"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "A low-cost community plan for non-profit and open-source groups",
+        "problem": "Communities left Slack after the free plan changes.",
+        "expectedImpact": "Keeps a big source of new users who later bring Slack to work.",
+        "metricToTrack": "Active community workspaces and members who join a paid workspace later",
+        "effort": "low"
+      },
+      {
+        "idea": "Daily AI 'what needs you' digest that replaces most notifications",
+        "problem": "Notification overload and burnout.",
+        "expectedImpact": "Fewer pings, more trust, higher weekly use.",
+        "metricToTrack": "Notifications per user per day and weekly active users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Free trial of full history when a team first hits the 90-day limit",
+        "problem": "Teams feel punished instead of shown value.",
+        "expectedImpact": "Higher free-to-paid conversion.",
+        "metricToTrack": "Free-to-paid conversion",
+        "effort": "low"
+      },
+      {
+        "idea": "Decision log: mark a message as a decision and find all decisions in one place",
+        "problem": "Important decisions get lost in threads.",
+        "expectedImpact": "Better search value for paid plans.",
+        "metricToTrack": "Decisions logged per workspace per week",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Find the moment a user 'gets it', like 2,000 messages, and build the product to get every team there fast.",
+      "Bottom-up growth works when the product spreads by people inviting coworkers, not by selling to bosses.",
+      "Bundling can beat a better product: Teams caught up by coming free with Office.",
+      "Changing a free plan is risky; it can drive upgrades and also drive away your biggest fans."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Slack found that 2,000 messages predicts retention. How would you find a similar 'aha' metric for another product?",
+        "hint": "Compare retained vs churned users, find early actions that predict staying, check it is causal, then build onboarding around it."
+      },
+      {
+        "question": "How should Slack compete with Microsoft Teams in large companies?",
+        "hint": "Don't fight on price alone. Focus on ecosystem, Slack Connect, AI agents, and the Salesforce bundle."
+      },
+      {
+        "question": "Should Slack make its free plan more generous?",
+        "hint": "Weigh conversion revenue against top-of-funnel growth and brand. Suggest segment-specific plans and tests."
+      },
+      {
+        "question": "How would you measure if Slack AI is worth the price increase?",
+        "hint": "Weekly AI use, time saved, renewal rates, net revenue retention."
+      },
+      {
+        "question": "Design a feature to reduce notification overload.",
+        "hint": "Identify personas, find what makes notifications useless, propose priority inbox or digests, guardrail on missed urgent messages."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Bottom-up adoption",
+        "meaning": "When individual teams start using a tool on their own before the company officially buys it."
+      },
+      {
+        "term": "Aha moment",
+        "meaning": "The point where a new user first feels the product's value."
+      },
+      {
+        "term": "Free-to-paid conversion",
+        "meaning": "The share of free users or teams who start paying."
+      },
+      {
+        "term": "Per-seat pricing",
+        "meaning": "Charging a fixed price for each person using the product."
+      },
+      {
+        "term": "Net revenue retention",
+        "meaning": "Revenue this year from last year's customers divided by what they paid last year."
+      },
+      {
+        "term": "Network effects",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "The share of revenue left after the direct cost of serving customers."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team focuses on because it best shows the value users get."
+      },
+      {
+        "term": "Bundling",
+        "meaning": "Selling several products together for one price."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users or customers who keep using a product over time."
+      }
+    ],
+    "assumptions": [
+      "Slack's current revenue is estimated because Salesforce does not report it separately.",
+      "Hosting cost as a share of subscription price is an estimate.",
+      "Prices are US list prices after June 2025 and may differ in India and by billing period."
+    ]
+  }
+}

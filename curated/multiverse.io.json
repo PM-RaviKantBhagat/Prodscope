@@ -1,0 +1,504 @@
+{
+ "company": "Multiverse",
+ "domain": "multiverse.io",
+ "website": "https://www.multiverse.io",
+ "sources": [
+  "https://feweek.co.uk/purse-strings-tighten-for-multiverse-as-losses-widen/",
+  "https://tech.eu/2026/05/15/euan-blair-s-multiverse-raises-70m-at-2-1bn-valuation/",
+  "https://www.cityam.com/euan-blair-edtech-multiverse-laid-off-dozens-more-staff-after-losses-widened/",
+  "https://feweek.co.uk/ofsted-warns-multiverse-needs-attention-after-starts-stop-on-weakest-apprenticeships/",
+  "https://en.wikipedia.org/wiki/Multiverse_(company)",
+  "https://www.multiverse.io/blog/ten-years-on-were-still-not-doing-enough"
+ ],
+ "report": {
+  "company": "Multiverse",
+  "tagline": "A UK company that trains employees in data, AI and software skills through funded apprenticeships, paid for mostly by employers' apprenticeship levy.",
+  "category": "Workforce online learning",
+  "simpleSummary": "Multiverse runs work-based training programmes called apprenticeships. A person keeps doing their job, and spends about a fifth of their time learning skills like data analysis, AI or software engineering with Multiverse coaches and online classes. In the UK, big employers already pay a tax called the apprenticeship levy, and they can use it to pay Multiverse, so the training feels close to free for them. It started as an alternative to university for school leavers, and now mostly upskills existing staff in AI and data.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, year to March 2025",
+    "value": "About £79.6 million (up over a third)",
+    "note": "Company accounts reported by FE Week, November 2026."
+   },
+   {
+    "label": "Pre-tax loss, same year",
+    "value": "About £63.3 million",
+    "note": "FE Week. Losses widened by £2.6 million; EBITDA was about minus £59.7 million; cash fell from £135.4 million to £81.8 million."
+   },
+   {
+    "label": "Apprenticeship starts, 2024-25",
+    "value": "12,030 (up 52%)",
+    "note": "FE Week, based on government apprenticeship data. England's largest provider by revenue."
+   },
+   {
+    "label": "Latest valuation",
+    "value": "$2.1 billion",
+    "note": "After raising $70 million in May 2026, Tech.eu. It raised $220 million in 2022 at about $1.7 billion."
+   },
+   {
+    "label": "Employees",
+    "value": "813",
+    "note": "FE Week from accounts. 55 people received severance in 2024-25."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Multiverse sells training programmes to employers. Each programme is a government-approved apprenticeship standard, for example a Level 4 data analyst or AI and automation practitioner. Learners stay in their jobs, learn through live online workshops, coaching and self-paced content, and apply skills to real work projects. In the UK most of the cost is paid from the employer's levy pot, and in the US employers pay directly.",
+   "howItWorks": [
+    "An employer signs up and picks programmes, for example data fundamentals or AI for business.",
+    "Employees apply, are checked for eligibility and join a cohort.",
+    "Learners spend about 20% of work time on off-the-job training: live sessions, online modules and work projects.",
+    "A Multiverse coach meets each learner regularly and tracks progress.",
+    "At the end, learners take an independent end-point assessment to earn the apprenticeship qualification.",
+    "The government releases levy funding to Multiverse in stages as the learner progresses."
+   ],
+   "valueProposition": "For employers: upskill staff in AI and data using money they already pay in levy. For learners: a recognised qualification and new skills without quitting work or taking on student debt."
+  },
+  "personas": [
+   {
+    "name": "Learning and development head at a large employer",
+    "description": "Runs training budgets at a bank, retailer or NHS trust that pays the apprenticeship levy.",
+    "goals": [
+     "Use levy money before it expires after 24 months",
+     "Build AI and data skills across the workforce",
+     "Show return on training spend to leadership"
+    ],
+    "frustrations": [
+     "Apprenticeship paperwork and compliance",
+     "Staff dropping out of long programmes",
+     "Hard to prove business impact"
+    ]
+   },
+   {
+    "name": "Mid-career employee",
+    "description": "An operations or finance worker in their 30s who wants to move into a data or AI role.",
+    "goals": [
+     "Learn practical skills without leaving the job",
+     "Get a recognised qualification",
+     "Earn a promotion"
+    ],
+    "frustrations": [
+     "Finding 20% of time for learning on top of the day job",
+     "Coursework feeling generic to their team"
+    ]
+   },
+   {
+    "name": "School leaver",
+    "description": "An 18-year-old who does not want university debt.",
+    "goals": [
+     "A paid job at a good company",
+     "A career path in tech"
+    ],
+    "frustrations": [
+     "Fewer entry-level apprenticeships than before, as Multiverse now focuses on existing staff"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Big UK employers pay the levy but often fail to spend it, so the money is lost.",
+    "howSolved": "Ready-made apprenticeship programmes that fit office jobs, so the levy turns into useful training.",
+    "severity": "high"
+   },
+   {
+    "pain": "Companies need AI and data skills quickly but cannot hire enough people.",
+    "howSolved": "Train existing staff in data and AI programmes built with partners such as Microsoft, Palantir and Databricks.",
+    "severity": "high"
+   },
+   {
+    "pain": "University is expensive and does not guarantee a job.",
+    "howSolved": "Learn while earning a salary, with no tuition debt.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Online courses have very low completion rates.",
+    "howSolved": "Human coaches, cohorts and work projects keep learners on track.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Apprenticeship rules and funding paperwork are complex.",
+    "howSolved": "Multiverse handles compliance, evidence and funding claims.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "AI and data apprenticeship programmes",
+    "whatItDoes": "Structured 12 to 18 month programmes from Level 3 to Level 7 in data, AI, software and business.",
+    "whyItMatters": "This is the product employers buy, and each programme maps to a government funding band."
+   },
+   {
+    "feature": "Coaching",
+    "whatItDoes": "One-to-one coaches who check progress and help apply skills at work.",
+    "whyItMatters": "Keeps completion higher than self-paced courses; also the biggest cost."
+   },
+   {
+    "feature": "Work-based projects",
+    "whatItDoes": "Learners solve a real problem in their team as part of the course.",
+    "whyItMatters": "Lets employers see value, for example an automated report or saved hours."
+   },
+   {
+    "feature": "AI learning coach",
+    "whatItDoes": "An AI assistant inside the platform that answers questions and gives feedback on work.",
+    "whyItMatters": "Supports learners between coach sessions and helps Multiverse grow without hiring as many coaches."
+   },
+   {
+    "feature": "Employer dashboard",
+    "whatItDoes": "Shows enrolment, progress and outcomes across the company.",
+    "whyItMatters": "Helps training heads prove return on levy spend and renew."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Company signs up",
+    "persona": "Learning and development head at a large employer",
+    "steps": [
+     {
+      "step": "Reviews unspent levy",
+      "detail": "Finds a large balance about to expire."
+     },
+     {
+      "step": "Talks to Multiverse sales",
+      "detail": "Agrees on programmes tied to an AI or data goal."
+     },
+     {
+      "step": "Promotes internally",
+      "detail": "Multiverse runs info sessions for staff."
+     },
+     {
+      "step": "Cohort starts",
+      "detail": "Dozens or hundreds of employees enrol."
+     },
+     {
+      "step": "Tracks progress",
+      "detail": "Uses the dashboard and coach reports."
+     },
+     {
+      "step": "Renews",
+      "detail": "Adds new cohorts if results are good."
+     }
+    ]
+   },
+   {
+    "name": "Learner completes an apprenticeship",
+    "persona": "Mid-career employee",
+    "steps": [
+     {
+      "step": "Applies",
+      "detail": "Completes eligibility and a skills check."
+     },
+     {
+      "step": "Starts modules",
+      "detail": "Live workshops and online lessons each week."
+     },
+     {
+      "step": "Meets coach",
+      "detail": "Regular check-ins on progress and work projects."
+     },
+     {
+      "step": "Builds a project",
+      "detail": "For example a dashboard that saves the team time."
+     },
+     {
+      "step": "Gateway",
+      "detail": "Coach and manager confirm readiness."
+     },
+     {
+      "step": "End-point assessment",
+      "detail": "Independent assessor grades the learner."
+     },
+     {
+      "step": "Uses skills",
+      "detail": "Moves into a data or AI-heavy role."
+     }
+    ]
+   },
+   {
+    "name": "School leaver joins a company",
+    "persona": "School leaver",
+    "steps": [
+     {
+      "step": "Finds a role",
+      "detail": "Searches Multiverse job listings."
+     },
+     {
+      "step": "Applies",
+      "detail": "Multiverse screens and sends to the employer."
+     },
+     {
+      "step": "Gets hired",
+      "detail": "Joins on a salary as an apprentice."
+     },
+     {
+      "step": "Learns on the job",
+      "detail": "Combines work with Multiverse training."
+     },
+     {
+      "step": "Qualifies",
+      "detail": "Completes the end-point assessment and stays on."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Multiverse is paid per learner. In the UK, the money mostly comes from employers' apprenticeship levy accounts, with government funding bands setting the price. In the US, employers pay from their own training budgets.",
+   "revenueStreams": [
+    {
+     "stream": "UK levy-funded apprenticeships",
+     "detail": "The largest stream; apprenticeship training revenue was £58.9 million in 2023-24."
+    },
+    {
+     "stream": "US employer-paid programmes",
+     "detail": "Companies pay directly for apprenticeship-style AI and data training."
+    },
+    {
+     "stream": "Non-apprenticeship AI training",
+     "detail": "Shorter AI skills programmes and partner-led courses sold to enterprises."
+    }
+   ],
+   "pricing": "Not public per customer. In the UK, prices follow government funding bands, which range up to about £25,000 for some data and AI standards; employers paying the levy usually pay nothing extra.",
+   "costDrivers": [
+    "Coaches and instructors, the largest cost",
+    "Enterprise sales and marketing",
+    "Technology platform and AI features",
+    "Compliance and Ofsted inspection readiness"
+   ],
+   "unitEconomics": "Say one learner is on a data programme funded at about £15,000 to £20,000. Multiverse gets most of this in monthly instalments and a final payment on completion, so a learner who drops out earns less. Coaching time, instructors and sales take a big share of that money. With revenue of £79.6 million and a pre-tax loss of £63.3 million, Multiverse spent roughly £1.80 for every £1 it earned in 2024-25, so it loses money on its overall customer base today. It needs higher completion, more learners per coach and lower sales costs to break even."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Enterprise sales to levy-paying employers such as banks, councils and the NHS",
+    "Partnerships with Microsoft, Palantir and Databricks to co-brand AI programmes",
+    "Founder profile and press, including Euan Blair's public campaigning on apprenticeships",
+    "Internal spread: one successful cohort leads to more departments enrolling"
+   ],
+   "whatBringsUsersBack": [
+    "Employers' levy refills every month, so there is new money to spend",
+    "AI skills needs keep changing, so companies add new programmes",
+    "Learners recommend programmes to colleagues"
+   ],
+   "moat": "Multiverse knows how to turn the UK levy into AI training at scale, and it has the employer relationships, approved programmes and Ofsted track record to do it. A new rival needs years to build those. But much of that moat depends on government rules, which can change."
+  },
+  "competitors": [
+   {
+    "name": "Lifetime Training and Kaplan",
+    "positioning": "Large UK apprenticeship providers across many sectors.",
+    "howThisProductDiffers": "Multiverse focuses on tech, data and AI and sells more to large corporates."
+   },
+   {
+    "name": "QA and Corndel",
+    "positioning": "UK tech and leadership apprenticeship providers.",
+    "howThisProductDiffers": "Similar target market; Multiverse has more funding and stronger AI partner brands."
+   },
+   {
+    "name": "Coursera and Udemy Business",
+    "positioning": "Online course libraries sold to employers.",
+    "howThisProductDiffers": "Cheaper and wider, but self-paced with low completion; Multiverse adds coaching and qualifications."
+   },
+   {
+    "name": "Universities",
+    "positioning": "Degrees for school leavers.",
+    "howThisProductDiffers": "Multiverse offers paid work and no debt, but without a degree."
+   }
+  ],
+  "northStar": {
+   "metric": "Learners who complete a programme and apply new skills in their job each quarter",
+   "why": "Employers pay for skills that change how work gets done. Completion with applied work shows real value and also unlocks the final funding payment."
+  },
+  "kpiTree": [
+   {
+    "metric": "New learner starts",
+    "description": "How many people begin a programme.",
+    "children": [
+     {
+      "metric": "New employer accounts",
+      "description": "Companies signed per quarter."
+     },
+     {
+      "metric": "Enrolment rate per employer",
+      "description": "Share of eligible staff who sign up."
+     }
+    ]
+   },
+   {
+    "metric": "Completion rate",
+    "description": "Share of learners who pass the end-point assessment.",
+    "children": [
+     {
+      "metric": "Monthly active learners",
+      "description": "Learners who log off-the-job hours each month."
+     },
+     {
+      "metric": "Coach session attendance",
+      "description": "Share of planned check-ins that happen."
+     },
+     {
+      "metric": "Withdrawal rate",
+      "description": "Share who leave the programme early."
+     }
+    ]
+   },
+   {
+    "metric": "Skills applied at work",
+    "description": "Proof of impact for employers.",
+    "children": [
+     {
+      "metric": "Projects shipped",
+      "description": "Work projects delivered per learner."
+     },
+     {
+      "metric": "Manager-reported impact",
+      "description": "Hours saved or outcomes reported by managers."
+     }
+    ]
+   },
+   {
+    "metric": "Employer expansion",
+    "description": "Revenue growth from existing customers.",
+    "children": [
+     {
+      "metric": "Net revenue retention",
+      "description": "Next year's revenue from this year's customers, as a share."
+     },
+     {
+      "metric": "Programmes per employer",
+      "description": "How many different programmes each employer uses."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Ofsted inspection outcome",
+   "Learner satisfaction score",
+   "Learners per coach, so quality does not drop",
+   "Cash burn per quarter"
+  ],
+  "strengths": [
+   "Largest UK apprenticeship provider by revenue",
+   "Strong focus on AI and data, where employer demand is high",
+   "Big-name partners: Microsoft, Palantir, Databricks",
+   "Well funded: $70 million raised in 2026 at a $2.1 billion valuation"
+  ],
+  "weaknesses": [
+   "Still loses about £63 million a year",
+   "Cash fell 39% in a year",
+   "Depends on UK government funding rules",
+   "Coach-heavy model is costly to scale",
+   "Ofsted has flagged weaker programmes that needed attention"
+  ],
+  "risks": [
+   "Changes to the levy, now the growth and skills levy, including cuts to funding for Level 7 apprenticeships for adults",
+   "Employers cutting training budgets in a slow economy",
+   "Cheap AI tools and online courses replacing paid programmes",
+   "Political criticism that levy money funds upskilling of existing staff instead of young people"
+  ],
+  "userComplaints": [
+   "Hard to balance coursework with a full-time job",
+   "Some content felt generic or not tied to the learner's role",
+   "Coach quality and turnover varied",
+   "Staff reviews mention repeated layoffs and changing priorities"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Role-specific project templates built with each employer, for example 'automate your monthly finance report'",
+    "problem": "Learners say content feels generic.",
+    "expectedImpact": "Higher engagement and clearer impact for managers.",
+    "metricToTrack": "Projects shipped per learner",
+    "effort": "medium"
+   },
+   {
+    "idea": "Early dropout alerts that flag learners who log fewer off-the-job hours for two weeks",
+    "problem": "Withdrawals lose funding and hurt Ofsted ratings.",
+    "expectedImpact": "Lower withdrawal rate.",
+    "metricToTrack": "Withdrawal rate",
+    "effort": "low"
+   },
+   {
+    "idea": "AI coach handles routine progress reviews so human coaches cover more learners",
+    "problem": "Coaching costs keep the company loss-making.",
+    "expectedImpact": "More learners per coach without lower completion.",
+    "metricToTrack": "Learners per coach and completion rate",
+    "effort": "medium"
+   },
+   {
+    "idea": "Short paid AI sprints of 6 to 8 weeks outside the levy",
+    "problem": "Heavy reliance on government funding.",
+    "expectedImpact": "New revenue that does not depend on levy rules.",
+    "metricToTrack": "Share of revenue from non-levy products",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "Find who already has budget. Multiverse grew by selling into money employers were already forced to spend.",
+   "When the government is your payer, policy changes are product risk. Plan for rules to change.",
+   "Completion is the product in education. Coaching costs money but makes the outcome real.",
+   "Follow demand: Multiverse moved from school leavers to AI upskilling for existing staff when that was what employers wanted."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Multiverse loses about £1.80 for every £1 earned. How would you get it to break even?",
+    "hint": "Break cost into coaching, sales and platform. Look at learners per coach, completion rates, non-levy products and sales efficiency."
+   },
+   {
+    "question": "How would you measure whether a Multiverse apprenticeship worked for an employer?",
+    "hint": "Separate learner outcomes (completion, promotion) from business outcomes (hours saved, projects shipped). Pick one north star."
+   },
+   {
+    "question": "The government cuts funding for one of Multiverse's biggest programmes. What do you do?",
+    "hint": "Size the impact, protect current learners, test paid alternatives, move sales to funded programmes."
+   },
+   {
+    "question": "Design an AI feature for Multiverse learners.",
+    "hint": "Pick one persona, one pain (time, generic content, feedback delay), define the AI behaviour and a completion metric."
+   },
+   {
+    "question": "Should Multiverse expand faster in the US, where there is no levy?",
+    "hint": "Compare willingness to pay, sales cycle, competitors and how the product must change without government funding."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Apprenticeship levy",
+    "meaning": "A UK tax of 0.5% of payroll on employers with a pay bill over £3 million, which they can spend on approved apprenticeship training."
+   },
+   {
+    "term": "End-point assessment",
+    "meaning": "An independent final test that decides if an apprentice passes."
+   },
+   {
+    "term": "Off-the-job training",
+    "meaning": "Learning time during paid hours that is not the person's normal work."
+   },
+   {
+    "term": "Ofsted",
+    "meaning": "The UK government body that inspects and rates education and training providers."
+   },
+   {
+    "term": "EBITDA",
+    "meaning": "Profit before interest, tax, depreciation and amortisation, a rough view of operating profit."
+   },
+   {
+    "term": "Net revenue retention",
+    "meaning": "How much revenue you get this year from last year's customers, compared with last year."
+   },
+   {
+    "term": "North star",
+    "meaning": "The one metric a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Valuation",
+    "meaning": "What investors think the whole company is worth."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Funding band price range is from general UK apprenticeship funding rules, not Multiverse contracts.",
+   "The AI learning coach is described from company messaging; exact product names and usage were not confirmed.",
+   "The £1.80 spent per £1 earned is a rough calculation from revenue plus pre-tax loss.",
+   "Detail on the growth and skills levy changes is based on UK policy news, not on Multiverse statements."
+  ]
+ }
+}

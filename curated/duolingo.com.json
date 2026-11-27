@@ -1,0 +1,551 @@
+{
+  "company": "Duolingo",
+  "domain": "duolingo.com",
+  "website": "https://duolingo.com",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm",
+    "https://247wallst.com/cards/duolingo-q3-2026-earnings-duol-01m6hkzaqtk5596n48x4pxv0q5",
+    "https://www.aol.com/articles/duolingo-drops-third-trades-50m-180504201.html",
+    "https://tech.slashdot.org/story/25/06/28/2036249/",
+    "https://tech.slashdot.org/story/26/02/28/2321238/",
+    "https://www.fool.com/investing/2026/03/31/down-80-is-duolingo-stock-a-buy-now/",
+    "https://finance.yahoo.com/news/duolingo-q4-earnings-call-highlights-041400802.html"
+  ],
+  "report": {
+    "company": "Duolingo",
+    "tagline": "A free, game-like app for learning languages, maths, music and chess in short daily lessons.",
+    "category": "Online learning",
+    "simpleSummary": "Duolingo turns learning a language into a mobile game. Lessons take about five minutes, you earn points, climb leagues and keep a daily streak going, and a green owl nudges you if you forget. It is free with ads, and about 1 in 12 monthly users pays for Super to remove ads and get extras like AI video calls. In 2025 its CEO said it would be 'AI-first', which caused a backlash, and in 2026 it chose to grow users even if it meant earning less in the short run.",
+    "keyNumbers": [
+      {
+        "label": "Daily active users (Q3 2026)",
+        "value": "64.9 million, up 29%",
+        "note": "Duolingo Q3 2026 shareholder letter filed with the SEC."
+      },
+      {
+        "label": "Monthly active users (MAU)",
+        "value": "153.1 million, up 13%",
+        "note": "Same source."
+      },
+      {
+        "label": "Paid subscribers",
+        "value": "13.1 million, up 14%",
+        "note": "Same source. About 8.6% of monthly users (our calculation)."
+      },
+      {
+        "label": "Revenue (Q3 2026)",
+        "value": "$309 million, up 14%",
+        "note": "Same source. Subscriptions $270 million, ads $20.8 million."
+      },
+      {
+        "label": "Full-year 2026 revenue (guidance)",
+        "value": "About $1.22 billion, up 18%",
+        "note": "Company guidance, November 2026. Bookings about $1.30 billion, up 12%."
+      },
+      {
+        "label": "Adjusted EBITDA margin",
+        "value": "25.5% in Q3 2026, down from 29.5%",
+        "note": "Same source. Lower because of AI costs and focus on user growth."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Duolingo teaches over 40 languages plus maths, music and chess through short, game-like lessons. It uses AI to create courses, personalise practice and power features like Video Call with the character Lily. It also runs the Duolingo English Test, an online English exam accepted by thousands of universities.",
+      "howItWorks": [
+        "You download the app, pick a language and a daily goal, and take a placement test.",
+        "Each lesson is a few minutes of tapping, typing and speaking exercises.",
+        "You earn XP, keep a daily streak and compete in weekly leagues.",
+        "Free users see ads and have limited energy for lessons; Super subscribers get no ads and unlimited practice.",
+        "Notifications and the owl mascot remind you to practise every day.",
+        "Duolingo runs hundreds of A/B tests to tune every screen for learning and retention."
+      ],
+      "valueProposition": "Learn a language for free, a few minutes a day, in a way that feels like a game instead of homework."
+    },
+    "personas": [
+      {
+        "name": "Casual learner",
+        "description": "A 25-year-old in Mumbai learning Spanish or Japanese for fun, five minutes before bed.",
+        "goals": [
+          "Keep a streak",
+          "Learn basics before a trip",
+          "Have fun"
+        ],
+        "frustrations": [
+          "Ads and energy limits",
+          "Feels like a game more than real learning",
+          "Hard to speak confidently"
+        ]
+      },
+      {
+        "name": "Serious learner",
+        "description": "Preparing to move to Germany for work.",
+        "goals": [
+          "Real conversation skills",
+          "Pass a language exam",
+          "Fast progress"
+        ],
+        "frustrations": [
+          "Lessons too easy or repetitive",
+          "Not enough speaking and grammar explanation"
+        ]
+      },
+      {
+        "name": "Indian English learner",
+        "description": "A student in a tier-2 city using Duolingo to improve English.",
+        "goals": [
+          "Speak English for jobs and interviews",
+          "Practise without judgement",
+          "Free access"
+        ],
+        "frustrations": [
+          "Paid plan feels costly",
+          "Wants Hindi-to-English and regional language options"
+        ]
+      },
+      {
+        "name": "Parent",
+        "description": "Wants kids to learn maths or a second language.",
+        "goals": [
+          "Safe, fun screen time",
+          "Track progress"
+        ],
+        "frustrations": [
+          "Family plan price",
+          "Kids get bored"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Language classes are expensive and need fixed times.",
+        "howSolved": "Free lessons on your phone, any time.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to stay motivated.",
+        "howSolved": "Streaks, XP, leagues and friendly reminders.",
+        "severity": "high"
+      },
+      {
+        "pain": "Afraid to speak with a real person.",
+        "howSolved": "AI Video Call with Lily to practise speaking.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Not sure what to learn next.",
+        "howSolved": "A guided path that adapts to your mistakes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "English tests like IELTS are costly and need a test centre.",
+        "howSolved": "Duolingo English Test online for about $70.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Streaks",
+        "whatItDoes": "Counts how many days in a row you have practised.",
+        "whyItMatters": "The strongest habit hook; losing a long streak feels painful, so people come back."
+      },
+      {
+        "feature": "Leagues and XP",
+        "whatItDoes": "Weekly leaderboards with promotion and demotion.",
+        "whyItMatters": "Social competition increases lessons per user."
+      },
+      {
+        "feature": "Notifications and the owl",
+        "whatItDoes": "Funny, personalised reminders.",
+        "whyItMatters": "Brings back users who forget; a famous part of the brand."
+      },
+      {
+        "feature": "Super subscription and energy",
+        "whatItDoes": "Free users have limited energy; Super removes limits and ads.",
+        "whyItMatters": "Main money maker, about 87% of revenue."
+      },
+      {
+        "feature": "Video Call and AI features",
+        "whatItDoes": "AI conversation practice and explanations.",
+        "whyItMatters": "Moves Duolingo toward real speaking skills; now included in Super."
+      },
+      {
+        "feature": "New subjects",
+        "whatItDoes": "Maths, music and chess courses.",
+        "whyItMatters": "Gives users more reasons to open the app daily."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First week",
+        "persona": "Casual learner",
+        "steps": [
+          {
+            "step": "Downloads the app",
+            "detail": "Sees an ad or a friend's streak on Instagram."
+          },
+          {
+            "step": "Picks language and goal",
+            "detail": "Spanish, 10 minutes a day."
+          },
+          {
+            "step": "First lesson before sign-up",
+            "detail": "Learns a few words in under a minute."
+          },
+          {
+            "step": "Creates profile",
+            "detail": "Saves progress."
+          },
+          {
+            "step": "Gets a reminder",
+            "detail": "Owl notification next evening."
+          },
+          {
+            "step": "Reaches a 7-day streak",
+            "detail": "Celebration screen and a streak freeze offer."
+          },
+          {
+            "step": "Joins a league",
+            "detail": "Competes for promotion."
+          }
+        ]
+      },
+      {
+        "name": "Free to Super",
+        "persona": "Serious learner",
+        "steps": [
+          {
+            "step": "Runs out of energy",
+            "detail": "Wants to keep practising."
+          },
+          {
+            "step": "Sees Super offer",
+            "detail": "Free trial for 14 days."
+          },
+          {
+            "step": "Tries Video Call",
+            "detail": "Practises speaking with Lily."
+          },
+          {
+            "step": "Trial converts",
+            "detail": "Pays yearly."
+          },
+          {
+            "step": "Practises more",
+            "detail": "Unlimited lessons, no ads."
+          }
+        ]
+      },
+      {
+        "name": "Taking the English Test",
+        "persona": "Indian English learner",
+        "steps": [
+          {
+            "step": "Applies to a university abroad",
+            "detail": "Sees Duolingo English Test accepted."
+          },
+          {
+            "step": "Books online",
+            "detail": "Pays about $70."
+          },
+          {
+            "step": "Takes test at home",
+            "detail": "About an hour, proctored by AI and humans."
+          },
+          {
+            "step": "Gets result",
+            "detail": "Within 2 days."
+          },
+          {
+            "step": "Sends score",
+            "detail": "Free to send to universities."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Duolingo makes money from four things: Super subscriptions (most of it), ads shown to free users, the Duolingo English Test, and in-app purchases like streak repairs. It is a freemium app: most users never pay, and their activity is paid for by the few who do.",
+      "revenueStreams": [
+        {
+          "stream": "Subscriptions (Super, family plans)",
+          "detail": "$270 million in Q3 2026, up 18%. Max is being folded into Super."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "$20.8 million in Q3 2026, shown to free users."
+        },
+        {
+          "stream": "Duolingo English Test",
+          "detail": "$9.9 million in Q3 2026."
+        },
+        {
+          "stream": "In-app purchases",
+          "detail": "Gems, streak repairs and items, $6.9 million in Q3 2026, down 38%."
+        }
+      ],
+      "pricing": "Free with ads and limited energy. Super about $12.99 a month or about $84 a year in the US, with lower prices in India and other markets. Family plan for up to 6 people. Duolingo English Test about $70.",
+      "costDrivers": [
+        "AI computing for Video Call and personalised features, pushing gross margin toward 72%",
+        "App store fees from Apple and Google",
+        "Research and development",
+        "Marketing and partnerships, like games tie-ins",
+        "Content creation for new courses"
+      ],
+      "unitEconomics": "Duolingo's yearly revenue of about $1.2 billion spread over 13 million paid subscribers is about $90 per subscriber a year. Apple or Google take up to 15% to 30% of in-app subscriptions, and AI and hosting cost more. Free users bring in only a few dollars a year from ads. Because most new users come free through word of mouth and social media, the cost to get a user is very low. So the business works as long as about 1 in 12 monthly users keeps paying. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth and viral social media, including the owl mascot's TikTok",
+        "Free app with no barrier to start",
+        "Game partnerships like Brawl Stars and Eggy Party in 2026",
+        "New subjects such as chess and maths bringing new audiences"
+      ],
+      "whatBringsUsersBack": [
+        "Daily streaks and streak freezes",
+        "Leagues and friends",
+        "Push notifications from the owl",
+        "Quests and collection events"
+      ],
+      "moat": "Duolingo has huge brand recognition, years of learning data from billions of exercises, and a habit system tuned by thousands of experiments. Its biggest asset is that tens of millions of people have a streak they do not want to lose. AI makes language teaching cheaper for rivals, so the habit and brand matter more than content."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT and other AI chatbots",
+        "positioning": "Free AI that can tutor and chat in any language.",
+        "howThisProductDiffers": "AI can teach, but Duolingo adds structure, habit and motivation."
+      },
+      {
+        "name": "Babbel",
+        "positioning": "Paid lessons focused on real conversation.",
+        "howThisProductDiffers": "Babbel is more serious and paid; Duolingo is free and game-like."
+      },
+      {
+        "name": "Busuu and Memrise",
+        "positioning": "Language apps with community or video.",
+        "howThisProductDiffers": "Much smaller; Duolingo has the brand and scale."
+      },
+      {
+        "name": "Speak and Praktika",
+        "positioning": "AI-first speaking apps.",
+        "howThisProductDiffers": "They focus on speaking; Duolingo is broader."
+      },
+      {
+        "name": "IELTS and TOEFL",
+        "positioning": "Traditional English tests.",
+        "howThisProductDiffers": "Duolingo English Test is cheaper and online."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily active learners (DAUs)",
+      "why": "Duolingo's mission is to get people learning every day. DAUs show the habit is working, and daily learners are the ones who convert to Super and keep paying."
+    },
+    "kpiTree": [
+      {
+        "metric": "New user activation",
+        "description": "New users who finish a first lesson and come back next day.",
+        "children": [
+          {
+            "metric": "Day 1 retention",
+            "description": "Share of new users back the next day."
+          },
+          {
+            "metric": "Onboarding completion",
+            "description": "Share who finish setup and first lesson."
+          },
+          {
+            "metric": "Installs from partnerships",
+            "description": "Users from game and brand tie-ins."
+          }
+        ]
+      },
+      {
+        "metric": "Current user retention",
+        "description": "Share of active users still active next week.",
+        "children": [
+          {
+            "metric": "Users with 7+ day streak",
+            "description": "Habit strength."
+          },
+          {
+            "metric": "League participation",
+            "description": "Users competing weekly."
+          },
+          {
+            "metric": "Notification open rate",
+            "description": "Reminders that bring users back."
+          }
+        ]
+      },
+      {
+        "metric": "Resurrected users",
+        "description": "Lapsed users who come back.",
+        "children": [
+          {
+            "metric": "Comeback campaign conversion",
+            "description": "Lapsed users returning after a nudge."
+          },
+          {
+            "metric": "New subject trials",
+            "description": "Lapsed users trying chess or maths."
+          }
+        ]
+      },
+      {
+        "metric": "Learning quality",
+        "description": "Proof users actually learn.",
+        "children": [
+          {
+            "metric": "Speaking exercises completed",
+            "description": "Doubled in 2026."
+          },
+          {
+            "metric": "Course completion by level",
+            "description": "Users who finish a CEFR level."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Paid subscriber penetration",
+      "App store rating",
+      "Notification opt-out rate",
+      "Gross margin as AI costs grow"
+    ],
+    "strengths": [
+      "Best-known learning app in the world with 153 million monthly users",
+      "Habit system tuned by thousands of experiments",
+      "Profitable with strong free cash flow",
+      "Cheap user growth through brand and social media"
+    ],
+    "weaknesses": [
+      "Many say it teaches basics but not real fluency",
+      "Only about 8.6% of monthly users pay",
+      "Ads and paywalls annoy free users",
+      "AI-first statements in 2025 damaged trust with some users"
+    ],
+    "risks": [
+      "Free AI tutors like ChatGPT replacing language apps",
+      "Rising AI costs lowering margins",
+      "Investor pressure after the stock fell about 80% from its peak",
+      "Apple and Google app store fees and rules"
+    ],
+    "userComplaints": [
+      "The 2025 'AI-first' memo about replacing contractors with AI caused a big backlash on social media",
+      "More ads and subscription pushes in the free app",
+      "The energy system limits free practice",
+      "Lessons feel repetitive and do not lead to real conversation",
+      "Course quality worries after AI-made content"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Free weekly AI speaking session for all users, with more in Super",
+        "problem": "Users say Duolingo does not build real speaking skill, and free users feel squeezed.",
+        "expectedImpact": "Better learning outcomes and a taste of Super that drives conversion.",
+        "metricToTrack": "Speaking exercises per user and trial starts",
+        "effort": "medium"
+      },
+      {
+        "idea": "Transparent 'made with AI, checked by experts' labels on courses",
+        "problem": "Users worry AI content lowers quality.",
+        "expectedImpact": "Rebuilt trust after the AI-first backlash.",
+        "metricToTrack": "App store rating and course satisfaction score",
+        "effort": "low"
+      },
+      {
+        "idea": "Hindi-to-English job interview course for India",
+        "problem": "Indian learners want practical English for jobs.",
+        "expectedImpact": "More users and subscribers in India.",
+        "metricToTrack": "DAUs in India",
+        "effort": "medium"
+      },
+      {
+        "idea": "Fluency milestones tied to CEFR levels with a shareable certificate",
+        "problem": "Users doubt they are really learning.",
+        "expectedImpact": "Clearer progress, more retention.",
+        "metricToTrack": "Course completion by level",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Habit loops like streaks, leagues and reminders can drive retention better than content alone.",
+      "How you talk about AI matters. A memo about replacing people with AI cost Duolingo goodwill, even as AI improved the product.",
+      "Sometimes it is right to earn less now to grow users. Duolingo traded some bookings for faster DAU growth in 2026.",
+      "A freemium model works only if the free product is good enough to build the habit, and the paid one clearly better."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "What is Duolingo's north star metric and why?",
+        "hint": "DAUs. Explain how daily habit leads to learning and payment. Break into new, current, resurrected users."
+      },
+      {
+        "question": "How would you increase paid conversion without hurting DAUs?",
+        "hint": "Segment users, find value moments (Video Call, out of energy), test offers, use DAUs as a guardrail."
+      },
+      {
+        "question": "Users say Duolingo does not make them fluent. What would you build?",
+        "hint": "Define fluency, add speaking practice, real-life tasks, measure learning outcomes, not just streaks."
+      },
+      {
+        "question": "ChatGPT can tutor languages for free. Is Duolingo in trouble?",
+        "hint": "Separate teaching from motivation. Duolingo wins on habit, structure and brand. Show how it should use AI too."
+      },
+      {
+        "question": "Design a feature to bring back lapsed users.",
+        "hint": "Why they lapse, which triggers work, comeback rewards, new subjects. Metric: resurrected users."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "DAU",
+        "meaning": "Daily active users: people who use the app on a given day."
+      },
+      {
+        "term": "MAU",
+        "meaning": "Monthly active users: people who use the app at least once in a month."
+      },
+      {
+        "term": "Freemium",
+        "meaning": "A product that is free to use, with a paid plan for extra features."
+      },
+      {
+        "term": "Streak",
+        "meaning": "The number of days in a row a user has done at least one lesson."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Bookings",
+        "meaning": "The value of subscriptions and purchases sold in a period, before it is counted as revenue."
+      },
+      {
+        "term": "Paid subscriber penetration",
+        "meaning": "The share of monthly users who pay for a subscription."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit before interest, taxes, depreciation and some other costs like stock pay."
+      },
+      {
+        "term": "A/B test",
+        "meaning": "Showing two versions to different users to see which works better."
+      },
+      {
+        "term": "Guardrail",
+        "meaning": "A metric that must not get worse while you try to improve another one."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team focuses on because it best shows the value users get."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."
+      }
+    ],
+    "assumptions": [
+      "Super prices are approximate US list prices and vary by country.",
+      "Revenue per subscriber and app store fee share are rough estimates.",
+      "The 80% stock fall is from news reports in March 2026 and may have changed."
+    ]
+  }
+}

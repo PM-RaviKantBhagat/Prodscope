@@ -1,0 +1,216 @@
+{
+  "company": "MyJio",
+  "domain": "jio.com",
+  "website": "https://www.jio.com",
+  "sources": [
+    "https://yourstory.com/2026/10/jio-platforms-first-post-listing-results-user-growth-higher-arpu-drive-137-pc-profit-rise-in-q2",
+    "https://www.freepressjournal.in/business/jio-platforms-reports-137-pat-surge-to-8387-crore-in-q2-fy27-crosses-300-million-5g-users",
+    "https://www.psuconnect.in/financial/jio-platforms-q2-revenue-47485-cr-11-3-pat-8-387-cr",
+    "https://www.business-standard.com/india-news/reliance-jio-ends-1gb-daily-plan-new-tariff-299-prepaid-125081900536_1.html",
+    "https://www.lightreading.com/wireless/jio-and-airtel-take-divergent-paths-in-india-s-tariff-battle",
+    "https://techcrunch.com/2024/06/27/reliance-jio-kicks-off-indian-telecom-price-hike"
+  ],
+  "report": {
+    "company": "MyJio",
+    "tagline": "The app for India's largest mobile network, Jio, used by hundreds of millions to recharge, track data, pay bills and reach Jio's streaming, cloud and payment services.",
+    "category": "Telecom / platform",
+    "simpleSummary": "Jio is the mobile network that made data so cheap in 2016 that hundreds of millions of Indians got on the internet for the first time. MyJio is its app: you recharge your plan, check how much data is left, pay your JioFiber or AirFiber home internet bill, and get help. It also links to other Jio services like JioHotstar, JioSaavn and JioAICloud. Jio makes money mainly from people's monthly recharges, now about ₹219 per user per month on average.",
+    "keyNumbers": [
+      {"label": "Subscribers", "value": "54.24 crore (542 million)", "note": "Jio Platforms Q2 FY27 results, September 2026 quarter. Added 91 lakh in the quarter."},
+      {"label": "Average revenue per user (ARPU)", "value": "₹218.8 a month", "note": "Q2 FY27, up from ₹211.4 a year earlier. Company results via YourStory."},
+      {"label": "Revenue, Q2 FY27", "value": "₹40,475 crore, up 11.4%", "note": "Revenue from operations. Some outlets report a gross figure of about ₹47,485 crore including taxes."},
+      {"label": "Net profit, Q2 FY27", "value": "₹8,389 crore, up 13.7%", "note": "Company results, October 2026."},
+      {"label": "5G users", "value": "Over 30 crore", "note": "5G carries about 56% of wireless traffic. Data use is 44.2 GB per user per month."},
+      {"label": "IPO size", "value": "₹30,188 crore at ₹1,119 a share", "note": "Jio Platforms listed in October 2026 and closed about 27% above issue price on day one."}
+    ],
+    "overview": {
+      "whatItDoes": "Reliance Jio runs India's largest mobile network and a fast-growing home broadband business (JioFiber and JioAirFiber). MyJio is the main customer app for recharges, bills, usage, support and access to Jio's digital services. It turns a mobile connection into a doorway to Jio's other products.",
+      "howItWorks": [
+        "Most users are prepaid: they pick a plan, for example 28 days with daily data, and recharge in MyJio or another UPI app.",
+        "MyJio shows remaining data, plan validity and offers, and reminds users before the plan ends.",
+        "Home users book and pay for JioFiber or JioAirFiber, a 5G wireless home internet service, in the app.",
+        "Plans bundle apps like JioHotstar, JioSaavn and JioAICloud storage to make higher plans more attractive.",
+        "Jio uses MyJio to push upgrades to 5G plans, family postpaid plans and AirFiber."
+      ],
+      "valueProposition": "The cheapest way for most Indians to get a lot of mobile data, with one app to manage the connection and the extra services that come with it."
+    },
+    "personas": [
+      {"name": "Prepaid user in a small town", "description": "A 24-year-old in Indore on a ₹299 monthly plan who watches reels and cricket.", "goals": ["Lots of data for little money", "Easy recharge", "Cricket streaming"], "frustrations": ["Plan prices have gone up", "Cheaper entry plans removed", "Network drops indoors"]},
+      {"name": "Family on JioAirFiber", "description": "A family in Jaipur that switched from cable TV to AirFiber.", "goals": ["Home Wi-Fi and TV together", "One bill"], "frustrations": ["Installation delays", "Speed dips at peak times"]},
+      {"name": "Feature phone user on JioBharat", "description": "An older user with a ₹1,000 4G feature phone.", "goals": ["Cheap calls and UPI"], "frustrations": ["Hard to use the app or get help"]},
+      {"name": "Postpaid professional", "description": "A salaried user on a family postpaid plan.", "goals": ["Reliable 5G", "Netflix or Prime bundled", "Easy bill payment"], "frustrations": ["Support calls take long", "Billing confusion with add-ons"]}
+    ],
+    "painPoints": [
+      {"pain": "Mobile data was too expensive for most Indians before 2016.", "howSolved": "Jio priced data far lower than rivals, forcing the whole market down.", "severity": "high"},
+      {"pain": "Recharging meant going to a shop.", "howSolved": "Recharge in MyJio or any UPI app in seconds.", "severity": "medium"},
+      {"pain": "Users run out of data without warning.", "howSolved": "Usage tracking and alerts in MyJio.", "severity": "medium"},
+      {"pain": "Fixed broadband did not reach many homes.", "howSolved": "JioAirFiber uses 5G to give home internet without cables.", "severity": "high"},
+      {"pain": "Paying for many apps separately is expensive.", "howSolved": "Plans bundle JioHotstar and other services.", "severity": "medium"},
+      {"pain": "Getting help from a telecom is slow.", "howSolved": "In-app chat and self-service in MyJio.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Recharge and plan store", "whatItDoes": "Shows plans and lets users recharge with UPI or cards.", "whyItMatters": "Every recharge in MyJio saves Jio commissions paid to other apps and shops."},
+      {"feature": "Usage tracker", "whatItDoes": "Data left, validity and alerts.", "whyItMatters": "Brings users into the app often, giving chances to upsell."},
+      {"feature": "JioFiber and AirFiber management", "whatItDoes": "Book connections, pay bills, check speed.", "whyItMatters": "Home broadband has higher revenue per home and is growing fast."},
+      {"feature": "Bundled digital services", "whatItDoes": "Links to JioHotstar, JioSaavn, JioAICloud and others.", "whyItMatters": "Makes higher plans attractive and raises ARPU."},
+      {"feature": "Self-help and support", "whatItDoes": "Chat, SIM issues, porting and complaints.", "whyItMatters": "Lowers call centre costs."}
+    ],
+    "userJourneys": [
+      {"name": "Monthly recharge", "persona": "Prepaid user in a small town", "steps": [
+        {"step": "Gets a reminder", "detail": "MyJio notifies that the plan ends in 2 days."},
+        {"step": "Opens app", "detail": "Sees recommended plans."},
+        {"step": "Compares", "detail": "Looks at ₹299 vs a higher plan with JioHotstar."},
+        {"step": "Pays", "detail": "Pays with UPI in the app."},
+        {"step": "Gets confirmation", "detail": "Plan renews instantly."},
+        {"step": "Watches", "detail": "Uses included streaming for cricket."}
+      ]},
+      {"name": "Getting AirFiber", "persona": "Family on JioAirFiber", "steps": [
+        {"step": "Sees offer", "detail": "Sees AirFiber banner in MyJio."},
+        {"step": "Books", "detail": "Books a connection and pays a deposit or plan fee."},
+        {"step": "Installation", "detail": "A technician installs the outdoor unit and Wi-Fi."},
+        {"step": "Sets up TV", "detail": "Uses the set-top box for TV channels and apps."},
+        {"step": "Pays monthly", "detail": "Pays the bill in MyJio."},
+        {"step": "Raises issue", "detail": "Reports slow speed through in-app support."}
+      ]},
+      {"name": "Porting in from another network", "persona": "Postpaid professional", "steps": [
+        {"step": "Unhappy with current network", "detail": "Wants better 5G."},
+        {"step": "Requests port", "detail": "Starts porting on jio.com or MyJio."},
+        {"step": "Gets SIM", "detail": "SIM delivered or eSIM activated."},
+        {"step": "Activates", "detail": "Number moves to Jio."},
+        {"step": "Chooses plan", "detail": "Picks a family postpaid plan with streaming."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Jio makes most of its money from mobile plans that users recharge every month or few months. It also earns from home broadband, enterprise services and digital services. MyJio helps by getting users to recharge directly, pick higher plans and add home broadband. Higher average revenue per user is the main way Jio grows profit now that most Indians already have a phone.",
+      "revenueStreams": [
+        {"stream": "Mobile plans", "detail": "Prepaid and postpaid recharges from 54 crore users; connectivity revenue grew 11%."},
+        {"stream": "Home broadband", "detail": "JioFiber and JioAirFiber, 3 crore homes."},
+        {"stream": "Digital services", "detail": "Apps, cloud and enterprise services; revenue up 16%."},
+        {"stream": "Enterprise", "detail": "Connectivity and managed services for businesses, including small and medium firms."}
+      ],
+      "pricing": "Prepaid plans start around ₹299 for 28 days with 1.5 GB a day after Jio removed its cheaper 1 GB a day plan in August 2025 (Business Standard). Higher plans add more data and apps. AirFiber and postpaid plans are priced monthly.",
+      "costDrivers": [
+        "Spectrum payments to the government",
+        "Network towers, fibre and 5G equipment",
+        "Power and site rent",
+        "Content costs for bundled apps",
+        "Marketing and distribution"
+      ],
+      "unitEconomics": "One average Jio user pays about ₹219 a month, about ₹2,600 a year. The network is a big fixed cost: once towers and spectrum are paid for, one more user costs little. So when ARPU rises by ₹7, almost all of it becomes profit. That is why tariff hikes in 2024 and the removal of cheap entry plans had such a big impact on profit, and why Jio works to move users to higher plans in MyJio."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Very cheap data and free calls since 2016",
+        "JioBharat low-cost 4G feature phones",
+        "Reliance retail stores and local shops selling SIMs",
+        "AirFiber for homes without fibre",
+        "Bundled cricket and entertainment"
+      ],
+      "whatBringsUsersBack": [
+        "Monthly recharges",
+        "Daily data use tracking",
+        "Bundled streaming",
+        "Home broadband bills"
+      ],
+      "moat": "Jio's moat is scale and cost. With over 54 crore users and a huge network, it can price lower than smaller rivals and still earn profit. The cost of building a national 5G network and buying spectrum is so high that new competitors are unlikely. The MyJio app adds a direct relationship with users."
+    },
+    "competitors": [
+      {"name": "Airtel", "positioning": "Second-largest operator with higher ARPU and premium users.", "howThisProductDiffers": "Jio has more users and lower prices; Airtel earns more per user and has the Airtel Thanks app."},
+      {"name": "Vodafone Idea (Vi)", "positioning": "Third operator, losing users and catching up on 5G.", "howThisProductDiffers": "Jio has a much stronger network and finances."},
+      {"name": "BSNL", "positioning": "Government operator with cheap plans.", "howThisProductDiffers": "Jio has 5G and better coverage; BSNL attracts price-sensitive users after tariff hikes."},
+      {"name": "Paytm, PhonePe and Google Pay", "positioning": "Apps where many users recharge.", "howThisProductDiffers": "MyJio wants recharges inside its own app to save fees and upsell."}
+    ],
+    "northStar": {
+      "metric": "Monthly active users who renew their plan on time and use their data",
+      "why": "This north star metric shows people are getting value from the connection and keep paying. It links directly to revenue and to whether users stay."
+    },
+    "kpiTree": [
+      {"metric": "Active subscribers", "description": "Users with a live plan.", "children": [
+        {"metric": "Net adds", "description": "91 lakh added in Q2 FY27."},
+        {"metric": "Churn", "description": "Users leaving or not recharging."},
+        {"metric": "Port-ins from Airtel and Vi", "description": "Users switching to Jio."}
+      ]},
+      {"metric": "ARPU", "description": "Average revenue per user.", "children": [
+        {"metric": "Share on higher plans", "description": "Users on 2 GB a day or bundled plans."},
+        {"metric": "5G plan adoption", "description": "Over 30 crore 5G users."},
+        {"metric": "Postpaid conversion", "description": "Prepaid users moving to postpaid."}
+      ]},
+      {"metric": "MyJio engagement", "description": "Users managing Jio through the app.", "children": [
+        {"metric": "Share of recharges in MyJio", "description": "Direct recharges save fees."},
+        {"metric": "Monthly active app users", "description": "Reach for upsell."}
+      ]},
+      {"metric": "Home broadband homes", "description": "Fibre and AirFiber homes.", "children": [
+        {"metric": "AirFiber installs per month", "description": "Main driver of broadband adds."},
+        {"metric": "Installation time", "description": "Days from booking to live."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Network quality complaints and call drops",
+      "Churn after price changes",
+      "Customer support resolution time"
+    ],
+    "strengths": [
+      "Largest user base in India",
+      "Low cost network and strong profit",
+      "Fast 5G rollout with over 30 crore users",
+      "Fast-growing home broadband through AirFiber",
+      "Now listed, with fresh money to cut debt"
+    ],
+    "weaknesses": [
+      "ARPU lower than Airtel",
+      "Customer support quality complaints",
+      "MyJio app crowded with banners and offers",
+      "Depends on price hikes for growth"
+    ],
+    "risks": [
+      "Users moving to BSNL or cheaper plans after hikes",
+      "Regulatory changes on spectrum or tariffs",
+      "Satellite internet like Starlink in rural areas",
+      "Public anger over rising mobile bills"
+    ],
+    "userComplaints": [
+      "Plans keep getting more expensive and cheap ones are removed",
+      "Network drops and slow speeds in crowded areas",
+      "AirFiber installation delays",
+      "Hard to reach a human in customer care",
+      "MyJio app is cluttered with ads and promotions"
+    ],
+    "improvementIdeas": [
+      {"idea": "Personal plan advisor in MyJio based on real usage", "problem": "Users unsure which plan is best after price changes.", "expectedImpact": "More users on fitting plans and lower churn.", "metricToTrack": "Churn after recharge expiry", "effort": "medium"},
+      {"idea": "Cleaner home screen with usage first", "problem": "App cluttered with promotions.", "expectedImpact": "More app usage and trust.", "metricToTrack": "Monthly active app users", "effort": "low"},
+      {"idea": "Live network issue map and auto-credit for outages", "problem": "Network drops frustrate users.", "expectedImpact": "Fewer complaints and churn.", "metricToTrack": "Network complaint tickets per 10 lakh users", "effort": "medium"},
+      {"idea": "AirFiber install slot booking with tracking", "problem": "Install delays.", "expectedImpact": "Faster installs and fewer cancellations.", "metricToTrack": "Days from booking to activation", "effort": "low"},
+      {"idea": "Simple voice-first mode for JioBharat users", "problem": "Older users struggle with the app.", "expectedImpact": "More self-service, fewer calls.", "metricToTrack": "Self-service share for feature phone users", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "Pricing can create a market: cheap data in 2016 brought hundreds of millions of Indians online.",
+      "In a high fixed-cost business, small changes in price per user move profit a lot.",
+      "Owning the customer app lets a telecom sell more and save fees paid to others.",
+      "Bundling content makes higher plans feel worth it."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you increase Jio's ARPU without losing users?", "hint": "Segment users, upsell paths (5G, bundles, postpaid), guardrail on churn. Pick one and size it."},
+      {"question": "Design MyJio for a first-time smartphone user.", "hint": "Persona, top tasks (recharge, data left), simple language, voice. Metric: self-service rate."},
+      {"question": "Jio raised prices and churn went up. What do you do?", "hint": "Find who left and why, compare with competitors, offer targeted plans. Track churn by segment."},
+      {"question": "What should MyJio's north star metric be?", "hint": "Active users renewing on time. Break into subscribers, ARPU, app engagement, broadband."},
+      {"question": "Should Jio push AirFiber in rural areas?", "hint": "Demand, cost per install, network capacity, competition from satellite. Pilot and measure."}
+    ],
+    "glossary": [
+      {"term": "ARPU", "meaning": "Average revenue per user: how much each user pays on average each month."},
+      {"term": "Prepaid", "meaning": "Paying for a mobile plan in advance before using it."},
+      {"term": "Churn", "meaning": "The share of users who leave or stop paying."},
+      {"term": "Net adds", "meaning": "New users minus users who left in a period."},
+      {"term": "Spectrum", "meaning": "Radio frequencies that telecoms buy from the government to run networks."},
+      {"term": "Bundling", "meaning": "Selling several products together as one package."},
+      {"term": "IPO", "meaning": "When a company first sells its shares to the public on a stock exchange."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."}
+    ],
+    "assumptions": [
+      "MyJio's monthly active users are not public; we assume most Jio users use it at least sometimes.",
+      "Current plan prices may have changed after August 2025; we did not check every plan.",
+      "The claim that most ARPU gains turn into profit is an inference from Jio's high fixed costs.",
+      "Revenue figures differ between outlets because of gross vs net reporting."
+    ]
+  }
+}

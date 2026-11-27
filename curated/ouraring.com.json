@@ -1,0 +1,504 @@
+{
+ "company": "Oura Ring",
+ "domain": "ouraring.com",
+ "website": "https://ouraring.com",
+ "sources": [
+  "https://techcrunch.com/2026/09/03/oura-files-to-go-public/",
+  "https://fortune.com/2025/09/23/oura-ring-11-billion-valuation-series-e-finland-875-million-raise-unicorn/",
+  "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health",
+  "https://channelnews.com.au/oura-quietly-files-for-ipo-as-users-revolt-over-subscription-costs-battery-failures-and-product-complaints/",
+  "https://ouraring.com/blog/oura-itc-case/",
+  "https://www.tomsguide.com/wellness/smart-rings/oura-lawsuit-bans-rival-ultrahuman-in-the-us-what-that-means-for-your-smart-ring-and-the-best-alternatives"
+ ],
+ "report": {
+  "company": "Oura Ring",
+  "tagline": "A Finnish smart ring that tracks sleep, readiness and activity, sold as a $350 to $400 ring plus a small monthly membership, and filed to go public in 2026.",
+  "category": "Wearables",
+  "simpleSummary": "Oura is a ring that looks like jewellery but has sensors inside. You wear it day and night, and the app tells you how well you slept, how ready your body is today, and how active you were. You buy the ring once for about $350 to $400, then pay about $6 a month for the full app. It became the best-selling smart ring, sold 3.6 million rings in a year, and filed for a US stock market listing in September 2026.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, 2025",
+    "value": "About $1 billion",
+    "note": "Company statement reported by TechCrunch. 2024 was about $500 million; 2026 is expected near $2 billion."
+   },
+   {
+    "label": "Revenue, nine months to June 2026",
+    "value": "$1.2 billion (up about 72%)",
+    "note": "IPO filing, TechCrunch, September 2026."
+   },
+   {
+    "label": "Paid members",
+    "value": "About 5 million",
+    "note": "IPO filing via TechCrunch. About 85% 12-month membership retention."
+   },
+   {
+    "label": "Rings sold in the past year",
+    "value": "3.6 million",
+    "note": "IPO filing via TechCrunch."
+   },
+   {
+    "label": "Valuation",
+    "value": "About $11 billion (October 2025); IPO talk about $16 billion",
+    "note": "Fortune on the Series E; Bloomberg via TechCrunch on IPO expectations. Listing price not confirmed in sources."
+   },
+   {
+    "label": "Prices",
+    "value": "Ring $350 to $400; membership about $5.99 a month",
+    "note": "Ring price from TechCrunch; membership price from Oura's US site as widely reported."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Oura makes a smart ring with sensors for heart rate, heart rate variability, skin temperature, blood oxygen and movement. The app turns this into Sleep, Readiness and Activity scores, plus features for stress, women's health (cycle and pregnancy insights), heart health and metabolic health with partners like Dexcom. An AI Advisor answers questions about your data. Oura also sells to employers, the US military and health partners.",
+   "howItWorks": [
+    "A buyer orders a free sizing kit, picks a size, then buys the ring in a chosen finish.",
+    "The ring is worn 24/7 and needs charging about every 5 to 8 days.",
+    "Data syncs to the Oura app, which shows scores each morning.",
+    "A membership unlocks full scores, trends and features; without it the app shows very little.",
+    "Partner integrations, such as Dexcom glucose sensors and Natural Cycles, add more health data.",
+    "Oura sells rings directly, on Amazon and in stores like Best Buy and Target."
+   ],
+   "valueProposition": "Health tracking you forget you are wearing: a small, stylish ring that gives accurate sleep and recovery insights, without a screen or a bulky watch."
+  },
+  "personas": [
+   {
+    "name": "Sleep-focused professional",
+    "description": "A 38-year-old who wants better sleep and less stress, but dislikes watches.",
+    "goals": [
+     "Understand and improve sleep",
+     "Wear something discreet",
+     "Track stress"
+    ],
+    "frustrations": [
+     "Paying a membership after buying an expensive ring",
+     "Battery drops faster as the ring ages"
+    ]
+   },
+   {
+    "name": "Woman tracking cycle and fertility",
+    "description": "A 31-year-old planning a pregnancy.",
+    "goals": [
+     "Predict periods and ovulation",
+     "Track pregnancy changes"
+    ],
+    "frustrations": [
+     "Worries about health data privacy",
+     "Accuracy questions"
+    ]
+   },
+   {
+    "name": "Biohacker and athlete",
+    "description": "A 42-year-old who tracks everything to optimise health.",
+    "goals": [
+     "Readiness to guide training",
+     "Glucose and heart health data"
+    ],
+    "frustrations": [
+     "Weak workout tracking compared to watches",
+     "No live heart rate on screen"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "People do not know why they sleep badly.",
+    "howSolved": "Detailed sleep scores, stages and trends linked to habits.",
+    "severity": "high"
+   },
+   {
+    "pain": "Smartwatches are bulky and uncomfortable at night.",
+    "howSolved": "A small ring that is easy to sleep in.",
+    "severity": "high"
+   },
+   {
+    "pain": "Hard to know when your body needs rest.",
+    "howSolved": "Daily Readiness score from heart rate variability, temperature and sleep.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Cycle tracking by app logging is unreliable.",
+    "howSolved": "Temperature-based cycle insights and Natural Cycles integration.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Early signs of illness go unnoticed.",
+    "howSolved": "Symptom Radar flags changes in temperature and heart data.",
+    "severity": "low"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Sleep score",
+    "whatItDoes": "Measures sleep time, stages and quality every night.",
+    "whyItMatters": "Oura's best-known strength and the main reason people buy it."
+   },
+   {
+    "feature": "Readiness score",
+    "whatItDoes": "Shows how recovered you are each morning.",
+    "whyItMatters": "A simple daily check that builds the habit of opening the app."
+   },
+   {
+    "feature": "Women's health",
+    "whatItDoes": "Cycle insights, pregnancy and perimenopause features.",
+    "whyItMatters": "Opens a large, underserved market and builds loyalty."
+   },
+   {
+    "feature": "AI Advisor",
+    "whatItDoes": "Chat that explains your data and suggests changes.",
+    "whyItMatters": "Makes the membership feel more valuable."
+   },
+   {
+    "feature": "Partner integrations",
+    "whatItDoes": "Dexcom glucose data, Natural Cycles, Apple Health and more.",
+    "whyItMatters": "Moves Oura towards a wider health platform."
+   },
+   {
+    "feature": "Membership",
+    "whatItDoes": "About $5.99 a month for full features.",
+    "whyItMatters": "Recurring revenue on top of hardware sales."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Buying the ring",
+    "persona": "Sleep-focused professional",
+    "steps": [
+     {
+      "step": "Hears about Oura",
+      "detail": "From a friend or a podcast."
+     },
+     {
+      "step": "Orders sizing kit",
+      "detail": "Wears plastic sizers for a day."
+     },
+     {
+      "step": "Buys ring",
+      "detail": "Pays $350 to $400, gets a free first month of membership."
+     },
+     {
+      "step": "Sets up the app",
+      "detail": "Pairs the ring and sets goals."
+     },
+     {
+      "step": "Learns baselines",
+      "detail": "Scores become accurate after about two weeks."
+     },
+     {
+      "step": "Membership begins",
+      "detail": "Pays about $5.99 a month."
+     }
+    ]
+   },
+   {
+    "name": "Morning check",
+    "persona": "Biohacker and athlete",
+    "steps": [
+     {
+      "step": "Wakes up",
+      "detail": "Opens the app for Sleep and Readiness."
+     },
+     {
+      "step": "Reads insights",
+      "detail": "Sees low HRV after a late meal."
+     },
+     {
+      "step": "Asks AI Advisor",
+      "detail": "Gets advice for training today."
+     },
+     {
+      "step": "Adjusts plan",
+      "detail": "Chooses a light workout."
+     },
+     {
+      "step": "Tags habits",
+      "detail": "Logs alcohol or caffeine to see the effect."
+     }
+    ]
+   },
+   {
+    "name": "Tracking a cycle",
+    "persona": "Woman tracking cycle and fertility",
+    "steps": [
+     {
+      "step": "Enables cycle insights",
+      "detail": "Enters period dates."
+     },
+     {
+      "step": "Ring tracks temperature",
+      "detail": "Detects shifts each night."
+     },
+     {
+      "step": "Gets predictions",
+      "detail": "Period and fertile window estimates."
+     },
+     {
+      "step": "Links Natural Cycles",
+      "detail": "Optional birth control app integration."
+     },
+     {
+      "step": "Pregnancy mode",
+      "detail": "Tracks changes during pregnancy."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Oura earns twice from each customer: once when they buy the ring and again every month from the membership. It also earns from enterprise and government deals.",
+   "revenueStreams": [
+    {
+     "stream": "Ring sales",
+     "detail": "Rings at $350 to $400; most of revenue today. 3.6 million sold in a year."
+    },
+    {
+     "stream": "Membership",
+     "detail": "About $5.99 a month or $69.99 a year; about 5 million paying members."
+    },
+    {
+     "stream": "Enterprise and partners",
+     "detail": "Employers, US Department of Defense and health partners."
+    }
+   ],
+   "pricing": "Ring from about $349 to $499 depending on finish (TechCrunch cites $350 to $400). Membership about $5.99 a month or $69.99 a year in the US. Prices differ in other countries.",
+   "costDrivers": [
+    "Ring manufacturing (titanium, sensors, batteries)",
+    "Warranty replacements for battery and cracking issues",
+    "Marketing and retail margins",
+    "R&D and software",
+    "Patent litigation"
+   ],
+   "unitEconomics": "Take one new customer. They pay about $350 for the ring. After manufacturing, shipping and retailer cut, Oura may keep roughly half. Then they pay about $72 a year in membership, which costs Oura little to serve. With about 85% of members staying a year, a typical customer brings in about $350 plus $72 a year for several years, so the LTV (lifetime value) is likely $500 or more. Most of the profit after year one comes from the membership."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Word of mouth and celebrity sightings",
+    "Retail in Best Buy, Target, Amazon and Costco",
+    "Partnerships with sports leagues, employers and the military",
+    "Paid social and podcast ads"
+   ],
+   "whatBringsUsersBack": [
+    "Morning Sleep and Readiness scores",
+    "Trends and monthly reports",
+    "AI Advisor",
+    "Cycle and pregnancy tracking"
+   ],
+   "moat": "Oura has the strongest brand in smart rings, years of sleep data from millions of users and many patents. In 2025 it won a US trade case that blocked rivals like Ultrahuman and RingConn from importing some rings. Big companies like Samsung also make rings, so patents and brand matter."
+  },
+  "competitors": [
+   {
+    "name": "Samsung Galaxy Ring",
+    "positioning": "Smart ring with no subscription, tied to Samsung phones.",
+    "howThisProductDiffers": "No membership fee; Oura works with iPhone and Android and has deeper sleep features."
+   },
+   {
+    "name": "WHOOP",
+    "positioning": "Screenless band sold as a membership, focused on strain and recovery.",
+    "howThisProductDiffers": "WHOOP is a band for athletes; Oura is a ring focused on sleep and general health."
+   },
+   {
+    "name": "Ultrahuman and RingConn",
+    "positioning": "Cheaper rings with no subscription.",
+    "howThisProductDiffers": "Lower price; Oura has the brand and won patent rulings against them in the US."
+   },
+   {
+    "name": "Apple Watch",
+    "positioning": "Smartwatch with health features.",
+    "howThisProductDiffers": "Apple does everything but needs daily charging and is bulky at night."
+   }
+  ],
+  "northStar": {
+   "metric": "Paid members who wear the ring at least 5 nights a week",
+   "why": "Oura's value comes from nightly data. Regular wearers get useful insights and keep paying; members who stop wearing churn."
+  },
+  "kpiTree": [
+   {
+    "metric": "Ring sales",
+    "description": "New rings sold.",
+    "children": [
+     {
+      "metric": "Sizing kit to purchase rate",
+      "description": "Share of kit orders that buy."
+     },
+     {
+      "metric": "Retail sell-through",
+      "description": "Rings sold in stores."
+     }
+    ]
+   },
+   {
+    "metric": "Membership activation",
+    "description": "Ring buyers who start paying.",
+    "children": [
+     {
+      "metric": "Trial to paid rate",
+      "description": "Share continuing after the free month."
+     },
+     {
+      "metric": "Feature use in first month",
+      "description": "Share using sleep, readiness and one more feature."
+     }
+    ]
+   },
+   {
+    "metric": "Wear consistency",
+    "description": "How often members wear the ring.",
+    "children": [
+     {
+      "metric": "Nights worn per week",
+      "description": "Core usage."
+     },
+     {
+      "metric": "Battery life",
+      "description": "Short battery reduces wear."
+     }
+    ]
+   },
+   {
+    "metric": "Member retention",
+    "description": "Members who keep paying.",
+    "children": [
+     {
+      "metric": "12-month retention",
+      "description": "About 85% today."
+     },
+     {
+      "metric": "Ring replacement or upgrade rate",
+      "description": "Members buying a new ring."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Warranty claim rate for battery and cracks",
+   "Sleep accuracy complaints and lawsuits",
+   "Data privacy incidents",
+   "App store rating"
+  ],
+  "strengths": [
+   "Leader in smart rings with a strong brand",
+   "Revenue doubled in 2025 to about $1 billion",
+   "Two revenue streams: hardware and membership",
+   "High member retention of about 85%",
+   "Patent wins against rivals"
+  ],
+  "weaknesses": [
+   "Membership fee on top of an expensive ring",
+   "Hardware complaints about battery life and cracks",
+   "Weaker workout tracking than watches",
+   "Little use without membership"
+  ],
+  "risks": [
+   "Samsung and others selling rings without subscriptions",
+   "Class action over sleep-tracking accuracy",
+   "Health data privacy rules",
+   "Tariffs and supply chain costs"
+  ],
+  "userComplaints": [
+   "Paying a monthly fee after buying the ring",
+   "Battery wearing down within a year or two",
+   "Rings cracking or breaking",
+   "Slow customer service for replacements",
+   "Accuracy doubts on sleep stages"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Free basic scores without membership, with membership for trends and AI",
+    "problem": "Users resent paying monthly after buying the ring.",
+    "expectedImpact": "Better reviews and more ring sales; most users still pay for more insight.",
+    "metricToTrack": "Trial to paid rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Battery health tracker and battery replacement programme",
+    "problem": "Battery degrades and frustrates members.",
+    "expectedImpact": "Higher retention and fewer warranty fights.",
+    "metricToTrack": "Warranty claim rate",
+    "effort": "medium"
+   },
+   {
+    "idea": "Publish sleep accuracy studies and show confidence levels in the app",
+    "problem": "Accuracy lawsuit and doubts.",
+    "expectedImpact": "More trust.",
+    "metricToTrack": "Sleep accuracy complaints",
+    "effort": "medium"
+   },
+   {
+    "idea": "Upgrade credit for long-time members",
+    "problem": "Old ring owners leave when batteries fail.",
+    "expectedImpact": "More upgrades and lower churn.",
+    "metricToTrack": "Ring replacement or upgrade rate",
+    "effort": "low"
+   }
+  ],
+  "pmLessons": [
+   "Form factor matters. A ring solved the 'I hate sleeping with a watch' problem.",
+   "Hardware plus subscription can work if the subscription keeps adding value.",
+   "Patents can protect a hardware business in a crowded market.",
+   "Users compare total cost: ring price plus fees. Be clear about what the fee buys."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Samsung's ring has no subscription. Should Oura drop its fee?",
+    "hint": "Compare revenue mix, retention, perception; propose a hybrid free and paid tier, test before deciding."
+   },
+   {
+    "question": "Compare Oura and WHOOP business models.",
+    "hint": "Oura sells hardware plus low fee; WHOOP includes hardware in a higher fee. Discuss CAC, LTV, upgrade cycles."
+   },
+   {
+    "question": "Design a feature to grow Oura among women.",
+    "hint": "Pick a life stage, map needs, use sensors, define success metric and privacy guardrail."
+   },
+   {
+    "question": "How would you decide whether to build a screen into a future Oura product?",
+    "hint": "Look at user needs, form factor, battery trade-offs, and brand promise."
+   },
+   {
+    "question": "What north star metric would you pick for Oura?",
+    "hint": "Regular wear by paid members; break into sales, activation, wear and retention."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Heart rate variability",
+    "meaning": "Small changes in time between heartbeats, a sign of stress and recovery."
+   },
+   {
+    "term": "LTV",
+    "meaning": "Lifetime value: the total money a customer brings in while they stay."
+   },
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "IPO",
+    "meaning": "Initial public offering: when a company first sells shares on a stock exchange."
+   },
+   {
+    "term": "Retention",
+    "meaning": "How many customers keep using or paying over time."
+   },
+   {
+    "term": "Churn",
+    "meaning": "The share of customers who stop paying in a period."
+   },
+   {
+    "term": "Form factor",
+    "meaning": "The physical shape and size of a device."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "The share of ring price Oura keeps is our estimate.",
+   "Membership price of $5.99 a month is from Oura's long-standing US pricing and may change.",
+   "IPO completion and final valuation were not confirmed in sources as of November 2026.",
+   "LTV of $500 or more is a rough calculation."
+  ]
+ }
+}

@@ -1,0 +1,500 @@
+{
+ "company": "Calm",
+ "domain": "calm.com",
+ "website": "https://www.calm.com",
+ "sources": [
+  "https://www.sacra.com/c/calm",
+  "https://www.mobihealthnews.com/news/meditation-app-calm-lays-20-workforce",
+  "https://appfigures.com/resources/insights/20240510/amp?f=3",
+  "https://www.trustpilot.com/review/www.calm.com",
+  "https://www.sikayetvar.com/en/calm-us/calm-keeps-charging-me-every-year-despite-canceling-my-subscription",
+  "https://checkthat.ai/brands/calm/reviews"
+ ],
+ "report": {
+  "company": "Calm",
+  "tagline": "A paid app for sleep, meditation and relaxation, best known for Sleep Stories read by famous voices, now also sold to employers and health plans as Calm Health.",
+  "category": "Mental wellness",
+  "simpleSummary": "Calm is an app you open when you want to fall asleep, calm down or meditate. It has guided meditations, music, nature sounds and Sleep Stories, which are bedtime stories for adults read by actors and celebrities. A few things are free, but most content needs a subscription of about $70 a year. Calm also sells a version called Calm Health to employers and health insurers, who give it to their staff or members for free.",
+  "keyNumbers": [
+   {
+    "label": "Paying subscribers",
+    "value": "4 million+",
+    "note": "Sacra estimate. Calm does not publish current subscriber numbers."
+   },
+   {
+    "label": "Revenue",
+    "value": "Roughly $300 million to $500 million a year",
+    "note": "Weak estimate. Sacra reports about $300 million and says revenue passed $500 million at the COVID peak. No audited figure is public."
+   },
+   {
+    "label": "Valuation",
+    "value": "About $2 billion",
+    "note": "From its last major round (Series C, 2020), Sacra. No newer public valuation found."
+   },
+   {
+    "label": "Calm Health covered lives",
+    "value": "About 39 million",
+    "note": "Sacra, 2026, across employers, health plans and providers, including more than 16 million added through Solera in January 2026."
+   },
+   {
+    "label": "Annual price",
+    "value": "About $70 a year (US), raised in February 2026",
+    "note": "Sacra; the new price after the February 2026 rise was not disclosed in our sources."
+   },
+   {
+    "label": "Layoffs",
+    "value": "About 20% of staff (2022)",
+    "note": "MobiHealthNews, after the post-COVID slowdown."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Calm offers audio and video content to help people sleep better, feel less anxious and build a meditation habit. Users get a daily guided session (Daily Calm), Sleep Stories, music, breathing exercises and courses. It earns mostly from consumer subscriptions, and increasingly from Calm Health, a version sold to employers and health plans that adds mental health screening and care programmes.",
+   "howItWorks": [
+    "A new user downloads the app, answers a short question about their goal (sleep, stress, focus) and starts a free trial.",
+    "After the trial, the app charges an annual or monthly subscription through the App Store, Google Play or the website.",
+    "Users play a Daily Calm meditation in the morning or a Sleep Story at night; streaks and reminders encourage daily use.",
+    "New content is added every week, including celebrity Sleep Stories and music.",
+    "Employers and health plans pay Calm to offer Calm Health to their members free of charge.",
+    "Calm also earns from partnerships and products, such as bedding sold at Target."
+   ],
+   "valueProposition": "A calm, beautiful app that helps you fall asleep and feel less stressed in a few minutes a day, without therapy or medicine."
+  },
+  "personas": [
+   {
+    "name": "Stressed young professional",
+    "description": "A 30-year-old office worker who struggles to switch off at night.",
+    "goals": [
+     "Fall asleep faster",
+     "Reduce work anxiety",
+     "Build a simple daily habit"
+    ],
+    "frustrations": [
+     "Paying for a full year and then rarely using it",
+     "Auto-renewal charges they forgot about"
+    ]
+   },
+   {
+    "name": "Parent with poor sleep",
+    "description": "A parent of young children who wants help sleeping and calming kids at bedtime.",
+    "goals": [
+     "Sleep stories and music for kids",
+     "Quick breathing exercises"
+    ],
+    "frustrations": [
+     "Content feels repetitive after months",
+     "Most content locked behind the paywall"
+    ]
+   },
+   {
+    "name": "HR benefits leader",
+    "description": "Runs wellbeing benefits for a company of 5,000 people.",
+    "goals": [
+     "A mental health benefit employees actually use",
+     "Data showing it helps"
+    ],
+    "frustrations": [
+     "Low engagement with wellness apps",
+     "Many overlapping vendors"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Trouble falling asleep.",
+    "howSolved": "Sleep Stories, soundscapes and sleep music designed to help people drift off.",
+    "severity": "high"
+   },
+   {
+    "pain": "Daily stress and anxiety.",
+    "howSolved": "Short guided meditations and breathing exercises.",
+    "severity": "high"
+   },
+   {
+    "pain": "Meditation feels hard to start.",
+    "howSolved": "Beginner courses like 7 Days of Calm and a 10-minute Daily Calm.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Therapy is costly and hard to access.",
+    "howSolved": "Self-guided content, and through Calm Health, links to more support for those who need it.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Employers struggle to support staff mental health at scale.",
+    "howSolved": "Calm Health as a low-cost benefit for every employee.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Sleep Stories",
+    "whatItDoes": "Bedtime stories for adults read by well-known voices.",
+    "whyItMatters": "Calm's signature content and a nightly reason to open the app."
+   },
+   {
+    "feature": "Daily Calm",
+    "whatItDoes": "A new 10-minute guided meditation every day.",
+    "whyItMatters": "Builds a daily habit, which drives retention and renewals."
+   },
+   {
+    "feature": "Music and soundscapes",
+    "whatItDoes": "Focus, relaxation and sleep audio.",
+    "whyItMatters": "Low-effort content people play in the background for hours."
+   },
+   {
+    "feature": "Courses and programmes",
+    "whatItDoes": "Multi-day courses on topics like anxiety, sleep and self-esteem.",
+    "whyItMatters": "Gives structure and keeps users progressing."
+   },
+   {
+    "feature": "Calm Health",
+    "whatItDoes": "A version for employers and health plans, with screening, personalised programmes and reporting.",
+    "whyItMatters": "The main growth engine, reaching millions of people at once through one contract."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Free trial to paid",
+    "persona": "Stressed young professional",
+    "steps": [
+     {
+      "step": "Discovers Calm",
+      "detail": "Through an Instagram ad or a friend."
+     },
+     {
+      "step": "Downloads and sets a goal",
+      "detail": "Picks 'sleep better'."
+     },
+     {
+      "step": "Starts free trial",
+      "detail": "Enters payment details for a 7-day trial."
+     },
+     {
+      "step": "Tries a Sleep Story",
+      "detail": "Falls asleep before it ends."
+     },
+     {
+      "step": "Gets reminders",
+      "detail": "Nightly bedtime reminder."
+     },
+     {
+      "step": "Trial converts",
+      "detail": "Charged about $70 for the first year."
+     }
+    ]
+   },
+   {
+    "name": "Daily habit",
+    "persona": "Parent with poor sleep",
+    "steps": [
+     {
+      "step": "Morning Daily Calm",
+      "detail": "10 minutes before the kids wake up."
+     },
+     {
+      "step": "Breathing break",
+      "detail": "A 1-minute breathing exercise in the afternoon."
+     },
+     {
+      "step": "Kids' bedtime story",
+      "detail": "Plays a children's Sleep Story."
+     },
+     {
+      "step": "Own sleep",
+      "detail": "Plays rain sounds to fall asleep."
+     },
+     {
+      "step": "Checks streak",
+      "detail": "Sees days in a row of mindful minutes."
+     }
+    ]
+   },
+   {
+    "name": "Employer rollout",
+    "persona": "HR benefits leader",
+    "steps": [
+     {
+      "step": "Evaluates vendors",
+      "detail": "Compares Calm Health and Headspace."
+     },
+     {
+      "step": "Signs contract",
+      "detail": "Pays per eligible employee."
+     },
+     {
+      "step": "Launches",
+      "detail": "Employees get a link to activate free premium access."
+     },
+     {
+      "step": "Drives engagement",
+      "detail": "Calm runs campaigns and challenges."
+     },
+     {
+      "step": "Reviews reports",
+      "detail": "Sees activation and usage numbers."
+     },
+     {
+      "step": "Renews",
+      "detail": "If engagement is good."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Calm makes most of its money from annual consumer subscriptions, paid after a free trial. Its second engine is Calm Health, sold to employers and health plans per member. Content is made once and listened to millions of times, so the cost of serving each extra user is low.",
+   "revenueStreams": [
+    {
+     "stream": "Consumer subscriptions",
+     "detail": "Mostly annual plans around $70 in the US, plus monthly and lifetime options."
+    },
+    {
+     "stream": "Calm Health and Calm Business",
+     "detail": "Fees from employers, health plans and providers per covered member."
+    },
+    {
+     "stream": "Partnerships and products",
+     "detail": "Bedding at Target, hotel partnerships and branded content deals."
+    }
+   ],
+   "pricing": "Free trial, then about $70 a year or about $15 a month in the US (before the February 2026 increase); a lifetime plan is also offered. Calm Health pricing is not public.",
+   "costDrivers": [
+    "Performance marketing on social media and app stores",
+    "App store fees of up to 30% on in-app payments",
+    "Content production and celebrity voices",
+    "Enterprise sales and clinical staff for Calm Health"
+   ],
+   "unitEconomics": "A US subscriber paying $70 a year through the App Store leaves Calm with about $49 to $59 after Apple's 15% to 30% cut. Streaming audio costs very little. The big cost is CAC, the money spent on ads to win that subscriber, which can be tens of dollars. If the user renews for a second year, Calm earns that $50 or so again with almost no marketing cost, so renewal is where profit comes from. Many users stop after year one, which is why Calm pushes habits and B2B deals."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Paid social and app store ads",
+    "Brand moments, like Sleep Stories read by celebrities",
+    "Partnerships, such as free trials with bedding or hotels",
+    "Employers and health plans giving Calm to millions of members"
+   ],
+   "whatBringsUsersBack": [
+    "Nightly sleep routine",
+    "New Daily Calm every day",
+    "Streaks and reminders",
+    "New celebrity content each week"
+   ],
+   "moat": "Calm's moat is its brand and a large library of high-quality, original content, especially Sleep Stories. That is hard but not impossible to copy; free apps like Insight Timer and big players like Spotify and Amazon also offer sleep audio. Calm Health contracts with health plans add some stickiness."
+  },
+  "competitors": [
+   {
+    "name": "Headspace",
+    "positioning": "Meditation app with a strong focus on mental health care and therapy.",
+    "howThisProductDiffers": "Calm leads on sleep content; Headspace leans more into clinical care and coaching."
+   },
+   {
+    "name": "Insight Timer",
+    "positioning": "Large free meditation library with optional paid features.",
+    "howThisProductDiffers": "Insight Timer is mostly free; Calm is polished and paid."
+   },
+   {
+    "name": "Spotify and YouTube",
+    "positioning": "Free or bundled sleep sounds and meditation audio.",
+    "howThisProductDiffers": "Calm offers structured programmes and original content, but must justify a separate fee."
+   },
+   {
+    "name": "Amazon Sleep Studio",
+    "positioning": "Sleep content at about $5.99 a month.",
+    "howThisProductDiffers": "Cheaper and bundled with Amazon devices; Calm has a bigger library and brand."
+   }
+  ],
+  "northStar": {
+   "metric": "Weekly active subscribers who complete at least three sessions",
+   "why": "People who use Calm several times a week are getting better sleep or less stress, and they are the ones who renew."
+  },
+  "kpiTree": [
+   {
+    "metric": "New paying subscribers",
+    "description": "People who start paying.",
+    "children": [
+     {
+      "metric": "Install to trial start",
+      "description": "Share of installs that begin a trial."
+     },
+     {
+      "metric": "Trial to paid conversion",
+      "description": "Share of trials that convert."
+     },
+     {
+      "metric": "CAC",
+      "description": "Ad cost per new subscriber."
+     }
+    ]
+   },
+   {
+    "metric": "Weekly engagement",
+    "description": "How often subscribers use the app.",
+    "children": [
+     {
+      "metric": "Sessions per week",
+      "description": "Average plays per active subscriber."
+     },
+     {
+      "metric": "Sleep Story completion",
+      "description": "Share that play to near the end or fall asleep."
+     }
+    ]
+   },
+   {
+    "metric": "Renewal",
+    "description": "Subscribers who pay again.",
+    "children": [
+     {
+      "metric": "Year-1 renewal rate",
+      "description": "Share renewing after the first year."
+     },
+     {
+      "metric": "Auto-renew off rate",
+      "description": "Share turning off renewal early."
+     }
+    ]
+   },
+   {
+    "metric": "B2B activation",
+    "description": "Covered members who actually start using Calm Health.",
+    "children": [
+     {
+      "metric": "Activation rate",
+      "description": "Share of eligible members who sign in."
+     },
+     {
+      "metric": "Contract renewal rate",
+      "description": "Share of employer and plan contracts renewed."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Refund requests and billing complaints",
+   "App store rating",
+   "Share of users reporting worse sleep or mood",
+   "Content cost per hour listened"
+  ],
+  "strengths": [
+   "Leading brand in sleep and meditation",
+   "Large original content library, including Sleep Stories",
+   "Low cost to serve each extra user",
+   "Calm Health reaches about 39 million covered lives"
+  ],
+  "weaknesses": [
+   "Most consumer users churn after the first year",
+   "Very little free content, which can feel like a hard paywall",
+   "Depends on paid ads and app stores",
+   "Growth slowed sharply after COVID"
+  ],
+  "risks": [
+   "Free or bundled alternatives from Spotify, YouTube, Amazon and Apple",
+   "Fewer downloads of mental health apps since 2022",
+   "AI tools that can make custom meditations for free",
+   "US rules on auto-renewal and easy cancellation"
+  ],
+  "userComplaints": [
+   "Charged for an annual renewal they did not expect",
+   "Hard to get refunds",
+   "Content becomes repetitive",
+   "Too much locked behind the paywall"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Renewal reminder 7 days before charge with a summary of the user's year (minutes, sleep stories, streaks)",
+    "problem": "Surprise renewal charges cause refunds and angry reviews.",
+    "expectedImpact": "Fewer refunds and better trust; some users re-commit after seeing their progress.",
+    "metricToTrack": "Refund requests per 1,000 renewals",
+    "effort": "low"
+   },
+   {
+    "idea": "Personalised weekly plan that mixes new and favourite content",
+    "problem": "Content feels repetitive after months.",
+    "expectedImpact": "More sessions per week and higher renewal.",
+    "metricToTrack": "Year-1 renewal rate",
+    "effort": "medium"
+   },
+   {
+    "idea": "Sleep tracking link with Apple Health and wearables, showing whether Calm helped sleep",
+    "problem": "Users cannot see if the app works.",
+    "expectedImpact": "Proof of value that drives renewals and B2B sales.",
+    "metricToTrack": "Share of subscribers with linked sleep data",
+    "effort": "medium"
+   },
+   {
+    "idea": "Cheaper sleep-only plan",
+    "problem": "Many users only want sleep content and leave at the $70 price.",
+    "expectedImpact": "Lower churn among sleep-focused users.",
+    "metricToTrack": "Churn rate of sleep-only users",
+    "effort": "low"
+   }
+  ],
+  "pmLessons": [
+   "Own one clear use case. Calm grew by becoming the bedtime app, not just another meditation app.",
+   "In subscriptions, the second year is where profit is. Design for renewal, not only for trial conversion.",
+   "A pandemic boom can fade. Plan for normal demand.",
+   "Selling through employers and health plans can reach millions at once, but only pays off if people activate."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Calm's renewal rate is falling. How would you investigate?",
+    "hint": "Segment by cohort, channel, platform and usage; look at engagement before renewal; check price changes and competitors."
+   },
+   {
+    "question": "Should Calm offer more free content?",
+    "hint": "Weigh trial conversion and CAC against brand reach and SEO; propose a test with clear success metrics."
+   },
+   {
+    "question": "Design a feature to help Calm users sleep better.",
+    "hint": "Pick a persona, define the problem (falling asleep, waking up), propose a feature, metric and guardrail."
+   },
+   {
+    "question": "How would you increase Calm Health activation at a new employer?",
+    "hint": "Map the funnel from eligible to active, find drop-offs, use campaigns, single sign-on and manager nudges."
+   },
+   {
+    "question": "What north star would you pick for Calm?",
+    "hint": "Weekly engaged subscribers over downloads or revenue; break down into acquisition, engagement, renewal and B2B."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "Churn",
+    "meaning": "The share of customers who stop paying in a period."
+   },
+   {
+    "term": "Free trial",
+    "meaning": "A short period of free use before a paid subscription starts."
+   },
+   {
+    "term": "B2B",
+    "meaning": "Business to business: selling to companies instead of individual consumers."
+   },
+   {
+    "term": "Covered lives",
+    "meaning": "The number of people who have access to a service through an employer or health plan."
+   },
+   {
+    "term": "Paywall",
+    "meaning": "The point where users must pay to access more content."
+   },
+   {
+    "term": "North star",
+    "meaning": "The one metric a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Revenue is a rough estimate from Sacra; Calm is private and does not publish results.",
+   "The CAC example of tens of dollars is an inference from typical subscription app costs.",
+   "Monthly price of about $15 is from typical US App Store listings, not confirmed in our sources.",
+   "The claim that most consumer users churn after year one is an inference from industry patterns."
+  ]
+ }
+}

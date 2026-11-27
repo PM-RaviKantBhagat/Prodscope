@@ -1,0 +1,519 @@
+{
+ "company": "Apna",
+ "domain": "apna.co",
+ "website": "https://apna.co",
+ "sources": [
+  "https://inc42.com/buzz/apna-narrows-fy25-loss-to-inr-50-cr-even-as-revenue-dips",
+  "https://yourstory.com/2024/10/tiger-global-unicorn-apna-revenue-falls-losses-halved-fy24-networking",
+  "https://cxotoday.com/press-release/over-9-crore-job-applications-14-lakh-jobs-posted-and-35-increase-in-women-applications-in-leadership-managerial-roles-reveals-apna-cos-india-at-work-2025-report/",
+  "https://www.businesstoday.in/technology/news/story/apnaco-launches-ai-powered-tool-apna-safety-to-curb-job-scams-in-india-during-festive-hiring-495735-2025-09-25",
+  "https://apna.co/career-central/how-apna-detects-blocks-fake-recruiters/",
+  "https://www.consumercomplaints.in/bycompany/apna-app-a628248.html"
+ ],
+ "report": {
+  "company": "Apna",
+  "tagline": "A jobs app for India's blue-collar and entry-level workers, where employers pay to post jobs and reach candidates who call or chat directly.",
+  "category": "Jobs",
+  "simpleSummary": "Apna is a phone app where people looking for jobs like delivery partner, telecaller, sales executive or office assistant can find work near them. You sign up with your phone number, make a simple profile in Hindi or another Indian language, and apply with one tap. Employers pay Apna to post jobs and to unlock candidate contacts, and many candidates get called within a day or two. It was once a $1.1 billion startup, but revenue has stalled and it still loses about ₹50 crore a year.",
+  "keyNumbers": [
+   {
+    "label": "Operating revenue, FY25",
+    "value": "₹122 crore (down 4%)",
+    "note": "Company filings via Inc42, 2025. About ₹57 crore came from recruitment products, up 61%; the rest from software services to its parent company."
+   },
+   {
+    "label": "Net loss, FY25",
+    "value": "₹50.1 crore",
+    "note": "Inc42. Almost flat versus ₹51.3 crore in FY24, which itself halved from FY23."
+   },
+   {
+    "label": "Registered job seekers",
+    "value": "5.9 crore+",
+    "note": "Company claim reported by Inc42. Active monthly users are not disclosed and are likely much lower."
+   },
+   {
+    "label": "Employers",
+    "value": "7 lakh+",
+    "note": "Company claim via Inc42; clients include Zomato, Swiggy, Flipkart, Jio and Urban Company."
+   },
+   {
+    "label": "Jobs posted and applications, 2025",
+    "value": "14 lakh jobs, over 9 crore applications",
+    "note": "Apna's India at Work 2025 report, CXOToday press release."
+   },
+   {
+    "label": "Funding and valuation",
+    "value": "Over $190 million raised; about $1.1 billion valuation in 2021",
+    "note": "Inc42 on total funding; valuation from its 2021 Series C, which made it a unicorn, as widely reported. No new round since."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Apna matches job seekers with employers for entry-level, frontline and blue-collar jobs, and increasingly for white-collar entry roles. Job seekers use it for free. Employers, from local shops to large companies, pay for job posts, candidate database access and hiring services. It also has community features where workers ask questions and share tips.",
+   "howItWorks": [
+    "A job seeker signs up with a mobile number, picks a language and fills a short profile: city, job type, experience, education.",
+    "The app shows nearby jobs with salary ranges; the candidate applies with one tap.",
+    "Employers post jobs, see applications, and call or WhatsApp candidates directly through the app.",
+    "Paid plans give employers more visibility, more candidate contacts and database search.",
+    "Large companies can use pay-per-hire services, where Apna is paid only after a candidate joins and stays.",
+    "Fraud checks, including the AI tool Apna Safety, try to block fake recruiters asking for money."
+   ],
+   "valueProposition": "For workers: find a local job fast, in your own language, without knowing anyone. For employers: reach many ready-to-join candidates for entry-level roles at a low cost."
+  },
+  "personas": [
+   {
+    "name": "First-time job seeker",
+    "description": "A 21-year-old with Class 12 or a basic degree in a tier-2 city looking for their first job.",
+    "goals": [
+     "A job within 10 km of home",
+     "₹12,000 to ₹20,000 a month",
+     "Quick response from employers"
+    ],
+    "frustrations": [
+     "Fake recruiters asking for registration fees",
+     "Applying to many jobs and hearing nothing back",
+     "Salary shown differs from what is offered"
+    ]
+   },
+   {
+    "name": "Small business owner",
+    "description": "Runs a shop, clinic or small agency and needs to hire a few staff fast.",
+    "goals": [
+     "Hire within a week",
+     "Pay as little as possible for hiring"
+    ],
+    "frustrations": [
+     "Too many unsuitable applicants",
+     "Candidates who do not turn up for interviews or on day one"
+    ]
+   },
+   {
+    "name": "Enterprise recruiter",
+    "description": "Hires hundreds of delivery partners or sales staff a month for a large company.",
+    "goals": [
+     "Large volumes of screened candidates",
+     "Low cost per hire",
+     "Low early attrition"
+    ],
+    "frustrations": [
+     "High drop-off between offer and joining",
+     "Paying for leads that do not convert"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Blue-collar workers mostly find jobs through contacts, which limits choices.",
+    "howSolved": "Thousands of local job listings in one app with salaries shown.",
+    "severity": "high"
+   },
+   {
+    "pain": "Big job sites like Naukri feel built for English-speaking office workers.",
+    "howSolved": "Simple app in many Indian languages, built for first-time smartphone users.",
+    "severity": "high"
+   },
+   {
+    "pain": "Small employers cannot afford recruitment agencies.",
+    "howSolved": "Cheap job posts and direct calls with candidates.",
+    "severity": "high"
+   },
+   {
+    "pain": "Job scams that ask workers for money.",
+    "howSolved": "Recruiter verification and Apna Safety, an AI tool that flags suspicious job posts and chats.",
+    "severity": "high"
+   },
+   {
+    "pain": "Hiring takes too long for urgent roles.",
+    "howSolved": "Candidates can be contacted the same day; many roles close in days.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Workers lack interview skills and career advice.",
+    "howSolved": "Community groups, interview prep content and AI tools for practice.",
+    "severity": "low"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Local job feed",
+    "whatItDoes": "Shows jobs near the user with salary, timing and requirements.",
+    "whyItMatters": "Distance and pay are the two things blue-collar workers care about most."
+   },
+   {
+    "feature": "One-tap apply and direct contact",
+    "whatItDoes": "Candidate applies, and employer can call or chat through the app.",
+    "whyItMatters": "Removes the CV and email steps that do not fit this user base."
+   },
+   {
+    "feature": "Employer job posting plans",
+    "whatItDoes": "Paid job posts with more reach, plus database search credits.",
+    "whyItMatters": "The core way Apna makes money from small and mid-sized employers."
+   },
+   {
+    "feature": "Pay-per-hire for enterprises",
+    "whatItDoes": "Apna sources and screens candidates; the company pays only after a joiner completes a retention period.",
+    "whyItMatters": "Wins large clients like Zomato and Flipkart and aligns Apna's revenue with real hires."
+   },
+   {
+    "feature": "Apna Safety and fake recruiter detection",
+    "whatItDoes": "AI checks for scam patterns, such as asking candidates for fees.",
+    "whyItMatters": "Trust is the main reason workers stay or leave a jobs app."
+   },
+   {
+    "feature": "Community and AI career tools",
+    "whatItDoes": "Groups by job type, plus AI-based interview practice and resume help.",
+    "whyItMatters": "Gives users a reason to open the app when they are not actively applying."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Finding a first job",
+    "persona": "First-time job seeker",
+    "steps": [
+     {
+      "step": "Hears about Apna",
+      "detail": "From a friend or a YouTube or Instagram ad."
+     },
+     {
+      "step": "Signs up",
+      "detail": "Phone OTP, picks Hindi, enters city and education."
+     },
+     {
+      "step": "Browses jobs",
+      "detail": "Filters by area and salary."
+     },
+     {
+      "step": "Applies",
+      "detail": "Taps apply on five to ten jobs."
+     },
+     {
+      "step": "Gets a call",
+      "detail": "An employer calls or messages for an interview."
+     },
+     {
+      "step": "Interviews",
+      "detail": "Visits office or does a phone interview."
+     },
+     {
+      "step": "Joins",
+      "detail": "Starts work, often within a week."
+     }
+    ]
+   },
+   {
+    "name": "Hiring a shop assistant",
+    "persona": "Small business owner",
+    "steps": [
+     {
+      "step": "Downloads employer app",
+      "detail": "Verifies business details."
+     },
+     {
+      "step": "Posts a job",
+      "detail": "Uses a free or paid post with salary and timing."
+     },
+     {
+      "step": "Gets applicants",
+      "detail": "Dozens of applications in a day."
+     },
+     {
+      "step": "Calls candidates",
+      "detail": "Shortlists and calls directly."
+     },
+     {
+      "step": "Hires",
+      "detail": "Picks one, closes the post."
+     }
+    ]
+   },
+   {
+    "name": "Bulk hiring delivery partners",
+    "persona": "Enterprise recruiter",
+    "steps": [
+     {
+      "step": "Signs a contract",
+      "detail": "Agrees on pay-per-hire terms."
+     },
+     {
+      "step": "Shares roles",
+      "detail": "Cities, numbers and requirements."
+     },
+     {
+      "step": "Apna sources and screens",
+      "detail": "Calls candidates and checks basics."
+     },
+     {
+      "step": "Candidates join",
+      "detail": "Company onboards them."
+     },
+     {
+      "step": "Retention check",
+      "detail": "Apna is paid after joiners stay for the agreed period."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Job seekers use Apna free. Employers pay: small ones for job posts and database credits, large ones per successful hire. In FY25 only about ₹57 crore of ₹122 crore revenue came from these recruitment products; the rest was software work for its parent company.",
+   "revenueStreams": [
+    {
+     "stream": "Recruitment solutions",
+     "detail": "Paid job posts, database access and pay-per-hire. About ₹57 crore in FY25, up 61%."
+    },
+    {
+     "stream": "Software development services to parent",
+     "detail": "About ₹63 crore in FY25, down 31%. This is internal group revenue, not customer demand."
+    }
+   ],
+   "pricing": "Basic job posts can be free or low cost; paid job posts and database credits are priced per job or per bundle, often from a few hundred to a few thousand rupees. Enterprise pay-per-hire is negotiated. Exact current prices are shown inside the employer app.",
+   "costDrivers": [
+    "Employee costs, the largest expense",
+    "Business development and sales teams for employers",
+    "Digital marketing to attract job seekers (about ₹17.7 crore in FY25)",
+    "Fraud prevention, verification and support"
+   ],
+   "unitEconomics": "Imagine a small employer pays about ₹1,000 for a premium job post and gets 50 applications. Serving that is cheap, because the app and candidate pool already exist, so most of that ₹1,000 is margin before sales and marketing. The problem is volume: Apna earned only about ₹57 crore from recruitment products while spending about ₹194 crore in total, so its CAC (sales and marketing cost to win an employer) and staff costs are still far higher than what employers pay. Pay-per-hire deals earn more per placement but only after the worker stays, so revenue is delayed and lost when workers quit early."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Word of mouth among workers and friends",
+    "Performance ads on YouTube, Instagram and Google",
+    "SEO pages for jobs like 'delivery boy job near me'",
+    "Government tie-up to bring 10 lakh+ jobs a year to the National Career Service portal"
+   ],
+   "whatBringsUsersBack": [
+    "New job alerts in the user's area",
+    "Calls and messages from employers",
+    "Community groups by job type",
+    "Workers switching jobs often, so they return every few months"
+   ],
+   "moat": "Apna has a two-sided network effect: more job seekers attract more employers, which attracts more job seekers. It also has years of data on local jobs in many Indian languages. But workers and employers use several apps at once, so loyalty is weak and the moat is shallow."
+  },
+  "competitors": [
+   {
+    "name": "Naukri (Info Edge)",
+    "positioning": "India's largest jobs site for white-collar roles, very profitable.",
+    "howThisProductDiffers": "Apna targets entry-level and blue-collar workers with a simpler, local-language app; Naukri dominates mid and senior office jobs."
+   },
+   {
+    "name": "WorkIndia",
+    "positioning": "Blue-collar jobs app with direct employer contact.",
+    "howThisProductDiffers": "Very similar target; Apna has more funding and community features."
+   },
+   {
+    "name": "Job Hai (Info Edge)",
+    "positioning": "Naukri's app for local and entry-level jobs.",
+    "howThisProductDiffers": "Backed by Info Edge's sales force and cash; Apna is independent and loss-making."
+   },
+   {
+    "name": "LinkedIn and Indeed",
+    "positioning": "Global job platforms moving into entry-level roles.",
+    "howThisProductDiffers": "Apna is built for first-time smartphone users and local languages."
+   },
+   {
+    "name": "WhatsApp groups and local agents",
+    "positioning": "The informal default for blue-collar hiring.",
+    "howThisProductDiffers": "Apna offers more choice and safety checks, but WhatsApp is free and familiar."
+   }
+  ],
+  "northStar": {
+   "metric": "Successful hires per month (job seeker joined and stayed 30 days)",
+   "why": "A hire that sticks is the value for both sides: the worker gets income, the employer fills a role. It also predicts employer renewals and pay-per-hire revenue."
+  },
+  "kpiTree": [
+   {
+    "metric": "Quality job supply",
+    "description": "Real, verified jobs that match what workers want.",
+    "children": [
+     {
+      "metric": "Active verified job posts",
+      "description": "Live jobs from verified employers."
+     },
+     {
+      "metric": "Share of posts with salary shown",
+      "description": "Clear pay builds trust and better matches."
+     },
+     {
+      "metric": "Scam report rate",
+      "description": "Reports per 1,000 job posts."
+     }
+    ]
+   },
+   {
+    "metric": "Active job seekers",
+    "description": "People applying each month.",
+    "children": [
+     {
+      "metric": "Monthly active applicants",
+      "description": "Users who apply at least once a month."
+     },
+     {
+      "metric": "Profile completion rate",
+      "description": "Complete profiles get more employer calls."
+     }
+    ]
+   },
+   {
+    "metric": "Match to hire conversion",
+    "description": "How often an application becomes a job.",
+    "children": [
+     {
+      "metric": "Employer response rate",
+      "description": "Share of applications that get a call or message."
+     },
+     {
+      "metric": "Interview show-up rate",
+      "description": "Share of scheduled candidates who attend."
+     },
+     {
+      "metric": "Offer to joining rate",
+      "description": "Share of offers that lead to day-one joins."
+     }
+    ]
+   },
+   {
+    "metric": "Hire retention",
+    "description": "Whether hires last.",
+    "children": [
+     {
+      "metric": "30-day retention of hires",
+      "description": "Unlocks pay-per-hire revenue."
+     },
+     {
+      "metric": "Employer repeat posting rate",
+      "description": "Share of employers who post again within 90 days."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Scam and fraud complaints per 1,000 users",
+   "Employer refund requests",
+   "App rating on Google Play",
+   "Spam calls reported by job seekers"
+  ],
+  "strengths": [
+   "Large user base of 5.9 crore registered job seekers",
+   "Built for local languages and first-time smartphone users",
+   "Recruitment revenue grew 61% in FY25",
+   "Big enterprise clients for volume hiring",
+   "Losses cut sharply since FY23"
+  ],
+  "weaknesses": [
+   "Total revenue fell in FY24 and FY25",
+   "Half of revenue is from its parent company, not customers",
+   "Employer loyalty is low; small employers post on many apps",
+   "Scams damage trust and app ratings"
+  ],
+  "risks": [
+   "Info Edge's Job Hai and Naukri spending to win the same users",
+   "LinkedIn and Indeed moving down-market",
+   "Rules on job scams and data privacy (DPDP Act) raising compliance costs",
+   "Gig platforms hiring directly through their own apps"
+  ],
+  "userComplaints": [
+   "Fake recruiters asking for registration or training fees",
+   "Many applications with no response",
+   "Too many spam calls after signing up",
+   "Employers say candidates do not show up",
+   "Jobs listed with misleading salaries"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Verified badge and 'never pay to get a job' warnings on every chat, with one-tap scam report",
+    "problem": "Job scams are the top trust complaint.",
+    "expectedImpact": "Fewer scams and better ratings, more job seekers staying.",
+    "metricToTrack": "Scam report rate per 1,000 job posts",
+    "effort": "low"
+   },
+   {
+    "idea": "Application status tracker that tells candidates when an employer viewed or rejected them",
+    "problem": "Applicants hear nothing back and stop using the app.",
+    "expectedImpact": "Higher monthly active applicants.",
+    "metricToTrack": "Monthly active applicants",
+    "effort": "medium"
+   },
+   {
+    "idea": "Interview reminders and day-one confirmation on WhatsApp in the candidate's language",
+    "problem": "Employers complain about no-shows.",
+    "expectedImpact": "Higher show-up and joining rates, more employer renewals.",
+    "metricToTrack": "Interview show-up rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Subscription plan for small employers with unlimited posts and a hiring guarantee",
+    "problem": "Small employers buy one post and leave.",
+    "expectedImpact": "More recurring revenue from small businesses.",
+    "metricToTrack": "Employer repeat posting rate",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "A marketplace is only as good as its trust layer. One scam can lose a worker for good.",
+   "Big sign-up numbers are not the same as active users or paying customers; look at what each side pays and how often.",
+   "Design for your real user: local language and one-tap apply beat a polished CV builder for this audience.",
+   "Revenue quality matters. Revenue from your parent company does not prove customers value the product."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "How would you reduce job scams on Apna without slowing down employers?",
+    "hint": "Segment employers by risk, use verification for high-risk posts, AI detection on chats, and measure scam rate vs time-to-post."
+   },
+   {
+    "question": "Apna has 5.9 crore users but revenue of ₹122 crore. Why, and what would you do?",
+    "hint": "Users are free; only employers pay. Look at employer conversion, repeat posting, price and enterprise deals."
+   },
+   {
+    "question": "What north star metric would you choose for Apna?",
+    "hint": "Choose successful hires that last, explain why applications or downloads are vanity metrics, and break it into a KPI tree."
+   },
+   {
+    "question": "How would you compete with Naukri's Job Hai?",
+    "hint": "Find where Apna wins (languages, community, trust), double down there, and avoid a price war."
+   },
+   {
+    "question": "Design a feature to cut candidate no-shows for interviews.",
+    "hint": "Understand reasons (distance, doubt, forgetting), propose reminders and confirmations, track show-up rate."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Blue-collar",
+    "meaning": "Jobs done mainly with hands or in the field, such as delivery, driving or factory work."
+   },
+   {
+    "term": "Pay-per-hire",
+    "meaning": "A pricing model where the employer pays only when a candidate actually joins."
+   },
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "Network effect",
+    "meaning": "When a product becomes more valuable as more people use it."
+   },
+   {
+    "term": "Marketplace",
+    "meaning": "A platform that connects two groups, like workers and employers, and earns from the match."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Vanity metrics",
+    "meaning": "Numbers that look impressive, like downloads, but do not show real value or revenue."
+   },
+   {
+    "term": "Unicorn",
+    "meaning": "A private startup valued at $1 billion or more."
+   }
+  ],
+  "assumptions": [
+   "Job post price ranges are approximate from public employer plans and may differ by city and plan.",
+   "The ₹1,000 job post example is illustrative.",
+   "The $1.1 billion valuation is from 2021 news; current valuation is likely lower but not disclosed.",
+   "Active monthly user numbers are not public; the claim that they are much lower than registrations is an inference."
+  ]
+ }
+}

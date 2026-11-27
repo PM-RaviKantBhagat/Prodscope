@@ -1,0 +1,221 @@
+{
+  "company": "Urban Company",
+  "domain": "urbancompany.com",
+  "website": "https://www.urbancompany.com",
+  "sources": [
+    "https://www.kotakneo.com/news/stocks/urban-company-share-price-and-q2-fy-27-results/",
+    "https://inc42.com/buzz/urban-company-q2-loss-widens-over-3x-yoy-to-%E2%82%B9182-5-cr-revenue-up-41/",
+    "https://upstox.com/news/market-news/earnings/urban-company-loss-expands-to-182-crore-net-transaction-value-grows-to-1-432-crore-in-q2-check-results/article-202010/",
+    "https://www.businesstoday.in/latest/corporate/story/are-snabbit-urban-company-and-pronto-fighting-indias-next-app-war-531140-2026-05-12",
+    "https://yourstory.com/2025/11/urban-company-defend-turf-as-snabbit-pronto-chase-instant-help-boom",
+    "https://www.aljazeera.com/economy/2024/3/1/how-indias-urban-company-has-soured-gig-work-for-women",
+    "https://www.business-standard.com/companies/start-ups/urban-company-reports-37-revenue-growth-as-core-business-stays-profitable-125110100829_1.html"
+  ],
+  "report": {
+    "company": "Urban Company",
+    "tagline": "An Indian app to book trained, verified professionals for salon at home, cleaning, repairs and house help, at fixed prices.",
+    "category": "Home services marketplace",
+    "simpleSummary": "Urban Company is an app where you book someone to come to your home: a beautician, an AC repair technician, a plumber, a cleaner, or a house helper in 15 minutes through InstaHelp. You see a fixed price before booking, pay in the app, and rate the person after. Urban Company trains and checks the professionals, gives them tools and products, and takes a cut of each job. It also sells its own Native water purifiers and smart locks, and runs in the UAE and Saudi Arabia.",
+    "keyNumbers": [
+      {"label": "Revenue, Q2 FY27 (July to Sept 2026)", "value": "₹537 crore, up 41%", "note": "Company results, October 2026."},
+      {"label": "Net transaction value, Q2 FY27", "value": "₹1,432 crore, up 39%", "note": "Total value of services and products booked. Company results."},
+      {"label": "Net loss, Q2 FY27", "value": "₹182 crore", "note": "Up from ₹59 crore a year earlier, mostly from ₹174 crore spent on InstaHelp. Core business without InstaHelp made ₹30 crore adjusted EBITDA."},
+      {"label": "Orders, Q2 FY27", "value": "15.1 million, more than doubled", "note": "Includes 6.2 million InstaHelp orders. Company results."},
+      {"label": "Yearly transacting users", "value": "Nearly 10 million", "note": "Company results, Q2 FY27."},
+      {"label": "Cash", "value": "₹1,901 crore", "note": "Cash and treasury investments, Q2 FY27. Board approved raising up to ₹2,500 crore more. Listed on NSE and BSE in September 2025."}
+    ],
+    "overview": {
+      "whatItDoes": "Urban Company is a marketplace that connects households with tens of thousands of independent service professionals. Unlike a listings site, it controls quality: it trains partners, sets prices, supplies products and handles payment and complaints. It earns a commission from each job, plus margin on its own Native products.",
+      "howItWorks": [
+        "The customer picks a service, like a ₹1,000 salon package or AC service, and chooses a time slot.",
+        "The app assigns a trained partner near the customer; the partner accepts the job.",
+        "The partner arrives with Urban Company kits and products, does the job and the customer pays in the app.",
+        "Urban Company keeps a commission and the partner gets the rest; partners also buy products and training from it.",
+        "Ratings after each job decide which partners get more work; low-rated partners get retrained or removed.",
+        "InstaHelp sends a house helper for cleaning, dishes or laundry in about 15 minutes, paid by the hour."
+      ],
+      "valueProposition": "For customers: a reliable, safe, fixed-price professional at home, with a re-do or refund if something goes wrong. For partners: steady jobs and higher earnings than working alone."
+    },
+    "personas": [
+      {"name": "Working woman in a metro", "description": "A 30-year-old professional in Gurugram or Bengaluru who books salon at home every month.", "goals": ["Save time going to a salon", "Hygienic, trained beautician", "Fixed, fair price"], "frustrations": ["Last-minute cancellations by partners", "Prices rising over time", "Partner upsells during the visit"]},
+      {"name": "Busy family needing repairs", "description": "A family that calls for AC, washing machine or plumbing repair a few times a year.", "goals": ["Someone trusted who turns up on time", "No haggling", "Warranty on work"], "frustrations": ["Parts priced higher than local shops", "Hard to reach human support"]},
+      {"name": "Nuclear family wanting daily help", "description": "A couple without a full-time maid in Mumbai who uses InstaHelp for cleaning.", "goals": ["Help within minutes", "No long-term commitment to a maid"], "frustrations": ["Helper not available at peak times", "Quality varies"]},
+      {"name": "Service partner", "description": "A beautician or electrician who earns through the app.", "goals": ["Steady, well-paid jobs", "Fair rating system"], "frustrations": ["Commission cuts and product costs", "Blocked for low ratings without clear reasons", "Travel time between jobs"]}
+    ],
+    "painPoints": [
+      {"pain": "Hard to find a trusted plumber, electrician or beautician.", "howSolved": "Verified, trained partners with ratings.", "severity": "high"},
+      {"pain": "Local service providers haggle and quote unclear prices.", "howSolved": "Fixed prices shown before booking.", "severity": "high"},
+      {"pain": "Strangers entering the home feels unsafe.", "howSolved": "Background checks, ID verification and an in-app safety line.", "severity": "high"},
+      {"pain": "Repair work fails again after a few days.", "howSolved": "Warranty and free re-do on many services.", "severity": "medium"},
+      {"pain": "Maids are unreliable or take leave without warning.", "howSolved": "InstaHelp gives on-demand house help in about 15 minutes.", "severity": "medium"},
+      {"pain": "Partners struggle to find steady customers.", "howSolved": "The app sends a steady flow of jobs and training.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Fixed-price service menu", "whatItDoes": "Shows services as packages with set prices.", "whyItMatters": "Removes haggling, which builds trust and makes booking fast."},
+      {"feature": "Partner training and quality control", "whatItDoes": "Trains partners, checks skills and removes low-rated ones.", "whyItMatters": "Standard quality is the main reason people pay more than a local provider."},
+      {"feature": "InstaHelp", "whatItDoes": "House help for cleaning, dishes and kitchen prep in about 15 minutes, paid by the hour.", "whyItMatters": "A high-frequency service that can bring users back every week; also the main reason for current losses."},
+      {"feature": "UC Plus membership", "whatItDoes": "A paid plan with discounts on services.", "whyItMatters": "Encourages repeat bookings and locks in heavy users."},
+      {"feature": "Native products", "whatItDoes": "Own-brand RO water purifiers and smart locks, installed and serviced by partners.", "whyItMatters": "Higher-value sales and repeat servicing revenue."},
+      {"feature": "Ratings and warranty", "whatItDoes": "Customer rates each job; warranty covers re-dos.", "whyItMatters": "Keeps quality up and gives customers a safety net."}
+    ],
+    "userJourneys": [
+      {"name": "First salon at home booking", "persona": "Working woman in a metro", "steps": [
+        {"step": "Hears about it", "detail": "A friend recommends it or sees an Instagram ad."},
+        {"step": "Browses", "detail": "Picks a waxing and facial package and sees the total price."},
+        {"step": "Books a slot", "detail": "Chooses a time and pays online or chooses pay after."},
+        {"step": "Partner arrives", "detail": "The beautician comes with a sealed kit and disposable items."},
+        {"step": "Rates", "detail": "Rates the beautician and can mark her as a favourite."},
+        {"step": "Rebooks", "detail": "Rebooks the same partner next month."}
+      ]},
+      {"name": "AC repair", "persona": "Busy family needing repairs", "steps": [
+        {"step": "Problem", "detail": "AC stops cooling before summer."},
+        {"step": "Books inspection", "detail": "Books an AC check at a fixed visit fee."},
+        {"step": "Diagnosis", "detail": "Technician checks and quotes parts from a rate card."},
+        {"step": "Approves", "detail": "Customer approves the parts price in the app."},
+        {"step": "Repair and pay", "detail": "Job is done and paid in the app with a warranty."},
+        {"step": "Follow up", "detail": "If it fails, customer raises a re-do request."}
+      ]},
+      {"name": "InstaHelp for the kitchen", "persona": "Nuclear family wanting daily help", "steps": [
+        {"step": "Need", "detail": "The maid is on leave and guests are coming."},
+        {"step": "Opens InstaHelp", "detail": "Picks dishes and cleaning for 2 hours."},
+        {"step": "Gets matched", "detail": "A helper is assigned and arrives in about 15 minutes."},
+        {"step": "Work done", "detail": "Helper finishes the tasks and leaves."},
+        {"step": "Pays", "detail": "Pays by the hour in the app."},
+        {"step": "Habit", "detail": "Starts booking it every few days."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Urban Company makes money by taking a commission on each service job, selling products and training to partners, selling its own Native devices, and membership fees. The core India services business is now profitable, but the company as a whole loses money because it is spending heavily to grow InstaHelp.",
+      "revenueStreams": [
+        {"stream": "Commission on services", "detail": "A cut of each booking, often estimated at around 20% to 30% depending on category."},
+        {"stream": "Partner product and kit sales", "detail": "Partners buy salon products and tools from Urban Company."},
+        {"stream": "Native products", "detail": "Water purifiers and smart locks; ₹105 crore net revenue in Q2 FY27."},
+        {"stream": "InstaHelp", "detail": "Hourly house help; ₹71 crore NTV in Q2 FY27, still loss-making."},
+        {"stream": "International", "detail": "UAE and Saudi Arabia; ₹75 crore net revenue in Q2 FY27."}
+      ],
+      "pricing": "Fixed prices shown in the app by service and city. Example: AC service and salon packages from a few hundred to a few thousand rupees. InstaHelp is charged by the hour, with low introductory prices. UC Plus membership is a paid plan with discounts.",
+      "costDrivers": [
+        "Customer discounts and marketing",
+        "Partner incentives and training",
+        "InstaHelp helper pay guarantees during low demand",
+        "Technology and support teams",
+        "Cost of Native products and installation"
+      ],
+      "unitEconomics": "On a ₹1,000 salon booking, the partner keeps roughly ₹750 to ₹800 and Urban Company keeps about ₹200 to ₹250 as commission. After payment fees, support, marketing and discounts, it earns only a small profit; the core India business had an adjusted EBITDA margin of 3.5% of NTV in Q2 FY27, about ₹35 on that ₹1,000. InstaHelp loses about ₹279 per order, because hourly prices are low and helpers are paid even when idle. It only works if helpers get booked back to back in each neighbourhood."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth from satisfied customers",
+        "Performance marketing on Google and Instagram",
+        "Low introductory InstaHelp prices",
+        "Expansion into tier-2 cities, where NTV grew about 37%",
+        "Native product sales that bring new households onto the app"
+      ],
+      "whatBringsUsersBack": [
+        "Favourite partner rebooking",
+        "Monthly beauty and cleaning routines",
+        "UC Plus membership discounts",
+        "InstaHelp as a weekly or daily habit",
+        "Native purifier servicing and filter changes"
+      ],
+      "moat": "The moat is the trained supply base. Building thousands of skilled, vetted partners in each city with standard kits and training takes years. A new app can copy the booking screen, but not the quality and trust. InstaHelp has a weaker moat because cleaning needs less skill, which is why Snabbit and Pronto could enter fast."
+    },
+    "competitors": [
+      {"name": "Snabbit", "positioning": "15-minute house help app in Mumbai and other cities.", "howThisProductDiffers": "Urban Company has a broader menu and brand trust; Snabbit is focused only on quick help and is well funded."},
+      {"name": "Pronto", "positioning": "10-minute house help startup.", "howThisProductDiffers": "Urban Company can cross-sell InstaHelp users into salon and repairs."},
+      {"name": "Local providers and maids", "positioning": "Neighbourhood parlours, electricians and full-time maids.", "howThisProductDiffers": "Local options are often cheaper but lack fixed prices, safety checks and warranty."},
+      {"name": "Housejoy and Justdial", "positioning": "Home services listings and bookings.", "howThisProductDiffers": "Urban Company controls quality and price instead of just listing providers."}
+    ],
+    "northStar": {
+      "metric": "Number of jobs completed with a 4-star-or-higher rating each month",
+      "why": "This north star metric counts only jobs where the customer got good service, so it balances growth with quality, the core promise."
+    },
+    "kpiTree": [
+      {"metric": "Customers booking", "description": "How many households book each month.", "children": [
+        {"metric": "New customers added", "description": "About 0.76 million first-time users in Q2 FY27 in core services."},
+        {"metric": "Monthly repeat rate", "description": "Share of past customers who book again."},
+        {"metric": "UC Plus members", "description": "Members book more often."}
+      ]},
+      {"metric": "Jobs per customer", "description": "How often each household books.", "children": [
+        {"metric": "Categories per customer", "description": "Cross-selling repairs to salon users and back."},
+        {"metric": "InstaHelp weekly bookings per user", "description": "Shows if InstaHelp is becoming a habit."}
+      ]},
+      {"metric": "Supply reliability", "description": "Whether a partner turns up on time.", "children": [
+        {"metric": "Slot fill rate", "description": "Share of requested slots with an available partner."},
+        {"metric": "Partner cancellation rate", "description": "Last-minute cancellations hurt trust."},
+        {"metric": "InstaHelp arrival time", "description": "Minutes from booking to arrival."}
+      ]},
+      {"metric": "Job quality", "description": "Whether the job is done well.", "children": [
+        {"metric": "Average rating", "description": "Customer score after each job."},
+        {"metric": "Re-do and complaint rate", "description": "Share of jobs needing a fix."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Partner monthly earnings and partner churn",
+      "Adjusted EBITDA loss per InstaHelp order",
+      "Safety incidents per million jobs"
+    ],
+    "strengths": [
+      "Trusted brand with fixed prices and trained partners",
+      "Core India services business is profitable",
+      "Many categories, so it can cross-sell",
+      "Strong cash balance after the 2025 listing",
+      "Growing international business in the Gulf"
+    ],
+    "weaknesses": [
+      "InstaHelp loses about ₹279 per order",
+      "Net loss tripled year on year in Q2 FY27",
+      "Repeated partner protests over commissions and ratings hurt reputation",
+      "Prices often higher than local providers"
+    ],
+    "risks": [
+      "Well-funded rivals like Snabbit and Pronto in quick house help",
+      "New gig worker laws and social security codes raising costs",
+      "Partners leaving for other apps or working directly with customers",
+      "Share price falls if losses stay high"
+    ],
+    "userComplaints": [
+      "Partner cancels close to the slot time",
+      "Prices and convenience fees have gone up",
+      "Hard to reach a human in customer support",
+      "Partners upsell extra products during the visit",
+      "Partners complain of high commissions, product costs and being blocked by rating rules"
+    ],
+    "improvementIdeas": [
+      {"idea": "Backup partner guarantee within 30 minutes of a cancellation", "problem": "Last-minute cancellations break trust.", "expectedImpact": "Fewer lost bookings and better ratings.", "metricToTrack": "Share of cancelled jobs rescued by a backup", "effort": "medium"},
+      {"idea": "InstaHelp weekly subscription with a fixed helper", "problem": "InstaHelp loses money on single orders and quality varies.", "expectedImpact": "Predictable demand, higher helper utilisation and lower loss per order.", "metricToTrack": "Loss per InstaHelp order and helper utilisation", "effort": "medium"},
+      {"idea": "Transparent partner earnings dashboard and appeal for blocks", "problem": "Partner protests over ratings and pay.", "expectedImpact": "Lower partner churn and fewer protests.", "metricToTrack": "Partner 90-day churn", "effort": "low"},
+      {"idea": "Show parts price comparison before repair", "problem": "Customers feel parts are overpriced.", "expectedImpact": "Higher approval rate on repair quotes.", "metricToTrack": "Quote acceptance rate", "effort": "low"},
+      {"idea": "Cross-sell salon and repairs to InstaHelp users", "problem": "InstaHelp users may not use other services.", "expectedImpact": "Higher spend per customer to pay back InstaHelp losses.", "metricToTrack": "Share of InstaHelp users booking another category in 60 days", "effort": "low"}
+    ],
+    "pmLessons": [
+      "In service marketplaces, supply quality is the product. Urban Company wins by training and controlling partners, not just matching them.",
+      "A two-sided marketplace must keep both sides happy. Squeezing partners for margin leads to protests and worse service.",
+      "A high-frequency service like InstaHelp can build habit, but it must find a path to profit per order.",
+      "Fixed prices remove a big source of anxiety in Indian home services."
+    ],
+    "interviewQuestions": [
+      {"question": "InstaHelp loses ₹279 per order. How would you get it to break even?", "hint": "Break the loss into price, helper pay, idle time and marketing. Ideas: density in fewer areas, subscriptions, peak pricing. Pick guardrails for quality."},
+      {"question": "How would you reduce partner cancellations?", "hint": "Find causes (travel, better jobs, fatigue). Fixes: smarter routing, cancellation penalties with fairness, backup pool. Measure cancellation rate."},
+      {"question": "What should Urban Company's north star metric be?", "hint": "Good-quality jobs completed. Explain why not revenue. Break into demand, supply, quality."},
+      {"question": "Should Urban Company enter tier-3 cities?", "hint": "Consider price sensitivity, partner supply, density needed for unit economics. Start with high-margin categories."},
+      {"question": "Design a feature to increase trust for first-time customers.", "hint": "Persona: worried about safety and price. Ideas: partner profile video, live tracking, guarantee badge. Measure first-to-second booking rate."}
+    ],
+    "glossary": [
+      {"term": "Net transaction value", "meaning": "The total amount customers paid for services and products on the platform, before Urban Company's cut."},
+      {"term": "Adjusted EBITDA", "meaning": "Profit from day-to-day operations, before interest, tax, depreciation and some one-time or non-cash costs."},
+      {"term": "Commission", "meaning": "The share of each job's price that the platform keeps."},
+      {"term": "Two-sided marketplace", "meaning": "A business that serves two groups, here customers and service partners, and needs both to grow."},
+      {"term": "Unit economics", "meaning": "How much money a business makes or loses on one order or one customer."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Utilisation", "meaning": "The share of a worker's paid time spent actually doing jobs."}
+    ],
+    "assumptions": [
+      "The commission range of 20% to 30% is an estimate from media reports and partner accounts, not a company figure.",
+      "The ₹1,000 salon example is illustrative; real splits vary by category and city.",
+      "The number of active partners is not stated in our sources and is left out.",
+      "InstaHelp prices change often; we did not confirm current hourly prices."
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "company": "Zillow",
+  "domain": "zillow.com",
+  "website": "https://www.zillow.com",
+  "sources": [
+    "https://www.morningstar.com/news/pr-newswire/20261104sf88697/zillow-group-reports-third-quarter-2026-financial-results",
+    "https://www.realestatenews.com/2026/11/04/zillow-misses-on-revenue-in-q3-bets-on-preferred-program",
+    "https://www.housingwire.com/articles/zillow-traffic-ai-mode-q3/",
+    "https://www.zillow.com/news/zillow-sues-mred-compass/",
+    "https://www.inman.com/2026/07/06/clash-of-the-titans-looking-back-at-the-zillow-compass-legal-battle/",
+    "https://therealdeal.com/national/2025/09/22/zillow-hit-with-class-action-suit-over-flex-program"
+  ],
+  "report": {
+    "company": "Zillow",
+    "tagline": "The most visited US home search site, which makes money by sending home buyers to real estate agents and by listing rentals and selling mortgages.",
+    "category": "Real estate",
+    "simpleSummary": "Zillow is a free website and app where Americans look at homes for sale or rent, see photos, prices and the 'Zestimate', an automatic guess of what a home is worth. When you click 'contact agent' or ask for a tour, Zillow sends you to a local real estate agent, and that agent pays Zillow. Zillow also earns from landlords who list rentals and from its own home loans. From 2018 to 2021 it tried buying and flipping homes itself, called Zillow Offers, lost a lot of money and shut it down.",
+    "keyNumbers": [
+      {"label": "Revenue, Q3 2026", "value": "$724 million, up 7%", "note": "Zillow Group results, November 2026. Nine-month revenue $2.2 billion, up 14%."},
+      {"label": "Monthly unique users", "value": "215 million, down 3%", "note": "Average across apps and sites, Q3 2026. Visits fell 5% to 2.3 billion."},
+      {"label": "Share of real estate site visitors", "value": "77%", "note": "Comscore figure cited by Zillow, Q3 2026."},
+      {"label": "Rentals revenue, Q3 2026", "value": "$220 million, up 26%", "note": "Fastest-growing segment. Residential (agent) revenue fell 4% to $419 million."},
+      {"label": "Net loss, Q3 2026", "value": "$158 million", "note": "Driven by a $165 million settlement of a class action over Zillow Offers. Adjusted EBITDA was $182 million, a 25% margin."},
+      {"label": "Zillow Offers losses, 2021", "value": "About $880 million", "note": "Home-flipping unit losses in 2021 before shutdown; widely reported figure, treat as approximate."}
+    ],
+    "overview": {
+      "whatItDoes": "Zillow runs the biggest home search portal in the US, plus Trulia, StreetEasy and HotPads. Buyers and renters use it for free. Zillow makes money by selling leads to agents (Premier Agent), charging rental listings, and offering mortgages through Zillow Home Loans. Its strategy is the 'housing super app': one place to search, tour, finance and rent.",
+      "howItWorks": [
+        "Listings flow in from local MLS databases and agents; Zillow shows them with photos, price history and Zestimates.",
+        "A buyer taps 'request a tour'; Zillow passes this lead, called a connection, to a partner agent in that area.",
+        "Agents pay either a fee upfront for leads or, under the Flex model, a referral fee of a share of their commission when the home sale closes.",
+        "Zillow Home Loans offers mortgages to these buyers, earning on each loan.",
+        "Landlords and property managers pay to list rentals; renters can apply and pay rent online."
+      ],
+      "valueProposition": "For buyers and renters: every home in one free place with a value estimate. For agents: a steady stream of motivated buyers ready to tour."
+    },
+    "personas": [
+      {"name": "First-time home buyer", "description": "A couple in their early 30s in Phoenix looking for a $400,000 starter home.", "goals": ["See everything available", "Know if the price is fair", "Find a good agent quickly"], "frustrations": ["Zestimate does not match the asking price", "Homes listed elsewhere or off-market do not appear", "Being pushed to an agent they did not choose"]},
+      {"name": "Renter", "description": "A young professional moving to a new city.", "goals": ["Find an apartment fast", "Apply online", "Avoid scams"], "frustrations": ["Fake or old listings", "Application fees on every property"]},
+      {"name": "Real estate agent", "description": "A local agent who buys Zillow leads or works on Flex.", "goals": ["More buyers who actually close", "Fair cost per sale"], "frustrations": ["Flex referral fees take a big cut", "Low-quality leads", "Zillow controls the customer relationship"]},
+      {"name": "Curious homeowner", "description": "Someone who checks their own Zestimate regularly.", "goals": ["Track home value", "Decide when to sell"], "frustrations": ["Estimate swings without reason"]}
+    ],
+    "painPoints": [
+      {"pain": "Home listings are scattered across many agent sites.", "howSolved": "One portal with almost all US listings.", "severity": "high"},
+      {"pain": "Buyers do not know what a home is worth.", "howSolved": "Zestimate and price history on every home.", "severity": "high"},
+      {"pain": "Booking a viewing is slow.", "howSolved": "Request a tour button that connects to an agent fast.", "severity": "medium"},
+      {"pain": "Agents struggle to find buyers.", "howSolved": "Premier Agent sends buyer leads.", "severity": "high"},
+      {"pain": "Renting means paper applications and cheques.", "howSolved": "Online applications, background checks and rent payments.", "severity": "medium"},
+      {"pain": "Mortgage shopping is confusing.", "howSolved": "Affordability tools and Zillow Home Loans pre-approval.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Zestimate", "whatItDoes": "An automated estimate of any home's value.", "whyItMatters": "Brings homeowners and buyers back often, which keeps traffic high."},
+      {"feature": "Premier Agent and Zillow Preferred", "whatItDoes": "Sells buyer connections to vetted partner agents.", "whyItMatters": "The main source of revenue; Zillow is betting on its Preferred programme to grow it."},
+      {"feature": "Zillow Home Loans", "whatItDoes": "Mortgages offered to buyers using Zillow.", "whyItMatters": "Earns more from each buyer; purchase loans up 55% in Q3 2026."},
+      {"feature": "Rentals marketplace", "whatItDoes": "Listings, applications, screening and rent payments.", "whyItMatters": "Fastest-growing business at $220 million a quarter."},
+      {"feature": "Showcase listings", "whatItDoes": "Premium listings with 3D tours and better photos, paid by listing agents.", "whyItMatters": "A new way to earn from sellers' agents, not only buyers' agents."},
+      {"feature": "Follow Up Boss", "whatItDoes": "A tool agents use to manage leads and clients.", "whyItMatters": "Makes agents depend on Zillow's software, not just its leads."}
+    ],
+    "userJourneys": [
+      {"name": "Buying a first home", "persona": "First-time home buyer", "steps": [
+        {"step": "Browses", "detail": "Saves searches and gets alerts for new homes."},
+        {"step": "Checks value", "detail": "Compares the list price with the Zestimate and nearby sales."},
+        {"step": "Requests a tour", "detail": "Taps request a tour on a home."},
+        {"step": "Meets agent", "detail": "A Zillow partner agent calls and books the viewing."},
+        {"step": "Gets a loan", "detail": "Gets pre-approved with Zillow Home Loans."},
+        {"step": "Closes", "detail": "Buys the home; the agent pays Zillow a referral fee."}
+      ]},
+      {"name": "Renting an apartment", "persona": "Renter", "steps": [
+        {"step": "Searches", "detail": "Filters by price, pets and commute."},
+        {"step": "Contacts", "detail": "Messages the landlord through Zillow."},
+        {"step": "Tours", "detail": "Visits in person or by video."},
+        {"step": "Applies", "detail": "Uses one Zillow application with screening."},
+        {"step": "Signs and pays", "detail": "Signs the lease and pays rent online."}
+      ]},
+      {"name": "Agent working Zillow leads", "persona": "Real estate agent", "steps": [
+        {"step": "Joins", "detail": "Gets accepted into Zillow Preferred in a market."},
+        {"step": "Receives connection", "detail": "Gets a live buyer call through Zillow."},
+        {"step": "Follows up", "detail": "Tracks the client in Follow Up Boss."},
+        {"step": "Shows homes", "detail": "Takes the buyer on tours."},
+        {"step": "Closes", "detail": "Closes the sale and pays Zillow its share."},
+        {"step": "Gets rated", "detail": "Zillow scores the agent on speed and close rate, affecting future leads."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Zillow gives search away for free and makes money from the people who want to reach buyers and renters: agents, landlords and lenders. Agent leads (Residential) are the biggest source of money, rentals are growing fastest, and mortgages add more per buyer.",
+      "revenueStreams": [
+        {"stream": "Residential (Premier Agent)", "detail": "$419 million in Q3 2026, from agents paying for buyer connections."},
+        {"stream": "Rentals", "detail": "$220 million in Q3 2026, from landlords and property managers listing rentals."},
+        {"stream": "Mortgages", "detail": "$70 million in Q3 2026, from Zillow Home Loans."},
+        {"stream": "Software and new listings products", "detail": "Showcase, Follow Up Boss and other agent tools."}
+      ],
+      "pricing": "Free for buyers, sellers and renters. Agents pay for leads by market or, under Flex, pay a referral fee of a share of their commission at closing (often reported around 35% to 40%). Rental listing prices are set by property type and market and are not fully public.",
+      "costDrivers": [
+        "Marketing to keep traffic high",
+        "Engineering and data teams",
+        "Sales and support for agents",
+        "Mortgage processing staff",
+        "Legal costs and settlements"
+      ],
+      "unitEconomics": "Take a $400,000 home sale where the buyer's agent earns a 2.5% commission, $10,000. Under Flex, the agent may pay Zillow about 35% to 40% of that, so roughly $3,500 to $4,000. Zillow pays nothing to buy that home. If Zillow also gives the mortgage, it earns extra on the loan. Compare that with Zillow Offers, where Zillow bought homes with its own money and lost tens of thousands of dollars per home when prices moved. The lesson: Zillow makes the most money selling attention and leads, not owning houses."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search for addresses and home values",
+        "Brand: 'Zillow' is the verb for house browsing in the US",
+        "Saved search alerts and push notifications",
+        "Integrations with AI tools like ChatGPT apps",
+        "Agents and landlords sharing Zillow links"
+      ],
+      "whatBringsUsersBack": [
+        "Checking home values and neighbours' sales",
+        "New listing alerts",
+        "'Zillow surfing' as entertainment",
+        "Rent payments monthly for renters"
+      ],
+      "moat": "Zillow's moat is a network effect: buyers come because almost every listing is there, and agents pay because the buyers are there. With 77% of category visitors, a rival needs huge traffic to compete. The threat is listings being kept off Zillow, which is why it is fighting Compass over private listings."
+    },
+    "competitors": [
+      {"name": "Realtor.com", "positioning": "Listing portal backed by News Corp and the realtor association data feed.", "howThisProductDiffers": "Zillow has far more traffic and more products like loans and rentals."},
+      {"name": "Homes.com (CoStar)", "positioning": "Portal that promises 'your listing, your lead', sending leads to the listing agent.", "howThisProductDiffers": "Zillow charges buyer agents for leads; Homes.com charges listing agents for visibility. CoStar spends heavily on ads to catch up."},
+      {"name": "Redfin (Rocket)", "positioning": "Portal with its own salaried agents, now part of Rocket Companies.", "howThisProductDiffers": "Zillow partners with independent agents rather than employing them."},
+      {"name": "Compass", "positioning": "Large brokerage pushing private listings shown first to its own clients.", "howThisProductDiffers": "Compass wants listings to stay inside its network; Zillow wants all listings public, and the two are suing each other."},
+      {"name": "Apartments.com", "positioning": "CoStar's rentals portal.", "howThisProductDiffers": "Main rival in rentals; Zillow is growing fast in multifamily listings."}
+    ],
+    "northStar": {
+      "metric": "Number of home transactions (buys and rentals) completed through Zillow each month",
+      "why": "This north star metric shows that Zillow helped someone actually move, not just browse. It links directly to how agents, landlords and lenders pay."
+    },
+    "kpiTree": [
+      {"metric": "Serious shoppers", "description": "Users actively looking to move.", "children": [
+        {"metric": "Monthly unique users", "description": "215 million in Q3 2026."},
+        {"metric": "Saved search users", "description": "Users with alerts are more likely to move soon."},
+        {"metric": "Listing coverage", "description": "Share of for-sale homes shown on Zillow."}
+      ]},
+      {"metric": "Connections to agents", "description": "Buyers matched to agents.", "children": [
+        {"metric": "Tour request rate", "description": "Share of serious shoppers who ask for a tour."},
+        {"metric": "Agent response time", "description": "Faster contact means higher close rates."}
+      ]},
+      {"metric": "Close rate", "description": "Share of connections that turn into a sale.", "children": [
+        {"metric": "Preferred agent close rate", "description": "Zillow ranks agents by this."},
+        {"metric": "Pre-approval rate", "description": "Buyers with a loan approval close more."}
+      ]},
+      {"metric": "Rentals completed", "description": "Leases signed through Zillow.", "children": [
+        {"metric": "Applications submitted", "description": "Shows renter intent."},
+        {"metric": "Multifamily listings", "description": "More supply means more leases."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Buyer satisfaction with assigned agent",
+      "Listing accuracy (stale or fake listings reported)",
+      "Agent churn from Preferred"
+    ],
+    "strengths": [
+      "Dominant traffic: 77% of category visitors",
+      "Asset-light lead model with 25% adjusted EBITDA margin",
+      "Fast-growing rentals and mortgages",
+      "Strong brand and habit around the Zestimate"
+    ],
+    "weaknesses": [
+      "Revenue tied to housing transactions, which are low because of high mortgage rates",
+      "Traffic fell 3% in Q3 2026 as AI search answers more questions directly",
+      "Agents resent high Flex fees",
+      "History of a failed bet with Zillow Offers"
+    ],
+    "risks": [
+      "Private listings from brokerages like Compass keeping homes off Zillow",
+      "FTC and other lawsuits, plus steering claims about Flex",
+      "Google AI Mode and chatbots answering home questions without a click",
+      "Changes to agent commission rules after the 2024 NAR settlement"
+    ],
+    "userComplaints": [
+      "Zestimate is often far from the real sale price",
+      "Old or already-sold listings still showing",
+      "Rental scams on listings",
+      "Calls from agents the buyer did not choose after requesting a tour",
+      "Agents complain about the cost and quality of leads"
+    ],
+    "improvementIdeas": [
+      {"idea": "Let buyers pick from 3 rated agents before a tour", "problem": "Buyers feel pushed to an agent they did not choose.", "expectedImpact": "Higher trust and better close rates.", "metricToTrack": "Connection-to-close rate and buyer satisfaction", "effort": "medium"},
+      {"idea": "Show Zestimate accuracy range for each home", "problem": "Users distrust the single number.", "expectedImpact": "More trust in Zillow pricing tools.", "metricToTrack": "Zestimate complaint rate", "effort": "low"},
+      {"idea": "Verified landlord badge for rentals", "problem": "Rental scams.", "expectedImpact": "Fewer scams and more applications.", "metricToTrack": "Scam reports per 10,000 listings", "effort": "medium"},
+      {"idea": "Auto-hide listings not updated in 30 days", "problem": "Stale listings waste buyer time.", "expectedImpact": "Higher tour request rate on live homes.", "metricToTrack": "Share of tour requests on unavailable homes", "effort": "low"},
+      {"idea": "Zillow inside AI assistants with a tour booking action", "problem": "AI search is reducing visits.", "expectedImpact": "Keeps connections even when users start in chatbots.", "metricToTrack": "Connections from AI integrations", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "Know where your edge is. Zillow was great at attention and data, but buying homes needed pricing accuracy it did not have, and Zillow Offers failed.",
+      "A free product can be a great business if the right side of the market pays.",
+      "Network effects can be broken by supply: if listings leave, buyers leave.",
+      "Charging the paying side too much creates rivals and lawsuits."
+    ],
+    "interviewQuestions": [
+      {"question": "Why did Zillow Offers fail?", "hint": "Explain the model, then the risk: the Zestimate pricing error at scale, holding costs, a market shift in 2021, and capital needs. Contrast with the lead model."},
+      {"question": "Zillow traffic dropped 3%. How would you investigate?", "hint": "Split by channel (Google, app, direct), device, region. Check AI search impact and seasonality. Propose fixes per cause."},
+      {"question": "How would you improve the Zestimate?", "hint": "Define accuracy goal, users (owners vs buyers), new data sources, show confidence. Measure median error."},
+      {"question": "What is Zillow's north star metric?", "hint": "Transactions completed through Zillow. Break into shoppers, connections, close rate; add guardrails for buyer trust."},
+      {"question": "Should Zillow list private listings or fight them?", "hint": "Weigh buyer access, agent relationships, legal risk and the network effect. Suggest a policy and how to measure impact."}
+    ],
+    "glossary": [
+      {"term": "Lead", "meaning": "A person who has shown interest in buying, here passed from Zillow to an agent."},
+      {"term": "Zestimate", "meaning": "Zillow's computer-made estimate of a home's value."},
+      {"term": "MLS", "meaning": "A local database where agents share homes for sale."},
+      {"term": "Network effect", "meaning": "When a product gets more useful as more people use it."},
+      {"term": "Adjusted EBITDA", "meaning": "Operating profit before interest, tax, depreciation and some one-off costs."},
+      {"term": "Asset-light", "meaning": "A business that makes money without owning many expensive things, like houses."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Close rate", "meaning": "The share of leads that turn into a completed sale."}
+    ],
+    "assumptions": [
+      "The Flex referral fee range of 35% to 40% is from media and lawsuit reports, not a published Zillow price.",
+      "The $400,000 example and 2.5% commission are illustrative.",
+      "The 2021 Zillow Offers loss figure is from news coverage at the time.",
+      "We assume AI search is one cause of the traffic drop, based on HousingWire coverage."
+    ]
+  }
+}

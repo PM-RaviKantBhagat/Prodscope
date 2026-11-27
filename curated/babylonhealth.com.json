@@ -1,0 +1,491 @@
+{
+ "company": "Babylon Health",
+ "domain": "babylonhealth.com",
+ "website": "https://www.babylonhealth.com",
+ "sources": [
+  "https://theweek.com/health/babylon-health-the-failed-ai-wonder-app-that-dazzled-politicians",
+  "https://hlth.com/insights/news/bankrupt-digital-health-company-babylon-sells-u-k-assets-for-just-620-000-2023-09-20",
+  "https://www.fiercehealthcare.com/digital-health/babylon-closes-us-business-lays-employees-after-mindmaze-take-private-deal-collapses",
+  "https://au.finance.yahoo.com/news/control-spending-botched-us-expansion-050000272.html",
+  "https://www.statnews.com/2023/09/27/health-tech-2021-ipo-spac-bankruptcy/",
+  "https://www.mobihealthnews.com/news/babylon-health-sells-majority-uk-assets-emed"
+ ],
+ "report": {
+  "company": "Babylon Health",
+  "tagline": "A UK digital health company that promised AI doctors in your pocket, ran an NHS online GP service, was valued at $4.2 billion in 2021, and went bankrupt in 2023.",
+  "category": "Health app (failed)",
+  "simpleSummary": "Babylon was an app where you could type your symptoms to an AI chatbot and then video call a GP. In London, about 100,000 people switched their NHS GP to Babylon's GP at Hand service. Babylon then moved to the US, where it took on the full cost of caring for patients in return for a fixed fee per person. Those patients cost more than the fees, the AI was far weaker than promised, and the company ran out of money. It went bankrupt in August 2023, and its UK business was sold for about £500,000.",
+  "keyNumbers": [
+   {
+    "label": "Peak valuation",
+    "value": "About $4.2 billion (October 2021)",
+    "note": "At its New York listing through a SPAC merger, The Week. Some UK reports give £3.1 billion to £3.5 billion."
+   },
+   {
+    "label": "Money raised",
+    "value": "About $1.2 billion (2013 to 2021)",
+    "note": "The Week, including Saudi Arabia's sovereign wealth fund."
+   },
+   {
+    "label": "GP at Hand NHS patients",
+    "value": "About 100,000",
+    "note": "The Week; registered NHS patients mainly in London."
+   },
+   {
+    "label": "Accumulated losses",
+    "value": "Over $900 million by 2023",
+    "note": "The Week, from company filings."
+   },
+   {
+    "label": "Share price fall",
+    "value": "About 99% within 18 months",
+    "note": "The Week."
+   },
+   {
+    "label": "Sale price of UK business",
+    "value": "About £500,000 (around $620,000)",
+    "note": "Sold to eMed in September 2023, The Week and HLTH."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Babylon offered digital primary care: an AI symptom checker, video consultations with GPs, and health monitoring. In the UK it ran GP at Hand, a full NHS GP practice that patients could register with. It also sold its app to insurers and governments abroad, including Rwanda. In the US it ran value-based care, where it was paid a fixed amount per Medicare or Medicaid patient and kept the difference if care cost less. The company no longer exists in this form; eMed bought the UK assets.",
+   "howItWorks": [
+    "A user typed symptoms into the AI chatbot, which suggested possible causes and what to do next.",
+    "Users could book a video GP appointment, often within hours, 24 hours a day.",
+    "GP at Hand patients gave up their local NHS GP and registered with Babylon, which received NHS funding per patient.",
+    "In the US, Babylon took on financial risk for patients' total care in exchange for a fixed monthly fee per member.",
+    "Babylon sold licences of its platform to health systems and insurers in other countries."
+   ],
+   "valueProposition": "See a doctor on your phone in minutes instead of waiting weeks, with AI to guide you. The promise was cheaper and better care for everyone. The reality was that the AI was limited and the economics did not work."
+  },
+  "personas": [
+   {
+    "name": "Young London commuter",
+    "description": "A healthy 28-year-old who wanted a quick GP appointment without leaving work.",
+    "goals": [
+     "Same-day video appointments",
+     "Prescriptions sent to a nearby pharmacy"
+    ],
+    "frustrations": [
+     "Leaving their local GP meant losing in-person access",
+     "Chatbot advice that felt generic or wrong"
+    ]
+   },
+   {
+    "name": "US Medicare patient",
+    "description": "A 70-year-old with several long-term conditions in a Babylon-managed plan.",
+    "goals": [
+     "Affordable, coordinated care",
+     "Help managing chronic conditions"
+    ],
+    "frustrations": [
+     "Care disrupted when Babylon shut down its US business"
+    ]
+   },
+   {
+    "name": "NHS commissioner",
+    "description": "A local NHS manager who funds GP services.",
+    "goals": [
+     "Shorter waiting times",
+     "Fair spending across patients"
+    ],
+    "frustrations": [
+     "GP at Hand took young, healthy patients and their funding away from local practices"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Waiting weeks for a GP appointment in the UK.",
+    "howSolved": "Video GP appointments, often the same day.",
+    "severity": "high"
+   },
+   {
+    "pain": "Not knowing whether symptoms are serious.",
+    "howSolved": "AI symptom checker that suggested next steps. Its accuracy was widely questioned.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Health systems short of doctors.",
+    "howSolved": "Promise that AI would handle simple cases and free up doctors.",
+    "severity": "high"
+   },
+   {
+    "pain": "Long-term conditions managed poorly between visits.",
+    "howSolved": "Health monitoring and coordinated care in the US model.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Travelling to a clinic is hard for busy or remote people.",
+    "howSolved": "Care through a smartphone app.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "AI symptom checker",
+    "whatItDoes": "Chatbot that asked questions and suggested possible conditions and next steps.",
+    "whyItMatters": "The headline promise used to win investors and politicians, but a former employee said it was closer to a decision tree than true AI."
+   },
+   {
+    "feature": "Video GP consultations",
+    "whatItDoes": "24/7 video appointments with GPs.",
+    "whyItMatters": "The part users valued most, but also the most expensive to provide."
+   },
+   {
+    "feature": "GP at Hand",
+    "whatItDoes": "A full NHS GP practice delivered digitally, with some physical clinics.",
+    "whyItMatters": "Brought 100,000 patients, but on a flat fee of roughly £160 per patient per year that did not cover how often they booked."
+   },
+   {
+    "feature": "Value-based care in the US",
+    "whatItDoes": "Babylon took full financial risk for Medicare and Medicaid members' care.",
+    "whyItMatters": "Boosted reported revenue fast but exposed Babylon to large losses when patients needed costly hospital care."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Switching to GP at Hand",
+    "persona": "Young London commuter",
+    "steps": [
+     {
+      "step": "Sees an ad",
+      "detail": "Tube ads promising a GP in minutes."
+     },
+     {
+      "step": "Downloads the app",
+      "detail": "Checks eligibility by postcode."
+     },
+     {
+      "step": "Registers",
+      "detail": "Leaves current GP and joins GP at Hand."
+     },
+     {
+      "step": "Uses chatbot",
+      "detail": "Types symptoms and gets suggestions."
+     },
+     {
+      "step": "Books video consult",
+      "detail": "Sees a GP within hours."
+     },
+     {
+      "step": "Gets prescription",
+      "detail": "Sent to a chosen pharmacy."
+     }
+    ]
+   },
+   {
+    "name": "US value-based care member",
+    "persona": "US Medicare patient",
+    "steps": [
+     {
+      "step": "Assigned to Babylon",
+      "detail": "Through a health plan contract."
+     },
+     {
+      "step": "Gets virtual check-ins",
+      "detail": "Care team calls and app monitoring."
+     },
+     {
+      "step": "Needs hospital care",
+      "detail": "Costs are charged against Babylon's fixed fee."
+     },
+     {
+      "step": "Babylon loses money",
+      "detail": "Care costs exceed payment for many members."
+     },
+     {
+      "step": "Service ends",
+      "detail": "US business closed in August 2023; members moved to other providers."
+     }
+    ]
+   },
+   {
+    "name": "Investor journey",
+    "persona": "NHS commissioner",
+    "steps": [
+     {
+      "step": "Hype",
+      "detail": "Claims in 2018 that AI scored 81% on a GP exam."
+     },
+     {
+      "step": "Big valuation",
+      "detail": "SPAC listing at about $4.2 billion in 2021."
+     },
+     {
+      "step": "Losses grow",
+      "detail": "US risk contracts and global expansion burn cash."
+     },
+     {
+      "step": "Rescue fails",
+      "detail": "Take-private deal with MindMaze collapses in 2023."
+     },
+     {
+      "step": "Bankruptcy",
+      "detail": "UK assets sold to eMed for about £500,000."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Babylon was paid per patient, not per visit. In the UK the NHS paid a yearly fee per registered GP at Hand patient. In the US it was paid a fixed monthly fee per member and had to cover their care costs. It also licensed its software abroad. In both main markets, cost per patient ended up higher than the fee.",
+   "revenueStreams": [
+    {
+     "stream": "US value-based care contracts",
+     "detail": "Fixed per-member fees from Medicare Advantage and Medicaid plans; most of reported revenue by 2022."
+    },
+    {
+     "stream": "NHS GP at Hand",
+     "detail": "Capitation fee per registered patient, roughly £160 a year."
+    },
+    {
+     "stream": "Licensing and partnerships",
+     "detail": "Platform licences to insurers and governments, such as Rwanda and Prudential in Asia."
+    }
+   ],
+   "pricing": "Not public as a consumer price. Free for NHS patients; funded by NHS and US health plans per patient. Private UK subscriptions existed earlier.",
+   "costDrivers": [
+    "Doctors' time for video consultations",
+    "Hospital and specialist costs for US risk-bearing members",
+    "AI research and engineering",
+    "Global expansion and marketing",
+    "Listing and corporate costs after the SPAC"
+   ],
+   "unitEconomics": "Take one GP at Hand patient. The NHS paid about £160 a year. Because booking was easy, patients used far more appointments than at a normal GP, and each GP video slot costs money, so the yearly cost could pass the fee. In the US, Babylon got a fixed fee per member, but one hospital stay could cost tens of thousands of dollars. With little experience managing that risk, Babylon lost money on many members. The more it grew, the more it lost."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "London Tube and billboard ads for GP at Hand",
+    "Political support and NHS partnerships",
+    "Signing large US health plan contracts that added thousands of members at once",
+    "Big media claims about AI matching doctors"
+   ],
+   "whatBringsUsersBack": [
+    "Fast GP access for registered patients",
+    "Ongoing care for chronic conditions in the US"
+   ],
+   "moat": "Babylon had none that held up. Video GP services were easy to copy, the AI was not clearly better than a doctor, and its contracts depended on fees it could not live on."
+  },
+  "competitors": [
+   {
+    "name": "Push Doctor and Livi",
+    "positioning": "UK video GP providers working with the NHS.",
+    "howThisProductDiffers": "They offered video GP without asking patients to leave their local practice; Babylon took over registration."
+   },
+   {
+    "name": "NHS App and local GP online booking",
+    "positioning": "Free digital access built into the NHS.",
+    "howThisProductDiffers": "Less fast but not dependent on one company surviving."
+   },
+   {
+    "name": "Teladoc",
+    "positioning": "Large US virtual care company paid per visit or per member by employers.",
+    "howThisProductDiffers": "Teladoc avoided taking full risk for hospital costs; Babylon took it on."
+   },
+   {
+    "name": "Oak Street Health",
+    "positioning": "US value-based primary care clinics for Medicare patients.",
+    "howThisProductDiffers": "Built physical clinics and risk expertise slowly; Babylon tried to do it fast through software."
+   }
+  ],
+  "northStar": {
+   "metric": "Patients whose health problem was resolved digitally without an avoidable hospital visit (should have been). Babylon chased members and revenue.",
+   "why": "A good north star here is about outcomes. Digital care only creates value if it solves problems and prevents costly care. That would have tied the AI promise to real outcomes and to the per-patient economics."
+  },
+  "kpiTree": [
+   {
+    "metric": "Digital resolution rate",
+    "description": "Share of problems solved in app or video without escalation.",
+    "children": [
+     {
+      "metric": "Chatbot triage accuracy",
+      "description": "How often the AI's advice matched a doctor's."
+     },
+     {
+      "metric": "Repeat visit rate for the same issue",
+      "description": "Shows if the first consult worked."
+     }
+    ]
+   },
+   {
+    "metric": "Cost per patient",
+    "description": "Total yearly cost of caring for one patient.",
+    "children": [
+     {
+      "metric": "Appointments per patient per year",
+      "description": "Easy access raises this."
+     },
+     {
+      "metric": "Hospital admissions per 1,000 members",
+      "description": "The biggest cost in US risk contracts."
+     }
+    ]
+   },
+   {
+    "metric": "Patient retention and satisfaction",
+    "description": "Whether patients stay and are happy.",
+    "children": [
+     {
+      "metric": "Deregistration rate",
+      "description": "Share of GP at Hand patients who leave."
+     },
+     {
+      "metric": "Consult rating",
+      "description": "Patient feedback after appointments."
+     }
+    ]
+   },
+   {
+    "metric": "Contract margin",
+    "description": "Fee per patient minus cost per patient.",
+    "children": [
+     {
+      "metric": "Medical loss ratio",
+      "description": "Share of each fee spent on care."
+     },
+     {
+      "metric": "Fee per member",
+      "description": "Agreed payment from NHS or US plans."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Patient safety incidents and missed diagnoses",
+   "Regulator (CQC) findings",
+   "Cash runway in months",
+   "Medical loss ratio"
+  ],
+  "strengths": [
+   "Showed huge demand for fast, digital GP access",
+   "Strong design and user experience in the app",
+   "Ambitious global partnerships, including Rwanda",
+   "eMed kept some of the UK service running after the sale"
+  ],
+  "weaknesses": [
+   "AI claims far ahead of what the product could do",
+   "Fixed per-patient fees that did not cover usage",
+   "Took full financial risk in the US without the expertise",
+   "Spent heavily on expansion before proving profit in one market",
+   "Depended on political goodwill"
+  ],
+  "risks": [
+   "Health regulators questioning the safety of AI triage",
+   "SPAC investors losing patience as the share price fell",
+   "Rising interest rates in 2022 ending easy funding",
+   "NHS funding rules changing to protect local practices"
+  ],
+  "userComplaints": [
+   "Chatbot gave wrong or unsafe advice in tests, such as missing heart attack symptoms",
+   "Joining GP at Hand meant giving up the local GP",
+   "Hard to get in-person care when needed",
+   "Doctors and GP groups said it cherry-picked healthy patients"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Publish independent accuracy studies before making AI claims",
+    "problem": "AI hype destroyed trust once tests showed errors.",
+    "expectedImpact": "More credibility with regulators and doctors.",
+    "metricToTrack": "Chatbot triage accuracy versus GPs",
+    "effort": "medium"
+   },
+   {
+    "idea": "Offer video GP as an add-on to existing NHS practices instead of replacing them",
+    "problem": "Taking patients from local GPs angered the NHS and created costly usage.",
+    "expectedImpact": "Sustainable contracts and less political risk.",
+    "metricToTrack": "Contract margin per patient",
+    "effort": "medium"
+   },
+   {
+    "idea": "Grow US risk contracts slowly, one region at a time, with caps on losses",
+    "problem": "Taking full risk too fast led to big losses.",
+    "expectedImpact": "Fewer surprise costs.",
+    "metricToTrack": "Medical loss ratio",
+    "effort": "high"
+   },
+   {
+    "idea": "Use AI first to save doctor time on notes and triage queues, not to replace diagnosis",
+    "problem": "AI diagnosis was not reliable enough.",
+    "expectedImpact": "Lower cost per consult with lower safety risk.",
+    "metricToTrack": "Doctor minutes per consult",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "Do not let the pitch run ahead of the product. Overclaiming AI brought money in, then destroyed trust.",
+   "Understand how you get paid. A flat fee per patient plus very easy access can mean more usage and more losses.",
+   "Prove profit in one market before going global.",
+   "In healthcare, safety and regulators are part of the product, not an afterthought."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Explain why Babylon failed in under two minutes.",
+    "hint": "Cover: AI overpromise, broken per-patient economics in the UK, risky US contracts, too-fast expansion, funding drying up."
+   },
+   {
+    "question": "Making appointments easier increased usage and cost. How would you design GP at Hand differently?",
+    "hint": "Use triage, async messaging, nurse-led care and pricing tied to usage. Measure cost per patient and outcomes."
+   },
+   {
+    "question": "How would you measure whether an AI symptom checker is safe to launch?",
+    "hint": "Define accuracy vs doctors, false negatives for serious conditions, pilot design, guardrails and escalation."
+   },
+   {
+    "question": "Babylon took full financial risk for US patients. What questions would you ask before signing such a contract?",
+    "hint": "Patient mix, historical costs, hospital network, stop-loss protection, data to predict risk."
+   },
+   {
+    "question": "Compare Babylon with Hims & Hers. Why did one grow and one fail?",
+    "hint": "Cash-pay vs fixed fee, narrow conditions vs full primary care, product claims, unit economics."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "SPAC",
+    "meaning": "A listed shell company that merges with a private company to take it public without a normal IPO."
+   },
+   {
+    "term": "Capitation",
+    "meaning": "A payment model where a provider gets a fixed amount per patient regardless of how much care they use."
+   },
+   {
+    "term": "Value-based care",
+    "meaning": "A model where providers are paid for keeping patients healthy, often a fixed fee per patient with shared risk."
+   },
+   {
+    "term": "Medical loss ratio",
+    "meaning": "The share of each fee that goes to paying for patients' care."
+   },
+   {
+    "term": "Triage",
+    "meaning": "Deciding how urgent a medical problem is and where the patient should go."
+   },
+   {
+    "term": "CQC",
+    "meaning": "The Care Quality Commission, which inspects health services in England."
+   },
+   {
+    "term": "Unit economics",
+    "meaning": "How much money a business makes or loses on one customer."
+   },
+   {
+    "term": "Valuation",
+    "meaning": "What investors think the whole company is worth."
+   },
+   {
+    "term": "North star",
+    "meaning": "The one metric a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "The roughly £160 per patient NHS fee is as reported by The Week; exact rates varied by year and patient.",
+   "The claim that US contracts were most of revenue by 2022 is from general reporting; exact splits were not checked here.",
+   "The listing was through a SPAC merger with Alkuri Global, as widely reported.",
+   "Current status of the babylonhealth.com website was not checked; the original company no longer operates."
+  ]
+ }
+}

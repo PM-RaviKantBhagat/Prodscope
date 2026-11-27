@@ -1,0 +1,214 @@
+{
+  "company": "Google Maps",
+  "domain": "maps.google.com",
+  "website": "https://maps.google.com",
+  "sources": [
+    "https://abc7news.com/post/google-overhauls-maps-app-adding-more-ai-features-help-people-get-around/18706200/",
+    "https://restofworld.org/2025/google-maps-india-misdirection-fatal-accidents/",
+    "https://scroll.in/article/1078865/why-is-google-maps-misdirecting-users-in-india",
+    "https://www.outlookbusiness.com/news/google-maps-wrong-direction-in-up-accident-triggers-accountability-debate",
+    "https://www.indiatvnews.com/technology/news/mappls-vs-google-maps-5-features-that-make-india-s-homegrown-navigation-app-smarter-for-indian-roads-2025-10-20-1013573",
+    "https://www.team-bhp.com/forum/street-experiences/219786-google-maps-vs-other-navigation-services-7.html"
+  ],
+  "report": {
+    "company": "Google Maps",
+    "tagline": "The world's most used map app, for directions, traffic, finding places and checking reviews, now with Gemini AI to answer questions about where to go.",
+    "category": "Maps",
+    "simpleSummary": "Google Maps shows you where you are and how to get somewhere by car, bike, bus, metro or on foot, with live traffic. You can also search for a restaurant, a petrol pump or a doctor, read reviews, see photos and call or book. In 2026 Google added Ask Maps, where you type a question like 'a cafe near me with short lines and a charging point' and Gemini answers. Maps is free, and Google earns from businesses that pay for ads and from developers who pay to use Maps in their apps.",
+    "keyNumbers": [
+      {"label": "Users", "value": "More than 2 billion", "note": "Google figure, reported March 2026."},
+      {"label": "Places in the database", "value": "Over 300 million", "note": "Google, March 2026."},
+      {"label": "Review and photo contributors", "value": "Over 500 million", "note": "Google, March 2026."},
+      {"label": "Yearly revenue", "value": "Roughly $10 billion or more", "note": "Weak estimate from analyst reports (2023 to 2024). Google does not report Maps revenue separately."},
+      {"label": "Ask Maps launch markets", "value": "US and India first", "note": "Launched on mobile in March 2026, then expanding."}
+    ],
+    "overview": {
+      "whatItDoes": "Google Maps is a free map, navigation and local search app on Android, iPhone, the web and cars. It gives turn-by-turn directions with live traffic, public transport routes, and a directory of places with reviews. Businesses list themselves for free through a Google Business Profile, and pay for ads to appear higher.",
+      "howItWorks": [
+        "Google builds maps from satellite images, Street View cars, government data and user edits.",
+        "Phones running Maps share anonymous location speeds, which powers live traffic and arrival times.",
+        "Users search for places; results mix free Business Profiles with paid promoted pins and ads.",
+        "Users add reviews, photos and ratings, which help others choose and keep data fresh.",
+        "Developers like Uber, Zomato or Swiggy-style apps pay for the Maps Platform APIs for maps, routes and place data.",
+        "Gemini powers Ask Maps and Immersive Navigation, a 3D driving view with route pros and cons."
+      ],
+      "valueProposition": "For users: get anywhere and find anything nearby, free, with live traffic. For businesses: be found by people who are nearby and ready to visit."
+    },
+    "personas": [
+      {"name": "Daily commuter in Bengaluru", "description": "An office worker driving or taking the metro daily through heavy traffic.", "goals": ["Fastest route", "Accurate arrival time", "Avoid jams"], "frustrations": ["Routes through narrow lanes", "Wrong turn instructions near flyovers", "Arrival times off in rain"]},
+      {"name": "Traveller in a new city", "description": "A tourist or business traveller.", "goals": ["Find good food and sights", "Use public transport", "Work offline"], "frustrations": ["Fake or paid reviews", "Closed places shown as open"]},
+      {"name": "Local business owner", "description": "A restaurant or clinic owner in Pune.", "goals": ["Show up in 'near me' searches", "Get good reviews", "Get calls and visits"], "frustrations": ["Fake negative reviews", "Hard to reach Google support", "Competitors editing listing info"]},
+      {"name": "App developer", "description": "A startup building a delivery or ride app.", "goals": ["Reliable maps and routing", "Low cost per request"], "frustrations": ["API pricing at scale", "Cheaper alternatives like Ola Maps and Mappls"]}
+    ],
+    "painPoints": [
+      {"pain": "Getting lost in an unfamiliar place.", "howSolved": "Turn-by-turn voice directions in many Indian languages.", "severity": "high"},
+      {"pain": "Not knowing how bad traffic is.", "howSolved": "Live traffic and arrival times from millions of phones.", "severity": "high"},
+      {"pain": "Finding a trusted place nearby.", "howSolved": "Ratings, reviews, photos and opening hours.", "severity": "high"},
+      {"pain": "Public transport is confusing.", "howSolved": "Bus, metro and train routes with live timings in many cities.", "severity": "medium"},
+      {"pain": "Small businesses cannot afford big marketing.", "howSolved": "Free Business Profile and local ads.", "severity": "medium"},
+      {"pain": "Complex trip questions are hard to search.", "howSolved": "Ask Maps answers in plain language with Gemini.", "severity": "low"}
+    ],
+    "coreFeatures": [
+      {"feature": "Navigation with live traffic", "whatItDoes": "Turn-by-turn directions with arrival times and rerouting.", "whyItMatters": "The daily habit that brings users back."},
+      {"feature": "Local search and Business Profiles", "whatItDoes": "Search and listings for shops, restaurants and services.", "whyItMatters": "The main way Maps makes money, through local ads."},
+      {"feature": "Reviews and Local Guides", "whatItDoes": "User reviews and photos, with points for contributors.", "whyItMatters": "Free, fresh content that rivals cannot easily copy."},
+      {"feature": "Ask Maps", "whatItDoes": "Gemini-based chat answers about places and routes.", "whyItMatters": "Keeps Maps ahead as AI chat becomes how people search."},
+      {"feature": "India features", "whatItDoes": "Flyover and narrow road alerts, two-wheeler mode, metro ticket booking in some cities, accident-prone area alerts.", "whyItMatters": "Fits Indian roads and builds trust in a huge market."},
+      {"feature": "Maps Platform APIs", "whatItDoes": "Maps, routes and places data for other apps.", "whyItMatters": "Steady B2B revenue from developers."}
+    ],
+    "userJourneys": [
+      {"name": "Daily drive to work", "persona": "Daily commuter in Bengaluru", "steps": [
+        {"step": "Opens app", "detail": "Taps the saved 'Work' shortcut."},
+        {"step": "Compares routes", "detail": "Sees 3 routes with time and traffic colours."},
+        {"step": "Starts navigation", "detail": "Follows voice directions in Kannada or English."},
+        {"step": "Gets rerouted", "detail": "Maps suggests a faster route after a jam."},
+        {"step": "Reports", "detail": "Taps to report a waterlogged road."},
+        {"step": "Arrives", "detail": "Checks parking nearby."}
+      ]},
+      {"name": "Finding dinner", "persona": "Traveller in a new city", "steps": [
+        {"step": "Asks Maps", "detail": "Types 'quiet South Indian place open now for family'."},
+        {"step": "Gets suggestions", "detail": "Ask Maps lists places with reasons."},
+        {"step": "Checks reviews", "detail": "Reads recent reviews and photos."},
+        {"step": "Calls or books", "detail": "Taps call or reserves a table."},
+        {"step": "Navigates", "detail": "Walks there using directions."},
+        {"step": "Reviews", "detail": "Gets a prompt to rate the place."}
+      ]},
+      {"name": "Business getting found", "persona": "Local business owner", "steps": [
+        {"step": "Claims listing", "detail": "Verifies the Business Profile."},
+        {"step": "Adds details", "detail": "Uploads hours, photos and menu."},
+        {"step": "Collects reviews", "detail": "Asks customers to leave reviews."},
+        {"step": "Runs local ads", "detail": "Pays for a promoted pin or local search ad."},
+        {"step": "Tracks", "detail": "Sees calls, direction requests and visits in the dashboard."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Google Maps is free to users. It makes money from local businesses that pay for ads in Maps and Search, from developers who pay to use Maps data in their apps, and indirectly by feeding location knowledge into Google Search ads.",
+      "revenueStreams": [
+        {"stream": "Local ads", "detail": "Promoted pins and ads in Maps search results, paid per click or action like a call or direction request."},
+        {"stream": "Maps Platform APIs", "detail": "Developers pay per map load, route or place request after a free tier."},
+        {"stream": "Support for Search ads", "detail": "Local results and place data make Search ads more valuable."},
+        {"stream": "Automotive", "detail": "Google built-in maps in cars from carmakers."}
+      ],
+      "pricing": "Free for users. Business Profiles are free. Ads are bought through Google Ads on a pay-per-click or pay-per-action basis. Maps Platform charges per request after free monthly usage; Google cut API prices in India in 2024 after Ola Maps launched a cheaper rival.",
+      "costDrivers": [
+        "Street View cars and imagery",
+        "Data from governments and partners",
+        "Map editing and quality teams",
+        "Servers for routing billions of trips",
+        "AI computing for Gemini features"
+      ],
+      "unitEconomics": "Think of one restaurant in Pune that pays ₹10,000 a month for local ads. If each click or direction request costs around ₹10 to ₹20, it gets 500 to 1,000 high-intent actions. Google's extra cost to show those ads is tiny because Maps is already built. Most of the value is from users who search 'near me' and are ready to visit. For an ordinary user, Maps costs Google a few rupees a year to serve but makes them more likely to use Google Search and click local ads."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Pre-installed on almost every Android phone",
+        "Search results that open in Maps",
+        "Android Auto, CarPlay and cars with Google built in",
+        "Shared links in WhatsApp for locations"
+      ],
+      "whatBringsUsersBack": [
+        "Daily commutes and trips",
+        "Looking up places and opening hours",
+        "Local Guides points and badges",
+        "Timeline and saved places"
+      ],
+      "moat": "Maps has a data network effect: billions of users give live traffic, reviews and edits, which make Maps better, which brings more users. Rivals can buy satellite images but not this constant stream of fresh data. Being pre-installed on Android adds a distribution moat."
+    },
+    "competitors": [
+      {"name": "Apple Maps", "positioning": "Default map on iPhones, strong privacy message.", "howThisProductDiffers": "Google Maps has more place data and reviews, and works on all phones."},
+      {"name": "Mappls (MapmyIndia)", "positioning": "Indian map app with detailed Indian road data, speed bump and pothole alerts.", "howThisProductDiffers": "Google has many more users and reviews; Mappls has deeper Indian road detail and government support."},
+      {"name": "Ola Maps", "positioning": "Ola's map platform, cheaper APIs for Indian developers.", "howThisProductDiffers": "Google has better global coverage; Ola competes on API price."},
+      {"name": "Waze", "positioning": "Community driving app, also owned by Google.", "howThisProductDiffers": "Maps covers all transport and places; Waze focuses on drivers."},
+      {"name": "AI assistants like ChatGPT", "positioning": "Recommending places in chat.", "howThisProductDiffers": "Maps has live data, reviews and navigation built in."}
+    ],
+    "northStar": {
+      "metric": "Number of trips and place visits completed with Maps each week",
+      "why": "This north star metric shows that Maps helped someone get somewhere or find a place, which is the core value and what local businesses pay for."
+    },
+    "kpiTree": [
+      {"metric": "Navigation trips", "description": "Trips guided by Maps.", "children": [
+        {"metric": "Weekly active navigators", "description": "Users who start navigation each week."},
+        {"metric": "Arrival time accuracy", "description": "How close the prediction is to reality."},
+        {"metric": "Rerouting complaints", "description": "Bad routes reduce trust."}
+      ]},
+      {"metric": "Place discovery", "description": "Users finding places.", "children": [
+        {"metric": "Local searches per user", "description": "How often users search for places."},
+        {"metric": "Ask Maps queries", "description": "New AI search usage."},
+        {"metric": "Actions per search", "description": "Calls, directions or bookings."}
+      ]},
+      {"metric": "Data freshness", "description": "How up to date the map is.", "children": [
+        {"metric": "Edits and reports per week", "description": "User fixes like closed roads."},
+        {"metric": "Review volume", "description": "New reviews keep data fresh."}
+      ]},
+      {"metric": "Business participation", "description": "Businesses active on Maps.", "children": [
+        {"metric": "Verified Business Profiles", "description": "More complete listings."},
+        {"metric": "Advertisers using local ads", "description": "Paying businesses."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Navigation-linked safety incidents",
+      "Share of fake or removed reviews",
+      "Arrival time error"
+    ],
+    "strengths": [
+      "Over 2 billion users and pre-installed on Android",
+      "Richest place and review database in the world",
+      "Live traffic data from huge user base",
+      "Fast AI rollout with Gemini"
+    ],
+    "weaknesses": [
+      "Mistakes on Indian roads, including routes to unfinished bridges",
+      "Fake reviews and spammy listings",
+      "Monetisation of Maps is small compared with its usage",
+      "Not the default on iPhones"
+    ],
+    "risks": [
+      "Legal and public pressure after accidents blamed on Maps in India",
+      "Government push for Indian alternatives like Mappls",
+      "Cheaper map APIs from Ola and others",
+      "Privacy regulation on location data"
+    ],
+    "userComplaints": [
+      "Routes into narrow lanes, closed roads or under-construction bridges in India",
+      "Arrival times that are wrong in heavy rain",
+      "Fake reviews and paid ratings",
+      "Business owners unable to remove false information",
+      "Voice directions confusing near flyovers and service roads"
+    ],
+    "improvementIdeas": [
+      {"idea": "Verified road closures from local police and public works departments", "problem": "Routes to unsafe or closed roads in India.", "expectedImpact": "Fewer dangerous routes and more trust.", "metricToTrack": "Routing incidents reported per million trips", "effort": "high"},
+      {"idea": "Verified visit badge on reviews", "problem": "Fake reviews.", "expectedImpact": "More trustworthy ratings.", "metricToTrack": "Share of reviews flagged as fake", "effort": "medium"},
+      {"idea": "Ask Maps sponsored suggestions with clear labels", "problem": "Maps earns little compared with usage.", "expectedImpact": "New revenue from AI search.", "metricToTrack": "Revenue per 1,000 Ask Maps queries", "effort": "medium"},
+      {"idea": "Monsoon mode with waterlogging alerts", "problem": "Wrong arrival times and flooded roads.", "expectedImpact": "Better accuracy in rain.", "metricToTrack": "Arrival time error on rainy days", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "User contributions can be a moat: every review and traffic signal makes the product better.",
+      "Free products still need a money plan; Maps earns through local ads and APIs, not from users.",
+      "In new markets, local details like flyovers and two-wheelers decide trust.",
+      "Safety failures in the real world hurt a digital product's trust far more than small bugs."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you improve Google Maps for two-wheeler riders in India?", "hint": "Persona, top pains (narrow lanes, rain, parking), ideas, metric like completed trips per rider."},
+      {"question": "How should Google Maps make more money without annoying users?", "hint": "Local ads, Ask Maps sponsored results, bookings. Guardrails on trust and relevance."},
+      {"question": "Measure the success of Ask Maps.", "hint": "Adoption, queries per user, actions taken, repeat use, accuracy. Compare against normal search."},
+      {"question": "A news story says Maps led a car to an unfinished bridge. What do you do?", "hint": "Immediate fix, root cause (data freshness), process with local authorities, metrics to track."},
+      {"question": "What is Google Maps' north star metric?", "hint": "Trips and visits completed. Break into navigation, discovery, data freshness, business participation."}
+    ],
+    "glossary": [
+      {"term": "API", "meaning": "A way for other apps to use a service's features or data, here Google's maps."},
+      {"term": "Business Profile", "meaning": "A free listing a business sets up on Google Maps and Search."},
+      {"term": "Local ads", "meaning": "Ads that show nearby businesses to people searching on Maps."},
+      {"term": "Network effect", "meaning": "When a product gets better as more people use it."},
+      {"term": "Monetisation", "meaning": "How a product earns money."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Guardrails", "meaning": "Limits that stop a change from hurting users or the business."}
+    ],
+    "assumptions": [
+      "Maps revenue is not reported; the $10 billion figure is a weak analyst estimate.",
+      "The ₹10,000 restaurant ad example and cost per action are illustrative.",
+      "India features listed are from Google announcements in 2023 to 2025 and may differ by city.",
+      "We assume Ask Maps ads are not yet live, since Google declined to say in March 2026."
+    ]
+  }
+}

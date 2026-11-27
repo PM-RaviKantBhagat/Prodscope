@@ -1,0 +1,213 @@
+{
+  "company": "Dream11",
+  "domain": "dream11.com",
+  "website": "https://dream11.com",
+  "sources": [
+    "https://yourstory.com/2026/08/dream11-pivots-to-sports-engagement-platform",
+    "https://www.business-standard.com/companies/news/dream11-free-to-play-shifts-focus-ads-sponsorships-125092300787_1.html",
+    "https://www.business-standard.com/companies/news/dream11-rmg-ban-new-strategy-revenue-loss-layoffs-125082600219_1.html",
+    "https://www.outlookbusiness.com/news/dream-sports-splits-into-eight-independent-start-ups-after-real-money-gaming-ban",
+    "https://www.outlookbusiness.com/news/dream11-looks-to-exit-358-cr-jersey-sponsorship-deal-with-bcci-after-gaming-ban",
+    "https://www.outlookbusiness.com/news/dream11-pivots-to-second-screen-sports-entertainment-after-real-money-gaming-ban",
+    "https://inc42.com/features/dream11s-gap-year-hitting-reset-after-the-rmg-crisis",
+    "https://respawn.outlookindia.com/gaming/gaming-news/dream-sports-records-100-exits-after-rmg-ban-in-india"
+  ],
+  "report": {
+    "company": "Dream11",
+    "tagline": "Once India's biggest fantasy cricket app for cash prizes, now a free sports fan app after the 2025 ban on real-money gaming.",
+    "category": "Fantasy sports",
+    "simpleSummary": "Until 2025, Dream11 let you pick a team of real cricketers before a match, pay a small entry fee, and win cash if your players did well. In August 2025, India passed a law banning all online games played for money. Dream11 had to drop paid contests overnight. It is now a free app for following matches with friends, with live scores, commentary, community chat and free contests, and it plans to earn from ads and sponsors.",
+    "keyNumbers": [
+      {"label": "Revenue (FY24)", "value": "₹8,345.9 crore", "note": "Dream11 filings reported by YourStory, August 2026. Almost all of this came from paid contests."},
+      {"label": "Revenue (FY25)", "value": "₹7,374.4 crore, down about 11.6%", "note": "Same source. FY25 ended March 2025, before the ban."},
+      {"label": "Net result", "value": "Profit of ₹1,295 crore in FY24, loss of ₹479 crore in FY25", "note": "Same source. The 28% GST on deposits from October 2023 is a likely cause of the swing."},
+      {"label": "Registered users (before ban)", "value": "About 22 crore (220 million)", "note": "Company figure widely quoted 2024 to 2025. Active users after the ban are not public. Weak estimate."},
+      {"label": "BCCI jersey deal it exited", "value": "₹358 crore", "note": "Outlook Business, 2025. Dream11 left Team India's jersey deal after the ban."},
+      {"label": "Last known valuation (Dream Sports)", "value": "About $8 billion", "note": "From its 2021 to 2022 funding rounds. Almost certainly much lower now. Weak estimate."}
+    ],
+    "overview": {
+      "whatItDoes": "Dream11 is a sports app owned by Dream Sports. Before October 2025 it ran fantasy sports contests where users paid to enter and won cash prizes. The Promotion and Regulation of Online Gaming Act, 2025 banned every online game with money at stake from 1 October 2025. Dream11 removed all cash contests and relaunched as a free 'second-screen' app you use while watching a match.",
+      "howItWorks": [
+        "You open the app before or during a match and see live scores, stats and commentary.",
+        "You can still build a fantasy team, but contests are free and there is no cash prize.",
+        "You join community rooms and watch-along streams to chat with other fans live.",
+        "The app personalises content around your favourite teams and players using AI.",
+        "Dream11 earns from ads and brand sponsorships instead of a cut of entry fees.",
+        "Its parent Dream Sports split into eight separate startups, including FanCode and stockbroking app DreamStreet."
+      ],
+      "valueProposition": "Old promise: turn your cricket knowledge into cash. New promise: make watching a match more fun with friends, stats and free games."
+    },
+    "personas": [
+      {"name": "Daily cricket fantasy player", "description": "A 24-year-old in a tier-2 city who played paid contests for ₹49 most match days.", "goals": ["Feel more involved in every match", "Prove cricket knowledge", "Compete with friends"], "frustrations": ["Paid contests are gone", "Free contests feel less exciting", "Lost money in the past and some regret it"]},
+      {"name": "Casual IPL fan", "description": "Watches IPL on JioHotstar and wants something to do on the phone during the match.", "goals": ["Live scores and quick stats", "Banter with friends", "Light free games"], "frustrations": ["Too many apps", "Ads that interrupt", "Slow live updates"]},
+      {"name": "Brand marketer", "description": "Runs campaigns for a phone or drinks brand during IPL.", "goals": ["Reach young male cricket fans", "Run sponsored contests", "Measure engagement"], "frustrations": ["Unclear how many active users remain after the ban", "JioHotstar and Cricbuzz offer bigger reach"]}
+    ],
+    "painPoints": [
+      {"pain": "Watching a match alone feels passive.", "howSolved": "Free fantasy teams, predictions and live chat rooms make you part of it.", "severity": "medium"},
+      {"pain": "Hard to get fast, deep stats during a game.", "howSolved": "Live player points, scores and AI summaries in one app.", "severity": "medium"},
+      {"pain": "Fans want to compete with friends.", "howSolved": "Private free leagues and leaderboards.", "severity": "medium"},
+      {"pain": "Paid fantasy games led some users to lose money and get hooked.", "howSolved": "Since the ban, there is no money at stake. This was the law's main goal.", "severity": "high"},
+      {"pain": "Brands find it hard to reach engaged cricket fans.", "howSolved": "Sponsored contests and in-app ads during matches.", "severity": "low"}
+    ],
+    "coreFeatures": [
+      {"feature": "Free fantasy contests", "whatItDoes": "Pick 11 real players and earn points from their real match performance, with no entry fee.", "whyItMatters": "Keeps the habit and skill users already have, without breaking the law."},
+      {"feature": "Live match centre", "whatItDoes": "Ball-by-ball scores, stats and fantasy points.", "whyItMatters": "Gives a reason to open the app during the match, when ads are most valuable."},
+      {"feature": "Community and watch-along streams", "whatItDoes": "Live rooms where fans and creators talk about the match.", "whyItMatters": "Social features drive time spent, which is what advertisers pay for."},
+      {"feature": "AI personalisation", "whatItDoes": "Shows content for your favourite teams, leagues and players.", "whyItMatters": "Makes the free app feel worth opening across many sports, not just IPL."},
+      {"feature": "Sponsored contests", "whatItDoes": "Brands fund free contests with non-cash rewards.", "whyItMatters": "A legal way to keep some prize excitement and earn sponsor money."}
+    ],
+    "userJourneys": [
+      {"name": "Old journey: paid contest (before October 2025)", "persona": "Daily cricket fantasy player", "steps": [
+        {"step": "Opens app before toss", "detail": "Sees contests from ₹10 to ₹10,000 entry."},
+        {"step": "Builds a team", "detail": "Picks 11 players within 100 credits, chooses captain and vice-captain."},
+        {"step": "Adds money", "detail": "Deposits via UPI, pays 28% GST on the deposit."},
+        {"step": "Joins contest", "detail": "Pays entry; Dream11 keeps a platform fee."},
+        {"step": "Watches points live", "detail": "Checks rank as the match goes on."},
+        {"step": "Wins or loses", "detail": "Most users lose; a few win prizes, some very large."}
+      ]},
+      {"name": "New journey: free second-screen match", "persona": "Casual IPL fan", "steps": [
+        {"step": "Gets match alert", "detail": "Notification before an India match."},
+        {"step": "Makes a free team", "detail": "Builds a fantasy team in a minute."},
+        {"step": "Joins a friends league", "detail": "Shares a link on WhatsApp."},
+        {"step": "Watches on TV, chats in app", "detail": "Opens the community room during overs."},
+        {"step": "Sees sponsored poll", "detail": "Answers a brand-sponsored prediction."},
+        {"step": "Checks leaderboard", "detail": "Sees rank among friends after the match."}
+      ]},
+      {"name": "Brand campaign", "persona": "Brand marketer", "steps": [
+        {"step": "Briefs Dream11", "detail": "Wants reach during the IPL final."},
+        {"step": "Picks format", "detail": "Sponsored free contest plus banner ads."},
+        {"step": "Sets rewards", "detail": "Non-cash rewards like merchandise or match tickets."},
+        {"step": "Campaign runs", "detail": "Shown to fans of chosen teams."},
+        {"step": "Reviews results", "detail": "Gets engagement and reach reports."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Dream11 used to make money from one thing: a cut of every paid contest entry. That model is now illegal in India. The new plan is to make money from ads and sponsorships on a free app, which earns far less per user.",
+      "revenueStreams": [
+        {"stream": "Platform fee on paid contests (ended)", "detail": "Dream11 kept a share of each entry pool, often estimated at 10% to 20%. This was nearly all of its ₹7,374 crore FY25 revenue and stopped in October 2025."},
+        {"stream": "Advertising", "detail": "Ads shown during live matches inside the app."},
+        {"stream": "Sponsorships", "detail": "Brands funding free contests and features."},
+        {"stream": "Sister businesses", "detail": "FanCode (sports streaming and merchandise) and DreamStreet (stockbroking) are now separate startups under Dream Sports."}
+      ],
+      "pricing": "Free to use since October 2025. No paid contests.",
+      "costDrivers": [
+        "Sports data and rights for live stats",
+        "Servers to handle crores of users during big matches",
+        "Marketing, though much lower after leaving sponsorships like the BCCI jersey",
+        "Staff, cut after more than 100 senior exits and a restructuring"
+      ],
+      "unitEconomics": "Before the ban: a user paying ₹49 per contest across 100 match days spent about ₹4,900 a year, and Dream11 kept perhaps 15%, roughly ₹700, before the 28% GST hit. After the ban: the same user may see ads worth maybe ₹30 to ₹100 a year to Dream11, based on typical Indian ad rates for app users. That is a fall of roughly 90% in revenue per user, which is why the company had to shrink and split. These are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Huge existing user base and brand from years of TV ads and team sponsorships",
+        "IPL and India match seasons, when cricket interest peaks",
+        "Friends inviting friends to free leagues",
+        "Creators running watch-along streams"
+      ],
+      "whatBringsUsersBack": [
+        "Every match is a new reason to make a team",
+        "Leaderboards against friends",
+        "Live chat during matches",
+        "Personalised alerts for favourite teams and players"
+      ],
+      "moat": "Before the ban, the moat was brand, trust in fast payouts and the biggest prize pools. That moat is mostly gone, because prize money is gone. What is left is brand recall, a large list of cricket fans and deep match-data tech. The free app has to win on fun and community, where rivals like JioHotstar and Cricbuzz are strong."
+    },
+    "competitors": [
+      {"name": "JioHotstar", "positioning": "Streams IPL and India cricket, adds free fantasy and prediction games.", "howThisProductDiffers": "JioHotstar owns the video. Dream11 must be the companion app, which is a weaker spot."},
+      {"name": "Cricbuzz and ESPNcricinfo", "positioning": "Top apps for live scores and cricket news.", "howThisProductDiffers": "They own the score habit. Dream11 adds games and community."},
+      {"name": "My11Circle (Games24x7) and MPL", "positioning": "Former paid fantasy rivals, also forced to pivot or exit.", "howThisProductDiffers": "All face the same ban. Dream11 has the biggest brand among them."},
+      {"name": "Social apps like WhatsApp and X", "positioning": "Where fans already chat about matches.", "howThisProductDiffers": "Dream11 offers structure: teams, points, leaderboards."}
+    ],
+    "northStar": {
+      "metric": "Weekly match-day engaged fans (users who make a free team or join a live room on a match day)",
+      "why": "In the free model, value is how often fans use the app to enjoy a match. Engaged time on match days is also what advertisers pay for."
+    },
+    "kpiTree": [
+      {"metric": "Match-day reach", "description": "Users who open the app on a match day.", "children": [
+        {"metric": "Push notification open rate", "description": "Share of match alerts that get opened."},
+        {"metric": "Returning old paid users", "description": "Share of pre-ban active users who still open the app."},
+        {"metric": "New installs per series", "description": "Fresh users during IPL or India series."}
+      ]},
+      {"metric": "Free team creation rate", "description": "Share of visitors who make a fantasy team.", "children": [
+        {"metric": "Time to build a team", "description": "Seconds from opening to saving a team."},
+        {"metric": "Friends league joins", "description": "Number of private leagues joined."}
+      ]},
+      {"metric": "Live room participation", "description": "Share of users who join a community room or stream.", "children": [
+        {"metric": "Messages per active user", "description": "How much people chat during a match."},
+        {"metric": "Creator streams per match", "description": "Supply of watch-along content."}
+      ]},
+      {"metric": "Ad and sponsor revenue per engaged fan", "description": "Money earned per engaged user.", "children": [
+        {"metric": "Ad views per session", "description": "Ads seen without hurting experience."},
+        {"metric": "Sponsored contest fill rate", "description": "Share of contest slots sold to brands."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Legal compliance: zero features that involve money at stake",
+      "Uninstall rate during big matches",
+      "App crash rate at peak load",
+      "User complaints about ads"
+    ],
+    "strengths": [
+      "Best-known fantasy sports brand in India",
+      "Tech that handled crores of users at once during IPL",
+      "Strong team and cash reserves from years of profit",
+      "Sister businesses like FanCode to fall back on"
+    ],
+    "weaknesses": [
+      "Lost almost all its revenue when paid contests ended",
+      "Free fantasy is far less sticky without prize money",
+      "Does not own match video, so it is always the second screen",
+      "Loss-making in FY25 even before the ban"
+    ],
+    "risks": [
+      "The ban stays and ad income never comes close to old revenue",
+      "JioHotstar adds better free games inside the video app",
+      "Users move to illegal offshore betting apps",
+      "Talent loss after 100+ senior exits",
+      "Further rules on ads or data for sports apps"
+    ],
+    "userComplaints": [
+      "Users say free contests are boring without prizes",
+      "Confusion and worry about withdrawing old wallet balances when the ban came in",
+      "Past complaints of losing money and addiction to paid contests",
+      "Fewer reasons to open the app outside IPL"
+    ],
+    "improvementIdeas": [
+      {"idea": "Season-long free leagues with real-world rewards like match tickets and jerseys, paid by sponsors", "problem": "Free contests lack excitement.", "expectedImpact": "More match-day engagement and a clear product to sell to brands.", "metricToTrack": "Weekly match-day engaged fans", "effort": "medium"},
+      {"idea": "One-tap team copy from friends and AI-suggested teams", "problem": "Building a team takes effort for casual fans.", "expectedImpact": "Higher free team creation rate.", "metricToTrack": "Free team creation rate", "effort": "low"},
+      {"idea": "Partner with a streaming app for synced overlays", "problem": "Dream11 does not own match video.", "expectedImpact": "More sessions during matches.", "metricToTrack": "Sessions per match day", "effort": "high"},
+      {"idea": "Year-round content for non-cricket sports (football, kabaddi)", "problem": "Usage drops outside cricket seasons.", "expectedImpact": "Steadier weekly users.", "metricToTrack": "Weekly active users in off-season months", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "If one rule can make your main revenue illegal, regulation is not a side risk, it is the business risk. Plan for it early.",
+      "A pivot keeps your users only if the new product still solves their real job. For many users, the job was winning money, not fantasy itself.",
+      "Ad-supported apps earn far less per user than paid ones, so the cost base must shrink to match.",
+      "Your old moat can disappear overnight. Know which parts of it, like brand and tech, carry over."
+    ],
+    "interviewQuestions": [
+      {"question": "The government bans paid contests tomorrow. You are Dream11's PM. What do you do in the first 90 days?", "hint": "Protect users (refunds, clear messages), keep the habit (free contests), cut costs, test new revenue. Name a metric for each phase."},
+      {"question": "How would you make free fantasy sports engaging without cash prizes?", "hint": "Think social status, friends leagues, sponsored rewards, streaks. Measure engagement, not just installs."},
+      {"question": "What should the north star metric be after the pivot?", "hint": "Pick match-day engaged fans, explain why revenue per user is a guardrail, not the north star."},
+      {"question": "Should Dream11 move into a market where paid fantasy is still legal?", "hint": "Weigh market size, competition (DraftKings, FanDuel in the US), regulation, and whether the brand travels."},
+      {"question": "How would you sell Dream11 to advertisers?", "hint": "Define audience, engagement time, formats like sponsored contests, proof through case studies."}
+    ],
+    "glossary": [
+      {"term": "Fantasy sports", "meaning": "A game where you pick real players and score points from how they perform in real matches."},
+      {"term": "Real-money gaming", "meaning": "Online games where you pay to play and can win cash."},
+      {"term": "Platform fee", "meaning": "The share of each contest's entry money the app keeps."},
+      {"term": "Pivot", "meaning": "A big change in what a company sells or how it makes money."},
+      {"term": "Second-screen", "meaning": "An app people use on their phone while watching something on TV."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "Revenue per user", "meaning": "Total revenue divided by the number of users, showing how much each user is worth."},
+      {"term": "Guardrail", "meaning": "A metric that must not get worse while you try to improve another one."}
+    ],
+    "assumptions": [
+      "The platform fee share of 10% to 20% is an industry estimate.",
+      "Post-ban ad revenue per user is an estimate based on typical Indian ad rates.",
+      "Registered user figure is from pre-ban company claims; current active users are unknown.",
+      "The FY25 loss is likely linked to the 28% GST on deposits, but the exact cause was not confirmed in sources read."
+    ]
+  }
+}

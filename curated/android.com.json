@@ -1,0 +1,213 @@
+{
+  "company": "Android",
+  "domain": "android.com",
+  "website": "https://www.android.com",
+  "sources": [
+    "https://android-developers.googleblog.com/2026/03/a-new-era-for-choice-and-openness.html?hl=ko_KR",
+    "https://reclaimthenet.org/google-opens-android-to-rival-app-stores-after-antitrust-ruling",
+    "https://dev.to/isspicycode/android-2026-google-closes-the-door-what-every-developer-should-know-37p7",
+    "https://gs.statcounter.com/os-market-share/mobile/india",
+    "https://gadgets.beebom.com/news/android-ios-harmonyos-how-mobile-os-share-ranks-in-2026",
+    "https://expandedramblings.com/index.php/android-statistics"
+  ],
+  "report": {
+    "company": "Android",
+    "tagline": "Google's free mobile operating system that runs on most of the world's phones, made by Samsung, Xiaomi, Vivo and hundreds of other brands.",
+    "category": "Mobile operating system",
+    "simpleSummary": "Android is the software that makes most smartphones work: the home screen, settings, notifications and app store. Google gives it free to phone makers like Samsung, Xiaomi, Vivo and Nothing, which is why phones from ₹6,000 to ₹1.5 lakh all run it. Google makes money because those phones come with Google Search, YouTube, Gemini and the Play Store, where Google takes a cut of app sales. In India, about 9 in 10 smartphones run Android.",
+    "keyNumbers": [
+      {"label": "Active Android devices", "value": "Over 3 billion", "note": "Google's last public figure, first given in 2021 and still cited. Likely higher in 2026; not updated."},
+      {"label": "Global mobile OS share", "value": "About 70% to 72%", "note": "StatCounter, 2025 to 2026. Estimate; varies by month."},
+      {"label": "India mobile OS share", "value": "About 90% to 95%", "note": "StatCounter India, 2025 to 2026. Estimate."},
+      {"label": "Play Store service fee on new installs", "value": "20% (subscriptions 10%)", "note": "New fee structure announced March 2026 for the US, UK and EEA, with rest of world by September 2027. Billing fee of 5% is separate."},
+      {"label": "CCI penalty in India", "value": "₹1,337.76 crore", "note": "Competition Commission of India fine on Google over Android practices, 2022."}
+    ],
+    "overview": {
+      "whatItDoes": "Android is an open-source operating system for phones, tablets, TVs, watches and cars. Google develops it and releases a new version each year. Phone makers can use the free open-source code, but most also license Google Mobile Services (Play Store, Search, Maps, YouTube, Gemini), which comes with rules on what they must pre-install.",
+      "howItWorks": [
+        "Google builds Android and releases the code as the Android Open Source Project.",
+        "Phone makers add their own skins, like Samsung One UI or Xiaomi HyperOS, and sell phones at every price.",
+        "To ship the Play Store, makers sign agreements with Google and pre-install Google apps.",
+        "Users download apps from Google Play; Google takes a service fee on paid apps and in-app purchases.",
+        "Google shares some search ad revenue with phone makers and carriers for setting Google as default.",
+        "Security updates come from Google, but each maker decides how long it supports each phone."
+      ],
+      "valueProposition": "For phone makers: a free, ready-made operating system with a huge app store. For users: choice of phones at any price. For Google: billions of people using its search, ads and services."
+    },
+    "personas": [
+      {"name": "First-time smartphone buyer in India", "description": "A farmer's son in Bihar buying a ₹8,000 phone.", "goals": ["WhatsApp, YouTube and UPI", "Low price", "Hindi support"], "frustrations": ["Slow phones with little storage", "Ads and junk apps from the phone maker", "Few updates"]},
+      {"name": "Power user", "description": "A tech fan in Bengaluru with a Pixel or Samsung flagship.", "goals": ["Customisation", "Latest AI features with Gemini", "Long update support"], "frustrations": ["Features differ by brand", "Updates arrive late on non-Pixel phones"]},
+      {"name": "App developer", "description": "An Indian startup building for Android first.", "goals": ["Reach the biggest audience", "Low fees", "Easy distribution"], "frustrations": ["Play Store fees", "Many devices to test on", "Review and policy rejections"]},
+      {"name": "Phone maker", "description": "A brand like Nothing or Lava building phones.", "goals": ["Ship fast", "Stand out", "Earn from services"], "frustrations": ["Must pre-install Google apps", "Hard to differentiate"]}
+    ],
+    "painPoints": [
+      {"pain": "Phone makers cannot afford to build an OS.", "howSolved": "Android is free and ready to use.", "severity": "high"},
+      {"pain": "Smartphones were too expensive for most Indians.", "howSolved": "Android runs on low-cost hardware, enabling ₹6,000 phones.", "severity": "high"},
+      {"pain": "Developers need to reach users at scale.", "howSolved": "One app works on billions of phones through Google Play.", "severity": "high"},
+      {"pain": "People want to choose their phone and customise it.", "howSolved": "Hundreds of brands, launchers and widgets.", "severity": "medium"},
+      {"pain": "Malware from unknown apps.", "howSolved": "Google Play Protect scans apps; developer verification is being added.", "severity": "medium"},
+      {"pain": "Communication is hard across languages.", "howSolved": "Built-in translation, voice typing and Gemini in Indian languages.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Google Play Store", "whatItDoes": "Main app store with millions of apps.", "whyItMatters": "Main direct revenue source and the reason users trust Android."},
+      {"feature": "Gemini on Android", "whatItDoes": "AI assistant built in, replacing Google Assistant.", "whyItMatters": "Keeps Android competitive with Apple Intelligence and feeds Google's AI usage."},
+      {"feature": "Circle to Search", "whatItDoes": "Circle anything on screen to search it.", "whyItMatters": "Drives Google searches from inside any app."},
+      {"feature": "Open platform and sideloading", "whatItDoes": "Install apps from outside Play; rival stores allowed, with Registered App Stores coming.", "whyItMatters": "Keeps Android open, which helps with regulators and developers."},
+      {"feature": "Google Play Protect and security updates", "whatItDoes": "Scans apps and fixes security bugs.", "whyItMatters": "Trust is key for UPI and banking apps in India."},
+      {"feature": "Android Go edition", "whatItDoes": "A light version for cheap phones with little memory.", "whyItMatters": "Brings the next users online in India and Africa."}
+    ],
+    "userJourneys": [
+      {"name": "First smartphone setup", "persona": "First-time smartphone buyer in India", "steps": [
+        {"step": "Buys phone", "detail": "Buys a ₹8,000 phone in a local shop."},
+        {"step": "Signs in", "detail": "Creates a Google account."},
+        {"step": "Picks language", "detail": "Chooses Hindi for the phone."},
+        {"step": "Installs apps", "detail": "Downloads WhatsApp and a UPI app from Play."},
+        {"step": "Uses daily", "detail": "Watches YouTube and pays with UPI."},
+        {"step": "Upgrades later", "detail": "Moves to a new Android phone, keeping apps and contacts."}
+      ]},
+      {"name": "Developer launching an app", "persona": "App developer", "steps": [
+        {"step": "Builds", "detail": "Writes the app with Android Studio."},
+        {"step": "Verifies", "detail": "Registers and verifies developer identity."},
+        {"step": "Publishes", "detail": "Submits to Google Play for review."},
+        {"step": "Monetises", "detail": "Adds subscriptions, now with alternative billing as an option."},
+        {"step": "Grows", "detail": "Uses Play listing and ads to get installs."},
+        {"step": "Pays fees", "detail": "Pays 10% to 20% service fee plus billing fee where Play billing is used."}
+      ]},
+      {"name": "Switching from iPhone", "persona": "Power user", "steps": [
+        {"step": "Considers switch", "detail": "Wants a foldable or better value."},
+        {"step": "Transfers", "detail": "Uses the switch tool to move photos and chats."},
+        {"step": "Customises", "detail": "Sets widgets and default apps."},
+        {"step": "Tries AI", "detail": "Uses Gemini and Circle to Search."},
+        {"step": "Stays", "detail": "Buys more Android devices like a watch."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Google gives Android away for free and makes money from what runs on it: Search ads, YouTube ads, Play Store fees, Gemini subscriptions and Pixel phones. Android exists mainly to make sure Google's services are on billions of phones and that Apple cannot control mobile access to search.",
+      "revenueStreams": [
+        {"stream": "Search and ads on Android", "detail": "Google Search, Chrome and Discover on Android generate ad revenue; the biggest benefit."},
+        {"stream": "Google Play fees", "detail": "Service fees of 10% to 20% on digital purchases plus a 5% billing fee in some regions."},
+        {"stream": "Pixel and hardware", "detail": "Google's own phones, watches and earbuds."},
+        {"stream": "Subscriptions", "detail": "Google One and Google AI Pro, often sold to Android users."}
+      ],
+      "pricing": "Free for phone makers (open source); Google Mobile Services licence has terms and requirements. Play Store: 20% service fee on new in-app purchase installs, 10% on subscriptions, separate 5% billing fee in US, UK and EEA from 2026.",
+      "costDrivers": [
+        "Android engineering and security teams",
+        "Revenue share payments to phone makers and carriers",
+        "Play Store operations and review",
+        "AI computing for Gemini features"
+      ],
+      "unitEconomics": "Take one Android user in India. Google earns from them through search ads, YouTube ads and the occasional Play purchase, perhaps a few hundred rupees a year, much less than a US user. The extra cost to support that user on Android is close to zero, because the software is already built and phone makers pay for the hardware. In the US, Play fees on a ₹1,000 monthly subscription would be about ₹100 service fee. Android works because billions of low-revenue users, at near-zero cost each, add up to huge ad income."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Phone makers selling Android phones at every price",
+        "Cheap phones reaching first-time internet users",
+        "Carrier and retail deals in India",
+        "Android on TVs, cars and watches"
+      ],
+      "whatBringsUsersBack": [
+        "Apps, photos and contacts tied to the Google account",
+        "Familiarity: switching to iPhone means relearning",
+        "Paid apps and subscriptions on Play",
+        "Connected devices like watches and earbuds"
+      ],
+      "moat": "Android's moat is its ecosystem: billions of users attract developers, and millions of apps attract users and phone makers. A new OS would need both at once, as Microsoft found with Windows Phone. Only Apple, and Huawei's HarmonyOS in China, compete at scale."
+    },
+    "competitors": [
+      {"name": "Apple iOS", "positioning": "Premium, tightly controlled OS on iPhones.", "howThisProductDiffers": "Android runs on many brands at every price; iOS has fewer, pricier phones with longer updates and higher spending users."},
+      {"name": "HarmonyOS (Huawei)", "positioning": "Huawei's own OS, growing in China.", "howThisProductDiffers": "Android dominates outside China; HarmonyOS is mostly a Chinese market rival."},
+      {"name": "Phone makers' own skins", "positioning": "Samsung One UI, Xiaomi HyperOS add their own app stores and services.", "howThisProductDiffers": "Google controls the core OS and Play; makers try to keep more of the user relationship."},
+      {"name": "Indian OS efforts like BharOS", "positioning": "Government-backed Indian mobile OS ideas.", "howThisProductDiffers": "Android has the apps and phone makers; Indian OS projects are small so far."}
+    ],
+    "northStar": {
+      "metric": "Monthly active Android devices running supported, secure software",
+      "why": "This north star metric shows how many people Android serves well. Counting only devices with current security updates keeps quality in the goal."
+    },
+    "kpiTree": [
+      {"metric": "Active devices", "description": "Android phones used in a month.", "children": [
+        {"metric": "New phone activations", "description": "New devices set up each month."},
+        {"metric": "Switchers from iOS", "description": "Users moving from iPhone."},
+        {"metric": "Device lifespan", "description": "How long phones stay in use."}
+      ]},
+      {"metric": "Update coverage", "description": "Devices on recent software.", "children": [
+        {"metric": "Share on latest two versions", "description": "Measures fragmentation."},
+        {"metric": "Monthly security patch coverage", "description": "Devices with recent patches."}
+      ]},
+      {"metric": "App ecosystem health", "description": "How useful apps are.", "children": [
+        {"metric": "Active developers", "description": "Developers publishing updates."},
+        {"metric": "Developer payouts", "description": "Money developers earn."},
+        {"metric": "Malware install rate", "description": "Harmful apps installed per million devices."}
+      ]},
+      {"metric": "Google service engagement", "description": "Use of Google services on Android.", "children": [
+        {"metric": "Gemini monthly users on Android", "description": "AI adoption."},
+        {"metric": "Circle to Search usage", "description": "New search entry point."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Malware and fraud cases per million devices",
+      "Developer satisfaction and churn",
+      "Battery and performance complaints after updates"
+    ],
+    "strengths": [
+      "About 3 billion or more devices and huge global share",
+      "Dominant in India and emerging markets",
+      "Open platform with hundreds of phone makers",
+      "Deep tie-in with Google AI through Gemini"
+    ],
+    "weaknesses": [
+      "Fragmentation: phones get updates at different speeds or not at all",
+      "Lower spending per user than iOS",
+      "Junk apps and ads added by some phone makers hurt experience",
+      "Weaker control over user experience than Apple"
+    ],
+    "risks": [
+      "Antitrust rulings in the US, EU and India forcing fee cuts and app store openness",
+      "Loss of Play fee revenue as alternative billing grows",
+      "Developer verification seen as closing Android, upsetting developers",
+      "Phone makers pushing their own AI assistants instead of Gemini"
+    ],
+    "userComplaints": [
+      "Cheap phones slow down and stop getting updates",
+      "Pre-installed junk apps and lock screen ads on some brands",
+      "Fraud apps and loan scams in India",
+      "Developers dislike Play fees and policy rejections",
+      "Developer verification rules upset sideloading users"
+    ],
+    "improvementIdeas": [
+      {"idea": "Minimum 5-year security update rule for all Play-certified phones", "problem": "Cheap phones stop getting updates.", "expectedImpact": "Safer devices and better trust.", "metricToTrack": "Share of active devices with patches under 90 days old", "effort": "high"},
+      {"idea": "Scam call and loan app shield for India", "problem": "Fraud apps and scam calls.", "expectedImpact": "Fewer fraud losses.", "metricToTrack": "Fraud reports per million users", "effort": "medium"},
+      {"idea": "Bloatware limits in Google Mobile Services terms", "problem": "Junk apps make Android feel worse.", "expectedImpact": "Better first-week experience.", "metricToTrack": "Uninstall rate of pre-installed apps", "effort": "medium"},
+      {"idea": "Simple onboarding for first-time users in local languages", "problem": "New users struggle with setup.", "expectedImpact": "Faster first app install and more UPI use.", "metricToTrack": "Setup completion rate", "effort": "low"}
+    ],
+    "pmLessons": [
+      "Giving a product away can be a strategy when it protects a bigger business, like Google Search.",
+      "Platforms win when both sides grow together: users bring developers, developers bring users.",
+      "Openness has trade-offs: more choice but less control over quality and updates.",
+      "Regulation can reshape a business model; Play fees changed because of courts, not customers."
+    ],
+    "interviewQuestions": [
+      {"question": "Why does Google give Android away for free?", "hint": "Distribution for Search and services, defence against Apple, ecosystem. Explain the money flow."},
+      {"question": "How would you reduce Android fragmentation?", "hint": "Define it, causes (makers, cost), levers (Project Mainline style updates, rules, incentives). Metric: devices on recent patches."},
+      {"question": "Design Android for first-time users in rural India.", "hint": "Persona, top tasks (WhatsApp, UPI, YouTube), voice-first, local language, low storage. Measure setup completion."},
+      {"question": "Play fees were cut by regulators. How should Google respond?", "hint": "Value Play gives (trust, discovery, billing). Compete on service, not lock-in. Track Play billing share."},
+      {"question": "What is Android's north star metric?", "hint": "Active devices on secure software. Break into devices, update coverage, app ecosystem, engagement."}
+    ],
+    "glossary": [
+      {"term": "Operating system", "meaning": "The main software that runs a device and its apps."},
+      {"term": "Open source", "meaning": "Software whose code anyone can use and change."},
+      {"term": "Sideloading", "meaning": "Installing an app from outside the official app store."},
+      {"term": "Fragmentation", "meaning": "When devices run many different software versions, making updates and testing harder."},
+      {"term": "Service fee", "meaning": "The share of each digital purchase Google keeps for running the Play Store."},
+      {"term": "Ecosystem", "meaning": "Products, apps and partners that work together around one platform."},
+      {"term": "Bloatware", "meaning": "Extra apps phone makers install that users did not ask for."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."}
+    ],
+    "assumptions": [
+      "The 3 billion device count is Google's 2021 figure; current numbers are likely higher.",
+      "Share figures are StatCounter estimates based on web traffic, not device sales.",
+      "Revenue per Indian user of a few hundred rupees a year is a rough estimate.",
+      "Developer verification rollout details are from 2025 to 2026 developer reports and may change."
+    ]
+  }
+}

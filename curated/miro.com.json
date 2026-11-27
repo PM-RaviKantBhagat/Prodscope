@@ -1,0 +1,216 @@
+{
+  "company": "Miro",
+  "domain": "miro.com",
+  "website": "https://miro.com",
+  "sources": [
+    "https://www.reworked.co/collaboration-productivity/bending-spoons-acquires-miro-for-136b/",
+    "https://www.under30ceo.com/startup-valuation-reset-miro-bending-spoons/",
+    "https://miro.com/blog/2025-recap/",
+    "https://sacra.com/research/miro",
+    "https://community.miro.com/ask-the-community-45/free-plan-won-t-let-me-create-a-4th-board-i-thought-boards-were-unlimited-28959",
+    "https://community.miro.com/ideas/bring-back-the-lock-old-boards-as-view-only-approach-for-free-plan-users-29229",
+    "https://clickup.com/blog/miro-alternative/"
+  ],
+  "report": {
+    "company": "Miro",
+    "tagline": "An online whiteboard where teams brainstorm, map ideas and plan work together, now being bought by Bending Spoons.",
+    "category": "Collaboration",
+    "simpleSummary": "Miro is a giant digital whiteboard that many people can use at the same time. You add sticky notes, drawings, flowcharts and pictures, and your teammates see them appear live, even from other countries. Teams use it for brainstorming, workshops, planning and design. It is free to start with three boards, and companies pay per person per month. In September 2026 it agreed to be sold to Bending Spoons for about $1.36 billion, far below its 2022 value of $17.5 billion.",
+    "keyNumbers": [
+      {"label": "Yearly recurring revenue", "value": "About $600 million", "note": "Reported at the time of the Bending Spoons deal, September 2026. Miro says it is profitable."},
+      {"label": "Sale price to Bending Spoons", "value": "About $1.36 billion enterprise value", "note": "Announced September 2026, all cash, closing expected Q4 2026. Reworked."},
+      {"label": "Peak valuation", "value": "$17.5 billion (early 2022)", "note": "Last funding round. The sale is nearly 90% below this."},
+      {"label": "Share of revenue from business and enterprise", "value": "Nearly 90%", "note": "Reported with the deal, 2026."},
+      {"label": "Registered users", "value": "About 100 million", "note": "Miro company claim, 2025. Active users are not public. Weak estimate."},
+      {"label": "Layoffs", "value": "About 7% in 2023 and 18% (about 275 people) in October 2024", "note": "Reworked, 2026."}
+    ],
+    "overview": {
+      "whatItDoes": "Miro is a visual workspace. Teams draw, write sticky notes, make diagrams, run workshops and plan projects on a shared, endless canvas. It connects to tools like Jira, Zoom, Slack and Microsoft Teams. Miro AI can cluster sticky notes, summarise boards and turn ideas into diagrams, docs or prototypes.",
+      "howItWorks": [
+        "A user signs up free and creates a board, often from one of thousands of templates.",
+        "They share a link; teammates join and edit live, seeing each other's cursors.",
+        "Boards hold sticky notes, shapes, diagrams, docs, tables, videos and embedded files.",
+        "Facilitators run workshops with timers, voting and private mode.",
+        "Free users get three editable boards; teams pay to get unlimited boards and admin features.",
+        "Large companies buy Business or Enterprise plans with security and single sign-on."
+      ],
+      "valueProposition": "The feeling of a whiteboard room with sticky notes, for teams that are spread out, with templates and AI to get from messy ideas to a plan faster."
+    },
+    "personas": [
+      {"name": "Product designer or PM", "description": "Runs discovery workshops and user journey maps.", "goals": ["Brainstorm fast with the team", "Map user flows", "Share outcomes with leaders"], "frustrations": ["Boards get messy", "Large boards load slowly", "Paying for occasional collaborators"]},
+      {"name": "Agile coach or facilitator", "description": "Runs retros and planning sessions for remote teams.", "goals": ["Engaging workshops", "Voting and timers", "Reusable templates"], "frustrations": ["Guests get lost", "Free plan limits for participants"]},
+      {"name": "Enterprise IT buyer", "description": "Approves tools for 5,000 employees.", "goals": ["Security and admin control", "Cut duplicate tools"], "frustrations": ["Microsoft Whiteboard and FigJam overlap", "Seat costs"]},
+      {"name": "Student or teacher", "description": "Uses Miro for group projects and online classes.", "goals": ["Free collaboration", "Simple templates"], "frustrations": ["Only three editable boards on free plan", "Hard to keep old boards"]}
+    ],
+    "painPoints": [
+      {"pain": "Remote teams cannot share a physical whiteboard.", "howSolved": "Live shared canvas with cursors and sticky notes.", "severity": "high"},
+      {"pain": "Workshops are hard to run online.", "howSolved": "Timers, voting, private mode and facilitator tools.", "severity": "high"},
+      {"pain": "Starting from a blank page is slow.", "howSolved": "Thousands of templates for retros, journey maps and roadmaps.", "severity": "medium"},
+      {"pain": "Turning brainstorm notes into action takes time.", "howSolved": "Miro AI clusters notes, summarises and creates Jira tickets.", "severity": "medium"},
+      {"pain": "Diagrams in many tools get out of date.", "howSolved": "One canvas for diagrams, docs and plans, linked to Jira.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Infinite canvas", "whatItDoes": "An endless board with sticky notes, shapes, pens and images.", "whyItMatters": "The core experience that makes teams feel they are in one room."},
+      {"feature": "Templates and Miroverse", "whatItDoes": "Thousands of ready templates, many made by the community.", "whyItMatters": "Gets new users to value fast and spreads Miro through shared templates."},
+      {"feature": "Facilitation tools", "whatItDoes": "Timer, voting, follow-me and private mode.", "whyItMatters": "Makes Miro the default for workshops, which brings in many guests."},
+      {"feature": "Miro AI and Innovation Workspace", "whatItDoes": "AI that sorts ideas, summarises, writes docs and makes diagrams.", "whyItMatters": "Miro's bet to move from whiteboard to a place where work gets done."},
+      {"feature": "Integrations", "whatItDoes": "Two-way sync with Jira, Azure DevOps, Zoom, Teams and Slack.", "whyItMatters": "Puts Miro inside the tools teams already use."}
+    ],
+    "userJourneys": [
+      {"name": "First workshop", "persona": "Agile coach or facilitator", "steps": [
+        {"step": "Signs up free", "detail": "Uses Google or Microsoft login."},
+        {"step": "Picks a retro template", "detail": "Board is ready in seconds."},
+        {"step": "Shares link", "detail": "Sends it in the meeting chat."},
+        {"step": "Team adds sticky notes", "detail": "Everyone writes at once."},
+        {"step": "Votes and groups ideas", "detail": "Uses voting and AI clustering."},
+        {"step": "Creates actions", "detail": "Turns notes into Jira tickets."},
+        {"step": "Hits board limit", "detail": "Wants a fourth board and sees upgrade prompt."}
+      ]},
+      {"name": "Team upgrade", "persona": "Product designer or PM", "steps": [
+        {"step": "Team uses Miro weekly", "detail": "Several free boards in use."},
+        {"step": "Needs more boards", "detail": "Free plan blocks new editable boards."},
+        {"step": "Buys Starter", "detail": "Pays per member per month."},
+        {"step": "Invites guests", "detail": "Clients join as visitors."},
+        {"step": "Spreads to other teams", "detail": "Other teams ask for seats."}
+      ]},
+      {"name": "Enterprise rollout", "persona": "Enterprise IT buyer", "steps": [
+        {"step": "Sees many teams paying by card", "detail": "Shadow spending across departments."},
+        {"step": "Talks to Miro sales", "detail": "Wants one contract."},
+        {"step": "Security review", "detail": "Checks data rules and single sign-on."},
+        {"step": "Signs Enterprise plan", "detail": "Volume pricing."},
+        {"step": "Rolls out training", "detail": "Templates and best practice."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Miro makes money from per-member subscriptions. Teams start free, upgrade when they need more boards, and large companies sign Enterprise contracts. Nearly 90% of revenue comes from business and enterprise plans.",
+      "revenueStreams": [
+        {"stream": "Starter plan", "detail": "For small teams, about $8 per member per month billed yearly."},
+        {"stream": "Business plan", "detail": "About $16 per member per month billed yearly, with more security and features."},
+        {"stream": "Enterprise plan", "detail": "Custom contracts for large companies."},
+        {"stream": "AI credits", "detail": "Paid plans include AI credits, with more available on higher plans."}
+      ],
+      "pricing": "Free: 3 editable boards. Starter about $8 and Business about $16 per member per month billed yearly (higher if monthly). Enterprise custom. Prices from Miro's site, 2025 to 2026, may vary.",
+      "costDrivers": [
+        "Cloud hosting for real-time collaboration",
+        "Research and development",
+        "Enterprise sales and marketing",
+        "AI computing for Miro AI"
+      ],
+      "unitEconomics": "A 20-person design team on Business pays about 20 x $16 x 12 = $3,840 a year. Hosting live boards costs a small share, so gross margin is high, likely near 80%. Many free users and guests cost money to serve but bring in paying teams. The problem was growth: after 2022, revenue grew slowly while costs stayed high, which led to layoffs and a sale price far below the peak valuation. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Every shared board brings in guests who see Miro for free",
+        "Workshops and retros that invite many people",
+        "Templates in Miroverse found through search",
+        "Enterprise sales after many teams adopt bottom-up"
+      ],
+      "whatBringsUsersBack": [
+        "Recurring retros and planning sessions",
+        "Boards that hold a team's ongoing plans",
+        "Integrations with Jira and meeting tools",
+        "Templates reused across projects"
+      ],
+      "moat": "Miro's moat is weak. A whiteboard is easy to copy, and Figma, Microsoft and Atlassian all offer one, often bundled. Its strength is brand, templates and a huge base of enterprise users with years of boards."
+    },
+    "competitors": [
+      {"name": "FigJam (Figma)", "positioning": "Whiteboard built into Figma.", "howThisProductDiffers": "FigJam is cheaper and loved by designers. Miro has more templates and enterprise features."},
+      {"name": "Microsoft Whiteboard and Loop", "positioning": "Bundled in Microsoft 365.", "howThisProductDiffers": "Free with Office. Miro is more powerful."},
+      {"name": "Lucid (Lucidspark, Lucidchart)", "positioning": "Diagramming and whiteboards.", "howThisProductDiffers": "Lucid is stronger on technical diagrams."},
+      {"name": "Mural", "positioning": "Workshop-focused whiteboard.", "howThisProductDiffers": "Similar product; Miro is bigger."},
+      {"name": "Confluence Whiteboards (Atlassian)", "positioning": "Whiteboards inside Confluence.", "howThisProductDiffers": "Bundled for Atlassian users; Miro is more complete."}
+    ],
+    "northStar": {
+      "metric": "Weekly active collaborative boards (boards edited by 2 or more people in a week)",
+      "why": "Miro's value is teamwork. A board edited by several people shows real collaboration, which drives seat growth and renewals."
+    },
+    "kpiTree": [
+      {"metric": "New boards created", "description": "Boards started each week.", "children": [
+        {"metric": "Template start rate", "description": "Share of boards started from a template."},
+        {"metric": "Sign-up to first board time", "description": "Speed to first value."}
+      ]},
+      {"metric": "Collaborators per board", "description": "People who edit each board.", "children": [
+        {"metric": "Share link clicks", "description": "Invites opened."},
+        {"metric": "Guest-to-sign-up rate", "description": "Guests who create their own account."}
+      ]},
+      {"metric": "Boards reused weekly", "description": "Boards opened again after the first week.", "children": [
+        {"metric": "Integration-linked boards", "description": "Boards connected to Jira or other tools."},
+        {"metric": "Board load time", "description": "Speed of big boards."}
+      ]},
+      {"metric": "Paid seat expansion", "description": "Seat growth inside paying companies.", "children": [
+        {"metric": "Free-to-paid conversion", "description": "Free teams that upgrade."},
+        {"metric": "Net revenue retention", "description": "Revenue from existing customers vs last year."},
+        {"metric": "AI feature weekly use", "description": "Shows AI value for upsell."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Board load time on large boards",
+      "Customer churn after the Bending Spoons takeover",
+      "Support response times",
+      "Security incidents"
+    ],
+    "strengths": [
+      "Best-known online whiteboard brand",
+      "About $600 million ARR and profitable",
+      "Huge template library and community",
+      "Strong enterprise base"
+    ],
+    "weaknesses": [
+      "Easy to copy; rivals bundle whiteboards for free",
+      "Growth slowed sharply after the pandemic",
+      "Large boards can be slow",
+      "Free plan limits upset students and casual users"
+    ],
+    "risks": [
+      "Bending Spoons' history of deep layoffs and price rises at Evernote and WeTransfer could hurt quality and trust",
+      "Microsoft, Figma and Atlassian bundling whiteboards",
+      "AI tools that create diagrams and plans without a whiteboard",
+      "Fewer workshops as teams return to offices"
+    ],
+    "userComplaints": [
+      "Free plan allows only three editable boards",
+      "Old boards cannot be kept easily on free plan",
+      "Price is high for occasional users",
+      "Lag on big boards",
+      "Worry about what Bending Spoons will change"
+    ],
+    "improvementIdeas": [
+      {"idea": "Free view-only archive of old boards", "problem": "Free users lose access to past work and feel punished.", "expectedImpact": "Goodwill and more free users who later convert.", "metricToTrack": "Free user 90-day retention and conversion", "effort": "low"},
+      {"idea": "Pay-per-workshop pass for facilitators", "problem": "Occasional users will not pay monthly.", "expectedImpact": "New revenue from people who never subscribe.", "metricToTrack": "Revenue from passes", "effort": "low"},
+      {"idea": "AI 'board to plan' that turns any board into Jira tickets, a doc and a timeline", "problem": "Ideas on boards do not turn into action.", "expectedImpact": "Miro becomes part of real work, raising retention.", "metricToTrack": "Boards with actions exported per week", "effort": "medium"},
+      {"idea": "Performance mode for huge boards", "problem": "Large boards lag.", "expectedImpact": "Better experience for heavy enterprise users.", "metricToTrack": "Board load time", "effort": "high"}
+    ],
+    "pmLessons": [
+      "A product that booms in a crisis, like remote work in 2020, may not keep growing when life changes. Plan for after the boom.",
+      "Growth through sharing works well, but a product that is easy to copy needs a deeper moat.",
+      "A high valuation is not the same as a good outcome. Miro sold for nearly 90% less than its peak.",
+      "Free plan limits must push upgrades without making free users feel punished."
+    ],
+    "interviewQuestions": [
+      {"question": "Miro was worth $17.5 billion in 2022 and sold for about $1.4 billion in 2026. What went wrong?", "hint": "Pandemic boom, slower growth, bundled rivals, high costs. Separate product issues from market issues."},
+      {"question": "How would you grow Miro's paid seats inside a large company?", "hint": "Find teams using it, add use cases (planning, retros), integrations, admin value. Track seat expansion."},
+      {"question": "Should Miro make its free plan more generous?", "hint": "Weigh top-of-funnel growth against conversion. Suggest view-only archives or student plans."},
+      {"question": "What is Miro's north star metric?", "hint": "Weekly collaborative boards. Break into new boards, collaborators, reuse, paid expansion."},
+      {"question": "You are Miro's PM after the Bending Spoons takeover. What do you prioritise?", "hint": "Retention of enterprise customers, performance, clear pricing, AI that adds real value."}
+    ],
+    "glossary": [
+      {"term": "ARR", "meaning": "Annual recurring revenue: the yearly value of all active subscriptions."},
+      {"term": "Valuation", "meaning": "How much investors think a company is worth."},
+      {"term": "Enterprise value", "meaning": "A company's price including its debt and minus its cash."},
+      {"term": "Bottom-up", "meaning": "When individual teams start using a tool before the company officially buys it."},
+      {"term": "Free-to-paid conversion", "meaning": "The share of free users or teams who start paying."},
+      {"term": "Net revenue retention", "meaning": "Revenue this year from last year's customers divided by what they paid last year."},
+      {"term": "Gross margin", "meaning": "The share of revenue left after the direct cost of serving customers."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Retention", "meaning": "The share of users who keep coming back over time."},
+      {"term": "Churn", "meaning": "The share of customers who leave in a given period."}
+    ],
+    "assumptions": [
+      "The registered user count is Miro's own claim and not verified.",
+      "Gross margin is an estimate.",
+      "Plan prices may have changed and vary by billing period.",
+      "Effects of the Bending Spoons takeover are not yet known; the deal had not closed when sources were written."
+    ]
+  }
+}

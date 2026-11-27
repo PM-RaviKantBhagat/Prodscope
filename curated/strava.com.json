@@ -1,0 +1,513 @@
+{
+ "company": "Strava",
+ "domain": "strava.com",
+ "website": "https://www.strava.com",
+ "sources": [
+  "https://sacra.com/c/strava/",
+  "https://the5krunner.com/2026/01/09/strava-ipo-filing-3-billion-valuation-analysis/",
+  "https://fortune.com/2026/01/13/how-strava-ran-toward-a-comeback-ipo/",
+  "https://techcrunch.com/2025/10/12/strava-eyes-ipo-as-gen-z-trades-dating-apps-for-running-clubs/",
+  "https://www.cyclingweekly.com/news/strava-is-valued-at-usd2-2-billion-and-you-might-be-able-to-buy-shares-in-the-company-soon-reports",
+  "https://hypebeast.com/2026/1/fitness-tracking-app-strava-files-for-ipo-news"
+ ],
+ "report": {
+  "company": "Strava",
+  "tagline": "A social app for runners, cyclists and other athletes to record workouts, share them with friends and compete on routes, with a paid subscription for deeper features.",
+  "category": "Fitness social",
+  "simpleSummary": "Strava is like Instagram for exercise. You record a run or ride with your phone or watch, and it shows up in your friends' feeds with a map, distance and pace. Friends give 'kudos' (likes) and comments, and you can race others on popular stretches of road called segments. The basic app is free; a subscription of about $80 a year adds training plans, route planning and detailed analysis. It has about 195 million registered users and filed to go public in early 2026.",
+  "keyNumbers": [
+   {
+    "label": "Registered users",
+    "value": "195 million+",
+    "note": "Sacra, 2025. About 50 million are monthly active."
+   },
+   {
+    "label": "Annual recurring revenue, 2025",
+    "value": "About $490 million (up about 32%)",
+    "note": "Sacra estimate; Strava is private and has not published audited figures."
+   },
+   {
+    "label": "Paying subscribers",
+    "value": "Roughly 4 million",
+    "note": "Weak estimate. Calculated from about 2% of registered users paying, per Sacra."
+   },
+   {
+    "label": "Valuation",
+    "value": "$2.2 billion (May 2025)",
+    "note": "Round led by Sequoia, reported by Sacra and Cycling Weekly. IPO talk suggested about $3 billion."
+   },
+   {
+    "label": "IPO status",
+    "value": "Filed confidentially, early 2026",
+    "note": "Hypebeast and Sacra report a draft S-1 filed with the SEC. A listing date was not confirmed in sources as of November 2026."
+   },
+   {
+    "label": "Annual subscription price",
+    "value": "$79.99 a year in the US",
+    "note": "Sacra. Monthly $11.99; family plan $139.99; Strava + Runna bundle $149.99 a year."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Strava records workouts using GPS from a phone or a connected device like Garmin, Apple Watch or Wahoo, and turns each one into a shareable post. It adds social features such as followers, kudos, clubs and challenges, and competitive features like segment leaderboards. Subscribers get route building, training plans, progress analysis and safety tools. Strava bought Runna, a running coaching app, and The Breakaway, a cycling training app, in 2025.",
+   "howItWorks": [
+    "A user signs up free and connects a watch or uses the phone app to record an activity.",
+    "After a run or ride, the activity uploads to Strava with a map, stats and photos.",
+    "Followers see it in their feed and give kudos or comments.",
+    "Segments, which are user-made stretches of road or trail, have leaderboards; the fastest gets KOM or QOM (King or Queen of the Mountain).",
+    "Clubs and monthly challenges bring groups together, often sponsored by brands.",
+    "A subscription unlocks features like route builder, Beacon safety sharing, training plans and detailed segment results."
+   ],
+   "valueProposition": "Make every workout count: record it, share it with people who care, see your progress and get a bit of friendly competition, all in one place, whatever device you use."
+  },
+  "personas": [
+   {
+    "name": "Weekend runner",
+    "description": "A 29-year-old who runs three times a week and joined a local run club.",
+    "goals": [
+     "Stay motivated",
+     "Train for a first marathon",
+     "Share runs with friends"
+    ],
+    "frustrations": [
+     "Key features moved behind the paywall",
+     "Feed full of people she does not know"
+    ]
+   },
+   {
+    "name": "Competitive cyclist",
+    "description": "A 45-year-old road cyclist who chases segment times.",
+    "goals": [
+     "Beat segment records",
+     "Analyse power and heart rate",
+     "Plan new routes"
+    ],
+    "frustrations": [
+     "Cheaters using e-bikes or cars on leaderboards",
+     "Subscription price rises"
+    ]
+   },
+   {
+    "name": "Brand or event organiser",
+    "description": "A sportswear brand or race organiser who wants to reach athletes.",
+    "goals": [
+     "Reach engaged runners and cyclists",
+     "Sponsor challenges"
+    ],
+    "frustrations": [
+     "Limited ad formats",
+     "Hard to measure sales impact"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Working out alone is hard to keep up.",
+    "howSolved": "Kudos, comments and clubs create social motivation.",
+    "severity": "high"
+   },
+   {
+    "pain": "Hard to see progress over months.",
+    "howSolved": "Fitness and freshness charts, personal records and training logs (some paid).",
+    "severity": "medium"
+   },
+   {
+    "pain": "Finding good, safe routes in a new place.",
+    "howSolved": "Heatmaps and route builder based on where others run and ride.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Different devices store data in different apps.",
+    "howSolved": "Strava connects with almost every watch and bike computer.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Family worries during solo runs or rides.",
+    "howSolved": "Beacon lets chosen contacts see your live location.",
+    "severity": "low"
+   },
+   {
+    "pain": "Need a training plan without a coach.",
+    "howSolved": "Runna and in-app plans for runners and cyclists.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Activity feed and kudos",
+    "whatItDoes": "Shows friends' workouts with maps and stats; users give kudos and comments.",
+    "whyItMatters": "The social loop that brings people back after each workout."
+   },
+   {
+    "feature": "Segments and leaderboards",
+    "whatItDoes": "Ranks everyone who has done the same stretch of road or trail.",
+    "whyItMatters": "Unique competitive hook that turns any route into a race."
+   },
+   {
+    "feature": "Clubs and challenges",
+    "whatItDoes": "Groups for run clubs, companies and brands; monthly distance challenges.",
+    "whyItMatters": "Builds community and creates brand revenue through sponsored challenges."
+   },
+   {
+    "feature": "Routes and heatmaps",
+    "whatItDoes": "Route builder using data from millions of activities.",
+    "whyItMatters": "A paid feature built on Strava's huge data set, which is hard to copy."
+   },
+   {
+    "feature": "Subscription analytics and training",
+    "whatItDoes": "Progress charts, performance insights, training plans and Runna coaching.",
+    "whyItMatters": "The main reason people pay."
+   },
+   {
+    "feature": "Device integrations",
+    "whatItDoes": "Automatic sync with Garmin, Apple, Coros, Wahoo, Zwift and more.",
+    "whyItMatters": "Makes Strava the neutral home for all workout data."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "First week on Strava",
+    "persona": "Weekend runner",
+    "steps": [
+     {
+      "step": "Friend invites her",
+      "detail": "Run club members all use Strava."
+     },
+     {
+      "step": "Signs up and links watch",
+      "detail": "Connects Garmin so runs upload automatically."
+     },
+     {
+      "step": "First run uploads",
+      "detail": "Map and pace appear in the feed."
+     },
+     {
+      "step": "Gets kudos",
+      "detail": "Club members react within minutes."
+     },
+     {
+      "step": "Follows friends",
+      "detail": "Sees their runs and joins a club."
+     },
+     {
+      "step": "Joins a challenge",
+      "detail": "Signs up for a monthly 50 km challenge."
+     }
+    ]
+   },
+   {
+    "name": "Upgrading to subscription",
+    "persona": "Weekend runner",
+    "steps": [
+     {
+      "step": "Signs up for a marathon",
+      "detail": "Needs a training plan."
+     },
+     {
+      "step": "Sees paid features",
+      "detail": "Training plans and progress charts are locked."
+     },
+     {
+      "step": "Starts a free trial",
+      "detail": "Tries the subscription for a month."
+     },
+     {
+      "step": "Uses Runna plan",
+      "detail": "Follows weekly workouts."
+     },
+     {
+      "step": "Pays yearly",
+      "detail": "$79.99, or the Runna bundle."
+     }
+    ]
+   },
+   {
+    "name": "Chasing a segment",
+    "persona": "Competitive cyclist",
+    "steps": [
+     {
+      "step": "Plans route",
+      "detail": "Uses route builder to include a famous climb."
+     },
+     {
+      "step": "Rides",
+      "detail": "Pushes hard on the segment."
+     },
+     {
+      "step": "Uploads",
+      "detail": "Ride syncs from the bike computer."
+     },
+     {
+      "step": "Checks leaderboard",
+      "detail": "Sees his rank and a new personal record."
+     },
+     {
+      "step": "Shares",
+      "detail": "Friends congratulate him in the comments."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Strava is free to use, and makes most of its money from about 2% of users who pay for a subscription. Smaller revenue comes from brands that sponsor challenges and from partnerships.",
+   "revenueStreams": [
+    {
+     "stream": "Subscriptions",
+     "detail": "Individual, student, family and Runna bundle plans; the large majority of revenue."
+    },
+    {
+     "stream": "Sponsored challenges and brand partnerships",
+     "detail": "Brands like sportswear companies pay to run challenges and clubs."
+    },
+    {
+     "stream": "Strava Metro and data partnerships",
+     "detail": "Anonymised activity data shared with city planners, historically free or low-cost."
+    }
+   ],
+   "pricing": "Free basic app. Subscription $79.99 a year or $11.99 a month in the US; family $139.99 a year; student $39.99 a year; Strava + Runna $149.99 a year. Prices differ by country.",
+   "costDrivers": [
+    "Engineering and product teams",
+    "Cloud hosting for maps and activity data",
+    "App store fees on in-app subscriptions",
+    "Marketing and acquisitions like Runna"
+   ],
+   "unitEconomics": "A subscriber paying $79.99 a year gives Strava about $56 to $68 after app store fees, or close to $80 if they paid on the web. Serving a user costs a few dollars a year in hosting. The 98% of users who do not pay still cost money but create the social feed and data that make the paid features useful. Because most new users arrive through friends, CAC is low, so each subscriber who renews is very profitable."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Friends and run clubs inviting each other",
+    "Activities shared to Instagram and other social apps",
+    "Device makers recommending Strava sync",
+    "Brand challenges and events like big city marathons",
+    "Gen Z run club boom since 2024"
+   ],
+   "whatBringsUsersBack": [
+    "Kudos and comments after every workout",
+    "Segment rankings and personal records",
+    "Monthly challenges and badges",
+    "Yearly Year in Sport recap"
+   ],
+   "moat": "Strava has a strong network effect: your friends, clubs and history are already there. Its segments and heatmaps come from billions of activities that a new app cannot recreate. Being device-neutral also makes it the place where everyone's data meets, which Garmin or Apple cannot easily offer."
+  },
+  "competitors": [
+   {
+    "name": "Garmin Connect",
+    "positioning": "Free app for Garmin device owners with deep training data.",
+    "howThisProductDiffers": "Garmin is tied to its own devices; Strava is social and works with all devices."
+   },
+   {
+    "name": "Apple Fitness and Apple Health",
+    "positioning": "Built into iPhone and Apple Watch.",
+    "howThisProductDiffers": "Apple has distribution but a weaker social layer and no segments."
+   },
+   {
+    "name": "Nike Run Club and adidas Running",
+    "positioning": "Free running apps from sportswear brands.",
+    "howThisProductDiffers": "Free and guided, but less community and cycling support."
+   },
+   {
+    "name": "Komoot",
+    "positioning": "Route planning for hiking and cycling.",
+    "howThisProductDiffers": "Better for planning trips; Strava is stronger for social and competition."
+   }
+  ],
+  "northStar": {
+   "metric": "Weekly active athletes who upload at least one activity and receive or give kudos",
+   "why": "An upload with social interaction is the moment Strava delivers its core value: motivation through community. It predicts both retention and conversion to paid."
+  },
+  "kpiTree": [
+   {
+    "metric": "Weekly uploaders",
+    "description": "Users recording at least one activity a week.",
+    "children": [
+     {
+      "metric": "New user first upload rate",
+      "description": "Share of sign-ups who upload in week one."
+     },
+     {
+      "metric": "Device connection rate",
+      "description": "Share of users with an automatic sync set up."
+     }
+    ]
+   },
+   {
+    "metric": "Social interaction",
+    "description": "Kudos, comments and follows per upload.",
+    "children": [
+     {
+      "metric": "Kudos per activity",
+      "description": "Average kudos received."
+     },
+     {
+      "metric": "Friends followed in first month",
+      "description": "Strong predictor of retention."
+     },
+     {
+      "metric": "Club membership rate",
+      "description": "Share of users in at least one club."
+     }
+    ]
+   },
+   {
+    "metric": "Paid conversion",
+    "description": "Free users who subscribe.",
+    "children": [
+     {
+      "metric": "Trial start rate",
+      "description": "Share of active users who start a trial."
+     },
+     {
+      "metric": "Trial to paid rate",
+      "description": "Share who keep paying after the trial."
+     }
+    ]
+   },
+   {
+    "metric": "Subscriber retention",
+    "description": "Subscribers who renew.",
+    "children": [
+     {
+      "metric": "Annual renewal rate",
+      "description": "Share renewing each year."
+     },
+     {
+      "metric": "Paid feature usage",
+      "description": "Share of subscribers using routes or plans monthly."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Privacy incidents, such as exposed home locations or military bases",
+   "Leaderboard cheating reports",
+   "App store rating after paywall changes",
+   "Device partner relationships"
+  ],
+  "strengths": [
+   "Largest social network for runners and cyclists",
+   "Strong network effect and data moat",
+   "Device-neutral platform",
+   "Fast revenue growth and strong brand with Gen Z runners"
+  ],
+  "weaknesses": [
+   "Only about 2% of users pay",
+   "Moving features behind the paywall upsets loyal users",
+   "Depends on device partners for data",
+   "Privacy concerns about location sharing"
+  ],
+  "risks": [
+   "Garmin, Apple or Google building stronger social features",
+   "Disputes with device makers, like the brief 2025 lawsuit against Garmin",
+   "Privacy regulation on location data",
+   "IPO pressure to raise prices"
+  ],
+  "userComplaints": [
+   "Features moved from free to paid",
+   "Subscription price rises",
+   "Cheating on segment leaderboards",
+   "Privacy worries about maps showing home locations",
+   "Feed clutter and ads"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Automatic flagging of suspicious segment efforts, such as speeds too fast for the sport, with easy community reporting",
+    "problem": "Cheating ruins leaderboards for competitive users.",
+    "expectedImpact": "More trust and engagement on segments.",
+    "metricToTrack": "Leaderboard cheating reports",
+    "effort": "medium"
+   },
+   {
+    "idea": "Privacy zones on by default for new users' home and work addresses",
+    "problem": "Location privacy fears.",
+    "expectedImpact": "Fewer privacy incidents and safer sharing.",
+    "metricToTrack": "Share of new users with privacy zones set",
+    "effort": "low"
+   },
+   {
+    "idea": "Run club tools: event scheduling, group chat and shared routes for clubs",
+    "problem": "Run clubs use WhatsApp and Instagram to organise.",
+    "expectedImpact": "More club activity on Strava and more new users joining.",
+    "metricToTrack": "Club membership rate",
+    "effort": "medium"
+   },
+   {
+    "idea": "Show free users one personalised insight a week with a teaser of the paid version",
+    "problem": "Only 2% of users pay.",
+    "expectedImpact": "Higher trial start rate.",
+    "metricToTrack": "Trial start rate",
+    "effort": "low"
+   }
+  ],
+  "pmLessons": [
+   "Social features can turn a utility (tracking) into a habit. Kudos is a tiny feature with a huge effect.",
+   "Freemium works when free users create value for paying users, like the data behind routes and heatmaps.",
+   "Be careful when moving features behind a paywall; loyal users notice and complain loudly.",
+   "Being neutral across devices can be a moat when everyone else is building a closed system."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "How would you increase Strava's paid conversion from 2%?",
+    "hint": "Segment users by sport and goal, find the moment of need (race training), design trials around it, measure trial to paid."
+   },
+   {
+    "question": "Design a feature for Gen Z run clubs on Strava.",
+    "hint": "Understand club organisers' jobs, propose tools, define a club activity metric."
+   },
+   {
+    "question": "What is Strava's north star metric?",
+    "hint": "Weekly active athletes uploading with social interaction; explain why not just sign-ups or revenue."
+   },
+   {
+    "question": "Garmin starts adding a social feed. How should Strava respond?",
+    "hint": "Lean into device neutrality, network effects and community; avoid conflict that hurts users."
+   },
+   {
+    "question": "How would you measure the success of the Runna acquisition?",
+    "hint": "Bundle uptake, subscriber retention of bundle users vs others, revenue per user."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Segment",
+    "meaning": "A user-created stretch of road or trail on Strava with its own leaderboard."
+   },
+   {
+    "term": "Kudos",
+    "meaning": "Strava's version of a like on an activity."
+   },
+   {
+    "term": "Freemium",
+    "meaning": "A model where the basic product is free and extra features are paid."
+   },
+   {
+    "term": "Network effect",
+    "meaning": "When a product becomes more valuable as more people use it."
+   },
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "S-1",
+    "meaning": "The document a company files with the US SEC before listing its shares."
+   },
+   {
+    "term": "Annual recurring revenue",
+    "meaning": "The yearly value of subscription revenue a company expects to keep getting."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Revenue and paying subscriber numbers are estimates from Sacra; Strava has not published audited results.",
+   "Whether Strava has completed its IPO by November 2026 was not confirmed in sources.",
+   "Hosting cost per user of a few dollars a year is an inference.",
+   "The share of revenue from subscriptions versus brand partnerships is an inference."
+  ]
+ }
+}

@@ -1,0 +1,539 @@
+{
+  "company": "Fresha",
+  "domain": "fresha.com",
+  "website": "https://fresha.com",
+  "sources": [
+    "https://techfundingnews.com/beauty-techs-quiet-giant-just-became-a-unicorn-fresha-raises-80m-from-kkr-at-1b-valuation/",
+    "https://thenextweb.com/news/londons-fresha-hits-unicorn-status-with-kkr-led-80m-raise",
+    "https://sifted.eu/articles/kkr-backs-uks-newest-unicorn-in-80m-round",
+    "https://medium.com/@asbaines/the-true-cost-of-fresha-276d6856bcc0",
+    "https://pabau.com/blog/fresha-pricing/",
+    "https://www.capterra.com/p/142138/Shedul-com/reviews/",
+    "https://www.capterra.com/compare/142138-142741/Shedul-com-vs-Booksy"
+  ],
+  "report": {
+    "company": "Fresha",
+    "tagline": "Booking and payments software for salons, barbers and spas, plus an app where customers find and book them.",
+    "category": "Booking software",
+    "simpleSummary": "Fresha is the system a hair salon or barber uses to run its diary: bookings, reminders, staff rotas and card payments at the till. For years the software was free, and Fresha made money by taking a small cut when customers paid by card. It also runs a marketplace app where people find nearby salons and book online, and Fresha charges the salon a fee for each new customer it brings. Based in London, it now works in about 120 countries.",
+    "keyNumbers": [
+      {
+        "label": "Valuation",
+        "value": "More than $1 billion",
+        "note": "KKR-led $80 million round, May 2026, made Fresha a unicorn. Total funding about $285 million."
+      },
+      {
+        "label": "Revenue run-rate",
+        "value": "More than $140 million a year",
+        "note": "Reported May 2026, growing over 60% a year. Fresha says it is profitable."
+      },
+      {
+        "label": "Businesses on Fresha",
+        "value": "About 130,000, with 500,000+ stylists",
+        "note": "Company figures, May 2026."
+      },
+      {
+        "label": "Appointments booked",
+        "value": "About 35 million a month",
+        "note": "Company figure, May 2026."
+      },
+      {
+        "label": "Payments processed",
+        "value": "More than $15 billion a year",
+        "note": "Company figure, May 2026."
+      },
+      {
+        "label": "Countries",
+        "value": "About 120",
+        "note": "Company figure, 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Fresha gives beauty and wellness businesses one system for their calendar, client records, online booking, payments, marketing and stock. Customers use the Fresha app or website to find salons, see prices and reviews, and book any time. Fresha earns from card payments, subscription plans introduced in 2025, and a fee on new clients from its marketplace.",
+      "howItWorks": [
+        "A salon signs up, adds its services, prices and staff, and sets opening hours.",
+        "Clients book through the salon's own booking link, Instagram, Google, or the Fresha marketplace.",
+        "Fresha sends reminders by text and email to cut no-shows, and can take deposits.",
+        "At checkout, the salon takes payment with Fresha's card terminal or online, and Fresha keeps a processing fee.",
+        "When the Fresha marketplace brings a new client, the salon pays a one-time new client fee.",
+        "Salons can pay for subscription plans and add-ons like marketing messages and extra features."
+      ],
+      "valueProposition": "For salons: run the whole business from one easy system without big upfront costs. For customers: find and book a trusted salon any time, in a few taps."
+    },
+    "personas": [
+      {
+        "name": "Independent barber",
+        "description": "Works alone and rents a chair in Manchester.",
+        "goals": [
+          "Fill the diary",
+          "Fewer no-shows",
+          "Low monthly costs"
+        ],
+        "frustrations": [
+          "New fees after years of free software",
+          "Card fees eat into small margins"
+        ]
+      },
+      {
+        "name": "Salon owner with a team",
+        "description": "Runs a 6-chair hair salon in London.",
+        "goals": [
+          "Manage staff schedules and commission",
+          "Bring in new clients",
+          "Know daily takings"
+        ],
+        "frustrations": [
+          "New client fee feels high",
+          "Payouts held or delayed",
+          "Support hard to reach"
+        ]
+      },
+      {
+        "name": "Spa or clinic manager",
+        "description": "Manages a day spa in Dubai.",
+        "goals": [
+          "Packages and memberships",
+          "Online deposits",
+          "Stock tracking"
+        ],
+        "frustrations": [
+          "Advanced needs require add-ons"
+        ]
+      },
+      {
+        "name": "Customer booking a haircut",
+        "description": "A 28-year-old who books on her phone at night.",
+        "goals": [
+          "See prices and free slots",
+          "Read reviews",
+          "Book without calling"
+        ],
+        "frustrations": [
+          "Cancellation fees",
+          "Salon listings that are out of date"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Taking bookings by phone during appointments.",
+        "howSolved": "24/7 online booking through link, Instagram, Google and the app.",
+        "severity": "high"
+      },
+      {
+        "pain": "No-shows lose money.",
+        "howSolved": "Automatic reminders, deposits and no-show fees.",
+        "severity": "high"
+      },
+      {
+        "pain": "Expensive salon software and card machines.",
+        "howSolved": "Low or no upfront fee; pay mainly when you get paid.",
+        "severity": "high"
+      },
+      {
+        "pain": "Finding new clients.",
+        "howSolved": "Fresha marketplace lists the salon to people nearby.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Messy staff rotas and commission.",
+        "howSolved": "Staff calendars, roles and pay reports.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Customers cannot find a free slot.",
+        "howSolved": "Live availability across many salons in one app.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Calendar and online booking",
+        "whatItDoes": "A shared diary that clients can book into directly.",
+        "whyItMatters": "The daily tool that salons cannot run without, which keeps them on Fresha."
+      },
+      {
+        "feature": "Fresha Pay and card terminals",
+        "whatItDoes": "Card payments at the till and online, with fast payouts.",
+        "whyItMatters": "Main money maker: Fresha takes a small cut of over $15 billion a year."
+      },
+      {
+        "feature": "Marketplace app",
+        "whatItDoes": "Customers find, compare and book salons nearby.",
+        "whyItMatters": "Brings salons new clients and earns new client fees."
+      },
+      {
+        "feature": "Reminders, deposits and no-show protection",
+        "whatItDoes": "Texts, emails and card-on-file fees.",
+        "whyItMatters": "Saves salons real money, a clear reason to use Fresha Pay."
+      },
+      {
+        "feature": "Marketing and client records",
+        "whatItDoes": "Email and text campaigns, loyalty, and client history.",
+        "whyItMatters": "Helps repeat visits and is a paid add-on."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Salon goes live on Fresha",
+        "persona": "Salon owner with a team",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Creates account and picks a plan."
+          },
+          {
+            "step": "Adds services and staff",
+            "detail": "Prices, durations, team calendars."
+          },
+          {
+            "step": "Imports clients",
+            "detail": "Moves from old software or paper."
+          },
+          {
+            "step": "Orders card terminal",
+            "detail": "Sets up Fresha Pay."
+          },
+          {
+            "step": "Adds booking button",
+            "detail": "On Instagram and Google."
+          },
+          {
+            "step": "Lists on marketplace",
+            "detail": "Profile with photos and reviews."
+          },
+          {
+            "step": "Gets first new client",
+            "detail": "Pays a new client fee on that booking."
+          }
+        ]
+      },
+      {
+        "name": "Customer books a haircut",
+        "persona": "Customer booking a haircut",
+        "steps": [
+          {
+            "step": "Searches 'haircut near me'",
+            "detail": "Finds Fresha listing on Google or the app."
+          },
+          {
+            "step": "Compares salons",
+            "detail": "Prices, photos, reviews."
+          },
+          {
+            "step": "Picks a stylist and slot",
+            "detail": "Sees live availability."
+          },
+          {
+            "step": "Saves card",
+            "detail": "For deposit or no-show fee."
+          },
+          {
+            "step": "Gets reminder",
+            "detail": "Text the day before."
+          },
+          {
+            "step": "Pays and reviews",
+            "detail": "Pays at salon, leaves a rating."
+          }
+        ]
+      },
+      {
+        "name": "Barber's daily routine",
+        "persona": "Independent barber",
+        "steps": [
+          {
+            "step": "Checks diary on phone",
+            "detail": "Sees the day's bookings."
+          },
+          {
+            "step": "Clients arrive",
+            "detail": "Reminders cut no-shows."
+          },
+          {
+            "step": "Takes card payments",
+            "detail": "Tap on terminal or phone."
+          },
+          {
+            "step": "Gets payout",
+            "detail": "Money lands in the bank."
+          },
+          {
+            "step": "Sends rebook message",
+            "detail": "Automated reminder for next cut."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Fresha makes money from three things: a cut of card payments, a one-time fee for each new client its marketplace brings, and since 2025, subscription plans and add-ons. The free or cheap software is the hook; payments are the main engine.",
+      "revenueStreams": [
+        {
+          "stream": "Payment processing",
+          "detail": "A small percentage plus a fixed fee on each card payment through Fresha Pay."
+        },
+        {
+          "stream": "New client fees",
+          "detail": "A share of the first booking when a new client comes from the Fresha marketplace, often around 20%."
+        },
+        {
+          "stream": "Subscriptions",
+          "detail": "Paid plans introduced in 2025, priced per business or per team member."
+        },
+        {
+          "stream": "Add-ons",
+          "detail": "Marketing messages, advanced features, and financial services."
+        }
+      ],
+      "pricing": "Subscription plans since 2025, priced per business or per team member (exact prices vary by country). Card processing fees around 1% to 2.5% plus a small fixed fee in the UK. New client fee on marketplace bookings. Prices are estimates from salon reviews and pricing guides.",
+      "costDrivers": [
+        "Card network and bank fees",
+        "Engineering for software and payments",
+        "Marketing the consumer marketplace",
+        "Customer support across 120 countries",
+        "Fraud and chargebacks"
+      ],
+      "unitEconomics": "Take a salon that takes £10,000 a month in card payments through Fresha. At about 2% processing, Fresha collects £200, pays maybe £100 to card networks and banks, and keeps about £100. If the marketplace brings 10 new clients a month at £40 each and Fresha keeps 20%, that is another £80. Add a subscription of perhaps £20 to £50. So one busy salon could be worth £200 to £230 a month to Fresha. Small salons are worth much less. These are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free or low-cost software that undercuts paid rivals",
+        "Marketplace that brings salons new clients",
+        "Word of mouth among stylists who move between salons",
+        "Customers discovering Fresha when booking, then asking their salons to use it"
+      ],
+      "whatBringsUsersBack": [
+        "Salons run their whole day in the Fresha calendar",
+        "Customers rebook with reminders",
+        "Payments and payouts tied to Fresha",
+        "Client history stored on Fresha"
+      ],
+      "moat": "Once a salon's diary, client history and card terminals are on Fresha, switching is painful. The marketplace grows stronger as more salons join, because more choice brings more customers, and more customers bring more salons."
+    },
+    "competitors": [
+      {
+        "name": "Booksy",
+        "positioning": "Booking app for barbers and salons, strong in the US and Europe.",
+        "howThisProductDiffers": "Booksy charges a monthly fee; Fresha leans more on payments."
+      },
+      {
+        "name": "Treatwell",
+        "positioning": "European salon marketplace with commission on bookings.",
+        "howThisProductDiffers": "Treatwell is marketplace-first; Fresha is software-first."
+      },
+      {
+        "name": "Vagaro",
+        "positioning": "US salon software with a subscription model.",
+        "howThisProductDiffers": "Similar features; Fresha is more global."
+      },
+      {
+        "name": "Zenoti and Phorest",
+        "positioning": "Paid software for larger salon chains and spas.",
+        "howThisProductDiffers": "They target bigger businesses; Fresha is easier and cheaper for small ones."
+      },
+      {
+        "name": "Mindbody",
+        "positioning": "Fitness and wellness booking.",
+        "howThisProductDiffers": "Mindbody focuses on gyms and studios."
+      }
+    ],
+    "northStar": {
+      "metric": "Appointments completed through Fresha each month",
+      "why": "Each completed appointment is a customer served and a salon paid. It drives payment fees, shows the software is in daily use, and grows the marketplace."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active businesses",
+        "description": "Salons with bookings each week.",
+        "children": [
+          {
+            "metric": "Sign-up to first booking time",
+            "description": "Speed of setup."
+          },
+          {
+            "metric": "Monthly business churn",
+            "description": "Salons that leave."
+          }
+        ]
+      },
+      {
+        "metric": "Appointments per business",
+        "description": "How full each salon is.",
+        "children": [
+          {
+            "metric": "Online booking share",
+            "description": "Bookings made by clients online."
+          },
+          {
+            "metric": "No-show rate",
+            "description": "Missed appointments."
+          },
+          {
+            "metric": "Rebooking rate",
+            "description": "Clients who book again within 60 days."
+          }
+        ]
+      },
+      {
+        "metric": "Payment attach rate",
+        "description": "Share of appointments paid through Fresha Pay.",
+        "children": [
+          {
+            "metric": "Terminal activation",
+            "description": "Salons using Fresha card machines."
+          },
+          {
+            "metric": "Deposits taken",
+            "description": "Bookings with a deposit."
+          }
+        ]
+      },
+      {
+        "metric": "Marketplace new clients",
+        "description": "First-time clients from the Fresha app.",
+        "children": [
+          {
+            "metric": "Search-to-booking conversion",
+            "description": "Consumers who book after searching."
+          },
+          {
+            "metric": "Review count per salon",
+            "description": "Trust signals."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Salon complaints about fees",
+      "Payout delays and holds",
+      "Chargeback and fraud rate",
+      "Customer cancellation complaints"
+    ],
+    "strengths": [
+      "Profitable and growing over 60% a year",
+      "Huge base of 130,000 businesses",
+      "Payments engine that grows with salon sales",
+      "Two-sided marketplace with network effects"
+    ],
+    "weaknesses": [
+      "Salons upset by the move from free to paid plans",
+      "New client fees feel high to small salons",
+      "Support is hard to reach",
+      "Revenue per salon is low for small businesses"
+    ],
+    "risks": [
+      "Salons switching to Booksy, Treatwell or cheaper tools after fee changes",
+      "Payment rules or card fee changes",
+      "Big tech like Google adding booking directly in search",
+      "Slower spending on beauty in a downturn"
+    ],
+    "userComplaints": [
+      "Software is no longer free after the 2025 subscription change",
+      "New client fee charged even for clients salons think they found themselves",
+      "Payout holds and delays",
+      "Slow customer support",
+      "Customers dislike no-show and cancellation fees"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear new client fee rules with a dispute button and proof of source",
+        "problem": "Salons feel charged unfairly for clients they brought themselves.",
+        "expectedImpact": "Fewer complaints and less churn.",
+        "metricToTrack": "Fee disputes per 1,000 new clients and business churn",
+        "effort": "low"
+      },
+      {
+        "idea": "Fee cap for very small salons and solo barbers",
+        "problem": "Fees hurt small businesses most.",
+        "expectedImpact": "Keeps the long tail of small salons.",
+        "metricToTrack": "Monthly churn of solo businesses",
+        "effort": "low"
+      },
+      {
+        "idea": "AI receptionist that answers calls and WhatsApp messages and books slots",
+        "problem": "Stylists cannot answer phones during cuts.",
+        "expectedImpact": "More bookings and a paid add-on.",
+        "metricToTrack": "Bookings made by the AI receptionist",
+        "effort": "medium"
+      },
+      {
+        "idea": "Instant payouts for a small fee",
+        "problem": "Payout delays upset salon owners.",
+        "expectedImpact": "Better trust and new fee revenue.",
+        "metricToTrack": "Payout complaints and instant payout uptake",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "You can give software away and make money on payments, because payments grow as your customers' businesses grow.",
+      "Changing a free product to paid is risky; explain the value clearly or loyal users feel betrayed.",
+      "A marketplace on top of software gives sellers a reason to stay: you bring them customers.",
+      "Fees tied to value, like a fee only for new clients, feel fair only if the rules are clear."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Fresha gave its software away for free. How did it make money?",
+        "hint": "Payments cut, new client fees, add-ons. Explain why payments grow with salon revenue."
+      },
+      {
+        "question": "Fresha moved salons to paid plans in 2025. How would you measure if it worked?",
+        "hint": "Revenue per salon, churn, new sign-ups, payment attach. Compare cohorts before and after."
+      },
+      {
+        "question": "How would you grow the consumer marketplace?",
+        "hint": "Supply (salons listed), demand (search, SEO, app), trust (reviews). Pick one lever and a metric."
+      },
+      {
+        "question": "What is Fresha's north star metric?",
+        "hint": "Appointments completed. Break into active businesses, appointments per business, payment attach, marketplace."
+      },
+      {
+        "question": "How would you launch Fresha in India?",
+        "hint": "UPI payments, WhatsApp booking, low prices, competition with local apps like Urban Company for at-home services."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Marketplace",
+        "meaning": "A platform where buyers and sellers find each other, like customers and salons."
+      },
+      {
+        "term": "Payment attach rate",
+        "meaning": "The share of bookings that are paid through the platform's own payment system."
+      },
+      {
+        "term": "Network effects",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Unicorn",
+        "meaning": "A private startup valued at $1 billion or more."
+      },
+      {
+        "term": "Run-rate",
+        "meaning": "Current revenue scaled up to a full year."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of customers who leave in a given period."
+      },
+      {
+        "term": "Chargeback",
+        "meaning": "When a card payment is reversed after a customer disputes it."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team focuses on because it best shows the value users get."
+      }
+    ],
+    "assumptions": [
+      "Processing fee rates, new client fee share and subscription prices are estimates from salon reviews and pricing guides.",
+      "Unit economics for a sample salon are rough estimates.",
+      "The 2025 subscription change details may vary by country."
+    ]
+  }
+}

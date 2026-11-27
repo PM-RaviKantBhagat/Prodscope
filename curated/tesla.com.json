@@ -1,0 +1,224 @@
+{
+  "company": "Tesla",
+  "domain": "tesla.com",
+  "website": "https://www.tesla.com",
+  "sources": [
+    "https://teslanorth.com/2026/10/21/tesla-q3-2026-earnings/",
+    "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+    "https://driveteslacanada.ca/news/tesla-q3-2026-earnings-results/",
+    "https://electrive.com/2026/10/22/tesla-q3-results-full-order-books-but-declining-figures",
+    "https://electrek.co/2026/02/02/tesla-tsla-cant-find-bottom-europe-2026-brutal-decline/",
+    "https://theprint.in/world/tesla-is-no-longer-the-top-ev-seller-why-is-it-losing-ground-around-the-world/2817953"
+  ],
+  "report": {
+    "company": "Tesla",
+    "tagline": "An American electric car maker that sells cars directly online and keeps improving them with software updates, plus home and grid batteries.",
+    "category": "EV / hardware + software",
+    "simpleSummary": "Tesla makes electric cars like the Model 3 and Model Y, and you buy them on its website or app, not from a dealer. The car gets new features over the internet, like a phone. You can pay a monthly fee for Full Self-Driving (Supervised), which drives the car while you watch the road. Tesla also sells big batteries for homes and power companies, and now runs a small driverless taxi service in Austin.",
+    "keyNumbers": [
+      {"label": "Revenue, Q3 2026", "value": "$28.05 billion, flat year on year", "note": "Tesla Q3 2026 results, October 2026."},
+      {"label": "Cars delivered, Q3 2026", "value": "486,532, down 2% year on year", "note": "Tesla Q3 2026 results. Tesla passed 10 million cars made in total."},
+      {"label": "Net profit, Q3 2026", "value": "$787 million (GAAP)", "note": "Operating margin only 2.6% as spending on AI and new products rose 39%."},
+      {"label": "Car gross margin", "value": "18.5%", "note": "Automotive GAAP gross margin, Q3 2026; 18.1% without regulatory credits."},
+      {"label": "Active FSD subscriptions", "value": "1.74 million, up 67%", "note": "Q3 2026. Over 75% of new North American buyers take FSD, per Tesla."},
+      {"label": "Cash and investments", "value": "$45.5 billion", "note": "End of Q3 2026, Tesla results."}
+    ],
+    "overview": {
+      "whatItDoes": "Tesla designs, builds and sells electric cars, mainly Model Y and Model 3, plus Cybertruck, Semi and the new two-seat Cybercab robotaxi. It sells directly to buyers, runs its own Supercharger network, and sells software like Full Self-Driving. It also sells Powerwall home batteries and Megapack grid batteries.",
+      "howItWorks": [
+        "Buyers configure and order a car on tesla.com or the Tesla app; there are no franchised dealers.",
+        "Tesla builds cars in its own factories in California, Texas, Shanghai and Berlin.",
+        "Cars get over-the-air updates that add features, fix bugs and improve range.",
+        "Owners pay a monthly subscription for FSD (Supervised); in the US Tesla moved FSD to subscription only in 2026.",
+        "The Supercharger network lets owners charge on road trips; other brands now plug in too and pay Tesla.",
+        "Mobile service vans and service centres handle repairs, booked through the app."
+      ],
+      "valueProposition": "An electric car that costs little to run, gets better with software, and charges easily on a large network, bought without haggling at a dealer."
+    },
+    "personas": [
+      {"name": "US family switching from petrol", "description": "A suburban family buying a Model Y as the main car.", "goals": ["Lower fuel and maintenance costs", "Safe, roomy car", "Easy road trips"], "frustrations": ["Long waits for service appointments", "Insurance and repair costs are high", "Worry about resale value as Tesla cuts prices"]},
+      {"name": "Tech enthusiast", "description": "An early adopter who wants FSD and new features first.", "goals": ["Try self-driving", "Get the latest software", "Own the most advanced car"], "frustrations": ["FSD still needs constant supervision", "Promised features arrive years late", "Older hardware may not get the newest FSD"]},
+      {"name": "Fleet or ride-hailing driver", "description": "A driver doing Uber or a company running cars all day.", "goals": ["Lowest cost per kilometre", "High uptime", "Fast charging"], "frustrations": ["Downtime during repairs", "Parts delays"]},
+      {"name": "Premium buyer in India", "description": "A high-income buyer in Mumbai or Delhi considering the imported Model Y.", "goals": ["A status EV", "Modern tech"], "frustrations": ["High price due to import duty", "Few Superchargers and service points in India"]}
+    ],
+    "painPoints": [
+      {"pain": "Buying from dealers is slow and full of haggling.", "howSolved": "Fixed online prices and ordering in a few taps.", "severity": "medium"},
+      {"pain": "Charging on long trips is unreliable with other networks.", "howSolved": "Supercharger network built into the car's navigation.", "severity": "high"},
+      {"pain": "Petrol and servicing costs are high.", "howSolved": "Electricity costs less per km and EVs need fewer services.", "severity": "high"},
+      {"pain": "Cars feel old after a few years.", "howSolved": "Over-the-air updates add features without a visit.", "severity": "medium"},
+      {"pain": "Long commutes and highway driving are tiring.", "howSolved": "FSD (Supervised) handles steering, braking and lane changes while the driver watches.", "severity": "medium"},
+      {"pain": "Homes lose power or pay high peak rates.", "howSolved": "Powerwall stores solar or cheap power for later.", "severity": "low"}
+    ],
+    "coreFeatures": [
+      {"feature": "Over-the-air updates", "whatItDoes": "Pushes new software to every car over Wi-Fi or mobile data.", "whyItMatters": "Keeps owners happy for years and lets Tesla sell software after the car is sold."},
+      {"feature": "Full Self-Driving (Supervised)", "whatItDoes": "Drives the car on city streets and highways while the driver supervises.", "whyItMatters": "A high-margin monthly subscription and the base for the robotaxi business."},
+      {"feature": "Supercharger network", "whatItDoes": "Tens of thousands of fast chargers worldwide, open to other brands in many places.", "whyItMatters": "Removes range anxiety and now earns charging revenue from non-Tesla drivers."},
+      {"feature": "Direct sales and Tesla app", "whatItDoes": "Order, pay, unlock, pre-heat, and book service from the phone.", "whyItMatters": "Tesla keeps the dealer margin and owns the customer relationship."},
+      {"feature": "Robotaxi with Cybercab", "whatItDoes": "Driverless rides in Austin, started September 2026 in the steering-wheel-free Cybercab.", "whyItMatters": "If it scales, Tesla earns per ride instead of only per car sold."},
+      {"feature": "Powerwall and Megapack", "whatItDoes": "Batteries for homes and for power grids.", "whyItMatters": "A second growing business; 13.7 GWh deployed in Q3 2026."}
+    ],
+    "userJourneys": [
+      {"name": "Buying a Model Y", "persona": "US family switching from petrol", "steps": [
+        {"step": "Researches", "detail": "Compares running costs and tax credits online, watches reviews."},
+        {"step": "Test drives", "detail": "Books a demo drive in the app."},
+        {"step": "Configures", "detail": "Chooses trim, colour and FSD on tesla.com and sees the final price."},
+        {"step": "Pays deposit", "detail": "Pays a small order fee and arranges finance in the app."},
+        {"step": "Takes delivery", "detail": "Picks up the car at a delivery centre after a short walkthrough."},
+        {"step": "Sets up home charging", "detail": "Installs a Wall Connector so the car is full each morning."}
+      ]},
+      {"name": "Subscribing to FSD", "persona": "Tech enthusiast", "steps": [
+        {"step": "Gets a free trial", "detail": "Tesla pushes a free FSD trial to the car."},
+        {"step": "Tries it", "detail": "Uses it on the daily commute while supervising."},
+        {"step": "Decides", "detail": "Compares the monthly fee with the stress saved."},
+        {"step": "Subscribes in app", "detail": "Starts a subscription in the Tesla app."},
+        {"step": "Gets updates", "detail": "Receives new FSD versions over the air."},
+        {"step": "Shares", "detail": "Posts videos online, which markets FSD to others."}
+      ]},
+      {"name": "Getting a repair", "persona": "Fleet or ride-hailing driver", "steps": [
+        {"step": "Spots a fault", "detail": "The car shows an alert or something breaks."},
+        {"step": "Books in app", "detail": "Describes the issue and adds photos."},
+        {"step": "Remote check", "detail": "Tesla tries a remote diagnosis or software fix."},
+        {"step": "Mobile service or centre", "detail": "A van comes for small jobs; big jobs need a centre visit."},
+        {"step": "Waits for parts", "detail": "Waits can stretch to weeks for body parts."},
+        {"step": "Gets car back", "detail": "Rates the service in the app."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Tesla makes most of its money selling cars at a profit. On top of that it earns from software subscriptions (FSD), charging, service, regulatory credits sold to other carmakers, and energy batteries. Its big bet is that driverless rides and robots will one day earn more than cars.",
+      "revenueStreams": [
+        {"stream": "Car sales", "detail": "Model Y, Model 3, Cybertruck and others; the largest share of the $28 billion quarterly revenue."},
+        {"stream": "Software (FSD and Connectivity)", "detail": "FSD subscriptions, 1.74 million active; Premium Connectivity monthly plan."},
+        {"stream": "Energy generation and storage", "detail": "Megapack and Powerwall; $2.88 billion in Q3 2026."},
+        {"stream": "Services and other", "detail": "Supercharging, repairs, insurance, used cars and parts."},
+        {"stream": "Regulatory credits", "detail": "Selling emission credits to carmakers that need them; shrinking over time."}
+      ],
+      "pricing": "US: Model 3 from about $37,000 and Model Y from about $40,000 for Standard trims (2025 launch prices). FSD (Supervised) is a subscription of about $99 a month in the US. India: Model Y launched in 2025 at about ₹60 lakh before taxes and fees.",
+      "costDrivers": [
+        "Battery cells and raw materials",
+        "Factory running costs and labour",
+        "AI training compute and chips for FSD and robots",
+        "Research and development, up sharply in 2026",
+        "Service network and warranty repairs",
+        "Supercharger build-out"
+      ],
+      "unitEconomics": "On a $42,000 Model Y, Tesla keeps about 18% as gross profit, roughly $7,500, after the cost of building it. Sales, R&D and admin then eat most of that, which is why the company operating margin was only 2.6% in Q3 2026. A buyer who adds FSD at about $99 a month adds roughly $1,200 a year at a very high margin, because the software costs almost nothing to send to one more car. Over 5 years, that subscription could add about $6,000, close to the profit on building the car itself."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth and owner referral programme",
+        "Elon Musk's public profile and social media",
+        "Free FSD trials pushed to every car",
+        "Price cuts and cheaper Standard trims",
+        "Entering new markets like India in 2025"
+      ],
+      "whatBringsUsersBack": [
+        "Regular software updates make the car feel new",
+        "FSD subscription renews every month",
+        "Supercharger habit and the Tesla app",
+        "Strong repeat purchase for the next car from happy owners"
+      ],
+      "moat": "Tesla's moat is its data and scale: millions of cars sending driving data to train FSD, its own charging network, and low-cost factories. A rival can build a good EV, but matching the fleet data and software stack takes years. The moat is weaker on cars alone, where BYD and other Chinese makers now build cheaper EVs."
+    },
+    "competitors": [
+      {"name": "BYD", "positioning": "Chinese EV giant with cheap, wide range of cars and its own batteries.", "howThisProductDiffers": "Tesla has fewer models but stronger software, FSD and charging; BYD wins on price and outsold Tesla in Europe in 2026."},
+      {"name": "Waymo", "positioning": "Alphabet's driverless taxi service in several US cities.", "howThisProductDiffers": "Waymo uses expensive sensors and is far ahead in paid driverless rides; Tesla bets on cameras and low-cost cars to scale faster."},
+      {"name": "Volkswagen, Hyundai and Kia EVs", "positioning": "Traditional carmakers with EVs sold through dealers.", "howThisProductDiffers": "Tesla sells direct and updates cars over the air; rivals have more dealer reach and model choice."},
+      {"name": "Xiaomi and other Chinese tech EVs", "positioning": "Phone-like smart cars at low prices.", "howThisProductDiffers": "Xiaomi's YU7 competes head-on with Model Y in China; Tesla has global brand and network."}
+    ],
+    "northStar": {
+      "metric": "Miles driven on Tesla cars and robotaxis per week, with FSD miles tracked separately",
+      "why": "This north star metric shows real use of the product people paid for. Rising FSD miles show the software delivers value and feeds data back to improve it."
+    },
+    "kpiTree": [
+      {"metric": "Cars on the road", "description": "Size of the active Tesla fleet.", "children": [
+        {"metric": "Quarterly deliveries", "description": "New cars handed to buyers."},
+        {"metric": "Order-to-delivery time", "description": "Shorter waits mean fewer cancelled orders."},
+        {"metric": "Fleet retention", "description": "Share of cars still driven by owners after 5 years."}
+      ]},
+      {"metric": "FSD usage", "description": "How much driving FSD does.", "children": [
+        {"metric": "FSD attach rate", "description": "Share of new buyers who subscribe; over 75% in North America in Q3 2026."},
+        {"metric": "Monthly FSD churn", "description": "Share of subscribers who cancel."},
+        {"metric": "Miles between interventions", "description": "How far FSD drives before the driver must take over."}
+      ]},
+      {"metric": "Robotaxi rides", "description": "Paid driverless trips.", "children": [
+        {"metric": "Cities live", "description": "Only Austin in Q3 2026."},
+        {"metric": "Unsupervised miles", "description": "Nearly 2 million cumulative by Q3 2026."},
+        {"metric": "Wait time per ride", "description": "Shorter waits mean more riders."}
+      ]},
+      {"metric": "Owner satisfaction", "description": "Whether owners stay happy.", "children": [
+        {"metric": "Service appointment wait days", "description": "Long waits are a top complaint."},
+        {"metric": "Supercharger uptime", "description": "Share of time chargers work."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Crashes per million miles on FSD and robotaxi",
+      "Automotive gross margin",
+      "Warranty cost per car"
+    ],
+    "strengths": [
+      "Software-first cars that improve after purchase",
+      "Huge cash pile of $45 billion to fund AI and new products",
+      "Large global charging network",
+      "High-margin FSD subscription base of 1.74 million",
+      "Energy storage business growing beside cars"
+    ],
+    "weaknesses": [
+      "Only a few car models, with the core range ageing",
+      "Profit is thin: 2.6% operating margin in Q3 2026",
+      "Brand damage in Europe tied to the CEO's politics",
+      "Service waits and repair costs frustrate owners",
+      "Robotaxi live in just one city"
+    ],
+    "risks": [
+      "Cheaper Chinese EVs from BYD, Xiaomi and others taking share",
+      "Safety regulators investigating FSD and robotaxi crashes",
+      "End of US EV tax credits making cars pricier for buyers",
+      "The valuation depends on autonomy and robots working at scale"
+    ],
+    "userComplaints": [
+      "Long waits for service and parts after accidents",
+      "FSD still makes mistakes and needs constant watching",
+      "Phantom braking on highways",
+      "Resale values fell after repeated price cuts",
+      "Some owners dislike the CEO's public politics and feel it hurts the brand",
+      "Too many controls moved into the touchscreen"
+    ],
+    "improvementIdeas": [
+      {"idea": "Guaranteed 48-hour mobile repair for common faults", "problem": "Service waits are a top complaint.", "expectedImpact": "Higher satisfaction and repeat purchase.", "metricToTrack": "Median days from booking to fix", "effort": "high"},
+      {"idea": "Monthly FSD report card in the app", "problem": "Subscribers do not see how much FSD did for them, so they churn.", "expectedImpact": "Lower FSD churn.", "metricToTrack": "Monthly FSD churn", "effort": "low"},
+      {"idea": "Certified used Tesla with FSD bundled", "problem": "Falling resale values hurt new buyers.", "expectedImpact": "Supports resale prices and adds new FSD users.", "metricToTrack": "Used car price retention after 3 years", "effort": "medium"},
+      {"idea": "Physical buttons for wipers and indicators as an option", "problem": "Drivers find touchscreen controls distracting.", "expectedImpact": "Better safety ratings and fewer complaints.", "metricToTrack": "Complaints about controls per 1,000 owners", "effort": "medium"},
+      {"idea": "Robotaxi in 3 more US cities with clear safety reports", "problem": "Robotaxi is limited to Austin.", "expectedImpact": "Proves the new business model.", "metricToTrack": "Paid robotaxi rides per week", "effort": "high"}
+    ],
+    "pmLessons": [
+      "A product can keep earning after the sale if software adds value over time, as FSD and updates show.",
+      "Owning the customer relationship (direct sales, app) gives you data and margin, but you also own every service complaint.",
+      "Price cuts win volume now but can hurt existing customers through lower resale value.",
+      "A founder's brand can drive growth and then become a risk."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you increase FSD subscriptions in Europe?", "hint": "Start with regulation (approved in 9 countries), then trial-to-paid conversion, pricing by country, and trust. Define the funnel and metrics."},
+      {"question": "Tesla car deliveries are flat. What would you look at first?", "hint": "Split by region and model. Check demand vs supply, price, competition from BYD, brand sentiment. Propose fixes by segment."},
+      {"question": "What is the north star metric for Tesla's robotaxi service?", "hint": "Paid rides completed safely per week. Break into fleet size, utilisation, wait time, safety. Name guardrail metrics like crashes per million miles."},
+      {"question": "Should Tesla launch a cheaper car for India?", "hint": "Weigh import duties, local factory, price bands, charging infrastructure, and competition from Tata and Mahindra EVs."},
+      {"question": "Design a feature that reduces service centre visits.", "hint": "Use car data for remote diagnosis, predictive part ordering, and mobile service. Measure visits avoided and satisfaction."}
+    ],
+    "glossary": [
+      {"term": "Over-the-air updates", "meaning": "Software sent to the car over the internet, without a workshop visit."},
+      {"term": "Gross margin", "meaning": "The share of the price left after paying to build the product."},
+      {"term": "Operating margin", "meaning": "The share of revenue left after all running costs, before tax and interest."},
+      {"term": "Attach rate", "meaning": "The share of buyers who also buy an add-on, like FSD with a car."},
+      {"term": "Churn", "meaning": "The share of subscribers who cancel in a period."},
+      {"term": "Regulatory credits", "meaning": "Credits Tesla earns for making zero-emission cars and sells to carmakers that miss emission rules."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Guardrail metrics", "meaning": "Numbers that must not get worse while a team pushes its main goal."}
+    ],
+    "assumptions": [
+      "US prices for Model 3, Model Y and FSD are from 2025 and early 2026 launch announcements and may have changed.",
+      "The Model Y gross profit of about $7,500 applies the company-wide car margin to one car; actual margin varies by model.",
+      "India pricing is the 2025 launch price for Model Y and may have changed.",
+      "The European decline is from early 2026 reports; full-year 2026 figures were not checked."
+    ]
+  }
+}

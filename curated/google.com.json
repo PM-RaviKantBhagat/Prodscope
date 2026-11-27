@@ -1,0 +1,213 @@
+{
+  "company": "Google Search (AI Mode)",
+  "domain": "google.com",
+  "website": "https://www.google.com",
+  "sources": [
+    "https://guptadeepak.com/alphabet-q3-2026-earnings/",
+    "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/",
+    "https://www.marketingdive.com/news/googles-ai-overhaul-of-search-hits-snags-as-ad-revenue-growth-cools/",
+    "https://www.medianews4u.com/alphabets-q3-ad-revenue-rises-11-as-ai-search-monetisation-lags/",
+    "https://digiday.com/media/google-ai-overviews-linked-to-25-drop-in-publisher-referral-traffic-new-data-shows",
+    "https://digiday.com/media/media-briefing-less-clicks-more-problems-what-googles-ai-mode-means-for-publishers"
+  ],
+  "report": {
+    "company": "Google Search (AI Mode)",
+    "tagline": "The world's main search engine, now answering many questions with AI written answers (AI Overviews and AI Mode) while still earning most of its money from ads.",
+    "category": "Search",
+    "simpleSummary": "Google Search is where most people type a question. For years it showed ten blue links and some ads. Now, for many questions, it shows an AI written answer at the top (AI Overviews), and you can switch to AI Mode to chat with it, ask follow-ups, or search with your camera or voice. Google earns money when people click the ads shown next to results and inside these AI answers. The big question is whether AI answers make as much ad money as the old links.",
+    "keyNumbers": [
+      {"label": "Search and other revenue, Q3 2026", "value": "$63.35 billion, up 12%", "note": "Alphabet Q3 2026 results. Growth slowed from 16.8% in Q2 2026."},
+      {"label": "Alphabet revenue, Q3 2026", "value": "$127.6 billion, up 25%", "note": "Alphabet results, October 2026. Cloud grew 103% to $30.7 billion."},
+      {"label": "Paid clicks growth", "value": "8% year on year", "note": "Q3 2026; cost per click up 4%. Alphabet results."},
+      {"label": "Gemini app users", "value": "About 1 billion monthly", "note": "Alphabet Q3 2026 commentary."},
+      {"label": "AI Overviews users", "value": "Over 2 billion a month", "note": "Google's own figure from 2025. Treat as approximate for 2026."},
+      {"label": "Capital spending, 2026", "value": "$195 to $205 billion guided", "note": "Mostly AI data centres and chips. Free cash flow was negative in Q3 2026."}
+    ],
+    "overview": {
+      "whatItDoes": "Google Search finds information on the web and now often writes the answer itself using Gemini models. AI Overviews appear on top of normal results; AI Mode is a full chat-style search tab where you can ask long, multi-part questions. Search is free; advertisers pay when users click their ads.",
+      "howItWorks": [
+        "A user types, speaks or points the camera (Google Lens) at something.",
+        "Google's index of the web and its Gemini model build an AI answer with links to sources.",
+        "Ads appear above results, in Shopping listings and now inside AI Overviews and AI Mode.",
+        "Advertisers bid in an auction for keywords; Google charges only when someone clicks (cost per click).",
+        "Queries in AI Mode are about 3 times longer than normal searches, and 1 in 5 uses voice, images or documents.",
+        "Google pays partners like Apple and Samsung to be the default search engine on their devices."
+      ],
+      "valueProposition": "For users: fast, free answers to almost any question, now with explanations instead of a list of links. For advertisers: reaching people at the exact moment they are looking for something."
+    },
+    "personas": [
+      {"name": "Everyday searcher in India", "description": "A college student in Lucknow searching in Hindi and English on an Android phone.", "goals": ["Quick answers", "Help with studies", "Search by voice in Hindi"], "frustrations": ["AI answers sometimes wrong", "Too many ads on shopping searches"]},
+      {"name": "Researcher with a complex question", "description": "A professional comparing products or planning a trip.", "goals": ["One answer that covers many angles", "Follow-up questions"], "frustrations": ["Has to open many tabs", "Not sure if the AI answer can be trusted"]},
+      {"name": "Small business advertiser", "description": "A local dentist or D2C brand spending on Google Ads.", "goals": ["Customers at low cost per click", "Clear results"], "frustrations": ["Rising costs", "Less control over where ads show in AI answers"]},
+      {"name": "Publisher", "description": "A news site or blog that depends on Google traffic.", "goals": ["Clicks from search", "Credit for content"], "frustrations": ["Traffic falling as AI answers the question directly", "No good way to opt out"]}
+    ],
+    "painPoints": [
+      {"pain": "Finding an answer means opening many links.", "howSolved": "AI Overviews summarise the answer on the results page.", "severity": "high"},
+      {"pain": "Complex questions do not fit in a keyword search.", "howSolved": "AI Mode handles long, multi-part questions and follow-ups.", "severity": "high"},
+      {"pain": "Hard to describe things in words.", "howSolved": "Google Lens and voice search let people search with images and speech.", "severity": "medium"},
+      {"pain": "Businesses struggle to reach customers ready to buy.", "howSolved": "Search ads target exactly what people are typing.", "severity": "high"},
+      {"pain": "Shopping research takes a long time.", "howSolved": "AI Mode shopping compares products and prices.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "AI Overviews", "whatItDoes": "AI summary at the top of many results pages, with links.", "whyItMatters": "Keeps people on Google instead of switching to ChatGPT."},
+      {"feature": "AI Mode", "whatItDoes": "A chat-style search tab with follow-ups, deep research and agent features like booking.", "whyItMatters": "Google's answer to AI chatbots, and the place where it is testing new ad formats."},
+      {"feature": "Google Lens and Circle to Search", "whatItDoes": "Search by pointing the camera or circling something on screen.", "whyItMatters": "Opens new kinds of searches, especially shopping, and is big in India."},
+      {"feature": "Search ads and Shopping ads", "whatItDoes": "Paid listings sold by auction, now also in AI answers.", "whyItMatters": "The main source of Alphabet's profit."},
+      {"feature": "Multilingual and voice search", "whatItDoes": "AI Mode and voice search in Indian languages like Hindi.", "whyItMatters": "Reaches the next hundreds of millions of users in India."}
+    ],
+    "userJourneys": [
+      {"name": "Planning a trip with AI Mode", "persona": "Researcher with a complex question", "steps": [
+        {"step": "Asks a long question", "detail": "Types 'a 4-day Goa trip in December for a family with kids, under ₹60,000'."},
+        {"step": "Gets a plan", "detail": "AI Mode replies with an itinerary and links."},
+        {"step": "Follows up", "detail": "Asks for cheaper hotels near the beach."},
+        {"step": "Compares", "detail": "Sees hotel options, some sponsored."},
+        {"step": "Clicks out", "detail": "Opens a booking site to book."},
+        {"step": "Returns", "detail": "Comes back to AI Mode for restaurant ideas."}
+      ]},
+      {"name": "Quick fact with AI Overview", "persona": "Everyday searcher in India", "steps": [
+        {"step": "Speaks a query", "detail": "Asks in Hindi by voice."},
+        {"step": "Reads summary", "detail": "AI Overview answers at the top."},
+        {"step": "Checks a source", "detail": "Maybe taps one link to confirm."},
+        {"step": "Done", "detail": "Leaves without clicking further, a zero-click search."},
+        {"step": "Comes back", "detail": "Uses Google again within hours for the next question."}
+      ]},
+      {"name": "Advertiser running a campaign", "persona": "Small business advertiser", "steps": [
+        {"step": "Sets budget", "detail": "Creates a campaign in Google Ads."},
+        {"step": "Chooses automation", "detail": "Uses AI Max or Performance Max to let Google pick queries, including AI answers."},
+        {"step": "Bids", "detail": "Ads enter auctions on matching searches."},
+        {"step": "Gets clicks", "detail": "Pays per click."},
+        {"step": "Measures", "detail": "Tracks calls and sales from ads."},
+        {"step": "Adjusts", "detail": "Raises or cuts budget based on cost per customer."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Google Search is free for users and makes money from advertisers. Advertisers bid in auctions and pay when people click. Search and other revenue was $63 billion in one quarter, the largest part of Alphabet. AI answers cost more to produce and so far earn less per query, which is the core tension.",
+      "revenueStreams": [
+        {"stream": "Search ads", "detail": "Text ads on results pages, paid per click."},
+        {"stream": "Shopping ads", "detail": "Product listings with images and prices."},
+        {"stream": "Ads in AI Overviews and AI Mode", "detail": "Sponsored results inside AI answers, expanding to more countries in 2026."},
+        {"stream": "Subscriptions (Google AI Pro and Ultra)", "detail": "Paid plans with more powerful AI features; small next to ads."}
+      ],
+      "pricing": "Free for users. Advertisers pay per click through auctions; prices vary by keyword from a few rupees to thousands of rupees for competitive terms like insurance.",
+      "costDrivers": [
+        "Data centres and AI chips (TPUs)",
+        "Computing cost of running AI answers, higher than plain links",
+        "Payments to Apple, Samsung and others for default placement",
+        "Engineering and AI research staff"
+      ],
+      "unitEconomics": "Suppose Google handles 1,000 normal searches. Ads are clicked on some of them and Google might earn roughly $20 to $50 from those 1,000 searches in the US, at a cost of under a cent per search to serve. An AI Mode answer costs several times more in computing, and Google said AI Mode queries currently earn less money than normal search. So each switch from links to AI answers adds cost and, for now, loses some revenue per query. Google is betting longer queries and better ad formats will close that gap."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Default search engine on Android, Chrome and (through payments) Safari",
+        "Brand: 'to google' means to search",
+        "Google app and Circle to Search built into Android phones",
+        "New users in India coming online with voice and local languages"
+      ],
+      "whatBringsUsersBack": [
+        "Daily habit: dozens of searches a day",
+        "AI Mode follow-ups keep sessions longer",
+        "Personal features like Discover feed and saved searches"
+      ],
+      "moat": "Search has a huge data and distribution moat: billions of searches a day teach Google what people want, and it is the default on most phones and browsers. AI chatbots threaten the habit, but Google's index, Gemini models, and its own chips let it build AI answers at lower cost than most rivals."
+    },
+    "competitors": [
+      {"name": "ChatGPT (OpenAI)", "positioning": "The most used AI chatbot, with built-in search and the Atlas browser.", "howThisProductDiffers": "Google has fresher web results, maps, shopping data and default placement; ChatGPT has a stronger chat habit for many young users."},
+      {"name": "Perplexity", "positioning": "AI answer engine with citations, plus the Comet browser.", "howThisProductDiffers": "Google is much larger and monetises with ads; Perplexity relies on subscriptions."},
+      {"name": "Microsoft Bing and Copilot", "positioning": "Search engine with AI chat, default on Windows.", "howThisProductDiffers": "Google has far higher share and better mobile distribution."},
+      {"name": "Amazon", "positioning": "Where many shoppers start product searches.", "howThisProductDiffers": "Google competes for shopping ads with AI Mode shopping."}
+    ],
+    "northStar": {
+      "metric": "Number of questions answered successfully per day, where the user's need is met without searching again",
+      "why": "This north star metric measures value to users, not just clicks. It works for both blue links and AI answers."
+    },
+    "kpiTree": [
+      {"metric": "Daily searchers", "description": "People using Google Search each day.", "children": [
+        {"metric": "Default placement share", "description": "Devices and browsers where Google is default."},
+        {"metric": "Young user share", "description": "Share of 18 to 24 year olds using Google vs chatbots."}
+      ]},
+      {"metric": "Queries per searcher", "description": "How often each person searches.", "children": [
+        {"metric": "AI Mode sessions", "description": "Use of AI Mode tab."},
+        {"metric": "Lens and voice queries", "description": "New kinds of searches."},
+        {"metric": "Follow-up questions per session", "description": "Shows deeper engagement."}
+      ]},
+      {"metric": "Answer success", "description": "Whether the need was met.", "children": [
+        {"metric": "Re-query rate", "description": "Searching again soon means the answer failed."},
+        {"metric": "AI answer accuracy rating", "description": "Measured by raters and feedback."}
+      ]},
+      {"metric": "Monetisable queries", "description": "Queries where ads add value.", "children": [
+        {"metric": "Paid clicks", "description": "Up 8% in Q3 2026."},
+        {"metric": "Cost per click", "description": "Up 4% in Q3 2026."},
+        {"metric": "Ad coverage in AI Mode", "description": "Share of AI Mode answers with relevant ads."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Clicks sent to publishers and websites",
+      "AI answer error rate on health and money topics",
+      "Search revenue per query"
+    ],
+    "strengths": [
+      "Billions of users and a daily habit",
+      "Best web index plus strong Gemini models",
+      "Own AI chips lower the cost of AI answers",
+      "Huge ad business funding AI investment",
+      "Default distribution through Android and Chrome"
+    ],
+    "weaknesses": [
+      "AI answers earn less per query so far",
+      "Search revenue growth slowed to 12% in Q3 2026",
+      "AI answers sometimes wrong, which hurts trust",
+      "Free cash flow negative due to AI spending"
+    ],
+    "risks": [
+      "ChatGPT and AI browsers taking the starting point of search",
+      "Antitrust rules limiting default deals and requiring data sharing",
+      "Publishers suing or blocking content as traffic falls",
+      "Advertisers shifting budgets to chatbots and retail media"
+    ],
+    "userComplaints": [
+      "AI Overviews give wrong or odd answers",
+      "Too many ads and sponsored results",
+      "Publishers say AI answers take their content and cut traffic by 25% or more",
+      "Hard to get plain links without AI",
+      "Search results full of SEO spam"
+    ],
+    "improvementIdeas": [
+      {"idea": "Confidence label and 'check sources' prompt on AI answers for health and money", "problem": "Wrong AI answers on serious topics.", "expectedImpact": "Higher trust in AI answers.", "metricToTrack": "Re-query rate and user-reported errors", "effort": "low"},
+      {"idea": "Revenue share for publishers cited in AI answers", "problem": "Publishers losing traffic and threatening to block Google.", "expectedImpact": "Keeps quality content available.", "metricToTrack": "Share of top publishers allowing AI use", "effort": "high"},
+      {"idea": "Agent booking in AI Mode for Indian services (trains, doctors)", "problem": "Users leave Google to finish tasks.", "expectedImpact": "More completed tasks and new ad or fee revenue.", "metricToTrack": "Tasks completed in AI Mode", "effort": "high"},
+      {"idea": "Clear 'Web' links-only toggle in main view", "problem": "Some users want plain links.", "expectedImpact": "Fewer complaints, better satisfaction.", "metricToTrack": "Satisfaction score of users who toggle", "effort": "low"},
+      {"idea": "Conversational ad formats for small businesses", "problem": "AI Mode queries earn less.", "expectedImpact": "Higher revenue per AI query.", "metricToTrack": "Revenue per 1,000 AI Mode queries", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "Disrupting yourself is hard when the old product makes huge money; Google must move to AI answers while protecting ads.",
+      "Watch the whole ecosystem: if publishers stop getting traffic, the content that feeds the product suffers.",
+      "New behaviour, like longer questions, can open new uses, but you must find a way to earn from them.",
+      "Distribution, like being the default, is a product advantage that rivals struggle to match."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you monetise AI Mode without hurting user trust?", "hint": "Ads that fit the question, clear labels, guardrails on sensitive topics, test formats, track revenue per query and satisfaction."},
+      {"question": "Search revenue growth slowed. How do you diagnose it?", "hint": "Split into queries, paid clicks and CPC; by region, device and AI vs non-AI queries. Google itself cited currency, EU rules and AI Mode."},
+      {"question": "What is the north star metric for Google Search in the AI era?", "hint": "Successful answers per day. Why not clicks: AI answers reduce clicks. Add guardrails like publisher clicks."},
+      {"question": "Design AI Mode for first-time internet users in India.", "hint": "Voice first, local languages, low data use, simple follow-ups. Measure weekly active users and re-query rate."},
+      {"question": "How should Google respond to ChatGPT?", "hint": "Strengths (index, distribution, cost), weaknesses (habit among young users). Options: AI Mode by default, Gemini app, partnerships."}
+    ],
+    "glossary": [
+      {"term": "AI Overviews", "meaning": "AI written summaries at the top of Google results."},
+      {"term": "AI Mode", "meaning": "A Google Search tab where you chat with AI to search."},
+      {"term": "Cost per click", "meaning": "What an advertiser pays each time someone clicks their ad."},
+      {"term": "Paid clicks", "meaning": "The number of times people click ads."},
+      {"term": "Zero-click search", "meaning": "A search where the user gets the answer without clicking any link."},
+      {"term": "Free cash flow", "meaning": "Cash left after running the business and paying for investments like data centres."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Monetise", "meaning": "To earn money from a product or feature."}
+    ],
+    "assumptions": [
+      "The $20 to $50 per 1,000 searches figure is an illustrative estimate, not a Google number.",
+      "AI Overviews user count is from 2025 and may be higher now.",
+      "We assume AI answers cost several times more to serve than normal search, based on industry reports, not Google data.",
+      "The 25% publisher traffic drop is from a Digiday-reported study and varies by publisher."
+    ]
+  }
+}

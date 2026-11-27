@@ -1,0 +1,213 @@
+{
+  "company": "Zoom",
+  "domain": "zoom.com",
+  "website": "https://zoom.com",
+  "sources": [
+    "https://investors.zoom.us/news-releases/news-release-details/zoom-communications-reports-financial-results-third-quarter-0",
+    "https://www.zawya.com/en/press-release/companies-news/zoom-communications-reports-financial-results-for-the-third-quarter-of-fiscal-year-2026-p8qqsque",
+    "https://seekingalpha.com/pr/20414176",
+    "https://betanews.com/topic/zoom-40-minute-time-limit/",
+    "https://checkthat.ai/brands/zoom/reviews/",
+    "https://pumble.com/blog/best-zoom-alternatives"
+  ],
+  "report": {
+    "company": "Zoom",
+    "tagline": "The video meeting app that became a verb during COVID, now selling phone, chat, contact centre and AI tools to businesses.",
+    "category": "Video conferencing",
+    "simpleSummary": "Zoom lets you join a video call by clicking a link, with no account needed for guests. During the pandemic, schools, offices and families all used it. Meetings are free for up to 40 minutes, and people or companies pay a monthly fee for longer meetings and extra tools. Now Zoom also sells business phone lines, customer support software and an AI assistant that takes meeting notes.",
+    "keyNumbers": [
+      {"label": "Yearly revenue (fiscal 2026, ended January 2026)", "value": "About $4.85 billion", "note": "Based on Zoom's guidance and quarterly results; growth of only about 3% to 4% a year. Treat as an estimate."},
+      {"label": "Enterprise revenue (Q3 fiscal 2026)", "value": "$741.4 million, up 6.1%", "note": "Zoom's Q3 fiscal 2026 results, November 2025."},
+      {"label": "Online (self-serve) monthly churn", "value": "About 3% a month", "note": "Zoom has reported record lows near 2.9% to 3.0% in 2025. Estimate from recent results."},
+      {"label": "Enterprise customers", "value": "About 190,000", "note": "Approximate figure from Zoom's 2025 results. Weak estimate."},
+      {"label": "Free meeting limit", "value": "40 minutes", "note": "Zoom Basic plan limit for meetings, widely reported."},
+      {"label": "Pro plan price", "value": "About $13.33 per user per month billed yearly ($15.99 monthly)", "note": "Zoom US list price, 2025 to 2026. India price is lower, around ₹1,000 to ₹1,300 per month. Estimate."}
+    ],
+    "overview": {
+      "whatItDoes": "Zoom runs video meetings and webinars, and sells a set of work tools called Zoom Workplace: meetings, team chat, phone, whiteboards, docs and scheduling. It also sells Zoom Contact Center for customer support teams. AI Companion, included in paid plans, writes meeting summaries and answers questions.",
+      "howItWorks": [
+        "A host sends a link; guests click and join in the browser or app, often without signing in.",
+        "Free users get meetings up to 40 minutes with up to 100 people.",
+        "Paid users get longer meetings, cloud recording and AI Companion summaries.",
+        "Businesses buy Zoom Phone to replace desk phones, and Zoom Rooms for meeting rooms.",
+        "Contact Center and Virtual Agent let companies handle customer calls and chats with AI.",
+        "Zoom sells online to small users and through sales teams to large companies."
+      ],
+      "valueProposition": "Video calls that just work: one click to join, good quality on weak internet, and now one vendor for meetings, phone and support."
+    },
+    "personas": [
+      {"name": "Freelancer or tutor", "description": "Teaches online classes or meets clients a few times a week.", "goals": ["Reliable calls", "Easy links for students", "Record sessions"], "frustrations": ["40-minute free limit", "Paying monthly for occasional use"]},
+      {"name": "Company IT buyer", "description": "Picks tools for a 3,000-person firm.", "goals": ["Reliable video", "Lower cost", "Good security"], "frustrations": ["Teams is included in Microsoft 365", "Paying for two meeting tools"]},
+      {"name": "Customer support head", "description": "Runs a 200-agent support team.", "goals": ["Handle calls and chats in one place", "Use AI to cut wait times"], "frustrations": ["Switching from older systems is risky", "Needs CRM links"]},
+      {"name": "Event organiser", "description": "Runs webinars for 1,000 people.", "goals": ["Stable large events", "Registration and analytics"], "frustrations": ["Webinar add-ons are costly"]}
+    ],
+    "painPoints": [
+      {"pain": "Video calls fail or are hard to join.", "howSolved": "One-click links and strong quality on weak connections.", "severity": "high"},
+      {"pain": "Taking notes during meetings.", "howSolved": "AI Companion writes summaries and action items.", "severity": "medium"},
+      {"pain": "Old desk phone systems are expensive.", "howSolved": "Zoom Phone runs calls over the internet.", "severity": "medium"},
+      {"pain": "Hosting big online events is complex.", "howSolved": "Webinars and Zoom Events with registration.", "severity": "medium"},
+      {"pain": "Customer support needs many tools.", "howSolved": "Zoom Contact Center combines voice, chat and AI agents.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Zoom Meetings", "whatItDoes": "Video meetings with screen share, breakout rooms and recordings.", "whyItMatters": "The core habit and the entry point for every other product."},
+      {"feature": "AI Companion", "whatItDoes": "Meeting summaries, smart recordings and answers, included in paid plans.", "whyItMatters": "Adds value without extra cost, to stop paid users from leaving."},
+      {"feature": "Zoom Phone", "whatItDoes": "Cloud business phone system.", "whyItMatters": "Grows revenue per customer beyond meetings."},
+      {"feature": "Zoom Contact Center", "whatItDoes": "Support software with voice, chat and AI virtual agents.", "whyItMatters": "A new, bigger market where Zoom is growing fastest."},
+      {"feature": "Team Chat, Docs and Whiteboard", "whatItDoes": "Tools around meetings, sold as Zoom Workplace.", "whyItMatters": "Tries to become a full platform so companies do not drop Zoom for Teams."}
+    ],
+    "userJourneys": [
+      {"name": "Joining a meeting as a guest", "persona": "Freelancer or tutor", "steps": [
+        {"step": "Gets a link", "detail": "On WhatsApp or email."},
+        {"step": "Clicks it", "detail": "Opens browser or app."},
+        {"step": "Tests audio and video", "detail": "Preview screen."},
+        {"step": "Joins", "detail": "Host lets them in from the waiting room."},
+        {"step": "Meets", "detail": "Shares screen, chats."},
+        {"step": "Meeting ends at 40 minutes", "detail": "If host is on free plan; this pushes the host to upgrade."}
+      ]},
+      {"name": "Upgrading to Pro", "persona": "Freelancer or tutor", "steps": [
+        {"step": "Hits time limit", "detail": "Third time a class gets cut."},
+        {"step": "Sees upgrade prompt", "detail": "In app."},
+        {"step": "Picks Pro", "detail": "Monthly or yearly."},
+        {"step": "Turns on AI Companion", "detail": "Gets summaries."},
+        {"step": "Uses for months", "detail": "May cancel when class season ends, adding to churn."}
+      ]},
+      {"name": "Company moves phones to Zoom", "persona": "Company IT buyer", "steps": [
+        {"step": "Already uses Zoom Meetings", "detail": "Sales rep pitches Zoom Phone."},
+        {"step": "Runs a pilot", "detail": "One office moves first."},
+        {"step": "Ports numbers", "detail": "Moves existing phone numbers."},
+        {"step": "Rolls out", "detail": "All staff get Zoom Phone in app."},
+        {"step": "Adds Contact Center", "detail": "Support team moves next."},
+        {"step": "Renews bigger contract", "detail": "Higher spend per customer."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Zoom makes money from subscriptions: individuals and small teams pay monthly online, and companies sign yearly contracts. About 60% now comes from enterprise customers. Growth depends on selling more products, like Phone and Contact Center, to existing customers.",
+      "revenueStreams": [
+        {"stream": "Online subscriptions", "detail": "Pro and Business plans bought by card, by individuals and small teams."},
+        {"stream": "Enterprise contracts", "detail": "Large companies buying Zoom Workplace, about $741 million a quarter."},
+        {"stream": "Zoom Phone", "detail": "Per-user cloud phone plans."},
+        {"stream": "Contact Center and Virtual Agent", "detail": "Per-agent and usage-based pricing for support teams."},
+        {"stream": "Webinars, Events and Rooms", "detail": "Add-ons for large events and meeting rooms."}
+      ],
+      "pricing": "Basic: free, 40-minute meetings. Pro: about $13.33 per user per month billed yearly. Business: about $18.33 per user per month billed yearly. Enterprise and Contact Center: custom pricing.",
+      "costDrivers": [
+        "Data centre and cloud costs for video",
+        "Sales and marketing, especially for enterprise",
+        "AI model costs for AI Companion",
+        "Research and development for new products"
+      ],
+      "unitEconomics": "A Pro user pays about $160 a year. Running their video costs Zoom maybe $20 to $30, so gross margin is high, near 75% to 80% across Zoom. The problem is churn: at about 3% a month, roughly a third of online customers leave each year, so Zoom keeps spending to replace them. An enterprise customer paying $100,000 a year is much stickier, and adding Phone or Contact Center can double that. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Every meeting link sent by a host shows Zoom to guests",
+        "Free plan with a 40-minute limit that pushes upgrades",
+        "Enterprise sales teams and partners",
+        "Cross-selling Phone and Contact Center to existing customers"
+      ],
+      "whatBringsUsersBack": [
+        "Recurring meetings and classes",
+        "Calendar integrations that add Zoom links by default",
+        "Saved recordings and AI summaries",
+        "Phone numbers and support systems that run on Zoom"
+      ],
+      "moat": "Zoom's moat in meetings is thin, because Teams and Google Meet come free with office bundles. Its stronger moat is in the products that are hard to switch, like company phone systems and contact centres, and its brand for reliable calls."
+    },
+    "competitors": [
+      {"name": "Microsoft Teams", "positioning": "Chat and meetings bundled in Microsoft 365.", "howThisProductDiffers": "Teams is the default in big companies. Zoom is easier for guests and stronger on meeting quality."},
+      {"name": "Google Meet", "positioning": "Video calls in Google Workspace and Gmail.", "howThisProductDiffers": "Meet is free and simple for Google users. Zoom has more features and phone products."},
+      {"name": "Webex (Cisco)", "positioning": "Enterprise meetings, calling and hardware.", "howThisProductDiffers": "Similar enterprise offer. Zoom has a simpler brand."},
+      {"name": "RingCentral and Five9", "positioning": "Cloud phone and contact centre leaders.", "howThisProductDiffers": "Zoom bundles phone and support with meetings."}
+    ],
+    "northStar": {
+      "metric": "Weekly meeting and call minutes on paid accounts",
+      "why": "Minutes on paid accounts show that customers rely on Zoom for real work. More reliance means lower churn and more room to sell Phone and Contact Center."
+    },
+    "kpiTree": [
+      {"metric": "Paid accounts active weekly", "description": "Paying customers who host meetings each week.", "children": [
+        {"metric": "Free-to-paid conversion", "description": "Free hosts who upgrade."},
+        {"metric": "Online monthly churn", "description": "Share of self-serve customers who cancel each month."},
+        {"metric": "Enterprise seat use", "description": "Share of licences actually used."}
+      ]},
+      {"metric": "Minutes per paid account", "description": "How much each customer uses Zoom.", "children": [
+        {"metric": "Recurring meetings scheduled", "description": "Habit signal."},
+        {"metric": "Join success rate", "description": "Share of joins with no errors."}
+      ]},
+      {"metric": "Products per customer", "description": "Phone, Contact Center and more.", "children": [
+        {"metric": "Zoom Phone attach rate", "description": "Share of meeting customers who also use Phone."},
+        {"metric": "Contact Center seats", "description": "Support agents on Zoom."}
+      ]},
+      {"metric": "AI Companion usage", "description": "Share of meetings with AI summaries.", "children": [
+        {"metric": "Summaries opened", "description": "Shows real value."},
+        {"metric": "Follow-up actions taken", "description": "Tasks created from AI."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Call quality and drop rate",
+      "Security and privacy incidents",
+      "Gross margin as AI costs rise",
+      "Customer support satisfaction"
+    ],
+    "strengths": [
+      "Trusted brand for easy, reliable video",
+      "Profitable with high margins and lots of cash",
+      "Growing in phone and contact centre",
+      "AI Companion included at no extra cost"
+    ],
+    "weaknesses": [
+      "Slow growth of about 3% to 4% a year",
+      "Meetings are easy to copy and come free in rival bundles",
+      "High churn among online customers",
+      "Brand is tied to 'pandemic app'"
+    ],
+    "risks": [
+      "Microsoft and Google bundling meetings for free",
+      "Fewer remote meetings as offices reopen",
+      "AI note-takers that work across all meeting apps",
+      "Price pressure in contact centre from bigger rivals"
+    ],
+    "userComplaints": [
+      "Free plan cuts meetings at 40 minutes",
+      "App updates are frequent and annoying",
+      "Too many products pushed in the app",
+      "Billing and cancellation are hard",
+      "Uses a lot of laptop battery and memory"
+    ],
+    "improvementIdeas": [
+      {"idea": "Pay-per-meeting pass, such as $3 for one long meeting", "problem": "Occasional users hate both the 40-minute limit and a monthly plan.", "expectedImpact": "New revenue from people who never subscribe.", "metricToTrack": "Revenue from passes and conversion to Pro", "effort": "low"},
+      {"idea": "Seasonal pause instead of cancel for tutors and teachers", "problem": "High online churn when classes end.", "expectedImpact": "Lower churn and easy reactivation.", "metricToTrack": "Online monthly churn", "effort": "low"},
+      {"idea": "AI Companion that works on Teams and Meet calls too", "problem": "Customers use several meeting apps.", "expectedImpact": "Zoom stays useful even in Teams-first companies.", "metricToTrack": "AI Companion weekly users on non-Zoom meetings", "effort": "high"},
+      {"idea": "Bundle Phone free for 3 months for meeting customers", "problem": "Growth depends on selling more products.", "expectedImpact": "Higher Zoom Phone attach rate.", "metricToTrack": "Zoom Phone attach rate", "effort": "medium"}
+    ],
+    "pmLessons": [
+      "Simplicity can win a market fast: Zoom beat older tools because joining took one click.",
+      "A great single feature is easy for big companies to copy and bundle, so you need a second act.",
+      "Growth after a boom is hard. Track churn and retention, not just sign-ups from a spike.",
+      "Selling more products to existing customers is often cheaper than finding new ones."
+    ],
+    "interviewQuestions": [
+      {"question": "How would you reduce Zoom's online churn?", "hint": "Segment who leaves (seasonal tutors, small teams), find why, test pause, annual discounts and value features. Track monthly churn."},
+      {"question": "Why did Zoom win in 2020, and why is growth slow now?", "hint": "Simplicity and guest access, then bundles from Microsoft and Google, fewer remote meetings, and churn."},
+      {"question": "Should Zoom remove the 40-minute limit?", "hint": "Weigh more users and goodwill against fewer upgrades. Suggest tests in certain markets."},
+      {"question": "How should Zoom compete with Teams?", "hint": "Don't fight on chat. Win on guests, quality, phone and contact centre, and cross-app AI."},
+      {"question": "Design a metric for AI Companion's success.", "hint": "Usage share, summaries opened, actions taken, link to renewal and churn."}
+    ],
+    "glossary": [
+      {"term": "Churn", "meaning": "The share of paying customers who cancel in a given period."},
+      {"term": "Free-to-paid conversion", "meaning": "The share of free users who start paying."},
+      {"term": "Gross margin", "meaning": "The share of revenue left after the direct cost of serving customers."},
+      {"term": "Attach rate", "meaning": "The share of customers who buy an add-on along with the main product."},
+      {"term": "Cross-selling", "meaning": "Selling an extra product to a customer who already buys from you."},
+      {"term": "Contact centre", "meaning": "The team and software a company uses to answer customer calls and chats."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "Retention", "meaning": "The share of customers who keep using a product over time."},
+      {"term": "Bundling", "meaning": "Selling several products together for one price."}
+    ],
+    "assumptions": [
+      "Fiscal 2026 revenue is based on guidance and quarterly results, not a figure read in full.",
+      "Online churn and enterprise customer count are approximate from 2025 results.",
+      "Cost to serve a Pro user is an estimate.",
+      "India pricing is approximate."
+    ]
+  }
+}

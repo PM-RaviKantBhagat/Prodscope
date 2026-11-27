@@ -1,0 +1,222 @@
+{
+  "company": "BookMyShow",
+  "domain": "bookmyshow.com",
+  "website": "https://bookmyshow.com",
+  "sources": [
+    "https://lapaasvoice.com/bookmyshow-fy25-profit-results-live-events-growth-2026/",
+    "https://www.angelone.in/news/unlisted-companies/bookmyshow-parent-reports-192-crore-profit-as-live-events-scale-up",
+    "https://www.exchange4media.com/marketing-news/fy25-bookmyshow-boosts-ad-spend-by-21-151065.html",
+    "https://the-ken.com/story/bookmyshow-prepares-for-the-biggest-battle-of-its-life-and-district-isnt-the-enemy/",
+    "https://www.freepressjournal.in/business/bookmyshow-does-a-ticketmaster-repeats-2023-world-cup-fiasco-as-website-crashes-before-sale-of-coldplays-mumbai-2025-concert-tickets",
+    "https://www.business-standard.com/finance/personal-finance/scalping-tactics-what-coldplay-bookmyshow-online-tickets-row-is-all-about-124092400010_1.html",
+    "https://inc42.com/features/bookmyshow-zomato-concert-mania-india-coldplay-diljit-dosanjh"
+  ],
+  "report": {
+    "company": "BookMyShow",
+    "tagline": "India's biggest app for booking movie tickets, concerts, comedy shows, plays and sports events.",
+    "category": "Entertainment ticketing",
+    "simpleSummary": "BookMyShow is the app most Indians use to book a movie seat. You pick a film, a cinema, a time and a seat, pay online, and show a QR code at the door. It also sells tickets for concerts like Coldplay, comedy shows and cricket matches, and it now organises many of those events itself. It earns a small fee on each ticket, plus money from ads and from running live events.",
+    "keyNumbers": [
+      {"label": "Total income (FY25)", "value": "₹1,869 crore", "note": "Parent Big Tree Entertainment filings, reported by Lapaas Voice and Angel One, 2025. Up about 31% from ₹1,430 crore."},
+      {"label": "Net profit (FY25)", "value": "₹192 crore", "note": "Consolidated, up 76% from ₹109 crore in FY24. Same filings."},
+      {"label": "Live events income (FY25)", "value": "₹756 crore", "note": "Up 66% from ₹455 crore, now about 40% of total income. Same filings."},
+      {"label": "Online ticketing income (FY25)", "value": "₹828 crore", "note": "Up about 12%. Mostly movie booking fees. Same filings."},
+      {"label": "FY21 revenue (pandemic low)", "value": "₹74 crore", "note": "Shows how hard COVID hit a ticketing business. Same filings."},
+      {"label": "Share of online movie ticketing", "value": "Roughly 70% or more", "note": "Industry estimate from news reports; BookMyShow does not publish its share. Weak estimate."}
+    ],
+    "overview": {
+      "whatItDoes": "BookMyShow sells tickets for movies and live events in India. Cinemas list their shows and seats on it, and users book and pay in the app. It also produces and promotes its own events, such as Lollapalooza India, and was the official ticket seller for Coldplay's 2025 India tour.",
+      "howItWorks": [
+        "Cinemas like PVR INOX and single screens connect their seat systems to BookMyShow.",
+        "Users choose a movie, cinema, time and seat, then pay with UPI, card or wallet.",
+        "BookMyShow adds a convenience fee per ticket and sends an M-ticket with a QR code.",
+        "Concert and event organisers list on BookMyShow, or BookMyShow Live runs the event itself and keeps the event profit.",
+        "Studios and brands pay to advertise films and products inside the app.",
+        "For huge events, it uses online queues and per-user ticket limits to handle millions of buyers at once."
+      ],
+      "valueProposition": "For users: see every show near you, pick your exact seat and skip the queue. For cinemas and organisers: reach most of India's ticket buyers in one place."
+    },
+    "personas": [
+      {"name": "Weekend moviegoer", "description": "A 25-year-old office worker in Bengaluru who watches one or two films a month with friends.", "goals": ["Get good seats for first-day shows", "Compare cinemas and timings fast", "Save on fees with offers"], "frustrations": ["Convenience fee adds ₹30 to ₹60 per ticket", "Food and drink prices at cinemas", "App spam notifications"]},
+      {"name": "Concert superfan", "description": "College student or young professional trying to get tickets for Coldplay, Diljit Dosanjh or Travis Scott.", "goals": ["Get a ticket the moment sales open", "Pay a fair price", "Be sure the ticket is real"], "frustrations": ["Website crashes and long queues", "Tickets sold out in minutes then appear on resale sites at 10x price", "Fake tickets on WhatsApp and Instagram"]},
+      {"name": "Single-screen cinema owner", "description": "Runs a 400-seat theatre in a tier-2 town.", "goals": ["Fill seats on weekdays", "Get paid on time", "Reach younger audiences"], "frustrations": ["Paying commission to an aggregator", "Big chains pushing their own apps", "Low weekday demand"]},
+      {"name": "Event organiser", "description": "Runs comedy shows or college fests in several cities.", "goals": ["Sell out shows", "Track sales live", "Stop fraud"], "frustrations": ["Platform fees", "Competing with District for big artists", "Last-minute cancellations"]}
+    ],
+    "painPoints": [
+      {"pain": "Standing in long queues at the cinema counter.", "howSolved": "Book online in under a minute and enter with a QR code.", "severity": "high"},
+      {"pain": "Not knowing which seats are left.", "howSolved": "Live seat map that shows exactly which seats are free.", "severity": "high"},
+      {"pain": "Finding what events are happening in your city.", "howSolved": "City-wise listing of movies, concerts, comedy, plays and sports.", "severity": "medium"},
+      {"pain": "Fake or overpriced tickets for big concerts.", "howSolved": "Official ticketing partner, per-user limits and police complaints against scalpers.", "severity": "high"},
+      {"pain": "Cinemas struggle to reach buyers on their own.", "howSolved": "One app with most of India's online ticket buyers.", "severity": "medium"},
+      {"pain": "Losing money when you cannot attend.", "howSolved": "Optional cancellation protection on some bookings, for a fee.", "severity": "low"}
+    ],
+    "coreFeatures": [
+      {"feature": "Live seat selection", "whatItDoes": "Shows the cinema's seat map in real time and locks seats while you pay.", "whyItMatters": "This is the core reason users book online instead of at the counter."},
+      {"feature": "BookMyShow Live and event listings", "whatItDoes": "Ticketing and production for concerts, festivals, comedy and sports.", "whyItMatters": "Fastest-growing part of the business, now about 40% of income."},
+      {"feature": "Virtual queue for big drops", "whatItDoes": "Puts buyers in an online waiting line when a concert goes on sale.", "whyItMatters": "Stops the site from crashing and makes the sale feel fairer, a big trust issue after Coldplay."},
+      {"feature": "M-ticket and QR entry", "whatItDoes": "A phone ticket scanned at the gate.", "whyItMatters": "Cuts fraud and printing costs."},
+      {"feature": "Offers and bank discounts", "whatItDoes": "Card and wallet deals like buy-one-get-one on certain days.", "whyItMatters": "Brings people back and is paid for partly by banks."},
+      {"feature": "In-app advertising", "whatItDoes": "Studios promote trailers and brands buy banners.", "whyItMatters": "High-margin money that does not depend on each ticket sold."}
+    ],
+    "userJourneys": [
+      {"name": "Booking a first-day movie show", "persona": "Weekend moviegoer", "steps": [
+        {"step": "Gets a notification", "detail": "'Bookings open' alert for a big film."},
+        {"step": "Picks a cinema and show", "detail": "Filters by city, format (IMAX, 4DX) and time."},
+        {"step": "Chooses seats", "detail": "Picks middle seats on the live seat map."},
+        {"step": "Adds food (optional)", "detail": "Pre-orders popcorn at some cinemas."},
+        {"step": "Pays", "detail": "Pays with UPI, sees the convenience fee added."},
+        {"step": "Gets M-ticket", "detail": "QR code in app and on WhatsApp."},
+        {"step": "Watches and rates", "detail": "Leaves a rating that helps others decide."}
+      ]},
+      {"name": "Buying concert tickets on sale day", "persona": "Concert superfan", "steps": [
+        {"step": "Registers interest", "detail": "Signs up for the presale or bank-card early access."},
+        {"step": "Joins the queue", "detail": "Opens the app at sale time and enters a virtual queue with lakhs of others."},
+        {"step": "Waits", "detail": "Sees a queue number and waits, sometimes an hour."},
+        {"step": "Picks category", "detail": "Chooses a price band, from about ₹2,500 to ₹35,000 for Coldplay."},
+        {"step": "Pays fast", "detail": "Has a few minutes to pay before tickets go back."},
+        {"step": "Gets ticket closer to date", "detail": "Some concerts send physical or app tickets a few days before, to stop resale."},
+        {"step": "Enters the venue", "detail": "Ticket and ID checked at gate."}
+      ]},
+      {"name": "Listing a comedy show", "persona": "Event organiser", "steps": [
+        {"step": "Signs up as organiser", "detail": "Creates a listing account."},
+        {"step": "Creates event page", "detail": "Adds venue, date, price bands and photos."},
+        {"step": "Goes live", "detail": "Event appears in city listings."},
+        {"step": "Promotes", "detail": "Buys in-app promotion to rank higher."},
+        {"step": "Tracks sales", "detail": "Watches a live dashboard."},
+        {"step": "Gets paid", "detail": "Receives ticket money minus fees after the event."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "BookMyShow makes money from four things: a convenience fee on each ticket, a commission from cinemas and organisers, running its own live events, and ads.",
+      "revenueStreams": [
+        {"stream": "Convenience fee", "detail": "Charged to the user on each ticket, often ₹20 to ₹50 plus GST for movies."},
+        {"stream": "Commission from cinemas and organisers", "detail": "A share of ticket value, higher for events than movies."},
+        {"stream": "Live events", "detail": "Producing and promoting events like Lollapalooza India; income from tickets, sponsors and food. ₹756 crore in FY25."},
+        {"stream": "Advertising", "detail": "Film trailers, banners and sponsored listings paid by studios and brands."},
+        {"stream": "Add-ons", "detail": "Food pre-orders, ticket cancellation cover, gift cards."}
+      ],
+      "pricing": "Free for users to browse. Convenience fee per ticket shown at checkout, usually ₹20 to ₹60 per movie ticket including GST. Event fees vary by event.",
+      "costDrivers": [
+        "Artist fees and production costs for live events",
+        "Marketing, raised in FY25 partly to fight Zomato's District",
+        "Tech for seat sync and handling huge traffic spikes",
+        "Payment gateway charges",
+        "Cashback and offer costs not covered by banks"
+      ],
+      "unitEconomics": "On a ₹300 movie ticket, the user pays about ₹30 to ₹40 extra as a convenience fee. After GST and a payment charge of about 2%, BookMyShow keeps perhaps ₹20 to ₹25 per ticket. A booking of two seats earns it about ₹40 to ₹50. Live events are bigger bets: on a ₹5,000 concert ticket it may keep several hundred rupees as fees, and if it produces the show it keeps the event profit but also carries the risk of artist fees and low sales. These are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Being the default place to book a movie, so search and word of mouth bring users",
+        "Exclusive ticketing rights for huge events like Coldplay and big cricket matches",
+        "Bank and card partnerships with discounts",
+        "Ads, raised by about 21% in FY25"
+      ],
+      "whatBringsUsersBack": [
+        "New films every Friday",
+        "Alerts when bookings open for a favourite star or artist",
+        "Saved payment and city settings that make the next booking faster",
+        "Offers and rewards"
+      ],
+      "moat": "Almost every cinema in India, big and small, is connected to BookMyShow, and most users already have the app. That two-sided network is hard to copy. Exclusive deals with big artists and its own festivals add to it."
+    },
+    "competitors": [
+      {"name": "District by Zomato (Eternal)", "positioning": "Going-out app for movies, events and dining, built from Paytm Insider and Zomato Live.", "howThisProductDiffers": "District has Zomato's user base and dining tie-ins. BookMyShow has more cinemas and longer ties with organisers."},
+      {"name": "PVR INOX app", "positioning": "India's biggest multiplex chain selling directly.", "howThisProductDiffers": "PVR can skip aggregator fees. BookMyShow shows all cinemas in one place."},
+      {"name": "Paytm movies", "positioning": "Movie tickets inside the Paytm payments app.", "howThisProductDiffers": "Paytm uses cashback; BookMyShow has broader event supply."},
+      {"name": "Ticketmaster (global)", "positioning": "World's largest live event ticketer.", "howThisProductDiffers": "Not big in India yet, but the template BookMyShow copies for live events and dynamic pricing."}
+    ],
+    "northStar": {
+      "metric": "Tickets used per month (seats actually filled through BookMyShow)",
+      "why": "A ticket that is used means a user got a night out and a cinema or organiser filled a seat. It drives fees, commission and ad value."
+    },
+    "kpiTree": [
+      {"metric": "Monthly bookers", "description": "Unique users who book at least once a month.", "children": [
+        {"metric": "App opens on Friday release days", "description": "Shows if users come to check new films."},
+        {"metric": "Search-to-booking conversion", "description": "Share of show views that turn into a booking."},
+        {"metric": "New bookers from events", "description": "First-time users who arrived for a concert."}
+      ]},
+      {"metric": "Tickets per booking", "description": "How many seats each booking has.", "children": [
+        {"metric": "Group booking share", "description": "Share of bookings with 3 or more seats."},
+        {"metric": "Seat availability shown", "description": "Share of shows with live seats synced."}
+      ]},
+      {"metric": "Bookings per user", "description": "How often each user books.", "children": [
+        {"metric": "Repeat rate in 60 days", "description": "Share of bookers who book again within 60 days."},
+        {"metric": "Alert click-through", "description": "Share of 'bookings open' alerts that lead to a booking."},
+        {"metric": "Event cross-sell rate", "description": "Movie bookers who also book an event."}
+      ]},
+      {"metric": "Big-drop success rate", "description": "Share of queued buyers who finish a booking without errors.", "children": [
+        {"metric": "Checkout error rate", "description": "Failed payments or timeouts during peak sales."},
+        {"metric": "Queue wait time", "description": "Minutes from joining queue to seat selection."},
+        {"metric": "Resale listings found", "description": "Number of scalped tickets spotted online."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Payment failure rate during peak sales",
+      "Customer complaints about fees and refunds",
+      "Share of tickets reported as fake or scalped",
+      "Cinema partner churn"
+    ],
+    "strengths": [
+      "Near-default app for movie booking in India, with most cinemas connected",
+      "Profitable, with ₹192 crore net profit in FY25",
+      "Strong live events business with its own festivals",
+      "Exclusive rights for top concerts"
+    ],
+    "weaknesses": [
+      "Users dislike the convenience fee",
+      "Site crashes and scalping during big drops hurt trust",
+      "Movie ticketing growth is slow, about 12% in FY25",
+      "Depends on Bollywood and regional box office hits"
+    ],
+    "risks": [
+      "District by Zomato spending to win users and artists",
+      "Multiplex chains pushing users to their own apps",
+      "State rules that cap ticket prices or fees, such as moves in Karnataka in 2025",
+      "OTT streaming reducing cinema visits",
+      "Police cases and public anger if a big sale goes badly"
+    ],
+    "userComplaints": [
+      "Website and app crashed when Coldplay Mumbai tickets went on sale in 2024, with fans stuck in queues",
+      "Tickets sold out in minutes and showed up on resale sites at up to ₹2 lakh",
+      "High convenience fees on each ticket",
+      "Slow or denied refunds when shows are cancelled",
+      "Too many promotional notifications"
+    ],
+    "improvementIdeas": [
+      {"idea": "Official fan-to-fan resale at face value, inside BookMyShow", "problem": "Scalpers resell concert tickets at huge markups and fans get scammed.", "expectedImpact": "Less fraud, more trust, and a small fee earned on each resale.", "metricToTrack": "Share of resold tickets that go through the official resale", "effort": "medium"},
+      {"idea": "Verified-fan lottery for mega concerts instead of first-come queues", "problem": "Bots and crashes make big drops feel unfair.", "expectedImpact": "Fewer crashes and fewer bot purchases.", "metricToTrack": "Big-drop success rate and checkout error rate", "effort": "high"},
+      {"idea": "A yearly 'no convenience fee' membership for about ₹499", "problem": "Fees annoy frequent moviegoers and push them to cinema apps.", "expectedImpact": "Lock in heavy users and steady income.", "metricToTrack": "Bookings per member vs non-member", "effort": "low"},
+      {"idea": "Weekday deals for single screens in tier-2 cities", "problem": "Small cinemas have empty weekday seats.", "expectedImpact": "More tickets used and happier cinema partners.", "metricToTrack": "Weekday occupancy at partner single screens", "effort": "low"}
+    ],
+    "pmLessons": [
+      "A marketplace with both sides locked in, cinemas and viewers, is hard to beat, even by a rich rival like Zomato.",
+      "Peak moments decide brand trust. One crashed concert sale gets more news than a million smooth movie bookings.",
+      "Adding your own supply, like producing live events, can grow revenue faster but adds real risk.",
+      "Fees users can see at checkout get the most complaints, so explain or bundle them."
+    ],
+    "interviewQuestions": [
+      {"question": "Coldplay tickets go on sale and 1 crore users show up for 1.5 lakh seats. How would you design the sale?", "hint": "Set goals: fairness, no crash, no bots. Options: lottery, verified fans, queues, ID-linked tickets. Pick one and name metrics like checkout error rate."},
+      {"question": "District is spending heavily to take share. How should BookMyShow respond?", "hint": "Find where District is strong (dining, Zomato users). Defend core (cinemas, exclusives), match on fees where it matters, avoid a cash war."},
+      {"question": "What is BookMyShow's north star metric?", "hint": "Tickets used, not app downloads. Break into bookers, bookings per user, tickets per booking."},
+      {"question": "Should BookMyShow remove the convenience fee?", "hint": "Calculate how much income it brings, test a membership, watch effect on cinema apps and margins."},
+      {"question": "How would you grow weekday movie bookings?", "hint": "Segment users (students, retirees), price deals with cinemas, use alerts. Track weekday occupancy."}
+    ],
+    "glossary": [
+      {"term": "Convenience fee", "meaning": "An extra charge added to each online ticket for the booking service."},
+      {"term": "Aggregator", "meaning": "A platform that brings many sellers, like cinemas, together in one app."},
+      {"term": "Scalping", "meaning": "Buying tickets in bulk and reselling them at a much higher price."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Conversion", "meaning": "The share of people who take the next step, like going from viewing a show to booking it."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "Network", "meaning": "A group of connected users and partners; here, the cinemas and viewers that make each other more useful."},
+      {"term": "Churn", "meaning": "The share of customers or partners who stop using a product in a period."}
+    ],
+    "assumptions": [
+      "Online movie ticketing market share is an estimate from news reports.",
+      "Convenience fee ranges and how much BookMyShow keeps per ticket are estimates from what users see at checkout.",
+      "Commission rates with cinemas and organisers are not public.",
+      "The two reported segments do not add up to total income; the rest is likely ads and other income."
+    ]
+  }
+}

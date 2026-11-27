@@ -1,0 +1,491 @@
+{
+ "company": "Meta Ray-Ban glasses",
+ "domain": "meta.com",
+ "website": "https://www.meta.com",
+ "sources": [
+  "https://uploadvr.com/meta-essilorluxottica-sold-7-million-smart-glasses-in-2025/",
+  "https://roadtovr.com/meta-ray-ban-smart-glasses-sales-tripled-2025/",
+  "https://www.bloomberg.com/news/features/2026-02-24/meta-and-essilorluxottica-spar-over-ray-ban-ai-glasses-pricing",
+  "https://www.gadgetreview.com/metas-reality-labs-lost-4-62-billion-in-q2",
+  "https://www.engadget.com/wearables/meta-ray-ban-display-review-chunky-frames-with-impressive-abilities-193127070",
+  "https://tomsguide.com/computing/smart-glasses/i-wore-meta-ai-glasses-for-a-month-and-even-after-struggling-with-privacy-concerns-im-still-not-convinced-theyre-the-future-of-wearables",
+  "https://en.wikipedia.org/wiki/Ray-Ban_Meta"
+ ],
+ "report": {
+  "company": "Meta Ray-Ban glasses",
+  "tagline": "Normal-looking Ray-Ban and Oakley glasses with a camera, speakers and Meta AI built in, made with EssilorLuxottica, and the surprise hardware hit of 2025.",
+  "category": "Wearables / AI",
+  "simpleSummary": "Ray-Ban Meta glasses look like ordinary sunglasses or spectacles, but they have a small camera, open-ear speakers and microphones. You can take photos and videos hands-free, listen to music, take calls, and say 'Hey Meta' to ask the AI what you are looking at or to translate a sign. They cost from about $299, close to normal designer glasses. In 2025 more than 7 million were sold, three times the year before, which made them the first smart glasses that many ordinary people actually wanted.",
+  "keyNumbers": [
+   {
+    "label": "Smart glasses sold, 2025",
+    "value": "7 million+",
+    "note": "EssilorLuxottica figure reported by UploadVR and Road to VR, early 2026. More than three times 2024."
+   },
+   {
+    "label": "Total sold since October 2023 launch",
+    "value": "About 9 million",
+    "note": "UploadVR estimate from earlier company figures."
+   },
+   {
+    "label": "Planned production capacity",
+    "value": "10 million a year by end of 2026, possibly 20 to 30 million",
+    "note": "EssilorLuxottica plan, with higher figures from a Bloomberg report, via UploadVR."
+   },
+   {
+    "label": "Reality Labs loss, Q2 2026",
+    "value": "About $4.6 billion in one quarter",
+    "note": "Meta results, GadgetReview. Reality Labs covers glasses, Quest headsets and AR research."
+   },
+   {
+    "label": "Price range",
+    "value": "About $299 to $799",
+    "note": "US list prices for Ray-Ban Meta, Oakley Meta and Meta Ray-Ban Display as widely reported; check site for current prices."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "The glasses combine a 12 MP camera, open-ear speakers, five microphones and a Qualcomm chip in frames from Ray-Ban and Oakley. They connect to the Meta AI app on your phone. Users capture photos and video, livestream to Instagram or Facebook, listen to audio, take calls and use Meta AI by voice, including live translation and 'look and tell me' questions. Meta Ray-Ban Display (2025) adds a small screen in one lens and a Neural Band wristband that reads finger movements.",
+   "howItWorks": [
+    "A buyer picks a frame style, lens type (sun, clear, transition or prescription) and buys online or in eyewear stores.",
+    "The glasses pair with the Meta AI app, which stores media and settings.",
+    "A button or 'Hey Meta' takes a photo or video; an LED light shows people nearby that it is recording.",
+    "Meta AI uses the camera and microphones to answer questions about what you see and hear.",
+    "A charging case gives several extra charges; the glasses last a few hours of active use.",
+    "EssilorLuxottica designs, makes and sells the frames; Meta builds the technology and software."
+   ],
+   "valueProposition": "Capture moments and get AI help without taking out your phone, in glasses you would wear anyway."
+  },
+  "personas": [
+   {
+    "name": "Content creator and traveller",
+    "description": "A 27-year-old who films travel and daily life for Instagram.",
+    "goals": [
+     "Hands-free first-person video",
+     "Quick sharing to social media"
+    ],
+    "frustrations": [
+     "Battery runs out during long days",
+     "Video quality below a phone"
+    ]
+   },
+   {
+    "name": "Busy parent",
+    "description": "A 35-year-old who wants photos of kids without holding up a phone.",
+    "goals": [
+     "Capture moments while staying present",
+     "Listen to podcasts and take calls"
+    ],
+    "frustrations": [
+     "Worry about others' privacy",
+     "Prescription lenses add cost"
+    ]
+   },
+   {
+    "name": "Accessibility user",
+    "description": "A person with low vision who uses AI to describe surroundings.",
+    "goals": [
+     "Read signs and labels",
+     "Get help through Be My Eyes integration"
+    ],
+    "frustrations": [
+     "AI sometimes gives wrong answers",
+     "Needs internet connection"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Taking out a phone ruins the moment.",
+    "howSolved": "Tap or speak to capture photos and video from eye level.",
+    "severity": "high"
+   },
+   {
+    "pain": "Earbuds block surroundings and are uncomfortable all day.",
+    "howSolved": "Open-ear speakers in the frames.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Need quick answers or translation while hands are busy.",
+    "howSolved": "Meta AI by voice with live translation.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Earlier smart glasses looked strange.",
+    "howSolved": "Real Ray-Ban and Oakley designs.",
+    "severity": "high"
+   },
+   {
+    "pain": "People with low vision need help reading the world.",
+    "howSolved": "AI descriptions and Be My Eyes volunteers via the camera.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Hands-free camera",
+    "whatItDoes": "Photos and video from eye level with a capture LED.",
+    "whyItMatters": "The clearest use case, especially for social media."
+   },
+   {
+    "feature": "Meta AI with vision",
+    "whatItDoes": "Ask questions about what you see, get reminders, translations and answers.",
+    "whyItMatters": "Puts Meta's AI in front of users all day, outside phones controlled by Apple and Google."
+   },
+   {
+    "feature": "Open-ear audio and calls",
+    "whatItDoes": "Music, podcasts and calls without earbuds.",
+    "whyItMatters": "Gives a daily reason to wear them."
+   },
+   {
+    "feature": "Fashion brands",
+    "whatItDoes": "Ray-Ban Wayfarer and Oakley styles with prescription options.",
+    "whyItMatters": "Solves the 'looks weird' problem and uses EssilorLuxottica's retail reach."
+   },
+   {
+    "feature": "Meta Ray-Ban Display and Neural Band",
+    "whatItDoes": "A small in-lens screen for messages, maps and captions, controlled by wrist gestures.",
+    "whyItMatters": "A step towards full augmented reality glasses."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Buying a first pair",
+    "persona": "Busy parent",
+    "steps": [
+     {
+      "step": "Sees a friend wearing them",
+      "detail": "Notices they look like normal Ray-Bans."
+     },
+     {
+      "step": "Visits an optician",
+      "detail": "Tries frames at Sunglass Hut, LensCrafters or Best Buy."
+     },
+     {
+      "step": "Picks lenses",
+      "detail": "Chooses transition lenses with prescription."
+     },
+     {
+      "step": "Pays",
+      "detail": "About $299 to $379 plus prescription."
+     },
+     {
+      "step": "Pairs with app",
+      "detail": "Sets up Meta AI app."
+     },
+     {
+      "step": "First capture",
+      "detail": "Films kids at the park hands-free."
+     }
+    ]
+   },
+   {
+    "name": "Travel day",
+    "persona": "Content creator and traveller",
+    "steps": [
+     {
+      "step": "Morning walk",
+      "detail": "Records short clips."
+     },
+     {
+      "step": "Asks AI",
+      "detail": "'What is this building?'"
+     },
+     {
+      "step": "Translates",
+      "detail": "Live translation of a menu conversation."
+     },
+     {
+      "step": "Charges",
+      "detail": "Puts glasses in case at lunch."
+     },
+     {
+      "step": "Shares",
+      "detail": "Edits and posts to Instagram from the app."
+     }
+    ]
+   },
+   {
+    "name": "Using AI for accessibility",
+    "persona": "Accessibility user",
+    "steps": [
+     {
+      "step": "Puts on glasses",
+      "detail": "Starts the day."
+     },
+     {
+      "step": "Asks for description",
+      "detail": "'Hey Meta, what am I looking at?'"
+     },
+     {
+      "step": "Reads a label",
+      "detail": "AI reads medicine packaging."
+     },
+     {
+      "step": "Calls a volunteer",
+      "detail": "Be My Eyes connects a sighted helper."
+     },
+     {
+      "step": "Navigates",
+      "detail": "Gets help finding a shop entrance."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "EssilorLuxottica makes and sells the glasses and books most of the hardware revenue; Meta supplies the technology and AI. Meta's real goal is strategic: owning the next device after the phone and putting Meta AI in front of users, even while Reality Labs loses billions.",
+   "revenueStreams": [
+    {
+     "stream": "Hardware sales",
+     "detail": "Glasses sold through Ray-Ban, Oakley, opticians and electronics stores; revenue shared between EssilorLuxottica and Meta under their partnership."
+    },
+    {
+     "stream": "Prescription lenses",
+     "detail": "Extra margin for EssilorLuxottica's lens business."
+    },
+    {
+     "stream": "Future AI and ads value",
+     "detail": "More time with Meta AI, Instagram and WhatsApp; no direct subscription today."
+    }
+   ],
+   "pricing": "Ray-Ban Meta from about $299 (Gen 1) and $379 (Gen 2); Oakley Meta HSTN about $399; Oakley Meta Vanguard about $499; Meta Ray-Ban Display about $799 with Neural Band. Prices as widely reported; prescription extra.",
+   "costDrivers": [
+    "Components: camera, chips, batteries",
+    "AI computing in Meta data centres for every query",
+    "R&D in Reality Labs, including AR display research",
+    "Marketing, including celebrity campaigns",
+    "Retail margins"
+   ],
+   "unitEconomics": "On a $379 pair, the retailer and EssilorLuxottica take a large share and the parts cost perhaps $100 or more. Meta likely earns little or nothing per pair after its share and AI computing costs. The bet is long-term: if glasses replace some phone time, Meta owns a platform instead of renting space on Apple and Google phones. Reality Labs lost about $4.6 billion in Q2 2026 alone, so the glasses are part of a very expensive strategy."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "EssilorLuxottica stores worldwide: Sunglass Hut, LensCrafters, Ray-Ban stores",
+    "Celebrity and athlete campaigns",
+    "Content made with the glasses spreading on Instagram",
+    "Electronics stores like Best Buy",
+    "New styles, like Oakley for sports"
+   ],
+   "whatBringsUsersBack": [
+    "Daily wear as normal glasses or sunglasses",
+    "Audio and calls",
+    "AI help for small daily tasks",
+    "Software updates adding features"
+   ],
+   "moat": "Meta has a lead of several years, the exclusive partnership with EssilorLuxottica (which owns Ray-Ban, Oakley and huge optical retail) and its own AI. A rival needs both fashion brands and AI. Google is partnering with Warby Parker and Gentle Monster, and Apple is expected to launch glasses, so the lead may shrink."
+  },
+  "competitors": [
+   {
+    "name": "Apple (expected glasses)",
+    "positioning": "Reported to reveal glasses ahead of a 2027 launch.",
+    "howThisProductDiffers": "Apple has the iPhone ecosystem; Meta is first and works with both iPhone and Android."
+   },
+   {
+    "name": "Google and Samsung Android XR glasses",
+    "positioning": "Gemini-powered glasses with Warby Parker, Gentle Monster and Kering.",
+    "howThisProductDiffers": "Google has Android and Gemini; Meta has more units in market and Ray-Ban."
+   },
+   {
+    "name": "Snap Spectacles",
+    "positioning": "AR glasses for developers.",
+    "howThisProductDiffers": "Snap focuses on AR displays; Meta sells consumer glasses at scale."
+   },
+   {
+    "name": "Xiaomi and other Chinese brands",
+    "positioning": "Cheaper AI glasses in China.",
+    "howThisProductDiffers": "Lower price; Meta has the brand and global retail."
+   }
+  ],
+  "northStar": {
+   "metric": "Weekly active glasses wearers who use at least one smart feature (capture, audio or AI)",
+   "why": "Glasses only matter if people wear them and use the smart features. Weekly use shows the device has found a real place in daily life."
+  },
+  "kpiTree": [
+   {
+    "metric": "Units in use",
+    "description": "Glasses sold and still worn.",
+    "children": [
+     {
+      "metric": "Units sold",
+      "description": "New pairs sold."
+     },
+     {
+      "metric": "30-day activation rate",
+      "description": "Share paired and used within a month."
+     }
+    ]
+   },
+   {
+    "metric": "Daily wear",
+    "description": "How often people wear them.",
+    "children": [
+     {
+      "metric": "Days worn per week",
+      "description": "Habit strength."
+     },
+     {
+      "metric": "Prescription share",
+      "description": "Prescription wearers wear all day."
+     }
+    ]
+   },
+   {
+    "metric": "Feature use",
+    "description": "Smart features used per week.",
+    "children": [
+     {
+      "metric": "Captures per week",
+      "description": "Photos and videos."
+     },
+     {
+      "metric": "Meta AI queries per week",
+      "description": "AI use."
+     },
+     {
+      "metric": "Audio hours per week",
+      "description": "Music and calls."
+     }
+    ]
+   },
+   {
+    "metric": "Satisfaction",
+    "description": "Happy users.",
+    "children": [
+     {
+      "metric": "Return rate",
+      "description": "Share returned after purchase."
+     },
+     {
+      "metric": "Battery complaints",
+      "description": "Common pain."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Privacy complaints and misuse reports",
+   "Regulatory action on recording and data",
+   "Return rate",
+   "AI error rate on safety-related questions"
+  ],
+  "strengths": [
+   "First smart glasses with mass appeal: 7 million+ sold in 2025",
+   "Exclusive partnership with EssilorLuxottica and its retail network",
+   "Meta AI built in",
+   "Stylish, normal-looking designs",
+   "Accessibility value for blind and low-vision users"
+  ],
+  "weaknesses": [
+   "Short battery life",
+   "Meta likely earns little per pair",
+   "Privacy worries about hidden recording",
+   "Display model is chunky and expensive"
+  ],
+  "risks": [
+   "Apple and Google glasses entering the market",
+   "Privacy laws and bans in some places like gyms and offices",
+   "Tension with EssilorLuxottica over pricing, reported by Bloomberg",
+   "Meta investors pressuring on Reality Labs losses"
+  ],
+  "userComplaints": [
+   "Battery runs out quickly with heavy use",
+   "People around them feel uncomfortable being recorded",
+   "Meta AI sometimes gives wrong answers",
+   "Photo and video quality below phones",
+   "Concerns about Meta's handling of data"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Brighter, tamper-proof recording light plus a 'privacy mode' badge others can see",
+    "problem": "Bystanders worry about secret recording.",
+    "expectedImpact": "Fewer bans and more social acceptance.",
+    "metricToTrack": "Privacy complaints per 1,000 users",
+    "effort": "low"
+   },
+   {
+    "idea": "Low-power mode that keeps audio and AI on but limits video",
+    "problem": "Battery runs out.",
+    "expectedImpact": "Longer daily wear.",
+    "metricToTrack": "Days worn per week",
+    "effort": "medium"
+   },
+   {
+    "idea": "India launch with Hindi and regional language AI and translation",
+    "problem": "Growth needs new markets.",
+    "expectedImpact": "New users in a large market.",
+    "metricToTrack": "Units sold in India",
+    "effort": "medium"
+   },
+   {
+    "idea": "Daily AI tasks like reminders from what you see, such as 'remember where I parked'",
+    "problem": "Many users rarely use AI after the first weeks.",
+    "expectedImpact": "More AI use and stickier habits.",
+    "metricToTrack": "Meta AI queries per week",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "Start with what people already do. Glasses and sunglasses are worn daily, so adding smarts to a familiar form factor beat building a new gadget.",
+   "Design and brand matter as much as technology for wearables. Google Glass failed partly on looks.",
+   "Find the simple use case first (camera and audio), then add the big vision (AI and displays).",
+   "Partnerships can unlock distribution you cannot build yourself."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Why did Ray-Ban Meta succeed where Google Glass failed?",
+    "hint": "Design, price, simple use cases, social acceptance, retail distribution, timing with AI."
+   },
+   {
+    "question": "What north star metric would you use for Meta's glasses?",
+    "hint": "Weekly active wearers using smart features, not units sold; give the KPI tree."
+   },
+   {
+    "question": "How would you handle privacy concerns from bystanders?",
+    "hint": "Design signals, defaults, education, policy; measure complaints and adoption together."
+   },
+   {
+    "question": "Design an AI feature for the glasses for Indian users.",
+    "hint": "Pick a use case like translation or reading, consider languages and price, define metric."
+   },
+   {
+    "question": "Meta loses billions in Reality Labs. Is the glasses bet worth it?",
+    "hint": "Platform control, AI distribution, ads, long-term option value vs cost; set milestones."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Reality Labs",
+    "meaning": "Meta's division for VR headsets, smart glasses and AR research."
+   },
+   {
+    "term": "Augmented reality",
+    "meaning": "Digital images shown on top of the real world, for example in glasses."
+   },
+   {
+    "term": "Form factor",
+    "meaning": "The physical shape and size of a device."
+   },
+   {
+    "term": "Activation rate",
+    "meaning": "The share of new users who start using the product properly soon after buying."
+   },
+   {
+    "term": "Platform",
+    "meaning": "A base, like a phone or glasses, that other apps and services run on."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Prices are from widely reported US list prices and may have changed with newer models in 2026.",
+   "Meta's per-pair earnings and parts cost are our estimates; the revenue split with EssilorLuxottica is not public.",
+   "2026 unit sales were not found in sources.",
+   "Product details such as camera resolution are from launch coverage and may differ by model."
+  ]
+ }
+}

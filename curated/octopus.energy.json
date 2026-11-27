@@ -1,0 +1,217 @@
+{
+  "company": "Octopus Energy (Kraken)",
+  "domain": "octopus.energy",
+  "website": "https://octopus.energy",
+  "sources": [
+    "https://octopus.energy/press/more-news-press-releases/octopus-powers-past-half-a-million-switches-in-2026-cementing-its-position-as-the-uk-s-largest-supplier/",
+    "https://octopus.energy/press/more-news-press-releases/1-million-customers-for-every-tentacle-octopus-energy-supercharges-to-8-million-customers-in-the-uk",
+    "https://otpp.com/en-ca/about-us/news-and-insights/2026/octopus-energy-group-to-spin-out-kraken-at-valuation-of-8-65bn/",
+    "https://www.bloomberg.com/news/articles/2025-12-30/octopus-energy-reports-annual-loss-after-mild-spring-cuts-demand",
+    "https://octopus.energy/press/octopus-energy-group-results-for-fy24-delivered-07-profit-margin-tripled-non-uk-customer-base-and-increased-net-assets-to-17bn/",
+    "https://www.businessgreen.com/news/4167632/profitability-octopus-triples-group-revenues-gbp13bn",
+    "https://watt-logic.com/2026/01/27/octopus-and-kraken-swim-in-murky-waters12245/",
+    "https://www.which.co.uk/reviews/energy-companies/article/energy-company-reviews/octopus-energy"
+  ],
+  "report": {
+    "company": "Octopus Energy (Kraken)",
+    "tagline": "The UK's largest home energy supplier, which wins customers with good service and smart tariffs, run on its own software platform called Kraken.",
+    "category": "Energy",
+    "simpleSummary": "Octopus Energy sells electricity and gas to homes, mostly in the UK. Everyone gets the same power through the same wires, so Octopus competes on price, service and smart tariffs that make electricity cheaper when you use it at the right time, like charging an electric car at night. It built its own software, Kraken, to run billing and customer service, and it now sells Kraken to other energy companies around the world. Kraken was split off as its own company in 2026.",
+    "keyNumbers": [
+      {"label": "UK customers", "value": "About 8 million", "note": "Octopus press release on reaching 8 million UK customers. It describes itself as the UK's largest supplier, and says it passed 500,000 switches in 2026."},
+      {"label": "UK market share", "value": "About a quarter of homes", "note": "Estimate based on Ofgem supplier share data from 2025 showing Octopus ahead of British Gas. Not confirmed for late 2026."},
+      {"label": "Group revenue, FY24", "value": "About £13 billion", "note": "Year to March 2024, first year of profit with a 0.7% margin (company and BusinessGreen)."},
+      {"label": "Result, FY25", "value": "Annual loss", "note": "Bloomberg, December 2025: loss blamed on a mild spring cutting demand, plus investment. Exact figure not checked."},
+      {"label": "Kraken valuation", "value": "$8.65 billion", "note": "Kraken spun out with about $1 billion raised in 2026 (Ontario Teachers' Pension Plan announcement)."},
+      {"label": "Accounts on Kraken", "value": "Over 70 million", "note": "Estimate from Kraken's public statements in 2025, across Octopus and licensees like EDF and E.ON Next. Treat as approximate."}
+    ],
+    "overview": {
+      "whatItDoes": "Octopus buys electricity and gas on the wholesale market, or from its own wind and solar farms, and sells it to homes and businesses. It runs bills, smart meter data and support on Kraken. It sells heat pumps, solar panels and EV chargers too. It operates in the UK and several other countries, including Germany, Spain, Japan and the US.",
+      "howItWorks": [
+        "A customer switches online in a few minutes; the old supplier is changed automatically.",
+        "A smart meter sends half-hourly readings, so Octopus can bill accurately and offer time-of-use tariffs.",
+        "Tariffs like Intelligent Octopus Go give cheap night rates for EV charging; Agile changes prices every half hour.",
+        "Saving Sessions pay customers to cut use at peak times, which saves Octopus buying expensive power.",
+        "Small teams of 'energy specialists' handle each customer group, with Kraken giving them the full account picture.",
+        "Kraken is licensed to other energy firms, who pay per customer account."
+      ],
+      "valueProposition": "For homes: fair prices, friendly human support and tariffs that reward using power when it is cheap and green. For energy firms: Kraken software that cuts the cost of serving each customer."
+    },
+    "personas": [
+      {"name": "EV owner", "description": "A homeowner with an electric car and home charger in the Midlands.", "goals": ["Cheapest possible charging", "Simple app control"], "frustrations": ["Car or charger not compatible with smart charging", "Peak rates are high"]},
+      {"name": "Price-conscious family", "description": "A family on the standard variable tariff worried about bills.", "goals": ["Lower bills", "No surprises", "Easy support"], "frustrations": ["Bills went up in the energy crisis", "Direct Debit raised without clear reason"]},
+      {"name": "Green tech early adopter", "description": "Someone with solar panels, a battery or a heat pump.", "goals": ["Earn from exporting power", "Run home on cheap green energy"], "frustrations": ["Waiting for installation", "Complex tariff choice"]},
+      {"name": "Energy company buying software", "description": "An overseas utility replacing its old billing system with Kraken.", "goals": ["Cut cost to serve", "Launch new tariffs fast"], "frustrations": ["Risky migration", "Depending on a competitor's software"]}
+    ],
+    "painPoints": [
+      {"pain": "Energy suppliers have terrible customer service.", "howSolved": "Human specialists with full account view; consistently high ratings with Which? and Trustpilot.", "severity": "high"},
+      {"pain": "Bills are estimated and wrong.", "howSolved": "Smart meter readings and Kraken billing.", "severity": "high"},
+      {"pain": "Electricity is expensive at peak times.", "howSolved": "Time-of-use tariffs like Agile and Intelligent Octopus Go.", "severity": "medium"},
+      {"pain": "Switching supplier feels risky and slow.", "howSolved": "Fast online switch; Octopus took on Bulb's 1.5 million customers in 2023 and kept service running.", "severity": "medium"},
+      {"pain": "Going green at home is confusing.", "howSolved": "Heat pump, solar and EV charger installs plus matching tariffs.", "severity": "medium"},
+      {"pain": "Old utility billing systems are costly to run.", "howSolved": "Kraken replaces them with modern cloud software.", "severity": "high"}
+    ],
+    "coreFeatures": [
+      {"feature": "Kraken platform", "whatItDoes": "Runs billing, meter data, customer service and grid flexibility.", "whyItMatters": "Lowers cost per customer and is a separate business worth $8.65 billion."},
+      {"feature": "Intelligent Octopus Go", "whatItDoes": "Smart EV tariff that charges the car when power is cheapest.", "whyItMatters": "Wins high-usage EV owners, who are valuable customers."},
+      {"feature": "Agile Octopus", "whatItDoes": "Price changes every 30 minutes, sometimes going negative.", "whyItMatters": "Shifts demand to cheap, green times and builds a fan base."},
+      {"feature": "Saving Sessions and Octoplus", "whatItDoes": "Rewards for cutting use at peak and a loyalty scheme with points.", "whyItMatters": "Reduces Octopus's cost of buying peak power and keeps customers engaged."},
+      {"feature": "Octopus app", "whatItDoes": "Shows usage, bills and tariff options.", "whyItMatters": "Self-service lowers support costs."},
+      {"feature": "Heat pump and solar installs", "whatItDoes": "Installs low-carbon tech at home.", "whyItMatters": "Locks in customers with long-term equipment and bigger bills."}
+    ],
+    "userJourneys": [
+      {"name": "Switching supplier", "persona": "Price-conscious family", "steps": [
+        {"step": "Compares", "detail": "Uses a comparison site or a friend's referral link."},
+        {"step": "Gets a quote", "detail": "Enters postcode and usage on octopus.energy."},
+        {"step": "Signs up", "detail": "Sets up Direct Debit in a few minutes."},
+        {"step": "Switch completes", "detail": "Supply moves over automatically in days."},
+        {"step": "Submits readings", "detail": "Smart meter sends readings, or the customer enters them in the app."},
+        {"step": "Gets first bill", "detail": "Checks the bill in the app."}
+      ]},
+      {"name": "Moving to an EV tariff", "persona": "EV owner", "steps": [
+        {"step": "Buys an EV", "detail": "Gets a home charger installed."},
+        {"step": "Checks compatibility", "detail": "Confirms car or charger works with Intelligent Octopus Go."},
+        {"step": "Switches tariff", "detail": "Changes tariff in the app."},
+        {"step": "Links car", "detail": "Connects the car or charger account to Octopus."},
+        {"step": "Sets ready time", "detail": "Chooses when the car must be charged."},
+        {"step": "Saves", "detail": "Sees charging costs drop on the bill."}
+      ]},
+      {"name": "Utility adopting Kraken", "persona": "Energy company buying software", "steps": [
+        {"step": "Evaluates", "detail": "Compares Kraken with SAP and other billing systems."},
+        {"step": "Signs licence", "detail": "Agrees a per-account fee."},
+        {"step": "Migrates", "detail": "Moves customer accounts in batches."},
+        {"step": "Trains staff", "detail": "Retrains service teams on the Kraken way of working."},
+        {"step": "Launches products", "detail": "Offers new smart tariffs faster."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Octopus makes money from the small gap between what it pays for energy and what it charges customers, plus standing charges. Margins are thin, often around 1% to 3%. It earns more from software (Kraken licences), flexibility services to the grid, installs and its own generation.",
+      "revenueStreams": [
+        {"stream": "Energy supply", "detail": "Selling electricity and gas to homes and businesses; the vast majority of the roughly £13 billion revenue."},
+        {"stream": "Kraken licences", "detail": "Per-account fees from energy firms using Kraken; now in a separate company."},
+        {"stream": "Low-carbon installs", "detail": "Heat pumps, solar, batteries and EV chargers."},
+        {"stream": "Generation and flexibility", "detail": "Its own renewable farms and payments for balancing the grid."}
+      ],
+      "pricing": "Prices follow Ofgem's price cap for standard tariffs. Smart tariffs like Intelligent Octopus Go offer cheap night electricity; Agile rates change every half hour. Exact rates vary by region and are shown on octopus.energy.",
+      "costDrivers": [
+        "Wholesale energy purchases, the biggest cost by far",
+        "Network and policy costs passed through",
+        "Customer service staff",
+        "Bad debt from unpaid bills",
+        "Hedging and investment in renewables"
+      ],
+      "unitEconomics": "A typical UK home pays about £1,700 a year for energy under the price cap. Most of that goes on wholesale energy, network fees and government levies. Octopus might keep a margin of about 1% to 3%, so roughly £20 to £50 a year per home. The cost of serving that customer is the difference-maker: Kraken and fewer complaint calls let Octopus serve a home more cheaply than old rivals. That small saving per home across millions of homes is the business."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Referral programme paying both sides",
+        "High Which? and Trustpilot ratings",
+        "Taking on customers of failed suppliers, like Bulb",
+        "EV and heat pump owners seeking smart tariffs",
+        "Comparison websites"
+      ],
+      "whatBringsUsersBack": [
+        "Energy is a monthly bill, so customers stay by default",
+        "Saving Sessions and Octoplus rewards",
+        "Smart tariffs tied to their car, battery or heat pump",
+        "Good support makes switching away less appealing"
+      ],
+      "moat": "Octopus's moat is Kraken: owning modern software lets it serve customers cheaper and launch new tariffs faster than rivals on old systems. Smart tariffs tied to home devices also make customers sticky. Price alone is not a moat, because energy is the same whoever sells it."
+    },
+    "competitors": [
+      {"name": "British Gas (Centrica)", "positioning": "Former biggest supplier, strong in gas and boiler services.", "howThisProductDiffers": "Octopus has better service ratings and more smart tariffs; British Gas has boiler and repair cover."},
+      {"name": "EDF and E.ON Next", "positioning": "Large suppliers, both using Kraken software.", "howThisProductDiffers": "Octopus competes with them for customers but earns licence fees from them."},
+      {"name": "OVO Energy", "positioning": "Large UK supplier with green focus.", "howThisProductDiffers": "Octopus has grown faster and has better finances and ratings."},
+      {"name": "SAP and Salesforce (for utility software)", "positioning": "Traditional utility billing and CRM systems.", "howThisProductDiffers": "Kraken is built for smart meters and flexible tariffs from the start."}
+    ],
+    "northStar": {
+      "metric": "Number of homes on smart tariffs saving money and shifting use to cheaper, greener times",
+      "why": "This north star metric shows value to the customer (lower bills) and to Octopus (cheaper energy and grid payments) together."
+    },
+    "kpiTree": [
+      {"metric": "Customers supplied", "description": "Homes and businesses on supply.", "children": [
+        {"metric": "Net switches in", "description": "Switch-ins minus switch-outs."},
+        {"metric": "Referral share of new customers", "description": "Cheapest way to acquire customers."},
+        {"metric": "Churn rate", "description": "Share leaving each year."}
+      ]},
+      {"metric": "Smart meter and tariff adoption", "description": "Customers able to use smart tariffs.", "children": [
+        {"metric": "Smart meter installs", "description": "Needed for half-hourly pricing."},
+        {"metric": "Customers on smart tariffs", "description": "Intelligent Go, Agile and others."}
+      ]},
+      {"metric": "Demand shifted", "description": "Energy moved to off-peak times.", "children": [
+        {"metric": "Saving Session participation", "description": "Share of customers who take part."},
+        {"metric": "Smart-charged EV kWh", "description": "Charging controlled by Octopus."}
+      ]},
+      {"metric": "Customer satisfaction", "description": "Whether customers are happy.", "children": [
+        {"metric": "Complaints per 10,000 customers", "description": "Ofgem and Citizens Advice measures."},
+        {"metric": "Bill accuracy", "description": "Share of bills based on actual reads."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Complaints per 10,000 customers",
+      "Bad debt as a share of revenue",
+      "Gross margin per customer"
+    ],
+    "strengths": [
+      "UK's largest supplier with top service ratings",
+      "Own software platform with external customers",
+      "Leader in smart tariffs for EVs and heat pumps",
+      "Proved it can absorb a failed rival (Bulb)"
+    ],
+    "weaknesses": [
+      "Very thin supply margins, so weather and wholesale prices swing profits, as the FY25 loss showed",
+      "Fast growth can strain service quality",
+      "Complex group structure, now partly unwound with the Kraken spin-out"
+    ],
+    "risks": [
+      "Wholesale price spikes like 2022",
+      "Ofgem price cap changes",
+      "Rivals licensing Kraken may move to other software now that it is independent",
+      "Political pressure on energy bills"
+    ],
+    "userComplaints": [
+      "Direct Debit raised without clear explanation",
+      "Smart meter installation delays or meters that stop sending readings",
+      "Longer wait times than before as the customer base grew",
+      "Billing errors after switching, especially for ex-Bulb customers",
+      "Heat pump install delays"
+    ],
+    "improvementIdeas": [
+      {"idea": "Explain every Direct Debit change in plain words in the app", "problem": "Customers do not understand payment changes.", "expectedImpact": "Fewer support calls and complaints.", "metricToTrack": "Contacts about Direct Debit per 10,000 customers", "effort": "low"},
+      {"idea": "Auto-detect best tariff and switch with one tap", "problem": "Tariff choice is confusing.", "expectedImpact": "More customers on smart tariffs.", "metricToTrack": "Share of eligible customers on smart tariffs", "effort": "medium"},
+      {"idea": "Smart meter health alerts and remote fix", "problem": "Meters stop sending readings.", "expectedImpact": "More accurate bills.", "metricToTrack": "Share of bills on actual reads", "effort": "medium"},
+      {"idea": "Bundle heat pump with guaranteed running cost", "problem": "Fear of high running costs stops heat pump uptake.", "expectedImpact": "More installs and loyal customers.", "metricToTrack": "Heat pump installs per month", "effort": "high"}
+    ],
+    "pmLessons": [
+      "In a commodity market where the product is identical, service and pricing design become the product.",
+      "Building your own core software can turn a cost centre into a separate business, as Kraken shows.",
+      "Thin margins make cost to serve the key number; small savings per customer add up across millions.",
+      "Pricing can change behaviour: time-of-use tariffs shift demand in ways that help both users and the business."
+    ],
+    "interviewQuestions": [
+      {"question": "Energy is the same from every supplier. How does Octopus win?", "hint": "Service, smart tariffs, cost to serve, referrals. Tie each to a metric."},
+      {"question": "Design a feature to get more customers to use power off-peak.", "hint": "Persona, behaviour barrier, incentive design (Saving Sessions), automation via devices. Metric: kWh shifted."},
+      {"question": "Should Octopus have spun off Kraken?", "hint": "Pros: neutral to rival utilities, capital raise. Cons: lose control. Consider licensee trust and valuation."},
+      {"question": "Customer complaints rose 20% this quarter. What do you do?", "hint": "Segment by type (billing, meters, payments), cohort (new vs old), and channel. Fix the biggest driver first."},
+      {"question": "What is the north star metric for Octopus?", "hint": "Homes saving money on smart tariffs. Break into supply, smart adoption, demand shifted, satisfaction."}
+    ],
+    "glossary": [
+      {"term": "Time-of-use tariff", "meaning": "An energy price that changes by time of day, cheaper when demand is low."},
+      {"term": "Price cap", "meaning": "The maximum Ofgem lets suppliers charge per unit on standard tariffs."},
+      {"term": "Smart meter", "meaning": "A meter that sends readings to the supplier automatically."},
+      {"term": "Cost to serve", "meaning": "How much it costs a company to look after one customer for a year."},
+      {"term": "Wholesale", "meaning": "The market where suppliers buy energy in bulk before selling it to homes."},
+      {"term": "Churn", "meaning": "The share of customers who leave in a period."},
+      {"term": "Spin-out", "meaning": "When part of a company becomes its own separate company."},
+      {"term": "North star metric", "meaning": "The one number that best shows users are getting real value."},
+      {"term": "Moat", "meaning": "What makes a business hard for rivals to copy."},
+      {"term": "Gross margin", "meaning": "The share of revenue left after paying the direct cost of what is sold."}
+    ],
+    "assumptions": [
+      "The UK market share of about a quarter is an estimate from 2025 Ofgem data.",
+      "The 1% to 3% supply margin and £1,700 bill are illustrative, based on the price cap and reported group margin.",
+      "The 70 million Kraken accounts figure is from 2025 statements and may be higher now.",
+      "Exact FY25 loss figure was not checked."
+    ]
+  }
+}

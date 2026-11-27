@@ -1,0 +1,552 @@
+{
+  "company": "Steam",
+  "domain": "store.steampowered.com",
+  "website": "https://store.steampowered.com",
+  "sources": [
+    "https://gamedevreports.substack.com/p/valve-steam-in-2025",
+    "https://wccftech.com/steam-reaches-new-concurrency-record-42-million-users/",
+    "https://www.techspot.com/news/111663-game-developers-cash-steam-sees-5863-titles-earn",
+    "https://www.pcgamer.com/uk/gaming-industry/steam-reportedly-raked-in-a-record-breaking-usd1-6-billion-in-december-with-arc-raiders-alone-moving-over-a-million-copies/",
+    "https://www.gamesmarket.global/average-cut-for-all-non-valve-games-sold-on-steam-in-2025-was-24/",
+    "https://www.windowscentral.com/gaming/pc-gaming/steam-maker-valve-is-up-against-a-usd900-million-lawsuit-in-the-uk-accused-of-rigging-the-market-and-excessive-commission-prices",
+    "https://www.gamingonlinux.com/2026/03/valve-reconfirm-the-steam-frame-steam-machine-and-steam-controller-are-due-in-2026",
+    "https://www.tweaktown.com/news/108928/steam-has-made-dollars16-2-billion-in-sales-this-year-gabe-celebrates-with-new-dollars500m-superyacht/index.html"
+  ],
+  "report": {
+    "company": "Steam",
+    "tagline": "Valve's online store and app where PC gamers buy, download, play and talk about games.",
+    "category": "Gaming platform",
+    "simpleSummary": "Steam is the main shop for PC games. You install the Steam app, buy games, and they download and update by themselves. Your games stay in your account forever, and you can play with friends, read reviews and buy during big seasonal sales. Valve, the company behind it, keeps about 30% of every game sold, and also makes the Steam Deck handheld.",
+    "keyNumbers": [
+      {
+        "label": "Peak concurrent users (online at once)",
+        "value": "About 42 million",
+        "note": "Record reported by Wccftech, 2025 to 2026. Valve said 40 million in August 2025."
+      },
+      {
+        "label": "Yearly sales on Steam",
+        "value": "About $16 billion (2025)",
+        "note": "Third-party estimate reported by TweakTown. Valve is private and does not publish revenue. Weak estimate."
+      },
+      {
+        "label": "December 2025 sales",
+        "value": "About $1.6 billion, a record month",
+        "note": "Estimate reported by PC Gamer, January 2026."
+      },
+      {
+        "label": "Games that earned over $100,000 in 2025",
+        "value": "5,863",
+        "note": "Valve's own figure, shared at GDC 2026 and reported by TechSpot."
+      },
+      {
+        "label": "New paying users",
+        "value": "About 109,000 per day",
+        "note": "Valve figure, August 2024 to August 2025."
+      },
+      {
+        "label": "Average Valve cut on non-Valve games",
+        "value": "About 24%",
+        "note": "Analysis reported by Games Market, 2026. Lower than 30% because big hits pay less after sales thresholds."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Steam is a digital store, game library and social network for PC and Steam Deck players. Developers publish their games on it and Valve handles payments, downloads, updates, anti-piracy and community tools. Players get one place for all their games, friends and reviews.",
+      "howItWorks": [
+        "A player makes a free Steam account and installs the Steam app on PC, Mac, Linux or Steam Deck.",
+        "They browse the store, see user reviews and wishlists, and buy with card, UPI-linked cards, PayPal or Steam Wallet.",
+        "Games download from Valve's servers and update automatically.",
+        "Developers pay a $100 fee per game to list, then Valve keeps 30% of sales, falling to 25% after $10 million and 20% after $50 million per game.",
+        "Big seasonal sales (Summer, Winter, Spring) and festivals drive huge spikes in buying.",
+        "Community features like reviews, Workshop mods, groups and the Steam Market keep players engaged."
+      ],
+      "valueProposition": "For players: one library for life, fair user reviews, huge discounts and friends in one place. For developers: access to the biggest PC audience with payments and tools handled."
+    },
+    "personas": [
+      {
+        "name": "Core PC gamer",
+        "description": "A 22-year-old with a gaming PC who plays shooters and RPGs with friends most nights.",
+        "goals": [
+          "Buy games at sale prices",
+          "Play with friends easily",
+          "Trust reviews before buying"
+        ],
+        "frustrations": [
+          "Rising prices for big games",
+          "Buggy launches",
+          "Review bombing makes scores noisy"
+        ]
+      },
+      {
+        "name": "Indie developer",
+        "description": "A team of three making a small game, hoping for a hit.",
+        "goals": [
+          "Get seen among 19,000 yearly releases",
+          "Collect wishlists before launch",
+          "Earn enough to make the next game"
+        ],
+        "frustrations": [
+          "30% cut feels high",
+          "Hard to get discovered",
+          "Depends on Steam's algorithm"
+        ]
+      },
+      {
+        "name": "Steam Deck player",
+        "description": "A working adult who plays on the couch or while travelling.",
+        "goals": [
+          "Play their existing PC library on the go",
+          "Know which games run well",
+          "Long battery"
+        ],
+        "frustrations": [
+          "Some games block the Deck due to anti-cheat",
+          "Battery life on heavy games"
+        ]
+      },
+      {
+        "name": "Indian student gamer",
+        "description": "Plays on a mid-range laptop and buys mostly during sales.",
+        "goals": [
+          "Cheap games in rupees",
+          "Low download size",
+          "Free-to-play titles like Counter-Strike 2"
+        ],
+        "frustrations": [
+          "Card payment failures",
+          "Regional prices rising",
+          "Slow internet for big downloads"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Keeping PC games updated and organised is hard.",
+        "howSolved": "One app downloads, updates and launches every game.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not sure if a game is good before buying.",
+        "howSolved": "Millions of user reviews with a simple 'Recommended' score, plus refunds within 2 hours of play and 14 days.",
+        "severity": "high"
+      },
+      {
+        "pain": "Games are expensive.",
+        "howSolved": "Frequent sales with 50% to 90% discounts and regional pricing.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Playing with friends is fiddly.",
+        "howSolved": "Friends list, voice chat, invites and Remote Play Together.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Developers cannot build their own store and payments.",
+        "howSolved": "Steam handles store pages, payments, taxes, keys and updates.",
+        "severity": "high"
+      },
+      {
+        "pain": "PC gaming is tied to a desk.",
+        "howSolved": "Steam Deck plays the same library on a handheld.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "User reviews and refunds",
+        "whatItDoes": "Players rate games up or down and can refund within 14 days if played under 2 hours.",
+        "whyItMatters": "Builds trust so players buy more, and pushes developers to ship good games."
+      },
+      {
+        "feature": "Wishlists and discovery queue",
+        "whatItDoes": "Players save games they want; Steam recommends new games.",
+        "whyItMatters": "Wishlists notify buyers on launch and sales, the biggest driver of indie sales."
+      },
+      {
+        "feature": "Seasonal sales and festivals",
+        "whatItDoes": "Store-wide discounts like the Summer Sale and Next Fest demos.",
+        "whyItMatters": "Creates buying events and pulls in lapsed players."
+      },
+      {
+        "feature": "Steam Workshop and Community Market",
+        "whatItDoes": "Players share mods and trade in-game items, with Valve taking a fee on trades.",
+        "whyItMatters": "Keeps old games alive and adds extra revenue."
+      },
+      {
+        "feature": "Steam Deck and Proton",
+        "whatItDoes": "A handheld PC running SteamOS, with Proton making Windows games run on Linux.",
+        "whyItMatters": "Grows play time outside the desk and reduces reliance on Microsoft Windows."
+      },
+      {
+        "feature": "Steamworks tools",
+        "whatItDoes": "Achievements, cloud saves, matchmaking and anti-piracy for developers.",
+        "whyItMatters": "Makes developers want to ship on Steam first."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying during the Summer Sale",
+        "persona": "Core PC gamer",
+        "steps": [
+          {
+            "step": "Gets wishlist alert",
+            "detail": "Email says a wishlisted game is 60% off."
+          },
+          {
+            "step": "Opens store page",
+            "detail": "Reads recent reviews and watches the trailer."
+          },
+          {
+            "step": "Checks friends",
+            "detail": "Sees two friends own it."
+          },
+          {
+            "step": "Buys",
+            "detail": "Pays with saved card or Steam Wallet."
+          },
+          {
+            "step": "Downloads and plays",
+            "detail": "Game installs and cloud save syncs."
+          },
+          {
+            "step": "Leaves review",
+            "detail": "After 10 hours, posts a thumbs up."
+          }
+        ]
+      },
+      {
+        "name": "Launching an indie game",
+        "persona": "Indie developer",
+        "steps": [
+          {
+            "step": "Pays Steam Direct fee",
+            "detail": "$100 per game, returned after $1,000 in sales."
+          },
+          {
+            "step": "Builds store page",
+            "detail": "Puts up a 'Coming soon' page to collect wishlists."
+          },
+          {
+            "step": "Joins Steam Next Fest",
+            "detail": "Releases a demo to millions of players."
+          },
+          {
+            "step": "Launches",
+            "detail": "Wishlisters get an email; launch discount runs."
+          },
+          {
+            "step": "Watches reviews",
+            "detail": "Fixes bugs fast to keep a positive score."
+          },
+          {
+            "step": "Gets paid",
+            "detail": "Receives 70% of sales monthly."
+          }
+        ]
+      },
+      {
+        "name": "Playing on Steam Deck",
+        "persona": "Steam Deck player",
+        "steps": [
+          {
+            "step": "Buys a Deck",
+            "detail": "Orders the OLED model from Valve."
+          },
+          {
+            "step": "Signs in",
+            "detail": "Whole library shows up."
+          },
+          {
+            "step": "Checks Deck Verified badge",
+            "detail": "Sees which games run well."
+          },
+          {
+            "step": "Installs a game",
+            "detail": "Proton runs the Windows game."
+          },
+          {
+            "step": "Suspends and resumes",
+            "detail": "Picks up later; cloud save syncs to PC."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Steam makes money mainly from a cut of every game sold, usually 30%. It also earns from in-game purchases made through Steam, fees on Community Market trades, its own games like Counter-Strike 2, and hardware like Steam Deck.",
+      "revenueStreams": [
+        {
+          "stream": "Store commission",
+          "detail": "30% of each sale, dropping to 25% after $10 million and 20% after $50 million per game. Average around 24% in 2025."
+        },
+        {
+          "stream": "In-game purchases",
+          "detail": "Valve takes a cut of microtransactions processed through Steam."
+        },
+        {
+          "stream": "Valve's own games",
+          "detail": "Counter-Strike 2 and Dota 2 earn from cases, skins and battle passes."
+        },
+        {
+          "stream": "Community Market fees",
+          "detail": "About 15% on item trades between players."
+        },
+        {
+          "stream": "Hardware",
+          "detail": "Steam Deck, and Steam Machine, Steam Frame headset and Steam Controller due in 2026."
+        }
+      ],
+      "pricing": "Free to join. Games priced by developers, often with regional prices such as ₹499 to ₹3,999 in India. Steam Deck OLED from about $549 in the US.",
+      "costDrivers": [
+        "Bandwidth: players downloaded about 100 exabytes in 2025",
+        "Payment processing and fraud",
+        "Engineering for store, client, SteamOS and Proton",
+        "Hardware manufacturing for Steam Deck",
+        "Support and refunds"
+      ],
+      "unitEconomics": "On a $30 indie game, Valve keeps $9 and the developer gets $21. Valve pays maybe 3% to 5% for payments and a little for bandwidth, so it keeps roughly $7 to $8. Valve has only a few thousand employees, so most of that falls to profit, which makes Steam one of the most profitable businesses per employee in tech. Steam Deck is likely sold at a small profit or near cost to grow play time. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free-to-play hits like Counter-Strike 2 and Dota 2",
+        "Developers sending players to Steam because their game is only there",
+        "Seasonal sales covered by gaming media",
+        "Steam Deck bringing new handheld players"
+      ],
+      "whatBringsUsersBack": [
+        "Library and friends list already there",
+        "Wishlist sale alerts",
+        "New releases every day",
+        "Achievements, trading cards and seasonal events"
+      ],
+      "moat": "Players have years of games in their Steam library and friends on Steam, so leaving is costly. Developers go where players are, and players go where games are. Epic gave away free games for years and still did not break this loop."
+    },
+    "competitors": [
+      {
+        "name": "Epic Games Store",
+        "positioning": "PC store with a 12% cut and weekly free games.",
+        "howThisProductDiffers": "Steam has many more features, reviews and community. Epic is cheaper for developers."
+      },
+      {
+        "name": "Xbox PC app and Game Pass",
+        "positioning": "Subscription with hundreds of games for a monthly fee.",
+        "howThisProductDiffers": "Steam sells to own; Game Pass rents. Steam has no subscription."
+      },
+      {
+        "name": "PlayStation and Nintendo",
+        "positioning": "Console stores with their own hardware.",
+        "howThisProductDiffers": "Steam is open PC; consoles are closed but simpler."
+      },
+      {
+        "name": "GOG",
+        "positioning": "PC store with no copy protection and classic games.",
+        "howThisProductDiffers": "Much smaller catalogue."
+      }
+    ],
+    "northStar": {
+      "metric": "Hours played per week by active Steam users",
+      "why": "Play time shows players enjoy what they bought. It predicts future purchases, keeps friends online and makes developers want to be on Steam."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active players",
+        "description": "Unique accounts that play at least once a week.",
+        "children": [
+          {
+            "metric": "New accounts that buy within 30 days",
+            "description": "Shows healthy new user growth."
+          },
+          {
+            "metric": "Returning lapsed users during sales",
+            "description": "Players who come back for seasonal sales."
+          },
+          {
+            "metric": "Steam Deck weekly users",
+            "description": "Players using the handheld."
+          }
+        ]
+      },
+      {
+        "metric": "Games bought per player",
+        "description": "Purchases each year.",
+        "children": [
+          {
+            "metric": "Wishlist-to-purchase conversion",
+            "description": "Share of wishlisted games that get bought."
+          },
+          {
+            "metric": "Store page conversion",
+            "description": "Share of page views that buy."
+          },
+          {
+            "metric": "Refund rate",
+            "description": "Share of purchases refunded, which shows bad buys."
+          }
+        ]
+      },
+      {
+        "metric": "Hours per player",
+        "description": "Average play time.",
+        "children": [
+          {
+            "metric": "Sessions with friends",
+            "description": "Share of sessions played in groups."
+          },
+          {
+            "metric": "Workshop mod installs",
+            "description": "Mods that extend game life."
+          }
+        ]
+      },
+      {
+        "metric": "Healthy developer supply",
+        "description": "Good games arriving each month.",
+        "children": [
+          {
+            "metric": "Games earning over $100,000",
+            "description": "5,863 in 2025; shows developers can make a living."
+          },
+          {
+            "metric": "Share of new releases with positive reviews",
+            "description": "Quality of supply."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Refund rate",
+      "Fraud and account theft cases",
+      "Share of developers earning nothing in their first year",
+      "Download speed and store uptime during sales"
+    ],
+    "strengths": [
+      "Biggest PC gaming audience and library lock-in",
+      "Trusted user reviews and refund policy",
+      "Very profitable with a small team",
+      "Steam Deck and SteamOS give it hardware of its own"
+    ],
+    "weaknesses": [
+      "30% cut is seen as high by developers",
+      "Discovery is hard with about 19,000 new games a year",
+      "Old-fashioned client and slow customer support",
+      "Bowed to payment processor pressure to remove some adult games in 2025"
+    ],
+    "risks": [
+      "UK class action seeking up to £656 million over its 30% cut, cleared to proceed in 2026",
+      "US antitrust cases and new price-fixing claims",
+      "Epic and Microsoft pushing cheaper stores and subscriptions",
+      "Rising RAM and chip costs raising prices for Steam Machine and Deck"
+    ],
+    "userComplaints": [
+      "Developers say the 30% cut is too high",
+      "Too many low-quality and AI-made games crowd the store",
+      "Removal of adult games in 2025 under pressure from Visa and Mastercard upset players and creators",
+      "Customer support is slow",
+      "Review bombing can swing scores for reasons unrelated to the game"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Curated 'hidden gems' shelves powered by playtime, not just sales",
+        "problem": "Indie games are hard to discover among 19,000 yearly releases.",
+        "expectedImpact": "More indie games earn money, and players find better fits.",
+        "metricToTrack": "Share of new releases earning over $10,000 in first month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lower cut for a game's first $1 million, instead of after $10 million",
+        "problem": "Small developers feel the cut most, and lawsuits target it.",
+        "expectedImpact": "Better developer goodwill, weaker legal case against Valve.",
+        "metricToTrack": "Developer satisfaction and new games published",
+        "effort": "low"
+      },
+      {
+        "idea": "Label AI-generated content clearly in search filters",
+        "problem": "Players complain about low-effort AI games.",
+        "expectedImpact": "Better trust in the store.",
+        "metricToTrack": "Refund rate on new releases",
+        "effort": "low"
+      },
+      {
+        "idea": "Faster live chat support for payment and account issues",
+        "problem": "Slow support angers users.",
+        "expectedImpact": "Fewer lost accounts and better reviews of Steam itself.",
+        "metricToTrack": "Median ticket resolution time",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Trust features like honest reviews and easy refunds can raise sales, because buyers worry less.",
+      "A two-sided marketplace is very hard to dislodge once both sides are locked in, even by a rival giving games away.",
+      "Running buying events like seasonal sales creates habits and spikes that keep a store top of mind.",
+      "Owning your hardware and operating system, like Steam Deck and SteamOS, reduces dependence on another company."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Epic charges 12% and gives free games, yet Steam still wins. Why?",
+        "hint": "Talk about network effects, library lock-in, features, and trust. Price is not everything."
+      },
+      {
+        "question": "How would you improve game discovery on Steam?",
+        "hint": "Segment players and developers, list signals (play time, friends, wishlists), propose a feature, define metrics like conversion from discovery."
+      },
+      {
+        "question": "Should Valve launch a Game Pass-style subscription?",
+        "hint": "Weigh more play time against lower developer revenue and cannibalising sales. Run a small test."
+      },
+      {
+        "question": "What is the north star metric for Steam?",
+        "hint": "Hours played, broken into active players, hours per player, purchases and developer supply."
+      },
+      {
+        "question": "How would you grow Steam in India?",
+        "hint": "Regional pricing, UPI payments, smaller downloads, cafes and laptops, local free-to-play games."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Commission",
+        "meaning": "The share of each sale a platform keeps for itself."
+      },
+      {
+        "term": "Concurrent users",
+        "meaning": "The number of people using a service at the exact same moment."
+      },
+      {
+        "term": "Wishlist",
+        "meaning": "A saved list of games a player wants, used to alert them on launch or sale."
+      },
+      {
+        "term": "Network effects",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a team focuses on because it best shows the value users get."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of people who take a next step, like buying after viewing a page."
+      },
+      {
+        "term": "Antitrust",
+        "meaning": "Laws that stop a company from unfairly using its size to block rivals."
+      },
+      {
+        "term": "Microtransactions",
+        "meaning": "Small purchases inside a game, like skins or extra levels."
+      },
+      {
+        "term": "Lock-in",
+        "meaning": "When leaving a product is hard because your stuff only works inside it."
+      }
+    ],
+    "assumptions": [
+      "Steam's yearly sales and December revenue are third-party estimates; Valve does not publish revenue.",
+      "Valve's profit per game sold is estimated from known cut rates and typical payment costs.",
+      "The figure of about 19,000 new games a year is based on 2024 to 2025 trackers.",
+      "Steam Deck profit margin is not public."
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "company": "Jira (Atlassian)",
+  "domain": "atlassian.com",
+  "website": "https://atlassian.com",
+  "sources": [
+    "https://investors.atlassian.com/news/news-details/2026/Atlassian-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx",
+    "https://investors.atlassian.com/news/news-details/2026/Atlassian-Announces-Second-Quarter-Fiscal-Year-2026-Results",
+    "https://www.nasdaq.com/articles/atlassian-q4-earnings-call-highlights",
+    "https://dev.to/jadig/jira-data-center-2026-price-hike-timeline-impact-and-the-best-alternative-6il",
+    "https://community.atlassian.com/forums/Jira-Cloud-Admins-discussions/Jira-2025-Changes-How-User-Experience-has-degraded-Is-Atlassian/m-p/3194686",
+    "https://clickup.com/blog/linear-vs-jira/",
+    "https://www.teamblind.com/post/why-is-jira-so-painful-4lu1rhtv"
+  ],
+  "report": {
+    "company": "Jira (Atlassian)",
+    "tagline": "Atlassian's Jira is the tool most software teams use to plan, track and ship work, sold alongside Confluence, Loom and the Rovo AI.",
+    "category": "Work management",
+    "simpleSummary": "Jira is a to-do board for teams, built first for software engineers. Each piece of work is a ticket that moves across a board from 'To do' to 'Done', so everyone can see who is doing what. Atlassian, an Australian company, also makes Confluence for documents and Loom for video. It famously grew without a big sales team: teams found it online, tried it free and paid by card.",
+    "keyNumbers": [
+      {"label": "Revenue (fiscal 2026, ended June 2026)", "value": "$6.57 billion, up 26%", "note": "Atlassian's Q4 and FY26 results, August 2026."},
+      {"label": "Cloud revenue (FY26)", "value": "$4.41 billion, about 28% growth", "note": "Same release. Growth rate calculated from prior year."},
+      {"label": "Customers", "value": "More than 350,000, including over 85% of the Fortune 500", "note": "Atlassian company figure, FY26."},
+      {"label": "Free cash flow (FY26)", "value": "$1.32 billion (20% margin)", "note": "Same release. GAAP net loss was $54 million because of stock pay and deal costs."},
+      {"label": "Subscription ARR", "value": "$6.61 billion, up 23%", "note": "Yearly recurring subscription revenue as of 30 June 2026."},
+      {"label": "FY27 outlook", "value": "About 13% revenue growth; Data Center down about 17%", "note": "Company guidance. Slowdown because Data Center (self-hosted) is being phased out."}
+    ],
+    "overview": {
+      "whatItDoes": "Jira lets teams plan and track work as tickets on boards, backlogs and timelines. Software teams use it for sprints and bugs; business and service teams use Jira Service Management for help desks. Atlassian sells it with Confluence (wiki), Loom (video), Bitbucket (code) and Rovo, an AI that searches and acts across all of a company's tools.",
+      "howItWorks": [
+        "A team signs up for Jira Cloud free for up to 10 users.",
+        "They create a project and add tickets (issues) for each task or bug.",
+        "Tickets move through a workflow on a Scrum or Kanban board.",
+        "Jira connects to GitHub, Slack, Figma and over 3,000 Marketplace apps.",
+        "As the team grows, it pays per user per month on Standard or Premium plans.",
+        "Large companies buy Enterprise plans, and are being moved off self-hosted Data Center to Cloud."
+      ],
+      "valueProposition": "One place where everyone can see what work exists, who owns it and where it stands, flexible enough for any team's process."
+    },
+    "personas": [
+      {"name": "Software engineer", "description": "Works in a 50-person product team and gets tasks through Jira.", "goals": ["Know what to work on next", "Link code to tickets", "Spend less time on admin"], "frustrations": ["Jira is slow and cluttered", "Too many required fields", "Boards set up by managers, not engineers"]},
+      {"name": "Product manager", "description": "Plans sprints, writes tickets and reports progress.", "goals": ["Clear backlog and roadmap", "Status reports without chasing", "Link specs in Confluence"], "frustrations": ["Reports need setup", "Hard to give leadership a simple view"]},
+      {"name": "Jira admin", "description": "Configures Jira for a 2,000-person company.", "goals": ["Security and compliance", "Control workflows", "Manage licence costs"], "frustrations": ["Forced move from Data Center to Cloud", "Price increases", "Marketplace app costs"]},
+      {"name": "IT help desk lead", "description": "Runs internal IT support on Jira Service Management.", "goals": ["Fast ticket handling", "AI to answer common questions"], "frustrations": ["Complex setup", "Competition from ServiceNow and Freshservice"]}
+    ],
+    "painPoints": [
+      {"pain": "Nobody knows who is working on what.", "howSolved": "Every task is a ticket with an owner and status.", "severity": "high"},
+      {"pain": "Planning sprints in spreadsheets is messy.", "howSolved": "Backlogs, sprints and boards built for agile teams.", "severity": "high"},
+      {"pain": "Work info is scattered across tools.", "howSolved": "Integrations and Rovo AI search across Jira, Confluence, Slack and Google Drive.", "severity": "medium"},
+      {"pain": "Status reports take hours.", "howSolved": "Dashboards and AI summaries of project status.", "severity": "medium"},
+      {"pain": "Every team works differently.", "howSolved": "Custom workflows, fields and Marketplace apps.", "severity": "medium"}
+    ],
+    "coreFeatures": [
+      {"feature": "Boards, backlogs and sprints", "whatItDoes": "Scrum and Kanban boards to plan and move work.", "whyItMatters": "The daily habit for software teams."},
+      {"feature": "Custom workflows", "whatItDoes": "Teams define their own statuses and rules.", "whyItMatters": "Fits any process, which wins big companies but makes Jira complex."},
+      {"feature": "Atlassian Marketplace", "whatItDoes": "Thousands of add-on apps from partners.", "whyItMatters": "Fills gaps and raises switching cost; Atlassian takes a cut."},
+      {"feature": "Rovo AI", "whatItDoes": "AI search, chat and agents that work across Atlassian and other tools.", "whyItMatters": "Atlassian's bet that owning work context makes its AI more useful than generic chatbots."},
+      {"feature": "Jira Service Management", "whatItDoes": "Help desk and IT service tickets.", "whyItMatters": "Expands Jira beyond engineering into IT and HR teams."},
+      {"feature": "Confluence integration", "whatItDoes": "Link docs, specs and meeting notes to tickets.", "whyItMatters": "Bundling the two raises spend per customer."}
+    ],
+    "userJourneys": [
+      {"name": "A startup team adopts Jira", "persona": "Product manager", "steps": [
+        {"step": "Searches for a sprint tool", "detail": "Finds Jira through search or a teammate."},
+        {"step": "Signs up free", "detail": "Free for up to 10 users, no sales call."},
+        {"step": "Picks a template", "detail": "Scrum template sets up a board."},
+        {"step": "Adds tickets", "detail": "Imports from a spreadsheet."},
+        {"step": "Connects GitHub and Slack", "detail": "Code and alerts link to tickets."},
+        {"step": "Grows past 10 users", "detail": "Upgrades to Standard by card."},
+        {"step": "Adds Confluence", "detail": "Specs move to Confluence."}
+      ]},
+      {"name": "Engineer's daily flow", "persona": "Software engineer", "steps": [
+        {"step": "Opens board", "detail": "Sees assigned tickets."},
+        {"step": "Moves ticket to In Progress", "detail": "Starts work."},
+        {"step": "Creates branch", "detail": "Branch named after the ticket key."},
+        {"step": "Opens pull request", "detail": "Jira links it automatically."},
+        {"step": "Ticket moves to Done", "detail": "Automation closes it on merge."}
+      ]},
+      {"name": "Enterprise moves to Cloud", "persona": "Jira admin", "steps": [
+        {"step": "Gets end-of-life notice", "detail": "Data Center end-of-life planned for 2029."},
+        {"step": "Plans migration", "detail": "Uses Atlassian migration tools."},
+        {"step": "Checks Marketplace apps", "detail": "Makes sure Cloud versions exist."},
+        {"step": "Signs Enterprise Cloud deal", "detail": "Often with discounts."},
+        {"step": "Moves teams in waves", "detail": "Runs both systems for months."},
+        {"step": "Turns on Rovo", "detail": "AI comes with Cloud plans."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Atlassian makes money from per-user subscriptions for Jira, Confluence and its other tools, mostly in the cloud. Most small customers buy online without talking to sales, which keeps the cost of getting a customer low. Big companies pay much more for Enterprise plans.",
+      "revenueStreams": [
+        {"stream": "Cloud subscriptions", "detail": "Per user per month for Jira, Confluence, Loom and more. $4.41 billion in FY26."},
+        {"stream": "Data Center licences", "detail": "Self-hosted versions for large companies, $1.83 billion in FY26, being phased out by 2029."},
+        {"stream": "Marketplace", "detail": "Atlassian takes a cut of partner apps sold on its Marketplace."},
+        {"stream": "Premium, Enterprise and AI", "detail": "Higher tiers with more admin, security and Rovo AI features."}
+      ],
+      "pricing": "Jira Free for up to 10 users. Standard about $7.50 per user per month and Premium about $13.50 per user per month (2025 to 2026 list prices, lower per user at large seat counts). Enterprise custom.",
+      "costDrivers": [
+        "Research and development, the largest cost",
+        "Cloud hosting on AWS",
+        "Stock-based pay for staff",
+        "Growing enterprise sales team",
+        "AI computing for Rovo"
+      ],
+      "unitEconomics": "A 50-person team on Jira Standard pays about 50 x $7.50 = $375 a month, or $4,500 a year. Hosting costs are a small share, so gross margin is over 80%. Because most small teams buy online, the cost to win them is low. Over time they add Confluence and move to Premium, so spend per customer grows. That is why Atlassian earns $1.3 billion in free cash flow even with a small GAAP loss. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Product-led growth: teams find, try and buy without sales",
+        "Free plan for up to 10 users",
+        "Engineers bringing Jira from job to job",
+        "Cross-selling Confluence, Loom and Jira Service Management to existing customers"
+      ],
+      "whatBringsUsersBack": [
+        "Daily standups and sprints run on Jira boards",
+        "Tickets are where tasks get assigned",
+        "Integrations push updates from code and chat",
+        "Years of project history stored in Jira"
+      ],
+      "moat": "Big companies build custom workflows, reports and Marketplace apps on Jira over years, so moving away is slow and risky. Atlassian also argues its 'Teamwork Graph', the map of who works on what, gives its AI context that rivals cannot hire or copy."
+    },
+    "competitors": [
+      {"name": "Linear", "positioning": "Fast, simple issue tracker loved by startups.", "howThisProductDiffers": "Linear is faster and cleaner. Jira is more flexible and fits large, complex companies."},
+      {"name": "Monday.com, Asana, ClickUp", "positioning": "Work management for business teams.", "howThisProductDiffers": "They are easier for non-engineers. Jira is deeper for software teams."},
+      {"name": "GitHub Issues and Projects", "positioning": "Tracking built into where code lives.", "howThisProductDiffers": "GitHub is simpler and closer to code. Jira has richer planning and reports."},
+      {"name": "ServiceNow", "positioning": "Enterprise IT service management leader.", "howThisProductDiffers": "Jira Service Management is cheaper and faster to set up."}
+    ],
+    "northStar": {
+      "metric": "Weekly active teams moving work to Done in Jira",
+      "why": "Tickets moving to Done show that teams are actually shipping work with Jira, not just storing tasks. Active teams renew, add seats and buy more products."
+    },
+    "kpiTree": [
+      {"metric": "New active teams", "description": "Teams that create a project and move a ticket in week one.", "children": [
+        {"metric": "Sign-up to first ticket time", "description": "Minutes until the first ticket is created."},
+        {"metric": "Template use rate", "description": "Share of new projects starting from a template."},
+        {"metric": "Invite acceptance", "description": "Teammates who join."}
+      ]},
+      {"metric": "Tickets completed per team per week", "description": "How much work flows through Jira.", "children": [
+        {"metric": "Integration connections", "description": "Teams linking GitHub, Slack or Figma."},
+        {"metric": "Automation rules active", "description": "Rules that move tickets for you."},
+        {"metric": "Page load time", "description": "Speed of boards and tickets."}
+      ]},
+      {"metric": "Seats and products per customer", "description": "Expansion within accounts.", "children": [
+        {"metric": "Free-to-paid conversion", "description": "Free teams that upgrade."},
+        {"metric": "Confluence attach rate", "description": "Jira customers also using Confluence."}
+      ]},
+      {"metric": "AI usage", "description": "Teams using Rovo weekly.", "children": [
+        {"metric": "Rovo searches per user", "description": "Use of AI search."},
+        {"metric": "Agent actions completed", "description": "Tasks done by AI agents."}
+      ]}
+    ],
+    "guardrailMetrics": [
+      "Board load time",
+      "Outages and incidents",
+      "Net revenue retention",
+      "Customers lost during Data Center to Cloud migration"
+    ],
+    "strengths": [
+      "Default tool for software teams, used by over 85% of the Fortune 500",
+      "Low-cost, sales-light growth model",
+      "Strong cash flow of $1.3 billion a year",
+      "Large Marketplace and integrations"
+    ],
+    "weaknesses": [
+      "Seen as slow, complex and cluttered",
+      "Engineers often dislike it, even when managers pick it",
+      "Forced Data Center end-of-life upsets some large customers",
+      "Growth will slow to about 13% in FY27"
+    ],
+    "risks": [
+      "Linear and GitHub winning new startups",
+      "AI coding agents changing how software work is planned",
+      "Customers leaving during the forced Cloud migration",
+      "Big spending on AI and deals like The Browser Company with unclear returns"
+    ],
+    "userComplaints": [
+      "Jira feels slow and bloated",
+      "2025 navigation changes made the experience worse, according to admin forums",
+      "Too many fields and steps to create a ticket",
+      "Data Center price hikes and end-of-life push",
+      "Outages that block developer work"
+    ],
+    "improvementIdeas": [
+      {"idea": "A 'fast mode' for engineers: keyboard-first, minimal fields, instant load", "problem": "Engineers find Jira slow and cluttered and prefer Linear.", "expectedImpact": "Better engineer satisfaction, fewer startups switching to Linear.", "metricToTrack": "Board load time and tickets completed per engineer", "effort": "medium"},
+      {"idea": "Rovo writes and updates tickets from Slack threads and pull requests", "problem": "Ticket admin takes time.", "expectedImpact": "Less admin, more AI use.", "metricToTrack": "Share of tickets created or updated by Rovo", "effort": "medium"},
+      {"idea": "Migration guarantee: free help and price lock for Data Center customers", "problem": "Large customers are upset by the forced move.", "expectedImpact": "Fewer customers lost in migration.", "metricToTrack": "Data Center to Cloud migration completion rate", "effort": "low"},
+      {"idea": "One-click leadership summary of all projects", "problem": "PMs spend hours on status reports.", "expectedImpact": "Saves time and raises Premium upgrades.", "metricToTrack": "Weekly summary views by managers", "effort": "low"}
+    ],
+    "pmLessons": [
+      "Product-led growth lets a company reach hundreds of thousands of customers without a big sales team, if users can try and buy alone.",
+      "Flexibility wins big customers but creates complexity that annoys everyday users.",
+      "Moving customers to a new model, like Cloud, raises long-term revenue but risks losing them during the switch.",
+      "The person who buys a tool is often not the person who uses it, so you must design for both."
+    ],
+    "interviewQuestions": [
+      {"question": "Engineers hate Jira but companies keep buying it. Why, and what would you do?", "hint": "Separate buyer (managers, admins) from user (engineers). Explain value for each. Propose a fix for users that keeps buyer value."},
+      {"question": "How would you stop startups from choosing Linear?", "hint": "Find why they pick Linear (speed, simplicity). Propose a lighter Jira, better onboarding. Track new team sign-ups."},
+      {"question": "How would you measure Rovo's success?", "hint": "Weekly active users, tasks completed by agents, time saved, effect on renewal."},
+      {"question": "Atlassian grew without a big sales team. How does that work?", "hint": "Free plan, self-serve buying, word of mouth, expansion inside accounts, low cost to win customers."},
+      {"question": "What is Jira's north star metric?", "hint": "Teams completing work weekly. Break into new teams, tickets done, expansion, AI use."}
+    ],
+    "glossary": [
+      {"term": "Product-led growth", "meaning": "When users find, try and buy a product on their own, without a salesperson."},
+      {"term": "ARR", "meaning": "Annual recurring revenue: the yearly value of all active subscriptions."},
+      {"term": "Free cash flow", "meaning": "Cash left over after paying for running the business and investments."},
+      {"term": "Sprint", "meaning": "A short, fixed period, often two weeks, in which a team finishes a set of work."},
+      {"term": "Kanban", "meaning": "A board where tasks move across columns like 'To do', 'Doing' and 'Done'."},
+      {"term": "Gross margin", "meaning": "The share of revenue left after the direct cost of serving customers."},
+      {"term": "Net revenue retention", "meaning": "Revenue this year from last year's customers divided by what they paid last year."},
+      {"term": "Attach rate", "meaning": "The share of customers who buy an add-on product along with the main one."},
+      {"term": "Moat", "meaning": "Something that makes it hard for a competitor to copy a business or win its customers."},
+      {"term": "North star metric", "meaning": "The one number a team focuses on because it best shows the value users get."},
+      {"term": "Cross-selling", "meaning": "Selling an extra product to a customer who already buys from you."}
+    ],
+    "assumptions": [
+      "Jira list prices are approximate and change with seat counts.",
+      "Gross margin and cost to win customers are estimates based on Atlassian's model.",
+      "Data Center end-of-life in 2029 is based on Atlassian's 2025 announcement as reported."
+    ]
+  }
+}

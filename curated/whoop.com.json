@@ -1,0 +1,513 @@
+{
+ "company": "WHOOP",
+ "domain": "whoop.com",
+ "website": "https://www.whoop.com",
+ "sources": [
+  "https://www.businesswire.com/news/home/20260331399622/en/WHOOP-Raises-575-Million-at-10.1-Billion-Valuation-to-Advance-Global-Health-Platform/",
+  "https://thenextweb.com/news/whoop-series-g-575m-valuation-ipo-health-platform",
+  "https://the5krunner.com/2026/04/01/whoop-valuation-garmin/",
+  "https://techcrunch.com/2025/05/11/fitness-tracker-whoop-faces-unhappy-customers-over-upgrade-policy",
+  "https://www.androidauthority.com/whoop-mg-failures-3560936/",
+  "https://sacra.com/c/whoop/"
+ ],
+ "report": {
+  "company": "WHOOP",
+  "tagline": "A screenless fitness and health band sold only as a membership, which tracks sleep, strain and recovery and tells you how ready your body is each day.",
+  "category": "Wearables",
+  "simpleSummary": "WHOOP is a small band you wear on your wrist all the time. It has no screen, so you check everything in the phone app. Each morning it gives you a Recovery score that says how ready your body is, based on your sleep and heart data, and it tracks how hard you push yourself during the day. You do not buy the band; you pay a yearly membership, from about $199, and the hardware comes with it. It grew fast in 2025 and was valued at $10.1 billion in March 2026.",
+  "keyNumbers": [
+   {
+    "label": "Members",
+    "value": "2.5 million+",
+    "note": "Company press release, March 2026."
+   },
+   {
+    "label": "Revenue run rate, end of 2025",
+    "value": "About $1.1 billion a year",
+    "note": "Company figure, Business Wire. Bookings grew 103% in 2025."
+   },
+   {
+    "label": "Valuation",
+    "value": "$10.1 billion",
+    "note": "Series G of $575 million, March 2026, Business Wire. CEO said an IPO is the next step."
+   },
+   {
+    "label": "Total funding",
+    "value": "Over $900 million",
+    "note": "Company figure; investors include Abbott, Mayo Clinic, QIA, Cristiano Ronaldo and LeBron James."
+   },
+   {
+    "label": "Cash flow",
+    "value": "Positive in 2025",
+    "note": "Company statement; profit figures not disclosed."
+   },
+   {
+    "label": "App opens per member",
+    "value": "Over 8 a day on average",
+    "note": "Company claim, Business Wire."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "WHOOP sells a membership that includes a wearable band and an app. The band measures heart rate, heart rate variability, skin temperature, blood oxygen and movement around the clock. The app turns this into three daily scores: Sleep, Strain and Recovery, plus coaching from an AI assistant. Higher tiers add medical-style features like ECG, Blood Pressure Insights and Healthspan, which estimates your body's pace of ageing. Advanced Labs lets members get blood tests analysed in the app.",
+   "howItWorks": [
+    "A customer picks a membership tier (One, Peak or Life) and gets the band free with the plan.",
+    "The band is worn 24/7, with about 14 days of battery and a slide-on charger so it never comes off.",
+    "Data syncs to the app, which shows Recovery each morning, Strain during the day and Sleep at night.",
+    "WHOOP Coach, an AI assistant, answers questions and gives advice based on the member's data.",
+    "Members join teams and challenges, and see how habits like alcohol affect recovery in the Journal.",
+    "Members renew yearly; upgrades to new hardware come with the membership."
+   ],
+   "valueProposition": "Know what your body needs today: whether to push hard or rest, and how sleep and habits change your health, without a screen distracting you."
+  },
+  "personas": [
+   {
+    "name": "Serious amateur athlete",
+    "description": "A 35-year-old who trains for triathlons and wants to avoid overtraining.",
+    "goals": [
+     "Train hard on good days, rest on bad days",
+     "Improve sleep",
+     "Track progress"
+    ],
+    "frustrations": [
+     "No screen to check workouts in real time",
+     "Paying every year for hardware"
+    ]
+   },
+   {
+    "name": "Health-focused professional",
+    "description": "A 45-year-old executive interested in longevity and stress.",
+    "goals": [
+     "See how lifestyle affects health",
+     "Get early warnings on heart health",
+     "Blood test insights in one place"
+    ],
+    "frustrations": [
+     "Not sure how accurate the scores are",
+     "Higher tiers are expensive"
+    ]
+   },
+   {
+    "name": "Pro or college sports team",
+    "description": "A coach who wants recovery data for every player.",
+    "goals": [
+     "Prevent injuries",
+     "Plan training loads"
+    ],
+    "frustrations": [
+     "Players forgetting to wear bands",
+     "Data privacy concerns"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Not knowing whether to train hard or rest.",
+    "howSolved": "Daily Recovery score from heart rate variability, resting heart rate and sleep.",
+    "severity": "high"
+   },
+   {
+    "pain": "Poor sleep without knowing why.",
+    "howSolved": "Sleep tracking, sleep need estimate and Journal links to habits.",
+    "severity": "high"
+   },
+   {
+    "pain": "Smartwatches are distracting and need daily charging.",
+    "howSolved": "Screenless band with about 14-day battery.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Health data is hard to understand.",
+    "howSolved": "Simple scores and WHOOP Coach explanations.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Heart and blood health checks require clinic visits.",
+    "howSolved": "ECG, Blood Pressure Insights and Advanced Labs in higher tiers.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Recovery score",
+    "whatItDoes": "Morning score from 0 to 100% showing readiness.",
+    "whyItMatters": "The daily reason to open the app; drives eight-plus opens a day."
+   },
+   {
+    "feature": "Strain and Sleep",
+    "whatItDoes": "Tracks effort through the day and sleep quality and need at night.",
+    "whyItMatters": "Together with Recovery, it forms a daily feedback loop."
+   },
+   {
+    "feature": "WHOOP Coach",
+    "whatItDoes": "AI chat that answers questions using the member's own data.",
+    "whyItMatters": "Makes data useful and personal, raising engagement."
+   },
+   {
+    "feature": "Healthspan and medical features",
+    "whatItDoes": "Pace of ageing estimate, FDA-cleared ECG and Blood Pressure Insights on top tiers.",
+    "whyItMatters": "Pushes WHOOP from fitness into health, justifying higher prices."
+   },
+   {
+    "feature": "Advanced Labs",
+    "whatItDoes": "Blood biomarker tests analysed inside the app.",
+    "whyItMatters": "New revenue and deeper health insight."
+   },
+   {
+    "feature": "Membership model",
+    "whatItDoes": "Hardware included with a yearly plan; no upfront device price.",
+    "whyItMatters": "Recurring revenue and a lower barrier to start."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Joining WHOOP",
+    "persona": "Serious amateur athlete",
+    "steps": [
+     {
+      "step": "Sees an athlete wearing it",
+      "detail": "Pro athletes and podcasts mention WHOOP."
+     },
+     {
+      "step": "Starts a free month",
+      "detail": "Gets the band shipped."
+     },
+     {
+      "step": "Wears it a week",
+      "detail": "The band calibrates baseline data."
+     },
+     {
+      "step": "Checks Recovery",
+      "detail": "Sees a low score after a late night."
+     },
+     {
+      "step": "Changes behaviour",
+      "detail": "Goes to bed earlier; sees Recovery improve."
+     },
+     {
+      "step": "Commits to a plan",
+      "detail": "Pays for a yearly tier."
+     }
+    ]
+   },
+   {
+    "name": "Daily routine",
+    "persona": "Health-focused professional",
+    "steps": [
+     {
+      "step": "Morning check",
+      "detail": "Opens app to see Recovery and Sleep."
+     },
+     {
+      "step": "Logs Journal",
+      "detail": "Notes caffeine, alcohol, stress."
+     },
+     {
+      "step": "Asks WHOOP Coach",
+      "detail": "'Why is my HRV lower this week?'"
+     },
+     {
+      "step": "Works out",
+      "detail": "Strain target guides intensity."
+     },
+     {
+      "step": "Evening wind down",
+      "detail": "Gets a bedtime recommendation."
+     }
+    ]
+   },
+   {
+    "name": "Upgrading hardware",
+    "persona": "Serious amateur athlete",
+    "steps": [
+     {
+      "step": "New band launches",
+      "detail": "WHOOP 5.0 and MG launched in May 2025."
+     },
+     {
+      "step": "Checks upgrade terms",
+      "detail": "Was first told to pay or extend membership."
+     },
+     {
+      "step": "Complains",
+      "detail": "Members push back on social media."
+     },
+     {
+      "step": "Policy changes",
+      "detail": "WHOOP offered free upgrades to members with 12+ months left."
+     },
+     {
+      "step": "Gets new band",
+      "detail": "Moves to the new tier."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "WHOOP sells memberships, not devices. Members pay yearly, the band is included, and WHOOP earns more from higher tiers and add-ons like blood tests.",
+   "revenueStreams": [
+    {
+     "stream": "Membership tiers",
+     "detail": "WHOOP One, Peak and Life, from about $199 to $359 a year in the US."
+    },
+    {
+     "stream": "Advanced Labs",
+     "detail": "Paid blood test analysis."
+    },
+    {
+     "stream": "Accessories",
+     "detail": "Bands, clothing with sensor pockets and chargers."
+    },
+    {
+     "stream": "Teams and enterprise",
+     "detail": "Plans for sports teams, military and companies."
+    }
+   ],
+   "pricing": "US memberships: WHOOP One about $199 a year, Peak about $239 a year and Life about $359 a year (prices at 2025 launch; check site). One-month free trial.",
+   "costDrivers": [
+    "Hardware manufacturing and shipping",
+    "Research and data science",
+    "Marketing and athlete sponsorships",
+    "Regulatory and clinical validation for medical features"
+   ],
+   "unitEconomics": "A Peak member pays about $239 a year. The band might cost around $40 to $60 to make and ship, though it is replaced only every few years. Cloud and support add a few dollars a month. So WHOOP may keep well over half of that $239 before marketing. Because members open the app eight times a day, many renew, and every renewal year without a new band is very profitable. The risk is people who cancel after the first year before CAC is paid back."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Athlete ambassadors and investors like Cristiano Ronaldo and LeBron James",
+    "Podcasts and influencer marketing",
+    "Free one-month trial",
+    "Team and military partnerships",
+    "Referrals from members"
+   ],
+   "whatBringsUsersBack": [
+    "Morning Recovery score",
+    "Streaks and weekly reports",
+    "AI Coach answers",
+    "Teams and challenges with friends"
+   ],
+   "moat": "WHOOP has 24 billion hours of body data and a brand trusted by athletes, which makes its scores and AI coaching better over time. Members who have years of history and a daily habit are unlikely to switch. Big tech watches and rings offer similar data, so the moat is the habit and the brand, not the sensor."
+  },
+  "competitors": [
+   {
+    "name": "Oura Ring",
+    "positioning": "Smart ring with sleep and readiness scores, sold as hardware plus monthly subscription.",
+    "howThisProductDiffers": "Oura is a ring focused on sleep and women's health; WHOOP is a band with a stronger strain and athletic focus."
+   },
+   {
+    "name": "Apple Watch",
+    "positioning": "Smartwatch with health features, no subscription needed.",
+    "howThisProductDiffers": "Apple has a screen and apps; WHOOP is screenless, longer battery, and deeper recovery coaching."
+   },
+   {
+    "name": "Garmin",
+    "positioning": "Sports watches with training readiness and no subscription.",
+    "howThisProductDiffers": "Garmin sells hardware once; WHOOP charges every year but includes upgrades."
+   },
+   {
+    "name": "Polar and Amazfit Helio Strap",
+    "positioning": "Cheaper screenless bands.",
+    "howThisProductDiffers": "Lower price; WHOOP has the brand, data and AI coaching."
+   }
+  ],
+  "northStar": {
+   "metric": "Members who wear the band at least 6 nights a week and check Recovery",
+   "why": "WHOOP's value comes from continuous data and daily decisions. Consistent wearers get accurate scores, change behaviour and renew."
+  },
+  "kpiTree": [
+   {
+    "metric": "New members",
+    "description": "People who start a membership.",
+    "children": [
+     {
+      "metric": "Trial starts",
+      "description": "Free month sign-ups."
+     },
+     {
+      "metric": "Trial to paid rate",
+      "description": "Share converting after the trial."
+     }
+    ]
+   },
+   {
+    "metric": "Wear consistency",
+    "description": "How much members wear the band.",
+    "children": [
+     {
+      "metric": "Nights worn per week",
+      "description": "Needed for Sleep and Recovery."
+     },
+     {
+      "metric": "Battery-related gaps",
+      "description": "Hours lost while charging."
+     }
+    ]
+   },
+   {
+    "metric": "Daily engagement",
+    "description": "How members use insights.",
+    "children": [
+     {
+      "metric": "App opens per day",
+      "description": "Currently about 8."
+     },
+     {
+      "metric": "WHOOP Coach questions per week",
+      "description": "AI usage per member."
+     },
+     {
+      "metric": "Journal entries per week",
+      "description": "Links habits to outcomes."
+     }
+    ]
+   },
+   {
+    "metric": "Renewal and upsell",
+    "description": "Members who stay and pay more.",
+    "children": [
+     {
+      "metric": "Annual renewal rate",
+      "description": "Share renewing each year."
+     },
+     {
+      "metric": "Upgrade to Peak or Life",
+      "description": "Share moving to higher tiers."
+     },
+     {
+      "metric": "Advanced Labs attach rate",
+      "description": "Share buying blood tests."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Hardware failure and return rate",
+   "Regulatory issues on medical claims",
+   "Complaints about billing or upgrade terms",
+   "Data accuracy against clinical devices"
+  ],
+  "strengths": [
+   "Fast growth: bookings up 103% in 2025",
+   "Very high engagement, 8+ app opens a day",
+   "Recurring membership revenue and cash flow positive",
+   "Strong athlete brand and investors",
+   "Moving into health features with Abbott and Mayo Clinic links"
+  ],
+  "weaknesses": [
+   "Must keep paying forever; some users dislike this",
+   "No screen for live workout data",
+   "Communication missteps, like the 2025 upgrade fee backlash",
+   "Hardware issues reported on the MG band after launch"
+  ],
+  "risks": [
+   "FDA scrutiny of health features like Blood Pressure Insights, which drew an FDA warning letter in 2025",
+   "Apple, Samsung and Garmin adding similar recovery scores free",
+   "Privacy concerns about health data",
+   "Cheaper copycat screenless bands"
+  ],
+  "userComplaints": [
+   "Upgrade fees when WHOOP 5.0 launched, later reversed",
+   "Subscription cost over time",
+   "Accuracy doubts on strain and calories",
+   "Device faults and slow support",
+   "Key features locked to higher tiers"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Publish a clear hardware upgrade promise tied to membership length",
+    "problem": "The 2025 upgrade backlash hurt trust.",
+    "expectedImpact": "Fewer complaints and higher renewal.",
+    "metricToTrack": "Annual renewal rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Monthly pay option for WHOOP One to lower the barrier",
+    "problem": "Paying $199 upfront deters new users.",
+    "expectedImpact": "More trial-to-paid conversions.",
+    "metricToTrack": "Trial to paid rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Weekly AI Coach plan that suggests one habit to change with a predicted Recovery impact",
+    "problem": "Members see data but do not know what to do.",
+    "expectedImpact": "More behaviour change and engagement.",
+    "metricToTrack": "Journal entries per week",
+    "effort": "medium"
+   },
+   {
+    "idea": "Accuracy reports comparing WHOOP to clinical measures, shown in the app",
+    "problem": "Doubts about accuracy.",
+    "expectedImpact": "More trust and higher-tier upgrades.",
+    "metricToTrack": "Upgrade to Peak or Life",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "Selling the outcome (daily guidance) instead of the device makes a subscription feel worth it.",
+   "A single daily score can create a habit. Recovery is why people open WHOOP eight times a day.",
+   "Changing promises to paying members, like upgrade terms, can quickly break trust.",
+   "Moving from fitness to health raises prices but also brings regulators."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Why would someone pay $239 a year for WHOOP when a Garmin has no subscription?",
+    "hint": "Focus on value: coaching, upgrades, habit; segment who it is for; discuss pricing psychology."
+   },
+   {
+    "question": "How would you increase renewal after year one?",
+    "hint": "Find churn drivers, link to engagement, design interventions like yearly recap and new features, measure renewal."
+   },
+   {
+    "question": "Design a WHOOP feature for women's health.",
+    "hint": "Pick a need (cycle, pregnancy, menopause), use existing sensors, define the metric and guardrails."
+   },
+   {
+    "question": "How would you handle the WHOOP 5.0 upgrade backlash as PM?",
+    "hint": "Acknowledge, segment affected members, offer clear options, measure sentiment and renewals."
+   },
+   {
+    "question": "What should WHOOP's north star metric be?",
+    "hint": "Consistent wear plus daily Recovery check, explain why it beats revenue or downloads."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Heart rate variability",
+    "meaning": "The small changes in time between heartbeats, a sign of stress and recovery."
+   },
+   {
+    "term": "Run rate",
+    "meaning": "What yearly revenue would be if current monthly revenue continued for 12 months."
+   },
+   {
+    "term": "Bookings",
+    "meaning": "The value of memberships sold in a period, even if paid or recognised later."
+   },
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "ECG",
+    "meaning": "Electrocardiogram, a recording of the heart's electrical activity."
+   },
+   {
+    "term": "Valuation",
+    "meaning": "What investors think the whole company is worth."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Tier prices are from 2025 launch reporting and may have changed.",
+   "Hardware cost of $40 to $60 per band is our estimate, not a company figure.",
+   "The 2025 FDA warning letter about Blood Pressure Insights is from news reports, not from the sources listed.",
+   "Renewal rates are not public."
+  ]
+ }
+}

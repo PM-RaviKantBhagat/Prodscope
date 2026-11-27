@@ -1,0 +1,534 @@
+{
+ "company": "Hims & Hers",
+ "domain": "forhims.com",
+ "website": "https://www.forhims.com",
+ "sources": [
+  "https://www.fiercehealthcare.com/finance/hims-hers-reports-8904m-q3-revenue-tightens-2026-outlook",
+  "https://www.webull.com/news/15900985344716800",
+  "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hims-hers-health-inc-dba-hims-716567-09092025",
+  "https://www.pharmexec.com/view/hims-hers-pulls-access-compounded-semaglutide-pill-following-controversial-launch",
+  "https://gizmodo.com/hims-hers-ftc-subscription-surprise-scam-2000795614",
+  "https://telehealth.org/news/hims-hers-faces-ftc-lawsuit-board-investigation-as-it-expands-globally/"
+ ],
+ "report": {
+  "company": "Hims & Hers",
+  "tagline": "A US online clinic that sells monthly treatment subscriptions for weight loss, hair loss, sexual health, skin and mental health, with a doctor visit done through an app.",
+  "category": "Telehealth direct-to-customer",
+  "simpleSummary": "Hims & Hers lets you get treatment for things people feel awkward about, like hair loss, erectile dysfunction or weight, without going to a clinic. You answer questions online, a licensed doctor or nurse reviews them, and if suitable, medicine arrives at your door every month. You pay a monthly subscription that covers the consult and the medicine. Weight-loss drugs pushed revenue to about $890 million in a single quarter in 2026, but that growth also brought fights with regulators and lower margins.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, Q3 2026",
+    "value": "$890.4 million (up 49%)",
+    "note": "Company results, Fierce Healthcare, November 2026."
+   },
+   {
+    "label": "Revenue guidance, full year 2026",
+    "value": "$3.13 billion to $3.15 billion",
+    "note": "Company guidance tightened in Q3 2026, Fierce Healthcare."
+   },
+   {
+    "label": "Subscribers",
+    "value": "Nearly 2.8 million (up 13%)",
+    "note": "Company figure, Q3 2026, Fierce Healthcare."
+   },
+   {
+    "label": "Net result, Q3 2026",
+    "value": "Loss of $33 million",
+    "note": "Versus $15.8 million profit a year earlier. Adjusted EBITDA was $82.4 million. Fierce Healthcare."
+   },
+   {
+    "label": "Gross margin",
+    "value": "57% (down from 74%)",
+    "note": "Q3 2026, because lower-margin branded weight-loss drugs grew as a share of sales. Fierce Healthcare."
+   },
+   {
+    "label": "Revenue per subscriber",
+    "value": "About $105 a month",
+    "note": "Our rough estimate: Q3 revenue divided by subscribers and three months. Not a company figure."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Hims (for men) and Hers (for women) are two brands of one company that sells telehealth treatment plans. Categories include hair loss, sexual health, weight loss, dermatology, mental health, menopause and, from late 2026, testosterone therapy. A clinician on the platform prescribes, and Hims ships the medicine from its own pharmacies or partners. It now also offers branded weight-loss drugs from Eli Lilly and Novo Nordisk on the platform, and operates in the UK and Germany after buying Zava.",
+   "howItWorks": [
+    "A customer picks a condition on the website or app and fills in an online medical questionnaire.",
+    "A licensed provider reviews it, sometimes with a message or video chat, and prescribes if suitable.",
+    "Medicine is made or packed in Hims-owned or partner pharmacies, often as personalised doses or combinations.",
+    "The customer pays a monthly or multi-month subscription that includes the consult and medicine.",
+    "Refills ship automatically; customers can message providers to adjust treatment.",
+    "Lab testing and AI tools are being added to make treatment more personal."
+   ],
+   "valueProposition": "Private, fast and convenient treatment for common and sometimes embarrassing conditions, at a clear monthly price, without insurance or a clinic visit."
+  },
+  "personas": [
+   {
+    "name": "Man in his 30s with thinning hair",
+    "description": "Embarrassed to see a doctor about hair loss and wants something that works.",
+    "goals": [
+     "Stop hair loss early",
+     "No awkward clinic visit",
+     "Low monthly cost"
+    ],
+    "frustrations": [
+     "Automatic charges he did not expect",
+     "Hard to cancel",
+     "Side effects and slow results"
+    ]
+   },
+   {
+    "name": "Woman seeking weight-loss medication",
+    "description": "A 40-year-old whose insurance does not cover GLP-1 drugs.",
+    "goals": [
+     "Affordable access to weight-loss medicine",
+     "Ongoing support from a clinician"
+    ],
+    "frustrations": [
+     "Confusion over compounded versus branded drugs",
+     "Price changes and supply changes",
+     "Worries about safety after FDA warnings"
+    ]
+   },
+   {
+    "name": "Busy professional with a sexual health need",
+    "description": "Wants ED medicine quickly and privately.",
+    "goals": [
+     "Discreet packaging",
+     "Quick prescription"
+    ],
+    "frustrations": [
+     "Generic pills can be cheaper at a pharmacy with a coupon"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "People avoid doctors for embarrassing conditions.",
+    "howSolved": "Online questionnaire and messaging, with discreet delivery.",
+    "severity": "high"
+   },
+   {
+    "pain": "Branded weight-loss drugs cost over $1,000 a month without insurance.",
+    "howSolved": "Lower-priced weight-loss plans, including compounded options and discounted branded drugs through partners.",
+    "severity": "high"
+   },
+   {
+    "pain": "Getting a doctor appointment in the US can take weeks.",
+    "howSolved": "Online reviews by licensed providers, often within a day.",
+    "severity": "high"
+   },
+   {
+    "pain": "Insurance and pharmacy prices are confusing.",
+    "howSolved": "One clear monthly price that includes the consult and medicine.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Refilling prescriptions is a hassle.",
+    "howSolved": "Automatic refills shipped to the door.",
+    "severity": "medium"
+   },
+   {
+    "pain": "One-size-fits-all doses do not suit everyone.",
+    "howSolved": "Personalised doses and combinations, for example hair loss sprays mixing several ingredients.",
+    "severity": "low"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Online consultation",
+    "whatItDoes": "A questionnaire and messaging with a licensed provider, without a live appointment for most conditions.",
+    "whyItMatters": "Cuts the cost and time of a doctor visit, making low monthly prices possible."
+   },
+   {
+    "feature": "Subscription delivery",
+    "whatItDoes": "Recurring shipments of medicine billed monthly or every few months.",
+    "whyItMatters": "Creates recurring revenue and keeps patients on treatment."
+   },
+   {
+    "feature": "Weight-loss programme",
+    "whatItDoes": "GLP-1 and oral medicine plans with provider support, now including branded drugs from Eli Lilly and Novo Nordisk.",
+    "whyItMatters": "The biggest growth driver, but with lower margins and high regulatory risk."
+   },
+   {
+    "feature": "Personalised treatments",
+    "whatItDoes": "Custom-made doses and multi-ingredient products from Hims' own pharmacies.",
+    "whyItMatters": "Harder to compare with generic pharmacy prices and helps keep margins high."
+   },
+   {
+    "feature": "Lab testing and AI experience",
+    "whatItDoes": "At-home or lab blood tests and an AI-powered experience rolling out to weight-loss customers.",
+    "whyItMatters": "Supports new categories like testosterone and makes care feel more complete."
+   },
+   {
+    "feature": "Strong brand and design",
+    "whatItDoes": "Clean, modern branding with celebrity ads, including Super Bowl campaigns.",
+    "whyItMatters": "Makes taboo topics feel normal and builds trust in a crowded market."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Starting hair loss treatment",
+    "persona": "Man in his 30s with thinning hair",
+    "steps": [
+     {
+      "step": "Sees an ad",
+      "detail": "Instagram or TV ad about hair loss."
+     },
+     {
+      "step": "Takes an online quiz",
+      "detail": "Answers questions and uploads photos."
+     },
+     {
+      "step": "Provider reviews",
+      "detail": "A licensed provider approves a treatment such as finasteride and minoxidil."
+     },
+     {
+      "step": "Chooses a plan",
+      "detail": "Monthly or multi-month subscription, cheaper per month if paid upfront."
+     },
+     {
+      "step": "Gets delivery",
+      "detail": "Discreet package arrives in days."
+     },
+     {
+      "step": "Refills automatically",
+      "detail": "Charged and shipped on schedule."
+     },
+     {
+      "step": "Checks in",
+      "detail": "Messages provider about side effects or results."
+     }
+    ]
+   },
+   {
+    "name": "Joining a weight-loss plan",
+    "persona": "Woman seeking weight-loss medication",
+    "steps": [
+     {
+      "step": "Compares options",
+      "detail": "Looks at oral medication, compounded and branded GLP-1 plans."
+     },
+     {
+      "step": "Completes intake",
+      "detail": "Health history, weight and sometimes lab tests."
+     },
+     {
+      "step": "Provider prescribes",
+      "detail": "Chooses medicine and dose."
+     },
+     {
+      "step": "Starts treatment",
+      "detail": "Medicine ships monthly; dose rises over time."
+     },
+     {
+      "step": "Tracks progress",
+      "detail": "Logs weight and side effects in the app."
+     },
+     {
+      "step": "Adjusts plan",
+      "detail": "Provider changes dose or medicine."
+     }
+    ]
+   },
+   {
+    "name": "Cancelling a subscription",
+    "persona": "Busy professional with a sexual health need",
+    "steps": [
+     {
+      "step": "Decides to stop",
+      "detail": "Finds cheaper generic pills at a pharmacy."
+     },
+     {
+      "step": "Looks for cancel button",
+      "detail": "Navigates account settings."
+     },
+     {
+      "step": "Gets retention offers",
+      "detail": "Discounts or pause options."
+     },
+     {
+      "step": "Confirms cancel",
+      "detail": "Some users report extra charges first, a focus of the FTC lawsuit."
+     },
+     {
+      "step": "Stops shipments",
+      "detail": "Account remains for future use."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Hims & Hers sells subscriptions that bundle an online consult with medicine. Customers pay cash, not through insurance. It makes most money on cheap generic or personalised medicines sold at a markup, and less on branded weight-loss drugs.",
+   "revenueStreams": [
+    {
+     "stream": "Weight-loss subscriptions",
+     "detail": "Oral, compounded and branded GLP-1 plans. The fastest-growing part, but lower margin."
+    },
+    {
+     "stream": "Sexual health",
+     "detail": "ED and premature ejaculation treatments, often personalised."
+    },
+    {
+     "stream": "Hair loss and dermatology",
+     "detail": "Monthly treatments for hair, acne and anti-ageing."
+    },
+    {
+     "stream": "Mental health, menopause, testosterone and other",
+     "detail": "Newer categories; testosterone and Peptides Plus launched in late 2026."
+    },
+    {
+     "stream": "International (Zava)",
+     "detail": "Online clinics in the UK and Germany."
+    }
+   ],
+   "pricing": "Prices are shown on the site and change often. Hair loss plans start around $20 to $40 a month, sexual health from a few dollars per dose, and weight-loss plans range from under $100 a month for oral options to several hundred dollars for GLP-1 injections.",
+   "costDrivers": [
+    "Cost of medicine, especially branded GLP-1 drugs",
+    "Marketing, including TV and Super Bowl ads",
+    "Provider network fees",
+    "Pharmacy, packaging and shipping",
+    "Legal and regulatory costs"
+   ],
+   "unitEconomics": "An average subscriber pays about $105 a month (our estimate). In Q3 2026 Hims kept about 57 cents of each dollar after drug and fulfilment costs, so roughly $60 a month per subscriber. That pays for marketing to win new customers, providers and overheads. Branded weight-loss drugs bring high revenue per customer but a smaller share of profit, which is why gross margin dropped from 74% to 57%. The model works when customers stay many months so that CAC (the cost to win each one) is paid back."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Heavy TV, social media and Super Bowl advertising",
+    "Search ads for treatment terms",
+    "Celebrity and athlete partnerships",
+    "New categories that bring in new kinds of customers"
+   ],
+   "whatBringsUsersBack": [
+    "Automatic refills",
+    "Ongoing treatment for chronic conditions like hair loss and weight",
+    "Cross-selling a second category to existing customers",
+    "Provider messaging for follow-up"
+   ],
+   "moat": "Hims has a strong consumer brand, its own pharmacies and a large base of 2.8 million subscribers, which makes marketing and production cheaper per customer. But the core service is easy to copy, and drugmakers like Eli Lilly and Novo Nordisk sell directly too, so the moat depends on brand and personalisation more than on anything locked in."
+  },
+  "competitors": [
+   {
+    "name": "Ro",
+    "positioning": "US telehealth for weight loss, sexual health and hair, with heavy GLP-1 focus.",
+    "howThisProductDiffers": "Very similar; Hims has more subscribers and its own pharmacy network."
+   },
+   {
+    "name": "LillyDirect and NovoCare",
+    "positioning": "Drugmakers' own direct-to-patient sites.",
+    "howThisProductDiffers": "They sell their branded drugs directly; Hims offers many categories and personalised options, and now partners with both."
+   },
+   {
+    "name": "Noom and WeightWatchers",
+    "positioning": "Weight-loss coaching apps that added medication.",
+    "howThisProductDiffers": "Hims is pharmacy-led; they are behaviour-coaching-led."
+   },
+   {
+    "name": "Local doctors and pharmacies with GoodRx coupons",
+    "positioning": "Traditional care, often covered by insurance.",
+    "howThisProductDiffers": "Hims is faster and more private but usually cash-only."
+   }
+  ],
+  "northStar": {
+   "metric": "Active subscribers still on treatment after 6 months",
+   "why": "Most conditions Hims treats need months of treatment to work. Patients who stay are getting results, and they are also what makes the business profitable."
+  },
+  "kpiTree": [
+   {
+    "metric": "New subscribers",
+    "description": "People who start a treatment plan.",
+    "children": [
+     {
+      "metric": "Visitor to intake start rate",
+      "description": "Share of visitors who begin a questionnaire."
+     },
+     {
+      "metric": "Intake to prescription rate",
+      "description": "Share approved by providers."
+     },
+     {
+      "metric": "CAC by channel",
+      "description": "Marketing cost per new subscriber."
+     }
+    ]
+   },
+   {
+    "metric": "Treatment retention",
+    "description": "Subscribers who keep going.",
+    "children": [
+     {
+      "metric": "Month-3 retention",
+      "description": "Share still active after three months."
+     },
+     {
+      "metric": "Side-effect message response time",
+      "description": "Fast help keeps patients on treatment."
+     }
+    ]
+   },
+   {
+    "metric": "Multi-category use",
+    "description": "Subscribers using more than one treatment.",
+    "children": [
+     {
+      "metric": "Cross-sell rate",
+      "description": "Share of subscribers adding a second category."
+     },
+     {
+      "metric": "Personalised product share",
+      "description": "Share of subscribers on personalised treatments."
+     }
+    ]
+   },
+   {
+    "metric": "Patient outcomes",
+    "description": "Whether treatment works.",
+    "children": [
+     {
+      "metric": "Reported weight loss at 6 months",
+      "description": "Average loss in weight-loss patients."
+     },
+     {
+      "metric": "Patient-reported improvement",
+      "description": "Survey score on results in hair, skin and sexual health."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Adverse event reports per 1,000 patients",
+   "Cancellation complaints and chargebacks",
+   "FDA and FTC compliance issues",
+   "Gross margin"
+  ],
+  "strengths": [
+   "Fast growth: 49% revenue growth in Q3 2026",
+   "Strong brand that makes taboo topics easier",
+   "Own pharmacies allow personalised products",
+   "Partnerships with both major GLP-1 makers",
+   "Moving into the UK and Germany"
+  ],
+  "weaknesses": [
+   "Shift to branded weight-loss drugs is cutting margins",
+   "Back in loss in Q3 2026",
+   "Heavy marketing spend",
+   "Subscriber growth (13%) far slower than revenue growth"
+  ],
+  "risks": [
+   "FDA action against compounded GLP-1 drugs and misleading claims, including 2025 warning letters",
+   "FTC lawsuit over subscription and cancellation practices",
+   "Drugmakers selling directly and cutting prices",
+   "Insurance coverage of GLP-1s improving, reducing cash-pay demand"
+  ],
+  "userComplaints": [
+   "Hard to cancel and unexpected renewal charges",
+   "Slow or generic provider responses",
+   "Side effects without enough follow-up",
+   "Price changes for weight-loss plans",
+   "Confusion after the compounded semaglutide pill was launched and pulled in February 2026"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "One-click cancel and a reminder email three days before each charge",
+    "problem": "Cancellation complaints and FTC scrutiny.",
+    "expectedImpact": "Fewer complaints and legal risk, more trust that brings people back later.",
+    "metricToTrack": "Cancellation complaints and chargebacks",
+    "effort": "low"
+   },
+   {
+    "idea": "Side-effect check-in in week 2 of every new treatment, with fast provider reply",
+    "problem": "Patients quit early because of side effects.",
+    "expectedImpact": "Higher month-3 retention.",
+    "metricToTrack": "Month-3 retention",
+    "effort": "medium"
+   },
+   {
+    "idea": "Clear comparison page for weight-loss options: branded vs oral vs compounded, with safety and price",
+    "problem": "Customers are confused and worried after FDA warnings.",
+    "expectedImpact": "Better plan choice and trust.",
+    "metricToTrack": "Intake to prescription rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Bundle weight-loss plans with lab tests and nutrition coaching",
+    "problem": "Branded drugs have thin margins and are sold elsewhere too.",
+    "expectedImpact": "Higher margin and a reason to choose Hims over LillyDirect.",
+    "metricToTrack": "Gross margin on weight-loss subscribers",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "Removing shame is a product feature. Hims grew by making awkward care feel normal and private.",
+   "Revenue growth can hide weaker unit economics. Watch margin and retention, not only the top line.",
+   "In regulated markets, the regulator is a stakeholder. Fast moves can be undone overnight.",
+   "Subscriptions build recurring revenue, but hard-to-cancel flows destroy trust and invite lawsuits."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Revenue grew 49% but subscribers only 13%. What does that tell you?",
+    "hint": "Revenue per subscriber is rising, mostly from pricier weight-loss drugs. Discuss margin, concentration risk and retention."
+   },
+   {
+    "question": "How would you decide which new condition Hims should add next?",
+    "hint": "Score by market size, stigma, need for ongoing treatment, regulatory risk and fit with pharmacy capabilities."
+   },
+   {
+    "question": "Eli Lilly sells directly. Why would a patient buy Lilly's drug through Hims?",
+    "hint": "Convenience, bundled care, multi-category, brand, coaching. Define what extra value Hims adds and how to measure it."
+   },
+   {
+    "question": "Design a better cancellation flow that balances retention and trust.",
+    "hint": "Make cancel easy, offer pause and downgrade, explain renewals, and measure complaints plus win-back rate."
+   },
+   {
+    "question": "What north star metric would you set for Hims & Hers?",
+    "hint": "Retained subscribers on treatment; show drivers (acquisition, retention, cross-sell, outcomes) and guardrails like safety."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Telehealth",
+    "meaning": "Getting medical care remotely through apps, messages or video."
+   },
+   {
+    "term": "GLP-1",
+    "meaning": "A class of drugs, such as Wegovy and Zepbound, that reduce appetite and help weight loss."
+   },
+   {
+    "term": "Compounded",
+    "meaning": "A medicine mixed by a pharmacy instead of made by the original drugmaker, allowed in the US only under limited conditions."
+   },
+   {
+    "term": "Gross margin",
+    "meaning": "The share of revenue left after the direct cost of the product."
+   },
+   {
+    "term": "Adjusted EBITDA",
+    "meaning": "Operating profit before interest, tax, depreciation and some one-off costs, as the company defines it."
+   },
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much it costs to win one paying customer."
+   },
+   {
+    "term": "Retention",
+    "meaning": "How many customers keep paying over time."
+   },
+   {
+    "term": "Cross-sell",
+    "meaning": "Selling an extra product to someone who already buys from you."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Moat",
+    "meaning": "Something that makes it hard for competitors to copy or beat a business."
+   }
+  ],
+  "assumptions": [
+   "Revenue per subscriber of about $105 a month is our calculation, not a company figure.",
+   "Plan price ranges are approximate and change often; check the site for current prices.",
+   "The status of the Novo Nordisk partnership is based on Fierce Healthcare naming Novo as a platform partner in late 2026.",
+   "Category revenue split is not public, so the order of revenue streams is an inference."
+  ]
+ }
+}

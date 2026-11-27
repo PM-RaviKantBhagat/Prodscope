@@ -1,0 +1,519 @@
+{
+ "company": "Physics Wallah",
+ "domain": "pw.live",
+ "website": "https://www.pw.live",
+ "sources": [
+  "https://yourstory.com/2026/05/physicswallah-fy26-revenue-rises-rs-3900-cr-ai-offline-profitability-focus",
+  "https://inc42.com/buzz/physicswallah-q4-loss-declines-76-yoy-to-₹69-cr-revenue-up-51/",
+  "https://www.outlookbusiness.com/corporate/physicswallah-slashes-fy26-losses-as-revenue-jumps-51-bets-big-on-ai-and-offline-expansion",
+  "https://inc42.com/features/can-physicswallah-fix-its-teacher-problem",
+  "https://www.myengineeringbuddy.com/blog/physics-wallah-reviews-alternatives-pricing-offerings/",
+  "https://www.g2.com/compare/physicswallah-vs-unacademy"
+ ],
+ "report": {
+  "company": "Physics Wallah",
+  "tagline": "Low-price coaching for India's entrance and government exams, sold online through apps and offline through 353 centres, and listed on the stock market since November 2025.",
+  "category": "Online learning",
+  "simpleSummary": "Physics Wallah (PW) started as a teacher's free YouTube channel and became a coaching company for exams like JEE, NEET, UPSC and bank jobs. Students pay a few thousand rupees for a full year 'batch' of live and recorded classes in the app, which is far cheaper than a big-city coaching institute. It also runs physical centres called Vidyapeeth and Pathshala for students who want a classroom. In FY26 it made ₹3,900 crore in revenue and almost broke even, which is rare for an Indian edtech company.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, FY26",
+    "value": "₹3,900 crore (up 35%)",
+    "note": "Company FY26 results, reported by YourStory, May 2026. Online about ₹1,954 crore, offline about ₹1,774 crore."
+   },
+   {
+    "label": "Net result, FY26",
+    "value": "Loss of ₹24 crore (FY25: loss of ₹243 crore)",
+    "note": "Company results via YourStory. Includes ₹63 crore of one-time costs. EBITDA was ₹549 crore, a 14% margin."
+   },
+   {
+    "label": "Paid users, FY26",
+    "value": "5.34 million",
+    "note": "Company results via YourStory. 4.87 million paid online, 4.67 lakh offline enrolments."
+   },
+   {
+    "label": "Offline centres",
+    "value": "353 (up from 198)",
+    "note": "Company results via YourStory, centres in India and the UAE, March 2026."
+   },
+   {
+    "label": "Average collection per user",
+    "value": "₹4,104 online-heavy average; ₹36,625 per offline student",
+    "note": "Company-reported ACPU and offline ARPU for FY26, via YourStory. Offline ARPU fell 9%."
+   },
+   {
+    "label": "Cash in the bank",
+    "value": "₹5,027 crore",
+    "note": "Treasury at end of March 2026 including money raised in the November 2025 IPO, via YourStory."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "PW sells exam coaching. A student picks a batch for one exam and one year, pays once, and gets live classes, recorded lectures, notes, practice questions and tests. PW also runs offline and hybrid centres in many cities, where fees are about ten times higher. It covers more than 16 exam categories, from JEE and NEET to UPSC, CA, government jobs and school boards.",
+   "howItWorks": [
+    "Free YouTube channels bring in students, who then buy paid batches in the PW app or website.",
+    "A batch is a fixed course for one exam with a schedule of live classes, recordings, PDFs, doubt-solving and test series.",
+    "Most online batches cost a few thousand rupees a year, so even small-town families can pay.",
+    "Vidyapeeth (full-time offline coaching) and Pathshala (hybrid: recorded star teacher plus local mentor) give classroom options.",
+    "AI tools such as Ask AI and AI Guru answer doubts around the clock, so human doubt teams do not have to scale with users.",
+    "Books, test series and add-ons like Infinity Pro bring extra revenue from the same student."
+   ],
+   "valueProposition": "Top-quality exam coaching from well-known teachers at a price most Indian families can afford, online or in a nearby classroom."
+  },
+  "personas": [
+   {
+    "name": "Small-town JEE or NEET aspirant",
+    "description": "A 16-year-old in a tier-2 or tier-3 town whose family cannot afford Kota fees or moving away.",
+    "goals": [
+     "Crack JEE or NEET and get a good college seat",
+     "Learn from good teachers without leaving home",
+     "Keep coaching costs under ₹5,000 a year"
+    ],
+    "frustrations": [
+     "Too many batches and add-ons, hard to know which one to buy",
+     "Doubts not answered fast during exam season",
+     "Favourite teacher leaving PW mid-year"
+    ]
+   },
+   {
+    "name": "Government job aspirant",
+    "description": "A 23-year-old graduate preparing for SSC, banking or state exams while living with parents.",
+    "goals": [
+     "Cheap, updated material for a specific exam",
+     "Daily practice and mock tests",
+     "Clear study plan"
+    ],
+    "frustrations": [
+     "Content quality is uneven outside the flagship JEE and NEET batches",
+     "Many free YouTube options make paying feel optional"
+    ]
+   },
+   {
+    "name": "Parent choosing offline coaching",
+    "description": "A parent in a mid-sized city who wants a classroom and discipline for their child.",
+    "goals": [
+     "A trusted brand near home",
+     "Fees lower than Allen or Aakash",
+     "Regular progress reports"
+    ],
+    "frustrations": [
+     "New centres with unknown local teachers",
+     "Large batch sizes"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "Big coaching institutes charge ₹1 lakh to ₹2 lakh a year and often need students to move cities.",
+    "howSolved": "Online batches at a few thousand rupees a year, and offline centres at roughly ₹35,000 to ₹40,000 average fees.",
+    "severity": "high"
+   },
+   {
+    "pain": "Good teachers are concentrated in a few cities.",
+    "howSolved": "Live classes from popular teachers reach any phone, and Pathshala pairs them with a local mentor.",
+    "severity": "high"
+   },
+   {
+    "pain": "Students get stuck on doubts late at night.",
+    "howSolved": "AI doubt tools (Ask AI, AI Guru) and doubt-solving teams answer questions inside the app.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Students do not know where they stand against others.",
+    "howSolved": "All-India test series with ranks and analysis.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Self-study at home is lonely and easy to skip.",
+    "howSolved": "Fixed live class timetables, a community of classmates and offline centres for those who need structure.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Students in regional languages are underserved.",
+    "howSolved": "Hindi and other regional-language batches and channels.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Batches",
+    "whatItDoes": "A one-year course for one exam with a class schedule, recordings, notes and tests.",
+    "whyItMatters": "One clear product per exam makes buying simple and locks in a year of usage from one payment."
+   },
+   {
+    "feature": "Free YouTube channels",
+    "whatItDoes": "Hundreds of channels with free lectures and motivation videos.",
+    "whyItMatters": "This is the main way students find PW, so it keeps CAC (cost to acquire a customer) very low."
+   },
+   {
+    "feature": "Vidyapeeth and Pathshala centres",
+    "whatItDoes": "Offline and hybrid classrooms in 353 locations.",
+    "whyItMatters": "Offline students pay about 9 times more per head than online students and drop out less."
+   },
+   {
+    "feature": "AI Guru and Ask AI",
+    "whatItDoes": "AI tutors that solve doubts, explain answers and suggest what to study next. Over 100 million queries so far.",
+    "whyItMatters": "Keeps support costs flat while users grow, and helps students who cannot wait for a human."
+   },
+   {
+    "feature": "Test series and AI Grader",
+    "whatItDoes": "Mock tests with ranks, and AI checking of written answers for exams like UPSC.",
+    "whyItMatters": "Practice is what students value most near the exam, and tests are a reason to open the app every week."
+   },
+   {
+    "feature": "PW Store books",
+    "whatItDoes": "Printed modules and question banks.",
+    "whyItMatters": "Extra revenue per student and a physical reminder of the brand at home."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "First paid batch",
+    "persona": "Small-town JEE or NEET aspirant",
+    "steps": [
+     {
+      "step": "Discovers a teacher on YouTube",
+      "detail": "Watches free one-shot revision videos before school exams."
+     },
+     {
+      "step": "Downloads the PW app",
+      "detail": "Signs up with a phone number and picks class and target exam."
+     },
+     {
+      "step": "Compares batches",
+      "detail": "Looks at Lakshya, Arjuna or Yakeen style batches, teachers and price."
+     },
+     {
+      "step": "Pays once",
+      "detail": "Pays a few thousand rupees by UPI, sometimes during a sale."
+     },
+     {
+      "step": "Attends live classes",
+      "detail": "Joins scheduled classes, downloads notes and asks doubts."
+     },
+     {
+      "step": "Takes weekly tests",
+      "detail": "Sees all-India rank and weak topics."
+     },
+     {
+      "step": "Renews for next year",
+      "detail": "Buys the Class 12 or dropper batch, often with a loyalty discount."
+     }
+    ]
+   },
+   {
+    "name": "Switching to offline coaching",
+    "persona": "Parent choosing offline coaching",
+    "steps": [
+     {
+      "step": "Hears of a local Vidyapeeth",
+      "detail": "Through ads, the child's PW app or other parents."
+     },
+     {
+      "step": "Books an admission test",
+      "detail": "Child takes a scholarship test that sets the fee discount."
+     },
+     {
+      "step": "Visits the centre",
+      "detail": "Checks classrooms, batch size and local faculty."
+     },
+     {
+      "step": "Pays the annual fee",
+      "detail": "Around ₹35,000 to ₹40,000 on average, often in instalments."
+     },
+     {
+      "step": "Gets progress updates",
+      "detail": "Regular test reports and parent meetings."
+     }
+    ]
+   },
+   {
+    "name": "Late-night doubt",
+    "persona": "Government job aspirant",
+    "steps": [
+     {
+      "step": "Gets stuck on a question",
+      "detail": "While solving a practice sheet at 11 pm."
+     },
+     {
+      "step": "Opens Ask AI",
+      "detail": "Takes a photo of the question."
+     },
+     {
+      "step": "Gets a step-by-step answer",
+      "detail": "With a link to the relevant lecture part."
+     },
+     {
+      "step": "Escalates if unclear",
+      "detail": "Raises the doubt to a human doubt solver."
+     },
+     {
+      "step": "Practises similar questions",
+      "detail": "AI suggests three more of the same type."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "PW makes money from course fees. About half comes from cheap online batches sold to millions, and about half from expensive offline centres sold to a smaller group. YouTube keeps marketing costs low.",
+   "revenueStreams": [
+    {
+     "stream": "Online batches and subscriptions",
+     "detail": "About ₹1,954 crore in FY26, from 4.87 million paying online users."
+    },
+    {
+     "stream": "Offline and hybrid centres",
+     "detail": "About ₹1,774 crore in FY26 from 4.67 lakh enrolments; Vidyapeeth is about 70% of this."
+    },
+    {
+     "stream": "Books, test series and other",
+     "detail": "Printed material and add-ons, a small share of revenue."
+    }
+   ],
+   "pricing": "Online batches mostly range from a few hundred rupees to about ₹5,000 to ₹6,000 a year, with frequent sales. Offline fees vary by city; average offline revenue per student was ₹36,625 in FY26.",
+   "costDrivers": [
+    "Teacher salaries and revenue shares, especially star faculty",
+    "Rent and staff for 353 offline centres",
+    "Video production, live class servers and app development",
+    "Marketing for offline admissions and big sale campaigns"
+   ],
+   "unitEconomics": "An online student pays about ₹4,000 a year. Because classes are recorded once and sold to lakhs, the extra cost of one more student is small, mostly servers, doubt support and payment fees, so PW likely keeps well over half of that ₹4,000 after direct costs. An offline student pays about ₹36,600 but needs rent, local teachers and staff, so margins are thinner but the rupee profit per student is larger. Overall EBITDA margin was 14% in FY26, meaning PW kept about ₹14 of every ₹100 before interest, depreciation and tax."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Free YouTube lectures from popular teachers, including Alakh Pandey's own channel",
+    "Word of mouth among classmates and toppers' stories",
+    "Big sale events such as Vishwas Diwas, which collected ₹205 crore in three weeks in 2026",
+    "Offline centres that act as local billboards in new cities"
+   ],
+   "whatBringsUsersBack": [
+    "Daily live class schedule tied to the exam calendar",
+    "Weekly tests with all-India ranks",
+    "Renewal each school year (Class 11 to 12 to dropper)",
+    "Teacher personalities students feel loyal to"
+   ],
+   "moat": "PW has the cheapest trusted brand in Indian test prep and a huge free YouTube audience that brings students in for almost nothing. A rival would need years of free content and a strong brand to match that low CAC. The weak spot is that much of the trust sits with individual teachers, who can leave."
+  },
+  "competitors": [
+   {
+    "name": "Allen",
+    "positioning": "Kota-born offline coaching leader for JEE and NEET, now also online.",
+    "howThisProductDiffers": "PW is far cheaper and online-first; Allen has a longer track record of toppers and stronger offline brand."
+   },
+   {
+    "name": "Aakash (BYJU'S group)",
+    "positioning": "Large offline NEET and JEE coaching chain.",
+    "howThisProductDiffers": "PW grew from online and keeps prices low; Aakash has been hurt by its parent company's troubles."
+   },
+   {
+    "name": "Unacademy",
+    "positioning": "Online test-prep platform with subscription access to many educators.",
+    "howThisProductDiffers": "PW sells cheaper one-exam batches and added offline centres; Unacademy cut costs heavily after 2022."
+   },
+   {
+    "name": "Free YouTube teachers and Khan Academy",
+    "positioning": "Free content anyone can watch.",
+    "howThisProductDiffers": "PW adds structure, tests, doubt support and a schedule, which free content lacks."
+   }
+  ],
+  "northStar": {
+   "metric": "Weekly active paid learners who attend a class or take a test",
+   "why": "A student only gets value if they actually study. Weekly study activity predicts results, renewals and word of mouth better than enrolments alone."
+  },
+  "kpiTree": [
+   {
+    "metric": "New paid learners",
+    "description": "How many students buy a batch each season.",
+    "children": [
+     {
+      "metric": "YouTube viewer to app sign-up rate",
+      "description": "Share of free viewers who install the app."
+     },
+     {
+      "metric": "Sign-up to paid conversion",
+      "description": "Share of app users who buy a batch."
+     },
+     {
+      "metric": "Offline admission test to enrolment rate",
+      "description": "Share of test takers who join a centre."
+     }
+    ]
+   },
+   {
+    "metric": "Study engagement",
+    "description": "How much paying students actually use the course.",
+    "children": [
+     {
+      "metric": "Live class attendance rate",
+      "description": "Share of enrolled students attending each live class."
+     },
+     {
+      "metric": "Tests taken per learner per month",
+      "description": "Practice is the strongest habit before exams."
+     },
+     {
+      "metric": "Doubt resolution time",
+      "description": "Minutes from asking to a useful answer."
+     }
+    ]
+   },
+   {
+    "metric": "Retention",
+    "description": "Students who stay active through the year and renew.",
+    "children": [
+     {
+      "metric": "Mid-year drop-off rate",
+      "description": "Share of students who stop studying before the exam."
+     },
+     {
+      "metric": "Year-on-year renewal rate",
+      "description": "Share who buy the next year's batch."
+     }
+    ]
+   },
+   {
+    "metric": "Revenue per learner",
+    "description": "Money from each student across products.",
+    "children": [
+     {
+      "metric": "ACPU",
+      "description": "Average collection per user, ₹4,104 in FY26."
+     },
+     {
+      "metric": "Add-on attach rate",
+      "description": "Share buying test series, books or Infinity Pro."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Exam results of PW students (selections per 1,000 enrolled)",
+   "Teacher attrition rate",
+   "Refund and complaint rate",
+   "Average online batch price, to protect the low-price promise"
+  ],
+  "strengths": [
+   "Lowest-price trusted brand in test prep, built on free YouTube content",
+   "Close to break-even with ₹833 crore operating cash flow in FY26",
+   "Both online and offline, so it can serve every budget",
+   "Over ₹5,000 crore of cash to invest after the IPO",
+   "Strong position in Hindi-speaking states and growing fast in the South"
+  ],
+  "weaknesses": [
+   "Depends on star teachers, several of whom left in 2023 and 2024 to start rivals",
+   "Offline revenue per student is falling as it opens centres in smaller cities",
+   "Very low online prices leave little room if costs rise",
+   "Dependence on JEE and NEET is falling but still large"
+  ],
+  "risks": [
+   "Rules on coaching centres, such as the 2024 government guidelines on age limits and student safety",
+   "Free AI tutors could make paid doubt-solving less valuable",
+   "Allen and other offline brands cutting prices online",
+   "Teachers leaving to launch their own YouTube-led coaching"
+  ],
+  "userComplaints": [
+   "Too many batches and constant upselling of add-ons",
+   "Teachers leaving or changing mid-batch",
+   "Doubts answered slowly in busy periods",
+   "App glitches during big live classes",
+   "Quality outside flagship JEE and NEET batches is uneven"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Batch finder quiz that recommends one batch based on exam, class, language and budget",
+    "problem": "Students are confused by too many similar batches.",
+    "expectedImpact": "Higher sign-up to paid conversion and fewer refunds.",
+    "metricToTrack": "Sign-up to paid conversion rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Teacher continuity promise: if a lead teacher leaves, a named backup and free recorded access to the old teacher's lectures",
+    "problem": "Teacher exits break trust mid-year.",
+    "expectedImpact": "Lower mid-year drop-off and refund requests after teacher changes.",
+    "metricToTrack": "Mid-year drop-off rate in affected batches",
+    "effort": "medium"
+   },
+   {
+    "idea": "AI study plan that adjusts each week based on test results and missed classes",
+    "problem": "Students fall behind and quit quietly.",
+    "expectedImpact": "More classes attended and tests taken.",
+    "metricToTrack": "Weekly active paid learners",
+    "effort": "medium"
+   },
+   {
+    "idea": "Parent dashboard on WhatsApp for online students with weekly attendance and scores",
+    "problem": "Parents paying for online batches cannot see if the child studies.",
+    "expectedImpact": "Higher engagement and higher renewal rates.",
+    "metricToTrack": "Year-on-year renewal rate",
+    "effort": "low"
+   }
+  ],
+  "pmLessons": [
+   "Free content can be the cheapest marketing channel there is, if it is good enough that people trust you before paying.",
+   "Price for your real customer: PW won by pricing for small-town families, not for metro parents.",
+   "Online and offline can work together. Online brings scale, offline brings higher fees and loyalty.",
+   "When your brand depends on a few people, you need a plan for when they leave."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "PW's offline revenue per student fell 9% in FY26. Is that a problem?",
+    "hint": "Split the cause: new cheaper Tier-3 centres vs price cuts in old centres. Look at centre-level margins and occupancy before judging."
+   },
+   {
+    "question": "How would you increase renewals from Class 11 to Class 12 batches?",
+    "hint": "Find where students drop off, segment by engagement, then design nudges: loyalty pricing, early-bird access, progress proof."
+   },
+   {
+    "question": "Design a feature to stop students quitting mid-year.",
+    "hint": "Define churn signals (missed classes, no tests), pick one persona, propose an intervention, set a success metric and a guardrail metric."
+   },
+   {
+    "question": "Should PW build its own AI tutor or rely on free tools like ChatGPT?",
+    "hint": "Compare value of exam-specific content, cost per query, data advantage and risk of commoditisation."
+   },
+   {
+    "question": "What north star metric would you pick for PW and why?",
+    "hint": "Pick active study, not enrolments. Break into acquisition, engagement, retention and monetisation drivers."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CAC",
+    "meaning": "Customer acquisition cost: how much money it takes to win one paying customer."
+   },
+   {
+    "term": "EBITDA",
+    "meaning": "Profit before interest, taxes, depreciation and amortisation, a rough view of operating profit."
+   },
+   {
+    "term": "ACPU",
+    "meaning": "Average collection per user: the average money PW collects from each paying student."
+   },
+   {
+    "term": "ARPU",
+    "meaning": "Average revenue per user: total revenue divided by number of users."
+   },
+   {
+    "term": "IPO",
+    "meaning": "Initial public offering: when a company first sells shares on a stock exchange."
+   },
+   {
+    "term": "Retention",
+    "meaning": "How many users keep using or paying for the product over time."
+   },
+   {
+    "term": "North star metric",
+    "meaning": "The one number a company uses to track whether users are getting real value."
+   },
+   {
+    "term": "Guardrail metric",
+    "meaning": "A number that must not get worse while you push the main metric up."
+   }
+  ],
+  "assumptions": [
+   "Online batch price range is based on typical listed prices and reviews, not a full price list.",
+   "The claim that PW keeps over half of online fees after direct costs is an inference from the low cost of recorded content.",
+   "Offline fee range of ₹35,000 to ₹40,000 is based on reported offline ARPU, not on centre fee cards.",
+   "IPO in November 2025 is from news coverage; listing price details were not checked for this report."
+  ]
+ }
+}
