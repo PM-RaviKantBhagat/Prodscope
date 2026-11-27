@@ -10,7 +10,7 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getStore().get((await params).slug);
   if (!t) return { title: "Teardown not found" };
-  return { title: `${t.company} product teardown`, description: t.report.tagline };
+  return { title: `${t.company} product teardown | Prodscope`, description: t.report.tagline };
 }
 
 const SECTIONS = [

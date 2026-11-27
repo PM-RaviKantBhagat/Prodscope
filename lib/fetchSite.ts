@@ -53,7 +53,7 @@ async function fetchHtml(url: URL, hops = 0): Promise<{ finalUrl: URL; html: str
     redirect: "manual",
     signal: AbortSignal.timeout(PAGE_TIMEOUT_MS),
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; ProductTeardownBot/1.0)",
+      "user-agent": "Mozilla/5.0 (compatible; ProdscopeBot/1.0)",
       accept: "text/html,application/xhtml+xml",
     },
   });

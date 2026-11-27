@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 :root {
   --bg: #f7f6f2;
   --surface: #ffffff;
   --text: #1c1b19;
   --muted: #6b6860;
   --border: #e4e1d8;
-  --accent: #3b5bdb;
-  --accent-soft: #e8edff;
+  --accent: #5b4ef0;
+  --accent-soft: #eeebff;
   --high: #c92a2a;
   --high-soft: #fff0f0;
   --med: #b8590b;
@@ -21,8 +22,8 @@
     --text: #ecebe6;
     --muted: #a19e95;
     --border: #34322e;
-    --accent: #8ca4ff;
-    --accent-soft: #232a45;
+    --accent: #a49bff;
+    --accent-soft: #26224a;
     --high: #ff8787;
     --high-soft: #3a1f1f;
     --med: #ffb366;
@@ -36,14 +37,13 @@ html, body { margin: 0; }
 body {
   background: var(--bg);
   color: var(--text);
-  font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font: 16px/1.6 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 a { color: var(--accent); }
 main { max-width: 960px; margin: 0 auto; padding: 0 16px 64px; }
 
-.site-header { max-width: 960px; margin: 0 auto; padding: 20px 16px; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.brand { font-weight: 800; font-size: 20px; color: var(--text); text-decoration: none; }
-.brand-mark { color: var(--accent); }
+.site-header { max-width: 960px; margin: 0 auto; padding: 20px 16px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 650; font-size: 22px; letter-spacing: -0.035em; color: var(--text); text-decoration: none; }
 .brand-sub { color: var(--muted); font-size: 14px; }
 .site-footer { max-width: 960px; margin: 0 auto; padding: 24px 16px 40px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); }
 
@@ -116,10 +116,9 @@ th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: 
 .journey li { counter-increment: step; display: grid; grid-template-columns: 28px 1fr; gap: 10px; }
 .journey li::before { content: counter(step); width: 28px; height: 28px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 13px; display: grid; place-items: center; }
 
-.nsm { background: var(--accent); color: #fff; border-radius: var(--radius); padding: 18px 20px; }
+.nsm { background: linear-gradient(135deg, #6366F1, #A855F7); color: #fff; border-radius: var(--radius); padding: 18px 20px; }
 .nsm .k { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.85; }
 .nsm .m { font-size: 22px; font-weight: 800; margin: 2px 0 6px; }
-@media (prefers-color-scheme: dark) { .nsm { color: #10131f; } }
 
 .tree { margin-top: 14px; display: grid; gap: 12px; }
 .branch { display: grid; grid-template-columns: minmax(180px, 1fr) 2fr; gap: 12px; align-items: start; }

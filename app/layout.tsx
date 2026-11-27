@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Logo from "@/components/Logo";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Teardown: AI product teardowns for aspiring PMs",
+  title: "Prodscope: AI product teardowns for aspiring PMs",
   description: "Enter a company and website, get a full product teardown: personas, pain points, journeys, business model, north star and KPI tree.",
 };
 
@@ -13,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="site-header">
           <Link href="/" className="brand">
-            <span className="brand-mark">▲</span> Teardown
+            <Logo /> <span>prodscope</span>
           </Link>
           <span className="brand-sub">Product teardowns for aspiring PMs</span>
         </header>

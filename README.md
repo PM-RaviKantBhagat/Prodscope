@@ -1,4 +1,4 @@
-# Teardown
+# Prodscope
 
 Enter a company name and website, get a full product teardown written for aspiring PMs: what the product does, personas, pain points, core user journeys, business model, competitors, north star metric and KPI tree, strengths, weaknesses, improvement ideas and interview prep questions.
 
