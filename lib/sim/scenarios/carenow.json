@@ -1,0 +1,882 @@
+{
+ "id": "carenow",
+ "title": "CareNow",
+ "icon": "🩺",
+ "tagline": "Online doctors for small town families",
+ "pitch": "You are building an app that connects families in small cities to a trusted doctor in minutes, in Hindi. You have ₹2 crore from angel investors and a few doctor friends. In about two years you must reach 50,000 monthly users, earn as much as you spend each month, and keep families' trust.",
+ "start": {
+  "month": 0,
+  "cash": 200,
+  "burn": 6,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to make it easy for families in small towns to see a good doctor. You have one month to understand why it's hard today.",
+   "options": [
+    {
+     "label": "Run a WhatsApp survey of 3,000 people",
+     "detail": "Fast and cheap.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "Most say they want 'specialist doctors' and 'cheaper medicines'.",
+     "lesson": "Surveys tell you what people wish for, not what they actually do when someone is ill at 10 PM.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Users who joined for specialists rarely needed one. The everyday need was never solved."
+      }
+     ]
+    },
+    {
+     "label": "Spend 3 weeks at chemist shops and clinics in Indore and Nashik",
+     "detail": "See real visits.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "You see the real pain: a 3 hour wait for a 3 minute visit, and the chemist acting as the doctor when the clinic is closed.",
+     "lesson": "Seeing the real journey shows where time and trust are lost. That's where to start."
+    },
+    {
+     "label": "Copy a big city doctor app",
+     "detail": "It works in Bengaluru.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save a month, but small town families use phones, money and doctors differently.",
+     "lesson": "A product that works for one group can fail for another. Understand your users before copying."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "Who do you build for first?",
+   "options": [
+    {
+     "label": "Parents of young children in 3 small cities",
+     "detail": "Kids fall ill often, parents worry most.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "Fever at night is common and stressful. Parents talk to each other constantly.",
+     "lesson": "A frequent, emotional need builds habit and word of mouth fast."
+    },
+    {
+     "label": "Anyone with any health problem, all over India",
+     "detail": "Huge market.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "You need doctors for every specialty and language. Costs pile up.",
+     "lesson": "Trying to treat everything first makes the product average for everyone."
+    },
+    {
+     "label": "People wanting weight loss and skin care plans",
+     "detail": "They pay well.",
+     "effects": {
+      "growth": 6,
+      "arpu": 2,
+      "retention": -4
+     },
+     "outcome": "Sign ups come fast, mostly from Instagram, and leave as fast.",
+     "lesson": "A trendy need can bring quick money but weak loyalty.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "Most weight loss users quit after a month. A new influencer brand took the rest."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch.",
+   "options": [
+    {
+     "label": "Video and phone calls with 30 verified child doctors, 8 AM to midnight, in Hindi",
+     "detail": "Small and trusted.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Parents get a doctor in 10 minutes, in their language, at night.",
+     "lesson": "An MVP should do the core job very well for the first users. Here that's a trusted doctor, fast."
+    },
+    {
+     "label": "A full hospital app: all specialists, lab tests, medicines, insurance",
+     "detail": "Everything in one place.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 1
+     },
+     "outcome": "It looks impressive and is confusing. Most specialists get zero calls.",
+     "lesson": "Building everything before you know what's used burns money."
+    },
+    {
+     "label": "An AI symptom checker with no doctor",
+     "detail": "Cheap and instant.",
+     "effects": {
+      "burn": 1,
+      "users": 2500,
+      "retention": -1
+     },
+     "outcome": "People love the speed. It sometimes gets serious cases wrong.",
+     "lesson": "In health, a wrong answer can hurt someone. Speed is never worth that risk.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -14,
+        "burn": 3
+       },
+       "note": "Your symptom checker told a parent a child's fever was mild. It was dengue. The story is in the news."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "Set the price",
+   "months": 1,
+   "situation": "How will families pay?",
+   "options": [
+    {
+     "label": "₹149 per consult, or ₹999 a year for the whole family",
+     "detail": "Simple, with a family plan.",
+     "effects": {
+      "arpu": 12,
+      "growth": -1
+     },
+     "outcome": "Many families buy the yearly plan after the first good call.",
+     "lesson": "A fair price plus a plan for repeat users turns one visit into a relationship."
+    },
+    {
+     "label": "Free consults for the first 3 months",
+     "detail": "Grow first.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Users pour in. So do doctor bills.",
+     "lesson": "Free with no plan to charge trains users that your product is worth nothing.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "You started charging. Many users went back to the free chemist advice."
+      }
+     ]
+    },
+    {
+     "label": "₹499 per consult, premium doctors only",
+     "detail": "Earn more per call.",
+     "effects": {
+      "arpu": 14,
+      "growth": -6,
+      "trust": -6
+     },
+     "outcome": "Few families can afford it for a child's cold.",
+     "lesson": "Price must match what your users can pay and how often they need you."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "How do you get your first big wave of families?",
+   "options": [
+    {
+     "label": "Partner with 100 local chemists: they book a call for customers",
+     "detail": "Go where people already ask for help.",
+     "effects": {
+      "users": 4000,
+      "cash": -4,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "Chemists recommend you to worried parents every evening.",
+     "lesson": "A trusted local partner is the best channel for a trust-heavy product."
+    },
+    {
+     "label": "₹30 lakh on Facebook and YouTube ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Installs jump across India, far beyond your 3 cities and Hindi doctors.",
+     "lesson": "Ads that reach people you can't serve well yet waste money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most users from the ads needed doctors you didn't have. They never came back."
+      }
+     ]
+    },
+    {
+     "label": "Referral: free consult for both families",
+     "detail": "Parents tell parents.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "School WhatsApp groups spread it.",
+     "lesson": "Referrals bring users like your best users."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First week experience",
+   "months": 1,
+   "situation": "Many parents sign up but panic and call the local clinic when a child is ill. What do you fix?",
+   "options": [
+    {
+     "label": "A 1-tap 'Talk to a doctor now' button and a follow-up call next day",
+     "detail": "Make the first visit easy and caring.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "Parents feel looked after. They call you first next time.",
+     "lesson": "The first good experience and a small caring touch build the habit."
+    },
+    {
+     "label": "Push health tips 3 times a day",
+     "detail": "Stay top of mind.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "People mute the app. Some tips scare them.",
+     "lesson": "Unwanted messages from a health app feel like fear-selling."
+    },
+    {
+     "label": "Cashback on medicines for opening the app daily",
+     "detail": "Daily rewards.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Opens rise. Real consults don't.",
+     "lesson": "Reward the action that matters, not app opens."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "Your team needs one number to chase every week.",
+   "options": [
+    {
+     "label": "Consults where the family's problem was solved, by follow-up check",
+     "detail": "Real health value.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "Teams work on doctor quality, wait time and follow-ups.",
+     "lesson": "A good north star measures the value users actually get."
+    },
+    {
+     "label": "App downloads",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, care doesn't.",
+     "lesson": "Downloads say nothing about health outcomes."
+    },
+    {
+     "label": "Number of consults",
+     "detail": "More is better?",
+     "effects": {
+      "growth": 2,
+      "retention": -2,
+      "morale": -2
+     },
+     "outcome": "Doctors are pushed to keep calls short and book repeat visits.",
+     "lesson": "Counting activity can reward the wrong behaviour. More visits isn't better health."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 12,000 families. Who do you hire?",
+   "options": [
+    {
+     "label": "A senior medical head and a doctor quality team",
+     "detail": "Quality and safety.",
+     "effects": {
+      "burn": 5,
+      "trust": 6,
+      "morale": 4,
+      "retention": 2
+     },
+     "outcome": "Prescriptions are checked, doctors are trained, mistakes drop.",
+     "lesson": "In health, medical quality is the product."
+    },
+    {
+     "label": "15 sales callers to sell yearly plans",
+     "detail": "Revenue now.",
+     "effects": {
+      "burn": 7,
+      "arpu": 4,
+      "morale": -4
+     },
+     "outcome": "Sales rise. So do complaints about pushy calls.",
+     "lesson": "Pushy selling in health feels like taking advantage of fear.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -10,
+        "retention": -3,
+        "arpu": -4
+       },
+       "note": "Families shared recordings of callers saying 'your child could get seriously ill without our plan'. Refunds are piling up."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders handle doctor scheduling",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the founders are exhausted.",
+     "lesson": "Burnout is a real cost.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Missed doctor shifts left parents waiting an hour at night."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹10 crore, promise 50 cities and all specialties",
+     "detail": "Big round, big headlines.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "outcome": "Huge cash, huge expectations.",
+     "lesson": "Growing before the core works copies your losses everywhere.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "To keep your promise, you hired hundreds of specialists who sat idle. Costs exploded."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from doctors and health founders",
+     "detail": "Smaller, with advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Enough runway, and investors who know medicine and its rules.",
+     "lesson": "Smart money brings advice, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Not raising is valid, but you need a clear path to profit."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "Medicine delivery from partner chemists after each consult",
+     "detail": "Finish the job, and chemists earn too.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "Families get medicine in an hour. Chemists earn more and recommend you more.",
+     "lesson": "A loop where partners earn when users succeed keeps growing by itself."
+    },
+    {
+     "label": "TV ads on news channels",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A big spike, mostly from cities you don't serve.",
+     "lesson": "Expensive spikes don't build lasting growth.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most TV sign ups found no doctor in their language and left."
+      }
+     ]
+    },
+    {
+     "label": "Add 10 new specialties",
+     "detail": "More reasons to join.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "Users grow, but most new specialists get few calls.",
+     "lesson": "New categories bring growth and new costs."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more per family",
+   "months": 1,
+   "situation": "You need more money per family. What do you try?",
+   "options": [
+    {
+     "label": "Ads from medicine brands in the app",
+     "detail": "Extra income.",
+     "effects": {
+      "arpu": 9,
+      "trust": -3
+     },
+     "outcome": "Money comes in. Some parents wonder if doctors are pushed to prescribe those brands.",
+     "lesson": "In health, ads raise doubts about advice. Keep them far from the doctor's choice."
+    },
+    {
+     "label": "Raise the yearly plan to ₹1,999",
+     "detail": "Simple.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Revenue jumps, many families don't renew.",
+     "lesson": "Price rises must match the value families feel."
+    },
+    {
+     "label": "Home lab tests booked after a consult",
+     "detail": "Something families already need.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow start, then doctors' test requests turn into bookings.",
+     "lesson": "Selling the next step of the same journey builds margin.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Home lab tests took off. Margins on them are double."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant enters",
+   "months": 2,
+   "situation": "A big pharmacy app launches free doctor consults with medicine orders.",
+   "options": [
+    {
+     "label": "Make your consults free too",
+     "detail": "Don't lose users.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Users stay, but you are burning cash fast.",
+     "lesson": "Price wars favour the player with the most money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The free consult war ended. Your cash is gone, and bargain hunters moved on."
+      }
+     ]
+    },
+    {
+     "label": "Ignore price. Double down on your child doctors and follow-ups",
+     "detail": "Your strength is care.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some try the giant. Its doctors rush to sell medicines.",
+     "lesson": "Compete on what users trust you for.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "Parents came back, saying the free doctors just wanted to sell medicine."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to software for clinics",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "Families feel abandoned. The team is confused.",
+     "lesson": "Running from competition throws away what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "A doctor on your app gave a wrong dose. The child is fine now, but the parent's post is viral.",
+   "options": [
+    {
+     "label": "Apologise, cover the hospital bill, add a second check on every prescription",
+     "detail": "Own it and fix the system.",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but families see you take safety seriously.",
+     "lesson": "Handling a crisis openly can build more trust than you had before."
+    },
+    {
+     "label": "Send a legal notice to the parent",
+     "detail": "Protect the brand.",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "This becomes the bigger story.",
+     "lesson": "Fighting a worried parent in public is a disaster."
+    },
+    {
+     "label": "Say it was the doctor's fault, not the app's",
+     "detail": "They're independent.",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "Users see it as dodging. Your other doctors are upset.",
+     "lesson": "Users hold you responsible for everyone on your platform."
+    }
+   ]
+  },
+  {
+   "id": "doctors",
+   "phase": "Partners",
+   "title": "Doctors want a better deal",
+   "months": 1,
+   "situation": "Your doctors say pay per call is too low and night shifts are tiring. Some are leaving.",
+   "options": [
+    {
+     "label": "Raise pay, add fair shift limits, show doctor ratings",
+     "detail": "Treat them as partners.",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Costs rise, but doctors stay and care is better.",
+     "lesson": "In a marketplace, both sides need a fair deal."
+    },
+    {
+     "label": "Replace them with cheaper, less experienced doctors",
+     "detail": "Save money.",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "Families notice the difference within weeks.",
+     "lesson": "Cutting quality in health costs more than it saves."
+    },
+    {
+     "label": "Pay doctors more for high follow-up ratings",
+     "detail": "Pay for results.",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Top doctors earn more. Some others feel judged.",
+     "lesson": "Paying for outcomes can work if it's fair."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "Drop the 3 least used specialties and night shifts in small cities",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some families leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Expand to 20 new cities now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Raise consult price 5%",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "A bit more revenue. Some families leave.",
+     "lesson": "Small price changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "dengue",
+   "phase": "Surprise",
+   "title": "Dengue season",
+   "months": 0,
+   "situation": "Dengue cases spike. Calls triple overnight.",
+   "options": [
+    {
+     "label": "Add doctors early and share free prevention tips",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "Families get help fast and tell others.",
+     "lesson": "Prepare for known peaks. They're when users judge you."
+    },
+    {
+     "label": "Run as normal",
+     "effects": {
+      "retention": -2,
+      "trust": -4
+     },
+     "outcome": "Wait times hit 2 hours.",
+     "lesson": "Failing at the peak hurts trust the most."
+    }
+   ]
+  },
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "Video calls fail",
+   "months": 0,
+   "situation": "Your video provider goes down for an evening.",
+   "options": [
+    {
+     "label": "Switch to phone calls and tell families",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Consults continue.",
+     "lesson": "Have a backup for the tools you depend on."
+    },
+    {
+     "label": "Wait for it to come back",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Worried parents wait with no answers.",
+     "lesson": "Silence in a health app feels like abandonment."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your medical head",
+   "months": 0,
+   "situation": "Your medical head has an offer at double the pay.",
+   "options": [
+    {
+     "label": "Counter-offer with equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "Quality slips for a while.",
+     "lesson": "Losing key people has a cost."
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "phase": "Surprise",
+   "title": "New rules for online doctors",
+   "months": 0,
+   "situation": "The government publishes strict rules on online prescriptions and patient data.",
+   "options": [
+    {
+     "label": "Follow them right away and tell users",
+     "effects": {
+      "trust": 6,
+      "arpu": -2
+     },
+     "outcome": "Some extra cost, but families feel safe.",
+     "lesson": "Following rules early builds trust."
+    },
+    {
+     "label": "Wait and see",
+     "effects": {
+      "trust": -8,
+      "cash": -6
+     },
+     "outcome": "A complaint becomes a fine and a news story.",
+     "lesson": "Rules for patient safety are a floor, not an option."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000,
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ }
+}

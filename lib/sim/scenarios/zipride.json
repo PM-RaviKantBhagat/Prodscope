@@ -1,0 +1,883 @@
+{
+ "id": "zipride",
+ "title": "ZipRide",
+ "icon": "🏍️",
+ "tagline": "Bike taxis for Bengaluru commuters",
+ "pitch": "You are starting a bike taxi app in Bengaluru, for the last few km that take forever in a cab. You have ₹2 crore from angel investors. It's a marketplace: you need riders and captains at the same time. In about two years you must reach 50,000 monthly riders, earn as much as you spend each month, and keep riders' trust.",
+ "start": {
+  "month": 0,
+  "cash": 200,
+  "burn": 6,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to fix daily travel in Bengaluru. Before building, you want to know what really hurts. You have one month.",
+   "options": [
+    {
+     "label": "Post a poll on LinkedIn and Twitter",
+     "detail": "Fast, thousands of votes.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "4,000 votes. Most say 'cheaper cabs'.",
+     "lesson": "Online polls hear from people who like posting. Commuters stuck in traffic every day may never answer.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "People who joined for 'cheaper cabs' compared you with cabs every day and drifted away."
+      }
+     ]
+    },
+    {
+     "label": "Ride along with 30 commuters and talk to 20 bike owners",
+     "detail": "Slow, but you see the real trip.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "The real pain: the last 5 km from the metro takes 40 minutes in a cab or auto. And many bike owners want to earn extra money.",
+     "lesson": "Watching the real journey shows the exact moment of pain, and a supply of drivers nobody was using."
+    },
+    {
+     "label": "Copy the big cab apps, but with bikes",
+     "detail": "Proven model.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save a month, but you don't know which trips bikes win.",
+     "lesson": "Copying a model without the reasons means you can't tell where you're better."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first riders",
+   "months": 1,
+   "situation": "Who do you build for first?",
+   "options": [
+    {
+     "label": "Office commuters going 3 to 8 km to and from metro stations",
+     "detail": "Short, daily, same route.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "The same people ride twice a day, five days a week.",
+     "lesson": "A daily, repeated trip builds a habit fast. Frequency is gold for a ride app."
+    },
+    {
+     "label": "Everyone in Bengaluru, any trip",
+     "detail": "Biggest market.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "Long airport rides on bikes go badly. Captains are spread thin.",
+     "lesson": "A product that serves every trip serves no trip especially well."
+    },
+    {
+     "label": "College students for late night rides",
+     "detail": "They love cheap rides.",
+     "effects": {
+      "growth": 6,
+      "arpu": -4,
+      "retention": -4
+     },
+     "outcome": "Lots of rides, low fares, and late nights are hard to keep safe.",
+     "lesson": "A group that only rides for cheap prices leaves when prices rise.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000,
+        "trust": -3
+       },
+       "note": "Semester break emptied the campuses, and a late night safety complaint scared parents."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch.",
+   "options": [
+    {
+     "label": "200 verified captains in 2 tech corridors, simple booking and live tracking",
+     "detail": "Small and dependable.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Pickups in 4 minutes in your two areas. Riders tell their teams.",
+     "lesson": "Launch where you can be great. A marketplace needs enough drivers in one place to feel fast."
+    },
+    {
+     "label": "3,000 captains across the whole city",
+     "detail": "Be everywhere from day one.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 1
+     },
+     "outcome": "Captains wait hours for rides and quit. Riders wait 15 minutes in most areas.",
+     "lesson": "Spreading a marketplace too thin makes both sides unhappy."
+    },
+    {
+     "label": "Skip captain background checks to sign them up fast",
+     "detail": "Thousands of captains in a week.",
+     "effects": {
+      "burn": 1,
+      "users": 2500,
+      "retention": -1
+     },
+     "outcome": "Supply jumps overnight.",
+     "lesson": "In ride apps, safety checks are the product. Skipping them is a bet you will lose.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -14,
+        "burn": 3
+       },
+       "note": "A captain with a criminal record was reported by a rider. Police and press want to know how he got in."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "Set the price",
+   "months": 1,
+   "situation": "How will riders pay, and how will you earn?",
+   "options": [
+    {
+     "label": "Fair per km fare. Captains pay ₹29 a day instead of a cut of each ride",
+     "detail": "Captains keep every rupee of the fare.",
+     "effects": {
+      "arpu": 12,
+      "growth": -1
+     },
+     "outcome": "Captains love it and stay online longer. That makes pickups faster.",
+     "lesson": "In a marketplace, keeping the supply side happy is often the cheapest way to make the demand side happy."
+    },
+    {
+     "label": "₹1 rides for the first month",
+     "detail": "Grab users fast.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Everyone tries it. Your cash melts.",
+     "lesson": "Launch offers bring in deal hunters who may never pay full price.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "The ₹1 rides ended. Most riders who came for them left the same week."
+      }
+     ]
+    },
+    {
+     "label": "Surge pricing up to 3 times at peak hours",
+     "detail": "Earn the most when demand is high.",
+     "effects": {
+      "arpu": 14,
+      "growth": -6,
+      "trust": -6
+     },
+     "outcome": "Money jumps at 9 AM. So do angry screenshots.",
+     "lesson": "Charging the most exactly when your daily users need you most feels unfair and pushes them away."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "How do you get your first big wave of riders?",
+   "options": [
+    {
+     "label": "Stand at metro exits with captains, first ride free",
+     "detail": "Meet riders at the exact moment of pain.",
+     "effects": {
+      "users": 4000,
+      "cash": -4,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "People stuck at the metro exit try you on the spot.",
+     "lesson": "The best launch puts the product in front of users at the moment they need it."
+    },
+    {
+     "label": "₹30 lakh on Instagram ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Installs jump across the whole city, far beyond your 2 corridors.",
+     "lesson": "Ads that reach people you can't serve yet waste money and create bad first rides.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most users from the ads lived outside your areas. They got 'no captains nearby' and deleted the app."
+      }
+     ]
+    },
+    {
+     "label": "Referral: ₹50 off for both friends",
+     "detail": "Colleagues bring colleagues.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "Whole office teams join together.",
+     "lesson": "Referrals bring users like your best users, from the same routes."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First week experience",
+   "months": 1,
+   "situation": "Too many first rides go wrong: captains cancel or arrive late. What do you fix?",
+   "options": [
+    {
+     "label": "Pickup in 5 minutes or ₹30 off, and remove captains who cancel a lot",
+     "detail": "Make the first ride reliable.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "Cancellations halve. Riders start to rely on you.",
+     "lesson": "The first experience decides if someone comes back. Reliability beats rewards."
+    },
+    {
+     "label": "Send 4 push offers a day",
+     "detail": "Remind them we exist.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "Opens rise for a week, then people mute the app.",
+     "lesson": "Notifications can't fix a bad ride. They just annoy people."
+    },
+    {
+     "label": "Coins for every ride, cash them for discounts",
+     "detail": "Gamify it.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Some come back for coins. Cancellations still hurt.",
+     "lesson": "Rewards cover up a problem. They don't solve it."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "The team needs one number to chase every week.",
+   "options": [
+    {
+     "label": "Completed rides per week",
+     "detail": "Real trips that worked for both sides.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "Teams work on pickup time, cancellations and captain supply.",
+     "lesson": "A good north star captures value for both sides of a marketplace."
+    },
+    {
+     "label": "App downloads",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, rides don't.",
+     "lesson": "Downloads don't tell you if anyone rides."
+    },
+    {
+     "label": "Ride requests",
+     "detail": "Shows demand.",
+     "effects": {
+      "growth": 2,
+      "retention": -2,
+      "morale": -2
+     },
+     "outcome": "Requests go up, but many never find a captain. The number hides the failures.",
+     "lesson": "Count the value delivered, not the attempts."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 15,000 riders and 1,000 captains. Who do you hire?",
+   "options": [
+    {
+     "label": "A safety and operations lead plus a captain support team",
+     "detail": "Run the marketplace well.",
+     "effects": {
+      "burn": 5,
+      "trust": 6,
+      "morale": 4,
+      "retention": 2
+     },
+     "outcome": "Captains get answers in minutes. Safety issues are handled the same day.",
+     "lesson": "In an operations business, great ops people are worth their salary."
+    },
+    {
+     "label": "10 junior developers to add features",
+     "detail": "Ship faster.",
+     "effects": {
+      "burn": 9,
+      "morale": -6,
+      "growth": 1
+     },
+     "outcome": "Features pile up. Nobody handles captain complaints.",
+     "lesson": "More code doesn't fix an operations problem.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "retention": -2,
+        "trust": -3
+       },
+       "note": "A rushed update showed riders the wrong pickup spots for two days."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders handle captain support",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the founders take calls at midnight.",
+     "lesson": "Burnout is a real cost.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Exhausted founders missed a wave of captain complaints. Many captains quit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹10 crore, promise 10 cities in a year",
+     "detail": "Big round, big headlines.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "outcome": "Huge cash, huge expectations.",
+     "lesson": "Expanding a marketplace before one city works copies the losses to ten cities.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "To keep your promise, you launched in Pune, Hyderabad and Chennai with too few captains. Costs exploded."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from founders of mobility startups",
+     "detail": "Smaller, with advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Enough runway, and advice on captain supply and city rules.",
+     "lesson": "Smart money brings advice, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Not raising is valid, but a marketplace needs enough scale on both sides."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "Captain referral: captains bring friends, and more captains means faster pickups",
+     "detail": "Grow the supply side.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "More captains, shorter waits, happier riders, more rides, more captains want to join.",
+     "lesson": "This is a network effect. Each side makes the product better for the other side."
+    },
+    {
+     "label": "TV ads during the IPL",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A big spike, mostly in areas with no captains.",
+     "lesson": "Reach without supply just creates disappointed users.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most IPL sign ups got 'no captains nearby'. They left angry."
+      }
+     ]
+    },
+    {
+     "label": "Add auto rickshaws too",
+     "detail": "More choice.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "Users grow, but it's a second marketplace to run.",
+     "lesson": "New categories bring growth and new costs at the same time."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more",
+   "months": 1,
+   "situation": "You need more money per rider. What do you try?",
+   "options": [
+    {
+     "label": "Ads on captain helmets and the app",
+     "detail": "Extra income.",
+     "effects": {
+      "arpu": 9,
+      "trust": -2
+     },
+     "outcome": "Some money comes in. A few riders find the ads cluttered.",
+     "lesson": "Ads can work if they don't get in the way of the core job."
+    },
+    {
+     "label": "Raise the captain daily fee to ₹59",
+     "detail": "Simple.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Revenue jumps. Captains protest and some go offline.",
+     "lesson": "Squeezing the supply side slows the whole marketplace."
+    },
+    {
+     "label": "Parcel delivery using the same captains",
+     "detail": "Use idle time between rides.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow start. Then shops start sending parcels every afternoon.",
+     "lesson": "Using the network you already have for a new job builds margin.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Parcels filled captains' quiet afternoon hours. Margins on them are strong."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant enters",
+   "months": 2,
+   "situation": "A big cab company launches bike taxis with 50% off rides.",
+   "options": [
+    {
+     "label": "Match their discount",
+     "detail": "Don't lose riders.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Riders stay, but you are burning cash fast.",
+     "lesson": "Price wars favour the player with the most money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The discount war ended. Your cash is gone, and price hunters left for the next offer."
+      }
+     ]
+    },
+    {
+     "label": "Ignore price. Double down on pickup time and captain earnings",
+     "detail": "Your strength.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some riders try the giant. Their captains earn less, so fewer stay online.",
+     "lesson": "Compete on your strengths. Happy captains mean faster pickups.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "The giant's captains came to you for better earnings, and their riders followed."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to only parcel delivery",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "Riders feel dropped. The team is confused.",
+     "lesson": "Running from competition throws away what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "A woman rider posts that a captain harassed her. The video is everywhere.",
+   "options": [
+    {
+     "label": "Ban the captain, help the police, add an SOS button and women captains option",
+     "detail": "Act fast and fix the system.",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but riders see you take safety seriously.",
+     "lesson": "In a crisis, care for the person first, then fix the system that failed."
+    },
+    {
+     "label": "Send legal notices to people sharing the video",
+     "detail": "Protect the brand.",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "This becomes the bigger story.",
+     "lesson": "Fighting the people who were hurt makes everything worse."
+    },
+    {
+     "label": "Say captains are freelancers, not your employees",
+     "detail": "Legally true.",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "Users see it as dodging responsibility.",
+     "lesson": "Users hold you responsible for everyone on your platform."
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "phase": "Partners",
+   "title": "The government steps in",
+   "months": 1,
+   "situation": "The state transport department says bike taxis with private number plates break the rules.",
+   "options": [
+    {
+     "label": "Work with them: help captains get yellow commercial plates, pay half the cost",
+     "detail": "Become legal and fair.",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Costs rise, but you become the trusted, legal option.",
+     "lesson": "Working with regulators early turns a threat into an advantage."
+    },
+    {
+     "label": "Keep running quietly and hope it passes",
+     "detail": "Avoid the cost.",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "Police start fining captains. Many go offline.",
+     "lesson": "Ignoring rules puts your partners at risk, and they will leave."
+    },
+    {
+     "label": "Comply in part and lobby for new bike taxi rules",
+     "detail": "Middle path.",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Slow progress. Some areas stay uncertain.",
+     "lesson": "Shaping rules can work, but takes time and patience."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "Close the 30% of zones with the fewest rides",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some riders leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Launch in Mumbai now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Raise fares 5%",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "A bit more money. Some riders switch to autos.",
+     "lesson": "Small price changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "rain",
+   "phase": "Surprise",
+   "title": "Heavy rain",
+   "months": 0,
+   "situation": "Bengaluru floods for a day. Demand triples, roads are dangerous for bikes.",
+   "options": [
+    {
+     "label": "Pause rides in flooded areas and tell riders why",
+     "effects": {
+      "trust": 6,
+      "users": -1000
+     },
+     "outcome": "Riders understand. Captains are safe.",
+     "lesson": "Safety first. Clear communication keeps trust."
+    },
+    {
+     "label": "Add a ₹40 rain fee and keep going",
+     "effects": {
+      "arpu": 2,
+      "trust": -6,
+      "morale": -6
+     },
+     "outcome": "Money jumps. Two captains skid and get hurt.",
+     "lesson": "Short-term money at the cost of safety hurts brand and team."
+    }
+   ]
+  },
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "Maps go down",
+   "months": 0,
+   "situation": "Your maps provider has an outage. Captains can't find pickups.",
+   "options": [
+    {
+     "label": "Switch to call-the-rider mode and give ₹20 credit",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Rides still happen, slowly.",
+     "lesson": "Have a backup plan for the tools you depend on."
+    },
+    {
+     "label": "Wait for the provider to fix it",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Two hours of failed rides.",
+     "lesson": "Users don't care whose fault it is."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your ops head",
+   "months": 0,
+   "situation": "Your operations head has an offer at double the pay.",
+   "options": [
+    {
+     "label": "Counter-offer with more equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "Things wobble for a month.",
+     "lesson": "Losing key people has a cost. Plan for it."
+    }
+   ]
+  },
+  {
+   "id": "strike",
+   "phase": "Surprise",
+   "title": "Auto strike",
+   "months": 0,
+   "situation": "Auto drivers strike for 2 days. Everyone needs a ride.",
+   "options": [
+    {
+     "label": "Bring every captain online with a small bonus, normal fares",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "New riders try you and many stay.",
+     "lesson": "A rival's bad day is your chance to win users, if you're fair."
+    },
+    {
+     "label": "Surge fares 3 times",
+     "effects": {
+      "arpu": 2,
+      "trust": -7
+     },
+     "outcome": "Riders pay, and remember.",
+     "lesson": "Profiting from people's trouble is remembered longer than the money lasts."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000,
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ }
+}

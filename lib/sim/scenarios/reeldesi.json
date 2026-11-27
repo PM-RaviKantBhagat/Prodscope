@@ -1,0 +1,881 @@
+{
+ "id": "reeldesi",
+ "title": "ReelDesi",
+ "icon": "🎬",
+ "tagline": "Short videos in Indian languages",
+ "pitch": "You are building a short video app for people who speak Bhojpuri, Marathi and other Indian languages, where small creators can be seen and earn. You have ₹2 crore from angel investors. In about two years you must reach 50,000 monthly users, earn as much as you spend each month from ads, and keep users' trust.",
+ "start": {
+  "month": 0,
+  "cash": 200,
+  "burn": 6,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to build a short video app for people who speak Bhojpuri, Marathi and other Indian languages. You have one month to learn what's missing in the apps they use today.",
+   "options": [
+    {
+     "label": "Run a poll on your Instagram page",
+     "detail": "Thousands of votes, free.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "Most say they want 'more filters' and 'celebrity videos'.",
+     "lesson": "Your followers are not your users. Polls tell you wishes, not real needs.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Users who joined for filters got bored fast. Filters were never the real reason to stay."
+      }
+     ]
+    },
+    {
+     "label": "Spend 3 weeks with 30 small creators in Bihar and Maharashtra",
+     "detail": "See how they make and share videos.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "The real pain: their videos get lost on big apps, and they can't earn anything even with 10,000 followers.",
+     "lesson": "Watching creators shows the real problem: being seen and earning, not editing tools."
+    },
+    {
+     "label": "Copy the biggest short video app",
+     "detail": "Proven.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save time, but creators have no reason to move.",
+     "lesson": "A copy has to be better somewhere, or nobody switches."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "Who do you build for first?",
+   "options": [
+    {
+     "label": "Bhojpuri creators and their fans",
+     "detail": "One language, a hungry audience, ignored by big apps.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "Creators bring their fans. Fans find more creators in their language.",
+     "lesson": "A community the big players ignore can become your stronghold."
+    },
+    {
+     "label": "Everyone in India, all languages",
+     "detail": "Biggest market.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "Feeds feel random. No language community forms.",
+     "lesson": "A social app needs density. Spread too thin and nobody finds their people."
+    },
+    {
+     "label": "English speaking college students in big cities",
+     "detail": "Brands love them.",
+     "effects": {
+      "growth": 6,
+      "arpu": 2,
+      "retention": -4
+     },
+     "outcome": "They join, then go back to Instagram where their friends are.",
+     "lesson": "Users who already have a home on a giant app rarely move.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "Instagram launched a new feature, and your city students went back."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch.",
+   "options": [
+    {
+     "label": "Simple video posting with a feed that shows new creators to fans in their language",
+     "detail": "Every creator gets seen.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "New creators get their first 500 views in a day. They post more.",
+     "lesson": "In a creator app, helping creators get seen is the core job."
+    },
+    {
+     "label": "Full studio: editing, effects, music, live streaming, chat",
+     "detail": "Beat the giants on features.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 1
+     },
+     "outcome": "It's heavy and slow on cheap phones. Half your users can't open it.",
+     "lesson": "More features don't win if the basics don't work on your users' phones."
+    },
+    {
+     "label": "No content moderation, to grow faster",
+     "detail": "Let anything go.",
+     "effects": {
+      "burn": 1,
+      "users": 2500,
+      "retention": -1
+     },
+     "outcome": "Content explodes. So does harmful content.",
+     "lesson": "Skipping safety in a social app invites trouble from users, brands and the law.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -14,
+        "burn": 3
+       },
+       "note": "Hateful and adult videos spread on your app. The app store warned you and brands pulled out."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "How will you make money?",
+   "months": 1,
+   "situation": "Users won't pay for a video app. How do you earn?",
+   "options": [
+    {
+     "label": "Short ads between videos, and share ad money with top creators",
+     "detail": "Everyone wins when views grow.",
+     "effects": {
+      "arpu": 12,
+      "growth": -1
+     },
+     "outcome": "Creators push their fans to the app because they earn from it.",
+     "lesson": "Sharing money with creators makes them your best marketers."
+    },
+    {
+     "label": "Pay ₹10 to every new user for signing up",
+     "detail": "Grow fast.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Sign ups explode. Many are fake accounts made for the money.",
+     "lesson": "Paying for sign ups attracts people who want money, not your product.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "You stopped the sign up bonus. Most of those accounts went silent."
+      }
+     ]
+    },
+    {
+     "label": "₹49 a month to remove ads",
+     "detail": "Users pay directly.",
+     "effects": {
+      "arpu": 14,
+      "growth": -6,
+      "trust": -6
+     },
+     "outcome": "Few users pay. Many feel the free app is now spammed with ads.",
+     "lesson": "Charging before users love the product slows growth."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "How do you get your first big wave of users?",
+   "options": [
+    {
+     "label": "Sign up 200 local creators who bring their fans",
+     "detail": "Creators are the channel.",
+     "effects": {
+      "users": 4000,
+      "cash": -4,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "Each creator brings a few hundred loyal fans.",
+     "lesson": "In social apps, creators bring the audience."
+    },
+    {
+     "label": "₹30 lakh on ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Installs jump, but people find an empty feed with few creators.",
+     "lesson": "Users without content to watch leave fast.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most users from the ads found nothing they liked and left."
+      }
+     ]
+    },
+    {
+     "label": "Referral: ₹20 for both friends",
+     "detail": "Users bring users.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "Friends join together. Some fake accounts too.",
+     "lesson": "Referrals work, but guard against fraud."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First week experience",
+   "months": 1,
+   "situation": "New users scroll for a minute and leave. What do you fix?",
+   "options": [
+    {
+     "label": "Ask for their language and 3 favourite topics, then show the best videos first",
+     "detail": "A good feed from minute one.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "New users find something they love in the first minute.",
+     "lesson": "The first session must show the product's best. A good first feed is activation for a video app."
+    },
+    {
+     "label": "Send 5 notifications a day",
+     "detail": "Bring them back.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "People turn off notifications or delete the app.",
+     "lesson": "Notifications can't fix a boring feed."
+    },
+    {
+     "label": "Coins for watching videos",
+     "detail": "Reward watching.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Watch time goes up. Many leave the app running for coins.",
+     "lesson": "Rewards can create fake engagement."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "The team needs one number to chase every week.",
+   "options": [
+    {
+     "label": "Users who watch and creators who post at least 3 days a week",
+     "detail": "Both sides active.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "Teams work on creator growth and feed quality together.",
+     "lesson": "A social app needs both sides healthy. The north star should capture both."
+    },
+    {
+     "label": "App downloads",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, the product suffers.",
+     "lesson": "Downloads don't show value."
+    },
+    {
+     "label": "Total minutes watched",
+     "detail": "Engagement!",
+     "effects": {
+      "growth": 2,
+      "retention": -2,
+      "trust": -3
+     },
+     "outcome": "The feed starts pushing shocking clickbait to keep people watching.",
+     "lesson": "Chasing only watch time can make a feed worse for users and for trust."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 15,000 users. Who do you hire?",
+   "options": [
+    {
+     "label": "A trust and safety lead and a creator partnerships team",
+     "detail": "Protect users, grow creators.",
+     "effects": {
+      "burn": 5,
+      "trust": 6,
+      "morale": 4,
+      "retention": 2
+     },
+     "outcome": "Harmful content drops. Creators feel supported.",
+     "lesson": "In social apps, safety and creator care are core."
+    },
+    {
+     "label": "10 junior developers to add features",
+     "detail": "Ship fast.",
+     "effects": {
+      "burn": 9,
+      "morale": -6,
+      "growth": 1
+     },
+     "outcome": "Features pile up. Nobody watches what's being posted.",
+     "lesson": "Features don't replace the work of looking after a community.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "retention": -2,
+        "trust": -4
+       },
+       "note": "A rushed update broke video uploads on cheap phones for a week."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders review content",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the founders watch videos all night.",
+     "lesson": "Burnout is a real cost.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Tired founders missed harmful videos and creators' messages."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹10 crore, promise 12 languages in a year",
+     "detail": "Big round.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "outcome": "Huge cash, huge expectations.",
+     "lesson": "Growing to new languages before one works copies your problems.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "You launched 10 languages with too few creators each. Costs exploded."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from founders of social and media apps",
+     "detail": "Smaller, with advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Enough runway, and investors who know creator economies.",
+     "lesson": "Smart money brings advice, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Social apps usually need scale before they earn well, so be careful."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "One-tap sharing to WhatsApp with your watermark and a link back",
+     "detail": "Every share is an ad.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "Videos spread through family groups. Viewers install to see more.",
+     "lesson": "When content travels with your name on it, growth runs itself. TikTok grew this way."
+    },
+    {
+     "label": "TV ads during a cricket match",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A spike, mostly people who don't speak your languages.",
+     "lesson": "Expensive reach to the wrong people doesn't last.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most TV sign ups found no videos in their language and left."
+      }
+     ]
+    },
+    {
+     "label": "Add 4 more languages",
+     "detail": "More users.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "Users grow, but each language needs its own creators and moderators.",
+     "lesson": "New markets bring growth and new costs."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more per user",
+   "months": 1,
+   "situation": "You need more money per user. What do you try?",
+   "options": [
+    {
+     "label": "More ads between videos",
+     "detail": "Simple.",
+     "effects": {
+      "arpu": 9,
+      "trust": -2
+     },
+     "outcome": "Money rises. Some users complain.",
+     "lesson": "Ads can work if they don't ruin the experience."
+    },
+    {
+     "label": "Charge creators to boost their videos",
+     "detail": "Creators pay.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Small creators feel the feed is now for those who pay.",
+     "lesson": "Making creators pay to be seen breaks your core promise."
+    },
+    {
+     "label": "Brand deals: connect local brands with creators and take a small cut",
+     "detail": "Creators earn more, you earn too.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow start. Then local brands line up.",
+     "lesson": "Helping your users earn, and taking a share, builds strong margins.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Local brands love your creators. Brand deal income is growing fast."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant enters",
+   "months": 2,
+   "situation": "A big social app launches a Bhojpuri section and pays creators to move.",
+   "options": [
+    {
+     "label": "Pay creators even more to stay",
+     "detail": "Don't lose them.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Creators stay, but you are burning cash fast.",
+     "lesson": "Bidding wars favour the player with the most money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The bidding war ended. Your cash is gone, and some creators left anyway."
+      }
+     ]
+    },
+    {
+     "label": "Ignore money. Double down on helping creators grow and earn from brands",
+     "detail": "Your strength.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some creators try the giant. Their videos get lost there.",
+     "lesson": "Compete on what makes you different.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "Creators came back. 'There, I'm one of millions. Here, my fans see me,' one said."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to a video editing tool",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "Users feel dropped. The team is confused.",
+     "lesson": "Running from competition throws away what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "A fake video about a riot spreads on your app and causes panic in a town.",
+   "options": [
+    {
+     "label": "Remove it fast, show a fact check, work with police, add a fake news team",
+     "detail": "Act fast and fix the system.",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but people and the government see you act responsibly.",
+     "lesson": "Social apps carry responsibility for what spreads. Act fast and openly."
+    },
+    {
+     "label": "Say you're just a platform, not responsible",
+     "detail": "Legally safer?",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "The government and press turn on you.",
+     "lesson": "Avoiding responsibility makes a crisis much worse."
+    },
+    {
+     "label": "Blame the user who posted it",
+     "detail": "Not our fault.",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "People ask why it spread so far on your app.",
+     "lesson": "Users hold you responsible for what your feed promotes."
+    }
+   ]
+  },
+  {
+   "id": "creators",
+   "phase": "Partners",
+   "title": "Top creators want a better deal",
+   "months": 1,
+   "situation": "Your top 100 creators say their share of ad money is too small.",
+   "options": [
+    {
+     "label": "Raise their share and give them early access to features",
+     "detail": "Treat them as partners.",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Costs rise, but creators post more and promote you.",
+     "lesson": "In a creator app, creators are your supply. Keep them happy."
+    },
+    {
+     "label": "Ignore them, there are always new creators",
+     "detail": "Save money.",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "Top creators leave and take their fans.",
+     "lesson": "Losing your best supply hurts more than it saves."
+    },
+    {
+     "label": "Pay more to creators whose fans stay longest",
+     "detail": "Pay for results.",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Great creators earn more. Some feel the rules are unclear.",
+     "lesson": "Paying for outcomes can work if rules are clear."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "Shut down the 3 languages with the fewest users",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some users leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Launch in Indonesia now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Show 5% more ads",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "A bit more money. Some users leave.",
+     "lesson": "Small changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "viral",
+   "phase": "Surprise",
+   "title": "A video goes hugely viral",
+   "months": 0,
+   "situation": "A creator's song on your app is everywhere. Millions want to watch.",
+   "options": [
+    {
+     "label": "Add servers fast and feature similar creators",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "New users stay for more creators.",
+     "lesson": "Prepare to catch a wave when it comes."
+    },
+    {
+     "label": "Do nothing special",
+     "effects": {
+      "retention": -2,
+      "trust": -4
+     },
+     "outcome": "The app slows down and new users leave.",
+     "lesson": "Missing your big moment is costly."
+    }
+   ]
+  },
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "Uploads fail",
+   "months": 0,
+   "situation": "Your video storage provider has an outage.",
+   "options": [
+    {
+     "label": "Save uploads on the phone and post them later, tell creators",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Creators lose nothing.",
+     "lesson": "Have a backup plan for your key tools."
+    },
+    {
+     "label": "Wait for it to come back",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Creators lose videos and get angry.",
+     "lesson": "Users don't care whose fault it is."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your head of creators",
+   "months": 0,
+   "situation": "Your head of creator partnerships has a big offer.",
+   "options": [
+    {
+     "label": "Counter-offer with equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "A few big creators leave with them.",
+     "lesson": "Losing key people has a cost."
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "phase": "Surprise",
+   "title": "New rules for social apps",
+   "months": 0,
+   "situation": "The government says social apps must remove fake news within 24 hours and name a grievance officer.",
+   "options": [
+    {
+     "label": "Follow them right away and say so",
+     "effects": {
+      "trust": 6,
+      "arpu": -2
+     },
+     "outcome": "Some extra cost, but you look responsible.",
+     "lesson": "Following rules early builds trust."
+    },
+    {
+     "label": "Wait and see",
+     "effects": {
+      "trust": -8,
+      "cash": -6
+     },
+     "outcome": "You get a legal notice and bad press.",
+     "lesson": "Rules for user safety are a floor, not an option."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000,
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ }
+}

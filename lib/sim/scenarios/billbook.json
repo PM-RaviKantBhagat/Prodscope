@@ -1,0 +1,883 @@
+{
+ "id": "billbook",
+ "title": "BillBook",
+ "icon": "🧾",
+ "tagline": "Billing app for small shop owners in Gujarat",
+ "pitch": "You are building a simple billing and credit tracking app for small shop owners in Gujarat. It's software that businesses pay for every month. You have ₹2 crore from angel investors. In about two years you must reach 50,000 shops using it every month, earn as much as you spend each month, and keep owners' trust.",
+ "start": {
+  "month": 0,
+  "cash": 200,
+  "burn": 6,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to build software that helps small shop owners run their business. You have one month to learn what they struggle with.",
+   "options": [
+    {
+     "label": "Email a survey to 5,000 shops from a business list",
+     "detail": "Fast, lots of answers.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "Few replies, mostly from bigger shops with an accountant. They ask for 'reports'.",
+     "lesson": "Small shop owners rarely read email. The survey heard from the wrong users.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Shops who joined for 'reports' never opened them. The real daily pain was elsewhere."
+      }
+     ]
+    },
+    {
+     "label": "Sit behind the counter at 25 shops in Surat for 3 weeks",
+     "detail": "See the real day.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "The real pain: writing bills by hand, and chasing customers who owe money (udhaar). Owners lose thousands a month to forgotten dues.",
+     "lesson": "Watching real work shows the costly problem the owner never thinks to mention."
+    },
+    {
+     "label": "Copy the features of big accounting software",
+     "detail": "It's proven.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You build for accountants. Shop owners find it confusing.",
+     "lesson": "Copying a product built for different users gives you their features, not your users' needs."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "Who do you build for first?",
+   "options": [
+    {
+     "label": "Kirana and medical shops in Gujarat, run by the owner",
+     "detail": "One type of shop, daily billing, lots of udhaar.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "Owners in the same market talk to each other every day.",
+     "lesson": "A narrow first user lets you build something they love, and they spread it."
+    },
+    {
+     "label": "Every kind of business in India",
+     "detail": "Huge market.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "Restaurants, factories and shops need different things. You build a little for each.",
+     "lesson": "Serving everyone at once makes you average for everyone."
+    },
+    {
+     "label": "Big wholesalers with 50 staff",
+     "detail": "They pay the most.",
+     "effects": {
+      "growth": 6,
+      "arpu": 2,
+      "retention": -4
+     },
+     "outcome": "They want custom features and long sales cycles.",
+     "lesson": "Big customers bring money and demands that pull you away from your product.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "Two big wholesalers left for enterprise software, and their partner shops went with them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch.",
+   "options": [
+    {
+     "label": "Bills on the phone in Gujarati, plus automatic WhatsApp reminders for udhaar",
+     "detail": "Two jobs done well.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Owners collect old dues in the first week. They are amazed.",
+     "lesson": "An MVP that delivers money back in week one sells itself."
+    },
+    {
+     "label": "A full system: stock, staff, GST, accounts, reports",
+     "detail": "Everything a business needs.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 1
+     },
+     "outcome": "Owners open it once, get lost, and go back to paper.",
+     "lesson": "Too many features scare new users. Start with the one job they care about."
+    },
+    {
+     "label": "Store all data only on the phone, no backup",
+     "detail": "Cheap and fast to build.",
+     "effects": {
+      "burn": 1,
+      "users": 2500,
+      "retention": -1
+     },
+     "outcome": "Works fine until a phone is lost.",
+     "lesson": "For a business, losing records is a disaster. Reliability is part of the product.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -14,
+        "burn": 3
+       },
+       "note": "Dozens of shops lost their phones and every record with them. Angry videos are spreading."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "Set the price",
+   "months": 1,
+   "situation": "Shop owners are careful with money. How do you charge?",
+   "options": [
+    {
+     "label": "Free for basic bills, ₹99 a month for udhaar reminders and GST",
+     "detail": "Freemium.",
+     "effects": {
+      "arpu": 12,
+      "growth": -1
+     },
+     "outcome": "Most start free. Many pay once reminders bring back money.",
+     "lesson": "Charge for the feature that clearly makes users money. The price feels small next to the gain."
+    },
+    {
+     "label": "Free forever, earn from ads later",
+     "detail": "Grow first.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Shops join fast. Server and support costs pile up.",
+     "lesson": "Free with no plan trains users that your product is worth nothing.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "You started charging. Many shops went back to paper the same week."
+      }
+     ]
+    },
+    {
+     "label": "₹4,999 a year, paid upfront",
+     "detail": "Big cash early.",
+     "effects": {
+      "arpu": 14,
+      "growth": -6,
+      "trust": -6
+     },
+     "outcome": "Few small shops can pay that much at once.",
+     "lesson": "Price and payment style must fit how your users handle money."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "How do you get your first big wave of shops?",
+   "options": [
+    {
+     "label": "Visit markets with local agents who set it up on the shop owner's phone",
+     "detail": "Help them start.",
+     "effects": {
+      "users": 4000,
+      "cash": -4,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "Owners see it working in 5 minutes and tell the shop next door.",
+     "lesson": "For users new to software, a helping hand at the start is the best channel."
+    },
+    {
+     "label": "₹30 lakh on Facebook and YouTube ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Installs jump. Many owners can't set it up alone.",
+     "lesson": "Installs that never finish setup are wasted money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most shops from the ads got stuck on the first screen and gave up."
+      }
+     ]
+    },
+    {
+     "label": "Referral: a free month for both shops",
+     "detail": "Shops bring shops.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "Whole markets join together.",
+     "lesson": "Referrals bring users like your best users."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First week experience",
+   "months": 1,
+   "situation": "Many shops make 2 bills and stop. What do you fix?",
+   "options": [
+    {
+     "label": "Help them add their top 50 items and send their first udhaar reminder on day one",
+     "detail": "Get to the money moment.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "Shops see money come back in days and keep using it.",
+     "lesson": "Activation means reaching the first real value fast."
+    },
+    {
+     "label": "Send 3 'Grow your business!' messages a day",
+     "detail": "Stay top of mind.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "Owners find it annoying and block you.",
+     "lesson": "Messages can't replace value."
+    },
+    {
+     "label": "₹50 cashback for every 10 bills",
+     "detail": "Reward usage.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Some make fake bills for cashback.",
+     "lesson": "Rewards can be gamed. Reward real value."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "The team needs one number to chase every week.",
+   "options": [
+    {
+     "label": "Shops that make bills on at least 20 days a month",
+     "detail": "Real daily use.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "The team works on speed, reminders and help.",
+     "lesson": "A good north star shows the product has become part of the user's day."
+    },
+    {
+     "label": "App downloads",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, the product suffers.",
+     "lesson": "Downloads don't show value."
+    },
+    {
+     "label": "Total value of bills made",
+     "detail": "Looks huge.",
+     "effects": {
+      "growth": 2,
+      "retention": -2,
+      "morale": -2
+     },
+     "outcome": "A few big shops make the number look great while small shops quit.",
+     "lesson": "A total can hide what most users experience."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 15,000 shops. Who do you hire?",
+   "options": [
+    {
+     "label": "A customer success lead and a support team who speak Gujarati and Hindi",
+     "detail": "Keep shops happy.",
+     "effects": {
+      "burn": 5,
+      "trust": 6,
+      "morale": 4,
+      "retention": 2
+     },
+     "outcome": "Problems are solved in minutes. Shops renew.",
+     "lesson": "For business software, support is part of the product."
+    },
+    {
+     "label": "15 sales agents paid only on sign ups",
+     "detail": "Grow fast.",
+     "effects": {
+      "burn": 7,
+      "arpu": 4,
+      "morale": -4
+     },
+     "outcome": "Sign ups jump. Many agents make false promises.",
+     "lesson": "Paying only for sign ups rewards the wrong behaviour.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -10,
+        "retention": -3,
+        "arpu": -4
+       },
+       "note": "Shops found the app couldn't do what agents promised. Refund requests are piling up."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders do support",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the founders are exhausted.",
+     "lesson": "Burnout is a real cost.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Support calls went unanswered for days during GST filing week."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹10 crore, promise 10 lakh shops in a year",
+     "detail": "Big round, big headlines.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "outcome": "Huge cash, huge expectations.",
+     "lesson": "Growing before the product is ready copies your problems everywhere.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "To keep your promise, you hired 200 agents across India. Costs exploded, quality fell."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from founders of business software companies",
+     "detail": "Smaller, with advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Enough runway, and investors who know how to sell software to small businesses.",
+     "lesson": "Smart money brings advice, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Not raising is valid, with a clear path to profit."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "Every WhatsApp bill and reminder says 'Made with BillBook', with a link",
+     "detail": "Every bill is an ad.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "Customers and suppliers who get bills ask about it. Many are shop owners too.",
+     "lesson": "When using the product shows it to others, growth runs by itself. That's a viral loop."
+    },
+    {
+     "label": "TV ads on business news",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A spike, mostly from people who never set it up.",
+     "lesson": "Expensive spikes don't build lasting growth.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most TV sign ups never made a second bill."
+      }
+     ]
+    },
+    {
+     "label": "Add versions for restaurants and salons",
+     "detail": "More markets.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "Users grow, but each new type of shop needs its own features.",
+     "lesson": "New markets bring growth and new costs."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more per shop",
+   "months": 1,
+   "situation": "You need more money per shop. What do you try?",
+   "options": [
+    {
+     "label": "Show supplier ads inside the app",
+     "detail": "Extra income.",
+     "effects": {
+      "arpu": 9,
+      "trust": -2
+     },
+     "outcome": "Some income. Some owners find it cluttered.",
+     "lesson": "Ads can work if they don't get in the way."
+    },
+    {
+     "label": "Double the monthly price",
+     "detail": "Simple.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Revenue jumps, many shops cancel.",
+     "lesson": "Price rises must match the value users see."
+    },
+    {
+     "label": "Small business loans based on billing history, with a bank partner",
+     "detail": "Use the data you have.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow start. Repayments are good because you know these shops.",
+     "lesson": "Your product data can unlock a valuable service, if used carefully and with permission.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Shops repay on time. Your loan commission is now a big income line."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant enters",
+   "months": 2,
+   "situation": "A big payments company launches free billing software for shops.",
+   "options": [
+    {
+     "label": "Make everything free too",
+     "detail": "Don't lose shops.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Shops stay, but you are burning cash fast.",
+     "lesson": "Price wars favour the player with the most money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The free war ended. Your cash is gone, and price hunters moved on."
+      }
+     ]
+    },
+    {
+     "label": "Ignore price. Double down on udhaar collection and local support",
+     "detail": "Your strength.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some shops try the free app. It has no local support.",
+     "lesson": "Compete on your strengths.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "Shops came back. 'Free is useless if nobody picks up the phone,' one owner said."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to selling to big companies",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "Small shops feel dropped. The team is confused.",
+     "lesson": "Running from competition throws away what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "A bug sent udhaar reminders with wrong amounts to thousands of customers. Shop owners are embarrassed.",
+   "options": [
+    {
+     "label": "Apologise to every shop, send corrections, give a free month",
+     "detail": "Own it.",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but owners respect the honesty.",
+     "lesson": "Handling a mistake openly can build more trust."
+    },
+    {
+     "label": "Say nothing and hope it's forgotten",
+     "detail": "Avoid attention.",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "Owners find out from their customers. They're furious.",
+     "lesson": "Hiding a mistake makes it much worse."
+    },
+    {
+     "label": "Blame the WhatsApp service",
+     "detail": "Not our fault.",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "Owners don't believe it. Your engineers are upset.",
+     "lesson": "Users hold you responsible for your whole product."
+    }
+   ]
+  },
+  {
+   "id": "agents",
+   "phase": "Partners",
+   "title": "Your local agents want a better deal",
+   "months": 1,
+   "situation": "The local agents who set up shops say their pay is too low. Some work for rivals now.",
+   "options": [
+    {
+     "label": "Raise pay and give them a share of renewals",
+     "detail": "Treat them as partners.",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Costs rise, but agents care about shops staying, not just signing up.",
+     "lesson": "Pay partners for the long-term result you want."
+    },
+    {
+     "label": "Stop using agents, move to online sign up only",
+     "detail": "Save money.",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "New shops get stuck without help.",
+     "lesson": "Removing the help your users rely on costs more than it saves."
+    },
+    {
+     "label": "Pay agents only for shops that stay 3 months",
+     "detail": "Pay for results.",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Good agents earn more. Some new ones quit.",
+     "lesson": "Paying for outcomes can work, if it's fair."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "Stop the 3 business types that rarely pay",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some shops leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Launch in 10 new states now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Raise prices 5%",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "A bit more revenue. Some shops leave.",
+     "lesson": "Small price changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "gst",
+   "phase": "Surprise",
+   "title": "GST rules change overnight",
+   "months": 0,
+   "situation": "A new GST rule starts next week. Shops are confused.",
+   "options": [
+    {
+     "label": "Update the app in 3 days and send simple Gujarati guides",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "Shops rush to you for help.",
+     "lesson": "Helping users through a change wins them for years."
+    },
+    {
+     "label": "Update it next month",
+     "effects": {
+      "retention": -2,
+      "trust": -4
+     },
+     "outcome": "Shops file wrong bills and blame you.",
+     "lesson": "Being late when users need you most hurts trust."
+    }
+   ]
+  },
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "Your servers go down",
+   "months": 0,
+   "situation": "On a Saturday evening, the app stops syncing bills.",
+   "options": [
+    {
+     "label": "Let the app work offline and tell shops right away",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Shops keep billing. Data syncs later.",
+     "lesson": "Have a backup plan for your users' busiest moments."
+    },
+    {
+     "label": "Fix it quietly",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Owners panic that bills are lost.",
+     "lesson": "Silence in a crisis feels like not caring."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your tech lead",
+   "months": 0,
+   "situation": "Your tech lead has an offer at double the pay.",
+   "options": [
+    {
+     "label": "Counter-offer with equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "A few bugs slip through during the handover.",
+     "lesson": "Losing key people has a cost."
+    }
+   ]
+  },
+  {
+   "id": "diwali",
+   "phase": "Surprise",
+   "title": "Diwali rush",
+   "months": 0,
+   "situation": "Shops are busier than ever. Billing volume triples.",
+   "options": [
+    {
+     "label": "Add capacity early and keep support open late",
+     "effects": {
+      "cash": -6,
+      "users": 4000,
+      "trust": 4
+     },
+     "outcome": "Everything works. Shops tell other shops.",
+     "lesson": "Prepare for known peaks."
+    },
+    {
+     "label": "Run as normal",
+     "effects": {
+      "retention": -2,
+      "trust": -4
+     },
+     "outcome": "The app slows at the busiest hour.",
+     "lesson": "Failing at the peak hurts trust the most."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000,
+ "goals": {
+  "users": 50000,
+  "trust": 50
+ }
+}

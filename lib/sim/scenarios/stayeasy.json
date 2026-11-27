@@ -1,0 +1,882 @@
+{
+ "id": "stayeasy",
+ "title": "StayEasy",
+ "icon": "🏔️",
+ "tagline": "Homestays in the Himalayas",
+ "pitch": "You are building an app to book verified homestays in Himachal and Uttarakhand. It's a marketplace: you need good hosts and happy travellers. You have ₹1.8 crore from angel investors. In about two years you must reach 50,000 monthly users, earn as much as you spend each month, and keep trust at 55 or more.",
+ "start": {
+  "month": 0,
+  "cash": 180,
+  "burn": 5,
+  "users": 0,
+  "growth": 8,
+  "retention": 82,
+  "arpu": 0,
+  "trust": 60,
+  "morale": 70
+ },
+ "goals": {
+  "users": 50000,
+  "trust": 55
+ },
+ "stages": [
+  {
+   "id": "discover",
+   "phase": "Discover",
+   "title": "Find the real problem",
+   "months": 1,
+   "situation": "You want to help travellers book homestays in the hills of Himachal and Uttarakhand. You have one month to learn what goes wrong today.",
+   "options": [
+    {
+     "label": "Survey travellers on a travel Facebook group",
+     "detail": "Quick and cheap.",
+     "effects": {
+      "cash": -1
+     },
+     "outcome": "Most say they want 'luxury stays' and 'cheaper prices'.",
+     "lesson": "Group members who answer surveys aren't always the people who book. Wishes aren't behaviour.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -4
+       },
+       "note": "Travellers who joined for luxury found simple homestays and didn't book again."
+      }
+     ]
+    },
+    {
+     "label": "Stay at 15 homestays and talk to hosts and guests for 3 weeks",
+     "detail": "See the real trip.",
+     "effects": {
+      "cash": -3,
+      "retention": 3,
+      "growth": 3,
+      "morale": 5
+     },
+     "outcome": "The real pain: photos online don't match the room, and hosts lose bookings because they can't take online payments.",
+     "lesson": "Living the user's experience shows the trust gap on both sides of the marketplace."
+    },
+    {
+     "label": "Copy the big global stay app",
+     "detail": "It works everywhere.",
+     "effects": {
+      "growth": 2,
+      "retention": -5
+     },
+     "outcome": "You save time but don't know what Indian hill travellers or hosts need.",
+     "lesson": "A copy can't beat the original without knowing where it fails."
+    }
+   ]
+  },
+  {
+   "id": "user",
+   "phase": "Users",
+   "title": "Pick your first users",
+   "months": 1,
+   "situation": "Who do you build for first?",
+   "options": [
+    {
+     "label": "Delhi and Chandigarh families on weekend trips to the hills",
+     "detail": "Short, frequent trips.",
+     "effects": {
+      "growth": 6,
+      "arpu": 4
+     },
+     "outcome": "Families go 4 to 6 times a year and share good stays with relatives.",
+     "lesson": "A frequent, nearby trip builds habit and word of mouth."
+    },
+    {
+     "label": "Every traveller to every Indian destination",
+     "detail": "Huge market.",
+     "effects": {
+      "growth": 3,
+      "retention": 2,
+      "burn": 3
+     },
+     "outcome": "You list a few stays everywhere and none are great.",
+     "lesson": "A marketplace needs enough good choice in one place. Spread too thin and users find nothing."
+    },
+    {
+     "label": "Foreign backpackers",
+     "detail": "They spend more.",
+     "effects": {
+      "growth": 6,
+      "arpu": 2,
+      "retention": -4
+     },
+     "outcome": "A good season, then nothing for months.",
+     "lesson": "Users who visit once are hard to build a business on.",
+     "later": [
+      {
+       "after": 4,
+       "effects": {
+        "retention": -3,
+        "users": -3000
+       },
+       "note": "Tourist season ended and visa rules changed. Your backpacker bookings vanished."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mvp",
+   "phase": "Build",
+   "title": "Build the first version",
+   "months": 2,
+   "situation": "You have two months to launch.",
+   "options": [
+    {
+     "label": "150 homestays you visited yourself, with real photos and a 'verified' badge",
+     "detail": "Small and trusted.",
+     "effects": {
+      "burn": 4,
+      "users": 1500,
+      "retention": 4
+     },
+     "outcome": "Guests find exactly what they saw. Reviews are glowing.",
+     "lesson": "In a stay marketplace, trust in the listing is the product."
+    },
+    {
+     "label": "5,000 listings across India from hotel databases",
+     "detail": "Huge choice.",
+     "effects": {
+      "burn": 12,
+      "cash": -25,
+      "users": 2500,
+      "retention": 1
+     },
+     "outcome": "Lots of choice, but many listings are wrong or closed.",
+     "lesson": "Size without quality ruins trust."
+    },
+    {
+     "label": "Let hosts list themselves with no checks",
+     "detail": "Fast and free.",
+     "effects": {
+      "burn": 1,
+      "users": 2500,
+      "retention": -1
+     },
+     "outcome": "Listings explode. Some are fake.",
+     "lesson": "Unchecked listings invite fraud, and guests blame you.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "trust": -14,
+        "burn": 3
+       },
+       "note": "Guests arrived at a homestay that didn't exist. Their story went viral."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "phase": "Money",
+   "title": "Set the price",
+   "months": 1,
+   "situation": "How will you earn?",
+   "options": [
+    {
+     "label": "Take 12% from hosts, guests pay no extra fee",
+     "detail": "Clear prices for guests.",
+     "effects": {
+      "arpu": 12,
+      "growth": -1
+     },
+     "outcome": "Guests see the real price. Hosts are happy to pay for bookings they wouldn't get.",
+     "lesson": "A fair cut from the side that gains most keeps both sides happy."
+    },
+    {
+     "label": "No fees for 6 months",
+     "detail": "Grow first.",
+     "effects": {
+      "growth": 10,
+      "arpu": -12
+     },
+     "outcome": "Bookings pour in. You earn nothing.",
+     "lesson": "Free with no plan trains everyone to expect free.",
+     "later": [
+      {
+       "after": 3,
+       "effects": {
+        "retention": -8,
+        "arpu": 16,
+        "growth": -10
+       },
+       "note": "You started charging fees. Many hosts moved to direct WhatsApp bookings."
+      }
+     ]
+    },
+    {
+     "label": "Add a ₹600 guest fee on every booking",
+     "detail": "Earn on both sides.",
+     "effects": {
+      "arpu": 14,
+      "growth": -6,
+      "trust": -6
+     },
+     "outcome": "Guests feel tricked at checkout.",
+     "lesson": "Surprise fees at checkout break trust and kill bookings."
+    }
+   ]
+  },
+  {
+   "id": "launch",
+   "phase": "Growth",
+   "title": "Launch",
+   "months": 1,
+   "situation": "How do you get your first big wave of travellers?",
+   "options": [
+    {
+     "label": "Hosts share your link with past guests, and you post real stay stories",
+     "detail": "Let hosts and guests bring others.",
+     "effects": {
+      "users": 4000,
+      "cash": -4,
+      "trust": 6,
+      "growth": 3
+     },
+     "outcome": "Past guests book again and tell friends.",
+     "lesson": "Using the trust hosts already have is cheap and strong."
+    },
+    {
+     "label": "₹30 lakh on Google and Instagram ads",
+     "detail": "Big numbers fast.",
+     "effects": {
+      "users": 14000,
+      "cash": -30
+     },
+     "outcome": "Lots of visits, many for places you don't have.",
+     "lesson": "Ads that bring people you can't serve waste money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most users from ads searched for Goa and Kerala, found nothing, and left."
+      }
+     ]
+    },
+    {
+     "label": "Referral: ₹500 off for both friends",
+     "detail": "Travellers bring friends.",
+     "effects": {
+      "users": 7000,
+      "cash": -10,
+      "growth": 5,
+      "arpu": -2
+     },
+     "outcome": "Friends book trips together.",
+     "lesson": "Referrals bring users like your best users."
+    }
+   ]
+  },
+  {
+   "id": "activation",
+   "phase": "Retention",
+   "title": "First booking experience",
+   "months": 1,
+   "situation": "Many users browse but never book. What do you fix?",
+   "options": [
+    {
+     "label": "Instant booking with a 'free cancellation till 48 hours' promise",
+     "detail": "Remove the fear.",
+     "effects": {
+      "burn": 2,
+      "retention": 5,
+      "growth": 3
+     },
+     "outcome": "First time bookers feel safe and book.",
+     "lesson": "Remove the biggest fear at the moment of decision."
+    },
+    {
+     "label": "'Only 1 room left!' alerts on every listing",
+     "detail": "Create urgency.",
+     "effects": {
+      "growth": 2,
+      "retention": -3,
+      "trust": -8
+     },
+     "outcome": "Some book in a hurry. Others notice it's always '1 room left'.",
+     "lesson": "Fake urgency works once and breaks trust forever."
+    },
+    {
+     "label": "₹300 coupon if you book in the next hour",
+     "detail": "Push them.",
+     "effects": {
+      "retention": 3,
+      "arpu": -3,
+      "cash": -5
+     },
+     "outcome": "Some book. Many wait for the next coupon.",
+     "lesson": "Discounts can train users to wait for deals."
+    }
+   ]
+  },
+  {
+   "id": "metric",
+   "phase": "Metrics",
+   "title": "Choose your north star",
+   "months": 1,
+   "situation": "The team needs one number to chase every week.",
+   "options": [
+    {
+     "label": "Nights stayed where the guest gives 4 stars or more",
+     "detail": "Happy stays.",
+     "effects": {
+      "retention": 3,
+      "growth": 2,
+      "morale": 5
+     },
+     "outcome": "Teams work on listing quality and host support.",
+     "lesson": "A good north star measures value for both guest and host."
+    },
+    {
+     "label": "App downloads",
+     "detail": "Easy to grow.",
+     "effects": {
+      "growth": 3,
+      "retention": -4,
+      "morale": -5
+     },
+     "outcome": "Marketing wins, stays don't.",
+     "lesson": "Downloads don't show value."
+    },
+    {
+     "label": "Total booking value",
+     "detail": "Investors love it.",
+     "effects": {
+      "growth": 2,
+      "retention": -2,
+      "morale": -2
+     },
+     "outcome": "The team chases big luxury bookings and ignores families.",
+     "lesson": "A total can grow while most users are unhappy."
+    }
+   ]
+  },
+  {
+   "id": "hiring",
+   "phase": "Team",
+   "title": "Grow the team",
+   "months": 2,
+   "situation": "You have 12,000 travellers and 400 hosts. Who do you hire?",
+   "options": [
+    {
+     "label": "A host success team that visits, trains and photographs every new stay",
+     "detail": "Quality on the supply side.",
+     "effects": {
+      "burn": 5,
+      "trust": 6,
+      "morale": 4,
+      "retention": 2
+     },
+     "outcome": "Listings stay accurate. Hosts get better reviews and earn more.",
+     "lesson": "In a marketplace, investing in supply quality lifts the whole product."
+    },
+    {
+     "label": "10 junior developers for new features",
+     "detail": "Ship faster.",
+     "effects": {
+      "burn": 9,
+      "morale": -6,
+      "growth": 1
+     },
+     "outcome": "Features ship. Listing quality slips.",
+     "lesson": "Features don't fix a supply problem.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "retention": -2,
+        "trust": -4
+       },
+       "note": "A bug double booked rooms on a long weekend."
+      }
+     ]
+    },
+    {
+     "label": "Stay lean, founders visit every homestay",
+     "detail": "Save money.",
+     "effects": {
+      "morale": -18
+     },
+     "outcome": "You save money but the founders are always on the road.",
+     "lesson": "Burnout is a real cost.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "morale": -10,
+        "retention": -2
+       },
+       "note": "Tired founders missed checks, and a few bad stays slipped in."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundraise",
+   "phase": "Money",
+   "title": "Raise money",
+   "months": 1,
+   "situation": "Investors are interested. How much do you raise?",
+   "options": [
+    {
+     "label": "₹10 crore, promise every hill station in India in a year",
+     "detail": "Big round.",
+     "effects": {
+      "cash": 1000,
+      "morale": 5
+     },
+     "outcome": "Huge cash, huge expectations.",
+     "lesson": "Expanding a marketplace before one region works copies your losses.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "burn": 55,
+        "growth": 4,
+        "retention": -4
+       },
+       "note": "You opened in the North East, Kerala and Goa with too few verified stays. Costs exploded."
+      }
+     ]
+    },
+    {
+     "label": "₹3 crore from founders of travel companies",
+     "detail": "Smaller, with advice.",
+     "effects": {
+      "cash": 300,
+      "morale": 5,
+      "retention": 2
+     },
+     "outcome": "Enough runway, and investors who know travel seasons.",
+     "lesson": "Smart money brings advice, not just cash."
+    },
+    {
+     "label": "Don't raise. Aim for profit.",
+     "detail": "Keep control.",
+     "effects": {
+      "trust": 3,
+      "growth": -3,
+      "morale": -3
+     },
+     "outcome": "You stay careful, but growth slows.",
+     "lesson": "Not raising is valid, with a clear path to profit."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "phase": "Growth",
+   "title": "Build a growth engine",
+   "months": 2,
+   "situation": "You want growth that keeps going on its own. What do you build?",
+   "options": [
+    {
+     "label": "Guests share trip photo stories that link to the homestay",
+     "detail": "Every trip markets the next one.",
+     "effects": {
+      "burn": 2,
+      "retention": 4,
+      "arpu": 4,
+      "growth": 3
+     },
+     "outcome": "Stories spread in family groups. Friends book the same stays.",
+     "lesson": "When users' happy moments carry your name, growth runs itself."
+    },
+    {
+     "label": "TV ads before the summer holidays",
+     "detail": "Huge reach.",
+     "effects": {
+      "cash": -180,
+      "users": 15000
+     },
+     "outcome": "A spike from people wanting places you don't cover.",
+     "lesson": "Expensive reach to the wrong people doesn't last.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "retention": -6
+       },
+       "note": "Most TV sign ups wanted beach trips and left."
+      }
+     ]
+    },
+    {
+     "label": "Add hotels in cities too",
+     "detail": "More choice.",
+     "effects": {
+      "burn": 9,
+      "growth": 7,
+      "users": 5000
+     },
+     "outcome": "Users grow, but you compete with giants in cities.",
+     "lesson": "New categories bring growth and new costs."
+    }
+   ]
+  },
+  {
+   "id": "monetise",
+   "phase": "Money",
+   "title": "Earn more per booking",
+   "months": 1,
+   "situation": "You need more money per traveller. What do you try?",
+   "options": [
+    {
+     "label": "Paid 'featured' spots for hosts",
+     "detail": "Extra income.",
+     "effects": {
+      "arpu": 9,
+      "trust": -2
+     },
+     "outcome": "Some money. Guests wonder if top results are the best or just paid.",
+     "lesson": "Paid placement must be clearly marked."
+    },
+    {
+     "label": "Raise your cut to 20%",
+     "detail": "Simple.",
+     "effects": {
+      "arpu": 10,
+      "growth": -5,
+      "trust": -6
+     },
+     "outcome": "Revenue jumps. Hosts raise prices or leave.",
+     "lesson": "Squeezing the supply side slows the whole marketplace."
+    },
+    {
+     "label": "Local experiences: treks, cooking classes, taxis, booked with the stay",
+     "detail": "Sell the rest of the trip.",
+     "effects": {
+      "arpu": 4,
+      "burn": 3
+     },
+     "outcome": "Slow start. Then most families add a trek or a taxi.",
+     "lesson": "Selling the next step of the same journey builds margin.",
+     "later": [
+      {
+       "after": 2,
+       "effects": {
+        "arpu": 8
+       },
+       "note": "Experiences took off. Families add one to most trips, with good margins."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rival",
+   "phase": "Competition",
+   "title": "A giant enters",
+   "months": 2,
+   "situation": "A big travel app launches 'Hill Homestays' with 40% off.",
+   "options": [
+    {
+     "label": "Match their discount",
+     "detail": "Don't lose users.",
+     "effects": {
+      "arpu": -28,
+      "cash": -40
+     },
+     "outcome": "Users stay, but you are burning cash fast.",
+     "lesson": "Price wars favour the player with the most money.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "arpu": 28,
+        "retention": -2
+       },
+       "note": "The discount war ended. Your cash is gone, and bargain hunters moved on."
+      }
+     ]
+    },
+    {
+     "label": "Ignore price. Double down on verified stays and host care",
+     "detail": "Your strength.",
+     "effects": {
+      "growth": -6,
+      "retention": 2
+     },
+     "outcome": "Some try the giant. Its unverified listings disappoint.",
+     "lesson": "Compete on your strengths.",
+     "later": [
+      {
+       "after": 1,
+       "effects": {
+        "growth": 6,
+        "retention": 2
+       },
+       "note": "Families came back after bad surprises on the giant's listings."
+      }
+     ]
+    },
+    {
+     "label": "Pivot to software for homestay owners",
+     "detail": "Avoid the fight.",
+     "effects": {
+      "growth": -10,
+      "arpu": 6,
+      "users": -8000,
+      "morale": -8
+     },
+     "outcome": "Travellers feel dropped. The team is confused.",
+     "lesson": "Running from competition throws away what you built."
+    }
+   ]
+  },
+  {
+   "id": "crisis",
+   "phase": "Trust",
+   "title": "A crisis",
+   "months": 1,
+   "situation": "A family found a hidden camera in a homestay booked on your app. It's national news.",
+   "options": [
+    {
+     "label": "Remove the host, help police, refund and support the family, add room checks",
+     "detail": "Act fast and fix the system.",
+     "effects": {
+      "cash": -12,
+      "trust": 10,
+      "retention": 2,
+      "growth": 2
+     },
+     "outcome": "It costs money, but travellers see you take safety seriously.",
+     "lesson": "Care for the people hurt first, then fix the system that failed."
+    },
+    {
+     "label": "Send legal notices to news sites",
+     "detail": "Protect the brand.",
+     "effects": {
+      "trust": -25
+     },
+     "outcome": "This becomes the bigger story.",
+     "lesson": "Fighting the press in a safety crisis is a disaster."
+    },
+    {
+     "label": "Say hosts are independent, not your responsibility",
+     "detail": "Legally true.",
+     "effects": {
+      "trust": -12,
+      "retention": -3,
+      "morale": -5
+     },
+     "outcome": "Users see it as dodging.",
+     "lesson": "Users hold you responsible for everyone on your platform."
+    }
+   ]
+  },
+  {
+   "id": "hosts",
+   "phase": "Partners",
+   "title": "Hosts want a better deal",
+   "months": 1,
+   "situation": "Your hosts say your cut is too high in the off season. Some ask guests to book on WhatsApp instead.",
+   "options": [
+    {
+     "label": "Lower the cut in off season and give hosts free professional photos",
+     "detail": "Treat them as partners.",
+     "effects": {
+      "arpu": -4,
+      "morale": 6,
+      "trust": 8
+     },
+     "outcome": "Costs rise, but hosts stop going around you.",
+     "lesson": "In a marketplace, both sides need a fair deal."
+    },
+    {
+     "label": "Ban hosts who take direct bookings",
+     "detail": "Enforce the rules.",
+     "effects": {
+      "retention": -6,
+      "trust": -10
+     },
+     "outcome": "Many good hosts leave.",
+     "lesson": "Punishing your supply side pushes them to rivals."
+    },
+    {
+     "label": "Lower the cut for hosts with great reviews",
+     "detail": "Pay for quality.",
+     "effects": {
+      "arpu": 3,
+      "retention": -2,
+      "morale": 3,
+      "trust": 3
+     },
+     "outcome": "Top hosts are happy. Others feel left out.",
+     "lesson": "Rewarding quality can work if it's fair."
+    }
+   ]
+  },
+  {
+   "id": "profit",
+   "phase": "Profit",
+   "title": "The road to profit",
+   "months": 3,
+   "situation": "Investors want a clear path to profit before the next round.",
+   "options": [
+    {
+     "label": "Drop the 30% of towns with the fewest bookings",
+     "detail": "Focus.",
+     "effects": {
+      "burn": -12,
+      "growth": -3,
+      "users": -2000
+     },
+     "outcome": "Some users leave, but costs fall a lot.",
+     "lesson": "Cutting losing parts focuses the business on what works."
+    },
+    {
+     "label": "Launch in Goa and Kerala now",
+     "detail": "Grow out of it.",
+     "effects": {
+      "burn": 25,
+      "growth": 10,
+      "cash": -100
+     },
+     "outcome": "Big new costs before the core is profitable.",
+     "lesson": "Expanding to escape problems usually multiplies them."
+    },
+    {
+     "label": "Raise your cut 2%",
+     "detail": "Small change.",
+     "effects": {
+      "arpu": 7,
+      "growth": -3,
+      "trust": -5
+     },
+     "outcome": "A bit more revenue. Some hosts complain.",
+     "lesson": "Small price changes add up, but watch trust and growth."
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "landslide",
+   "phase": "Surprise",
+   "title": "Landslides block the roads",
+   "months": 0,
+   "situation": "Heavy rain causes landslides. Hundreds of guests can't reach their stays.",
+   "options": [
+    {
+     "label": "Full refunds and free date changes, tell everyone fast",
+     "effects": {
+      "trust": 6,
+      "users": -1000
+     },
+     "outcome": "Guests are grateful.",
+     "lesson": "Treat people well when plans fall apart."
+    },
+    {
+     "label": "Stick to the cancellation policy",
+     "effects": {
+      "arpu": 2,
+      "trust": -6,
+      "morale": -4
+     },
+     "outcome": "Guests post angry reviews.",
+     "lesson": "A rule followed without care feels cruel."
+    }
+   ]
+  },
+  {
+   "id": "outage",
+   "phase": "Surprise",
+   "title": "Payments fail on a long weekend",
+   "months": 0,
+   "situation": "Your payment partner goes down on a Friday night.",
+   "options": [
+    {
+     "label": "Let guests pay at the stay and tell hosts",
+     "effects": {
+      "trust": 4,
+      "cash": -2
+     },
+     "outcome": "Bookings continue.",
+     "lesson": "Have a backup for your key tools."
+    },
+    {
+     "label": "Wait for it to come back",
+     "effects": {
+      "retention": -3,
+      "trust": -4
+     },
+     "outcome": "Bookings are lost.",
+     "lesson": "Users don't care whose fault it is."
+    }
+   ]
+  },
+  {
+   "id": "poach",
+   "phase": "Surprise",
+   "title": "A rival poaches your host success head",
+   "months": 0,
+   "situation": "Your head of host success has an offer at double the pay.",
+   "options": [
+    {
+     "label": "Counter-offer with equity",
+     "effects": {
+      "burn": 1,
+      "morale": 4
+     },
+     "outcome": "They stay.",
+     "lesson": "Key people are worth investing in."
+    },
+    {
+     "label": "Let them go and promote from within",
+     "effects": {
+      "morale": 2,
+      "retention": -3
+     },
+     "outcome": "A few hosts drift away.",
+     "lesson": "Losing key people has a cost."
+    }
+   ]
+  },
+  {
+   "id": "longweekend",
+   "phase": "Surprise",
+   "title": "Big long weekend",
+   "months": 0,
+   "situation": "A 4-day long weekend is coming. Everyone wants to go to the hills.",
+   "options": [
+    {
+     "label": "Add more verified stays early and help hosts prepare",
+     "effects": {
+      "cash": -8,
+      "users": 6000,
+      "trust": 3
+     },
+     "outcome": "Families find rooms and book again.",
+     "lesson": "Prepare for known peaks."
+    },
+    {
+     "label": "Run as normal",
+     "effects": {
+      "retention": -2,
+      "trust": -4
+     },
+     "outcome": "Overbookings and angry guests.",
+     "lesson": "Failing at the peak hurts trust the most."
+    }
+   ]
+  }
+ ],
+ "eventSlots": [
+  4,
+  7,
+  10,
+  12
+ ],
+ "market": 300000
+}
