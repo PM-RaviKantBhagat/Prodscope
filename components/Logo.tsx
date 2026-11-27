@@ -1,4 +1,4 @@
-export default function Logo({ size = 28 }: { size?: number }) {
+export default function Logo({ size = 30 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
       <defs>
@@ -7,9 +7,10 @@ export default function Logo({ size = 28 }: { size?: number }) {
           <stop offset="1" stopColor="#A855F7" />
         </linearGradient>
       </defs>
-      <rect width="64" height="64" rx="15" fill="url(#ps-g)" />
-      <circle cx="32" cy="32" r="15" fill="none" stroke="#fff" strokeWidth="6" />
-      <circle cx="37" cy="27" r="4.5" fill="#fff" />
+      <rect x="0.5" y="0.5" width="63" height="63" rx="15" fill="#0B0B12" stroke="#ffffff" strokeOpacity="0.14" />
+      <rect x="16" y="13" width="7.5" height="38" rx="3.75" fill="#fff" />
+      <circle cx="33.5" cy="26" r="11" fill="none" stroke="#fff" strokeWidth="7.5" />
+      <circle cx="33.5" cy="26" r="4" fill="url(#ps-g)" />
     </svg>
   );
 }
