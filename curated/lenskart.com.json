@@ -1,0 +1,497 @@
+{
+  "company": "Lenskart",
+  "domain": "lenskart.com",
+  "website": "https://lenskart.com",
+  "sources": [
+    "https://ticker.finology.in/discover/market-update/lenskart-q2-fy27-results-analysis",
+    "https://yourstory.com/2026/11/lenskart-profit-doubles-revenue-grows-36-pc-in-q2",
+    "https://www.freepressjournal.in/business/lenskart-q2-fy27-profit-surges-125-to-23245-crore-revenue-climbs-36-to-2845-crore",
+    "https://inc42.com/buzz/lenskart-shares-jump-11-to-all-time-high-after-q2-profit-more-than-doubles/",
+    "https://insights.dsij.in/dsijarticledetail/lenskart-share-price-jumps-8-q2-fy27-profit-more-than-doubles-store-expansion-and-manufacturing-scale-boost-margins",
+    "https://inc42.com/buzz/lenskart-q2-fy26-profit-up-19-8-to-inr-103-4-cr"
+  ],
+  "report": {
+    "company": "Lenskart",
+    "tagline": "India's largest eyewear brand, selling its own glasses and lenses through 3,600+ stores and an app, made in its own factory.",
+    "category": "direct-to-customer eyewear",
+    "simpleSummary": "Lenskart sells glasses, sunglasses and contact lenses under its own brands like Vincent Chase and John Jacobs. You can get a free eye test in a store or at home, try frames on virtually in the app, and get glasses delivered in a few days. Because it makes its own frames and lenses, prices start low, around ₹1,000 to ₹2,000. A yearly Gold membership gives buy-one-get-one deals, which keeps customers coming back.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q2 FY27 (July to Sept 2026)",
+        "value": "₹2,845 crore",
+        "note": "Lenskart results via Finology, November 2026. Up 32.5% (pro forma); India ₹1,668 crore, international ₹1,201 crore."
+      },
+      {
+        "label": "Net profit, Q2 FY27",
+        "value": "₹232 crore",
+        "note": "Lenskart results, more than double a year earlier."
+      },
+      {
+        "label": "Stores",
+        "value": "3,624 worldwide",
+        "note": "2,868 in India and 756 abroad (including Owndays in Japan and Southeast Asia), September 2026."
+      },
+      {
+        "label": "Gold members (India)",
+        "value": "1.03 crore",
+        "note": "Up 38.6%. Gold fees collected were ₹73 crore in the quarter."
+      },
+      {
+        "label": "Glasses sold in India, Q2 FY27",
+        "value": "85.5 lakh units",
+        "note": "Up 26.5%. Average selling price about ₹1,950."
+      },
+      {
+        "label": "Market value",
+        "value": "About ₹1.25 lakh crore",
+        "note": "Indicative, based on NSE share price on 9 November 2026. Listed in November 2025."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Lenskart designs, makes and sells eyewear. It runs stores across India and abroad, an app and website, and home eye tests. It controls the full chain from factory to store, so it can sell good glasses cheaply and still make money.",
+      "howItWorks": [
+        "Customers get a free eye test in a store, at home, or upload their prescription.",
+        "They choose frames in store or try them on in the app with 3D virtual try-on.",
+        "Lenses are cut and fitted at Lenskart's large factory in Hyderabad, designed for 5 crore pairs a year.",
+        "Glasses are delivered home or picked up in store, usually within days.",
+        "Gold members (yearly fee) get buy-one-get-one and other deals.",
+        "Abroad, it owns Owndays (Japan) and stores in Singapore, UAE and others."
+      ],
+      "valueProposition": "For customers: stylish glasses at fair prices, with free eye tests and easy try-on. For Lenskart: owning the product, the factory and the store means high margins and a direct link to customers."
+    },
+    "personas": [
+      {
+        "name": "Young professional needing new glasses",
+        "description": "A 26-year-old in Bengaluru who wants stylish frames at a good price.",
+        "goals": [
+          "Good-looking frames",
+          "Fast delivery",
+          "Fair price"
+        ],
+        "frustrations": [
+          "Upselling of costly lenses",
+          "Power mistakes"
+        ]
+      },
+      {
+        "name": "Small-town family",
+        "description": "A family in Nashik buying glasses for kids and parents.",
+        "goals": [
+          "Trusted eye test",
+          "Affordable glasses"
+        ],
+        "frustrations": [
+          "Local opticians have limited choice"
+        ]
+      },
+      {
+        "name": "Gold member repeat buyer",
+        "description": "A 34-year-old who buys two pairs a year with BOGO.",
+        "goals": [
+          "More pairs for less",
+          "Sunglasses too"
+        ],
+        "frustrations": [
+          "Offer rules confusing"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Local opticians are expensive with little choice.",
+        "howSolved": "Thousands of designs at low prices.",
+        "severity": "high"
+      },
+      {
+        "pain": "Eye tests need a separate visit.",
+        "howSolved": "Free tests in store and at home.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Hard to choose frames online.",
+        "howSolved": "3D virtual try-on and home try-on.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Long wait for glasses.",
+        "howSolved": "Own factory and fast delivery.",
+        "severity": "medium"
+      },
+      {
+        "pain": "No store in small towns.",
+        "howSolved": "Rapid store expansion into tier 2 and 3 towns.",
+        "severity": "high"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Omnichannel stores and app",
+        "whatItDoes": "Buy in store, online or both; 57% of India revenue is digitally influenced.",
+        "whyItMatters": "Meets customers wherever they are."
+      },
+      {
+        "feature": "Free eye tests",
+        "whatItDoes": "About 70 lakh eye tests in India in a quarter.",
+        "whyItMatters": "The entry point to a sale."
+      },
+      {
+        "feature": "3D virtual try-on",
+        "whatItDoes": "Try frames using the phone camera.",
+        "whyItMatters": "Builds confidence to buy online."
+      },
+      {
+        "feature": "Lenskart Gold",
+        "whatItDoes": "Paid membership with BOGO deals.",
+        "whyItMatters": "Brings repeat purchases and fees."
+      },
+      {
+        "feature": "In-house manufacturing",
+        "whatItDoes": "Frames and lenses made in Lenskart factories.",
+        "whyItMatters": "Lower cost and faster delivery."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First pair in store",
+        "persona": "Small-town family",
+        "steps": [
+          {
+            "step": "Walks in",
+            "detail": "Visits a new Lenskart store."
+          },
+          {
+            "step": "Eye test",
+            "detail": "Free test by an optometrist."
+          },
+          {
+            "step": "Chooses frame",
+            "detail": "Picks a ₹1,500 frame."
+          },
+          {
+            "step": "Picks lenses",
+            "detail": "Chooses blue-light lenses."
+          },
+          {
+            "step": "Joins Gold",
+            "detail": "Gets BOGO for a second pair."
+          },
+          {
+            "step": "Collects",
+            "detail": "Gets glasses in a few days."
+          }
+        ]
+      },
+      {
+        "name": "Buying online",
+        "persona": "Young professional needing new glasses",
+        "steps": [
+          {
+            "step": "Opens app",
+            "detail": "Uploads prescription."
+          },
+          {
+            "step": "Tries on",
+            "detail": "Uses 3D try-on."
+          },
+          {
+            "step": "Checks out",
+            "detail": "Pays with UPI."
+          },
+          {
+            "step": "Delivery",
+            "detail": "Glasses arrive at home."
+          },
+          {
+            "step": "Returns if needed",
+            "detail": "Uses return or exchange."
+          }
+        ]
+      },
+      {
+        "name": "Repeat buy",
+        "persona": "Gold member repeat buyer",
+        "steps": [
+          {
+            "step": "Sees offer",
+            "detail": "App reminds of Gold BOGO."
+          },
+          {
+            "step": "Picks sunglasses",
+            "detail": "Adds a pair."
+          },
+          {
+            "step": "Gets free pair",
+            "detail": "Second pair free."
+          },
+          {
+            "step": "Renews Gold",
+            "detail": "Pays yearly fee."
+          },
+          {
+            "step": "Refers friend",
+            "detail": "Shares link."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Lenskart makes most money selling its own glasses and lenses at high gross margins, plus Gold membership fees. It is profitable with strong store economics.",
+      "revenueStreams": [
+        {
+          "stream": "Eyeglasses",
+          "detail": "Own-brand frames and lenses, the core business."
+        },
+        {
+          "stream": "Sunglasses",
+          "detail": "Vincent Chase, John Jacobs and others."
+        },
+        {
+          "stream": "Contact lenses",
+          "detail": "Own and partner brands."
+        },
+        {
+          "stream": "Gold membership",
+          "detail": "₹73 crore in fees in Q2 FY27."
+        },
+        {
+          "stream": "International",
+          "detail": "Owndays and stores abroad, ₹1,201 crore in Q2 FY27."
+        }
+      ],
+      "pricing": "Frames start around ₹500 to ₹1,000; most glasses with lenses cost ₹1,500 to ₹5,000; India average selling price about ₹1,950. Eye tests are free. Gold membership is a yearly fee (around ₹500 to ₹600, often discounted).",
+      "costDrivers": [
+        "Store rent and staff",
+        "Manufacturing and materials",
+        "Marketing",
+        "Logistics",
+        "Technology"
+      ],
+      "unitEconomics": "On a ₹2,000 pair of glasses, Lenskart's cost to make the frame and lens might be ₹500 to ₹600 because it makes them itself. After store, staff, delivery and marketing costs, it keeps roughly ₹200 to ₹300 as profit. In India, EBITDA before lease costs was 16% of revenue in Q2 FY27. Each new store pays back in a few years if it sells steady volumes."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Opening about 140 new India stores a quarter",
+        "Free eye tests",
+        "TV and digital ads",
+        "Referrals and Gold offers"
+      ],
+      "whatBringsUsersBack": [
+        "Gold BOGO deals",
+        "Power changes and new prescriptions",
+        "Sunglasses and contact lens refills"
+      ],
+      "moat": "Lenskart's moat is control of the whole chain: design, factory, stores and app. Rivals would need years and big money to build both a factory and over 2,800 stores in India."
+    },
+    "competitors": [
+      {
+        "name": "Titan Eye+",
+        "positioning": "Tata's eyewear chain with stores across India.",
+        "howThisProductDiffers": "Lenskart is more digital and cheaper."
+      },
+      {
+        "name": "Local opticians",
+        "positioning": "Neighbourhood stores.",
+        "howThisProductDiffers": "Lenskart has more choice, brand and lower prices."
+      },
+      {
+        "name": "Specsmakers and others",
+        "positioning": "Regional chains.",
+        "howThisProductDiffers": "Lenskart has national scale."
+      },
+      {
+        "name": "Warby Parker (US)",
+        "positioning": "D2C eyewear brand.",
+        "howThisProductDiffers": "Lenskart makes more products itself and is in many countries."
+      }
+    ],
+    "northStar": {
+      "metric": "Pairs of eyewear delivered to customers per quarter",
+      "why": "Each pair is someone seeing better. More pairs show reach and repeat use."
+    },
+    "kpiTree": [
+      {
+        "metric": "New customers",
+        "description": "First-time buyers.",
+        "children": [
+          {
+            "metric": "New stores opened",
+            "description": "Store growth."
+          },
+          {
+            "metric": "Eye test to purchase rate",
+            "description": "Tests that lead to sales."
+          }
+        ]
+      },
+      {
+        "metric": "Repeat purchases",
+        "description": "Customers buying again.",
+        "children": [
+          {
+            "metric": "Gold members",
+            "description": "1.03 crore today."
+          },
+          {
+            "metric": "Repeat rate",
+            "description": "Customers buying within 12 months."
+          }
+        ]
+      },
+      {
+        "metric": "Online conversion",
+        "description": "App visits that lead to purchase.",
+        "children": [
+          {
+            "metric": "Try-on usage",
+            "description": "Users using 3D try-on."
+          },
+          {
+            "metric": "Prescription uploads",
+            "description": "Online orders with power."
+          }
+        ]
+      },
+      {
+        "metric": "Delivery quality",
+        "description": "Glasses delivered right and on time.",
+        "children": [
+          {
+            "metric": "Remake rate",
+            "description": "Orders needing a redo."
+          },
+          {
+            "metric": "Delivery time",
+            "description": "Days to deliver."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Prescription error and remake rate",
+      "Store-level profitability",
+      "Customer complaints on upselling",
+      "Return rate"
+    ],
+    "strengths": [
+      "Largest eyewear store network in India",
+      "Own factory keeps costs low",
+      "Profitable and growing over 30%",
+      "Strong Gold membership"
+    ],
+    "weaknesses": [
+      "Heavy store rent",
+      "Brand trust issues from lens quality complaints",
+      "International margins lower",
+      "Valuation seen as high"
+    ],
+    "risks": [
+      "Titan and others cutting prices",
+      "Store openings slowing",
+      "Japan and global growth risks",
+      "Rules on eye care and optometrists"
+    ],
+    "userComplaints": [
+      "Wrong power or lens issues",
+      "Pushy upselling of costly lenses in stores",
+      "Slow refunds and exchanges",
+      "Gold offer terms unclear"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Prescription double-check step before lens cutting",
+        "problem": "Wrong power orders.",
+        "expectedImpact": "Fewer remakes and complaints.",
+        "metricToTrack": "Remake rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Transparent lens comparison chart in store and app",
+        "problem": "Pushy upselling.",
+        "expectedImpact": "More trust and repeat buying.",
+        "metricToTrack": "NPS",
+        "effort": "low"
+      },
+      {
+        "idea": "Kids eyecare plan with yearly tests and replacements",
+        "problem": "Kids' power changes often.",
+        "expectedImpact": "More repeat purchases.",
+        "metricToTrack": "Repeat rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Instant refund to wallet for returns",
+        "problem": "Slow refunds.",
+        "expectedImpact": "Higher satisfaction.",
+        "metricToTrack": "Refund time",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Owning the supply chain lets you cut prices and still make profit.",
+      "Online and offline together beat either alone for products people want to try.",
+      "Paid memberships like Gold drive repeat buying.",
+      "A free service (eye tests) can be the main way to win customers."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase repeat purchases at Lenskart?",
+        "hint": "Segment customers, triggers like power changes, Gold, reminders."
+      },
+      {
+        "question": "Should Lenskart open more stores or invest in online?",
+        "hint": "Compare store economics and online conversion."
+      },
+      {
+        "question": "Design an app feature to reduce returns.",
+        "hint": "Fit, try-on accuracy, prescription check."
+      },
+      {
+        "question": "What is Lenskart's north star metric?",
+        "hint": "Pairs delivered; drivers."
+      },
+      {
+        "question": "How should Lenskart compete with Titan Eye+?",
+        "hint": "Price, choice, service, trust."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "D2C",
+        "meaning": "Direct to customer, a brand selling straight to buyers."
+      },
+      {
+        "term": "Omnichannel",
+        "meaning": "Selling through stores, apps and websites together."
+      },
+      {
+        "term": "EBITDA",
+        "meaning": "Earnings before interest, tax, depreciation and amortisation, a measure of operating profit."
+      },
+      {
+        "term": "BOGO",
+        "meaning": "Buy one, get one free."
+      },
+      {
+        "term": "NPS",
+        "meaning": "Net promoter score, how likely customers are to recommend you."
+      },
+      {
+        "term": "Repeat rate",
+        "meaning": "Share of customers who buy again."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      }
+    ],
+    "assumptions": [
+      "Cost to make a pair is our estimate.",
+      "Gold fee is approximate.",
+      "Store payback period is inferred from margins."
+    ]
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "company": "Booking.com",
+  "domain": "booking.com",
+  "website": "https://www.booking.com",
+  "sources": [
+    "https://stocktitan.net/articles/booking-holdings-q3-2026-earnings-ftc-900-million-revenue-cut",
+    "https://www.sec.gov/Archives/edgar/data/0001075531/000107553126000044/q3-26bkngearningsrelease.htm",
+    "https://www.panabee.com/news/booking-earnings-2025-annual",
+    "https://digital-markets-act.ec.europa.eu/factsheet-how-dma-ensures-businesses-using-bookingcom-are-free-set-their-prices-and-bookingcom-2026-09-28_en?prefLang=sk",
+    "https://www.etoro.com/au/news-and-analysis/stocks/booking-holdings-is-ai-killing-this-travel-giant-bkng-2026/",
+    "https://www.rentalscaleup.com/airbnb-q3-2026-earnings/"
+  ],
+  "report": {
+    "company": "Booking.com",
+    "tagline": "The world's largest hotel booking site, run by Booking Holdings, known for testing almost every change on real users.",
+    "category": "Travel",
+    "simpleSummary": "Booking.com is where millions of people book hotels, apartments and holiday homes around the world. You search a city, see prices, photos and reviews, and often book with free cancellation and pay at the hotel. Hotels pay Booking.com a commission, usually around 15%, on each stay. The company is famous for running thousands of small experiments to find out which page design makes people book more.",
+    "keyNumbers": [
+      {
+        "label": "Room nights, Q3 2026",
+        "value": "345 million, up 7%",
+        "note": "Booking Holdings Q3 2026 results (Booking.com is the vast majority). Stock Titan, SEC 8-K."
+      },
+      {
+        "label": "Gross bookings, Q3 2026",
+        "value": "$54.5 billion, up 10%",
+        "note": "Booking Holdings Q3 2026 results."
+      },
+      {
+        "label": "Adjusted revenue, Q3 2026",
+        "value": "$9.8 billion, up 9%",
+        "note": "Reported revenue was $8.9 billion after a $900 million cut tied to an FTC matter involving Priceline. Stock Titan."
+      },
+      {
+        "label": "Net income, Q3 2026",
+        "value": "$2.7 billion",
+        "note": "Booking Holdings Q3 2026 results."
+      },
+      {
+        "label": "Room nights, full year 2025",
+        "value": "About 1.2 billion",
+        "note": "Record year, with about 70% of bookings now paid through Booking (merchant model). Panabee summary of 2025 results."
+      },
+      {
+        "label": "Experiments running",
+        "value": "About 1,000 at any time",
+        "note": "Widely reported figure from Harvard Business School case studies and company talks; older figure, treat as an estimate."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Booking.com is an online travel agency (OTA) that lists hotels, apartments, homes and resorts, plus flights, car rentals and attractions. Guests book in the app or site and either pay at the property or pay Booking upfront. Properties pay a commission on each stay.",
+      "howItWorks": [
+        "Hotels and hosts list rooms with prices and availability through the Extranet or a channel manager.",
+        "Guests search, filter by price, rating and free cancellation, and book.",
+        "Booking.com earns a commission, typically 15% to 18%, either taken from the guest's upfront payment or invoiced to the hotel later.",
+        "Genius loyalty gives repeat guests 10% to 20% discounts and perks that hotels fund.",
+        "Hotels can pay extra commission through the Visibility Booster and Preferred Partner programmes to rank higher."
+      ],
+      "valueProposition": "For travellers: the widest choice of stays anywhere in the world, with free cancellation on many rooms and trusted reviews. For hotels: global demand they could never reach alone, paid only when a guest books."
+    },
+    "personas": [
+      {
+        "name": "Budget leisure traveller",
+        "description": "A couple from Delhi planning a week in Europe on a set budget.",
+        "goals": [
+          "Good rating at a low price",
+          "Free cancellation in case plans change",
+          "Pay later"
+        ],
+        "frustrations": [
+          "Urgency messages like 'only 1 room left'",
+          "Taxes and fees not clear upfront",
+          "Hotel says the booking does not exist"
+        ]
+      },
+      {
+        "name": "Business traveller",
+        "description": "A consultant who books 20 hotel nights a year.",
+        "goals": [
+          "Fast booking near the meeting",
+          "Invoices for expenses",
+          "Genius perks"
+        ],
+        "frustrations": [
+          "Support hard to reach when something goes wrong late at night"
+        ]
+      },
+      {
+        "name": "Independent hotel owner",
+        "description": "Runs a 30-room hotel in Jaipur or Lisbon.",
+        "goals": [
+          "Full rooms in low season",
+          "Lower commission costs",
+          "More direct bookings"
+        ],
+        "frustrations": [
+          "Paying 15% to 18% commission",
+          "Pressure to join Genius and pay more for visibility",
+          "Late payouts or disputes"
+        ]
+      },
+      {
+        "name": "Holiday home host",
+        "description": "Rents one apartment and lists on both Booking.com and Airbnb.",
+        "goals": [
+          "Extra bookings beyond Airbnb",
+          "Protection from no-shows"
+        ],
+        "frustrations": [
+          "Guests who do not show up",
+          "Complex settings"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Finding a good, fairly priced room in a city you do not know.",
+        "howSolved": "Huge choice, filters, map view and verified guest reviews.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fear of losing money if plans change.",
+        "howSolved": "Free cancellation on many rooms and pay-at-property options.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hotels cannot reach foreign guests on their own.",
+        "howSolved": "Listings in about 40 languages and marketing on Google and other channels.",
+        "severity": "high"
+      },
+      {
+        "pain": "Frequent travellers want rewards for loyalty.",
+        "howSolved": "Genius tiers with discounts, free breakfast and upgrades.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Booking flights, cars and hotels separately takes time.",
+        "howSolved": "Connected Trip, which bundles flights, cars and attractions.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Search and filters",
+        "whatItDoes": "Lets guests sort by price, rating, distance and free cancellation.",
+        "whyItMatters": "The heavily tested core page that turns visitors into bookers."
+      },
+      {
+        "feature": "Free cancellation and pay at property",
+        "whatItDoes": "Many rooms can be cancelled free until a set date and paid on arrival.",
+        "whyItMatters": "Cuts booking fear and raises conversion, but raises cancellations."
+      },
+      {
+        "feature": "Genius loyalty",
+        "whatItDoes": "Three levels with discounts of 10% to 20% and perks funded by hotels.",
+        "whyItMatters": "Brings guests back directly instead of through Google ads."
+      },
+      {
+        "feature": "Verified reviews",
+        "whatItDoes": "Only guests who stayed can review, with scores out of 10.",
+        "whyItMatters": "Builds trust and helps good hotels win."
+      },
+      {
+        "feature": "Experimentation platform",
+        "whatItDoes": "Internal tool that lets any team run A/B tests on real traffic.",
+        "whyItMatters": "Lets Booking.com improve conversion step by step with evidence, not opinion."
+      },
+      {
+        "feature": "AI Trip Planner",
+        "whatItDoes": "Chat-based planning that suggests places and stays.",
+        "whyItMatters": "Defends against AI assistants becoming the new front door for travel."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First hotel booking",
+        "persona": "Budget leisure traveller",
+        "steps": [
+          {"step": "Googles hotels", "detail": "Searches 'hotels in Paris' and clicks a Booking.com ad or result."},
+          {"step": "Filters", "detail": "Sets budget, rating 8+ and free cancellation."},
+          {"step": "Compares", "detail": "Checks map, photos and recent reviews."},
+          {"step": "Books", "detail": "Picks a room with pay at property."},
+          {"step": "Gets confirmation", "detail": "Receives email and app confirmation."},
+          {"step": "Stays", "detail": "Checks in and pays the hotel."},
+          {"step": "Reviews", "detail": "Rates the stay, adding to Genius progress."}
+        ]
+      },
+      {
+        "name": "Repeat booking via Genius",
+        "persona": "Business traveller",
+        "steps": [
+          {"step": "Opens app", "detail": "Goes straight to the app, not Google."},
+          {"step": "Sees Genius prices", "detail": "Discounts shown on eligible hotels."},
+          {"step": "Books quickly", "detail": "Saved details make it a few taps."},
+          {"step": "Adds car", "detail": "Adds a rental car through Connected Trip."},
+          {"step": "Gets invoice", "detail": "Downloads invoice for expenses."}
+        ]
+      },
+      {
+        "name": "Hotel joins Booking.com",
+        "persona": "Independent hotel owner",
+        "steps": [
+          {"step": "Registers", "detail": "Signs up property on the partner site."},
+          {"step": "Loads rooms", "detail": "Sets rooms, prices and policies in the Extranet."},
+          {"step": "Gets bookings", "detail": "Receives bookings and guest messages."},
+          {"step": "Joins programmes", "detail": "Considers Genius or Preferred Partner for more visibility."},
+          {"step": "Pays commission", "detail": "Pays monthly invoice or receives payouts minus commission."},
+          {"step": "Manages reviews", "detail": "Replies to guest reviews to keep score high."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Booking.com makes money by taking a commission from hotels on each stay, either as an agency (hotel pays later) or as a merchant (Booking takes payment and passes it on). It also earns from flights, cars, ads and payments.",
+      "revenueStreams": [
+        {"stream": "Agency commission", "detail": "Hotel collects payment and pays Booking about 15% to 18% later."},
+        {"stream": "Merchant bookings", "detail": "Booking takes guest payment upfront and keeps its cut; now about 70% of bookings."},
+        {"stream": "Visibility programmes", "detail": "Hotels pay extra commission for higher ranking."},
+        {"stream": "Flights, cars and attractions", "detail": "Fees on 21 million flight tickets in Q3 2026 and on car rentals."},
+        {"stream": "Payments", "detail": "Payment fees and currency conversion margins on merchant bookings."}
+      ],
+      "pricing": "Free for travellers. Hotels pay commission, usually about 15% in most markets and higher for extra visibility. Genius discounts are funded by hotels.",
+      "costDrivers": [
+        "Performance marketing, especially Google ads, the largest cost",
+        "Brand advertising",
+        "Customer support across many languages",
+        "Payment processing on merchant bookings",
+        "Staff and technology"
+      ],
+      "unitEconomics": "Rough example. A guest books 3 nights at €150, so €450. Booking.com keeps about 15%, so €67. If the guest came from a Google ad, Booking might pay €20 to €30 for that click. Payment and support add a few euros. So a booking from Google earns maybe €30, while a repeat booking through the app with no ad earns nearly the full €67. That is why Genius, the app and direct traffic matter so much."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search ads and hotel ads, where Booking.com is one of the biggest spenders",
+        "Brand TV and online campaigns",
+        "Search results for 'hotels in [city]'",
+        "Hotels themselves sending guests to manage bookings in the app"
+      ],
+      "whatBringsUsersBack": [
+        "Genius discounts that grow with each stay",
+        "Saved favourites and past bookings",
+        "Push notifications and email deals",
+        "Trust from past free cancellations"
+      ],
+      "moat": "Booking.com has the largest set of hotels worldwide, about 30 years of reviews, and the money to outbid smaller rivals on Google ads. Its culture of constant testing makes the site convert better than rivals, so each ad click earns more. That lets it pay more for ads, which brings in more guests and more hotels."
+    },
+    "competitors": [
+      {
+        "name": "Expedia (and Hotels.com, Vrbo)",
+        "positioning": "Second big global OTA, strongest in the US.",
+        "howThisProductDiffers": "Booking.com is bigger in Europe and Asia and has more independent hotels."
+      },
+      {
+        "name": "Airbnb",
+        "positioning": "Homes and experiences marketplace with a strong brand.",
+        "howThisProductDiffers": "Booking.com wins on hotels and choice; Airbnb wins on unique homes and direct traffic."
+      },
+      {
+        "name": "Agoda (same parent)",
+        "positioning": "Booking Holdings' Asia-focused brand.",
+        "howThisProductDiffers": "Booking Holdings runs both to cover different regions and price levels."
+      },
+      {
+        "name": "MakeMyTrip",
+        "positioning": "India's biggest OTA with flights, hotels, buses and packages.",
+        "howThisProductDiffers": "Booking.com is stronger for international stays; MakeMyTrip wins on Indian domestic travel and local payments."
+      },
+      {
+        "name": "Google and AI assistants",
+        "positioning": "Hotel search on Google and trip planning in ChatGPT or Gemini.",
+        "howThisProductDiffers": "Booking.com owns the bookings and supply, but Google controls much of its traffic."
+      }
+    ],
+    "northStar": {
+      "metric": "Room nights stayed (booked and not cancelled)",
+      "why": "Room nights stayed show that guests found and used a place to sleep, which is the core value, and it is the main volume number Booking itself reports. Using stayed, not just booked, nights is a better north star because cancellations are common."
+    },
+    "kpiTree": [
+      {
+        "metric": "Visitors",
+        "description": "People who arrive on the site or app.",
+        "children": [
+          {"metric": "Direct and app share", "description": "Visits without a paid ad."},
+          {"metric": "Paid search clicks", "description": "Visitors from Google ads."},
+          {"metric": "App monthly active users", "description": "People opening the app each month."}
+        ]
+      },
+      {
+        "metric": "Conversion rate",
+        "description": "Share of visitors who book.",
+        "children": [
+          {"metric": "Search results relevance", "description": "Clicks on the first results."},
+          {"metric": "Price competitiveness", "description": "How often Booking shows the best price."},
+          {"metric": "Checkout completion", "description": "Share of started bookings finished."}
+        ]
+      },
+      {
+        "metric": "Nights per booking and repeat bookings",
+        "description": "How much each guest books over time.",
+        "children": [
+          {"metric": "Genius level-up rate", "description": "Guests moving to higher tiers."},
+          {"metric": "12-month repeat rate", "description": "Guests booking again in a year."},
+          {"metric": "Connected Trip attach", "description": "Bookings with flight or car added."}
+        ]
+      },
+      {
+        "metric": "Stayed rate",
+        "description": "Share of bookings that are not cancelled and not disputed.",
+        "children": [
+          {"metric": "Cancellation rate", "description": "Bookings cancelled by guests."},
+          {"metric": "Hotel-side issues", "description": "Overbookings and 'no record' cases."},
+          {"metric": "Review score", "description": "Average guest score after stay."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Customer complaints about fees and disclosures",
+      "Hotel partner churn",
+      "Marketing spend as a share of revenue",
+      "Support response time"
+    ],
+    "strengths": [
+      "Largest supply of hotels in the world",
+      "World-famous experimentation culture that steadily improves conversion",
+      "Very profitable, with $2.7 billion net income in one quarter",
+      "Shift to merchant payments gives more control and payment income"
+    ],
+    "weaknesses": [
+      "Depends heavily on Google for traffic",
+      "Hotels resent high commissions and parity pressure",
+      "Urgency messages and fee displays are often called dark patterns",
+      "Customer support complaints, especially when hotels cancel"
+    ],
+    "risks": [
+      "EU Digital Markets Act names Booking a gatekeeper, banning rules that stop hotels offering cheaper prices elsewhere",
+      "FTC action in the US over disclosures, fees and billing, with a $900 million revenue reduction booked in Q3 2026",
+      "AI assistants could book travel directly and cut OTAs out",
+      "Middle East conflict and weak international demand"
+    ],
+    "userComplaints": [
+      "Hotel says it has no record of the booking or is overbooked",
+      "Fees and city taxes not clear until checkout or arrival",
+      "Pressure messages like 'only 1 room left'",
+      "Hard to reach support and slow refunds",
+      "Hotels complain about commission and fake-looking reviews"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show the final price including all taxes on search results everywhere",
+        "problem": "Guests feel misled by fees, and regulators are acting.",
+        "expectedImpact": "Higher trust and lower legal risk.",
+        "metricToTrack": "Fee-related complaints per 10,000 bookings",
+        "effort": "medium"
+      },
+      {
+        "idea": "Arrival guarantee: if the hotel cannot honour the booking, Booking.com rebooks nearby and pays the difference",
+        "problem": "Overbookings leave guests stranded.",
+        "expectedImpact": "Better trust and repeat rate.",
+        "metricToTrack": "Repeat rate after a hotel-side issue",
+        "effort": "high"
+      },
+      {
+        "idea": "Grow app and Genius bookings in India with UPI and local deals",
+        "problem": "Google ads make each booking expensive.",
+        "expectedImpact": "Lower marketing cost per booking.",
+        "metricToTrack": "Share of bookings from direct and app traffic",
+        "effort": "medium"
+      },
+      {
+        "idea": "Test removing pressure messages in one market",
+        "problem": "Urgency messages hurt trust and attract regulators.",
+        "expectedImpact": "Learn the real trade-off between conversion and trust.",
+        "metricToTrack": "Conversion and 90-day repeat rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Simple commission dashboard showing hotels their return on each programme",
+        "problem": "Hotels feel pushed into paying more without seeing results.",
+        "expectedImpact": "Lower hotel churn.",
+        "metricToTrack": "Partner churn and programme renewal rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Run experiments to settle debates. Booking.com tests changes on real users instead of trusting opinions.",
+      "Optimising only for short-term conversion can harm trust. Watch guardrails like complaints and repeat rate.",
+      "Paid traffic is rented. Loyalty programmes and apps turn rented customers into owned ones.",
+      "Small conversion gains matter a lot at huge scale: 1% more bookings on 1.2 billion nights is millions of nights."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Booking.com runs about 1,000 tests at once. How would you design an A/B test for a new free cancellation label?",
+        "hint": "State the hypothesis, pick the primary metric (stayed bookings, not just bookings), add guardrails (cancellations, complaints), size the sample and decide in advance how to judge results."
+      },
+      {
+        "question": "How would you reduce Booking.com's dependence on Google?",
+        "hint": "List ways to win direct traffic (app, Genius, Connected Trip, AI planner), estimate savings per booking, track direct share."
+      },
+      {
+        "question": "Compare Booking.com and MakeMyTrip for an Indian traveller going abroad.",
+        "hint": "Compare supply, price, payments, support and loyalty. Pick where each wins and why."
+      },
+      {
+        "question": "An A/B test raises bookings 2% but cancellations 5%. Do you ship it?",
+        "hint": "Compute net stayed nights and revenue, check hotel impact and trust, consider segment-level shipping."
+      },
+      {
+        "question": "How should Booking.com respond to AI assistants that plan whole trips?",
+        "hint": "Consider partnering, building its own AI Trip Planner, and owning supply and payments. Define success metrics."
+      }
+    ],
+    "glossary": [
+      {"term": "OTA", "meaning": "Online travel agency: a site that sells other companies' hotel rooms, flights and more."},
+      {"term": "A/B test", "meaning": "An experiment where some users see version A and others see version B, to see which works better."},
+      {"term": "Room nights", "meaning": "One room booked for one night; the main volume measure for hotel businesses."},
+      {"term": "Gross bookings", "meaning": "The total value of travel booked, before the company takes its share."},
+      {"term": "Merchant model", "meaning": "When the platform collects the guest's payment itself and then pays the hotel."},
+      {"term": "Conversion", "meaning": "The share of visitors who complete a booking."},
+      {"term": "Dark patterns", "meaning": "Design tricks that push users into choices they might not make otherwise."},
+      {"term": "Gatekeeper", "meaning": "An EU label for very large platforms that must follow extra fair-play rules."},
+      {"term": "Parity", "meaning": "A rule that a hotel's price on one site must match its price elsewhere."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that customers are getting value."},
+      {"term": "Churn", "meaning": "When customers or partners stop using a product."},
+      {"term": "Guardrails", "meaning": "Metrics that must not get worse while a team improves its main metric."}
+    ],
+    "assumptions": [
+      "Booking Holdings numbers include Agoda, Priceline, KAYAK and OpenTable; Booking.com is assumed to be most of the total.",
+      "Commission of 15% to 18% is a typical reported range, not a published rate for every market.",
+      "The '1,000 experiments at a time' figure is from older public case studies and may have changed.",
+      "Google ad cost per booking in the example is an estimate."
+    ]
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "company": "Pocket FM",
+  "domain": "pocketfm.com",
+  "website": "https://pocketfm.com",
+  "sources": [
+    "https://aiweekly.co/alerts/pocket-fm-doubles-arr-to-500m-as-ai-runs-99-of-new-audio",
+    "https://inc42.com/buzz/pocket-fm-claims-ebitda-profitability-crosses-400-mn-arr/",
+    "https://inc42.com/buzz/pocket-fm-eyes-15-20-ebitda-margin-global-expansion-with-ai-led-content-push/",
+    "https://techstory.in/pocket-fm-plans-new-funding-round-targets-nearly-2-billion-valuation/",
+    "https://www.forbes.com.au/news/uncategorized/more-content-is-always-great-inside-pocket-fms-400-million-content-farm/",
+    "https://openthemagazine.com/branding-marketing-and-advertising/how-pocket-fm-creators-are-making-money-platform-claims-to-payout-300-crore-as-ai-and-hindi-stories-drive-growth",
+    "https://www.trustpilot.com/review/pocketfm.com?page=6"
+  ],
+  "report": {
+    "company": "Pocket FM",
+    "tagline": "An app of very long audio stories told in short daily episodes, where the first episodes are free and you pay small amounts to unlock the rest.",
+    "category": "Audio series",
+    "simpleSummary": "Pocket FM is like a TV soap opera, but for your ears. Its stories, often romance, fantasy or revenge, run for hundreds or even thousands of episodes of 10 to 15 minutes each. The first episodes are free, then you buy coins to unlock the next ones, usually for a few rupees or cents each. It started in Bengaluru for Hindi listeners and now makes about 70% of its money in the US.",
+    "keyNumbers": [
+      {
+        "label": "Annualised revenue run rate (ARR), Sept 2026",
+        "value": "$500 million, doubled in a year",
+        "note": "CEO Rohan Nayak to TechCrunch, via AI Weekly, September 2026. About $415 million from user payments and $85 million from ads."
+      },
+      {
+        "label": "US share of revenue",
+        "value": "About 70%, growing about 70% a year",
+        "note": "Company figures reported by TechCrunch, September 2026."
+      },
+      {
+        "label": "Listeners",
+        "value": "More than 250 million across 20+ countries",
+        "note": "Company claim, September 2026. Paying users are not disclosed."
+      },
+      {
+        "label": "AI share of content",
+        "value": "93% of catalogue and 99% of new content",
+        "note": "Company figures, September 2026. The CEO says AI made production about 80 times cheaper."
+      },
+      {
+        "label": "Hit shows",
+        "value": "96 titles earned over $1 million each, 13 over $10 million",
+        "note": "Company figures, September 2026."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $2 billion (in talks)",
+        "note": "Reported talks to raise $100 to $120 million in 2026. The last confirmed round in 2024 valued it at about $750 million. It claims EBITDA profitability; no IPO planned within 24 months."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Pocket FM publishes audio series in English, Hindi, Tamil, Telugu, Bengali and other languages. Listeners pay per episode with coins or buy passes, and free listeners can unlock episodes by watching ads. It finds what stories work using data, and now uses its own AI models to write and voice most new content.",
+      "howItWorks": [
+        "Listeners pick a series from a feed of genres like romance, thriller and fantasy.",
+        "The first few episodes are free; after that each episode needs coins.",
+        "Coins are bought in packs; some episodes unlock free by watching an ad or waiting.",
+        "Each episode ends on a cliffhanger to keep people listening.",
+        "Writers and narrators earn from hits; Pocket FM says creators earned over ₹300 crore.",
+        "In-house AI models write drafts, voice stories and translate them into new languages."
+      ],
+      "valueProposition": "For listeners: endless gripping stories to hear while commuting, cooking or falling asleep, paid in small amounts. For Pocket FM: a pay-per-episode model that earns more per hour than ads or flat subscriptions."
+    },
+    "personas": [
+      {
+        "name": "The US romance listener",
+        "description": "A 38-year-old nurse in Ohio who listens to werewolf and billionaire romance series on night shifts.",
+        "goals": [
+          "Keep the story going without stopping",
+          "Escape after a long day"
+        ],
+        "frustrations": [
+          "Spending $50 or more a week on coins",
+          "Coins used up by autoplay or sleep timer issues"
+        ]
+      },
+      {
+        "name": "The Hindi commuter",
+        "description": "A 27-year-old in Indore who listens to horror and thriller stories on the bus.",
+        "goals": [
+          "Entertainment in Hindi on a cheap data plan",
+          "Free episodes daily"
+        ],
+        "frustrations": [
+          "Paywall after a few episodes",
+          "Stories that drag on too long"
+        ]
+      },
+      {
+        "name": "The aspiring writer",
+        "description": "A 24-year-old in Lucknow who writes stories for Pocket FM's writer programme.",
+        "goals": [
+          "Earn from writing",
+          "Get a hit show"
+        ],
+        "frustrations": [
+          "Pay depends on hits",
+          "AI may replace human writers"
+        ]
+      },
+      {
+        "name": "The bedtime listener",
+        "description": "A 45-year-old homemaker in Chennai who plays Tamil stories as she falls asleep.",
+        "goals": [
+          "Calm, long stories",
+          "Sleep timer"
+        ],
+        "frustrations": [
+          "Episodes keep playing and using coins after she sleeps",
+          "Repetitive AI voices"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Long stories in books need focus and free hands.",
+        "howSolved": "Audio stories you can hear while doing other things.",
+        "severity": "high"
+      },
+      {
+        "pain": "TV soap operas need a screen and fixed time.",
+        "howSolved": "Episodes on demand on a phone, any time.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Audiobooks are expensive upfront.",
+        "howSolved": "Pay per episode in small amounts, with many free.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Not much entertainment in Indian languages for audio.",
+        "howSolved": "Stories in many Indian languages.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Writers struggle to earn from fiction in India.",
+        "howSolved": "Writer programme with shared earnings from hits.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Pay-per-episode coins",
+        "whatItDoes": "Listeners buy coins and spend them to unlock episodes.",
+        "whyItMatters": "The main money engine: small payments that add up to big totals per listener."
+      },
+      {
+        "feature": "Free episodes and ad unlocks",
+        "whatItDoes": "First episodes free, and some unlocks by watching ads.",
+        "whyItMatters": "Hooks listeners before asking them to pay."
+      },
+      {
+        "feature": "Cliffhanger episode design",
+        "whatItDoes": "Short episodes ending on suspense.",
+        "whyItMatters": "Drives the next unlock and daily habit."
+      },
+      {
+        "feature": "AI content engine",
+        "whatItDoes": "In-house AI writes, voices and translates stories.",
+        "whyItMatters": "Cuts production cost about 80 times and allows fast launches in new markets."
+      },
+      {
+        "feature": "Writer and creator programme",
+        "whatItDoes": "Writers and narrators earn from their stories.",
+        "whyItMatters": "Supplies new ideas and hits."
+      },
+      {
+        "feature": "Pocket Saga",
+        "whatItDoes": "Sister app with fully AI-made content.",
+        "whyItMatters": "Tests a cheaper, AI-only model; about $15 million run rate after three months."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First listen to first payment",
+        "persona": "The US romance listener",
+        "steps": [
+          {
+            "step": "Sees an ad",
+            "detail": "A Facebook or TikTok ad plays a dramatic clip."
+          },
+          {
+            "step": "Installs",
+            "detail": "Opens the app straight to the show."
+          },
+          {
+            "step": "Listens free",
+            "detail": "Listens to the first 30 or so free episodes."
+          },
+          {
+            "step": "Hits paywall",
+            "detail": "The next episode needs coins."
+          },
+          {
+            "step": "Buys coins",
+            "detail": "Buys a coin pack, for example around $5 to $10."
+          },
+          {
+            "step": "Keeps unlocking",
+            "detail": "Unlocks episodes every day and buys more coins."
+          }
+        ]
+      },
+      {
+        "name": "Free listener in India",
+        "persona": "The Hindi commuter",
+        "steps": [
+          {
+            "step": "Finds the app",
+            "detail": "Sees an Instagram ad for a horror show."
+          },
+          {
+            "step": "Listens",
+            "detail": "Hears free episodes on the bus."
+          },
+          {
+            "step": "Watches ads",
+            "detail": "Unlocks some episodes by watching ads."
+          },
+          {
+            "step": "Tries a pass",
+            "detail": "Buys a small pack by UPI."
+          },
+          {
+            "step": "Returns daily",
+            "detail": "Comes back each day for new episodes."
+          }
+        ]
+      },
+      {
+        "name": "Writer to hit",
+        "persona": "The aspiring writer",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Joins the writer programme."
+          },
+          {
+            "step": "Submits",
+            "detail": "Writes chapters of a story."
+          },
+          {
+            "step": "Story produced",
+            "detail": "Story is voiced with AI or narrators."
+          },
+          {
+            "step": "Data test",
+            "detail": "Pocket FM tests it with listeners."
+          },
+          {
+            "step": "Earns",
+            "detail": "Earns from listens if it becomes a hit."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Pocket FM makes most of its money from listeners paying to unlock episodes, about $415 million of its $500 million run rate, with the rest from ads. The US brings in about 70% of revenue because American listeners pay much more per episode than Indian listeners. AI has made content cheap, so most money now goes on marketing to find new listeners.",
+      "revenueStreams": [
+        {
+          "stream": "Pay-per-episode coins",
+          "detail": "Listeners buy coin packs to unlock episodes, the biggest stream."
+        },
+        {
+          "stream": "Passes and subscriptions",
+          "detail": "Daily, weekly or monthly passes for unlimited or bundled episodes in some markets."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Ads to unlock episodes and in-app ads, about $85 million a year."
+        },
+        {
+          "stream": "IP licensing",
+          "detail": "Selling rights to hit stories for books, comics or video, a smaller stream."
+        }
+      ],
+      "pricing": "Free episodes, then coins. Coin pack prices vary by country; in the US a single episode often costs well under a dollar, and in India a few rupees. Prices are shown in the app.",
+      "costDrivers": [
+        "Marketing on Meta, Google and TikTok to find listeners",
+        "Writer and narrator payouts",
+        "AI computing for writing, voices and translation",
+        "App store fees of up to 30%",
+        "Staff"
+      ],
+      "unitEconomics": "Take a US listener who spends $20 a month on coins. Apple or Google may take up to $6. Writer and narrator payouts and AI costs take another few dollars. The biggest cost is the ad spend to find that listener in the first place, often tens of dollars. If the listener stays and keeps paying for several months, Pocket FM makes a profit. If they leave after the free episodes, it loses the marketing cost. Indian listeners pay much less, so the US funds the business."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Performance ads on Meta, Google and TikTok",
+        "Trailers of hit shows",
+        "Word of mouth",
+        "Launching shows in new languages with AI"
+      ],
+      "whatBringsUsersBack": [
+        "Daily cliffhangers",
+        "New episodes every day",
+        "Very long series",
+        "Push notifications for new episodes"
+      ],
+      "moat": "Pocket FM has years of data on what stories keep listeners paying, plus its own AI models trained on that data. It has a large catalogue of hits. But micro-drama and audio rivals can copy the model, so data and speed are its main edge."
+    },
+    "competitors": [
+      {
+        "name": "Kuku FM",
+        "positioning": "Indian audio and micro-drama app with a subscription model.",
+        "howThisProductDiffers": "Pocket FM earns more in the US; Kuku FM is stronger on subscriptions and video micro-dramas in India."
+      },
+      {
+        "name": "Audible",
+        "positioning": "Amazon's audiobook store.",
+        "howThisProductDiffers": "Pocket FM sells long serial stories episode by episode; Audible sells whole books by credit."
+      },
+      {
+        "name": "Spotify audiobooks",
+        "positioning": "Audiobooks inside Spotify Premium.",
+        "howThisProductDiffers": "Pocket FM has made-for-audio serials designed for daily habit."
+      },
+      {
+        "name": "ReelShort and DramaBox",
+        "positioning": "Paid short video dramas in the US.",
+        "howThisProductDiffers": "Pocket FM is audio-first; video dramas compete for the same spend."
+      },
+      {
+        "name": "Webnovel and Wattpad",
+        "positioning": "Serial stories to read.",
+        "howThisProductDiffers": "Pocket FM is audio, for hands-free listening."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly paid episodes listened per active listener",
+      "why": "As a north star metric, it shows listeners value the story enough to pay for the next part, which drives revenue and shows real engagement."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active listeners",
+        "description": "People who listen each week.",
+        "children": [
+          {
+            "metric": "New installs from ads",
+            "description": "Listeners found through marketing."
+          },
+          {
+            "metric": "Day-7 retention",
+            "description": "New listeners still listening after a week."
+          },
+          {
+            "metric": "Cost to acquire a listener",
+            "description": "Marketing spend per new listener."
+          }
+        ]
+      },
+      {
+        "metric": "Paying listeners",
+        "description": "Listeners who buy coins.",
+        "children": [
+          {
+            "metric": "Free-to-paid conversion",
+            "description": "Share who pay after free episodes."
+          },
+          {
+            "metric": "Repeat purchase rate",
+            "description": "Payers who buy again within a month."
+          }
+        ]
+      },
+      {
+        "metric": "Episodes per payer",
+        "description": "Paid episodes per paying listener.",
+        "children": [
+          {
+            "metric": "Episode completion rate",
+            "description": "Share of episodes listened to the end."
+          },
+          {
+            "metric": "Series completion rate",
+            "description": "Share who finish a series."
+          }
+        ]
+      },
+      {
+        "metric": "Content hits",
+        "description": "Number of shows earning well.",
+        "children": [
+          {
+            "metric": "New titles launched",
+            "description": "Fresh stories each month."
+          },
+          {
+            "metric": "Hit rate",
+            "description": "Share of new titles that earn back costs."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Refund requests and complaints about coin spending",
+      "App store rating",
+      "Share of listeners who say AI voices sound poor",
+      "Payer churn"
+    ],
+    "strengths": [
+      "$500 million run rate and claimed EBITDA profit",
+      "Strong US business",
+      "AI made content far cheaper",
+      "Large catalogue of hits"
+    ],
+    "weaknesses": [
+      "Depends on heavy paid marketing",
+      "Complaints about high spending on coins",
+      "AI content may lower quality",
+      "Low revenue per user in India"
+    ],
+    "risks": [
+      "Rules on in-app spending and dark patterns",
+      "App store fee changes",
+      "Rivals copying the model",
+      "Listener backlash against AI content"
+    ],
+    "userComplaints": [
+      "Coins are expensive; a single story can cost hundreds or thousands",
+      "Coins used up by autoplay after falling asleep",
+      "Stories drag on for too many episodes",
+      "AI voices sound flat",
+      "Hard to get refunds"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Sleep-safe autoplay: stop paid unlocks when the sleep timer ends.",
+        "problem": "Users lose coins after falling asleep.",
+        "expectedImpact": "Fewer refunds and complaints.",
+        "metricToTrack": "Refund requests per 1,000 payers",
+        "effort": "low"
+      },
+      {
+        "idea": "Show the total cost to finish a series upfront, with a full-series price.",
+        "problem": "Users feel tricked by costs.",
+        "expectedImpact": "More trust and higher conversion.",
+        "metricToTrack": "Free-to-paid conversion",
+        "effort": "low"
+      },
+      {
+        "idea": "Monthly spending cap setting.",
+        "problem": "Overspending complaints.",
+        "expectedImpact": "More trust and longer retention.",
+        "metricToTrack": "Payer churn after 3 months",
+        "effort": "low"
+      },
+      {
+        "idea": "Human-narrated premium tier for top hits.",
+        "problem": "AI voices feel flat.",
+        "expectedImpact": "Higher satisfaction.",
+        "metricToTrack": "Episode completion rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Win-back offer: a free 'catch-up' bundle of 10 episodes for listeners who stopped mid-series 14 days ago.",
+        "problem": "Paid marketing is the biggest cost, so losing a listener halfway wastes that spend.",
+        "expectedImpact": "More lapsed listeners return without new ad spend.",
+        "metricToTrack": "Share of lapsed listeners who resume within 30 days",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Small payments add up. Pocket FM shows that charging a little per episode can earn more than ads or a flat fee, if each episode ends with a reason to continue.",
+      "Follow the money, not the users. Its listeners are mostly Indian, but its revenue is mostly American.",
+      "AI can cut content cost about 80 times, but quality and trust must hold, or listeners stop paying.",
+      "When growth depends on paid ads, retention decides profit. A listener who leaves after the free episodes is a loss."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why does Pocket FM earn about 70% of its money in the US when it started in India?",
+        "hint": "Compare willingness to pay, card and app store payments, price per episode and ad rates in each market. Show revenue per listener, not users, decides where money comes from. Then say what this means for where to invest."
+      },
+      {
+        "question": "Users complain about overspending on coins. How would you fix this without killing revenue?",
+        "hint": "Separate healthy heavy users from regretful ones. Propose caps, clear series prices and sleep-safe autoplay. Track refunds and ratings as guardrails, and long-term payer retention as the win."
+      },
+      {
+        "question": "AI now makes 99% of new content. What are the risks and how would you manage them?",
+        "hint": "List risks: quality, sameness, listener trust, writer supply, rules on AI labels. Propose quality checks, human review of hits and labels. Measure completion and ratings of AI versus human shows."
+      },
+      {
+        "question": "Design the pricing for a new audio series market, such as Brazil.",
+        "hint": "Compare per-episode coins, passes and subscriptions. Consider local payment methods and price levels. Pick one to test first and set conversion, revenue per payer and churn as metrics."
+      },
+      {
+        "question": "How would you decide within two weeks if a new show is a hit?",
+        "hint": "Use early signals: day-1 completion, share of listeners reaching the paywall, free-to-paid conversion and repeat unlocks. Compare to past hits and set a threshold for more marketing."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Annualised revenue run rate (ARR)",
+        "meaning": "Current monthly revenue times 12, to show yearly size."
+      },
+      {
+        "term": "EBITDA",
+        "meaning": "Profit before interest, taxes and wear on equipment."
+      },
+      {
+        "term": "Free-to-paid conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who stop paying."
+      },
+      {
+        "term": "Dark patterns",
+        "meaning": "Designs that trick users into spending or doing things they did not intend."
+      }
+    ],
+    "assumptions": [
+      "Episode prices are approximate.",
+      "Marketing cost per listener is an estimate.",
+      "Paying user count is not public.",
+      "EBITDA profit is a company claim."
+    ]
+  }
+}

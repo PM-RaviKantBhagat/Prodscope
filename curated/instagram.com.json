@@ -1,0 +1,407 @@
+{
+  "company": "Instagram",
+  "domain": "instagram.com",
+  "website": "https://www.instagram.com",
+  "sources": [
+    "https://www.storyboard18.com/advertising/instagram-hits-3-billion-monthly-users-new-ai-driven-ad-model-lifts-conversions-by-2-83403.htm",
+    "https://news.designrush.com/instagram-tops-3-billion-users-targets-tiktok-with-video-first-moves",
+    "https://techcrunch.com/2025/10/14/instagram-defaults-to-pg-13-content-for-teens-adds-more-parental-controls",
+    "https://about.fb.com/news/2026/04/instagram-expands-teen-accounts-inspired-by-13-content-ratings-2/",
+    "https://ppc.land/instagram-brings-13-content-ratings-and-limited-content-setting-to-india/",
+    "https://www.socialpilot.co/instagram-marketing/instagram-stats"
+  ],
+  "report": {
+    "company": "Instagram",
+    "tagline": "Meta's photo and short video app, where 3 billion people share posts, Stories and Reels and message friends.",
+    "category": "Social media",
+    "simpleSummary": "Instagram is an app for sharing photos and short videos with friends and followers. You scroll a feed, watch Reels (short vertical videos), view Stories that vanish after 24 hours, and chat in DMs. It is free. Meta, which owns it, makes money by showing ads between posts and Reels, targeted to what each person likes.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "3 billion+",
+        "note": "Announced by Meta in September 2025. Storyboard18, DesignRush."
+      },
+      {
+        "label": "India users",
+        "value": "About 400 million+, the largest country",
+        "note": "Estimate from third-party ad reach data (SocialPilot and similar), 2025 to 2026."
+      },
+      {
+        "label": "Annual ad revenue",
+        "value": "About $70 billion+ (2025)",
+        "note": "Analyst estimate. Meta does not report Instagram revenue separately; Meta's total 2025 ad revenue was close to $200 billion."
+      },
+      {
+        "label": "Teen accounts",
+        "value": "Default PG-13 style content limits for under-18s",
+        "note": "Launched October 2025, expanded to India and more countries in April 2026. TechCrunch, Meta newsroom."
+      },
+      {
+        "label": "Age",
+        "value": "Founded 2010, bought by Facebook in 2012 for $1 billion",
+        "note": "Widely reported history."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Instagram lets people post photos and videos, watch content from friends, creators and brands, and message each other. Over time it has added Stories (2016), Reels (2020), Threads integration (2023) and many AI features. It is mostly a video and messaging app now, with a feed driven by recommendations.",
+      "howItWorks": [
+        "Users follow friends, creators and brands, and the algorithm also recommends content they might like.",
+        "People post to the feed, share Stories for 24 hours, make Reels, and send DMs.",
+        "The algorithm ranks content using what you watch, like, share and save.",
+        "Advertisers pay Meta to show ads in feed, Stories, Reels and Explore, targeted by interests.",
+        "Creators earn through brand deals, subscriptions, gifts and bonus programmes."
+      ],
+      "valueProposition": "For users: stay close to friends and discover fun videos in one app. For businesses: reach almost anyone with targeted ads and shoppable posts."
+    },
+    "personas": [
+      {
+        "name": "College student in India",
+        "description": "A 19-year-old in Delhi who watches Reels for hours and DMs friends memes.",
+        "goals": [
+          "Entertainment",
+          "Stay in touch with friends",
+          "Grow followers"
+        ],
+        "frustrations": [
+          "Too many ads",
+          "Algorithm hiding friends' posts"
+        ]
+      },
+      {
+        "name": "Creator",
+        "description": "A fitness creator with 200,000 followers who earns from brand deals.",
+        "goals": [
+          "Reach and engagement",
+          "Steady income"
+        ],
+        "frustrations": [
+          "Reach drops without warning",
+          "Weak direct pay compared to YouTube"
+        ]
+      },
+      {
+        "name": "Small business owner",
+        "description": "A clothing brand in Jaipur selling through Instagram DMs and ads.",
+        "goals": [
+          "Cheap customers",
+          "Easy selling through DMs and WhatsApp"
+        ],
+        "frustrations": [
+          "Rising ad costs",
+          "Hacked accounts and poor support"
+        ]
+      },
+      {
+        "name": "Parent of a teen",
+        "description": "A parent worried about what their 14-year-old sees.",
+        "goals": [
+          "Safe content",
+          "Screen time controls"
+        ],
+        "frustrations": [
+          "Not sure what the filters block",
+          "Teens lying about age"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Keeping up with friends' lives in one place.",
+        "howSolved": "Feed, Stories and DMs.",
+        "severity": "high"
+      },
+      {
+        "pain": "Boredom in spare minutes.",
+        "howSolved": "Endless Reels recommended by AI.",
+        "severity": "high"
+      },
+      {
+        "pain": "Small businesses need cheap ways to reach buyers.",
+        "howSolved": "Targeted ads and business profiles with DMs.",
+        "severity": "high"
+      },
+      {
+        "pain": "Creators need an audience.",
+        "howSolved": "Recommendations can push creators to millions of non-followers.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Parents fear harmful content for teens.",
+        "howSolved": "Teen Accounts with PG-13 style limits, time limits and parental supervision.",
+        "severity": "high"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Reels",
+        "whatItDoes": "Short vertical videos ranked by AI, launched in 2020 to compete with TikTok.",
+        "whyItMatters": "Biggest driver of time spent and ad growth. In India it filled the gap after TikTok was banned in 2020."
+      },
+      {
+        "feature": "Stories",
+        "whatItDoes": "Photos and videos that disappear after 24 hours, copied from Snapchat in 2016.",
+        "whyItMatters": "Daily habit for sharing casual moments and a major ad slot."
+      },
+      {
+        "feature": "Direct messages",
+        "whatItDoes": "Private chats, often for sharing Reels with friends.",
+        "whyItMatters": "Sharing in DMs is now a key signal for the algorithm and keeps friends engaged."
+      },
+      {
+        "feature": "Explore and recommendations",
+        "whatItDoes": "Shows content from accounts you do not follow.",
+        "whyItMatters": "Helps discovery and keeps the feed full."
+      },
+      {
+        "feature": "Teen Accounts",
+        "whatItDoes": "Private by default, PG-13 style content filters, sleep mode and parental controls.",
+        "whyItMatters": "Reduces regulatory risk and builds parents' trust."
+      },
+      {
+        "feature": "Ads and Shopping",
+        "whatItDoes": "Ads in every surface, plus product tags and click-to-message ads.",
+        "whyItMatters": "The money engine."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "New user's first week",
+        "persona": "College student in India",
+        "steps": [
+          {"step": "Signs up", "detail": "Uses phone number, syncs contacts."},
+          {"step": "Follows friends", "detail": "Gets suggestions from contacts and Facebook."},
+          {"step": "Watches Reels", "detail": "Algorithm learns from what they watch."},
+          {"step": "Posts a Story", "detail": "Shares a photo from college."},
+          {"step": "DMs a Reel", "detail": "Sends a funny Reel to a friend."},
+          {"step": "Comes back daily", "detail": "Notifications for likes and messages bring them back."}
+        ]
+      },
+      {
+        "name": "Small business runs an ad",
+        "persona": "Small business owner",
+        "steps": [
+          {"step": "Creates business profile", "detail": "Switches to a professional account."},
+          {"step": "Boosts a post", "detail": "Pays ₹500 to boost a Reel."},
+          {"step": "Targets", "detail": "Chooses women 18 to 35 in Rajasthan."},
+          {"step": "Gets DMs", "detail": "Customers message to order."},
+          {"step": "Sells", "detail": "Closes the sale on DM or WhatsApp."},
+          {"step": "Repeats", "detail": "Spends more if the ad works."}
+        ]
+      },
+      {
+        "name": "Parent sets up a teen account",
+        "persona": "Parent of a teen",
+        "steps": [
+          {"step": "Teen signs up", "detail": "Teen account is automatic for under-18s."},
+          {"step": "Parent links", "detail": "Parent sets up supervision."},
+          {"step": "Sets limits", "detail": "Chooses time limits and sleep mode."},
+          {"step": "Checks content setting", "detail": "Keeps PG-13 style default or stricter Limited Content."},
+          {"step": "Reviews contacts", "detail": "Sees who the teen messages."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Instagram makes almost all its money from ads. Every time users scroll, Meta can show a targeted ad. More users and more time spent means more ad slots, and better targeting means advertisers pay more for each one.",
+      "revenueStreams": [
+        {"stream": "Feed and Stories ads", "detail": "Ads between posts and Stories."},
+        {"stream": "Reels ads", "detail": "Ads between short videos, the fastest growing slot."},
+        {"stream": "Click-to-message ads", "detail": "Ads that open a DM or WhatsApp chat with a business, big in India."},
+        {"stream": "Meta Verified and subscriptions", "detail": "Paid verification and creator subscriptions, a small share."}
+      ],
+      "pricing": "Free for users. Ads are bought in an auction; small businesses can start with a few hundred rupees.",
+      "costDrivers": [
+        "Data centres and AI for recommendations",
+        "Content moderation and safety staff",
+        "Engineers and product teams",
+        "Creator bonuses",
+        "Legal and regulatory costs"
+      ],
+      "unitEconomics": "Rough estimate. Meta earns very different amounts per user by region. A US user might be worth well over $60 a year in ads across Meta apps, while an Indian user might be worth only a few dollars. If Instagram earned about $70 billion from about 3 billion users, that is roughly $23 per user per year on average. Serving a user costs much less than that, mainly servers and moderation, so each extra user is very profitable, especially in rich markets."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Friends inviting friends and contact syncing",
+        "Cross-promotion from Facebook and WhatsApp",
+        "Creators bringing their fans",
+        "Being the default social app among young people in India"
+      ],
+      "whatBringsUsersBack": [
+        "Notifications for likes, comments and DMs",
+        "Endless Reels",
+        "Stories from friends every day",
+        "Sharing Reels in DMs"
+      ],
+      "moat": "Instagram has 3 billion users and the social graph of who follows whom, which is very hard to copy. Its ad system, powered by Meta's AI and data, gives advertisers better results than most rivals. And Meta has shown it can copy rivals' best features, like Stories and Reels, quickly."
+    },
+    "competitors": [
+      {
+        "name": "TikTok",
+        "positioning": "Short video leader with a powerful recommendation algorithm.",
+        "howThisProductDiffers": "Instagram combines short video with friends, Stories and DMs. TikTok is banned in India, which helped Reels."
+      },
+      {
+        "name": "YouTube Shorts",
+        "positioning": "Short videos inside YouTube with strong creator pay.",
+        "howThisProductDiffers": "Instagram is more social; YouTube pays creators better."
+      },
+      {
+        "name": "Snapchat",
+        "positioning": "Camera and messaging app for close friends.",
+        "howThisProductDiffers": "Instagram is bigger and more public; Snapchat is more private."
+      },
+      {
+        "name": "Moj and Josh (India)",
+        "positioning": "Indian short video apps for regional languages.",
+        "howThisProductDiffers": "Instagram has the bigger brand and ad system."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily active users who share or send content (posts, Stories, Reels or DMs)",
+      "why": "This north star tracks people who are actively connecting and creating, not just watching, which is what keeps the network alive and sets Instagram apart from pure video apps."
+    },
+    "kpiTree": [
+      {
+        "metric": "Daily active users",
+        "description": "People opening Instagram each day.",
+        "children": [
+          {"metric": "New user activation", "description": "New users who follow 10+ accounts in week one."},
+          {"metric": "Day 30 retention", "description": "New users active after a month."},
+          {"metric": "Resurrected users", "description": "Lapsed users coming back."}
+        ]
+      },
+      {
+        "metric": "Sharing rate",
+        "description": "Share of daily users who post or send something.",
+        "children": [
+          {"metric": "Story posting rate", "description": "Users posting Stories."},
+          {"metric": "Reels shared in DMs", "description": "Reels sent to friends."},
+          {"metric": "Feed posts per user", "description": "Posts per active user."}
+        ]
+      },
+      {
+        "metric": "Time spent with value",
+        "description": "Meaningful time in the app.",
+        "children": [
+          {"metric": "Reels watch time", "description": "Minutes watched."},
+          {"metric": "Friends content share", "description": "Share of feed from people you know."},
+          {"metric": "Satisfaction surveys", "description": "Users rating time as worthwhile."}
+        ]
+      },
+      {
+        "metric": "Ad value",
+        "description": "Money from ads without hurting experience.",
+        "children": [
+          {"metric": "Ad load", "description": "Ads per 100 posts."},
+          {"metric": "Ad click-through rate", "description": "Share of ads clicked."},
+          {"metric": "Advertiser return", "description": "Sales per rupee spent."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Teen safety reports",
+      "Harmful content prevalence",
+      "Daily active users after ad load changes",
+      "Hacked account rate"
+    ],
+    "strengths": [
+      "3 billion users and a strong social graph",
+      "Best-in-class ad targeting from Meta",
+      "Fast feature copying (Stories, Reels)",
+      "Huge in India, its largest market"
+    ],
+    "weaknesses": [
+      "Users complain the app is cluttered and full of ads",
+      "Friends' posts get buried under recommended content",
+      "Creator pay is weaker than YouTube",
+      "Support for hacked or banned accounts is poor"
+    ],
+    "risks": [
+      "Teen safety laws and lawsuits in the US, UK, EU and India",
+      "TikTok and YouTube Shorts competing for young users",
+      "Ad targeting limits from privacy rules",
+      "US antitrust case against Meta over buying Instagram"
+    ],
+    "userComplaints": [
+      "Too many ads and suggested posts",
+      "Friends' posts hidden by the algorithm",
+      "Hacked accounts and no human support",
+      "Addictive design and screen time",
+      "Sudden reach drops for creators"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "A one-tap 'Friends only' feed option that stays on",
+        "problem": "Users miss friends' posts.",
+        "expectedImpact": "Higher satisfaction and more posting.",
+        "metricToTrack": "Sharing rate and friend content share",
+        "effort": "low"
+      },
+      {
+        "idea": "Human account recovery for verified Indian small businesses",
+        "problem": "Hacked business accounts lose income and trust.",
+        "expectedImpact": "Higher advertiser retention.",
+        "metricToTrack": "Time to recover hacked accounts",
+        "effort": "medium"
+      },
+      {
+        "idea": "Creator revenue share on Reels in India",
+        "problem": "Creators move to YouTube for pay.",
+        "expectedImpact": "More content and creator loyalty.",
+        "metricToTrack": "Creator retention and Reels uploads",
+        "effort": "high"
+      },
+      {
+        "idea": "Regional language Reels discovery",
+        "problem": "Many Indian users prefer Hindi, Tamil or Bengali content.",
+        "expectedImpact": "Growth in smaller cities.",
+        "metricToTrack": "Daily active users in tier 2 and 3 cities",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Copying can work if you add your own strength. Stories and Reels succeeded because Instagram already had the users.",
+      "In social apps, sharing is the life force, not just watching.",
+      "Safety features can be product features that build trust with parents and regulators.",
+      "Ads must be balanced against experience; too many can slowly drive users away."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you measure the success of Teen Accounts?",
+        "hint": "Define goals (safety, trust), choose metrics (harmful content views, parent adoption), add guardrails (teen retention), and discuss trade-offs."
+      },
+      {
+        "question": "Instagram wants more people to post, not just watch. What would you build?",
+        "hint": "Find why people do not post (fear, effort), suggest low-pressure formats, track sharing rate."
+      },
+      {
+        "question": "Should Instagram show more ads in Reels?",
+        "hint": "Model revenue per extra ad against time spent loss, run A/B tests by market, use guardrails."
+      },
+      {
+        "question": "What is Instagram's north star?",
+        "hint": "Daily active sharers, broken into users, sharing rate, time spent with value and ad value."
+      },
+      {
+        "question": "How would you compete with YouTube for Indian creators?",
+        "hint": "Compare pay, reach and tools; suggest revenue share or brand deal tools; track creator retention."
+      }
+    ],
+    "glossary": [
+      {"term": "Monthly active users", "meaning": "People who use the app at least once in a month."},
+      {"term": "Daily active users", "meaning": "People who use the app at least once in a day."},
+      {"term": "Algorithm", "meaning": "The computer rules that decide which posts each person sees."},
+      {"term": "Social graph", "meaning": "The map of who follows or is friends with whom."},
+      {"term": "Ad load", "meaning": "How many ads appear compared to normal posts."},
+      {"term": "Retention", "meaning": "How many users keep using the app over time."},
+      {"term": "Click-through rate", "meaning": "The share of people who click an ad after seeing it."},
+      {"term": "Activation", "meaning": "When a new user does the key actions that make them likely to stay."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that users are getting value."},
+      {"term": "Guardrails", "meaning": "Metrics that must not get worse while the team improves the main one."}
+    ],
+    "assumptions": [
+      "Instagram revenue is an analyst estimate; Meta does not split it out.",
+      "India user count is an estimate from ad reach data.",
+      "Revenue per user figures are rough averages."
+    ]
+  }
+}

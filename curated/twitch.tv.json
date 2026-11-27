@@ -1,0 +1,532 @@
+{
+  "company": "Twitch",
+  "domain": "twitch.tv",
+  "website": "https://twitch.tv",
+  "sources": [
+    "https://streamscharts.com/news/q2-2026-global-livestreaming-landscape",
+    "https://streamscharts.com/news/livestreaming-platforms-dynamics-2025-youtube-live-strengthens-positions-twitch-viewership-down-10",
+    "https://streamlabs.com/content-hub/post/streamlabs-and-hatchet-q2-2026-live-streaming-report",
+    "https://tribune.com.pk/story/2592751/twitch-responds-to-kick-over-7030-subscription-split-dispute",
+    "https://www.nme.com/news/twitch-responds-to-revenue-split-backlash-says-70-30-is-simply-is-not-viable-3326524",
+    "https://techcrunch.com/2023/06/15/twitch-partner-plus",
+    "https://www.midiaresearch.com/blog/are-prime-gaming-subscriptions-the-drug-that-twitch-cannot-live-without"
+  ],
+  "report": {
+    "company": "Twitch",
+    "tagline": "Amazon's live streaming site where gamers and other creators broadcast live and fans chat, subscribe and tip in real time.",
+    "category": "Live streaming",
+    "simpleSummary": "Twitch is a website and app where people stream live, mostly playing video games, but also chatting, cooking or making music. Viewers watch for free and talk with the streamer and each other in a live chat. Fans can pay a monthly subscription to a streamer or send 'Bits', which are small tips. Twitch and the streamer share that money, and Twitch also shows ads.",
+    "keyNumbers": [
+      {
+        "label": "Twitch vs Kick hours watched, Q2 2026",
+        "value": "Twitch about 3 times Kick, down from nearly 5 times a year earlier",
+        "note": "Streams Charts Q2 2026 report. Shows how fast Kick is catching up."
+      },
+      {
+        "label": "Total live streaming market, Q2 2026",
+        "value": "31.4 billion hours watched; YouTube has 49.5%",
+        "note": "Streams Charts Q2 2026. Twitch's hours were flat versus Q1."
+      },
+      {
+        "label": "Twitch hours watched per quarter",
+        "value": "About 4 to 5 billion hours (estimate)",
+        "note": "Weak estimate based on 2025 quarterly figures from Streams Charts and Stream Hatchet, after a 10% decline in 2025."
+      },
+      {
+        "label": "Peak concurrent viewers, 2026",
+        "value": "Over 4.4 million (Summer Game Fest, June 2026)",
+        "note": "Streams Charts Q2 2026, its best peak in 11 months."
+      },
+      {
+        "label": "Streamer subscription split",
+        "value": "50/50 standard; 70/30 up to the first $100,000 for Partner Plus",
+        "note": "Twitch policy since 2023; Twitch said in 2026 that 70/30 for everyone 'is not viable'. Kick offers 95/5."
+      },
+      {
+        "label": "US Tier 1 subscription",
+        "value": "$5.99 a month",
+        "note": "Twitch's standard US price; cheaper regional prices apply in India and other countries."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Twitch hosts live broadcasts from millions of creators and lets fans watch, chat and pay creators. It makes money from subscriptions, Bits and ads, and shares that money with streamers. It is owned by Amazon and linked to Prime Gaming, which gives one free subscription a month.",
+      "howItWorks": [
+        "Anyone can stream with software like OBS or the Twitch app.",
+        "Viewers watch free and chat live; streamers react to chat in real time.",
+        "Fans subscribe monthly at three tiers, or gift subs to others.",
+        "Bits are bought by viewers and cheered in chat; streamers earn about 1 cent per Bit.",
+        "Ads run before and during streams; streamers can choose how many to run.",
+        "Prime Gaming members get one free sub a month to give to a streamer."
+      ],
+      "valueProposition": "For viewers: live, interactive entertainment and a sense of community with favourite streamers. For streamers: tools and an audience to earn a living from live content."
+    },
+    "personas": [
+      {
+        "name": "The loyal community viewer",
+        "description": "A 20-year-old in Texas who watches the same three streamers every night and subscribes to one.",
+        "goals": [
+          "Hang out with the community",
+          "Be noticed in chat"
+        ],
+        "frustrations": [
+          "Too many ads mid-stream",
+          "Favourite streamer moving to Kick or YouTube"
+        ]
+      },
+      {
+        "name": "The full-time streamer",
+        "description": "A mid-size streamer with 2,000 average viewers who earns from subs, Bits and sponsorships.",
+        "goals": [
+          "Grow viewers and stable income",
+          "Keep more of each sub"
+        ],
+        "frustrations": [
+          "50/50 split",
+          "Hard to be discovered",
+          "Policy and ban confusion"
+        ]
+      },
+      {
+        "name": "The new small streamer",
+        "description": "A 17-year-old in India who streams BGMI or Valorant to 5 viewers.",
+        "goals": [
+          "Get first followers and reach Affiliate",
+          "Be found"
+        ],
+        "frustrations": [
+          "No discovery for small channels",
+          "Low regional pricing means little money"
+        ]
+      },
+      {
+        "name": "The esports fan",
+        "description": "A 25-year-old who watches big tournaments like Valorant Champions and Counter-Strike majors.",
+        "goals": [
+          "Watch live with co-streamers and chat",
+          "Catch highlights"
+        ],
+        "frustrations": [
+          "Many events moving to YouTube",
+          "Stream quality during peaks"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Watching recorded videos feels less social than watching live.",
+        "howSolved": "Live chat with the streamer and other fans.",
+        "severity": "high"
+      },
+      {
+        "pain": "Creators need ways to earn from fans directly.",
+        "howSolved": "Subscriptions, Bits, gifted subs and ads.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fans want to support creators cheaply.",
+        "howSolved": "Prime Gaming free sub and low-cost Bits.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Gamers want to see how others play new games.",
+        "howSolved": "Live gameplay streams of new releases.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Big events are more fun when watched together.",
+        "howSolved": "Co-streaming and watch parties with chat.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Live chat and emotes",
+        "whatItDoes": "Real-time chat with custom channel emotes.",
+        "whyItMatters": "Creates the community feel that keeps viewers coming back."
+      },
+      {
+        "feature": "Subscriptions and gifted subs",
+        "whatItDoes": "Monthly support at three tiers; viewers can gift subs to others.",
+        "whyItMatters": "The main income for streamers and Twitch."
+      },
+      {
+        "feature": "Bits and Cheers",
+        "whatItDoes": "Viewers buy Bits and cheer to tip streamers in chat.",
+        "whyItMatters": "Small, frequent payments that add up."
+      },
+      {
+        "feature": "Partner Plus",
+        "whatItDoes": "A 70/30 sub split for top partners who meet monthly targets.",
+        "whyItMatters": "Helps keep top streamers from leaving to Kick or YouTube."
+      },
+      {
+        "feature": "Discovery feed and clips",
+        "whatItDoes": "Vertical feed of clips and live previews on mobile.",
+        "whyItMatters": "Helps new viewers find streamers, a long-time weakness."
+      },
+      {
+        "feature": "Prime Gaming link",
+        "whatItDoes": "Free monthly sub for Amazon Prime members.",
+        "whyItMatters": "A big source of sub revenue that rivals cannot match."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First visit to subscription",
+        "persona": "The loyal community viewer",
+        "steps": [
+          {
+            "step": "Finds a clip",
+            "detail": "Sees a funny Twitch clip on TikTok or X."
+          },
+          {
+            "step": "Watches live",
+            "detail": "Opens the stream and watches without an account."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Creates an account to chat."
+          },
+          {
+            "step": "Follows",
+            "detail": "Follows to get live notifications."
+          },
+          {
+            "step": "Uses Prime sub",
+            "detail": "Links Amazon Prime and gives a free sub."
+          },
+          {
+            "step": "Pays",
+            "detail": "After a few months, pays $5.99 for a sub and buys Bits."
+          }
+        ]
+      },
+      {
+        "name": "New streamer to Affiliate",
+        "persona": "The new small streamer",
+        "steps": [
+          {
+            "step": "Sets up",
+            "detail": "Installs OBS and connects to Twitch."
+          },
+          {
+            "step": "Streams",
+            "detail": "Streams 3 evenings a week."
+          },
+          {
+            "step": "Grows",
+            "detail": "Shares clips on Instagram and Discord."
+          },
+          {
+            "step": "Reaches Affiliate",
+            "detail": "Hits 50 followers and average viewers needed."
+          },
+          {
+            "step": "Turns on subs",
+            "detail": "Starts earning from subs and Bits."
+          },
+          {
+            "step": "Aims for Partner",
+            "detail": "Works toward Partner and better terms."
+          }
+        ]
+      },
+      {
+        "name": "Big event night",
+        "persona": "The esports fan",
+        "steps": [
+          {
+            "step": "Event starts",
+            "detail": "Tournament begins with official and co-streams."
+          },
+          {
+            "step": "Picks a co-streamer",
+            "detail": "Watches a favourite streamer react live."
+          },
+          {
+            "step": "Chats",
+            "detail": "Sends emotes and joins predictions."
+          },
+          {
+            "step": "Cheers",
+            "detail": "Cheers Bits at big moments."
+          },
+          {
+            "step": "Clips",
+            "detail": "Clips a highlight and shares it."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Twitch makes money from fan subscriptions, Bits and ads. It keeps a share of each sub and Bit, usually about half of subs, and pays the rest to streamers. Amazon owns Twitch and does not report its profit, but serving live video is expensive.",
+      "revenueStreams": [
+        {
+          "stream": "Subscriptions",
+          "detail": "Tier 1, 2 and 3 subs, gifted subs and Prime Gaming subs. Twitch keeps about 30% to 50%."
+        },
+        {
+          "stream": "Bits",
+          "detail": "Viewers buy Bits; Twitch keeps the margin above the 1 cent per Bit paid to streamers."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Pre-roll and mid-roll ads; streamers get a share."
+        },
+        {
+          "stream": "Sponsorships and events",
+          "detail": "Brand deals and TwitchCon."
+        }
+      ],
+      "pricing": "Free to watch. Subscriptions are $5.99, $9.99 and $24.99 a month in the US, with lower regional prices in India and other countries. Bits cost about $1.40 for 100.",
+      "costDrivers": [
+        "Live video bandwidth and servers",
+        "Payouts to streamers",
+        "Content moderation and safety",
+        "Payment and app store fees",
+        "Staff"
+      ],
+      "unitEconomics": "On a $5.99 US sub with a 50/50 split, the streamer gets about $3. Twitch keeps about $3, minus payment or app store fees. Live video costs more to serve than recorded video because it must be sent instantly. A viewer who never pays earns Twitch only a little from ads. So Twitch depends on a small share of paying fans, which is why the split fight with streamers matters."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Clips shared on TikTok, X and YouTube",
+        "Big streamers and events",
+        "Prime Gaming link",
+        "Games with Twitch drops"
+      ],
+      "whatBringsUsersBack": [
+        "Daily streams on a schedule",
+        "Community and chat",
+        "Live notifications",
+        "Drops and channel points"
+      ],
+      "moat": "Twitch has the biggest live chat culture, with emotes, raids and community habits built over a decade. Fans follow streamers, and many streamers have stayed for the community. But big streamers can leave for better deals, and fans often follow them."
+    },
+    "competitors": [
+      {
+        "name": "YouTube Live",
+        "positioning": "Live streaming inside YouTube, now about half of all live hours watched.",
+        "howThisProductDiffers": "Twitch has a stronger live chat culture; YouTube has better discovery and VODs."
+      },
+      {
+        "name": "Kick",
+        "positioning": "Streaming site with a 95/5 sub split and big creator deals.",
+        "howThisProductDiffers": "Twitch has a safer brand and more viewers; Kick pays streamers more."
+      },
+      {
+        "name": "TikTok LIVE",
+        "positioning": "Live streaming in TikTok, strong on mobile and gifts.",
+        "howThisProductDiffers": "Twitch is better for long gaming streams."
+      },
+      {
+        "name": "SOOP and CHZZK",
+        "positioning": "Korean streaming platforms.",
+        "howThisProductDiffers": "Twitch has global reach."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly hours watched live by logged-in viewers who chat or follow",
+      "why": "As a north star metric, it shows engaged community time, which leads to subs, Bits and ad views."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active viewers",
+        "description": "Logged-in viewers each week.",
+        "children": [
+          {
+            "metric": "New viewers from clips",
+            "description": "Sign-ups from shared clips."
+          },
+          {
+            "metric": "Week-4 retention",
+            "description": "New viewers still watching after a month."
+          },
+          {
+            "metric": "Mobile discovery feed use",
+            "description": "Viewers using the feed to find streams."
+          }
+        ]
+      },
+      {
+        "metric": "Streamer supply",
+        "description": "Streamers broadcasting regularly.",
+        "children": [
+          {
+            "metric": "Top streamer retention",
+            "description": "Large streamers who stay on Twitch."
+          },
+          {
+            "metric": "New Affiliates",
+            "description": "Small streamers who reach Affiliate."
+          },
+          {
+            "metric": "Hours streamed",
+            "description": "Total live hours broadcast."
+          }
+        ]
+      },
+      {
+        "metric": "Engagement per viewer",
+        "description": "Time and actions per viewer.",
+        "children": [
+          {
+            "metric": "Chat messages per hour",
+            "description": "Community activity."
+          },
+          {
+            "metric": "Follows per viewer",
+            "description": "Ties to streamers."
+          }
+        ]
+      },
+      {
+        "metric": "Monetisation",
+        "description": "Money per viewer.",
+        "children": [
+          {
+            "metric": "Sub conversion",
+            "description": "Share of viewers who subscribe."
+          },
+          {
+            "metric": "Bits per paying viewer",
+            "description": "Tips per paying viewer."
+          },
+          {
+            "metric": "Ad fill rate",
+            "description": "Share of ad slots sold."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Harassment and hate raid reports",
+      "Streamer churn to other platforms",
+      "Ad minutes per viewer hour",
+      "Stream latency and failures"
+    ],
+    "strengths": [
+      "Strong live chat culture and emotes",
+      "Prime Gaming link to Amazon",
+      "Big events and creator-led tournaments",
+      "Trusted, safer brand for advertisers"
+    ],
+    "weaknesses": [
+      "Losing share to YouTube and Kick",
+      "Weak discovery for small streamers",
+      "Revenue split seen as unfair",
+      "Unclear profitability"
+    ],
+    "risks": [
+      "Kick and YouTube paying top streamers more",
+      "Amazon cutting investment",
+      "Regulation on gambling streams and child safety",
+      "Shift to short video"
+    ],
+    "userComplaints": [
+      "Too many ads, including mid-roll ads",
+      "Streamers complain about the 50/50 split",
+      "Hard for small streamers to be discovered",
+      "Inconsistent bans and moderation",
+      "Viewbots and fake viewers"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Raise split to 60/40 for all Affiliates during their first year.",
+        "problem": "New streamers leave for Kick or YouTube.",
+        "expectedImpact": "More new streamers stay.",
+        "metricToTrack": "New Affiliate 12-month retention",
+        "effort": "medium"
+      },
+      {
+        "idea": "Small streamer spotlight in the discovery feed.",
+        "problem": "Small streamers cannot be found.",
+        "expectedImpact": "More new streamers grow.",
+        "metricToTrack": "Small streamer average viewers",
+        "effort": "medium"
+      },
+      {
+        "idea": "Ad-free hour for viewers who watch an ad break upfront.",
+        "problem": "Viewers hate mid-roll ads.",
+        "expectedImpact": "Longer watch time.",
+        "metricToTrack": "Watch time per session",
+        "effort": "low"
+      },
+      {
+        "idea": "Clear ban reasons and quick appeal.",
+        "problem": "Streamers complain about unclear bans.",
+        "expectedImpact": "More trust.",
+        "metricToTrack": "Appeal resolution time",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Creators are the supply. If top streamers leave for Kick or YouTube, their fans often follow.",
+      "The revenue split is a product decision. Paying creators more can cost margin today but protect the platform tomorrow.",
+      "Discovery decides whether new creators stay. A platform that only helps big streamers will slowly run out of new ones.",
+      "Owning a link to a big company helps. Prime Gaming free subs give Twitch money and users rivals cannot copy easily."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Kick offers streamers a 95/5 split. How should Twitch respond?",
+        "hint": "Start with who is leaving and why: money, reach or rules. Model what a better split costs Twitch against the subs lost when a big streamer leaves. Suggest targeted offers, like better splits for growing streamers, plus non-cash value such as discovery and safety."
+      },
+      {
+        "question": "How would you improve discovery for small streamers?",
+        "hint": "Define the problem with data: share of streams with zero viewers. List options like a clips feed, category spotlights and raids. Pick one, and measure new streamer retention and viewer satisfaction."
+      },
+      {
+        "question": "Twitch hours watched were flat while YouTube grew 15%. Diagnose it.",
+        "hint": "Split hours into viewers times hours per viewer, then by category: gaming, Just Chatting, sports, esports. Check where YouTube grew (World Cup, sports) and whether Twitch lacks those rights or streamers."
+      },
+      {
+        "question": "Design a feature for big esports events on Twitch.",
+        "hint": "Pick the user: casual fan or hardcore fan. Think about co-streams, multi-view, predictions and clips. Measure peak viewers, chat activity and new follows after the event."
+      },
+      {
+        "question": "How would you grow Twitch in India?",
+        "hint": "Focus on mobile games like BGMI and Free Fire, Hindi and regional streamers, low regional sub prices and UPI payments. Compare with YouTube Live, which leads in India, and pick a niche to win."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Revenue split",
+        "meaning": "How money from a sale is shared between the platform and the creator."
+      },
+      {
+        "term": "Partner Plus",
+        "meaning": "A Twitch programme that gives top streamers a better 70/30 revenue split."
+      },
+      {
+        "term": "Bits",
+        "meaning": "Twitch's virtual currency viewers buy to tip streamers in chat."
+      },
+      {
+        "term": "Concurrent viewers",
+        "meaning": "The number of people watching at the same moment."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ad slots that actually get an ad sold into them."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of users or creators who leave in a period."
+      }
+    ],
+    "assumptions": [
+      "Twitch hours watched per quarter is a weak estimate.",
+      "Twitch profitability is not public.",
+      "Bits price is approximate.",
+      "Regional prices vary."
+    ]
+  }
+}

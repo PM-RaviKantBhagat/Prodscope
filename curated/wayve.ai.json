@@ -1,0 +1,254 @@
+{
+ "company": "Wayve",
+ "domain": "wayve.ai",
+ "website": "https://wayve.ai",
+ "sources": [
+  "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers",
+  "https://dealroom.co/news/126121-wayve-raises-1-2b-at-8-6b-valuation-ahead-of-london-robotaxi-launch/",
+  "https://www.therobotreport.com/wayve-raises-1-2b-plans-bring-robotaxis-london/",
+  "https://www.eweek.com/news/wayve-raises-1-2b-8-6b-valuation-london-robotaxi-trial/",
+  "https://www.otpp.com/en-ca/about-us/news-and-insights/2026/wayve-secures-funding-to-deploy-global-autonomy-platform"
+ ],
+ "report": {
+  "company": "Wayve",
+  "tagline": "A London startup that builds AI that learns to drive from data, and sells it to carmakers and Uber instead of running its own robotaxis.",
+  "category": "Autonomous driving",
+  "simpleSummary": "Wayve teaches cars to drive the way people learn: by watching and practising, not by following hand-written rules or detailed 3D maps. Its single AI model takes in what the car's sensors see and decides how to steer and brake. Wayve does not build cars or run a taxi service. It licenses its software to carmakers like Nissan, Mercedes and Stellantis for driver assistance, and to Uber for robotaxi trials starting in London.",
+  "keyNumbers": [
+   {"label": "Latest funding, February 2026", "value": "$1.2 billion Series D, possibly $1.5 billion with an extra $300 million from Uber tied to robotaxi rollout", "note": "TechCrunch, February 2026."},
+   {"label": "Valuation", "value": "$8.6 billion", "note": "TechCrunch and Dealroom, February 2026."},
+   {"label": "Earlier funding", "value": "$1.05 billion Series C in 2024, led by SoftBank with Nvidia and Microsoft", "note": "Widely reported, 2024. Total raised is about $2.5 billion+ (estimate)."},
+   {"label": "Carmaker customers", "value": "Nissan (driver assistance from 2027), with Mercedes-Benz and Stellantis also investing and planning to use it", "note": "TechCrunch, February 2026."},
+   {"label": "Robotaxi plan", "value": "Commercial trials with Uber in 2026, starting in London; Uber plans 10+ markets together", "note": "TechCrunch, February 2026. Exact launch dates not confirmed."},
+   {"label": "Revenue", "value": "Not public; early-stage licensing revenue only", "note": "Company does not disclose. Wayve is loss-making (estimate)."}
+  ],
+  "overview": {
+   "whatItDoes": "Wayve builds 'embodied AI' for driving: one neural network trained end to end on large amounts of driving data. Founded in Cambridge, UK in 2017 by Alex Kendall (CEO) and Amar Shah, it is headquartered in London. It sells two products: 'eyes on' hands-free driver assistance for normal cars, and 'eyes off' automated driving for robotaxis and, later, consumer cars.",
+   "howItWorks": [
+    "Wayve collects video and sensor data from fleets of cars, including delivery vans driven by partners.",
+    "It trains one large AI model that maps what the car sees straight to driving actions (end-to-end learning).",
+    "It does not need high-definition maps, so a car can drive in a new city without months of mapping.",
+    "The software works with whatever sensors and chips the carmaker already uses, like Nvidia Drive AGX Thor in its Gen 3 platform.",
+    "Carmakers pay to license the software for their cars; Uber will run Wayve-equipped robotaxis on its network."
+   ],
+   "valueProposition": "Carmakers get advanced self-driving features without spending billions building their own, and the same AI can adapt to new cities and car models quickly."
+  },
+  "personas": [
+   {
+    "name": "Carmaker product chief",
+    "description": "A leader at Nissan or Stellantis who needs competitive hands-free driving features for new models.",
+    "goals": ["Match Tesla's driver assist quickly", "Use existing sensors and chips", "Keep costs per car low"],
+    "frustrations": ["In-house software projects running late", "Expensive lidar-heavy systems"]
+   },
+   {
+    "name": "Ride-hailing platform (Uber)",
+    "description": "Uber wants robotaxi supply in many cities without owning AV technology.",
+    "goals": ["Lower cost per ride", "Fleet in many cities fast"],
+    "frustrations": ["Waymo runs its own app in some cities", "Slow city-by-city rollouts"]
+   },
+   {
+    "name": "London rider",
+    "description": "A Londoner who might try a self-driving Uber.",
+    "goals": ["Safe, cheap, reliable ride", "Handles London's narrow streets"],
+    "frustrations": ["Doubts about safety", "Unclear rules and coverage"]
+   },
+   {
+    "name": "Everyday car buyer",
+    "description": "Someone buying a 2027 Nissan with Wayve-powered driver assistance.",
+    "goals": ["Less tiring motorway and city driving"],
+    "frustrations": ["Features that disengage often", "Unclear what the system can do"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Carmakers struggle to build self-driving software in-house", "howSolved": "Ready-made AI driver licensed per vehicle.", "severity": "high"},
+   {"pain": "Rule-based and map-based systems are costly to scale to new cities", "howSolved": "End-to-end AI that drives without HD maps.", "severity": "high"},
+   {"pain": "Self-driving tech tied to specific expensive sensors", "howSolved": "Hardware-agnostic software that runs on the car's existing sensors and chips.", "severity": "medium"},
+   {"pain": "Uber needs AV supply from many partners", "howSolved": "Wayve-equipped vehicles on Uber in 10+ markets planned.", "severity": "medium"},
+   {"pain": "Tiring daily driving", "howSolved": "Eyes-on hands-free assistance in consumer cars from 2027.", "severity": "medium"}
+  ],
+  "coreFeatures": [
+   {"feature": "End-to-end driving model", "whatItDoes": "One neural network that turns sensor input into driving actions.", "whyItMatters": "Learns from data and generalises to new places faster than rule-based systems."},
+   {"feature": "Eyes-on driver assistance", "whatItDoes": "Hands-free assisted driving for consumer cars.", "whyItMatters": "First big revenue source through carmakers like Nissan."},
+   {"feature": "Eyes-off automated driving", "whatItDoes": "Level 4 driving in set areas for robotaxis.", "whyItMatters": "The bigger long-term prize with Uber."},
+   {"feature": "Gen 3 platform", "whatItDoes": "Software on Nvidia Drive AGX Thor for city and highway driving.", "whyItMatters": "Fits chips carmakers already buy."},
+   {"feature": "Driving language model tools (LINGO)", "whatItDoes": "Lets the AI explain in words what it is doing and why.", "whyItMatters": "Builds trust with regulators and users by explaining decisions."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Carmaker integration",
+    "persona": "Carmaker product chief",
+    "steps": [
+     {"step": "Evaluate", "detail": "Tests Wayve in prototype cars."},
+     {"step": "Sign licence", "detail": "Agrees per-vehicle fee and timeline."},
+     {"step": "Integrate", "detail": "Wayve adapts the model to the car's sensors and chip."},
+     {"step": "Validate", "detail": "Joint safety testing and approvals."},
+     {"step": "Launch", "detail": "Feature ships in new models (Nissan from 2027)."},
+     {"step": "Update", "detail": "Wayve sends improved models over the air."}
+    ]
+   },
+   {
+    "name": "Uber robotaxi trial",
+    "persona": "Ride-hailing platform (Uber)",
+    "steps": [
+     {"step": "Pick city", "detail": "London first."},
+     {"step": "Get permits", "detail": "Uses the UK's new self-driving rules for pilots."},
+     {"step": "Deploy cars", "detail": "Wayve-equipped vehicles with safety operators at first."},
+     {"step": "Open to riders", "detail": "Riders matched to AVs in Uber app."},
+     {"step": "Scale", "detail": "Expand to more cities if safety targets are met."}
+    ]
+   },
+   {
+    "name": "First robotaxi ride in London",
+    "persona": "London rider",
+    "steps": [
+     {"step": "Book Uber", "detail": "Gets offered an autonomous ride."},
+     {"step": "Accept", "detail": "Agrees to try it."},
+     {"step": "Ride", "detail": "Car handles buses, cyclists and narrow roads."},
+     {"step": "Feedback", "detail": "Rates the ride."},
+     {"step": "Return", "detail": "Uses again if it felt safe."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Wayve licenses its driving AI to carmakers and platforms rather than building cars or running taxis. It plans to earn a fee per car or per mile driven.",
+   "revenueStreams": [
+    {"stream": "Licensing to carmakers", "detail": "Fees per vehicle for driver assistance software (Nissan from 2027)."},
+    {"stream": "Robotaxi software for Uber", "detail": "Fees from robotaxi operations on Uber in London and other cities."},
+    {"stream": "Development contracts", "detail": "Paid engineering work to integrate with each carmaker."}
+   ],
+   "pricing": "Not public.",
+   "costDrivers": [
+    "AI researchers and engineers",
+    "Computing to train large models",
+    "Data collection fleets",
+    "Safety testing and validation",
+    "Integration work for each carmaker"
+   ],
+   "unitEconomics": "Rough estimate: if a carmaker pays a few hundred dollars per car for driver assistance software, and Wayve is in 1 million cars a year, that is several hundred million dollars a year with low cost per extra car, since software is cheap to copy. The big costs are fixed: training models and engineers. Wayve makes money only if many cars use it; today it is loss-making and funded by investors."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Deals with carmakers who also invest (Nissan, Mercedes, Stellantis)",
+    "Uber partnership for robotaxis",
+    "Demos in many cities to show the AI generalises",
+    "Nvidia partnership for hardware fit"
+   ],
+   "whatBringsUsersBack": [
+    "Multi-year carmaker contracts",
+    "Over-the-air updates that improve features",
+    "Switching cost once software is built into car platforms"
+   ],
+   "moat": "Wayve's AI improves with more data, and its hardware-agnostic approach lets it serve many carmakers. Deep, multi-year integrations with carmakers are hard to replace. But rivals with more data, like Tesla, are strong."
+  },
+  "competitors": [
+   {"name": "Waymo", "positioning": "Runs its own robotaxi service with lidar and HD maps.", "howThisProductDiffers": "Wayve licenses software and avoids HD maps; Waymo has far more driverless miles."},
+   {"name": "Tesla FSD", "positioning": "End-to-end AI bundled into Tesla's own cars.", "howThisProductDiffers": "Similar AI approach, but Wayve sells to many carmakers."},
+   {"name": "Mobileye", "positioning": "Major supplier of driver assistance chips and software.", "howThisProductDiffers": "Wayve is newer, AI-first and works with others' chips."},
+   {"name": "Chinese AV firms (Momenta, Pony.ai)", "positioning": "Software suppliers to carmakers and robotaxi operators.", "howThisProductDiffers": "Wayve is focused on Europe, Japan and the US."}
+  ],
+  "northStar": {
+   "metric": "Miles driven by Wayve AI in customer vehicles per month",
+   "why": "Miles driven show Wayve's AI is delivering value in real cars and robotaxis, and more miles bring more data to improve it."
+  },
+  "kpiTree": [
+   {
+    "metric": "Vehicles running Wayve",
+    "description": "Cars and robotaxis with Wayve software.",
+    "children": [
+     {"metric": "Signed carmaker programmes", "description": "Future volume."},
+     {"metric": "Robotaxis on Uber", "description": "Autonomous fleet size."}
+    ]
+   },
+   {
+    "metric": "Driving quality",
+    "description": "How well the AI drives.",
+    "children": [
+     {"metric": "Miles between interventions", "description": "How far the car drives before a human takes over."},
+     {"metric": "Safety incidents per million miles", "description": "Core safety number."}
+    ]
+   },
+   {
+    "metric": "Generalisation",
+    "description": "How quickly the AI works in new places.",
+    "children": [
+     {"metric": "Time to launch a new city", "description": "Shows the no-HD-map advantage."},
+     {"metric": "Performance in new cities vs trained ones", "description": "Tests the AI's adaptability."}
+    ]
+   },
+   {
+    "metric": "Usage by drivers",
+    "description": "How often owners use assist features.",
+    "children": [
+     {"metric": "Share of miles with assist on", "description": "Shows value to drivers."},
+     {"metric": "Feature disengagement rate", "description": "Frequent drop-outs annoy users."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Safety incidents per million miles",
+   "Cost to integrate per carmaker",
+   "Regulatory compliance issues"
+  ],
+  "strengths": [
+   "Strong AI approach that does not need HD maps",
+   "Backed by Nvidia, Microsoft, SoftBank, Uber and carmakers",
+   "Business model that scales across many carmakers",
+   "Leader in UK self-driving"
+  ],
+  "weaknesses": [
+   "Far fewer driverless miles than Waymo",
+   "No revenue scale yet",
+   "Depends on partners' timelines",
+   "End-to-end AI can be hard to explain to regulators"
+  ],
+  "risks": [
+   "Tesla and Chinese firms moving faster",
+   "Carmakers choosing to build in-house",
+   "Regulatory delays in the UK and other countries",
+   "A serious crash in a trial"
+  ],
+  "userComplaints": [
+   "Few public users yet, so little direct feedback",
+   "General public doubts about robotaxi safety in London",
+   "Concerns about job losses for drivers"
+  ],
+  "improvementIdeas": [
+   {"idea": "Public safety reports for London pilots", "problem": "Public doubts about safety.", "expectedImpact": "More trust and ride uptake.", "metricToTrack": "Robotaxi ride acceptance rate on Uber", "effort": "low"},
+   {"idea": "Show natural-language explanations on the passenger screen", "problem": "Riders nervous about AI decisions.", "expectedImpact": "More comfort and repeat rides.", "metricToTrack": "Repeat robotaxi ride rate", "effort": "medium"},
+   {"idea": "Fast-track integration kit for smaller carmakers", "problem": "Integration takes time and money.", "expectedImpact": "More carmaker deals.", "metricToTrack": "Time to integrate per carmaker", "effort": "high"},
+   {"idea": "In-car coaching for drivers on what the assist can do", "problem": "Drivers misunderstand features.", "expectedImpact": "Safer use and more miles with assist.", "metricToTrack": "Share of miles with assist on", "effort": "low"}
+  ],
+  "pmLessons": [
+   "You can win by choosing a different business model. Wayve sells software to many carmakers instead of running its own fleet like Waymo.",
+   "A different technical bet (learning from data, no HD maps) can make scaling cheaper, but you must prove it is safe.",
+   "Partners who invest in you are more likely to buy from you.",
+   "B2B products have long cycles: a deal signed in 2026 may only reach customers' cars in 2027."
+  ],
+  "interviewQuestions": [
+   {"question": "Compare Wayve's and Waymo's strategies.", "hint": "Tech (end-to-end vs maps and lidar), business model (license vs operate), speed vs safety. Pick pros and cons."},
+   {"question": "How would you convince a carmaker to choose Wayve?", "hint": "Speed to market, cost, hardware fit, updates. Address safety and control worries."},
+   {"question": "What metric would show Wayve's AI is ready for a new city?", "hint": "Miles between interventions, incident rates, comparison to trained cities."},
+   {"question": "How would you design the first Uber robotaxi experience in London?", "hint": "Rider onboarding, safety info, support, feedback loop. Metrics: acceptance and repeat."},
+   {"question": "What is Wayve's north star metric?", "hint": "Miles driven by Wayve AI. Break into vehicles, quality, generalisation and usage."}
+  ],
+  "glossary": [
+   {"term": "end-to-end", "meaning": "A single AI model that goes from raw input, like camera images, straight to actions, like steering."},
+   {"term": "neural network", "meaning": "A type of AI that learns patterns from large amounts of data."},
+   {"term": "HD maps", "meaning": "Very detailed 3D maps of roads that many self-driving systems need."},
+   {"term": "embodied AI", "meaning": "AI that controls a physical machine, like a car or robot."},
+   {"term": "robotaxi", "meaning": "A taxi that drives itself with no human driver."},
+   {"term": "Level 4", "meaning": "A self-driving level where the car drives fully on its own in set areas."},
+   {"term": "licensing", "meaning": "Letting another company use your technology for a fee."},
+   {"term": "over the air", "meaning": "Software updates sent through the internet without visiting a garage."},
+   {"term": "B2B", "meaning": "Business to business: selling to companies instead of consumers."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Total funding raised and loss-making status are estimates.",
+   "Per-car licence fees in the unit economics are our assumptions.",
+   "Robotaxi trial dates were not confirmed in our sources.",
+   "LINGO is from Wayve's earlier research announcements."
+  ]
+ }
+}

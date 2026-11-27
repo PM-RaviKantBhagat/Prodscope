@@ -1,0 +1,531 @@
+{
+  "company": "BBC iPlayer",
+  "domain": "bbc.co.uk",
+  "website": "https://www.bbc.co.uk/iplayer",
+  "sources": [
+    "https://www.broadcastnow.co.uk/bbc/bbc-beats-financial-target-as-digital-reach-soars/5206984.article",
+    "https://www.advanced-television.com/2026/07/14/bbc-pressure-on-licence-fee-continues/",
+    "https://nation.cymru/news/bbc-tv-licence-numbers-fall-by-almost-540000-in-single-year/",
+    "https://www.gbnews.com/tech/bbc-tv-licence-fee-evasion",
+    "https://www.ispreview.co.uk/index.php/2026/01/bbc-considers-linking-online-iplayer-tv-accounts-to-uk-home-addresses.html",
+    "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/bbc-2026-funding-and-editorial-concerns-are-challenges-for-new-leadership",
+    "https://thedesk.net/2026/07/bbc-license-fee-shortfall-2026/"
+  ],
+  "report": {
+    "company": "BBC iPlayer",
+    "tagline": "The BBC's free-to-watch streaming app for UK homes, paid for by the TV licence fee instead of ads or subscriptions.",
+    "category": "Public streaming",
+    "simpleSummary": "BBC iPlayer is the BBC's app for watching its TV channels live and on demand: shows like Doctor Who, EastEnders, Traitors and live sport like Wimbledon. There are no ads and no monthly subscription. Instead, every UK home that watches live TV or uses iPlayer must buy a yearly TV licence, which costs £180 from April 2026. You need to sign in, and you must confirm you have a licence.",
+    "keyNumbers": [
+      {
+        "label": "TV licence fee",
+        "value": "£180 a year from April 2026",
+        "note": "Reported by GB News and others; it was £174.50 in 2025/26 and £169.50 in 2024/25."
+      },
+      {
+        "label": "iPlayer weekly active accounts",
+        "value": "15.2 million (2024/25)",
+        "note": "BBC 2024/25 annual report via Broadcast. The 2025/26 figure was not found in our searches, so this is a year old."
+      },
+      {
+        "label": "iPlayer streams, 2024/25",
+        "value": "8.9 billion, up from 8.1 billion",
+        "note": "BBC 2024/25 annual report via Broadcast."
+      },
+      {
+        "label": "Licences in force",
+        "value": "About 23.3 million, down nearly 540,000 in a year",
+        "note": "Estimate from 2026 news reports of the fall in licences; 23.8 million were in force at the end of 2024/25. The BBC has lost about 2.5 million licences since 2020."
+      },
+      {
+        "label": "Licence fee evasion",
+        "value": "About 1 in 8 households",
+        "note": "Reported by GB News from the BBC's 2026 figures; treat as approximate."
+      },
+      {
+        "label": "BBC group revenue, 2024/25",
+        "value": "£5.9 billion, including £3.8 billion licence fee and £2.2 billion from BBC Studios",
+        "note": "BBC 2024/25 annual report via Broadcast."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "iPlayer lets UK viewers stream BBC channels live, catch up on shows and watch box sets, on phones, laptops, smart TVs and consoles. It is paid for by the TV licence, not ads. The BBC is a public service broadcaster, so its goals are reach and value for licence payers, not profit.",
+      "howItWorks": [
+        "Users create a free BBC account with a UK postcode and confirm they have a TV licence.",
+        "They can watch all BBC channels live, and most programmes for up to a year or more after broadcast.",
+        "Box sets and archive shows sit alongside new programmes.",
+        "Live events like Wimbledon, the Euros and Glastonbury stream with extra streams not shown on TV.",
+        "The BBC uses viewing data to personalise rows and recommend shows.",
+        "It only works in the UK; overseas viewers are blocked."
+      ],
+      "valueProposition": "For UK viewers: high-quality British TV, news and live events, with no ads and no extra monthly fee beyond the licence. For the BBC: a way to stay relevant as people stop watching live TV."
+    },
+    "personas": [
+      {
+        "name": "The box set binger",
+        "description": "A 30-year-old in Manchester who watches The Traitors, Line of Duty and dramas on a smart TV.",
+        "goals": [
+          "Binge new seasons without ads",
+          "Catch up on shows friends talk about"
+        ],
+        "frustrations": [
+          "Paying £180 a year when she also pays Netflix",
+          "Shows leaving iPlayer after a time"
+        ]
+      },
+      {
+        "name": "The older live TV viewer",
+        "description": "A 68-year-old in Leeds who mostly watches BBC One live and uses iPlayer to catch up on EastEnders.",
+        "goals": [
+          "Easy access to favourite shows",
+          "Watch news and sport"
+        ],
+        "frustrations": [
+          "Signing in and passwords on the TV",
+          "Confusing menus"
+        ]
+      },
+      {
+        "name": "The young streamer who skips the licence",
+        "description": "A 22-year-old student who watches YouTube, TikTok and Netflix and has no TV licence.",
+        "goals": [
+          "Watch only what she wants",
+          "Spend as little as possible"
+        ],
+        "frustrations": [
+          "Not knowing when a licence is needed",
+          "Feels the BBC is not made for her"
+        ]
+      },
+      {
+        "name": "The sports and events fan",
+        "description": "A 40-year-old who uses iPlayer for Wimbledon, the Olympics and Glastonbury.",
+        "goals": [
+          "Watch every court and every stage live",
+          "Free of ads"
+        ],
+        "frustrations": [
+          "BBC losing big sport rights to paid rivals",
+          "Stream quality on busy nights"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Missing a show when it airs on TV.",
+        "howSolved": "Catch-up of most programmes for months after broadcast.",
+        "severity": "high"
+      },
+      {
+        "pain": "Ad breaks in other streaming services.",
+        "howSolved": "No ads at all, because the licence fee pays for it.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying for many streaming subscriptions.",
+        "howSolved": "No extra monthly fee for licence payers.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Wanting to watch big live events on any device.",
+        "howSolved": "Live streams of all BBC channels and extra event streams.",
+        "severity": "medium"
+      },
+      {
+        "pain": "British content and news can be hard to find on US-made apps.",
+        "howSolved": "Focus on UK dramas, comedy, documentaries and news.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Live TV and catch-up",
+        "whatItDoes": "Streams all BBC channels live and lets users watch past episodes.",
+        "whyItMatters": "The core reason people use it, and it keeps the BBC relevant to non-live viewers."
+      },
+      {
+        "feature": "Box sets",
+        "whatItDoes": "Full series of popular shows and archive content.",
+        "whyItMatters": "Competes with Netflix for binge-watching time."
+      },
+      {
+        "feature": "Personalised home screen",
+        "whatItDoes": "Uses sign-in data to recommend shows.",
+        "whyItMatters": "Helps people find more of what the BBC makes, which drives reach."
+      },
+      {
+        "feature": "Event streams",
+        "whatItDoes": "Extra live streams for sport and music events.",
+        "whyItMatters": "Shows the BBC's public-service value at big national moments."
+      },
+      {
+        "feature": "Licence check at sign-in",
+        "whatItDoes": "Asks users to confirm they hold a TV licence.",
+        "whyItMatters": "Protects licence fee income, the BBC's main money."
+      },
+      {
+        "feature": "Downloads",
+        "whatItDoes": "Lets users download shows on phones and tablets to watch offline.",
+        "whyItMatters": "Useful for commuters and travel."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First sign-in",
+        "persona": "The box set binger",
+        "steps": [
+          {
+            "step": "Hears about a show",
+            "detail": "Friends talk about the new season of The Traitors."
+          },
+          {
+            "step": "Opens iPlayer",
+            "detail": "Finds the app on her smart TV."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Creates a BBC account with email, postcode and date of birth."
+          },
+          {
+            "step": "Confirms licence",
+            "detail": "Ticks a box confirming she has a TV licence."
+          },
+          {
+            "step": "Watches",
+            "detail": "Binges the first episodes without ads."
+          },
+          {
+            "step": "Gets recommendations",
+            "detail": "Home screen shows similar shows."
+          }
+        ]
+      },
+      {
+        "name": "Watching a live event",
+        "persona": "The sports and events fan",
+        "steps": [
+          {
+            "step": "Event starts",
+            "detail": "Wimbledon begins and BBC offers extra court streams."
+          },
+          {
+            "step": "Opens app",
+            "detail": "Picks a court from the live stream menu."
+          },
+          {
+            "step": "Switches streams",
+            "detail": "Moves between courts during the day."
+          },
+          {
+            "step": "Catches highlights",
+            "detail": "Watches highlights in the evening."
+          },
+          {
+            "step": "Discovers more",
+            "detail": "Starts a sports documentary recommended after the match."
+          }
+        ]
+      },
+      {
+        "name": "Deciding to drop the licence",
+        "persona": "The young streamer who skips the licence",
+        "steps": [
+          {
+            "step": "Moves into a flat",
+            "detail": "Gets a TV Licensing letter."
+          },
+          {
+            "step": "Checks rules",
+            "detail": "Learns a licence is needed only for live TV and iPlayer."
+          },
+          {
+            "step": "Weighs value",
+            "detail": "Compares £180 a year with how little BBC she watches."
+          },
+          {
+            "step": "Declares no licence",
+            "detail": "Tells TV Licensing she does not need one."
+          },
+          {
+            "step": "Stops using iPlayer",
+            "detail": "Watches YouTube and Netflix instead; the BBC loses a payer."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "iPlayer does not make money directly. Every UK home that watches live TV or uses iPlayer must pay a yearly licence fee of £180. That money funds the BBC's content and services, including iPlayer. BBC Studios sells BBC shows abroad and earns extra money. The big problem is that fewer homes are paying.",
+      "revenueStreams": [
+        {
+          "stream": "TV licence fee",
+          "detail": "£180 a year per household, about £3.8 billion in 2024/25, collected by TV Licensing."
+        },
+        {
+          "stream": "BBC Studios (commercial)",
+          "detail": "Sells BBC shows and formats like Bluey and Strictly abroad, and runs BritBox International; about £2.2 billion of revenue."
+        },
+        {
+          "stream": "Government grants",
+          "detail": "Smaller funding for the World Service."
+        }
+      ],
+      "pricing": "Free to use for UK homes with a TV licence. The licence costs £180 a year from April 2026 (black and white licence is cheaper). Fines of up to £1,000 apply for watching without one.",
+      "costDrivers": [
+        "Making TV shows, news and sport",
+        "Sports and event rights",
+        "Streaming technology and data centres",
+        "Collecting the licence fee and enforcement",
+        "Staff and buildings"
+      ],
+      "unitEconomics": "Each paying household gives the BBC £180 a year, or £15 a month, about the same as a Netflix Standard plan. That money pays for all of the BBC: TV, radio, news, websites and iPlayer. The problem is that each lost licence takes away £180 a year, and about 540,000 licences were lost in a single year, roughly £97 million. Since it costs little extra to stream to one more home, keeping households paying matters far more than cutting costs per viewer."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "BBC One and other channels promoting iPlayer shows",
+        "National moments like the Olympics, Wimbledon and Christmas specials",
+        "Hit shows like The Traitors and Gladiators",
+        "Pre-installed on most UK smart TVs and set-top boxes"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly new episodes of dramas and soaps",
+        "Live news and big events",
+        "Personalised recommendations after sign-in",
+        "Box sets released all at once"
+      ],
+      "moat": "The BBC has nearly 100 years of trusted brand and British content, plus funding that does not depend on ads. No other service gets guaranteed money from most UK homes. But that money is shrinking, and young people are less attached to the brand."
+    },
+    "competitors": [
+      {
+        "name": "Netflix",
+        "positioning": "Global subscription streaming with big-budget originals.",
+        "howThisProductDiffers": "iPlayer has British news, live sport and soaps, without ads or a monthly fee."
+      },
+      {
+        "name": "YouTube",
+        "positioning": "Free video with ads, very popular with young people.",
+        "howThisProductDiffers": "iPlayer offers professional British TV but asks for a licence."
+      },
+      {
+        "name": "ITVX",
+        "positioning": "ITV's free streaming app with ads and a paid premium tier.",
+        "howThisProductDiffers": "iPlayer is ad-free; ITVX is free to use without a licence for on-demand shows."
+      },
+      {
+        "name": "Channel 4 streaming",
+        "positioning": "Free streaming with ads from Channel 4.",
+        "howThisProductDiffers": "iPlayer has more content and no ads."
+      },
+      {
+        "name": "Sky and NOW",
+        "positioning": "Paid TV and streaming with sport and HBO.",
+        "howThisProductDiffers": "iPlayer is far cheaper but has less premium sport."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly signed-in households watching at least 30 minutes on iPlayer",
+      "why": "As a north star metric, this shows how many licence-paying homes get real value from the BBC each week. That value is what keeps households willing to pay."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active accounts",
+        "description": "Signed-in users watching each week.",
+        "children": [
+          {
+            "metric": "New sign-ups",
+            "description": "New accounts created, often around big shows."
+          },
+          {
+            "metric": "Young adult reach",
+            "description": "Weekly users aged 16 to 34."
+          },
+          {
+            "metric": "Smart TV share",
+            "description": "Use on the big screen."
+          }
+        ]
+      },
+      {
+        "metric": "Watch time per account",
+        "description": "Hours each account watches.",
+        "children": [
+          {
+            "metric": "Box set completion",
+            "description": "Share of series started that are finished."
+          },
+          {
+            "metric": "Recommendation click rate",
+            "description": "How often suggested shows get played."
+          },
+          {
+            "metric": "Live event hours",
+            "description": "Viewing during sport and national events."
+          }
+        ]
+      },
+      {
+        "metric": "Licence payment",
+        "description": "Homes paying the licence.",
+        "children": [
+          {
+            "metric": "Licences in force",
+            "description": "Number of paid licences."
+          },
+          {
+            "metric": "Evasion rate",
+            "description": "Share of homes that need a licence but do not pay."
+          },
+          {
+            "metric": "Licence renewals",
+            "description": "Share renewing each year."
+          }
+        ]
+      },
+      {
+        "metric": "Content value",
+        "description": "How much viewers rate the BBC.",
+        "children": [
+          {
+            "metric": "Audience appreciation score",
+            "description": "How viewers rate shows after watching."
+          },
+          {
+            "metric": "Trust in BBC News",
+            "description": "Share who trust BBC News."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Trust in BBC News",
+      "Complaints about sign-in and licence checks",
+      "Stream failure rate on big nights",
+      "Share of content made in the UK nations and regions"
+    ],
+    "strengths": [
+      "Trusted brand and high-quality British content",
+      "No ads, which viewers like",
+      "Big national events and live news",
+      "Pre-installed on most UK TVs"
+    ],
+    "weaknesses": [
+      "Depends on a licence fee that fewer homes pay",
+      "Weaker appeal to under-35s",
+      "Smaller budget than Netflix or Amazon for big dramas",
+      "Only works in the UK"
+    ],
+    "risks": [
+      "Licence fee model breaking as people stream instead of watching live TV",
+      "Charter renewal by 2027 could change funding to a subscription or tax",
+      "Editorial controversies, such as the 2025 Panorama edit that led to the director general leaving",
+      "Competition for young viewers from YouTube and TikTok"
+    ],
+    "userComplaints": [
+      "Having to pay £180 a year even if you watch little BBC",
+      "Licence checks and plans to link accounts to home addresses feel intrusive",
+      "Shows disappearing after a time",
+      "Too much repeat content",
+      "Concerns about bias and editorial mistakes"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Monthly licence payments through the iPlayer app with one tap.",
+        "problem": "Many young people drop the licence because £180 feels like a big one-off bill.",
+        "expectedImpact": "Fewer licences lost.",
+        "metricToTrack": "Licences in force among under-35s",
+        "effort": "medium"
+      },
+      {
+        "idea": "Young adult section built from BBC Three, comedy and creators, with Shorts-style clips.",
+        "problem": "Young viewers prefer YouTube and TikTok.",
+        "expectedImpact": "More weekly reach among 16 to 34 year olds.",
+        "metricToTrack": "Weekly reach among 16 to 34 year olds",
+        "effort": "medium"
+      },
+      {
+        "idea": "Show each user a yearly 'what your licence gave you' summary.",
+        "problem": "People do not see the value they get from the BBC.",
+        "expectedImpact": "Better perception of value and renewals.",
+        "metricToTrack": "Licence renewal rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Easier TV sign-in via a QR code and phone.",
+        "problem": "Older users struggle to sign in on TVs.",
+        "expectedImpact": "More signed-in accounts on TV.",
+        "metricToTrack": "Sign-in completion rate on smart TVs",
+        "effort": "low"
+      },
+      {
+        "idea": "Keep the most-watched box sets available for longer through BBC Studios deals.",
+        "problem": "Users dislike shows leaving iPlayer.",
+        "expectedImpact": "More watch time and better satisfaction.",
+        "metricToTrack": "Box set watch hours",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Funding shapes the product. A licence-funded service must prove value to everyone, not just maximise profit.",
+      "Forcing people to sign in gives you data but adds friction; make it as easy as possible.",
+      "Habits shift. As viewers moved from live TV to apps and YouTube, the BBC's old payment model weakened.",
+      "Trust is a product feature. Editorial mistakes hurt the BBC's reason to exist."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you get more under-35s using iPlayer?",
+        "hint": "Understand where they spend time. Propose content, formats and distribution like YouTube. Measure weekly reach."
+      },
+      {
+        "question": "Should the BBC replace the licence fee with a subscription for iPlayer?",
+        "hint": "Compare reach, revenue, fairness and public value. Think about who would pay and who would leave."
+      },
+      {
+        "question": "How would you reduce licence fee evasion using the product?",
+        "hint": "Balance enforcement with user trust and privacy. Use easier payments and value reminders."
+      },
+      {
+        "question": "What should iPlayer's north star metric be?",
+        "hint": "It has no ad or subscription revenue, so focus on value to the public, like weekly reach and time spent. Add guardrails."
+      },
+      {
+        "question": "Design a feature for older viewers using iPlayer on TV.",
+        "hint": "Find pains: sign-in, navigation, finding live channels. Propose simple fixes and success metrics."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "TV licence",
+        "meaning": "A yearly fee that UK homes must pay to watch live TV or use iPlayer."
+      },
+      {
+        "term": "Licence fee evasion",
+        "meaning": "When a home watches live TV or iPlayer without paying for a licence."
+      },
+      {
+        "term": "Charter",
+        "meaning": "The legal agreement with the UK government that sets the BBC's purpose and funding, renewed about every ten years."
+      },
+      {
+        "term": "Public service broadcaster",
+        "meaning": "A broadcaster funded to serve the public interest, not mainly to make profit."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Weekly active accounts",
+        "meaning": "The number of signed-in accounts that watched at least once in a week."
+      },
+      {
+        "term": "Reach",
+        "meaning": "How many different people use a service in a period."
+      }
+    ],
+    "assumptions": [
+      "iPlayer user and stream numbers are from 2024/25 because the 2025/26 figures were not found.",
+      "Licences in force (about 23.3 million) is our estimate from reported falls.",
+      "The 1 in 8 evasion figure comes from a news report and may be measured differently by the BBC.",
+      "Revenue lost per licence uses the full £180 fee and ignores concessions."
+    ]
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "company": "Cash App",
+  "domain": "cash.app",
+  "website": "https://cash.app",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001512673/000162828026069513/q32026shareholderletter.htm",
+    "https://siliconangle.com/2026/11/03/block-shares-rise-after-third-quarter-beat-and-a-third-straight-guidance-raise/",
+    "https://www.thestar.com.my/tech/tech-news/2026/11/04/block-raises-full-year-profit-outlook-as-cash-app-drives-q3-growth",
+    "https://247wallst.com/cards/block-q3-2026-earnings-xyz-01m6hn3xzgm9pdv6r5rrbdvshh",
+    "https://paymentexpert.com/2026/10/30/zelle-vs-venmo-vs-cash-app-payments/"
+  ],
+  "report": {
+    "company": "Cash App",
+    "tagline": "Block's US money app that started with sending cash to friends and now works like a bank for people who are poorly served by banks, with a debit card, paycheck deposit, short loans, stocks and Bitcoin.",
+    "category": "Money app",
+    "simpleSummary": "Cash App lets you send money to anyone using a $cashtag, like $alex. Many users get their paycheck into it, spend with a free Cash App Card, and borrow small amounts like $300 until payday. You can also buy stocks and Bitcoin from $1. It earns money from card swipes, instant cash-outs, small loans, Bitcoin sales and buy now, pay later through Afterpay.",
+    "keyNumbers": [
+      {
+        "label": "Cash App gross profit, Q3 2026",
+        "value": "$2.07 billion",
+        "note": "Block Q3 2026 shareholder letter, November 2026. Up 27% year on year."
+      },
+      {
+        "label": "Monthly transacting actives",
+        "value": "60 million",
+        "note": "Block letter, September 2026. Up 4%."
+      },
+      {
+        "label": "Primary banking actives",
+        "value": "9.4 million",
+        "note": "Block letter. Users who treat Cash App as their main bank, for example by getting paychecks into it. Up 13%."
+      },
+      {
+        "label": "Cash App Card monthly actives",
+        "value": "28 million",
+        "note": "Block letter, September 2026."
+      },
+      {
+        "label": "Consumer loan originations, Q3 2026",
+        "value": "$19 billion",
+        "note": "Block letter. Up 40%, from Cash App Borrow and Afterpay. Average Borrow limit is $300."
+      },
+      {
+        "label": "Money coming in per active per quarter",
+        "value": "$1,446",
+        "note": "Block letter, inflows per transacting active, up 6%."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Cash App is a US money app with person-to-person payments, a debit card, direct deposit, savings, small loans (Borrow), buy now pay later (Afterpay), stock and Bitcoin investing and tax filing. It aims at people earning under about $150,000, many of whom do not trust or cannot easily use big banks. Block, the company behind Square, owns it.",
+      "howItWorks": [
+        "You sign up with a phone or email and pick a $cashtag.",
+        "You send money to friends for free and receive money into your balance.",
+        "You order a free Cash App Card (a Visa debit card) to spend the balance anywhere.",
+        "You can move your paycheck to Cash App and get paid up to two days early.",
+        "Cash App Borrow offers short loans, and Afterpay lets you split purchases into four payments.",
+        "Buy stocks or Bitcoin from $1; cash out to a bank for free in days or instantly for a fee."
+      ],
+      "valueProposition": "For users: a low-fee bank-like app that is easy to open, with early pay, small loans and investing. For Block: a big base of everyday users whose paychecks and spending flow through the app, which it can earn from many times."
+    },
+    "personas": [
+      {
+        "name": "Hourly worker living paycheck to paycheck",
+        "description": "A 29-year-old warehouse worker in Atlanta earning $38,000 a year.",
+        "goals": [
+          "Get paid early",
+          "Avoid overdraft fees",
+          "Borrow $200 before payday"
+        ],
+        "frustrations": [
+          "Account freezes with little warning",
+          "Hard to talk to a human"
+        ]
+      },
+      {
+        "name": "Young person paying friends",
+        "description": "A 21-year-old who sends money for rides, food and games.",
+        "goals": [
+          "Fast, free payments",
+          "Cool debit card"
+        ],
+        "frustrations": [
+          "Scams from strangers",
+          "Instant deposit fees"
+        ]
+      },
+      {
+        "name": "Small Bitcoin and stock investor",
+        "description": "A 34-year-old who buys $25 of Bitcoin each week.",
+        "goals": [
+          "Easy small investments",
+          "Round-ups and auto-invest"
+        ],
+        "frustrations": [
+          "Fees on Bitcoin trades",
+          "Limited investing tools"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Banks charge overdraft and monthly fees and can be hard to open.",
+        "howSolved": "Easy signup, no monthly fees, overdraft coverage for eligible users.",
+        "severity": "high"
+      },
+      {
+        "pain": "Waiting for payday.",
+        "howSolved": "Paychecks up to two days early with direct deposit.",
+        "severity": "high"
+      },
+      {
+        "pain": "Small emergencies with no credit.",
+        "howSolved": "Cash App Borrow gives small short loans.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paying friends with cash.",
+        "howSolved": "Free $cashtag payments.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Investing feels out of reach.",
+        "howSolved": "Stocks and Bitcoin from $1.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Peer payments with $cashtags",
+        "whatItDoes": "Send and receive money for free.",
+        "whyItMatters": "The entry point that brings most users."
+      },
+      {
+        "feature": "Cash App Card",
+        "whatItDoes": "Free Visa debit card with instant discounts called Boosts.",
+        "whyItMatters": "Earns interchange on each swipe; 28 million monthly users."
+      },
+      {
+        "feature": "Direct deposit and banking",
+        "whatItDoes": "Get your paycheck early and use Cash App as a main account.",
+        "whyItMatters": "Primary banking users are worth much more."
+      },
+      {
+        "feature": "Cash App Borrow",
+        "whatItDoes": "Small short loans, average limit $300 and up to $1,500.",
+        "whyItMatters": "A fast-growing profit source."
+      },
+      {
+        "feature": "Afterpay",
+        "whatItDoes": "Split purchases into four payments, even after you buy.",
+        "whyItMatters": "Adds merchant fees and keeps users spending through Cash App."
+      },
+      {
+        "feature": "Bitcoin and stocks",
+        "whatItDoes": "Buy and sell from $1.",
+        "whyItMatters": "Brings engagement; revenue large but low margin."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "From peer payments to main bank",
+        "persona": "Hourly worker living paycheck to paycheck",
+        "steps": [
+          {
+            "step": "Joins",
+            "detail": "A friend sends $20 and he downloads the app."
+          },
+          {
+            "step": "Gets the card",
+            "detail": "Orders a free Cash App Card."
+          },
+          {
+            "step": "Sets direct deposit",
+            "detail": "Gives employer Cash App account details, or picks it in Workday."
+          },
+          {
+            "step": "Gets paid early",
+            "detail": "Paycheck arrives two days early."
+          },
+          {
+            "step": "Spends with Boosts",
+            "detail": "Saves 10% at a coffee chain."
+          },
+          {
+            "step": "Borrows",
+            "detail": "Borrows $200 for a car repair, repays in six weeks."
+          }
+        ]
+      },
+      {
+        "name": "Buying Bitcoin",
+        "persona": "Small Bitcoin and stock investor",
+        "steps": [
+          {
+            "step": "Opens Bitcoin tab",
+            "detail": "Sees price chart."
+          },
+          {
+            "step": "Sets auto-invest",
+            "detail": "Chooses $25 a week."
+          },
+          {
+            "step": "Pays fee",
+            "detail": "Small fee and spread on each buy."
+          },
+          {
+            "step": "Holds or withdraws",
+            "detail": "Keeps Bitcoin in app or moves to a wallet."
+          },
+          {
+            "step": "Round-ups",
+            "detail": "Turns on round-ups from card spending."
+          }
+        ]
+      },
+      {
+        "name": "Splitting a purchase with Afterpay",
+        "persona": "Young person paying friends",
+        "steps": [
+          {
+            "step": "Buys shoes",
+            "detail": "Pays $120 with Cash App Card."
+          },
+          {
+            "step": "Sees offer",
+            "detail": "App offers to split after purchase."
+          },
+          {
+            "step": "Accepts",
+            "detail": "Pays $30 now and three more times."
+          },
+          {
+            "step": "Repays",
+            "detail": "Payments auto-debit from balance."
+          },
+          {
+            "step": "Builds history",
+            "detail": "Good repayment raises future limits."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Cash App earns from many small fees across the money life of a user: card swipes, instant cash-outs, loans, buy now pay later, Bitcoin and interest on balances. Q3 2026 gross profit was $2.07 billion.",
+      "revenueStreams": [
+        {
+          "stream": "Card interchange",
+          "detail": "Fees merchants pay when users spend with the Cash App Card."
+        },
+        {
+          "stream": "Instant deposit fees",
+          "detail": "About 0.5% to 1.75% to move money to a bank right away."
+        },
+        {
+          "stream": "Borrow and Afterpay",
+          "detail": "Loan fees and merchant fees; $19 billion of loans in Q3 2026."
+        },
+        {
+          "stream": "Bitcoin",
+          "detail": "$1.77 billion revenue in Q3 2026 but only about $52 million gross profit."
+        },
+        {
+          "stream": "Interest and business accounts",
+          "detail": "Interest on balances and fees from business users."
+        }
+      ],
+      "pricing": "Sending money and standard deposits: free. Instant deposit: about 0.5% to 1.75% (min $0.25). Cash App Card: free. ATM: free with $300 or more in direct deposits a month, otherwise $2.50. Borrow: flat fee per loan, shown before accepting.",
+      "costDrivers": [
+        "Loan and fraud losses ($602 million across Block in Q3 2026)",
+        "Customer support and compliance",
+        "Marketing, including referrals",
+        "Card processing and bank partner costs",
+        "Engineering"
+      ],
+      "unitEconomics": "Cash App makes about $34 of gross profit per active user each quarter, roughly $140 a year (our calculation from $2.07 billion and 60 million actives). A user who only sends money to friends earns little. A primary banking user who gets a $2,000 paycheck every two weeks, swipes the card for $1,000 a month and takes a $300 loan earns Cash App several hundred dollars a year from interchange, loan fees and instant deposits. So the plan is to move users to direct deposit, where value per user is many times higher."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Network effect from friends sending money",
+        "Referral bonuses",
+        "Cash App Card designs and Boosts popular with young people",
+        "Payroll partnerships with Workday and UKG for direct deposit",
+        "Spanish-language app to reach Hispanic users"
+      ],
+      "whatBringsUsersBack": [
+        "Paychecks landing in the app",
+        "Daily card spending",
+        "Borrow and Afterpay limits that grow with use",
+        "Bitcoin and stock prices"
+      ],
+      "moat": "Cash App's moat is its network effect plus data. 60 million monthly users pay each other, and Block sees their paychecks and spending, which helps it price small loans better than banks."
+    },
+    "competitors": [
+      {
+        "name": "Venmo",
+        "positioning": "PayPal's social payment app.",
+        "howThisProductDiffers": "Cash App leans into banking and lower-income users; Venmo leans on social payments with friend groups."
+      },
+      {
+        "name": "Chime",
+        "positioning": "App-only bank with fee-free accounts and early pay.",
+        "howThisProductDiffers": "Cash App adds peer payments, Bitcoin and Afterpay."
+      },
+      {
+        "name": "Zelle",
+        "positioning": "Free bank transfers inside bank apps.",
+        "howThisProductDiffers": "Cash App works without a traditional bank relationship."
+      },
+      {
+        "name": "Robinhood",
+        "positioning": "Investing and crypto app expanding into banking.",
+        "howThisProductDiffers": "Cash App focuses on everyday money; Robinhood on investing."
+      }
+    ],
+    "northStar": {
+      "metric": "Primary banking actives (users who get paid into and spend from Cash App)",
+      "why": "These users rely on Cash App for their daily money life. They get the most value and bring the most gross profit."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly transacting actives",
+        "description": "Users making at least one transaction a month.",
+        "children": [
+          {
+            "metric": "Referral sign-ups",
+            "description": "New users invited by friends."
+          },
+          {
+            "metric": "Reactivated users",
+            "description": "Old users returning."
+          }
+        ]
+      },
+      {
+        "metric": "Direct deposit adoption",
+        "description": "Share of actives with paychecks into Cash App.",
+        "children": [
+          {
+            "metric": "Payroll partner setups",
+            "description": "Users switching via Workday and UKG."
+          },
+          {
+            "metric": "Deposit amount per user",
+            "description": "Size of paychecks."
+          }
+        ]
+      },
+      {
+        "metric": "Card usage",
+        "description": "Spending on Cash App Card.",
+        "children": [
+          {
+            "metric": "Card actives",
+            "description": "28 million today."
+          },
+          {
+            "metric": "Boost redemptions",
+            "description": "Discounts used."
+          }
+        ]
+      },
+      {
+        "metric": "Lending reach",
+        "description": "Borrow and Afterpay use.",
+        "children": [
+          {
+            "metric": "Borrow users",
+            "description": "Users taking a loan."
+          },
+          {
+            "metric": "BNPL adoption",
+            "description": "Share of card users using Afterpay (10% today)."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loan loss rate on Borrow and Afterpay",
+      "Fraud and scam complaints",
+      "Account freezes on good users",
+      "Regulatory actions"
+    ],
+    "strengths": [
+      "Large network of 60 million monthly users",
+      "Gross profit growing 27% a year",
+      "Rich data on income and spending helps lending",
+      "Many products in one app"
+    ],
+    "weaknesses": [
+      "User growth is slow (4%)",
+      "History of fraud and scam issues",
+      "Bitcoin revenue is large but low margin",
+      "Lending to low-income users raises credit risk"
+    ],
+    "risks": [
+      "CFPB and state regulators on fraud handling and lending",
+      "Recession raising loan losses",
+      "Competition from Chime, Venmo and banks",
+      "Bitcoin price swings"
+    ],
+    "userComplaints": [
+      "Scams and payments that cannot be reversed",
+      "Accounts closed or frozen without clear reasons",
+      "Hard to reach customer support",
+      "Instant deposit fees"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Scam warning when paying a new $cashtag with no shared contacts",
+        "problem": "Users lose money to scams.",
+        "expectedImpact": "Fewer losses, higher trust.",
+        "metricToTrack": "Scam loss rate per 1,000 users",
+        "effort": "low"
+      },
+      {
+        "idea": "Clear account review status with a timeline and phone callback",
+        "problem": "Frozen accounts with no answer.",
+        "expectedImpact": "Fewer complaints and churn.",
+        "metricToTrack": "Time to resolve frozen accounts",
+        "effort": "medium"
+      },
+      {
+        "idea": "Bigger Borrow limits for users with three months of on-time repayment and direct deposit",
+        "problem": "$300 average limit is too low for real emergencies.",
+        "expectedImpact": "More loan use and direct deposits.",
+        "metricToTrack": "Borrow users and loss rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Savings goals that auto-save part of each paycheck",
+        "problem": "Users live paycheck to paycheck.",
+        "expectedImpact": "Higher balances and loyalty.",
+        "metricToTrack": "Average balance per primary banking active",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A free peer payment feature can become the door to a full bank.",
+      "The users who bring the most value are those who make you their main account, so measure them.",
+      "Lending to underserved users can be good business, but only with strong risk controls.",
+      "Big revenue is not the same as big profit: Bitcoin is huge in sales but small in profit."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you get more Cash App users to set up direct deposit?",
+        "hint": "Funnel from active to deposit; reduce friction with payroll partners; offer early pay and perks."
+      },
+      {
+        "question": "Should Cash App raise Borrow limits?",
+        "hint": "Weigh user need against loss rate; test on safe segments; set guardrails."
+      },
+      {
+        "question": "Compare Cash App with Chime.",
+        "hint": "Users, products, revenue mix, network effect vs pure banking."
+      },
+      {
+        "question": "What is Cash App's north star metric?",
+        "hint": "Primary banking actives; explain why and the drivers."
+      },
+      {
+        "question": "How would you reduce scams on Cash App?",
+        "hint": "Types of scams, friction for risky payments, education, data signals, metrics."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Gross profit",
+        "meaning": "Revenue minus the direct costs of providing the service."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A fee merchants pay each time a card is used."
+      },
+      {
+        "term": "Direct deposit",
+        "meaning": "When an employer pays your salary straight into an account."
+      },
+      {
+        "term": "BNPL",
+        "meaning": "Buy now, pay later, splitting a purchase into smaller payments over time."
+      },
+      {
+        "term": "Primary banking actives",
+        "meaning": "Users who use Cash App as their main bank account."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Users who stop using the product."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "CFPB",
+        "meaning": "Consumer Financial Protection Bureau, the US agency that protects people using financial products."
+      }
+    ],
+    "assumptions": [
+      "Gross profit per user of about $140 a year is our calculation from Block's figures.",
+      "Instant deposit fee range and Borrow fee details are from Cash App's public pages and may change.",
+      "The primary banking user example is illustrative."
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+ "company": "Waymo",
+ "domain": "waymo.com",
+ "website": "https://waymo.com",
+ "sources": [
+  "https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round",
+  "https://finance.yahoo.com/news/waymo-expands-robotaxi-footprint-2026-162907662.html",
+  "https://amp.claimsjournal.com/news/national/2026/02/12/335668.htm",
+  "https://www.eweek.com/news/waymo-16-billion-robotaxi-expansion-2026/",
+  "https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/",
+  "https://techcrunch.com/2025/10/15/waymo-plans-to-launch-a-robotaxi-service-in-london-in-2026"
+ ],
+ "report": {
+  "company": "Waymo",
+  "tagline": "Alphabet's driverless taxi service: you hail a car in an app and it drives you with nobody in the driver's seat.",
+  "category": "Autonomous mobility",
+  "simpleSummary": "Waymo is a robotaxi. You open the Waymo app (or Uber in some cities), request a ride, and a white Jaguar with spinning sensors on the roof arrives with no driver. It drives itself to your destination using cameras, radar, lidar and AI trained over more than 15 years. It started as Google's self-driving car project in 2009, runs paid rides in several US cities, and is expanding to 20+ cities in 2026, including London.",
+  "keyNumbers": [
+   {"label": "Funding, February 2026", "value": "$16 billion raised", "note": "Waymo blog, February 2026. Mostly from Alphabet plus outside investors."},
+   {"label": "Valuation", "value": "About $126 billion, nearly triple its 2024 value", "note": "Estimate from media reports of the February 2026 round; earlier talks were reported near $100 billion."},
+   {"label": "Paid rides per week", "value": "Around 500,000 in 2026 (doubled in under a year); target 1 million a week by end of 2026", "note": "Estimate based on InsideEVs and co-CEO comments, 2026. Exact current figure not confirmed."},
+   {"label": "Cities", "value": "Paid service in about 5 to 6 US metros by early 2026, with 20+ cities planned in 2026, including London and Tokyo", "note": "eWeek and Yahoo Finance, 2026. Early launches are limited in size."},
+   {"label": "Revenue run rate", "value": "Above $350 million a year (late 2025)", "note": "Yahoo Finance / GuruFocus, December 2025. Waymo is still deeply loss-making."}
+  ],
+  "overview": {
+   "whatItDoes": "Waymo builds the self-driving software and hardware (the 'Waymo Driver') and runs its own robotaxi service, Waymo One. It operates in cities like Phoenix, San Francisco, Los Angeles, Austin and Atlanta, partly through Uber in Austin and Atlanta. It is owned by Alphabet, Google's parent, and led by co-CEOs Tekedra Mawakana and Dmitri Dolgov.",
+   "howItWorks": [
+    "Each car carries lidar (laser sensors that build a 3D map), radar and cameras that see 360 degrees.",
+    "AI software predicts what every car, cyclist and pedestrian will do and plans a safe path.",
+    "Waymo first maps a city in detail and tests for months with safety drivers before going fully driverless.",
+    "Riders book in the Waymo app or Uber app; the car arrives, unlocks for them, and they ride alone.",
+    "Remote support staff can give the car advice in odd situations, but do not drive it with a joystick.",
+    "Fleet partners like Avis and Uber-backed operators handle cleaning, charging and maintenance in some cities."
+   ],
+   "valueProposition": "A safe, calm, private ride with no driver to talk to or tip, at a price close to Uber, available day and night."
+  },
+  "personas": [
+   {
+    "name": "Tech-curious city resident",
+    "description": "A 30-year-old in San Francisco who uses Waymo several times a week.",
+    "goals": ["Private, quiet rides", "Consistent driving with no rude drivers", "Try new tech"],
+    "frustrations": ["Wait times at peak hours", "Service area does not cover every place"]
+   },
+   {
+    "name": "Woman travelling at night",
+    "description": "Someone who feels safer without a stranger driving.",
+    "goals": ["Personal safety", "No awkward conversations"],
+    "frustrations": ["Car stopping in odd places", "Pick-up spots far from the door"]
+   },
+   {
+    "name": "Tourist or business traveller",
+    "description": "Visitor in Phoenix or LA who tries Waymo for the experience.",
+    "goals": ["Easy airport rides", "A memorable experience"],
+    "frustrations": ["Freeway and airport coverage still limited in some cities"]
+   },
+   {
+    "name": "City regulator",
+    "description": "An official deciding whether to allow robotaxis.",
+    "goals": ["Fewer crashes", "Smooth traffic and emergency access"],
+    "frustrations": ["Cars blocking emergency vehicles", "Unclear rules for incidents"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Human driver crashes and bad driving", "howSolved": "Waymo's data shows significantly fewer injury crashes than human drivers in the same areas.", "severity": "high"},
+   {"pain": "Feeling unsafe or uncomfortable with a stranger", "howSolved": "No driver; the rider has the car to themselves.", "severity": "high"},
+   {"pain": "Driver cancellations and variable service", "howSolved": "Cars follow the same rules every time and do not cancel.", "severity": "medium"},
+   {"pain": "Tipping and conversation", "howSolved": "No tips; rider controls music and climate.", "severity": "low"},
+   {"pain": "Ride-hailing costs driven by driver pay", "howSolved": "Long term, no driver cost could make rides cheaper.", "severity": "medium"}
+  ],
+  "coreFeatures": [
+   {"feature": "Waymo Driver", "whatItDoes": "Self-driving system of sensors, compute and AI.", "whyItMatters": "The core technology and 15+ years of work that rivals must match."},
+   {"feature": "Waymo One app", "whatItDoes": "Book rides, see the car's path, set preferences.", "whyItMatters": "Owning the customer relationship and data."},
+   {"feature": "Uber partnership", "whatItDoes": "Waymo rides offered inside Uber in Austin and Atlanta.", "whyItMatters": "Instant demand without building a brand in each city."},
+   {"feature": "Rider support", "whatItDoes": "In-car buttons to call support or pull over.", "whyItMatters": "Builds trust when no human is in the car."},
+   {"feature": "City-by-city launch playbook", "whatItDoes": "Map, test with safety drivers, launch to employees, then the public.", "whyItMatters": "Reduces risk and builds regulator trust."}
+  ],
+  "userJourneys": [
+   {
+    "name": "First Waymo ride",
+    "persona": "Tech-curious city resident",
+    "steps": [
+     {"step": "Download app", "detail": "Signs up and joins."},
+     {"step": "Request ride", "detail": "Sets destination and sees price."},
+     {"step": "Car arrives", "detail": "Car shows rider's initials on the roof display."},
+     {"step": "Unlock", "detail": "Unlocks with the app and gets in the back."},
+     {"step": "Start", "detail": "Presses start; screen shows what the car sees."},
+     {"step": "Ride", "detail": "Car drives itself and drops off."},
+     {"step": "Rate", "detail": "Rates the ride and shares feedback."}
+    ]
+   },
+   {
+    "name": "Booking via Uber in Austin",
+    "persona": "Tourist or business traveller",
+    "steps": [
+     {"step": "Open Uber", "detail": "Requests UberX."},
+     {"step": "Matched to Waymo", "detail": "Uber offers a Waymo ride."},
+     {"step": "Accept", "detail": "Agrees to the autonomous ride."},
+     {"step": "Ride", "detail": "Unlocks car with the Uber app."},
+     {"step": "Pay", "detail": "Pays through Uber as usual."}
+    ]
+   },
+   {
+    "name": "Getting a city approval",
+    "persona": "City regulator",
+    "steps": [
+     {"step": "Testing", "detail": "Waymo tests with safety drivers."},
+     {"step": "Safety data", "detail": "Waymo shares crash and incident data."},
+     {"step": "Permit", "detail": "State and city grant driverless permits."},
+     {"step": "Limited launch", "detail": "Service starts in a small area."},
+     {"step": "Expansion", "detail": "Area grows as data builds trust."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Waymo earns from robotaxi fares, directly in its app or shared with Uber and other partners. Later it may license its driver technology to carmakers and delivery firms. Today it spends far more than it earns, funded by Alphabet and outside investors.",
+   "revenueStreams": [
+    {"stream": "Ride fares", "detail": "Riders pay per trip, priced near or above Uber."},
+    {"stream": "Partner revenue", "detail": "Shared fares when rides come through Uber or Lyft."},
+    {"stream": "Technology licensing (future)", "detail": "Possible licensing to carmakers like Toyota and Hyundai."}
+   ],
+   "pricing": "Per-ride pricing in the app, based on distance and time. Fares are usually similar to or a bit higher than Uber for the same trip; no tipping.",
+   "costDrivers": [
+    "Vehicles with expensive sensors (much more than a normal car)",
+    "AI research and engineers",
+    "Computing to train models",
+    "Fleet operations: cleaning, charging, depots, maintenance",
+    "Remote support staff",
+    "Mapping and testing new cities"
+   ],
+   "unitEconomics": "Rough estimate: a $20 Waymo ride has no driver cost, which is about 70% of an Uber fare. But each car may cost well over $100,000, plus depots, charging, insurance and support. With around 25 rides a day per car, it may earn $400 to $500 a day per car before covering these costs, so profit depends on lower vehicle costs and more rides per car. Alphabet has said Waymo is not expected to be financially meaningful until 2027 to 2028."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Word of mouth and viral social media videos",
+    "Partnership with Uber to reach riders",
+    "Launching in new cities",
+    "Airport and freeway access"
+   ],
+   "whatBringsUsersBack": [
+    "Consistent, calm experience",
+    "Feeling of safety",
+    "No tipping and full privacy"
+   ],
+   "moat": "Waymo has more than 15 years of driving data and hundreds of millions of driverless miles, plus permits and a safety record regulators trust. Replicating that experience takes years. Alphabet's money lets it fund losses longer than rivals."
+  },
+  "competitors": [
+   {"name": "Tesla Robotaxi", "positioning": "Camera-only self-driving with cheaper cars, launched in Austin.", "howThisProductDiffers": "Waymo uses lidar and has years more driverless operation; Tesla may scale cheaper."},
+   {"name": "Zoox (Amazon)", "positioning": "Purpose-built robotaxi pods with no steering wheel.", "howThisProductDiffers": "Waymo is far larger today."},
+   {"name": "Uber and Lyft with human drivers", "positioning": "Ride-hailing with drivers, everywhere.", "howThisProductDiffers": "Waymo has no driver costs and a different experience but much smaller coverage."},
+   {"name": "Baidu Apollo Go and WeRide", "positioning": "Chinese robotaxi leaders expanding abroad.", "howThisProductDiffers": "Waymo leads in the US; Chinese firms lead in China and the Middle East."},
+   {"name": "Wayve", "positioning": "UK AI driving software for carmakers, partnered with Uber in London.", "howThisProductDiffers": "Waymo runs its own fleet with lidar; Wayve licenses software that learns end to end."}
+  ],
+  "northStar": {
+   "metric": "Paid driverless rides completed per week",
+   "why": "Each paid ride shows a rider trusted the car enough to pay, and the system worked safely without a driver."
+  },
+  "kpiTree": [
+   {
+    "metric": "Fleet in service",
+    "description": "Cars giving rides.",
+    "children": [
+     {"metric": "New vehicles added", "description": "More cars allow more rides."},
+     {"metric": "Vehicle uptime", "description": "Share of time cars are available, not charging or in repair."}
+    ]
+   },
+   {
+    "metric": "Rides per car per day",
+    "description": "How busy each car is.",
+    "children": [
+     {"metric": "Service area size", "description": "Bigger areas match more trips."},
+     {"metric": "Wait time to pickup", "description": "Short waits keep riders coming."}
+    ]
+   },
+   {
+    "metric": "Rider demand",
+    "description": "How many people want rides.",
+    "children": [
+     {"metric": "Active riders", "description": "Unique riders each week."},
+     {"metric": "Repeat rides per rider", "description": "Shows trust and habit."}
+    ]
+   },
+   {
+    "metric": "Safety",
+    "description": "How safely cars drive.",
+    "children": [
+     {"metric": "Injury crashes per million miles", "description": "Core safety metric compared with humans."},
+     {"metric": "Remote assistance requests per 1,000 miles", "description": "Shows how often the car gets stuck."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Injury crashes per million miles",
+   "Incidents blocking emergency vehicles",
+   "Cost per ride",
+   "Rider complaints about stuck or confused cars"
+  ],
+  "strengths": [
+   "Most experienced and trusted robotaxi operator in the world",
+   "Strong safety data versus human drivers",
+   "Huge funding ($16 billion in 2026) and Alphabet backing",
+   "Partnerships with Uber, Lyft, Avis and carmakers"
+  ],
+  "weaknesses": [
+   "Very high cost per car and slow city-by-city rollout",
+   "Still loss-making with small revenue",
+   "Cars sometimes get stuck in unusual situations like power outages",
+   "Limited service areas"
+  ],
+  "risks": [
+   "Tesla scaling a cheaper camera-only robotaxi",
+   "A serious crash could set back regulation and trust",
+   "Local politics, union pushback and vandalism",
+   "Partners like Uber may prefer other AV firms"
+  ],
+  "userComplaints": [
+   "Long waits at peak hours",
+   "Pick-up or drop-off at awkward spots",
+   "Cars hesitating, looping or getting stuck",
+   "Higher prices than Uber on some trips",
+   "Neighbours complain about honking or cars gathering at depots"
+  ],
+  "improvementIdeas": [
+   {"idea": "Smarter curbside pick-ups using building entrance data", "problem": "Riders get picked up in awkward spots.", "expectedImpact": "Faster pick-ups and higher satisfaction.", "metricToTrack": "Average rider walk distance to car", "effort": "medium"},
+   {"idea": "Live 'why the car is waiting' explanation on screen", "problem": "Riders get nervous when the car hesitates.", "expectedImpact": "More trust.", "metricToTrack": "Support calls per 1,000 rides", "effort": "low"},
+   {"idea": "Shared rides at lower prices", "problem": "Prices are higher than Uber on some trips.", "expectedImpact": "More riders and rides per car.", "metricToTrack": "Rides per car per day", "effort": "high"},
+   {"idea": "Emergency-services mode with priority routes", "problem": "Cars sometimes block emergency vehicles.", "expectedImpact": "Better regulator trust.", "metricToTrack": "Emergency incidents per month", "effort": "medium"}
+  ],
+  "pmLessons": [
+   "Trust is the main product. Waymo launches slowly, city by city, because one bad crash could set it back years.",
+   "A long head start creates a moat. 15+ years of data is hard to copy.",
+   "Partnering for demand (Uber) and operations (Avis) lets you focus on your core technology.",
+   "Unit economics come later. Waymo proved the product first, and now must cut cost per car."
+  ],
+  "interviewQuestions": [
+   {"question": "How would you choose the next city for Waymo?", "hint": "Weather, rules, demand, road complexity, partners. Score cities and pick one with reasons."},
+   {"question": "How would you get a nervous first-time rider to try Waymo?", "hint": "Find fears, offer free first ride, show safety data and live screen explanations. Measure first ride conversion."},
+   {"question": "Should Waymo run its own app or partner with Uber everywhere?", "hint": "Compare control, data, brand vs reach and speed. Suggest a mix by city."},
+   {"question": "What is Waymo's north star metric?", "hint": "Paid driverless rides per week. Break into fleet, utilisation, demand and safety."},
+   {"question": "A Waymo car blocked an ambulance. As PM, what do you do?", "hint": "Respond fast, find root cause, fix software, share with regulators, track incidents."}
+  ],
+  "glossary": [
+   {"term": "robotaxi", "meaning": "A taxi that drives itself with no human driver."},
+   {"term": "lidar", "meaning": "A sensor that uses lasers to build a 3D picture of the surroundings."},
+   {"term": "run rate", "meaning": "A yearly figure based on recent monthly or quarterly results."},
+   {"term": "licensing", "meaning": "Letting another company use your technology for a fee."},
+   {"term": "unit economics", "meaning": "How much money a business makes or loses on one unit, like one ride or one car."},
+   {"term": "utilisation", "meaning": "How much of the time an asset, like a car, is being used to earn money."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Weekly ride numbers and valuation are estimates from 2026 media coverage.",
+   "Car cost and rides per car per day are our estimates.",
+   "City list and launch timing may have changed since our sources.",
+   "Fare comparisons with Uber are general observations, not official data."
+  ]
+ }
+}

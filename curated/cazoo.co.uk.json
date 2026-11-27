@@ -1,0 +1,547 @@
+{
+  "company": "Cazoo",
+  "domain": "cazoo.co.uk",
+  "website": "https://www.cazoo.co.uk",
+  "sources": [
+    "https://honestjohn.co.uk/advice/car-buying-advice/what-is-cazoo",
+    "https://startups.co.uk/news/cazoo-administration/",
+    "https://fortune.com/europe/2024/05/10/british-used-car-cazoo-unicorn-7-billion-spac-administration-bankruptcy/",
+    "https://cardealermagazine.co.uk/used-car-dealer-cazoo-posts-704m-loss-for-2022-as-troubled-firm-counts-cost-of-closures/282056",
+    "https://cardealermagazine.co.uk/motors-paid-up-to-5m-for-cazoo-brand-after-online-car-dealers-directors-tried-desperately-to-sell-it-off/305956",
+    "https://www.cazoo.co.uk/press/cazoo-relaunched-as-marketplace/",
+    "https://am-online.com/news/cazoo-relaunched-by-motors-as-auto-trader-challenger"
+  ],
+  "report": {
+    "company": "Cazoo",
+    "tagline": "A UK online used car seller that grew to an $8 billion valuation, collapsed in 2024, and now lives on as a car listings site owned by Motors.",
+    "category": "Used cars (failed)",
+    "simpleSummary": "Cazoo let you buy a used car on your phone, like ordering from Amazon. It owned the cars, cleaned and checked them, and delivered them to your door in about 72 hours, with 7 days to return it for a full refund. It spent huge sums on football shirts and TV ads to become famous fast. It lost far more money on each car than it could ever make back, went into administration in May 2024, and the name was sold to Motors, which relaunched it in 2025 as a site that lists other dealers' cars.",
+    "keyNumbers": [
+      {
+        "label": "Peak valuation",
+        "value": "$8 billion (2021)",
+        "note": "Value when it listed on the New York Stock Exchange through a SPAC merger in August 2021. Honest John and Fortune."
+      },
+      {
+        "label": "Net loss in 2022",
+        "value": "About £704 million",
+        "note": "Company full year 2022 results, reported by Car Dealer Magazine and AM Online."
+      },
+      {
+        "label": "Revenue in 2021",
+        "value": "About £668 million",
+        "note": "Car Dealer Magazine, 2021 results. 2021 loss was reported at about £180 million to £370 million depending on measure."
+      },
+      {
+        "label": "Share price fall",
+        "value": "About 97%",
+        "note": "Fall from listing to collapse, Honest John."
+      },
+      {
+        "label": "Debts at collapse",
+        "value": "Over £260 million",
+        "note": "City AM report on administrators' filings, 2024."
+      },
+      {
+        "label": "Relaunched marketplace size",
+        "value": "5,000+ dealers, about 200,000 cars",
+        "note": "Listings at the April 2025 relaunch by Motors.co.uk, Honest John. Current 2026 numbers not found."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "From 2019 to 2024 Cazoo bought used cars, reconditioned them in its own centres, and sold them online with home delivery or collection from a Cazoo hub. Buyers paid in full or took finance, and could part-exchange their old car. Since April 2025 the Cazoo brand is a listings marketplace run by Motors.co.uk, where independent and franchise dealers advertise cars and Cazoo does not own the stock.",
+      "howItWorks": [
+        "Old model: Cazoo bought cars from auctions, leasing firms and the public, so it carried every car on its own balance sheet.",
+        "Each car got a 300-point check, cleaning and repairs in a Cazoo reconditioning centre before being photographed for the site.",
+        "Buyers chose a car online, paid or arranged finance, and had it delivered in about 72 hours.",
+        "A 7-day money-back guarantee and a 90-day warranty were meant to replace the trust of seeing the car first.",
+        "New model (2025): dealers pay Motors to list cars on Cazoo, buyers search and then contact or visit the dealer."
+      ],
+      "valueProposition": "Old model: buy a checked used car without haggling or visiting a forecourt, with a free return if you do not like it. New model: one place to search a large share of UK used cars from trusted dealers."
+    },
+    "personas": [
+      {
+        "name": "Time-poor family buyer",
+        "description": "A parent in their 30s who needs a reliable family car and hates dealer haggling.",
+        "goals": [
+          "Fixed, clear price with no pressure",
+          "Car delivered at home",
+          "Easy finance and part-exchange"
+        ],
+        "frustrations": [
+          "Delivery dates that slipped",
+          "Cars arriving with faults or damage that photos did not show",
+          "Slow refunds and hard-to-reach support"
+        ]
+      },
+      {
+        "name": "First-time buyer",
+        "description": "A young driver buying a cheap hatchback who fears getting ripped off.",
+        "goals": [
+          "Confidence the car is checked",
+          "Monthly payment they can afford",
+          "A safety net if something goes wrong"
+        ],
+        "frustrations": [
+          "Online prices were often higher than local independent dealers",
+          "Not knowing what a 300-point check really covered"
+        ]
+      },
+      {
+        "name": "Dealer advertiser (2025 model)",
+        "description": "An independent or franchise dealer looking for a cheaper alternative to Auto Trader.",
+        "goals": [
+          "More buyer leads per pound spent",
+          "Less reliance on Auto Trader price rises"
+        ],
+        "frustrations": [
+          "Unsure if Cazoo brings enough buyers to justify another listing fee",
+          "Buyers confused that Cazoo no longer sells cars itself"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Buying a used car from a forecourt means haggling and sales pressure.",
+        "howSolved": "Fixed online prices with no negotiation.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fear of buying a faulty car you cannot inspect properly.",
+        "howSolved": "300-point check, 90-day warranty and a 7-day return window with free collection.",
+        "severity": "high"
+      },
+      {
+        "pain": "Visiting several dealers takes whole weekends.",
+        "howSolved": "Browse, buy and arrange finance in one place, with delivery to your door.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Selling your old car is a separate hassle.",
+        "howSolved": "Instant part-exchange and 'sell your car' offers online.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Arranging car finance is confusing.",
+        "howSolved": "Finance quotes shown on each car page and applied for online.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Searching across many dealer sites is slow (2025 model).",
+        "howSolved": "One search across 200,000 cars from thousands of dealers.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Buy online with home delivery",
+        "whatItDoes": "Complete purchase in the app or site and get the car delivered in about 72 hours.",
+        "whyItMatters": "The core promise that set Cazoo apart from dealers, and also its most expensive operation."
+      },
+      {
+        "feature": "7-day money-back guarantee",
+        "whatItDoes": "Return the car within 7 days for a full refund, with free collection.",
+        "whyItMatters": "Built trust for a big purchase made without a test drive. Every return cost Cazoo transport and reconditioning money."
+      },
+      {
+        "feature": "300-point check and reconditioning",
+        "whatItDoes": "Cazoo inspected and repaired each car in its own centres before sale.",
+        "whyItMatters": "Meant to guarantee quality. When it failed, as BBC Watchdog showed in 2022, trust broke quickly."
+      },
+      {
+        "feature": "Finance and part-exchange",
+        "whatItDoes": "Online finance applications and instant valuations of the buyer's old car.",
+        "whyItMatters": "Finance commissions added profit per car and made monthly payments easier for buyers."
+      },
+      {
+        "feature": "Cazoo Subscription",
+        "whatItDoes": "Monthly car subscription including insurance and servicing, launched after buying Drover in 2021.",
+        "whyItMatters": "Aimed at repeat monthly revenue, but tied up even more money in cars."
+      },
+      {
+        "feature": "Dealer marketplace (2025)",
+        "whatItDoes": "Dealers list stock on Cazoo through Motors; buyers search and contact dealers.",
+        "whyItMatters": "Asset-light model: no cars owned, revenue from dealer subscriptions instead."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First online car purchase (2022)",
+        "persona": "Time-poor family buyer",
+        "steps": [
+          {
+            "step": "Sees ad",
+            "detail": "Notices Cazoo on a football shirt or TV ad."
+          },
+          {
+            "step": "Searches",
+            "detail": "Filters by budget, body type and mileage on the site."
+          },
+          {
+            "step": "Checks car",
+            "detail": "Looks at 360-degree photos and the list of marked imperfections."
+          },
+          {
+            "step": "Pays or finances",
+            "detail": "Pays a deposit or applies for finance online, adds part-exchange."
+          },
+          {
+            "step": "Books delivery",
+            "detail": "Picks a delivery slot about 72 hours out."
+          },
+          {
+            "step": "Receives car",
+            "detail": "Driver hands over the car and collects any part-exchange."
+          },
+          {
+            "step": "Decides to keep or return",
+            "detail": "Has 7 days to return it for a full refund."
+          }
+        ]
+      },
+      {
+        "name": "Return after a fault",
+        "persona": "First-time buyer",
+        "steps": [
+          {
+            "step": "Spots problem",
+            "detail": "Finds a warning light or damage not shown online."
+          },
+          {
+            "step": "Contacts support",
+            "detail": "Calls or emails customer service, often with long waits."
+          },
+          {
+            "step": "Arranges collection",
+            "detail": "Cazoo books a truck to collect the car."
+          },
+          {
+            "step": "Waits for refund",
+            "detail": "Refund and finance cancellation are processed."
+          },
+          {
+            "step": "Leaves review",
+            "detail": "Posts on Trustpilot or social media, which shapes others' trust."
+          }
+        ]
+      },
+      {
+        "name": "Dealer lists stock on new Cazoo",
+        "persona": "Dealer advertiser (2025 model)",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Joins via Motors, often bundled with an existing Motors package."
+          },
+          {
+            "step": "Feeds stock",
+            "detail": "Cars flow in automatically from the dealer's stock system."
+          },
+          {
+            "step": "Gets leads",
+            "detail": "Buyers send enquiries or call from Cazoo listings."
+          },
+          {
+            "step": "Compares results",
+            "detail": "Checks cost per lead against Auto Trader."
+          },
+          {
+            "step": "Renews or quits",
+            "detail": "Stays only if Cazoo leads turn into sales."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Old Cazoo made money on the gap between what it paid for a car and what it sold it for, plus finance commission and add-ons. That gap was too small to cover reconditioning, delivery, returns and massive marketing. New Cazoo makes money from monthly fees dealers pay to list cars.",
+      "revenueStreams": [
+        {
+          "stream": "Car sales (old model)",
+          "detail": "Retail price of each car; most of revenue but thin margin."
+        },
+        {
+          "stream": "Finance commission (old model)",
+          "detail": "Lenders paid Cazoo a cut for each finance deal arranged."
+        },
+        {
+          "stream": "Add-ons (old model)",
+          "detail": "Extended warranty, GAP insurance and paint protection."
+        },
+        {
+          "stream": "Subscription (old model)",
+          "detail": "Monthly fees for car subscriptions, closed down before the collapse."
+        },
+        {
+          "stream": "Dealer listing fees (2025 model)",
+          "detail": "Dealers pay Motors a monthly package to appear on Cazoo."
+        }
+      ],
+      "pricing": "Old model: fixed car prices, typically £10,000 to £25,000, delivery sometimes charged. New model: dealer listing packages, not public.",
+      "costDrivers": [
+        "Buying stock and holding about 1,500+ cars at any time",
+        "Reconditioning centres and a 55-acre Midlands site",
+        "Delivery trucks and drivers, plus collecting returns",
+        "Sponsorships across Premier League football, rugby, cricket, golf and snooker",
+        "22 showrooms and hubs, and a European expansion that was shut in 2022"
+      ],
+      "unitEconomics": "Rough walk-through, estimated: Cazoo sells a car for £15,000 that it bought for about £13,800. That leaves about £1,200 of gross profit, the money left after the car's own cost. Add finance commission and add-ons for maybe £500 more, so about £1,700. Then reconditioning costs about £600, delivery and any return about £300, and marketing to win that buyer often £1,000 or more. Before paying for offices, tech and staff, each car already loses hundreds of pounds. A £704 million loss in 2022 on roughly 60,000 to 70,000 cars works out to a loss of around £10,000 per car once everything is counted. Selling more cars made the hole bigger, not smaller."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Huge sponsorships: shirts for Everton, Aston Villa and others, plus the World Snooker Championship and The Hundred",
+        "National TV and online ads",
+        "Buying other companies such as Drover, Smart Fleet Solutions and Cluno for faster expansion",
+        "2025 model: traffic from Motors.co.uk and leftover brand fame"
+      ],
+      "whatBringsUsersBack": [
+        "Car buying is rare, about once every 3 to 4 years, so repeat purchase was weak",
+        "Selling the car back to Cazoo at the next upgrade",
+        "Subscription was meant to create monthly repeat customers"
+      ],
+      "moat": "Cazoo had almost no moat. Brand fame was bought with ads, not earned through habit. Anyone with money could copy the online buying flow, and big dealers like Arnold Clark and Motorpoint already had cheaper stock and local sites. The relaunched marketplace has a better chance because listing networks gain value as more dealers and buyers join, but Auto Trader is far ahead."
+    },
+    "competitors": [
+      {
+        "name": "Auto Trader",
+        "positioning": "The UK's biggest car listings site, highly profitable from dealer fees.",
+        "howThisProductDiffers": "New Cazoo pitches itself as a cheaper Auto Trader challenger, but has far fewer buyers today."
+      },
+      {
+        "name": "Cinch",
+        "positioning": "Online used car retailer owned by Constellation Automotive (BCA, webuyanycar).",
+        "howThisProductDiffers": "Cinch had cheap supply from its parent's auctions; Cazoo had to buy stock at market price."
+      },
+      {
+        "name": "Motorpoint",
+        "positioning": "Profitable listed used car retailer with large physical sites plus online sales.",
+        "howThisProductDiffers": "Motorpoint grew slowly and kept costs low; Cazoo spent to grow first."
+      },
+      {
+        "name": "Carvana (US) and Spinny (India)",
+        "positioning": "Online used car retailers in other markets with the same own-the-car model.",
+        "howThisProductDiffers": "Carvana nearly failed in 2022 but survived by cutting costs; Spinny raised money more slowly and focused on a few cities and repeat buyers. Cazoo expanded to 5 countries before the UK model worked."
+      }
+    ],
+    "northStar": {
+      "metric": "Cars delivered and kept past the 7-day return window, per month",
+      "why": "This is the north star because a car that is kept means the buyer got what they paid for. It also only counts sales that make money, because returned cars cost Cazoo twice."
+    },
+    "kpiTree": [
+      {
+        "metric": "Buyers starting a purchase",
+        "description": "How many people reach checkout each month.",
+        "children": [
+          {
+            "metric": "Site visits from search and brand",
+            "description": "Free and paid traffic that lands on car pages."
+          },
+          {
+            "metric": "Search to car page rate",
+            "description": "Share of searches where a buyer opens a car."
+          },
+          {
+            "metric": "Stock choice in buyer's budget",
+            "description": "Number of cars available in the most popular price bands."
+          }
+        ]
+      },
+      {
+        "metric": "Checkout to delivered rate",
+        "description": "Share of started orders that end with a car delivered.",
+        "children": [
+          {
+            "metric": "Finance approval rate",
+            "description": "Share of finance applications approved quickly."
+          },
+          {
+            "metric": "On-time delivery rate",
+            "description": "Share of cars delivered on the promised day."
+          },
+          {
+            "metric": "Cancellation before delivery",
+            "description": "Buyers who drop out while waiting."
+          }
+        ]
+      },
+      {
+        "metric": "Kept rate after 7 days",
+        "description": "Share of delivered cars not returned.",
+        "children": [
+          {
+            "metric": "Faults found at handover",
+            "description": "Cars arriving with issues not shown online."
+          },
+          {
+            "metric": "Photo accuracy complaints",
+            "description": "Complaints that the car did not match the listing."
+          },
+          {
+            "metric": "Support response time",
+            "description": "Hours to answer a worried buyer."
+          }
+        ]
+      },
+      {
+        "metric": "Profit per car",
+        "description": "Money left per car after all direct costs.",
+        "children": [
+          {
+            "metric": "Gross profit per unit",
+            "description": "Sale price minus car cost."
+          },
+          {
+            "metric": "Reconditioning cost per car",
+            "description": "Cost of checks and repairs."
+          },
+          {
+            "metric": "Marketing cost per sale",
+            "description": "Ad and sponsorship spend divided by cars sold."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Cash runway in months",
+      "Trustpilot rating",
+      "Days a car sits in stock before sale",
+      "Return rate"
+    ],
+    "strengths": [
+      "Very strong brand awareness built in about two years",
+      "Simple, well-designed online buying flow that buyers liked when it worked",
+      "Clear trust promises: 7-day returns and a warranty",
+      "The brand was valuable enough that Motors paid up to £5 million for it"
+    ],
+    "weaknesses": [
+      "Lost money on every car, so growth made losses bigger",
+      "Owned all stock, so it needed huge amounts of cash",
+      "Expanded into France, Germany, Italy and Spain before the UK was profitable",
+      "Quality control failed at scale, as BBC Watchdog showed in April 2022",
+      "Spent heavily on sponsorships that bought awareness, not loyalty"
+    ],
+    "risks": [
+      "Rising interest rates in 2022 made stock and finance more expensive and ended cheap investor money",
+      "Used car prices swung sharply after the pandemic, hurting the value of stock it held",
+      "Strong rivals with cheaper supply, such as Cinch and Motorpoint",
+      "For new Cazoo: Auto Trader's grip on UK dealers and buyers"
+    ],
+    "userComplaints": [
+      "Cars delivered with faults, damage or missing items",
+      "Delivery dates missed or changed at the last minute",
+      "Hard to reach customer service and slow refunds",
+      "Paperwork and registration delays (V5 logbooks)",
+      "After the collapse, confusion about warranties on cars already bought",
+      "In 2025, some buyers do not realise Cazoo now only lists dealer cars"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Grow in one country and a few regions only until each car makes money",
+        "problem": "Expansion to five countries burned cash before the model worked anywhere.",
+        "expectedImpact": "Smaller losses and time to fix operations.",
+        "metricToTrack": "Profit per car by region",
+        "effort": "medium"
+      },
+      {
+        "idea": "Swap national sponsorships for search and referral marketing",
+        "problem": "Sponsorships created fame but a very high cost per sale.",
+        "expectedImpact": "Lower marketing cost per car sold.",
+        "metricToTrack": "Marketing cost per sale",
+        "effort": "low"
+      },
+      {
+        "idea": "Video condition report for every car before payment",
+        "problem": "Buyers received cars that did not match the photos, driving returns.",
+        "expectedImpact": "Fewer returns and complaints.",
+        "metricToTrack": "Return rate within 7 days",
+        "effort": "medium"
+      },
+      {
+        "idea": "Let partner dealers sell through Cazoo instead of owning every car",
+        "problem": "Owning all stock tied up cash and made price swings dangerous.",
+        "expectedImpact": "More choice without stock risk, which is the path Motors took in 2025.",
+        "metricToTrack": "Share of sales from partner stock",
+        "effort": "high"
+      },
+      {
+        "idea": "New Cazoo: show a clear 'how this works' banner and dealer ratings",
+        "problem": "Buyers still expect Cazoo to sell and deliver cars itself.",
+        "expectedImpact": "Fewer confused leads and better dealer satisfaction.",
+        "metricToTrack": "Lead to sale rate reported by dealers",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Fix unit economics first. If each car loses money, selling more cars only makes the loss grow faster.",
+      "Paid fame is not product-market fit. Cazoo was famous, but buyers came once every few years and did not come back.",
+      "Trust promises need operations to back them. A 7-day return policy is only as good as the cars and support behind it.",
+      "Cheap money hides bad models. When interest rates rose in 2022, the plan to raise more funding stopped working.",
+      "A failed company's brand can still have value if it is moved to a cheaper model, like a marketplace."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why did Cazoo fail when Spinny in India is still running?",
+        "hint": "Compare unit economics, speed of expansion, marketing spend, and funding climate. Point out that Spinny focused on fewer cities and assured quality, while Cazoo went into five countries at once."
+      },
+      {
+        "question": "You are the PM at Cazoo in 2021. What one metric would you watch, and why?",
+        "hint": "Pick profit per car or kept rate after 7 days, explain why revenue or units alone mislead, and name the levers under it."
+      },
+      {
+        "question": "How would you reduce returns in an online used car business?",
+        "hint": "Map the reasons for return (condition, fit, price regret), then propose better photos or video, honest damage reports, and test drive options. Track return rate and cost per return."
+      },
+      {
+        "question": "Should Motors keep the Cazoo brand as a marketplace or merge it into Motors?",
+        "hint": "Weigh brand awareness against confusion and past bad press. Look at buyer traffic, dealer leads and cost per lead versus Auto Trader."
+      },
+      {
+        "question": "Design a trust feature for buying a car you have never seen in person.",
+        "hint": "Start with the buyer's fear, then list options (inspection video, third-party check, return window, warranty). Pick one, define success and the cost risk."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "SPAC",
+        "meaning": "A shell company that lists on a stock exchange and then merges with a private firm, letting it go public faster than a normal listing."
+      },
+      {
+        "term": "Administration",
+        "meaning": "A UK legal process where outside administrators take over a failing company to sell what they can and repay lenders."
+      },
+      {
+        "term": "Unit economics",
+        "meaning": "How much money a business makes or loses on one item sold or one customer."
+      },
+      {
+        "term": "Gross profit",
+        "meaning": "The money left from a sale after paying for the item itself, before other costs like staff and ads."
+      },
+      {
+        "term": "Marketplace",
+        "meaning": "A business that connects buyers and sellers and takes a fee, without owning the goods itself."
+      },
+      {
+        "term": "Product-market fit",
+        "meaning": "When a product meets a real need so well that customers keep coming back and tell others."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes it hard for competitors to copy a business or steal its customers."
+      },
+      {
+        "term": "North star",
+        "meaning": "The one metric a team treats as the best sign that customers are getting value."
+      },
+      {
+        "term": "Cash runway",
+        "meaning": "How many months a company can keep running on the cash it has before it needs more money."
+      }
+    ],
+    "assumptions": [
+      "The per-car unit economics walk-through is an estimate built from reported total losses and typical UK used car margins, not from Cazoo's own per-car figures.",
+      "About 60,000 to 70,000 cars sold in 2022 is an estimate from memory of company results; check the 2022 annual report.",
+      "Typical car price of £10,000 to £25,000 is inferred from the type of stock Cazoo sold.",
+      "Current (2026) size of the relaunched marketplace was not found; the 2025 launch figures are used."
+    ]
+  }
+}

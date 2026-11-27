@@ -1,0 +1,398 @@
+{
+  "company": "Perplexity",
+  "domain": "perplexity.ai",
+  "website": "https://perplexity.ai",
+  "sources": [
+    "https://aimagazine.com/news/perplexity-ai-answer-engine-tops-us-750m-run-rate",
+    "https://seekingalpha.com/news/4573154",
+    "https://sacra.com/c/perplexity",
+    "https://topclassactions.com/lawsuit-settlements/lawsuit-news/perplexity-ai-sued-over-undisclosed-usage-caps-on-paid-subscription-features/",
+    "https://techcrunch.com/2025/12/05/the-new-york-times-is-suing-perplexity-for-copyright-infringement",
+    "https://digiday.com/media/perplexity-faces-new-legal-pressure-even-as-it-attempts-to-win-over-publishers-and-advertisers",
+    "https://fortune.com/2025/08/26/perplexity-lawsuits-publishers-ai-search-nikkei-news-corp/"
+  ],
+  "report": {
+    "company": "Perplexity",
+    "tagline": "An AI answer engine that searches the web and gives you one cited answer, plus the Comet browser and Computer agent.",
+    "category": "AI search",
+    "simpleSummary": "Perplexity is like Google, but instead of ten blue links it reads the web for you and writes one answer with numbered sources you can click. You can ask follow-up questions like in a chat. It also makes Comet, a web browser with AI built in, and Computer, an agent that can do research and tasks for you. It is free to use, and makes money mostly from Pro and Max subscriptions and business plans.",
+    "keyNumbers": [
+      {
+        "label": "Annualised revenue",
+        "value": "Over $750 million (August 2026)",
+        "note": "The Information via AI Magazine. Up from under $250 million in January 2026. FT reported $450 million ARR in March 2026."
+      },
+      {
+        "label": "Valuation",
+        "value": "$20 billion (September 2025), talks above $30 billion",
+        "note": "Last confirmed round was $200 million at $20 billion; a new round led by NVIDIA above $30 billion was reported in 2026 but not confirmed."
+      },
+      {
+        "label": "Mobile monthly active users",
+        "value": "About 38 million (February 2026)",
+        "note": "App store analytics reported by AI Magazine. Up from 26 million in August 2025. Web users are extra and not included."
+      },
+      {
+        "label": "Revenue jump after Computer launch",
+        "value": "About 50 percent in one month",
+        "note": "FT report, early 2026. Computer is a cloud agent launched in February 2026."
+      },
+      {
+        "label": "Microsoft Azure deal",
+        "value": "$750 million over three years",
+        "note": "Bloomberg, January 2026. Perplexity buys computing and model access, showing how big its costs are."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Perplexity answers questions by searching the live web, reading the top pages and writing a short answer with citations. Pro users can pick which AI model answers (Claude, GPT, Gemini, Grok and others). Comet is a free AI browser that can summarise pages and do tasks. Computer is an agent that combines many AI models to run long research and work tasks.",
+      "howItWorks": [
+        "Type or say a question; Perplexity searches the web and shows sources at the top.",
+        "It writes an answer with numbered citations, then suggests follow-up questions.",
+        "Pro Search and Deep Research run many searches and write long reports.",
+        "Perplexity routes each task to the model best at it, for example Claude for coding or Gemini for deep research.",
+        "Comet browser lets you ask questions about any page or have the assistant fill forms and shop.",
+        "Spaces let teams save research threads and files to share."
+      ],
+      "valueProposition": "Fast, trustworthy answers with sources you can check, so you spend less time clicking links and more time knowing."
+    },
+    "personas": [
+      {
+        "name": "Student researcher",
+        "description": "A postgraduate student in Delhi who got Perplexity Pro free through Airtel and uses it for papers and assignments.",
+        "goals": [
+          "Find reliable sources fast",
+          "Understand topics with citations",
+          "Write literature reviews"
+        ],
+        "frustrations": [
+          "Sources sometimes do not support the claim",
+          "Free Pro offer ends and full price is high",
+          "Hard to tell which model to pick"
+        ]
+      },
+      {
+        "name": "Knowledge worker",
+        "description": "A market analyst at a consulting firm who uses Perplexity Enterprise for company research.",
+        "goals": [
+          "Quick company and market briefs",
+          "Sources to show clients",
+          "Share research with the team"
+        ],
+        "frustrations": [
+          "Paywalled data is often missing",
+          "Deep Research usage caps",
+          "Needs to double-check numbers"
+        ]
+      },
+      {
+        "name": "Curious everyday searcher",
+        "description": "A tech-savvy professional who switched from Google for most questions and uses Comet as their main browser.",
+        "goals": [
+          "No ads and fewer clicks",
+          "Answers to news and product questions",
+          "Try AI agents for chores"
+        ],
+        "frustrations": [
+          "Agent tasks in Comet sometimes fail",
+          "Local results like restaurants are weaker than Google Maps",
+          "Worried about browser privacy"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Google results are full of ads and SEO pages, and you must open many links.",
+        "howSolved": "Perplexity reads pages for you and gives one answer with sources.",
+        "severity": "high"
+      },
+      {
+        "pain": "AI chatbots make things up and do not show where facts came from.",
+        "howSolved": "Every answer has numbered citations you can click to check.",
+        "severity": "high"
+      },
+      {
+        "pain": "Writing a research report takes hours of searching.",
+        "howSolved": "Deep Research and Computer run dozens of searches and write a full report.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying for many AI apps to get the best models is expensive.",
+        "howSolved": "Pro gives access to several top models in one subscription.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Browsing and doing online chores is slow.",
+        "howSolved": "Comet can summarise tabs and complete web tasks for you.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Cited answers",
+        "whatItDoes": "Answers with numbered sources from the live web.",
+        "whyItMatters": "Trust is Perplexity's main difference from chatbots and from Google."
+      },
+      {
+        "feature": "Pro Search and Deep Research",
+        "whatItDoes": "Multi-step searches that produce longer, deeper answers and reports.",
+        "whyItMatters": "The main reason people pay for Pro."
+      },
+      {
+        "feature": "Model choice and routing",
+        "whatItDoes": "Lets users pick or auto-routes to Claude, GPT, Gemini, Grok and others.",
+        "whyItMatters": "Perplexity does not need to build the best model; it uses the best one for each job."
+      },
+      {
+        "feature": "Comet browser",
+        "whatItDoes": "A Chromium browser with an AI assistant on every page.",
+        "whyItMatters": "Owning the browser means owning the starting point of search, like Chrome does for Google."
+      },
+      {
+        "feature": "Computer agent",
+        "whatItDoes": "A cloud agent that combines 19 models to do long research and work tasks.",
+        "whyItMatters": "Revenue rose about 50 percent in the month after launch, showing demand for agents."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First search",
+        "persona": "Student researcher",
+        "steps": [
+          { "step": "Gets an offer", "detail": "Airtel SMS gives a free year of Perplexity Pro." },
+          { "step": "Downloads", "detail": "Installs the app and signs in with a phone number." },
+          { "step": "Asks a question", "detail": "Asks about a research topic and gets an answer with 8 sources." },
+          { "step": "Checks a source", "detail": "Taps citation 3 to read the original paper." },
+          { "step": "Follows up", "detail": "Asks a suggested follow-up question." },
+          { "step": "Saves to a Space", "detail": "Saves the thread for the thesis." }
+        ]
+      },
+      {
+        "name": "Research report with Computer",
+        "persona": "Knowledge worker",
+        "steps": [
+          { "step": "Opens Computer", "detail": "Starts a task in the Enterprise plan." },
+          { "step": "Describes the task", "detail": "'Build a market map of Indian quick commerce players with funding.'" },
+          { "step": "Agent works", "detail": "Computer searches, reads filings and builds a table and memo." },
+          { "step": "Reviews", "detail": "Checks numbers against sources." },
+          { "step": "Shares", "detail": "Exports to a doc and sends to the team." }
+        ]
+      },
+      {
+        "name": "Switching browser to Comet",
+        "persona": "Curious everyday searcher",
+        "steps": [
+          { "step": "Downloads Comet", "detail": "Installs the free browser and imports Chrome bookmarks." },
+          { "step": "Sets default search", "detail": "Perplexity becomes the default for the address bar." },
+          { "step": "Asks about a page", "detail": "Asks Comet to summarise a long article." },
+          { "step": "Tries a task", "detail": "Asks it to compare prices for headphones across sites." },
+          { "step": "Upgrades", "detail": "Buys Pro for more agent tasks." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Perplexity makes money mainly from subscriptions: Pro, Max and Enterprise plans. It also earns from its API, commerce, and a small ad business. It pays other companies for the AI models and computing it uses, so its margins depend on keeping those costs below what users pay.",
+      "revenueStreams": [
+        { "stream": "Consumer subscriptions", "detail": "Pro at $20 a month and Max at $200 a month for more Deep Research, Computer and Comet agent use." },
+        { "stream": "Enterprise", "detail": "Enterprise Pro and Max seats for companies like PayPal and Ramp." },
+        { "stream": "Partnership deals", "detail": "Telecoms and device makers like Airtel and Samsung bundle Perplexity and pay or share revenue." },
+        { "stream": "API (Sonar)", "detail": "Developers pay to use Perplexity's search-grounded answers in their apps." },
+        { "stream": "Ads and commerce", "detail": "Sponsored follow-up questions and shopping; small so far." }
+      ],
+      "pricing": "Free; Pro $20 a month or $200 a year; Max $200 a month; Enterprise Pro about $40 per seat a month; Comet browser free; Comet Plus about $5 a month, with most of it shared with publishers.",
+      "costDrivers": [
+        "Paying OpenAI, Anthropic, Google and others for model use",
+        "Computing for search and agents, including a $750 million Azure deal",
+        "Web search index and crawling",
+        "Legal costs from publisher lawsuits",
+        "Free Pro offers through partners like Airtel"
+      ],
+      "unitEconomics": "A Pro user pays $20 a month. Perplexity pays model makers for each answer; a heavy Deep Research or Computer user can cost $10 or more a month, a light user $1 to $3. So Perplexity keeps roughly $10 to $15 on a typical Pro user, less on heavy ones. That is why it added usage caps, which later led to a class action lawsuit. Free users and free Airtel Pro users cost money with no direct revenue. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Telecom and device bundles: Airtel gave free Pro to its customers in India, and Samsung built Perplexity into the Galaxy S26",
+        "Comet browser as a free download that sets Perplexity as default search",
+        "Founder Aravind Srinivas's public profile on X and in the media",
+        "Share links of answers that spread on social media",
+        "Enterprise case studies from PayPal, Ramp and others"
+      ],
+      "whatBringsUsersBack": [
+        "Daily questions replace Google habits",
+        "Discover feed with news",
+        "Spaces with saved research",
+        "Comet as the everyday browser"
+      ],
+      "moat": "Perplexity does not own a top model, so its moat is product and speed: a trusted cited-answer format, routing between models, and distribution deals with Samsung and Airtel. This is a thin moat, since Google, ChatGPT and Gemini all now offer cited AI answers."
+    },
+    "competitors": [
+      {
+        "name": "Google Search with AI Mode",
+        "positioning": "The default search engine, now with AI answers for over a billion users.",
+        "howThisProductDiffers": "Perplexity is cleaner and ad-light with clearer citations; Google has far more reach, local data and maps."
+      },
+      {
+        "name": "ChatGPT Search",
+        "positioning": "Search inside the biggest AI app.",
+        "howThisProductDiffers": "Perplexity is focused on research and sources; ChatGPT is a general assistant."
+      },
+      {
+        "name": "Gemini",
+        "positioning": "Google's assistant on Android.",
+        "howThisProductDiffers": "Perplexity fights it with deals on Samsung phones."
+      },
+      {
+        "name": "Claude Cowork",
+        "positioning": "Anthropic's desktop agent for work.",
+        "howThisProductDiffers": "Perplexity Computer runs in the cloud and mixes many models; Cowork runs on your files with Claude."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly answered questions where the user does not need to search again elsewhere",
+      "why": "Perplexity's promise is a trusted, complete answer. If users leave to Google, it failed. This captures both trust and habit."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active users",
+        "description": "People who ask at least one question a week.",
+        "children": [
+          { "metric": "Partner activations", "description": "Users activated through Airtel, Samsung and other bundles." },
+          { "metric": "Comet default search share", "description": "Share of Comet users who keep Perplexity as default." },
+          { "metric": "Week-4 retention", "description": "Retention: share of new users still active after four weeks." }
+        ]
+      },
+      {
+        "metric": "Questions per user",
+        "description": "How often people use Perplexity.",
+        "children": [
+          { "metric": "Follow-up rate", "description": "Share of answers that lead to a follow-up question." },
+          { "metric": "Discover feed opens", "description": "Daily visits to the news feed." }
+        ]
+      },
+      {
+        "metric": "Answer quality",
+        "description": "How good and trustworthy answers are.",
+        "children": [
+          { "metric": "Citation accuracy", "description": "Share of cited sources that actually support the claim." },
+          { "metric": "Re-search rate", "description": "Share of users who search the same thing on Google right after." },
+          { "metric": "Thumbs-down rate", "description": "Share of answers rated bad." }
+        ]
+      },
+      {
+        "metric": "Paid users",
+        "description": "People and companies paying for Pro, Max or Enterprise.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Share of free users who start paying." },
+          { "metric": "Partner trial to paid", "description": "Share of free Airtel Pro users who pay when the offer ends." },
+          { "metric": "Paid churn", "description": "Churn: share of payers who cancel each month." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Model cost per answer",
+      "Citation accuracy",
+      "Number of new publisher lawsuits or takedown demands",
+      "Agent tasks that cause wrong purchases or actions"
+    ],
+    "strengths": [
+      "Clear, trusted product: answers with sources",
+      "Fast revenue growth, from under $250 million to over $750 million run rate in 2026",
+      "Uses the best models from every lab instead of building one",
+      "Strong distribution deals in India (Airtel) and on Samsung phones"
+    ],
+    "weaknesses": [
+      "Depends on rivals (OpenAI, Anthropic, Google) for models",
+      "Many users came through free offers and may not pay",
+      "Small user base compared with ChatGPT and Gemini",
+      "Legal disputes with publishers hurt reputation"
+    ],
+    "risks": [
+      "Copyright lawsuits from the New York Times, Dow Jones, Nikkei and others",
+      "Google and ChatGPT copying cited answers for free",
+      "Model makers raising prices or limiting access",
+      "Websites blocking Perplexity's crawlers and agents, as Amazon did with Comet shopping"
+    ],
+    "userComplaints": [
+      "Hidden usage caps on paid features, which led to a class action lawsuit in November 2026",
+      "Citations that do not match the claim or link to weak sources",
+      "Comet agent tasks are slow or fail",
+      "Confusion about which model is used and why answers vary",
+      "Publishers say Perplexity copies their articles without paying"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show a clear usage meter for Pro and Max features, with caps stated upfront",
+        "problem": "Users and a lawsuit say caps were hidden.",
+        "expectedImpact": "Lower legal risk and fewer cancellations.",
+        "metricToTrack": "Paid churn and support tickets about limits",
+        "effort": "low"
+      },
+      {
+        "idea": "Citation check: highlight the exact sentence in the source that backs each claim",
+        "problem": "Citations sometimes do not support the answer.",
+        "expectedImpact": "More trust and fewer users re-searching on Google.",
+        "metricToTrack": "Citation accuracy and re-search rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Airtel 'keep Pro' offer: a lower rupee price for users whose free year ends",
+        "problem": "Free Pro users in India may drop off when the offer ends.",
+        "expectedImpact": "Turn free partner users into paying users.",
+        "metricToTrack": "Partner trial to paid conversion",
+        "effort": "low"
+      },
+      {
+        "idea": "Expand the publisher revenue share and show publisher logos on cited answers",
+        "problem": "Publisher lawsuits and blocked crawlers threaten answer quality.",
+        "expectedImpact": "More licensed content and fewer legal fights.",
+        "metricToTrack": "Number of publisher partners and lawsuits",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "You can build a valuable product on top of other companies' models, but your costs and access depend on them.",
+      "A clear, simple promise ('answers with sources') can stand out in a crowded market.",
+      "Distribution deals bring users fast, but you must plan how to make them pay later.",
+      "Hidden limits destroy trust; be clear about what users get for their money."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How can Perplexity compete with Google, which now has AI Mode?",
+        "hint": "Pick a segment where Perplexity wins (research, professionals). Explain the edge: citations, model choice, no clutter. Name one bet, like Comet, and a metric."
+      },
+      {
+        "question": "Perplexity got millions of free users through Airtel. How would you convert them to paid?",
+        "hint": "Segment by usage. Find the aha moment. Offer local pricing, reminders before the offer ends, and clear value. Track trial to paid conversion."
+      },
+      {
+        "question": "What should the north star metric be for Perplexity?",
+        "hint": "Answers that end the search. Break into reach, frequency, quality and paid users. Add cost per answer as a guardrail."
+      },
+      {
+        "question": "Publishers are suing Perplexity. How would you design a fair publisher program?",
+        "hint": "Map value for each side. Options: revenue share, traffic back, licensing. Measure publisher sign-ups and answer quality."
+      },
+      {
+        "question": "Should Perplexity build its own frontier model?",
+        "hint": "Compare cost and time versus routing other models. Consider margin, control and risk. Recommend a middle path like small in-house models for cheap tasks."
+      }
+    ],
+    "glossary": [
+      { "term": "ARR", "meaning": "Annual recurring revenue: yearly revenue from subscriptions, based on current pace." },
+      { "term": "Run rate", "meaning": "A yearly revenue number worked out from recent months." },
+      { "term": "Answer engine", "meaning": "A search tool that gives a written answer instead of a list of links." },
+      { "term": "Citation", "meaning": "A link to the source a fact came from." },
+      { "term": "Agent", "meaning": "An AI that takes steps on its own to finish a task." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a period." },
+      { "term": "Free to paid conversion", "meaning": "The share of free users who start paying." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "API", "meaning": "A way for other software to use Perplexity's answers directly, paid per use." }
+    ],
+    "assumptions": [
+      "Plan prices are based on public pricing from 2025 to 2026 and may have changed.",
+      "Per-user model costs and margin on Pro users are rough estimates.",
+      "Mobile user numbers exclude web and Comet users, so total users are higher.",
+      "The Airtel free Pro offer is based on a 2025 announcement; its 2026 status is not confirmed."
+    ]
+  }
+}

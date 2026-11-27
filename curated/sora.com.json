@@ -1,0 +1,382 @@
+{
+  "company": "Sora",
+  "domain": "sora.com",
+  "website": "https://sora.com",
+  "sources": [
+    "https://npr.org/2026/03/25/g-s1-115055/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns",
+    "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+    "https://www.techcrunch.com/2026/01/29/openais-sora-app-is-struggling-after-its-stellar-launch/",
+    "https://dataconomy.com/2026/01/30/openai-sora-app-sees-45-percent-decline-in-downloads/",
+    "https://finance.yahoo.com/news/openai-sending-sora-to-the-dustbin-makes-sense-2-charts-to-know-133016251.html",
+    "https://sacra.com/research/openai-at-25b-year/",
+    "https://www.cbsnews.com/news/sora-ai-openai-discontinues/?ftag=YHF4eb9d17"
+  ],
+  "report": {
+    "company": "Sora",
+    "tagline": "OpenAI's AI video app, a TikTok-style feed of generated clips, which launched in September 2025 and was shut down in March 2026.",
+    "category": "AI video / social",
+    "simpleSummary": "Sora was an app from OpenAI where you typed a short idea and AI made a 10-second video with sound. You could put yourself or friends into videos using a feature called cameos, and scroll a feed of everyone's AI videos, like TikTok. It went viral and hit number one on the App Store in its first week. But downloads fell fast, each video was very costly to make, deepfake worries grew, and OpenAI shut the app down in March 2026.",
+    "keyNumbers": [
+      {
+        "label": "Launch",
+        "value": "30 September 2025 (iOS, US and Canada first)",
+        "note": "OpenAI launch with the Sora 2 model. Android followed later in 2025."
+      },
+      {
+        "label": "Early downloads",
+        "value": "About 1 million in under 5 days",
+        "note": "OpenAI and app tracker reports, October 2025. It reached number one on the US App Store."
+      },
+      {
+        "label": "Download decline",
+        "value": "About 45 percent drop (by January 2026)",
+        "note": "App analytics reported by Dataconomy and TechCrunch, January 2026."
+      },
+      {
+        "label": "Shutdown announced",
+        "value": "24 March 2026",
+        "note": "NPR, TechCrunch and CBS. About six months after launch."
+      },
+      {
+        "label": "Cost to run",
+        "value": "Estimated millions of dollars a day at peak",
+        "note": "Outside estimates in 2025; OpenAI's Sora lead called the economics 'completely unsustainable'. Weak estimate; OpenAI did not publish costs."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Sora let users make short AI videos with sound from a text prompt, remix other people's videos and add real people through verified cameos. Videos appeared in a scrollable feed with likes, comments and follows. OpenAI hoped it would win attention, and later ad money, from TikTok, YouTube and Instagram. The app is now closed.",
+      "howItWorks": [
+        "Sign up with an OpenAI account, at first by invite code.",
+        "Type a prompt such as 'a cat doing a cricket commentary' and Sora 2 makes a 10-second clip with audio.",
+        "Record a short verification video to create a cameo, so you and friends you allow can appear in videos.",
+        "Scroll the feed, like, comment, and remix any video.",
+        "Free users got a daily number of generations; extra ones could be bought.",
+        "All videos carried a visible watermark and hidden labels saying they were AI-made."
+      ],
+      "valueProposition": "Make funny, shareable videos starring you and your friends in seconds, with no camera or editing skill."
+    },
+    "personas": [
+      {
+        "name": "Gen Z meme maker",
+        "description": "A 19-year-old college student who made funny clips of friends in absurd situations to share on Instagram and WhatsApp.",
+        "goals": [
+          "Make friends laugh",
+          "Go viral",
+          "Spend nothing"
+        ],
+        "frustrations": [
+          "Daily generation limits",
+          "Novelty wore off after a few weeks",
+          "Watermark made clips look less real"
+        ]
+      },
+      {
+        "name": "Content creator",
+        "description": "A YouTuber or Reels creator who used Sora for quick visual effects and story ideas.",
+        "goals": [
+          "Cheap visuals for videos",
+          "New formats to grow followers"
+        ],
+        "frustrations": [
+          "Only short clips",
+          "Rules on copyrighted characters changed often",
+          "Videos not good enough for longer stories"
+        ]
+      },
+      {
+        "name": "Worried public figure or parent",
+        "description": "Someone concerned about their face or their child's being used in fake videos.",
+        "goals": [
+          "Control use of their likeness",
+          "Fast removal of fakes"
+        ],
+        "frustrations": [
+          "Deepfakes spread beyond the app",
+          "Protections came after harm was done"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Making a funny or creative video needs filming and editing skills.",
+        "howSolved": "Sora made a full clip with sound from one sentence.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Putting yourself in a fantasy scene was impossible without effects skills.",
+        "howSolved": "Cameos placed your face and voice into any video.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Social feeds feel repetitive.",
+        "howSolved": "A feed of AI videos offered new, strange content, at least at first.",
+        "severity": "low"
+      },
+      {
+        "pain": "People fear their likeness being used without permission.",
+        "howSolved": "Cameo controls let users choose who could use their likeness, but critics said protections were not enough.",
+        "severity": "high"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Text to video with sound",
+        "whatItDoes": "Sora 2 made short, realistic or cartoon videos with speech and sound effects.",
+        "whyItMatters": "The wow moment that drove early downloads."
+      },
+      {
+        "feature": "Cameos",
+        "whatItDoes": "Verified users could add themselves and friends into videos.",
+        "whyItMatters": "Made videos personal and social, the main reason people shared them."
+      },
+      {
+        "feature": "Remix",
+        "whatItDoes": "Change any video in the feed with a new prompt.",
+        "whyItMatters": "Created chains of trends, like a social network."
+      },
+      {
+        "feature": "AI video feed",
+        "whatItDoes": "A TikTok-style feed with likes, comments and follows.",
+        "whyItMatters": "OpenAI's attempt to build a social product and future ad business."
+      },
+      {
+        "feature": "Watermarks and provenance labels",
+        "whatItDoes": "Marked every video as AI-made.",
+        "whyItMatters": "Needed for safety, but easy to crop, which fed deepfake worries."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Viral first week",
+        "persona": "Gen Z meme maker",
+        "steps": [
+          { "step": "Sees a clip", "detail": "A wild Sora video shows up on Instagram." },
+          { "step": "Gets an invite", "detail": "Finds an invite code from a friend." },
+          { "step": "Makes a cameo", "detail": "Records a short face and voice check." },
+          { "step": "Creates videos", "detail": "Makes clips of friends as cricket stars and movie heroes." },
+          { "step": "Shares", "detail": "Downloads and posts them on Reels and WhatsApp." },
+          { "step": "Drifts away", "detail": "After two or three weeks, stops opening the app." }
+        ]
+      },
+      {
+        "name": "Creator using Sora",
+        "persona": "Content creator",
+        "steps": [
+          { "step": "Tests prompts", "detail": "Tries effects for a video intro." },
+          { "step": "Hits limits", "detail": "Runs out of daily generations." },
+          { "step": "Buys more", "detail": "Pays for extra generations." },
+          { "step": "Faces rule changes", "detail": "Character prompts get blocked after rights holder complaints." },
+          { "step": "Moves to other tools", "detail": "Switches to Veo, Kling or Runway for longer clips." }
+        ]
+      },
+      {
+        "name": "Shutdown",
+        "persona": "Gen Z meme maker",
+        "steps": [
+          { "step": "Hears the news", "detail": "OpenAI posts 'saying goodbye to the Sora app' on 24 March 2026." },
+          { "step": "Checks saved videos", "detail": "Waits for OpenAI's instructions to save creations." },
+          { "step": "Exports", "detail": "Downloads favourite clips." },
+          { "step": "Moves on", "detail": "Uses AI video tools inside other apps, like Meta AI or Gemini." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Sora barely made money. The app was free, with limited sales of extra generations and Sora access through ChatGPT paid plans. The plan was to grow a huge feed and later sell ads, but each video cost a lot to make and users did not stay long enough to build an ad business.",
+      "revenueStreams": [
+        { "stream": "Extra generations", "detail": "Users could buy more videos after hitting the free daily limit." },
+        { "stream": "ChatGPT plans", "detail": "Plus and Pro subscribers got more and higher-quality Sora use." },
+        { "stream": "Licensing deals", "detail": "A Disney deal brought its characters to Sora; Disney also invested in OpenAI." },
+        { "stream": "Planned ads", "detail": "Ads in the feed were the long-term goal but never became a real business." }
+      ],
+      "pricing": "Free with daily limits; extra generations sold in small packs; more use with ChatGPT Plus ($20 a month) and Pro ($200 a month). App closed in 2026.",
+      "costDrivers": [
+        "GPU computing for each video, far more than for a text answer",
+        "Content moderation and safety teams to stop deepfakes and abuse",
+        "Legal risk from copyright holders and estates",
+        "Storage and streaming of millions of videos"
+      ],
+      "unitEconomics": "A 10-second AI video might cost OpenAI somewhere around $0.50 to $2 in computing, many times a text answer. A free user making 20 videos a day could cost $10 to $40 a day while paying nothing. To cover that with ads, a user would need to watch a lot, but most users stopped after a few weeks. So each active user likely lost money. These are rough outside estimates, not OpenAI figures."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral clips shared on TikTok, Instagram and X",
+        "Invite codes that created scarcity and buzz",
+        "OpenAI's brand and ChatGPT's huge user base",
+        "Cameos: users invited friends so they could appear together"
+      ],
+      "whatBringsUsersBack": [
+        "Friends tagging you in new cameo videos",
+        "Trends and remix chains in the feed",
+        "Daily free generations"
+      ],
+      "moat": "Sora had little moat. Rival models like Google's Veo, Kling and Runway soon matched quality, and AI video features appeared inside apps people already used, like Instagram and YouTube. A feed needs a lasting habit, which Sora never built."
+    },
+    "competitors": [
+      {
+        "name": "TikTok, Instagram Reels and YouTube Shorts",
+        "positioning": "Huge short video platforms with real creators.",
+        "howThisProductDiffers": "Sora had only AI videos, which felt fun at first but less meaningful than real people."
+      },
+      {
+        "name": "Google Veo (in Gemini and YouTube)",
+        "positioning": "AI video built into Google's apps.",
+        "howThisProductDiffers": "Google offered similar quality where users already were."
+      },
+      {
+        "name": "Meta AI and Vibes",
+        "positioning": "AI video feed and tools inside Meta's apps.",
+        "howThisProductDiffers": "Meta had billions of users and an ad business ready to pay for it."
+      },
+      {
+        "name": "Kling, Runway and Pika",
+        "positioning": "AI video tools for creators.",
+        "howThisProductDiffers": "They focus on creative tools, not a social feed."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active creators who share a video that friends watch or remix",
+      "why": "A good north star for a social app shows both sides: people keep creating and others keep watching. This captures both sides of the network."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active creators",
+        "description": "People who make at least one video a week.",
+        "children": [
+          { "metric": "New users from invites", "description": "Sign-ups through friend invites and cameos." },
+          { "metric": "Week-4 retention", "description": "Retention: share of new users still creating after four weeks. Sora's fell sharply." }
+        ]
+      },
+      {
+        "metric": "Social engagement",
+        "description": "How much people interact with videos.",
+        "children": [
+          { "metric": "Remixes per video", "description": "How often videos inspire new ones." },
+          { "metric": "Cameo tags per user", "description": "How often friends appear in each other's videos." },
+          { "metric": "Minutes watched per day", "description": "Time spent in the feed." }
+        ]
+      },
+      {
+        "metric": "Cost efficiency",
+        "description": "How much each video costs to make.",
+        "children": [
+          { "metric": "Computing cost per video", "description": "GPU cost per generated clip." },
+          { "metric": "Videos per active user", "description": "Generation volume, which drives cost." }
+        ]
+      },
+      {
+        "metric": "Trust and safety",
+        "description": "Whether the app stays safe.",
+        "children": [
+          { "metric": "Deepfake reports", "description": "Number of complaints about misuse of someone's likeness." },
+          { "metric": "Takedown time", "description": "Hours to remove a harmful video." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Non-consensual deepfake reports",
+      "Copyright takedown requests",
+      "Computing cost per active user",
+      "Share of feed that users rate as low quality ('AI slop')"
+    ],
+    "strengths": [
+      "Strong AI video model with sound (Sora 2)",
+      "Clever cameo feature that made videos social",
+      "OpenAI brand drove instant attention",
+      "Visible watermarks and provenance labels from day one"
+    ],
+    "weaknesses": [
+      "Very high cost per video with little revenue",
+      "Novelty faded quickly; downloads fell about 45 percent within months",
+      "A feed of only AI videos lacked the human connection of TikTok",
+      "Safety and copyright rules changed reactively after complaints"
+    ],
+    "risks": [
+      "Deepfake harm and regulation on synthetic media",
+      "Copyright claims from studios, estates and actors' unions",
+      "Big platforms adding AI video for free",
+      "Distraction from OpenAI's core business when computing is scarce"
+    ],
+    "userComplaints": [
+      "Deepfakes of real people, including dead celebrities like Martin Luther King Jr. and Michael Jackson, before OpenAI restricted them",
+      "Feed full of low-quality 'AI slop'",
+      "Daily limits and short clip length",
+      "Rules on characters and likeness kept changing",
+      "Disappointment and worry about losing creations when the app shut down"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Opt-in likeness controls by default, so no real person can appear unless they have verified and approved",
+        "problem": "Deepfakes of public figures and others harmed trust.",
+        "expectedImpact": "Fewer harmful videos and less legal risk.",
+        "metricToTrack": "Deepfake reports per 10,000 videos",
+        "effort": "medium"
+      },
+      {
+        "idea": "Build Sora as a creation tool inside ChatGPT and other apps instead of a separate social feed",
+        "problem": "Users did not form a habit of opening a standalone AI video feed.",
+        "expectedImpact": "Higher use with less cost of building a network from scratch.",
+        "metricToTrack": "Videos created per weekly ChatGPT user",
+        "effort": "medium"
+      },
+      {
+        "idea": "Charge per video from the start, with a small free allowance",
+        "problem": "Free videos cost too much to serve.",
+        "expectedImpact": "Costs covered by revenue.",
+        "metricToTrack": "Revenue minus computing cost per active user",
+        "effort": "low"
+      },
+      {
+        "idea": "Group challenges and private friend feeds instead of a public feed",
+        "problem": "Public AI content felt like slop; the fun was with friends.",
+        "expectedImpact": "Better retention through social ties.",
+        "metricToTrack": "Week-4 retention",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A viral launch is not product-market fit. Watch retention after week one, not downloads.",
+      "Check unit economics early. If each use costs a lot and users pay nothing, growth makes losses bigger.",
+      "Safety must be designed in from day one, not added after public outcry.",
+      "Social apps need a reason to return. Novelty fades; friends and meaning keep people coming back."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Sora hit number one on the App Store and shut down six months later. Why?",
+        "hint": "Cover retention (novelty faded), unit economics (costly videos, little revenue), safety (deepfakes) and competition (AI video in existing apps)."
+      },
+      {
+        "question": "If you were the PM in October 2025, what metrics would have warned you?",
+        "hint": "Week-4 retention, videos per user versus cost, share of feed views from friends, deepfake reports. Explain what each signals."
+      },
+      {
+        "question": "How would you design consent for putting real people in AI videos?",
+        "hint": "Verification, opt-in permission per person, revoke anytime, notifications when used, quick takedown. Balance fun and safety."
+      },
+      {
+        "question": "Should OpenAI have built Sora as a standalone app or inside ChatGPT?",
+        "hint": "Compare reach, habit and cost. Standalone gives a social network chance; inside ChatGPT uses existing users. Recommend one with reasons."
+      },
+      {
+        "question": "How would you make an AI video product profitable?",
+        "hint": "Target users who pay (creators, marketers), charge per video, cut cost per video, and sell to businesses. Track margin per user."
+      }
+    ],
+    "glossary": [
+      { "term": "Deepfake", "meaning": "A fake video or image of a real person made with AI." },
+      { "term": "Cameo", "meaning": "Sora's feature that let verified users appear in AI videos." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "Unit economics", "meaning": "How much money a business makes or loses on each user or sale." },
+      { "term": "Product-market fit", "meaning": "When a product meets a real need so well that people keep using it and tell others." },
+      { "term": "Provenance", "meaning": "Information showing where a piece of content came from, such as an AI label." },
+      { "term": "AI slop", "meaning": "Low-quality AI-generated content that floods feeds." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "North star", "meaning": "The one number a team uses to show users get real value." }
+    ],
+    "assumptions": [
+      "Computing cost per video and per user are rough outside estimates.",
+      "Download numbers come from third-party app trackers, not OpenAI.",
+      "OpenAI gave no full public reason for the shutdown; cost, retention and safety are inferred from reporting.",
+      "Status of the Sora model inside other OpenAI products after the app shutdown was not confirmed in sources used."
+    ]
+  }
+}

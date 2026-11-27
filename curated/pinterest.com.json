@@ -1,0 +1,169 @@
+{
+  "company": "Pinterest",
+  "domain": "pinterest.com",
+  "website": "https://pinterest.com",
+  "sources": [
+    "https://dealroom.co/news/168198-pinterest-q3-revenue-climbs-12-to-1-17b-as-ad-growth-cools/",
+    "https://stockstory.org/us/stocks/nyse/pins/news/earnings/pinterest-nysepins-misses-q3-2026-sales-expectations-stock-drops-142percent",
+    "https://finviz.com/news/377049/pinterest-announces-second-quarter-2026-results-delivers-18-revenue-growth-and-record-users",
+    "https://www.retailbrew.com/stories/2026/02/25/why-is-pinterest-losing-advertisers",
+    "https://www.fox5ny.com/news/pinterest-layoff-15-workforce-pivots-ai",
+    "https://www.404media.co/pinterest-is-drowning-in-a-sea-of-ai-slop-and-auto-moderation/",
+    "https://www.emarketer.com/content/pinterest-ups-genai-controls-address-user--advertiser-concerns"
+  ],
+  "report": {
+    "company": "Pinterest",
+    "tagline": "A visual search and saving app where people find ideas for outfits, homes, recipes and events, and then buy the products in them.",
+    "category": "Visual discovery",
+    "simpleSummary": "Pinterest is like a giant digital pinboard. You search for something like 'small balcony ideas' or 'wedding mehendi outfits', and you get a wall of pictures. You save the ones you like to boards, and many pictures link to a shop where you can buy what you see. Pinterest is free and makes almost all its money by showing ads that look like normal pins.",
+    "keyNumbers": [
+      {"label": "Monthly active users (MAU), Q3 2026", "value": "661 million, a record", "note": "Pinterest Q3 2026 results as reported by Dealroom and other outlets. Users keep growing even as revenue growth slows."},
+      {"label": "Revenue, Q3 2026", "value": "$1.17 billion, up 12% year on year", "note": "Pinterest Q3 2026 results. Growth slowed from 18% in Q2 2026, and the stock fell about 14% after the report."},
+      {"label": "Revenue growth by region, Q3 2026", "value": "US and Canada +14%, Europe flat, rest of world +24%", "note": "Pinterest Q3 2026 results via Dealroom. Europe revenue per user fell 7%."},
+      {"label": "Adjusted EBITDA, Q3 2026", "value": "$339 million (29% margin)", "note": "Pinterest Q3 2026 results. GAAP net income was only $21.5 million, down 77%, partly due to restructuring costs."},
+      {"label": "Q4 2026 revenue guidance", "value": "$1.425 to $1.475 billion (8% to 12% growth)", "note": "Company guidance in the Q3 2026 release. Q4 is the biggest quarter because of holiday shopping."},
+      {"label": "Workforce cut, 2026", "value": "About 15% of staff", "note": "Announced in early 2026 as Pinterest moved spending toward AI, per news reports."}
+    ],
+    "overview": {
+      "whatItDoes": "Pinterest helps people find and save ideas using pictures instead of words. Users search or scroll a personalised feed, save 'Pins' to boards, and click through to buy products or read recipes and guides. Brands pay to put their products in front of people who are planning a purchase.",
+      "howItWorks": [
+        "Users type a search or tap a picture to find visually similar ideas, using Pinterest Lens and visual search.",
+        "Users save Pins to boards like 'Living room' or 'Goa trip', which tells Pinterest exactly what they plan to do.",
+        "The home feed recommends new Pins based on what each person saved, searched and clicked.",
+        "Shoppable Pins link to product pages on retailer sites, with price and stock pulled from the retailer's catalogue.",
+        "Advertisers buy Promoted Pins and shopping ads, directly or through partners like Amazon and Google ad tools.",
+        "AI features like the Pinterest Assistant and 'Top Boards' help users go from inspiration to a shopping list."
+      ],
+      "valueProposition": "For users: a calm, positive place to plan your life with pictures, without the pressure of posting or follower counts. For advertisers: reach people while they are still deciding what to buy, before they have picked a brand."
+    },
+    "personas": [
+      {"name": "The Gen Z style planner", "description": "A 21-year-old college student who uses Pinterest to build outfit boards, room makeovers and mood boards, and calls it her 'vision board'.", "goals": ["Find a personal style and ideas to copy", "Buy similar items within a student budget"], "frustrations": ["AI-generated images that show products which do not exist", "Shoppable links that go to dead or overpriced pages"]},
+      {"name": "The home and event planner", "description": "A 34-year-old planning a home renovation or a wedding, saving hundreds of Pins over months.", "goals": ["Collect ideas in one place and share boards with a partner or designer", "Turn saved ideas into a real shopping list"], "frustrations": ["Pins without a source, so they cannot find the actual product", "Feeds that keep showing the same ideas after the project is done"]},
+      {"name": "The everyday recipe saver", "description": "A busy parent who searches 'easy dinner' or 'high protein breakfast' on Pinterest every week.", "goals": ["Find quick recipes that actually work", "Save favourites to cook again"], "frustrations": ["Recipe Pins that link to blogs full of pop-ups", "Fake or AI-made food photos"]},
+      {"name": "The retail advertiser", "description": "A marketing manager at a home decor or fashion brand who buys shopping ads on Pinterest alongside Meta and Google.", "goals": ["Reach people early while they plan a purchase", "Get sales at a cost that beats other ad platforms"], "frustrations": ["Weaker sales tracking than Meta or Google", "Cutting budgets when tariffs squeeze margins"]}
+    ],
+    "painPoints": [
+      {"pain": "It is hard to describe a style or design in words for a normal search engine.", "howSolved": "Visual search and Lens let users search with a picture and get similar looks.", "severity": "high"},
+      {"pain": "Ideas from many websites and screenshots get lost in a phone's gallery.", "howSolved": "Boards keep saved ideas organised by project, and they can be shared with others.", "severity": "medium"},
+      {"pain": "Seeing a product in a photo but not knowing where to buy it.", "howSolved": "Shoppable Pins and 'shop the look' link items in a photo to product pages.", "severity": "high"},
+      {"pain": "Most social apps feel stressful, with likes, comments and comparison.", "howSolved": "Pinterest is built for saving, not posting, so most users never share anything publicly.", "severity": "medium"},
+      {"pain": "Planning a big project like a wedding takes months and many decisions.", "howSolved": "Boards, sections and collaborators let a project grow over time and be shared with family.", "severity": "medium"},
+      {"pain": "Brands find it hard to reach shoppers before they have chosen a brand.", "howSolved": "Users search Pinterest with mostly unbranded queries like 'boho bedroom', so ads reach undecided shoppers.", "severity": "high"}
+    ],
+    "coreFeatures": [
+      {"feature": "Boards and saves", "whatItDoes": "Lets users save any Pin into themed boards and sections.", "whyItMatters": "Saves are the clearest signal of future intent, which powers both recommendations and ad targeting."},
+      {"feature": "Visual search and Lens", "whatItDoes": "Finds similar Pins and products from a photo or a part of a Pin.", "whyItMatters": "Solves the 'I cannot describe it' problem and is a key reason people choose Pinterest over Google."},
+      {"feature": "Shoppable Pins and catalogues", "whatItDoes": "Retailers upload product feeds so Pins show price and a buy link.", "whyItMatters": "Moves Pinterest from inspiration to sales, which lets it charge advertisers more."},
+      {"feature": "Personalised home feed", "whatItDoes": "Shows a never-ending feed of Pins ranked by what each user likes.", "whyItMatters": "Brings users back daily even when they are not searching, which creates more ad space."},
+      {"feature": "Gen AI labels and 'see fewer AI Pins' control", "whatItDoes": "Tags AI-generated images and lets users reduce them in their feed.", "whyItMatters": "Protects trust after a wave of user anger about AI slop, meaning low-quality AI-made content."},
+      {"feature": "Performance+ and programmatic ads", "whatItDoes": "Automated ad tools, and access to Pinterest ads through Amazon DSP, Google DV360 and Yahoo DSP.", "whyItMatters": "Makes buying Pinterest ads easier, so it can win budget from bigger platforms."}
+    ],
+    "userJourneys": [
+      {"name": "First visit from Google", "persona": "The everyday recipe saver", "steps": [
+        {"step": "Searches Google", "detail": "Types 'easy paneer recipes' and sees a Pinterest result in image search."},
+        {"step": "Lands on a Pin", "detail": "Sees the recipe photo and a grid of similar Pins below."},
+        {"step": "Gets asked to sign up", "detail": "A prompt asks them to log in with Google to save or see more."},
+        {"step": "Picks interests", "detail": "Chooses topics like 'recipes', 'home decor' to seed the home feed."},
+        {"step": "Saves first Pins", "detail": "Saves three recipes to a new 'Dinners' board."},
+        {"step": "Returns later", "detail": "Gets a push notification with more recipes based on the saves."}
+      ]},
+      {"name": "From idea to purchase", "persona": "The Gen Z style planner", "steps": [
+        {"step": "Searches a vibe", "detail": "Types 'old money outfits' and scrolls the results."},
+        {"step": "Uses Lens on a jacket", "detail": "Taps the jacket in one Pin to find similar items."},
+        {"step": "Filters by price", "detail": "Uses shopping filters to see items under $60."},
+        {"step": "Saves to a board", "detail": "Adds two options to an 'Autumn fits' board."},
+        {"step": "Clicks through", "detail": "Taps a shoppable Pin and lands on the retailer's product page."},
+        {"step": "Buys", "detail": "Checks out on the retailer site. Pinterest earns from the ad click, not the sale."}
+      ]},
+      {"name": "Brand runs a holiday campaign", "persona": "The retail advertiser", "steps": [
+        {"step": "Uploads catalogue", "detail": "Connects a product feed from Shopify so every item becomes a Pin."},
+        {"step": "Installs the Pinterest tag", "detail": "Adds tracking code and the conversions API to measure sales."},
+        {"step": "Sets up Performance+", "detail": "Lets Pinterest's automation choose audiences and bids."},
+        {"step": "Sets budget", "detail": "Spends, for example, $20,000 over six weeks before the holidays."},
+        {"step": "Reviews results", "detail": "Compares cost per sale against Meta and Google."},
+        {"step": "Decides to scale or cut", "detail": "Moves budget based on return on ad spend."}
+      ]}
+    ],
+    "businessModel": {
+      "summary": "Pinterest makes almost all its money from ads. Users pay nothing. Advertisers pay when users see or click Promoted Pins and shopping ads. The US and Canada bring in most of the money, because an American user is worth far more to advertisers than a user in India or Brazil.",
+      "revenueStreams": [
+        {"stream": "Promoted Pins and shopping ads", "detail": "Ads that look like normal Pins in search and the feed, sold by clicks, views or sales goals. This is nearly all revenue."},
+        {"stream": "Third-party ad partnerships", "detail": "Amazon and other partners fill some of Pinterest's ad slots, especially outside the US, and Pinterest gets a share."},
+        {"stream": "Programmatic deals", "detail": "Big advertisers buy Pinterest ads through Amazon DSP, Google DV360 and Yahoo DSP, rolled out more widely in 2026."}
+      ],
+      "pricing": "Free for users. Ads are sold by auction, so there is no public rate card. Advertisers set daily or campaign budgets.",
+      "costDrivers": ["Cloud servers and storage for billions of images", "AI and machine learning staff and computing for recommendations and visual search", "Sales and marketing to win advertisers", "Content moderation, now heavily automated"],
+      "unitEconomics": "Pinterest earns about $7 per year from an average user worldwide ($1.17 billion a quarter across 661 million users, times four). The gap by region is huge: a US or Canadian user is worth roughly $25 to $30 a year, while a 'rest of world' user brings in around $1 to $3. Serving a user costs only a small part of this, mainly servers and AI. Pinterest keeps about 29 cents of each dollar as adjusted EBITDA. So the money game is to grow revenue per user in rich markets and slowly lift it everywhere else."
+    },
+    "growth": {
+      "howTheyGetUsers": ["Google image and web search, where Pins rank for millions of 'ideas' queries", "Shared boards and Pins sent on WhatsApp, iMessage and Instagram", "Browser save button and links from blogs and shops", "Word of mouth among Gen Z, now the largest age group on the app"],
+      "whatBringsUsersBack": ["Ongoing projects like weddings, home moves and seasonal outfits", "Personalised home feed that updates with each save", "Push and email notifications with ideas based on boards", "Seasonal search spikes like Halloween, Diwali decor and Christmas"],
+      "moat": "Pinterest has more than a decade of data on what hundreds of millions of people save and plan to do, linked to billions of images. Each save teaches its system what goes with what. A rival can copy the grid layout, but not that history of intent, or the habit of 'I go to Pinterest to plan'."
+    },
+    "competitors": [
+      {"name": "Instagram", "positioning": "Meta's photo and video app, with explore, saves and shopping ads.", "howThisProductDiffers": "Instagram is about people and posting. Pinterest is about ideas and planning, with less social pressure and more search."},
+      {"name": "TikTok", "positioning": "Short video feed that drives trends and TikTok Shop sales.", "howThisProductDiffers": "TikTok is entertainment first. Pinterest users come with a project in mind and save for later."},
+      {"name": "Google Search and Lens", "positioning": "General search engine with image search and shopping results.", "howThisProductDiffers": "Pinterest adds boards, a feed and taste-based recommendations, not just one-off answers."},
+      {"name": "Amazon", "positioning": "The biggest online store and a fast-growing ad business.", "howThisProductDiffers": "Amazon captures people ready to buy. Pinterest catches them earlier, while they are still choosing, and even partners with Amazon on ads."},
+      {"name": "AI chat assistants like ChatGPT", "positioning": "Answer 'what should I wear or buy' questions and now show products.", "howThisProductDiffers": "Pinterest is visual and personal over time. Chatbots are text-first and forget your taste unless you tell them."}
+    ],
+    "northStar": {
+      "metric": "Weekly users who save or click through on at least one Pin",
+      "why": "A save or a click to a shop means Pinterest helped someone move a real plan forward. It shows value to users, and it is also what advertisers pay for."
+    },
+    "kpiTree": [
+      {"metric": "Active users", "description": "How many people come to Pinterest each week.", "children": [
+        {"metric": "New sign-ups from search", "description": "Visitors from Google who create an account."},
+        {"metric": "Week-4 retention", "description": "Share of new users still active four weeks later."},
+        {"metric": "Gen Z weekly users", "description": "The fastest-growing group and the future base."}
+      ]},
+      {"metric": "Save rate", "description": "Saves per active user per week.", "children": [
+        {"metric": "Feed relevance", "description": "Share of feed Pins that get a save or close-up."},
+        {"metric": "Search success rate", "description": "Searches that end in a save or click."},
+        {"metric": "AI slop share", "description": "Share of feed made of low-quality AI images, which should go down."}
+      ]},
+      {"metric": "Outbound clicks", "description": "Clicks from Pins to retailer or recipe sites.", "children": [
+        {"metric": "Shoppable Pin share", "description": "Share of product Pins with a live price and link."},
+        {"metric": "Broken link rate", "description": "Clicks that land on dead or wrong pages."},
+        {"metric": "Lens to product clicks", "description": "Visual searches that end in a shop click."}
+      ]},
+      {"metric": "Advertiser outcomes", "description": "How well ads drive sales, which decides future spend.", "children": [
+        {"metric": "Return on ad spend", "description": "Sales an advertiser gets per dollar spent."},
+        {"metric": "Conversion tracking coverage", "description": "Share of ad spend measured with the conversions API."},
+        {"metric": "Active advertisers", "description": "Number of brands spending each month."}
+      ]}
+    ],
+    "guardrailMetrics": ["Share of users who say the feed feels positive and inspiring", "Ad load, meaning ads per 100 Pins viewed", "Reports of fake or misleading AI Pins", "Time to remove harmful content"],
+    "strengths": ["Users arrive with clear plans, which advertisers value", "Record 661 million monthly users and growing Gen Z base", "Profitable, with about 29% adjusted EBITDA margin and strong cash flow", "Visual search and a huge library of saved ideas", "Positive, low-drama brand compared with other social apps"],
+    "weaknesses": ["Revenue per user outside the US is very low", "Revenue growth slowed to 12% in Q3 2026 and Europe was flat", "Sales tracking is weaker than at Meta and Google, so advertisers are cautious", "Feed quality hurt by AI-generated images and spam"],
+    "risks": ["Retailers cutting ad budgets because of US tariffs and weaker consumer spending", "AI chatbots and Google AI answers taking 'ideas' searches and traffic", "Meta and TikTok adding stronger shopping tools", "Over-reliance on AI moderation leading to wrongful bans and bad press"],
+    "userComplaints": ["Feeds flooded with AI-generated images that look fake, especially for decor, fashion and recipes", "Automated moderation banning accounts or removing Pins by mistake, with slow appeals", "Too many ads and shopping Pins mixed into the feed", "Pins that link to spam sites or broken pages", "The app pushes sign-up walls on people who just want to look"],
+    "improvementIdeas": [
+      {"idea": "Make 'Real only' a one-tap feed filter that removes AI-labelled Pins, and default it on for decor and recipe searches.", "problem": "Users are angry about AI slop and lose trust in what they save.", "expectedImpact": "Higher save rate and fewer complaints in key categories.", "metricToTrack": "Save rate per search in decor and recipes", "effort": "medium"},
+      {"idea": "Add a 'find this exact item' button that checks every saved product Pin weekly and shows live price and stock.", "problem": "Many Pins have dead links or no source, so shoppers cannot buy.", "expectedImpact": "More outbound clicks and better ad results for retailers.", "metricToTrack": "Outbound clicks per 1,000 product Pin views", "effort": "medium"},
+      {"idea": "Board-to-cart: turn a whole board into a shopping list with prices from several shops.", "problem": "Planners save dozens of ideas but buying them one by one is slow.", "expectedImpact": "More purchases per user and a reason for advertisers to spend more.", "metricToTrack": "Purchases attributed per active board", "effort": "high"},
+      {"idea": "Human review fast lane for appeals on accounts older than one year.", "problem": "Wrongful AI bans anger loyal creators and users.", "expectedImpact": "Fewer lost creators and less bad press.", "metricToTrack": "Median appeal resolution time and reinstatement rate", "effort": "low"},
+      {"idea": "Simpler sales measurement for small advertisers, with a guided conversions API setup in Shopify.", "problem": "Advertisers cut Pinterest first because they cannot prove sales.", "expectedImpact": "More ad spend retained when budgets tighten.", "metricToTrack": "Share of ad spend with conversion tracking", "effort": "low"}
+    ],
+    "pmLessons": ["Intent is valuable. Pinterest earns money because users tell it what they plan to do, not just what they watch.", "User growth does not equal revenue growth. Most new users are in markets where ads pay little, so monetisation per region matters.", "AI can hurt a product as fast as it helps. Letting AI images flood the feed damaged trust, and Pinterest had to add labels and controls.", "Measurement is a product. Advertisers spend where they can prove results, so ad tracking tools directly drive revenue."],
+    "interviewQuestions": [
+      {"question": "Pinterest's users hit a record but revenue growth slowed. Why, and what would you do?", "hint": "Split revenue into users times revenue per user, by region. Show growth is in low-paying markets. Suggest ways to lift revenue per user: shopping, measurement, partners."},
+      {"question": "How would you deal with AI-generated content on Pinterest?", "hint": "Separate harmful (fake products, spam) from fine (creative art). Discuss labels, user controls, ranking changes and creator rules. Pick metrics like save rate and trust surveys."},
+      {"question": "What should Pinterest's north star metric be?", "hint": "Argue for an action that shows real value, like weekly savers or clickers. Explain why time spent is wrong for a planning product. Add guardrails."},
+      {"question": "Design a feature to help a Gen Z user go from a mood board to a purchase.", "hint": "Clarify the user and budget. Map the journey from save to buy. Propose a feature, then say how you would test it and measure it."},
+      {"question": "How would you grow Pinterest in India?", "hint": "Look at low ad rates, local languages, festive and wedding planning, and shopping partners like Myntra or Flipkart. Say how you would make money, not just add users."}
+    ],
+    "glossary": [
+      {"term": "Monthly active users (MAU)", "meaning": "The number of different people who used the product at least once in a month."},
+      {"term": "Adjusted EBITDA", "meaning": "Profit before interest, taxes, wear on equipment and some one-off or non-cash costs, used to show how much cash the core business makes."},
+      {"term": "Retention", "meaning": "The share of users who keep coming back after they first join."},
+      {"term": "Return on ad spend", "meaning": "How many dollars of sales an advertiser gets for each dollar spent on ads."},
+      {"term": "Programmatic", "meaning": "Buying ads automatically through software that bids for ad space across many sites at once."},
+      {"term": "Conversions API", "meaning": "A tool that sends sale data from a shop's server to Pinterest so ads can be measured even without browser cookies."},
+      {"term": "North star metric", "meaning": "The one number a company uses to judge if it is giving real value to users."},
+      {"term": "Ad load", "meaning": "How many ads a user sees compared with normal content."},
+      {"term": "AI slop", "meaning": "Low-quality images or text made in bulk by AI tools, often fake or misleading."}
+    ],
+    "assumptions": ["Revenue per user by region is estimated from past Pinterest disclosures and the Q3 2026 total, since the source we used gave only the Europe change.", "Gen Z being the largest age group is based on Pinterest's own past statements, not a fresh 2026 figure.", "The north star metric is our choice, not one Pinterest has published.", "The $20,000 campaign is an example, not a real advertiser."]
+  }
+}

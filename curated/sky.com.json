@@ -1,0 +1,529 @@
+{
+  "company": "Sky (Sky Glass)",
+  "domain": "sky.com",
+  "website": "https://sky.com",
+  "sources": [
+    "https://www.inkl.com/news/plunging-value-and-a-content-cliff-edge-what-s-gone-wrong-at-sky",
+    "https://www.ibc.org/distribution-consumption/news/sky-to-cut-1-000-jobs-amid-shift-from-satellite-services/20237",
+    "https://www.ispreview.co.uk/index.php/2025/09/sky-uk-informs-workers-that-up-to-600-staff-face-the-chop.html",
+    "https://www.which.co.uk/reviews/televisions/article/sky-glass-tv-how-does-it-work-and-how-much-does-it-cost-aabuI1o5q8aa",
+    "https://www.uswitch.com/tv/guides/sky-glass-air-review/",
+    "https://www.whathifi.com/deals/the-best-sky-tv-deals?region-switch=GB",
+    "https://www.sky.com/watch?pp=1"
+  ],
+  "report": {
+    "company": "Sky (Sky Glass)",
+    "tagline": "A UK pay-TV company that bundles live TV, Sky Sports, Netflix and other apps into one box or one smart TV, Sky Glass, paid for monthly.",
+    "category": "TV / streaming",
+    "simpleSummary": "Sky is the UK's biggest pay-TV company. For a monthly fee, it gives you live channels, Sky Sports football and cricket, Sky Atlantic dramas, and apps like Netflix, all in one place with one remote. You used to need a satellite dish; now you can get it over Wi-Fi through a small box called Sky Stream or a TV with Sky built in, called Sky Glass. Sky also sells broadband and mobile, and it is owned by the US company Comcast.",
+    "keyNumbers": [
+      {
+        "label": "Premier League rights",
+        "value": "£5.2 billion for four of five packages, up to 2028-29",
+        "note": "Reported in coverage of the last Premier League auction; at least 215 live matches a season."
+      },
+      {
+        "label": "Broadband customers (UK)",
+        "value": "About 6.6 million",
+        "note": "Estimate by Enders Analysis, reported in 2025. Second only to BT."
+      },
+      {
+        "label": "Sky Mobile subscribers",
+        "value": "About 3.7 million",
+        "note": "Estimate reported in 2025, growing 5% to 10% a year."
+      },
+      {
+        "label": "New TV customers choosing dish-free",
+        "value": "About 90%",
+        "note": "Sky figure reported in 2025; they pick Sky Stream or Sky Glass instead of a satellite dish."
+      },
+      {
+        "label": "Sky Media ad revenue",
+        "value": "Over £1 billion a year",
+        "note": "Reported in 2025. Sky also had to repay £280 to £320 million to partners after an ad revenue error."
+      },
+      {
+        "label": "Job cuts",
+        "value": "About 1,000 engineering roles in 2024, 2,000 customer service roles and about 600 tech roles in 2025",
+        "note": "News reports by IBC and ISPreview. Part of a $1 billion cost-saving plan."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Sky sells TV packages, sport, broadband and mobile to UK and Irish homes on monthly contracts. Its newer products, Sky Stream and Sky Glass, deliver TV over the internet and pull live channels and streaming apps into one menu. It earns from subscriptions, TV hardware, and ads on its channels.",
+      "howItWorks": [
+        "Customers pick a base pack (Sky Essential TV from about £15 a month) and add Sky Sports, Cinema, Netflix or HBO Max.",
+        "Sky Glass is a TV with Sky built in; customers pay for it upfront or over 24 or 48 months.",
+        "Sky Stream is a small box that plugs into any TV and works over broadband, with no dish.",
+        "One search and one 'Playlist' cover Sky shows and apps like Netflix, Disney+ and YouTube.",
+        "Sky Sports shows Premier League, cricket, F1 and golf live.",
+        "Sky Media sells targeted TV ads (AdSmart) on Sky's channels and partners."
+      ],
+      "valueProposition": "For homes: one bill, one remote, one menu for live sport, channels and streaming apps, with no dish needed. For Sky: hardware and bundles that keep customers on long contracts."
+    },
+    "personas": [
+      {
+        "name": "The football-first fan",
+        "description": "A 38-year-old in Liverpool who pays for Sky Sports mainly for Premier League and cricket.",
+        "goals": [
+          "Watch every big game live",
+          "Easy setup at home and in the pub"
+        ],
+        "frustrations": [
+          "Prices that keep rising",
+          "Some matches only on TNT or Amazon"
+        ]
+      },
+      {
+        "name": "The convenience-loving family",
+        "description": "A family in Surrey with Sky Glass in the lounge and Sky Stream pucks in the bedrooms.",
+        "goals": [
+          "One place for kids' shows, Netflix and live TV",
+          "Simple voice search"
+        ],
+        "frustrations": [
+          "Long contracts that are hard to exit",
+          "Buffering when broadband is busy"
+        ]
+      },
+      {
+        "name": "The cost-conscious renter",
+        "description": "A 27-year-old in a London flat who wants Sky Atlantic and Netflix but no dish.",
+        "goals": [
+          "Short contract and low monthly price",
+          "No installer or dish"
+        ],
+        "frustrations": [
+          "Price jumps after the deal ends",
+          "Moving house with a contract"
+        ]
+      },
+      {
+        "name": "The broadband bundler",
+        "description": "A 50-year-old who takes Sky broadband, TV and mobile together for a discount.",
+        "goals": [
+          "One provider and lower total bill",
+          "Reliable support"
+        ],
+        "frustrations": [
+          "Fewer customer service staff and longer waits",
+          "Confusing bundle prices"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Jumping between Netflix, live TV and other apps is annoying.",
+        "howSolved": "Sky's menu combines live channels and apps in one search and one watchlist.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Installing a satellite dish is not possible in many flats.",
+        "howSolved": "Sky Stream and Sky Glass work over Wi-Fi, no dish needed.",
+        "severity": "high"
+      },
+      {
+        "pain": "Live sport is split across many paid services.",
+        "howSolved": "Sky Sports has most Premier League games plus cricket, F1 and golf.",
+        "severity": "high"
+      },
+      {
+        "pain": "Managing many separate bills is a hassle.",
+        "howSolved": "One Sky bill for TV, apps, broadband and mobile.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Buying a good TV upfront is costly.",
+        "howSolved": "Sky Glass can be paid monthly over 24 or 48 months.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Sky Glass",
+        "whatItDoes": "A smart TV with Sky built in, speakers, voice control and a cheaper Sky Glass Air model.",
+        "whyItMatters": "Locks in customers through hardware payments and removes the need for a dish."
+      },
+      {
+        "feature": "Sky Stream",
+        "whatItDoes": "A small streaming box for any TV, working over broadband.",
+        "whyItMatters": "Cheaper way to move customers off satellite, which costs Sky more."
+      },
+      {
+        "feature": "Sky Sports",
+        "whatItDoes": "Live Premier League, cricket, F1, golf and more.",
+        "whyItMatters": "The biggest reason people pay for Sky and accept higher prices."
+      },
+      {
+        "feature": "Aggregated apps and Playlist",
+        "whatItDoes": "Netflix, Disney+, HBO Max, YouTube and channels in one menu, with a shared watchlist.",
+        "whyItMatters": "Keeps Sky as the front door to TV even as people move to streaming apps."
+      },
+      {
+        "feature": "Bundled streaming deals",
+        "whatItDoes": "Netflix and, from 2026, ad-supported HBO Max and Discovery+ included in Sky packs.",
+        "whyItMatters": "Adds value as Sky loses exclusive rights to new HBO shows."
+      },
+      {
+        "feature": "AdSmart",
+        "whatItDoes": "Shows different TV ads to different homes based on data.",
+        "whyItMatters": "Earns more per ad than normal TV advertising."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Getting Sky Glass",
+        "persona": "The convenience-loving family",
+        "steps": [
+          {
+            "step": "Browses sky.com",
+            "detail": "Compares Sky Glass, Glass Air and Sky Stream."
+          },
+          {
+            "step": "Picks a TV size",
+            "detail": "Chooses a 55-inch Sky Glass paid over 48 months."
+          },
+          {
+            "step": "Adds packs",
+            "detail": "Adds Netflix and Sky Kids to Essential TV."
+          },
+          {
+            "step": "Credit check",
+            "detail": "Passes a credit check for the monthly TV payment."
+          },
+          {
+            "step": "Delivery and setup",
+            "detail": "Plugs in the TV, connects Wi-Fi and signs in."
+          },
+          {
+            "step": "Daily use",
+            "detail": "Uses voice search and the Playlist across apps."
+          }
+        ]
+      },
+      {
+        "name": "Adding Sky Sports for the season",
+        "persona": "The football-first fan",
+        "steps": [
+          {
+            "step": "Season starts",
+            "detail": "Sees Premier League adverts in August."
+          },
+          {
+            "step": "Checks price",
+            "detail": "Compares Sky Sports with NOW day and month passes."
+          },
+          {
+            "step": "Adds Sky Sports",
+            "detail": "Upgrades in the app on a monthly or 24-month contract."
+          },
+          {
+            "step": "Watches matches",
+            "detail": "Watches Super Sunday and Monday Night Football."
+          },
+          {
+            "step": "Uses extras",
+            "detail": "Uses multi-screen and highlights."
+          },
+          {
+            "step": "Considers leaving",
+            "detail": "Thinks about dropping it in summer when there is less football."
+          }
+        ]
+      },
+      {
+        "name": "End of a deal",
+        "persona": "The cost-conscious renter",
+        "steps": [
+          {
+            "step": "Deal ends",
+            "detail": "Gets a notice that the price will rise."
+          },
+          {
+            "step": "Compares",
+            "detail": "Looks at Virgin Media, NOW and just Netflix."
+          },
+          {
+            "step": "Calls Sky",
+            "detail": "Waits in the queue to ask for a better deal."
+          },
+          {
+            "step": "Gets offer",
+            "detail": "Retention team offers a discount for a new contract."
+          },
+          {
+            "step": "Decides",
+            "detail": "Stays on a new deal or cancels and moves to NOW."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Sky earns money from monthly TV, sport, broadband and mobile subscriptions, from selling Sky Glass TVs on finance, and from TV ads through Sky Media. Its biggest cost is sport and content rights, like the £5.2 billion Premier League deal. The goal is to keep homes on long contracts by being the one place they watch everything.",
+      "revenueStreams": [
+        {
+          "stream": "TV subscriptions",
+          "detail": "Essential TV and add-on packs like Sky Sports, Cinema and Netflix."
+        },
+        {
+          "stream": "Broadband and mobile",
+          "detail": "About 6.6 million broadband and 3.7 million mobile customers."
+        },
+        {
+          "stream": "Hardware",
+          "detail": "Sky Glass TVs and Sky Stream boxes, paid upfront or monthly."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Sky Media sells ads on Sky channels and partners, over £1 billion a year."
+        },
+        {
+          "stream": "NOW",
+          "detail": "Sky's no-contract streaming service with day and month passes."
+        }
+      ],
+      "pricing": "Sky TV from about £15 a month for Essential TV. Sky Sports and other packs cost extra. Sky Glass and Sky Glass Air are paid upfront or monthly over 24 or 48 months, with prices on sky.com. Offers change often.",
+      "costDrivers": [
+        "Sports rights such as the Premier League and cricket",
+        "Content deals with Netflix, HBO and others",
+        "Making Sky originals and running channels",
+        "Hardware like Sky Glass",
+        "Network costs for broadband and customer service"
+      ],
+      "unitEconomics": "Take a Sky Glass home paying around £15 for Essential TV, about £30 for Sky Sports and about £13 a month for the TV over 48 months, roughly £58 a month. Much of the sport fee goes to pay rights holders. The TV payment roughly covers the cost of the TV. Sky makes its profit by keeping the home for years and adding broadband and mobile, which have lower content costs. Losing a customer early is expensive because the TV may not be fully paid."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Live sport, especially the Premier League",
+        "Sky Glass and Stream for homes that cannot have a dish",
+        "Bundles with broadband and mobile",
+        "Deals and promotions on sky.com and comparison sites"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly live sport",
+        "Combined menu and Playlist across apps",
+        "Long contracts and TV payment plans",
+        "One bill for many services"
+      ],
+      "moat": "Sky owns most UK Premier League rights until 2029 and sits between homes and many streaming services as the aggregator. Its hardware and long contracts make switching hard. But its moat is weakening as studios like HBO and Disney keep new shows for their own apps."
+    },
+    "competitors": [
+      {
+        "name": "Virgin Media",
+        "positioning": "Cable TV and fast broadband bundles.",
+        "howThisProductDiffers": "Sky has more sport and the Glass TV; Virgin leads on broadband speed in many areas."
+      },
+      {
+        "name": "BT and EE TV",
+        "positioning": "Broadband with TNT Sports and apps.",
+        "howThisProductDiffers": "Sky has more Premier League matches."
+      },
+      {
+        "name": "Netflix, Disney+ and HBO Max",
+        "positioning": "Direct streaming apps.",
+        "howThisProductDiffers": "Sky bundles them with live TV and sport in one bill; they want customers directly."
+      },
+      {
+        "name": "Amazon Prime Video and TNT Sports",
+        "positioning": "Selected Premier League and other sports.",
+        "howThisProductDiffers": "Sky has the most matches; rivals offer some games cheaper."
+      },
+      {
+        "name": "Freely and free smart TV apps",
+        "positioning": "Free live TV over the internet from UK broadcasters.",
+        "howThisProductDiffers": "Sky offers premium content; free services win price-sensitive homes."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly hours watched per Sky home across live TV, sport and apps",
+      "why": "As a north star metric, it shows Sky is the main way the home watches TV. Homes that watch a lot through Sky stay longer and add more packs."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active Sky homes",
+        "description": "Homes with any Sky TV product.",
+        "children": [
+          {
+            "metric": "New Glass and Stream customers",
+            "description": "Dish-free sign-ups."
+          },
+          {
+            "metric": "Monthly churn",
+            "description": "Homes leaving each month."
+          },
+          {
+            "metric": "Satellite to Stream migration",
+            "description": "Customers moved off costly satellite."
+          }
+        ]
+      },
+      {
+        "metric": "Viewing through Sky",
+        "description": "Hours watched in Sky's menu.",
+        "children": [
+          {
+            "metric": "Live sport hours",
+            "description": "Viewing of Sky Sports."
+          },
+          {
+            "metric": "App launches from Sky menu",
+            "description": "Netflix and other apps opened through Sky."
+          },
+          {
+            "metric": "Playlist usage",
+            "description": "Homes using the shared watchlist."
+          }
+        ]
+      },
+      {
+        "metric": "Revenue per home",
+        "description": "Monthly money per customer.",
+        "children": [
+          {
+            "metric": "Packs per home",
+            "description": "Number of add-ons like Sports and Netflix."
+          },
+          {
+            "metric": "Broadband and mobile attach rate",
+            "description": "Share of TV homes also taking broadband or mobile."
+          },
+          {
+            "metric": "AdSmart revenue per home",
+            "description": "Targeted ad money per household."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Customer service wait times",
+      "Complaints to Ofcom",
+      "Stream buffering rate during big matches",
+      "Net promoter score after price rises"
+    ],
+    "strengths": [
+      "Most Premier League rights in the UK",
+      "Strong brand and bundle of TV, broadband and mobile",
+      "Hardware like Sky Glass that removes the dish",
+      "Big ad business with Sky Media"
+    ],
+    "weaknesses": [
+      "Losing exclusive new HBO shows",
+      "High cost of sports rights",
+      "Shrinking satellite base and many job cuts",
+      "Customer service under strain after cuts"
+    ],
+    "risks": [
+      "Studios selling direct to consumers instead of through Sky",
+      "Cheaper or free TV services like Freely",
+      "Higher sports rights prices at the next auction",
+      "Comcast cutting investment as Sky's value falls"
+    ],
+    "userComplaints": [
+      "Prices rising every year and after deals end",
+      "Long contracts that are hard to leave",
+      "Long waits for customer service",
+      "Buffering and lag on Sky Glass or Stream over weak Wi-Fi",
+      "Ads even on paid packs"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Seasonal Sky Sports pause that lets customers pause during summer without losing their deal.",
+        "problem": "Fans cancel in summer and Sky loses them to rivals.",
+        "expectedImpact": "Lower churn among sports fans.",
+        "metricToTrack": "Sky Sports annual churn",
+        "effort": "medium"
+      },
+      {
+        "idea": "Wi-Fi quality check and Sky booster offer before Glass or Stream setup.",
+        "problem": "Buffering on weak Wi-Fi leads to complaints.",
+        "expectedImpact": "Fewer complaints and returns.",
+        "metricToTrack": "Buffering rate in first 30 days",
+        "effort": "low"
+      },
+      {
+        "idea": "Clear price-rise calculator in the app showing the bill after deals end.",
+        "problem": "Customers are surprised by price jumps.",
+        "expectedImpact": "More trust and fewer angry calls.",
+        "metricToTrack": "Calls about bill shocks",
+        "effort": "low"
+      },
+      {
+        "idea": "AI support assistant in the Sky app to fix common issues fast.",
+        "problem": "Fewer customer service staff and long waits.",
+        "expectedImpact": "Shorter waits and lower cost.",
+        "metricToTrack": "Average wait time and first-contact resolution",
+        "effort": "medium"
+      },
+      {
+        "idea": "Super-bundle that adds more streaming apps at a discount.",
+        "problem": "Losing exclusive HBO shows weakens Sky's value.",
+        "expectedImpact": "More packs per home.",
+        "metricToTrack": "Packs per home",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "When content moves to direct apps, an aggregator must win on convenience and price.",
+      "Hardware can lock in customers, but it adds costs if customers leave early.",
+      "Sport is a strong reason to pay but has rising costs.",
+      "Cost cuts that hurt customer service can raise churn."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Sky is losing exclusive HBO content. What should it do?",
+        "hint": "Look at what keeps customers: sport, convenience, bundles. Propose new partners or original content and measure churn."
+      },
+      {
+        "question": "How would you grow Sky Glass sales?",
+        "hint": "Segment buyers. Look at price, finance, TV quality and bundles. Propose tests."
+      },
+      {
+        "question": "How would you reduce churn after deals end?",
+        "hint": "Find why people leave. Propose clear pricing, retention offers and value reminders."
+      },
+      {
+        "question": "Should Sky sell Sky Sports only through NOW?",
+        "hint": "Compare revenue, churn, cannibalisation and bundle value."
+      },
+      {
+        "question": "Design an aggregator feature that keeps Sky the front door to TV.",
+        "hint": "Think about search, watchlists and recommendations across apps. Measure app launches through Sky."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Aggregator",
+        "meaning": "A company that brings many services or products together in one place."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of customers who leave in a period."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Attach rate",
+        "meaning": "The share of customers who buy an extra product along with the main one."
+      },
+      {
+        "term": "Net promoter score",
+        "meaning": "A survey score showing how likely customers are to recommend a product."
+      },
+      {
+        "term": "Cannibalisation",
+        "meaning": "When a new product takes sales from an existing product of the same company."
+      },
+      {
+        "term": "AdSmart",
+        "meaning": "Sky's system for showing different TV ads to different homes."
+      }
+    ],
+    "assumptions": [
+      "Sky Glass monthly price of about £13 and Sky Sports at about £30 are rough estimates from deal sites; real prices vary.",
+      "Broadband and mobile customer numbers are analyst estimates from 2025.",
+      "We did not find total 2026 Sky revenue or customer numbers, since Comcast no longer reports Sky separately in detail.",
+      "The unit economics example is illustrative."
+    ]
+  }
+}

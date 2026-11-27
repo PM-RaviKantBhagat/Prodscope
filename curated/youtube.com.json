@@ -1,0 +1,561 @@
+{
+  "company": "YouTube",
+  "domain": "youtube.com",
+  "website": "https://youtube.com",
+  "sources": [
+    "https://thedesk.net/2026/10/alphabet-google-youtube-q3-2026-earnings-report/",
+    "https://cordcuttersnews.com/youtube-made-11-2-billion-in-ad-revenue-in-q3-2026/?amp=1",
+    "https://www.socialmediatoday.com/news/youtube-subscriptions-are-rising-as-more-users-turn-to-ctv/873272/",
+    "https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/?utm_id=ypp",
+    "https://mediaweek.com.au/social-media/youtube-doubles-the-hurdle-for-creators-chasing-ad-revenue",
+    "https://www.emarketer.com/content/youtube-s-creator-partner-rules-favor-scale-shorts-payouts-stricter",
+    "https://www.gadgetreview.com/?p=335911"
+  ],
+  "report": {
+    "company": "YouTube",
+    "tagline": "The world's biggest video app, where anyone can upload and creators earn a share of the ad and subscription money their videos bring in.",
+    "category": "Video platform",
+    "simpleSummary": "YouTube is a free video app where you can watch almost anything: cooking, cricket highlights, music, coding tutorials, or a 30-second Short. Most videos are made by ordinary creators, not TV studios. YouTube shows ads and gives creators a share of the money. If you hate ads, you can pay for YouTube Premium.",
+    "keyNumbers": [
+      {
+        "label": "Ad revenue, Q3 2026",
+        "value": "$11.2 billion, up about 9%",
+        "note": "Alphabet Q3 2026 results as reported by TheDesk and Cord Cutters News. Growth slowed from earlier quarters."
+      },
+      {
+        "label": "YouTube Music and Premium subscribers",
+        "value": "More than 150 million worldwide",
+        "note": "Alphabet Q3 2026 results, includes free trials."
+      },
+      {
+        "label": "Share of all US TV viewing time",
+        "value": "More than 15% (August 2026)",
+        "note": "Nielsen's The Gauge, reported by TheDesk. YouTube is the most-watched media company on US TV sets."
+      },
+      {
+        "label": "Paid to creators, artists and media companies",
+        "value": "About $100 billion over the four years to 2025",
+        "note": "YouTube's own figure, as reported in news coverage. Approximate."
+      },
+      {
+        "label": "Logged-in monthly users",
+        "value": "Over 2.5 billion (estimate)",
+        "note": "Weak estimate. Widely cited figure; YouTube has not given a fresh official number in 2026."
+      },
+      {
+        "label": "Shorts daily views",
+        "value": "Over 200 billion a day",
+        "note": "YouTube figure from 2025; 2026 figure not confirmed."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "YouTube hosts billions of videos uploaded by creators, from long videos and live streams to Shorts and podcasts. Viewers watch free with ads or pay for Premium. Advertisers pay to show ads, and YouTube splits ad money with creators in its Partner Program.",
+      "howItWorks": [
+        "Creators upload videos, Shorts, live streams or podcasts for free.",
+        "YouTube's recommendation system picks what each viewer sees on Home, Up Next and the Shorts feed.",
+        "Advertisers bid through Google Ads for ads before, during and between videos.",
+        "Creators in the YouTube Partner Program get about 55% of ad money on long videos and 45% on Shorts.",
+        "Viewers can pay for Premium (no ads, background play, downloads) or channel memberships and Super Chats.",
+        "YouTube TV, a US live TV bundle, and NFL Sunday Ticket sell paid sports and channels."
+      ],
+      "valueProposition": "For viewers: almost any video you want, free, on any screen. For creators: a huge audience and a share of the money. For advertisers: the biggest video audience in the world, now mostly watching on TV screens too."
+    },
+    "personas": [
+      {
+        "name": "The everyday learner",
+        "description": "A 22-year-old engineering student in Pune who watches coding tutorials, exam prep and tech reviews.",
+        "goals": [
+          "Learn skills for free",
+          "Find the best explanation fast"
+        ],
+        "frustrations": [
+          "Long ads in the middle of a tutorial",
+          "Clickbait thumbnails and long intros"
+        ]
+      },
+      {
+        "name": "The living-room family",
+        "description": "A US family that watches YouTube on a smart TV in the evening instead of cable.",
+        "goals": [
+          "Find shows, sports clips and podcasts the whole family likes",
+          "Watch on the big screen easily"
+        ],
+        "frustrations": [
+          "Unskippable ads on TV that get longer",
+          "Kids landing on low-quality videos"
+        ]
+      },
+      {
+        "name": "The full-time creator",
+        "description": "A Hindi tech reviewer with 2 million subscribers who earns from ads, brand deals and memberships.",
+        "goals": [
+          "Grow views and steady income",
+          "Understand what the algorithm wants"
+        ],
+        "frustrations": [
+          "Sudden drops in views with no reason",
+          "Demonetised videos and copyright claims",
+          "Shorts pay much less than long videos"
+        ]
+      },
+      {
+        "name": "The music and podcast listener",
+        "description": "A 30-year-old commuter in London who pays for YouTube Premium to play music and podcasts in the background.",
+        "goals": [
+          "Ad-free music and background play",
+          "One app for videos, music and podcasts"
+        ],
+        "frustrations": [
+          "Rising Premium prices",
+          "Music app weaker than Spotify in some features"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Learning a skill from books or paid courses is slow or costly.",
+        "howSolved": "Free tutorials on almost any topic, in many languages.",
+        "severity": "high"
+      },
+      {
+        "pain": "Cable TV is expensive and rigid.",
+        "howSolved": "Free YouTube on smart TVs, plus YouTube TV and Primetime Channels for paid TV.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Creators need an audience and a way to earn without a studio.",
+        "howSolved": "Anyone can upload, and the Partner Program shares ad money.",
+        "severity": "high"
+      },
+      {
+        "pain": "People want quick entertainment in short breaks.",
+        "howSolved": "Shorts gives an endless vertical feed.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Ads interrupt videos and music.",
+        "howSolved": "YouTube Premium removes ads and adds downloads and background play.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Brands find it hard to reach people who no longer watch TV channels.",
+        "howSolved": "YouTube sells ads on connected TVs and phones with Google's targeting.",
+        "severity": "high"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Recommendations (Home and Up Next)",
+        "whatItDoes": "Picks videos for each viewer based on watch history and satisfaction surveys.",
+        "whyItMatters": "Drives most watch time, which drives ad money."
+      },
+      {
+        "feature": "YouTube Shorts",
+        "whatItDoes": "Vertical short videos up to 3 minutes in a swipe feed.",
+        "whyItMatters": "Competes with TikTok and Reels and brings in young viewers and new creators."
+      },
+      {
+        "feature": "YouTube Partner Program",
+        "whatItDoes": "Shares ad and Premium money with creators who meet entry rules.",
+        "whyItMatters": "Keeps the best creators on YouTube, which keeps viewers."
+      },
+      {
+        "feature": "YouTube Premium",
+        "whatItDoes": "Ad-free videos, background play, downloads and YouTube Music.",
+        "whyItMatters": "A big subscription business that does not depend on advertisers."
+      },
+      {
+        "feature": "TV app",
+        "whatItDoes": "YouTube on smart TVs, with a lean-back interface and podcasts.",
+        "whyItMatters": "TV is where YouTube is growing fastest and where ads pay the most."
+      },
+      {
+        "feature": "Content ID",
+        "whatItDoes": "Matches uploads with copyrighted music and video so owners can block or earn from them.",
+        "whyItMatters": "Lets YouTube host huge amounts of music legally and keeps rights holders happy."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Search to learn",
+        "persona": "The everyday learner",
+        "steps": [
+          {
+            "step": "Searches",
+            "detail": "Types 'DSA linked list in Hindi' on YouTube or Google."
+          },
+          {
+            "step": "Picks a video",
+            "detail": "Chooses based on thumbnail, views and length."
+          },
+          {
+            "step": "Sees an ad",
+            "detail": "Watches a 5-second skippable ad from an ed-tech company."
+          },
+          {
+            "step": "Watches and saves",
+            "detail": "Saves the playlist and subscribes to the channel."
+          },
+          {
+            "step": "Gets recommendations",
+            "detail": "Home feed now shows the next videos in the series."
+          },
+          {
+            "step": "Returns daily",
+            "detail": "Comes back to continue the playlist."
+          }
+        ]
+      },
+      {
+        "name": "Creator's first earnings",
+        "persona": "The full-time creator",
+        "steps": [
+          {
+            "step": "Uploads regularly",
+            "detail": "Posts two videos and several Shorts a week."
+          },
+          {
+            "step": "Reaches YPP rules",
+            "detail": "Hits 1,000 subscribers and 4,000 watch hours (or 10 million Shorts views in 90 days)."
+          },
+          {
+            "step": "Applies to monetise",
+            "detail": "Links an AdSense account and gets reviewed."
+          },
+          {
+            "step": "Turns on ads",
+            "detail": "Ads start running; earnings show in YouTube Studio."
+          },
+          {
+            "step": "Adds income lines",
+            "detail": "Turns on memberships, Super Thanks and shopping links."
+          },
+          {
+            "step": "Gets paid monthly",
+            "detail": "Earnings above the payment threshold are paid to the bank."
+          }
+        ]
+      },
+      {
+        "name": "From free to Premium",
+        "persona": "The music and podcast listener",
+        "steps": [
+          {
+            "step": "Gets annoyed",
+            "detail": "Music stops when the phone screen locks."
+          },
+          {
+            "step": "Sees offer",
+            "detail": "Gets a one-month free Premium trial prompt."
+          },
+          {
+            "step": "Starts trial",
+            "detail": "Uses background play and downloads on the commute."
+          },
+          {
+            "step": "Uses YouTube Music",
+            "detail": "Builds playlists from songs watched as videos."
+          },
+          {
+            "step": "Gets charged",
+            "detail": "Trial ends and the monthly fee starts."
+          },
+          {
+            "step": "Stays or leaves",
+            "detail": "Keeps paying if ad-free feels worth it, or switches to Lite."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "YouTube makes money from ads first, and from subscriptions second. Advertisers paid $11.2 billion in Q3 2026 alone. Subscriptions like Premium, Music, YouTube TV and NFL Sunday Ticket are growing fast. YouTube pays a big share of this money to creators and music labels.",
+      "revenueStreams": [
+        {
+          "stream": "Advertising",
+          "detail": "Ads on videos, Shorts and TV, sold through Google Ads. $11.2 billion in Q3 2026, about $40 billion or more a year."
+        },
+        {
+          "stream": "YouTube Premium and Music",
+          "detail": "150 million or more subscribers paying monthly fees, with money shared with creators and labels."
+        },
+        {
+          "stream": "YouTube TV and NFL Sunday Ticket",
+          "detail": "US live TV bundle and NFL games package, sold by subscription."
+        },
+        {
+          "stream": "Creator tools revenue share",
+          "detail": "YouTube takes a cut of channel memberships, Super Chats and shopping commissions."
+        }
+      ],
+      "pricing": "Free with ads. YouTube Premium is about ₹149 a month for one person in India and about $13.99 in the US; Premium Lite (fewer ads, no music) is cheaper in some countries. YouTube TV is about $83 a month in the US. Prices vary by country and plan.",
+      "costDrivers": [
+        "Payouts to creators (about 55% of long-form ad money)",
+        "Royalties to music labels and publishers",
+        "Sports and TV rights like NFL Sunday Ticket",
+        "Video storage, data centres and bandwidth",
+        "Content moderation and trust and safety teams"
+      ],
+      "unitEconomics": "Take $1,000 of ads on long videos. About $550 goes to the creator, and YouTube keeps about $450 to pay for servers, bandwidth and staff. On Shorts, YouTube keeps more, 55%, but Shorts ads earn much less per view. A US viewer on a TV is worth far more than a phone viewer in India, because TV ads sell at a higher price. A Premium subscriber paying ₹149 in India brings steady money, but most of it is shared with creators and labels."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google Search results that show YouTube videos",
+        "Links shared on WhatsApp, X and other apps",
+        "Pre-installed on every Android phone and most smart TVs",
+        "Creators promoting their own channels"
+      ],
+      "whatBringsUsersBack": [
+        "Subscriptions to favourite creators and notifications for new videos",
+        "Personalised Home feed and endless Shorts feed",
+        "Live events like cricket highlights, music launches and podcasts",
+        "Playlists and watch history across phone and TV"
+      ],
+      "moat": "YouTube has the most creators and the most viewers, and each side keeps the other there. Creators go where the audience and money are, and viewers go where the creators are. Add Google's ad system, Content ID with music labels, and 20 years of watch data, and it is very hard to copy."
+    },
+    "competitors": [
+      {
+        "name": "TikTok",
+        "positioning": "Short video app with a strong recommendation feed and TikTok Shop.",
+        "howThisProductDiffers": "YouTube has long videos, TV viewing and better creator pay; TikTok leads in short video culture."
+      },
+      {
+        "name": "Instagram Reels",
+        "positioning": "Meta's short videos inside Instagram.",
+        "howThisProductDiffers": "YouTube shares ad money with creators more directly and has a library of long videos."
+      },
+      {
+        "name": "Netflix",
+        "positioning": "Paid streaming of studio-made shows and films.",
+        "howThisProductDiffers": "YouTube is mostly free and creator-made, and competes for TV time, not one-off purchases."
+      },
+      {
+        "name": "Spotify",
+        "positioning": "Music, podcasts and audiobooks.",
+        "howThisProductDiffers": "YouTube Music and video podcasts compete for listening, with video as the edge."
+      },
+      {
+        "name": "Twitch and Kick",
+        "positioning": "Live streaming for gamers and creators.",
+        "howThisProductDiffers": "YouTube Live has a bigger audience and long-term video discovery."
+      }
+    ],
+    "northStar": {
+      "metric": "Satisfied watch time: hours watched where viewers rate the video as worth their time",
+      "why": "This north star metric rewards videos people value, not just clickbait. More satisfied time means more ad views and more reason to pay for Premium."
+    },
+    "kpiTree": [
+      {
+        "metric": "Viewers",
+        "description": "How many people watch each day.",
+        "children": [
+          {
+            "metric": "Daily logged-in viewers",
+            "description": "People watching while signed in, who get better recommendations."
+          },
+          {
+            "metric": "TV app daily users",
+            "description": "Growth on the highest-value screen."
+          },
+          {
+            "metric": "Shorts daily viewers",
+            "description": "Young viewers coming in through Shorts."
+          }
+        ]
+      },
+      {
+        "metric": "Watch time per viewer",
+        "description": "Hours each viewer spends.",
+        "children": [
+          {
+            "metric": "Recommendation click rate",
+            "description": "Share of recommended videos that get watched."
+          },
+          {
+            "metric": "Satisfaction survey score",
+            "description": "How viewers rate the videos they watched."
+          },
+          {
+            "metric": "Shorts to long-form switch rate",
+            "description": "Viewers who move from Shorts to longer videos."
+          }
+        ]
+      },
+      {
+        "metric": "Creator supply",
+        "description": "Fresh, quality videos uploaded.",
+        "children": [
+          {
+            "metric": "Active uploading channels",
+            "description": "Channels posting at least once a week."
+          },
+          {
+            "metric": "YPP creator retention",
+            "description": "Monetised creators who keep uploading."
+          },
+          {
+            "metric": "Median creator earnings",
+            "description": "Earnings for a typical partner, not just top stars."
+          }
+        ]
+      },
+      {
+        "metric": "Monetised hours",
+        "description": "Watch time that earns ads or subscription money.",
+        "children": [
+          {
+            "metric": "Ad load",
+            "description": "Ads per hour watched."
+          },
+          {
+            "metric": "Premium subscribers",
+            "description": "Viewers paying for ad-free viewing."
+          },
+          {
+            "metric": "Price per ad on TV",
+            "description": "What advertisers pay for TV screen ads."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Ad skip and abandon rates",
+      "Harmful or misleading content views",
+      "Creator churn among monetised channels",
+      "Premium cancellation rate after price changes"
+    ],
+    "strengths": [
+      "Largest video audience and creator base in the world",
+      "Number one on US TV screens with over 15% of viewing time",
+      "Two strong money engines: ads and over 150 million subscriptions",
+      "Google's ad system and search traffic behind it"
+    ],
+    "weaknesses": [
+      "Ad growth slowed to about 9% in Q3 2026",
+      "Shorts earn much less per view than long videos",
+      "Heavy dependence on unpaid moderation by AI and on creator goodwill",
+      "Kids and harmful content problems bring repeated criticism"
+    ],
+    "risks": [
+      "TikTok and Reels competing for young viewers' time",
+      "Regulation on kids' safety, ads and competition, especially against Google",
+      "AI-generated spam videos lowering quality",
+      "Creator anger over tougher Partner Program rules from 2027"
+    ],
+    "userComplaints": [
+      "More and longer ads, including unskippable ones on TV",
+      "Crackdown on ad blockers that breaks playback",
+      "Premium price increases",
+      "Recommendations full of clickbait or repeated videos",
+      "Creators complain about demonetisation, copyright strikes and doubled entry rules for the Partner Program"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Let viewers on TV pick 'one longer ad break now' instead of several mid-roll ads.",
+        "problem": "Viewers hate frequent unskippable ads on TV.",
+        "expectedImpact": "Higher satisfaction with similar ad revenue.",
+        "metricToTrack": "Watch time per TV session and ad revenue per hour",
+        "effort": "medium"
+      },
+      {
+        "idea": "Price Premium Lite in India below ₹89 for ad-light viewing without music.",
+        "problem": "Many Indian users find ₹149 too high but dislike ads.",
+        "expectedImpact": "More paying users in price-sensitive markets.",
+        "metricToTrack": "Paying subscribers in India",
+        "effort": "low"
+      },
+      {
+        "idea": "Clear demonetisation reasons with timestamps and a one-click fix and re-review.",
+        "problem": "Creators lose income without knowing why.",
+        "expectedImpact": "Less creator anger and faster fixes.",
+        "metricToTrack": "Appeal resolution time and creator satisfaction",
+        "effort": "medium"
+      },
+      {
+        "idea": "'Hide AI-made Shorts' setting, using existing AI labels.",
+        "problem": "Viewers complain about low-quality AI videos.",
+        "expectedImpact": "Better satisfaction in the Shorts feed.",
+        "metricToTrack": "Shorts satisfaction score",
+        "effort": "low"
+      },
+      {
+        "idea": "New creator starter fund in Shorts for creators below the new 2027 entry bar.",
+        "problem": "Tougher rules may push new creators to TikTok.",
+        "expectedImpact": "Keeps new creator supply growing.",
+        "metricToTrack": "New channels uploading weekly after 90 days",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Two-sided platforms win by keeping both sides happy. YouTube's creator revenue share is why the best creators stay.",
+      "Follow the screen. YouTube grew by moving from phones and laptops to TVs, where ads earn more.",
+      "Measure satisfaction, not just time. Watch time alone rewards clickbait, so YouTube asks viewers what they valued.",
+      "A free product can still build a big subscription business if it gives a clear reason to pay, like no ads."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow YouTube Premium subscribers in India?",
+        "hint": "Segment users (music listeners, students, families). Look at price, value, and payment like UPI autopay. Propose a test and metrics."
+      },
+      {
+        "question": "Shorts views are huge but earn little. How would you improve Shorts monetisation?",
+        "hint": "Split into views, ad load, ad price and creator payouts. Consider shopping, brand deals and moving viewers to long-form."
+      },
+      {
+        "question": "What metric would you use to judge YouTube's recommendation system?",
+        "hint": "Compare watch time vs satisfied watch time. Add guardrails for harmful content and creator diversity."
+      },
+      {
+        "question": "Design a YouTube feature for families watching on TV.",
+        "hint": "Define the users (parents, kids). Find pains: shared profiles, kids' safety, picking content together. Propose a feature and success metrics."
+      },
+      {
+        "question": "YouTube is raising the bar for creators to earn. How would you evaluate this decision?",
+        "hint": "Consider quality, spam, payouts and creator supply. Model winners and losers and set metrics to watch."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "YouTube Partner Program",
+        "meaning": "YouTube's scheme that lets creators who meet set rules earn a share of ad and Premium money."
+      },
+      {
+        "term": "Revenue share",
+        "meaning": "The split of money between a platform and the people who make the content."
+      },
+      {
+        "term": "Connected TV",
+        "meaning": "A TV connected to the internet that can run apps like YouTube."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Ad load",
+        "meaning": "How many ads a viewer sees per hour of content."
+      },
+      {
+        "term": "Content ID",
+        "meaning": "YouTube's system that finds copyrighted material in uploads so owners can block or earn from it."
+      },
+      {
+        "term": "Watch time",
+        "meaning": "The total time viewers spend watching videos."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of users, subscribers or creators who stop using a product in a period."
+      },
+      {
+        "term": "Demonetisation",
+        "meaning": "When YouTube stops showing ads on a video, so the creator earns nothing from it."
+      }
+    ],
+    "assumptions": [
+      "Logged-in monthly users and Shorts daily views are older public figures, not confirmed 2026 numbers.",
+      "Premium prices are approximate and differ by country and plan.",
+      "The yearly ad revenue estimate is based on Q3 2026 times four.",
+      "The north star metric is our choice based on YouTube's public statements about satisfaction surveys."
+    ]
+  }
+}

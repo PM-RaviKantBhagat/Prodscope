@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Nothing",
+  "website": "nothing.tech",
+  "domain": "nothing.tech",
+  "market": "UK · global",
+  "category": "Consumer hardware",
+  "why": "London phone brand with Glyph design; strong India sales; brand-led challenger."
+ },
+ {
+  "company": "Tesla",
+  "website": "tesla.com",
+  "domain": "tesla.com",
+  "market": "US · global",
+  "category": "EV / hardware + software",
+  "why": "Over-the-air updates, direct sales and FSD; hardware product thinking."
+ },
+ {
+  "company": "Urban Company",
+  "website": "urbancompany.com",
+  "domain": "urbancompany.com",
+  "market": "India",
+  "category": "Home services marketplace",
+  "why": "Supply-side quality control and standardising services; listed in 2025."
+ },
+ {
+  "company": "Zillow",
+  "website": "zillow.com",
+  "domain": "zillow.com",
+  "market": "US",
+  "category": "Real estate",
+  "why": "Failed buying homes itself change of direction; makes money by selling leads to agents."
+ },
+ {
+  "company": "Rightmove",
+  "website": "rightmove.co.uk",
+  "domain": "rightmove.co.uk",
+  "market": "UK",
+  "category": "Property portal",
+  "why": "Dominant marketplace with huge margins; network effects."
+ },
+ {
+  "company": "Octopus Energy (Kraken)",
+  "website": "octopus.energy",
+  "domain": "octopus.energy",
+  "market": "UK · global",
+  "category": "Energy",
+  "why": "UK's largest energy supplier; customer experience in a boring category."
+ },
+ {
+  "company": "Google Search (AI Mode)",
+  "website": "google.com",
+  "domain": "google.com",
+  "market": "US · global",
+  "category": "Search",
+  "why": "Biggest product shift of 2025: AI Overviews and AI Mode vs. the ads business."
+ },
+ {
+  "company": "Google Maps",
+  "website": "maps.google.com",
+  "domain": "maps.google.com",
+  "market": "US · global",
+  "category": "Maps",
+  "why": "The most common 'improve this product' question; local commerce and India features."
+ },
+ {
+  "company": "Android",
+  "website": "android.com",
+  "domain": "android.com",
+  "market": "US · global",
+  "category": "Mobile operating system",
+  "why": "Open platform strategy; dominant in India."
+ },
+ {
+  "company": "Google Chrome",
+  "website": "google.com/chrome",
+  "domain": "google.com-chrome",
+  "market": "US · global",
+  "category": "Browser",
+  "why": "AI browsers (Comet, Atlas) challenge it; Gemini in Chrome."
+ },
+ {
+  "company": "Apple App Store",
+  "website": "apps.apple.com",
+  "domain": "apps.apple.com",
+  "market": "US · global",
+  "category": "Platform",
+  "why": "Platform rules, fees and the impact of EU/UK regulation on app makers."
+ },
+ {
+  "company": "MyJio",
+  "website": "jio.com",
+  "domain": "jio.com",
+  "market": "India",
+  "category": "Telecom / platform",
+  "why": "Cheap data plans brought hundreds of millions of Indians online; one app for many Jio services."
+ },
+ {
+  "company": "Airtel Thanks",
+  "website": "airtel.in",
+  "domain": "airtel.in",
+  "market": "India",
+  "category": "Telecom app",
+  "why": "How a telecom company uses one app for bills, rewards, streaming and payments to keep users."
+ }
+]

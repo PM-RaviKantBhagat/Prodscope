@@ -1,0 +1,293 @@
+{
+ "company": "Licious",
+ "domain": "licious.in",
+ "website": "https://licious.in",
+ "sources": [
+  "https://inc42.com/buzz/licious-claims-47-yoy-jump-in-fy26-revenue-to-%e2%82%b91166-cr/",
+  "https://inc42.com/buzz/licious-trims-fy25-loss-by-27-to-inr-218-3-cr",
+  "https://entrackr.com/news/licious-reports-rs-795-cr-revenue-in-fy25-cuts-ebitda-losses-by-45-10575891",
+  "https://www.business-standard.com/companies/news/temasek-backed-licious-plans-ipo-in-2026-targets-2-billion-valuation-125021801109_1.html",
+  "https://www.business-standard.com/companies/news/licious-30-minute-delivery-expands-india-protein-market-125092800429_1.html",
+  "https://play.google.com/store/apps/details?id=com.licious"
+ ],
+ "report": {
+  "company": "Licious",
+  "tagline": "An app that sells fresh, cleaned and cut chicken, mutton and fish, delivered cold to your door, often in 30 minutes.",
+  "category": "direct-to-customer meat",
+  "simpleSummary": "Buying meat in India usually means a trip to a local butcher, where hygiene and freshness are a guess. Licious lets you order chicken, mutton, fish, eggs and ready-to-cook items on an app. It cuts and packs the meat in its own clean processing centres, keeps it cold the whole way, and delivers it to your home. You pay a bit more than at the butcher, but you know what you are getting.",
+  "keyNumbers": [
+   {
+    "label": "Revenue, FY26 (April 2025 to March 2026)",
+    "value": "₹1,166 crore, up 47% from ₹795 crore in FY25",
+    "note": "Company claim reported by Inc42, 2026. Audited FY26 filings were not yet public at the time."
+   },
+   {
+    "label": "Cash burn (EBITDA loss), FY26",
+    "value": "About ₹187 crore, up from about ₹168 crore in FY25",
+    "note": "Inc42, 2026. Loss grew because of new dark stores and offline shops."
+   },
+   {
+    "label": "Net loss, FY25",
+    "value": "₹218 crore, down 27% from ₹299 crore in FY24",
+    "note": "Regulatory filings reported by Inc42 and Entrackr, late 2025."
+   },
+   {
+    "label": "Monthly active users",
+    "value": "Over 1.5 million; repeat customers make up about 94% of the business",
+    "note": "Company figures reported by Inc42, 2026."
+   },
+   {
+    "label": "Funding",
+    "value": "Over $550 million raised; unicorn ($1 billion+ value) since 2021",
+    "note": "Investors include Temasek and 3one4 Capital. Reports in 2025 said Licious aims for an IPO at about $2 billion value; timing not confirmed."
+   },
+   {
+    "label": "Offline sales",
+    "value": "₹177 crore in FY26, up from ₹26 crore in FY25, from 60+ stores",
+    "note": "Inc42, 2026. Licious treats stores mainly as a trust-building channel."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Licious sells raw meat, seafood, eggs, cold cuts and marinated ready-to-cook items through its app, website, its own stores and quick commerce apps like Blinkit. It was started in Bengaluru in 2015 by Vivek Gupta and Abhay Hanjura. It owns the whole chain from buying from farms to cutting, packing and delivery, which is called farm-to-fork.",
+   "howItWorks": [
+    "Licious buys chicken, goat and fish from farms and fishermen it has vetted, and checks quality at collection centres.",
+    "Meat is cut, cleaned and packed in its own processing centres, then kept between 0 and 4°C in the cold chain (refrigerated storage and transport at every step).",
+    "Packs go to dark stores, small warehouses near homes that only serve online orders.",
+    "You order on the app and pick a slot or the 30-minute Flash delivery, which about 55% of online users get.",
+    "A rider brings it in an insulated bag; you pay per pack, with a delivery fee on small orders unless you have the Meatopia membership."
+   ],
+   "valueProposition": "Meat you can trust: cleaned, cut the way you want, cold and fresh, at your door in about 30 minutes, without visiting a butcher."
+  },
+  "personas": [
+   {
+    "name": "Working couple in a metro",
+    "description": "Two professionals in Bengaluru or Gurugram who cook non-veg on weekends and want no butcher trips.",
+    "goals": ["Clean, boneless cuts ready to cook", "Same quality every time", "Delivery that fits a busy weekend"],
+    "frustrations": ["Prices higher than the local shop", "Popular cuts out of stock on Sunday mornings"]
+   },
+   {
+    "name": "Hygiene-conscious parent",
+    "description": "A parent who worries about how meat is handled at open butcher shops and wants safe food for kids.",
+    "goals": ["Know where the meat comes from", "No bad smell or spoiled fish", "Easy refunds if something is off"],
+    "frustrations": ["Occasional packs that smell or look stale", "Slow customer support on quality claims"]
+   },
+   {
+    "name": "Young bachelor who cooks rarely",
+    "description": "A 25-year-old in a PG or flat who wants quick protein without cleaning fish or chicken.",
+    "goals": ["Small packs, marinated or ready to cook", "Fast delivery after work"],
+    "frustrations": ["Minimum order and delivery fees on small carts", "Pack sizes too big for one person"]
+   },
+   {
+    "name": "Seafood lover in a non-coastal city",
+    "description": "Someone in Delhi or Hyderabad who wants fresh prawns or pomfret, which local shops rarely stock well.",
+    "goals": ["Wide fish choice", "Fish cut to curry, fry or fillet style"],
+    "frustrations": ["Fish freshness varies by day", "Limited range in some areas"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Not trusting the hygiene at local butcher shops", "howSolved": "Meat is cut in temperature-controlled centres and sealed in tamper-proof packs.", "severity": "high"},
+   {"pain": "Meat going warm and spoiling on the way home", "howSolved": "A cold chain keeps it at 0 to 4°C until delivery.", "severity": "high"},
+   {"pain": "Cleaning and cutting fish or chicken takes time and is messy", "howSolved": "Choose the exact cut: curry cut, boneless, fillet, cleaned prawns.", "severity": "medium"},
+   {"pain": "Weight and quality cheating at small shops", "howSolved": "Fixed weight and fixed price printed on each pack.", "severity": "medium"},
+   {"pain": "Needing meat fast for a sudden plan or guests", "howSolved": "Flash delivery in about 30 minutes in covered areas.", "severity": "medium"},
+   {"pain": "Not knowing how to marinate or cook well", "howSolved": "Ready-to-cook marinades, kebabs and recipes in the app.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "Choice of cuts", "whatItDoes": "Each product shows cut type, weight, pieces per pack and serves.", "whyItMatters": "Removes the main reason people trust a known butcher: getting the cut they want."},
+   {"feature": "Flash 30-minute delivery", "whatItDoes": "Delivers from the nearest dark store in about 30 minutes.", "whyItMatters": "Competes with quick commerce apps that also sell meat now."},
+   {"feature": "Meatopia membership", "whatItDoes": "A paid plan that gives free delivery and extra discounts for a few months.", "whyItMatters": "Locks in heavy users and raises repeat orders, which is where profit comes from."},
+   {"feature": "Ready-to-cook range", "whatItDoes": "Marinated chicken, kebabs, cold cuts, spreads and snacks.", "whyItMatters": "Higher margin than raw chicken and helps beginners cook non-veg."},
+   {"feature": "Quality guarantee and refunds", "whatItDoes": "Report a bad pack in the app with a photo for a refund or replacement.", "whyItMatters": "Trust is the whole product. One bad pack can lose a customer."},
+   {"feature": "Offline stores and Blinkit/Swiggy listings", "whatItDoes": "Licious packs sold in its 60+ stores and on quick commerce apps.", "whyItMatters": "Finds new buyers who would not download a meat-only app."}
+  ],
+  "userJourneys": [
+   {
+    "name": "First order",
+    "persona": "Hygiene-conscious parent",
+    "steps": [
+     {"step": "Discover", "detail": "Sees a Licious ad on Instagram or a friend's recommendation."},
+     {"step": "Install and set location", "detail": "Checks that Licious delivers to their pin code."},
+     {"step": "Browse", "detail": "Opens Chicken, compares curry cut vs boneless, reads weight and serves."},
+     {"step": "Apply first-order offer", "detail": "Uses a new-user discount code."},
+     {"step": "Choose delivery", "detail": "Picks Flash or a later slot."},
+     {"step": "Receive and inspect", "detail": "Gets a cold sealed pack, checks smell and colour."},
+     {"step": "Cook and decide", "detail": "If it tastes fresh, they are likely to order again."}
+    ]
+   },
+   {
+    "name": "Weekend repeat order",
+    "persona": "Working couple in a metro",
+    "steps": [
+     {"step": "Open app Saturday morning", "detail": "Goes to past orders."},
+     {"step": "Reorder", "detail": "Adds the usual chicken and prawns in two taps."},
+     {"step": "Add-on", "detail": "Adds a marinated kebab pack suggested at checkout."},
+     {"step": "Free delivery", "detail": "Meatopia membership waives the fee."},
+     {"step": "Track rider", "detail": "Watches the order arrive in about 30 minutes."}
+    ]
+   },
+   {
+    "name": "Quality complaint",
+    "persona": "Seafood lover in a non-coastal city",
+    "steps": [
+     {"step": "Notice a problem", "detail": "Fish smells off when the pack is opened."},
+     {"step": "Open help", "detail": "Goes to the order in the app and picks 'quality issue'."},
+     {"step": "Upload photo", "detail": "Takes a picture of the product."},
+     {"step": "Get resolution", "detail": "Receives a refund to the Licious wallet or a replacement."},
+     {"step": "Decide to stay", "detail": "A fast, fair fix keeps them; a slow one sends them to FreshToHome or Blinkit."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Licious makes money by selling meat it buys, processes and packs itself, at a markup over the farm price. It also earns delivery fees and membership fees, and sells through stores and other apps.",
+   "revenueStreams": [
+    {"stream": "Product sales on its app and website", "detail": "Over ₹1,000 crore in FY26; the main source of money."},
+    {"stream": "Offline stores", "detail": "₹177 crore in FY26 from 60+ stores."},
+    {"stream": "Sales on quick commerce apps", "detail": "Packs sold through apps like Blinkit, Zepto and Swiggy Instamart, which take a cut."},
+    {"stream": "Delivery fees and Meatopia membership", "detail": "Small fees on low-value orders and a paid plan for free delivery."}
+   ],
+   "pricing": "Per-pack prices on the app. For example, chicken curry cut 500g is often around ₹170 to ₹200, more than a local shop. A delivery fee applies below a minimum cart value unless you have Meatopia. Prices vary by city.",
+   "costDrivers": [
+    "Raw meat and fish bought from farms (the biggest cost)",
+    "Cold chain: processing centres, refrigeration, insulated transport",
+    "Wastage: meat and fish spoil in days, so unsold stock is lost",
+    "Last-mile delivery riders",
+    "Marketing to win new customers",
+    "Rent and staff for dark stores and offline shops"
+   ],
+   "unitEconomics": "Rough estimate on a ₹600 order: about ₹360 to ₹400 is the cost of meat, about ₹60 to ₹80 goes to processing, packaging and cold storage, about ₹50 to ₹70 to delivery, plus wastage and marketing. That leaves little or nothing, which is why Licious still loses money (₹187 crore EBITDA loss in FY26 on ₹1,166 crore revenue, about 16 paise lost on each rupee). It earns more on repeat customers, bigger baskets and ready-to-cook items, which have better margins."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Performance ads on Instagram, YouTube and Google with first-order discounts",
+    "Being listed on Blinkit, Zepto and Instamart so people try the brand",
+    "Offline stores that let people see and trust the product",
+    "Word of mouth among families"
+   ],
+   "whatBringsUsersBack": [
+    "Consistent quality: same taste and cut every time",
+    "Weekly cooking habit, especially weekend non-veg meals",
+    "Meatopia membership with free delivery",
+    "Reorder from past orders in a few taps"
+   ],
+   "moat": "Licious owns its full supply chain, from farm sourcing to cold processing centres to dark stores. Building that takes years and hundreds of crores, and it is hard to run without wastage. Its brand is also the best known name for packaged fresh meat in Indian metros."
+  },
+  "competitors": [
+   {"name": "Local butcher shops", "positioning": "Cheap, nearby and familiar; the default for most Indians.", "howThisProductDiffers": "Licious is cleaner, more consistent and delivered, but costs more."},
+   {"name": "FreshToHome", "positioning": "Online fish and meat brand, strong in seafood and South India.", "howThisProductDiffers": "Licious has a bigger brand in metros and a faster 30-minute delivery in many areas."},
+   {"name": "Zepto Relish, Blinkit and Swiggy Instamart", "positioning": "Quick commerce apps selling their own or partner meat in 10 minutes.", "howThisProductDiffers": "Licious has more cuts and fish choice; quick commerce wins on speed and one app for all shopping."},
+   {"name": "Meatigo (ITC) and Tendercuts", "positioning": "Packaged meat brands; ITC brings a big food company's backing.", "howThisProductDiffers": "Licious is bigger online and owns more of its delivery network."}
+  ],
+  "northStar": {
+   "metric": "Number of fresh meat orders delivered on time with no quality complaint, per week",
+   "why": "Licious only wins if people trust the meat. An order that arrives cold, on time and fresh is the value delivered, and it predicts the next order."
+  },
+  "kpiTree": [
+   {
+    "metric": "Active repeat customers",
+    "description": "People who order at least once a month.",
+    "children": [
+     {"metric": "Second-order rate within 30 days", "description": "Share of new users who come back; shows if the first experience earned trust."},
+     {"metric": "Meatopia members", "description": "Members order more often and are less likely to leave."},
+     {"metric": "Monthly churn", "description": "Share of active customers who stop ordering."}
+    ]
+   },
+   {
+    "metric": "Quality delivered",
+    "description": "How often the meat is as promised.",
+    "children": [
+     {"metric": "Quality complaint rate per 1,000 orders", "description": "Direct measure of freshness problems."},
+     {"metric": "Cold chain temperature breaches", "description": "Packs that went above 4°C at any step."},
+     {"metric": "Stock-out rate for top 20 items", "description": "Missing cuts push users to other apps."}
+    ]
+   },
+   {
+    "metric": "On-time delivery",
+    "description": "Orders that arrive within the promised time.",
+    "children": [
+     {"metric": "Share of orders eligible for Flash", "description": "More dark stores mean more people get 30-minute delivery."},
+     {"metric": "Average delivery time", "description": "Faster delivery keeps Licious close to quick commerce speed."}
+    ]
+   },
+   {
+    "metric": "Orders per customer and basket size",
+    "description": "How much each customer buys.",
+    "children": [
+     {"metric": "Average order value (AOV)", "description": "Bigger orders spread delivery cost."},
+     {"metric": "Ready-to-cook share of basket", "description": "Higher-margin items improve profit per order."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Wastage as a share of stock (must not rise as stores grow)",
+   "Contribution margin per order",
+   "App rating on Play Store and App Store",
+   "Refund value as a share of revenue"
+  ],
+  "strengths": [
+   "Strongest brand for trusted packaged meat in Indian metros",
+   "Owns the full cold supply chain, which is hard to copy",
+   "Very high repeat business (about 94% of sales from repeat buyers)",
+   "Revenue growing fast again (47% in FY26) after a flat period",
+   "Multiple channels: app, own stores and quick commerce apps"
+  ],
+  "weaknesses": [
+   "Still loss-making; EBITDA loss rose in FY26",
+   "Prices higher than local butchers, which limits reach outside metros",
+   "Perishable stock means high wastage risk",
+   "Only one category, so customers open the app less often than a grocery app"
+  ],
+  "risks": [
+   "Quick commerce apps (Blinkit, Zepto, Instamart) adding meat with 10-minute delivery and huge user bases",
+   "Big food companies like ITC entering packaged meat",
+   "Food safety incidents can damage trust quickly",
+   "Bird flu outbreaks and price swings in chicken and fish supply",
+   "IPO market conditions may delay a listing and new funding"
+  ],
+  "userComplaints": [
+   "Occasional fish or chicken that smells off or looks stale",
+   "Prices feel high compared with the local shop",
+   "Refunds sometimes go only to the Licious wallet, not the bank",
+   "Delivery slots run out or Flash is unavailable at peak times",
+   "Customer support slow to respond on quality claims"
+  ],
+  "improvementIdeas": [
+   {"idea": "Show 'packed at' date and time on every product page and pack", "problem": "Users worry about freshness, especially for fish.", "expectedImpact": "More trust, fewer complaints, higher conversion on seafood.", "metricToTrack": "Seafood conversion rate and quality complaint rate", "effort": "medium"},
+   {"idea": "Instant refund to original payment method for photo-verified quality issues", "problem": "Wallet-only refunds and slow support make users angry and push them to rivals.", "expectedImpact": "Better retention after a bad order.", "metricToTrack": "Repeat rate of users who raised a complaint", "effort": "low"},
+   {"idea": "Smaller single-serve packs (250g) for one-person homes", "problem": "Bachelors find packs too big and the cart too costly.", "expectedImpact": "More orders from young single users.", "metricToTrack": "New customers aged 18 to 25 and their 30-day repeat rate", "effort": "medium"},
+   {"idea": "Weekly subscription for the usual weekend order", "problem": "Weekend stock-outs and the effort of reordering.", "expectedImpact": "Predictable demand, lower wastage, higher orders per user.", "metricToTrack": "Subscribed customers and wastage percentage", "effort": "medium"},
+   {"idea": "Price match on top 5 chicken cuts against a city benchmark", "problem": "Price is the top reason people stay with local butchers.", "expectedImpact": "Win price-sensitive families into the habit, then upsell ready-to-cook.", "metricToTrack": "New customer growth and gross margin per order", "effort": "high"}
+  ],
+  "pmLessons": [
+   "In food, trust is the product. Licious sells the same chicken as a butcher; what people pay extra for is confidence that it is clean and fresh.",
+   "Owning the supply chain is expensive but gives control over quality. It is a moat and a cost burden at the same time.",
+   "A single-category app has to fight harder for frequency. Licious grows by selling through other apps and stores, not only its own app.",
+   "Watch wastage as closely as sales. With perishable goods, each extra store adds stock that can spoil."
+  ],
+  "interviewQuestions": [
+   {"question": "Quick commerce apps now deliver meat in 10 minutes. How should Licious respond?", "hint": "Pick what Licious does better (cuts, seafood, freshness proof). Decide whether to compete on speed or on quality. Suggest 2 to 3 moves and a metric like repeat rate."},
+   {"question": "Licious sees a rise in quality complaints in one city. How do you find the cause?", "hint": "Break by product, store, time of day and step in the chain. Check temperature logs and supplier batches. Fix the root, then track complaint rate per 1,000 orders."},
+   {"question": "What should be Licious's north star metric?", "hint": "Choose something showing value to users, like fresh on-time orders with no complaint. Break it into repeat users, quality, delivery and basket size."},
+   {"question": "Should Licious open more offline stores or more dark stores?", "hint": "Compare cost, new customers won, trust and margin. Offline builds trust; dark stores drive repeat online orders. Suggest a test in one city."},
+   {"question": "Design a feature to get a first-time user to their second order.", "hint": "Find why people do not return (price, doubt, forgot). Propose a reminder plus a second-order offer tied to what they bought. Measure 30-day repeat rate."}
+  ],
+  "glossary": [
+   {"term": "farm-to-fork", "meaning": "When one company controls every step from buying from farms to delivering food to the eater."},
+   {"term": "cold chain", "meaning": "Keeping food refrigerated at every step from processing to your door so it does not spoil."},
+   {"term": "dark stores", "meaning": "Small warehouses near homes that only pack online orders and are closed to walk-in shoppers."},
+   {"term": "quick commerce", "meaning": "Apps like Blinkit and Zepto that deliver everyday items in 10 to 30 minutes."},
+   {"term": "EBITDA", "meaning": "Earnings before interest, tax and accounting charges for wear of assets; a rough measure of whether day-to-day operations make or lose money."},
+   {"term": "unicorn", "meaning": "A private startup valued at $1 billion or more."},
+   {"term": "IPO", "meaning": "Initial public offering: when a company first sells shares on the stock market."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."},
+   {"term": "average order value (AOV)", "meaning": "The average amount a customer spends in one order."},
+   {"term": "churn", "meaning": "The share of customers who stop using a product in a period."},
+   {"term": "contribution margin", "meaning": "What is left from one order after paying the direct costs of that order, like product, packing and delivery."}
+  ],
+  "assumptions": [
+   "FY26 revenue and EBITDA loss are company claims; audited filings may differ.",
+   "The per-order cost split is our estimate based on typical meat retail and delivery costs, not company data.",
+   "Product prices are typical app prices seen in 2025 to 2026 and vary by city and offer.",
+   "Meatopia benefits change often; exact fees are not listed here."
+  ]
+ }
+}

@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Licious",
+  "website": "licious.in",
+  "domain": "licious.in",
+  "market": "India",
+  "category": "direct-to-customer meat",
+  "why": "Solving trust and freshness through a cold supply chain."
+ },
+ {
+  "company": "Country Delight",
+  "website": "countrydelight.in",
+  "domain": "countrydelight.in",
+  "market": "India",
+  "category": "Subscription dairy",
+  "why": "Daily subscription habit; retention via morning delivery."
+ },
+ {
+  "company": "BigBasket",
+  "website": "bigbasket.com",
+  "domain": "bigbasket.com",
+  "market": "India",
+  "category": "Online grocery",
+  "why": "Moved from scheduled delivery to quick delivery under Tata."
+ },
+ {
+  "company": "Dunzo",
+  "website": "dunzo.com",
+  "domain": "dunzo.com",
+  "market": "India",
+  "category": "Quick delivery (failed)",
+  "why": "Early leader that collapsed; a must-know failure teardown."
+ },
+ {
+  "company": "DoorDash",
+  "website": "doordash.com",
+  "domain": "doordash.com",
+  "market": "US",
+  "category": "Food delivery",
+  "why": "Won the US by focusing on suburbs; logistics and local commerce."
+ },
+ {
+  "company": "Instacart",
+  "website": "instacart.com",
+  "domain": "instacart.com",
+  "market": "US",
+  "category": "Grocery delivery",
+  "why": "Ads as a major revenue stream; retailer-partner model vs. owning inventory."
+ },
+ {
+  "company": "Uber",
+  "website": "uber.com",
+  "domain": "uber.com",
+  "market": "US · global",
+  "category": "Mobility / delivery",
+  "why": "Marketplace dynamics, surge pricing, Uber One membership and autonomous partnerships."
+ },
+ {
+  "company": "Ola / Ola Electric",
+  "website": "olaelectric.com",
+  "domain": "olaelectric.com",
+  "market": "India",
+  "category": "Mobility / EV",
+  "why": "Ride-hailing to EV change of direction; service quality issues are a strong 'fix this product' case."
+ },
+ {
+  "company": "Rapido",
+  "website": "rapido.bike",
+  "domain": "rapido.bike",
+  "market": "India",
+  "category": "Mobility",
+  "why": "Bike taxis and subscription (zero-commission) model for drivers; beat incumbents on price."
+ },
+ {
+  "company": "Namma Yatri",
+  "website": "nammayatri.in",
+  "domain": "nammayatri.in",
+  "market": "India",
+  "category": "Mobility (open network)",
+  "why": "Zero-commission auto app built on ONDC-style open rails."
+ },
+ {
+  "company": "Waymo",
+  "website": "waymo.com",
+  "domain": "waymo.com",
+  "market": "US",
+  "category": "Autonomous mobility",
+  "why": "Robotaxis at scale in 2025; trust, safety and city-by-city rollout strategy."
+ },
+ {
+  "company": "Wayve",
+  "website": "wayve.ai",
+  "domain": "wayve.ai",
+  "market": "UK",
+  "category": "Autonomous driving",
+  "why": "London self-driving AI; compare with Waymo on approach."
+ },
+ {
+  "company": "Auto Trader",
+  "website": "autotrader.co.uk",
+  "domain": "autotrader.co.uk",
+  "market": "UK",
+  "category": "Car marketplace",
+  "why": "Moved from print to digital; compare with Cars24."
+ }
+]

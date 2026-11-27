@@ -1,0 +1,393 @@
+{
+  "company": "Skyscanner",
+  "domain": "skyscanner.net",
+  "website": "https://www.skyscanner.net",
+  "sources": [
+    "https://skift.com/?p=836486",
+    "https://en.wikipedia.org/wiki/Skyscanner",
+    "https://similarweb.com/website/skyscanner.net/competitors",
+    "https://www.altexsoft.com/travel-industry-news/trip-com-earnings-got-a-major-boost-in-2025/",
+    "https://electroiq.com/stats/skyscanner-statistics/"
+  ],
+  "report": {
+    "company": "Skyscanner",
+    "tagline": "A free price comparison site that searches hundreds of airlines and travel sites to find the cheapest flight, hotel or car hire.",
+    "category": "Travel search",
+    "simpleSummary": "Skyscanner is like a search engine just for travel. You type where you want to go, and it checks hundreds of airlines and booking sites at once and lists the prices, cheapest first. You do not usually buy on Skyscanner. You click through to the airline or travel agent and book there. Skyscanner gets paid by those sites for sending you.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, 2025",
+        "value": "About £485 million ($660 million), up 24%",
+        "note": "Skift analysis of company accounts, September 2026."
+      },
+      {
+        "label": "Operating margin",
+        "value": "About 32%",
+        "note": "Skift, 2025 figures. Means about 32p of each £1 of revenue is operating profit."
+      },
+      {
+        "label": "Implied valuation",
+        "value": "About $3.5 billion",
+        "note": "Skift, based on internal share data; nearly double what Trip.com paid in 2016."
+      },
+      {
+        "label": "Owner",
+        "value": "Trip.com Group, 99.6%",
+        "note": "Skift. Trip.com bought Skyscanner in 2016 for about £1.4 billion."
+      },
+      {
+        "label": "Monthly users",
+        "value": "About 100 million+",
+        "note": "Estimate from company statements and Similarweb traffic; not confirmed for 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Skyscanner is a metasearch site: it does not sell tickets itself, it searches airlines and online travel agencies and shows their prices side by side. Users click through to book on the partner's site. It also compares hotels and car hire.",
+      "howItWorks": [
+        "A traveller searches a route, dates, or even 'Everywhere' to find the cheapest destination.",
+        "Skyscanner pulls live and cached prices from hundreds of airlines and agencies.",
+        "Results are ranked by price, speed or a 'Best' mix, with flexible date views like 'Whole month'.",
+        "The traveller clicks a deal and is sent to the airline or agency to book, or books inside Skyscanner on some partners.",
+        "The partner pays Skyscanner per click or per booking, and Skyscanner sells ads on its pages."
+      ],
+      "valueProposition": "Find the cheapest way to travel in one search, for free, without opening ten tabs."
+    },
+    "personas": [
+      {
+        "name": "Flexible budget traveller",
+        "description": "A 25-year-old in London or Bengaluru who will go anywhere cheap for a long weekend.",
+        "goals": [
+          "Cheapest flight on any dates",
+          "Ideas for where to go",
+          "Price alerts"
+        ],
+        "frustrations": [
+          "Price on Skyscanner differs from the booking site",
+          "Cheapest options from unknown agencies with bad support"
+        ]
+      },
+      {
+        "name": "Family holiday planner",
+        "description": "A parent planning summer flights for four people.",
+        "goals": [
+          "Reliable airline and good times",
+          "Total price with bags"
+        ],
+        "frustrations": [
+          "Bag fees not shown clearly",
+          "Unclear who to call if things go wrong"
+        ]
+      },
+      {
+        "name": "Airline or OTA partner",
+        "description": "A marketing manager at an airline or travel agency buying traffic.",
+        "goals": [
+          "Cheap, high-intent clicks",
+          "More bookings at a fair cost"
+        ],
+        "frustrations": [
+          "Paying for clicks that do not book",
+          "Being compared purely on price"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Checking many airline and travel sites takes ages.",
+        "howSolved": "One search across hundreds of sites, sorted by price.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing which dates are cheapest.",
+        "howSolved": "Whole month and cheapest month views.",
+        "severity": "high"
+      },
+      {
+        "pain": "Wanting a trip but not knowing where.",
+        "howSolved": "'Everywhere' search shows cheapest destinations from your city.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Prices change and you miss the deal.",
+        "howSolved": "Price Alerts by email and app notification.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Airlines need customers without big ad budgets everywhere.",
+        "howSolved": "Pay-per-click or per-booking traffic from travellers ready to buy.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Flight search and comparison",
+        "whatItDoes": "Shows prices from airlines and agencies in one list.",
+        "whyItMatters": "The core reason people use Skyscanner and the source of most revenue."
+      },
+      {
+        "feature": "Everywhere search",
+        "whatItDoes": "Lists cheapest destinations from your airport.",
+        "whyItMatters": "Unique inspiration feature that Google Flights only partly matches."
+      },
+      {
+        "feature": "Whole month and flexible dates",
+        "whatItDoes": "Shows the cheapest days in a month.",
+        "whyItMatters": "Helps budget travellers save money, building loyalty."
+      },
+      {
+        "feature": "Price Alerts",
+        "whatItDoes": "Notifies users when prices drop.",
+        "whyItMatters": "Brings users back without paying for ads."
+      },
+      {
+        "feature": "Hotels and car hire",
+        "whatItDoes": "Compares stays and rental cars.",
+        "whyItMatters": "Earns more per trip from the same user."
+      },
+      {
+        "feature": "Partner ratings and Book on Skyscanner",
+        "whatItDoes": "Shows ratings for agencies and lets users book some fares without leaving.",
+        "whyItMatters": "Reduces bad experiences with low-quality agencies."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Finding a cheap weekend trip",
+        "persona": "Flexible budget traveller",
+        "steps": [
+          {"step": "Opens app", "detail": "Sets 'From London' to 'Everywhere'."},
+          {"step": "Picks month", "detail": "Chooses next month, cheapest dates."},
+          {"step": "Browses", "detail": "Sees Lisbon for £45 return."},
+          {"step": "Compares partners", "detail": "Checks airline direct versus agency prices."},
+          {"step": "Clicks through", "detail": "Goes to the airline site."},
+          {"step": "Books", "detail": "Pays on the airline site; Skyscanner gets a fee."}
+        ]
+      },
+      {
+        "name": "Price alert purchase",
+        "persona": "Family holiday planner",
+        "steps": [
+          {"step": "Searches", "detail": "Looks at Delhi to Dubai in August."},
+          {"step": "Sets alert", "detail": "Turns on Price Alert."},
+          {"step": "Gets notification", "detail": "Price drops by ₹4,000."},
+          {"step": "Returns", "detail": "Opens alert and compares."},
+          {"step": "Books", "detail": "Clicks through to an agency and books."}
+        ]
+      },
+      {
+        "name": "Partner buys traffic",
+        "persona": "Airline or OTA partner",
+        "steps": [
+          {"step": "Signs up", "detail": "Connects fares to Skyscanner."},
+          {"step": "Sets bids", "detail": "Agrees cost per click by market."},
+          {"step": "Gets clicks", "detail": "Receives travellers who want to book."},
+          {"step": "Measures", "detail": "Tracks bookings per click."},
+          {"step": "Adjusts", "detail": "Raises or cuts budget by route."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Skyscanner earns money when it sends a traveller to a partner. Airlines and agencies pay per click or per booking. It also sells display and sponsored ads. With no tickets or support to handle for most bookings, its costs are low and margins high.",
+      "revenueStreams": [
+        {"stream": "Cost per click (CPC)", "detail": "Partners pay each time a user clicks to their site."},
+        {"stream": "Cost per booking", "detail": "Some partners pay a fee or share when a booking happens."},
+        {"stream": "Advertising", "detail": "Sponsored slots and display ads from airlines, tourism boards and brands."},
+        {"stream": "Hotels and car hire", "detail": "Referral fees from hotel and car sites."}
+      ],
+      "pricing": "Free for travellers. Partner pricing is not public.",
+      "costDrivers": [
+        "Marketing, including Google ads and TV",
+        "Staff, mostly engineers, in Edinburgh, London, Barcelona and other hubs",
+        "Cloud costs for billions of price lookups",
+        "Partner data connections"
+      ],
+      "unitEconomics": "Rough example, estimated. A user searches several times and clicks one deal. If the partner pays about £0.50 to £1 per click, and about one in five users who click end up booking, Skyscanner earns a few pounds per booking traveller. Its cost per search is tiny. Because many users come back on their own through the app and Price Alerts, it does not pay to win them each time. That is how £485 million of revenue turned into about a 32% operating margin."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free search results for 'cheap flights to X'",
+        "Brand ads and word of mouth",
+        "Paid Google ads in some markets",
+        "Partnerships with Trip.com in Asia"
+      ],
+      "whatBringsUsersBack": [
+        "Price Alerts",
+        "Habit: 'Skyscanner it' before any trip",
+        "Saved searches and the app",
+        "Everywhere search for inspiration"
+      ],
+      "moat": "Skyscanner has a well-known brand in the UK, Europe and parts of Asia, plus direct data feeds from hundreds of partners. Many users open it directly, so it does not depend fully on Google. Rivals need years to build both the partner network and the habit."
+    },
+    "competitors": [
+      {
+        "name": "Google Flights",
+        "positioning": "Free flight search built into Google, often the first result.",
+        "howThisProductDiffers": "Skyscanner shows more agencies and the Everywhere feature; Google has more traffic."
+      },
+      {
+        "name": "Kayak (Booking Holdings)",
+        "positioning": "US-focused metasearch for flights, hotels and cars.",
+        "howThisProductDiffers": "Skyscanner is stronger in the UK, Europe and Asia."
+      },
+      {
+        "name": "Kiwi.com",
+        "positioning": "Combines flights from different airlines into one trip.",
+        "howThisProductDiffers": "Skyscanner is a pure comparison site and much more profitable; Kiwi revenue fell 20% from its peak."
+      },
+      {
+        "name": "Wego",
+        "positioning": "Metasearch for the Middle East and Asia.",
+        "howThisProductDiffers": "Skyscanner is far bigger and more profitable."
+      },
+      {
+        "name": "MakeMyTrip and Ixigo (India)",
+        "positioning": "OTAs that sell tickets directly with Indian payments.",
+        "howThisProductDiffers": "Skyscanner sends users to partners instead of selling tickets itself."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly travellers who click through to book a deal they chose",
+      "why": "This north star shows that Skyscanner helped someone find a deal they acted on, which is both the value to the traveller and the moment partners pay."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly searchers",
+        "description": "Unique people searching each month.",
+        "children": [
+          {"metric": "Direct and app visits", "description": "Visits without paid ads."},
+          {"metric": "Organic search visits", "description": "Visits from free Google results."},
+          {"metric": "Alert-driven returns", "description": "Visits from Price Alerts."}
+        ]
+      },
+      {
+        "metric": "Result quality",
+        "description": "How good and accurate the prices shown are.",
+        "children": [
+          {"metric": "Price accuracy", "description": "Share of clicks where the partner price matches."},
+          {"metric": "Partner coverage", "description": "Share of airlines and agencies included."},
+          {"metric": "Search speed", "description": "Seconds to show full results."}
+        ]
+      },
+      {
+        "metric": "Click-through rate",
+        "description": "Share of searchers who click a deal.",
+        "children": [
+          {"metric": "Top result relevance", "description": "Clicks on the top three results."},
+          {"metric": "Total price clarity with bags", "description": "Deals showing bag costs."},
+          {"metric": "Partner trust ratings", "description": "Use of ratings to choose a partner."}
+        ]
+      },
+      {
+        "metric": "Revenue per click",
+        "description": "Money earned per traveller sent.",
+        "children": [
+          {"metric": "Partner conversion", "description": "Share of clicks that book."},
+          {"metric": "Bid levels", "description": "Average price partners pay per click."},
+          {"metric": "Ad fill rate", "description": "Share of ad slots sold."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Price accuracy complaints",
+      "App store rating",
+      "Share of clicks to poorly rated agencies",
+      "Marketing spend as a share of revenue"
+    ],
+    "strengths": [
+      "Strong brand and habit in the UK, Europe and parts of Asia",
+      "Very profitable, with about a 32% operating margin",
+      "Unique inspiration features like Everywhere",
+      "Backed by Trip.com, which brings Asian supply"
+    ],
+    "weaknesses": [
+      "Does not own the booking, so it cannot fix problems after the click",
+      "Price mismatches damage trust",
+      "Weaker in the US, where Google and Kayak lead"
+    ],
+    "risks": [
+      "Google Flights taking more searches",
+      "AI assistants answering 'cheapest flight to X' directly",
+      "Airlines pushing direct bookings and cutting agency fares",
+      "EU rules on Google that could help or hurt metasearch"
+    ],
+    "userComplaints": [
+      "Prices differ when you reach the partner site",
+      "Cheapest deals come from agencies with poor support",
+      "Bag and seat fees not included",
+      "Hard to get help after booking because Skyscanner is not the seller"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Rank results by total price including one checked bag by default when the user selects bags",
+        "problem": "Cheap fares hide bag fees.",
+        "expectedImpact": "More trust and fewer bounces.",
+        "metricToTrack": "Partner bounce rate after click",
+        "effort": "medium"
+      },
+      {
+        "idea": "Hide or warn on agencies with high complaint rates",
+        "problem": "Users blame Skyscanner when agencies fail.",
+        "expectedImpact": "Fewer bad experiences and higher repeat use.",
+        "metricToTrack": "Repeat search rate after booking with a low-rated agency",
+        "effort": "low"
+      },
+      {
+        "idea": "AI trip planner that answers open questions like 'warm beach in March under £300'",
+        "problem": "AI chatbots may replace search boxes.",
+        "expectedImpact": "Keeps users inside Skyscanner.",
+        "metricToTrack": "Share of sessions starting in AI planner and click-through rate",
+        "effort": "high"
+      },
+      {
+        "idea": "Live price check before redirect",
+        "problem": "Price changes on the partner site.",
+        "expectedImpact": "Fewer price mismatch complaints.",
+        "metricToTrack": "Price accuracy rate",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "You do not have to own the sale to make money. Sending ready-to-buy users can be a very profitable business.",
+      "Accuracy is the product in comparison sites. One wrong price breaks trust.",
+      "Features like Price Alerts create free return visits, which is cheaper than any ad.",
+      "Google competing with you does not mean you lose if you build a habit and a brand."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Google Flights is free and on top of search. How does Skyscanner compete?",
+        "hint": "Talk about habit, brand, partner coverage, unique features and markets where Google is weaker. Name metrics like direct traffic share."
+      },
+      {
+        "question": "How would you improve trust when users book through third-party agencies?",
+        "hint": "Ratings, warnings, Book on Skyscanner, post-booking help; measure complaints and repeat use."
+      },
+      {
+        "question": "What is the north star for a metasearch business?",
+        "hint": "Click-throughs to deals users act on, broken into searchers, result quality, click rate and revenue per click."
+      },
+      {
+        "question": "Should Skyscanner become a full booking site like an OTA?",
+        "hint": "Compare margins, support costs, partner conflict and user benefit. Suggest a narrow test."
+      },
+      {
+        "question": "How would you design Skyscanner for an AI chatbot world?",
+        "hint": "Consider plugins, own AI planner, and data partnerships. Define how you would measure success."
+      }
+    ],
+    "glossary": [
+      {"term": "Metasearch", "meaning": "A site that compares prices from many sellers and sends you to one to buy."},
+      {"term": "OTA", "meaning": "Online travel agency: a site that sells tickets and rooms itself."},
+      {"term": "Cost per click (CPC)", "meaning": "What an advertiser pays each time someone clicks their link."},
+      {"term": "Click-through rate", "meaning": "The share of people who click a result after seeing it."},
+      {"term": "Operating margin", "meaning": "The share of revenue left as profit after running costs."},
+      {"term": "Conversion", "meaning": "The share of people who complete a purchase after clicking."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that customers are getting value."},
+      {"term": "Bounce rate", "meaning": "The share of people who leave a page quickly without doing anything."}
+    ],
+    "assumptions": [
+      "Monthly user count of about 100 million is an estimate.",
+      "Cost per click range of £0.50 to £1 and booking rate of one in five are illustrative estimates.",
+      "Trip.com purchase price of about £1.4 billion is from widely reported 2016 news."
+    ]
+  }
+}

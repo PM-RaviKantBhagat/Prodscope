@@ -1,0 +1,400 @@
+{
+  "company": "Paytm",
+  "domain": "paytm.com",
+  "website": "https://paytm.com",
+  "sources": [
+    "https://yourstory.com/2026/10/paytm-sees-10x-rise-in-net-profit-in-q2-of-fy27",
+    "https://inc42.com/buzz/paytm-q2-profit-skyrockets-over-10x-yoy-to-₹225-cr-revenue-up-28/",
+    "https://www.businesstoday.in/latest/corporate/story/rbi-cancels-paytm-payments-bank-licence-what-it-means-for-operations-upi-wallet-payments-customers-527405-2026-04-24",
+    "https://www.outlookbusiness.com/corporate/phonepe-fy26-losses-rs-2792-cr-revenue-rises-11-pc-lending-wealth-insurance-grow-ipo-plans",
+    "https://www.businesstoday.in/latest/corporate/story/upi-mdr-google-pay-leads-paytm-to-gain-what-goldman-sachs-jefferies-see-for-other-upi-players-555887-2026-09-16",
+    "https://www.business-standard.com/companies/news/paytm-upi-volumes-pre-restriction-market-share-october-2025-125112001125_1.html",
+    "https://paytm.com/blog/investor-relations/paytm-services-update-2026/"
+  ],
+  "report": {
+    "company": "Paytm",
+    "tagline": "India's original digital payments app, now a profitable money app for consumers and shops after surviving the 2024 Payments Bank crisis.",
+    "category": "Money app",
+    "simpleSummary": "Paytm is an app for paying with UPI, paying bills, booking tickets, and getting loans and investments. For shops, it is best known for the Soundbox, a speaker that says out loud when a payment arrives. In 2024 India's central bank stopped its sister company, Paytm Payments Bank, from taking new deposits, and in 2026 cancelled that bank's licence. Paytm moved users to partner banks, cut costs and is now making a profit again.",
+    "keyNumbers": [
+      {
+        "label": "Q2 FY27 revenue",
+        "value": "₹2,648 crore, up 28 percent",
+        "note": "Paytm results for July to September 2026, reported by YourStory and Inc42."
+      },
+      {
+        "label": "Q2 FY27 net profit",
+        "value": "₹225 crore, about 10 times a year earlier",
+        "note": "Same source. EBITDA margin rose to 10 percent."
+      },
+      {
+        "label": "FY26 full year",
+        "value": "Revenue ₹8,437 crore, profit ₹552 crore",
+        "note": "Reported by Outlook Business in comparison with PhonePe, which lost ₹2,792 crore."
+      },
+      {
+        "label": "Monthly transacting users",
+        "value": "8.5 crore (85 million)",
+        "note": "Q2 FY27, up 1 crore in a year, the biggest gain in nearly three years."
+      },
+      {
+        "label": "Financial services revenue",
+        "value": "₹912 crore in the quarter, up 49 percent",
+        "note": "Q2 FY27. Mostly fees for distributing loans from partner lenders."
+      },
+      {
+        "label": "UPI market share",
+        "value": "About 6 percent (FY26)",
+        "note": "Jefferies estimate via Business Today. Down from about 13 percent before the 2024 curbs; Paytm says it has gained share for six quarters in a row."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Paytm offers UPI payments, bill payments, travel and movie tickets, and access to loans, insurance and stock investing for consumers. For merchants it sells Soundbox speakers, card machines and payment gateway services, and helps them get loans. It earns from merchant device subscriptions, payment fees and, increasingly, from distributing loans for partner banks and NBFCs.",
+      "howItWorks": [
+        "Consumers link a bank account and pay by UPI using Paytm handles run with partner banks like Axis, HDFC, SBI and Yes Bank.",
+        "Merchants rent a Soundbox or card machine for a monthly fee and get instant voice alerts for payments.",
+        "Paytm uses payment data to help partner lenders offer merchant and personal loans, earning a fee.",
+        "Users can buy insurance, mutual funds and stocks through Paytm Money and partners.",
+        "Large online businesses use the Paytm payment gateway and pay a fee per transaction.",
+        "Paytm Payments Bank no longer operates; its licence was cancelled by the RBI in April 2026."
+      ],
+      "valueProposition": "For shops: a trusted device and app that confirm every payment and unlock loans. For consumers: one app for payments, bills, tickets and money."
+    },
+    "personas": [
+      {
+        "name": "Kirana store owner",
+        "description": "A shopkeeper in Lucknow who has used a Paytm Soundbox for three years and takes a working capital loan each festival season.",
+        "goals": [
+          "Know instantly when customers pay",
+          "Quick loans for stock",
+          "Low monthly fees"
+        ],
+        "frustrations": [
+          "Worried after the Payments Bank news",
+          "Rental fees for the device",
+          "Field agents pushing extra products"
+        ]
+      },
+      {
+        "name": "Long-time Paytm user",
+        "description": "A 32-year-old in Delhi who used the Paytm wallet before UPI and still pays bills and books trains on Paytm.",
+        "goals": [
+          "Pay bills on time",
+          "Book tickets easily",
+          "Keep using a familiar app"
+        ],
+        "frustrations": [
+          "Had to move from wallet and old UPI handle",
+          "App feels cluttered",
+          "Unsure what happened to Payments Bank balance"
+        ]
+      },
+      {
+        "name": "Small borrower",
+        "description": "A gig worker who takes small personal loans through Paytm when short of cash.",
+        "goals": [
+          "Fast approval",
+          "Small amounts",
+          "Clear repayment"
+        ],
+        "frustrations": [
+          "High interest",
+          "Aggressive recovery calls from lenders",
+          "Unclear fees"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Shopkeepers cannot check every payment on their phone during a rush, and fake payment screenshots are common.",
+        "howSolved": "The Soundbox announces each payment aloud.",
+        "severity": "high"
+      },
+      {
+        "pain": "Small shops cannot get bank loans without paperwork.",
+        "howSolved": "Paytm uses payment history to help partner lenders give quick merchant loans.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paying many bills and booking tickets on different sites is tiring.",
+        "howSolved": "Bills, recharges, train, bus, flight and movie tickets in one app.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Accepting cards needs expensive machines.",
+        "howSolved": "Paytm card machines and Soundbox devices that also take cards, rented monthly.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Investing feels complicated for beginners.",
+        "howSolved": "Paytm Money offers simple mutual funds and stock trading.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Soundbox",
+        "whatItDoes": "A speaker that announces payments in local languages; newer models also take card taps.",
+        "whyItMatters": "Monthly subscription revenue and a strong tie to merchants."
+      },
+      {
+        "feature": "UPI payments on partner banks",
+        "whatItDoes": "Pay anyone by UPI using Paytm handles with Axis, HDFC, SBI and Yes Bank.",
+        "whyItMatters": "Kept Paytm in the UPI game after its own bank was shut."
+      },
+      {
+        "feature": "Merchant and personal loans",
+        "whatItDoes": "Loans from partner lenders inside the app.",
+        "whyItMatters": "The fastest-growing revenue, ₹912 crore in Q2 FY27 from financial services."
+      },
+      {
+        "feature": "Payment gateway",
+        "whatItDoes": "Online payment acceptance for businesses.",
+        "whyItMatters": "Fee revenue from large merchants."
+      },
+      {
+        "feature": "Bills and tickets",
+        "whatItDoes": "Recharges, bills and travel bookings.",
+        "whyItMatters": "Brings users back and earns small commissions."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Merchant gets a Soundbox",
+        "persona": "Kirana store owner",
+        "steps": [
+          { "step": "Agent visit", "detail": "A Paytm field agent offers a Soundbox." },
+          { "step": "KYC", "detail": "Shopkeeper completes KYC on the business app." },
+          { "step": "Device installed", "detail": "Soundbox arrives; rental is billed monthly." },
+          { "step": "Daily payments", "detail": "Hears 'Paytm par ₹150 prapt hue' with each sale." },
+          { "step": "Loan offer", "detail": "After months of sales, sees a ₹2 lakh loan offer." },
+          { "step": "Repays from sales", "detail": "Daily deductions from settlements repay the loan." }
+        ]
+      },
+      {
+        "name": "Moving after the Payments Bank shutdown",
+        "persona": "Long-time Paytm user",
+        "steps": [
+          { "step": "Gets a notice", "detail": "App explains Payments Bank services are ending." },
+          { "step": "Moves balance", "detail": "Withdraws wallet and bank balance to a regular bank." },
+          { "step": "Switches handle", "detail": "Moves UPI ID to a new handle on a partner bank." },
+          { "step": "Tests a payment", "detail": "Pays a bill to check everything works." },
+          { "step": "Keeps using", "detail": "Continues using Paytm for bills and tickets." }
+        ]
+      },
+      {
+        "name": "Taking a personal loan",
+        "persona": "Small borrower",
+        "steps": [
+          { "step": "Sees offer", "detail": "App shows a pre-approved ₹20,000 loan." },
+          { "step": "Checks terms", "detail": "Sees interest rate and EMI from a partner NBFC." },
+          { "step": "Accepts", "detail": "Completes digital KYC and e-sign." },
+          { "step": "Gets money", "detail": "Loan arrives in the bank account in minutes." },
+          { "step": "Repays", "detail": "Pays EMIs by auto-debit." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Paytm makes money in two main ways: payment services (mostly Soundbox and device subscriptions plus payment gateway fees) and financial services (fees from lenders for loans it distributes). Unlike PhonePe, it is profitable, because it earns more per merchant and cut costs hard after 2024.",
+      "revenueStreams": [
+        { "stream": "Payment services", "detail": "Net payment revenue of ₹644 crore in Q2 FY27, from device subscriptions, gateway fees and UPI incentives." },
+        { "stream": "Financial services distribution", "detail": "₹912 crore in Q2 FY27 from loans, insurance and wealth products for partners." },
+        { "stream": "Marketing services", "detail": "Ticketing, ads, and deals." },
+        { "stream": "UPI MDR (planned)", "detail": "A new 0.4 percent fee on larger merchant UPI payments above ₹2,000; analysts expect it to add about 9 percent to Paytm's FY28 revenue." }
+      ],
+      "pricing": "UPI payments free for users. Soundbox and card machines are rented for a monthly fee (roughly ₹100 to ₹500 depending on device, estimate). Payment gateway fees around 1.5 to 2 percent on cards for online merchants. Loans priced by partner lenders.",
+      "costDrivers": [
+        "Field sales teams for merchants",
+        "Device purchase and servicing",
+        "Employee costs, including stock options",
+        "Payment processing costs paid to banks",
+        "Technology and compliance"
+      ],
+      "unitEconomics": "A merchant with a Soundbox might pay about ₹1,500 to ₹3,000 a year in rental. If the device costs Paytm ₹1,000 to ₹1,500 plus sales and service costs, it earns back its cost in about a year. If the same merchant takes a ₹2 lakh loan, Paytm might earn ₹4,000 to ₹6,000 in fees from the lender. So one active merchant can bring several thousand rupees a year, while a consumer paying friends by UPI brings close to nothing. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Large field sales teams selling Soundboxes in small towns",
+        "Brand built over 15 years since the 2016 demonetisation boom",
+        "Cashback offers to win back UPI users",
+        "Bill payments and tickets bring returning users"
+      ],
+      "whatBringsUsersBack": [
+        "Merchants check settlements and hear payments daily",
+        "Monthly bill payments",
+        "Loan repayments",
+        "Ticket bookings"
+      ],
+      "moat": "Paytm's moat is its merchant network and devices. Millions of shops have a Soundbox they pay for monthly, and switching means returning a device and retraining. Payment data from those shops helps lenders decide on loans."
+    },
+    "competitors": [
+      {
+        "name": "PhonePe",
+        "positioning": "UPI leader with about half of all transactions, but loss-making.",
+        "howThisProductDiffers": "Paytm has far less UPI share but earns more per merchant and makes a profit."
+      },
+      {
+        "name": "Google Pay",
+        "positioning": "Number two UPI app with Google's brand.",
+        "howThisProductDiffers": "Google Pay is stronger with consumers; Paytm is stronger with merchant devices."
+      },
+      {
+        "name": "Pine Labs and Razorpay",
+        "positioning": "Payment machines and gateways for larger merchants.",
+        "howThisProductDiffers": "Paytm focuses more on small merchants and consumer apps."
+      },
+      {
+        "name": "Navi, CRED and super.money",
+        "positioning": "New UPI apps using rewards.",
+        "howThisProductDiffers": "Paytm has a broader merchant and lending business."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly active merchants who receive payments and use at least one paid Paytm service (device, loan or gateway)",
+      "why": "Merchants are where Paytm makes money. Active, paying merchants show real value delivered and drive both payment and lending revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Merchant base",
+        "description": "Shops accepting Paytm payments.",
+        "children": [
+          { "metric": "Device subscriptions", "description": "Number of active paid Soundboxes and card machines." },
+          { "metric": "New merchants added", "description": "Shops signed up each month." },
+          { "metric": "Device churn", "description": "Churn: share of merchants returning devices each month." }
+        ]
+      },
+      {
+        "metric": "Payment volume",
+        "description": "Value of payments through Paytm.",
+        "children": [
+          { "metric": "Monthly transacting users", "description": "Consumers who pay on Paytm each month; 8.5 crore in Q2 FY27." },
+          { "metric": "UPI market share", "description": "Share of UPI transactions on Paytm." }
+        ]
+      },
+      {
+        "metric": "Financial services uptake",
+        "description": "Merchants and users who take loans or buy products.",
+        "children": [
+          { "metric": "Loans distributed", "description": "Value of loans given through Paytm." },
+          { "metric": "Financial services customers", "description": "8.8 lakh key customers in Q2 FY27." },
+          { "metric": "Default rate", "description": "Share of loans not repaid, tracked by lenders." }
+        ]
+      },
+      {
+        "metric": "Trust",
+        "description": "Confidence among users and merchants.",
+        "children": [
+          { "metric": "Complaint resolution time", "description": "Speed of fixing issues." },
+          { "metric": "Regulatory issues", "description": "Number of compliance actions." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loan default rates at partner lenders",
+      "Regulatory compliance findings",
+      "Merchant complaints about mis-selling",
+      "Payment success rate"
+    ],
+    "strengths": [
+      "Profitable: ₹552 crore in FY26 and ₹225 crore in Q2 FY27",
+      "Strong merchant device business with recurring revenue",
+      "Fast-growing lending distribution",
+      "Well-known brand and long history"
+    ],
+    "weaknesses": [
+      "UPI share fell sharply after 2024 and is only about 6 percent",
+      "Payments Bank licence cancelled, removing its own banking arm",
+      "Trust damaged by regulatory actions",
+      "Cluttered app compared with Google Pay"
+    ],
+    "risks": [
+      "More RBI or NPCI actions",
+      "Lending rules that cut distribution fees",
+      "PhonePe and Google Pay pushing into merchant devices",
+      "New MDR rules being delayed or softened"
+    ],
+    "userComplaints": [
+      "Confusion and inconvenience after Payments Bank shutdown and UPI handle changes",
+      "Wallet and FASTag disruptions during the transition",
+      "Pushy loan offers and recovery calls from partner lenders",
+      "App feels crowded with too many services",
+      "Slow customer support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Simplify the app home screen to focus on pay, bills and money, hiding less-used services",
+        "problem": "Users find the app cluttered compared with Google Pay.",
+        "expectedImpact": "Higher consumer UPI usage.",
+        "metricToTrack": "Monthly transacting users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Soundbox with a built-in sales summary and daily loan eligibility in voice",
+        "problem": "Merchants do not track their sales or know when they qualify for loans.",
+        "expectedImpact": "More loans and stickier devices.",
+        "metricToTrack": "Loans distributed and device churn",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear loan cost card showing total repayment in rupees before accepting",
+        "problem": "Borrowers feel misled by interest and fees.",
+        "expectedImpact": "More trust and lower complaints.",
+        "metricToTrack": "Loan complaints per 1,000 loans",
+        "effort": "low"
+      },
+      {
+        "idea": "Trust centre in the app explaining what changed after the Payments Bank licence cancellation",
+        "problem": "Users are unsure their money is safe.",
+        "expectedImpact": "Fewer worried users leaving.",
+        "metricToTrack": "Uninstall rate and support tickets",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Regulatory trust is a product feature. Paytm lost a big part of its business when compliance failed.",
+      "A focused paid product like the Soundbox can make money even when payments are free.",
+      "You can recover from a crisis by cutting costs and focusing on customers who pay.",
+      "Market share is not everything. Paytm has less UPI share than PhonePe but makes a profit."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Paytm has a small UPI share but is profitable, while PhonePe is the leader and loses money. Explain.",
+        "hint": "Compare revenue per user, merchant devices, lending and costs. Explain why share and profit are different."
+      },
+      {
+        "question": "How would you rebuild user trust after the Payments Bank shutdown?",
+        "hint": "Be transparent, make migration simple, show safety, and track uninstalls and support tickets."
+      },
+      {
+        "question": "Design the next version of the Soundbox.",
+        "hint": "Start with merchant needs: alerts, sales summaries, loans, card taps. Pick one and define success."
+      },
+      {
+        "question": "What is Paytm's north star metric?",
+        "hint": "Active paying merchants. Break into merchant base, payment volume, financial services and trust."
+      },
+      {
+        "question": "How should Paytm use the new UPI MDR?",
+        "hint": "Target larger merchants, explain value, bundle with devices and loans, and avoid pushing small shops away."
+      }
+    ],
+    "glossary": [
+      { "term": "UPI", "meaning": "Unified Payments Interface: India's free, instant bank-to-bank payment system." },
+      { "term": "RBI", "meaning": "Reserve Bank of India, the country's central bank and banking regulator." },
+      { "term": "MDR", "meaning": "Merchant discount rate: the fee a shop pays on each digital payment." },
+      { "term": "EBITDA", "meaning": "Profit before interest, taxes and accounting charges for wear on assets; a rough measure of operating profit." },
+      { "term": "NBFC", "meaning": "Non-bank financial company that can lend but is not a bank." },
+      { "term": "KYC", "meaning": "Know your customer: checks to verify identity." },
+      { "term": "Churn", "meaning": "Customers who stop using or paying for a product." },
+      { "term": "Monthly transacting users", "meaning": "People who make at least one payment on Paytm in a month." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives users." }
+    ],
+    "assumptions": [
+      "Soundbox rental and device cost figures are rough estimates; prices vary by device and plan.",
+      "Loan fee per merchant is an estimate based on typical distribution fees.",
+      "UPI handle partners are based on 2024 to 2026 reports and may have changed.",
+      "UPI market share is a Jefferies estimate; NPCI monthly data may differ."
+    ]
+  }
+}

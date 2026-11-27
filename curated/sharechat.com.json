@@ -1,0 +1,555 @@
+{
+  "company": "ShareChat / Moj",
+  "domain": "sharechat.com",
+  "website": "https://sharechat.com",
+  "sources": [
+    "https://inc42.com/buzz/sharechat-parent-mohalla-techs-fy26-loss-widens-79-to-₹1978-cr-revenue-inches-past-₹1000-cr-mark/",
+    "https://entrackr.com/news/sharechat-posts-rs-723-cr-revenue-in-fy25-cuts-adjusted-ebitda-losses-by-72-10571641",
+    "https://inc42.com/features/why-sharechat-stopped-chasing-instagram-and-bet-big-on-microdramas/",
+    "https://www.businesstoday.in/amp/technology/news/story/sharechat-eyes-400-million-ipo-next-year-after-turning-operationally-profitable-540425-2026-07-02",
+    "https://openthemagazine.com/business/sharechat-couldnt-beat-meta-so-it-put-saas-bahu-in-your-pocket",
+    "https://www.storyboard18.com/digital/muted-topline-sharechat-faces-ad-revenue-stress-in-fy25-amid-microdrama-push-86649.htm"
+  ],
+  "report": {
+    "company": "ShareChat / Moj",
+    "tagline": "Indian-language social apps where people share posts, short videos and live streams, now earning more from live-stream gifts and paid micro-dramas than from ads.",
+    "category": "Social / short video",
+    "simpleSummary": "ShareChat is a social app for people who prefer Hindi, Tamil, Bhojpuri and other Indian languages over English. You scroll posts, Good Morning images, jokes and videos, and you can join live audio and video rooms with creators. Moj is its short video app, which grew fast after India banned TikTok in 2020. The same company, Mohalla Tech, also runs QuickTV, an app of short paid soap-opera style shows called micro-dramas.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, FY26 (year to March 2026)",
+        "value": "₹1,016 crore, up 40%",
+        "note": "Mohalla Tech filings as reported by Inc42. FY25 revenue was ₹723 crore."
+      },
+      {
+        "label": "Revenue mix, FY26",
+        "value": "Live-streaming ₹472 crore, subscriptions ₹293 crore, ads ₹252 crore",
+        "note": "Inc42 on FY26 filings. Ads fell 13% after real-money gaming advertisers left following India's 2025 online gaming ban."
+      },
+      {
+        "label": "Net loss, FY26",
+        "value": "₹1,978 crore",
+        "note": "Inc42. Most of it was non-cash: ₹739 crore stock options cost and ₹567 crore unrealised currency losses. EBITDA loss was only ₹91 crore."
+      },
+      {
+        "label": "First profitable quarter",
+        "value": "₹9.5 crore EBITDA profit in April to June 2026",
+        "note": "Company figures via Inc42. Margin was only 0.3%."
+      },
+      {
+        "label": "Monthly users, ShareChat plus Moj",
+        "value": "Roughly 300 million (estimate)",
+        "note": "Weak estimate. Based on older company statements of about 180 million on ShareChat and 160 million on Moj, with overlap. No fresh 2026 number found."
+      },
+      {
+        "label": "IPO plan",
+        "value": "About $400 million listing targeted for 2027",
+        "note": "Reported by Business Today and others in July 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "ShareChat and Moj give India's non-English speakers a place to watch, share and create content in their own language. The company makes money when users buy virtual gifts for live hosts, pay for micro-drama episodes on QuickTV, or see ads. After years of heavy losses chasing Instagram, it cut costs and moved to money from users directly.",
+      "howItWorks": [
+        "Users pick a language at sign-up, from about 15 Indian languages, and see a feed in that language.",
+        "ShareChat's feed mixes images, status posts, short videos and memes that people forward to WhatsApp.",
+        "Moj is a full-screen short video feed with filters and music, like Instagram Reels.",
+        "Live 'chatrooms' and live video let hosts talk with fans, who buy coins and send virtual gifts.",
+        "QuickTV sells micro-dramas: 1 to 2 minute episodes where the first few are free and later ones need coins or a subscription.",
+        "Advertisers buy video and display ads to reach small-town and rural India."
+      ],
+      "valueProposition": "For users: entertainment and community in your own language, made by people like you, on a cheap phone. For advertisers: reach Bharat, meaning users in smaller towns that English platforms serve less well."
+    },
+    "personas": [
+      {
+        "name": "The small-town WhatsApp forwarder",
+        "description": "A 45-year-old shop owner in Gorakhpur who reads Hindi only, and loves devotional images, news clips and Good Morning wishes to forward to family groups.",
+        "goals": [
+          "Find shareable content in Hindi",
+          "Stay entertained in short breaks"
+        ],
+        "frustrations": [
+          "Too many ads and pop-ups on a budget phone",
+          "Low-quality or misleading posts"
+        ]
+      },
+      {
+        "name": "The live room regular",
+        "description": "A 28-year-old man in Rajasthan who spends evenings in live audio rooms, chatting with hosts and sending gifts.",
+        "goals": [
+          "Feel noticed and part of a group",
+          "Talk with hosts who reply to him by name"
+        ],
+        "frustrations": [
+          "Spending more on coins than planned",
+          "Hosts who ignore users who do not gift"
+        ]
+      },
+      {
+        "name": "The aspiring creator",
+        "description": "A 22-year-old dancer in Patna who posts on Moj and wants to earn like Instagram stars.",
+        "goals": [
+          "Grow followers and earn from gifts or brand deals",
+          "Get discovered in her own language"
+        ],
+        "frustrations": [
+          "Reach dropped as Moj shifted focus",
+          "Fewer brand deals than on Instagram"
+        ]
+      },
+      {
+        "name": "The micro-drama binger",
+        "description": "A 35-year-old homemaker who watches romance and family revenge dramas on QuickTV during the afternoon.",
+        "goals": [
+          "Find gripping stories in short episodes",
+          "Watch cheaply on her phone"
+        ],
+        "frustrations": [
+          "Stories stop at a cliffhanger behind a paywall",
+          "Costs add up when paying per episode"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Most big apps are built for English speakers, so many Indians feel left out.",
+        "howSolved": "Every screen, feed and creator is in the user's chosen Indian language.",
+        "severity": "high"
+      },
+      {
+        "pain": "After the TikTok ban in 2020, millions of short video fans and creators lost their app.",
+        "howSolved": "Moj launched within days and took in TikTok users and creators.",
+        "severity": "high"
+      },
+      {
+        "pain": "People in small towns feel lonely and want someone to talk with.",
+        "howSolved": "Live audio and video rooms let them chat with hosts and other fans in real time.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Long TV serials take hours, but people only have a few minutes at a time.",
+        "howSolved": "QuickTV micro-dramas tell a full story in 1 to 2 minute episodes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Finding daily shareable content for WhatsApp groups takes effort.",
+        "howSolved": "ShareChat's feed is full of ready-to-share status posts, wishes and memes with a WhatsApp share button.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Brands find it hard to reach rural and small-town users in their language.",
+        "howSolved": "ShareChat and Moj ads target by language and region.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Language-first feeds",
+        "whatItDoes": "Shows content only in the language a user picks.",
+        "whyItMatters": "This is the main reason users choose ShareChat over Instagram or YouTube."
+      },
+      {
+        "feature": "Live chatrooms and virtual gifting",
+        "whatItDoes": "Hosts run audio or video rooms; fans buy coins with UPI and send gifts.",
+        "whyItMatters": "The biggest revenue line at ₹472 crore in FY26, and it does not depend on advertisers."
+      },
+      {
+        "feature": "Moj short video",
+        "whatItDoes": "Full-screen vertical video feed with editing tools and music.",
+        "whyItMatters": "Keeps young users and creators on the platform and creates ad space."
+      },
+      {
+        "feature": "QuickTV micro-dramas",
+        "whatItDoes": "Paid short episodic shows; first episodes free, then pay per episode or subscribe.",
+        "whyItMatters": "Drove most of the ₹293 crore subscription revenue and has over 5 crore Play Store downloads."
+      },
+      {
+        "feature": "WhatsApp sharing",
+        "whatItDoes": "One tap to share any post or video into WhatsApp chats and status.",
+        "whyItMatters": "Free marketing: every share carries the ShareChat watermark to new users."
+      },
+      {
+        "feature": "Moj+ and Moj Blue subscriptions",
+        "whatItDoes": "Paid tiers with perks for fans and creators.",
+        "whyItMatters": "Adds steady money from users beyond one-off gifts."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First open after a WhatsApp forward",
+        "persona": "The small-town WhatsApp forwarder",
+        "steps": [
+          {
+            "step": "Sees a forward",
+            "detail": "Gets a Hindi devotional video in a family group with a ShareChat watermark."
+          },
+          {
+            "step": "Installs the app",
+            "detail": "Downloads ShareChat from the Play Store on a ₹8,000 Android phone."
+          },
+          {
+            "step": "Picks a language",
+            "detail": "Chooses Hindi; no English typing needed."
+          },
+          {
+            "step": "Logs in with phone number",
+            "detail": "Enters number and OTP."
+          },
+          {
+            "step": "Scrolls the feed",
+            "detail": "Sees wishes, news and jokes in Hindi."
+          },
+          {
+            "step": "Shares back",
+            "detail": "Forwards a Good Morning post to WhatsApp, bringing in the next user."
+          }
+        ]
+      },
+      {
+        "name": "Sending a first gift in a live room",
+        "persona": "The live room regular",
+        "steps": [
+          {
+            "step": "Gets a notification",
+            "detail": "'Your favourite host is live now' pops up at 9 pm."
+          },
+          {
+            "step": "Joins the room",
+            "detail": "Listens and chats with others."
+          },
+          {
+            "step": "Gets noticed",
+            "detail": "The host greets users who send gifts by name."
+          },
+          {
+            "step": "Buys coins",
+            "detail": "Pays a small amount like ₹49 via UPI for a coin pack."
+          },
+          {
+            "step": "Sends a gift",
+            "detail": "A rose or a car animation plays on screen; the host thanks him."
+          },
+          {
+            "step": "Comes back",
+            "detail": "Returns the next night, and may climb the room's top gifter list."
+          }
+        ]
+      },
+      {
+        "name": "Binge a micro-drama",
+        "persona": "The micro-drama binger",
+        "steps": [
+          {
+            "step": "Sees an ad",
+            "detail": "A Moj or Instagram ad shows a dramatic 30-second clip."
+          },
+          {
+            "step": "Installs QuickTV",
+            "detail": "Opens the show directly."
+          },
+          {
+            "step": "Watches free episodes",
+            "detail": "Watches the first 8 to 10 episodes for free."
+          },
+          {
+            "step": "Hits the paywall",
+            "detail": "A cliffhanger, then a prompt to unlock with coins."
+          },
+          {
+            "step": "Pays",
+            "detail": "Buys coins or a weekly pass by UPI."
+          },
+          {
+            "step": "Finishes and gets a new show",
+            "detail": "The app recommends a similar drama to keep her watching."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "ShareChat makes money in three ways: users buy gifts for live hosts, users pay to watch micro-dramas and premium perks, and brands buy ads. In FY26, almost 75% of revenue came straight from users, a big change from its old ad-only model.",
+      "revenueStreams": [
+        {
+          "stream": "Live-streaming gifts",
+          "detail": "Users buy coins and gift them to hosts. ShareChat keeps a cut and pays the rest to hosts. ₹472 crore in FY26."
+        },
+        {
+          "stream": "Subscriptions and paid episodes",
+          "detail": "QuickTV micro-drama unlocks and passes, plus Moj+ and Moj Blue. ₹293 crore in FY26."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Video and banner ads to reach Indian-language users. ₹252 crore in FY26, down 13%."
+        }
+      ],
+      "pricing": "Free to use. Coin packs and micro-drama unlocks start at small amounts paid by UPI; exact prices change often and are shown in the app.",
+      "costDrivers": [
+        "Pay-outs to live hosts and micro-drama production",
+        "Marketing to get new users and drama watchers (₹335 crore in FY26, up 7.7 times)",
+        "Video hosting and bandwidth",
+        "Staff and stock option costs",
+        "Content moderation across 15 languages"
+      ],
+      "unitEconomics": "Rough math: about ₹1,016 crore of yearly revenue across an estimated 300 million monthly users is only about ₹34 per user per year. The money comes from a small group: if around 1% to 2% of users pay, each payer brings in a few thousand rupees a year. On ₹100 of gifts, the company keeps roughly ₹30 to ₹50 after paying the host, then pays for servers and moderation. Micro-dramas earn more per payer but need heavy ad spending to find each new viewer. In April to June 2026 the business finally broke even at the EBITDA level."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "WhatsApp forwards with a ShareChat or Moj watermark",
+        "Paid ads for QuickTV dramas on Meta, YouTube and its own apps",
+        "Pre-installs and Play Store search in Hindi and regional languages",
+        "Creators bringing their fans from other apps"
+      ],
+      "whatBringsUsersBack": [
+        "Daily habit of finding wishes and posts to forward",
+        "Live hosts who know regulars by name and run nightly shows",
+        "Cliffhangers in micro-dramas",
+        "Leaderboards and badges for top gifters"
+      ],
+      "moat": "ShareChat has years of data on what people in each Indian language and region like, plus a base of local creators and hosts. Meta and Google are strong in Indian languages too, so the moat is narrow. Its best defence is the live gifting and micro-drama business, which depends on close host relationships and local stories."
+    },
+    "competitors": [
+      {
+        "name": "Instagram Reels",
+        "positioning": "Meta's short video, the market leader in India after the TikTok ban.",
+        "howThisProductDiffers": "Moj is fully language-first and pays creators through gifts, but Instagram has far more users and brand deals."
+      },
+      {
+        "name": "YouTube Shorts",
+        "positioning": "Google's short video, bundled with YouTube's huge base.",
+        "howThisProductDiffers": "ShareChat has live rooms and a WhatsApp-forward culture; Shorts has better creator pay through YouTube."
+      },
+      {
+        "name": "Josh (VerSe Innovation)",
+        "positioning": "Another Indian short video app born after the TikTok ban.",
+        "howThisProductDiffers": "Similar product. ShareChat has moved further into live gifting and paid micro-dramas."
+      },
+      {
+        "name": "Kuku TV, Pocket FM and other micro-drama apps",
+        "positioning": "Paid short episodic shows and audio series for India.",
+        "howThisProductDiffers": "QuickTV can promote its shows to ShareChat and Moj users for free, which cuts marketing costs."
+      },
+      {
+        "name": "Chamet, Eloelo and other live apps",
+        "positioning": "Live video and audio rooms with gifting.",
+        "howThisProductDiffers": "ShareChat already has a big audience to move into live rooms."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly minutes of content watched or listened to in a user's own language, per active user",
+      "why": "A north star metric should show value to users. Time spent with content in one's own language is the core value. It feeds all three revenue lines: more viewing means more ad space, more gifting and more drama unlocks."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "How many people use ShareChat, Moj or QuickTV each week.",
+        "children": [
+          {
+            "metric": "Installs from WhatsApp shares",
+            "description": "New users who came through a forwarded post."
+          },
+          {
+            "metric": "Day-7 retention",
+            "description": "Share of new users still active a week later."
+          },
+          {
+            "metric": "Users per language",
+            "description": "Growth in each of the 15 languages."
+          }
+        ]
+      },
+      {
+        "metric": "Live room engagement",
+        "description": "How much time users spend in live rooms.",
+        "children": [
+          {
+            "metric": "Active hosts per day",
+            "description": "More good hosts means more rooms to join."
+          },
+          {
+            "metric": "Minutes per room visit",
+            "description": "Longer visits lead to more gifting."
+          },
+          {
+            "metric": "Gifting conversion",
+            "description": "Share of room visitors who buy coins."
+          }
+        ]
+      },
+      {
+        "metric": "Micro-drama viewing",
+        "description": "Episodes watched on QuickTV.",
+        "children": [
+          {
+            "metric": "Free-to-paid conversion",
+            "description": "Share of viewers who unlock after the free episodes."
+          },
+          {
+            "metric": "Completion rate per show",
+            "description": "How many finish a show they started."
+          },
+          {
+            "metric": "New shows released per month",
+            "description": "Fresh stories keep payers coming back."
+          }
+        ]
+      },
+      {
+        "metric": "Feed engagement",
+        "description": "Time in the ShareChat and Moj feeds.",
+        "children": [
+          {
+            "metric": "Shares per user",
+            "description": "Forwards to WhatsApp, also a growth driver."
+          },
+          {
+            "metric": "Creator posts per day",
+            "description": "Fresh local content supply."
+          },
+          {
+            "metric": "Ad views per session",
+            "description": "Ad space created without hurting time spent."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Complaints about overspending on coins",
+      "Share of harmful or adult content reported in live rooms",
+      "Uninstall rate after the first paywall",
+      "App size and crash rate on low-end phones"
+    ],
+    "strengths": [
+      "Deep understanding of Indian-language users in small towns",
+      "Live gifting and paid dramas make it less dependent on ads",
+      "First EBITDA profitable quarter in mid-2026 after deep cost cuts",
+      "Can promote its own micro-drama app to a large base for free"
+    ],
+    "weaknesses": [
+      "Ad revenue is shrinking",
+      "Revenue per user is very low compared with global social apps",
+      "Heavy reliance on a small group of big spenders in live rooms",
+      "Large non-cash losses and a history of layoffs hurt its brand with investors and staff"
+    ],
+    "risks": [
+      "Instagram and YouTube keep improving Indian-language support",
+      "Rules on online gaming, gifting or ads could change, as the 2025 gaming ban did",
+      "Micro-drama market is crowded and marketing costs are rising",
+      "Weak stock markets could delay the planned 2027 IPO"
+    ],
+    "userComplaints": [
+      "Too many ads and pop-ups",
+      "Live hosts pressure users to send gifts",
+      "Micro-dramas lock episodes behind payment right at the cliffhanger",
+      "Low-quality, repeated or misleading content in the feed",
+      "Account bans or lost coins with slow support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Monthly spend limits and a weekly spend summary for coin buyers.",
+        "problem": "Users complain about overspending in live rooms, which is also a regulatory risk.",
+        "expectedImpact": "More trust and fewer refund requests, protecting long-term gifting.",
+        "metricToTrack": "Share of payers still paying after 3 months",
+        "effort": "low"
+      },
+      {
+        "idea": "Cross-promote QuickTV inside Moj with the first episode played right in the feed.",
+        "problem": "Micro-drama marketing spend rose 7.7 times; buying users from Meta is costly.",
+        "expectedImpact": "Lower cost to get each new paying viewer.",
+        "metricToTrack": "Cost per paying QuickTV user",
+        "effort": "low"
+      },
+      {
+        "idea": "Season pass for a full drama at a fixed price shown upfront.",
+        "problem": "Users dislike surprise paywalls and per-episode costs adding up.",
+        "expectedImpact": "Higher conversion and fewer angry reviews.",
+        "metricToTrack": "Free-to-paid conversion and Play Store rating",
+        "effort": "medium"
+      },
+      {
+        "idea": "Creator earnings dashboard in Moj with brand-deal matching for regional creators.",
+        "problem": "Creators leave for Instagram where brand money is.",
+        "expectedImpact": "More fresh content and lower creator churn.",
+        "metricToTrack": "Monthly active creators",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lite mode for phones under 3GB of RAM with fewer ads per session.",
+        "problem": "Many target users have budget phones and slow data.",
+        "expectedImpact": "Better retention in rural markets.",
+        "metricToTrack": "Day-30 retention on low-end phones",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Language can be a product, but not a moat by itself. Once Meta and Google added Indian languages, ShareChat had to find a new edge.",
+      "Ads in small towns pay little, so many Indian consumer apps earn more by letting users pay small amounts directly through UPI.",
+      "Profit can matter more than growth. ShareChat cut costs and shifted focus to reach its first profitable quarter.",
+      "Look at where losses come from. Its ₹1,978 crore FY26 loss was mostly non-cash, while the real cash loss was ₹91 crore."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "ShareChat's ad revenue fell while live-stream revenue grew. How should it split its product investment?",
+        "hint": "Compare revenue per user, growth and risk of each line. Talk about dependency on a few big spenders. Suggest a portfolio with clear metrics."
+      },
+      {
+        "question": "How would you increase gifting in live rooms without hurting users?",
+        "hint": "Segment users by spend. Find levers: host quality, social recognition, small first packs. Add guardrails like spend limits and complaint rates."
+      },
+      {
+        "question": "How would you compete with Instagram Reels in Tier 2 and 3 towns?",
+        "hint": "Pick a niche where ShareChat can win: language, live interaction, local creators. Avoid head-on fights on generic short video."
+      },
+      {
+        "question": "Design the paywall for a micro-drama app.",
+        "hint": "Define where to place it, free episode count, pricing (per episode vs pass), and A/B testing. Track conversion, completion and ratings."
+      },
+      {
+        "question": "What metrics would you show investors before an IPO?",
+        "hint": "Revenue growth, share from users vs ads, EBITDA trend, paying users, retention, and cost to acquire a payer. Explain why each matters."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "EBITDA",
+        "meaning": "Profit before interest, taxes and wear on equipment, used to show if the core business makes money."
+      },
+      {
+        "term": "Micro-drama",
+        "meaning": "A show told in many 1 to 2 minute vertical episodes, made for phones."
+      },
+      {
+        "term": "Bharat",
+        "meaning": "A common term in Indian business for users in smaller towns and villages, beyond big English-speaking cities."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back after they first join."
+      },
+      {
+        "term": "Free-to-paid conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Virtual gifts",
+        "meaning": "Digital items, bought with real money, that users send to creators during live streams."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "IPO",
+        "meaning": "Initial public offering: when a company first sells shares on a stock exchange."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of users or creators who stop using the product in a period."
+      }
+    ],
+    "assumptions": [
+      "Monthly user count is an estimate from older company statements; no 2026 figure was found.",
+      "The share of revenue ShareChat keeps from gifts (30% to 50%) is an industry-typical guess.",
+      "The 1% to 2% paying user share is an estimate.",
+      "The ₹49 coin pack is an example amount."
+    ]
+  }
+}

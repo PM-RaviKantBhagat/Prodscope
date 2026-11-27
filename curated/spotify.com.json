@@ -1,0 +1,549 @@
+{
+  "company": "Spotify",
+  "domain": "spotify.com",
+  "website": "https://spotify.com",
+  "sources": [
+    "https://www.hypebot.com/spotify-q3-2026-788m-users-and-306m-subscribers/",
+    "https://musicbusinessworldwide.com/spotify-is-on-course-for-a-3-3b-annual-operating-profit-in-2026-after-adding-6m-subscribers-in-q3",
+    "https://fourweekmba.com/ai-spotifys-q3-explained-33-margin-518m-net-income/",
+    "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126040435/ef20084028_ex99-1.htm",
+    "https://www.musicbusinessworldwide.com/spotify-cuts-premium-prices-in-india-by-30-and-scraps-lite-tier-just-six-months-after-launching-it/",
+    "https://www.digitalmusicnews.com/2026/05/18/spotify-price-increases-may-2026/",
+    "https://www.headphonesty.com/2026/01/spotify-officially-worst-expensive-music-streaming-platform/"
+  ],
+  "report": {
+    "company": "Spotify",
+    "tagline": "The world's largest music streaming app, with podcasts and audiobooks, free with ads or paid without ads.",
+    "category": "Music / audio",
+    "simpleSummary": "Spotify lets you play almost any song, podcast or audiobook on your phone, laptop or speaker. You can use it free with ads and some limits, or pay monthly for Premium to skip ads, pick any song and download for offline. It is famous for making playlists that feel made for you, like Discover Weekly and Wrapped at the end of each year. Most of the money it earns goes to music labels and artists.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users (MAU), Q3 2026",
+        "value": "788 million, up 11%",
+        "note": "Spotify Q3 2026 results via Hypebot. 499 million of these use the free, ad-supported version."
+      },
+      {
+        "label": "Premium subscribers, Q3 2026",
+        "value": "306 million, up 9%",
+        "note": "Spotify Q3 2026 results. Added 6 million in the quarter."
+      },
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "€4.97 billion, up 16%",
+        "note": "Spotify Q3 2026 results. Premium €4.49 billion, ads €482 million."
+      },
+      {
+        "label": "Gross margin, Q3 2026",
+        "value": "33.0%, a Q3 record",
+        "note": "Spotify Q3 2026 results. Gross margin was under 25% a few years ago."
+      },
+      {
+        "label": "Net income, Q3 2026",
+        "value": "About €518 million",
+        "note": "Reported by FourWeekMBA from Spotify's Q3 2026 results."
+      },
+      {
+        "label": "Operating profit, full year 2026",
+        "value": "On course for about $3.3 billion",
+        "note": "Music Business Worldwide estimate based on 2026 results so far."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Spotify streams music, podcasts and audiobooks. It pays music labels, publishers and creators for the content and keeps the rest. It earns mostly from Premium subscriptions, and also from ads shown to free users. Its edge is personalisation: it learns your taste and builds playlists for you.",
+      "howItWorks": [
+        "Free users can listen with ads; on phones they have limits like shuffle play and fewer skips.",
+        "Premium users pay monthly for ad-free, on-demand listening, offline downloads and higher quality, including lossless audio.",
+        "Spotify pays about two thirds of music revenue to labels and publishers based on each track's share of streams.",
+        "Algorithms build playlists like Discover Weekly, Daily Mix, Release Radar and the AI DJ.",
+        "Premium in many markets includes 15 hours a month of audiobooks.",
+        "Creators upload podcasts and video podcasts and can earn through the Spotify Partner Program."
+      ],
+      "valueProposition": "For listeners: almost all the world's music, plus podcasts and books, picked for your taste. For artists and podcasters: reach hundreds of millions of listeners. For advertisers: audio and video ads to a logged-in, young audience."
+    },
+    "personas": [
+      {
+        "name": "The free-tier student",
+        "description": "A 19-year-old in Chennai who uses free Spotify for Tamil and English songs and does not want to pay.",
+        "goals": [
+          "Listen to favourite songs for free",
+          "Discover new music"
+        ],
+        "frustrations": [
+          "Ads between songs",
+          "Cannot pick songs freely on mobile"
+        ]
+      },
+      {
+        "name": "The daily commuter on Premium",
+        "description": "A 29-year-old in London who listens to playlists and podcasts on the tube every day.",
+        "goals": [
+          "Ad-free listening and offline downloads",
+          "Good new music without searching"
+        ],
+        "frustrations": [
+          "Price rises almost every year",
+          "Algorithm repeating the same songs"
+        ]
+      },
+      {
+        "name": "The podcast and audiobook fan",
+        "description": "A 35-year-old in the US who switches between true crime podcasts and audiobooks.",
+        "goals": [
+          "One app for all audio",
+          "Finish books without paying extra"
+        ],
+        "frustrations": [
+          "15-hour monthly audiobook limit",
+          "App cluttered with video and podcasts"
+        ]
+      },
+      {
+        "name": "The independent artist",
+        "description": "An indie musician in Mumbai who releases songs through a distributor.",
+        "goals": [
+          "Get into editorial and algorithmic playlists",
+          "Earn money from streams"
+        ],
+        "frustrations": [
+          "Tiny payouts per stream",
+          "Songs under 1,000 yearly streams earn nothing"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Buying songs one by one or downloading illegally was costly or risky.",
+        "howSolved": "Legal access to over 100 million tracks for a monthly fee or free with ads.",
+        "severity": "high"
+      },
+      {
+        "pain": "Finding new music you like takes effort.",
+        "howSolved": "Personalised playlists like Discover Weekly and the AI DJ.",
+        "severity": "high"
+      },
+      {
+        "pain": "Juggling separate apps for music, podcasts and books.",
+        "howSolved": "One app with all three, plus audiobooks in Premium.",
+        "severity": "medium"
+      },
+      {
+        "pain": "No internet on flights or commutes.",
+        "howSolved": "Offline downloads on Premium.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Switching devices interrupts listening.",
+        "howSolved": "Spotify Connect moves playback between phone, speaker, car and TV.",
+        "severity": "low"
+      },
+      {
+        "pain": "Artists struggle to reach listeners without a big label.",
+        "howSolved": "Anyone can upload through a distributor, and algorithms can surface new songs.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Personalised playlists (Discover Weekly, Daily Mix, Release Radar)",
+        "whatItDoes": "Auto-built playlists refreshed weekly or daily for each listener.",
+        "whyItMatters": "The main reason people stay; it makes Spotify feel personal."
+      },
+      {
+        "feature": "Spotify Wrapped",
+        "whatItDoes": "A yearly summary of each user's top songs, artists and minutes listened.",
+        "whyItMatters": "Free viral marketing every December as users share on social media."
+      },
+      {
+        "feature": "AI DJ",
+        "whatItDoes": "An AI voice that picks and introduces songs, and now takes voice requests.",
+        "whyItMatters": "Makes listening easy and shows off Spotify's taste data."
+      },
+      {
+        "feature": "Audiobooks in Premium",
+        "whatItDoes": "15 hours of audiobooks a month included, expanding to over 180 markets.",
+        "whyItMatters": "Adds value to Premium and justifies price rises."
+      },
+      {
+        "feature": "Video podcasts and Partner Program",
+        "whatItDoes": "Creators upload video podcasts and earn from ads and Premium views.",
+        "whyItMatters": "Competes with YouTube for podcast time and ad money."
+      },
+      {
+        "feature": "Lossless audio",
+        "whatItDoes": "CD-quality and higher audio for Premium users.",
+        "whyItMatters": "Closes a gap versus Apple Music and Amazon Music."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Free to Premium",
+        "persona": "The free-tier student",
+        "steps": [
+          {
+            "step": "Signs up free",
+            "detail": "Uses Google sign-in and picks a few artists."
+          },
+          {
+            "step": "Hits limits",
+            "detail": "Ads and shuffle-only play on mobile annoy him."
+          },
+          {
+            "step": "Sees offer",
+            "detail": "Gets a 'Premium free for 1 month' or low-cost trial."
+          },
+          {
+            "step": "Starts trial",
+            "detail": "Sets up UPI autopay."
+          },
+          {
+            "step": "Builds habit",
+            "detail": "Downloads playlists for offline listening."
+          },
+          {
+            "step": "Pays or downgrades",
+            "detail": "Pays if the habit sticks; many go back to free."
+          }
+        ]
+      },
+      {
+        "name": "Weekly discovery",
+        "persona": "The daily commuter on Premium",
+        "steps": [
+          {
+            "step": "Monday morning",
+            "detail": "Opens Discover Weekly on the commute."
+          },
+          {
+            "step": "Likes songs",
+            "detail": "Taps heart on three new songs."
+          },
+          {
+            "step": "Adds to playlist",
+            "detail": "Saves them to a personal playlist."
+          },
+          {
+            "step": "Algorithm learns",
+            "detail": "Future playlists include more similar songs."
+          },
+          {
+            "step": "Shares",
+            "detail": "Sends a song to a friend on WhatsApp."
+          },
+          {
+            "step": "Comes back",
+            "detail": "Opens Release Radar on Friday."
+          }
+        ]
+      },
+      {
+        "name": "Year-end Wrapped",
+        "persona": "The free-tier student",
+        "steps": [
+          {
+            "step": "Gets notification",
+            "detail": "Wrapped is out in early December."
+          },
+          {
+            "step": "Views story",
+            "detail": "Swipes through his top songs and minutes."
+          },
+          {
+            "step": "Shares",
+            "detail": "Posts it to Instagram stories."
+          },
+          {
+            "step": "Friends react",
+            "detail": "Friends on Apple Music feel left out; some try Spotify."
+          },
+          {
+            "step": "Listens to top songs",
+            "detail": "Plays his 'Top Songs 2026' playlist."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Spotify earns about 90% of its revenue from Premium subscriptions and about 10% from ads to free users. It pays most of that money to music labels, publishers and creators. Its profit comes from the gap, which has grown as prices rose and podcasts and audiobooks were added.",
+      "revenueStreams": [
+        {
+          "stream": "Premium subscriptions",
+          "detail": "Individual, Duo, Family and Student plans. €4.49 billion in Q3 2026."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Audio, video and podcast ads to free users, sold directly and through automated buying. €482 million in Q3 2026."
+        },
+        {
+          "stream": "Audiobook add-ons",
+          "detail": "Extra audiobook hours sold beyond the 15 hours included."
+        },
+        {
+          "stream": "Marketplace tools",
+          "detail": "Labels and artists pay for promotion tools like Discovery Mode and Marquee."
+        }
+      ],
+      "pricing": "US Premium Individual about $11.99 to $12.99 a month after 2026 price rises, with Duo, Family and Student plans. India Premium starts around ₹139 a month per late 2025 reports, but Spotify cut India prices by about 30% in 2026 and dropped its Lite plan, so prices may be lower now. Check the site for current prices.",
+      "costDrivers": [
+        "Royalties to labels and publishers, roughly two thirds of music revenue",
+        "Podcast and audiobook licensing and payouts",
+        "Cloud servers and bandwidth",
+        "Research and development staff",
+        "Marketing and payment fees"
+      ],
+      "unitEconomics": "Take one US Premium user paying about $12 a month. About $8 goes to labels, publishers and other rights owners. Spotify keeps about $4, its 33% gross margin, then pays for servers, staff and marketing. A free user earns much less, about €1 a month in ads, but costs less in royalties. The goal is to turn free users into payers and to add audiobooks and podcasts, which pay rights owners less, to lift the margin."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free tier with no time limit",
+        "Wrapped shared on social media every December",
+        "Bundles with telecoms and phone makers",
+        "Pre-installs on smart speakers, cars and TVs",
+        "Trials like 'Premium free for 1 month'"
+      ],
+      "whatBringsUsersBack": [
+        "Weekly playlists like Discover Weekly and Release Radar",
+        "Daily commute and gym habits",
+        "Saved playlists and libraries that are hard to move",
+        "New podcast episodes every week"
+      ],
+      "moat": "Spotify knows the listening taste of almost 800 million people, which makes its recommendations better than rivals'. Users build years of playlists and liked songs, which are hard to move. Being on almost every device helps too. But all big rivals have the same music, so the moat is about experience, not content."
+    },
+    "competitors": [
+      {
+        "name": "YouTube Music",
+        "positioning": "Music and videos, bundled with YouTube Premium.",
+        "howThisProductDiffers": "Spotify has better playlists and podcasts; YouTube has music videos and a huge user base."
+      },
+      {
+        "name": "Apple Music",
+        "positioning": "Music for iPhone users, with lossless and spatial audio.",
+        "howThisProductDiffers": "Spotify works on any device and has a free tier."
+      },
+      {
+        "name": "Amazon Music",
+        "positioning": "Bundled with Amazon Prime.",
+        "howThisProductDiffers": "Spotify is a standalone app with better personalisation."
+      },
+      {
+        "name": "JioSaavn and Gaana (India)",
+        "positioning": "Indian music apps with Bollywood and regional songs.",
+        "howThisProductDiffers": "Spotify has global music and podcasts; JioSaavn has Jio bundles and local reach."
+      },
+      {
+        "name": "Audible",
+        "positioning": "Amazon's audiobook store.",
+        "howThisProductDiffers": "Spotify includes some audiobook hours in Premium rather than one credit per book."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly hours of listening per active user",
+      "why": "As a north star metric, listening time shows people get value from Spotify. More listening leads to higher Premium conversion, lower churn and more ad space."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "Monthly users of free and Premium.",
+        "children": [
+          {
+            "metric": "New sign-ups",
+            "description": "Users joining from trials, Wrapped and bundles."
+          },
+          {
+            "metric": "Month-2 retention",
+            "description": "Share of new users still active after a month."
+          },
+          {
+            "metric": "Emerging market users",
+            "description": "Growth in India, Brazil, Indonesia and others."
+          }
+        ]
+      },
+      {
+        "metric": "Listening per user",
+        "description": "Hours each user listens.",
+        "children": [
+          {
+            "metric": "Personalised playlist streams",
+            "description": "Share of streams from Discover Weekly, DJ and mixes."
+          },
+          {
+            "metric": "Podcast hours",
+            "description": "Time on podcasts and video podcasts."
+          },
+          {
+            "metric": "Audiobook hours",
+            "description": "Time on audiobooks in Premium."
+          }
+        ]
+      },
+      {
+        "metric": "Premium subscribers",
+        "description": "Paying users.",
+        "children": [
+          {
+            "metric": "Free-to-paid conversion",
+            "description": "Share of free users who start paying."
+          },
+          {
+            "metric": "Monthly churn",
+            "description": "Share of payers who cancel."
+          },
+          {
+            "metric": "Family and Duo share",
+            "description": "Plans that bind more people together."
+          }
+        ]
+      },
+      {
+        "metric": "Ad revenue per free user",
+        "description": "Ad money from each free listener.",
+        "children": [
+          {
+            "metric": "Ad fill rate",
+            "description": "Share of ad slots sold."
+          },
+          {
+            "metric": "Price per thousand ad plays",
+            "description": "What advertisers pay."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Premium churn after price rises",
+      "Share of 'skips' in algorithmic playlists",
+      "Artist and label complaints about payouts",
+      "App crash and loading times"
+    ],
+    "strengths": [
+      "Largest music streaming user base at 788 million",
+      "Best-known personalisation, Wrapped and DJ",
+      "Record gross margin of 33% and steady profits",
+      "Works on almost every device"
+    ],
+    "weaknesses": [
+      "Labels own the music, so Spotify cannot offer exclusive songs",
+      "Ad business is small and growing slower",
+      "Low revenue per user in emerging markets like India",
+      "App feels cluttered to users who just want music"
+    ],
+    "risks": [
+      "Labels asking for higher royalties",
+      "Apple and Google app store rules and fees",
+      "AI-generated music flooding the catalogue",
+      "Users quitting after repeated price rises"
+    ],
+    "userComplaints": [
+      "Repeated price rises, now pricier than some rivals",
+      "The app pushes podcasts, video and audiobooks over music",
+      "Recommendations that repeat the same songs",
+      "Free tier limits like shuffle-only on mobile",
+      "Artists complain about low payouts and the 1,000-stream minimum"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "A 'music only' home screen setting.",
+        "problem": "Users complain podcasts and video clutter the app.",
+        "expectedImpact": "Higher satisfaction among music-first users.",
+        "metricToTrack": "Daily sessions and churn among music-only users",
+        "effort": "low"
+      },
+      {
+        "idea": "'Fresh mode' for playlists that avoids songs played in the last 30 days.",
+        "problem": "Recommendations feel repetitive.",
+        "expectedImpact": "More discovery and more listening hours.",
+        "metricToTrack": "Skip rate on algorithmic playlists",
+        "effort": "medium"
+      },
+      {
+        "idea": "Daily-pass or weekly Premium via UPI in India.",
+        "problem": "Many Indian users will not commit to monthly payments.",
+        "expectedImpact": "More paying users in price-sensitive markets.",
+        "metricToTrack": "Paying users in India",
+        "effort": "low"
+      },
+      {
+        "idea": "Show Premium users a monthly 'value report' of ads skipped, songs downloaded and audiobook hours used.",
+        "problem": "Users question the price after each rise.",
+        "expectedImpact": "Lower churn after price changes.",
+        "metricToTrack": "Churn in the 60 days after a price rise",
+        "effort": "low"
+      },
+      {
+        "idea": "AI music labels and a filter for AI-made tracks.",
+        "problem": "Users and artists worry about AI songs crowding playlists.",
+        "expectedImpact": "More trust in recommendations.",
+        "metricToTrack": "Share of streams from labelled AI tracks and complaints",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A free tier can be your biggest marketing channel if it creates a habit that later pays.",
+      "Your margin depends on who owns the content. Spotify added podcasts and audiobooks partly to pay rights owners less per hour.",
+      "Delight can be marketing. Wrapped turns user data into something people want to share.",
+      "Price rises work only when users feel more value, so add features before raising prices."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase free-to-paid conversion in India?",
+        "hint": "Look at price, payment (UPI autopay), local music and value. Suggest smaller plans or trials and how to test them."
+      },
+      {
+        "question": "Spotify wants more ad revenue from free users. What would you build?",
+        "hint": "Split into users, hours, ad load, fill and price. Think video ads, podcasts and targeting. Add guardrails on churn."
+      },
+      {
+        "question": "Design a new feature for Spotify Wrapped.",
+        "hint": "Define the goal: sharing, reactivation or conversion. Propose an idea, then define success metrics."
+      },
+      {
+        "question": "Should Spotify keep adding audiobooks and video, or focus on music?",
+        "hint": "Weigh margin, competition with YouTube and Audible, and user complaints about clutter. Segment by user type."
+      },
+      {
+        "question": "How would you measure the success of the AI DJ?",
+        "hint": "Pick usage, listening time, skips and retention. Compare users with and without it."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Monthly active users (MAU)",
+        "meaning": "The number of different people who used the app at least once in a month."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "The share of revenue left after paying the direct cost of the product, here mainly royalties."
+      },
+      {
+        "term": "Royalties",
+        "meaning": "Money paid to music owners each time their songs are played."
+      },
+      {
+        "term": "Free-to-paid conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a period."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ad slots that actually get an ad sold into them."
+      }
+    ],
+    "assumptions": [
+      "India prices are uncertain after the 2026 price cut; we did not confirm the exact current rupee price.",
+      "The royalty share of about two thirds is based on Spotify's long-standing public statements.",
+      "Ad revenue per free user is our rough calculation from reported totals.",
+      "US price range reflects reported 2026 increases and may differ by plan."
+    ]
+  }
+}

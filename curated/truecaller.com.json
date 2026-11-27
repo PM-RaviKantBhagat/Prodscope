@@ -1,0 +1,556 @@
+{
+  "company": "Truecaller",
+  "domain": "truecaller.com",
+  "website": "https://truecaller.com",
+  "sources": [
+    "https://www.inderes.dk/en/releases/truecaller-ab-return-to-growth-following-a-successful-strategic-reset",
+    "https://news.cision.com/truecaller-ab/r/user-and-premium-growth-continue--while-we-strengthen-the-platform-for-the-future,c4348026",
+    "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
+    "https://techcrunch.com/2026/07/08/truecaller-clashes-with-indias-telecom-regulator-over-anti-spam-rules/",
+    "https://www.businesstoday.in/technology/news/story/knowing-a-name-doesnt-solve-spam-truecaller-says-cnap-wont-replace-its-caller-id-in-india-562111-2026-10-16",
+    "https://www.techrepublic.com/article/news-truecaller-india-growth-slows-apac/"
+  ],
+  "report": {
+    "company": "Truecaller",
+    "tagline": "A caller ID and spam-blocking app that tells you who is calling before you pick up, used mostly in India.",
+    "category": "Caller ID / communication",
+    "simpleSummary": "When an unknown number calls, Truecaller shows the caller's name and warns you if it is spam, like a loan agent or a scammer. It knows the name because hundreds of millions of users share their contacts and report spam numbers. The app is free with ads. You can pay for Premium to remove ads and get extras, and businesses pay to show a verified name and logo when they call or message you.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users (MAU), Q3 2026",
+        "value": "476 million (Android only)",
+        "note": "Truecaller Q3 2026 interim report. Up from 442 million a year earlier, but growth has slowed."
+      },
+      {
+        "label": "Net sales, Q3 2026",
+        "value": "SEK 464 million (about $49 million), down 1%",
+        "note": "Truecaller Q3 2026 report. Up about 3% in constant currency and 18% versus Q2 2026."
+      },
+      {
+        "label": "Revenue growth by stream, Q3 2026",
+        "value": "Subscriptions +32%, Truecaller for Business +14%, ads -12%",
+        "note": "Constant currency, Truecaller Q3 2026 report. Recurring revenue is now 47% of sales, up from 38%."
+      },
+      {
+        "label": "EBITDA margin, Q3 2026",
+        "value": "32% before one-off costs",
+        "note": "Truecaller Q3 2026 report. Net result was a loss of SEK 23 million due to a SEK 92 million provision for an Indian tax survey."
+      },
+      {
+        "label": "India sales change, Q3 2026",
+        "value": "Down 8%",
+        "note": "Truecaller Q3 2026 report. India is the largest market, with an estimated 70% or more of users; the user share is our estimate from older disclosures."
+      },
+      {
+        "label": "Calls and spam identified",
+        "value": "Tens of billions of spam calls flagged each year",
+        "note": "Approximate, based on Truecaller's yearly spam reports; exact 2026 figure not verified."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Truecaller identifies unknown callers, blocks spam and scam calls and texts, and sorts SMS into inboxes. It makes money from ads in the app, Premium subscriptions, and from businesses that pay to be verified. In 2025 and 2026 it shifted away from ads toward subscriptions and business services.",
+      "howItWorks": [
+        "When you install it, you can share your contacts. These, plus user tags and reports, build a huge crowd-sourced phone book.",
+        "When a call comes in, the app looks up the number and shows a name, photo or a red spam warning.",
+        "Users can block numbers and report spam, which updates the warning for everyone.",
+        "The SMS inbox sorts bank alerts, OTPs, offers and spam into separate tabs.",
+        "Businesses pay for 'Verified Business' caller ID, with a green badge, logo and call reason.",
+        "Premium users pay to remove ads, see who viewed their profile, and use extras like AI call assistant and contact requests."
+      ],
+      "valueProposition": "For users: know who is calling and avoid scams and wasted time. For businesses: get more calls answered, because people trust a verified name more than an unknown number."
+    },
+    "personas": [
+      {
+        "name": "The spam-tired professional",
+        "description": "A 30-year-old in Gurugram who gets 5 to 10 calls a day from loan, credit card and real estate agents.",
+        "goals": [
+          "Ignore sales calls without missing real ones",
+          "Avoid scams pretending to be from a bank"
+        ],
+        "frustrations": [
+          "Ads inside a free app",
+          "Spam calls still getting through from new numbers"
+        ]
+      },
+      {
+        "name": "The delivery-heavy shopper",
+        "description": "A 26-year-old who orders from Swiggy, Amazon and Blinkit and gets calls from unknown delivery agents.",
+        "goals": [
+          "Know which unknown calls are deliveries",
+          "Not miss a courier"
+        ],
+        "frustrations": [
+          "Delivery numbers wrongly marked as spam",
+          "Agents' names showing oddly because of crowd tags"
+        ]
+      },
+      {
+        "name": "The elderly parent",
+        "description": "A 62-year-old in Kochi whose son installed Truecaller to protect her from fraud calls.",
+        "goals": [
+          "Not fall for scams like 'your KYC is expiring'",
+          "Answer only family and known callers"
+        ],
+        "frustrations": [
+          "Confusing ads and prompts",
+          "Too many settings"
+        ]
+      },
+      {
+        "name": "The business caller",
+        "description": "A customer team at a bank or a food delivery firm that needs customers to pick up.",
+        "goals": [
+          "Higher answer rate on calls",
+          "Show a trusted name and logo"
+        ],
+        "frustrations": [
+          "Their numbers get flagged as spam by users",
+          "Paying for both Truecaller and telecom-level verification"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Indian phone users get many spam and scam calls every week.",
+        "howSolved": "Red spam warnings and auto-blocking based on reports from millions of users.",
+        "severity": "high"
+      },
+      {
+        "pain": "Unknown numbers could be a delivery, a doctor or a scam, and you cannot tell.",
+        "howSolved": "Caller ID shows the name and sometimes a photo or business tag.",
+        "severity": "high"
+      },
+      {
+        "pain": "SMS inbox is flooded with offers, so bank alerts and OTPs get lost.",
+        "howSolved": "Smart SMS sorts messages into tabs and highlights OTPs and bills.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Older or less tech-savvy people are easy targets for fraud.",
+        "howSolved": "Scam alerts and warnings for known fraud numbers, plus family protection features.",
+        "severity": "high"
+      },
+      {
+        "pain": "Businesses cannot get customers to answer calls.",
+        "howSolved": "Verified Business caller ID shows a green badge, logo and reason for call.",
+        "severity": "medium"
+      },
+      {
+        "pain": "You miss calls while busy and do not know if they matter.",
+        "howSolved": "AI Assistant can answer, screen and transcribe calls for Premium users.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Caller ID",
+        "whatItDoes": "Shows the name of unknown callers in real time.",
+        "whyItMatters": "The main reason people install the app; it is the habit every other feature builds on."
+      },
+      {
+        "feature": "Spam detection and blocking",
+        "whatItDoes": "Flags and blocks numbers that many users reported.",
+        "whyItMatters": "Saves time and protects from fraud, which builds loyalty."
+      },
+      {
+        "feature": "Smart SMS inbox",
+        "whatItDoes": "Sorts messages and highlights OTPs, bills and bank alerts.",
+        "whyItMatters": "Makes Truecaller the daily default app for texts, not just calls, giving more ad space."
+      },
+      {
+        "feature": "Truecaller Premium and Gold",
+        "whatItDoes": "Paid plans with no ads, who-viewed-my-profile, AI call assistant and a gold badge.",
+        "whyItMatters": "Subscriptions grew 32% in Q3 2026 and are less risky than ads."
+      },
+      {
+        "feature": "Truecaller for Business",
+        "whatItDoes": "Verified caller ID and business messaging for companies.",
+        "whyItMatters": "A growing business line with steady contracts from banks, apps and delivery firms."
+      },
+      {
+        "feature": "Text+ (US)",
+        "whatItDoes": "Second-number calling and texting app bought in 2026.",
+        "whyItMatters": "Gives Truecaller a subscription business in the US, where users pay far more."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First install",
+        "persona": "The spam-tired professional",
+        "steps": [
+          {
+            "step": "Gets a scam call",
+            "detail": "Receives a call claiming his card is blocked; a friend says to install Truecaller."
+          },
+          {
+            "step": "Installs from Play Store",
+            "detail": "Downloads the free app."
+          },
+          {
+            "step": "Grants permissions",
+            "detail": "Allows contacts, call logs and setting Truecaller as default caller ID app."
+          },
+          {
+            "step": "Verifies number",
+            "detail": "Confirms his own number by SMS or a missed call."
+          },
+          {
+            "step": "Sees first spam warning",
+            "detail": "Next loan agent call shows a red 'Spam, reported by 12,000 people' screen."
+          },
+          {
+            "step": "Blocks and reports",
+            "detail": "Blocks the number, adding to the shared spam list."
+          }
+        ]
+      },
+      {
+        "name": "Upgrade to Premium",
+        "persona": "The spam-tired professional",
+        "steps": [
+          {
+            "step": "Hits a limit",
+            "detail": "Sees ads after every call and a locked 'who viewed your profile' list."
+          },
+          {
+            "step": "Sees the offer",
+            "detail": "Gets a discounted first-year price inside the app."
+          },
+          {
+            "step": "Compares plans",
+            "detail": "Picks monthly or yearly Premium, or the costlier Gold."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays with UPI or Google Play billing."
+          },
+          {
+            "step": "Uses perks",
+            "detail": "No ads, advanced spam blocking, AI call assistant."
+          },
+          {
+            "step": "Renews or cancels",
+            "detail": "Decides at renewal time based on how much spam it blocks."
+          }
+        ]
+      },
+      {
+        "name": "Business gets verified",
+        "persona": "The business caller",
+        "steps": [
+          {
+            "step": "Sees low answer rates",
+            "detail": "A lender finds fewer than a third of calls get answered."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Contacts Truecaller for Business sales."
+          },
+          {
+            "step": "Gets verified",
+            "detail": "Submits documents; numbers get a green badge and logo."
+          },
+          {
+            "step": "Adds call reason",
+            "detail": "Shows 'EMI reminder' on the incoming call screen."
+          },
+          {
+            "step": "Measures results",
+            "detail": "Checks whether answer rates go up."
+          },
+          {
+            "step": "Renews contract",
+            "detail": "Pays yearly based on numbers and volume."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Truecaller makes money three ways: ads shown in the app, Premium subscriptions from users, and fees from businesses for verified calls and messages. Ads used to be most of the money, but they fell 12% in Q3 2026, while subscriptions and business revenue grew. Recurring revenue is now almost half of sales.",
+      "revenueStreams": [
+        {
+          "stream": "Advertising",
+          "detail": "Ads after calls and in the app, sold through its own and partner ad systems. Largest stream but shrinking, now under 53% of sales."
+        },
+        {
+          "stream": "Premium subscriptions",
+          "detail": "Users pay monthly or yearly for an ad-free app and extra features. Up 32% in Q3 2026."
+        },
+        {
+          "stream": "Truecaller for Business",
+          "detail": "Verified business caller ID and messaging, sold to banks, apps and other firms. Up 14% in Q3 2026."
+        },
+        {
+          "stream": "Text+",
+          "detail": "US subscription calling and texting app with about 1.5 million users, bought in 2026."
+        }
+      ],
+      "pricing": "Free with ads. In India, Premium costs roughly ₹75 to ₹100 a month or around ₹500 to ₹900 a year, often with discounts, and Gold costs several thousand rupees a year. Prices change and are shown in the app. Business pricing is not public.",
+      "costDrivers": [
+        "Engineering and AI staff, mostly in Stockholm and Bengaluru",
+        "Servers to look up billions of calls",
+        "Sales staff for business and ads",
+        "Google Play and App Store fees on subscriptions",
+        "Tax and legal costs, such as the 2026 India tax provision"
+      ],
+      "unitEconomics": "Truecaller earns very little per user. About SEK 464 million a quarter across 476 million users is roughly SEK 4 (about ₹33) per user per year. But serving one more user costs almost nothing, so margins stay high: about 32 kronor of every 100 is EBITDA. A Premium user in India paying around ₹500 a year is worth about 15 times an ad-only user, and a US Text+ subscriber is worth even more. That is why the company is pushing subscriptions and the US."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth after a scam call scare",
+        "Pre-installs and partnerships with Android phone makers",
+        "Seeing a friend's phone show caller names",
+        "Businesses telling customers to look for their verified badge"
+      ],
+      "whatBringsUsersBack": [
+        "Every incoming call from an unknown number",
+        "SMS inbox used daily for OTPs and bank alerts",
+        "Weekly spam stats and protection reports",
+        "Who-viewed-my-profile notifications"
+      ],
+      "moat": "Truecaller's phone book is built from hundreds of millions of users sharing contacts and reporting spam over 15 years. The more people use it, the more accurate it gets, which is a network effect. A new app would start with no data. The main threat is not another app, but India's government adding caller names at the phone network level."
+    },
+    "competitors": [
+      {
+        "name": "CNAP (Calling Name Presentation) by Indian telecoms",
+        "positioning": "A TRAI-mandated feature showing the caller's KYC-registered name on every phone, being rolled out from 2025 to 2026.",
+        "howThisProductDiffers": "CNAP shows a registered name but does not label spam or scams. Truecaller argues knowing a name does not solve spam."
+      },
+      {
+        "name": "Google Phone app",
+        "positioning": "Default Android dialer with caller ID and spam protection.",
+        "howThisProductDiffers": "Truecaller has much bigger India-specific spam data and an SMS inbox, but Google's app is already installed."
+      },
+      {
+        "name": "Telecom spam filters (Airtel, Jio)",
+        "positioning": "Network-level AI spam labels like Airtel's spam alert.",
+        "howThisProductDiffers": "Free and built-in, but limited to one network. Truecaller works across all networks."
+      },
+      {
+        "name": "Apple iPhone call screening",
+        "positioning": "iOS features to silence unknown callers and screen calls.",
+        "howThisProductDiffers": "Apple limits what third-party apps can do on iPhone, so Truecaller is weaker on iOS."
+      },
+      {
+        "name": "Hiya",
+        "positioning": "Caller ID and spam protection sold mostly through carriers and phone makers in the US and Europe.",
+        "howThisProductDiffers": "Truecaller is consumer-first and dominant in India; Hiya is B2B through carriers."
+      }
+    ],
+    "northStar": {
+      "metric": "Spam and unknown calls correctly identified per user each month",
+      "why": "As a north star metric this shows the core value: fewer wasted or risky calls. It drives retention, ad views and the reasons to pay for Premium."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "People who use Truecaller as their caller ID each month.",
+        "children": [
+          {
+            "metric": "New installs",
+            "description": "Downloads and pre-installs, hit by weak smartphone sales."
+          },
+          {
+            "metric": "Default dialer rate",
+            "description": "Share of users who make Truecaller their default caller ID app."
+          },
+          {
+            "metric": "Monthly retention",
+            "description": "Share of users still active after 30 days."
+          }
+        ]
+      },
+      {
+        "metric": "Identification accuracy",
+        "description": "How often the app shows the right name or spam label.",
+        "children": [
+          {
+            "metric": "Number coverage",
+            "description": "Share of incoming numbers with a name in the database."
+          },
+          {
+            "metric": "Spam reports per day",
+            "description": "Fresh reports that update warnings."
+          },
+          {
+            "metric": "False spam rate",
+            "description": "Real businesses or people wrongly marked as spam."
+          }
+        ]
+      },
+      {
+        "metric": "Premium conversion",
+        "description": "How many users pay.",
+        "children": [
+          {
+            "metric": "Paywall views to purchase",
+            "description": "Share of offer views that turn into payment."
+          },
+          {
+            "metric": "Renewal rate",
+            "description": "Share of subscribers who renew."
+          },
+          {
+            "metric": "AI Assistant usage",
+            "description": "Premium users who use the AI call feature weekly."
+          }
+        ]
+      },
+      {
+        "metric": "Business verified calls",
+        "description": "Calls that show a verified business badge.",
+        "children": [
+          {
+            "metric": "Verified businesses",
+            "description": "Number of paying business accounts."
+          },
+          {
+            "metric": "Answer rate uplift",
+            "description": "Extra share of calls answered with verification."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "App crash rate and call screen speed",
+      "Privacy complaints and data removal requests",
+      "Ad load per session",
+      "Play Store rating in India"
+    ],
+    "strengths": [
+      "Huge, crowd-built phone and spam database",
+      "Very high margins because extra users cost little",
+      "Strong brand in India where spam is a daily problem",
+      "Fast-growing subscription and business revenue"
+    ],
+    "weaknesses": [
+      "Revenue per user is tiny",
+      "Depends heavily on India, where sales fell 8% in Q3 2026",
+      "Weak on iPhone because of Apple's limits",
+      "Ad revenue is volatile and falling"
+    ],
+    "risks": [
+      "CNAP gives every Indian phone a caller name for free",
+      "TRAI anti-spam rules, including requests to share spam data with telecoms",
+      "Privacy laws like India's DPDP Act could limit contact uploading",
+      "Google and Apple building stronger spam protection into phones",
+      "Tax disputes in India"
+    ],
+    "userComplaints": [
+      "Too many full-screen ads after calls on the free version",
+      "Privacy worries, since your name can appear on others' phones even if you never installed it",
+      "Real numbers wrongly tagged as spam, or wrong names shown",
+      "Hard to unlist your number or remove a wrong name",
+      "Pushy upgrade prompts and auto-renewal of Premium"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show 'Truecaller name + CNAP name' together, and highlight when they differ as a fraud warning.",
+        "problem": "CNAP threatens to make basic caller ID free; Truecaller needs to stay more useful.",
+        "expectedImpact": "Users keep Truecaller as the trust layer on top of CNAP.",
+        "metricToTrack": "Monthly retention in CNAP-live circles",
+        "effort": "medium"
+      },
+      {
+        "idea": "One-tap self-service to fix a wrong name or spam label on your own number, with OTP proof.",
+        "problem": "Users and small businesses complain about wrong tags and hard unlisting.",
+        "expectedImpact": "Fewer complaints and better accuracy.",
+        "metricToTrack": "False spam rate and support tickets",
+        "effort": "low"
+      },
+      {
+        "idea": "Family Protection plan in India: one payment covers parents' phones with scam alerts sent to the child.",
+        "problem": "Older people are the main scam targets but will not pay.",
+        "expectedImpact": "New reason to pay, higher revenue per payer.",
+        "metricToTrack": "Family plan subscribers",
+        "effort": "medium"
+      },
+      {
+        "idea": "Cap ads at one full-screen ad per day for users with high scam exposure.",
+        "problem": "Ad overload is the top complaint and drives uninstalls.",
+        "expectedImpact": "Better ratings and retention, small short-term ad loss.",
+        "metricToTrack": "Uninstall rate and ad revenue per user",
+        "effort": "low"
+      },
+      {
+        "idea": "Bundle Text+ second numbers with Truecaller Premium in the US.",
+        "problem": "Truecaller is small in rich markets.",
+        "expectedImpact": "More high-value subscribers outside India.",
+        "metricToTrack": "US paying subscribers",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A product that gets better as more people use it can win a market, but a government rule can still change the game overnight.",
+      "Ads on a free app are fragile. Truecaller moved toward subscriptions and business revenue to make income steadier.",
+      "Privacy is part of the product. Building a phone book from users' contacts gave Truecaller its edge but also its biggest complaint.",
+      "Platform owners like Apple set the limits of what an app can do, so check your dependencies."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "CNAP will show caller names on every Indian phone. What should Truecaller do?",
+        "hint": "Separate what CNAP solves (names) from what it does not (spam, scams, SMS). Find the value gap, then propose features and a pricing response."
+      },
+      {
+        "question": "How would you increase Truecaller Premium conversion in India?",
+        "hint": "Segment users by spam exposure. Look at price, paywall timing, value shown (spam blocked), and family plans. Pick a metric and guardrails."
+      },
+      {
+        "question": "How would you measure the accuracy of spam detection?",
+        "hint": "Define true and false positives. Use user feedback, appeals and sampled audits. Explain the trade-off between blocking more and wrongly blocking real calls."
+      },
+      {
+        "question": "Truecaller's ad revenue fell 12%. Diagnose it.",
+        "hint": "Split into users, ad views per user, fill rate and price per ad. Check outside factors like the market and internal ad tech changes."
+      },
+      {
+        "question": "Design a feature to protect elderly users from scams.",
+        "hint": "Understand scam types (KYC, electricity bill, digital arrest). Propose alerts, family notifications, and simple UI. Measure scams avoided."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Monthly active users (MAU)",
+        "meaning": "The number of different people who used the app at least once in a month."
+      },
+      {
+        "term": "Recurring revenue",
+        "meaning": "Money that comes in regularly, like subscriptions, rather than one-off sales."
+      },
+      {
+        "term": "EBITDA",
+        "meaning": "Profit before interest, taxes and wear on equipment, used to show how much the core business earns."
+      },
+      {
+        "term": "Constant currency",
+        "meaning": "Growth measured as if exchange rates had not changed, to show the real business trend."
+      },
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets better for everyone as more people use it."
+      },
+      {
+        "term": "CNAP",
+        "meaning": "Calling Name Presentation, an Indian rule that makes phone networks show the caller's registered name."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the product over time."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ad slots that actually get an ad sold into them."
+      }
+    ],
+    "assumptions": [
+      "India's share of users (70% or more) is estimated from older Truecaller disclosures.",
+      "Premium prices in India are approximate ranges; exact prices vary by offer.",
+      "The North Star metric is our choice, not one Truecaller reports.",
+      "Revenue per user is our calculation from reported totals, using rough exchange rates."
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+ "company": "Auto Trader",
+ "domain": "autotrader.co.uk",
+ "website": "https://autotrader.co.uk",
+ "sources": [
+  "https://www.am-online.com/news/autotrader-sees-profit-and-revenue-drop-despite-some-dealers-returning",
+  "https://www.investegate.co.uk/announcement/rns/autotrader-group-plc--auto/half-year-results/9859158",
+  "https://plc.autotrader.co.uk/media/usjleen0/full-year-press-release-fy26.pdf",
+  "https://www.ajbell.co.uk/news/articles/autotrader-shares-slide-after-interim-profit-declines",
+  "https://www.hl.co.uk/shares/stock-market-news/company--news/autotrader-posts-dip-in-h1-profit,-revenue"
+ ],
+ "report": {
+  "company": "Auto Trader",
+  "tagline": "The UK's largest website and app for buying and selling new and used cars, where car dealers pay a monthly fee to list their stock.",
+  "category": "Car marketplace",
+  "simpleSummary": "Auto Trader is where most people in the UK go to look for a car. You search by make, budget and distance, see hundreds of thousands of cars from dealers and private sellers, and contact the seller. Dealers pay Auto Trader a monthly subscription, about £3,000 on average, to put their cars in front of buyers. It started as a printed magazine in 1977, went fully online in 2013, and is now one of the most profitable companies on the London Stock Exchange.",
+  "keyNumbers": [
+   {"label": "Revenue, April to September 2026", "value": "£313.4 million, down 1%", "note": "Auto Trader half-year results, November 2026. Excluding vehicle sales, revenue was flat at £301.8 million."},
+   {"label": "Operating profit, H1 FY27", "value": "£198.5 million, an operating margin of about 63%", "note": "Company results; margin is our calculation from reported figures."},
+   {"label": "Retailer forecourts", "value": "13,900 at end of September 2026 (average 13,762 in the half, down from 14,080)", "note": "Company results."},
+   {"label": "Average revenue per retailer (ARPR)", "value": "£3,037 per month, up 1%", "note": "Company results. ARPR is the average monthly amount each dealer forecourt pays."},
+   {"label": "Lead over rivals", "value": "Buyers spend about 12 times more time on Auto Trader than on its nearest competitor", "note": "Company figure, November 2026, up from 9 times a year earlier."},
+   {"label": "Deal Builder adoption", "value": "About 9,300 dealers, up from about 4,000 a year earlier", "note": "Company results. Deal Builder lets buyers start a car purchase online."}
+  ],
+  "overview": {
+   "whatItDoes": "Auto Trader runs a two-sided marketplace: car buyers search for free, and car sellers, mostly dealers, pay to list. It also sells dealers software and data tools, like pricing guidance and stock management, and earns from carmakers' ads and from leasing through Vanarama. It is led by CEO Nathan Coe and listed on the London Stock Exchange.",
+   "howItWorks": [
+    "Dealers pay a monthly subscription based on how many cars they list and which package they choose.",
+    "Buyers search for free and see a price indicator ('Great price', 'Good price') based on Auto Trader's valuation data.",
+    "Buyers contact dealers, book test drives or use Deal Builder to reserve a car, value a part-exchange and arrange finance online.",
+    "Private sellers pay a one-off fee to list their car.",
+    "Dealers use Auto Trader's Portal software to price, manage and advertise stock.",
+    "Carmakers and finance companies pay for display ads and leads."
+   ],
+   "valueProposition": "For buyers: the biggest choice of cars in one place with fair-price guidance. For dealers: the most car buyers in the UK, so it is the one place they must list."
+  },
+  "personas": [
+   {
+    "name": "Used car buyer",
+    "description": "A 35-year-old in Manchester looking for a reliable family car around £12,000.",
+    "goals": ["Fair price", "Big choice nearby", "Trust the dealer and the car's history"],
+    "frustrations": ["Listings already sold", "Dealers slow to reply"]
+   },
+   {
+    "name": "Independent car dealer",
+    "description": "A small dealer with 40 cars on the forecourt.",
+    "goals": ["Sell cars quickly", "Get good leads", "Control costs"],
+    "frustrations": ["Monthly fees rising each year", "Forced product changes like Deal Builder"]
+   },
+   {
+    "name": "Private seller",
+    "description": "Someone selling their own car for the first time.",
+    "goals": ["Get a good price", "Reach many buyers", "Avoid scams"],
+    "frustrations": ["Listing fee", "Time-wasters and scam messages"]
+   },
+   {
+    "name": "Franchise dealer group manager",
+    "description": "Manages 20 forecourts for a big dealer group.",
+    "goals": ["Data to price stock right", "Lower cost per sale"],
+    "frustrations": ["High total spend on Auto Trader", "Little leverage on price"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Not knowing if a car's price is fair", "howSolved": "Price indicators based on market data from millions of listings.", "severity": "high"},
+   {"pain": "Visiting many forecourts to find the right car", "howSolved": "Search all UK dealers by make, budget, distance and features in one place.", "severity": "high"},
+   {"pain": "Dealers struggling to reach buyers", "howSolved": "Auto Trader has the biggest audience by far.", "severity": "high"},
+   {"pain": "Dealers pricing stock poorly", "howSolved": "Retail Check and pricing tools show market value and days to sell.", "severity": "medium"},
+   {"pain": "Slow, paper-heavy buying at the dealership", "howSolved": "Deal Builder lets buyers reserve, value part-exchange and apply for finance online.", "severity": "medium"},
+   {"pain": "Private sellers unsure how to price", "howSolved": "Free valuation tool.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "Car search and listings", "whatItDoes": "Search hundreds of thousands of cars with filters.", "whyItMatters": "The core product; biggest choice attracts buyers."},
+   {"feature": "Price indicator", "whatItDoes": "Labels each car from 'Great price' to 'Higher price'.", "whyItMatters": "Builds buyer trust and nudges dealers to price fairly."},
+   {"feature": "Deal Builder", "whatItDoes": "Online reservation, part-exchange and finance.", "whyItMatters": "Moves Auto Trader from ads to helping complete sales, raising value to dealers."},
+   {"feature": "Portal and Autotrader Intelligence", "whatItDoes": "Dealer software with 57 AI models for pricing, stock and leads.", "whyItMatters": "Makes dealers depend on Auto Trader for daily operations."},
+   {"feature": "Valuations", "whatItDoes": "Free car valuations for owners and sellers.", "whyItMatters": "Brings people in early and creates seller leads."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Buying a used car",
+    "persona": "Used car buyer",
+    "steps": [
+     {"step": "Search", "detail": "Enters budget £12,000, within 30 miles."},
+     {"step": "Filter", "detail": "Picks SUV, under 50,000 miles."},
+     {"step": "Compare", "detail": "Looks at price indicators and dealer reviews."},
+     {"step": "Contact", "detail": "Messages the dealer or uses Deal Builder."},
+     {"step": "Part-exchange", "detail": "Gets an online valuation for their old car."},
+     {"step": "Test drive", "detail": "Visits the dealer."},
+     {"step": "Buy", "detail": "Completes finance and collects the car."}
+    ]
+   },
+   {
+    "name": "Dealer listing stock",
+    "persona": "Independent car dealer",
+    "steps": [
+     {"step": "Buy a car at auction", "detail": "Checks retail value on Auto Trader first."},
+     {"step": "List", "detail": "Uploads photos and details via Portal."},
+     {"step": "Price", "detail": "Uses pricing tools to set a 'Good price'."},
+     {"step": "Get leads", "detail": "Receives calls, messages and Deal Builder reservations."},
+     {"step": "Sell", "detail": "Marks car sold and lists the next one."}
+    ]
+   },
+   {
+    "name": "Private sale",
+    "persona": "Private seller",
+    "steps": [
+     {"step": "Value", "detail": "Gets a free valuation."},
+     {"step": "Choose package", "detail": "Pays to list for a set period."},
+     {"step": "Add photos", "detail": "Uploads pictures and description."},
+     {"step": "Talk to buyers", "detail": "Handles messages and calls."},
+     {"step": "Sell", "detail": "Meets buyer and completes sale."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Auto Trader earns mostly from monthly dealer subscriptions. It raises revenue each year by adding products, raising prices and getting dealers to buy higher packages. Because it is mostly software, almost two-thirds of revenue is profit.",
+   "revenueStreams": [
+    {"stream": "Retailer subscriptions", "detail": "About £3,037 per forecourt per month across about 13,900 forecourts."},
+    {"stream": "Consumer services", "detail": "Private seller listing fees and finance or insurance referrals."},
+    {"stream": "Manufacturer and agency ads", "detail": "Carmakers pay for display ads."},
+    {"stream": "Leasing (Vanarama/Autorama)", "detail": "New car and van leasing; vehicle sales here fell 30%."}
+   ],
+   "pricing": "Dealers pay monthly packages based on stock levels and product tier (not fully public); average about £3,037 per forecourt per month. Private sellers pay a one-off listing fee, typically from around £10 to £40 depending on package and car value. Buyers use it free.",
+   "costDrivers": [
+    "Staff, especially engineers and data scientists",
+    "Marketing to keep buyers coming",
+    "Technology and cloud",
+    "Leasing business costs"
+   ],
+   "unitEconomics": "One dealer forecourt pays about £3,037 a month, or about £36,000 a year. Auto Trader keeps about 63% as operating profit, so roughly £23,000 per forecourt per year. Serving one more dealer costs very little because the website and audience already exist. For a dealer selling 20 cars a month, that is about £150 per car sold, which is why most still pay despite complaints."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Brand known since 1977 and top search results for car searches",
+    "Free valuations",
+    "TV and online ads",
+    "Network effect: most cars bring most buyers"
+   ],
+   "whatBringsUsersBack": [
+    "Dealers need a steady flow of leads every month",
+    "Buyers come back when changing cars every few years",
+    "Dealer software built into daily work"
+   ],
+   "moat": "Auto Trader has a powerful network effect: it has the most cars, so most buyers go there, so dealers must list there. Buyers spend 12 times more time on it than the next rival. Its price data from millions of listings is also hard to copy."
+  },
+  "competitors": [
+   {"name": "Motors.co.uk", "positioning": "Cheaper listings site for UK dealers.", "howThisProductDiffers": "Auto Trader has far more buyers and better data."},
+   {"name": "CarGurus UK", "positioning": "US-based marketplace with price ratings.", "howThisProductDiffers": "Auto Trader is much larger in the UK."},
+   {"name": "Carwow and Cinch", "positioning": "Online buying platforms and deal marketplaces.", "howThisProductDiffers": "Auto Trader is a listings marketplace adding online buying through Deal Builder."},
+   {"name": "Facebook Marketplace and eBay", "positioning": "Free or cheap private listings.", "howThisProductDiffers": "Auto Trader is trusted and dealer-focused."},
+   {"name": "Cars24 (India, for comparison)", "positioning": "Buys and sells used cars itself.", "howThisProductDiffers": "Auto Trader does not own cars; it charges dealers to list, so it carries no stock risk."}
+  ],
+  "northStar": {
+   "metric": "Cars sold through leads from Auto Trader per month",
+   "why": "Buyers want the right car, dealers want sales. Sales from Auto Trader leads prove value to both sides."
+  },
+  "kpiTree": [
+   {
+    "metric": "Buyer audience",
+    "description": "How many buyers visit and engage.",
+    "children": [
+     {"metric": "Monthly visits", "description": "Size of audience."},
+     {"metric": "Minutes spent vs rivals", "description": "Shows lead over competitors."}
+    ]
+   },
+   {
+    "metric": "Stock listed",
+    "description": "Cars available.",
+    "children": [
+     {"metric": "Active forecourts", "description": "Dealers listing cars."},
+     {"metric": "Cars listed per forecourt", "description": "More stock means more choice."}
+    ]
+   },
+   {
+    "metric": "Lead quality",
+    "description": "How many contacts lead to sales.",
+    "children": [
+     {"metric": "Deal Builder reservations", "description": "Strong signals of buying intent."},
+     {"metric": "Lead to sale rate", "description": "Shows value to dealers."}
+    ]
+   },
+   {
+    "metric": "Dealer value",
+    "description": "How much dealers get and pay.",
+    "children": [
+     {"metric": "ARPR", "description": "Average monthly revenue per forecourt."},
+     {"metric": "Dealer churn", "description": "Dealers leaving the platform."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Dealer churn",
+   "Buyer satisfaction with listings accuracy",
+   "Share of listings priced fairly"
+  ],
+  "strengths": [
+   "Dominant UK marketplace with huge lead over rivals",
+   "Very high profit margins (about 63%)",
+   "Strong data on car prices",
+   "Moved early from print to digital"
+  ],
+  "weaknesses": [
+   "Revenue flat; growth depends on raising dealer prices",
+   "Dealer anger at price rises and Deal Builder push",
+   "Leasing business shrinking"
+  ],
+  "risks": [
+   "Dealers organising to leave or shift to cheaper sites",
+   "Regulators looking at market power",
+   "AI search changing how buyers find cars",
+   "Weak used car market"
+  ],
+  "userComplaints": [
+   "Dealers say fees rise every year",
+   "Dealers disliked being pushed onto Deal Builder",
+   "Buyers see cars already sold",
+   "Scams in private listings",
+   "Slow dealer replies"
+  ],
+  "improvementIdeas": [
+   {"idea": "Real-time sold status sync with dealer systems", "problem": "Buyers see sold cars.", "expectedImpact": "Better buyer trust.", "metricToTrack": "Share of leads on unavailable cars", "effort": "medium"},
+   {"idea": "Show dealers a monthly ROI report", "problem": "Dealers doubt the value of rising fees.", "expectedImpact": "Lower churn.", "metricToTrack": "Dealer churn rate", "effort": "low"},
+   {"idea": "Verified seller badges and safe messaging for private sales", "problem": "Scams.", "expectedImpact": "Fewer scam complaints.", "metricToTrack": "Scam reports per 10,000 listings", "effort": "medium"},
+   {"idea": "Dealer response time ranking", "problem": "Slow dealer replies frustrate buyers.", "expectedImpact": "Faster replies and more sales.", "metricToTrack": "Average dealer response time", "effort": "low"}
+  ],
+  "pmLessons": [
+   "Moving early from print to digital let Auto Trader keep its leadership.",
+   "Network effects give pricing power, but pushing too hard angers customers.",
+   "Software margins can be very high when your marketplace is the default choice.",
+   "Adding transaction tools (Deal Builder) can deepen value but needs careful rollout."
+  ],
+  "interviewQuestions": [
+   {"question": "How would you grow Auto Trader's revenue without raising dealer prices?", "hint": "New products, consumer services, finance, ads. Measure ARPR and churn."},
+   {"question": "Dealers are angry about Deal Builder. What do you do?", "hint": "Listen, show data on sales, offer opt-in steps. Track adoption and churn."},
+   {"question": "Compare Auto Trader with Cars24.", "hint": "Marketplace vs owning stock. Margins, risk, customer experience."},
+   {"question": "How would you use AI on Auto Trader?", "hint": "Smart search, pricing, lead scoring. Metrics: lead to sale rate."},
+   {"question": "Pick a north star metric.", "hint": "Cars sold via Auto Trader leads. Break into audience, stock, lead quality and dealer value."}
+  ],
+  "glossary": [
+   {"term": "two-sided marketplace", "meaning": "A platform with two groups that need each other, here buyers and sellers."},
+   {"term": "marketplace", "meaning": "A platform that connects buyers and sellers."},
+   {"term": "ARPR", "meaning": "Average revenue per retailer: the average monthly amount each dealer forecourt pays."},
+   {"term": "forecourt", "meaning": "A car dealer's sales site."},
+   {"term": "operating margin", "meaning": "The share of revenue left as profit after running costs."},
+   {"term": "network effect", "meaning": "When a product becomes more valuable as more people use it."},
+   {"term": "churn", "meaning": "The share of customers who stop using a product in a period."},
+   {"term": "ROI", "meaning": "Return on investment: how much you get back for what you spend."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Private seller fee range is approximate.",
+   "Per-car cost for dealers is our estimate.",
+   "Operating margin is calculated from reported figures."
+  ]
+ }
+}

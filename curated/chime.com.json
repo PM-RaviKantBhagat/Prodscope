@@ -1,0 +1,516 @@
+{
+  "company": "Chime",
+  "domain": "chime.com",
+  "website": "https://chime.com",
+  "sources": [
+    "https://www.stocktitan.net/sec-filings/CHYM/8-k-chime-financial-inc-reports-material-event-671e035ec71b.html",
+    "https://finviz.com/news/416443/chime-matches-the-whisper-as-revenue-growth-accelerates-to-32-and-guidance-rises-a-fourth-straight-time",
+    "https://247wallst.com/cards/chime-financial-q3-2026-earnings-chym-01m6m94zb3mqcp3v2s1t3wjxy9",
+    "https://www.americanbanker.com/news/chime-raises-revenue-forecast-after-q3-earnings-report",
+    "https://www.chime.com/newsroom/chime-reports-third-quarter-2026-financial-results/",
+    "https://www.sec.gov/Archives/edgar/data/1795586/000179558625000015/ex991q325.htm"
+  ],
+  "report": {
+    "company": "Chime",
+    "tagline": "America's largest app-only bank brand, offering fee-free checking, early paychecks and small fee-free overdrafts to everyday workers.",
+    "category": "App-only bank",
+    "simpleSummary": "Chime is a bank account that lives on your phone. There are no monthly fees or overdraft fees, and your paycheck can arrive up to two days early. If you run short, SpotMe covers you for up to $200 without a fee, and MyPay lets you get part of your pay before payday. Chime makes most of its money when you swipe its debit card, because stores pay a small fee on each swipe.",
+    "keyNumbers": [
+      {
+        "label": "Revenue growth, Q3 2026",
+        "value": "32% year on year",
+        "note": "Chime Q3 2026 results reported by Finviz and Stock Titan, November 2026. Growth sped up from the prior quarter."
+      },
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "About $720 million (estimate)",
+        "note": "Our estimate: Q3 2025 revenue of about $544 million grown by the reported 32%. Check Chime's release for the exact figure."
+      },
+      {
+        "label": "Profit, Q3 2026",
+        "value": "GAAP profit, third quarter in a row",
+        "note": "247 Wall St and Stock Titan, November 2026. A year earlier Chime lost $54.7 million. Lending (MyPay) drove the jump."
+      },
+      {
+        "label": "Active members",
+        "value": "About 10 to 11 million (estimate)",
+        "note": "Chime had about 9.1 million active members in Q3 2025. Our estimate assumes similar growth; weak estimate."
+      },
+      {
+        "label": "Stock listing",
+        "value": "June 2025, Nasdaq (CHYM)",
+        "note": "IPO priced at $27 a share, valuing Chime at about $11.6 billion at the time."
+      },
+      {
+        "label": "Guidance",
+        "value": "Raised four quarters in a row",
+        "note": "Finviz and American Banker, November 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Chime offers checking and savings accounts, a Visa debit card, a secured credit card to build credit (Credit Builder), fee-free overdraft (SpotMe) and pay advances (MyPay). It is not itself a bank; accounts are held at partner banks like The Bancorp and Stride Bank. It serves people earning under about $100,000 who are tired of bank fees.",
+      "howItWorks": [
+        "You open an account in the app in minutes with no minimum balance and no credit check.",
+        "You set up direct deposit, and your paycheck can arrive up to two days early.",
+        "You spend with the Chime Visa debit card; the store's bank pays a small interchange fee that goes mostly to Chime.",
+        "SpotMe lets eligible members overdraw up to $200 with no fee.",
+        "MyPay gives up to $500 of earned pay before payday: free if you wait about a day, small fee for instant.",
+        "Members with bigger deposits join tiers like Chime Plus and Prime for cash back and higher savings rates."
+      ],
+      "valueProposition": "For members: a bank that does not punish you with fees when money is tight. For Chime: millions of members swiping their debit card for everyday spending, which earns interchange."
+    },
+    "personas": [
+      {
+        "name": "Paycheck-to-paycheck worker",
+        "description": "A 32-year-old retail worker in Florida earning $40,000.",
+        "goals": [
+          "Avoid overdraft fees",
+          "Get paid early",
+          "Cover small gaps before payday"
+        ],
+        "frustrations": [
+          "Account holds and closures",
+          "No branches for cash deposits"
+        ]
+      },
+      {
+        "name": "Credit builder",
+        "description": "A 23-year-old with no credit history.",
+        "goals": [
+          "Build a credit score safely"
+        ],
+        "frustrations": [
+          "Credit cards with high fees or deposits"
+        ]
+      },
+      {
+        "name": "Gig worker",
+        "description": "A DoorDash and Uber driver paid weekly.",
+        "goals": [
+          "Fast access to earnings",
+          "Simple budgeting"
+        ],
+        "frustrations": [
+          "Irregular income and support delays"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Banks charge $35 overdraft fees and monthly fees.",
+        "howSolved": "No monthly fees and SpotMe overdraft without fees.",
+        "severity": "high"
+      },
+      {
+        "pain": "Waiting for payday.",
+        "howSolved": "Early paycheck and MyPay advances.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to build credit.",
+        "howSolved": "Credit Builder secured card with no annual fee or interest.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Minimum balance rules.",
+        "howSolved": "No minimum balance.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Savings earn little.",
+        "howSolved": "High-yield savings for tier members.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Fee-free checking and debit card",
+        "whatItDoes": "Account with no monthly fees and a Visa debit card.",
+        "whyItMatters": "The core product and the main source of revenue through interchange."
+      },
+      {
+        "feature": "Early direct deposit",
+        "whatItDoes": "Paycheck up to two days early.",
+        "whyItMatters": "Makes members move their paycheck, so Chime becomes their main account."
+      },
+      {
+        "feature": "SpotMe",
+        "whatItDoes": "Fee-free overdraft up to $200.",
+        "whyItMatters": "Big reason members love Chime; users can tip."
+      },
+      {
+        "feature": "MyPay",
+        "whatItDoes": "Access up to $500 of pay before payday.",
+        "whyItMatters": "Fast-growing revenue and a reason profits turned positive."
+      },
+      {
+        "feature": "Credit Builder",
+        "whatItDoes": "Secured card that reports to credit bureaus.",
+        "whyItMatters": "Builds loyalty and spending."
+      },
+      {
+        "feature": "Chime Plus and Prime tiers",
+        "whatItDoes": "Up to 5% cash back and higher savings rates for bigger depositors.",
+        "whyItMatters": "Rewards members who bring more money."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Switching paycheck to Chime",
+        "persona": "Paycheck-to-paycheck worker",
+        "steps": [
+          {
+            "step": "Sees ad",
+            "detail": "TV or social ad about no overdraft fees."
+          },
+          {
+            "step": "Opens account",
+            "detail": "Signs up in five minutes."
+          },
+          {
+            "step": "Sets direct deposit",
+            "detail": "Gives employer Chime details."
+          },
+          {
+            "step": "Paid early",
+            "detail": "Paycheck lands two days early."
+          },
+          {
+            "step": "Unlocks SpotMe",
+            "detail": "Gets $20 limit that grows over time."
+          },
+          {
+            "step": "Daily spending",
+            "detail": "Uses Chime card for groceries and gas."
+          }
+        ]
+      },
+      {
+        "name": "Using MyPay",
+        "persona": "Gig worker",
+        "steps": [
+          {
+            "step": "Runs short",
+            "detail": "Needs $150 for car repair."
+          },
+          {
+            "step": "Opens MyPay",
+            "detail": "Sees available amount."
+          },
+          {
+            "step": "Chooses speed",
+            "detail": "Instant for a small fee or free next day."
+          },
+          {
+            "step": "Gets money",
+            "detail": "Funds arrive."
+          },
+          {
+            "step": "Repays",
+            "detail": "Auto-repaid from next paycheck."
+          }
+        ]
+      },
+      {
+        "name": "Building credit",
+        "persona": "Credit builder",
+        "steps": [
+          {
+            "step": "Opens Credit Builder",
+            "detail": "No credit check."
+          },
+          {
+            "step": "Moves money",
+            "detail": "Puts $200 into the secured account."
+          },
+          {
+            "step": "Spends",
+            "detail": "Uses card for bills."
+          },
+          {
+            "step": "Pays",
+            "detail": "Balance paid automatically."
+          },
+          {
+            "step": "Score grows",
+            "detail": "Sees credit score rise in a few months."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Chime gives banking for free and earns mostly from interchange on debit card swipes, plus fees from instant MyPay advances and other services.",
+      "revenueStreams": [
+        {
+          "stream": "Interchange",
+          "detail": "Fees paid by stores on debit and Credit Builder card swipes; the largest part of revenue."
+        },
+        {
+          "stream": "MyPay fees",
+          "detail": "Small fee for instant pay advances; growing fast."
+        },
+        {
+          "stream": "Out-of-network ATM and other fees",
+          "detail": "Fees for some ATM use and cash deposits at retailers."
+        },
+        {
+          "stream": "Interest and tiers",
+          "detail": "Interest from partner banks and value from premium tiers."
+        },
+        {
+          "stream": "Chime Workplace",
+          "detail": "Services for employers offering Chime to workers."
+        }
+      ],
+      "pricing": "Checking and savings: no monthly fees, no minimum balance. SpotMe: free (optional tips). MyPay: free with about a 24-hour wait, small fee (a few dollars) for instant. Out-of-network ATM: about $2.50. Chime Plus and Prime: free tiers based on direct deposit amount.",
+      "costDrivers": [
+        "Marketing to win members",
+        "Partner bank fees and card processing",
+        "Fraud and losses on SpotMe and MyPay",
+        "Customer support",
+        "Technology and staff"
+      ],
+      "unitEconomics": "Chime's average revenue per active member was about $250 a year in 2025. Most of that is interchange: a member who spends $1,500 a month on the debit card earns Chime about $20 to $25 a month, because small partner banks can charge higher swipe fees than big banks. Each member costs a few hundred dollars to win through ads, so Chime needs members to stay for a few years and move their paycheck in."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TV, sports and social ads about no fees",
+        "Referrals with cash bonuses",
+        "Employer partnerships (Chime Workplace)",
+        "Word of mouth among workers"
+      ],
+      "whatBringsUsersBack": [
+        "Paycheck deposits",
+        "Daily card use",
+        "SpotMe limits that grow with use",
+        "MyPay when money is tight"
+      ],
+      "moat": "Chime's moat is its brand of 'no fees' with everyday workers, plus deposit data that lets it offer SpotMe and MyPay safely. Moving a paycheck is a hassle, so members who switch tend to stay."
+    },
+    "competitors": [
+      {
+        "name": "Cash App",
+        "positioning": "Block's money app with peer payments, banking and Bitcoin.",
+        "howThisProductDiffers": "Chime is a focused bank account; Cash App started with peer payments."
+      },
+      {
+        "name": "Big banks (Chase, Bank of America, Wells Fargo)",
+        "positioning": "Full-service banks with branches.",
+        "howThisProductDiffers": "Chime has no overdraft or monthly fees, but no branches."
+      },
+      {
+        "name": "Varo, Current, SoFi",
+        "positioning": "Other app-based banks.",
+        "howThisProductDiffers": "Chime has the most members and brand awareness."
+      },
+      {
+        "name": "Monzo (UK)",
+        "positioning": "UK app bank with a broad base and paid plans.",
+        "howThisProductDiffers": "Chime focuses on lower-income US workers and makes money mostly from interchange; Monzo has paid subscriptions and lending."
+      },
+      {
+        "name": "Earned wage apps (DailyPay, EarnIn)",
+        "positioning": "Pay advance apps.",
+        "howThisProductDiffers": "Chime bundles advances with a full account."
+      }
+    ],
+    "northStar": {
+      "metric": "Active members with direct deposit into Chime",
+      "why": "These members use Chime as their main bank, which means real everyday value and most of Chime's revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "New members",
+        "description": "People who open and fund an account.",
+        "children": [
+          {
+            "metric": "CAC",
+            "description": "Ad spend per new member."
+          },
+          {
+            "metric": "Referral share",
+            "description": "Members from referrals."
+          }
+        ]
+      },
+      {
+        "metric": "Direct deposit adoption",
+        "description": "Members who move their paycheck.",
+        "children": [
+          {
+            "metric": "Time to first deposit",
+            "description": "Days from signup to first paycheck."
+          },
+          {
+            "metric": "Tier upgrades",
+            "description": "Members reaching Plus or Prime."
+          }
+        ]
+      },
+      {
+        "metric": "Card spending per member",
+        "description": "Debit and Credit Builder spending.",
+        "children": [
+          {
+            "metric": "Monthly purchase volume",
+            "description": "Dollars spent on Chime cards."
+          },
+          {
+            "metric": "Cash back usage",
+            "description": "Members earning cash back."
+          }
+        ]
+      },
+      {
+        "metric": "Retention",
+        "description": "Members still active after 12 months.",
+        "children": [
+          {
+            "metric": "SpotMe use",
+            "description": "Members using overdraft safety."
+          },
+          {
+            "metric": "Support satisfaction",
+            "description": "Members happy after contacting support."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loss rate on SpotMe and MyPay",
+      "Wrongful account closures",
+      "Regulatory complaints",
+      "Fees as a share of member income"
+    ],
+    "strengths": [
+      "Strong brand with lower-income US workers",
+      "Now profitable, with revenue growth accelerating to 32%",
+      "Members who move paychecks tend to stay",
+      "Products like SpotMe and MyPay that members love"
+    ],
+    "weaknesses": [
+      "Heavy reliance on interchange",
+      "No branches or easy cash deposits",
+      "Past problems with account closures and support",
+      "Depends on partner banks"
+    ],
+    "risks": [
+      "Rules capping debit swipe fees for smaller banks",
+      "Regulation of earned wage access",
+      "Competition from Cash App, SoFi and big banks cutting fees",
+      "Recession increasing losses"
+    ],
+    "userComplaints": [
+      "Accounts frozen or closed with funds held",
+      "Hard to reach support",
+      "Cash deposits cost a fee at retailers",
+      "SpotMe limits feel too low at first"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear account review status and timeline in app",
+        "problem": "Frozen accounts with no explanation.",
+        "expectedImpact": "Fewer complaints and churn.",
+        "metricToTrack": "Time to resolve account holds",
+        "effort": "medium"
+      },
+      {
+        "idea": "Budget and bill calendar showing money left until payday",
+        "problem": "Members live paycheck to paycheck.",
+        "expectedImpact": "Fewer overdrafts, more trust.",
+        "metricToTrack": "Share of members using SpotMe each month",
+        "effort": "low"
+      },
+      {
+        "idea": "Free cash deposits at partner retailers for Prime members",
+        "problem": "Gig and cash workers pay to deposit.",
+        "expectedImpact": "More deposits and tier upgrades.",
+        "metricToTrack": "Cash deposit volume",
+        "effort": "medium"
+      },
+      {
+        "idea": "Faster SpotMe limit growth for members with steady deposits",
+        "problem": "Low early limits.",
+        "expectedImpact": "Higher satisfaction and retention.",
+        "metricToTrack": "12-month retention",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Removing a hated fee can be the whole brand: 'no overdraft fees' built Chime.",
+      "Free products still need a money engine; for Chime it is interchange on card swipes.",
+      "Getting a user's paycheck is the most valuable step in banking.",
+      "Lending products like MyPay can turn a loss-making fintech profitable, but need careful risk control."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How does Chime make money if it has no fees?",
+        "hint": "Explain interchange, why small banks earn more per swipe, and MyPay fees."
+      },
+      {
+        "question": "How would you get more members to set up direct deposit?",
+        "hint": "Map the funnel, reduce friction, add rewards, measure time to first deposit."
+      },
+      {
+        "question": "Compare Chime with Monzo.",
+        "hint": "Users, revenue model, regulation, paid plans, and how each wins trust."
+      },
+      {
+        "question": "What risks does Chime face if swipe fee rules change?",
+        "hint": "Size interchange share, model impact, propose new revenue lines."
+      },
+      {
+        "question": "Set a north star metric for Chime.",
+        "hint": "Active members with direct deposit; break down drivers."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Interchange",
+        "meaning": "A fee the store's bank pays the card issuer each time a card is used."
+      },
+      {
+        "term": "Direct deposit",
+        "meaning": "When your employer pays your salary straight into an account."
+      },
+      {
+        "term": "Earned wage access",
+        "meaning": "Getting part of the pay you have already earned before payday."
+      },
+      {
+        "term": "Overdraft",
+        "meaning": "Spending more than you have in your account."
+      },
+      {
+        "term": "Secured card",
+        "meaning": "A credit card backed by your own deposit, used to build credit."
+      },
+      {
+        "term": "CAC",
+        "meaning": "Customer acquisition cost, the cost to win one new customer."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using a product."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Customers who stop using a product."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      }
+    ],
+    "assumptions": [
+      "Q3 2026 revenue of about $720 million is calculated from Q3 2025 revenue and the reported 32% growth.",
+      "Active members for 2026 are estimated from 2025 levels.",
+      "The interchange earnings per member example is approximate.",
+      "MyPay instant fees vary and may change."
+    ]
+  }
+}

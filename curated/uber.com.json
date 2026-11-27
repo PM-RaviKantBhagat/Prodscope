@@ -1,0 +1,266 @@
+{
+ "company": "Uber",
+ "domain": "uber.com",
+ "website": "https://uber.com",
+ "sources": [
+  "https://www.securities.io/uber-third-quarter-revenue-rises-10-as-bookings-grow-20/",
+  "https://finviz.com/news/415280/uber-announces-results-for-third-quarter-2026",
+  "https://www.sec.gov/Archives/edgar/data/0001543151/000154315126000041/uber-20260930.htm",
+  "https://stocktwits.com/news-articles/markets/equity/uber-delivers-solid-earnings-but-tepid-q4-guidance-sends-stock-lower/cL28OsbR365",
+  "https://fortune.com/company/uber-technologies/earnings/q3-2026/"
+ ],
+ "report": {
+  "company": "Uber",
+  "tagline": "A global app to book rides, order food and groceries, and ship freight, connecting riders and eaters with independent drivers and couriers.",
+  "category": "Mobility / delivery",
+  "simpleSummary": "You open Uber, type where you want to go, see the price, and a nearby driver picks you up in a few minutes. The same app lets you order food and groceries through Uber Eats. Uber does not own the cars; drivers use their own and Uber takes a cut of each fare. A monthly membership, Uber One, gives discounts on both rides and delivery, and Uber is now adding driverless cars from partners like Waymo.",
+  "keyNumbers": [
+   {"label": "Gross bookings, July to September 2026", "value": "$59.8 billion, up 20% (rides $29.5B, delivery $28.5B, freight $1.8B)", "note": "Uber Q3 2026 results, November 2026."},
+   {"label": "Revenue, Q3 2026", "value": "$14.8 billion, up 10%", "note": "Company results. Revenue grew slower than bookings because of business model changes in some countries, which cut growth by 8 points."},
+   {"label": "Monthly active platform consumers", "value": "215 million, up 14%", "note": "Company results, Q3 2026."},
+   {"label": "Trips, Q3 2026", "value": "4.06 billion, up 16% (about 44 million a day)", "note": "Company results. Daily figure is our simple average."},
+   {"label": "Profit, Q3 2026", "value": "Non-GAAP operating income $2.3 billion (3.9% of bookings); free cash flow $2.5 billion", "note": "Company results. Reported net income was $512 million because of investment revaluation losses."},
+   {"label": "Driverless cars on Uber", "value": "About 700 by end of 2026, over 2,000 expected in 2027", "note": "CEO comments on Q3 2026 earnings call."}
+  ],
+  "overview": {
+   "whatItDoes": "Uber runs a marketplace that matches people who need a ride or delivery with drivers and couriers who want to earn. It started in San Francisco in 2009 and now operates in about 70 countries. It makes money by keeping a share of each fare or order, plus fees from restaurants, ads and Uber One memberships. Its CEO is Dara Khosrowshahi.",
+   "howItWorks": [
+    "A rider enters a destination and sees an upfront price, set by distance, time and demand.",
+    "When demand is higher than nearby drivers, surge pricing raises the fare to attract more drivers and calm demand.",
+    "Uber matches the rider with the nearest available driver; the driver accepts and drives in their own car.",
+    "Payment is charged in the app; Uber keeps a share and pays the driver weekly or instantly.",
+    "Uber Eats works the same way with restaurants and stores, and couriers deliver.",
+    "In some cities, robotaxis from partners like Waymo and WeRide take rides booked in the Uber app."
+   ],
+   "valueProposition": "A ride or delivery anywhere in minutes with a known price, and flexible earnings for millions of drivers."
+  },
+  "personas": [
+   {
+    "name": "City commuter without a car",
+    "description": "A 30-year-old in Chicago or London who uses Uber a few times a week.",
+    "goals": ["Reliable pickup in minutes", "Fair, predictable price", "Safety at night"],
+    "frustrations": ["Surge prices at rush hour", "Driver cancellations"]
+   },
+   {
+    "name": "Uber One household",
+    "description": "A family that uses Uber Eats weekly and rides occasionally and pays $9.99 a month for Uber One.",
+    "goals": ["$0 delivery fees", "Discounts on rides"],
+    "frustrations": ["Fees still added on top", "Hard to cancel membership"]
+   },
+   {
+    "name": "Full-time driver",
+    "description": "A driver who works 40+ hours a week on Uber and Lyft.",
+    "goals": ["Steady earnings per hour", "Low dead time between trips"],
+    "frustrations": ["Uber's share of fares", "Deactivations without clear reasons"]
+   },
+   {
+    "name": "Business traveller",
+    "description": "A sales manager who expenses rides through Uber for Business.",
+    "goals": ["Fast airport pickups", "Easy receipts"],
+    "frustrations": ["Long airport waits", "Price swings"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Hard to find a taxi, especially outside the city centre", "howSolved": "Nearby drivers arrive in minutes, tracked on a map.", "severity": "high"},
+   {"pain": "Not knowing the price in advance", "howSolved": "Upfront prices before you book.", "severity": "high"},
+   {"pain": "Paying cash and haggling", "howSolved": "Automatic card or wallet payment in the app.", "severity": "medium"},
+   {"pain": "Not enough drivers at busy times", "howSolved": "Surge pricing pays drivers more to come online.", "severity": "medium"},
+   {"pain": "People wanting flexible work", "howSolved": "Drivers and couriers choose their own hours.", "severity": "high"},
+   {"pain": "Ordering food and groceries from many apps", "howSolved": "Uber Eats inside the same account, with Uber One perks.", "severity": "medium"}
+  ],
+  "coreFeatures": [
+   {"feature": "Upfront and dynamic pricing", "whatItDoes": "Shows a set price before booking that changes with demand.", "whyItMatters": "Balances riders and drivers so pickups stay fast."},
+   {"feature": "Uber One", "whatItDoes": "Membership for $9.99 a month in the US with $0 delivery fees and ride discounts.", "whyItMatters": "Links rides and delivery; members spend far more and churn less."},
+   {"feature": "Uber Eats", "whatItDoes": "Food, grocery and retail delivery.", "whyItMatters": "Almost half of bookings; gives reasons to open the app daily."},
+   {"feature": "Many ride options", "whatItDoes": "UberX, Comfort, Black, XL, Share, Moto and Auto in some countries.", "whyItMatters": "Serves every budget and need from one app."},
+   {"feature": "Autonomous rides", "whatItDoes": "Riders can be matched to driverless cars from partners in some cities.", "whyItMatters": "Uber positions itself as the demand platform for robotaxis instead of building cars."},
+   {"feature": "Safety tools", "whatItDoes": "Trip sharing, emergency button, PIN verification, audio recording.", "whyItMatters": "Trust is required for getting into a stranger's car."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Airport ride",
+    "persona": "Business traveller",
+    "steps": [
+     {"step": "Land", "detail": "Opens Uber at the airport."},
+     {"step": "Choose ride type", "detail": "Picks UberX and sees an upfront price."},
+     {"step": "Match", "detail": "Driver assigned; pickup zone shown."},
+     {"step": "Walk to pickup", "detail": "Follows in-app directions to the rideshare area."},
+     {"step": "Ride", "detail": "Shares trip status with family."},
+     {"step": "Pay and expense", "detail": "Receipt goes to the Uber for Business account."}
+    ]
+   },
+   {
+    "name": "Joining Uber One",
+    "persona": "Uber One household",
+    "steps": [
+     {"step": "See savings", "detail": "Checkout shows how much Uber One would save."},
+     {"step": "Free trial", "detail": "Starts a free month."},
+     {"step": "Use on Eats", "detail": "Orders dinner with $0 delivery."},
+     {"step": "Use on rides", "detail": "Gets Uber credits back on a ride."},
+     {"step": "Renew", "detail": "Keeps it because savings beat the fee."}
+    ]
+   },
+   {
+    "name": "Driver's shift",
+    "persona": "Full-time driver",
+    "steps": [
+     {"step": "Go online", "detail": "Checks surge map and goes to a busy area."},
+     {"step": "Accept trip", "detail": "Sees pickup distance and pay before accepting."},
+     {"step": "Drive and drop off", "detail": "Uses in-app navigation."},
+     {"step": "Rate rider", "detail": "Rates and gets the next trip queued."},
+     {"step": "Cash out", "detail": "Uses Instant Pay to get earnings the same day."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Uber earns a share of every ride and delivery. Riders pay the fare; Uber keeps roughly a quarter to a third after paying drivers (varies by market). Delivery adds restaurant commissions and fees. Ads, Uber One and freight add more.",
+   "revenueStreams": [
+    {"stream": "Mobility", "detail": "Share of ride fares and booking fees; $7.5 billion revenue in Q3 2026."},
+    {"stream": "Delivery", "detail": "Restaurant commissions, customer fees and ads; $5.5 billion in Q3 2026."},
+    {"stream": "Freight", "detail": "Matching truckers with shippers; $1.8 billion in Q3 2026."},
+    {"stream": "Advertising", "detail": "Sponsored listings on Uber Eats and in-ride ads."},
+    {"stream": "Uber One", "detail": "$9.99 a month or $96 a year in the US."}
+   ],
+   "pricing": "Upfront prices that change with distance, time and demand. Uber One costs $9.99 a month in the US. Restaurants pay commission tiers of roughly 15% to 30%. Prices vary by country.",
+   "costDrivers": [
+    "Driver and courier incentives",
+    "Insurance for rides",
+    "Promotions and marketing",
+    "Technology and safety teams",
+    "Legal and regulatory costs, including driver classification",
+    "Investment in autonomous partnerships"
+   ],
+   "unitEconomics": "On a $25 US ride, Uber might keep about $6 to $7 after paying the driver (estimate), from which it pays insurance, payment processing, support and marketing. Company-wide, Uber keeps about 3.9% of gross bookings as operating profit, so roughly $1 profit on that ride. On a $40 Eats order, its cut is lower, but ads and Uber One improve the margin. Profit grows as each driver gets more trips per hour."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Brand recognition: 'Uber' is a verb in many countries",
+    "Referral credits for riders and bonuses for new drivers",
+    "Uber One bundles with partners",
+    "Launching in new cities and adding new products like Moto and Auto in India"
+   ],
+   "whatBringsUsersBack": [
+    "Habit for commutes and nights out",
+    "Uber One savings across rides and food",
+    "Saved places and payment",
+    "Reliability of short wait times"
+   ],
+   "moat": "Uber has a network effect in each city: more riders keep drivers busy, which lowers wait times, which brings more riders. Being in about 70 countries with both rides and delivery lets drivers switch between the two, keeping them busy. Robotaxi companies partner with Uber because it already has the riders."
+  },
+  "competitors": [
+   {"name": "Lyft", "positioning": "Number two in US ride-hailing, rides only.", "howThisProductDiffers": "Uber is global and adds delivery and Uber One."},
+   {"name": "DoorDash", "positioning": "US delivery leader, buying Instacart.", "howThisProductDiffers": "Uber Eats is number two in US delivery but bundles with rides."},
+   {"name": "Waymo (own app)", "positioning": "Robotaxi leader running its own app in some cities.", "howThisProductDiffers": "Uber partners with Waymo in some cities but competes with Waymo's own app in others."},
+   {"name": "Bolt, Grab, DiDi, Ola and Rapido", "positioning": "Regional ride-hailing rivals.", "howThisProductDiffers": "Uber has a global brand; local rivals often win on price and local knowledge."}
+  ],
+  "northStar": {
+   "metric": "Total trips completed per month (rides and deliveries)",
+   "why": "Each trip means a rider or eater got where or what they wanted, and a driver earned. Growth in trips shows the marketplace is healthy on both sides."
+  },
+  "kpiTree": [
+   {
+    "metric": "Monthly active platform consumers",
+    "description": "People who used Uber at least once a month; 215 million in Q3 2026.",
+    "children": [
+     {"metric": "New rider sign-ups", "description": "Growth from new cities and products."},
+     {"metric": "Uber One members", "description": "Members are more loyal and spend more."}
+    ]
+   },
+   {
+    "metric": "Trips per consumer",
+    "description": "How often each user takes a ride or orders.",
+    "children": [
+     {"metric": "Cross-use of rides and delivery", "description": "Users of both spend more."},
+     {"metric": "30-day repeat rate", "description": "Shows habit."}
+    ]
+   },
+   {
+    "metric": "Reliability",
+    "description": "How well Uber delivers on the request.",
+    "children": [
+     {"metric": "Wait time to pickup", "description": "Short waits drive repeat use."},
+     {"metric": "Driver cancellation rate", "description": "Cancellations break trust."},
+     {"metric": "Surge frequency", "description": "Too much surge pushes riders away."}
+    ]
+   },
+   {
+    "metric": "Supply",
+    "description": "Drivers, couriers and robotaxis available.",
+    "children": [
+     {"metric": "Active driver hours", "description": "Enough supply keeps waits short."},
+     {"metric": "Driver earnings per hour", "description": "Keeps drivers on Uber instead of rivals."},
+     {"metric": "Robotaxi fleet on Uber", "description": "Future supply in partner cities."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Safety incidents per million trips",
+   "Driver earnings per utilised hour",
+   "Rider complaint rate about pricing",
+   "Contribution margin per trip"
+  ],
+  "strengths": [
+   "Global scale with 215 million monthly users",
+   "Profitable with strong free cash flow ($2.5 billion in Q3 2026)",
+   "Rides and delivery in one app, linked by Uber One",
+   "Partner of choice for many robotaxi companies"
+  ],
+  "weaknesses": [
+   "Surge pricing and fees anger riders",
+   "Driver relations and pay disputes",
+   "Less control in cities where Waymo runs its own app",
+   "Mobility revenue fell 2% in Q3 2026 due to business model changes"
+  ],
+  "risks": [
+   "Driver classification laws (employee vs contractor) in the EU, UK and US states",
+   "Robotaxi companies building their own apps and cutting Uber out",
+   "Price competition from Lyft, Bolt, DiDi and local players",
+   "Safety incidents and regulation"
+  ],
+  "userComplaints": [
+   "Surge prices and higher fares than before",
+   "Drivers cancelling after accepting",
+   "Hard to cancel Uber One; regulators have looked at this",
+   "Eats orders missing items",
+   "Drivers say Uber takes too big a share"
+  ],
+  "improvementIdeas": [
+   {"idea": "Price lock: let riders lock a fare for 10 minutes during surge", "problem": "Riders feel surge is unfair and unpredictable.", "expectedImpact": "Fewer abandoned requests and more trust.", "metricToTrack": "Request-to-trip conversion during surge", "effort": "medium"},
+   {"idea": "Penalise and reduce driver cancellations with better trip info upfront", "problem": "Cancellations after acceptance frustrate riders.", "expectedImpact": "Faster pickups and higher satisfaction.", "metricToTrack": "Driver cancellation rate", "effort": "medium"},
+   {"idea": "One-tap Uber One cancellation with clear savings summary", "problem": "Hard cancellation hurts trust and invites regulation.", "expectedImpact": "Better brand trust and lower regulatory risk.", "metricToTrack": "Uber One net promoter score and churn", "effort": "low"},
+   {"idea": "Mixed fleets: auto-route short city trips to robotaxis when cheaper", "problem": "High driver cost in some cities.", "expectedImpact": "Lower cost per trip and better margins.", "metricToTrack": "Robotaxi trips share and cost per trip", "effort": "high"}
+  ],
+  "pmLessons": [
+   "Marketplaces must balance two sides. Surge pricing is a tool to match supply and demand, but it costs trust.",
+   "Bundling products with one membership like Uber One raises how much each user spends.",
+   "Partnering can beat building. Uber dropped its own self-driving unit and now partners with robotaxi firms.",
+   "Watch the right metric. Revenue fell in rides while bookings grew, because of how money was counted in some countries."
+  ],
+  "interviewQuestions": [
+   {"question": "How would you decide the price of a ride during a concert ending?", "hint": "Explain supply vs demand, rider willingness to pay, driver incentives and fairness. Propose surge caps or price lock and metrics like conversion and wait time."},
+   {"question": "Uber One sign-ups are growing but ride frequency is flat. Why?", "hint": "Segment members by use. Perhaps members only use Eats. Propose ride perks and measure cross-use."},
+   {"question": "Should Uber build its own robotaxis or partner?", "hint": "Compare cost, speed, risk and control. Uber's strength is demand. Discuss the risk of partners going direct."},
+   {"question": "Driver cancellations went up in one city. What do you do?", "hint": "Split by trip distance, area, time, pay. Check if drivers see trips as unprofitable. Fix incentives or info shown."},
+   {"question": "What is Uber's north star metric?", "hint": "Total trips completed. Break into users, frequency, reliability and supply."}
+  ],
+  "glossary": [
+   {"term": "marketplace", "meaning": "A platform that connects buyers and sellers and earns a cut of each sale."},
+   {"term": "surge pricing", "meaning": "Higher prices when demand is higher than available drivers, to bring more drivers out."},
+   {"term": "gross bookings", "meaning": "Total value of all rides and orders including fees and taxes, before paying drivers and merchants."},
+   {"term": "robotaxis", "meaning": "Cars that drive passengers without a human driver."},
+   {"term": "network effect", "meaning": "When a product becomes more valuable as more people use it."},
+   {"term": "free cash flow", "meaning": "Cash a company has left after paying running costs and investments."},
+   {"term": "contribution margin", "meaning": "What is left from one trip after paying its direct costs."},
+   {"term": "churn", "meaning": "The share of users who stop using a product in a period."},
+   {"term": "net promoter score", "meaning": "A survey score of how likely users are to recommend a product."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."}
+  ],
+  "assumptions": [
+   "Uber's take per ride ($6 to $7 on a $25 ride) is our estimate; it varies widely by market.",
+   "Uber One member count was not in our sources; earlier reports were around 36 million in 2025.",
+   "Named robotaxi partners are based on announced partnerships and may change.",
+   "Pricing figures are US levels; other countries differ."
+  ]
+ }
+}

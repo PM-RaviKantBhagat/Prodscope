@@ -1,0 +1,514 @@
+{
+ "company": "Dunzo",
+ "domain": "dunzo.com",
+ "website": "https://dunzo.com",
+ "sources": [
+  "https://restofworld.org/2025/dunzo-shutdown-india-quick-commerce/",
+  "https://www.outlookbusiness.com/corporate/dunzos-downfall-explained-what-led-reliance-to-write-off-entire-200-million-stake-in-start-up",
+  "https://entrackr.com/news/reliance-officially-writes-off-200-mn-investment-in-dunzo-9637264",
+  "https://inc42.com/features/dunzo-kabeer-biswas-downfall-reliance/",
+  "https://www.outlookbusiness.com/corporate/why-dunzo-is-battling-financial-insolvency-and-vendor-dues",
+  "https://en.wikipedia.org/wiki/Dunzo"
+ ],
+ "report": {
+  "company": "Dunzo",
+  "tagline": "A Bengaluru app that would pick up and drop anything in the city, which became an early 15-minute grocery service and then collapsed by early 2025.",
+  "category": "Quick delivery (failed)",
+  "simpleSummary": "Dunzo started in 2014 as a WhatsApp number: you messaged what you needed, like keys from home or medicine from a shop, and a rider fetched it. It became Bengaluru's favourite errand app and got money from Google and later Reliance. It then switched to 15-minute grocery delivery from its own warehouses, where Blinkit, Zepto and Swiggy Instamart had far more money and stores. It ran out of cash, stopped paying staff, and shut down; Reliance wrote off its $200 million investment in January 2025.",
+  "keyNumbers": [
+   {
+    "label": "Reliance investment",
+    "value": "$200 million for a 25.8% stake, January 2022; fully written off in January 2025",
+    "note": "Rest of World and Entrackr, 2025."
+   },
+   {
+    "label": "Total funding raised",
+    "value": "About $450 to $500 million",
+    "note": "Estimate from news reports across rounds; investors included Google, Reliance, Lightbox and Blume."
+   },
+   {
+    "label": "Peak valuation",
+    "value": "About $775 million (2022)",
+    "note": "Estimate from 2022 news reports at the Reliance round."
+   },
+   {
+    "label": "Dark stores at peak",
+    "value": "About 120 in 15 cities",
+    "note": "Rest of World, 2025. Rivals had more than 1,000 each by then."
+   },
+   {
+    "label": "Losses",
+    "value": "About $88 million in 2021; roughly ₹1,800 crore loss on about ₹226 crore revenue in FY23",
+    "note": "2021 from Rest of World. FY23 figure is from earlier news reports of company filings and should be treated as an estimate."
+   },
+   {
+    "label": "Staff left by August 2024",
+    "value": "About 50 people, after layoffs in 2023",
+    "note": "Rest of World, 2025. Insolvency proceedings followed in 2025 over unpaid vendor dues."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "Dunzo was a hyperlocal delivery app, meaning it delivered within one city, usually within a few kilometres. Its first product was 'pick up and drop anything' plus buying from nearby shops for you. From about 2020 it ran Dunzo Daily, a quick grocery service from its own dark stores. It no longer operates; the company was taken into insolvency in 2025.",
+   "howItWorks": [
+    "Original model (2014 to 2020): you asked for any errand, a rider bought or picked it up from a local shop and brought it to you, and Dunzo charged a delivery fee.",
+    "Dunzo also worked as a marketplace: it listed nearby kirana stores, pharmacies and meat shops, and took a cut of each order.",
+    "Dunzo Daily (2020 to 2024): Dunzo ran dark stores, small warehouses near homes, and promised groceries in 15 to 19 minutes.",
+    "It also ran B2B delivery for businesses, including for Reliance's JioMart.",
+    "From 2023 it cut cities, staff and stores as money ran out, and by early 2025 the app was effectively offline."
+   ],
+   "valueProposition": "At its best: one app that could get anything from anywhere in your city to your door within an hour, and later groceries in about 15 minutes."
+  },
+  "personas": [
+   {
+    "name": "Busy Bengaluru techie",
+    "description": "A young professional who used Dunzo to send keys, get food from a specific shop or buy medicine late at night.",
+    "goals": [
+     "Save time on small errands",
+     "Get things from a specific shop, not just a big store"
+    ],
+    "frustrations": [
+     "Delivery fees rising over time",
+     "Riders unavailable at peak hours"
+    ]
+   },
+   {
+    "name": "Quick grocery shopper",
+    "description": "A household that tried Dunzo Daily for milk and vegetables in 15 minutes.",
+    "goals": [
+     "Fast delivery",
+     "Fresh products at fair prices"
+    ],
+    "frustrations": [
+     "Small range compared with Blinkit",
+     "Expired items and pricing errors",
+     "Items out of stock"
+    ]
+   },
+   {
+    "name": "Local shop owner",
+    "description": "A pharmacy or kirana store that got orders through Dunzo.",
+    "goals": [
+     "More customers without building delivery",
+     "Get paid on time"
+    ],
+    "frustrations": [
+     "Late payments as Dunzo ran short of money",
+     "Losing traffic once Dunzo moved to its own dark stores"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "No time to run small errands like picking up a parcel or keys",
+    "howSolved": "Pick up and drop anything within the city.",
+    "severity": "high"
+   },
+   {
+    "pain": "Local shops do not deliver",
+    "howSolved": "A Dunzo rider bought items from the shop and delivered them.",
+    "severity": "high"
+   },
+   {
+    "pain": "Needing groceries right away",
+    "howSolved": "Dunzo Daily promised delivery in about 15 to 19 minutes from dark stores.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Small businesses needing same-day local delivery",
+    "howSolved": "Dunzo for Business offered on-demand courier service.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Late-night medicine needs",
+    "howSolved": "Riders could pick up from 24-hour pharmacies.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Pick Up and Drop",
+    "whatItDoes": "Send any item across the city with a rider.",
+    "whyItMatters": "A unique, loved use case that built the brand, but hard to make money on."
+   },
+   {
+    "feature": "Buy anything from local shops",
+    "whatItDoes": "Order from listed nearby stores, or describe what you want.",
+    "whyItMatters": "Made Dunzo a marketplace that needed no stock of its own."
+   },
+   {
+    "feature": "Dunzo Daily",
+    "whatItDoes": "15 to 19 minute grocery delivery from Dunzo's dark stores.",
+    "whyItMatters": "The bet that sank the company: it needed huge capital to compete."
+   },
+   {
+    "feature": "Live chat and tracking",
+    "whatItDoes": "Chat with the rider and track the order.",
+    "whyItMatters": "Built trust for custom errands that were not standard orders."
+   },
+   {
+    "feature": "Dunzo for Business",
+    "whatItDoes": "Local delivery for merchants and partners like JioMart.",
+    "whyItMatters": "Steady volume, but pulled focus away from consumers."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Forgotten keys (2018 to 2020)",
+    "persona": "Busy Bengaluru techie",
+    "steps": [
+     {
+      "step": "Problem",
+      "detail": "Left house keys at the office."
+     },
+     {
+      "step": "Open Dunzo",
+      "detail": "Chooses Pick Up and Drop."
+     },
+     {
+      "step": "Enter addresses",
+      "detail": "Sets office as pickup and home as drop."
+     },
+     {
+      "step": "See fee",
+      "detail": "Sees a delivery fee based on distance."
+     },
+     {
+      "step": "Rider assigned",
+      "detail": "A nearby rider picks up the keys."
+     },
+     {
+      "step": "Delivered",
+      "detail": "Keys arrive within an hour."
+     }
+    ]
+   },
+   {
+    "name": "15-minute grocery order (2022)",
+    "persona": "Quick grocery shopper",
+    "steps": [
+     {
+      "step": "Open Dunzo Daily",
+      "detail": "Sees a 19-minute promise."
+     },
+     {
+      "step": "Search",
+      "detail": "Finds fewer items than on Blinkit."
+     },
+     {
+      "step": "Apply discount",
+      "detail": "Uses a heavy first-order discount."
+     },
+     {
+      "step": "Order arrives",
+      "detail": "Mostly on time, sometimes with missing items."
+     },
+     {
+      "step": "Compare",
+      "detail": "Next time, checks Blinkit and Zepto too and picks the cheapest."
+     }
+    ]
+   },
+   {
+    "name": "Losing the service (2023 to 2025)",
+    "persona": "Local shop owner",
+    "steps": [
+     {
+      "step": "Orders drop",
+      "detail": "Dunzo pulls out of cities and pushes its own stores."
+     },
+     {
+      "step": "Payments delayed",
+      "detail": "Dues from Dunzo arrive late or not at all."
+     },
+     {
+      "step": "App outages",
+      "detail": "Customers report the app not working."
+     },
+     {
+      "step": "Switch platforms",
+      "detail": "Shop joins Swiggy, ONDC sellers or its own WhatsApp ordering."
+     },
+     {
+      "step": "Shutdown",
+      "detail": "Dunzo goes offline; vendors file claims in insolvency."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Dunzo made money from delivery fees and a cut of orders from partner shops. With Dunzo Daily it moved to owning stock and earning a margin on groceries, plus brand ads. It never made a profit.",
+   "revenueStreams": [
+    {
+     "stream": "Delivery fees",
+     "detail": "Charged on pick-up-and-drop and shop orders."
+    },
+    {
+     "stream": "Commission from merchants",
+     "detail": "A cut of orders placed with listed shops."
+    },
+    {
+     "stream": "Grocery margin on Dunzo Daily",
+     "detail": "Difference between buying and selling price of stock."
+    },
+    {
+     "stream": "Business delivery",
+     "detail": "Fees from businesses including Reliance's JioMart."
+    }
+   ],
+   "pricing": "Not public now; the service has shut down. Delivery fees used to vary by distance and demand.",
+   "costDrivers": [
+    "Rider pay and incentives",
+    "Dark store rent and staff",
+    "Heavy discounts to match Blinkit and Zepto",
+    "Large marketing spends, like about ₹40 crore on a 20-second IPL ad in 2022",
+    "Technology and a large head office team",
+    "Wastage and expired stock"
+   ],
+   "unitEconomics": "Pick-up-and-drop orders were one-off trips with low fees, so one rider made one delivery and earned little per hour; most orders lost money. Dunzo Daily needed each dark store to handle roughly 1,000+ orders a day to cover rent and staff, but Dunzo had only about 120 stores and fewer orders per store than rivals. With discounts of ₹50 to ₹100 on many orders (estimate), it likely lost money on almost every order, which is why losses were many times its revenue."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Word of mouth in Bengaluru for its unusual 'anything' errands",
+    "Witty social media and outdoor ads",
+    "Heavy discounts during the quick commerce race",
+    "Big TV and IPL ads in 2022"
+   ],
+   "whatBringsUsersBack": [
+    "Unique errand use cases nobody else served",
+    "Habit of quick grocery top-ups, while discounts lasted"
+   ],
+   "moat": "Dunzo's only real moat was its brand and its 'anything' errand service in Bengaluru. Once it moved into dark-store grocery, it had no edge: rivals had more stores, more money and bigger user bases, so customers switched to whoever was cheapest."
+  },
+  "competitors": [
+   {
+    "name": "Blinkit",
+    "positioning": "Quick commerce leader with over 1,000 dark stores and Zomato's backing.",
+    "howThisProductDiffers": "Dunzo had fewer stores, smaller range and less money."
+   },
+   {
+    "name": "Zepto",
+    "positioning": "Startup built only for 10-minute delivery, well funded.",
+    "howThisProductDiffers": "Zepto focused fully on dark stores from day one; Dunzo split focus between errands, B2B and groceries."
+   },
+   {
+    "name": "Swiggy Instamart and Swiggy Genie",
+    "positioning": "Grocery and errand delivery from India's big food delivery app.",
+    "howThisProductDiffers": "Swiggy reached users already ordering food; Dunzo had to win them separately."
+   },
+   {
+    "name": "Porter and Uber Connect",
+    "positioning": "Parcel and pick-up-drop services.",
+    "howThisProductDiffers": "They took over the errand use case Dunzo started."
+   }
+  ],
+  "northStar": {
+   "metric": "Completed deliveries per week that arrived on time (what Dunzo should have tracked)",
+   "why": "A north star metric is the one number that shows users get value. For a delivery app, a completed, on-time delivery is the value. Tracking it alongside profit per order would have shown the problems sooner."
+  },
+  "kpiTree": [
+   {
+    "metric": "Orders per dark store per day",
+    "description": "The key number that decides if a store covers its costs.",
+    "children": [
+     {
+      "metric": "Active customers within store radius",
+      "description": "More nearby users means more orders per store."
+     },
+     {
+      "metric": "Orders per customer per month",
+      "description": "Habit drives store volume."
+     }
+    ]
+   },
+   {
+    "metric": "Order quality",
+    "description": "Orders delivered complete, fresh and correctly priced.",
+    "children": [
+     {
+      "metric": "Missing or expired item rate",
+      "description": "Dunzo struggled here, hurting trust."
+     },
+     {
+      "metric": "Pricing error rate",
+      "description": "Wrong prices cause refunds and complaints."
+     }
+    ]
+   },
+   {
+    "metric": "Delivery speed",
+    "description": "How often the promised time is met.",
+    "children": [
+     {
+      "metric": "On-time rate",
+      "description": "The core promise of quick commerce."
+     },
+     {
+      "metric": "Rider availability at peak",
+      "description": "Not enough riders means late orders."
+     }
+    ]
+   },
+   {
+    "metric": "Profit per order",
+    "description": "Money left after all direct costs.",
+    "children": [
+     {
+      "metric": "Discount per order",
+      "description": "Heavy discounts hid weak demand."
+     },
+     {
+      "metric": "Average order value",
+      "description": "Bigger baskets spread delivery cost."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Months of cash left (runway)",
+   "Vendor and salary payments made on time",
+   "Contribution margin per order",
+   "Customer complaint rate"
+  ],
+  "strengths": [
+   "First mover in hyperlocal delivery in Bengaluru",
+   "Loved brand and witty marketing",
+   "Unique errand service no rival offered at first",
+   "Backing from Google and Reliance"
+  ],
+  "weaknesses": [
+   "Moved away from its unique errand business into a crowded fight",
+   "Too few dark stores to match rivals on speed and range",
+   "Losses many times larger than revenue",
+   "Split focus between consumer app, B2B and Reliance work",
+   "Poor financial controls: unpaid salaries, taxes and vendor dues"
+  ],
+  "risks": [
+   "Well-funded rivals in a price war (this is what happened)",
+   "Funding winter from 2022 made new money hard to raise",
+   "Reliance chose not to fund it further",
+   "Insolvency claims from vendors and staff"
+  ],
+  "userComplaints": [
+   "Missing or expired items in grocery orders",
+   "Wrong prices and slow refunds",
+   "App outages and orders cancelled late",
+   "Customer support hard to reach",
+   "Former staff and vendors left unpaid for months"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "In hindsight: stay focused on errands and local-shop marketplace, and charge for it",
+    "problem": "Dunzo gave up its unique business to fight in a crowded one.",
+    "expectedImpact": "Smaller but more defensible business with lower capital needs.",
+    "metricToTrack": "Contribution margin per errand order",
+    "effort": "medium"
+   },
+   {
+    "idea": "In hindsight: launch dark stores only in a few dense Bengaluru areas first",
+    "problem": "Spreading to 15 cities with 120 stores left each store under-used.",
+    "expectedImpact": "Higher orders per store and break-even in some stores.",
+    "metricToTrack": "Orders per dark store per day",
+    "effort": "medium"
+   },
+   {
+    "idea": "In hindsight: cut discounts and test real demand at full price",
+    "problem": "Discounts hid whether customers valued Dunzo over rivals.",
+    "expectedImpact": "True retention picture and lower cash burn.",
+    "metricToTrack": "Repeat rate at full price",
+    "effort": "low"
+   },
+   {
+    "idea": "In hindsight: set strict cash runway rules and protect salary payments",
+    "problem": "Running out of cash destroyed trust with staff and vendors.",
+    "expectedImpact": "Time to find a buyer or pivot before collapse.",
+    "metricToTrack": "Months of runway",
+    "effort": "low"
+   }
+  ],
+  "pmLessons": [
+   "Do not abandon what makes you different. Dunzo's errand service was unique; its grocery service was a copy of richer rivals.",
+   "In quick commerce, scale wins. Fixed costs per store mean the player with the most orders per store has the best economics.",
+   "Discounts can hide a product problem. Growth bought with cash disappears when the cash stops.",
+   "A famous investor does not guarantee survival. Reliance's $200 million did not fix weak economics.",
+   "Treat runway as a product metric. A company that cannot pay staff loses its ability to build anything."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "Why did Dunzo fail when Blinkit and Zepto succeeded?",
+    "hint": "Cover strategy (left unique errands), scale (120 vs 1,000+ stores), money (funding winter), and execution (stock, pricing errors). End with one key lesson."
+   },
+   {
+    "question": "If you were Dunzo's PM in 2021, would you have launched Dunzo Daily?",
+    "hint": "Weigh market size and threat of rivals vs capital needs and focus. A strong answer suggests a narrow test with clear stop rules."
+   },
+   {
+    "question": "How would you have made pick-up-and-drop profitable?",
+    "hint": "Raise prices for urgency, batch nearby orders, sell to businesses, add subscriptions. Track margin per order."
+   },
+   {
+    "question": "What early warning metrics would have shown Dunzo was in trouble?",
+    "hint": "Orders per store, repeat rate without discounts, contribution margin, cash runway, vendor payment delays."
+   },
+   {
+    "question": "Could Dunzo have been saved in 2023? How?",
+    "hint": "Options: shrink to Bengaluru, sell to a rival, focus on B2B. Compare cash needs and chances. Pick one with reasons."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "hyperlocal",
+    "meaning": "Delivery within one city or neighbourhood, usually a few kilometres."
+   },
+   {
+    "term": "marketplace",
+    "meaning": "A platform that connects buyers with sellers and takes a cut, without owning the stock."
+   },
+   {
+    "term": "quick commerce",
+    "meaning": "Delivery of groceries and daily items in 10 to 30 minutes from nearby small warehouses."
+   },
+   {
+    "term": "dark stores",
+    "meaning": "Small warehouses near homes that only pack online orders and are closed to walk-in shoppers."
+   },
+   {
+    "term": "B2B",
+    "meaning": "Business to business: selling a service to companies instead of to consumers."
+   },
+   {
+    "term": "insolvency",
+    "meaning": "A legal process when a company cannot pay its debts and creditors try to recover money."
+   },
+   {
+    "term": "moat",
+    "meaning": "Something that makes a business hard for rivals to copy."
+   },
+   {
+    "term": "runway",
+    "meaning": "How many months a company can keep operating with the cash it has."
+   },
+   {
+    "term": "funding winter",
+    "meaning": "A period when investors stop giving startups money easily."
+   },
+   {
+    "term": "contribution margin",
+    "meaning": "What is left from one order after paying the direct costs of that order, like product and delivery."
+   },
+   {
+    "term": "average order value",
+    "meaning": "The average amount a customer spends in one order."
+   },
+   {
+    "term": "north star metric",
+    "meaning": "The one number a team watches to know if users are getting real value."
+   }
+  ],
+  "assumptions": [
+   "Total funding, peak valuation and FY23 numbers are estimates from earlier news reports, not from our main sources.",
+   "Per-order losses and discount amounts are our estimates.",
+   "The 'should have tracked' north star is our suggestion, not something Dunzo published.",
+   "The current state of insolvency proceedings may have moved on since our sources."
+  ]
+ }
+}

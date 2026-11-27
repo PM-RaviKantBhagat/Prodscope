@@ -1,0 +1,114 @@
+[
+ {
+  "company": "Physics Wallah",
+  "website": "pw.live",
+  "domain": "pw.live",
+  "market": "India",
+  "category": "Online learning",
+  "why": "Listed on the stock market; affordable creator-led online learning that survived the online learning crash."
+ },
+ {
+  "company": "BYJU'S",
+  "website": "byjus.com",
+  "domain": "byjus.com",
+  "market": "India",
+  "category": "Online learning (failed)",
+  "why": "From India's top startup to insolvency; growth-at-all-costs lessons."
+ },
+ {
+  "company": "Multiverse",
+  "website": "multiverse.io",
+  "domain": "multiverse.io",
+  "market": "UK · US",
+  "category": "Workforce online learning",
+  "why": "Apprenticeships as an alternative to university; AI skills."
+ },
+ {
+  "company": "Apna",
+  "website": "apna.co",
+  "domain": "apna.co",
+  "market": "India",
+  "category": "Jobs",
+  "why": "Jobs and community for blue-collar workers; compare with Naukri."
+ },
+ {
+  "company": "Practo",
+  "website": "practo.com",
+  "domain": "practo.com",
+  "market": "India",
+  "category": "Health app",
+  "why": "Doctor discovery and teleconsultation; trust and designing a marketplace for doctors and patients."
+ },
+ {
+  "company": "Hims & Hers",
+  "website": "forhims.com",
+  "domain": "forhims.com",
+  "market": "US",
+  "category": "Telehealth direct-to-customer",
+  "why": "Destigmatising care with direct-to-customer branding; growth from weight-loss drugs."
+ },
+ {
+  "company": "Babylon Health",
+  "website": "babylonhealth.com",
+  "domain": "babylonhealth.com",
+  "market": "UK",
+  "category": "Health app (failed)",
+  "why": "AI health promise that collapsed; failure teardown."
+ },
+ {
+  "company": "Calm",
+  "website": "calm.com",
+  "domain": "calm.com",
+  "market": "US · global",
+  "category": "Mental wellness",
+  "why": "Subscription wellness app; content and habit design."
+ },
+ {
+  "company": "Peloton",
+  "website": "onepeloton.com",
+  "domain": "onepeloton.com",
+  "market": "US",
+  "category": "Connected fitness",
+  "why": "Boom-and-bust case; hardware plus subscription."
+ },
+ {
+  "company": "Strava",
+  "website": "strava.com",
+  "domain": "strava.com",
+  "market": "US · global",
+  "category": "Fitness social",
+  "why": "Social fitness with a subscription; community features and retention."
+ },
+ {
+  "company": "WHOOP",
+  "website": "whoop.com",
+  "domain": "whoop.com",
+  "market": "US · global",
+  "category": "Wearables",
+  "why": "Screenless, subscription-only wearable; data as the product."
+ },
+ {
+  "company": "Oura Ring",
+  "website": "ouraring.com",
+  "domain": "ouraring.com",
+  "market": "Finland · global",
+  "category": "Wearables",
+  "why": "Ring form factor with subscription; compare with WHOOP."
+ },
+ {
+  "company": "Apple Vision Pro / iPhone",
+  "website": "apple.com",
+  "domain": "apple.com",
+  "market": "US · global",
+  "category": "Consumer hardware",
+  "why": "Ecosystem lock-in and the Vision Pro launch as a 'new category' case study."
+ },
+ {
+  "company": "Meta Ray-Ban glasses",
+  "website": "meta.com",
+  "domain": "meta.com",
+  "market": "US · global",
+  "category": "Wearables / AI",
+  "why": "2025's surprise hardware hit; AI on the face and finding a use case for a new form factor."
+ }
+]

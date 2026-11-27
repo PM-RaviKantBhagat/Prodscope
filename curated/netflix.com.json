@@ -1,0 +1,549 @@
+{
+  "company": "Netflix",
+  "domain": "netflix.com",
+  "website": "https://netflix.com",
+  "sources": [
+    "https://thedesk.net/2026/10/netflix-q3-2026-earnings-report/",
+    "https://www.advanced-television.com/2026/10/20/netflix-q3-revenue-up-12-yoy/",
+    "https://247wallst.com/cards/netflix-q3-2026-earnings-nflx-01m5deq0f119rjb4fjrht5sjde",
+    "https://www.fool.com/investing/2026/04/02/netflix-is-raising-subscription-prices-yet-again",
+    "https://www.aol.com/articles/netflix-just-got-2-8-183242356.html",
+    "https://www.aol.com/news/netflix-since-losing-bid-warner-203043824.html",
+    "https://finance.yahoo.com/markets/stocks/articles/netflix-cancellations-boycotts-buzz-online-110123208.html"
+  ],
+  "report": {
+    "company": "Netflix",
+    "tagline": "A monthly subscription to watch films, series, games and some live events, with a cheaper plan that shows ads.",
+    "category": "Streaming",
+    "simpleSummary": "Netflix is like a video rental shop that lives in your TV or phone. You pay every month and watch as much as you want from a big library of shows and films, many made by Netflix itself, like Squid Game or Stranger Things. It recommends what to watch next based on what you liked. There is a cheaper plan with ads, and Netflix now also streams some live events like boxing and NFL games.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$12.87 billion, up 12%",
+        "note": "Netflix Q3 2026 results as reported by TheDesk."
+      },
+      {
+        "label": "Operating margin, Q3 2026",
+        "value": "34.6% (up from 28.2%)",
+        "note": "Netflix Q3 2026 results. Net income was $3.66 billion. Q4 guide is 26% due to job cuts and seasonal content costs."
+      },
+      {
+        "label": "Ad revenue, full year 2026",
+        "value": "About $2.7 billion",
+        "note": "Netflix forecast in Q3 2026, cut from about $3 billion because some ad products rolled out slower."
+      },
+      {
+        "label": "Audience",
+        "value": "Approaching 1 billion people",
+        "note": "Netflix statement in Q3 2026. Netflix stopped reporting paid subscribers in 2025; the last figure was over 300 million paying memberships."
+      },
+      {
+        "label": "Revenue by region, Q3 2026",
+        "value": "US and Canada $5.63 billion, Europe/Middle East/Africa $4.11 billion, Latin America $1.60 billion, Asia-Pacific $1.54 billion",
+        "note": "Netflix Q3 2026 results via TheDesk."
+      },
+      {
+        "label": "Warner Bros. Discovery bid",
+        "value": "Lost the bid, received about $2.8 billion break-up fee",
+        "note": "News reports in 2026. Netflix then raised prices, drawing criticism from US Senator Elizabeth Warren."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Netflix sells monthly access to films, series, documentaries, mobile and TV games, and a growing number of live events. It spends billions on original shows from many countries and uses viewing data to recommend titles to each person. It makes money from subscriptions and, more and more, from ads on its cheaper plan.",
+      "howItWorks": [
+        "Users pick a plan, from a cheaper ad-supported plan to Premium with 4K and more screens.",
+        "Each household creates profiles, and Netflix shows a different home screen for each profile.",
+        "Recommendations rank rows and even pick which thumbnail image each person sees.",
+        "Netflix licenses shows from studios and makes its own originals in over 50 countries, including India.",
+        "Since 2023, account sharing outside the household needs an 'extra member' fee in many countries.",
+        "Live events like boxing, NFL Christmas games and WWE Raw stream at set times."
+      ],
+      "valueProposition": "For viewers: a huge, personalised library of shows from around the world, without ads if you pay more, on any screen. For advertisers: a large, logged-in, mostly TV audience that watches with attention."
+    },
+    "personas": [
+      {
+        "name": "The weekend binge-watcher",
+        "description": "A 27-year-old in Bengaluru who watches K-dramas, Indian originals and true crime on weekends.",
+        "goals": [
+          "Find a great series fast",
+          "Watch on the TV and phone"
+        ],
+        "frustrations": [
+          "Scrolling for 20 minutes without choosing",
+          "Shows cancelled after one season"
+        ]
+      },
+      {
+        "name": "The family subscriber",
+        "description": "A US parent paying for a Standard plan for the household, with kids' profiles.",
+        "goals": [
+          "Safe content for kids and good shows for adults",
+          "Keep monthly bills in check"
+        ],
+        "frustrations": [
+          "Price going up almost every year",
+          "Paying extra to share with a child at college"
+        ]
+      },
+      {
+        "name": "The budget viewer on the ad plan",
+        "description": "A student in Mexico City or London on the ad-supported plan.",
+        "goals": [
+          "Watch Netflix as cheaply as possible",
+          "Not miss the shows everyone talks about"
+        ],
+        "frustrations": [
+          "Ads in the middle of an episode",
+          "Some titles not available on the ad plan"
+        ]
+      },
+      {
+        "name": "The live sports fan",
+        "description": "A 35-year-old who joins Netflix for a big fight or the NFL Christmas game.",
+        "goals": [
+          "Watch the live event smoothly",
+          "Avoid paying for many services"
+        ],
+        "frustrations": [
+          "Buffering during big live streams",
+          "Leaving after the event, then rejoining"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Cable TV is expensive and forces you to watch at set times.",
+        "howSolved": "Watch any title, any time, on any screen, for one monthly fee.",
+        "severity": "high"
+      },
+      {
+        "pain": "Too much choice makes it hard to decide what to watch.",
+        "howSolved": "Personalised rows, Top 10 lists and autoplay trailers.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Good shows from other countries are hard to find and watch.",
+        "howSolved": "Global originals with dubs and subtitles in many languages.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Premium plans are too costly for some people.",
+        "howSolved": "A cheaper plan with ads and, in India, a low-cost Mobile plan.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Families need different content for kids and adults.",
+        "howSolved": "Separate profiles, Kids profiles and parental controls.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Advertisers struggle to reach people who left cable TV.",
+        "howSolved": "Netflix Ads Suite sells ads on its own ad tech to a huge TV audience.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Personalised recommendations",
+        "whatItDoes": "Ranks rows and artwork per profile based on viewing.",
+        "whyItMatters": "Helps people find something fast, which keeps them subscribed."
+      },
+      {
+        "feature": "Originals",
+        "whatItDoes": "Shows and films Netflix pays to make, like Squid Game, Wednesday and Heeramandi.",
+        "whyItMatters": "Content you cannot get anywhere else is the main reason to pay."
+      },
+      {
+        "feature": "Standard with ads plan",
+        "whatItDoes": "A cheaper plan with a few minutes of ads per hour.",
+        "whyItMatters": "Lowers the entry price and adds a second source of money from each viewer."
+      },
+      {
+        "feature": "Paid sharing (extra member)",
+        "whatItDoes": "Account sharing outside the household costs extra.",
+        "whyItMatters": "Turned password borrowers into paying members, adding millions of sign-ups after 2023."
+      },
+      {
+        "feature": "Live events",
+        "whatItDoes": "Streams sports, award shows and specials live.",
+        "whyItMatters": "Brings in big audiences on one night and helps sell ads at high prices."
+      },
+      {
+        "feature": "Netflix Games",
+        "whatItDoes": "Games on mobile and TV included in the plan.",
+        "whyItMatters": "Adds more reasons to stay subscribed, though usage is still small."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Sign-up for a hit show",
+        "persona": "The weekend binge-watcher",
+        "steps": [
+          {
+            "step": "Hears about a show",
+            "detail": "Friends discuss a new season on WhatsApp and Instagram."
+          },
+          {
+            "step": "Visits Netflix",
+            "detail": "Sees plans in rupees on netflix.com."
+          },
+          {
+            "step": "Picks a plan",
+            "detail": "Chooses Basic or Standard and pays by card or UPI autopay."
+          },
+          {
+            "step": "Creates profile",
+            "detail": "Picks a few titles she likes to seed recommendations."
+          },
+          {
+            "step": "Binges",
+            "detail": "Watches the season in a weekend with autoplay next episode."
+          },
+          {
+            "step": "Gets next pick",
+            "detail": "Home screen suggests similar shows to keep her watching."
+          }
+        ]
+      },
+      {
+        "name": "Handling the sharing crackdown",
+        "persona": "The family subscriber",
+        "steps": [
+          {
+            "step": "Child moves out",
+            "detail": "The child at college keeps using the family login."
+          },
+          {
+            "step": "Netflix detects it",
+            "detail": "Devices outside the home network get a prompt."
+          },
+          {
+            "step": "Gets options",
+            "detail": "Add an extra member for a monthly fee, or transfer the profile to a new account."
+          },
+          {
+            "step": "Decides",
+            "detail": "Parent adds the extra member, or the child starts their own ad plan."
+          },
+          {
+            "step": "Profile transfer",
+            "detail": "Watch history and lists move with the profile."
+          },
+          {
+            "step": "Both stay",
+            "detail": "Netflix now gets paid for both viewers."
+          }
+        ]
+      },
+      {
+        "name": "Joining for a live event",
+        "persona": "The live sports fan",
+        "steps": [
+          {
+            "step": "Sees the promo",
+            "detail": "Learns a big NFL game or boxing fight is only on Netflix."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Joins on the cheapest ad plan the day before."
+          },
+          {
+            "step": "Watches live",
+            "detail": "Streams the event with millions of others."
+          },
+          {
+            "step": "Gets recommendations",
+            "detail": "Sees sports documentaries and series after the event."
+          },
+          {
+            "step": "Stays or cancels",
+            "detail": "Keeps the plan if a show hooks them, or cancels."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Netflix makes most of its money from monthly subscriptions, and a growing share from ads on the cheaper plan. It spends heavily on content, but that cost is shared across hundreds of millions of members, so margins keep rising. In Q3 2026 it kept about 35 cents of every dollar as operating profit.",
+      "revenueStreams": [
+        {
+          "stream": "Subscriptions",
+          "detail": "Monthly plan fees, the vast majority of the $12.87 billion in Q3 2026 revenue."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Ads on the ad-supported plan and in live events, about $2.7 billion expected in 2026."
+        },
+        {
+          "stream": "Extra member fees",
+          "detail": "Paid sharing for people outside the household."
+        },
+        {
+          "stream": "Licensing and merchandise",
+          "detail": "Smaller money from consumer products, live experiences like Netflix House, and some licensing."
+        }
+      ],
+      "pricing": "India: Mobile ₹149, Basic ₹199, Standard ₹499, Premium ₹649 a month. US (after the 2026 price rise): Standard with ads about $8.99, Standard about $19.99, Premium about $26.99 a month. Prices change often by country.",
+      "costDrivers": [
+        "Content: original productions and licensed shows, about $18 billion or more a year",
+        "Live event and sports rights",
+        "Marketing for new titles",
+        "Streaming technology, ad tech and engineering staff",
+        "Payment and app store fees"
+      ],
+      "unitEconomics": "Netflix makes about $13 billion a quarter across roughly 300 million or more paying households, so it earns around $14 per household per month on average, much more in the US and much less in India. Content and other costs take about 65%, leaving about $5 of operating profit per household. The key is scale: a new member adds money but adds almost no content cost, because the same show serves everyone. An ad-plan member pays less but brings ad money on top."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Global hit shows that spread by word of mouth and social media",
+        "Cheaper ad plan and Mobile plan in price-sensitive markets",
+        "Bundles with telecoms like Jio and Airtel in India",
+        "Live events that pull in new viewers for one night",
+        "Paid sharing turning borrowers into members"
+      ],
+      "whatBringsUsersBack": [
+        "New releases every week and season drops",
+        "Personalised home screen and 'Continue watching' row",
+        "Top 10 lists that create shared talk",
+        "Live events and weekly shows like WWE Raw"
+      ],
+      "moat": "Netflix spends more on content than almost anyone and spreads it over the biggest paying base in streaming. That lets it pay for more hits, which brings more members, a loop rivals struggle to match. Its data on what nearly 1 billion people watch helps it pick shows and recommend them."
+    },
+    "competitors": [
+      {
+        "name": "YouTube",
+        "positioning": "Free, creator-made video, number one on US TV screens.",
+        "howThisProductDiffers": "Netflix sells studio-quality originals for a fee; YouTube is mostly free and creator-made."
+      },
+      {
+        "name": "Amazon Prime Video",
+        "positioning": "Bundled with Prime shopping, with ads by default.",
+        "howThisProductDiffers": "Netflix is a standalone service with more hits; Prime Video gets users through shopping."
+      },
+      {
+        "name": "Disney+ and JioHotstar",
+        "positioning": "Disney brands worldwide; in India, cricket and Hindi TV with free and paid tiers.",
+        "howThisProductDiffers": "In India, Netflix is a premium choice without cricket; JioHotstar wins on sports and price."
+      },
+      {
+        "name": "Paramount and Warner Bros. Discovery (HBO Max)",
+        "positioning": "Studios with large libraries, merging after Netflix lost the Warner bid.",
+        "howThisProductDiffers": "Netflix has more members and higher margins; the merged rival will have a deeper film and TV library."
+      },
+      {
+        "name": "Apple TV",
+        "positioning": "Small, high-quality originals library.",
+        "howThisProductDiffers": "Netflix offers far more volume and global content."
+      }
+    ],
+    "northStar": {
+      "metric": "Hours viewed per member household per month",
+      "why": "This north star metric shows whether members are getting value. People who watch a lot rarely cancel, and viewing hours also create ad space on the ad plan."
+    },
+    "kpiTree": [
+      {
+        "metric": "Member households",
+        "description": "Paying households worldwide.",
+        "children": [
+          {
+            "metric": "New sign-ups per hit title",
+            "description": "How many join because of a specific show or event."
+          },
+          {
+            "metric": "Paid sharing conversions",
+            "description": "Borrowers who become extra members or new accounts."
+          },
+          {
+            "metric": "Monthly churn",
+            "description": "Share of members who cancel each month."
+          }
+        ]
+      },
+      {
+        "metric": "Content engagement",
+        "description": "How much members watch.",
+        "children": [
+          {
+            "metric": "Time to first play",
+            "description": "Seconds from opening the app to pressing play."
+          },
+          {
+            "metric": "Completion rate",
+            "description": "Share of started series that get finished."
+          },
+          {
+            "metric": "Non-English viewing share",
+            "description": "Viewing of local shows, which helps growth outside the US."
+          }
+        ]
+      },
+      {
+        "metric": "Ad plan monetisation",
+        "description": "Money earned per ad plan member.",
+        "children": [
+          {
+            "metric": "Ad plan share of sign-ups",
+            "description": "Share of new members picking the ad plan."
+          },
+          {
+            "metric": "Ad fill rate",
+            "description": "Share of ad slots sold."
+          },
+          {
+            "metric": "Price per thousand ad views",
+            "description": "What advertisers pay."
+          }
+        ]
+      },
+      {
+        "metric": "Live and event viewing",
+        "description": "Hours watched on live events.",
+        "children": [
+          {
+            "metric": "Live stream quality",
+            "description": "Buffering and failure rate during peaks."
+          },
+          {
+            "metric": "Post-event retention",
+            "description": "Event joiners who stay a month later."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Monthly churn after price rises",
+      "Stream failure rate during live events",
+      "Ad minutes per hour on the ad plan",
+      "Customer complaints about sharing prompts"
+    ],
+    "strengths": [
+      "Biggest paid streaming base and an audience near 1 billion",
+      "Very strong margins, 34.6% in Q3 2026",
+      "Global originals that travel across countries",
+      "Strong recommendation system and brand"
+    ],
+    "weaknesses": [
+      "Ad business growing slower than planned",
+      "Little live cricket or other big sports in India",
+      "Users tired of yearly price rises",
+      "Many shows cancelled early, which annoys viewers"
+    ],
+    "risks": [
+      "A merged Paramount and Warner Bros. Discovery with a huge library",
+      "YouTube taking more TV viewing time",
+      "Regulators and politicians pushing back on price hikes",
+      "Rising sports rights costs if Netflix goes deeper into live events"
+    ],
+    "userComplaints": [
+      "Prices keep going up, even after the $2.8 billion break-up fee",
+      "The password sharing crackdown and 'not part of your household' prompts",
+      "Good shows cancelled after one or two seasons",
+      "Ads on the cheaper plan and titles missing from it",
+      "Library feels thin in India compared with JioHotstar and Prime Video"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Travel mode: let members watch on a second home's TV for a set number of days a year without prompts.",
+        "problem": "Sharing prompts frustrate legit members who travel or have two homes.",
+        "expectedImpact": "Fewer complaints and lower churn among paying families.",
+        "metricToTrack": "Churn among households that saw a sharing prompt",
+        "effort": "low"
+      },
+      {
+        "idea": "'Pick for us' button that plays a tailored title in under 10 seconds.",
+        "problem": "Members waste time scrolling and give up.",
+        "expectedImpact": "More viewing sessions per member.",
+        "metricToTrack": "Time to first play",
+        "effort": "medium"
+      },
+      {
+        "idea": "Show the season-two renewal status inside each title, and finish cancelled stories with a special.",
+        "problem": "Viewers stop starting new series because they fear cancellations.",
+        "expectedImpact": "More people starting new originals.",
+        "metricToTrack": "New series starts per member",
+        "effort": "medium"
+      },
+      {
+        "idea": "India cricket-adjacent content and a low-priced ad plan bundled with telecoms.",
+        "problem": "Netflix is premium-only in India and loses price-sensitive users.",
+        "expectedImpact": "More Indian members at a lower price.",
+        "metricToTrack": "Indian member households",
+        "effort": "high"
+      },
+      {
+        "idea": "Better ad targeting tools and measurement for small advertisers.",
+        "problem": "Ad revenue outlook cut from $3 billion to $2.7 billion.",
+        "expectedImpact": "Higher fill rate and ad revenue per member.",
+        "metricToTrack": "Ad revenue per ad plan member",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Scale changes the math. A show costs the same whether 10 million or 100 million people watch, so more members means higher margins.",
+      "Pricing is a product decision. The ad plan, Mobile plan and paid sharing each opened money that a single price could not.",
+      "Removing a 'free' behaviour like password sharing can work if you give people a clear paid path.",
+      "Recommendations are about saving time. Netflix wins when members find something to watch quickly."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Netflix cut its ad revenue forecast. Why might that be, and what would you do?",
+        "hint": "Break ad revenue into members on the ad plan, hours, ad load, fill rate and price. Find the weak link and propose fixes."
+      },
+      {
+        "question": "How would you grow Netflix in India?",
+        "hint": "Look at price, telecom bundles, local content, sports gaps and payment. Compare with JioHotstar. Pick a target segment."
+      },
+      {
+        "question": "Should Netflix buy more live sports rights?",
+        "hint": "Weigh new sign-ups, ad revenue and retention against rights cost and stream risk. Suggest a test like one-off events."
+      },
+      {
+        "question": "Design a feature to reduce the time people spend choosing what to watch.",
+        "hint": "Define the problem with data like time to first play. Propose options, pick one, and set success and guardrail metrics."
+      },
+      {
+        "question": "How would you measure whether the password sharing crackdown succeeded?",
+        "hint": "Look at net new members, extra members, churn among payers, revenue per member and customer complaints."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Operating margin",
+        "meaning": "The share of revenue left as profit after paying for running the business, before interest and taxes."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of members who cancel in a given period."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Paid sharing",
+        "meaning": "Netflix's rule that people outside your home need to pay to use your account."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ad slots that actually get an ad sold into them."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of members who stay subscribed over time."
+      },
+      {
+        "term": "Break-up fee",
+        "meaning": "Money one company pays another when a planned deal is called off."
+      },
+      {
+        "term": "Price per thousand ad views",
+        "meaning": "What advertisers pay for every 1,000 times an ad is shown, often called CPM."
+      }
+    ],
+    "assumptions": [
+      "Paying households of about 300 million or more is based on the last reported figure from 2025, since Netflix no longer reports subscribers.",
+      "US prices after the 2026 rise are approximate.",
+      "Content spending of about $18 billion is based on Netflix's earlier guidance, not a fresh 2026 figure.",
+      "Per-household profit is our rough calculation."
+    ]
+  }
+}

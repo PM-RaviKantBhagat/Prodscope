@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Pinterest",
+  "website": "pinterest.com",
+  "domain": "pinterest.com",
+  "market": "US · global",
+  "category": "Visual discovery",
+  "why": "Intent-rich discovery and shopping; Gen-Z turnaround."
+ },
+ {
+  "company": "ShareChat / Moj",
+  "website": "sharechat.com",
+  "domain": "sharechat.com",
+  "market": "India",
+  "category": "Social / short video",
+  "why": "Vernacular social for Bharat; filled the TikTok gap after the 2020 ban."
+ },
+ {
+  "company": "Truecaller",
+  "website": "truecaller.com",
+  "domain": "truecaller.com",
+  "market": "Sweden · India-first",
+  "category": "Caller ID / communication",
+  "why": "India is its biggest market; spam blocking, ads + subscription model."
+ },
+ {
+  "company": "YouTube",
+  "website": "youtube.com",
+  "domain": "youtube.com",
+  "market": "US · global",
+  "category": "Video platform",
+  "why": "Creator economy, Shorts vs. long-form, YouTube Premium and TV-first viewing."
+ },
+ {
+  "company": "Netflix",
+  "website": "netflix.com",
+  "domain": "netflix.com",
+  "market": "US · global",
+  "category": "Streaming",
+  "why": "Recommendations, ad tier, password-sharing crackdown and live events."
+ },
+ {
+  "company": "JioHotstar",
+  "website": "jiohotstar.com",
+  "domain": "jiohotstar.com",
+  "market": "India",
+  "category": "online streaming",
+  "why": "2025 merger of JioCinema and Disney+ Hotstar; IPL/cricket peaks, free-plus-paid tiers, ads."
+ },
+ {
+  "company": "Spotify",
+  "website": "spotify.com",
+  "domain": "spotify.com",
+  "market": "Sweden · global",
+  "category": "Music / audio",
+  "why": "Personalisation (Wrapped, DJ), podcasts and audiobooks; free-plus-paid conversion."
+ },
+ {
+  "company": "BBC iPlayer",
+  "website": "bbc.co.uk/iplayer",
+  "domain": "bbc.co.uk",
+  "market": "UK",
+  "category": "Public streaming",
+  "why": "Public-service streaming with log-ins and licence fee constraints."
+ },
+ {
+  "company": "Sky (Sky Glass)",
+  "website": "sky.com",
+  "domain": "sky.com",
+  "market": "UK",
+  "category": "TV / streaming",
+  "why": "app that combines many sellers TV and Sky Glass hardware; bundling content."
+ },
+ {
+  "company": "Twitch",
+  "website": "twitch.tv",
+  "domain": "twitch.tv",
+  "market": "US · global",
+  "category": "Live streaming",
+  "why": "Live creator economy; subs, bits and competition from YouTube and Kick."
+ },
+ {
+  "company": "CapCut",
+  "website": "capcut.com",
+  "domain": "capcut.com",
+  "market": "China · US/UK",
+  "category": "Video editing",
+  "why": "Creator tool that rides TikTok; banned in India."
+ },
+ {
+  "company": "Pocket FM",
+  "website": "pocketfm.com",
+  "domain": "pocketfm.com",
+  "market": "India · US",
+  "category": "Audio series",
+  "why": "Micro-payment audio dramas; grew fast in the US too. New content format case."
+ },
+ {
+  "company": "Kuku FM",
+  "website": "kukufm.com",
+  "domain": "kukufm.com",
+  "market": "India",
+  "category": "Audio / video",
+  "why": "Vernacular audiobooks and micro-dramas; filed for IPO."
+ }
+]

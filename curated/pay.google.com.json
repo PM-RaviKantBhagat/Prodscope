@@ -1,0 +1,396 @@
+{
+  "company": "Google Pay India",
+  "domain": "pay.google.com",
+  "website": "https://pay.google.com",
+  "sources": [
+    "https://www.businesstoday.in/latest/corporate/story/upi-mdr-google-pay-leads-paytm-to-gain-what-goldman-sachs-jefferies-see-for-other-upi-players-555887-2026-09-16",
+    "https://www.outlookbusiness.com/economy-and-policy/phonepe-google-pay-combined-upi-market-share-drops-below-80-for-first-time",
+    "https://www.angelone.in/news/economy/phonepe-and-google-pay-lead-upi-ecosystem-in-december-2025",
+    "https://www.business-standard.com/finance/news/google-pay-convenience-fee-credit-debit-card-bill-payments-125022000433_1.html",
+    "https://www.businesstoday.in/amp/tech-today/news/story/npci-extends-30-upi-market-share-cap-deadline-on-3rd-party-apps-to-december-2026-459171-2024-12-31",
+    "https://theprint.in/opinion/upi-is-ruled-by-2-foreign-owned-apps-the-fix-has-been-on-hold-for-6-years/3057456/",
+    "https://www.khaleejtimes.com/business/big-to-get-bigger-indias-upi-fee-shift-to-entrench-dominant-incumbents"
+  ],
+  "report": {
+    "company": "Google Pay India",
+    "tagline": "Google's UPI payments app in India, number two behind PhonePe, built on rewards, a clean design and Google's trust.",
+    "category": "Payments (UPI)",
+    "simpleSummary": "Google Pay, or GPay, is one of the two apps most Indians use to pay with UPI. You can scan a QR code at a shop, send money to friends by phone number, split bills and pay electricity or phone bills. It grew fast in its early years by giving scratch-card rewards for paying friends. It is free for most payments; Google earns from bill fees, loans it helps arrange, merchant services and, from 2026, a new fee on bigger merchant payments.",
+    "keyNumbers": [
+      {
+        "label": "UPI share by value",
+        "value": "About 35 percent (FY26)",
+        "note": "Jefferies estimate via Business Today, September 2026."
+      },
+      {
+        "label": "UPI share by volume",
+        "value": "About 27 percent (FY26)",
+        "note": "Jefferies estimate, Business Today. Other NPCI-based estimates have put it around 35 percent by count in 2025; figures vary by method."
+      },
+      {
+        "label": "PhonePe and Google Pay combined share",
+        "value": "Just under 80 percent",
+        "note": "Outlook Business, 2026: combined share fell below 80 percent for the first time. Still far above NPCI's planned 30 percent cap per app."
+      },
+      {
+        "label": "30 percent market share cap deadline",
+        "value": "31 December 2026",
+        "note": "NPCI extended the deadline in December 2024 by two years. It has been delayed several times since 2020."
+      },
+      {
+        "label": "Possible new UPI fee pool",
+        "value": "About ₹16,000 to ₹20,600 crore a year (industry)",
+        "note": "Goldman Sachs and press estimates for a 0.4 percent MDR on merchant UPI payments above ₹2,000, announced in 2026. Google Pay's share is not public."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Google Pay lets users in India make UPI payments to people and shops, pay bills and recharges, and apply for loans and credit cards from partner banks. Merchants use Google Pay for Business and QR codes, plus a SoundPod speaker in some areas. Google uses GPay to reach Indian users and businesses, and India is also where Google tests new payment ideas for the world.",
+      "howItWorks": [
+        "Download GPay, verify your phone number and link a bank account with a UPI PIN.",
+        "Pay by scanning any UPI QR, entering a phone number or UPI ID, or tapping a contact.",
+        "Rewards like scratch cards and cashback appear after some payments.",
+        "Pay bills and recharges; card-funded bill payments carry a small convenience fee.",
+        "Apply for personal loans, gold loans and co-branded credit cards from partner banks.",
+        "UPI Circle lets a trusted person, like a parent, pay from your account with limits."
+      ],
+      "valueProposition": "A simple, trusted way to pay anyone in India, backed by Google, with occasional rewards."
+    },
+    "personas": [
+      {
+        "name": "Urban young professional",
+        "description": "A 26-year-old software tester in Hyderabad who uses GPay for rent splits, food and travel.",
+        "goals": [
+          "Fast, simple payments",
+          "Split bills with friends",
+          "Earn some rewards"
+        ],
+        "frustrations": [
+          "Rewards are now small and rare",
+          "Fees on credit card bill payments",
+          "Occasional payment failures at peak times"
+        ]
+      },
+      {
+        "name": "Small merchant",
+        "description": "A vegetable seller in Mysuru who has both a GPay and a PhonePe QR on the cart.",
+        "goals": [
+          "Get paid without cash",
+          "Know instantly when money arrives",
+          "Access small loans"
+        ],
+        "frustrations": [
+          "Does not want to pay new fees",
+          "Support is hard to reach",
+          "Too many QR codes from different apps"
+        ]
+      },
+      {
+        "name": "Parent new to digital payments",
+        "description": "A 55-year-old in Coimbatore whose son set up GPay for her.",
+        "goals": [
+          "Pay safely without help",
+          "Avoid fraud",
+          "Use Tamil in the app"
+        ],
+        "frustrations": [
+          "Scam calls and fake payment requests",
+          "Fear of pressing the wrong button"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Cash is unsafe and change is always short.",
+        "howSolved": "Instant UPI payments by QR or phone number.",
+        "severity": "high"
+      },
+      {
+        "pain": "Splitting bills with friends is awkward.",
+        "howSolved": "Group payments and split features.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying bills on many websites wastes time.",
+        "howSolved": "All bills and recharges in one place with reminders.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Family members without bank accounts or confidence cannot pay digitally.",
+        "howSolved": "UPI Circle lets a trusted person pay from your account with limits.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Getting a small loan from a bank is slow.",
+        "howSolved": "Pre-approved personal and gold loans from partner lenders inside GPay.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "UPI payments",
+        "whatItDoes": "Pay people and merchants instantly.",
+        "whyItMatters": "The daily habit that keeps hundreds of millions of users."
+      },
+      {
+        "feature": "Rewards and scratch cards",
+        "whatItDoes": "Gives cashback, coupons and scratch cards after payments.",
+        "whyItMatters": "Drove early growth and still nudges usage, though rewards are much smaller now."
+      },
+      {
+        "feature": "Bill payments",
+        "whatItDoes": "Electricity, mobile, credit card and other bills.",
+        "whyItMatters": "Earns convenience fees on card-funded bills and adds reasons to open the app."
+      },
+      {
+        "feature": "Loans and credit",
+        "whatItDoes": "Personal loans, gold loans and co-branded credit cards with partner banks.",
+        "whyItMatters": "One of the few ways to earn real money from payment users."
+      },
+      {
+        "feature": "UPI Circle and security features",
+        "whatItDoes": "Delegated payments for family and fraud warnings.",
+        "whyItMatters": "Brings new, less digital users and builds trust."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First payment with rewards",
+        "persona": "Urban young professional",
+        "steps": [
+          { "step": "Joins by referral", "detail": "A friend sends an invite link." },
+          { "step": "Links bank", "detail": "Verifies phone and sets UPI PIN." },
+          { "step": "Pays a friend", "detail": "Sends ₹500 for dinner." },
+          { "step": "Gets a scratch card", "detail": "Wins a small cashback or coupon." },
+          { "step": "Splits bills", "detail": "Starts a group for flat expenses." },
+          { "step": "Uses daily", "detail": "Pays for food, cabs and shopping." }
+        ]
+      },
+      {
+        "name": "Paying a credit card bill",
+        "persona": "Urban young professional",
+        "steps": [
+          { "step": "Gets a reminder", "detail": "GPay shows the card bill due date." },
+          { "step": "Chooses to pay", "detail": "Taps Pay bill." },
+          { "step": "Picks method", "detail": "Pays from bank by UPI for free, or with another card for a fee." },
+          { "step": "Sees fee", "detail": "A convenience fee of about 0.5 to 1 percent plus GST appears for card payments." },
+          { "step": "Confirms", "detail": "Pays and gets confirmation." }
+        ]
+      },
+      {
+        "name": "Merchant sets up",
+        "persona": "Small merchant",
+        "steps": [
+          { "step": "Downloads business app", "detail": "Installs Google Pay for Business." },
+          { "step": "Verifies shop", "detail": "Adds bank account and KYC." },
+          { "step": "Prints QR", "detail": "Displays the QR code on the cart." },
+          { "step": "Receives payments", "detail": "Gets alerts for each payment." },
+          { "step": "Sees loan offer", "detail": "Gets a small business loan offer from a partner lender." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Google Pay earns very little directly from UPI payments because the government has banned fees on most of them. It makes money from convenience fees on card-funded bill payments, commissions on loans and credit cards, merchant services and ads, and gains strategic value by keeping Google close to Indian users. A new 0.4 percent fee on larger merchant UPI payments, announced in 2026, could give it real revenue.",
+      "revenueStreams": [
+        { "stream": "Convenience fees", "detail": "About 0.5 to 1 percent plus GST on bill payments made with credit or debit cards, introduced in 2025." },
+        { "stream": "Lending and credit cards", "detail": "Fees from partner banks and NBFCs for loans and co-branded cards." },
+        { "stream": "Merchant MDR (from 2026)", "detail": "A 0.4 percent fee on eligible merchant UPI payments above ₹2,000, with small merchants exempt, start reportedly postponed to after Diwali 2026." },
+        { "stream": "Rewards and offers partnerships", "detail": "Brands pay to place coupons and offers in GPay." },
+        { "stream": "Strategic value", "detail": "Data and engagement that help Google's wider business in India, like Android, Ads and Play." }
+      ],
+      "pricing": "UPI payments are free for users and most merchants. Card-funded bill payments carry a convenience fee of about 0.5 to 1 percent plus GST. Loans and cards follow partner pricing.",
+      "costDrivers": [
+        "Rewards and cashback",
+        "Servers and engineering for billions of payments",
+        "Customer support and fraud control",
+        "Merchant acquisition and partner bank fees",
+        "Marketing"
+      ],
+      "unitEconomics": "On a normal ₹200 UPI payment, Google Pay earns ₹0 and pays a small cost to process it. On a ₹10,000 credit card bill paid with another card, it might earn about ₹50 to ₹100 in convenience fee. On a ₹1 lakh personal loan it might earn ₹1,000 to ₹2,000 from the lender. Under the new MDR, a ₹5,000 payment at a large merchant could bring about ₹20 to be shared across banks and apps. Google does not report GPay India profit; these are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Scratch-card rewards and referral bonuses in early years",
+        "Pre-installed or promoted on Android phones",
+        "Word of mouth: people need it to pay and receive money",
+        "Merchant QR codes at shops",
+        "Google brand trust"
+      ],
+      "whatBringsUsersBack": [
+        "Frequent small payments",
+        "Bill reminders",
+        "Occasional rewards",
+        "Loan repayments"
+      ],
+      "moat": "GPay's moat is habit, Google trust and Android reach, plus being one of only two apps with huge scale. But UPI is open and free, so users can switch apps instantly, and the 30 percent cap, if enforced, could force it to shrink."
+    },
+    "competitors": [
+      {
+        "name": "PhonePe",
+        "positioning": "UPI market leader with about half of transactions and many financial products.",
+        "howThisProductDiffers": "GPay is simpler and Google-backed; PhonePe has more merchants and products."
+      },
+      {
+        "name": "Paytm",
+        "positioning": "Profitable payments company strong with merchant soundboxes.",
+        "howThisProductDiffers": "Paytm earns more per merchant; GPay has more consumer users."
+      },
+      {
+        "name": "Navi, CRED and super.money",
+        "positioning": "Newer UPI apps using cashback and rewards to gain share.",
+        "howThisProductDiffers": "They gain share with offers; GPay relies on habit."
+      },
+      {
+        "name": "Bank apps and BHIM",
+        "positioning": "Bank-owned UPI apps and NPCI's own app.",
+        "howThisProductDiffers": "Could gain if the cap pushes users from big apps."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly active users making at least four successful UPI payments",
+      "why": "Regular successful payments show GPay is part of daily life. That habit is what every other product, from loans to bills, is built on."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly active payers",
+        "description": "Users who pay at least once a month.",
+        "children": [
+          { "metric": "New users from referrals", "description": "Sign-ups from invite links." },
+          { "metric": "Reactivation rate", "description": "Lapsed users who return." }
+        ]
+      },
+      {
+        "metric": "Payment frequency",
+        "description": "How often each user pays.",
+        "children": [
+          { "metric": "Payments per user per month", "description": "Average UPI payments by each user." },
+          { "metric": "Merchant payment share", "description": "Share of payments to shops, not people." }
+        ]
+      },
+      {
+        "metric": "Payment reliability",
+        "description": "Whether payments go through smoothly.",
+        "children": [
+          { "metric": "Success rate", "description": "Share of payments that succeed first time." },
+          { "metric": "Refund time", "description": "Time to refund failed payments." }
+        ]
+      },
+      {
+        "metric": "Monetised users",
+        "description": "Users who bring in money.",
+        "children": [
+          { "metric": "Loan uptake", "description": "Share of eligible users who take a loan." },
+          { "metric": "Card bill payments", "description": "Number of fee-bearing bill payments." },
+          { "metric": "MDR-eligible merchant volume", "description": "Value of merchant payments above ₹2,000." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud rate per million transactions",
+      "Payment success rate",
+      "Share of users leaving after new fees",
+      "Loan default rate with partners"
+    ],
+    "strengths": [
+      "Google brand and trust",
+      "Simple, clean app",
+      "Large share of UPI value, about 35 percent",
+      "Android reach and Google's tech"
+    ],
+    "weaknesses": [
+      "Earns little on its main product",
+      "Fewer financial products than PhonePe",
+      "Weaker with small merchants than PhonePe and Paytm",
+      "Rewards that once drove growth have shrunk"
+    ],
+    "risks": [
+      "NPCI's 30 percent cap deadline at end of 2026",
+      "Regulators and politicians wanting Indian-owned apps to lead UPI",
+      "New MDR rules being delayed or watered down",
+      "Fintech rivals buying share with cashback",
+      "Fraud incidents hurting trust"
+    ],
+    "userComplaints": [
+      "Convenience fees on card bill payments",
+      "Rewards are smaller than before",
+      "Failed payments and slow refunds",
+      "Hard to reach human support",
+      "Scam payment requests"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear fee preview with a free option highlighted on every bill payment",
+        "problem": "Users feel surprised by convenience fees.",
+        "expectedImpact": "Less anger and churn.",
+        "metricToTrack": "Bill payment drop-off rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Merchant MDR explainer and dashboard showing which payments carry fees",
+        "problem": "Merchants are confused and may push customers to other apps or cash.",
+        "expectedImpact": "Keeps merchants on GPay as fees start.",
+        "metricToTrack": "MDR-eligible merchant volume",
+        "effort": "medium"
+      },
+      {
+        "idea": "Real-time scam warning for collect requests from unknown contacts",
+        "problem": "Fraud through fake payment requests.",
+        "expectedImpact": "Fewer losses and more trust.",
+        "metricToTrack": "Fraud rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Plan for the 30 percent cap: focus on high-value users and merchants if volume must shrink",
+        "problem": "The cap could force GPay to stop onboarding users.",
+        "expectedImpact": "Protects revenue even if volume is capped.",
+        "metricToTrack": "Revenue per active user",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Rewards can build a habit fast, but you must plan how to keep users when rewards shrink.",
+      "Regulation can decide your revenue. A rule like zero MDR, or a new MDR, changes the business overnight.",
+      "Being number two in a two-player market is still powerful, but rules can target both leaders.",
+      "Fees must be clear. Surprise fees cause more anger than the money itself."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Google Pay earns almost nothing from UPI. Why does Google run it?",
+        "hint": "Mention strategic value: data, Android, ads and India as a test market. Then list direct revenue paths. Weigh both."
+      },
+      {
+        "question": "How should Google Pay respond to the 30 percent UPI market share cap?",
+        "hint": "Discuss scenarios: cap enforced, delayed, softened. Plan for each: focus on value over volume, partnerships, lobbying."
+      },
+      {
+        "question": "A new 0.4 percent MDR applies to larger merchant payments. How would you launch it without losing merchants?",
+        "hint": "Communicate clearly, show value, exempt small shops, offer tools like reports and loans. Track merchant churn and volume."
+      },
+      {
+        "question": "What would you build to win small merchants from PhonePe and Paytm?",
+        "hint": "Understand merchant needs: alerts, settlement speed, loans. Propose one feature like a speaker or loan line. Define a metric."
+      },
+      {
+        "question": "What is the north star metric for Google Pay India?",
+        "hint": "Habitual payers making several successful payments a month. Break into active payers, frequency, reliability and monetised users."
+      }
+    ],
+    "glossary": [
+      { "term": "UPI", "meaning": "Unified Payments Interface: India's free, instant bank-to-bank payment system." },
+      { "term": "NPCI", "meaning": "National Payments Corporation of India, the body that runs UPI." },
+      { "term": "MDR", "meaning": "Merchant discount rate: the fee a shop pays on a digital payment." },
+      { "term": "Convenience fee", "meaning": "A small extra charge for paying a bill with a card." },
+      { "term": "NBFC", "meaning": "Non-bank financial company that can lend but is not a bank." },
+      { "term": "Market share cap", "meaning": "A rule limiting how much of the market one company can hold." },
+      { "term": "Churn", "meaning": "Users or merchants who stop using a product." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives users." },
+      { "term": "KYC", "meaning": "Know your customer: checks to verify identity." }
+    ],
+    "assumptions": [
+      "Market share figures vary by source and method; the Jefferies FY26 figures are used.",
+      "Google does not publish Google Pay India users or revenue; revenue per payment figures are rough estimates.",
+      "The new UPI MDR start date and final terms were not confirmed.",
+      "Convenience fee rates are from 2025 reports and may differ by card and biller."
+    ]
+  }
+}

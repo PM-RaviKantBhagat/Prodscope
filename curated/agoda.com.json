@@ -1,0 +1,394 @@
+{
+  "company": "Agoda",
+  "domain": "agoda.com",
+  "website": "https://www.agoda.com",
+  "sources": [
+    "https://www.malaymail.com/news/money/mediaoutreach/2026/10/24/agoda-makes-bangkok-its-largest-office-worldwide-with-more-than-4500-staff/496470",
+    "https://www.whalesbook.com/news/English/tourism/Agodas-India-Play-Why-Double-Digit-Growth-Masks-High-Costs/6a1a707705f03b9a55ad8fca",
+    "https://www.agoda.com/press/agoda-data-shows-booking-flexibility-is-a-growing-priority-for-asian-travelers-in-2026/",
+    "https://www.tribuneindia.com/news/business/agoda-reveals-europes-2026-summer-travel-interest-to-asia-searches-to-india-climb/",
+    "https://thethaiger.com/travel/agodas-plan-make-everything-possible-for-partners-2026",
+    "https://uk.trustpilot.com/review/www.agoda.com?page=5",
+    "https://stocktitan.net/articles/booking-holdings-q3-2026-earnings-ftc-900-million-revenue-cut"
+  ],
+  "report": {
+    "company": "Agoda",
+    "tagline": "An Asia-focused travel booking app, owned by Booking Holdings, known for cheap hotel deals across Asia.",
+    "category": "Travel",
+    "simpleSummary": "Agoda is a travel app where you book hotels, homes, flights and activities, mostly for trips in Asia. It is popular with Indians travelling to Thailand, Bali, Vietnam or Dubai because it often shows the lowest hotel prices. It began in Bangkok and is now part of Booking Holdings, the same group as Booking.com. Agoda keeps a cut, or a markup, on each booking.",
+    "keyNumbers": [
+      {
+        "label": "Staff in Bangkok",
+        "value": "4,500+ (largest office)",
+        "note": "Agoda press release, October 2026. Total global headcount is higher, estimated at about 7,000."
+      },
+      {
+        "label": "Properties listed",
+        "value": "About 5 to 6 million hotels and homes",
+        "note": "Estimate from Agoda's About page claims; exact 2026 figure not confirmed."
+      },
+      {
+        "label": "Agoda India entity revenue, FY25",
+        "value": "₹47.5 crore, up 48%",
+        "note": "Local Indian service company only, not the value of bookings by Indians. Whalesbook, May 2026; source quality is weak."
+      },
+      {
+        "label": "Agoda India entity profit, FY25",
+        "value": "₹5 crore, up 64%",
+        "note": "Same weak source as above."
+      },
+      {
+        "label": "Parent group room nights, Q3 2026",
+        "value": "345 million (all Booking Holdings brands)",
+        "note": "Agoda does not report its own figures. Booking Holdings Q3 2026 results."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Agoda is an online travel agency (OTA) that sells hotel rooms, holiday homes, flights, activities and airport transfers. It is strongest in Southeast Asia, India, Japan and Korea. Guests usually pay Agoda upfront, and Agoda pays the hotel after the stay.",
+      "howItWorks": [
+        "Hotels and hosts list rooms on Agoda's YCS partner system, and Agoda also pulls rooms from Booking.com and wholesalers.",
+        "Guests search and compare prices, often seeing big strike-through discounts and member-only deals.",
+        "Most bookings are prepaid to Agoda, so Agoda handles payment in many currencies.",
+        "Agoda keeps a commission or a markup between what it pays the hotel and what the guest pays.",
+        "AgodaCash rewards, VIP tiers and app-only deals bring guests back."
+      ],
+      "valueProposition": "The cheapest-looking deals for stays across Asia, in local languages and currencies, including small hotels and homes that global sites miss."
+    },
+    "personas": [
+      {
+        "name": "Indian traveller going to Southeast Asia",
+        "description": "A 28-year-old from Mumbai planning a Thailand or Bali trip with friends.",
+        "goals": [
+          "Lowest hotel price",
+          "Pay in rupees with UPI or card",
+          "Flight plus hotel deals"
+        ],
+        "frustrations": [
+          "Taxes and fees added at the end",
+          "Non-refundable cheapest rooms",
+          "Hard to change a booking"
+        ]
+      },
+      {
+        "name": "Backpacker",
+        "description": "A student travelling across Vietnam on a tight budget.",
+        "goals": [
+          "Cheap hostels and guesthouses",
+          "Book on the go in the app"
+        ],
+        "frustrations": [
+          "Property not matching photos",
+          "Hotel saying the booking is not in their system"
+        ]
+      },
+      {
+        "name": "Small hotel owner in Asia",
+        "description": "Runs a 20-room guesthouse in Ooty or Chiang Mai.",
+        "goals": [
+          "Foreign and domestic guests",
+          "Simple tools and fast payouts"
+        ],
+        "frustrations": [
+          "Commission costs",
+          "Agoda showing lower prices than the hotel's own site"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Hotels across Asia are hard to compare in one place.",
+        "howSolved": "Large Asian supply, including small hotels and homes, with reviews and maps.",
+        "severity": "high"
+      },
+      {
+        "pain": "Travellers want the lowest price.",
+        "howSolved": "Aggressive deals, member prices, app-only discounts and AgodaCash.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paying in foreign currencies is confusing.",
+        "howSolved": "Prices and payment in local currency, including rupees.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small Asian hotels cannot reach international guests.",
+        "howSolved": "Agoda lists them in about 40 languages and markets them.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Booking flights and hotels separately costs more.",
+        "howSolved": "Flight plus hotel bundles with extra discounts.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Hotel and home search with deals",
+        "whatItDoes": "Shows rooms with discount tags, ratings and photos.",
+        "whyItMatters": "Price is the main reason users pick Agoda."
+      },
+      {
+        "feature": "Flights and bundles",
+        "whatItDoes": "Books flights and offers cheaper prices when bundled with a hotel.",
+        "whyItMatters": "Raises spend per trip and hides hotel prices from easy comparison."
+      },
+      {
+        "feature": "AgodaCash and VIP",
+        "whatItDoes": "Cashback and tiers that unlock better prices.",
+        "whyItMatters": "Builds repeat bookings without paying Google again."
+      },
+      {
+        "feature": "Book now, pay later",
+        "whatItDoes": "Lets guests reserve and pay closer to the stay.",
+        "whyItMatters": "Asian travellers increasingly want flexibility, per Agoda 2026 data."
+      },
+      {
+        "feature": "YCS partner tools",
+        "whatItDoes": "Hotel dashboard for rates, availability, promotions and payouts.",
+        "whyItMatters": "Keeps small hotels on Agoda and lets them run promotions."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First Bangkok hotel booking",
+        "persona": "Indian traveller going to Southeast Asia",
+        "steps": [
+          {"step": "Compares on Google", "detail": "Sees Agoda among cheapest on a price comparison."},
+          {"step": "Opens Agoda", "detail": "Checks rupee price and deal tag."},
+          {"step": "Filters", "detail": "Picks area near BTS, rating 8+, breakfast."},
+          {"step": "Picks rate", "detail": "Chooses between cheaper non-refundable and free cancellation."},
+          {"step": "Pays", "detail": "Pays by card or UPI and sees final taxes."},
+          {"step": "Gets voucher", "detail": "Receives confirmation to show at the hotel."},
+          {"step": "Earns AgodaCash", "detail": "Gets cashback for the next trip."}
+        ]
+      },
+      {
+        "name": "Booking problem at check-in",
+        "persona": "Backpacker",
+        "steps": [
+          {"step": "Arrives", "detail": "Hotel cannot find the booking."},
+          {"step": "Contacts Agoda", "detail": "Uses chat in the app."},
+          {"step": "Waits", "detail": "Agent contacts hotel while guest waits."},
+          {"step": "Gets fix or refund", "detail": "Booking is found or guest is rebooked or refunded."},
+          {"step": "Reviews", "detail": "Leaves a review on Agoda or Trustpilot."}
+        ]
+      },
+      {
+        "name": "Hotel joins Agoda",
+        "persona": "Small hotel owner in Asia",
+        "steps": [
+          {"step": "Signs up", "detail": "Registers on Agoda YCS."},
+          {"step": "Lists rooms", "detail": "Adds photos and sets rates."},
+          {"step": "Runs promotions", "detail": "Adds deals for mobile or members."},
+          {"step": "Gets bookings", "detail": "Receives prepaid bookings."},
+          {"step": "Gets paid", "detail": "Receives payout after checkout minus commission."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Agoda mostly uses a merchant model: guests pay Agoda upfront, and Agoda pays the hotel later at a lower price. The gap, usually about 15% to 20%, is Agoda's revenue. It also earns from flights, activities and ads.",
+      "revenueStreams": [
+        {"stream": "Hotel and home bookings", "detail": "Commission or markup on prepaid stays. The main source."},
+        {"stream": "Flights", "detail": "Fees and margins on flight tickets."},
+        {"stream": "Activities and transfers", "detail": "Commissions on tours and airport rides."},
+        {"stream": "Promotions and ads", "detail": "Hotels pay for better placement and deals."},
+        {"stream": "Payments", "detail": "Currency conversion margins on prepaid bookings."}
+      ],
+      "pricing": "Free for travellers; prices include deals and show taxes at checkout. Hotels pay commission of roughly 15% to 20%, not public.",
+      "costDrivers": [
+        "Google and metasearch ads such as Trivago and Skyscanner",
+        "Discounts and AgodaCash",
+        "Customer support in many languages",
+        "Payment fees across many currencies",
+        "Large tech team in Bangkok and other hubs"
+      ],
+      "unitEconomics": "Rough example. An Indian guest books 3 nights in Bangkok at ₹4,000 a night, so ₹12,000. Agoda might keep about ₹2,000 (around 17%). If the guest came from a Google ad or price comparison site, Agoda might spend ₹600 to ₹900 for that click. AgodaCash and discounts may take another ₹300. Payment and support costs add ₹200. So Agoda keeps around ₹600 to ₹900 on a first booking, and more on a repeat booking through the app."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google hotel ads and metasearch sites, where Agoda bids for the cheapest price slot",
+        "App-only deals and flash sales",
+        "Partnerships with banks, airlines and wallets in Asia",
+        "Sharing supply with Booking.com"
+      ],
+      "whatBringsUsersBack": [
+        "AgodaCash rewards",
+        "VIP tiers with better prices",
+        "Saved details and trip history",
+        "Habit of checking Agoda first for Asian trips"
+      ],
+      "moat": "Agoda has deep supply of small Asian hotels and homes, local payment options, and Booking Holdings' scale behind it. Its large engineering team runs many price and design tests. Rivals can copy discounts, but building supply in thousands of Asian towns takes years."
+    },
+    "competitors": [
+      {
+        "name": "Booking.com",
+        "positioning": "Same parent; global hotel leader, strongest in Europe.",
+        "howThisProductDiffers": "Agoda is cheaper and stronger in Asia, mostly prepaid; Booking.com leads in Europe with pay-at-hotel options."
+      },
+      {
+        "name": "MakeMyTrip",
+        "positioning": "India's biggest OTA with flights, buses and packages.",
+        "howThisProductDiffers": "Agoda is often cheaper for Southeast Asia hotels; MakeMyTrip wins on Indian domestic trips and brand trust."
+      },
+      {
+        "name": "Trip.com",
+        "positioning": "Chinese OTA growing fast in Asia, strong in flights.",
+        "howThisProductDiffers": "Agoda is stronger in hotels in Southeast Asia; Trip.com is stronger in flights and China."
+      },
+      {
+        "name": "Airbnb",
+        "positioning": "Homes and experiences marketplace.",
+        "howThisProductDiffers": "Agoda offers both hotels and homes with deals; Airbnb has a stronger brand for homes."
+      }
+    ],
+    "northStar": {
+      "metric": "Room nights stayed per month by guests who complete their trip",
+      "why": "This north star counts real stays where guests got a room they paid for, which reflects value to both guests and hotels."
+    },
+    "kpiTree": [
+      {
+        "metric": "Visitors from search and app",
+        "description": "How many travellers come to Agoda.",
+        "children": [
+          {"metric": "Metasearch win rate", "description": "How often Agoda shows the lowest price on Google and metasearch."},
+          {"metric": "App monthly users", "description": "People using the app each month."},
+          {"metric": "Direct traffic share", "description": "Visits with no paid ad."}
+        ]
+      },
+      {
+        "metric": "Conversion",
+        "description": "Share of visitors who book.",
+        "children": [
+          {"metric": "Price shown versus final price gap", "description": "How much the price rises at checkout."},
+          {"metric": "Payment success rate", "description": "Payments approved, including UPI."},
+          {"metric": "Refundable rate availability", "description": "Share of hotels with free cancellation options."}
+        ]
+      },
+      {
+        "metric": "Repeat bookings",
+        "description": "How often guests return.",
+        "children": [
+          {"metric": "AgodaCash redemption", "description": "Guests using cashback on a new booking."},
+          {"metric": "VIP tier growth", "description": "Guests reaching higher tiers."},
+          {"metric": "Flight to hotel attach", "description": "Flight bookers who add a hotel."}
+        ]
+      },
+      {
+        "metric": "Stay success",
+        "description": "Bookings that end in a smooth stay.",
+        "children": [
+          {"metric": "Booking not found cases", "description": "Hotels unable to see the reservation."},
+          {"metric": "Refund time", "description": "Days to refund after a problem."},
+          {"metric": "Review score", "description": "Average guest rating."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Trustpilot and app store ratings",
+      "Refund complaints",
+      "Marketing cost per booking",
+      "Hotel partner churn"
+    ],
+    "strengths": [
+      "Strong position in Asian hotels, including small properties",
+      "Often the cheapest price on comparison sites",
+      "Backed by Booking Holdings' money and supply",
+      "Large engineering team running constant tests"
+    ],
+    "weaknesses": [
+      "Many complaints about support and refunds",
+      "Prices that look low until taxes are added",
+      "Weaker brand trust in India than MakeMyTrip",
+      "Heavy reliance on paid traffic from Google and metasearch"
+    ],
+    "risks": [
+      "Consumer rules on drip pricing and hidden fees",
+      "Trip.com and MakeMyTrip fighting for Asian travellers",
+      "AI assistants and Google taking more of the booking journey",
+      "Geopolitical shocks that cut Asian travel"
+    ],
+    "userComplaints": [
+      "Hotel says it has no record of the booking",
+      "Slow or refused refunds, especially on non-refundable rooms",
+      "Taxes and fees appearing late",
+      "Support scripted and slow",
+      "Property not matching photos"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show the full price including taxes from the first search result",
+        "problem": "Users feel tricked when price rises at checkout.",
+        "expectedImpact": "More trust, fewer complaints and less regulatory risk.",
+        "metricToTrack": "Checkout drop-off rate and fee complaints",
+        "effort": "medium"
+      },
+      {
+        "idea": "Booking confirmed by hotel badge within 1 hour of booking",
+        "problem": "Guests arrive and hotels cannot find the booking.",
+        "expectedImpact": "Fewer check-in failures.",
+        "metricToTrack": "Booking not found cases per 10,000 stays",
+        "effort": "medium"
+      },
+      {
+        "idea": "Hindi and regional language support and UPI-first checkout for Indian users",
+        "problem": "Agoda trails MakeMyTrip in trust in India.",
+        "expectedImpact": "Higher conversion among Indian travellers.",
+        "metricToTrack": "Conversion rate for India traffic",
+        "effort": "low"
+      },
+      {
+        "idea": "Human support guarantee within 10 minutes for guests at check-in",
+        "problem": "Slow support during urgent problems.",
+        "expectedImpact": "Better reviews and repeat bookings.",
+        "metricToTrack": "Time to first human reply for urgent cases",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Focus can beat size. Agoda wins in Asia by knowing local hotels, payments and languages better than global rivals.",
+      "Winning on price brings users, but trust keeps them. Support failures undo cheap prices.",
+      "Inside a group, sister brands can cover different regions instead of fighting each other.",
+      "Prepaid bookings give cash early but raise the stakes when a booking goes wrong."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow Agoda's share of Indian travellers going to Southeast Asia?",
+        "hint": "Segment travellers, compare with MakeMyTrip, pick levers (UPI, bundles, trust, language), and measure conversion and repeat rate."
+      },
+      {
+        "question": "Agoda and Booking.com have the same owner. Should they merge?",
+        "hint": "Think about brand, regions, supply sharing, tech costs and customer confusion. Pick a side with reasons."
+      },
+      {
+        "question": "Guests often complain that hotels cannot find their booking. How do you fix it?",
+        "hint": "Map where the booking breaks (sync, wholesale supply), add confirmation checks, measure failure rate."
+      },
+      {
+        "question": "What north star would you pick for Agoda?",
+        "hint": "Stayed room nights, not bookings or revenue, broken into traffic, conversion, repeat and stay success."
+      },
+      {
+        "question": "Should Agoda show non-refundable rooms first because they are cheaper?",
+        "hint": "Weigh conversion against cancellation complaints and trust; propose an A/B test with guardrails."
+      }
+    ],
+    "glossary": [
+      {"term": "OTA", "meaning": "Online travel agency: a site that sells other companies' rooms and tickets."},
+      {"term": "Merchant model", "meaning": "When the platform collects payment from the guest and pays the hotel later."},
+      {"term": "Metasearch", "meaning": "Sites like Google Hotels or Trivago that compare prices from many booking sites."},
+      {"term": "Conversion", "meaning": "The share of visitors who complete a booking."},
+      {"term": "Attach", "meaning": "When a customer adds another product, like a hotel, to their first purchase."},
+      {"term": "Drip pricing", "meaning": "Showing a low price first and adding fees later in checkout."},
+      {"term": "Room nights", "meaning": "One room booked for one night."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that customers are getting value."},
+      {"term": "Churn", "meaning": "When customers or partners stop using a product."},
+      {"term": "A/B test", "meaning": "An experiment comparing two versions of a page to see which works better."}
+    ],
+    "assumptions": [
+      "Agoda does not publish its own revenue or bookings; group numbers from Booking Holdings are used for scale.",
+      "Property count and global headcount are estimates.",
+      "Commission of 15% to 20% is a typical industry range, not an Agoda disclosure.",
+      "The Agoda India entity figures come from a weak source and only cover the local service company."
+    ]
+  }
+}

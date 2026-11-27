@@ -1,0 +1,106 @@
+[
+ {
+  "company": "CRED",
+  "website": "cred.club",
+  "domain": "cred.club",
+  "market": "India",
+  "category": "Money app / rewards",
+  "why": "Premium-user positioning and brand-led growth; how to make money from high-intent users."
+ },
+ {
+  "company": "Groww",
+  "website": "groww.in",
+  "domain": "groww.in",
+  "market": "India",
+  "category": "Investing",
+  "why": "Listed in late 2025; simplified onboarding for first-time investors made it India's top broker."
+ },
+ {
+  "company": "Zerodha (Kite)",
+  "website": "zerodha.com",
+  "domain": "zerodha.com",
+  "market": "India",
+  "category": "Investing",
+  "why": "Bootstrapped, no-ads, low-cost model; product as a edge over rivals and education-led growth."
+ },
+ {
+  "company": "Robinhood",
+  "website": "robinhood.com",
+  "domain": "robinhood.com",
+  "market": "US",
+  "category": "Investing",
+  "why": "Zero-commission trading, gamification ethics and expansion into crypto and banking."
+ },
+ {
+  "company": "Stripe",
+  "website": "stripe.com",
+  "domain": "stripe.com",
+  "market": "US/Ireland · global",
+  "category": "Payments infrastructure",
+  "why": "Developer-first developer tools design; a strong business product teardown."
+ },
+ {
+  "company": "Venmo",
+  "website": "venmo.com",
+  "domain": "venmo.com",
+  "market": "US",
+  "category": "person-to-person payments",
+  "why": "Social payments feed; compare with UPI apps."
+ },
+ {
+  "company": "Cash App",
+  "website": "cash.app",
+  "domain": "cash.app",
+  "market": "US",
+  "category": "Money app",
+  "why": "Bank for the unbanked; banking, investing and Bitcoin in one app."
+ },
+ {
+  "company": "Chime",
+  "website": "chime.com",
+  "domain": "chime.com",
+  "market": "US",
+  "category": "App-only bank",
+  "why": "Fee-free banking; listed in 2025. Compare with Monzo."
+ },
+ {
+  "company": "Amazon",
+  "website": "amazon.com",
+  "domain": "amazon.com",
+  "market": "US · global",
+  "category": "E-commerce",
+  "why": "Flywheel, Prime, one-click; Rufus AI shopping assistant. The most asked company in PM interviews."
+ },
+ {
+  "company": "Flipkart",
+  "website": "flipkart.com",
+  "domain": "flipkart.com",
+  "market": "India",
+  "category": "E-commerce",
+  "why": "IPO prep and a late-2026 leadership change; Big Billion Days scale, vernacular UX and Flipkart Minutes."
+ },
+ {
+  "company": "Shopify",
+  "website": "shopify.com",
+  "domain": "shopify.com",
+  "market": "Canada · global",
+  "category": "Commerce platform",
+  "why": "Platform for merchants; app ecosystem and AI tools (Sidekick)."
+ },
+ {
+  "company": "Tata Neu",
+  "website": "tataneu.com",
+  "domain": "tataneu.com",
+  "market": "India",
+  "category": "Super-app (loyalty)",
+  "why": "A conglomerate's super-app bet; why super-apps are hard to build."
+ },
+ {
+  "company": "Lenskart",
+  "website": "lenskart.com",
+  "domain": "lenskart.com",
+  "market": "India",
+  "category": "direct-to-customer eyewear",
+  "why": "Online-plus-stores direct-to-customer with tech-led try-on; 2025 IPO made it a hot interview topic."
+ }
+]

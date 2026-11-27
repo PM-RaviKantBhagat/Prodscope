@@ -1,0 +1,406 @@
+{
+  "company": "Snapchat",
+  "domain": "snapchat.com",
+  "website": "https://www.snapchat.com",
+  "sources": [
+    "https://socialmediatoday.com/news/snapchat-posts-modest-user-increase-in-q3/873823",
+    "https://www.mediapost.com/publications/article/419256/snap-q3-ad-growth-underwhelms-ceo.html",
+    "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/",
+    "https://newsroom.snap.com/india-mau-250m?lang=ro-RO",
+    "https://www.adnews.com.au/news/snap-edges-to-profitability",
+    "https://stockstory.org/us/stocks/nyse/snap/news/earnings/snap-nysesnap-reports-sales-below-analyst-estimates-in-q3-2026-earnings-stock-drops"
+  ],
+  "report": {
+    "company": "Snapchat",
+    "tagline": "A camera-first messaging app where friends send disappearing photos, use AR lenses and watch short videos.",
+    "category": "Social / camera",
+    "simpleSummary": "Snapchat opens straight to the camera. You take a photo or video, add a funny filter (called a Lens), and send it to friends, and it disappears after they view it. It also has Stories, a map of where friends are, short videos called Spotlight, and an AI chatbot. It is free and makes most money from ads, but a growing share comes from Snapchat+ subscriptions.",
+    "keyNumbers": [
+      {
+        "label": "Daily active users, Q3 2026",
+        "value": "495 million",
+        "note": "Up 2 million from Q2. All growth came from outside North America and Europe. Social Media Today, company results."
+      },
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$1.72 billion, up 14%",
+        "note": "Company results. Ad revenue grew only 4%; Other Revenue (mainly subscriptions) grew 84%."
+      },
+      {
+        "label": "Paid subscribers",
+        "value": "30 million+",
+        "note": "Across Snapchat+, Lens+ and Memories Storage, Q3 2026."
+      },
+      {
+        "label": "Revenue per user, Q3 2026",
+        "value": "$11.07 North America vs $1.13 Rest of World",
+        "note": "Quarterly average revenue per user. Company results."
+      },
+      {
+        "label": "India monthly users",
+        "value": "250 million+",
+        "note": "Snap newsroom. India is one of Snapchat's biggest user markets."
+      },
+      {
+        "label": "Specs AR glasses",
+        "value": "$2,200, pre-orders from September 2026",
+        "note": "Not yet a meaningful revenue source. Social Media Today."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Snapchat is a visual messaging app. Its main use is sending 'Snaps' (photos and videos) to close friends, often many times a day to keep 'Streaks' going. Around that it adds Stories, Spotlight short videos, Snap Map, AR Lenses and My AI.",
+      "howItWorks": [
+        "The app opens to the camera, so making a Snap is the first thing you do.",
+        "You add Lenses, filters or text and send it to friends or post to your Story.",
+        "Snaps disappear after viewing by default, which makes sharing feel casual and private.",
+        "Between Stories and Spotlight videos, Snap shows ads; advertisers also buy sponsored Lenses.",
+        "Snapchat+ (about ₹49 to ₹99 a month in India, $3.99 in the US) gives extra features like custom icons, Story rewatch info and priority My AI."
+      ],
+      "valueProposition": "A fun, low-pressure way to talk to close friends with pictures instead of text, without everything being saved forever."
+    },
+    "personas": [
+      {
+        "name": "Indian college student",
+        "description": "An 18-year-old in Delhi who sends Snaps to 20 friends daily to keep Streaks alive.",
+        "goals": [
+          "Stay close to friends",
+          "Fun Lenses",
+          "Privacy from family"
+        ],
+        "frustrations": [
+          "Losing Streaks",
+          "Ads between Stories"
+        ]
+      },
+      {
+        "name": "US teenager",
+        "description": "A 15-year-old who uses Snapchat as their main messaging app.",
+        "goals": [
+          "Chat with friends",
+          "See where friends are on Snap Map"
+        ],
+        "frustrations": [
+          "Pressure to reply",
+          "Parents worried about strangers"
+        ]
+      },
+      {
+        "name": "Parent",
+        "description": "Worried about who their teen talks to.",
+        "goals": [
+          "Safety without spying"
+        ],
+        "frustrations": [
+          "Disappearing messages hard to monitor"
+        ]
+      },
+      {
+        "name": "Brand advertiser",
+        "description": "A beauty brand wanting to reach Gen Z.",
+        "goals": [
+          "Reach young users",
+          "Try-on Lenses"
+        ],
+        "frustrations": [
+          "Weaker sales results than Meta"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Texting feels boring and permanent.",
+        "howSolved": "Disappearing photos and videos with Lenses.",
+        "severity": "high"
+      },
+      {
+        "pain": "Public social media feels high pressure.",
+        "howSolved": "Close-friend focus with no public like counts on Snaps.",
+        "severity": "high"
+      },
+      {
+        "pain": "Wanting to know where friends are.",
+        "howSolved": "Snap Map with opt-in location sharing.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Parents worry about teen safety.",
+        "howSolved": "Family Center to see who teens talk to, without seeing messages.",
+        "severity": "high"
+      },
+      {
+        "pain": "Brands struggle to reach Gen Z.",
+        "howSolved": "AR try-on Lenses and ads among young users.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Camera and Snaps",
+        "whatItDoes": "Opens to the camera; send disappearing photos and videos.",
+        "whyItMatters": "The core habit and Snapchat's main difference from Instagram."
+      },
+      {
+        "feature": "Lenses (AR filters)",
+        "whatItDoes": "Augmented reality effects on faces and the world, including AI Lenses.",
+        "whyItMatters": "Fun and unique; also sold to brands as sponsored Lenses."
+      },
+      {
+        "feature": "Streaks",
+        "whatItDoes": "Counts consecutive days two friends Snap each other.",
+        "whyItMatters": "Strong daily habit, though it can feel like pressure."
+      },
+      {
+        "feature": "Snapchat+",
+        "whatItDoes": "Paid subscription with extra features.",
+        "whyItMatters": "Part of 30 million+ subscribers; Other Revenue up 84%."
+      },
+      {
+        "feature": "Spotlight and Stories",
+        "whatItDoes": "Short videos and friend Stories with ads in between.",
+        "whyItMatters": "Main ad space; Spotlight viewers up 40%."
+      },
+      {
+        "feature": "Snap Map and My AI",
+        "whatItDoes": "Map of friends and places, and an AI chatbot.",
+        "whyItMatters": "Extra reasons to open the app."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "New user joins friends",
+        "persona": "Indian college student",
+        "steps": [
+          {"step": "Installs", "detail": "Friends ask for their Snap username."},
+          {"step": "Adds friends", "detail": "Syncs contacts and Quick Add."},
+          {"step": "Sends first Snap", "detail": "Uses a Lens selfie."},
+          {"step": "Starts Streak", "detail": "Snaps a friend three days in a row."},
+          {"step": "Watches Stories", "detail": "Sees friends' Stories with ads in between."},
+          {"step": "Returns daily", "detail": "Keeps Streaks alive."}
+        ]
+      },
+      {
+        "name": "Upgrading to Snapchat+",
+        "persona": "Indian college student",
+        "steps": [
+          {"step": "Sees feature", "detail": "Wants to see who rewatched a Story."},
+          {"step": "Opens offer", "detail": "Sees low monthly price in rupees."},
+          {"step": "Subscribes", "detail": "Pays via Google Play."},
+          {"step": "Uses perks", "detail": "Custom app icon, Streak restore."},
+          {"step": "Renews", "detail": "Keeps paying if perks feel worth it."}
+        ]
+      },
+      {
+        "name": "Parent sets up Family Center",
+        "persona": "Parent",
+        "steps": [
+          {"step": "Installs Snapchat", "detail": "Creates own account."},
+          {"step": "Invites teen", "detail": "Teen accepts Family Center invite."},
+          {"step": "Views friends list", "detail": "Sees who teen talks to."},
+          {"step": "Sets controls", "detail": "Limits content and AI features."},
+          {"step": "Reports", "detail": "Reports concerning accounts."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Snapchat makes most money from ads shown between Stories and Spotlight videos, plus sponsored Lenses. Subscriptions are the fastest growing part. Revenue per user is high in North America but very low in India and other markets where most new users come from.",
+      "revenueStreams": [
+        {"stream": "Advertising", "detail": "Ads in Stories, Spotlight and Discover; grew only 4% in Q3 2026."},
+        {"stream": "Subscriptions", "detail": "Snapchat+, Lens+ and Memories Storage; 30 million+ subscribers."},
+        {"stream": "Sponsored Lenses", "detail": "Brands pay for AR try-on and branded effects."},
+        {"stream": "Hardware", "detail": "Specs AR glasses at $2,200, not yet significant."}
+      ],
+      "pricing": "Free app. Snapchat+ $3.99 a month in the US; lower in India. Memories Storage plans for saved Snaps.",
+      "costDrivers": [
+        "Cloud hosting (Google Cloud and AWS)",
+        "AR and AI research",
+        "Engineering and staff",
+        "Hardware development for Specs",
+        "Content and creator payments"
+      ],
+      "unitEconomics": "Rough estimate. A North American user brings about $11 a quarter, or $44 a year. A Rest of World user, including India, brings about $1.13 a quarter, or under $5 a year. Hosting and serving a user costs a few dollars a year. So Snap earns well on North American users and barely covers costs on many others. Most new users come from markets that pay little, which is why subscriptions matter."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Friends asking for your Snap username",
+        "Viral Lenses shared to other apps",
+        "Spotlight videos",
+        "Growth in India and other markets"
+      ],
+      "whatBringsUsersBack": [
+        "Streaks",
+        "Friends' Snaps and chats",
+        "Stories",
+        "Snap Map"
+      ],
+      "moat": "Snapchat is where many young people's close friends are, and it opens to the camera. That close-friend graph and the daily Streak habit are hard to copy. Instagram copied Stories, but Snap remains the main messaging app for many teens."
+    },
+    "competitors": [
+      {
+        "name": "Instagram",
+        "positioning": "Meta's photo and Reels app with DMs.",
+        "howThisProductDiffers": "Snapchat is for close friends and private sharing; Instagram is more public."
+      },
+      {
+        "name": "TikTok",
+        "positioning": "Short video entertainment.",
+        "howThisProductDiffers": "Snapchat is mainly messaging; TikTok is entertainment."
+      },
+      {
+        "name": "WhatsApp",
+        "positioning": "Messaging app used by almost everyone in India.",
+        "howThisProductDiffers": "Snapchat is visual and playful; WhatsApp is text and family groups."
+      },
+      {
+        "name": "BeReal",
+        "positioning": "Daily authentic photo app.",
+        "howThisProductDiffers": "Snapchat is much bigger with more features."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily users who send a Snap or chat to a friend",
+      "why": "This north star tracks the core value: talking to close friends visually. It also drives everything else, including ad views."
+    },
+    "kpiTree": [
+      {
+        "metric": "Daily active users",
+        "description": "People opening Snapchat each day.",
+        "children": [
+          {"metric": "New user friend adds", "description": "Friends added in week one."},
+          {"metric": "Day 30 retention", "description": "New users active after a month."},
+          {"metric": "Rest of World growth", "description": "Users in India and other markets."}
+        ]
+      },
+      {
+        "metric": "Messaging activity",
+        "description": "How much users talk.",
+        "children": [
+          {"metric": "Snaps sent per user", "description": "Daily Snaps."},
+          {"metric": "Two-way communication", "description": "Users who send and receive; up 6%."},
+          {"metric": "Active Streaks", "description": "Streaks per user."}
+        ]
+      },
+      {
+        "metric": "Content time",
+        "description": "Time in Stories and Spotlight.",
+        "children": [
+          {"metric": "Spotlight viewers", "description": "Daily viewers; up 40%."},
+          {"metric": "Spotlight posters", "description": "Users posting; up 130%."},
+          {"metric": "Story views", "description": "Friend Story views."}
+        ]
+      },
+      {
+        "metric": "Revenue per user",
+        "description": "Ads and subscriptions.",
+        "children": [
+          {"metric": "Ad revenue per user", "description": "By region."},
+          {"metric": "Subscription conversion", "description": "Users paying for Snapchat+."},
+          {"metric": "Sponsored Lens usage", "description": "Brand Lens plays."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Teen safety reports",
+      "Two-way communication rate",
+      "Daily users after ad changes",
+      "Regulatory compliance in markets like Australia"
+    ],
+    "strengths": [
+      "Strong habit with close friends and Streaks",
+      "Leader in consumer AR Lenses",
+      "Fast-growing subscriptions with 30 million+ subscribers",
+      "Large young user base, including about 55% of US teens"
+    ],
+    "weaknesses": [
+      "Ad growth only 4% in Q3 2026",
+      "No user growth in North America and Europe",
+      "Low revenue per user in India",
+      "History of losses"
+    ],
+    "risks": [
+      "Teen social media bans like Australia's under-16 rules, which locked over 415,000 accounts",
+      "Instagram and TikTok competing for young users",
+      "Privacy rules limiting ad targeting",
+      "Expensive bets on AR glasses"
+    ],
+    "userComplaints": [
+      "Too many ads and Spotlight pushed over friends",
+      "Streak pressure",
+      "My AI pinned and hard to remove",
+      "Paywalls on old free features like Memories storage",
+      "Safety worries from strangers"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Lower-priced Snapchat+ plan for India with Streak protection",
+        "problem": "Low revenue per user in India.",
+        "expectedImpact": "More subscriptions.",
+        "metricToTrack": "Subscription conversion in India",
+        "effort": "low"
+      },
+      {
+        "idea": "Friend-first Stories tab with fewer ads",
+        "problem": "Users feel friends are buried.",
+        "expectedImpact": "More two-way communication.",
+        "metricToTrack": "Story views from friends",
+        "effort": "low"
+      },
+      {
+        "idea": "Small business ads in Hindi and regional languages",
+        "problem": "Few Indian advertisers.",
+        "expectedImpact": "Higher Rest of World ad revenue.",
+        "metricToTrack": "Indian advertiser count",
+        "effort": "medium"
+      },
+      {
+        "idea": "Age assurance that keeps teens safe without blocking them",
+        "problem": "Teen bans and regulation.",
+        "expectedImpact": "Lower legal risk.",
+        "metricToTrack": "Accounts verified correctly",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A strong habit like Streaks keeps users, but it can feel like pressure. Design habits that feel good.",
+      "User growth in low-paying markets does not grow revenue much. Subscriptions can help.",
+      "Your best feature can be copied (Stories), so keep inventing (Lenses, AR).",
+      "Safety and regulation can cut users overnight, as Australia showed."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow Snapchat revenue in India?",
+        "hint": "Compare ads and subscriptions, local pricing, small businesses, and track revenue per user."
+      },
+      {
+        "question": "Are Streaks good or bad for users?",
+        "hint": "Discuss engagement versus pressure, suggest changes, track retention and satisfaction."
+      },
+      {
+        "question": "Snapchat's users grow only outside the US and Europe. What does that mean?",
+        "hint": "Talk about revenue per user, cost to serve and strategy."
+      },
+      {
+        "question": "What is Snapchat's north star?",
+        "hint": "Daily users sending Snaps to friends, broken into users, messaging, content and revenue."
+      },
+      {
+        "question": "Should Snap keep investing in AR glasses?",
+        "hint": "Weigh long-term platform bet against near-term losses; define milestones."
+      }
+    ],
+    "glossary": [
+      {"term": "Daily active users", "meaning": "People who use the app at least once a day."},
+      {"term": "Average revenue per user", "meaning": "Total revenue divided by users, showing how much each user is worth."},
+      {"term": "AR", "meaning": "Augmented reality: digital effects added on top of the real world through a camera."},
+      {"term": "Streaks", "meaning": "A count of days in a row two friends Snap each other."},
+      {"term": "Retention", "meaning": "How many users keep using the app over time."},
+      {"term": "Conversion", "meaning": "The share of users who take an action, like paying."},
+      {"term": "Gen Z", "meaning": "People born roughly between 1997 and 2012."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that users are getting value."}
+    ],
+    "assumptions": [
+      "Snapchat+ price in India is approximate.",
+      "Revenue per user annual figures are quarter figures multiplied by four.",
+      "Cost to serve per user is an estimate."
+    ]
+  }
+}

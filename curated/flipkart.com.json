@@ -1,0 +1,525 @@
+{
+  "company": "Flipkart",
+  "domain": "flipkart.com",
+  "website": "https://flipkart.com",
+  "sources": [
+    "https://inc42.com/buzz/flipkart-to-defer-ipo-till-2028-eyes-ebitda-profitability-in-fy27/",
+    "https://yourstory.com/2026/03/flipkart-group-cfo-sriram-venkataraman-steps-down",
+    "https://www.outlookbusiness.com/corporate/sharon-pais-to-replace-nandita-sinha-as-myntra-ceo-amid-m-now-push",
+    "https://www.kotakneo.com/news/ipos/flipkart-senior-leadership-exits-two-vps-resign-ipo-delay/",
+    "https://inc42.com/features/flipkarts-summer-of-discontent/",
+    "https://www.outlookbusiness.com/markets/no-ipo-yet-walmart-wants-flipkart-to-turn-profitable-first"
+  ],
+  "report": {
+    "company": "Flipkart",
+    "tagline": "India's largest online marketplace, owned mostly by Walmart, selling phones, fashion, electronics and groceries to hundreds of millions of Indians, now also delivering in minutes.",
+    "category": "E-commerce",
+    "simpleSummary": "Flipkart is India's biggest shopping app. You can buy a phone, a TV, clothes or groceries, often with no-cost EMI and bank discounts. Its yearly Big Billion Days sale is one of India's biggest shopping events. It now also delivers daily items in about 10 to 15 minutes through Flipkart Minutes. Flipkart earns from seller commissions, delivery and platform fees, and ads.",
+    "keyNumbers": [
+      {
+        "label": "Marketplace revenue, FY25",
+        "value": "₹20,493 crore",
+        "note": "Flipkart Internet filings reported by Inc42, May 2026. Up 14.4%. FY26 accounts were not yet filed."
+      },
+      {
+        "label": "Marketplace loss, FY25",
+        "value": "₹1,494 crore",
+        "note": "Inc42, May 2026. Down 37%. Walmart wants EBITDA breakeven in FY27 before an IPO."
+      },
+      {
+        "label": "Monthly active users",
+        "value": "About 22 crore",
+        "note": "Inc42 citing Moneycontrol, 2026."
+      },
+      {
+        "label": "Share of Indian e-commerce (by GMV)",
+        "value": "About 50% to 60%",
+        "note": "Inc42, 2026. Estimate including Myntra."
+      },
+      {
+        "label": "Flipkart Minutes dark stores",
+        "value": "About 800 (target 1,200)",
+        "note": "Inc42, Q1 2026."
+      },
+      {
+        "label": "Walmart ownership",
+        "value": "About 80%",
+        "note": "Inc42, 2026. IPO deferred, reportedly to 2028."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Flipkart is a marketplace where lakhs of sellers list products and Flipkart handles search, payments and delivery through its logistics arm Ekart. It is strongest in mobiles, electronics and fashion (with Myntra), and is pushing into quick commerce (Flipkart Minutes), travel (Cleartrip), payments (super.money) and food delivery. Its edge is reach in small towns, cheap credit options and big sale events.",
+      "howItWorks": [
+        "Shoppers browse in English, Hindi and other Indian languages, or use voice search.",
+        "Sellers list items and pay commission, fixed fees and shipping fees; Flipkart also adds a small platform fee per order for shoppers.",
+        "Ekart picks up from sellers and delivers to over 19,000 pin codes, including cash on delivery.",
+        "Bank offers, no-cost EMI and Flipkart Pay Later help people afford phones and TVs.",
+        "Big Billion Days and other sales bring huge spikes in orders and new users.",
+        "Flipkart Minutes delivers groceries and essentials from dark stores in about 10 to 15 minutes."
+      ],
+      "valueProposition": "For shoppers: wide choice, low prices and easy payment options, even in small towns. For sellers: access to crores of buyers and delivery to the whole country. For Flipkart: the default place Indians buy big-ticket items, which it can expand into daily needs."
+    },
+    "personas": [
+      {
+        "name": "First-time online shopper in a small town",
+        "description": "A 26-year-old in Gorakhpur buying her first smartphone online.",
+        "goals": [
+          "Best price on a phone",
+          "Pay in EMIs",
+          "Use Hindi"
+        ],
+        "frustrations": [
+          "Fear of fake products",
+          "Returns being refused"
+        ]
+      },
+      {
+        "name": "Sale hunter",
+        "description": "A 30-year-old in Pune who waits for Big Billion Days to buy a TV and gadgets.",
+        "goals": [
+          "Biggest discounts with bank offers"
+        ],
+        "frustrations": [
+          "Prices raised before sale",
+          "Orders cancelled after sale"
+        ]
+      },
+      {
+        "name": "Seller",
+        "description": "A small apparel maker in Surat selling on Flipkart and Meesho.",
+        "goals": [
+          "More orders",
+          "Lower fees",
+          "Fewer returns"
+        ],
+        "frustrations": [
+          "High return rates and return fraud",
+          "Payment delays and penalties"
+        ]
+      },
+      {
+        "name": "Urban quick commerce user",
+        "description": "A 28-year-old in Bengaluru ordering milk and snacks in minutes.",
+        "goals": [
+          "Fast delivery",
+          "Good prices"
+        ],
+        "frustrations": [
+          "Fewer items than Blinkit"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Small towns have few stores with the latest phones and brands.",
+        "howSolved": "Delivery to over 19,000 pin codes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Big purchases are hard to pay for at once.",
+        "howSolved": "No-cost EMI, Pay Later and bank offers.",
+        "severity": "high"
+      },
+      {
+        "pain": "English-only apps exclude many users.",
+        "howSolved": "Vernacular UI in Hindi and other languages, plus voice search.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Trust in online payment.",
+        "howSolved": "Cash on delivery and easy returns.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Need for daily items fast.",
+        "howSolved": "Flipkart Minutes.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Big Billion Days",
+        "whatItDoes": "Yearly festive sale with huge discounts.",
+        "whyItMatters": "Brings a large share of yearly sales and new users in a few days."
+      },
+      {
+        "feature": "Vernacular and voice shopping",
+        "whatItDoes": "App in Indian languages with voice search.",
+        "whyItMatters": "Opens Flipkart to the next crores of users."
+      },
+      {
+        "feature": "Affordability tools",
+        "whatItDoes": "No-cost EMI, Pay Later, bank offers and exchange offers on phones.",
+        "whyItMatters": "Makes big purchases possible, driving electronics sales."
+      },
+      {
+        "feature": "Flipkart Minutes",
+        "whatItDoes": "Quick commerce from dark stores.",
+        "whyItMatters": "Defends against Blinkit and Zepto, adds daily habit."
+      },
+      {
+        "feature": "Ekart logistics",
+        "whatItDoes": "Flipkart's own delivery network.",
+        "whyItMatters": "Controls speed and cost; also serves outside brands."
+      },
+      {
+        "feature": "SuperCoins and Flipkart Axis Bank card",
+        "whatItDoes": "Rewards and cashback.",
+        "whyItMatters": "Keeps users coming back."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Buying a first smartphone",
+        "persona": "First-time online shopper in a small town",
+        "steps": [
+          {
+            "step": "Searches by voice in Hindi",
+            "detail": "Says '15,000 ke andar phone'."
+          },
+          {
+            "step": "Compares",
+            "detail": "Sees specs and reviews."
+          },
+          {
+            "step": "Picks EMI",
+            "detail": "No-cost EMI over six months."
+          },
+          {
+            "step": "Exchanges old phone",
+            "detail": "Gets ₹2,000 off."
+          },
+          {
+            "step": "Receives delivery",
+            "detail": "Ekart delivers in three days."
+          },
+          {
+            "step": "Leaves review",
+            "detail": "Earns SuperCoins."
+          }
+        ]
+      },
+      {
+        "name": "Big Billion Days purchase",
+        "persona": "Sale hunter",
+        "steps": [
+          {
+            "step": "Adds to wishlist early",
+            "detail": "Watches TV price."
+          },
+          {
+            "step": "Gets early access",
+            "detail": "Flipkart Plus/Black members shop first."
+          },
+          {
+            "step": "Uses bank offer",
+            "detail": "10% instant discount."
+          },
+          {
+            "step": "Checks out quickly",
+            "detail": "Before stock runs out."
+          },
+          {
+            "step": "Gets installation",
+            "detail": "TV is installed at home."
+          }
+        ]
+      },
+      {
+        "name": "Quick grocery order",
+        "persona": "Urban quick commerce user",
+        "steps": [
+          {
+            "step": "Opens Minutes tab",
+            "detail": "Sees 12-minute delivery."
+          },
+          {
+            "step": "Adds milk and bread",
+            "detail": "Cart of ₹350."
+          },
+          {
+            "step": "Pays with UPI",
+            "detail": "Uses super.money."
+          },
+          {
+            "step": "Receives",
+            "detail": "Order arrives in minutes."
+          },
+          {
+            "step": "Reorders",
+            "detail": "Comes back next day."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Flipkart earns a cut and fees from sellers, delivery and platform fees from shoppers, and ads from brands. It is still losing money but narrowing losses.",
+      "revenueStreams": [
+        {
+          "stream": "Seller commissions and fees",
+          "detail": "Commission by category plus fixed and shipping fees."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Brands and sellers pay for top placement."
+        },
+        {
+          "stream": "Logistics (Ekart)",
+          "detail": "₹13,733 crore revenue in FY25, partly from outside clients."
+        },
+        {
+          "stream": "Shopper fees",
+          "detail": "Platform and handling fees per order, and delivery fees on small orders."
+        },
+        {
+          "stream": "Fashion, travel and finance",
+          "detail": "Myntra (₹548 crore profit FY25), Cleartrip, credit and payments."
+        }
+      ],
+      "pricing": "Free to shop; small platform fee per order and delivery fee below a minimum order. Seller commission varies by category, roughly 5% to 25%, with reported zero-commission schemes for low-priced items. Flipkart Black membership is a paid tier.",
+      "costDrivers": [
+        "Delivery and logistics",
+        "Discounts and sale event marketing",
+        "Quick commerce dark stores",
+        "Technology and staff",
+        "Returns and fraud"
+      ],
+      "unitEconomics": "On a ₹15,000 phone, Flipkart might earn about ₹750 to ₹1,200 from commission and fees, plus some ad money, while spending ₹100 to ₹150 on delivery and payment costs. Fashion orders have higher commission but high returns, which can turn them into losses. Quick commerce orders of about ₹400 still lose money per order because dark stores and riders are costly until volume grows."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Big Billion Days and festive sales",
+        "Reaching small towns with vernacular UI",
+        "Brand partnerships for phone launches",
+        "Cricket and TV ads"
+      ],
+      "whatBringsUsersBack": [
+        "Sales and bank offers",
+        "SuperCoins rewards",
+        "Flipkart Minutes for daily needs",
+        "Pay Later credit"
+      ],
+      "moat": "Flipkart's moat is its reach and logistics in small-town India plus deep partnerships with phone brands and banks. Ekart covers pin codes rivals still struggle with."
+    },
+    "competitors": [
+      {
+        "name": "Amazon India",
+        "positioning": "Global giant with Prime and strong electronics.",
+        "howThisProductDiffers": "Flipkart is stronger in small towns, fashion and phone launches."
+      },
+      {
+        "name": "Meesho",
+        "positioning": "Low-cost marketplace with zero commission for sellers.",
+        "howThisProductDiffers": "Flipkart has more brands and electronics; Meesho is cheaper in fashion."
+      },
+      {
+        "name": "Blinkit, Zepto and Instamart",
+        "positioning": "Quick commerce leaders.",
+        "howThisProductDiffers": "Flipkart Minutes is newer with fewer dark stores."
+      },
+      {
+        "name": "Reliance JioMart and Ajio",
+        "positioning": "Reliance's online retail.",
+        "howThisProductDiffers": "Flipkart has bigger online reach; Reliance has stores."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly transacting customers",
+      "why": "Shows how many people find value on Flipkart every month, not just during sales."
+    },
+    "kpiTree": [
+      {
+        "metric": "New buyers",
+        "description": "First-time buyers.",
+        "children": [
+          {
+            "metric": "Tier 2 and 3 sign-ups",
+            "description": "New buyers from smaller towns."
+          },
+          {
+            "metric": "Sale event conversions",
+            "description": "New buyers during sales."
+          }
+        ]
+      },
+      {
+        "metric": "Purchase frequency",
+        "description": "Orders per customer per month.",
+        "children": [
+          {
+            "metric": "Minutes orders",
+            "description": "Daily quick commerce orders."
+          },
+          {
+            "metric": "Repeat purchase rate",
+            "description": "Buyers who order again within 30 days."
+          }
+        ]
+      },
+      {
+        "metric": "Conversion",
+        "description": "Visits that end in orders.",
+        "children": [
+          {
+            "metric": "EMI and Pay Later use",
+            "description": "Affordability tool use."
+          },
+          {
+            "metric": "Search success rate",
+            "description": "Searches that lead to a purchase."
+          }
+        ]
+      },
+      {
+        "metric": "Order quality",
+        "description": "Orders delivered and kept.",
+        "children": [
+          {
+            "metric": "Return rate",
+            "description": "Orders returned."
+          },
+          {
+            "metric": "On-time delivery",
+            "description": "Orders on promised date."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Return and cancellation rate",
+      "Seller churn",
+      "Cash burn per order",
+      "Customer complaints"
+    ],
+    "strengths": [
+      "Largest market share in Indian e-commerce",
+      "Deep reach in small towns",
+      "Strong in phones and electronics",
+      "Myntra is profitable"
+    ],
+    "weaknesses": [
+      "Still loss-making",
+      "Late to quick commerce",
+      "Leadership churn in 2026: CFO exit, Myntra CEO change, VP exits",
+      "IPO repeatedly delayed"
+    ],
+    "risks": [
+      "Quick commerce players stealing frequent shoppers",
+      "Rules on foreign-owned marketplaces and discounts",
+      "Meesho and Amazon price wars",
+      "Walmart's patience on losses"
+    ],
+    "userComplaints": [
+      "Orders cancelled after sales",
+      "Return requests rejected",
+      "Platform and handling fees added at checkout",
+      "Customer support is slow"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Price history chart on each product during sales",
+        "problem": "Users think prices are raised before sales.",
+        "expectedImpact": "More trust and sale conversion.",
+        "metricToTrack": "Sale conversion rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Instant return approval for trusted buyers",
+        "problem": "Returns rejected and slow.",
+        "expectedImpact": "Higher satisfaction and repeat purchases.",
+        "metricToTrack": "Repeat purchase rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Bundle Minutes with big orders, such as free accessory delivery in minutes",
+        "problem": "Minutes has low awareness.",
+        "expectedImpact": "More Minutes users.",
+        "metricToTrack": "Minutes monthly users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Show all fees upfront on product page",
+        "problem": "Surprise fees at checkout.",
+        "expectedImpact": "Fewer cart drops.",
+        "metricToTrack": "Cart abandonment",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Design for the next user, not the current one: vernacular UX and EMIs opened small-town India.",
+      "Big events like Big Billion Days can win users, but trust breaks if orders get cancelled.",
+      "Incumbents must defend against new formats like quick commerce, even if it costs money.",
+      "Profit matters before an IPO: Walmart wants breakeven first."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How should Flipkart compete with Blinkit in quick commerce?",
+        "hint": "Look at dark stores, selection, existing users, cross-sell from main app, unit economics."
+      },
+      {
+        "question": "How would you improve Big Billion Days?",
+        "hint": "Pain points (crashes, cancellations), fixes, metrics."
+      },
+      {
+        "question": "Flipkart needs EBITDA breakeven. Where do you cut?",
+        "hint": "Revenue levers (ads, fees) vs costs (returns, discounts); guardrails."
+      },
+      {
+        "question": "Design a feature for first-time shoppers in small towns.",
+        "hint": "Language, trust, payment, returns."
+      },
+      {
+        "question": "What is Flipkart's north star metric?",
+        "hint": "Monthly transacting customers; explain drivers."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "GMV",
+        "meaning": "Gross merchandise value, the total value of goods sold on a platform."
+      },
+      {
+        "term": "EBITDA",
+        "meaning": "Earnings before interest, tax and depreciation, a measure of operating profit."
+      },
+      {
+        "term": "Quick commerce",
+        "meaning": "Delivery of daily items in about 10 to 30 minutes."
+      },
+      {
+        "term": "Dark store",
+        "meaning": "A small warehouse used only to fulfil online orders."
+      },
+      {
+        "term": "No-cost EMI",
+        "meaning": "Paying in monthly instalments with no extra interest."
+      },
+      {
+        "term": "Vernacular",
+        "meaning": "In local Indian languages."
+      },
+      {
+        "term": "Unit economics",
+        "meaning": "Money earned or lost on a single order or customer."
+      },
+      {
+        "term": "Cash burn",
+        "meaning": "Money a company loses each month."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      }
+    ],
+    "assumptions": [
+      "Seller commission range and phone earnings example are approximate.",
+      "Market share of 50% to 60% is a news estimate.",
+      "Quick commerce loss per order is inferred from industry patterns.",
+      "Over 19,000 pin codes is a figure Flipkart has used in past years."
+    ]
+  }
+}

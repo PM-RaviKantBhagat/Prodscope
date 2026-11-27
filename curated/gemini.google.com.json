@@ -1,0 +1,402 @@
+{
+  "company": "Gemini",
+  "domain": "gemini.google.com",
+  "website": "https://gemini.google.com",
+  "sources": [
+    "https://ppc.land/gemini-app-gains-350m-users-in-a-year-to-pass-1bn-alphabet-says/",
+    "https://www.techrepublic.com/article/news-google-gemini-950-million-monthly-users-alphabet-earnings/",
+    "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/",
+    "https://www.androidheadlines.com/2026/02/google-gemini-750-million-monthly-active-users.html",
+    "https://www.droid-life.com/2026/10/03/pixel-owners-vent-over-forced-switch-from-google-assistant-to-gemini/",
+    "https://www.androidcentral.com/apps-software/ai/google-pixel-owners-say-geminification-has-ruined-their-phones-what-do-you-think",
+    "https://9to5google.com/2026/01/13/android-auto-google-assistant-gemini-issues/"
+  ],
+  "report": {
+    "company": "Gemini",
+    "tagline": "Google's AI assistant, built into Android, Search, Gmail and Workspace, now used by over a billion people a month.",
+    "category": "AI assistant",
+    "simpleSummary": "Gemini is Google's answer to ChatGPT. You can chat with it in an app or website, but it also lives inside things you already use: your Android phone, Gmail, Google Docs, YouTube and Search. It has replaced Google Assistant on most Android phones. It is free to use, and Google sells paid plans that bundle stronger AI with extra Google storage.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "Over 1 billion (Q3 2026)",
+        "note": "Alphabet earnings, October 2026, reported by PPC Land. Up from 650 million a year earlier and 950 million in July 2026."
+      },
+      {
+        "label": "US share of AI prompts",
+        "value": "About 30 percent (June 2026)",
+        "note": "Comscore data reported by PPC Land. Up from 17 percent in January; ChatGPT fell from 70 to 50 percent."
+      },
+      {
+        "label": "Tokens processed",
+        "value": "Nearly 32 billion per minute (Q3 2026)",
+        "note": "Alphabet figure across all Google AI products, not only the Gemini app. Up 40 percent in three months."
+      },
+      {
+        "label": "Google Cloud quarterly revenue",
+        "value": "$30.7 billion, up 103 percent (Q3 2026)",
+        "note": "Alphabet Q3 2026 results. Gemini models drive much of the growth."
+      },
+      {
+        "label": "Alphabet 2026 capex guidance",
+        "value": "$195 to $205 billion",
+        "note": "Set in July 2026. Capex means money spent on data centres and chips, much of it for Gemini."
+      },
+      {
+        "label": "AI Mode in Search users",
+        "value": "Over 1 billion monthly",
+        "note": "Google announcement, May 2026. Separate from the Gemini app but runs on Gemini models."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Gemini is a chat assistant that writes, answers questions, makes images and videos, plans trips and talks out loud. Its special trick is that it can see your Google stuff, such as Gmail, Calendar, Drive and Maps, if you allow it. Google makes money by selling paid AI plans bundled with storage, by selling Gemini to businesses through Workspace and Google Cloud, and by keeping people using Google Search and its ads.",
+      "howItWorks": [
+        "Open the Gemini app, say 'Hey Google', or long-press the power button on an Android phone to start talking.",
+        "Gemini answers using Google's latest models, such as Gemini 4 in late 2026, and can search the web.",
+        "Extensions let it read your Gmail, Calendar, Drive, YouTube and Maps to answer personal questions.",
+        "Gemini Live lets you have a voice or camera conversation in real time.",
+        "Nano Banana and Veo create and edit images and video from a prompt.",
+        "Paid plans (Google AI Plus, AI Pro, AI Ultra) unlock stronger models, higher limits and more cloud storage."
+      ],
+      "valueProposition": "An AI assistant that already sits on your phone and knows your Google account, so it can help with your actual emails, calendar and files, mostly for free."
+    },
+    "personas": [
+      {
+        "name": "Android phone owner",
+        "description": "A college student in Hyderabad with a Samsung or Pixel phone, who uses Gemini because it is already the default assistant.",
+        "goals": [
+          "Quick answers by voice",
+          "Help with studies and photos",
+          "Not pay anything"
+        ],
+        "frustrations": [
+          "Gemini is slower than old Google Assistant for simple commands like timers",
+          "Smart home and routine commands sometimes break",
+          "Unsure which plan is free and which is paid"
+        ]
+      },
+      {
+        "name": "Google Workspace worker",
+        "description": "A sales manager at a mid-size company that runs on Gmail, Docs and Sheets, with Gemini included in the Workspace plan.",
+        "goals": [
+          "Summarise long email threads",
+          "Draft documents and slides quickly",
+          "Find files without digging"
+        ],
+        "frustrations": [
+          "Gemini in Docs can be generic",
+          "Not always clear what data it can see",
+          "Colleagues still prefer ChatGPT for writing"
+        ]
+      },
+      {
+        "name": "Paying AI power user",
+        "description": "A content creator who pays for Google AI Pro to get Veo video, the top Gemini model and 2 TB of storage.",
+        "goals": [
+          "Make short videos and images fast",
+          "Use the best model for research",
+          "Get storage value from the same bill"
+        ],
+        "frustrations": [
+          "Video generation limits run out quickly",
+          "Ultra plan is very expensive",
+          "Features roll out to the US first"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Switching between apps to find an email, a calendar slot and a map takes time.",
+        "howSolved": "Gemini can pull from Gmail, Calendar and Maps in one answer.",
+        "severity": "high"
+      },
+      {
+        "pain": "Typing on a phone is slow for long questions.",
+        "howSolved": "Gemini Live lets you talk naturally and even point your camera at things.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying for many separate subscriptions adds up.",
+        "howSolved": "Google AI plans bundle AI with Google One storage, so one bill covers both.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Making images or videos needs skills or expensive tools.",
+        "howSolved": "Nano Banana and Veo create them from a short description.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Long documents and email threads take ages to read.",
+        "howSolved": "Gemini in Gmail and Docs summarises them in a few lines.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Default assistant on Android",
+        "whatItDoes": "Replaces Google Assistant on Android phones, cars (Android Auto) and Google Home devices.",
+        "whyItMatters": "Gives Gemini instant reach to billions of devices without users having to download anything."
+      },
+      {
+        "feature": "Google app extensions",
+        "whatItDoes": "Connects Gemini to Gmail, Drive, Calendar, Maps, YouTube and more.",
+        "whyItMatters": "This personal context is something standalone rivals like ChatGPT find hard to match."
+      },
+      {
+        "feature": "Gemini Live",
+        "whatItDoes": "Real-time voice and camera conversation.",
+        "whyItMatters": "Makes AI useful for people who do not like typing, a big group in India."
+      },
+      {
+        "feature": "Nano Banana and Veo",
+        "whatItDoes": "Image editing and video generation inside the Gemini app.",
+        "whyItMatters": "Viral image trends brought in tens of millions of new users, especially in India in 2025."
+      },
+      {
+        "feature": "Gemini in Workspace",
+        "whatItDoes": "AI help in Gmail, Docs, Sheets, Slides and Meet, included in Workspace business plans.",
+        "whyItMatters": "Locks in business customers who already pay Google, and defends against Microsoft Copilot."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First use on a new phone",
+        "persona": "Android phone owner",
+        "steps": [
+          { "step": "Sets up phone", "detail": "A new Android phone asks to set Gemini as the assistant." },
+          { "step": "Presses power button", "detail": "Long-press opens Gemini over any app." },
+          { "step": "Asks something simple", "detail": "'Set an alarm for 6 am' or 'What is this plant?' with the camera." },
+          { "step": "Tries a viral feature", "detail": "Sees friends sharing Nano Banana photo edits and tries one." },
+          { "step": "Connects Gmail", "detail": "Allows Gemini to read emails to find a train ticket." },
+          { "step": "Uses weekly", "detail": "Gemini becomes the go-to for quick questions." }
+        ]
+      },
+      {
+        "name": "Upgrade to a paid plan",
+        "persona": "Paying AI power user",
+        "steps": [
+          { "step": "Hits a limit", "detail": "Runs out of video generations on the free plan." },
+          { "step": "Sees a trial", "detail": "Gemini offers a free month of Google AI Pro." },
+          { "step": "Compares value", "detail": "Notices the plan also gives 2 TB of storage they partly pay for already." },
+          { "step": "Subscribes", "detail": "Pays monthly through Google Play." },
+          { "step": "Uses Pro features", "detail": "Makes videos with Veo and uses Deep Research for long reports." },
+          { "step": "Stays", "detail": "Storage and AI on one bill makes cancelling harder." }
+        ]
+      },
+      {
+        "name": "Workday with Workspace",
+        "persona": "Google Workspace worker",
+        "steps": [
+          { "step": "Opens Gmail", "detail": "Asks Gemini to summarise 40 unread emails." },
+          { "step": "Drafts a reply", "detail": "Clicks 'Help me write' to answer a client." },
+          { "step": "Builds a deck", "detail": "Asks Gemini in Slides to make a pitch from a Doc." },
+          { "step": "Joins a meeting", "detail": "Gemini in Meet takes notes and lists action items." },
+          { "step": "Follows up", "detail": "Uses the notes to send tasks to the team." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Gemini makes money in three ways: paid consumer AI plans bundled with storage, business sales through Workspace and Google Cloud, and protecting Google Search, which earns over $60 billion a quarter in ads. The app itself is mostly free because keeping users inside Google is worth more than charging them.",
+      "revenueStreams": [
+        { "stream": "Consumer AI plans", "detail": "Google AI Plus, AI Pro and AI Ultra, sold as Google One subscriptions with storage included." },
+        { "stream": "Workspace", "detail": "Gemini is included in Workspace business plans, which raised prices partly because of AI." },
+        { "stream": "Google Cloud and API", "detail": "Companies pay per token to use Gemini models through Vertex AI and the Gemini API. Cloud revenue grew 103 percent in Q3 2026." },
+        { "stream": "Search defence", "detail": "Gemini and AI Mode keep people using Google rather than ChatGPT, protecting $63 billion a quarter of Search revenue." }
+      ],
+      "pricing": "Gemini app is free. In the US, Google AI Pro is about $19.99 a month and AI Ultra about $249.99 a month. In India, AI Plus has been about ₹399 a month (often discounted) and AI Pro about ₹1,950 a month, with free AI Pro offers for students and Jio users. Prices change often.",
+      "costDrivers": [
+        "Data centres and chips: Alphabet expects $195 to $205 billion of capital spending in 2026",
+        "Running models for over a billion monthly users",
+        "Training new Gemini models at Google DeepMind",
+        "Free plan giveaways, such as free AI Pro for students and telecom partners"
+      ],
+      "unitEconomics": "Most Gemini users pay nothing, and each costs Google a small amount of computing per month. Google's own TPU chips make this cheaper than for rivals who rent GPUs. A paying AI Pro user at about $20 a month brings in more than the computing they use unless they make lots of videos. The bigger gain is indirect: if Gemini keeps a user searching on Google, that user earns Google tens of dollars a year in ads. Rough estimates; Google does not report Gemini profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Default assistant on Android phones, Android Auto and Google Home",
+        "Built into Gmail, Docs, Chrome and Search, where people already are",
+        "Viral image features like Nano Banana, which topped app charts in 2025",
+        "Free paid-plan offers through students, Jio and phone makers like Samsung",
+        "Bundling AI with Google One storage"
+      ],
+      "whatBringsUsersBack": [
+        "Using the phone's assistant button many times a day",
+        "Personal answers from Gmail, Calendar and Photos",
+        "Daily work in Workspace",
+        "New model launches and creative tools"
+      ],
+      "moat": "Gemini's moat is distribution. No rival has Google's reach: Android, Chrome, Search, Gmail and YouTube reach billions of people. Google also owns its own chips (TPUs), which lowers costs. Rivals can build a better chatbot, but they cannot easily get onto every Android phone or into people's inboxes."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT",
+        "positioning": "The best-known AI app, used by about a billion people a week.",
+        "howThisProductDiffers": "Gemini wins on distribution and Google data; ChatGPT wins on brand and habit."
+      },
+      {
+        "name": "Meta AI",
+        "positioning": "Free AI inside WhatsApp and Instagram.",
+        "howThisProductDiffers": "Meta reaches people in chat apps; Gemini reaches them on the phone itself and in Google apps."
+      },
+      {
+        "name": "Microsoft Copilot",
+        "positioning": "AI in Windows and Microsoft 365.",
+        "howThisProductDiffers": "Copilot fights Gemini for office workers; Gemini wins in Google Workspace companies."
+      },
+      {
+        "name": "Apple Intelligence and Siri",
+        "positioning": "Built-in assistant on iPhones.",
+        "howThisProductDiffers": "Gemini does not own the iPhone, but Google has worked with Apple to power some Siri features."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly users who complete a helpful task with Gemini (an answer kept, an action done, or a Google app task finished)",
+      "why": "Raw monthly users can be inflated by default placement. Helpful tasks show people actually choose Gemini and get value, which keeps them on Google."
+    },
+    "kpiTree": [
+      {
+        "metric": "Reach",
+        "description": "How many people try Gemini through each entry point.",
+        "children": [
+          { "metric": "Android default activation rate", "description": "Share of new phones where Gemini is set up as assistant." },
+          { "metric": "Workspace seats with Gemini used", "description": "Share of business seats that use Gemini each week." },
+          { "metric": "Sign-ups from viral features", "description": "New users brought in by tools like Nano Banana." }
+        ]
+      },
+      {
+        "metric": "Task success",
+        "description": "How often Gemini completes what the user asked.",
+        "children": [
+          { "metric": "Command success rate", "description": "Share of voice commands (timers, smart home, calls) done right the first time." },
+          { "metric": "Answer acceptance", "description": "Share of answers not followed by a rephrase or thumbs down." },
+          { "metric": "Latency", "description": "Seconds from question to answer, key for replacing Google Assistant." }
+        ]
+      },
+      {
+        "metric": "Personal context use",
+        "description": "How much Gemini uses the user's Google data to help.",
+        "children": [
+          { "metric": "Extension connection rate", "description": "Share of users who connect Gmail, Drive or Calendar." },
+          { "metric": "Personal queries per user", "description": "Questions that use the user's own data." }
+        ]
+      },
+      {
+        "metric": "Paid conversion",
+        "description": "Users who pay for an AI plan.",
+        "children": [
+          { "metric": "Trial to paid rate", "description": "Share of free trials that convert to a paid plan." },
+          { "metric": "Paid churn", "description": "Churn is the share of payers who cancel each month." },
+          { "metric": "Free offer to paid rate", "description": "Share of students and Jio users who keep paying after free offers end." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Google Search queries and ad revenue per user",
+      "Command success rate for simple Assistant tasks",
+      "Privacy complaints about access to personal data",
+      "Computing cost per active user"
+    ],
+    "strengths": [
+      "Unmatched distribution through Android, Search, Chrome and Workspace",
+      "Own chips (TPUs) and DeepMind research lower cost and raise quality",
+      "Personal context from Google accounts",
+      "Fast-growing share of US AI prompts, from 17 to 30 percent in the first half of 2026"
+    ],
+    "weaknesses": [
+      "Many users got Gemini by default, not by choice, so usage may be shallow",
+      "Worse than old Google Assistant at simple commands, smart home and car use",
+      "Confusing product names and plans",
+      "Risk of hurting Search ad revenue if AI answers replace ad clicks"
+    ],
+    "risks": [
+      "Antitrust rulings in the US and EU could limit default placement and bundling",
+      "ChatGPT and Meta AI competing for the same users",
+      "AI answers could reduce Search ad income",
+      "Huge capital spending that must pay off",
+      "Accuracy mistakes in AI Overviews and Gemini that hurt trust"
+    ],
+    "userComplaints": [
+      "Forced switch from Google Assistant to Gemini on Pixel and Android phones, with many users saying Gemini is worse for simple tasks (late 2026)",
+      "Android Auto voice commands breaking or getting slower after the Gemini switch",
+      "Google Home and smart home routines not working smoothly with Gemini",
+      "Polls showing users feel Gemini is 'getting worse' or 'over-Geminified' phones",
+      "Unclear limits and confusing plans"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Fast path for simple commands: run timers, alarms, calls and smart home actions instantly on the device, without the full AI model",
+        "problem": "Users say Gemini is slower and less reliable than Google Assistant for basic tasks.",
+        "expectedImpact": "Fewer complaints and better daily habit on phones and in cars.",
+        "metricToTrack": "Command success rate and latency",
+        "effort": "medium"
+      },
+      {
+        "idea": "Android Auto 'driving mode' with a short, tested command set and fallback to the old flow if Gemini fails",
+        "problem": "Drivers report broken or slow commands, a safety concern.",
+        "expectedImpact": "Restored trust among drivers.",
+        "metricToTrack": "Failed voice commands per drive",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear paid plan picker in the app, showing what free, Plus and Pro each include in rupees",
+        "problem": "Users do not know what they get for each plan.",
+        "expectedImpact": "Higher trial to paid conversion in India.",
+        "metricToTrack": "Trial to paid rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Proactive daily brief from Gmail and Calendar, opt in",
+        "problem": "Many users never connect extensions, so Gemini's biggest advantage goes unused.",
+        "expectedImpact": "More users connecting Google apps and returning daily.",
+        "metricToTrack": "Extension connection rate",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Distribution can beat being first. Gemini caught up with ChatGPT by being already on the phone.",
+      "Replacing an old product is risky. If the new one is worse at basic tasks, users notice fast.",
+      "Sometimes the product's job is to protect a bigger business, here Google Search, not to make money itself.",
+      "Bundles, like AI plus storage, make it harder for users to cancel."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Gemini passed a billion monthly users, but many got it by default. How would you know if they really value it?",
+        "hint": "Separate default exposure from active choice. Look at repeat use, task success and whether users switch it off. Propose a north star around helpful tasks."
+      },
+      {
+        "question": "Should Google keep Gemini free or push more people to paid plans?",
+        "hint": "Weigh Search defence versus subscription revenue. Segment users. Discuss bundling with storage and free offers in India. Pick a balance and a metric."
+      },
+      {
+        "question": "Pixel users say Gemini is worse than Google Assistant. What would you do?",
+        "hint": "List the top failing tasks from data. Fix speed and reliability for simple commands first. Track command success rate. Communicate changes."
+      },
+      {
+        "question": "How could Gemini hurt Google's Search ad business, and how would you prevent it?",
+        "hint": "Explain that AI answers can reduce ad clicks. Options: ads in AI answers, shopping cards, sending users to sites. Track revenue per query and user satisfaction together."
+      },
+      {
+        "question": "Design a Gemini feature for first-time smartphone users in rural India.",
+        "hint": "Start with voice and local languages, low data use and simple tasks like government forms or crop prices. Define success and a pilot plan."
+      }
+    ],
+    "glossary": [
+      { "term": "Monthly active users", "meaning": "The number of different people who use a product at least once in a month." },
+      { "term": "Capex", "meaning": "Money a company spends on long-lasting things like data centres and chips." },
+      { "term": "Token", "meaning": "A small chunk of text that AI models read and write, used to measure usage." },
+      { "term": "TPU", "meaning": "Google's own AI chip, which lowers the cost of running Gemini." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a period." },
+      { "term": "Latency", "meaning": "How long a user waits for a response." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "North star", "meaning": "The one number a team picks to show users get real value." },
+      { "term": "Antitrust", "meaning": "Laws that stop big companies from unfairly blocking competitors." }
+    ],
+    "assumptions": [
+      "Plan prices are list prices from 2025 to 2026 public information and may have changed or vary by offer.",
+      "Per-user computing cost and the value of keeping a user on Search are rough estimates.",
+      "Monthly user numbers come from Alphabet and include people who got Gemini by default on phones.",
+      "India free offers (students, Jio) are based on 2025 announcements and may have ended or changed."
+    ]
+  }
+}

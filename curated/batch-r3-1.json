@@ -1,0 +1,114 @@
+[
+ {
+  "company": "Kindle",
+  "website": "amazon.com/kindle",
+  "domain": "amazon.com-kindle",
+  "market": "US · global",
+  "category": "E-reading",
+  "why": "Hardware sold cheap to sell content; ecosystem play."
+ },
+ {
+  "company": "BookMyShow",
+  "website": "bookmyshow.com",
+  "domain": "bookmyshow.com",
+  "market": "India",
+  "category": "Entertainment ticketing",
+  "why": "Live-events boom (concerts) and handling ticket-drop traffic spikes."
+ },
+ {
+  "company": "Dream11",
+  "website": "dream11.com",
+  "domain": "dream11.com",
+  "market": "India",
+  "category": "Fantasy sports",
+  "why": "Had to rethink its model after the 2025 online real-money gaming ban; change of direction strategy case."
+ },
+ {
+  "company": "Steam",
+  "website": "store.steampowered.com",
+  "domain": "store.steampowered.com",
+  "market": "US · global",
+  "category": "Gaming platform",
+  "why": "PC games marketplace; reviews, sales and Steam Deck."
+ },
+ {
+  "company": "Slack",
+  "website": "slack.com",
+  "domain": "slack.com",
+  "market": "US · global",
+  "category": "Workplace comms",
+  "why": "Bottom-up business adoption and the 2,000-message 'aha' metric; classic growth through the product itself case."
+ },
+ {
+  "company": "Microsoft Teams",
+  "website": "microsoft.com/microsoft-teams",
+  "domain": "teams.microsoft.com",
+  "market": "US · global",
+  "category": "Workplace comms",
+  "why": "Won by bundling with Office; a key competitive-strategy case vs. Slack."
+ },
+ {
+  "company": "Zoom",
+  "website": "zoom.com",
+  "domain": "zoom.com",
+  "market": "US · global",
+  "category": "Video conferencing",
+  "why": "Simplicity as a edge over rivals; post-pandemic retention and moving into a platform."
+ },
+ {
+  "company": "Gmail & Google Workspace",
+  "website": "workspace.google.com",
+  "domain": "workspace.google.com",
+  "market": "US · global",
+  "category": "Productivity",
+  "why": "Gemini inside Gmail and Docs; bundling AI into tools people already use."
+ },
+ {
+  "company": "Jira (Atlassian)",
+  "website": "atlassian.com",
+  "domain": "atlassian.com",
+  "market": "Australia · global",
+  "category": "Work management",
+  "why": "The PM's own tool; sales-less business growth."
+ },
+ {
+  "company": "Miro",
+  "website": "miro.com",
+  "domain": "miro.com",
+  "market": "Netherlands · global",
+  "category": "Collaboration",
+  "why": "Visual whiteboard; growth through the product itself in teams."
+ },
+ {
+  "company": "HubSpot",
+  "website": "hubspot.com",
+  "domain": "hubspot.com",
+  "market": "US · global",
+  "category": "CRM / marketing software",
+  "why": "Free-plus-paid business and inbound marketing playbook."
+ },
+ {
+  "company": "Calendly",
+  "website": "calendly.com",
+  "domain": "calendly.com",
+  "market": "US · global",
+  "category": "Scheduling",
+  "why": "Viral loop where every invite markets the product."
+ },
+ {
+  "company": "Fresha",
+  "website": "fresha.com",
+  "domain": "fresha.com",
+  "market": "UK · global",
+  "category": "Booking software",
+  "why": "Free booking software for salons, making money via payments."
+ },
+ {
+  "company": "Duolingo",
+  "website": "duolingo.com",
+  "domain": "duolingo.com",
+  "market": "US · global",
+  "category": "Online learning",
+  "why": "Gamification, streaks and notifications; went AI-first in 2025. A top interview favourite."
+ }
+]

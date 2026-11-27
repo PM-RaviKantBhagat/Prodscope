@@ -1,0 +1,530 @@
+{
+  "company": "Groww",
+  "domain": "groww.in",
+  "website": "https://groww.in",
+  "sources": [
+    "https://ticker.finology.in/discover/market-update/groww-q2-fy27-results-analysis",
+    "https://inc42.com/buzz/groww-q2-profit-jumps-54-yoy-to-%e2%82%b9725-cr-revenue-rises-47/",
+    "https://www.businesstoday.in/markets/stocks/story/groww-q2-pat-climbs-54-to-rs-725-crore-revenue-up-44-stock-reacts-561508-2026-10-14",
+    "https://entrackr.com/fintrackr/groww-posts-rs-471-cr-profit-on-rs-1019-cr-revenue-in-q2-fy26-10798520",
+    "https://entrackr.com/news/growws-customer-acquisition-cost-spikes-73-in-h1-fy26-10799610",
+    "https://yourstory.com/2026/07/growws-net-profit-soars-94-in-first-quarter-of-fy27"
+  ],
+  "report": {
+    "company": "Groww",
+    "tagline": "India's largest stock broker by active users, built to make mutual funds and stocks simple for first-time investors.",
+    "category": "Investing",
+    "simpleSummary": "Groww is an app where you can buy mutual funds, shares, gold and more with a few taps. Opening an account is free and done on your phone in minutes. It started with mutual funds for beginners, then added stocks, futures and options, and loans to buy shares. It earns a small fee each time you trade, plus interest on loans and money parked with it.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q2 FY27 (July to Sept 2026)",
+        "value": "₹1,502 crore",
+        "note": "Company results reported by Finology and Inc42, October 2026. Up about 47% from ₹1,019 crore a year earlier."
+      },
+      {
+        "label": "Net profit, Q2 FY27",
+        "value": "₹725 crore",
+        "note": "Company results, October 2026. Up 54% year on year. Groww keeps roughly 48 paise of profit per rupee of revenue."
+      },
+      {
+        "label": "Transacting users",
+        "value": "About 2.4 crore",
+        "note": "Company figure for Q2 FY27, up 27% year on year. About 11 lakh new transacting users joined in the quarter."
+      },
+      {
+        "label": "Customer assets on Groww",
+        "value": "About ₹3.9 lakh crore",
+        "note": "Company figure, September 2026, up 46% year on year."
+      },
+      {
+        "label": "Share of revenue from futures and options",
+        "value": "About 45%",
+        "note": "Equity derivatives were 44.8% of income in Q2 FY27, down from 56.9% a year earlier as Groww diversified."
+      },
+      {
+        "label": "Stock listing",
+        "value": "November 2025",
+        "note": "Parent Billionbrains Garage Ventures listed on NSE and BSE in November 2025."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Groww lets Indians invest in mutual funds, stocks, IPOs, ETFs, gold, US stocks and futures and options from one app. It made account opening fully digital and the app very simple, which pulled in millions of first-time investors from small towns. Today it also lends money to buy shares (MTF), runs its own mutual fund house and offers wealth advice through Fisdom.",
+      "howItWorks": [
+        "You download the app, enter PAN and Aadhaar, do a video KYC and get a demat account the same day, for free.",
+        "You can start a SIP in a direct mutual fund from ₹100 with no commission.",
+        "You can buy and sell shares and apply for IPOs with UPI; Groww charges a small flat fee per order.",
+        "Active traders use futures and options and the Groww terminal; Groww earns ₹20 per order.",
+        "Groww lends money to buy more shares (MTF) and charges interest, and earns interest on idle client money."
+      ],
+      "valueProposition": "Investing that feels as easy as online shopping: free account, clean screens, low fees and no pushy sales calls. For Groww, a huge base of young investors who start small and trade or invest more over time."
+    },
+    "personas": [
+      {
+        "name": "First-time investor from a smaller city",
+        "description": "A 24-year-old in Indore with a first job, who has never invested beyond a bank FD.",
+        "goals": [
+          "Start a ₹1,000 SIP safely",
+          "Understand what to buy without jargon",
+          "Apply for popular IPOs"
+        ],
+        "frustrations": [
+          "Fear of losing money",
+          "Too many choices and confusing fund names"
+        ]
+      },
+      {
+        "name": "Active trader",
+        "description": "A 30-year-old who trades options most days from his phone.",
+        "goals": [
+          "Fast order placement and charts",
+          "Low fees per order"
+        ],
+        "frustrations": [
+          "App slowing down on busy market days",
+          "Tighter SEBI rules on futures and options"
+        ]
+      },
+      {
+        "name": "Salaried long-term investor",
+        "description": "A 35-year-old IT professional who invests ₹40,000 a month in funds and stocks.",
+        "goals": [
+          "Track all investments in one place",
+          "Low-cost direct funds"
+        ],
+        "frustrations": [
+          "Lack of good research and advice",
+          "Hard to reach support for issues"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Opening a demat account used to need forms, branch visits and fees.",
+        "howSolved": "Free, fully digital account opening in minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Mutual fund agents sold regular plans with hidden commissions.",
+        "howSolved": "Groww sells direct plans with zero commission.",
+        "severity": "high"
+      },
+      {
+        "pain": "Broker apps looked complex and scary to beginners.",
+        "howSolved": "Simple screens, plain words and few steps to buy.",
+        "severity": "high"
+      },
+      {
+        "pain": "High brokerage fees at old brokers.",
+        "howSolved": "Flat, low fees: at most ₹20 per stock or options order.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Applying for IPOs was confusing.",
+        "howSolved": "One-tap IPO applications with UPI mandate.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Investments spread across many apps.",
+        "howSolved": "Stocks, funds, gold, US stocks and FDs in one portfolio view.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Direct mutual funds and SIPs",
+        "whatItDoes": "Invest from ₹100 in thousands of funds with no commission.",
+        "whyItMatters": "The first product for most users, which builds trust and a monthly habit."
+      },
+      {
+        "feature": "Stocks and IPOs",
+        "whatItDoes": "Buy shares and apply for IPOs with UPI. About 42 lakh IPO applications came via Groww in Q2 FY27.",
+        "whyItMatters": "Turns fund investors into active users who pay brokerage."
+      },
+      {
+        "feature": "Futures and options trading",
+        "whatItDoes": "Trade derivatives on the app and on the desktop terminal.",
+        "whyItMatters": "The largest revenue line, around 45% of income."
+      },
+      {
+        "feature": "Margin Trading Facility (MTF)",
+        "whatItDoes": "Lends money so users can buy more shares than their cash allows, at an interest rate.",
+        "whyItMatters": "Fast-growing interest income; the MTF book was ₹4,351 crore in September 2026."
+      },
+      {
+        "feature": "Groww Mutual Fund",
+        "whatItDoes": "Groww's own fund house with low-cost index funds and ETFs.",
+        "whyItMatters": "Earns fees on assets, not trades, which is steadier income."
+      },
+      {
+        "feature": "Wealth (Fisdom)",
+        "whatItDoes": "Advice and products for richer clients, acquired for about ₹961 crore.",
+        "whyItMatters": "Keeps users who grow wealthy from leaving for private bankers."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First SIP",
+        "persona": "First-time investor from a smaller city",
+        "steps": [
+          {
+            "step": "Discovers Groww",
+            "detail": "Watches a YouTube video on SIPs or gets a referral from a friend."
+          },
+          {
+            "step": "Opens account",
+            "detail": "Enters PAN, Aadhaar and bank details, does KYC on the phone."
+          },
+          {
+            "step": "Picks a fund",
+            "detail": "Filters by 'Popular' or 'Index funds' and reads simple risk labels."
+          },
+          {
+            "step": "Starts SIP",
+            "detail": "Sets ₹1,000 a month with a UPI autopay mandate."
+          },
+          {
+            "step": "Sees growth",
+            "detail": "Checks portfolio value going up over months."
+          },
+          {
+            "step": "Tries stocks",
+            "detail": "Buys a first share or applies for a hot IPO."
+          }
+        ]
+      },
+      {
+        "name": "Daily options trade",
+        "persona": "Active trader",
+        "steps": [
+          {
+            "step": "Opens app at 9:15",
+            "detail": "Checks Nifty and his watchlist."
+          },
+          {
+            "step": "Adds margin",
+            "detail": "Moves money in with UPI."
+          },
+          {
+            "step": "Places orders",
+            "detail": "Buys and sells options on the option chain screen, ₹20 per order."
+          },
+          {
+            "step": "Tracks position",
+            "detail": "Watches profit and loss live and sets a stop loss."
+          },
+          {
+            "step": "Exits",
+            "detail": "Closes trades before market close and checks the day's charges."
+          }
+        ]
+      },
+      {
+        "name": "Buying shares with MTF",
+        "persona": "Salaried long-term investor",
+        "steps": [
+          {
+            "step": "Finds a stock",
+            "detail": "Wants to buy ₹2 lakh of a stock but has ₹1 lakh."
+          },
+          {
+            "step": "Turns on MTF",
+            "detail": "Activates MTF and agrees to terms."
+          },
+          {
+            "step": "Buys",
+            "detail": "Pays ₹1 lakh, Groww funds the rest."
+          },
+          {
+            "step": "Pays interest",
+            "detail": "Interest is charged daily on the borrowed amount."
+          },
+          {
+            "step": "Repays or sells",
+            "detail": "Sells shares or adds cash to close the loan."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Groww makes money mostly from trading fees, led by futures and options, plus interest on margin loans and idle client money, and fees from its own mutual fund house.",
+      "revenueStreams": [
+        {
+          "stream": "Equity derivatives brokerage",
+          "detail": "₹20 per futures or options order, about 45% of income in Q2 FY27."
+        },
+        {
+          "stream": "Stock brokerage",
+          "detail": "Small fee per share order, about 17% of income."
+        },
+        {
+          "stream": "MTF interest",
+          "detail": "Interest on loans to buy shares, about 10% of income."
+        },
+        {
+          "stream": "Float income",
+          "detail": "Interest earned on client money waiting in the account, about 8%."
+        },
+        {
+          "stream": "Commodities, asset management and wealth",
+          "detail": "Commodity trading fees, Groww Mutual Fund fees and Fisdom wealth fees."
+        }
+      ],
+      "pricing": "Account opening and maintenance: free. Direct mutual funds: no commission. Stocks: ₹20 or 0.1% of order value, whichever is lower (minimum ₹5). Futures and options: ₹20 per executed order. Plus government and exchange charges.",
+      "costDrivers": [
+        "Marketing and brand campaigns to win new users",
+        "Tech and engineering to keep the app fast on busy days",
+        "Employee salaries",
+        "Exchange, clearing and payment costs",
+        "Interest cost on money borrowed for MTF"
+      ],
+      "unitEconomics": "A typical active trader placing 40 options orders a month pays about ₹800 a month in brokerage, nearly ₹10,000 a year. A SIP-only user pays nothing directly; Groww earns only small float income and the chance they trade later. With 2.4 crore transacting users and about ₹6,000 crore yearly revenue run rate, Groww earns roughly ₹2,500 per user per year on average, and about half of that is profit. CAC rose 73% in H1 FY26, so each new user takes longer to pay back."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Simple, free onboarding that friends recommend",
+        "Finance content on YouTube and Groww's own blog and social channels",
+        "IPO season, when millions open accounts to apply",
+        "Brand ads on TV and cricket"
+      ],
+      "whatBringsUsersBack": [
+        "Monthly SIP debits and portfolio checks",
+        "Daily market moves and watchlists",
+        "IPOs and new fund launches",
+        "MTF positions that need tracking"
+      ],
+      "moat": "Groww's moat is scale and trust with beginners: it has the most active users of any Indian broker, a brand first-time investors know, and a habit loop from SIPs. Switching brokers means moving your demat holdings, which few people bother to do."
+    },
+    "competitors": [
+      {
+        "name": "Zerodha",
+        "positioning": "Bootstrapped low-cost broker loved by serious traders, with Kite and Coin.",
+        "howThisProductDiffers": "Groww is simpler and aimed at beginners; Zerodha has deeper tools and the Varsity learning brand."
+      },
+      {
+        "name": "Angel One",
+        "positioning": "Listed broker with a big franchise network in smaller towns.",
+        "howThisProductDiffers": "Groww grew without agents, through app design alone."
+      },
+      {
+        "name": "Upstox",
+        "positioning": "Low-cost broker backed by Tata and Ratan Tata's early bet.",
+        "howThisProductDiffers": "Groww has more users and a stronger mutual fund base."
+      },
+      {
+        "name": "Paytm Money and PhonePe Share.Market",
+        "positioning": "Investing inside big payments apps.",
+        "howThisProductDiffers": "Groww is a focused investing app with a clearer brand for investing."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly transacting users who hold investments with Groww",
+      "why": "It shows people are actively putting money to work through Groww, which is the value it promises. Revenue follows when these users trade, borrow or grow their assets."
+    },
+    "kpiTree": [
+      {
+        "metric": "New transacting users",
+        "description": "People who open an account and make a first investment.",
+        "children": [
+          {
+            "metric": "KYC completion rate",
+            "description": "Share of sign-ups who finish KYC."
+          },
+          {
+            "metric": "First investment within 7 days",
+            "description": "Measures activation after sign-up."
+          },
+          {
+            "metric": "CAC",
+            "description": "Cost to win each transacting user."
+          }
+        ]
+      },
+      {
+        "metric": "Retention of active users",
+        "description": "Users still transacting after 3, 6 and 12 months.",
+        "children": [
+          {
+            "metric": "SIP continuation rate",
+            "description": "Share of SIPs that keep running and are not paused."
+          },
+          {
+            "metric": "Monthly app opens per user",
+            "description": "Habit strength."
+          }
+        ]
+      },
+      {
+        "metric": "Products per user",
+        "description": "Users who use funds plus stocks or other products.",
+        "children": [
+          {
+            "metric": "Fund-to-stock conversion",
+            "description": "SIP users who buy their first share."
+          },
+          {
+            "metric": "MTF and Groww Mutual Fund adoption",
+            "description": "Users taking a second money-making product."
+          }
+        ]
+      },
+      {
+        "metric": "Assets per user",
+        "description": "Average customer assets, about ₹1.6 lakh per transacting user.",
+        "children": [
+          {
+            "metric": "SIP amount growth",
+            "description": "Users raising monthly SIP size."
+          },
+          {
+            "metric": "Net money added",
+            "description": "Money coming in minus money withdrawn."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Share of beginners losing money in futures and options",
+      "App uptime on high-traffic days",
+      "Complaint rate with SEBI and exchanges",
+      "MTF loan losses"
+    ],
+    "strengths": [
+      "India's largest broker by active clients and a strong beginner brand",
+      "Very profitable: about ₹725 crore profit on ₹1,502 crore revenue in one quarter",
+      "Diversifying away from futures and options into MTF, asset management and wealth",
+      "Low marketing need thanks to word of mouth"
+    ],
+    "weaknesses": [
+      "Still depends on futures and options for almost half its income",
+      "Many users invest small amounts, so revenue per user is low",
+      "Research and advice are thin compared with full-service brokers",
+      "Customer acquisition cost has been rising"
+    ],
+    "risks": [
+      "SEBI rules that limit futures and options trading, such as the 2024 and 2026 changes",
+      "A long market fall that slows new investors",
+      "Zerodha, Angel One and payment apps competing on price",
+      "Outages or a security breach hurting trust"
+    ],
+    "userComplaints": [
+      "App lags or crashes on busy trading days",
+      "Customer support is slow and mostly by chat",
+      "Nudges and design that make options trading feel easy for beginners",
+      "Delays in withdrawals or corporate action credits"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "A 'risk check' screen before a user's first options trade, showing SEBI data that most retail traders lose money",
+        "problem": "Beginners lose money in options and blame the app; regulators are watching.",
+        "expectedImpact": "Fewer heavy losses, less regulatory risk, more long-term trust.",
+        "metricToTrack": "Share of new options traders with losses above ₹50,000 in 90 days",
+        "effort": "low"
+      },
+      {
+        "idea": "Goal-based investing: pick a goal like a home down payment, and Groww suggests a fund mix and SIP amount",
+        "problem": "Beginners do not know what to buy or how much.",
+        "expectedImpact": "Higher SIP amounts and better retention.",
+        "metricToTrack": "Average SIP amount and SIP continuation rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Peak-day load protection with a status page and priority for exits",
+        "problem": "App slowdowns on volatile days.",
+        "expectedImpact": "Fewer lost trades and complaints.",
+        "metricToTrack": "Order failure rate on top 10 busiest days",
+        "effort": "high"
+      },
+      {
+        "idea": "Callback support for issues over ₹10,000",
+        "problem": "Users cannot reach a human for money problems.",
+        "expectedImpact": "Faster fixes, higher trust among bigger investors.",
+        "metricToTrack": "Time to resolve high-value tickets",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Simplicity can be the whole product edge: Groww won beginners by removing steps, not adding features.",
+      "Start with a low-risk entry product (SIPs) to build trust, then offer higher-value products (stocks, options, loans).",
+      "When most revenue comes from one product, regulation can hit hard, so diversify early.",
+      "Growth through design and word of mouth keeps CAC low and profit high."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow average assets per user on Groww?",
+        "hint": "Segment users, look at SIP size, goal-based nudges, salary-day prompts, and track net money added."
+      },
+      {
+        "question": "SEBI tightens options rules again. What does Groww do?",
+        "hint": "Estimate revenue at risk, push MTF, funds and wealth, and use the change to build trust with beginners."
+      },
+      {
+        "question": "Design onboarding for a first-time investor in a tier 3 town.",
+        "hint": "Vernacular language, video KYC, ₹100 SIP, simple risk labels, and a clear first-week plan."
+      },
+      {
+        "question": "What should Groww's north star metric be?",
+        "hint": "Compare users, assets and revenue; pick one that reflects investor value, then break into drivers."
+      },
+      {
+        "question": "How would you compete with Zerodha for serious traders?",
+        "hint": "Look at tool gaps, terminal speed, pricing, and whether it is worth chasing vs serving beginners well."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "SIP",
+        "meaning": "Systematic investment plan, putting a fixed amount into a mutual fund every month."
+      },
+      {
+        "term": "Demat account",
+        "meaning": "An online account that holds your shares and funds."
+      },
+      {
+        "term": "Direct plan",
+        "meaning": "A mutual fund version with no agent commission, so lower fees."
+      },
+      {
+        "term": "Futures and options",
+        "meaning": "Contracts that let you bet on price moves with less money upfront, but higher risk."
+      },
+      {
+        "term": "MTF",
+        "meaning": "Margin trading facility, a loan from the broker to buy more shares."
+      },
+      {
+        "term": "Float income",
+        "meaning": "Interest a company earns on customer money it is holding."
+      },
+      {
+        "term": "CAC",
+        "meaning": "Customer acquisition cost, money spent to win one new user."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets real value, here making a first investment."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the product over time."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users are getting value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "KYC",
+        "meaning": "Know your customer, the identity check required to open a financial account."
+      }
+    ],
+    "assumptions": [
+      "Revenue per user of about ₹2,500 a year is our estimate from quarterly revenue and transacting users.",
+      "The 40-orders-a-month trader example is illustrative.",
+      "Assets per user of about ₹1.6 lakh is calculated from ₹3.9 lakh crore assets and 2.4 crore users.",
+      "User complaints are drawn from common app store and social media themes, not a single survey."
+    ]
+  }
+}

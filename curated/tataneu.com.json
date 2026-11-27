@@ -1,0 +1,475 @@
+{
+  "company": "Tata Neu",
+  "domain": "tataneu.com",
+  "website": "https://tataneu.com",
+  "sources": [
+    "https://inc42.com/buzz/tata-digital-posts-nearly-%e2%82%b95000-cr-loss-in-fy26-as-bigbasket-bleeds/",
+    "https://yourstory.com/2026/07/bigbasket-losses-widen-as-revenues-grows-marginally",
+    "https://www.outlookbusiness.com/amp/story/corporate/tata-digital-pivots-from-gmv-focus-50-job-cuts-at-neu-group-level-monetisation-under-sivanandan",
+    "https://www.pulse.bot/retail/news/revamped-tata-neu-to-bet-on-loyalty-financial-services-tata-digital-ceo-sajith-sivanandan-d0441ff5-a667-4d2c-a60d-b487af3b66d9/",
+    "https://www.businesstoday.in/latest/corporate/story/these-major-cash-losers-were-the-chinks-on-chandrasekarans-robust-armour-549020-2026-08-13"
+  ],
+  "report": {
+    "company": "Tata Neu",
+    "tagline": "The Tata Group's super-app that ties its brands together with one loyalty currency, NeuCoins, and a co-branded credit card.",
+    "category": "Super-app (loyalty)",
+    "simpleSummary": "Tata Neu is one app where you can shop at Tata brands like BigBasket, Croma, Tata 1mg, Westside, Taj hotels and Air India. Every purchase earns NeuCoins, and one NeuCoin is worth ₹1 on your next purchase across these brands. A Tata Neu HDFC credit card gives extra coins. After big losses, Tata is now focusing the app on loyalty and financial products like loans and insurance.",
+    "keyNumbers": [
+      {
+        "label": "Tata Digital revenue, FY26",
+        "value": "₹35,990 crore",
+        "note": "Tata Digital filings reported by Inc42, 2026. Up 11.9%. Most revenue comes from Croma and BigBasket, not the Neu app itself."
+      },
+      {
+        "label": "Tata Digital net loss, FY26",
+        "value": "₹4,974 crore",
+        "note": "Inc42, 2026. Up 7.9% from ₹4,610 crore. BigBasket made about 64% of the loss."
+      },
+      {
+        "label": "Tata Sons investment in Tata Digital",
+        "value": "₹22,903 crore",
+        "note": "As of March 2026, Inc42."
+      },
+      {
+        "label": "GMV across Tata Digital",
+        "value": "₹46,515 crore",
+        "note": "Inc42, FY26."
+      },
+      {
+        "label": "Croma, FY26",
+        "value": "₹21,532 crore turnover, ₹614 crore loss",
+        "note": "Inc42, FY26."
+      },
+      {
+        "label": "Monthly transacting users target",
+        "value": "10x growth goal",
+        "note": "Tata chairman N. Chandrasekaran, 2026. Current user numbers are not public."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Tata Neu brings Tata's consumer brands into one app with a single login, a shared loyalty programme (NeuCoins), payments (Tata Pay UPI) and a co-branded credit card. It launched in April 2022 with high hopes of becoming India's super-app. In 2025 and 2026, under CEO Sajith Sivanandan, it moved away from chasing sales volume toward loyalty, credit cards, loans and insurance, with major job cuts.",
+      "howItWorks": [
+        "You sign up once and can shop across BigBasket, Croma, Tata 1mg, Tata CLiQ, Westside, IHCL hotels, Air India and more.",
+        "Each purchase earns NeuCoins, usually around 5% on Tata brands, more with the credit card.",
+        "One NeuCoin equals ₹1 and can be used across all Neu brands.",
+        "The Tata Neu HDFC credit card earns extra NeuCoins on Tata and other spends.",
+        "The app also offers UPI payments, personal loans, insurance and investments from partners.",
+        "Many brands still have their own apps, so Neu is often one of several ways to shop."
+      ],
+      "valueProposition": "For shoppers: earn and spend one loyalty currency across many trusted Tata brands. For Tata: know customers across brands, sell more to each, and earn from credit and financial products."
+    },
+    "personas": [
+      {
+        "name": "Tata brand loyalist",
+        "description": "A 35-year-old in Mumbai who buys groceries on BigBasket, electronics at Croma and flies Air India.",
+        "goals": [
+          "Maximise rewards across brands",
+          "One login"
+        ],
+        "frustrations": [
+          "Coins and offers rules are confusing",
+          "Brand apps work better than Neu"
+        ]
+      },
+      {
+        "name": "Credit card rewards seeker",
+        "description": "A 30-year-old who got the Tata Neu Infinity HDFC card for 5% back.",
+        "goals": [
+          "High rewards on big purchases"
+        ],
+        "frustrations": [
+          "Reward rules changed",
+          "Coins credited late"
+        ]
+      },
+      {
+        "name": "Occasional shopper",
+        "description": "A 25-year-old who installed Neu for a sign-up offer.",
+        "goals": [
+          "One-time discount"
+        ],
+        "frustrations": [
+          "No clear reason to come back"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Loyalty points are stuck inside each brand.",
+        "howSolved": "NeuCoins work across all Tata brands.",
+        "severity": "high"
+      },
+      {
+        "pain": "Many apps and logins for different Tata brands.",
+        "howSolved": "One app and login.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Rewards on credit cards feel small.",
+        "howSolved": "Co-branded card with higher rewards on Tata brands.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Finding trusted loans and insurance.",
+        "howSolved": "Partner financial products inside Neu.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "NeuCoins",
+        "whatItDoes": "Shared loyalty currency, ₹1 per coin.",
+        "whyItMatters": "The main reason to use Neu over brand apps."
+      },
+      {
+        "feature": "Tata Neu HDFC credit card",
+        "whatItDoes": "Co-branded card with extra NeuCoins.",
+        "whyItMatters": "One of India's largest co-branded cards; earns fees for Tata."
+      },
+      {
+        "feature": "Brand storefronts",
+        "whatItDoes": "Shop BigBasket, Croma, 1mg and more inside Neu.",
+        "whyItMatters": "Brings Tata brands under one roof."
+      },
+      {
+        "feature": "Tata Pay UPI",
+        "whatItDoes": "UPI payments in the app.",
+        "whyItMatters": "Daily use and payment data."
+      },
+      {
+        "feature": "Financial services",
+        "whatItDoes": "Loans, insurance and investments from partners.",
+        "whyItMatters": "New focus for revenue."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Earning and spending NeuCoins",
+        "persona": "Tata brand loyalist",
+        "steps": [
+          {
+            "step": "Buys a TV",
+            "detail": "Buys a ₹50,000 TV at Croma via Neu."
+          },
+          {
+            "step": "Earns coins",
+            "detail": "Gets about 2,500 NeuCoins."
+          },
+          {
+            "step": "Orders groceries",
+            "detail": "Uses coins on BigBasket."
+          },
+          {
+            "step": "Books a hotel",
+            "detail": "Earns more at a Taj property."
+          },
+          {
+            "step": "Checks balance",
+            "detail": "Tracks coins in one wallet."
+          }
+        ]
+      },
+      {
+        "name": "Getting the credit card",
+        "persona": "Credit card rewards seeker",
+        "steps": [
+          {
+            "step": "Sees offer",
+            "detail": "Neu app shows card benefits."
+          },
+          {
+            "step": "Applies",
+            "detail": "Applies with HDFC."
+          },
+          {
+            "step": "Gets card",
+            "detail": "Pays yearly fee (often waived on spend)."
+          },
+          {
+            "step": "Spends",
+            "detail": "Earns NeuCoins on all spends."
+          },
+          {
+            "step": "Redeems",
+            "detail": "Uses coins on Tata brands."
+          }
+        ]
+      },
+      {
+        "name": "Taking a personal loan",
+        "persona": "Occasional shopper",
+        "steps": [
+          {
+            "step": "Sees loan banner",
+            "detail": "Pre-approved offer in Neu."
+          },
+          {
+            "step": "Checks rate",
+            "detail": "Compares rate and EMI."
+          },
+          {
+            "step": "Applies",
+            "detail": "Completes KYC."
+          },
+          {
+            "step": "Gets money",
+            "detail": "Partner lender disburses."
+          },
+          {
+            "step": "Repays",
+            "detail": "EMIs auto-debited."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "The Neu app itself earns from credit card partnership fees, financial product commissions and brand marketing. Most Tata Digital revenue comes from selling goods through Croma and BigBasket, which lose money.",
+      "revenueStreams": [
+        {
+          "stream": "Commerce (Croma, BigBasket, 1mg, CLiQ)",
+          "detail": "Sales of products; the bulk of the ₹35,990 crore revenue."
+        },
+        {
+          "stream": "Co-branded credit card",
+          "detail": "Share of interchange and fees from HDFC."
+        },
+        {
+          "stream": "Financial services",
+          "detail": "Commissions on loans and insurance."
+        },
+        {
+          "stream": "Loyalty fees from brands",
+          "detail": "Brands pay for NeuCoins they issue."
+        }
+      ],
+      "pricing": "App is free. NeuCoins: 1 coin = ₹1. Tata Neu Plus and Infinity HDFC cards carry annual fees (about ₹499 and ₹1,499), often waived on spend.",
+      "costDrivers": [
+        "NeuCoins rewards",
+        "BigBasket quick commerce losses",
+        "Marketing, including IPL",
+        "Tech and staff (cut sharply in 2025)",
+        "Discounts"
+      ],
+      "unitEconomics": "On a ₹1,000 BigBasket order through Neu, the customer might get about ₹50 in NeuCoins, which BigBasket or Tata Digital pays for. BigBasket already loses money on many orders, so loyalty adds cost. A credit card customer spending ₹40,000 a month may earn Tata a share of interchange, maybe ₹100 to ₹200 a month, which is why the card and financial services are now the focus."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Cross-promotion inside Tata brands and stores",
+        "Co-branded credit card offers",
+        "IPL and TV ads at launch",
+        "Sign-up bonus coins"
+      ],
+      "whatBringsUsersBack": [
+        "Coins balance to spend",
+        "Credit card spending",
+        "Grocery and pharmacy repeat orders"
+      ],
+      "moat": "Tata Neu's moat is the Tata brand and the spread of Tata businesses, from groceries to flights. No rival owns so many trusted brands. But the moat only works if users actually prefer Neu over each brand's own app."
+    },
+    "competitors": [
+      {
+        "name": "Reliance JioMart and MyJio",
+        "positioning": "Reliance's retail and digital ecosystem.",
+        "howThisProductDiffers": "Neu has premium brands like Taj and Air India; Reliance has more stores."
+      },
+      {
+        "name": "Paytm and PhonePe",
+        "positioning": "Payment-led super-apps.",
+        "howThisProductDiffers": "Neu is loyalty-led; payment apps have far more daily users."
+      },
+      {
+        "name": "Amazon and Flipkart",
+        "positioning": "Large marketplaces with their own rewards.",
+        "howThisProductDiffers": "Neu covers offline Tata stores and travel."
+      },
+      {
+        "name": "CRED",
+        "positioning": "Rewards app for card users.",
+        "howThisProductDiffers": "Neu rewards are tied to Tata brands."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly users who earn or redeem NeuCoins across two or more Tata brands",
+      "why": "The whole idea of Neu is cross-brand value. A user active in two brands proves the super-app works."
+    },
+    "kpiTree": [
+      {
+        "metric": "Monthly transacting users",
+        "description": "Users buying through Neu.",
+        "children": [
+          {
+            "metric": "App installs to first purchase",
+            "description": "Activation rate."
+          },
+          {
+            "metric": "Repeat purchases",
+            "description": "Users buying again in 30 days."
+          }
+        ]
+      },
+      {
+        "metric": "Cross-brand usage",
+        "description": "Users active in more than one brand.",
+        "children": [
+          {
+            "metric": "Coins redeemed in a different brand",
+            "description": "Shows coins pull users across."
+          },
+          {
+            "metric": "Brands per user",
+            "description": "Average count."
+          }
+        ]
+      },
+      {
+        "metric": "Card and finance adoption",
+        "description": "Users with card, loans or insurance.",
+        "children": [
+          {
+            "metric": "Card spends per month",
+            "description": "Card usage."
+          },
+          {
+            "metric": "Loans disbursed",
+            "description": "Loans via Neu."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loss per order at BigBasket",
+      "Reward cost as share of GMV",
+      "Customer complaints on coin credit"
+    ],
+    "strengths": [
+      "Trusted Tata brand",
+      "Wide range of businesses",
+      "Large co-branded credit card",
+      "Deep pockets of Tata Sons"
+    ],
+    "weaknesses": [
+      "Most users still prefer separate brand apps",
+      "Large and rising losses",
+      "Confusing reward rules",
+      "Many strategy and leadership changes"
+    ],
+    "risks": [
+      "Quick commerce rivals hurting BigBasket",
+      "Tata Sons' patience with losses",
+      "RBI rules on co-branded cards and lending",
+      "Payment and rewards apps with better UX"
+    ],
+    "userComplaints": [
+      "NeuCoins not credited or delayed",
+      "App is slow and cluttered",
+      "Card reward rules changed",
+      "Poor customer support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear coin tracker with expected credit dates",
+        "problem": "Coins credited late or missing.",
+        "expectedImpact": "Higher trust.",
+        "metricToTrack": "Coin-related complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Cross-brand bonus: extra coins for first purchase in a new Tata brand",
+        "problem": "Users stick to one brand.",
+        "expectedImpact": "More cross-brand users.",
+        "metricToTrack": "Brands per user",
+        "effort": "low"
+      },
+      {
+        "idea": "Card-first home screen showing coins earned this month",
+        "problem": "Low engagement outside purchases.",
+        "expectedImpact": "More card use.",
+        "metricToTrack": "Card spends per month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Let users earn coins at Tata offline stores by scanning a QR",
+        "problem": "Offline spend not captured.",
+        "expectedImpact": "More users and data.",
+        "metricToTrack": "Monthly transacting users",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Super-apps are hard: users like focused apps that do one job well.",
+      "Bundling brands is not enough; there must be a clear user reason to come to one app.",
+      "Loyalty is a cost; it must change behaviour enough to pay for itself.",
+      "Financial services often become the money maker for consumer super-apps."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why have super-apps struggled in India?",
+        "hint": "Users' habits, UPI apps, focused rivals, cost of rewards; compare with WeChat."
+      },
+      {
+        "question": "How would you increase cross-brand usage on Tata Neu?",
+        "hint": "Segment users, incentives, journeys, metrics."
+      },
+      {
+        "question": "Should Tata shut Neu and invest in brand apps?",
+        "hint": "Compare costs and value; consider a loyalty layer only."
+      },
+      {
+        "question": "What is Neu's north star metric?",
+        "hint": "Cross-brand active users; explain why."
+      },
+      {
+        "question": "How would you make NeuCoins profitable?",
+        "hint": "Breakage, brand funding, card economics, targeted rewards."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Super-app",
+        "meaning": "One app that offers many services, like shopping, payments and travel."
+      },
+      {
+        "term": "Loyalty programme",
+        "meaning": "Rewards for customers who keep buying."
+      },
+      {
+        "term": "Co-branded credit card",
+        "meaning": "A credit card made by a bank with another brand."
+      },
+      {
+        "term": "GMV",
+        "meaning": "Gross merchandise value, total value of goods sold."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A fee paid by merchants each time a card is used."
+      },
+      {
+        "term": "Activation",
+        "meaning": "When a new user first gets value, like a first purchase."
+      },
+      {
+        "term": "Breakage",
+        "meaning": "Rewards that customers never redeem."
+      },
+      {
+        "term": "Quick commerce",
+        "meaning": "Delivery of daily items in about 10 to 30 minutes."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      }
+    ],
+    "assumptions": [
+      "NeuCoins earn rate of about 5% is typical but varies by brand.",
+      "Card annual fees are approximate.",
+      "The card interchange share example is our estimate.",
+      "Neu app user numbers are not public."
+    ]
+  }
+}

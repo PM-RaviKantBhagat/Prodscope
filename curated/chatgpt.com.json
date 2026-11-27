@@ -1,0 +1,441 @@
+{
+  "company": "ChatGPT",
+  "domain": "chatgpt.com",
+  "website": "https://chatgpt.com",
+  "sources": [
+    "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/",
+    "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users",
+    "https://the-decoder.com/only-5-percent-of-chatgpts-900-million-weekly-users-pay-and-reportedly-most-arent-worth-much-to-advertisers/",
+    "https://siliconangle.com/2026/01/16/openai-start-testing-chatgpt-ads-across-free-go-tiers/",
+    "https://fortune.com/2026/02/05/chatgpt-openai-market-share-app-slip-google-rivals-close-the-gap/",
+    "https://www.tomsguide.com/ai/700-000-users-are-ditching-chatgpt-heres-why-and-where-theyre-going",
+    "https://www.emarketer.com/content/openai-centers-revenue-ambitions-on-ads-chatgpt-go"
+  ],
+  "report": {
+    "company": "ChatGPT",
+    "tagline": "OpenAI's AI chat app, used by about a billion people a week, paid for by subscriptions, ads and business plans.",
+    "category": "AI assistant",
+    "simpleSummary": "ChatGPT is an app where you type or speak a question and an AI writes back like a person would. People use it to write emails, study, fix code, plan trips and think through problems. Most people use it for free and now see ads. A smaller group pays a monthly fee for smarter models, more usage and tools like agents that do tasks for you.",
+    "keyNumbers": [
+      {
+        "label": "Weekly active users",
+        "value": "About 1 billion (mid 2026)",
+        "note": "OpenAI figure reported by SiliconANGLE, August 2026. It was 900 million in February 2026 (TechCrunch)."
+      },
+      {
+        "label": "Share of users who pay",
+        "value": "About 5 percent",
+        "note": "The Decoder, early 2026, based on reporting at 900 million weekly users. Roughly 45 to 50 million paying people; treat as an estimate."
+      },
+      {
+        "label": "OpenAI quarterly revenue",
+        "value": "$6.7 billion (Q2 2026)",
+        "note": "SiliconANGLE, August 2026. Up 18 percent on Q1. This is all of OpenAI, not only ChatGPT, but ChatGPT is the largest part."
+      },
+      {
+        "label": "OpenAI quarterly operating loss",
+        "value": "$12.3 billion (Q2 2026)",
+        "note": "SiliconANGLE, August 2026. Loss is driven by computing costs for training and running models."
+      },
+      {
+        "label": "Ad revenue run rate",
+        "value": "Over $1 billion a year (August 2026)",
+        "note": "OpenAI said ads passed a $1 billion annualised rate about 200 days after launch, with a target of $2.5 billion by year end."
+      },
+      {
+        "label": "OpenAI valuation",
+        "value": "About $852 billion",
+        "note": "Reported by SiliconANGLE, August 2026, ahead of a possible IPO."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "ChatGPT answers questions, writes and edits text, writes code, reads files and images, searches the web, and can now carry out multi-step tasks as an agent. It is OpenAI's main consumer product and the biggest AI app in the world. It earns money from paid plans, from ads shown to free and Go users, and from business seats.",
+      "howItWorks": [
+        "You type, talk or upload a file, and an OpenAI model (the GPT-5 family in 2026) writes an answer.",
+        "Memory lets ChatGPT remember facts about you across chats, so answers get more personal over time.",
+        "Search pulls in live web results with links, so it can answer news and shopping questions.",
+        "Agent mode opens a virtual browser and does tasks like filling forms, comparing products or booking, while you watch.",
+        "Free and Go users see clearly labelled ads below answers; paid Plus, Pro and business users do not.",
+        "Businesses buy Team, Business and Enterprise seats with admin controls and a promise not to train on their data."
+      ],
+      "valueProposition": "One app that can help with almost any thinking or writing task, free to start, and good enough that a billion people open it every week."
+    },
+    "personas": [
+      {
+        "name": "College student in India",
+        "description": "A second-year engineering student in Pune who uses ChatGPT daily for assignments, exam prep and coding labs, mostly on the free or Go plan.",
+        "goals": [
+          "Understand hard topics quickly",
+          "Debug lab code before deadlines",
+          "Avoid paying much, or anything"
+        ],
+        "frustrations": [
+          "Hitting limits on the best model during exam week",
+          "Confident but wrong answers in maths and physics",
+          "Ads now showing up in the free plan"
+        ]
+      },
+      {
+        "name": "Knowledge worker",
+        "description": "A marketing manager in the US who pays $20 a month for Plus to draft content, summarise reports and analyse spreadsheets.",
+        "goals": [
+          "Save hours of writing each week",
+          "Get reliable analysis of data files",
+          "Keep a history of projects in one place"
+        ],
+        "frustrations": [
+          "Model changes that alter the tone and quality without warning",
+          "Answers that sound generic",
+          "Not sure what is safe to paste in from work"
+        ]
+      },
+      {
+        "name": "IT buyer at a company",
+        "description": "A head of IT at a 2,000-person firm deciding whether to roll out ChatGPT Enterprise or a rival like Microsoft Copilot or Claude.",
+        "goals": [
+          "Give staff a safe AI tool",
+          "Control data and access",
+          "Show return on the money spent"
+        ],
+        "frustrations": [
+          "Hard to measure productivity gains",
+          "Staff use many different AI tools anyway",
+          "Per-seat cost adds up fast"
+        ]
+      },
+      {
+        "name": "Power user and builder",
+        "description": "A solo founder who pays for Pro to use agents, deep research and the strongest reasoning model for product work.",
+        "goals": [
+          "Hand off long tasks to an agent",
+          "Get the best model as soon as it ships",
+          "Fewer usage caps"
+        ],
+        "frustrations": [
+          "Agents still get stuck or need hand-holding",
+          "$200 a month is expensive",
+          "Rivals ship better coding tools"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Writing emails, essays and reports from a blank page takes a long time.",
+        "howSolved": "ChatGPT writes a first draft in seconds and edits it on request.",
+        "severity": "high"
+      },
+      {
+        "pain": "Search engines give ten links, and you still have to read them all.",
+        "howSolved": "ChatGPT search reads the pages and gives one answer with sources.",
+        "severity": "high"
+      },
+      {
+        "pain": "Learning a new topic alone is slow, and tutors are expensive.",
+        "howSolved": "Students can ask follow-up questions as often as they like, and study mode walks through problems step by step.",
+        "severity": "high"
+      },
+      {
+        "pain": "Non-coders cannot analyse data or automate small tasks.",
+        "howSolved": "ChatGPT can run code on uploaded spreadsheets and explain the result in plain words.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Boring online chores like comparing prices or filling forms eat time.",
+        "howSolved": "Agent mode can open websites and complete these steps for you.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Good AI used to cost $20 a month, too much for many people outside the US.",
+        "howSolved": "ChatGPT Go is a cheaper plan, priced around ₹399 a month in India, and the free tier is now funded by ads.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Chat with GPT-5 models",
+        "whatItDoes": "Answers questions and writes text, with the app picking a fast or a deeper reasoning model automatically.",
+        "whyItMatters": "It is the core habit that brings a billion people back each week."
+      },
+      {
+        "feature": "Memory",
+        "whatItDoes": "Remembers your preferences, job and past chats to shape new answers.",
+        "whyItMatters": "Makes ChatGPT more useful the more you use it, which makes switching to a rival costly."
+      },
+      {
+        "feature": "Search and shopping",
+        "whatItDoes": "Gives live answers with links, and product cards for shopping questions.",
+        "whyItMatters": "Moves ChatGPT into Google's territory and creates places to show ads."
+      },
+      {
+        "feature": "Agent mode",
+        "whatItDoes": "Uses a virtual browser to finish multi-step tasks on the web.",
+        "whyItMatters": "Turns ChatGPT from an answer box into a helper that does work, which justifies higher paid plans."
+      },
+      {
+        "feature": "Voice and image",
+        "whatItDoes": "Lets you talk to ChatGPT in real time and create or edit images.",
+        "whyItMatters": "Brings in casual users who do not like typing, and creates viral moments that drive sign-ups."
+      },
+      {
+        "feature": "Ads in free and Go plans",
+        "whatItDoes": "Shows labelled sponsored results below answers, based on the topic of the chat.",
+        "whyItMatters": "Earns money from the roughly 95 percent of users who never pay."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First chat",
+        "persona": "College student in India",
+        "steps": [
+          { "step": "Hears about it", "detail": "A friend shows a ChatGPT answer to a tough exam question." },
+          { "step": "Opens the app", "detail": "Downloads from the Play Store and can chat even before logging in." },
+          { "step": "Asks a first question", "detail": "Types a physics doubt and gets a step-by-step explanation." },
+          { "step": "Signs up", "detail": "Logs in with Google to save the chat history." },
+          { "step": "Tries more uses", "detail": "Uploads a photo of a handwritten problem and gets it solved." },
+          { "step": "Becomes a daily user", "detail": "Uses it most evenings while studying, on the free tier." }
+        ]
+      },
+      {
+        "name": "Free to paid upgrade",
+        "persona": "Knowledge worker",
+        "steps": [
+          { "step": "Hits a limit", "detail": "Runs out of messages on the best model during a busy work day." },
+          { "step": "Sees the upgrade prompt", "detail": "The app offers Go or Plus with more usage and no ads." },
+          { "step": "Compares plans", "detail": "Picks Plus at $20 a month for agents, deep research and higher limits." },
+          { "step": "Pays", "detail": "Enters a card or pays through the Apple or Google app store." },
+          { "step": "Uses paid tools", "detail": "Runs deep research to prepare a market report in 15 minutes." },
+          { "step": "Renews monthly", "detail": "Keeps paying because work is now built around it." }
+        ]
+      },
+      {
+        "name": "Company roll-out",
+        "persona": "IT buyer at a company",
+        "steps": [
+          { "step": "Notices shadow use", "detail": "Finds many staff already pasting work into personal ChatGPT accounts." },
+          { "step": "Runs a pilot", "detail": "Buys Business seats for 100 people with admin controls." },
+          { "step": "Connects company tools", "detail": "Links Google Drive, SharePoint and Slack so ChatGPT can search internal files." },
+          { "step": "Measures use", "detail": "Checks weekly active seats and time saved surveys." },
+          { "step": "Expands or cuts", "detail": "Buys Enterprise for the whole company, or switches to Copilot if Microsoft bundles it cheaper." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "ChatGPT makes money in three ways: monthly subscriptions from a small share of users, ads shown to the large free and Go audience, and per-seat business plans. Each answer costs real money in computing, so OpenAI loses billions a quarter while it grows.",
+      "revenueStreams": [
+        { "stream": "Consumer subscriptions", "detail": "Go (cheap plan, with ads), Plus ($20 a month) and Pro ($200 a month). This is the largest stream." },
+        { "stream": "Advertising", "detail": "Labelled ads in free and Go chats, launched in the US in early 2026 and expanding to over 40 more countries including India. Passed a $1 billion yearly rate in August 2026." },
+        { "stream": "Business plans", "detail": "Team, Business and Enterprise seats sold per user per month, plus education plans for universities." },
+        { "stream": "Commerce", "detail": "Instant Checkout lets users buy from merchants inside ChatGPT, with OpenAI taking a fee on each sale." }
+      ],
+      "pricing": "Free (with ads); Go about $8 a month in the US and about ₹399 a month in India (with ads); Plus $20 a month; Pro $200 a month; Business and Enterprise priced per seat, Enterprise not public.",
+      "costDrivers": [
+        "Computing power to run models for a billion weekly users (inference)",
+        "Training new frontier models on huge chip clusters",
+        "Long-term data centre deals with Microsoft, Oracle and others",
+        "Researcher and engineer salaries, among the highest in tech",
+        "Safety, legal and copyright costs"
+      ],
+      "unitEconomics": "Take one Plus subscriber paying $20 a month. After app store fees on some sign-ups and computing costs for heavy use, OpenAI may keep roughly $8 to $12. A free user pays nothing but can cost about $0.50 to $2 a month in computing. Ads aim to earn a few dollars a year from each free user, enough to cover their cost at best. With only about 5 percent paying, the free tier is a big cost that ads and Go must shrink. These are rough estimates; OpenAI does not publish per-user numbers."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth: the product is the marketing, people share answers and screenshots",
+        "Viral launches, like image generation, that bring tens of millions of sign-ups in days",
+        "Free use without login, so there is no barrier to a first try",
+        "Cheap Go plan and free promotions in big markets like India",
+        "Being the default AI inside Apple's Siri for some requests, and in many partner apps"
+      ],
+      "whatBringsUsersBack": [
+        "Daily tasks at school and work that become a habit",
+        "Memory and chat history that make it feel personal",
+        "Projects and saved files that hold ongoing work",
+        "New model launches that give people a reason to try again"
+      ],
+      "moat": "ChatGPT's brand is the word many people use for AI, and a billion weekly users give it more feedback data than anyone. Memory and saved projects make leaving annoying. But the models themselves are close to rivals' quality, so the moat is habit and brand more than technology."
+    },
+    "competitors": [
+      {
+        "name": "Google Gemini",
+        "positioning": "AI built into Android, Search, Gmail and Workspace, often bundled free with Google One storage.",
+        "howThisProductDiffers": "ChatGPT is a standalone app people choose on purpose; Gemini wins through distribution on billions of phones."
+      },
+      {
+        "name": "Claude (Anthropic)",
+        "positioning": "AI assistant favoured for coding, writing quality and work tasks, with no ads.",
+        "howThisProductDiffers": "ChatGPT is much bigger with consumers; Claude grows faster in business and coding revenue."
+      },
+      {
+        "name": "Meta AI",
+        "positioning": "Free assistant inside WhatsApp, Instagram and Facebook.",
+        "howThisProductDiffers": "ChatGPT gets deeper, longer sessions; Meta AI gets casual use where people already chat."
+      },
+      {
+        "name": "Microsoft Copilot",
+        "positioning": "AI in Windows and Office, sold to companies with Microsoft 365.",
+        "howThisProductDiffers": "Uses OpenAI models too, but wins enterprise deals through existing Microsoft contracts."
+      },
+      {
+        "name": "Perplexity",
+        "positioning": "Answer engine focused on search with citations.",
+        "howThisProductDiffers": "ChatGPT does far more than search, but Perplexity is sharper for research with sources."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly active users who complete at least one useful task (a chat they do not abandon or redo)",
+      "why": "It counts people who actually got value, not just people who opened the app. It grows with both reach and quality, and drives subscriptions and ad revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "New active users",
+        "description": "People who try ChatGPT for the first time and come back within a week.",
+        "children": [
+          { "metric": "First-chat success rate", "description": "Share of first chats that get a good answer, judged by no immediate rephrase or thumbs down." },
+          { "metric": "Logged-out to logged-in conversion", "description": "Share of anonymous users who sign up, which unlocks memory and history." },
+          { "metric": "Sign-ups from viral launches", "description": "New users brought in by features like image generation." }
+        ]
+      },
+      {
+        "metric": "Retention of existing users",
+        "description": "Retention means the share of users who keep coming back week after week.",
+        "children": [
+          { "metric": "Week-4 retention", "description": "Share of a sign-up group still active four weeks later." },
+          { "metric": "Memory and project adoption", "description": "Share of users who use memory or save a project, which ties them to ChatGPT." },
+          { "metric": "Days active per week", "description": "How many days a typical user opens ChatGPT." }
+        ]
+      },
+      {
+        "metric": "Task depth",
+        "description": "How much real work people get done per session.",
+        "children": [
+          { "metric": "Tasks per active user", "description": "Number of completed chats, searches or agent runs." },
+          { "metric": "Agent task completion rate", "description": "Share of agent runs that finish without the user stepping in." },
+          { "metric": "Answer regeneration rate", "description": "How often users ask for a new answer, a sign the first was poor." }
+        ]
+      },
+      {
+        "metric": "Monetised users",
+        "description": "Users who bring in money through a plan or ads.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Share of active users who move to Go, Plus or Pro." },
+          { "metric": "Ad revenue per free user", "description": "Average ad earnings from each free or Go user per month." },
+          { "metric": "Paid churn", "description": "Churn is the share of paying users who cancel in a month." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Answer accuracy on fact checks, so ads and speed do not lower trust",
+      "Share of users who say ads are relevant and not annoying",
+      "Computing cost per active user",
+      "Safety incidents and harmful answers reported"
+    ],
+    "strengths": [
+      "Largest user base in consumer AI, about a billion people a week",
+      "ChatGPT is the brand name many people use for AI itself",
+      "Fast shipping of new features like agents, voice and images",
+      "Multiple ways to make money: plans, ads, business seats and commerce"
+    ],
+    "weaknesses": [
+      "Huge losses: $12.3 billion operating loss in one quarter",
+      "Only about 5 percent of users pay",
+      "Market share is falling as Gemini and Claude grow; Sensor Tower reports put it below half of AI assistant use in 2026",
+      "Model updates often change behaviour and upset loyal users"
+    ],
+    "risks": [
+      "Google can put Gemini in front of billions of Android and Search users for free",
+      "Ads could hurt trust if users think answers are paid for",
+      "Copyright lawsuits from publishers and authors",
+      "Rising chip and power costs, and dependence on a few cloud partners",
+      "Regulation on AI safety, child safety and data privacy in the US, EU and India"
+    ],
+    "userComplaints": [
+      "Answers became more cautious or 'over-regulated' after model updates, such as GPT-5.2 in late 2025",
+      "Usage limits on the best models, even for paying users",
+      "Ads showing up in the free plan",
+      "Confident wrong answers (hallucinations) in facts, maths and citations",
+      "Concerns about OpenAI's direction led to a 'QuitGPT' trend in 2026, with reports of hundreds of thousands of users switching to rivals"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show a short 'what changed' card after every model update, with an option to keep the older style for 30 days",
+        "problem": "Loyal users feel the product gets worse or different without warning.",
+        "expectedImpact": "Fewer angry posts and cancellations after launches.",
+        "metricToTrack": "Paid churn in the 2 weeks after a model change",
+        "effort": "low"
+      },
+      {
+        "idea": "Let free users trade ads for credits: watch fewer ads if they rate answers or invite friends",
+        "problem": "Ads annoy users, but only 5 percent pay.",
+        "expectedImpact": "Better answer feedback data and lower ad complaints while keeping revenue.",
+        "metricToTrack": "Ad revenue per free user and free-user retention",
+        "effort": "medium"
+      },
+      {
+        "idea": "Add a 'check this' button that shows sources and a confidence level for factual claims",
+        "problem": "Hallucinations make students and workers distrust answers.",
+        "expectedImpact": "Higher trust and more use for serious work.",
+        "metricToTrack": "Answer regeneration rate and thumbs-down rate on factual questions",
+        "effort": "medium"
+      },
+      {
+        "idea": "Exam-season student pass in India: a one-month Go plan at a lower price with higher limits on study mode",
+        "problem": "Students hit limits at the worst time and cannot afford monthly plans.",
+        "expectedImpact": "More paying users in India and stronger habits before rivals win them.",
+        "metricToTrack": "Free to paid conversion among Indian students",
+        "effort": "low"
+      },
+      {
+        "idea": "Agent task templates for common chores (bill payments, travel booking, returns) with step-by-step approval",
+        "problem": "Agents often get stuck and users do not know what to ask them.",
+        "expectedImpact": "Higher agent use and a stronger reason to pay for Plus.",
+        "metricToTrack": "Agent task completion rate",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A product people love can still lose money if each use costs a lot to serve. Always check the unit economics, not just the user count.",
+      "Free users are not free. Ads, a cheaper Go plan and paid tiers are three different answers to the same problem.",
+      "A big lead does not last if rivals own distribution. Google and Meta can reach users where they already are.",
+      "Changing how the product behaves, even to make it better, can upset loyal users. Communicate changes clearly."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "ChatGPT has about a billion weekly users but only about 5 percent pay. How would you increase revenue per user?",
+        "hint": "Segment users (students, workers, casual). For each, choose a lever: ads, Go, Plus or business. Weigh revenue against trust and retention. Pick one to test first and name the metric."
+      },
+      {
+        "question": "How would you decide where ads should and should not appear in ChatGPT?",
+        "hint": "Start with user trust. Separate commercial topics (shopping, travel) from sensitive ones (health, mental health, kids). Set guardrails, then measure ad revenue per user and retention side by side."
+      },
+      {
+        "question": "Gemini is growing fast because it comes on Android phones. What should ChatGPT do?",
+        "hint": "Name what ChatGPT has that Gemini lacks (habit, memory, brand). Options: partnerships with phone makers, a better widget and voice, deeper memory. Pick one and explain the trade-off."
+      },
+      {
+        "question": "What is the north star metric for ChatGPT, and why not just weekly active users?",
+        "hint": "Explain that raw users can grow without value. Propose a task-success metric, then break it into new users, retention, task depth and monetisation."
+      },
+      {
+        "question": "Agent mode completes only some tasks. How would you improve it?",
+        "hint": "Find where agents fail (logins, captchas, unclear goals). Pick the top use cases, add templates and user approvals, and track task completion rate and time saved."
+      }
+    ],
+    "glossary": [
+      { "term": "Retention", "meaning": "The share of users who keep coming back over time." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a given period." },
+      { "term": "North star metric", "meaning": "The one number a team picks to show whether users are getting real value." },
+      { "term": "Weekly active users", "meaning": "The number of different people who use a product at least once in a week." },
+      { "term": "Free to paid conversion", "meaning": "The share of free users who start paying." },
+      { "term": "Inference", "meaning": "The computing work an AI model does each time it answers a question." },
+      { "term": "Run rate", "meaning": "A yearly revenue figure worked out from recent months, assuming the pace stays the same." },
+      { "term": "Moat", "meaning": "Something that makes it hard for competitors to copy a business or win its customers." },
+      { "term": "Hallucination", "meaning": "When an AI states something false as if it were true." },
+      { "term": "Unit economics", "meaning": "How much money a business makes or loses on one customer or one sale." }
+    ],
+    "assumptions": [
+      "Paying user count is worked out from the reported 5 percent share, not stated by OpenAI.",
+      "Per-user computing costs and the profit per Plus user are rough estimates from public reporting and industry rules of thumb.",
+      "Go prices are as reported in 2025 to 2026 and may vary by country or promotion.",
+      "OpenAI-wide revenue and losses are used as a proxy for ChatGPT, since OpenAI does not split them out."
+    ]
+  }
+}

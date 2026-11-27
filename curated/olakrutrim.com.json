@@ -1,0 +1,383 @@
+{
+  "company": "Krutrim",
+  "domain": "olakrutrim.com",
+  "website": "https://olakrutrim.com",
+  "sources": [
+    "https://india.entrepreneur.com/business-news/krutrim-shifts-to-ai-cloud-reports-inr-300-cr-revenue-in-fy26",
+    "https://finance.yahoo.com/sectors/technology/articles/india-first-genai-unicorn-shifts-131850629.html",
+    "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce",
+    "https://www.outlookbusiness.com/corporate/bhavish-aggarwals-ai-bet-hits-another-snag-as-kruti-goes-offline",
+    "https://inc42.com/features/bhavish-aggarwal-ola-krutrim-ai-ambitions-rut/",
+    "https://letsdatascience.com/news/krutrim-drops-chip-plans-shifts-to-ai-cloud-services-caa47c65",
+    "https://www.analyticsinsight.net/artificial-intelligence/krutrim-indias-ai-unicorn-that-pivoted-before-it-peaked"
+  ],
+  "report": {
+    "company": "Krutrim",
+    "tagline": "Ola founder Bhavish Aggarwal's AI company, which set out to build Indian AI models and chips and has pivoted to renting AI computing as a cloud.",
+    "category": "AI (Indic AI models)",
+    "simpleSummary": "Krutrim was started in 2023 by Bhavish Aggarwal, who also runs Ola and Ola Electric. The plan was to build India's own AI: chatbots that speak Indian languages, AI models and even AI chips. It became India's first AI unicorn in 2024. By 2026 it had shut down its Kruti assistant app, dropped chip plans, cut staff in several rounds and turned into an AI cloud company that rents computing power to businesses.",
+    "keyNumbers": [
+      {
+        "label": "FY26 revenue",
+        "value": "About ₹300 crore",
+        "note": "Company figure reported by Entrepreneur India, May 2026. Nearly three times FY25. Part of it may come from Ola group companies."
+      },
+      {
+        "label": "Profit",
+        "value": "Claims it turned profitable in FY26",
+        "note": "Company claim, May 2026; audited accounts not yet seen. Treat with caution."
+      },
+      {
+        "label": "Valuation at unicorn round",
+        "value": "$1 billion (January 2024)",
+        "note": "Raised about $50 million, making it India's first generative AI unicorn. No later priced round found."
+      },
+      {
+        "label": "Enterprise clients",
+        "value": "More than 25",
+        "note": "Company figure, May 2026, in mobility, fintech and e-commerce."
+      },
+      {
+        "label": "Layoff rounds",
+        "value": "At least three, including about half of remaining staff in July 2026",
+        "note": "YourStory and Inc42, 2026. Over 150 people let go in the year before May 2026, then more."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Krutrim today mainly sells AI cloud services: businesses rent GPU computing and use hosted AI models through Krutrim's platform, with data kept in India. It earlier built its own models (Krutrim-1 and Krutrim-2) tuned for Indian languages and a consumer assistant called Kruti, which went offline in 2026. Its Bodhi AI chip plans have been dropped.",
+      "howItWorks": [
+        "Developers and companies sign up on Krutrim Cloud and pay for GPU time or per-use access to AI models.",
+        "Krutrim hosts its own models and popular open models, such as Llama and DeepSeek, on servers in India.",
+        "Enterprise tools help companies build chatbots, voice agents and document tools in Indian languages.",
+        "Ola group companies like Ola and Ola Electric are early and large users.",
+        "Ola Electric pledged part of its shares to fund a data centre for Krutrim."
+      ],
+      "valueProposition": "AI computing and models hosted in India, priced in rupees, with Indian language support, for companies that want local data storage."
+    },
+    "personas": [
+      {
+        "name": "Indian startup developer",
+        "description": "A backend engineer at a fintech startup in Bengaluru who needs cheap GPUs and AI models with data kept in India.",
+        "goals": [
+          "Low cost per AI call",
+          "Data stored in India for compliance",
+          "Indian language support"
+        ],
+        "frustrations": [
+          "Worries Krutrim may change direction again",
+          "Fewer tools and docs than AWS or Azure",
+          "Unsure about long-term support"
+        ]
+      },
+      {
+        "name": "Enterprise IT head",
+        "description": "A CTO at a mid-size Indian company building a Hindi and Tamil customer service bot.",
+        "goals": [
+          "Reliable uptime",
+          "Clear contracts and support",
+          "Good quality in Indian languages"
+        ],
+        "frustrations": [
+          "Startup's layoffs raise vendor risk",
+          "Global clouds offer more services",
+          "Sarvam and others also pitch Indic AI"
+        ]
+      },
+      {
+        "name": "Former Kruti user",
+        "description": "A consumer who tried the Kruti assistant to book cabs and order food in Hindi.",
+        "goals": [
+          "One app for daily tasks in their language",
+          "Free and simple"
+        ],
+        "frustrations": [
+          "Kruti went offline without clear notice",
+          "ChatGPT and Gemini worked better anyway"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Indian companies need AI computing with data kept inside India.",
+        "howSolved": "Krutrim Cloud runs in Indian data centres.",
+        "severity": "high"
+      },
+      {
+        "pain": "GPUs from global clouds are expensive and billed in dollars.",
+        "howSolved": "Krutrim sells GPU time and model access in rupees, often at lower prices.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Global models are weaker in Indian languages and local context.",
+        "howSolved": "Krutrim models were trained with more Indian language data.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Building AI apps from scratch is hard for small teams.",
+        "howSolved": "Hosted models and tools let teams call an API instead of running their own servers.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Krutrim Cloud GPUs",
+        "whatItDoes": "Rents GPU computing to train and run AI models.",
+        "whyItMatters": "This is now Krutrim's main business and source of revenue."
+      },
+      {
+        "feature": "Hosted model APIs",
+        "whatItDoes": "Gives access to Krutrim and open-source models like Llama and DeepSeek through an API.",
+        "whyItMatters": "Easy entry for developers, and keeps them on Krutrim's computing."
+      },
+      {
+        "feature": "Krutrim language models",
+        "whatItDoes": "Krutrim-1 and Krutrim-2, tuned for Indian languages.",
+        "whyItMatters": "The original 'Indian AI' story, though quality trails global and open models."
+      },
+      {
+        "feature": "Enterprise AI tools",
+        "whatItDoes": "Ready-made tools for chatbots, speech and document handling.",
+        "whyItMatters": "Helps sell to businesses that lack AI teams."
+      },
+      {
+        "feature": "Kruti assistant (shut down)",
+        "whatItDoes": "Was a consumer AI agent to book cabs, order food and pay bills in Indian languages.",
+        "whyItMatters": "Its shutdown shows how hard it is to compete with free global assistants."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Developer tries Krutrim Cloud",
+        "persona": "Indian startup developer",
+        "steps": [
+          { "step": "Finds Krutrim", "detail": "Sees a post about cheap DeepSeek or Llama hosting in India." },
+          { "step": "Signs up", "detail": "Creates an account and adds rupee credits." },
+          { "step": "Calls a model", "detail": "Uses the API to run a Hindi chatbot test." },
+          { "step": "Compares", "detail": "Checks speed and price against AWS and Azure." },
+          { "step": "Moves a workload", "detail": "Shifts one production feature if the price is right." },
+          { "step": "Watches risk", "detail": "Keeps a backup provider because of news about layoffs." }
+        ]
+      },
+      {
+        "name": "Enterprise deal",
+        "persona": "Enterprise IT head",
+        "steps": [
+          { "step": "Sales meeting", "detail": "Krutrim pitches Indian data storage and local language skills." },
+          { "step": "Pilot", "detail": "Runs a customer service bot pilot for one region." },
+          { "step": "Reviews vendor risk", "detail": "Checks Krutrim's finances and support plans." },
+          { "step": "Signs contract", "detail": "Buys reserved GPU capacity for a year." },
+          { "step": "Scales or exits", "detail": "Expands if uptime and support hold up." }
+        ]
+      },
+      {
+        "name": "Kruti user (before shutdown)",
+        "persona": "Former Kruti user",
+        "steps": [
+          { "step": "Downloads Kruti", "detail": "Installs after seeing ads or Ola app promotion." },
+          { "step": "Asks in Hindi", "detail": "Asks Kruti to book an Ola cab." },
+          { "step": "Mixed results", "detail": "Some tasks work; others fail or feel slow." },
+          { "step": "Drifts away", "detail": "Goes back to ChatGPT or Gemini for questions." },
+          { "step": "App goes offline", "detail": "Kruti stops working across platforms in 2026." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Krutrim now makes money by renting AI computing (GPUs) and hosted AI models to businesses, billed in rupees. A large share of early demand comes from Ola group companies. It gave up on making money from a consumer assistant and paused its chip plans.",
+      "revenueStreams": [
+        { "stream": "GPU cloud rental", "detail": "Companies pay per hour or reserve GPUs for months." },
+        { "stream": "Model API usage", "detail": "Developers pay per token to use hosted models." },
+        { "stream": "Enterprise AI projects", "detail": "Custom bots and tools for companies, sold under contract." },
+        { "stream": "Ola group services", "detail": "Ola, Ola Electric and related firms buy computing and AI services; exact share not public." }
+      ],
+      "pricing": "Pay-as-you-go GPU and model pricing in rupees on Krutrim Cloud; enterprise pricing not public.",
+      "costDrivers": [
+        "Buying or leasing GPUs, mostly from NVIDIA",
+        "Data centre power and space",
+        "AI researchers and engineers (reduced after layoffs)",
+        "Sales and support for enterprise clients"
+      ],
+      "unitEconomics": "For a GPU cloud, the money is in keeping GPUs busy. If Krutrim pays roughly ₹150 to ₹250 an hour to own and run a high-end GPU, and rents it for ₹250 to ₹400 an hour, it makes money only when the GPU is rented most of the day. Idle GPUs lose money fast. Model APIs add margin on top of computing. Selling to Ola group firms fills capacity but may not prove outside demand. All rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Ola group companies as first customers",
+        "Bhavish Aggarwal's public profile and 'build AI in India' message",
+        "Cheap hosting of popular open models, such as DeepSeek, to attract developers",
+        "Enterprise sales in mobility, fintech and e-commerce",
+        "Government push for AI computing in India (IndiaAI Mission)"
+      ],
+      "whatBringsUsersBack": [
+        "Workloads already running on Krutrim servers",
+        "Rupee billing and Indian data storage needed for compliance",
+        "Reserved capacity contracts"
+      ],
+      "moat": "Krutrim's moat is thin. Its main edge is Indian data centres, rupee billing and the Ola group as an anchor customer. Global clouds (AWS, Azure, Google Cloud) also have Indian regions, and other Indian GPU clouds like Yotta and E2E Networks compete on price."
+    },
+    "competitors": [
+      {
+        "name": "Sarvam AI",
+        "positioning": "Indian AI startup building Indic models, backed by the IndiaAI Mission.",
+        "howThisProductDiffers": "Sarvam kept building models (such as Sarvam-30B and 105B); Krutrim moved to cloud services."
+      },
+      {
+        "name": "Yotta and E2E Networks",
+        "positioning": "Indian GPU cloud providers.",
+        "howThisProductDiffers": "Direct rivals in renting GPUs; Krutrim adds its own models and Ola backing."
+      },
+      {
+        "name": "AWS, Azure and Google Cloud",
+        "positioning": "Global clouds with Indian data centres.",
+        "howThisProductDiffers": "They offer far more services; Krutrim competes on price and local focus."
+      },
+      {
+        "name": "ChatGPT and Gemini",
+        "positioning": "Global consumer AI assistants with Indian language support.",
+        "howThisProductDiffers": "They beat Kruti for consumers, which is why Krutrim left that market."
+      }
+    ],
+    "northStar": {
+      "metric": "Paid GPU hours and model calls used by outside (non-Ola) customers each month",
+      "why": "It shows real demand from customers who chose Krutrim freely. It ties to revenue and to whether GPUs are kept busy."
+    },
+    "kpiTree": [
+      {
+        "metric": "Outside customers",
+        "description": "Companies outside the Ola group that pay Krutrim.",
+        "children": [
+          { "metric": "New paying accounts", "description": "Number of new companies spending each month." },
+          { "metric": "Pilot to contract rate", "description": "Share of pilots that become paid contracts." }
+        ]
+      },
+      {
+        "metric": "GPU utilisation",
+        "description": "Share of GPU hours that are rented. Utilisation is the key to profit for a cloud.",
+        "children": [
+          { "metric": "Reserved capacity share", "description": "Share of GPUs booked under long contracts." },
+          { "metric": "Spot usage", "description": "Short-term rentals that fill idle hours." }
+        ]
+      },
+      {
+        "metric": "Usage per customer",
+        "description": "How much each customer spends over time.",
+        "children": [
+          { "metric": "Net revenue retention", "description": "Spend this year versus last year from the same customers." },
+          { "metric": "API calls per account", "description": "Volume of model calls." }
+        ]
+      },
+      {
+        "metric": "Reliability",
+        "description": "Whether customers can depend on Krutrim.",
+        "children": [
+          { "metric": "Uptime", "description": "Share of time services are working." },
+          { "metric": "Support response time", "description": "How fast issues get answered." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Share of revenue from Ola group companies, so it does not hide weak outside demand",
+      "Cash burn and debt",
+      "Uptime and outage count",
+      "Customer churn after news of layoffs"
+    ],
+    "strengths": [
+      "Backed by Bhavish Aggarwal and the Ola group, with a ready anchor customer",
+      "Indian data centres and rupee pricing",
+      "Early brand as India's first AI unicorn",
+      "Moved fast to a business with real revenue (₹300 crore in FY26)"
+    ],
+    "weaknesses": [
+      "Gave up on its original goals: own frontier models, chips and consumer app",
+      "Repeated layoffs hurt talent and customer trust",
+      "Unclear how much revenue comes from outside the Ola group",
+      "Small next to global and other Indian GPU clouds"
+    ],
+    "risks": [
+      "GPU prices falling, squeezing rental margins",
+      "Global clouds cutting prices in India",
+      "Ola group financial stress, since Ola Electric pledged shares to fund Krutrim",
+      "Government contracts and subsidies going to rivals like Sarvam"
+    ],
+    "userComplaints": [
+      "Kruti assistant went offline across platforms without much warning (2026)",
+      "Early Krutrim chatbot gave wrong or odd answers at launch",
+      "Employees and the market question the strategy after many pivots",
+      "Developers worry about long-term support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Publish an uptime and support promise (SLA) with credits for downtime",
+        "problem": "Layoffs make companies doubt Krutrim's reliability.",
+        "expectedImpact": "More enterprise trust and contracts.",
+        "metricToTrack": "Pilot to contract rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Free credits for Indian AI startups in exchange for 12-month commitments",
+        "problem": "Krutrim needs outside customers to fill GPUs.",
+        "expectedImpact": "Higher GPU utilisation and less reliance on Ola.",
+        "metricToTrack": "Paid GPU hours from non-Ola customers",
+        "effort": "medium"
+      },
+      {
+        "idea": "Indic voice agent kit for banks and telecoms, priced per call in rupees",
+        "problem": "Companies need Hindi and regional language support bots but lack AI teams.",
+        "expectedImpact": "Higher-margin revenue than plain GPU rental.",
+        "metricToTrack": "API calls per account",
+        "effort": "medium"
+      },
+      {
+        "idea": "Regular public reports on outside customer revenue share",
+        "problem": "Investors and customers doubt how much demand is real.",
+        "expectedImpact": "Better trust and easier fundraising.",
+        "metricToTrack": "Share of revenue from non-Ola customers",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A big mission ('build India's AI') is not a product. Pick one problem you can win first.",
+      "Competing with free global assistants for consumers needs far better quality, not just local branding.",
+      "Pivoting to what customers pay for (computing) can save a company, but it changes what you are.",
+      "Revenue from your own group companies is a good start, but outside customers prove real demand."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Krutrim shut down its Kruti assistant. Why do you think it failed, and what would you have done?",
+        "hint": "Look at quality versus ChatGPT and Gemini, distribution, and the cost to serve free users. Suggest a narrower use case, like Ola-only tasks."
+      },
+      {
+        "question": "Compare Krutrim and Sarvam's strategies for building Indian AI.",
+        "hint": "Krutrim moved to cloud; Sarvam kept building models with government support. Compare revenue now versus long-term value and risk."
+      },
+      {
+        "question": "What should Krutrim's north star metric be now?",
+        "hint": "Paid usage from outside customers. Break it into new customers, GPU utilisation, usage per customer and reliability."
+      },
+      {
+        "question": "How would you win enterprise customers after news of layoffs?",
+        "hint": "Address risk directly: SLAs, data export options, references. Pick one segment, like Indian fintechs, and set a pilot metric."
+      },
+      {
+        "question": "Should Krutrim keep training its own models?",
+        "hint": "Compare cost, talent and differentiation against hosting open models. Suggest small Indic models only where they beat open ones."
+      }
+    ],
+    "glossary": [
+      { "term": "Unicorn", "meaning": "A private startup valued at $1 billion or more." },
+      { "term": "GPU", "meaning": "A powerful chip used to train and run AI models." },
+      { "term": "Utilisation", "meaning": "The share of time computing hardware is being used and paid for." },
+      { "term": "API", "meaning": "A way for software to use a service directly, often paid per use." },
+      { "term": "Pivot", "meaning": "When a company changes its main product or business model." },
+      { "term": "SLA", "meaning": "Service level agreement: a written promise about uptime and support." },
+      { "term": "Net revenue retention", "meaning": "How much existing customers spend now compared with a year ago." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives its users." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "Churn", "meaning": "Customers who stop paying." }
+    ],
+    "assumptions": [
+      "GPU cost and rental prices per hour are rough estimates based on Indian market rates, not Krutrim's numbers.",
+      "The share of revenue from Ola group companies is not public; it is assumed to be large based on news reports.",
+      "Profitability is a company claim; audited FY26 accounts were not reviewed.",
+      "Model names and product status are as of mid to late 2026 news; the company may change direction again."
+    ]
+  }
+}

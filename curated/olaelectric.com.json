@@ -1,0 +1,257 @@
+{
+ "company": "Ola / Ola Electric",
+ "domain": "olaelectric.com",
+ "website": "https://olaelectric.com",
+ "sources": [
+  "https://yourstory.com/2026/11/ola-electric-hands-keys-to-dealers-what-led-to-this-shift",
+  "https://www.autocarpro.in/news/ola-electric-q2-loss-widens-to-rs-362-crore-as-revenue-falls-39-percent-135880",
+  "https://lapaasvoice.com/ola-electrics-q2-fy27-revenue-falls-39-to-%e2%82%b9421-crore-losses-narrow-13/",
+  "https://inc42.com/features/ola-electrics-comeback-quarter-comes-with-a-caveat/",
+  "https://www.businesstoday.in/markets/stocks/story/ola-electric-q2-results-net-loss-narrows-to-rs-418-crore-revenue-falls-43-500965-2025-11-06"
+ ],
+ "report": {
+  "company": "Ola / Ola Electric",
+  "tagline": "India's once-leading electric scooter maker, from the founder of the Ola cab app, now rebuilding after a sharp fall over service problems.",
+  "category": "Mobility / EV",
+  "simpleSummary": "Bhavish Aggarwal first built Ola, India's big cab-booking app. In 2017 he started Ola Electric, which makes electric scooters and motorcycles in a huge factory near Krishnagiri, Tamil Nadu, and sold them online and through its own stores. It became India's top-selling electric scooter brand by 2024, but broken scooters, long service waits and thousands of complaints sent buyers to TVS, Bajaj and Ather. In late 2026 it is closing its own stores, moving to dealers, and trying to win back trust.",
+  "keyNumbers": [
+   {"label": "Revenue, July to September 2026 (Q2 FY27)", "value": "About ₹421 crore, down 39% from a year earlier", "note": "Company results, November 2026."},
+   {"label": "Loss, Q2 FY27", "value": "₹362 crore net loss; operating EBITDA loss ₹218 crore", "note": "Company results, November 2026."},
+   {"label": "Monthly dispatches", "value": "3,955 in September 2026, 13,505 in October; target 20,000 in December", "note": "Company figures via YourStory, November 2026. Dispatches are vehicles sent to dealers, not sales to customers."},
+   {"label": "Market share", "value": "Fell from about 30%+ in 2024 to single digits in 2025 to 2026", "note": "Estimate from Vahan registration data reported in media; Ola did not give a figure for Q2 FY27."},
+   {"label": "Consumer complaints", "value": "10,644 complaints on the National Consumer Helpline, September 2023 to August 2024", "note": "Reported by YourStory; led to a CCPA show-cause notice in October 2024."},
+   {"label": "Dealer network", "value": "319 dealer stores (November 2026); target 700 by March 2027", "note": "Company figures. Own stores stopped taking orders on 1 November 2026."}
+  ],
+  "overview": {
+   "whatItDoes": "Ola Electric designs and builds electric two-wheelers like the S1 scooter range and Roadster motorcycles, and now makes its own battery cells at a 6 GWh gigafactory. It listed on Indian stock exchanges in August 2024. The Ola ride-hailing app is a separate company (ANI Technologies) under the same founder; this teardown focuses on Ola Electric.",
+   "howItWorks": [
+    "Customers book a scooter online or at a store; prices range roughly from ₹80,000 to ₹1.6 lakh depending on model and battery.",
+    "Scooters are built at the Futurefactory in Tamil Nadu and sent to stores or dealers.",
+    "Until 2026 Ola sold mostly through its own experience centres; from November 2026 it sells through independent dealers who buy and hold stock.",
+    "Service is done at Ola service centres and through home visits; software updates arrive over the air.",
+    "Ola now makes its own lithium-ion cells (4680 Bharat cell) to cut battery cost, the largest part of an EV's price.",
+    "Government PLI incentives pay Ola for locally made vehicles and cells."
+   ],
+   "valueProposition": "A feature-rich electric scooter at a lower price than rivals, with lower running cost than petrol."
+  },
+  "personas": [
+   {
+    "name": "Daily commuter switching from petrol",
+    "description": "A 30-year-old in Bengaluru or Pune riding 30 to 40 km a day who wants to save on petrol.",
+    "goals": ["Save ₹2,000 to ₹3,000 a month on fuel", "Reliable daily ride", "Easy charging at home"],
+    "frustrations": ["Breakdowns and software glitches", "Weeks-long waits at service centres"]
+   },
+   {
+    "name": "Tech-loving first EV buyer",
+    "description": "Someone who likes features like the big touchscreen, MoveOS updates and cruise control.",
+    "goals": ["Modern scooter with smart features", "Good range per charge"],
+    "frustrations": ["Features that do not work after updates", "Parts quality issues"]
+   },
+   {
+    "name": "Price-sensitive buyer in a smaller city",
+    "description": "A buyer in a tier-2 city attracted by sub-₹1 lakh prices like the S1 X.",
+    "goals": ["Cheapest EV with decent range", "Service centre nearby"],
+    "frustrations": ["Few service points outside metros", "Doubts about resale value"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "High and rising petrol costs", "howSolved": "Running cost around ₹0.25 to ₹0.30 per km on electricity, much lower than petrol (estimate).", "severity": "high"},
+   {"pain": "EVs were too expensive", "howSolved": "Aggressive prices, including models under ₹1 lakh, helped by subsidies and PLI.", "severity": "high"},
+   {"pain": "Range anxiety", "howSolved": "Battery options up to about 4 kWh and Ola's Hypercharger network.", "severity": "medium"},
+   {"pain": "Old-fashioned scooter buying at dealers", "howSolved": "Online booking and home delivery (until the 2026 dealer shift).", "severity": "low"},
+   {"pain": "Scooters that do not get better over time", "howSolved": "MoveOS software updates add features over the air.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "S1 scooter range", "whatItDoes": "S1 Pro, S1 Air and S1 X with different batteries and prices.", "whyItMatters": "Covers premium and budget buyers."},
+   {"feature": "MoveOS software", "whatItDoes": "Touchscreen dashboard, navigation, ride modes and over-the-air updates.", "whyItMatters": "Made Ola feel like a tech product, its main point of difference."},
+   {"feature": "Own battery cells (Bharat cell)", "whatItDoes": "In-house cells from a 6 GWh gigafactory.", "whyItMatters": "Could cut battery cost 10 to 15% if quality yields reach about 85%."},
+   {"feature": "Roadster motorcycles", "whatItDoes": "Electric motorcycles for the bigger motorcycle market.", "whyItMatters": "Opens a larger segment than scooters."},
+   {"feature": "Service network and Ola app", "whatItDoes": "Book service, track repairs and get home service.", "whyItMatters": "The weakest link; service failures drove the brand's fall."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Buying a scooter",
+    "persona": "Daily commuter switching from petrol",
+    "steps": [
+     {"step": "Research", "detail": "Compares Ola S1 with TVS iQube and Ather Rizta on YouTube and Reddit."},
+     {"step": "Test ride", "detail": "Visits a dealer (from late 2026) for a test ride."},
+     {"step": "Choose model", "detail": "Picks S1 X with 3 kWh battery for price."},
+     {"step": "Finance", "detail": "Takes a loan with low down payment."},
+     {"step": "Delivery and registration", "detail": "Dealer handles RTO number plate and delivery."},
+     {"step": "Home charging", "detail": "Charges overnight from a home socket."}
+    ]
+   },
+   {
+    "name": "Getting a repair",
+    "persona": "Tech-loving first EV buyer",
+    "steps": [
+     {"step": "Problem", "detail": "Scooter shows a motor error and will not move."},
+     {"step": "Book service", "detail": "Raises a ticket in the Ola app."},
+     {"step": "Wait", "detail": "Waits days for pickup; parts may take weeks."},
+     {"step": "Chase", "detail": "Calls support or complains on social media."},
+     {"step": "Repair", "detail": "Gets scooter back; decides whether to trust the brand again."}
+    ]
+   },
+   {
+    "name": "Daily ride",
+    "persona": "Price-sensitive buyer in a smaller city",
+    "steps": [
+     {"step": "Morning check", "detail": "Checks charge on the app."},
+     {"step": "Ride to work", "detail": "Uses Eco mode to stretch range."},
+     {"step": "Charge", "detail": "Plugs in at home in the evening."},
+     {"step": "Software update", "detail": "Installs a MoveOS update overnight."},
+     {"step": "Monthly saving", "detail": "Compares electricity bill to old petrol spend."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Ola Electric makes money by selling scooters and motorcycles at a margin, plus parts, service, extended warranty and accessories. Government PLI incentives add to margin. The shift to dealers moves stock costs off Ola's books but gives dealers a cut.",
+   "revenueStreams": [
+    {"stream": "Vehicle sales", "detail": "Scooters and motorcycles; the main revenue."},
+    {"stream": "Service, parts and accessories", "detail": "Repairs, spares, extended warranty."},
+    {"stream": "Government incentives", "detail": "PLI payments for local manufacturing of vehicles and cells."},
+    {"stream": "Software features", "detail": "Paid MoveOS upgrades on some models."}
+   ],
+   "pricing": "S1 range from about ₹80,000 to ₹1.6 lakh ex-showroom depending on battery and model, with frequent discounts. Roadster motorcycles priced in a similar range. Prices change often.",
+   "costDrivers": [
+    "Battery packs (the largest cost)",
+    "Factory and gigafactory running costs",
+    "Service network and warranty repairs",
+    "Marketing and discounts",
+    "Dealer margins from 2026",
+    "R&D for cells and new models"
+   ],
+   "unitEconomics": "On a scooter sold at ₹1 lakh, Ola's gross margin of about 30% (26.5% without PLI) leaves about ₹26,500 to ₹30,000 before fixed costs. But with only about 13,000 to 20,000 units a month, fixed costs for factories, R&D and staff are too large to cover, so it lost ₹362 crore in the quarter. Ola needs about 25,000+ units a month and cheaper in-house cells to break even (estimate)."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Founder-led hype on social media and launch events",
+    "Low prices and heavy discounts",
+    "Online booking with home delivery (earlier)",
+    "Dealer network expansion from 2026 into smaller towns"
+   ],
+   "whatBringsUsersBack": [
+    "Service and parts (needed throughout ownership)",
+    "Software updates and the app",
+    "Referrals from happy owners (when service works)"
+   ],
+   "moat": "Ola's possible moat is cost: owning cell manufacturing and a big factory could make its batteries cheaper than rivals. But that only matters if quality and service earn back trust, which is currently its biggest weakness."
+  },
+  "competitors": [
+   {"name": "TVS iQube", "positioning": "Trusted legacy brand with a wide dealer and service network; became the EV leader.", "howThisProductDiffers": "Ola has more tech features and lower prices but much weaker service trust."},
+   {"name": "Bajaj Chetak", "positioning": "Metal-body electric scooter from a trusted brand with many dealers.", "howThisProductDiffers": "Ola offers more range per rupee; Bajaj has better reliability reputation."},
+   {"name": "Ather Energy", "positioning": "Premium EV maker with strong software and service, also listed in 2025.", "howThisProductDiffers": "Both are tech-first; Ather is seen as more reliable and has a family scooter (Rizta)."},
+   {"name": "Hero Vida and petrol scooters like Honda Activa", "positioning": "Big brands with huge service networks.", "howThisProductDiffers": "Ola is cheaper to run but riskier on service."}
+  ],
+  "northStar": {
+   "metric": "Number of Ola scooters on the road working without an open service issue",
+   "why": "Ola's problem is trust after purchase. Happy, working scooters drive word of mouth and new sales; sales alone hid the service crisis."
+  },
+  "kpiTree": [
+   {
+    "metric": "New registrations",
+    "description": "Scooters actually sold to customers (Vahan data).",
+    "children": [
+     {"metric": "Dealer stores live", "description": "More stores mean more reach, especially in small towns."},
+     {"metric": "Test ride to purchase rate", "description": "Shows if the product and price convince buyers."}
+    ]
+   },
+   {
+    "metric": "Service quality",
+    "description": "How fast and well problems are fixed.",
+    "children": [
+     {"metric": "Average days to resolve a service ticket", "description": "Long waits drove the complaints crisis."},
+     {"metric": "Repeat repair rate", "description": "Same fault coming back means a poor fix."},
+     {"metric": "Parts availability", "description": "Missing parts cause long waits."}
+    ]
+   },
+   {
+    "metric": "Product reliability",
+    "description": "How often scooters break.",
+    "children": [
+     {"metric": "Faults per 1,000 scooters per month", "description": "Measures build and software quality."},
+     {"metric": "Cell quality yield", "description": "Share of in-house cells passing checks; affects cost and reliability."}
+    ]
+   },
+   {
+    "metric": "Owner satisfaction",
+    "description": "How owners feel and talk.",
+    "children": [
+     {"metric": "Net promoter score", "description": "Willingness to recommend."},
+     {"metric": "Consumer helpline complaints", "description": "A public signal regulators watch."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Gross margin per vehicle",
+   "Cash burn (free cash flow)",
+   "Dealer inventory days (stock not piling up at dealers)",
+   "Safety incidents such as battery fires"
+  ],
+  "strengths": [
+   "Own battery cell factory, rare in India",
+   "Strong software and feature set",
+   "Large manufacturing capacity",
+   "Debt cut from ₹3,132 crore to ₹1,819 crore"
+  ],
+  "weaknesses": [
+   "Damaged trust from service delays and quality issues",
+   "Revenue down sharply and still loss-making",
+   "Relying on dispatches can hide weak real sales",
+   "Founder's public fights with critics hurt the brand"
+  ],
+  "risks": [
+   "TVS, Bajaj and Ather taking more share with better service",
+   "Regulatory action from CCPA and state transport offices",
+   "Cuts in EV subsidies",
+   "Dealer transition may fail if dealers lose money"
+  ],
+  "userComplaints": [
+   "Long wait times at service centres, sometimes weeks",
+   "Parts shortages and repeat failures",
+   "Software bugs after updates",
+   "Poor customer support responses",
+   "Showrooms closed during regulatory raids"
+  ],
+  "improvementIdeas": [
+   {"idea": "Service promise: fix within 72 hours or free loaner scooter", "problem": "Long service waits are the top complaint.", "expectedImpact": "Rebuild trust and referrals.", "metricToTrack": "Average days to resolve service tickets", "effort": "high"},
+   {"idea": "Public service dashboard by city", "problem": "People do not believe service has improved.", "expectedImpact": "More confidence to buy.", "metricToTrack": "Test ride to purchase rate", "effort": "low"},
+   {"idea": "Predictive fault alerts from scooter data", "problem": "Breakdowns happen without warning.", "expectedImpact": "Fewer roadside failures and planned repairs.", "metricToTrack": "Faults per 1,000 scooters", "effort": "medium"},
+   {"idea": "Train dealers as certified service points", "problem": "Too few service centres outside metros.", "expectedImpact": "Faster repairs in smaller towns.", "metricToTrack": "Service points per 1,000 scooters", "effort": "medium"}
+  ],
+  "pmLessons": [
+   "The product does not end at sale. For vehicles, service is part of the product, and failing at it can undo great sales.",
+   "Growing faster than your support can handle is risky. Ola sold scooters faster than it could fix them.",
+   "Owning distribution saves dealer margin but adds heavy costs; Ola reversed course to dealers in 2026.",
+   "Founder voice can build hype but also hurt the brand when the founder fights critics in public."
+  ],
+  "interviewQuestions": [
+   {"question": "Ola's sales fell sharply due to service complaints. As PM, what would you fix first?", "hint": "Prioritise by impact on owners: parts, repair time, support communication. Pick metrics like days to resolve and NPS."},
+   {"question": "Was moving from own stores to dealers the right call?", "hint": "Compare cost, reach, control of experience, working capital. Discuss risks and what to measure."},
+   {"question": "How would you win back an unhappy Ola owner?", "hint": "Listen, fix the issue fast, offer goodwill. Track repeat complaints and referral rate."},
+   {"question": "Design a feature in the Ola app to reduce service calls.", "hint": "Self-diagnosis, live repair tracking, parts ETA, video help. Measure call volume per scooter."},
+   {"question": "What should Ola Electric's north star metric be?", "hint": "Working scooters on the road or satisfied owners. Break into sales, service, reliability and satisfaction."}
+  ],
+  "glossary": [
+   {"term": "EV", "meaning": "Electric vehicle: a vehicle that runs on a battery and motor instead of petrol."},
+   {"term": "gigafactory", "meaning": "A very large factory that makes batteries."},
+   {"term": "PLI", "meaning": "Production Linked Incentive: Indian government payments to companies that make products locally."},
+   {"term": "over the air", "meaning": "Software updates sent to a device through the internet without visiting a shop."},
+   {"term": "dispatches", "meaning": "Vehicles sent from the factory to dealers, which can differ from actual sales to customers."},
+   {"term": "EBITDA", "meaning": "Earnings before interest, tax and accounting charges for wear of assets; a rough measure of operating profit."},
+   {"term": "gross margin", "meaning": "The share of the selling price left after paying for making the product."},
+   {"term": "free cash flow", "meaning": "Cash a company has left after paying running costs and investments; negative means it is burning cash."},
+   {"term": "working capital", "meaning": "Money tied up in day-to-day operations, like stock and unpaid bills."},
+   {"term": "net promoter score", "meaning": "A survey score of how likely users are to recommend a product."},
+   {"term": "CCPA", "meaning": "Central Consumer Protection Authority: the Indian regulator for consumer rights."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Market share figures are estimates from media reports of Vahan data.",
+   "Price ranges are approximate and change often with discounts.",
+   "Running cost per km and break-even volume are our estimates.",
+   "Ola ride-hailing is covered only briefly since the given website is Ola Electric's."
+  ]
+ }
+}

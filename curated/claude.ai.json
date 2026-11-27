@@ -1,0 +1,408 @@
+{
+  "company": "Claude",
+  "domain": "claude.ai",
+  "website": "https://claude.ai",
+  "sources": [
+    "https://www.secondtalent.com/resources/claude-ai-statistics/",
+    "https://www.freepressjournal.in/tech/anthropics-claude-sees-record-subscriber-growth-paid-users-more-than-double-in-2026",
+    "https://aimagazine.com/news/anthropic-claude-enterprise-ai-agents-and-965bn-valuation",
+    "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/",
+    "https://www.macrumors.com/2026/03/26/claude-code-users-rapid-rate-limit-drain-bug/",
+    "https://www.theregister.com/2026/01/05/claude_devs_usage_limits/",
+    "https://analyticsindiamag.com/ai-features/why-claude-is-losing-users/"
+  ],
+  "report": {
+    "company": "Claude",
+    "tagline": "Anthropic's AI assistant for work: writing, coding and agents that do real tasks on your computer, with no ads.",
+    "category": "AI assistant",
+    "simpleSummary": "Claude is an AI you chat with, like ChatGPT, made by a company called Anthropic. People mostly use it for work: writing, coding, analysing documents and now handing over whole tasks. Tools like Claude Code and Cowork let it work directly on your files and computer, not just answer in a chat box. It has a free plan, but most of its money comes from businesses and paid plans, and it shows no ads.",
+    "keyNumbers": [
+      {
+        "label": "Anthropic revenue run rate",
+        "value": "About $65 billion a year (July 2026)",
+        "note": "Bloomberg and FT figures summarised by Second Talent, up from about $9 billion at end of 2025. Most of this is API and business use, not the consumer app."
+      },
+      {
+        "label": "Q2 2026 revenue",
+        "value": "$11.6 billion, with a small profit",
+        "note": "Reported by SiliconANGLE, August 2026, in a comparison with OpenAI."
+      },
+      {
+        "label": "Valuation",
+        "value": "$965 billion (May 2026)",
+        "note": "Post-money value after a $65 billion Series H. A confidential IPO filing was reported in June 2026."
+      },
+      {
+        "label": "Claude.ai web visits",
+        "value": "About 950 million in August 2026",
+        "note": "Similarweb estimate. ChatGPT had about 5.6 billion, so Claude is far smaller in consumer reach. India is the second-largest country at about 11 percent of visits."
+      },
+      {
+        "label": "Paid consumer subscribers",
+        "value": "More than doubled in 2026",
+        "note": "Reported by Free Press Journal and Unite.ai, 2026. Exact totals are not public."
+      },
+      {
+        "label": "Claude Code run rate",
+        "value": "Over $2.5 billion (February 2026)",
+        "note": "Anthropic figure reported in news. More than half from businesses. Likely much higher by late 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Claude answers questions, writes and edits, reads long documents, writes and runs code, and increasingly does multi-step work on its own. Claude Code works inside a developer's code project. Cowork lets non-developers give Claude a folder and a task, such as building a report from files. Claude Design turns a prompt into visual designs, slides and prototypes.",
+      "howItWorks": [
+        "You chat on the web, desktop or phone app, and pick a model: Haiku (fast), Sonnet (balanced) or Opus (strongest).",
+        "Projects hold files and instructions so Claude remembers the context of ongoing work.",
+        "Artifacts show code, documents and small apps in a side panel you can edit and share.",
+        "Claude Code and Cowork let Claude read, write and run things on your computer, asking permission for risky steps.",
+        "Connectors link Claude to tools like Google Drive, Gmail, Slack and GitHub so it can pull in your work data.",
+        "Paid plans give more usage; limits reset every few hours and weekly."
+      ],
+      "valueProposition": "An AI colleague that can actually finish work tasks, especially coding and documents, with a reputation for careful answers and no ads."
+    },
+    "personas": [
+      {
+        "name": "Software developer",
+        "description": "A backend engineer at a Bengaluru startup who uses Claude Code in the terminal every day to write, test and fix code.",
+        "goals": [
+          "Ship features faster",
+          "Let the AI handle boring refactors and tests",
+          "Stay in one tool"
+        ],
+        "frustrations": [
+          "Usage limits running out mid-task",
+          "Max plan at $100 or $200 a month is a lot in rupees",
+          "Agent sometimes makes changes that need careful review"
+        ]
+      },
+      {
+        "name": "Knowledge worker",
+        "description": "A consultant or analyst who uses Claude and Cowork to turn piles of documents and spreadsheets into reports and slides.",
+        "goals": [
+          "Cut report prep from days to hours",
+          "Trust the summary of long documents",
+          "Produce client-ready output"
+        ],
+        "frustrations": [
+          "Not sure which plan has enough usage",
+          "Less consumer polish than ChatGPT, such as fewer voice and image features",
+          "Needs to check facts before sending to clients"
+        ]
+      },
+      {
+        "name": "Enterprise buyer",
+        "description": "A CTO at a bank or software firm choosing which AI to give 5,000 employees and which model to build products on.",
+        "goals": [
+          "Safe, reliable AI with strong data controls",
+          "Measurable productivity gains",
+          "One vendor for chat, coding and API"
+        ],
+        "frustrations": [
+          "Cost of heavy agent use is hard to predict",
+          "Microsoft and Google bundle AI into tools the company already pays for",
+          "Rapid model changes need constant re-testing"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Developers spend hours on repetitive coding, debugging and tests.",
+        "howSolved": "Claude Code reads the whole project, makes changes across files and runs tests on its own.",
+        "severity": "high"
+      },
+      {
+        "pain": "Long contracts, research papers and reports take hours to read.",
+        "howSolved": "Claude can read very long documents in one go and answer questions about them.",
+        "severity": "high"
+      },
+      {
+        "pain": "Most AI chat tools give advice but leave you to do the work.",
+        "howSolved": "Cowork and agents take a task and produce the finished file, spreadsheet or deck.",
+        "severity": "high"
+      },
+      {
+        "pain": "Non-designers struggle to make decent slides, mockups and visuals.",
+        "howSolved": "Claude Design creates designs and prototypes from a plain description.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Companies worry about AI leaking data or saying harmful things.",
+        "howSolved": "Anthropic sells on safety, admin controls and not training on business data by default.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Ads in free AI apps make people wonder if answers are paid for.",
+        "howSolved": "Claude has no ads, and Anthropic made that a public promise in its 2026 marketing.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Claude Code",
+        "whatItDoes": "An agent that works in your terminal, IDE or browser to write, edit and run code across a whole project.",
+        "whyItMatters": "Coding is the use case where Claude leads, and it drives a large share of paid plans and API spend."
+      },
+      {
+        "feature": "Cowork",
+        "whatItDoes": "A desktop agent for non-coders: give it access to a folder and a task, and it produces finished files.",
+        "whyItMatters": "Takes the Claude Code idea to office workers, a much bigger market."
+      },
+      {
+        "feature": "Claude Design",
+        "whatItDoes": "Creates visual designs, slides and clickable prototypes from a prompt.",
+        "whyItMatters": "Pulls in product, marketing and design users, and competes with tools like Canva and Figma for early drafts."
+      },
+      {
+        "feature": "Projects and Artifacts",
+        "whatItDoes": "Projects store files and instructions; Artifacts show documents, code and mini apps you can edit and share.",
+        "whyItMatters": "Makes Claude a place where work lives, which brings users back."
+      },
+      {
+        "feature": "Connectors",
+        "whatItDoes": "Links Claude to Gmail, Google Drive, Slack, GitHub and many other tools.",
+        "whyItMatters": "Lets Claude use real work data, which makes answers more useful and harder to replace."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First coding task",
+        "persona": "Software developer",
+        "steps": [
+          { "step": "Hears about it", "detail": "Sees colleagues and X posts praising Claude Code." },
+          { "step": "Installs", "detail": "Installs Claude Code and signs in with a Pro account at $20 a month." },
+          { "step": "Gives a task", "detail": "Asks it to fix a failing test in the company codebase." },
+          { "step": "Reviews changes", "detail": "Claude edits three files, runs the tests and shows a summary." },
+          { "step": "Expands use", "detail": "Starts handing over bigger features and code reviews." },
+          { "step": "Hits limits", "detail": "Runs out of usage mid-week and upgrades to Max." }
+        ]
+      },
+      {
+        "name": "Report from files with Cowork",
+        "persona": "Knowledge worker",
+        "steps": [
+          { "step": "Opens the desktop app", "detail": "Starts a Cowork task from the Claude desktop app." },
+          { "step": "Shares a folder", "detail": "Gives access to a folder of PDFs and spreadsheets from a client." },
+          { "step": "Describes the output", "detail": "Asks for a 10-page summary with charts and a slide deck." },
+          { "step": "Claude works", "detail": "It reads the files, builds the spreadsheet and deck, and shows progress." },
+          { "step": "Checks and edits", "detail": "The user fixes a few numbers and asks for a shorter version." },
+          { "step": "Repeats weekly", "detail": "Uses it for every client update, saving several hours." }
+        ]
+      },
+      {
+        "name": "Company roll-out",
+        "persona": "Enterprise buyer",
+        "steps": [
+          { "step": "Pilot", "detail": "Buys Team seats for an engineering group." },
+          { "step": "Measures", "detail": "Tracks pull requests merged and time saved." },
+          { "step": "Connects tools", "detail": "Sets up connectors to internal docs and code." },
+          { "step": "Negotiates Enterprise", "detail": "Signs a yearly contract with seat fees plus usage." },
+          { "step": "Builds on the API", "detail": "Product teams start using Claude models inside the company's own app." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Claude makes money from paid plans and, much more, from businesses: Team and Enterprise seats plus pay-per-use API access for companies building on its models. There are no ads. Heavy agent use costs a lot of computing, so pricing and usage limits are a constant balancing act.",
+      "revenueStreams": [
+        { "stream": "API usage", "detail": "Developers and companies pay per token (small chunks of text). The largest share of Anthropic revenue, including through Amazon Bedrock and Google Cloud." },
+        { "stream": "Consumer subscriptions", "detail": "Pro at $20 a month and Max at $100 or $200 a month. Paid subscribers more than doubled in 2026." },
+        { "stream": "Team and Enterprise seats", "detail": "Per-user fees for businesses, plus usage charges for heavy agent work." },
+        { "stream": "Claude Code", "detail": "Sold inside Pro, Max and business plans; passed a $2.5 billion run rate by February 2026." }
+      ],
+      "pricing": "Free; Pro $20 a month ($17 billed yearly); Max $100 or $200 a month for 5x or 20x Pro usage; Team $25 per seat a month; Enterprise custom. API per million tokens ranges from about $1 input for Haiku to $10 input and $50 output for the top model.",
+      "costDrivers": [
+        "Computing to run models, especially long agent sessions that use many tokens",
+        "Training each new model generation on huge chip clusters, including a reported $100 billion-plus AWS deal",
+        "Researcher and engineer salaries",
+        "Safety research and testing before launches"
+      ],
+      "unitEconomics": "A Pro user pays $20 a month. A light chat user might cost $2 to $5 in computing, so Anthropic keeps most of it. A heavy Claude Code user on Max at $200 can burn far more than $200 of computing in a month, which is why Anthropic added weekly limits. The money mostly works on the business side: API customers pay per token used, so revenue rises with cost. Rough estimates; Anthropic does not publish per-user figures."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Developer word of mouth: Claude Code spread through engineers sharing results",
+        "Enterprise sales and cloud marketplaces like AWS Bedrock and Google Vertex",
+        "Launches like Cowork and Claude Design that create new reasons to try it",
+        "Brand campaigns, including 2026 Super Bowl ads promising no ads in Claude",
+        "Integrations in tools people already use, such as Slack, Excel and developer IDEs"
+      ],
+      "whatBringsUsersBack": [
+        "Daily coding and work tasks that become a habit",
+        "Projects and memory that keep context",
+        "Usage limits that reset, nudging steady use and upgrades",
+        "Frequent model upgrades that improve results"
+      ],
+      "moat": "Claude's edge is model quality for coding and long agent tasks, plus trust with businesses. Developers build workflows and company setups around Claude Code, which takes effort to switch. But rivals can catch up on model quality, so the moat depends on staying ahead and on business relationships."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT",
+        "positioning": "The largest consumer AI app, with about a billion weekly users, ads, voice and images.",
+        "howThisProductDiffers": "Claude is much smaller with consumers but focuses on work, coding and agents, and has no ads."
+      },
+      {
+        "name": "Google Gemini",
+        "positioning": "AI bundled with Android, Search and Workspace.",
+        "howThisProductDiffers": "Claude has no phone or search distribution, so it wins by being better at specific jobs."
+      },
+      {
+        "name": "Cursor",
+        "positioning": "AI code editor popular with developers.",
+        "howThisProductDiffers": "Cursor is a partner and a rival: it uses Claude models but also competes with Claude Code for the same developers."
+      },
+      {
+        "name": "Microsoft Copilot",
+        "positioning": "AI in Office and GitHub, sold through Microsoft 365 contracts.",
+        "howThisProductDiffers": "Claude is a standalone choice; Copilot is bundled, which makes it the default in many companies."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly tasks completed by Claude that users accept (code changes merged, files delivered, answers kept)",
+      "why": "Claude's value is finished work, not chat volume. Accepted tasks capture both quality and depth of use, and they drive paid upgrades and API spend."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active users",
+        "description": "People who use Claude at least once a week across chat, Code, Cowork and Design.",
+        "children": [
+          { "metric": "New sign-ups by product", "description": "How many people start using each surface." },
+          { "metric": "Week-4 retention", "description": "Retention: the share of new users still active after four weeks." },
+          { "metric": "Free to paid conversion", "description": "Share of free users who start a Pro or Max plan." }
+        ]
+      },
+      {
+        "metric": "Tasks per active user",
+        "description": "How much work each person hands to Claude.",
+        "children": [
+          { "metric": "Agent sessions per user", "description": "Number of Claude Code or Cowork tasks started." },
+          { "metric": "Connector adoption", "description": "Share of users who connect at least one work tool." },
+          { "metric": "Project usage", "description": "Share of users with an active project." }
+        ]
+      },
+      {
+        "metric": "Task acceptance rate",
+        "description": "Share of finished tasks the user keeps without redoing.",
+        "children": [
+          { "metric": "Code change acceptance", "description": "Share of Claude Code edits the developer keeps." },
+          { "metric": "Task completion without intervention", "description": "Share of agent tasks finished without the user stepping in." },
+          { "metric": "Thumbs-down rate", "description": "Share of answers users rate as bad." }
+        ]
+      },
+      {
+        "metric": "Business seats and API spend",
+        "description": "How many companies rely on Claude and how much they use it.",
+        "children": [
+          { "metric": "Customers spending over $1 million a year", "description": "Over 1,000 by April 2026; shows deep company reliance." },
+          { "metric": "Net revenue retention", "description": "How much existing business customers spend this year versus last year." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Computing cost per paid user, so heavy use does not wipe out margins",
+      "Share of users hitting usage limits each week",
+      "Safety incidents, such as an agent deleting or sending something it should not",
+      "Uptime and error rate during peak hours"
+    ],
+    "strengths": [
+      "Widely seen as the best AI for coding and long agent tasks in 2025 to 2026",
+      "Fast-growing business revenue, with a reported profit in Q2 2026",
+      "Trusted by enterprises; more US businesses pay for Anthropic than OpenAI by one Ramp measure",
+      "No ads, which supports trust"
+    ],
+    "weaknesses": [
+      "Far smaller consumer reach than ChatGPT and Gemini",
+      "Usage limits frustrate paying users, especially on Max",
+      "Fewer consumer extras like rich voice, image and video generation",
+      "Heavy reliance on cloud partners Amazon and Google for computing"
+    ],
+    "risks": [
+      "OpenAI, Google and open models from China catching up in coding",
+      "Partners like Cursor building their own models",
+      "Computing shortages or price rises",
+      "AI regulation in the US, EU and elsewhere",
+      "Agent mistakes on real files or systems causing a public incident"
+    ],
+    "userComplaints": [
+      "Usage limits draining faster than expected, with a wave of complaints in March 2026 from Max subscribers",
+      "Surprise changes to limits without clear notice, reported by The Register in January 2026",
+      "Price too high for many users outside the US, such as students in India",
+      "Sometimes refuses or over-hedges on harmless requests",
+      "Occasional outages and slowdowns at peak times"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Live usage meter with a forecast: 'At this rate you will hit your limit Thursday'",
+        "problem": "Paying users are surprised when limits run out mid-task.",
+        "expectedImpact": "Fewer angry complaints and more planned upgrades.",
+        "metricToTrack": "Support tickets about limits and Pro to Max upgrade rate",
+        "effort": "low"
+      },
+      {
+        "idea": "India pricing: a lower-priced Pro plan in rupees for students and solo developers",
+        "problem": "India is Claude's second-largest web market but $20 to $200 is steep there.",
+        "expectedImpact": "More paying users in a fast-growing market before rivals lock them in.",
+        "metricToTrack": "Free to paid conversion in India",
+        "effort": "medium"
+      },
+      {
+        "idea": "Cowork starter templates for common office jobs, such as monthly reports, invoice checks and meeting packs",
+        "problem": "Non-coders do not know what to ask an agent.",
+        "expectedImpact": "More Cowork tasks per user and stronger habits.",
+        "metricToTrack": "Agent sessions per user among non-developers",
+        "effort": "low"
+      },
+      {
+        "idea": "Cheaper 'background mode' that runs long tasks overnight at lower cost",
+        "problem": "Heavy agent tasks cost a lot and hit limits.",
+        "expectedImpact": "More work done per dollar of computing.",
+        "metricToTrack": "Computing cost per accepted task",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "You do not need the most users to win. Claude picked work and coding, and grew revenue faster than bigger rivals.",
+      "Agents change the cost model: heavy users can cost more than they pay, so pricing and limits are product decisions.",
+      "Partners can also be competitors. Selling models to Cursor while building Claude Code needs careful choices.",
+      "Clear communication about limits matters as much as the limits themselves."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Claude has far fewer consumer users than ChatGPT. Should it chase consumers or double down on work?",
+        "hint": "Compare revenue per user and cost to serve in each segment. Note distribution gaps. Recommend a focus, and name one consumer bet that supports work use."
+      },
+      {
+        "question": "How would you design usage limits for the Max plan?",
+        "hint": "Balance user trust, computing cost and fairness. Options: weekly caps, priority tiers, pay-as-you-go top-ups. Show the meter clearly. Track churn and cost per user."
+      },
+      {
+        "question": "What should be the north star metric for Cowork?",
+        "hint": "Pick a metric that shows finished work, like accepted tasks per week. Break it into adoption, task volume and quality. Add guardrails for mistakes on user files."
+      },
+      {
+        "question": "Cursor uses Claude models but competes with Claude Code. How would you manage this?",
+        "hint": "Map what each side gains. API revenue vs. owning the user. Discuss when to compete, when to partner, and how to differentiate Claude Code."
+      },
+      {
+        "question": "How would you grow Claude in India?",
+        "hint": "Use data: India is about 11 percent of web visits. Look at pricing in rupees, student plans, local payment methods like UPI, and Indic language quality. Pick one and set a metric."
+      }
+    ],
+    "glossary": [
+      { "term": "Run rate", "meaning": "A yearly revenue figure based on recent months, assuming the pace continues." },
+      { "term": "API", "meaning": "A way for other software to use Claude's models directly, paid per use." },
+      { "term": "Token", "meaning": "A small chunk of text, about three quarters of a word, used to measure and price AI usage." },
+      { "term": "Agent", "meaning": "An AI that takes steps on its own to complete a task, not just answer a question." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "Free to paid conversion", "meaning": "The share of free users who start paying." },
+      { "term": "Net revenue retention", "meaning": "How much existing customers spend now compared with a year ago, including upgrades and cancellations." },
+      { "term": "North star metric", "meaning": "The one number a team uses to show whether users get real value." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business or win its customers." },
+      { "term": "Post-money", "meaning": "A company's value right after it receives new investment." }
+    ],
+    "assumptions": [
+      "Per-user computing costs for light and heavy users are rough estimates, not company data.",
+      "Most Anthropic revenue is assumed to come from API and business use, based on public reporting; no exact split is published.",
+      "Cowork and Claude Design descriptions are based on public product information and may change.",
+      "Claude Code run rate is from February 2026 and is likely higher now."
+    ]
+  }
+}

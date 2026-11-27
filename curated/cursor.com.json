@@ -1,0 +1,394 @@
+{
+  "company": "Cursor",
+  "domain": "cursor.com",
+  "website": "https://cursor.com",
+  "sources": [
+    "https://tech-insider.org/cursor-60-billion-valuation-anysphere-ai-coding-2026/",
+    "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
+    "https://sulat.com/p/cursor-just-hit-2-billion-arr",
+    "https://sacra.com/c/cursor",
+    "https://www.wearefounders.uk/cursors-pricing-disaster-the-full-timeline-of-how-an-ai-coding-darling-burned-its-most-loyal-users/",
+    "https://forum.cursor.com/t/why-i-m-forced-to-switch-to-claude-code-despite-loving-cursor-s-vibe-coding-pricing-policy-issues/144216",
+    "https://analyticsindiamag.com/ai-features/why-developers-are-cancelling-cursor-subscriptions/"
+  ],
+  "report": {
+    "company": "Cursor",
+    "tagline": "An AI code editor that writes, edits and fixes code with you, now owned by SpaceX after a $60 billion deal in 2026.",
+    "category": "AI dev tools",
+    "simpleSummary": "Cursor is a code editor, the app programmers type code into, with AI built in everywhere. It can finish your line, change many files at once, or run as an agent that builds a feature while you review. It looks like VS Code, the most popular editor, so switching is easy. Developers pay a monthly fee, and companies buy seats for their teams. It went from zero to over $2 billion in yearly revenue in about two years.",
+    "keyNumbers": [
+      {
+        "label": "Annualised revenue",
+        "value": "About $2.6 billion in business revenue (June 2026)",
+        "note": "Company data shared with Reuters, via Tech Insider. It passed $1 billion in November 2025. Total including individuals may be higher."
+      },
+      {
+        "label": "Acquisition price",
+        "value": "$60 billion, all-stock, by SpaceX",
+        "note": "Announced June 2026, closed 14 August 2026, per Tech Insider. Before that it raised $2.3 billion at $29.3 billion (November 2025)."
+      },
+      {
+        "label": "Share of AI coding spend",
+        "value": "About 26 percent (May 2026)",
+        "note": "Ramp data via CNBC. Down from 41 percent in June 2025 as Claude Code and others grew. Anthropic reportedly holds about half the category."
+      },
+      {
+        "label": "Time to $100 million ARR",
+        "value": "About 12 months",
+        "note": "a16z reported Cursor reached $100 million ARR faster than any software company, around early 2025."
+      },
+      {
+        "label": "Individual plan prices",
+        "value": "$8 to $30 a month (late 2026)",
+        "note": "Cursor pricing page as described by Tech Insider, November 2026: Plus $8, Premium $30, legacy Pro $20. New customers are moved to an 'X Subscription' bundle."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Cursor is a desktop code editor built on VS Code with AI throughout. Tab predicts your next edit, chat answers questions about your codebase, and Agent mode plans and makes multi-file changes, runs commands and fixes errors. It uses models from OpenAI, Anthropic, Google and now SpaceX's AI unit, plus its own Composer models.",
+      "howItWorks": [
+        "Download Cursor and import your VS Code settings and extensions in one click.",
+        "Cursor indexes your codebase so the AI understands your whole project.",
+        "Tab suggests the next edit as you type; press Tab to accept.",
+        "Agent mode takes a task in plain words, edits files, runs tests and shows a diff to accept or reject.",
+        "Background agents run tasks in the cloud while you work on something else; Bugbot reviews pull requests.",
+        "Plans include a monthly amount of model usage; heavy use of top models costs extra."
+      ],
+      "valueProposition": "Write and change code several times faster, inside an editor that already feels familiar."
+    },
+    "personas": [
+      {
+        "name": "Startup engineer",
+        "description": "A full-stack developer at a Bengaluru startup shipping features daily, paying for Cursor from their own pocket or the company card.",
+        "goals": [
+          "Ship features faster",
+          "Understand an unfamiliar codebase",
+          "Spend less time on boilerplate"
+        ],
+        "frustrations": [
+          "Usage runs out before the month ends",
+          "Pricing changes that make costs unpredictable",
+          "Agent sometimes breaks unrelated code"
+        ]
+      },
+      {
+        "name": "Engineering manager at a big company",
+        "description": "Leads 80 engineers and decides which AI coding tool to buy seats for.",
+        "goals": [
+          "Measurable productivity gains",
+          "Security and code privacy",
+          "Predictable cost per seat"
+        ],
+        "frustrations": [
+          "Hard to prove the tool's return",
+          "Engineers asking for Claude Code or Copilot too",
+          "New owner (SpaceX) raises vendor questions"
+        ]
+      },
+      {
+        "name": "Vibe coder",
+        "description": "A product manager or designer who builds prototypes with AI despite limited coding skill.",
+        "goals": [
+          "Build a working app without deep coding",
+          "Fix errors by asking the AI"
+        ],
+        "frustrations": [
+          "Editor is still built for programmers",
+          "Easy to burn through usage on big tasks",
+          "Tools like Lovable and Replit feel simpler"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Writing repetitive code and tests takes a lot of a developer's day.",
+        "howSolved": "Tab and Agent write most of the routine code for review.",
+        "severity": "high"
+      },
+      {
+        "pain": "Understanding a big, unfamiliar codebase is slow.",
+        "howSolved": "Cursor indexes the codebase so you can ask questions and get answers with file links.",
+        "severity": "high"
+      },
+      {
+        "pain": "Copying code between a chatbot and an editor is clumsy.",
+        "howSolved": "AI is inside the editor and edits files directly.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Switching editors means losing settings and shortcuts.",
+        "howSolved": "Cursor is built on VS Code, so extensions and settings carry over.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Code reviews are a bottleneck.",
+        "howSolved": "Bugbot reviews pull requests and flags bugs automatically.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Tab",
+        "whatItDoes": "Predicts the next edit, even across lines, as you type.",
+        "whyItMatters": "Used many times a minute; this daily habit is what made Cursor loved."
+      },
+      {
+        "feature": "Agent mode",
+        "whatItDoes": "Plans and makes multi-file changes, runs commands and fixes errors.",
+        "whyItMatters": "Moves Cursor from autocomplete to doing whole tasks, which drives usage and revenue."
+      },
+      {
+        "feature": "Codebase indexing",
+        "whatItDoes": "Builds a searchable map of your project for the AI.",
+        "whyItMatters": "Better context means better code, and it is a key quality edge."
+      },
+      {
+        "feature": "Composer models",
+        "whatItDoes": "Cursor's own fast coding models, trained on Cursor usage data.",
+        "whyItMatters": "Lowers dependence on and payments to OpenAI and Anthropic, improving margins."
+      },
+      {
+        "feature": "Bugbot and background agents",
+        "whatItDoes": "Reviews pull requests and runs tasks in the cloud.",
+        "whyItMatters": "Extends Cursor beyond the editor into team workflows, a reason for companies to buy seats."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Switching from VS Code",
+        "persona": "Startup engineer",
+        "steps": [
+          { "step": "Hears about it", "detail": "Sees a colleague build a feature in minutes with Cursor." },
+          { "step": "Installs", "detail": "Downloads and imports VS Code settings in one click." },
+          { "step": "Uses Tab", "detail": "Accepts dozens of suggestions in the first hour." },
+          { "step": "Tries Agent", "detail": "Asks it to add a login page; reviews the diff." },
+          { "step": "Hits the free limit", "detail": "Runs out of free requests in a few days." },
+          { "step": "Pays", "detail": "Subscribes to a paid plan to keep going." }
+        ]
+      },
+      {
+        "name": "Team roll-out",
+        "persona": "Engineering manager at a big company",
+        "steps": [
+          { "step": "Bottom-up demand", "detail": "Engineers already pay for Cursor themselves." },
+          { "step": "Security review", "detail": "Checks privacy mode and data handling." },
+          { "step": "Buys Teams seats", "detail": "Rolls out to 80 engineers with admin controls." },
+          { "step": "Measures", "detail": "Tracks pull requests merged and cycle time." },
+          { "step": "Expands", "detail": "Adds Bugbot for code review." }
+        ]
+      },
+      {
+        "name": "Building a prototype",
+        "persona": "Vibe coder",
+        "steps": [
+          { "step": "Opens a blank project", "detail": "Starts a new folder in Cursor." },
+          { "step": "Describes the app", "detail": "Asks Agent to build a simple dashboard." },
+          { "step": "Runs it", "detail": "Agent runs the app and fixes errors." },
+          { "step": "Iterates", "detail": "Asks for design changes in plain words." },
+          { "step": "Hits limits", "detail": "Usage spikes on big changes; upgrades or moves to another tool." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Cursor makes money from monthly subscriptions for individuals and per-seat plans for teams and enterprises, plus extra charges for heavy model use. A large part of its cost is paying model makers like Anthropic and OpenAI, which is why it built its own Composer models and why its pricing kept changing.",
+      "revenueStreams": [
+        { "stream": "Individual plans", "detail": "Plus ($8), Pro ($20, legacy) and Premium ($30) a month; new customers moved to an 'X Subscription' bundle after the SpaceX deal." },
+        { "stream": "Teams and Enterprise seats", "detail": "Per-user monthly pricing with admin and privacy controls; about $2.6 billion of business revenue run rate in June 2026." },
+        { "stream": "Usage-based charges", "detail": "Extra fees when users go beyond included model usage." },
+        { "stream": "Bugbot", "detail": "Code review add-on, $40 per user a month (legacy pricing)." }
+      ],
+      "pricing": "Free Hobby tier; Plus $8 a month; Pro $20 a month (legacy); Premium $30 a month; Bugbot $40 per user a month (legacy); Teams and Enterprise per seat. Pricing changed several times in 2025 to 2026.",
+      "costDrivers": [
+        "Paying OpenAI, Anthropic and Google for model tokens, the largest cost",
+        "Training its own Composer models",
+        "Cloud computing for indexing and background agents",
+        "Engineering and research staff"
+      ],
+      "unitEconomics": "A $20 a month user who asks for lots of agent work with a top model can easily use $20 to $40 of model tokens a month, so Cursor loses money on them. A light user might cost $3 to $5. This is why Cursor moved to credit-based plans in mid 2025 and why users felt the $20 plan 'ran out in a week'. Its own Composer models cost far less per task, so pushing usage to them improves margin. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth among developers: the product itself is the marketing",
+        "Easy switch from VS Code",
+        "Free tier that lets people feel the value quickly",
+        "Bottom-up adoption that turns into company deals",
+        "Distribution through X and SpaceX after the acquisition"
+      ],
+      "whatBringsUsersBack": [
+        "The editor is where developers spend their whole workday",
+        "Tab builds a minute-by-minute habit",
+        "Codebase index and rules files tuned to the project",
+        "Team setups and Bugbot in daily workflow"
+      ],
+      "moat": "Cursor's moat is the daily habit and its usage data: billions of accepted and rejected edits train better Tab and Composer models. But switching editors is easy and rivals use the same top models, so the moat is weaker than its revenue suggests, as its falling market share shows."
+    },
+    "competitors": [
+      {
+        "name": "Claude Code",
+        "positioning": "Anthropic's coding agent in the terminal and IDEs.",
+        "howThisProductDiffers": "Cursor is a full editor with Tab; Claude Code is agent-first and uses Anthropic's own models at lower cost to Anthropic."
+      },
+      {
+        "name": "GitHub Copilot",
+        "positioning": "Microsoft's AI coding assistant inside VS Code and GitHub.",
+        "howThisProductDiffers": "Copilot is bundled with GitHub for many companies; Cursor is seen as faster to ship new AI features."
+      },
+      {
+        "name": "OpenAI Codex",
+        "positioning": "OpenAI's coding agent in ChatGPT and the terminal.",
+        "howThisProductDiffers": "Codex is included in ChatGPT plans; Cursor lets you pick models from many labs."
+      },
+      {
+        "name": "Windsurf and other AI editors",
+        "positioning": "Other VS Code-based AI editors.",
+        "howThisProductDiffers": "Cursor has more users and its own models."
+      }
+    ],
+    "northStar": {
+      "metric": "AI-written lines of code accepted and kept by developers each week",
+      "why": "It measures real value: code the developer trusted enough to keep. It grows with both users and quality."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active developers",
+        "description": "People who code in Cursor at least once a week.",
+        "children": [
+          { "metric": "Free sign-ups", "description": "New developers trying Cursor." },
+          { "metric": "Week-4 retention", "description": "Retention: share of new users still coding in Cursor after four weeks." },
+          { "metric": "Team seat growth", "description": "New paid seats from companies." }
+        ]
+      },
+      {
+        "metric": "AI suggestions per developer",
+        "description": "How much each developer relies on AI.",
+        "children": [
+          { "metric": "Tab suggestions shown", "description": "Number of predictions offered." },
+          { "metric": "Agent tasks started", "description": "Number of agent runs per user." }
+        ]
+      },
+      {
+        "metric": "Acceptance rate",
+        "description": "Share of AI suggestions and agent diffs that developers keep.",
+        "children": [
+          { "metric": "Tab acceptance rate", "description": "Share of Tab suggestions accepted." },
+          { "metric": "Agent diff acceptance", "description": "Share of agent changes accepted without major edits." },
+          { "metric": "Revert rate", "description": "Share of accepted code later undone." }
+        ]
+      },
+      {
+        "metric": "Paying users",
+        "description": "Developers and companies who pay.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Share of free users who pay." },
+          { "metric": "Paid churn", "description": "Churn: share of paying users who cancel each month." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Gross margin per paid user, so heavy users do not sink profits",
+      "Bugs introduced by AI code (revert rate)",
+      "Support tickets about billing and limits",
+      "Editor speed and crash rate"
+    ],
+    "strengths": [
+      "Fastest revenue growth of any software company to $100 million and then $1 billion ARR",
+      "Loved product with a strong daily habit (Tab)",
+      "Easy switching from VS Code",
+      "Own Composer models and huge usage data"
+    ],
+    "weaknesses": [
+      "Pays model makers that also compete with it (Anthropic, OpenAI)",
+      "Pricing changes hurt trust with loyal users",
+      "Market share fell from 41 to about 26 percent in a year",
+      "Ownership change to SpaceX adds uncertainty for some enterprise buyers"
+    ],
+    "risks": [
+      "Model makers favouring their own tools (Claude Code, Codex) on price or access",
+      "Microsoft bundling Copilot with GitHub and Office",
+      "AI coding becoming a cheap commodity",
+      "Strategy shifts under SpaceX ownership, such as pushing its own models and the X Subscription"
+    ],
+    "userComplaints": [
+      "Pricing changes in 2025 made the $20 Pro plan run out fast, with forum posts saying it is '$20 a week'",
+      "Confusing credit-based usage and surprise charges",
+      "Developers switching to Claude Code for better value",
+      "Agent quality and speed felt worse in some releases",
+      "Worry that Cursor is 'losing the things that made it worth paying for'"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show a real-time cost estimate before each agent task, with a cheaper Composer option",
+        "problem": "Users are surprised by how fast usage runs out.",
+        "expectedImpact": "Fewer billing complaints and more use of cheaper in-house models.",
+        "metricToTrack": "Billing support tickets and gross margin per user",
+        "effort": "medium"
+      },
+      {
+        "idea": "Lock prices for 12 months for existing subscribers when plans change",
+        "problem": "Repeated pricing changes broke trust.",
+        "expectedImpact": "Lower churn among loyal users.",
+        "metricToTrack": "Paid churn after pricing updates",
+        "effort": "low"
+      },
+      {
+        "idea": "Team dashboard showing time saved and code accepted per engineer",
+        "problem": "Managers struggle to prove return on seats.",
+        "expectedImpact": "Easier renewals and seat growth.",
+        "metricToTrack": "Team seat growth and renewal rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Regional pricing for India and other markets",
+        "problem": "Dollar prices are high for many developers outside the US.",
+        "expectedImpact": "More paying developers in fast-growing markets.",
+        "metricToTrack": "Free to paid conversion by country",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Product-led growth works when the product gives value in minutes. Cursor grew without big sales teams.",
+      "If your main cost is a supplier who is also your rival, build your own option (Composer) early.",
+      "Pricing is part of the product. Sudden changes can undo years of goodwill.",
+      "Fast growth can hide falling market share. Track share, not only revenue."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Cursor's market share fell from 41 to 26 percent while revenue grew. What is happening and what would you do?",
+        "hint": "Explain that the market grew faster. Find where Cursor loses (price, agents, model access). Pick one fix and a metric."
+      },
+      {
+        "question": "How would you design pricing for an AI tool where each user's cost varies a lot?",
+        "hint": "Discuss flat fee versus usage-based versus credits. Protect light users, charge heavy users fairly, show a meter. Track margin and churn."
+      },
+      {
+        "question": "What is Cursor's north star metric?",
+        "hint": "Accepted AI code kept by developers. Break into active developers, suggestions per developer, acceptance rate and paying users."
+      },
+      {
+        "question": "Anthropic supplies models to Cursor and also sells Claude Code. How should Cursor respond?",
+        "hint": "Reduce dependence with own models, differentiate on editor experience, and offer multi-model choice. Weigh quality against cost."
+      },
+      {
+        "question": "After the SpaceX acquisition, how should Cursor reassure enterprise customers?",
+        "hint": "List their worries: data, pricing, roadmap. Offer contract guarantees and clear communication. Track renewals."
+      }
+    ],
+    "glossary": [
+      { "term": "ARR", "meaning": "Annual recurring revenue: yearly subscription revenue at the current pace." },
+      { "term": "Product-led growth", "meaning": "When the product itself brings in users, instead of sales teams or ads." },
+      { "term": "Agent", "meaning": "An AI that takes steps on its own to complete a task." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a period." },
+      { "term": "Gross margin", "meaning": "Revenue left after paying the direct cost of serving customers, shown as a percent." },
+      { "term": "Pull request", "meaning": "A proposed code change that teammates review before it is added." },
+      { "term": "Vibe coder", "meaning": "Someone who builds software mostly by describing it to AI rather than writing code." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "Free to paid conversion", "meaning": "The share of free users who start paying." }
+    ],
+    "assumptions": [
+      "The SpaceX acquisition and late-2026 pricing come mainly from one source (Tech Insider) and should be double-checked.",
+      "Token costs per user are rough estimates based on public model prices.",
+      "The $2.6 billion figure is business revenue; total revenue including individuals is not confirmed.",
+      "User counts were not found in sources and are not given."
+    ]
+  }
+}

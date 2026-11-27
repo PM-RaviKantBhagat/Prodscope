@@ -1,0 +1,248 @@
+{
+ "company": "Namma Yatri",
+ "domain": "nammayatri.in",
+ "website": "https://nammayatri.in",
+ "sources": [
+  "https://restofworld.org/2025/uber-ola-copy-india-zero-commission-ride-hailing-app/",
+  "https://www.outlookbusiness.com/news/ola-uber-challenger-namma-yatri-tops-1-crore-users-amid-tier-23-expansion",
+  "https://www.business-standard.com/companies/interviews/40-45-of-revenue-comes-from-cabs-namma-yatri-125061500530_1.html",
+  "https://www.autocarpro.in/news/moving-tech-innovations-plans-to-expand-open-mobility-model-in-europe-135258",
+  "https://www.outlookbusiness.com/corporate/will-focus-on-markets-not-prioritised-by-large-players-namma-yatris-shan-ms",
+  "https://techcrunch.com/2024/07/15/google-backs-indian-open-source-uber-rival-namma-yatri/"
+ ],
+ "report": {
+  "company": "Namma Yatri",
+  "tagline": "A Bengaluru-born auto and cab booking app where drivers pay a small daily fee instead of a commission, built on India's open ONDC network.",
+  "category": "Mobility (open network)",
+  "simpleSummary": "Namma Yatri ('our journey' in Kannada) is an app to book autos and cabs, started in Bengaluru in 2022. Drivers do not give a cut of each fare to the app. They pay a flat fee, about ₹25 a day for autos, and keep everything else. Riders pay the meter-style fare directly to the driver. Its code is open source and it runs on ONDC, a government-backed open network, and its model pushed Uber, Ola and Rapido to copy driver subscriptions.",
+  "keyNumbers": [
+   {"label": "Rides per day", "value": "Nearly 190,000 auto and cab rides", "note": "Rest of World, 2025."},
+   {"label": "Users", "value": "Over 1 crore (10 million) users", "note": "Outlook Business report on expansion into tier 2 and 3 cities."},
+   {"label": "Drivers", "value": "About 638,000 drivers who have earned over $175 million in total", "note": "Rest of World, 2025."},
+   {"label": "Driver fee", "value": "₹25 per day for unlimited auto rides, or ₹3.5 per ride for the first 10 rides", "note": "Rest of World, 2025. Varies by state."},
+   {"label": "Funding", "value": "$11 million in 2024 from Google, Blume Ventures and Antler", "note": "TechCrunch, 2024. Parent company is Moving Tech Innovations, spun out of Juspay."},
+   {"label": "Revenue mix", "value": "About 40 to 45% of revenue from cabs", "note": "Company interview with Business Standard, 2025. Total revenue is small; early filings showed ₹2.2 crore for November 2023 to March 2024."}
+  ],
+  "overview": {
+   "whatItDoes": "Namma Yatri connects riders with auto-rickshaw and cab drivers in more than 15 Indian cities, starting with Bengaluru, Chennai, Kolkata and Delhi NCR. It was built by the payments company Juspay and spun out as Moving Tech Innovations in 2023, led by CEO Magizhan Selvan and COO Shanmugavel M.S. It plans to take its open mobility model to Europe.",
+   "howItWorks": [
+    "A rider requests a ride and sees an estimated fare close to the official meter rate.",
+    "Nearby drivers see the request and can accept; in some cities they can add a small tip-style top-up.",
+    "The rider pays the driver directly by UPI or cash; Namma Yatri takes nothing from the fare.",
+    "Drivers pay Namma Yatri a daily subscription, like ₹25 a day, or a small per-ride fee capped after 10 rides.",
+    "The app runs on ONDC (Open Network for Digital Commerce), so other apps on the network can show its drivers to their users.",
+    "Its code is open source, so anyone can see how matching and pricing work."
+   ],
+   "valueProposition": "Drivers keep 100% of the fare for a tiny daily fee, and riders get fair, transparent prices without surge games."
+  },
+  "personas": [
+   {
+    "name": "Bengaluru auto driver",
+    "description": "A driver who owns or rents an auto and works 10 to 12 hours a day.",
+    "goals": ["Keep the full fare", "Steady rides", "No surprise penalties"],
+    "frustrations": ["Fear that fees will rise later", "Not enough rides at off-peak times"]
+   },
+   {
+    "name": "Daily commuter",
+    "description": "An office worker who takes autos to the metro or office.",
+    "goals": ["Fair fares near meter rate", "Less arguing with drivers"],
+    "frustrations": ["No autos available at peak hours", "App less polished than Uber"]
+   },
+   {
+    "name": "Tier-2 city rider",
+    "description": "Someone in a city like Mysuru or Kochi where big apps have few drivers.",
+    "goals": ["Any reliable ride option", "Low price"],
+    "frustrations": ["Few drivers on the app yet", "Limited cab options"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Drivers losing 20 to 30% of fares to aggregator commissions", "howSolved": "Flat daily fee of about ₹25; driver keeps the rest.", "severity": "high"},
+   {"pain": "Riders facing surge prices and hidden fees", "howSolved": "Fares close to the government meter rate.", "severity": "high"},
+   {"pain": "Auto drivers refusing trips or overcharging", "howSolved": "Drivers earn more per ride on the app, so they accept more and argue less.", "severity": "medium"},
+   {"pain": "Opaque algorithms deciding driver earnings", "howSolved": "Open source code and published data dashboards.", "severity": "medium"},
+   {"pain": "Big apps ignoring small cities", "howSolved": "Namma Yatri focuses on markets large players do not prioritise.", "severity": "medium"}
+  ],
+  "coreFeatures": [
+   {"feature": "Zero commission driver plan", "whatItDoes": "Drivers pay a daily or capped per-ride fee instead of a cut.", "whyItMatters": "The main reason drivers join, which brings supply."},
+   {"feature": "Direct payment to driver", "whatItDoes": "Riders pay drivers by UPI or cash.", "whyItMatters": "Drivers get money instantly; the app avoids payment costs."},
+   {"feature": "ONDC integration", "whatItDoes": "Rides can be booked through other ONDC apps too.", "whyItMatters": "Gets demand without spending heavily on marketing."},
+   {"feature": "Open data dashboards", "whatItDoes": "Shows rides, earnings and other stats publicly.", "whyItMatters": "Builds trust with drivers and the public."},
+   {"feature": "Cabs and multi-city expansion", "whatItDoes": "Added cabs in Bengaluru, Delhi NCR and more cities.", "whyItMatters": "Cabs now bring 40 to 45% of revenue."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Booking an auto",
+    "persona": "Daily commuter",
+    "steps": [
+     {"step": "Open app", "detail": "Enters destination."},
+     {"step": "See estimate", "detail": "Fare close to meter rate."},
+     {"step": "Request", "detail": "Request goes to nearby drivers."},
+     {"step": "Driver accepts", "detail": "Sees driver name, auto number and ETA."},
+     {"step": "Ride", "detail": "Shares ride status with family."},
+     {"step": "Pay", "detail": "Pays the driver directly by UPI."}
+    ]
+   },
+   {
+    "name": "Driver signs up",
+    "persona": "Bengaluru auto driver",
+    "steps": [
+     {"step": "Hear from peers", "detail": "Other drivers at the auto stand recommend it."},
+     {"step": "Register", "detail": "Uploads licence and RC in the driver app."},
+     {"step": "Choose plan", "detail": "Picks ₹25 daily plan."},
+     {"step": "Go online", "detail": "Starts accepting rides."},
+     {"step": "Get paid", "detail": "Receives fares directly in UPI."}
+    ]
+   },
+   {
+    "name": "Ride via another ONDC app",
+    "persona": "Tier-2 city rider",
+    "steps": [
+     {"step": "Open a partner app", "detail": "Uses an ONDC buyer app."},
+     {"step": "Search ride", "detail": "Sees Namma Yatri drivers among options."},
+     {"step": "Book", "detail": "Books without installing Namma Yatri."},
+     {"step": "Ride", "detail": "Driver picks up."},
+     {"step": "Pay", "detail": "Pays driver directly."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Namma Yatri earns from driver subscription fees, not from fares. It keeps costs low by not handling payments, spending little on marketing and using open source tech.",
+   "revenueStreams": [
+    {"stream": "Driver subscriptions", "detail": "About ₹25 a day for autos; cab plans cost more."},
+    {"stream": "Per-ride plan", "detail": "₹3.5 per ride for the first 10 rides each day, then free."},
+    {"stream": "Technology licensing (planned)", "detail": "Offering its open mobility stack to other cities and countries, such as in Europe."}
+   ],
+   "pricing": "Free for riders. Drivers pay about ₹25 a day for autos, or ₹3.5 per ride for the first 10 rides. Cab plans vary by city.",
+   "costDrivers": [
+    "Engineering and cloud servers",
+    "Driver onboarding and support",
+    "Customer support",
+    "Expansion to new cities"
+   ],
+   "unitEconomics": "A driver doing 15 rides a day at about ₹150 each earns ₹2,250 and pays Namma Yatri ₹25, about 1% of fares. Uber or Ola might take ₹400 to ₹600 of that. Namma Yatri's cost per ride is very low, since it does not move money or fund big discounts. It makes a profit per ride in three of its five main states, but total revenue is still small and the company is not yet break-even."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Driver word of mouth at auto stands",
+    "Public goodwill from its fair-fare story",
+    "ONDC partner apps",
+    "City-by-city expansion into tier 2 and 3"
+   ],
+   "whatBringsUsersBack": [
+    "Fair, meter-like fares",
+    "Drivers who accept rides more willingly",
+    "Daily commute habit"
+   ],
+   "moat": "Namma Yatri's code is open, so its moat is not technology. It is driver trust and community: drivers in Bengaluru see it as their app. Its low-cost structure lets it survive on fees that would not cover the costs of a heavier company."
+  },
+  "competitors": [
+   {"name": "Rapido", "positioning": "Fast-growing app with bikes, autos and cabs and its own subscription model.", "howThisProductDiffers": "Namma Yatri has no bikes and fewer cities, but is open source and on ONDC."},
+   {"name": "Uber", "positioning": "Global leader in Indian metros with autos and cabs.", "howThisProductDiffers": "Uber has better app polish; Namma Yatri has lower driver fees."},
+   {"name": "Ola", "positioning": "Indian incumbent that also moved to driver subscriptions.", "howThisProductDiffers": "Namma Yatri has stronger driver goodwill and transparency."},
+   {"name": "Government-backed driver apps", "positioning": "State-run or cooperative apps that pass profits to drivers.", "howThisProductDiffers": "Namma Yatri has more tech and scale today."}
+  ],
+  "northStar": {
+   "metric": "Completed rides per day",
+   "why": "Each completed ride means a rider was served at a fair price and a driver earned in full. More rides make the daily fee worth it for drivers."
+  },
+  "kpiTree": [
+   {
+    "metric": "Active drivers",
+    "description": "Drivers online each day.",
+    "children": [
+     {"metric": "Daily plan renewals", "description": "Shows drivers find the fee worth it."},
+     {"metric": "Driver earnings per day", "description": "Keeps drivers loyal."}
+    ]
+   },
+   {
+    "metric": "Active riders",
+    "description": "Riders using the app weekly.",
+    "children": [
+     {"metric": "New riders from ONDC apps", "description": "Cheap demand channel."},
+     {"metric": "Rides per rider per week", "description": "Shows habit."}
+    ]
+   },
+   {
+    "metric": "Ride fulfilment rate",
+    "description": "Share of requests that end in a ride.",
+    "children": [
+     {"metric": "Peak-hour fulfilment", "description": "Peak shortages are a key complaint."},
+     {"metric": "Driver acceptance rate", "description": "Drivers must accept to complete rides."}
+    ]
+   },
+   {
+    "metric": "City expansion",
+    "description": "Growth in new cities.",
+    "children": [
+     {"metric": "Cities with over 10,000 rides a day", "description": "Shows city-level traction."},
+     {"metric": "Cab share of rides", "description": "Cabs bring higher revenue per driver."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Driver fee as a share of driver earnings",
+   "Rider safety incidents",
+   "Rider complaints about extra charges"
+  ],
+  "strengths": [
+   "Driver-friendly model with strong goodwill",
+   "Very low operating cost",
+   "Open source and on ONDC, which brings trust and partners",
+   "Forced bigger rivals to change their models"
+  ],
+  "weaknesses": [
+   "Small revenue and funding compared with rivals",
+   "App experience less polished than Uber",
+   "Peak-hour shortages",
+   "Drivers worry about future fee rises"
+  ],
+  "risks": [
+   "Uber, Ola and Rapido copying the subscription model with more money",
+   "Unclear tax rulings on subscription models",
+   "Government apps competing for drivers",
+   "Funding needed to expand to new cities and Europe"
+  ],
+  "userComplaints": [
+   "Autos not available at peak hours",
+   "Drivers asking for extra money above the shown fare",
+   "App bugs and less polish than Uber",
+   "Drivers say earnings data is not as transparent as claimed"
+  ],
+  "improvementIdeas": [
+   {"idea": "Peak-hour driver bonus funded by optional rider top-ups", "problem": "Riders cannot get autos at peak hours.", "expectedImpact": "Higher fulfilment at peak.", "metricToTrack": "Peak-hour fulfilment rate", "effort": "medium"},
+   {"idea": "Fee lock promise: fixed driver fee for 2 years", "problem": "Drivers worry the fee will rise.", "expectedImpact": "Higher driver loyalty.", "metricToTrack": "Driver plan renewal rate", "effort": "low"},
+   {"idea": "In-app fare display for driver and rider at drop-off", "problem": "Extra money demands cause disputes.", "expectedImpact": "Fewer disputes.", "metricToTrack": "Fare complaints per 10,000 rides", "effort": "low"},
+   {"idea": "Simpler booking flow and better ETA accuracy", "problem": "Riders prefer Uber's experience.", "expectedImpact": "More repeat riders.", "metricToTrack": "Weekly repeat rider rate", "effort": "medium"}
+  ],
+  "pmLessons": [
+   "A business model can be the product. Namma Yatri's zero-commission plan was its main feature.",
+   "Open source and open networks can lower cost and build trust, but they do not give a moat by themselves.",
+   "Start with one side of a marketplace. Namma Yatri won drivers first, then riders followed.",
+   "Small players can change an industry. Uber and Ola copied driver subscriptions."
+  ],
+  "interviewQuestions": [
+   {"question": "How can Namma Yatri compete when Uber and Ola copy its model?", "hint": "Find what it has that is hard to copy: driver trust, low cost, openness. Pick a focus like small cities."},
+   {"question": "How would you fix peak-hour shortages?", "hint": "Diagnose: not enough drivers, low incentives, routes. Ideas: rider top-ups, scheduled rides. Track fulfilment rate."},
+   {"question": "Should Namma Yatri raise the driver fee to fund growth?", "hint": "Weigh revenue vs driver trust. Suggest tiered fees or new revenue sources. Guardrail: driver retention."},
+   {"question": "How does ONDC help Namma Yatri?", "hint": "Explain open networks, cheaper demand from other apps, and limits. Measure rides from ONDC partners."},
+   {"question": "Pick a north star metric.", "hint": "Completed rides per day. Break into drivers, riders, fulfilment and expansion."}
+  ],
+  "glossary": [
+   {"term": "ONDC", "meaning": "Open Network for Digital Commerce: a government-backed network that lets different apps share sellers and services."},
+   {"term": "open source", "meaning": "Software whose code anyone can see, use and improve."},
+   {"term": "subscription", "meaning": "A fixed fee paid regularly to use a service, here paid by drivers."},
+   {"term": "commission", "meaning": "A percentage of each fare the platform keeps."},
+   {"term": "aggregator", "meaning": "An app that brings many drivers or sellers together on one platform, like Uber or Ola."},
+   {"term": "marketplace", "meaning": "A platform that connects buyers and sellers, here riders and drivers."},
+   {"term": "surge", "meaning": "Higher prices when demand is high."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Ride, driver and fee numbers are from 2025 reports and may have grown.",
+   "The per-driver earnings example and Uber/Ola cut are our estimates.",
+   "Latest full-year revenue was not found.",
+   "Europe expansion plans are reported, not confirmed launches."
+  ]
+ }
+}

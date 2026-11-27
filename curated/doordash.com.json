@@ -1,0 +1,553 @@
+{
+ "company": "DoorDash",
+ "domain": "doordash.com",
+ "website": "https://doordash.com",
+ "sources": [
+  "https://ppc.land/doordash-net-income-gains-91-to-466m-in-a-record-quarter/",
+  "https://www.newsquawk.com/headlines/doordash-dash-q3-2026-usd-eps-106-exp-081-revenue-46bln-exp-456bln-market-place-gov-339bln",
+  "https://www.barchart.com/story/news/35934001/doordash-reports-more-orders-than-expected-in-third-quarter-but-warns-of-higher-expenses-ahead",
+  "https://grafa.com/en/news/united-states/doordash-q3-2026-revenue-rises-34-percent",
+  "https://finance.yahoo.com/news/doordashs-2026-plans-rattle-investors-181700559.html"
+ ],
+ "report": {
+  "company": "DoorDash",
+  "tagline": "America's biggest food delivery app, now also delivering groceries and retail, and owner of Deliveroo.",
+  "category": "Food delivery",
+  "simpleSummary": "You open DoorDash, pick a restaurant, and a driver called a Dasher brings your food in about 30 to 40 minutes. You pay for the food plus delivery and service fees and a tip. Restaurants pay DoorDash a cut of each order. It now also delivers groceries, pharmacy items and pet food, owns the UK's Deliveroo, and in October 2026 agreed to buy Instacart.",
+  "keyNumbers": [
+   {
+    "label": "Orders, July to September 2026",
+    "value": "993 million orders in the quarter, up 28% (17% without Deliveroo)",
+    "note": "DoorDash Q3 2026 results, October 2026."
+   },
+   {
+    "label": "Marketplace GOV, Q3 2026",
+    "value": "$33.9 billion, up 36%",
+    "note": "Company results. GOV is the total value of orders including fees and tips."
+   },
+   {
+    "label": "Revenue, Q3 2026",
+    "value": "$4.6 billion, up 34%",
+    "note": "Company results; Deliveroo added $365 million."
+   },
+   {
+    "label": "Net income, Q3 2026",
+    "value": "$466 million, up 91%",
+    "note": "Company results. Adjusted EBITDA was $1.06 billion, about 3.1% of GOV."
+   },
+   {
+    "label": "Take rate (net revenue margin)",
+    "value": "13.6% of order value",
+    "note": "Company results, Q3 2026."
+   },
+   {
+    "label": "Big deals",
+    "value": "Bought Deliveroo for £2.8 billion (October 2025); agreed to buy Instacart for about $17 billion (October 2026)",
+    "note": "Company filings. The Instacart deal needs antitrust approval and is not complete."
+   }
+  ],
+  "overview": {
+   "whatItDoes": "DoorDash is a three-sided marketplace: it connects customers, local merchants (restaurants and stores) and Dashers (gig drivers). It started in 2013 at Stanford as PaloAltoDelivery. It won the US by going to suburbs and smaller cities that rivals ignored, and it now has roughly two-thirds of US food delivery (estimate). It also sells software and delivery services to restaurants and runs ads for brands.",
+   "howItWorks": [
+    "A customer orders in the DoorDash app and sees fees before paying.",
+    "The restaurant gets the order on a tablet and starts cooking.",
+    "DoorDash's dispatch system offers the delivery to a nearby Dasher, timed to arrive as the food is ready.",
+    "The Dasher picks up and delivers; the customer tracks them live.",
+    "DoorDash pays the restaurant minus its commission and pays the Dasher a base amount plus 100% of tips.",
+    "DashPass members pay a monthly fee for $0 delivery and lower service fees on eligible orders."
+   ],
+   "valueProposition": "Customers get almost any local restaurant or store delivered fast. Restaurants get extra orders without hiring drivers. Dashers get flexible work."
+  },
+  "personas": [
+   {
+    "name": "Suburban family",
+    "description": "Parents in a US suburb who order dinner a few nights a week after work and kids' activities.",
+    "goals": [
+     "Dinner without cooking or driving",
+     "Many restaurant choices",
+     "Reasonable total cost"
+    ],
+    "frustrations": [
+     "Fees and menu markups make orders expensive",
+     "Cold or late food"
+    ]
+   },
+   {
+    "name": "Young city professional",
+    "description": "A 26-year-old who orders lunch and late-night food and has DashPass.",
+    "goals": [
+     "Fast delivery",
+     "Use DashPass to save on fees",
+     "Get groceries in the same app"
+    ],
+    "frustrations": [
+     "Wrong or missing items",
+     "Slow refunds"
+    ]
+   },
+   {
+    "name": "Independent restaurant owner",
+    "description": "Owns a pizza place and gets 25% of orders through DoorDash.",
+    "goals": [
+     "More orders",
+     "Keep enough margin after commission"
+    ],
+    "frustrations": [
+     "Commissions of 15% to 30%",
+     "Little control over the customer relationship"
+    ]
+   },
+   {
+    "name": "Part-time Dasher",
+    "description": "A student or second-job worker who delivers evenings.",
+    "goals": [
+     "Steady pay per hour",
+     "Flexible hours"
+    ],
+    "frustrations": [
+     "Low base pay when customers do not tip",
+     "Long restaurant wait times"
+    ]
+   }
+  ],
+  "painPoints": [
+   {
+    "pain": "No time or energy to cook or pick up food",
+    "howSolved": "Delivery from hundreds of nearby restaurants in about 30 to 40 minutes.",
+    "severity": "high"
+   },
+   {
+    "pain": "Suburbs had few delivery options",
+    "howSolved": "DoorDash built coverage in suburbs early, where homes are larger and orders bigger.",
+    "severity": "high"
+   },
+   {
+    "pain": "Restaurants cannot afford their own drivers",
+    "howSolved": "DoorDash supplies Dashers and charges a commission only per order.",
+    "severity": "high"
+   },
+   {
+    "pain": "Needing groceries or pharmacy items fast",
+    "howSolved": "Delivery from grocery chains, convenience stores and DashMart warehouses.",
+    "severity": "medium"
+   },
+   {
+    "pain": "Fees adding up for frequent users",
+    "howSolved": "DashPass at $9.99 a month removes delivery fees on eligible orders over a minimum.",
+    "severity": "medium"
+   },
+   {
+    "pain": "People wanting flexible income",
+    "howSolved": "Dashers sign up and work whenever they choose.",
+    "severity": "medium"
+   }
+  ],
+  "coreFeatures": [
+   {
+    "feature": "Dispatch and routing system",
+    "whatItDoes": "Matches each order to a Dasher and predicts food-ready time.",
+    "whyItMatters": "Faster, cheaper deliveries; this is DoorDash's main technical advantage."
+   },
+   {
+    "feature": "DashPass",
+    "whatItDoes": "Membership with $0 delivery fees and reduced service fees.",
+    "whyItMatters": "Members order much more often and are less likely to switch to Uber Eats."
+   },
+   {
+    "feature": "Grocery and retail (incl. DashMart)",
+    "whatItDoes": "Delivery from grocery, pet, beauty and electronics stores, plus DoorDash's own small warehouses.",
+    "whyItMatters": "More reasons to open the app beyond dinner."
+   },
+   {
+    "feature": "DoorDash Ads",
+    "whatItDoes": "Restaurants and brands pay to rank higher or offer promotions.",
+    "whyItMatters": "High-margin revenue that helps profit; over 400,000 advertisers by mid 2026."
+   },
+   {
+    "feature": "DoorDash Drive and Storefront",
+    "whatItDoes": "Delivery and online ordering tools restaurants use on their own websites.",
+    "whyItMatters": "Earns money even when customers order outside the app."
+   },
+   {
+    "feature": "Live tracking and support",
+    "whatItDoes": "Map tracking, chat with Dasher, in-app refunds.",
+    "whyItMatters": "Builds trust and cuts support costs."
+   }
+  ],
+  "userJourneys": [
+   {
+    "name": "Weeknight dinner",
+    "persona": "Suburban family",
+    "steps": [
+     {
+      "step": "Open app",
+      "detail": "Sees nearby restaurants ranked by speed and ratings."
+     },
+     {
+      "step": "Choose",
+      "detail": "Picks a Mexican place with a promotion."
+     },
+     {
+      "step": "Customise order",
+      "detail": "Adds family meal and drinks."
+     },
+     {
+      "step": "See total",
+      "detail": "Food $45, fees about $6, tip $7."
+     },
+     {
+      "step": "Track",
+      "detail": "Watches the Dasher on the map."
+     },
+     {
+      "step": "Receive",
+      "detail": "Food arrives in 35 minutes."
+     },
+     {
+      "step": "Rate",
+      "detail": "Rates the order; reports a missing drink for a refund."
+     }
+    ]
+   },
+   {
+    "name": "Joining DashPass",
+    "persona": "Young city professional",
+    "steps": [
+     {
+      "step": "See offer",
+      "detail": "Checkout shows how much DashPass would save on this order."
+     },
+     {
+      "step": "Free trial",
+      "detail": "Starts a 30-day free trial."
+     },
+     {
+      "step": "Order more",
+      "detail": "Orders lunch and groceries with $0 delivery."
+     },
+     {
+      "step": "Trial ends",
+      "detail": "Gets charged $9.99 a month."
+     },
+     {
+      "step": "Stay",
+      "detail": "Keeps it because they order more than twice a month."
+     }
+    ]
+   },
+   {
+    "name": "Restaurant joins DoorDash",
+    "persona": "Independent restaurant owner",
+    "steps": [
+     {
+      "step": "Sign up",
+      "detail": "Picks a plan (Basic, Plus or Premier) with different commissions."
+     },
+     {
+      "step": "Add menu",
+      "detail": "Uploads menu and photos."
+     },
+     {
+      "step": "Get tablet",
+      "detail": "Receives orders on a tablet or POS integration."
+     },
+     {
+      "step": "First orders",
+      "detail": "Prepares food; Dashers pick up."
+     },
+     {
+      "step": "Buy ads",
+      "detail": "Pays for sponsored listings to get more orders."
+     },
+     {
+      "step": "Review payouts",
+      "detail": "Checks weekly payouts after commission."
+     }
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "DoorDash keeps about 13.6% of order value. That money comes from restaurant commissions, customer delivery and service fees, DashPass fees and ads. Most of the rest goes to merchants and Dashers.",
+   "revenueStreams": [
+    {
+     "stream": "Merchant commissions",
+     "detail": "About 15% to 30% of the food price, depending on the plan."
+    },
+    {
+     "stream": "Customer fees",
+     "detail": "Delivery fee, service fee and small order fee."
+    },
+    {
+     "stream": "DashPass subscriptions",
+     "detail": "$9.99 a month or $96 a year in the US."
+    },
+    {
+     "stream": "Advertising",
+     "detail": "Sponsored listings and promotions bought by restaurants and consumer brands."
+    },
+    {
+     "stream": "Platform services",
+     "detail": "Drive (delivery for others), Storefront and software for restaurants."
+    }
+   ],
+   "pricing": "Customers pay menu price plus a delivery fee (often $0 to $5), a service fee (often around 15% of the subtotal) and an optional tip. DashPass costs $9.99 a month. Restaurants choose plans with about 15%, 25% or 30% commission.",
+   "costDrivers": [
+    "Dasher pay (the biggest cost)",
+    "Refunds and credits for wrong or missing orders",
+    "Marketing and promotions ($765 million in Q3 2026)",
+    "Engineering and technology ($499 million R&D in Q3 2026)",
+    "New bets: autonomous delivery, warehouses, international expansion",
+    "Legal and regulatory costs around gig worker pay rules"
+   ],
+   "unitEconomics": "On a $40 order, total order value with fees and tip is around $50. DoorDash keeps about 13.6%, so roughly $6.80. Out of that it pays support, refunds, payments and part of Dasher pay not covered by fees. Its adjusted EBITDA was 3.1% of GOV in Q3 2026, so it keeps roughly $1.50 of profit before some costs on that order. Profit grows with ads and with batching two orders on one Dasher trip."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Biggest restaurant selection, especially in suburbs",
+    "DashPass free trials and partner bundles (like Chase cards and Lyft)",
+    "Referral credits",
+    "Expansion into grocery and retail and abroad through Wolt and Deliveroo"
+   ],
+   "whatBringsUsersBack": [
+    "DashPass: paid members want to use what they paid for",
+    "Habit of ordering on set nights",
+    "Saved favourites and one-tap reorder",
+    "Promotions funded by restaurants and brands"
+   ],
+   "moat": "DoorDash has a network effect: more customers attract more restaurants, which attracts more customers, and more orders keep Dashers busy, cutting delivery time and cost. Its density in suburbs means its cost per delivery is lower than rivals'. Paid DashPass members are sticky."
+  },
+  "competitors": [
+   {
+    "name": "Uber Eats",
+    "positioning": "Number two in US delivery, bundled with Uber rides through Uber One.",
+    "howThisProductDiffers": "DoorDash leads in suburbs and restaurant selection; Uber wins with users who also ride."
+   },
+   {
+    "name": "Instacart",
+    "positioning": "US grocery delivery leader working with retailers.",
+    "howThisProductDiffers": "DoorDash is food-first and growing in grocery; it agreed to buy Instacart in 2026."
+   },
+   {
+    "name": "Grubhub",
+    "positioning": "Older US delivery app, now owned by Wonder.",
+    "howThisProductDiffers": "Grubhub has lost share; strongest in some big cities and campuses."
+   },
+   {
+    "name": "Amazon",
+    "positioning": "Same-day delivery and partner food deals for Prime members.",
+    "howThisProductDiffers": "DoorDash is local and on-demand; Amazon is the biggest threat in retail delivery."
+   }
+  ],
+  "northStar": {
+   "metric": "Total orders delivered per week",
+   "why": "A north star metric is the one number that shows users get value. Each completed order means a customer fed, a merchant paid and a Dasher earning. Orders grow only if all three sides are getting value."
+  },
+  "kpiTree": [
+   {
+    "metric": "Monthly active users",
+    "description": "People who order at least once a month.",
+    "children": [
+     {
+      "metric": "New user conversion",
+      "description": "Share of downloads that place a first order."
+     },
+     {
+      "metric": "DashPass members",
+      "description": "Members order more and churn less."
+     }
+    ]
+   },
+   {
+    "metric": "Orders per active user",
+    "description": "How often each user orders.",
+    "children": [
+     {
+      "metric": "Non-restaurant orders per user",
+      "description": "Grocery and retail add new reasons to order."
+     },
+     {
+      "metric": "Repeat rate in 30 days",
+      "description": "Shows habit forming."
+     },
+     {
+      "metric": "Order defect rate",
+      "description": "Bad orders lower future frequency."
+     }
+    ]
+   },
+   {
+    "metric": "Selection",
+    "description": "How many merchants users can order from.",
+    "children": [
+     {
+      "metric": "Active merchants per area",
+      "description": "More choice brings more users."
+     },
+     {
+      "metric": "Share of top local restaurants listed",
+      "description": "Missing favourites push users to rivals."
+     }
+    ]
+   },
+   {
+    "metric": "Delivery quality",
+    "description": "Speed and accuracy.",
+    "children": [
+     {
+      "metric": "Average delivery time",
+      "description": "Faster deliveries lift satisfaction."
+     },
+     {
+      "metric": "Dasher acceptance rate",
+      "description": "If Dashers reject orders, delivery slows."
+     }
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Dasher earnings per active hour",
+   "Merchant churn",
+   "Refund cost as a share of revenue",
+   "Customer fees as a share of order value"
+  ],
+  "strengths": [
+   "Clear US market leader with strong profit growth ($466 million net income in Q3 2026)",
+   "Suburban density gives lower delivery cost",
+   "Large ad business and DashPass base",
+   "International growth through Wolt and Deliveroo"
+  ],
+  "weaknesses": [
+   "Customers see high total costs from fees and menu markups",
+   "Dependence on gig workers creates legal and public trust issues",
+   "Grocery is still smaller than food and faces strong rivals",
+   "Heavy spending on new bets may squeeze near-term profit"
+  ],
+  "risks": [
+   "Gig worker laws and minimum pay rules in cities like New York and Seattle",
+   "Antitrust review of the Instacart deal; a $1.25 billion fee if blocked",
+   "Uber and Amazon competition",
+   "Currency and political risk from more international business"
+  ],
+  "userComplaints": [
+   "Fees and service charges make orders much pricier than the menu",
+   "Missing or wrong items and hard-to-get refunds",
+   "Cold or late food",
+   "Dashers complain about low pay without tips",
+   "Restaurants complain about high commissions"
+  ],
+  "improvementIdeas": [
+   {
+    "idea": "Show one all-in price on the menu page before checkout",
+    "problem": "Customers feel surprised by fees at checkout.",
+    "expectedImpact": "More trust and fewer abandoned carts.",
+    "metricToTrack": "Checkout conversion rate",
+    "effort": "medium"
+   },
+   {
+    "idea": "Photo proof of sealed bag at pickup for every order",
+    "problem": "Missing items cause refunds and disputes.",
+    "expectedImpact": "Fewer missing item claims and faster fair refunds.",
+    "metricToTrack": "Missing item refund rate",
+    "effort": "low"
+   },
+   {
+    "idea": "Guaranteed minimum Dasher pay per active hour in each market",
+    "problem": "Low pay hurts Dasher supply and invites regulation.",
+    "expectedImpact": "Higher acceptance rates and faster deliveries.",
+    "metricToTrack": "Dasher acceptance rate and delivery time",
+    "effort": "high"
+   },
+   {
+    "idea": "DashPass family plan with grocery benefits",
+    "problem": "Families use several apps for food and groceries.",
+    "expectedImpact": "More grocery orders and more members per household.",
+    "metricToTrack": "Non-restaurant orders per DashPass member",
+    "effort": "medium"
+   }
+  ],
+  "pmLessons": [
+   "Go where rivals are not. DoorDash beat bigger players by winning suburbs first, where orders were bigger and competition weaker.",
+   "Marketplaces must keep all sides happy. A change that helps customers can hurt Dashers or restaurants, so watch guardrails.",
+   "A membership like DashPass turns occasional users into frequent ones.",
+   "Ads can make a thin-margin marketplace profitable."
+  ],
+  "interviewQuestions": [
+   {
+    "question": "How would you increase DashPass sign-ups without hurting profit?",
+    "hint": "Find users who order enough to benefit, target them with savings shown at checkout, and track member order frequency and margin per member."
+   },
+   {
+    "question": "Delivery times rose 10% in one city. How do you investigate?",
+    "hint": "Split into restaurant prep time, Dasher wait, travel and assignment. Check Dasher supply, weather and new merchants. Fix the biggest driver."
+   },
+   {
+    "question": "Should DoorDash charge customers more or restaurants more?",
+    "hint": "Compare price sensitivity on each side, competitor pricing and long-term health. Suggest a test and guardrails."
+   },
+   {
+    "question": "What should DoorDash do with Instacart after the deal closes?",
+    "hint": "Think about customers, retailers, shoppers and ads. Integration vs separate brands. Key metrics: grocery orders and retailer retention."
+   },
+   {
+    "question": "Design a feature to reduce missing item complaints.",
+    "hint": "Map where items go missing. Ideas: bag sealing, checklists at pickup, photo proof. Track missing item rate and refund cost."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "marketplace",
+    "meaning": "A platform that connects buyers and sellers and earns a cut of each sale."
+   },
+   {
+    "term": "three-sided marketplace",
+    "meaning": "A platform with three groups that need each other, here customers, merchants and drivers."
+   },
+   {
+    "term": "GOV",
+    "meaning": "Gross order value: the total value of all orders including food, fees and tips."
+   },
+   {
+    "term": "take rate",
+    "meaning": "The share of each order's value that the platform keeps as revenue."
+   },
+   {
+    "term": "network effect",
+    "meaning": "When a product becomes more valuable as more people use it."
+   },
+   {
+    "term": "gig",
+    "meaning": "Short, flexible jobs paid per task, like one delivery."
+   },
+   {
+    "term": "EBITDA",
+    "meaning": "Earnings before interest, tax and accounting charges for wear of assets; a rough measure of operating profit."
+   },
+   {
+    "term": "antitrust",
+    "meaning": "Laws that stop companies from becoming too dominant through mergers or unfair practices."
+   },
+   {
+    "term": "churn",
+    "meaning": "The share of users or merchants who stop using a product in a period."
+   },
+   {
+    "term": "north star metric",
+    "meaning": "The one number a team watches to know if users are getting real value."
+   },
+   {
+    "term": "batching",
+    "meaning": "Giving one driver two or more orders on the same trip to cut cost."
+   },
+   {
+    "term": "moat",
+    "meaning": "Something that makes a business hard for rivals to copy."
+   }
+  ],
+  "assumptions": [
+   "US market share of about two-thirds is an estimate from industry trackers, not company data.",
+   "Fee ranges and commission tiers are typical published levels and change by market.",
+   "The per-order profit walk-through is our estimate using company-level margins.",
+   "The Instacart deal had not closed at the time of writing."
+  ]
+ }
+}

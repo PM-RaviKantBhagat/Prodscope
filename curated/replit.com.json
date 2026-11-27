@@ -1,0 +1,393 @@
+{
+  "company": "Replit",
+  "domain": "replit.com",
+  "website": "https://replit.com",
+  "sources": [
+    "https://aimagazine.com/news/replit-ai-agents-vibe-coding-and-a-us-9bn-valuation",
+    "https://dealroom.co/news/126729-replit-confirms-400m-series-d-at-9b-valuation-launches-agent-4-to-let-an/",
+    "https://sacra.com/research/replit",
+    "https://www.theregister.com/2025/09/18/replit_agent3_pricing/",
+    "https://dev.to/davekurian/replit-agent-3-turned-a-25-plan-into-a-1000-week-the-credit-pool-nobody-reads-2a0h",
+    "https://emergent.sh/learn/replit-pricing"
+  ],
+  "report": {
+    "company": "Replit",
+    "tagline": "A website where you describe an app in plain words and an AI agent builds, hosts and launches it for you.",
+    "category": "AI app builder",
+    "simpleSummary": "Replit lets anyone make a working app or website by chatting with an AI. You type something like 'build me a booking app for my yoga studio' and the Replit Agent writes the code, sets up a database and puts it online. You do not need to install anything or know how to code. It is free to try, and you pay a monthly plan plus extra for how much work the agent does.",
+    "keyNumbers": [
+      {
+        "label": "Valuation",
+        "value": "$9 billion (March 2026)",
+        "note": "After a $400 million Series D led by Georgian. Tripled from $3 billion in September 2025. AI Magazine and Dealroom."
+      },
+      {
+        "label": "Registered users",
+        "value": "More than 50 million",
+        "note": "Company figure via AI Magazine, 2026. Many are old accounts from Replit's coding-for-students era."
+      },
+      {
+        "label": "Paying customers",
+        "value": "About 150,000",
+        "note": "Company figure via AI Magazine, 2026."
+      },
+      {
+        "label": "Revenue target",
+        "value": "$1 billion ARR by end of 2026",
+        "note": "Forbes, via AI Magazine. Revenue was only about $2.8 million a year for several years before the 2024 agent pivot. Actual late-2026 ARR not confirmed."
+      },
+      {
+        "label": "Enterprise gross margin",
+        "value": "80 to 90 percent",
+        "note": "CEO Amjad Masad, 2025. Consumer plans likely have much lower margins because of AI model costs."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Replit is a browser-based tool to build and launch software. Its Agent (Agent 4 since March 2026) takes a plain-language request, writes the code, fixes bugs, creates a database and deploys the app to a live web address. Replit also hosts the app, so users keep paying for it to stay online.",
+      "howItWorks": [
+        "Sign up and describe the app you want in the chat box.",
+        "The Agent makes a plan, then writes the code and shows a live preview.",
+        "You ask for changes in plain words; the Agent edits and tests again.",
+        "Replit sets up a database, logins and payments if needed.",
+        "Click Deploy to put the app online on a Replit address or your own domain.",
+        "You pay for agent work by 'effort' (bigger tasks cost more) and for hosting."
+      ],
+      "valueProposition": "Go from an idea to a live app in minutes, without hiring a developer or setting anything up."
+    },
+    "personas": [
+      {
+        "name": "Non-technical founder",
+        "description": "A small business owner in Pune who wants a booking and payments app but cannot afford an agency at ₹3 to 5 lakh.",
+        "goals": [
+          "Launch a working app fast",
+          "Spend little money",
+          "Change it easily later"
+        ],
+        "frustrations": [
+          "Agent costs add up quickly with each change",
+          "Hard to fix bugs when the agent gets stuck",
+          "Scared of the app breaking after launch"
+        ]
+      },
+      {
+        "name": "Product manager at a company",
+        "description": "A PM at a large firm like Zillow who builds internal tools and prototypes without waiting for engineers.",
+        "goals": [
+          "Test ideas in a day",
+          "Build internal dashboards",
+          "Show working prototypes to leaders"
+        ],
+        "frustrations": [
+          "Security and IT approval",
+          "Prototypes are hard to hand over to engineers",
+          "Unpredictable monthly bills"
+        ]
+      },
+      {
+        "name": "Student learning to code",
+        "description": "A college student who has used Replit since school for coding classes.",
+        "goals": [
+          "Learn by building real projects",
+          "Share projects for internships",
+          "Use it free"
+        ],
+        "frustrations": [
+          "Free plan is now very limited",
+          "Feels the product moved away from learners"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Building an app needs coding skills or an expensive developer.",
+        "howSolved": "The Agent writes the whole app from a plain description.",
+        "severity": "high"
+      },
+      {
+        "pain": "Setting up servers, databases and hosting is confusing.",
+        "howSolved": "Replit handles everything in the browser, including one-click deploy.",
+        "severity": "high"
+      },
+      {
+        "pain": "Company teams wait weeks for engineers to build internal tools.",
+        "howSolved": "PMs and analysts build them in hours; Rokt built 135 internal apps in 24 hours.",
+        "severity": "high"
+      },
+      {
+        "pain": "Testing a product idea costs a lot before you know it works.",
+        "howSolved": "A working prototype costs a few dollars of agent time.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Fixing bugs is hard for non-coders.",
+        "howSolved": "The Agent tests the app and fixes its own errors.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Replit Agent 4",
+        "whatItDoes": "Builds apps, spreadsheets, data visualisations and games from chat; about 10 times faster than Agent 3.",
+        "whyItMatters": "This is the core product and the reason Replit's revenue jumped."
+      },
+      {
+        "feature": "Built-in database and auth",
+        "whatItDoes": "Creates a database and user logins automatically.",
+        "whyItMatters": "Real apps need data and logins; doing this for users removes a big blocker."
+      },
+      {
+        "feature": "One-click deployment and hosting",
+        "whatItDoes": "Puts the app online and keeps it running.",
+        "whyItMatters": "Hosting brings steady monthly revenue after the app is built."
+      },
+      {
+        "feature": "Checkpoints and rollback",
+        "whatItDoes": "Saves versions so you can undo agent mistakes.",
+        "whyItMatters": "Added after a 2025 incident where an agent deleted a production database; key for trust."
+      },
+      {
+        "feature": "Enterprise controls",
+        "whatItDoes": "Single sign-on, admin controls and security for company teams.",
+        "whyItMatters": "Enterprise deals have 80 to 90 percent margins."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First app",
+        "persona": "Non-technical founder",
+        "steps": [
+          { "step": "Sees a demo", "detail": "Watches a YouTube video of someone building an app in 10 minutes." },
+          { "step": "Signs up", "detail": "Creates a free Replit account." },
+          { "step": "Describes the app", "detail": "Types 'Booking app for my yoga studio with UPI payments'." },
+          { "step": "Reviews the plan", "detail": "The Agent lists pages and features; the user approves." },
+          { "step": "Tests the preview", "detail": "Tries a booking and asks for design changes." },
+          { "step": "Upgrades and deploys", "detail": "Buys the Core plan to launch on a custom domain." }
+        ]
+      },
+      {
+        "name": "Internal tool at work",
+        "persona": "Product manager at a company",
+        "steps": [
+          { "step": "Gets a seat", "detail": "Company buys Replit Enterprise seats." },
+          { "step": "Connects data", "detail": "Links a company database through approved connectors." },
+          { "step": "Builds a dashboard", "detail": "Asks the Agent for a sales dashboard." },
+          { "step": "Shares with the team", "detail": "Deploys privately for colleagues." },
+          { "step": "Iterates", "detail": "Adds features based on feedback over a week." }
+        ]
+      },
+      {
+        "name": "Hitting a cost surprise",
+        "persona": "Non-technical founder",
+        "steps": [
+          { "step": "Asks for a big change", "detail": "Requests a full redesign and new features." },
+          { "step": "Agent works long", "detail": "The Agent runs for many minutes on an effort-based charge." },
+          { "step": "Sees the bill", "detail": "Monthly credits run out and extra charges appear." },
+          { "step": "Sets a limit", "detail": "Turns on a spending cap in settings." },
+          { "step": "Decides", "detail": "Keeps paying or tries Lovable or Bolt instead." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Replit makes money from monthly plans, from usage charges for agent work and hosting, and from enterprise seats. The more the Agent builds and the more apps stay online, the more Replit earns. But each agent task also costs Replit money in AI model fees.",
+      "revenueStreams": [
+        { "stream": "Consumer plans", "detail": "Core and higher plans with monthly usage credits." },
+        { "stream": "Agent usage", "detail": "Effort-based pricing: bigger, longer agent tasks cost more, billed beyond included credits." },
+        { "stream": "Hosting and deployments", "detail": "Ongoing fees to keep apps online, plus databases and storage." },
+        { "stream": "Enterprise seats", "detail": "About $100 per seat plus usage, with 80 to 90 percent margins." }
+      ],
+      "pricing": "Starter is free with limited agent use. Core is about $20 to $25 a month with included usage credits. Teams and Enterprise are priced per seat (Enterprise about $100 per seat plus usage). Agent work beyond credits is billed by effort.",
+      "costDrivers": [
+        "AI model fees paid to Anthropic, Google and others for every agent task",
+        "Cloud computing for running and hosting apps (Google Cloud is the main provider)",
+        "Engineering and research staff",
+        "Free-tier usage"
+      ],
+      "unitEconomics": "A Core user paying about $25 a month who builds one small app might use $10 to $15 of model costs, leaving some margin. A heavy builder can run up $100s in agent charges in a week, which earns revenue but also costs Replit a lot in model fees. Hosting is high-margin and keeps paying after the app is built. Enterprise seats at $100 plus usage carry 80 to 90 percent margins. Consumer figures are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral demos on X, YouTube and TikTok of apps built in minutes",
+        "Millions of existing accounts from Replit's education years",
+        "Free tier to try the Agent",
+        "Enterprise case studies (Zillow, Rokt, Plaid) and partnerships with Google Cloud, Microsoft Azure and Accenture",
+        "Apps built on Replit carry a 'Made with Replit' link"
+      ],
+      "whatBringsUsersBack": [
+        "Apps live on Replit hosting, so users return to update them",
+        "Ongoing changes and new features to their apps",
+        "New ideas once the first app works",
+        "Team workspaces at companies"
+      ],
+      "moat": "Replit's moat is that it does everything in one place: code, database, hosting and deploy. Once an app runs on Replit, moving it takes effort. But AI agents are getting easier to build, and rivals like Lovable and Claude Code compete hard."
+    },
+    "competitors": [
+      {
+        "name": "Lovable",
+        "positioning": "Fast-growing European vibe coding tool for web apps.",
+        "howThisProductDiffers": "Lovable is simpler and focused on front-end web apps; Replit covers full apps with databases, hosting and many languages."
+      },
+      {
+        "name": "Claude Code",
+        "positioning": "Anthropic's coding agent, popular with developers.",
+        "howThisProductDiffers": "Claude Code needs some technical setup; Replit is fully in the browser for non-coders. AI Magazine calls Claude Code Replit's biggest competitive problem."
+      },
+      {
+        "name": "Bolt.new and v0",
+        "positioning": "Browser-based AI app builders from StackBlitz and Vercel.",
+        "howThisProductDiffers": "Replit has its own hosting and a larger user base."
+      },
+      {
+        "name": "Cursor",
+        "positioning": "AI code editor for developers.",
+        "howThisProductDiffers": "Cursor is for programmers; Replit targets people who do not code."
+      }
+    ],
+    "northStar": {
+      "metric": "Apps deployed and still used by real visitors 30 days later",
+      "why": "It shows the Agent built something that works and matters, not just a demo. It also ties to hosting revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "New builders",
+        "description": "People who start their first app.",
+        "children": [
+          { "metric": "Sign-up to first prompt rate", "description": "Share of new users who describe an app." },
+          { "metric": "First preview success", "description": "Share of first builds that run without errors." }
+        ]
+      },
+      {
+        "metric": "Apps deployed",
+        "description": "Apps that go live.",
+        "children": [
+          { "metric": "Build to deploy rate", "description": "Share of projects that get deployed." },
+          { "metric": "Agent task success", "description": "Share of agent tasks finished without the user stepping in." },
+          { "metric": "Time to first deploy", "description": "Minutes from first prompt to live app." }
+        ]
+      },
+      {
+        "metric": "Live app usage",
+        "description": "Whether apps keep getting used.",
+        "children": [
+          { "metric": "30-day app survival", "description": "Share of deployed apps still getting visitors after 30 days." },
+          { "metric": "Updates per app", "description": "How often builders improve their apps." }
+        ]
+      },
+      {
+        "metric": "Paying builders",
+        "description": "Users and companies who pay.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Share of free users who upgrade." },
+          { "metric": "Net revenue retention", "description": "Spend growth from existing customers." },
+          { "metric": "Paid churn", "description": "Churn: share of paying users who cancel each month." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Share of users hitting surprise charges above their plan",
+      "Model cost per deployed app",
+      "Security incidents in deployed apps",
+      "Destructive agent actions, such as deleted data"
+    ],
+    "strengths": [
+      "End-to-end: build, database, host and deploy in one place",
+      "Strong growth after the 2024 agent pivot; valuation tripled in six months",
+      "High-margin enterprise business with real case studies",
+      "Large existing user base from education"
+    ],
+    "weaknesses": [
+      "Unpredictable effort-based pricing angers users",
+      "Depends on outside AI models, which squeezes margins",
+      "Apps built by AI can have bugs and security holes that non-coders cannot spot",
+      "Moved away from its original student community"
+    ],
+    "risks": [
+      "Claude Code, Lovable and other tools taking users",
+      "Model makers raising prices or building their own app builders",
+      "A high-profile security breach in an AI-built app",
+      "The vibe coding trend cooling if apps rarely reach real users"
+    ],
+    "userComplaints": [
+      "Surprise cost overruns after effort-based pricing, with reports of a $25 plan turning into $1,000 in a week (The Register, Dev.to)",
+      "Agent gets stuck in loops, charging for failed attempts",
+      "Users feel they pay for the agent's mistakes",
+      "Hard to export and move apps elsewhere",
+      "Free plan too limited for learners"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show a price estimate before each agent task and do not charge for failed or reverted attempts",
+        "problem": "Users are shocked by bills and feel charged for agent mistakes.",
+        "expectedImpact": "More trust, fewer cancellations.",
+        "metricToTrack": "Share of users with surprise charges and paid churn",
+        "effort": "medium"
+      },
+      {
+        "idea": "Default monthly spending cap at the plan price, which users can raise",
+        "problem": "New users run up big bills without noticing.",
+        "expectedImpact": "Fewer angry complaints and refund requests.",
+        "metricToTrack": "Refund requests per 1,000 paying users",
+        "effort": "low"
+      },
+      {
+        "idea": "Built-in security check before deploy that explains risks in plain words",
+        "problem": "Non-coders cannot see security holes in AI-built apps.",
+        "expectedImpact": "Safer apps and stronger enterprise trust.",
+        "metricToTrack": "Security issues found per deployed app",
+        "effort": "medium"
+      },
+      {
+        "idea": "Templates for Indian small businesses with UPI payments, WhatsApp alerts and Hindi pages",
+        "problem": "Small businesses in India need simple apps with local payment methods.",
+        "expectedImpact": "More builders and deployments in a big market.",
+        "metricToTrack": "Apps deployed from India",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A pivot to a new customer can save a company. Replit went from about $2.8 million in revenue to a $9 billion valuation by targeting non-coders with agents.",
+      "Usage-based pricing matches cost to revenue but can feel unfair. Users need to see and control what they spend.",
+      "Owning the full flow (build, host, deploy) creates lock-in and steady revenue.",
+      "When AI acts on real data, safety features like checkpoints are part of the product."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Replit users complain about surprise bills. How would you redesign pricing?",
+        "hint": "Explain why effort-based pricing exists (cost varies). Add estimates, caps and refunds for failures. Track churn and margin together."
+      },
+      {
+        "question": "What is the right north star metric for Replit?",
+        "hint": "Apps deployed and still used after 30 days. Break into new builders, deploys, live usage and paying users."
+      },
+      {
+        "question": "How would you compete with Lovable?",
+        "hint": "Compare target users and strengths. Replit's edge is full-stack and hosting. Pick a segment, like business apps with data, and focus there."
+      },
+      {
+        "question": "An agent deleted a user's database. What would you do as PM?",
+        "hint": "Immediate response: restore, apologise, explain. Then prevention: checkpoints, approval for risky actions, separated environments. Measure incidents."
+      },
+      {
+        "question": "How would you grow Replit's enterprise business?",
+        "hint": "Target teams with backlogs of internal tools. Use case studies. Add security and admin controls. Track seats and net revenue retention."
+      }
+    ],
+    "glossary": [
+      { "term": "Vibe coding", "meaning": "Building software by describing what you want to an AI instead of writing code yourself." },
+      { "term": "Agent", "meaning": "An AI that takes steps on its own to finish a task." },
+      { "term": "Deploy", "meaning": "To put an app online so others can use it." },
+      { "term": "ARR", "meaning": "Annual recurring revenue: yearly subscription revenue at the current pace." },
+      { "term": "Gross margin", "meaning": "The share of revenue left after paying the direct cost of serving customers." },
+      { "term": "Effort-based pricing", "meaning": "Charging more for agent tasks that take more work." },
+      { "term": "Net revenue retention", "meaning": "How much existing customers spend now compared with a year ago." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a period." },
+      { "term": "Pivot", "meaning": "When a company changes its main product or target customer." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." }
+    ],
+    "assumptions": [
+      "Consumer plan prices are approximate from 2025 to 2026 pricing guides and may have changed.",
+      "Late-2026 ARR is not confirmed; only the $1 billion target is reported.",
+      "Per-user model cost figures for consumer plans are rough estimates.",
+      "The 50 million users figure counts registered accounts, not active users."
+    ]
+  }
+}

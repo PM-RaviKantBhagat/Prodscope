@@ -1,0 +1,106 @@
+[
+ {
+  "company": "ChatGPT",
+  "website": "chatgpt.com",
+  "domain": "chatgpt.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Still #1 consumer AI app in 2026; ads, agents and turning hundreds of millions of free users into payers."
+ },
+ {
+  "company": "Claude",
+  "website": "claude.ai",
+  "domain": "claude.ai",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Cowork and Claude Design made it a clear #3 consumer AI app in 2026; good niche-positioning case."
+ },
+ {
+  "company": "Gemini",
+  "website": "gemini.google.com",
+  "domain": "gemini.google.com",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Distribution advantage through Android, Search and Workspace; bundle vs. standalone."
+ },
+ {
+  "company": "Meta AI",
+  "website": "meta.ai",
+  "domain": "meta.ai",
+  "market": "US · global",
+  "category": "AI assistant",
+  "why": "Distribution through WhatsApp and Instagram; personal agents battleground."
+ },
+ {
+  "company": "Perplexity",
+  "website": "perplexity.ai",
+  "domain": "perplexity.ai",
+  "market": "US · global",
+  "category": "AI search",
+  "why": "Answer engine challenging Google; citations, Comet browser and publisher partnerships."
+ },
+ {
+  "company": "Krutrim",
+  "website": "olakrutrim.com",
+  "domain": "olakrutrim.com",
+  "market": "India",
+  "category": "AI (Indic AI models)",
+  "why": "Ola's AI bet; compare with Sarvam on building Indian AI."
+ },
+ {
+  "company": "Cursor",
+  "website": "cursor.com",
+  "domain": "cursor.com",
+  "market": "US · global",
+  "category": "AI dev tools",
+  "why": "One of the fastest-growing software products of 2025; growing through the product itself among developers."
+ },
+ {
+  "company": "Replit",
+  "website": "replit.com",
+  "domain": "replit.com",
+  "market": "US · global",
+  "category": "AI app builder",
+  "why": "Building apps by chatting with AI for non-developers; growing through the product itself with AI agents."
+ },
+ {
+  "company": "Suno",
+  "website": "suno.com",
+  "domain": "suno.com",
+  "market": "US · global",
+  "category": "AI music",
+  "why": "Top consumer AI app for music creation; creator tools and rights questions."
+ },
+ {
+  "company": "Sora",
+  "website": "sora.com",
+  "domain": "sora.com",
+  "market": "US · global",
+  "category": "AI video / social",
+  "why": "OpenAI's AI video app; a social feed of generated content."
+ },
+ {
+  "company": "PhonePe",
+  "website": "phonepe.com",
+  "domain": "phonepe.com",
+  "market": "India",
+  "category": "Payments (UPI)",
+  "why": "UPI leader that filed for IPO in 2026; making money from a free payments rail through lending, insurance and wealth."
+ },
+ {
+  "company": "Google Pay India",
+  "website": "pay.google.com",
+  "domain": "pay.google.com",
+  "market": "India · global parent",
+  "category": "Payments (UPI)",
+  "why": "Rewards-led adoption and the UPI market-share cap debate; great for competitive strategy."
+ },
+ {
+  "company": "Paytm",
+  "website": "paytm.com",
+  "domain": "paytm.com",
+  "market": "India",
+  "category": "Money app",
+  "why": "Comeback after the 2024 Payments Bank ban; trust recovery and merchant soundbox strategy."
+ }
+]

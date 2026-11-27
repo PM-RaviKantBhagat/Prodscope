@@ -1,0 +1,395 @@
+{
+  "company": "Meta AI",
+  "domain": "meta.ai",
+  "website": "https://meta.ai",
+  "sources": [
+    "https://www.mediapost.com/publications/article/418930/meta-q3-boosts-ai-spend-ad-biz-users.html",
+    "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+    "https://cryptobriefing.com/meta-muse-5-million-downloads-22-days/",
+    "https://247wallst.com/investing/2026/09/28/the-1-reason-why-metas-muse-is-no-1-ai-app-and-it-has-nothing-to-do-with-if-its-good/",
+    "https://www.pymnts.com/meta/2026/metas-ai-is-delivering-but-comes-with-a-hefty-price-tag/",
+    "https://9to5mac.com/2025/04/24/anger-as-meta-ai-chatbot-added-to-whatsapp-raising-privacy-fears/",
+    "https://www.demandsage.com/meta-ai-statistics/"
+  ],
+  "report": {
+    "company": "Meta AI",
+    "tagline": "Meta's free AI assistant inside WhatsApp, Instagram, Facebook and Ray-Ban glasses, now growing into a personal agent called Muse.",
+    "category": "AI assistant",
+    "simpleSummary": "Meta AI is the AI helper built into WhatsApp, Instagram, Facebook and Messenger. You can tap the blue circle or type @Meta AI in a chat to ask questions, make images or plan things with friends. In 2026 Meta launched Muse, a personal AI agent app that can do tasks like shopping for you. It is free; Meta makes money mostly from ads, and is starting a paid plan called Muse One.",
+    "keyNumbers": [
+      {
+        "label": "People using Meta's apps daily",
+        "value": "3.64 billion (Q3 2026)",
+        "note": "Meta Q3 2026 results via MediaPost. This is the pool Meta AI can reach, not Meta AI users."
+      },
+      {
+        "label": "Meta AI monthly users",
+        "value": "About 1 billion (estimate)",
+        "note": "Meta said Meta AI reached about 1 billion monthly users across its apps in 2025. No updated 2026 figure was found; treat as an estimate. Many are light, occasional users."
+      },
+      {
+        "label": "Muse agent users",
+        "value": "Over 10 million (October 2026)",
+        "note": "Meta figure reported by TechCrunch, October 2026. Hit 5 million downloads in 22 days and topped app store charts in September 2026."
+      },
+      {
+        "label": "Meta Q3 2026 revenue",
+        "value": "$64.6 billion, up 26 percent",
+        "note": "MediaPost, Q3 2026. About $63 billion of it is ads."
+      },
+      {
+        "label": "Q3 2026 capital spending",
+        "value": "$34.9 billion in one quarter",
+        "note": "Up from $19.4 billion a year earlier, mostly AI data centres. Free cash flow turned negative at about minus $2.1 billion."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Meta AI answers questions, creates images and short videos, edits photos, summarises group chats and helps plan things, all inside apps people already use daily. Muse, launched in 2026, is a more capable agent that can act on your behalf, with shopping as a top activity. Meta does not charge most users; it uses AI to make its apps more engaging and its ads better, and is testing a Muse One subscription.",
+      "howItWorks": [
+        "Tap the Meta AI button or type @Meta AI in a WhatsApp, Instagram or Messenger chat.",
+        "Meta's own models, built by Meta Superintelligence Labs, write the answer.",
+        "Imagine and edit tools make images or change your photos from a prompt.",
+        "On Ray-Ban Meta and other smart glasses, you can say 'Hey Meta' and ask about what you see.",
+        "The Muse app acts as a personal agent: it remembers your preferences and can shop, compare and book.",
+        "Data from your use of Meta AI can be used to personalise content and ads across Meta's apps."
+      ],
+      "valueProposition": "AI help where you already chat, with no new app to download and no cost."
+    },
+    "personas": [
+      {
+        "name": "Everyday WhatsApp user in India",
+        "description": "A 35-year-old shop owner in Lucknow who uses WhatsApp all day and has never downloaded ChatGPT.",
+        "goals": [
+          "Quick answers in Hindi",
+          "Make greeting images for festivals",
+          "Not pay anything"
+        ],
+        "frustrations": [
+          "Did not ask for the Meta AI button and cannot remove it",
+          "Worried about privacy of chats",
+          "Answers sometimes wrong or generic"
+        ]
+      },
+      {
+        "name": "Instagram creator",
+        "description": "A 22-year-old fashion creator in Mumbai who uses Meta AI to edit photos and draft captions.",
+        "goals": [
+          "Create content faster",
+          "Grow followers",
+          "Try new visual styles"
+        ],
+        "frustrations": [
+          "AI images can look fake",
+          "Feed filling up with AI content from others",
+          "Unclear rules on AI labels"
+        ]
+      },
+      {
+        "name": "Online shopper using Muse",
+        "description": "A busy US professional who uses the Muse app to find and buy products and gifts.",
+        "goals": [
+          "Save time comparing products",
+          "Get suggestions that fit their taste",
+          "Trust the price is fair"
+        ],
+        "frustrations": [
+          "Not sure if suggestions are ads",
+          "Agent sometimes gets details wrong",
+          "Privacy worries about Meta knowing even more"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Many people never try AI because it means a new app and an account.",
+        "howSolved": "Meta AI is already inside WhatsApp and Instagram, with no download.",
+        "severity": "high"
+      },
+      {
+        "pain": "Group plans in chats get lost in long threads.",
+        "howSolved": "Meta AI can summarise a chat or suggest plans for the group.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Making a nice image or edit needs design skills.",
+        "howSolved": "Imagine and photo edit tools do it from a short prompt.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Online shopping means hours of comparing.",
+        "howSolved": "Muse searches, compares and helps buy, based on what it knows you like.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Looking at your phone to ask something is awkward when hands are busy.",
+        "howSolved": "Meta AI on smart glasses answers by voice and can see what you see.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Meta AI in chats",
+        "whatItDoes": "Ask questions or get help inside WhatsApp, Instagram, Messenger and Facebook.",
+        "whyItMatters": "Gives Meta reach to billions of people without anyone installing an app."
+      },
+      {
+        "feature": "Imagine and photo editing",
+        "whatItDoes": "Creates and edits images and short videos.",
+        "whyItMatters": "Fun, shareable use cases fit social apps and spread through chats."
+      },
+      {
+        "feature": "Muse personal agent",
+        "whatItDoes": "A standalone app that remembers you and does tasks such as shopping.",
+        "whyItMatters": "Meta's bet on the 'personal agents' battle, and its main path to direct AI revenue."
+      },
+      {
+        "feature": "Meta AI on smart glasses",
+        "whatItDoes": "Voice and camera AI on Ray-Ban Meta and Oakley Meta glasses.",
+        "whyItMatters": "A new device where Meta, not Apple or Google, owns the assistant."
+      },
+      {
+        "feature": "Business AI on WhatsApp",
+        "whatItDoes": "Lets businesses run AI agents that answer customers in WhatsApp chats.",
+        "whyItMatters": "Could become a big paid product in markets like India, Brazil and Indonesia."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First try in WhatsApp",
+        "persona": "Everyday WhatsApp user in India",
+        "steps": [
+          { "step": "Notices the button", "detail": "Sees the blue Meta AI circle in WhatsApp." },
+          { "step": "Taps it", "detail": "A chat with Meta AI opens with suggested prompts." },
+          { "step": "Asks in Hindi", "detail": "Asks for a Diwali greeting message for customers." },
+          { "step": "Makes an image", "detail": "Uses Imagine to create a festive picture." },
+          { "step": "Shares it", "detail": "Forwards the image to family and customer groups." },
+          { "step": "Comes back sometimes", "detail": "Uses it again for festivals, quick facts and recipes." }
+        ]
+      },
+      {
+        "name": "Shopping with Muse",
+        "persona": "Online shopper using Muse",
+        "steps": [
+          { "step": "Downloads Muse", "detail": "Sees it at the top of the App Store chart." },
+          { "step": "Sets preferences", "detail": "Links Instagram so Muse learns their style." },
+          { "step": "Asks for a gift", "detail": "'Find a birthday gift for my sister under $80.'" },
+          { "step": "Reviews options", "detail": "Muse shows three picks with prices and reasons." },
+          { "step": "Buys", "detail": "Completes checkout through Muse." },
+          { "step": "Returns", "detail": "Uses Muse again for other purchases and plans." }
+        ]
+      },
+      {
+        "name": "Creator workflow",
+        "persona": "Instagram creator",
+        "steps": [
+          { "step": "Opens Instagram", "detail": "Starts a new post." },
+          { "step": "Edits with AI", "detail": "Asks Meta AI to change the background and lighting." },
+          { "step": "Writes caption", "detail": "Gets three caption ideas." },
+          { "step": "Posts", "detail": "Shares the post, labelled as AI-edited." },
+          { "step": "Checks results", "detail": "Compares reach with non-AI posts." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Meta AI is free. It makes money indirectly: it keeps people in Meta's apps longer and gives Meta more data to target ads, which are 98 percent of Meta's revenue. Direct revenue is just starting through the Muse One subscription, shopping inside Muse and business AI agents on WhatsApp.",
+      "revenueStreams": [
+        { "stream": "Ads in Meta's apps", "detail": "AI improves recommendations and ad targeting; ad prices rose 14 percent and impressions 10 percent in Q3 2026." },
+        { "stream": "Muse One subscription", "detail": "A paid tier for Muse with more capability. Price not confirmed in sources." },
+        { "stream": "Commerce", "detail": "Shopping is a top Muse activity, which can bring fees or ads from merchants." },
+        { "stream": "Business messaging", "detail": "Businesses pay for WhatsApp messages and AI agents that serve customers." }
+      ],
+      "pricing": "Meta AI and Muse are free to use. Muse One subscription exists; price not public in the sources used.",
+      "costDrivers": [
+        "AI data centres: $34.9 billion of capital spending in Q3 2026 alone",
+        "Superintelligence Labs researchers, hired with very large pay packages",
+        "Running AI for hundreds of millions of free users",
+        "Smart glasses hardware losses in Reality Labs"
+      ],
+      "unitEconomics": "A Meta AI user pays nothing. Meta earns roughly $50 a year in ads from an average user worldwide, and much more in the US. If Meta AI raises time spent or ad relevance by even a few percent, that adds about $1 to $3 per user per year, which needs to beat the computing cost of their AI use. Muse is costlier because agents use more computing; Meta has said it aims to make Muse about 10 times cheaper to run within a year. These are rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Built into WhatsApp, Instagram, Facebook and Messenger, used by 3.64 billion people a day",
+        "Search bars in Meta's apps now open Meta AI",
+        "Cross-promotion of the Muse app inside Instagram and Facebook",
+        "Smart glasses sales, with Meta AI as the built-in assistant"
+      ],
+      "whatBringsUsersBack": [
+        "Chatting is a daily habit, so Meta AI is always one tap away",
+        "Fun image trends shared with friends",
+        "Muse memory that learns your tastes",
+        "Shopping and planning tasks"
+      ],
+      "moat": "Meta's moat is reach and personal data. Billions of people already chat in its apps, and Meta knows their interests from years of activity. A rival can build a smarter chatbot, but it cannot easily get inside WhatsApp."
+    },
+    "competitors": [
+      {
+        "name": "ChatGPT",
+        "positioning": "The top standalone AI app.",
+        "howThisProductDiffers": "Meta AI is used more casually inside chats; ChatGPT gets deeper, longer use."
+      },
+      {
+        "name": "Google Gemini",
+        "positioning": "AI on Android phones and Google apps.",
+        "howThisProductDiffers": "Gemini owns the phone; Meta AI owns the chat apps."
+      },
+      {
+        "name": "Grok",
+        "positioning": "xAI's assistant inside X.",
+        "howThisProductDiffers": "Both live inside social apps, but Meta's reach is many times larger."
+      },
+      {
+        "name": "Amazon Rufus and Alexa+",
+        "positioning": "Shopping and home assistants from Amazon.",
+        "howThisProductDiffers": "Muse competes for shopping agents but lacks Amazon's store and delivery."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly users who complete a task with Meta AI or Muse (an answer used, an image shared, a purchase or plan made)",
+      "why": "Many people see the button but do not get value. Completed tasks show real help and link to engagement and revenue."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active Meta AI users",
+        "description": "People who use Meta AI on purpose each week.",
+        "children": [
+          { "metric": "Button tap-through rate", "description": "Share of app users who open Meta AI." },
+          { "metric": "Repeat use within 7 days", "description": "Share of first-time users who come back." },
+          { "metric": "Local language use", "description": "Share of chats in Hindi and other languages, key for India." }
+        ]
+      },
+      {
+        "metric": "Muse adoption",
+        "description": "Growth of the personal agent app.",
+        "children": [
+          { "metric": "Muse installs from Meta apps", "description": "Installs driven by in-app promotion." },
+          { "metric": "Week-4 retention", "description": "Retention: the share of Muse users still active after four weeks." },
+          { "metric": "Tasks per user", "description": "How many tasks each user hands to Muse." }
+        ]
+      },
+      {
+        "metric": "Engagement lift",
+        "description": "How much AI adds to time spent in Meta's apps.",
+        "children": [
+          { "metric": "Shares of AI content", "description": "AI images and answers forwarded to friends." },
+          { "metric": "Time spent per user", "description": "Change in minutes per day for Meta AI users versus others." }
+        ]
+      },
+      {
+        "metric": "AI revenue",
+        "description": "Direct money from AI.",
+        "children": [
+          { "metric": "Muse One subscribers", "description": "Number of paying Muse users." },
+          { "metric": "Muse purchase conversion", "description": "Share of shopping chats that end in a purchase." },
+          { "metric": "Business AI agents live on WhatsApp", "description": "Number of businesses using paid AI customer service." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Privacy complaints and regulator actions",
+      "Share of users who mute or hide Meta AI",
+      "Harmful or wrong answers reported",
+      "Computing cost per active AI user"
+    ],
+    "strengths": [
+      "Largest possible reach: 3.64 billion daily users across Meta's apps",
+      "Rich personal data to make answers and shopping more relevant",
+      "Huge ad business to fund AI spending",
+      "Own hardware path through smart glasses"
+    ],
+    "weaknesses": [
+      "Many users did not choose Meta AI and see it as clutter",
+      "Low trust on privacy compared with rivals",
+      "Model quality has trailed OpenAI, Google and Anthropic, leading to Meta's costly Superintelligence Labs reboot",
+      "Direct AI revenue is still tiny next to the spend"
+    ],
+    "risks": [
+      "EU and Indian data rules could limit using chat data for AI or ads",
+      "Investors losing patience with negative free cash flow",
+      "Users moving AI use to ChatGPT and Gemini",
+      "AI-generated content lowering feed quality",
+      "Safety incidents with teens using AI chatbots"
+    ],
+    "userComplaints": [
+      "The Meta AI button in WhatsApp cannot be fully removed",
+      "Privacy fears about Meta reading or using chats",
+      "Search bars replaced by Meta AI, making normal search harder",
+      "Answers that are wrong or bland",
+      "Too much AI content in Instagram and Facebook feeds"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Let users hide the Meta AI button in WhatsApp and bring it back with one tap",
+        "problem": "Users feel forced, which hurts trust.",
+        "expectedImpact": "Better trust; those who keep it are real users.",
+        "metricToTrack": "Share of users who mute Meta AI, and repeat use among those who keep it",
+        "effort": "low"
+      },
+      {
+        "idea": "Clear 'Sponsored' and 'Why this pick' labels in Muse shopping results",
+        "problem": "Shoppers do not know if suggestions are ads.",
+        "expectedImpact": "Higher trust and purchase rate.",
+        "metricToTrack": "Muse purchase conversion",
+        "effort": "low"
+      },
+      {
+        "idea": "WhatsApp AI agent starter kit for small Indian shops, priced in rupees, to answer orders and prices",
+        "problem": "Small businesses spend hours replying to messages.",
+        "expectedImpact": "New paid revenue in India and stronger WhatsApp lock-in.",
+        "metricToTrack": "Business AI agents live on WhatsApp",
+        "effort": "medium"
+      },
+      {
+        "idea": "Private mode for Meta AI chats that are never used for ads",
+        "problem": "Privacy fears stop people from asking personal questions.",
+        "expectedImpact": "More use for sensitive topics.",
+        "metricToTrack": "Weekly active Meta AI users",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Distribution gets trial but not love. Putting a button in front of billions does not mean they will use it.",
+      "Forcing a feature on users can hurt trust in the main product.",
+      "AI can make money indirectly, through engagement and better ads, before it makes money directly.",
+      "When the cost to serve is high, efficiency (like Meta's 10x target for Muse) is a product goal, not just an engineering one."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Meta AI is in front of billions of people. How would you measure whether it is actually successful?",
+        "hint": "Separate exposure from active use. Define a north star around completed tasks. Add guardrails like mute rate and privacy complaints."
+      },
+      {
+        "question": "How should Meta make money from Muse?",
+        "hint": "Compare subscription, commerce fees and ads. Consider trust risk of ads in an agent. Pick a model and a metric."
+      },
+      {
+        "question": "Users complain they cannot remove Meta AI from WhatsApp. What would you do?",
+        "hint": "Weigh reach versus trust. Propose an opt-out with smart re-entry points. Measure retention of WhatsApp itself."
+      },
+      {
+        "question": "Design a Meta AI feature for small businesses in India.",
+        "hint": "Start with their pain: answering many messages. Use WhatsApp catalog, UPI payments and Hindi. Define the paid model and success metric."
+      },
+      {
+        "question": "Meta is spending $35 billion a quarter on capex. How would you prioritise AI features to justify it?",
+        "hint": "Rank by revenue impact: ad ranking first, then business messaging, then Muse. Explain why and how to measure each."
+      }
+    ],
+    "glossary": [
+      { "term": "Capital spending", "meaning": "Money spent on long-lasting things like data centres and chips." },
+      { "term": "Free cash flow", "meaning": "Cash left after paying for running costs and investments." },
+      { "term": "Agent", "meaning": "An AI that takes actions on its own to finish a task." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "North star", "meaning": "The one number a team uses to show users get real value." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "Conversion", "meaning": "The share of users who take a desired action, like buying." },
+      { "term": "Guardrails", "meaning": "Metrics or rules that must not get worse while chasing growth." }
+    ],
+    "assumptions": [
+      "The 1 billion monthly Meta AI users figure is from 2025 and has not been updated in sources found.",
+      "Average ad revenue per user and the AI engagement lift are rough estimates.",
+      "Muse One pricing and features were not confirmed in sources used.",
+      "The Meta AI web domain meta.ai and the Muse app are treated as one product family; Meta's naming may differ."
+    ]
+  }
+}

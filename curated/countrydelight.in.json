@@ -1,0 +1,255 @@
+{
+ "company": "Country Delight",
+ "domain": "countrydelight.in",
+ "website": "https://countrydelight.in",
+ "sources": [
+  "https://lapaasvoice.com/startup/country-delight/financials/",
+  "https://entrackr.com/2023/08/country-delight-posts-rs-543-cr-revenue-in-fy22-losses-surge-6-6x",
+  "https://yourstory.com/2025/03/country-delight-raises-25-million-from-temasek",
+  "https://dairybusinessmea.com/2026/09/02/country-delight-targets-us300m-ipo-as-growth-accelerates/",
+  "https://www.kotakneo.com/investing-guide/articles/country-delight-success-story/",
+  "https://startuppedia.in/startup-stories/our-first-goal-wasnt-to-scale-iim-grads-who-built-a-dairy-delivery-startup-that-generated-1380-crore-revenue-in-fy24-9149630"
+ ],
+ "report": {
+  "company": "Country Delight",
+  "tagline": "A milk and daily essentials subscription app that delivers fresh milk, curd, eggs, bread and vegetables to your door every morning before 7 am.",
+  "category": "Subscription dairy",
+  "simpleSummary": "Country Delight is like a modern doodhwala. You set up a daily order of milk on the app, top up a wallet, and a packet arrives at your door every morning before you wake up. You can add curd, paneer, eggs, bread, fruit and vegetables to the same morning drop. The pitch is milk with no added preservatives and no adulteration, bought straight from farms.",
+  "keyNumbers": [
+   {"label": "Revenue, FY24 (April 2023 to March 2024)", "value": "About ₹1,380 crore, up about 72% from ₹801 crore in FY23", "note": "Company filings as reported by business media; FY24 loss was not clearly disclosed."},
+   {"label": "Net loss, FY23", "value": "About ₹249 crore", "note": "Regulatory filings reported in 2024. Losses have been falling as a share of revenue since, per company statements."},
+   {"label": "Revenue, FY25 and FY26", "value": "Roughly ₹2,000 crore in FY25 and higher in FY26 (estimate)", "note": "Weak estimate based on reported growth rate and IPO coverage in September 2026; audited numbers not found."},
+   {"label": "Total funding", "value": "About $230 million across 11 rounds", "note": "Tracker data, 2026. Investors include Temasek, Elevation Capital and Matrix (Z47)."},
+   {"label": "Latest notable round", "value": "$25 million from Temasek, March 2025", "note": "YourStory and Inc42, 2025. Valuation was reported near $1.3 billion (estimate)."},
+   {"label": "IPO plan", "value": "Targeting an IPO of around $300 million", "note": "Dairy Business MEA, September 2026. Timing not confirmed."}
+  ],
+  "overview": {
+   "whatItDoes": "Country Delight sells milk, dairy and fresh daily essentials on a subscription. Founded in 2015 in Gurugram by Chakradhar Gade and Nitin Kaushal, it buys milk from farmers, tests and packs it, and delivers it to homes every morning in about 15 to 20 big Indian cities. It makes money by selling these products at a markup, with most homes buying something every single day.",
+   "howItWorks": [
+    "Milk is collected from farmers through village centres and chilled quickly to stay fresh.",
+    "It is tested for adulteration and packed without added preservatives, then sent to city hubs at night.",
+    "Customers place or change orders until late at night on the app for the next morning.",
+    "Delivery staff drop packets at the door, usually between 5 am and 7 am, without ringing the bell.",
+    "Payment is taken from a prepaid wallet, so there is no cash or daily payment step.",
+    "Customers can pause orders for holidays, change quantity for guests, or add one-off items."
+   ],
+   "valueProposition": "Pure, tested milk and morning essentials at your door before you wake up, with nothing to remember each day."
+  },
+  "personas": [
+   {
+    "name": "Family that drinks milk daily",
+    "description": "A family of four in Delhi NCR or Bengaluru that uses 1 to 2 litres of milk a day.",
+    "goals": ["Trust that milk is not watered or adulterated", "Never run out in the morning", "Fresh milk for children"],
+    "frustrations": ["Higher price than packet brands like Amul or Mother Dairy", "Occasional missed or late deliveries"]
+   },
+   {
+    "name": "Working professional living alone",
+    "description": "A 27-year-old who wants milk, eggs and bread every few days without going to a shop.",
+    "goals": ["Small, flexible orders", "Change plans easily when travelling"],
+    "frustrations": ["Minimum wallet top-ups", "Forgetting to pause orders before trips"]
+   },
+   {
+    "name": "Health-focused home cook",
+    "description": "Someone who wants A2-style cow milk, desi ghee, fresh paneer and dahi made from fresh milk.",
+    "goals": ["Natural products without preservatives", "Better taste than packet milk"],
+    "frustrations": ["Short shelf life", "Quality differences between batches"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Fear that loose or packet milk is adulterated or watered down", "howSolved": "Milk is tested and Country Delight markets no added preservatives; it has offered home test kits to let customers check.", "severity": "high"},
+   {"pain": "Running out of milk in the morning", "howSolved": "A standing daily order arrives before 7 am automatically.", "severity": "high"},
+   {"pain": "Paying the local milkman in cash and tracking his monthly bill", "howSolved": "Prepaid wallet with a clear record of each day's delivery.", "severity": "medium"},
+   {"pain": "Going out for small daily needs like bread or eggs", "howSolved": "Add any item to tomorrow's milk drop with no extra delivery fee.", "severity": "medium"},
+   {"pain": "Wasting milk when travelling", "howSolved": "Vacation mode pauses deliveries for chosen dates.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "Daily milk subscription", "whatItDoes": "Set quantity and days once; it repeats until you change it.", "whyItMatters": "Creates a daily habit, which is rare in e-commerce and drives very high repeat purchase."},
+   {"feature": "Prepaid wallet", "whatItDoes": "Customers load money and each delivery is deducted.", "whyItMatters": "Money arrives before the product, which helps cash flow and makes leaving harder."},
+   {"feature": "Before-7 am doorstep delivery", "whatItDoes": "Silent drop at the door, often in a bag hung on the handle.", "whyItMatters": "Fits Indian morning tea and breakfast routines."},
+   {"feature": "Add-on essentials", "whatItDoes": "Curd, paneer, ghee, eggs, bread, fruit, vegetables and more on the same drop.", "whyItMatters": "Raises revenue per home without adding a delivery trip."},
+   {"feature": "Edit calendar and vacation mode", "whatItDoes": "Change or skip any day until late night before.", "whyItMatters": "Flexibility reduces cancellations of the whole subscription."}
+  ],
+  "userJourneys": [
+   {
+    "name": "First subscription",
+    "persona": "Family that drinks milk daily",
+    "steps": [
+     {"step": "Hear about it", "detail": "A neighbour or a trial offer leaflet mentions Country Delight."},
+     {"step": "Install and check area", "detail": "Enter the address; the app confirms delivery is available."},
+     {"step": "Free or cheap trial", "detail": "Gets a trial pack of milk for a few days."},
+     {"step": "Top up wallet", "detail": "Adds money, for example ₹1,000 to start."},
+     {"step": "Set daily order", "detail": "Picks 1 litre cow milk every day."},
+     {"step": "First morning delivery", "detail": "Finds milk at the door before 7 am."},
+     {"step": "Taste test", "detail": "Compares with old milk; if it tastes richer, keeps the plan."}
+    ]
+   },
+   {
+    "name": "Adding items to tomorrow's drop",
+    "persona": "Working professional living alone",
+    "steps": [
+     {"step": "Evening check", "detail": "Notices there are no eggs at 10 pm."},
+     {"step": "Open app", "detail": "Goes to tomorrow's order."},
+     {"step": "Add items", "detail": "Adds eggs and bread to the milk delivery."},
+     {"step": "Wallet deducts", "detail": "Amount is taken from the prepaid balance."},
+     {"step": "Wake up to delivery", "detail": "Everything is at the door in the morning."}
+    ]
+   },
+   {
+    "name": "Going on holiday",
+    "persona": "Family that drinks milk daily",
+    "steps": [
+     {"step": "Plan trip", "detail": "Family leaves for 5 days."},
+     {"step": "Open vacation mode", "detail": "Selects start and end dates."},
+     {"step": "Deliveries pause", "detail": "No milk is sent or charged."},
+     {"step": "Auto restart", "detail": "Daily milk resumes the morning they return."},
+     {"step": "Low balance alert", "detail": "App reminds them to top up the wallet."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Country Delight buys milk from farmers, processes and packs it, and sells it directly to homes at a premium to packet milk. It adds groceries and fresh produce to the same morning route to earn more per delivery.",
+   "revenueStreams": [
+    {"stream": "Milk subscriptions", "detail": "The core daily product and the reason customers join."},
+    {"stream": "Dairy products", "detail": "Curd, paneer, ghee, butter and buttermilk, often with better margin than milk."},
+    {"stream": "Daily essentials and fresh produce", "detail": "Eggs, bread, fruit, vegetables, atta and snacks added to the morning drop."}
+   ],
+   "pricing": "No delivery fee on the morning drop. Milk is priced above packet brands; for example cow milk is typically around ₹40 to ₹50 per half litre, depending on city and variant (estimate from app listings). Customers prepay through a wallet.",
+   "costDrivers": [
+    "Buying milk from farmers, which rises with feed and fodder costs",
+    "Chilling, testing and packing centres",
+    "Night-time logistics from farms to city hubs",
+    "Morning delivery staff and two-wheelers",
+    "Spoilage, since fresh milk lasts only a day or two",
+    "Trial offers and marketing to win new homes"
+   ],
+   "unitEconomics": "Rough estimate for one home: a family buying 1 litre a day at about ₹90 plus ₹50 of add-ons spends about ₹4,200 a month. If milk and products cost about 70% of that, Country Delight keeps around ₹1,250 before delivery. One rider can drop to 60 to 100 homes in a morning on a tight route, so delivery may cost ₹10 to ₹15 per drop, or about ₹400 a month per home. The model works only if many homes in the same lane subscribe; scattered customers lose money."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Free or low-cost trial packs in housing societies",
+    "Referrals from existing customers with wallet credit",
+    "Digital ads with a purity message",
+    "Expanding into new cities and dense neighbourhoods"
+   ],
+   "whatBringsUsersBack": [
+    "Daily habit: milk is needed every morning",
+    "Prepaid wallet balance",
+    "Standing order that runs on its own",
+    "Convenience of adding groceries to the same drop"
+   ],
+   "moat": "Daily delivery routes become cheaper as more homes on the same street join, which is called route density. A new rival starts with scattered customers and high cost per drop. Country Delight also has years of farmer relationships and a trusted 'pure milk' brand."
+  },
+  "competitors": [
+   {"name": "Amul, Mother Dairy and Nandini packet milk", "positioning": "Cheap, trusted cooperative milk sold at every shop.", "howThisProductDiffers": "Country Delight costs more but promises fresher milk and home delivery before 7 am."},
+   {"name": "Local doodhwala", "positioning": "Loose milk delivered in person, paid monthly in cash.", "howThisProductDiffers": "Country Delight offers testing, packaging and app control."},
+   {"name": "Akshayakalpa, Sid's Farm and Pride of Cows", "positioning": "Premium farm milk brands with organic or A2 claims.", "howThisProductDiffers": "Country Delight is bigger, cheaper than the most premium brands and sells more grocery add-ons."},
+   {"name": "BB Daily, Swiggy and Zepto milk delivery", "positioning": "Morning milk subscriptions or 10-minute delivery from big grocery apps.", "howThisProductDiffers": "Country Delight controls its own milk supply and brand instead of reselling others."}
+  ],
+  "northStar": {
+   "metric": "Number of homes that received their morning delivery on time and complete, per day",
+   "why": "The product's promise is milk at the door every morning. A complete, on-time drop is value delivered, and daily active homes show the habit is alive."
+  },
+  "kpiTree": [
+   {
+    "metric": "Active subscribed homes",
+    "description": "Homes with at least one delivery in the last 7 days.",
+    "children": [
+     {"metric": "Trial-to-subscription rate", "description": "Share of trial users who keep a paid daily order."},
+     {"metric": "Monthly churn", "description": "Share of homes that stop their subscription."},
+     {"metric": "Referral sign-ups", "description": "New homes coming from existing customers."}
+    ]
+   },
+   {
+    "metric": "Delivery reliability",
+    "description": "How often the morning drop is right.",
+    "children": [
+     {"metric": "On-time rate before 7 am", "description": "Late milk breaks the morning routine."},
+     {"metric": "Missed or wrong item rate", "description": "Errors push homes back to the local shop."}
+    ]
+   },
+   {
+    "metric": "Product quality",
+    "description": "Whether milk tastes and stays fresh.",
+    "children": [
+     {"metric": "Spoilage complaints per 10,000 drops", "description": "Shows cold chain and freshness issues."},
+     {"metric": "Batch test pass rate", "description": "Share of milk batches passing purity tests."}
+    ]
+   },
+   {
+    "metric": "Basket per home",
+    "description": "How much each home buys beyond milk.",
+    "children": [
+     {"metric": "Add-on items per home per week", "description": "More items per drop improve profit per route."},
+     {"metric": "Share of homes buying fresh produce", "description": "Shows if Country Delight is becoming the morning grocery store."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Delivery cost per drop",
+   "Milk spoilage and wastage rate",
+   "Wallet refund and complaint rate",
+   "Farmer payment delays"
+  ],
+  "strengths": [
+   "Daily-use product creates one of the strongest habits in Indian consumer apps",
+   "Prepaid wallet gives cash upfront",
+   "Owns the milk supply chain and brand, so margin is better than reselling",
+   "Revenue has grown quickly, from ₹543 crore in FY22 to about ₹1,380 crore in FY24"
+  ],
+  "weaknesses": [
+   "Premium prices limit reach beyond affluent city homes",
+   "Fresh milk is perishable, so supply and demand must match daily",
+   "Still loss-making on public data; profit depends on dense routes",
+   "Quality complaints spread fast because the brand promise is purity"
+  ],
+  "risks": [
+   "Quick commerce apps delivering milk in 10 minutes reduce the need for a subscription",
+   "Big cooperatives like Amul expanding direct-to-home delivery",
+   "Milk procurement costs rising with fodder prices and heat waves",
+   "Food safety regulations and testing scrutiny on purity claims"
+  ],
+  "userComplaints": [
+   "Milk occasionally spoils or curdles before the use-by date",
+   "Missed or late deliveries without notice",
+   "Hard to get wallet balance refunded when leaving",
+   "Prices increased several times",
+   "Customer support slow during morning issues"
+  ],
+  "improvementIdeas": [
+   {"idea": "Live 'delivered at' photo and time stamp for each drop", "problem": "Customers are unsure if milk was missed or stolen from the door.", "expectedImpact": "Fewer support tickets and more trust.", "metricToTrack": "Missing delivery complaints per 10,000 drops", "effort": "low"},
+   {"idea": "One-tap wallet refund to bank when cancelling", "problem": "Hard refunds make people hesitant to top up.", "expectedImpact": "Higher willingness to top up larger amounts.", "metricToTrack": "Average wallet top-up value and trial-to-subscription rate", "effort": "low"},
+   {"idea": "Auto pause suggestion based on travel signals or missed pickups", "problem": "Milk is wasted when people forget to pause before travel.", "expectedImpact": "Less waste and fewer angry cancellations.", "metricToTrack": "Subscription churn after a complaint", "effort": "medium"},
+   {"idea": "Neighbourhood referral offer that rewards whole housing societies", "problem": "Profit depends on many homes per route.", "expectedImpact": "Lower delivery cost per drop as routes get denser.", "metricToTrack": "Homes per route and cost per drop", "effort": "medium"}
+  ],
+  "pmLessons": [
+   "Daily habits are powerful. A product people need every morning gets used more often than almost any app.",
+   "Subscriptions plus a prepaid wallet turn one-off buyers into a steady stream of revenue.",
+   "In delivery, density beats reach. Ten homes on one street are worth more than ten homes across a city.",
+   "When the brand promise is purity, one quality slip costs more than any feature gains."
+  ],
+  "interviewQuestions": [
+   {"question": "Quick commerce apps deliver milk in 10 minutes. Why would anyone keep a Country Delight subscription?", "hint": "Compare planned vs urgent needs. Talk about no delivery fee, before-7 am drop, purity and habit. Suggest how to defend with bundling and quality proof."},
+   {"question": "How would you reduce subscription churn?", "hint": "Segment why people leave (price, quality, missed drops, moving). Pick the biggest, propose a fix, and track 30 and 90 day retention."},
+   {"question": "Country Delight wants to enter a new city. How would you decide which one and how to launch?", "hint": "Look at income, milk prices, apartment density and supply. Launch in dense societies first to build route density."},
+   {"question": "What should the north star metric be?", "hint": "Pick on-time complete morning deliveries or active subscribed homes. Break into acquisition, reliability, quality and basket."},
+   {"question": "Design a feature to increase add-on purchases.", "hint": "Use morning routines: suggest bread or eggs based on history, a smart reminder at night, and bundles. Measure add-on items per home."}
+  ],
+  "glossary": [
+   {"term": "subscription", "meaning": "A standing order that repeats automatically until the customer changes or stops it."},
+   {"term": "prepaid wallet", "meaning": "Money the customer loads in advance, from which each purchase is deducted."},
+   {"term": "route density", "meaning": "How many customers are on the same delivery route; more customers mean lower cost per delivery."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "quick commerce", "meaning": "Apps like Blinkit and Zepto that deliver everyday items in 10 to 30 minutes."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."},
+   {"term": "churn", "meaning": "The share of customers who stop using a product in a period."},
+   {"term": "IPO", "meaning": "Initial public offering: when a company first sells shares on the stock market."},
+   {"term": "adulteration", "meaning": "Mixing cheaper or unsafe things, like water or chemicals, into food."}
+  ],
+  "assumptions": [
+   "FY25 and FY26 revenue are weak estimates; audited figures were not found in our search.",
+   "The valuation near $1.3 billion is from 2025 media reports and is not confirmed.",
+   "Per-home economics and delivery cost per drop are our estimates, not company data.",
+   "Milk prices are approximate and vary by city and product."
+  ]
+ }
+}

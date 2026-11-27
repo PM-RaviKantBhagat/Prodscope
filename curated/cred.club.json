@@ -1,0 +1,554 @@
+{
+  "company": "CRED",
+  "domain": "cred.club",
+  "website": "https://cred.club",
+  "sources": [
+    "https://entrackr.com/news/cred-reports-rs-2735-cr-revenue-in-fy25-operating-losses-fall-51-11058243",
+    "https://www.theweek.in/wire-updates/business/2026/01/30/cred-narrows-operating-loss-to-rs-298-cr-in-fy25.html",
+    "https://inc42.com/features/cred-after-kunal-shah-can-the-walled-garden-business-model-pay-for-itself/",
+    "https://www.newsbytesapp.com/news/business/cred-raises-72-million-at-364b-valuation-fy25-results-show-profitability-path/tldr",
+    "https://www.freepressjournal.in/business/cred-users-left-high-and-dry-as-fintech-company-cancels-jackpot-promising-macbook-ipad-airpods-due-to-technical-glitch",
+    "https://gocredit.money/news/cred-perks-vs-reality-are-you-really-saving-20260731"
+  ],
+  "report": {
+    "company": "CRED",
+    "tagline": "A members-only app for people with good credit scores that rewards them for paying credit card bills, then sells them loans, insurance and shopping.",
+    "category": "Money app / rewards",
+    "simpleSummary": "CRED is an app where you pay your credit card bills and get reward coins for it. It only lets in people with a good credit score, so it feels like a club. Once you are in, it offers you quick loans, UPI payments, car insurance, FASTag and a shop with discounts. CRED makes most of its money from those extra services, not from bill payments.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, FY25",
+        "value": "₹2,735 crore",
+        "note": "Company filings reported by Entrackr and PTI, January 2026. Up about 16% from ₹2,397 crore in FY24."
+      },
+      {
+        "label": "Operating loss, FY25",
+        "value": "₹298 crore",
+        "note": "PTI via The Week, January 2026. Down 51% from ₹609 crore in FY24. CRED says it has had its first profitable quarter, figures not shared."
+      },
+      {
+        "label": "Members",
+        "value": "17 million+",
+        "note": "Company figure cited by Inc42, 2026. About 1.26 crore are monthly transacting users."
+      },
+      {
+        "label": "Loans managed (CRED Cash and partners)",
+        "value": "Above ₹24,000 crore",
+        "note": "Inc42, June 2026. Loans are given by partner banks and NBFCs, CRED owns about 23% of lender Newtap Finance."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $4.5 billion (2026)",
+        "note": "Inc42 reports a $900 million Meta investment in June 2026 at this value. In 2025 CRED raised $72 million at about $3.6 billion, down from a $6.4 billion peak in 2022."
+      },
+      {
+        "label": "Average UPI payment",
+        "value": "About ₹3,881",
+        "note": "NPCI data for June 2026 cited by Inc42. PhonePe's average is about ₹1,354, showing CRED users spend bigger."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "CRED lets people pay credit card bills, rent, utility bills and shop owners through one app, and gives coins and cashback for doing it. It only accepts users above a credit score cut-off (it started at 750). It then earns money by selling these trusted, high-spending users loans, insurance, products and ads from brands.",
+      "howItWorks": [
+        "You sign up with your phone number, CRED checks your credit score, and you add your credit cards.",
+        "CRED reads card statements, reminds you of due dates and lets you pay bills via UPI or net banking for free.",
+        "Every payment earns CRED coins, which you spend on rewards, jackpots, cashback or discounts in CRED Store.",
+        "Inside the same app you see offers for CRED Cash loans, CRED Garage (car insurance, FASTag, challans), UPI scan-and-pay, travel and investing via Kuvera.",
+        "Brands pay CRED to show deals to its members, and lenders pay CRED for each loan it sources."
+      ],
+      "valueProposition": "For the user: one clean app to never miss a card bill, with rewards that feel like a premium club. For brands and lenders: a direct line to India's most creditworthy and highest-spending app users."
+    },
+    "personas": [
+      {
+        "name": "Metro salaried professional with 3 cards",
+        "description": "A 29-year-old in Bengaluru earning ₹25 lakh a year, using three credit cards for points.",
+        "goals": [
+          "Never miss a due date or pay late fees",
+          "Track all cards in one place",
+          "Get some extra value from every payment"
+        ],
+        "frustrations": [
+          "Coins feel worth very little",
+          "Too many loan and shopping pop-ups",
+          "Card statements sometimes do not sync"
+        ]
+      },
+      {
+        "name": "Car owner who wants things handled",
+        "description": "A 38-year-old manager in Pune with a car and a busy job.",
+        "goals": [
+          "Renew car insurance quickly at a fair price",
+          "Recharge FASTag and pay challans without hassle",
+          "Keep vehicle papers in one place"
+        ],
+        "frustrations": [
+          "Insurance claims still go through the insurer, not CRED",
+          "Comparing prices across apps takes time"
+        ]
+      },
+      {
+        "name": "Young earner who needs a quick loan",
+        "description": "A 26-year-old with a good score who needs ₹2 lakh for a wedding or a move.",
+        "goals": [
+          "Get money in minutes without bank visits",
+          "Know the interest and EMI upfront"
+        ],
+        "frustrations": [
+          "Interest rates shown can be higher than expected",
+          "Worries about over-borrowing from an app that keeps pushing loans"
+        ]
+      },
+      {
+        "name": "Rent payer chasing card points",
+        "description": "A tenant who pays ₹30,000 rent a month and wants card rewards on it.",
+        "goals": [
+          "Pay rent by credit card to earn points and get 45 days of free credit"
+        ],
+        "frustrations": [
+          "Banks now charge fees or give no points on rent payments",
+          "CRED's own fee on rent payments"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Missing a credit card due date leads to late fees and a lower credit score.",
+        "howSolved": "CRED reads statements, sends reminders and lets you pay in a few taps.",
+        "severity": "high"
+      },
+      {
+        "pain": "Managing several cards across different bank apps is messy.",
+        "howSolved": "All cards, dues and spends are shown in one place.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Bank loans take days and paperwork.",
+        "howSolved": "CRED Cash shows a pre-approved limit and pays money to your account in minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Car insurance, FASTag and challans are spread across many sites.",
+        "howSolved": "CRED Garage puts them in one place with reminders.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Hidden charges and fraud worries on card spends.",
+        "howSolved": "CRED flags hidden charges and duplicate fees on statements.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Paying bills feels like a chore with no reward.",
+        "howSolved": "Coins, jackpots and cashback make paying bills a small reward moment.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Credit card bill payment",
+        "whatItDoes": "Pay any card bill for free, with reminders and statement analysis.",
+        "whyItMatters": "This is the hook. It brings trusted users back every month at no cost to them."
+      },
+      {
+        "feature": "CRED coins and rewards",
+        "whatItDoes": "Gives coins on payments that unlock cashback, jackpots and brand deals.",
+        "whyItMatters": "Keeps users opening the app, and gives brands a place to pay for attention."
+      },
+      {
+        "feature": "CRED Cash",
+        "whatItDoes": "Instant personal loans from partner banks and NBFCs, with a pre-approved limit.",
+        "whyItMatters": "The biggest money maker. CRED earns a fee on every loan it sources."
+      },
+      {
+        "feature": "UPI and scan and pay",
+        "whatItDoes": "Pay any shop or person by UPI, including RuPay credit cards on UPI.",
+        "whyItMatters": "Moves CRED from a monthly app to a daily app, which builds habit."
+      },
+      {
+        "feature": "CRED Garage",
+        "whatItDoes": "Car insurance, FASTag, challans and vehicle records. About 7 million members use it.",
+        "whyItMatters": "Earns insurance commission and adds a reason to open the app beyond bills."
+      },
+      {
+        "feature": "CRED Store and brand offers",
+        "whatItDoes": "A curated shop of about 800 brands with member discounts.",
+        "whyItMatters": "Earns ads and brand marketing fees from high-spending users."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First bill payment",
+        "persona": "Metro salaried professional with 3 cards",
+        "steps": [
+          {
+            "step": "Hears about CRED",
+            "detail": "Sees a quirky IPL ad or gets a referral from a friend."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Enters phone number. CRED checks the credit score and accepts or waitlists."
+          },
+          {
+            "step": "Adds cards",
+            "detail": "Links cards and gives email access so CRED can read statements."
+          },
+          {
+            "step": "Pays the bill",
+            "detail": "Pays ₹42,000 via UPI from a bank account in a few taps."
+          },
+          {
+            "step": "Gets coins",
+            "detail": "Earns coins and sees a cashback or jackpot offer."
+          },
+          {
+            "step": "Sets reminders",
+            "detail": "Turns on due-date alerts, so the app is the default place to pay each month."
+          }
+        ]
+      },
+      {
+        "name": "Taking a CRED Cash loan",
+        "persona": "Young earner who needs a quick loan",
+        "steps": [
+          {
+            "step": "Sees limit",
+            "detail": "Home screen shows a pre-approved limit, for example ₹3 lakh."
+          },
+          {
+            "step": "Picks amount and tenure",
+            "detail": "Chooses ₹2 lakh over 24 months and sees EMI and interest rate."
+          },
+          {
+            "step": "Completes KYC",
+            "detail": "Confirms details already known to CRED, signs e-agreement."
+          },
+          {
+            "step": "Gets money",
+            "detail": "Partner lender sends money to the bank account in minutes."
+          },
+          {
+            "step": "Repays",
+            "detail": "EMIs are auto-debited. Paying on time keeps the limit open for later."
+          }
+        ]
+      },
+      {
+        "name": "Renewing car insurance in Garage",
+        "persona": "Car owner who wants things handled",
+        "steps": [
+          {
+            "step": "Gets reminder",
+            "detail": "CRED knows the car number and sends a renewal alert."
+          },
+          {
+            "step": "Compares quotes",
+            "detail": "Sees prices from insurers like ICICI Lombard, Go Digit and Acko."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays by card or UPI and earns coins."
+          },
+          {
+            "step": "Stores policy",
+            "detail": "Policy and FASTag details sit in the Garage tab for later."
+          },
+          {
+            "step": "Comes back",
+            "detail": "Returns for FASTag top-ups and challan checks."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "CRED gives bill payment away for free to attract people with good credit, then makes money by selling them loans, insurance, products and brand offers. Lending is the largest stream.",
+      "revenueStreams": [
+        {
+          "stream": "Lending fees (CRED Cash and partners)",
+          "detail": "Partner banks and NBFCs pay CRED for loans it sources, and CRED's stake in Newtap Finance earns interest. Likely the biggest share of revenue."
+        },
+        {
+          "stream": "Brand and marketing fees",
+          "detail": "Brands pay to show offers, rewards and jackpots to CRED members."
+        },
+        {
+          "stream": "Commerce (CRED Store, travel)",
+          "detail": "Margin on products and bookings sold in the app."
+        },
+        {
+          "stream": "Insurance and Garage",
+          "detail": "Commission on car insurance and FASTag services sold through Garage."
+        },
+        {
+          "stream": "Payment fees",
+          "detail": "Small convenience fees on rent, education and some card payments, and fees from card networks and banks."
+        }
+      ],
+      "pricing": "Card bill payment via UPI or bank is free for members. Rent and some other payments by credit card carry a platform fee (often around 1% to 2%, varies). Loan rates are set by partner lenders and shown before you accept.",
+      "costDrivers": [
+        "Rewards, cashback and coin redemptions",
+        "Brand marketing, including big IPL campaigns",
+        "Engineering and design team salaries",
+        "Loan losses on its share of lending through default loss guarantee deals",
+        "Payment processing costs"
+      ],
+      "unitEconomics": "Take one member with a ₹2 lakh CRED Cash loan. If CRED earns about 2% to 3% as a sourcing fee and interest share, that is roughly ₹4,000 to ₹6,000 over the loan, more than years of free bill payments cost to serve. A member who only pays card bills and never borrows or shops earns CRED very little, maybe tens of rupees a year, while still getting rewards. So CRED's money depends on turning bill payers into borrowers and buyers, and on keeping loan defaults low since it shares some losses."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Big brand ads during IPL with celebrities in funny roles (Rahul Dravid's 'Indiranagar ka gunda' ad is famous)",
+        "Invite-only feel and referrals, which make joining feel like a status signal",
+        "Word of mouth among salaried, card-using professionals",
+        "New products like UPI and Garage pulling in users who need those services"
+      ],
+      "whatBringsUsersBack": [
+        "Monthly card bill due dates",
+        "Daily UPI payments",
+        "Coins, jackpots and limited-time offers",
+        "Pre-approved loan limit that sits ready on the home screen",
+        "FASTag top-ups and insurance renewals"
+      ],
+      "moat": "CRED's moat is its members: it holds a list of about 17 million of India's most creditworthy people, plus months of their card and payment data. That data lets it price loans better and lets brands reach rich users directly. A strong design-led brand is also hard to copy, though rivals can copy single features."
+    },
+    "competitors": [
+      {
+        "name": "PhonePe",
+        "positioning": "India's largest UPI app with bill payments, insurance and loans for the mass market.",
+        "howThisProductDiffers": "CRED targets fewer, richer users and earns more per user, PhonePe wins on volume."
+      },
+      {
+        "name": "Google Pay",
+        "positioning": "Simple UPI payments and bill pay backed by Google.",
+        "howThisProductDiffers": "CRED focuses on credit cards and premium rewards rather than plain payments."
+      },
+      {
+        "name": "Paytm",
+        "positioning": "Payments, loans and financial services for consumers and shops.",
+        "howThisProductDiffers": "CRED avoids small merchants and mass users, and keeps a premium brand."
+      },
+      {
+        "name": "Bank apps and card issuer apps (HDFC, Axis, SBI Card)",
+        "positioning": "Pay your own bank's card bill and get offers in the bank's app.",
+        "howThisProductDiffers": "CRED shows all cards from all banks in one place."
+      },
+      {
+        "name": "WhatsApp Pay",
+        "positioning": "UPI inside the chat app most Indians already use.",
+        "howThisProductDiffers": "WhatsApp passed CRED in UPI volume in June 2026, but CRED's payments are far bigger on average."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly transacting members (members who make at least one payment, loan repayment or purchase on CRED in a month)",
+      "why": "It shows members trust CRED with real money every month. Each extra active member is a chance to cross-sell loans and insurance, so value to users and to CRED move together."
+    },
+    "kpiTree": [
+      {
+        "metric": "New qualified members",
+        "description": "People above the credit score bar who join and add a card.",
+        "children": [
+          {
+            "metric": "Sign-up to card-added rate",
+            "description": "Share of sign-ups who link at least one card."
+          },
+          {
+            "metric": "Referral invites sent and accepted",
+            "description": "Members bringing friends, the cheapest way to grow."
+          },
+          {
+            "metric": "Cost per new member from ads",
+            "description": "How much CRED spends to win each member, its CAC."
+          }
+        ]
+      },
+      {
+        "metric": "Payment frequency",
+        "description": "How often members pay through CRED each month (14.4 times in FY25).",
+        "children": [
+          {
+            "metric": "UPI payments per member",
+            "description": "Daily scan-and-pay use, which builds habit."
+          },
+          {
+            "metric": "Card bill share",
+            "description": "Share of a member's card bills paid on CRED rather than bank apps."
+          }
+        ]
+      },
+      {
+        "metric": "Products per member",
+        "description": "45% of active members use three or more CRED products.",
+        "children": [
+          {
+            "metric": "Loan uptake rate",
+            "description": "Share of eligible members who take a CRED Cash loan."
+          },
+          {
+            "metric": "Garage attach rate",
+            "description": "Share of members who add a vehicle and buy insurance or FASTag."
+          },
+          {
+            "metric": "Store purchases per member",
+            "description": "How often members buy brand products in CRED Store."
+          }
+        ]
+      },
+      {
+        "metric": "Member retention",
+        "description": "Share of members still transacting after 6 and 12 months.",
+        "children": [
+          {
+            "metric": "Reminder-to-payment rate",
+            "description": "Share of due-date alerts that lead to a payment on CRED."
+          },
+          {
+            "metric": "Reward redemption satisfaction",
+            "description": "Whether members feel coins were worth it."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Loan default rate on CRED-sourced loans (one of the guardrail metrics that must not rise as loan sales grow)",
+      "Complaints about pushy loan offers or hidden fees",
+      "Payment success rate",
+      "Reward cost as a share of revenue"
+    ],
+    "strengths": [
+      "Users are high-income and creditworthy, so each one is worth far more than an average UPI user",
+      "Strong, distinctive brand from memorable ads and clean design",
+      "Operating loss fell 51% in FY25 while revenue grew",
+      "Rich payment data helps price loans and target offers"
+    ],
+    "weaknesses": [
+      "Most members only pay bills and do not borrow or buy, so many earn CRED little",
+      "Too many products make the app feel crowded",
+      "Rewards have become less generous over time, which hurts the original hook",
+      "Depends on partner lenders and shares some loan losses"
+    ],
+    "risks": [
+      "RBI rules on digital lending, default loss guarantees and card payments can cut income",
+      "Banks stopping rewards on rent and some card payments reduces a reason to use CRED",
+      "WhatsApp, PhonePe and bank apps copying card bill pay features",
+      "Leadership change after founder Kunal Shah stepped away in 2026",
+      "A rise in loan defaults during a slowdown"
+    ],
+    "userComplaints": [
+      "Coins are worth very little and rewards feel like lotteries",
+      "A jackpot promising MacBooks, iPads and AirPods was cancelled over a 'technical glitch', angering users",
+      "The app pushes loans and offers too much",
+      "Card bill payments sometimes take time to reflect with the bank",
+      "Hard to reach a human in customer support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Show the rupee value of coins and rewards before redemption",
+        "problem": "Users feel coins are worthless and rewards are unclear.",
+        "expectedImpact": "More trust in rewards and more redemptions that feel fair.",
+        "metricToTrack": "Reward redemption satisfaction and monthly transacting members",
+        "effort": "low"
+      },
+      {
+        "idea": "A 'quiet mode' that limits loan and shopping prompts to one a week",
+        "problem": "Users complain the app is pushy and crowded.",
+        "expectedImpact": "Better retention among members who only want bill pay, without killing loan sales.",
+        "metricToTrack": "Retention of non-borrowing members and loan uptake rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Card optimiser that tells you which card to use for each spend",
+        "problem": "People with 3 or more cards miss rewards by using the wrong one.",
+        "expectedImpact": "Daily value beyond bill day, more UPI and card payments via CRED.",
+        "metricToTrack": "Payment frequency per member",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear loan cost summary with total interest in rupees and a comparison to the member's card interest",
+        "problem": "Borrowers worry about hidden costs and over-borrowing.",
+        "expectedImpact": "Higher trust, better loan conversion, fewer complaints.",
+        "metricToTrack": "Loan uptake rate and loan-related complaints",
+        "effort": "low"
+      },
+      {
+        "idea": "Garage claim helper that tracks insurance claims with the insurer",
+        "problem": "After buying insurance, claims are a pain handled outside CRED.",
+        "expectedImpact": "More renewals through CRED and higher Garage retention.",
+        "metricToTrack": "Garage insurance renewal rate",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A free product can be a filter: CRED used credit card bill pay to collect only trusted, rich users, then sold them other things.",
+      "Brand can be a growth channel, but rewards that shrink over time slowly break the promise that brought users in.",
+      "Who your users are can matter more than how many: CRED's average UPI payment is almost three times PhonePe's.",
+      "Adding many products raises revenue per user, but every new tab makes the core job harder to find."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "CRED gives bill payments for free. How does it make money, and is that model sustainable?",
+        "hint": "Explain the funnel: free hook, trusted users, then cross-sell loans, insurance and ads. Discuss loan risk, rule changes and how many members actually buy."
+      },
+      {
+        "question": "How would you increase loan uptake on CRED without hurting trust?",
+        "hint": "Segment members by need, show clear costs, time offers to life moments, and set guardrails like default rate and complaints."
+      },
+      {
+        "question": "Should CRED drop its credit score bar to grow faster?",
+        "hint": "Weigh more users against brand, loan risk and what makes CRED special. Suggest a test with a separate tier or a cap."
+      },
+      {
+        "question": "What would be your north star metric for CRED and why?",
+        "hint": "Pick monthly transacting members or a value metric, explain why it beats total members or revenue, and break it into drivers."
+      },
+      {
+        "question": "WhatsApp just passed CRED in UPI volume. How should CRED respond?",
+        "hint": "Do not chase volume. Focus on high-value payments and credit card on UPI, and on rewards WhatsApp cannot match."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "NBFC",
+        "meaning": "Non-banking financial company, a lender licensed by RBI that is not a bank."
+      },
+      {
+        "term": "UPI",
+        "meaning": "India's free instant payment system that works across apps and banks."
+      },
+      {
+        "term": "Default loss guarantee",
+        "meaning": "A deal where a partner agrees to cover part of a lender's losses if borrowers do not repay."
+      },
+      {
+        "term": "CAC",
+        "meaning": "Customer acquisition cost, how much a company spends to win one new user."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep using the product over time."
+      },
+      {
+        "term": "Cross-sell",
+        "meaning": "Selling an extra product to someone who already uses one of yours."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users are getting value from a product."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard for rivals to copy."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while a team pushes its main goal."
+      },
+      {
+        "term": "Operating loss",
+        "meaning": "The money a company loses from running its business, before one-off items."
+      }
+    ],
+    "assumptions": [
+      "Lending being the largest revenue stream is inferred from news coverage; CRED does not publish a full revenue split.",
+      "The ₹4,000 to ₹6,000 earnings on a ₹2 lakh loan is our rough estimate from typical Indian loan sourcing fees.",
+      "The Meta investment and Kunal Shah's move come from a single Inc42 report in 2026.",
+      "Rent payment fee range of 1% to 2% is approximate and changes often."
+    ]
+  }
+}

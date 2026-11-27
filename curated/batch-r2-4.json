@@ -1,0 +1,106 @@
+[
+ {
+  "company": "Cazoo",
+  "website": "cazoo.co.uk",
+  "domain": "cazoo.co.uk",
+  "market": "UK",
+  "category": "Used cars (failed)",
+  "why": "Fast growth then collapse; compare with Spinny."
+ },
+ {
+  "company": "MakeMyTrip",
+  "website": "makemytrip.com",
+  "domain": "makemytrip.com",
+  "market": "India",
+  "category": "Travel",
+  "why": "online travel agency with trains, buses and hotels; trust, price comparison and post-booking experience."
+ },
+ {
+  "company": "redBus",
+  "website": "redbus.in",
+  "domain": "redbus.in",
+  "market": "India",
+  "category": "Bus ticketing",
+  "why": "Fragmented-supply app that combines many sellers; classic first-mile marketplace."
+ },
+ {
+  "company": "Airbnb",
+  "website": "airbnb.com",
+  "domain": "airbnb.com",
+  "market": "US · global",
+  "category": "Travel marketplace",
+  "why": "Trust design, the 2025 'services and experiences' relaunch and growing both hosts and guests."
+ },
+ {
+  "company": "Booking.com",
+  "website": "booking.com",
+  "domain": "booking.com",
+  "market": "Netherlands · global",
+  "category": "Travel",
+  "why": "Experimentation culture (thousands of A/B tests); compare with MakeMyTrip."
+ },
+ {
+  "company": "Agoda",
+  "website": "agoda.com",
+  "domain": "agoda.com",
+  "market": "Singapore · global",
+  "category": "Travel",
+  "why": "Asia-focused online travel agency, big in India; compare with Booking.com."
+ },
+ {
+  "company": "Skyscanner",
+  "website": "skyscanner.net",
+  "domain": "skyscanner.net",
+  "market": "UK · global",
+  "category": "Travel search",
+  "why": "Price-comparison model; competing with Google Flights."
+ },
+ {
+  "company": "Trainline",
+  "website": "thetrainline.com",
+  "domain": "thetrainline.com",
+  "market": "UK · Europe",
+  "category": "Travel",
+  "why": "Rail ticketing UX, split-ticketing feature and the threat from government rail apps."
+ },
+ {
+  "company": "Citymapper",
+  "website": "citymapper.com",
+  "domain": "citymapper.com",
+  "market": "UK · global",
+  "category": "Maps / transit",
+  "why": "Best-in-class transit UX; a hard business model to build for a free utility."
+ },
+ {
+  "company": "Instagram",
+  "website": "instagram.com",
+  "domain": "instagram.com",
+  "market": "US · global",
+  "category": "Social media",
+  "why": "Copying features well (Stories, Reels); Threads launch; teen safety changes."
+ },
+ {
+  "company": "Threads",
+  "website": "threads.com",
+  "domain": "threads.com",
+  "market": "US · global",
+  "category": "Social media",
+  "why": "Launched on Instagram's graph; empty-app problem solved by distribution."
+ },
+ {
+  "company": "X (Twitter)",
+  "website": "x.com",
+  "domain": "x.com",
+  "market": "US · global",
+  "category": "Social media",
+  "why": "Product changes under new ownership: verification, Community Notes and Grok."
+ },
+ {
+  "company": "Snapchat",
+  "website": "snapchat.com",
+  "domain": "snapchat.com",
+  "market": "US · global",
+  "category": "Social / camera",
+  "why": "Camera-first, Snapchat+ subscription, camera filters; strong teen user base in UK and India."
+ }
+]

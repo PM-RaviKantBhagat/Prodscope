@@ -1,0 +1,403 @@
+{
+  "company": "X (Twitter)",
+  "domain": "x.com",
+  "website": "https://x.com",
+  "sources": [
+    "https://www.socialmediatoday.com/news/spacex-filing-provides-insight-into-x-grok-and-xai/820945/",
+    "https://techcrunch.com/2025/12/05/in-its-first-dsa-penalty-eu-fines-x-e120m-for-deceptive-blue-check-verification-system",
+    "https://digital-strategy.ec.europa.eu/en/news/commission-fines-x-eu120-million-under-digital-services-act",
+    "https://www.techcrunch.com/2026/01/18/threads-edges-out-x-in-daily-mobile-users-new-data-shows/",
+    "https://europeanbusinessmagazine.com/how-x-actually-makes-money/",
+    "https://www.adnews.com.au/news/advertisers-are-spending-again-on-x-but-not-as-much-as-when-it-was-twitter"
+  ],
+  "report": {
+    "company": "X (Twitter)",
+    "tagline": "The real-time public conversation app formerly called Twitter, now owned by SpaceX through xAI and built around Grok AI.",
+    "category": "Social media",
+    "simpleSummary": "X is the app once called Twitter, where people post short messages, follow news as it happens and argue in public. Elon Musk bought it in 2022 for $44 billion, renamed it X, cut most staff, and changed how it works: blue ticks are now paid, fact-checks come from users through Community Notes, and the Grok AI chatbot is built in. It makes money from ads and subscriptions, but ad income has fallen sharply since Twitter days.",
+    "keyNumbers": [
+      {
+        "label": "Monthly users",
+        "value": "About 550 million (March 2026)",
+        "note": "SpaceX S-1 filing, May 2026, via Social Media Today. Below the 600 million X had claimed."
+      },
+      {
+        "label": "Ad revenue, 2025",
+        "value": "$1.8 billion",
+        "note": "SpaceX S-1 filing. Twitter's total revenue in 2021 was about $5 billion, mostly ads."
+      },
+      {
+        "label": "Paid X subscribers",
+        "value": "About 4.4 million (Premium and Premium+)",
+        "note": "SpaceX S-1. Under 1% of users pay."
+      },
+      {
+        "label": "Grok monthly users",
+        "value": "About 117 million",
+        "note": "SpaceX S-1. About 21% of X's user base."
+      },
+      {
+        "label": "Posts per day",
+        "value": "About 350 million",
+        "note": "SpaceX S-1, down from 500 million reported in 2023."
+      },
+      {
+        "label": "EU fine",
+        "value": "€120 million (December 2025)",
+        "note": "First Digital Services Act fine, for deceptive blue check design, ad transparency and data access. European Commission."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "X is a public social network for short posts, news, live events and debate. Users follow accounts, see a For You feed ranked by AI, and can watch video, join Spaces audio chats and ask Grok questions. Since March 2025 X has been part of xAI, and since early 2026 part of SpaceX.",
+      "howItWorks": [
+        "Users post text, images and video, and reply, repost and like.",
+        "The For You feed ranks posts using an algorithm that now leans on Grok AI; a Following feed shows only accounts you follow.",
+        "Verification blue ticks come with X Premium, a paid subscription, rather than identity checks for public figures.",
+        "Community Notes lets users add context to misleading posts, shown when people with different views agree.",
+        "X earns from ads, subscriptions and data licensing, and creators earn a share of ad revenue on their replies."
+      ],
+      "valueProposition": "The fastest place to see what is happening right now and hear directly from public figures, with an AI assistant built in."
+    },
+    "personas": [
+      {
+        "name": "News junkie",
+        "description": "A journalist or finance worker who follows live events.",
+        "goals": [
+          "Breaking news fast",
+          "Hear from experts directly"
+        ],
+        "frustrations": [
+          "Bots and spam replies",
+          "Hard to tell who is real"
+        ]
+      },
+      {
+        "name": "Indian political and cricket fan",
+        "description": "A 30-year-old following politicians and live cricket.",
+        "goals": [
+          "Real-time takes",
+          "Join trending debates"
+        ],
+        "frustrations": [
+          "Toxic replies",
+          "Paid ticks pushing low-quality replies to the top"
+        ]
+      },
+      {
+        "name": "Creator earning on X",
+        "description": "A commentator who earns from ad revenue sharing.",
+        "goals": [
+          "More impressions",
+          "Bigger payouts"
+        ],
+        "frustrations": [
+          "Payouts change without warning",
+          "Reach drops for links"
+        ]
+      },
+      {
+        "name": "Brand advertiser",
+        "description": "A marketing head deciding whether to spend on X.",
+        "goals": [
+          "Reach and brand safety"
+        ],
+        "frustrations": [
+          "Ads next to harmful content",
+          "Weaker targeting than Meta"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Wanting news faster than TV or websites.",
+        "howSolved": "Real-time posts from people at the scene and officials.",
+        "severity": "high"
+      },
+      {
+        "pain": "Misleading posts spread quickly.",
+        "howSolved": "Community Notes adds crowd-sourced context.",
+        "severity": "high"
+      },
+      {
+        "pain": "Wanting answers about a trending topic.",
+        "howSolved": "Ask Grok to explain a post or summarise news.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Creators want to earn from posting.",
+        "howSolved": "Creator ad revenue sharing and subscriptions.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Timeline and For You feed",
+        "whatItDoes": "Shows posts from followed and recommended accounts.",
+        "whyItMatters": "Core experience; ranking decides what millions see."
+      },
+      {
+        "feature": "X Premium and paid verification",
+        "whatItDoes": "Paid tiers give a blue tick, reply boost, longer posts and fewer ads.",
+        "whyItMatters": "New revenue, but the EU fined X €120 million for making the tick misleading."
+      },
+      {
+        "feature": "Community Notes",
+        "whatItDoes": "Users write notes on posts; notes appear when raters with different views agree.",
+        "whyItMatters": "Scales fact-checking cheaply; Meta later copied the idea."
+      },
+      {
+        "feature": "Grok",
+        "whatItDoes": "xAI's chatbot inside X, used by about 117 million people monthly.",
+        "whyItMatters": "A reason to stay in X and to pay for subscriptions, but also a source of scandals like image deepfakes."
+      },
+      {
+        "feature": "Creator revenue sharing",
+        "whatItDoes": "Pays Premium creators a share of ad revenue from replies to their posts.",
+        "whyItMatters": "Keeps posters active, but can reward rage bait."
+      },
+      {
+        "feature": "X Money (beta)",
+        "whatItDoes": "Payments inside X, in beta since November 2025.",
+        "whyItMatters": "Part of the 'everything app' plan; delayed by regulators."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Following a breaking story",
+        "persona": "News junkie",
+        "steps": [
+          {"step": "Sees trend", "detail": "Notices a trending topic."},
+          {"step": "Reads posts", "detail": "Scrolls live posts and videos."},
+          {"step": "Checks notes", "detail": "Sees a Community Note on a misleading video."},
+          {"step": "Asks Grok", "detail": "Asks Grok to summarise what is known."},
+          {"step": "Shares", "detail": "Reposts with a comment."}
+        ]
+      },
+      {
+        "name": "Upgrading to Premium",
+        "persona": "Creator earning on X",
+        "steps": [
+          {"step": "Sees prompt", "detail": "App suggests Premium to boost replies."},
+          {"step": "Subscribes", "detail": "Pays monthly in the app."},
+          {"step": "Gets tick", "detail": "Blue tick appears."},
+          {"step": "Enrols in revenue sharing", "detail": "Joins creator programme."},
+          {"step": "Posts more", "detail": "Tracks impressions and payouts."},
+          {"step": "Gets paid", "detail": "Receives a payout every two weeks if eligible."}
+        ]
+      },
+      {
+        "name": "Advertiser test campaign",
+        "persona": "Brand advertiser",
+        "steps": [
+          {"step": "Reviews safety", "detail": "Checks brand safety controls."},
+          {"step": "Sets campaign", "detail": "Picks audience and budget."},
+          {"step": "Runs ads", "detail": "Ads appear in timeline."},
+          {"step": "Monitors", "detail": "Checks for ads next to harmful content."},
+          {"step": "Decides", "detail": "Increases or pauses spend."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "X earns most of its money from ads, plus subscriptions and data licensing. Ad revenue fell from Twitter's roughly $4.5 billion a year to $1.8 billion in 2025 as many big brands left. Subscriptions are growing but small.",
+      "revenueStreams": [
+        {"stream": "Advertising", "detail": "Timeline and video ads; $1.8 billion in 2025."},
+        {"stream": "X Premium subscriptions", "detail": "About 4.4 million paid subscribers; X and Grok subscriptions grew by $365 million in 2025."},
+        {"stream": "Data and API access", "detail": "Companies pay for access to X posts and the API."},
+        {"stream": "Grok and xAI (group)", "detail": "Grok subscriptions and xAI revenue sit in the wider group."}
+      ],
+      "pricing": "Free for users. X Premium has Basic, Premium and Premium+ tiers; in India Premium is roughly ₹400 to ₹600 a month, varying by platform and changes.",
+      "costDrivers": [
+        "Servers and AI, now shared with xAI",
+        "Engineering staff, much smaller since 2022 layoffs",
+        "Interest on debt from the 2022 buyout",
+        "Creator payouts",
+        "Legal and regulatory fines"
+      ],
+      "unitEconomics": "Rough estimate. $1.8 billion of ad revenue spread over about 550 million monthly users is about $3.30 per user a year, far below Meta. Each Premium subscriber may pay about $50 to $100 a year, but only about 4.4 million pay. X cut costs by laying off most staff, so it may run close to break-even before debt costs, but it is earning much less per user than Twitter once did."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Famous people, including Musk himself, posting first on X",
+        "Embedded posts on news sites and TV",
+        "Grok drawing AI users",
+        "Live events and sports"
+      ],
+      "whatBringsUsersBack": [
+        "Breaking news and trends",
+        "Notifications and replies",
+        "Following celebrities and politicians",
+        "Grok questions"
+      ],
+      "moat": "X still has the habit of being 'where news breaks', with many politicians, journalists and celebrities posting there first. That network is hard to move. But Threads now has more mobile daily users, so the moat is shrinking."
+    },
+    "competitors": [
+      {
+        "name": "Threads",
+        "positioning": "Meta's text app built on Instagram.",
+        "howThisProductDiffers": "X leads on web, US and news; Threads leads on global mobile daily users."
+      },
+      {
+        "name": "Bluesky",
+        "positioning": "Decentralised alternative with former Twitter users.",
+        "howThisProductDiffers": "X is far bigger; Bluesky is calmer and has custom feeds."
+      },
+      {
+        "name": "Instagram, YouTube and Reddit",
+        "positioning": "Other places for news, video and discussion.",
+        "howThisProductDiffers": "X is fastest for real-time text."
+      },
+      {
+        "name": "ChatGPT and Gemini",
+        "positioning": "AI assistants competing with Grok.",
+        "howThisProductDiffers": "Grok has live X data; rivals have more users."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily active users who read or join a real-time conversation",
+      "why": "X's value is real-time conversation. This north star tracks people who come to see what is happening and take part, which drives ad views and subscriptions."
+    },
+    "kpiTree": [
+      {
+        "metric": "Daily active users",
+        "description": "People using X each day.",
+        "children": [
+          {"metric": "New user retention", "description": "New users active after 30 days."},
+          {"metric": "Web and app users", "description": "Daily users by platform."},
+          {"metric": "Lapsed user return", "description": "Old users coming back."}
+        ]
+      },
+      {
+        "metric": "Conversation health",
+        "description": "Quality of discussions.",
+        "children": [
+          {"metric": "Community Notes coverage", "description": "Share of viral misleading posts with a note."},
+          {"metric": "Bot and spam rate", "description": "Fake accounts in replies."},
+          {"metric": "Block and mute rate", "description": "Signals of bad experiences."}
+        ]
+      },
+      {
+        "metric": "Posting activity",
+        "description": "People creating content.",
+        "children": [
+          {"metric": "Posts per day", "description": "Now about 350 million."},
+          {"metric": "Creators active", "description": "Creators posting weekly."},
+          {"metric": "Grok-assisted posts", "description": "Posts using Grok."}
+        ]
+      },
+      {
+        "metric": "Revenue per user",
+        "description": "Money from ads and subscriptions.",
+        "children": [
+          {"metric": "Advertiser count", "description": "Active advertisers."},
+          {"metric": "Premium conversion", "description": "Share of users paying."},
+          {"metric": "Ad price per thousand views", "description": "What advertisers pay."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Brand safety incidents",
+      "Regulatory fines",
+      "Bot and spam rate",
+      "Daily active users"
+    ],
+    "strengths": [
+      "Still the place where much news breaks first",
+      "Community Notes is a widely praised idea",
+      "Grok gives a built-in AI with live data",
+      "Much lower costs after cuts"
+    ],
+    "weaknesses": [
+      "Ad revenue down to $1.8 billion from Twitter's much higher level",
+      "Paid ticks reduced trust in verification",
+      "Bots and spam",
+      "Product decisions depend heavily on one owner"
+    ],
+    "risks": [
+      "EU Digital Services Act fines and other regulation",
+      "Grok scandals over deepfake images, investigated in the UK, EU, India and elsewhere",
+      "Threads and Bluesky taking users",
+      "Advertisers avoiding the platform"
+    ],
+    "userComplaints": [
+      "Bots and spam replies",
+      "Paid accounts pushed to the top of replies",
+      "More hate and toxic content",
+      "Algorithm showing posts users did not ask for",
+      "Link posts get less reach"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Separate identity verification badge from paid Premium",
+        "problem": "Users and the EU say paid ticks are misleading.",
+        "expectedImpact": "Restores trust and reduces fines.",
+        "metricToTrack": "Impostor reports",
+        "effort": "medium"
+      },
+      {
+        "idea": "Rank replies by quality, not just Premium",
+        "problem": "Low-quality paid replies crowd out real ones.",
+        "expectedImpact": "Better conversations.",
+        "metricToTrack": "Reply hide and block rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Faster Community Notes on viral posts using AI drafts reviewed by humans",
+        "problem": "Notes often come too late.",
+        "expectedImpact": "Less misinformation spread.",
+        "metricToTrack": "Time to first note on viral posts",
+        "effort": "medium"
+      },
+      {
+        "idea": "Brand safety guarantees with third-party verification",
+        "problem": "Advertisers left.",
+        "expectedImpact": "Higher ad revenue.",
+        "metricToTrack": "Advertiser count and spend",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "Trust is part of the product. Selling verification made the blue tick less useful.",
+      "Cost cuts can keep a company alive, but revenue depends on users and advertisers trusting the platform.",
+      "Crowd-sourced ideas like Community Notes can scale where paid teams cannot.",
+      "Adding AI like Grok brings new users but also new risks."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Was making verification paid a good product decision?",
+        "hint": "Weigh subscription revenue against trust, impersonation and EU fines. Suggest a better design."
+      },
+      {
+        "question": "How would you bring advertisers back to X?",
+        "hint": "Find why they left, propose safety tools and measurement, track advertiser count."
+      },
+      {
+        "question": "How would you measure if Community Notes works?",
+        "hint": "Look at spread of noted posts, time to note, and agreement across viewpoints."
+      },
+      {
+        "question": "Threads passed X in mobile daily users. What should X do?",
+        "hint": "Segment users, defend news and web strengths, improve new user retention."
+      },
+      {
+        "question": "What is X's north star?",
+        "hint": "Daily users in real-time conversation, broken into users, health, posting and revenue."
+      }
+    ],
+    "glossary": [
+      {"term": "Monthly users", "meaning": "People who use the app at least once a month."},
+      {"term": "Community Notes", "meaning": "User-written notes adding context to posts, shown when people with different views agree."},
+      {"term": "Digital Services Act", "meaning": "An EU law with rules for big online platforms on safety and transparency."},
+      {"term": "Brand safety", "meaning": "Making sure ads do not appear next to harmful content."},
+      {"term": "Conversion", "meaning": "The share of users who take an action, like paying."},
+      {"term": "Retention", "meaning": "How many users keep using the app over time."},
+      {"term": "Rage bait", "meaning": "Posts made to anger people so they reply and share."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that users are getting value."},
+      {"term": "S-1", "meaning": "The document a US company files before listing on the stock market."}
+    ],
+    "assumptions": [
+      "Twitter's 2021 revenue of about $5 billion is from widely reported earlier filings.",
+      "X Premium prices in India vary and are approximate.",
+      "Break-even estimate is inferred from cost cuts and ad revenue, not from reported profit."
+    ]
+  }
+}

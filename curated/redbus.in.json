@@ -1,0 +1,435 @@
+{
+  "company": "redBus",
+  "domain": "redbus.in",
+  "website": "https://www.redbus.in",
+  "sources": [
+    "https://www.autocarpro.in/news/intercity-bus-passenger-volumes-rise-24-percent-in-second-half-of-fy2026-redbus-report-132718",
+    "https://www.autocarpro.in/news/indias-intercity-bus-industry-records-25-growth-with-140-million-passengers-129833",
+    "https://finance.yahoo.com/markets/stocks/articles/makemytrip-ltd-mmyt-q4-2026-010341301.html",
+    "https://www.sec.gov/Archives/edgar/data/0001495153/000119312526318134/mmyt-20260331.htm",
+    "https://kr-asia.com/indias-redbus-honks-further-into-southeast-asia-to-drive-international-expansion",
+    "https://www.trustpilot.com/review/redbus.in?page=10",
+    "https://openthemagazine.com/business/full-seats-thin-margins-intrcitys-fight-for-profitable-growth"
+  ],
+  "report": {
+    "company": "redBus",
+    "tagline": "India's largest app for booking intercity bus tickets from thousands of private bus operators.",
+    "category": "Bus ticketing",
+    "simpleSummary": "Before redBus, buying a bus ticket in India meant going to a travel agent's shop and hoping a seat was free. redBus puts thousands of private bus companies in one app, so you can see every bus from Bengaluru to Chennai, pick your seat, and pay by UPI. It does not own any buses. It earns a commission from the bus operator on each seat sold. It is owned by MakeMyTrip.",
+    "keyNumbers": [
+      {
+        "label": "Bus operators on the platform",
+        "value": "6,858 active private operators",
+        "note": "redBus India Bustrack report, October 2025 to March 2026, AutocarPro."
+      },
+      {
+        "label": "Passenger journeys tracked (6 months)",
+        "value": "147 million, up 24%",
+        "note": "Industry journeys measured by redBus Bustrack, Oct 2025 to Mar 2026. This is the wider market redBus sees, not only redBus sales."
+      },
+      {
+        "label": "Average seat price",
+        "value": "₹966",
+        "note": "Down 3% year on year. Bustrack report, H2 FY26."
+      },
+      {
+        "label": "Bus ticketing adjusted margin, Q4 FY26",
+        "value": "$41.1 million (about ₹350 crore)",
+        "note": "Revenue MakeMyTrip keeps from bus ticketing in the January to March 2026 quarter, up 17.1%. MakeMyTrip earnings call. Rupee conversion is rough."
+      },
+      {
+        "label": "Routes and towns",
+        "value": "878,394 routes, 12,551 towns",
+        "note": "Bustrack report, H2 FY26."
+      },
+      {
+        "label": "Bookings from smaller towns",
+        "value": "62% of journeys",
+        "note": "Share of redBus platform journeys from outside metro cities. Bustrack report."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "redBus is a marketplace for bus tickets. It lists seats from private bus operators and state transport buses, lets travellers compare and pick seats, and takes payment. It also sells train tickets (redRail) and runs in Southeast Asia and Latin America.",
+      "howItWorks": [
+        "Bus operators connect their seat inventory to redBus, often using redBus's own software for managing seats and routes.",
+        "A traveller searches a route and date, then filters by AC, sleeper, timing, price and ratings.",
+        "The traveller picks a seat from a live seat map, adds boarding and drop points, and pays.",
+        "redBus sends an m-ticket by SMS and WhatsApp, plus live bus tracking on the travel day.",
+        "redBus keeps a commission from the operator, roughly 10% to 12% of the fare, and handles cancellations and refunds."
+      ],
+      "valueProposition": "For travellers: every bus on your route in one place, with seat choice, ratings and tracking. For operators: more passengers and full buses without paying for agents and shops."
+    },
+    "personas": [
+      {
+        "name": "Student going home",
+        "description": "A 20-year-old in Hyderabad who takes an overnight sleeper bus to Vijayawada once a month.",
+        "goals": [
+          "Cheapest safe seat on a Friday night",
+          "Pay by UPI",
+          "Know where the bus is"
+        ],
+        "frustrations": [
+          "Weekend fares jump",
+          "Bus arrives late or boarding point changes"
+        ]
+      },
+      {
+        "name": "Migrant worker",
+        "description": "A factory worker in Pune travelling home to a small town for festivals.",
+        "goals": [
+          "Confirmed seat when trains are full",
+          "Simple app in his language"
+        ],
+        "frustrations": [
+          "Festival fares two or three times normal",
+          "Operator cancels at the last minute"
+        ]
+      },
+      {
+        "name": "Woman travelling alone",
+        "description": "A professional taking a night bus from Bengaluru to Goa.",
+        "goals": [
+          "Seat next to another woman",
+          "Trusted operator with good ratings",
+          "Share live location with family"
+        ],
+        "frustrations": [
+          "Not knowing who sits next to her",
+          "Rude staff or unsafe driving"
+        ]
+      },
+      {
+        "name": "Small bus operator",
+        "description": "Owner of 15 buses running between Chennai and Madurai.",
+        "goals": [
+          "Fill every seat, every night",
+          "Get paid fast",
+          "Spend less on agents"
+        ],
+        "frustrations": [
+          "Commission cuts into thin margins",
+          "Bad reviews from one bad trip"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Finding which buses run on a route meant visiting agents.",
+        "howSolved": "One search shows every operator, time and price on the route.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing if a bus is good or safe.",
+        "howSolved": "Ratings and reviews from past passengers, plus redBus Primo for top-rated buses.",
+        "severity": "high"
+      },
+      {
+        "pain": "Waiting at a dark roadside without knowing where the bus is.",
+        "howSolved": "Live bus tracking and boarding point alerts.",
+        "severity": "high"
+      },
+      {
+        "pain": "Picking a seat was not possible at agent shops.",
+        "howSolved": "Live seat map with sleeper, window and women-friendly seat choices.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Operators struggled to fill seats and track bookings.",
+        "howSolved": "Operator software for seat and route management connected to the marketplace.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Cancelling a ticket meant going back to the agent.",
+        "howSolved": "In-app cancellation and refunds by the operator's policy.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Seat map booking",
+        "whatItDoes": "Shows the real layout of the bus so travellers pick exact seats or berths.",
+        "whyItMatters": "Gives control, which was impossible with agents, and reduces disputes."
+      },
+      {
+        "feature": "Live bus tracking",
+        "whatItDoes": "Shows where the bus is on the map and sends alerts before boarding.",
+        "whyItMatters": "Fixes the biggest worry on travel day and cuts support calls."
+      },
+      {
+        "feature": "Ratings and redBus Primo",
+        "whatItDoes": "Passengers rate each trip, and Primo marks buses with high ratings and on-time records.",
+        "whyItMatters": "Builds trust across thousands of unknown operators and pushes operators to improve."
+      },
+      {
+        "feature": "Operator software",
+        "whatItDoes": "Tools for operators to manage seats, prices and routes.",
+        "whyItMatters": "Locks operators into redBus, which keeps supply on the platform."
+      },
+      {
+        "feature": "redRail train tickets",
+        "whatItDoes": "Books IRCTC train tickets inside the redBus app.",
+        "whyItMatters": "Keeps travellers in the app when they compare bus and train."
+      },
+      {
+        "feature": "Free cancellation and trip assurance add-ons",
+        "whatItDoes": "Paid add-ons that let travellers cancel with a bigger refund.",
+        "whyItMatters": "Reduces fear of booking early and earns fee income."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First bus booking",
+        "persona": "Student going home",
+        "steps": [
+          {"step": "Searches route", "detail": "Enters Hyderabad to Vijayawada for Friday night."},
+          {"step": "Filters", "detail": "Picks AC sleeper and departures after 9 pm."},
+          {"step": "Checks ratings", "detail": "Compares 4.2-star and 3.6-star operators."},
+          {"step": "Picks seat", "detail": "Chooses a lower berth on the seat map."},
+          {"step": "Selects boarding point", "detail": "Picks the stop nearest his hostel."},
+          {"step": "Pays", "detail": "Pays about ₹800 by UPI with a coupon."},
+          {"step": "Tracks bus", "detail": "Watches the bus approach on live tracking."}
+        ]
+      },
+      {
+        "name": "Operator cancels a trip",
+        "persona": "Migrant worker",
+        "steps": [
+          {"step": "Gets message", "detail": "Receives an SMS that the bus is cancelled."},
+          {"step": "Opens app", "detail": "Sees refund status and alternative buses."},
+          {"step": "Rebooks", "detail": "Books another bus, often at a higher festival price."},
+          {"step": "Waits for refund", "detail": "Refund for the cancelled ticket takes a few days."},
+          {"step": "Rates operator", "detail": "Leaves a low rating for the cancelled operator."}
+        ]
+      },
+      {
+        "name": "Operator joins redBus",
+        "persona": "Small bus operator",
+        "steps": [
+          {"step": "Signs up", "detail": "Agrees commission terms with the redBus sales team."},
+          {"step": "Loads inventory", "detail": "Connects seats through redBus operator software."},
+          {"step": "Sets prices", "detail": "Changes fares for weekends and festivals."},
+          {"step": "Gets bookings", "detail": "Sees seats sold through redBus and agents."},
+          {"step": "Gets paid", "detail": "Receives payouts minus commission."},
+          {"step": "Improves rating", "detail": "Fixes complaints to reach Primo status."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "redBus makes money mainly from a commission that bus operators pay on each ticket sold. It also earns from software for operators, add-ons sold to travellers, ads and its international business.",
+      "revenueStreams": [
+        {"stream": "Operator commission", "detail": "A cut of each ticket, roughly 10% to 12% of the fare. The main source of revenue."},
+        {"stream": "Traveller add-ons", "detail": "Free cancellation, insurance and similar paid extras."},
+        {"stream": "Operator software and services", "detail": "Seat management tools and marketing for operators."},
+        {"stream": "International", "detail": "Bus ticketing in Malaysia, Singapore, Indonesia, Vietnam, Peru and Colombia."},
+        {"stream": "Ads and rail", "detail": "Promoted listings for operators and fees on redRail bookings."}
+      ],
+      "pricing": "Free to search. Fares are set by operators (average about ₹966 per seat in late 2025 and early 2026). Some bookings carry small service fees and paid add-ons.",
+      "costDrivers": [
+        "Discounts and coupons to win travellers from agents and rivals",
+        "Sales teams to sign and support thousands of operators",
+        "Customer support for cancellations and refunds",
+        "Payment gateway fees",
+        "Marketing and technology"
+      ],
+      "unitEconomics": "Rough example, estimated. On a ₹1,000 sleeper ticket, the operator pays redBus about ₹100 to ₹120 in commission. redBus may spend about ₹15 on payment fees, ₹20 to ₹40 on a coupon, and some rupees on support. It keeps around ₹50 to ₹70 before fixed costs. That is a much healthier margin than flight tickets at MakeMyTrip, which is why bus ticketing earned about $41 million of adjusted margin in one quarter."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Google search for 'bus from X to Y', where redBus route pages rank high",
+        "Word of mouth among students and workers",
+        "Festival offers and coupons",
+        "Cross-promotion from MakeMyTrip and Goibibo apps",
+        "Operators sharing redBus links with their own passengers"
+      ],
+      "whatBringsUsersBack": [
+        "Regular trips home, often monthly",
+        "Saved passenger details for fast rebooking",
+        "Ratings history helps pick trusted operators again",
+        "redBus wallet cashback"
+      ],
+      "moat": "redBus has signed up thousands of small operators, many of whom run their business on redBus software. That supply is hard and slow for a rival to copy because each operator is a separate local business. More operators bring more travellers, and more travellers pull in more operators, which is a two-sided network effect."
+    },
+    "competitors": [
+      {
+        "name": "AbhiBus (Ixigo)",
+        "positioning": "Bus ticketing app owned by Ixigo, strong in Andhra Pradesh and Telangana.",
+        "howThisProductDiffers": "redBus has more operators nationwide and stronger brand recall."
+      },
+      {
+        "name": "Paytm, MakeMyTrip and Goibibo bus sections",
+        "positioning": "Bus booking inside wider apps. MakeMyTrip and Goibibo use redBus supply.",
+        "howThisProductDiffers": "redBus is the specialist app with the deepest features for bus travel."
+      },
+      {
+        "name": "IntrCity SmartBus and Zingbus",
+        "positioning": "Brands that run their own branded bus fleets with standard quality.",
+        "howThisProductDiffers": "redBus is a marketplace of many operators; these control the whole trip but cover fewer routes."
+      },
+      {
+        "name": "State transport apps (KSRTC, MSRTC, APSRTC)",
+        "positioning": "Government bus booking sites.",
+        "howThisProductDiffers": "redBus lists many state buses too, with a better app and private options."
+      },
+      {
+        "name": "Offline travel agents",
+        "positioning": "Local shops selling tickets for cash, still common in small towns.",
+        "howThisProductDiffers": "redBus offers seat choice, ratings and tracking, but agents offer personal trust and cash."
+      }
+    ],
+    "northStar": {
+      "metric": "Seats travelled per month (booked and actually travelled)",
+      "why": "This north star counts trips completed, which shows travellers got value and operators filled seats, rather than just bookings that later get cancelled."
+    },
+    "kpiTree": [
+      {
+        "metric": "Supply: seats available on redBus",
+        "description": "How many bookable seats exist on popular routes.",
+        "children": [
+          {"metric": "Active operators", "description": "Operators selling at least once a week."},
+          {"metric": "Share of operator seats on redBus", "description": "Seats given to redBus compared to agents."},
+          {"metric": "Route coverage", "description": "Popular routes with at least five options."}
+        ]
+      },
+      {
+        "metric": "Demand: searches from travellers",
+        "description": "How many people look for buses on redBus.",
+        "children": [
+          {"metric": "Organic search traffic", "description": "Visits from route searches on Google."},
+          {"metric": "Monthly active bookers", "description": "Unique people who book each month."},
+          {"metric": "Repeat bookers", "description": "Travellers booking again within 60 days."}
+        ]
+      },
+      {
+        "metric": "Search to booking conversion",
+        "description": "Share of searches ending in payment.",
+        "children": [
+          {"metric": "Seat availability at search", "description": "Searches where good seats remain."},
+          {"metric": "Payment success rate", "description": "UPI and card payments that go through."},
+          {"metric": "Price gap versus agents", "description": "How often redBus is cheaper or equal."}
+        ]
+      },
+      {
+        "metric": "Trip completion and quality",
+        "description": "Share of booked seats that travel without a problem.",
+        "children": [
+          {"metric": "Operator cancellation rate", "description": "Trips cancelled by operators."},
+          {"metric": "On-time departure rate", "description": "Buses leaving within 15 minutes of time."},
+          {"metric": "Average trip rating", "description": "Passenger rating after the trip."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Safety incidents per million trips",
+      "Refund turnaround time",
+      "Operator churn",
+      "Discount spend per ticket"
+    ],
+    "strengths": [
+      "Market leader with the deepest operator network in India",
+      "Operator software makes redBus part of how operators run their business",
+      "Strong in smaller towns, where 62% of journeys come from",
+      "Profitable segment inside MakeMyTrip, growing 17% a year"
+    ],
+    "weaknesses": [
+      "redBus cannot control bus quality, driver behaviour or cancellations",
+      "Refunds depend on each operator's rules, which confuses users",
+      "Festival price spikes make redBus look like it is overcharging",
+      "International markets are small compared to India"
+    ],
+    "risks": [
+      "Branded fleets like IntrCity and Zingbus could take the best routes and passengers",
+      "Bus fires and accidents create safety and reputation risk",
+      "Rules on dynamic fares during festivals could cap prices and commissions",
+      "Better trains, Vande Bharat routes and cheap flights pull travellers away from buses"
+    ],
+    "userComplaints": [
+      "Buses cancelled or changed at the last minute",
+      "Refunds slow or smaller than expected",
+      "Bus quality not matching the listing, such as AC not working",
+      "Boarding point changes and late buses",
+      "Hard to reach support during the trip"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Guaranteed seat promise: if the operator cancels, redBus rebooks you on an equal bus at no extra cost",
+        "problem": "Last-minute cancellations leave travellers stranded and paying festival prices.",
+        "expectedImpact": "More trust and repeat bookings, funded by penalties on operators who cancel.",
+        "metricToTrack": "Repeat rate of travellers who faced a cancellation",
+        "effort": "high"
+      },
+      {
+        "idea": "Verified photos and amenity checks for each bus",
+        "problem": "Buses often do not match their listing.",
+        "expectedImpact": "Fewer complaints and better ratings matching reality.",
+        "metricToTrack": "'Not as described' complaints per 1,000 trips",
+        "effort": "medium"
+      },
+      {
+        "idea": "Safety score with driver rest and speed data on each listing",
+        "problem": "Accidents and fires on night buses worry travellers and families.",
+        "expectedImpact": "Safer operators win more bookings, raising overall trust.",
+        "metricToTrack": "Share of bookings on high safety-score buses",
+        "effort": "high"
+      },
+      {
+        "idea": "One simple refund rule card shown before payment",
+        "problem": "Operator-specific refund rules confuse travellers.",
+        "expectedImpact": "Fewer refund disputes.",
+        "metricToTrack": "Refund-related support tickets",
+        "effort": "low"
+      },
+      {
+        "idea": "Fare alerts for festival travel booked weeks early",
+        "problem": "Prices spike close to festivals.",
+        "expectedImpact": "Travellers save money and operators fill seats earlier.",
+        "metricToTrack": "Share of festival bookings made 14+ days ahead",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "In a fragmented market, the winner is often the one who brings thousands of small sellers online, not the one who owns the assets.",
+      "Giving sellers software they need every day keeps them on your marketplace.",
+      "When you do not control the service, trust tools like ratings, tracking and refunds are the product.",
+      "Small-town users can be the biggest market if the product is simple and works with UPI."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you reduce last-minute bus cancellations on redBus?",
+        "hint": "Find root causes (low occupancy, breakdowns), segment operators, propose penalties, incentives and rebooking, measure cancellation rate and traveller repeat rate."
+      },
+      {
+        "question": "Should redBus launch its own branded buses to compete with IntrCity?",
+        "hint": "Compare asset-light marketplace versus fleet ownership, risk of upsetting operators, capital needs, and margin. Suggest a test on a few routes."
+      },
+      {
+        "question": "Design a feature for women travelling alone on night buses.",
+        "hint": "Map fears (seatmate, stops, staff), propose seat choice, live sharing and SOS, measure bookings by women and safety reports."
+      },
+      {
+        "question": "What is redBus's north star metric?",
+        "hint": "Pick seats travelled, explain why not bookings or revenue, break into supply, demand, conversion and completion."
+      },
+      {
+        "question": "How would you grow redBus in a new country like Peru?",
+        "hint": "Start with supply on top routes, operator software, local payments, then demand. Define success per route."
+      }
+    ],
+    "glossary": [
+      {"term": "Marketplace", "meaning": "A business that connects buyers and sellers and takes a fee, without owning the goods."},
+      {"term": "Commission", "meaning": "A percentage of each sale that the platform keeps."},
+      {"term": "Network effect", "meaning": "When a service gets more useful for everyone as more users and sellers join."},
+      {"term": "Adjusted margin", "meaning": "The money MakeMyTrip keeps from a segment after discounts and direct costs."},
+      {"term": "Asset-light", "meaning": "A business that does not own expensive things like buses, so it needs less money to grow."},
+      {"term": "Conversion", "meaning": "The share of people who complete a purchase after searching."},
+      {"term": "Churn", "meaning": "When customers or sellers stop using a product."},
+      {"term": "Occupancy", "meaning": "The share of seats on a bus that are filled."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that customers are getting value."}
+    ],
+    "assumptions": [
+      "Commission of 10% to 12% is an industry estimate from reports, not a confirmed redBus figure.",
+      "The ₹1,000 ticket unit economics walk-through is an illustration with estimated costs.",
+      "Bustrack journey numbers cover the wider bus market redBus measures, not only redBus bookings.",
+      "List of international markets is based on redBus's public country sites and past news."
+    ]
+  }
+}

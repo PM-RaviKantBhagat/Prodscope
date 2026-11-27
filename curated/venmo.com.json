@@ -1,0 +1,494 @@
+{
+  "company": "Venmo",
+  "domain": "venmo.com",
+  "website": "https://venmo.com",
+  "sources": [
+    "https://www.fxcintel.com/research/analysis/ct-paypal-q3-2026-earnings",
+    "https://www.marketbeat.com/instant-alerts/transcript-paypal-q3-earnings-call-highlights-2026-10-27/",
+    "https://newsroom.paypal-corp.com/2025-06-04-Venmo-Unleashes-Next-Phase-of-Commerce-with-the-Venmo-Debit-Card-and-Venmo-Checkout",
+    "https://techcrunch.com/2025/06/04/venmo-introduces-new-debit-card-benefits-and-payment-options-as-rival-cash-app-struggles",
+    "https://www.nasdaq.com/articles/paypal-expands-venmo-will-it-become-global-commerce-engine",
+    "https://paymentexpert.com/2026/10/30/zelle-vs-venmo-vs-cash-app-payments/"
+  ],
+  "report": {
+    "company": "Venmo",
+    "tagline": "PayPal's US app for sending money to friends, with a social feed of payments, now growing into a debit card and online checkout.",
+    "category": "person-to-person payments",
+    "simpleSummary": "Venmo is how many Americans split dinner, rent or a cab with friends. You send money with a phone number or username, add an emoji note, and friends can see a feed of who paid whom (not the amount). Sending money from your bank or balance is free. Venmo earns money when you want cash instantly, when you pay a business, or when you use its debit or credit card.",
+    "keyNumbers": [
+      {
+        "label": "Venmo payment volume growth, Q3 2026",
+        "value": "Up 14% year on year",
+        "note": "PayPal Q3 2026 results via FXC Intelligence, October 2026. PayPal does not give the dollar figure each quarter."
+      },
+      {
+        "label": "Monthly active accounts",
+        "value": "About 65 million (estimate)",
+        "note": "PayPal said Venmo had over 64 million monthly actives in 2025. Weak estimate for 2026."
+      },
+      {
+        "label": "Venmo revenue",
+        "value": "About $1.7 to $2 billion a year (estimate)",
+        "note": "PayPal guided to about $1.7 billion for 2025 and has a $2 billion-plus target. Not reported each quarter, treat as estimate."
+      },
+      {
+        "label": "Parent PayPal revenue, Q3 2026",
+        "value": "$8.6 billion",
+        "note": "PayPal results, up 2%. Venmo is one of the faster-growing parts."
+      },
+      {
+        "label": "Instant transfer fee",
+        "value": "1.75% (min $0.25, max $25)",
+        "note": "Venmo fee page. The single most important fee for Venmo's income."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Venmo lets people in the US send and receive money with friends in seconds and shows a social feed of payments. It now also offers a debit card, a credit card, 'Pay with Venmo' at online stores, business profiles for small sellers, and crypto. PayPal is using it to turn free friend payments into paid shopping and card spending.",
+      "howItWorks": [
+        "You download the app, link a bank account or debit card and pick a username.",
+        "You pay a friend by name, phone number or QR code and add a note, often an emoji.",
+        "Money lands in the friend's Venmo balance; moving it to the bank is free in 1 to 3 days or 1.75% instantly.",
+        "Payments show on a feed to friends, unless set to private.",
+        "Businesses and sellers pay 1.9% plus 10 cents for goods and services payments.",
+        "The Venmo Debit Card and Pay with Venmo let people spend their balance in shops and online."
+      ],
+      "valueProposition": "For users: the easiest way to pay back friends, with a bit of fun. For PayPal: a young, active user base who keep money in Venmo and can be turned into shoppers and card users."
+    },
+    "personas": [
+      {
+        "name": "College student splitting costs",
+        "description": "A 20-year-old in Ohio who splits pizza, Uber and concert tickets with roommates.",
+        "goals": [
+          "Pay back friends fast",
+          "Request money without awkwardness"
+        ],
+        "frustrations": [
+          "Instant transfer fees",
+          "Sending to the wrong person"
+        ]
+      },
+      {
+        "name": "Young professional sharing rent",
+        "description": "A 27-year-old who pays her roommate $1,200 rent each month.",
+        "goals": [
+          "Free, reliable transfers",
+          "Clear payment history"
+        ],
+        "frustrations": [
+          "Payment limits and holds",
+          "Feed privacy worries"
+        ]
+      },
+      {
+        "name": "Small seller or side hustler",
+        "description": "A dog walker or Etsy-style seller taking payments from clients.",
+        "goals": [
+          "Get paid easily",
+          "Look professional"
+        ],
+        "frustrations": [
+          "1.9% plus 10 cents seller fee",
+          "Tax reporting forms (1099-K) for payments"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Carrying cash or writing cheques to pay friends.",
+        "howSolved": "Send money in seconds by username or phone.",
+        "severity": "high"
+      },
+      {
+        "pain": "Awkward to ask friends for money.",
+        "howSolved": "Request feature and fun notes make it light.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Splitting group bills is messy.",
+        "howSolved": "Groups and split features.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small sellers need a simple way to take payments.",
+        "howSolved": "Business profiles with QR codes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Money stuck in the app.",
+        "howSolved": "Debit card and Pay with Venmo let you spend the balance.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Person-to-person payments",
+        "whatItDoes": "Send and request money from friends for free.",
+        "whyItMatters": "The core habit that brings tens of millions of users."
+      },
+      {
+        "feature": "Social feed",
+        "whatItDoes": "Shows friends' payments with notes and emojis.",
+        "whyItMatters": "Makes Venmo feel social and spreads it through friend groups."
+      },
+      {
+        "feature": "Instant transfer",
+        "whatItDoes": "Moves balance to a bank in minutes for 1.75%.",
+        "whyItMatters": "A main source of revenue."
+      },
+      {
+        "feature": "Venmo Debit Card",
+        "whatItDoes": "Spend your balance in stores and get cash back offers.",
+        "whyItMatters": "Earns card fees and keeps money in Venmo."
+      },
+      {
+        "feature": "Pay with Venmo",
+        "whatItDoes": "Checkout button at online stores like Amazon.",
+        "whyItMatters": "Turns friend payments into paid shopping volume."
+      },
+      {
+        "feature": "Business profiles",
+        "whatItDoes": "Lets sellers accept payments for a fee.",
+        "whyItMatters": "Paid volume from small businesses."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Paying back a friend",
+        "persona": "College student splitting costs",
+        "steps": [
+          {
+            "step": "Gets request",
+            "detail": "Friend requests $18 for pizza."
+          },
+          {
+            "step": "Opens app",
+            "detail": "Sees request with a pizza emoji."
+          },
+          {
+            "step": "Pays",
+            "detail": "Taps Pay using Venmo balance."
+          },
+          {
+            "step": "Shows on feed",
+            "detail": "Friends see the payment note."
+          },
+          {
+            "step": "Receives money later",
+            "detail": "Gets paid back for Uber another day."
+          }
+        ]
+      },
+      {
+        "name": "Cashing out instantly",
+        "persona": "Young professional sharing rent",
+        "steps": [
+          {
+            "step": "Receives rent share",
+            "detail": "Roommate sends $1,200."
+          },
+          {
+            "step": "Needs cash today",
+            "detail": "Rent due to landlord."
+          },
+          {
+            "step": "Chooses instant",
+            "detail": "Pays $21 fee (1.75%)."
+          },
+          {
+            "step": "Money in bank",
+            "detail": "Arrives in minutes."
+          },
+          {
+            "step": "Next month",
+            "detail": "Considers free standard transfer to save fee."
+          }
+        ]
+      },
+      {
+        "name": "Seller takes payment",
+        "persona": "Small seller or side hustler",
+        "steps": [
+          {
+            "step": "Sets up business profile",
+            "detail": "Adds name and QR code."
+          },
+          {
+            "step": "Client pays",
+            "detail": "Client scans QR and pays $40."
+          },
+          {
+            "step": "Fee taken",
+            "detail": "Venmo keeps $0.86."
+          },
+          {
+            "step": "Tracks income",
+            "detail": "Sees sales in the business tab."
+          },
+          {
+            "step": "Tax time",
+            "detail": "Gets a 1099-K if over the IRS limit."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Friend payments are free, so Venmo earns from things around them: instant transfers, business payments, card spending, Pay with Venmo, and interest on balances.",
+      "revenueStreams": [
+        {
+          "stream": "Instant transfer fees",
+          "detail": "1.75% to move money to a bank right away."
+        },
+        {
+          "stream": "Business and seller payments",
+          "detail": "1.9% plus 10 cents on goods and services."
+        },
+        {
+          "stream": "Debit and credit card interchange",
+          "detail": "Fees from merchants when users spend with Venmo cards."
+        },
+        {
+          "stream": "Pay with Venmo checkout",
+          "detail": "Merchant fees on online purchases."
+        },
+        {
+          "stream": "Interest on balances and crypto",
+          "detail": "Interest on money held and spreads on crypto trades."
+        }
+      ],
+      "pricing": "Sending from bank, debit card or balance: free. Sending with a credit card: 3%. Instant transfer to bank: 1.75% (min $0.25, max $25). Goods and services seller fee: 1.9% plus 10 cents. Standard bank transfer: free.",
+      "costDrivers": [
+        "Fraud and scam losses",
+        "Payment processing and bank costs",
+        "Customer support",
+        "Marketing and card rewards",
+        "Engineering"
+      ],
+      "unitEconomics": "A typical user sending $200 a month to friends costs Venmo a little to process and earns it almost nothing. If that user does two instant transfers of $300 a month, Venmo earns about $10.50. If they spend $300 a month on the debit card, Venmo might earn about $3 to $4 in interchange. So average revenue is roughly $25 to $30 per active user a year, and Venmo makes money only when users cash out fast, shop or use cards."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Network effect: you join because friends ask you to pay them on Venmo",
+        "Social feed shows Venmo to friends",
+        "Pay with Venmo at big online stores",
+        "Referral bonuses and debit card offers"
+      ],
+      "whatBringsUsersBack": [
+        "Payment requests from friends",
+        "Shared costs like rent and dinners",
+        "Cash back offers on the debit card",
+        "Balance sitting in the app"
+      ],
+      "moat": "Venmo's moat is its network effect: in many US friend groups, Venmo is the default, and the username is how people pay each other. A new app has to get whole friend groups to switch at once."
+    },
+    "competitors": [
+      {
+        "name": "Zelle",
+        "positioning": "Bank-owned instant transfers inside bank apps.",
+        "howThisProductDiffers": "Venmo is social, works without bank app, and has a balance and cards; Zelle is free and instant to bank."
+      },
+      {
+        "name": "Cash App",
+        "positioning": "Block's money app with banking, Bitcoin and investing.",
+        "howThisProductDiffers": "Venmo is stronger with college students and friend groups; Cash App is stronger with lower-income users and banking."
+      },
+      {
+        "name": "Apple Cash",
+        "positioning": "Payments in iMessage and Apple Wallet.",
+        "howThisProductDiffers": "Venmo works on any phone and has a feed."
+      },
+      {
+        "name": "PayPal",
+        "positioning": "Venmo's sister app for online checkout and global payments.",
+        "howThisProductDiffers": "Venmo targets young US users and social payments."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly active accounts that send or spend money",
+      "why": "It shows people use Venmo for real money every month. Users who also spend or cash out are the ones who make Venmo money."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active senders",
+        "description": "Users who send at least one payment a month.",
+        "children": [
+          {
+            "metric": "Requests per user",
+            "description": "More requests bring more payments."
+          },
+          {
+            "metric": "Invite conversions",
+            "description": "Friends who join to pay."
+          }
+        ]
+      },
+      {
+        "metric": "Monetised actions per user",
+        "description": "Paid actions like instant transfers and seller payments.",
+        "children": [
+          {
+            "metric": "Instant transfer rate",
+            "description": "Share of cash-outs done instantly."
+          },
+          {
+            "metric": "Business payment volume",
+            "description": "Goods and services payments."
+          }
+        ]
+      },
+      {
+        "metric": "Spending from balance",
+        "description": "Money spent via card or checkout.",
+        "children": [
+          {
+            "metric": "Debit card active users",
+            "description": "Users spending monthly with the card."
+          },
+          {
+            "metric": "Pay with Venmo checkouts",
+            "description": "Online purchases."
+          }
+        ]
+      },
+      {
+        "metric": "Trust and safety",
+        "description": "Users feel safe.",
+        "children": [
+          {
+            "metric": "Scam rate",
+            "description": "Payments lost to scams."
+          },
+          {
+            "metric": "Wrong-recipient rate",
+            "description": "Payments sent to wrong person."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Scam and fraud loss rate",
+      "Support resolution time",
+      "Share of free payments (do not make basics paid)"
+    ],
+    "strengths": [
+      "Huge network among young Americans",
+      "Brand name is a verb ('just Venmo me')",
+      "Payment volume and debit card use growing double digits",
+      "Backed by PayPal's merchant network"
+    ],
+    "weaknesses": [
+      "Most activity is free and earns little",
+      "US only",
+      "Scams and limited buyer protection on friend payments",
+      "Support often criticised"
+    ],
+    "risks": [
+      "Zelle and Apple Cash making instant payments free",
+      "Regulation on payment apps and scam liability",
+      "PayPal's own turnaround and strategy changes",
+      "Tax reporting rules discouraging sellers"
+    ],
+    "userComplaints": [
+      "Scams where payments to strangers cannot be recovered",
+      "Accounts frozen or limited with slow support",
+      "Instant transfer fees feel high",
+      "Privacy worries about the public feed"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Name and photo check before first payment to a new contact",
+        "problem": "Users send money to wrong people and scammers.",
+        "expectedImpact": "Fewer lost payments.",
+        "metricToTrack": "Wrong-recipient rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Free instant transfers for users who spend $500 a month on the debit card",
+        "problem": "Instant fees annoy users; card use is low.",
+        "expectedImpact": "More card spending to offset lost fees.",
+        "metricToTrack": "Debit card active users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Shared group wallets for roommates",
+        "problem": "Splitting rent and bills each month is manual.",
+        "expectedImpact": "More balance held and more payments.",
+        "metricToTrack": "Balance held per user",
+        "effort": "medium"
+      },
+      {
+        "idea": "Private by default feed with an easy 'share' option",
+        "problem": "Privacy worries.",
+        "expectedImpact": "More trust; keep social features for those who want them.",
+        "metricToTrack": "Monthly active accounts",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "A free core product can create a strong network, but you must design paid actions around it.",
+      "Social features help a payments app spread, but bring privacy costs.",
+      "Speed is something people will pay for: instant transfer is a big earner.",
+      "Owning the balance (money in the app) is key to earning more from users."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you make more money from Venmo without charging for friend payments?",
+        "hint": "List paid actions, segment users, pick card and checkout, track ARPU and guardrails."
+      },
+      {
+        "question": "Compare Venmo with UPI apps like PhonePe.",
+        "hint": "UPI is free and bank-to-bank; Venmo holds a balance and earns from cash-out and cards."
+      },
+      {
+        "question": "Should Venmo keep its public feed?",
+        "hint": "Weigh growth and fun against privacy; consider defaults and data."
+      },
+      {
+        "question": "How would you cut scams on Venmo?",
+        "hint": "Map scam types, add friction for risky payments, use data, measure scam rate."
+      },
+      {
+        "question": "What is the north star metric for Venmo?",
+        "hint": "Monthly active accounts sending or spending; explain drivers."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Network effect",
+        "meaning": "When a product gets more useful as more people use it."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "A fee merchants pay to the card issuer every time a card is used."
+      },
+      {
+        "term": "ARPU",
+        "meaning": "Average revenue per user."
+      },
+      {
+        "term": "1099-K",
+        "meaning": "A US tax form reporting payments received for goods and services."
+      },
+      {
+        "term": "UPI",
+        "meaning": "India's free instant bank-to-bank payment system."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "Guardrails",
+        "meaning": "Metrics that must not get worse while chasing growth."
+      }
+    ],
+    "assumptions": [
+      "Monthly active accounts and revenue are estimates from PayPal's 2025 statements.",
+      "Revenue per user of $25 to $30 a year is our rough calculation.",
+      "Debit card interchange earnings per user are approximate."
+    ]
+  }
+}

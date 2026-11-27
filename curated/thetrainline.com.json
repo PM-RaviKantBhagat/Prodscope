@@ -1,0 +1,523 @@
+{
+  "company": "Trainline",
+  "domain": "thetrainline.com",
+  "website": "https://www.thetrainline.com",
+  "sources": [
+    "https://www.morningstar.co.uk/uk/news/AN_1778053749668907300/trainline-annual-profit-up-but-headwinds-to-hit-near-term-progress.aspx",
+    "https://www.trainlinegroup.com/investors/results-reports-presentations/full-year-results-fy2026/",
+    "https://www.ajbell.co.uk/news/articles/trainline-track-meet-profit-guidance-ticket-sales-climb",
+    "https://www.directorstalkinterviews.com/trainline-delivers-higher-profits-and-expands-ai-strategy-in-fy2026/4121250651",
+    "https://www.investegate.co.uk/announcement/rns/trainline--trn/results-for-the-six-months-ended-31-august-2026/9856828"
+  ],
+  "report": {
+    "company": "Trainline",
+    "tagline": "Europe's biggest independent app for buying train and coach tickets, used mostly in the UK, Spain, Italy and France.",
+    "category": "Travel",
+    "simpleSummary": "Trainline is an app for buying train tickets. In the UK there are many train companies and confusing fares, and Trainline shows all of them in one place with live times and platform updates. It has tricks like SplitSave, which breaks one journey into several cheaper tickets. Train companies pay Trainline a small commission, and customers often pay a small booking fee.",
+    "keyNumbers": [
+      {
+        "label": "Net ticket sales, FY2026",
+        "value": "£6.32 billion, up 7%",
+        "note": "Total value of tickets sold, year to 28 February 2026. Company results via Morningstar."
+      },
+      {
+        "label": "Revenue, FY2026",
+        "value": "£452.7 million, up 2.4%",
+        "note": "Company results. About 7p of every £1 of tickets sold."
+      },
+      {
+        "label": "Adjusted EBITDA, FY2026",
+        "value": "£177 million, up 11%",
+        "note": "Company results."
+      },
+      {
+        "label": "Pre-tax profit, FY2026",
+        "value": "£114.3 million, up 41%",
+        "note": "Company results."
+      },
+      {
+        "label": "FY2027 guidance",
+        "value": "Ticket sales £6.2 to £6.45 billion (-2% to +2%)",
+        "note": "Flat outlook due to TfL contactless expansion and the UK fare freeze to March 2027. Morningstar."
+      },
+      {
+        "label": "Shares bought back since 2023",
+        "value": "£294 million, about 23% of shares",
+        "note": "Share buyback programme; company results via Morningstar."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Trainline sells train and coach tickets from many operators in the UK and Europe in one app. It also gives live journey updates, delays and platform information. It has three parts: UK consumer, International consumer (Spain, Italy, France and more) and Trainline Solutions, which runs ticketing for train companies and business travel firms.",
+      "howItWorks": [
+        "A traveller enters where and when they want to go, and Trainline shows trains and fares from all operators.",
+        "Trainline suggests cheaper options like SplitSave split tickets and Advance fares, and applies railcards.",
+        "The traveller pays in the app and gets an e-ticket or digital railcard on their phone.",
+        "On the day, the app shows live times, platform numbers, delays and refund help such as Delay Repay.",
+        "Train operators pay Trainline a commission, and customers pay a booking fee on many UK tickets."
+      ],
+      "valueProposition": "The simplest and often cheapest way to find and buy any train ticket, with live help on the day."
+    },
+    "personas": [
+      {
+        "name": "UK commuter",
+        "description": "Travels into a city two or three days a week.",
+        "goals": [
+          "Cheapest fare for hybrid work",
+          "Live delay alerts",
+          "Easy refunds"
+        ],
+        "frustrations": [
+          "Booking fees",
+          "Confusing ticket types",
+          "Contactless now covers more trips without an app"
+        ]
+      },
+      {
+        "name": "Occasional leisure traveller",
+        "description": "Takes a few long trips a year, like London to Edinburgh.",
+        "goals": [
+          "Cheapest Advance or split ticket",
+          "Railcard discounts"
+        ],
+        "frustrations": [
+          "Price differences from operator sites",
+          "Not knowing if split tickets are valid"
+        ]
+      },
+      {
+        "name": "Tourist in Europe",
+        "description": "An Indian or American visitor travelling Paris to Rome.",
+        "goals": [
+          "Book trains across countries in English",
+          "Compare high-speed operators like Trenitalia and Italo"
+        ],
+        "frustrations": [
+          "Higher fees than operator sites",
+          "Hard to change bookings"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "UK rail fares are very confusing, with many operators and ticket types.",
+        "howSolved": "One search shows all operators and the cheapest valid fare.",
+        "severity": "high"
+      },
+      {
+        "pain": "Train tickets are expensive.",
+        "howSolved": "SplitSave, price prediction and railcard tools.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing about delays or platforms.",
+        "howSolved": "Live updates and platform alerts in the app.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Claiming money back for delays is a hassle.",
+        "howSolved": "Delay Repay help and refund flows.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Booking European trains on many national sites.",
+        "howSolved": "One app across Spain, Italy, France and other countries.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "SplitSave",
+        "whatItDoes": "Split ticketing: breaks one journey into several cheaper tickets, valid on the same train.",
+        "whyItMatters": "Saves real money and is a big reason users choose Trainline over operator sites."
+      },
+      {
+        "feature": "Price Prediction",
+        "whatItDoes": "Estimates how Advance fares will rise, nudging people to book early.",
+        "whyItMatters": "Helps users save and builds trust."
+      },
+      {
+        "feature": "Live journey info",
+        "whatItDoes": "Platform numbers, delays and disruption alerts, now with AI help.",
+        "whyItMatters": "Daily use, even when people are not buying."
+      },
+      {
+        "feature": "Digital railcards and e-tickets",
+        "whatItDoes": "Stores railcards and tickets on the phone.",
+        "whyItMatters": "Locks users into the app."
+      },
+      {
+        "feature": "Trainline Solutions",
+        "whatItDoes": "White-label ticketing for train operators and business travel firms.",
+        "whyItMatters": "Second income source that does not depend on consumer marketing."
+      },
+      {
+        "feature": "ChatGPT app and AI assistant",
+        "whatItDoes": "Lets users plan and check train journeys inside ChatGPT and in the app.",
+        "whyItMatters": "Keeps Trainline present where people start planning."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Booking a cheap long-distance trip",
+        "persona": "Occasional leisure traveller",
+        "steps": [
+          {
+            "step": "Searches",
+            "detail": "London to Manchester on a Friday."
+          },
+          {
+            "step": "Adds railcard",
+            "detail": "Applies 16-25 Railcard."
+          },
+          {
+            "step": "Sees SplitSave",
+            "detail": "App shows a split ticket saving £18."
+          },
+          {
+            "step": "Picks seat",
+            "detail": "Reserves a seat if offered."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays with Apple Pay including a small booking fee."
+          },
+          {
+            "step": "Travels",
+            "detail": "Shows e-ticket and follows platform alerts."
+          }
+        ]
+      },
+      {
+        "name": "Disrupted journey",
+        "persona": "UK commuter",
+        "steps": [
+          {
+            "step": "Gets alert",
+            "detail": "App warns of cancellations."
+          },
+          {
+            "step": "Checks options",
+            "detail": "Sees other trains and whether ticket is valid."
+          },
+          {
+            "step": "Travels later",
+            "detail": "Takes the next train."
+          },
+          {
+            "step": "Claims compensation",
+            "detail": "Uses Delay Repay flow."
+          },
+          {
+            "step": "Gets money",
+            "detail": "Receives compensation from the operator."
+          }
+        ]
+      },
+      {
+        "name": "Booking a European train",
+        "persona": "Tourist in Europe",
+        "steps": [
+          {
+            "step": "Searches",
+            "detail": "Milan to Rome."
+          },
+          {
+            "step": "Compares",
+            "detail": "Trenitalia versus Italo prices and times."
+          },
+          {
+            "step": "Pays",
+            "detail": "Pays in pounds, euros or rupees card."
+          },
+          {
+            "step": "Gets ticket",
+            "detail": "E-ticket in the app."
+          },
+          {
+            "step": "Rebooks",
+            "detail": "Changes time if needed, under fare rules."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Trainline earns a small cut of each ticket it sells: commission from train operators and booking fees from customers. It earns about 7p for every £1 of tickets, plus fees from Trainline Solutions and ads.",
+      "revenueStreams": [
+        {
+          "stream": "Operator commission",
+          "detail": "Train companies pay a percentage of each ticket, set in the UK by industry rules."
+        },
+        {
+          "stream": "Booking fees",
+          "detail": "Small fees per transaction, often under £2 in the UK."
+        },
+        {
+          "stream": "International fees",
+          "detail": "Commissions and fees on Spanish, Italian and French tickets."
+        },
+        {
+          "stream": "Trainline Solutions",
+          "detail": "Fees from train operators and business travel firms using Trainline technology."
+        },
+        {
+          "stream": "Advertising and partners",
+          "detail": "Ads, insurance and hotel partners in the app."
+        }
+      ],
+      "pricing": "Tickets cost the official fare. UK booking fees vary, typically under £2 per transaction. Not all fees are public.",
+      "costDrivers": [
+        "Marketing, especially in Europe",
+        "Payment processing",
+        "Technology and staff",
+        "Customer support for refunds and changes"
+      ],
+      "unitEconomics": "Rough example. A customer buys a £60 London to Manchester ticket. Trainline might get about £3 in commission and £1 to £1.50 as a booking fee, so about £4 to £4.50, which matches its overall 7% take rate. Card fees cost maybe 50p, and support a few pence on average. In the UK, where most users come direct, it keeps most of that £4. In Spain and Italy it spends more on marketing to win each customer, which is why the International business only expects to break even in FY2027."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free search results for routes and 'train times'",
+        "TV and online ads",
+        "App store presence and word of mouth",
+        "Partnerships in Europe with operators like Trenitalia"
+      ],
+      "whatBringsUsersBack": [
+        "Saved railcards and payment",
+        "Live journey information used daily",
+        "SplitSave savings",
+        "Habit of checking Trainline for any train trip"
+      ],
+      "moat": "Trainline combines every UK operator, years of fare data for features like SplitSave and Price Prediction, and a well-known brand. Many people open it every week. A government app can sell the same tickets, but building better tools and the habit takes time."
+    },
+    "competitors": [
+      {
+        "name": "Great British Railways (planned app)",
+        "positioning": "Government-backed national rail body expected to run its own ticket app.",
+        "howThisProductDiffers": "Trainline must win with better tools and savings, because GBR may have no fees and official status."
+      },
+      {
+        "name": "Train operator apps (LNER, Avanti, GWR)",
+        "positioning": "Operators sell their own tickets with no booking fee.",
+        "howThisProductDiffers": "Trainline covers all operators and offers split tickets across them."
+      },
+      {
+        "name": "Contactless and TfL",
+        "positioning": "Tap in and out with a bank card, now on more routes around London.",
+        "howThisProductDiffers": "Contactless removes the need for an app on short trips; Trainline is stronger on long trips."
+      },
+      {
+        "name": "Omio and Renfe or Trenitalia apps (Europe)",
+        "positioning": "Multi-mode booking site and national operator apps.",
+        "howThisProductDiffers": "Trainline is bigger in rail and offers deeper rail features."
+      }
+    ],
+    "northStar": {
+      "metric": "Monthly travellers who complete a journey with a Trainline ticket",
+      "why": "This north star counts real journeys where Trainline helped someone travel, which shows value and drives commission."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active buyers",
+        "description": "People buying at least one ticket a month.",
+        "children": [
+          {
+            "metric": "New buyers",
+            "description": "First-time buyers from search and ads."
+          },
+          {
+            "metric": "Repeat buyers",
+            "description": "Buyers who return within 30 days."
+          },
+          {
+            "metric": "App share of sales",
+            "description": "Sales through the app."
+          }
+        ]
+      },
+      {
+        "metric": "Search to purchase conversion",
+        "description": "Share of searches that end in a ticket.",
+        "children": [
+          {
+            "metric": "SplitSave shown rate",
+            "description": "Searches where savings are found."
+          },
+          {
+            "metric": "Price match with operator sites",
+            "description": "How often Trainline is as cheap as the operator."
+          },
+          {
+            "metric": "Checkout success",
+            "description": "Share of started payments completed."
+          }
+        ]
+      },
+      {
+        "metric": "Tickets per buyer",
+        "description": "How many tickets each buyer buys.",
+        "children": [
+          {
+            "metric": "Flexi season usage",
+            "description": "Commuters buying ticket bundles."
+          },
+          {
+            "metric": "Railcard holders",
+            "description": "Users with digital railcards stored."
+          },
+          {
+            "metric": "International trips",
+            "description": "UK users buying European tickets."
+          }
+        ]
+      },
+      {
+        "metric": "Journey experience",
+        "description": "How well the trip goes with Trainline's help.",
+        "children": [
+          {
+            "metric": "Live info usage",
+            "description": "Users opening journey updates."
+          },
+          {
+            "metric": "Refund time",
+            "description": "Days to process refunds."
+          },
+          {
+            "metric": "App rating",
+            "description": "Store rating."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Booking fee complaints",
+      "Customer support contacts per 1,000 tickets",
+      "Adjusted EBITDA as share of net ticket sales",
+      "Refund time"
+    ],
+    "strengths": [
+      "Market leader in UK online rail, with a strong brand",
+      "Unique savings features like SplitSave",
+      "Profitable and buying back shares",
+      "Growing presence in Spain and Italy as rail opens to competition"
+    ],
+    "weaknesses": [
+      "Revenue growing slower than ticket sales (2.4% versus 7%)",
+      "Booking fees that operator apps do not charge",
+      "International business not yet profitable",
+      "Depends on government rules for UK commission"
+    ],
+    "risks": [
+      "Great British Railways app selling tickets with no fees",
+      "Contactless travel spreading beyond London",
+      "UK fare freeze until March 2027 limits ticket value growth",
+      "Rail accidents or strikes reducing travel, such as Spain's 2026 accidents"
+    ],
+    "userComplaints": [
+      "Booking fees feel unfair",
+      "Refunds slow or hard to claim",
+      "Confusion when split tickets need changes",
+      "Prices sometimes higher than operator sites in Europe"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Fee-free tickets for subscribers, with a yearly membership",
+        "problem": "Booking fees push users to operator apps and a possible GBR app.",
+        "expectedImpact": "Higher loyalty and steady subscription income.",
+        "metricToTrack": "Repeat buyer rate and subscriber count",
+        "effort": "medium"
+      },
+      {
+        "idea": "One-tap disruption rebooking with AI that knows which trains your ticket is valid on",
+        "problem": "Disruptions confuse travellers.",
+        "expectedImpact": "Higher trust and app usage during problems.",
+        "metricToTrack": "Support contacts during disruption",
+        "effort": "medium"
+      },
+      {
+        "idea": "Automatic Delay Repay claims",
+        "problem": "Many travellers never claim compensation.",
+        "expectedImpact": "Customers get money back, strengthening loyalty.",
+        "metricToTrack": "Share of eligible delays claimed",
+        "effort": "high"
+      },
+      {
+        "idea": "Commuter savings tracker comparing contactless to Trainline flexi tickets",
+        "problem": "Contactless expansion may reduce commuter sales.",
+        "expectedImpact": "Keeps commuters who would save with Trainline.",
+        "metricToTrack": "Commuter retention",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Being an aggregator works when the market is confusing. Trainline wins because UK fares are complicated.",
+      "A government competitor changes the game. You must offer clear extra value, not just access.",
+      "Daily-use features like live times keep users coming back even when they are not buying.",
+      "Watch take rate as well as volume: Trainline's ticket sales grew faster than revenue."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Great British Railways launches a free app. How should Trainline respond?",
+        "hint": "Name Trainline's unique value (SplitSave, multi-operator, Europe, live info), consider fee changes and subscriptions, and track retention."
+      },
+      {
+        "question": "How would you grow Trainline in Spain?",
+        "hint": "Think about competing operators (Renfe, Iryo, Ouigo), tourists, pricing and marketing cost per customer. Define break-even metrics."
+      },
+      {
+        "question": "What is the north star for Trainline?",
+        "hint": "Completed journeys, broken into active buyers, conversion, tickets per buyer and journey experience."
+      },
+      {
+        "question": "Should Trainline remove booking fees?",
+        "hint": "Estimate fee revenue lost per booking against conversion and retention gains. Suggest testing on some routes."
+      },
+      {
+        "question": "How would you measure if SplitSave is worth it?",
+        "hint": "Look at savings per user, conversion uplift, commission per ticket and repeat rate."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Net ticket sales",
+        "meaning": "The total value of tickets sold through Trainline."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of each sale the platform keeps as revenue."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Profit before interest, tax and some non-cash costs, used to compare how much the business earns from operations."
+      },
+      {
+        "term": "Aggregator",
+        "meaning": "A service that brings many sellers' products into one place to compare and buy."
+      },
+      {
+        "term": "Split ticketing",
+        "meaning": "Buying several tickets for parts of one journey because it is cheaper than one ticket."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of searches that end in a purchase."
+      },
+      {
+        "term": "Retention",
+        "meaning": "How many users keep using the product over time."
+      },
+      {
+        "term": "North star",
+        "meaning": "The one metric a team treats as the best sign that customers are getting value."
+      },
+      {
+        "term": "Buyback",
+        "meaning": "When a company uses its cash to buy its own shares from investors."
+      }
+    ],
+    "assumptions": [
+      "The split of commission and booking fee in the £60 example is estimated.",
+      "Great British Railways' app timing and pricing are not confirmed.",
+      "Booking fee levels under £2 are typical figures, not a full price list."
+    ]
+  }
+}

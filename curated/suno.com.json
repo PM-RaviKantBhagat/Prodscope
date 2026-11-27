@@ -1,0 +1,395 @@
+{
+  "company": "Suno",
+  "domain": "suno.com",
+  "website": "https://suno.com",
+  "sources": [
+    "https://www.digitalmusicnews.com/2026/10/01/suno-revenue-october-2026/",
+    "https://www.musicbusinessworldwide.com/suno-hits-2m-paid-subscribers-300m-annual-revenue/",
+    "https://thenextweb.com/news/suno-5-4-billion-valuation-raise",
+    "https://fortune.com/2026/07/17/suno-raised-400-million-lawsuits-sony-universal-menlo-ventures-user-behavior",
+    "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/?type=AI",
+    "https://www.musicbusinessworldwide.com/artist-representatives-launch-say-no-to-suno-campaign-ai-slop-dilutes-the-royalty-pools-of-legitimate-artists-from-whose-music-this-slop-is-derived",
+    "https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/"
+  ],
+  "report": {
+    "company": "Suno",
+    "tagline": "An AI app that makes a full song, with vocals and music, from a short text prompt.",
+    "category": "AI music",
+    "simpleSummary": "Suno lets anyone make a song by typing what they want, like 'a sad Bollywood love song about the monsoon'. In under a minute it creates a full track with singing, instruments and lyrics. You can also write your own lyrics or upload a tune to build on. It is free to try a few songs a day, and people pay a monthly plan for more songs and the right to use them commercially.",
+    "keyNumbers": [
+      {
+        "label": "Annual recurring revenue",
+        "value": "Over $300 million",
+        "note": "CEO Mikey Shulman, first said in February 2026 and repeated in October 2026 (Digital Music News). Likely higher now, but no new figure given."
+      },
+      {
+        "label": "Paid subscribers",
+        "value": "Over 2 million",
+        "note": "Company figure, February 2026. CEO said in October 2026 it is 'far beyond' that."
+      },
+      {
+        "label": "Total users",
+        "value": "Over 100 million",
+        "note": "Company figure, February 2026. Counts everyone who signed up, not monthly active users."
+      },
+      {
+        "label": "Valuation",
+        "value": "About $5.4 billion",
+        "note": "After a $400 million raise in mid 2026, more than double its value six months earlier (TheNextWeb, Fortune)."
+      },
+      {
+        "label": "Licensed model launch",
+        "value": "v6 models with Warner Music, BMG and Believe (September 2026)",
+        "note": "Suno shelved older models, which labels say were trained on copyrighted recordings without permission. Digital Music News, October 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Suno generates complete songs, including vocals, from text, lyrics or a hummed or uploaded audio clip. Users can extend, remix and edit songs, split them into parts like vocals and drums, and work in Suno Studio, a simple music editing app. Paid users can use songs commercially, for example on YouTube or streaming platforms.",
+      "howItWorks": [
+        "Type a description, or paste your own lyrics and pick a style.",
+        "Suno makes two versions of the song in about a minute.",
+        "Pick one, then extend it, change sections, or remix the style.",
+        "Use Suno Studio to edit parts like vocals, drums and bass separately.",
+        "Share on Suno's feed or download (with limits since September 2026).",
+        "Each song uses credits; free users get a small daily amount, paid plans get much more."
+      ],
+      "valueProposition": "Anyone can make a song that sounds professional in a minute, with no instruments, skills or studio."
+    },
+    "personas": [
+      {
+        "name": "Hobby creator",
+        "description": "A 24-year-old office worker in Chennai who makes songs for fun, birthdays and inside jokes with friends.",
+        "goals": [
+          "Make funny or personal songs quickly",
+          "Share on WhatsApp and Instagram",
+          "Spend little"
+        ],
+        "frustrations": [
+          "Free credits run out fast",
+          "Hindi and Tamil vocals sometimes sound off",
+          "New download limits"
+        ]
+      },
+      {
+        "name": "Content creator",
+        "description": "A YouTuber who needs background music and jingles without copyright strikes.",
+        "goals": [
+          "Royalty-free music for videos",
+          "Custom style for their brand",
+          "Commercial rights"
+        ],
+        "frustrations": [
+          "Unclear rules on monetising AI music",
+          "Platforms flagging AI songs",
+          "Songs can sound generic"
+        ]
+      },
+      {
+        "name": "Aspiring musician",
+        "description": "A songwriter who uses Suno to try ideas and make demos before recording properly.",
+        "goals": [
+          "Turn lyrics into demos fast",
+          "Try many styles",
+          "Edit parts in a studio tool"
+        ],
+        "frustrations": [
+          "Artist community sees Suno as a threat",
+          "Ownership of AI-made songs is unclear",
+          "Copyright checks wrongly flag their own lyrics"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Making music needs years of skill, instruments and a studio.",
+        "howSolved": "Suno makes a full song from a text prompt.",
+        "severity": "high"
+      },
+      {
+        "pain": "Licensing music for videos is expensive and confusing.",
+        "howSolved": "Paid plans give rights to use generated songs commercially.",
+        "severity": "high"
+      },
+      {
+        "pain": "Songwriters cannot afford to hire singers and producers for demos.",
+        "howSolved": "Suno turns lyrics into a sung demo in minutes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Personal gifts like a custom song are expensive.",
+        "howSolved": "Anyone can make a birthday or wedding song in a minute.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Editing music needs complex software.",
+        "howSolved": "Suno Studio offers simple editing of song parts.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Text to song",
+        "whatItDoes": "Creates a full song with vocals from a description.",
+        "whyItMatters": "The magic moment that makes people share and come back."
+      },
+      {
+        "feature": "Custom lyrics and styles",
+        "whatItDoes": "Use your own lyrics and choose genres, moods and voices.",
+        "whyItMatters": "Gives users a sense of ownership, which drives paid use."
+      },
+      {
+        "feature": "Suno Studio",
+        "whatItDoes": "A simple music editor to change parts like vocals and drums.",
+        "whyItMatters": "Moves Suno from a toy to a creative tool for serious users."
+      },
+      {
+        "feature": "Licensed v6 models",
+        "whatItDoes": "New models built with music partners Warner Music, BMG and Believe.",
+        "whyItMatters": "Reduces legal risk and opens a path to working with the music industry."
+      },
+      {
+        "feature": "Watermarking",
+        "whatItDoes": "Marks songs as AI-made, announced August 2026.",
+        "whyItMatters": "Helps streaming services spot AI spam and answers critics."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First song",
+        "persona": "Hobby creator",
+        "steps": [
+          { "step": "Sees a viral song", "detail": "A friend shares a funny Suno song in a WhatsApp group." },
+          { "step": "Opens Suno", "detail": "Signs up with Google on the app." },
+          { "step": "Types a prompt", "detail": "'Birthday song for my friend Ravi who loves cricket, in Hindi.'" },
+          { "step": "Listens", "detail": "Gets two versions in under a minute." },
+          { "step": "Shares", "detail": "Sends the better one to the friends group." },
+          { "step": "Comes back", "detail": "Returns for festivals and events." }
+        ]
+      },
+      {
+        "name": "Upgrade for commercial use",
+        "persona": "Content creator",
+        "steps": [
+          { "step": "Needs music", "detail": "Wants a theme for a YouTube channel." },
+          { "step": "Tries free", "detail": "Makes a few versions on free credits." },
+          { "step": "Learns about rights", "detail": "Sees that free songs cannot be used commercially." },
+          { "step": "Subscribes", "detail": "Buys the Pro plan for rights and more credits." },
+          { "step": "Edits in Studio", "detail": "Shortens the track and adjusts the mix." },
+          { "step": "Publishes", "detail": "Uses it in videos every week." }
+        ]
+      },
+      {
+        "name": "Demo for a song",
+        "persona": "Aspiring musician",
+        "steps": [
+          { "step": "Writes lyrics", "detail": "Finishes a new song in a notebook." },
+          { "step": "Pastes into Suno", "detail": "Tries three genres: indie, pop and acoustic." },
+          { "step": "Picks a direction", "detail": "Chooses one version as the demo." },
+          { "step": "Edits parts", "detail": "Uses Studio to remove vocals and keep the backing track." },
+          { "step": "Records over it", "detail": "Sings their own vocals and shares with a producer." }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Suno makes money from monthly subscriptions. Free users get a few songs a day; paying users get many more songs, faster generation and the right to use songs commercially. Its biggest costs are computing to make songs and legal and licensing costs with the music industry.",
+      "revenueStreams": [
+        { "stream": "Pro subscription", "detail": "About $10 a month for more credits and commercial rights." },
+        { "stream": "Premier subscription", "detail": "About $30 a month for heavy creators with many more credits and Studio features." },
+        { "stream": "Extra credits", "detail": "Top-up packs for users who run out." },
+        { "stream": "Partnerships", "detail": "Deals with labels and distributors like Warner Music, BMG and Believe, which may include revenue sharing." }
+      ],
+      "pricing": "Free with a small daily credit allowance (no commercial use). Pro about $10 a month; Premier about $30 a month; discounts on yearly plans. Prices from 2025 to 2026 public plans; may have changed.",
+      "costDrivers": [
+        "GPU computing to generate songs",
+        "Licensing payments and revenue shares with labels and publishers",
+        "Legal costs from lawsuits by labels and artists",
+        "Research to train new models",
+        "Content moderation and anti-spam work"
+      ],
+      "unitEconomics": "With over $300 million ARR and over 2 million paid subscribers, the average payer brings in roughly $12 to $15 a month. Making one song might cost Suno a few cents in computing. A Pro user making 100 to 200 songs a month might cost $2 to $5, so subscriptions are likely profitable before legal and licensing costs. Free users cost money but drive sharing and upgrades. Licensing deals will cut into this margin. Rough estimates."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Viral songs shared on TikTok, Instagram, WhatsApp and YouTube",
+        "Free daily credits so anyone can try",
+        "Memes and trends, like funny songs about everyday life",
+        "Press coverage of AI songs on charts",
+        "Creator and YouTuber recommendations"
+      ],
+      "whatBringsUsersBack": [
+        "Daily free credits that reset",
+        "Making songs for events and friends",
+        "Feed of other users' songs for ideas",
+        "Studio projects in progress"
+      ],
+      "moat": "Suno's moat is model quality and brand: it is the name people know for AI music, and its huge usage gives feedback to improve. New licensing deals with Warner Music, BMG and Believe could become a moat if rivals cannot get the same rights."
+    },
+    "competitors": [
+      {
+        "name": "Udio",
+        "positioning": "AI music generator that settled with Universal Music and moved to a licensed 'walled garden' model.",
+        "howThisProductDiffers": "Udio disabled downloads after its deal; Suno still allows some downloads and is larger."
+      },
+      {
+        "name": "ElevenLabs Music",
+        "positioning": "AI music from the voice AI company, pitched as licensed for commercial use.",
+        "howThisProductDiffers": "ElevenLabs sells more to businesses; Suno is bigger with consumers."
+      },
+      {
+        "name": "Google Lyria and YouTube tools",
+        "positioning": "AI music features inside YouTube and Gemini.",
+        "howThisProductDiffers": "Google has distribution; Suno is a focused standalone product."
+      },
+      {
+        "name": "Royalty-free music libraries (Epidemic Sound, Artlist)",
+        "positioning": "Licensed human-made music for creators.",
+        "howThisProductDiffers": "Suno makes custom songs on demand; libraries offer human-made tracks with clear rights."
+      }
+    ],
+    "northStar": {
+      "metric": "Songs created per week that users keep (save, share or download)",
+      "why": "Keeping a song shows the user liked it. It captures both how much people use Suno and how good the songs are."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active creators",
+        "description": "People who make at least one song a week.",
+        "children": [
+          { "metric": "New sign-ups from shared songs", "description": "Users who joined after hearing a shared Suno song." },
+          { "metric": "Week-4 retention", "description": "Retention: share of new users still creating after four weeks." }
+        ]
+      },
+      {
+        "metric": "Songs per creator",
+        "description": "How many songs each person makes.",
+        "children": [
+          { "metric": "Generations per session", "description": "Number of songs made in one sitting." },
+          { "metric": "Studio edits per song", "description": "How much users refine songs." }
+        ]
+      },
+      {
+        "metric": "Keep rate",
+        "description": "Share of songs that users save, share or download.",
+        "children": [
+          { "metric": "Share rate", "description": "Share of songs sent to others." },
+          { "metric": "Regeneration rate", "description": "How often users throw away a song and try again." }
+        ]
+      },
+      {
+        "metric": "Paying creators",
+        "description": "Users on paid plans.",
+        "children": [
+          { "metric": "Free to paid conversion", "description": "Share of free users who subscribe." },
+          { "metric": "Paid churn", "description": "Churn: share of payers who cancel each month." }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Number of copyright claims and takedowns",
+      "Share of songs flagged as spam on streaming platforms",
+      "Computing cost per song",
+      "Artist and label complaints"
+    ],
+    "strengths": [
+      "Best-known AI music brand with over 100 million users",
+      "Strong revenue: over $300 million ARR in about two years",
+      "Licensing deals with Warner Music, BMG and Believe",
+      "Simple product with a clear magic moment"
+    ],
+    "weaknesses": [
+      "Old models allegedly trained on copyrighted music without permission",
+      "Many artists and industry groups oppose it ('Say No to Suno' campaign)",
+      "Songs can sound generic, and quality in Indian languages varies",
+      "New download limits annoy existing users"
+    ],
+    "risks": [
+      "Lawsuits from Sony, Universal and artists like Jason Isbell's class action",
+      "Streaming services cutting payouts for AI songs or blocking them",
+      "Licensing costs rising and squeezing margins",
+      "Big tech (Google, OpenAI) launching free music tools"
+    ],
+    "userComplaints": [
+      "Download limits introduced in September 2026",
+      "Older models shelved, changing the sound users liked",
+      "Copyright filters wrongly flagging users' own lyrics",
+      "Credits running out quickly",
+      "Musicians say AI 'slop' floods streaming platforms and dilutes royalties"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Artist verification so real songwriters can prove lyrics are theirs and skip false copyright flags",
+        "problem": "Copyright checks block users' own lyrics.",
+        "expectedImpact": "Fewer frustrated serious creators.",
+        "metricToTrack": "False copyright flags per 1,000 songs",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear download limits page with a meter and options to buy more downloads",
+        "problem": "Users are confused and angry about new download limits.",
+        "expectedImpact": "Less churn and new revenue from top-ups.",
+        "metricToTrack": "Paid churn after the change",
+        "effort": "low"
+      },
+      {
+        "idea": "Better Indian language vocals and regional styles, with India pricing in rupees",
+        "problem": "Hindi, Tamil and other vocals sound off, and prices are high for India.",
+        "expectedImpact": "Growth in a huge music-loving market.",
+        "metricToTrack": "Weekly active creators in India",
+        "effort": "high"
+      },
+      {
+        "idea": "Opt-in revenue share for artists whose licensed styles are used",
+        "problem": "Artists see Suno as taking from them.",
+        "expectedImpact": "Better industry relations and more licensed content.",
+        "metricToTrack": "Number of artists opting in",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A strong magic moment, a song in under a minute, can grow a product to 100 million users fast.",
+      "Legal risk is a product risk. Training data choices can force you to shelve your core models.",
+      "Changing what users already get (downloads, models) needs careful communication.",
+      "In creative markets, winning over the existing industry can matter as much as winning users."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Suno shelved its old models for licensed ones. How would you manage the change for users?",
+        "hint": "Explain why (legal risk). Communicate early, compare quality, keep old songs available, and track churn and keep rate."
+      },
+      {
+        "question": "What is the north star metric for Suno?",
+        "hint": "Songs kept (saved, shared or downloaded) each week. Break into active creators, songs per creator, keep rate and paying creators."
+      },
+      {
+        "question": "How would you stop AI songs from Suno spamming streaming platforms?",
+        "hint": "Watermarks, upload limits, verification for distributors, and quality signals. Balance creator freedom with industry trust."
+      },
+      {
+        "question": "How would you grow Suno in India?",
+        "hint": "Focus on festivals, weddings and regional languages. Improve vocals, offer rupee pricing, and push sharing through WhatsApp and Instagram Reels."
+      },
+      {
+        "question": "Should Suno build tools for professional musicians or stay focused on casual users?",
+        "hint": "Compare revenue per user and market size. Studio serves pros, casual users drive growth. Recommend a balance and a metric."
+      }
+    ],
+    "glossary": [
+      { "term": "ARR", "meaning": "Annual recurring revenue: yearly subscription revenue at the current pace." },
+      { "term": "Credits", "meaning": "Units you spend to make songs; plans give a set number each month." },
+      { "term": "Commercial rights", "meaning": "Permission to use a song to make money, like on YouTube or streaming." },
+      { "term": "Licensing", "meaning": "Paying rights holders for permission to use their music or recordings." },
+      { "term": "Watermarking", "meaning": "Hiding a mark in audio to show it was made by AI." },
+      { "term": "Retention", "meaning": "The share of users who keep using a product over time." },
+      { "term": "Churn", "meaning": "The share of paying users who cancel in a period." },
+      { "term": "Free to paid conversion", "meaning": "The share of free users who start paying." },
+      { "term": "Moat", "meaning": "Something that makes it hard for rivals to copy a business." },
+      { "term": "North star metric", "meaning": "The one number that best shows the value a product gives users." }
+    ],
+    "assumptions": [
+      "Plan prices are from 2025 to 2026 public pricing and may have changed after the v6 launch.",
+      "Computing cost per song and per user are rough estimates.",
+      "Average revenue per payer is worked out from ARR divided by subscribers, not reported.",
+      "Terms of the Warner Music, BMG and Believe partnerships are not public."
+    ]
+  }
+}

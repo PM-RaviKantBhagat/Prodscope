@@ -1,0 +1,535 @@
+{
+  "company": "Stripe",
+  "domain": "stripe.com",
+  "website": "https://stripe.com",
+  "sources": [
+    "https://stripe.com/newsroom/news/stripe-2025-update",
+    "https://techcrunch.com/2026/02/24/stripes-valuation-soars-74-to-159-billion/",
+    "https://www.fxcintel.com/research/analysis/stripe-annual-letter-2025",
+    "https://sacra.com/c/stripe/",
+    "https://thedigitalmerchant.com/?p=70896",
+    "https://capterra.com/p/123889/Stripe/reviews/"
+  ],
+  "report": {
+    "company": "Stripe",
+    "tagline": "Payment tools that let any business, from a one-person startup to Amazon, accept money online with a few lines of code.",
+    "category": "Payments infrastructure",
+    "simpleSummary": "When you pay on a website or app, the payment often runs through Stripe, even if you never see its name. Businesses add Stripe with some code, and it handles cards, wallets, bank transfers and fraud checks. Stripe takes a small cut of each payment, about 2.9% plus 30 cents in the US. It also sells billing, tax, invoicing and company setup tools.",
+    "keyNumbers": [
+      {
+        "label": "Total payment volume, 2025",
+        "value": "$1.9 trillion",
+        "note": "Stripe 2025 annual letter, February 2026. Up 34% from 2024, about 1.6% of world GDP."
+      },
+      {
+        "label": "Valuation",
+        "value": "$159 billion",
+        "note": "Employee tender offer, February 2026 (TechCrunch, Stripe). Up 74% from about $91.5 billion a year earlier."
+      },
+      {
+        "label": "Businesses using Stripe",
+        "value": "More than 5 million",
+        "note": "Stripe 2025 annual letter, directly or through platforms like Shopify."
+      },
+      {
+        "label": "Net revenue, 2025",
+        "value": "About $6 to $7 billion (estimate)",
+        "note": "Our estimate. Stripe is private and does not publish revenue; outside estimates (e.g. Sacra) put 2024 near $5 billion. Stripe says it was 'robustly profitable' in 2025."
+      },
+      {
+        "label": "Revenue suite (Billing, Tax, Invoicing)",
+        "value": "On track for $1 billion a year",
+        "note": "Stripe 2025 annual letter."
+      },
+      {
+        "label": "Stablecoin payment volume",
+        "value": "About $400 billion in 2025",
+        "note": "Stripe letter. Doubled in a year; Stripe owns stablecoin firm Bridge and wallet firm Privy."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Stripe lets businesses accept and send money online in over 135 currencies. Developers add Stripe's code (its API) to a website or app, and Stripe takes care of talking to card networks, banks, wallets and fraud checks. It then sells extra tools, such as subscription billing, tax, invoicing, company formation (Atlas) and now payments for AI agents.",
+      "howItWorks": [
+        "A business signs up online and gets test keys right away, no sales call needed.",
+        "Developers add Stripe Checkout or Payment Element with a few lines of code.",
+        "When a customer pays, Stripe checks for fraud with Radar, sends the payment to the card network and bank, and pays the business out in 2 days or so.",
+        "Stripe keeps a fee per payment, typically 2.9% plus 30 cents for US cards.",
+        "Businesses add products like Billing for subscriptions, Tax, Connect for marketplaces, and Terminal for in-person payments.",
+        "Large firms negotiate custom, lower rates."
+      ],
+      "valueProposition": "For developers: the fastest, cleanest way to start taking money, with great docs. For businesses: one partner for payments worldwide that grows with them. For Stripe: a small cut of a huge and fast-growing flow of money."
+    },
+    "personas": [
+      {
+        "name": "Startup founder and developer",
+        "description": "A two-person SaaS startup in Bengaluru or Berlin selling to US customers.",
+        "goals": [
+          "Take payments in a day",
+          "Run monthly subscriptions",
+          "Incorporate in the US via Atlas"
+        ],
+        "frustrations": [
+          "Fees feel high on small payments",
+          "Fear of the account being frozen"
+        ]
+      },
+      {
+        "name": "Platform or marketplace PM",
+        "description": "A product manager at a marketplace that pays thousands of sellers.",
+        "goals": [
+          "Onboard sellers fast",
+          "Split payments and handle payouts"
+        ],
+        "frustrations": [
+          "Complex rules for seller identity checks"
+        ]
+      },
+      {
+        "name": "Enterprise finance head",
+        "description": "Head of payments at a large retailer or AI company.",
+        "goals": [
+          "Higher payment approval rates",
+          "Lower cost per transaction",
+          "Global coverage"
+        ],
+        "frustrations": [
+          "Wants deep reporting and lower negotiated rates"
+        ]
+      },
+      {
+        "name": "AI company building agents",
+        "description": "An AI startup selling usage-based plans and letting agents buy things.",
+        "goals": [
+          "Charge per use",
+          "Let AI agents pay safely"
+        ],
+        "frustrations": [
+          "Billing for usage is hard to build alone"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Old payment providers needed weeks of paperwork and bank meetings.",
+        "howSolved": "Sign up online and start in minutes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Payments code was hard to build and maintain.",
+        "howSolved": "Clean API and excellent documentation.",
+        "severity": "high"
+      },
+      {
+        "pain": "Selling abroad meant many local providers.",
+        "howSolved": "One integration for 135+ currencies and many local methods like UPI-style wallets and bank transfers.",
+        "severity": "high"
+      },
+      {
+        "pain": "Fraud and chargebacks cost money.",
+        "howSolved": "Radar uses data from millions of businesses to block fraud.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Subscription billing and sales tax are complex.",
+        "howSolved": "Stripe Billing and Stripe Tax handle them.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Payments API and Checkout",
+        "whatItDoes": "Accepts cards, wallets and local methods online.",
+        "whyItMatters": "The core money maker."
+      },
+      {
+        "feature": "Connect",
+        "whatItDoes": "Lets platforms like Shopify, Lyft and Substack pay out to sellers and creators.",
+        "whyItMatters": "Brings millions of small businesses through platforms."
+      },
+      {
+        "feature": "Billing",
+        "whatItDoes": "Runs subscriptions and usage-based pricing.",
+        "whyItMatters": "Part of the $1 billion revenue suite; key for SaaS and AI firms."
+      },
+      {
+        "feature": "Radar",
+        "whatItDoes": "Machine learning fraud checks on each payment.",
+        "whyItMatters": "Cuts losses and raises approval rates."
+      },
+      {
+        "feature": "Atlas",
+        "whatItDoes": "Sets up a US company for founders anywhere.",
+        "whyItMatters": "25% of new Delaware companies are formed with Atlas, bringing new businesses early."
+      },
+      {
+        "feature": "Agentic Commerce Suite",
+        "whatItDoes": "Lets AI agents like ChatGPT buy from merchants, with Shared Payment Tokens.",
+        "whyItMatters": "Positions Stripe for shopping done by AI."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Startup takes first payment",
+        "persona": "Startup founder and developer",
+        "steps": [
+          {
+            "step": "Signs up",
+            "detail": "Creates an account and gets test API keys."
+          },
+          {
+            "step": "Reads docs",
+            "detail": "Copies sample code for Checkout."
+          },
+          {
+            "step": "Tests",
+            "detail": "Uses test card numbers."
+          },
+          {
+            "step": "Activates",
+            "detail": "Adds business and bank details."
+          },
+          {
+            "step": "Goes live",
+            "detail": "First customer pays $49."
+          },
+          {
+            "step": "Adds Billing",
+            "detail": "Turns on monthly subscriptions."
+          }
+        ]
+      },
+      {
+        "name": "Marketplace onboards sellers",
+        "persona": "Platform or marketplace PM",
+        "steps": [
+          {
+            "step": "Integrates Connect",
+            "detail": "Chooses how sellers are onboarded."
+          },
+          {
+            "step": "Sellers sign up",
+            "detail": "Stripe-hosted forms collect ID."
+          },
+          {
+            "step": "Customer pays",
+            "detail": "Money is split between platform and seller."
+          },
+          {
+            "step": "Payout",
+            "detail": "Sellers get paid on a schedule."
+          },
+          {
+            "step": "Reporting",
+            "detail": "Platform sees fees earned."
+          }
+        ]
+      },
+      {
+        "name": "Enterprise moves to Stripe",
+        "persona": "Enterprise finance head",
+        "steps": [
+          {
+            "step": "Talks to sales",
+            "detail": "Gets a custom rate and approval-rate pitch."
+          },
+          {
+            "step": "Tests a market",
+            "detail": "Routes some traffic to compare approvals."
+          },
+          {
+            "step": "Expands",
+            "detail": "Moves more countries."
+          },
+          {
+            "step": "Adds products",
+            "detail": "Uses Tax, Billing and Radar."
+          },
+          {
+            "step": "Reviews",
+            "detail": "Checks cost and approval gains quarterly."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Stripe earns a small percentage of every payment it handles, plus fees for extra tools. Its gross take is around 2% to 3% of volume for small firms and far less for big ones; after paying card networks and banks, it keeps a much smaller slice.",
+      "revenueStreams": [
+        {
+          "stream": "Payment processing fees",
+          "detail": "Typically 2.9% plus 30 cents per US card payment; extra for international cards and currency conversion."
+        },
+        {
+          "stream": "Revenue and finance tools",
+          "detail": "Billing, Tax, Invoicing and Revenue Recognition, on track for $1 billion a year."
+        },
+        {
+          "stream": "Connect and payouts",
+          "detail": "Fees from platforms for each active seller account and payout."
+        },
+        {
+          "stream": "Fraud, Terminal, Atlas and others",
+          "detail": "Radar for Fraud Teams, in-person card readers, $500 Atlas company setup."
+        },
+        {
+          "stream": "Stablecoins and crypto",
+          "detail": "Fees through Bridge and stablecoin payments."
+        }
+      ],
+      "pricing": "Standard US pricing: 2.9% plus 30 cents per successful card charge; extra 1.5% for international cards and 1% for currency conversion. Billing from 0.7% of billing volume. Atlas: $500 one time. Custom pricing for large firms.",
+      "costDrivers": [
+        "Interchange paid to card-issuing banks (the largest cost)",
+        "Card network fees to Visa and Mastercard",
+        "Engineering and product staff",
+        "Fraud losses and risk teams",
+        "Sales teams for enterprise"
+      ],
+      "unitEconomics": "On a $100 US card payment, a small business pays Stripe about $3.20. Stripe passes roughly $2.00 to $2.30 to the card-issuing bank and card network, and keeps around $0.90 to $1.20 before its own costs. On big clients with custom rates, Stripe may keep only 0.2% to 0.5%, but on huge volume. Extra tools like Billing and Tax have far higher margins because they are mostly software."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Developers find it through docs, GitHub and word of mouth",
+        "Platforms like Shopify and Substack bring their merchants",
+        "Atlas brings founders at company birth",
+        "Enterprise sales for big firms and AI companies"
+      ],
+      "whatBringsUsersBack": [
+        "Every payment flows through Stripe automatically",
+        "New products (Tax, Billing, Radar) added on the same account",
+        "Customers grow and so does their Stripe volume"
+      ],
+      "moat": "Stripe's moat is switching cost plus data. Once payments, billing and payouts are built on Stripe, moving is a big engineering project. Its fraud models learn from millions of businesses, which a smaller rival cannot match."
+    },
+    "competitors": [
+      {
+        "name": "Adyen",
+        "positioning": "Dutch payments platform focused on large enterprises with one global system.",
+        "howThisProductDiffers": "Stripe wins startups and developers first; Adyen wins many big retailers."
+      },
+      {
+        "name": "PayPal and Braintree",
+        "positioning": "Consumer wallet plus merchant processing.",
+        "howThisProductDiffers": "Stripe is developer-first and has more add-on tools."
+      },
+      {
+        "name": "Checkout.com",
+        "positioning": "Enterprise payments, strong in Europe and the Middle East.",
+        "howThisProductDiffers": "Stripe has a bigger product suite and small business base."
+      },
+      {
+        "name": "Razorpay",
+        "positioning": "India's leading online payment gateway.",
+        "howThisProductDiffers": "Stripe stopped onboarding new Indian businesses for domestic payments in 2024; Razorpay owns UPI-led local payments."
+      },
+      {
+        "name": "Square (Block)",
+        "positioning": "In-person payments for small shops.",
+        "howThisProductDiffers": "Stripe is mostly online and platform-based."
+      }
+    ],
+    "northStar": {
+      "metric": "Total payment volume processed for businesses",
+      "why": "Every dollar processed is a sale a business made with Stripe's help. It grows when businesses on Stripe grow, which ties Stripe's success to its customers'."
+    },
+    "kpiTree": [
+      {
+        "metric": "New businesses going live",
+        "description": "Businesses that take their first live payment.",
+        "children": [
+          {
+            "metric": "Sign-up to first payment time",
+            "description": "How fast a developer gets live."
+          },
+          {
+            "metric": "Atlas companies formed",
+            "description": "Founders starting on Stripe."
+          }
+        ]
+      },
+      {
+        "metric": "Volume per business",
+        "description": "How much each business processes.",
+        "children": [
+          {
+            "metric": "Payment approval rate",
+            "description": "Share of payments that go through."
+          },
+          {
+            "metric": "Checkout conversion",
+            "description": "Share of shoppers who finish paying."
+          },
+          {
+            "metric": "International volume share",
+            "description": "Sales to new countries."
+          }
+        ]
+      },
+      {
+        "metric": "Products per business",
+        "description": "Businesses using two or more Stripe products.",
+        "children": [
+          {
+            "metric": "Billing adoption",
+            "description": "Share using subscriptions."
+          },
+          {
+            "metric": "Tax adoption",
+            "description": "Share using Stripe Tax."
+          }
+        ]
+      },
+      {
+        "metric": "Retention of businesses",
+        "description": "Share of volume that stays each year.",
+        "children": [
+          {
+            "metric": "Enterprise churn",
+            "description": "Large clients moving volume to Adyen or others."
+          },
+          {
+            "metric": "Wrongful freeze rate",
+            "description": "Good accounts paused by risk systems."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Fraud loss rate",
+      "Uptime of the payments API",
+      "Share of good businesses wrongly frozen",
+      "Support response time"
+    ],
+    "strengths": [
+      "Best-in-class developer experience and documentation",
+      "Huge scale: $1.9 trillion volume and over 5 million businesses",
+      "Strong with AI companies and new startups",
+      "Profitable with many add-on products"
+    ],
+    "weaknesses": [
+      "Small merchants find fees high",
+      "Account freezes and fund holds with slow support",
+      "Less strong than Adyen in some large enterprise deals",
+      "Limited in India's domestic market"
+    ],
+    "risks": [
+      "Price competition for big clients",
+      "Regulation on card fees and stablecoins",
+      "Slower online spending in a downturn",
+      "Real-time bank payments (like UPI or FedNow) cutting card use"
+    ],
+    "userComplaints": [
+      "Accounts frozen or funds held for weeks with little explanation",
+      "Hard to reach a human in support",
+      "Fees too high for small, low-margin sellers",
+      "Chargeback disputes feel weighted against merchants"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Clear risk review timeline with named reasons and a human appeal for any hold over $5,000",
+        "problem": "Merchants panic when funds are held with no explanation.",
+        "expectedImpact": "Higher trust and lower churn of small businesses.",
+        "metricToTrack": "Wrongful freeze rate and merchant churn after a hold",
+        "effort": "medium"
+      },
+      {
+        "idea": "Volume-based discounts shown automatically to growing small businesses",
+        "problem": "Small sellers think fees are too high and leave.",
+        "expectedImpact": "Keeps fast-growing merchants before they shop around.",
+        "metricToTrack": "Retention of merchants above $1 million yearly volume",
+        "effort": "low"
+      },
+      {
+        "idea": "Agent checkout analytics for merchants",
+        "problem": "Merchants do not know how AI-agent sales perform.",
+        "expectedImpact": "More merchants join the Agentic Commerce Suite.",
+        "metricToTrack": "Agent-initiated payment volume",
+        "effort": "medium"
+      },
+      {
+        "idea": "Smart chargeback helper that drafts evidence automatically",
+        "problem": "Merchants lose disputes and money.",
+        "expectedImpact": "Higher dispute win rate.",
+        "metricToTrack": "Dispute win rate",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Developers can be your buyers: Stripe won by making the first five minutes great for engineers.",
+      "Grow with customers: a small startup today can be a $1 billion merchant later, so make it easy to start.",
+      "Add-on products on the same account raise revenue per customer more cheaply than finding new customers.",
+      "Risk systems protect the business, but false alarms hurt good customers, so measure both."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you improve Stripe for small businesses?",
+        "hint": "Segment small businesses, pick top pain (freezes, fees, support), propose fixes and metrics."
+      },
+      {
+        "question": "What is Stripe's north star metric and why?",
+        "hint": "Total payment volume; explain how it ties to customer growth and break it into drivers."
+      },
+      {
+        "question": "How should Stripe compete with Adyen for large enterprises?",
+        "hint": "Compare approval rates, pricing, global coverage, add-on products and support."
+      },
+      {
+        "question": "Design a payment product for AI agents.",
+        "hint": "Think about trust, spending limits, identity, merchant acceptance and fraud."
+      },
+      {
+        "question": "Estimate Stripe's yearly revenue.",
+        "hint": "Volume times blended take rate, minus pass-through costs; state assumptions."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "API",
+        "meaning": "A way for software to talk to another service using code."
+      },
+      {
+        "term": "Interchange",
+        "meaning": "The fee paid to the customer's card-issuing bank on each card payment."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of each payment a company keeps as its fee."
+      },
+      {
+        "term": "Chargeback",
+        "meaning": "When a customer disputes a card payment and the bank takes the money back from the merchant."
+      },
+      {
+        "term": "Stablecoin",
+        "meaning": "A crypto coin meant to stay at a fixed value, like one US dollar."
+      },
+      {
+        "term": "Tender offer",
+        "meaning": "A deal where investors buy shares from employees and others at a set price."
+      },
+      {
+        "term": "Switching cost",
+        "meaning": "The time, money and effort needed to move to a competitor."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Customers who stop using a product."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "SaaS",
+        "meaning": "Software as a service, software you pay for monthly online."
+      }
+    ],
+    "assumptions": [
+      "Stripe's 2025 net revenue is our estimate; the company does not publish it.",
+      "The $100 payment split is an approximation of US interchange and network costs.",
+      "Enterprise take rates of 0.2% to 0.5% are rough industry estimates."
+    ]
+  }
+}

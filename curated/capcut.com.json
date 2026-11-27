@@ -1,0 +1,504 @@
+{
+  "company": "CapCut",
+  "domain": "capcut.com",
+  "website": "https://capcut.com",
+  "sources": [
+    "https://dev.to/jondavis/capcut-in-2026-a-developers-guide-to-the-ban-status-data-risks-and-migration-paths-16pj",
+    "https://www.digitalcameraworld.com/tech/social-media/capcuts-new-terms-of-service-are-angering-the-internet-and-so-confusing-that-video-editors-are-asking-chatgpt-to-decipher-them",
+    "https://www.techradar.com/pro/popular-video-editing-app-capcut-wants-to-use-any-content-you-produce-for-free-forever-heres-what-you-should-know",
+    "https://appfigures.com/resources/insights/20240802/amp?f=3",
+    "https://www.sikayetvar.com/en/capcut-us/capcut-locked-everything-behind-pronow-we-cant-use-basic-features",
+    "https://expandedramblings.com/index.php/capcut",
+    "https://3dnews.ru/1125640/v-ssha-poyavitsya-ne-tolko-svoy-tiktok-no-i-capcut"
+  ],
+  "report": {
+    "company": "CapCut",
+    "tagline": "ByteDance's video editing app that makes it easy to cut, caption and add effects to short videos for TikTok, Reels and Shorts.",
+    "category": "Video editing",
+    "simpleSummary": "CapCut is a free phone and computer app for editing videos. You drop in clips, and it helps you trim them, add music, auto-captions, filters and trendy templates in a few taps. It is made by ByteDance, the company behind TikTok, so it is built for making TikTok-style videos. Many features now need a paid Pro plan, and the app is banned in India since 2020.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users",
+        "value": "500 million or more",
+        "note": "Third-party estimates in 2026; ByteDance does not publish CapCut user numbers. Treat as approximate."
+      },
+      {
+        "label": "India status",
+        "value": "Banned since June 2020",
+        "note": "Blocked with TikTok and 58 other Chinese apps after the India-China border clash."
+      },
+      {
+        "label": "US status, 2026",
+        "value": "Available, still under review",
+        "note": "Briefly offline in January 2025 under the US law targeting ByteDance apps; restored by executive order. 2026 reports discuss a US-specific CapCut alongside the US TikTok joint venture."
+      },
+      {
+        "label": "Pro price (US)",
+        "value": "Roughly $10 to $20 a month, cheaper yearly",
+        "note": "Approximate. Prices rose several times since 2024 and vary by store and country."
+      },
+      {
+        "label": "EU data fine on ByteDance",
+        "value": "€530 million (May 2025)",
+        "note": "Irish regulator's GDPR fine on TikTok for sending EU data to China; it shows the privacy risk around ByteDance apps."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "CapCut lets anyone edit short videos on a phone, browser or desktop, with AI tools like auto-captions, background removal and templates. It is free to start, and makes money from a Pro subscription that unlocks more effects, AI tools, storage and no watermark. It also helps ByteDance by making it easy to post more videos to TikTok.",
+      "howItWorks": [
+        "Users import clips and edit on a timeline: cut, split, speed up and add transitions.",
+        "Templates let users drop their own clips into a trending edit with music in one tap.",
+        "AI tools add auto-captions, remove backgrounds, enhance voice and translate.",
+        "Users export in high quality or share straight to TikTok.",
+        "Pro plan unlocks premium effects, fonts, AI features and more cloud storage.",
+        "In China, ByteDance runs a separate app called Jianying."
+      ],
+      "valueProposition": "For creators: professional-looking short videos fast, without learning complex software. For ByteDance: more and better content on TikTok, and subscription income."
+    },
+    "personas": [
+      {
+        "name": "The everyday creator",
+        "description": "A 19-year-old in London who posts TikToks and Reels several times a week.",
+        "goals": [
+          "Make trendy edits quickly",
+          "Add captions automatically"
+        ],
+        "frustrations": [
+          "Basic features moved behind Pro",
+          "Price increases"
+        ]
+      },
+      {
+        "name": "The small business marketer",
+        "description": "A 32-year-old who runs a bakery's social media in Manchester.",
+        "goals": [
+          "Make product videos fast",
+          "Look professional on a budget"
+        ],
+        "frustrations": [
+          "Worries about who owns uploaded content after the 2025 terms change",
+          "Paying another subscription"
+        ]
+      },
+      {
+        "name": "The YouTube creator",
+        "description": "A 26-year-old in the US who edits long YouTube videos on CapCut desktop.",
+        "goals": [
+          "Fast editing with AI tools",
+          "Cheaper than Adobe Premiere"
+        ],
+        "frustrations": [
+          "Fear of a US ban",
+          "Export or feature limits on free"
+        ]
+      },
+      {
+        "name": "The ex-Indian user",
+        "description": "A 23-year-old in Pune who used CapCut before 2020 and now uses InShot or Instagram Edits.",
+        "goals": [
+          "Get CapCut-style templates",
+          "Edit Reels on a phone"
+        ],
+        "frustrations": [
+          "App is banned in India",
+          "Alternatives have fewer templates"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Professional editing software is hard to learn and expensive.",
+        "howSolved": "Simple timeline editing and templates on a phone, free to start.",
+        "severity": "high"
+      },
+      {
+        "pain": "Adding captions by hand takes hours.",
+        "howSolved": "Auto-captions in many languages in seconds.",
+        "severity": "high"
+      },
+      {
+        "pain": "Keeping up with trending edits is hard.",
+        "howSolved": "Templates linked to TikTok trends.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Removing backgrounds or noise needs special tools.",
+        "howSolved": "AI background removal and voice enhancement.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Moving edits between phone and computer is clumsy.",
+        "howSolved": "Cloud projects work across phone, web and desktop.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Templates",
+        "whatItDoes": "Ready-made edits with music and effects; users add their own clips.",
+        "whyItMatters": "Turns non-editors into creators, feeding TikTok."
+      },
+      {
+        "feature": "Auto-captions",
+        "whatItDoes": "Transcribes speech and adds styled captions.",
+        "whyItMatters": "Saves hours and makes videos watchable without sound."
+      },
+      {
+        "feature": "AI tools",
+        "whatItDoes": "Background removal, AI avatars, script-to-video, voice changing and translation.",
+        "whyItMatters": "Main reason to pay for Pro."
+      },
+      {
+        "feature": "Desktop and web editor",
+        "whatItDoes": "Full timeline editing on computers.",
+        "whyItMatters": "Competes with Premiere Pro for longer videos."
+      },
+      {
+        "feature": "Direct share to TikTok",
+        "whatItDoes": "Exports straight to TikTok with linked templates.",
+        "whyItMatters": "Keeps creators inside ByteDance's system."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First edit with a template",
+        "persona": "The everyday creator",
+        "steps": [
+          {
+            "step": "Sees a trend",
+            "detail": "A TikTok shows a 'CapCut template' tag."
+          },
+          {
+            "step": "Taps the link",
+            "detail": "Opens the template in CapCut."
+          },
+          {
+            "step": "Adds clips",
+            "detail": "Picks 8 clips from her camera roll."
+          },
+          {
+            "step": "Previews",
+            "detail": "The app syncs clips to the beat."
+          },
+          {
+            "step": "Exports",
+            "detail": "Exports and posts to TikTok."
+          },
+          {
+            "step": "Comes back",
+            "detail": "Returns for the next trend."
+          }
+        ]
+      },
+      {
+        "name": "Hitting the Pro paywall",
+        "persona": "The small business marketer",
+        "steps": [
+          {
+            "step": "Edits product video",
+            "detail": "Adds clips and music."
+          },
+          {
+            "step": "Wants an effect",
+            "detail": "Picks a font and AI enhance marked 'Pro'."
+          },
+          {
+            "step": "Sees paywall",
+            "detail": "Asked to start a Pro trial."
+          },
+          {
+            "step": "Compares",
+            "detail": "Checks Canva and InShot prices."
+          },
+          {
+            "step": "Decides",
+            "detail": "Pays monthly, or removes Pro elements to export free."
+          }
+        ]
+      },
+      {
+        "name": "Long-form desktop editing",
+        "persona": "The YouTube creator",
+        "steps": [
+          {
+            "step": "Installs desktop",
+            "detail": "Downloads CapCut for Mac."
+          },
+          {
+            "step": "Imports footage",
+            "detail": "Imports an hour of footage."
+          },
+          {
+            "step": "Auto-cuts",
+            "detail": "Uses AI to remove silences."
+          },
+          {
+            "step": "Adds captions",
+            "detail": "Generates captions."
+          },
+          {
+            "step": "Exports",
+            "detail": "Exports in 4K and uploads to YouTube."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "CapCut makes money from Pro subscriptions, and some from business tools. It also has strategic value for ByteDance: easier editing means more and better TikTok videos, which means more ad money on TikTok.",
+      "revenueStreams": [
+        {
+          "stream": "CapCut Pro subscriptions",
+          "detail": "Monthly or yearly plans that unlock premium effects, AI tools and storage."
+        },
+        {
+          "stream": "Business and team plans",
+          "detail": "Plans for marketing teams with shared assets and commercial tools."
+        },
+        {
+          "stream": "Indirect TikTok value",
+          "detail": "More content on TikTok drives more viewing and ads, the main value to ByteDance."
+        }
+      ],
+      "pricing": "Free with limits. Pro is roughly $10 to $20 a month in the US, with discounts for yearly plans; prices differ by country and app store.",
+      "costDrivers": [
+        "AI computing for captions, effects and generation",
+        "Music and asset licensing",
+        "Cloud storage",
+        "Engineering staff",
+        "App store fees"
+      ],
+      "unitEconomics": "A free user costs CapCut some computing for AI features but brings indirect value by posting to TikTok. A Pro user paying about $10 a month gives about $7 to $8 after app store fees. The heavy cost is AI features, which is one reason CapCut moved more of them behind Pro. A free user making 10 TikToks a month creates far more value for ByteDance's ad business than CapCut's own subscription money."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "TikTok template links and 'Edited with CapCut' tags",
+        "App store search for 'video editor'",
+        "Word of mouth among creators",
+        "YouTube tutorials"
+      ],
+      "whatBringsUsersBack": [
+        "New templates every day tied to trends",
+        "Saved projects in the cloud",
+        "Need to post regularly on social media"
+      ],
+      "moat": "CapCut is linked to TikTok's trends and templates, which other editors cannot match. Its huge user base gives ByteDance data on what edits work. But simple editing is easy to copy, and Meta launched Edits to compete."
+    },
+    "competitors": [
+      {
+        "name": "Instagram Edits",
+        "positioning": "Meta's free video editor for Reels, launched in 2025.",
+        "howThisProductDiffers": "CapCut has more templates and AI tools; Edits is free and Meta-backed."
+      },
+      {
+        "name": "InShot",
+        "positioning": "Simple mobile editor, popular in India.",
+        "howThisProductDiffers": "CapCut has more effects and AI; InShot is allowed in India."
+      },
+      {
+        "name": "Adobe Premiere Pro and Premiere Rush",
+        "positioning": "Professional editing software.",
+        "howThisProductDiffers": "CapCut is easier and cheaper; Adobe is more powerful."
+      },
+      {
+        "name": "Canva Video",
+        "positioning": "Design tool with video editing.",
+        "howThisProductDiffers": "CapCut is built for short video trends; Canva for design and marketing."
+      },
+      {
+        "name": "DaVinci Resolve",
+        "positioning": "Free professional editor.",
+        "howThisProductDiffers": "CapCut is simpler and mobile-first."
+      }
+    ],
+    "northStar": {
+      "metric": "Videos exported per week",
+      "why": "As a north star metric, exports show users finished a video, the real value. It also feeds TikTok and other platforms."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active editors",
+        "description": "Users who edit each week.",
+        "children": [
+          {
+            "metric": "New installs from template links",
+            "description": "Users coming from TikTok."
+          },
+          {
+            "metric": "Week-1 retention",
+            "description": "New users who edit again."
+          }
+        ]
+      },
+      {
+        "metric": "Edits per user",
+        "description": "Projects started per user.",
+        "children": [
+          {
+            "metric": "Template use",
+            "description": "Edits using templates."
+          },
+          {
+            "metric": "AI feature use",
+            "description": "Edits using captions or AI tools."
+          }
+        ]
+      },
+      {
+        "metric": "Export rate",
+        "description": "Projects finished.",
+        "children": [
+          {
+            "metric": "Paywall drop-off",
+            "description": "Projects abandoned at Pro paywall."
+          },
+          {
+            "metric": "Export errors",
+            "description": "Failed exports."
+          }
+        ]
+      },
+      {
+        "metric": "Pro subscribers",
+        "description": "Paying users.",
+        "children": [
+          {
+            "metric": "Trial to paid",
+            "description": "Trials that convert."
+          },
+          {
+            "metric": "Monthly churn",
+            "description": "Pro users who cancel."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "App store rating",
+      "Complaints about terms of service and privacy",
+      "Paywall drop-off rate",
+      "Export failure rate"
+    ],
+    "strengths": [
+      "Huge user base and ties to TikTok",
+      "Strong AI tools and templates",
+      "Works on phone, web and desktop",
+      "Free to start"
+    ],
+    "weaknesses": [
+      "Many features moved behind Pro",
+      "Trust issues over terms and data",
+      "Banned in India",
+      "Depends on ByteDance's political issues"
+    ],
+    "risks": [
+      "US ban or forced changes",
+      "Privacy fines",
+      "Meta's Edits and other free editors",
+      "AI rivals that make videos from text"
+    ],
+    "userComplaints": [
+      "Basic features locked behind Pro",
+      "High and rising Pro prices",
+      "2025 terms of service seen as taking rights over user content",
+      "Watermarks and export limits",
+      "Privacy worries about a Chinese-owned app"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Publish a one-page, plain-English content ownership promise inside the app, and let business users opt out of their content being used for ads or AI training.",
+        "problem": "The 2025 terms of service made many creators and brands fear CapCut can use their videos forever.",
+        "expectedImpact": "Fewer business users leaving for Canva or Adobe, and better reviews.",
+        "metricToTrack": "Monthly churn among Pro business users",
+        "effort": "low"
+      },
+      {
+        "idea": "Keep auto-captions and basic fonts free forever, and move only heavy AI tools like AI avatars to Pro.",
+        "problem": "Users complain that basic features they used for years were moved behind Pro.",
+        "expectedImpact": "Higher retention of free users, who still feed TikTok with videos.",
+        "metricToTrack": "Week-4 retention of free users",
+        "effort": "low"
+      },
+      {
+        "idea": "A cheaper student and creator plan in the UK and US, paid yearly, with a price shown clearly before any trial.",
+        "problem": "Rising Pro prices push young creators to free tools like Instagram Edits.",
+        "expectedImpact": "More paying users at a lower price.",
+        "metricToTrack": "Trial-to-paid conversion",
+        "effort": "low"
+      },
+      {
+        "idea": "Export presets for TikTok, Reels and Shorts that set size, length and safe zones for captions in one tap.",
+        "problem": "Most creators post the same video to several apps and resize by hand.",
+        "expectedImpact": "Faster finishing and more exports per user.",
+        "metricToTrack": "Exports per active editor per week",
+        "effort": "low"
+      },
+      {
+        "idea": "Show a 'free version' of each Pro template, so users can finish their edit without paying.",
+        "problem": "Many projects are abandoned at the paywall.",
+        "expectedImpact": "More finished videos and a gentle path to Pro.",
+        "metricToTrack": "Paywall drop-off rate",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A tool can be most valuable for what it feeds. CapCut matters to ByteDance because it fills TikTok with better videos.",
+      "Taking away free features is risky. Users feel a loss more than a gain, so paywalls should cover new value, not old basics.",
+      "Trust is a feature. Unclear terms about who owns content can push users away even if the product is great.",
+      "Political risk is product risk. CapCut lost India overnight in 2020 and faced a US shutdown in 2025."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow CapCut Pro revenue without angering free users?",
+        "hint": "Segment users: casual creators, serious creators, businesses. Find what each will pay for, such as AI tools for businesses. Keep core editing free. Test prices and track churn and reviews as guardrails."
+      },
+      {
+        "question": "Meta launched Instagram Edits as a free rival. How should CapCut respond?",
+        "hint": "List CapCut's edges: templates tied to trends, AI tools, desktop editor. List Edits' edges: free, linked to Reels. Pick where to compete and what to ignore. Track weekly exports and share of Reels made in CapCut."
+      },
+      {
+        "question": "What should CapCut's north star metric be?",
+        "hint": "Compare installs, time in app and exports. Argue for exports, because a finished video is the value. Add guardrails like paywall drop-off."
+      },
+      {
+        "question": "How would you rebuild trust after the terms of service backlash?",
+        "hint": "Name the fear clearly: ownership of content. Propose a clear policy, in-app explanation and opt-outs. Measure trust through reviews, survey scores and business churn."
+      },
+      {
+        "question": "CapCut is banned in India. What can a PM learn from this, and what would you do if you ran a rival there?",
+        "hint": "Explain how political risk can remove a market overnight. As a rival like InShot, target ex-CapCut users with templates, Hindi captions and Reels presets. Track installs and weekly exports."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Paywall",
+        "meaning": "A point where users must pay to use a feature."
+      },
+      {
+        "term": "Template",
+        "meaning": "A ready-made edit where users swap in their own clips."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of paying users who cancel in a period."
+      },
+      {
+        "term": "GDPR",
+        "meaning": "The EU law that protects people's personal data."
+      }
+    ],
+    "assumptions": [
+      "User numbers are third-party estimates.",
+      "Pro prices are approximate.",
+      "US status may change.",
+      "Pro revenue is not public."
+    ]
+  }
+}

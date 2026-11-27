@@ -1,0 +1,262 @@
+{
+ "company": "Instacart",
+ "domain": "instacart.com",
+ "website": "https://instacart.com",
+ "sources": [
+  "https://ppc.land/instacart-ad-revenue-gains-23-to-331m-in-quarter-before-doordash-deal/",
+  "https://finviz.com/news/411334/instacart-announces-third-quarter-2026-financial-results",
+  "https://www.mediapost.com/publications/article/419081/doordash-to-acquire-instacart-for-17b-consolidat.html",
+  "https://zacks.com/stock/news/3020832/cart-q3-earnings-miss-revenues-beat-doordash-deal-takes-focus",
+  "https://www.panabee.com/news/instacart-reports-15-gtv-growth-as-doordash-reaches-17-billion-acquisition-agreement"
+ ],
+ "report": {
+  "company": "Instacart",
+  "tagline": "A US grocery delivery app where personal shoppers pick your order from stores like Costco, Kroger and Safeway and bring it to your door.",
+  "category": "Grocery delivery",
+  "simpleSummary": "Instacart does not own any stores or warehouses. You pick a store you already like in the app, add items, and a shopper walks that store, fills your cart and drives it to you, often within an hour or two. Instacart earns from your fees, from the stores that partner with it, and more and more from brands that pay for ads inside the app. In October 2026 DoorDash agreed to buy it for about $17 billion.",
+  "keyNumbers": [
+   {"label": "Orders, July to September 2026", "value": "91.4 million, up 10%", "note": "Instacart Q3 2026 results, October 2026."},
+   {"label": "Gross transaction value (GTV), Q3 2026", "value": "$10.5 billion, up 15%", "note": "Company results. GTV is the total value of goods ordered."},
+   {"label": "Revenue, Q3 2026", "value": "$1.10 billion, up 17%; $764 million from transactions and $331 million from ads and other", "note": "Company results."},
+   {"label": "Net income, Q3 2026", "value": "$147 million; adjusted EBITDA $342 million", "note": "Company results."},
+   {"label": "Reach", "value": "More than 2,200 retail banners and nearly 100,000 stores", "note": "Company figures, 2026."},
+   {"label": "DoorDash deal", "value": "$65 per share, about $17 billion, expected to close end of 2027 or first half of 2028", "note": "Merger agreement announced 29 October 2026; needs antitrust approval."}
+  ],
+  "overview": {
+   "whatItDoes": "Instacart is a grocery marketplace that partners with existing retailers instead of owning inventory. Founded in 2012 by Apoorva Mehta and listed on Nasdaq in 2023 as Maplebear (CART), it is run by CEO Chris Rogers. Besides the consumer app, it sells technology to grocers: online store software, smart shopping carts and an ad platform.",
+   "howItWorks": [
+    "You choose a store near you, browse its items and prices in the app, and pay Instacart.",
+    "A gig shopper gets the order, shops it in the store, messages you about replacements, pays with an Instacart card, and delivers.",
+    "Some retailers pick orders with their own staff and use Instacart only for delivery or software.",
+    "Brands like PepsiCo or General Mills buy sponsored spots in search and on shelves inside the app.",
+    "Instacart+ members pay a yearly or monthly fee for $0 delivery on larger orders.",
+    "Retailers can also license Instacart's tech (Storefront Pro, Caper Carts, Carrot Ads) for their own websites and stores."
+   ],
+   "valueProposition": "For shoppers: your usual store, delivered, without the trip. For retailers: online sales and delivery without building it themselves. For brands: ads at the moment people are deciding what to buy."
+  },
+  "personas": [
+   {
+    "name": "Busy parent doing weekly shop",
+    "description": "A parent in a US suburb ordering $150 of groceries from Costco or Kroger each week.",
+    "goals": ["Save two hours a week", "Get the exact brands they use", "Reasonable total cost"],
+    "frustrations": ["Fees and item prices higher than in store", "Bad replacements or missing items"]
+   },
+   {
+    "name": "Older adult or person with limited mobility",
+    "description": "Someone who finds store trips hard and relies on delivery.",
+    "goals": ["Reliable delivery", "Use EBT/SNAP benefits", "Easy to use app"],
+    "frustrations": ["Changing prices and fees", "Shoppers picking poor produce"]
+   },
+   {
+    "name": "Regional grocery chain",
+    "description": "A mid-sized grocer that cannot build its own e-commerce and delivery network.",
+    "goals": ["Online sales without big tech cost", "Keep customer loyalty"],
+    "frustrations": ["Paying fees to Instacart", "Worry that Instacart, and now DoorDash, owns the customer"]
+   },
+   {
+    "name": "Consumer brand marketer",
+    "description": "A brand manager at a snack company buying ads.",
+    "goals": ["Show ads to people about to buy", "Measure sales from ads"],
+    "frustrations": ["Many retail ad networks to manage", "Proving ads caused the sale"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Grocery shopping takes hours each week", "howSolved": "Shoppers do the shopping and deliver in as little as an hour.", "severity": "high"},
+   {"pain": "Wanting your own store and brands, not a warehouse's limited range", "howSolved": "Shop from about 100,000 real stores, including Costco, Kroger, Publix and Aldi.", "severity": "high"},
+   {"pain": "Small grocers cannot build online shopping", "howSolved": "Instacart gives them app listings, websites and delivery as a service.", "severity": "high"},
+   {"pain": "Brands want to reach shoppers at the point of purchase", "howSolved": "Sponsored product ads inside the app and on retailer sites.", "severity": "medium"},
+   {"pain": "Low-income families need delivery with food benefits", "howSolved": "Many stores accept EBT SNAP payments through Instacart.", "severity": "medium"}
+  ],
+  "coreFeatures": [
+   {"feature": "Multi-store marketplace", "whatItDoes": "Browse and order from many local retailers in one app.", "whyItMatters": "Huge choice without owning any stock or stores."},
+   {"feature": "Shopper chat and replacements", "whatItDoes": "Shoppers suggest replacements and customers approve in real time.", "whyItMatters": "Out-of-stock items are the biggest quality problem in grocery delivery."},
+   {"feature": "Instacart+ membership", "whatItDoes": "$99 a year or $9.99 a month for $0 delivery on orders over $35 and lower service fees.", "whyItMatters": "Members order more often and stay longer."},
+   {"feature": "Instacart Ads (Carrot Ads for retailers)", "whatItDoes": "Brands pay for sponsored placements; retailers can run Instacart's ad tech on their own sites.", "whyItMatters": "About 30% of revenue and high margin; the main reason Instacart is profitable."},
+   {"feature": "Caper Carts and Storefront Pro", "whatItDoes": "Smart shopping carts that scan items in-store, and white-label online store software.", "whyItMatters": "Makes Instacart a tech partner to grocers, not only a delivery app."},
+   {"feature": "Fast delivery and pickup options", "whatItDoes": "Priority delivery in about 30 minutes in some areas, or scheduled windows and store pickup.", "whyItMatters": "Competes with DoorDash and Uber on speed."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Weekly grocery order",
+    "persona": "Busy parent doing weekly shop",
+    "steps": [
+     {"step": "Pick store", "detail": "Chooses Costco from the store list."},
+     {"step": "Buy it again", "detail": "Adds the usual items from past orders."},
+     {"step": "Set replacements", "detail": "Picks backup items or 'refund if out'."},
+     {"step": "Checkout", "detail": "Sees $0 delivery with Instacart+ and a service fee; adds a tip."},
+     {"step": "Chat with shopper", "detail": "Approves a replacement for an out-of-stock cereal."},
+     {"step": "Delivery", "detail": "Groceries left at the door with a photo."},
+     {"step": "Rate and report", "detail": "Rates shopper; reports a crushed item for credit."}
+    ]
+   },
+   {
+    "name": "Retailer goes online",
+    "persona": "Regional grocery chain",
+    "steps": [
+     {"step": "Sign partnership", "detail": "Agrees fees and whether Instacart shoppers or own staff pick."},
+     {"step": "Upload catalogue", "detail": "Shares item and price data."},
+     {"step": "Launch", "detail": "Store appears in the Instacart app and on its own Storefront site."},
+     {"step": "Turn on ads", "detail": "Uses Carrot Ads to earn from brands on its own website."},
+     {"step": "Track", "detail": "Monitors online share of sales and margin."}
+    ]
+   },
+   {
+    "name": "Brand runs an ad campaign",
+    "persona": "Consumer brand marketer",
+    "steps": [
+     {"step": "Set budget", "detail": "Plans spend for a new snack launch."},
+     {"step": "Choose placements", "detail": "Buys sponsored product spots on searches like 'chips'."},
+     {"step": "Launch", "detail": "Ads appear to likely buyers."},
+     {"step": "Measure", "detail": "Sees sales linked to ad views."},
+     {"step": "Optimise", "detail": "Shifts budget to the best-selling keywords."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Instacart takes a cut of each order through customer fees and retailer fees, and earns ad money from brands. It does not own stock, so it avoids warehouse costs but pays shoppers for each order.",
+   "revenueStreams": [
+    {"stream": "Transaction revenue", "detail": "Delivery fees, service fees, Instacart+ fees and retailer fees; $764 million in Q3 2026."},
+    {"stream": "Advertising and other", "detail": "Sponsored ads from brands and enterprise software; $331 million in Q3 2026."},
+    {"stream": "Enterprise tech", "detail": "Storefront Pro, Caper Carts and Carrot Ads licensed to retailers."}
+   ],
+   "pricing": "Delivery fees start around $3.99 for non-members on orders over $35; service fees are a percentage of the order; tips are extra. Instacart+ costs $99 a year or $9.99 a month. Item prices can be higher than in store depending on the retailer.",
+   "costDrivers": [
+    "Shopper pay for picking and delivering",
+    "Refunds and credits for missing or damaged items",
+    "Marketing and promotions",
+    "Engineering for apps, ads and retailer tools",
+    "Payment processing"
+   ],
+   "unitEconomics": "On an average order of about $115, Instacart's revenue is about $12: about $8.35 from fees and retailer cuts and about $3.60 from ads. The biggest cost is paying the shopper, but the ad money has very little cost. Adjusted EBITDA was $342 million on 91.4 million orders in Q3 2026, roughly $3.70 profit per order before some costs. Without ads, it would earn much less on each order."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Partnerships with big chains like Costco and Kroger that send customers to Instacart",
+    "Instacart+ trials and bundles with partners like Chase",
+    "SNAP/EBT support bringing low-income families online",
+    "Search ads and referrals"
+   ],
+   "whatBringsUsersBack": [
+    "Weekly grocery habit with 'Buy it again'",
+    "Instacart+ membership",
+    "Saved stores and replacement preferences",
+    "Coupons funded by brands"
+   ],
+   "moat": "Instacart has integrated with 2,200+ retail banners: their catalogues, prices and stock. That took a decade. It also has years of data on what people buy, which powers its ad business. Rivals can add grocery delivery, but rebuilding retailer trust and data is slow."
+  },
+  "competitors": [
+   {"name": "DoorDash", "positioning": "Largest US food delivery app, adding grocery; agreed to buy Instacart in 2026.", "howThisProductDiffers": "Instacart is grocery-first with deeper retailer integrations and bigger basket sizes."},
+   {"name": "Uber Eats", "positioning": "Food and grocery delivery bundled with rides through Uber One.", "howThisProductDiffers": "Instacart has more grocery partners and better shopper tools for big baskets."},
+   {"name": "Amazon Fresh and Whole Foods", "positioning": "Amazon's own grocery stock and Prime delivery.", "howThisProductDiffers": "Instacart works with many retailers; Amazon owns stock and stores."},
+   {"name": "Walmart+", "positioning": "Walmart's own delivery from its stores with membership.", "howThisProductDiffers": "Walmart is cheaper on prices; Instacart offers more store choice."}
+  ],
+  "northStar": {
+   "metric": "Grocery orders delivered complete and on time per week",
+   "why": "A complete, on-time order means the customer saved time and got what they wanted, the retailer made a sale, and the shopper earned. It drives repeat orders and ad value."
+  },
+  "kpiTree": [
+   {
+    "metric": "Active customers",
+    "description": "Customers ordering monthly.",
+    "children": [
+     {"metric": "New customer first orders", "description": "Growth from partnerships and ads."},
+     {"metric": "Instacart+ members", "description": "Members order more often."}
+    ]
+   },
+   {
+    "metric": "Orders per customer",
+    "description": "How often customers return.",
+    "children": [
+     {"metric": "Weekly repeat rate", "description": "Shows grocery habit."},
+     {"metric": "Restaurant and non-grocery orders", "description": "Extra uses increase frequency."}
+    ]
+   },
+   {
+    "metric": "Order quality",
+    "description": "Orders delivered as ordered.",
+    "children": [
+     {"metric": "Found rate", "description": "Share of items found in store; low rate means more replacements and refunds."},
+     {"metric": "Replacement approval rate", "description": "Shows if shoppers pick good alternatives."},
+     {"metric": "On-time delivery rate", "description": "Late orders hurt trust."}
+    ]
+   },
+   {
+    "metric": "Ad value per order",
+    "description": "Money from brands for each order.",
+    "children": [
+     {"metric": "Active advertisers", "description": "More brands bidding raises ad revenue."},
+     {"metric": "Ad click-to-purchase rate", "description": "Shows ads help shoppers find things, not annoy them."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Shopper earnings per hour",
+   "Customer complaints about fees and prices",
+   "Retailer churn",
+   "Share of search results that are ads"
+  ],
+  "strengths": [
+   "Profitable, with a fast-growing ad business ($331 million a quarter)",
+   "Deep partnerships with 2,200+ retail banners",
+   "Large average basket of about $115",
+   "No inventory or warehouse costs"
+  ],
+  "weaknesses": [
+   "Item prices and fees make it look expensive versus Walmart+ and Amazon",
+   "Order growth (10%) is slower than DoorDash",
+   "Dependence on a few very large retail partners",
+   "Uncertainty for staff, retailers and customers during a long merger review"
+  ],
+  "risks": [
+   "Antitrust review could block or delay the DoorDash deal until 2028",
+   "Big retailers like Kroger or Costco moving to rivals or building their own delivery",
+   "Gig worker classification laws",
+   "Regulators examining pricing and fee transparency"
+  ],
+  "userComplaints": [
+   "Prices in the app are higher than in the store, on top of fees",
+   "Wrong or poor replacements and missing items",
+   "Low-quality produce picked by shoppers",
+   "Shoppers say pay without tips is too low",
+   "Concerns that different users may see different prices"
+  ],
+  "improvementIdeas": [
+   {"idea": "Show an 'in-store price' label and a total price comparison per retailer", "problem": "Customers distrust prices and fees.", "expectedImpact": "More trust and higher conversion.", "metricToTrack": "Checkout conversion and fee-related complaints", "effort": "medium"},
+   {"idea": "Live shelf-stock prediction to warn before an item is likely out", "problem": "Out-of-stock items cause bad replacements.", "expectedImpact": "Higher found rate and fewer refunds.", "metricToTrack": "Found rate", "effort": "high"},
+   {"idea": "Produce quality guarantee with instant photo refund", "problem": "Bad produce is a top complaint.", "expectedImpact": "More produce in baskets and higher repeat rate.", "metricToTrack": "Produce share of basket", "effort": "low"},
+   {"idea": "Cap ad slots on the first screen of search results", "problem": "Too many ads can make finding items hard.", "expectedImpact": "Better shopping experience while keeping ad value.", "metricToTrack": "Search-to-add-to-cart rate and ad revenue per order", "effort": "low"}
+  ],
+  "pmLessons": [
+   "You can build a big business without owning inventory by partnering with those who do.",
+   "Ads can be a major revenue stream for a marketplace; Instacart's ad revenue is about 30% of the total and very profitable.",
+   "Partners can become rivals. Retailers want Instacart's help, but also want to own their customers.",
+   "Grocery quality is about the details: found rate and good replacements matter more than delivery speed."
+  ],
+  "interviewQuestions": [
+   {"question": "How would you grow Instacart's ad revenue without hurting user experience?", "hint": "Separate users, brands and retailers. Ideas: better targeting, ad caps, measuring relevance. Guardrail: search-to-cart rate."},
+   {"question": "Why would a grocer partner with Instacart instead of building its own delivery?", "hint": "Cost, time, tech, shopper supply, demand. Then the risks: data and customer ownership. Suggest how Instacart reduces those risks."},
+   {"question": "How should Instacart and DoorDash combine after the deal?", "hint": "Customers, shoppers/Dashers, retailers and ads. One app or two? Key risk: losing retailers. Metrics: grocery orders and retailer retention."},
+   {"question": "Found rate dropped 3 points. What do you do?", "hint": "Segment by retailer, store, category and time. Check stock data accuracy and shopper behaviour. Fix the biggest cause."},
+   {"question": "Pick a north star metric for Instacart.", "hint": "Complete, on-time orders per week. Break into active customers, frequency, quality and ad value."}
+  ],
+  "glossary": [
+   {"term": "marketplace", "meaning": "A platform that connects buyers and sellers and earns a cut of each sale."},
+   {"term": "inventory", "meaning": "Stock of goods a company owns and holds to sell."},
+   {"term": "GTV", "meaning": "Gross transaction value: the total value of all goods ordered on the platform."},
+   {"term": "gig", "meaning": "Short, flexible jobs paid per task, like one grocery order."},
+   {"term": "white-label", "meaning": "Software one company builds that another company uses under its own brand."},
+   {"term": "EBITDA", "meaning": "Earnings before interest, tax and accounting charges for wear of assets; a rough measure of operating profit."},
+   {"term": "antitrust", "meaning": "Laws that stop companies from becoming too dominant through mergers or unfair practices."},
+   {"term": "found rate", "meaning": "The share of ordered items that the shopper actually finds in the store."},
+   {"term": "churn", "meaning": "The share of customers or partners who stop using a product in a period."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Fee amounts and Instacart+ prices are typical published US levels and may vary.",
+   "Per-order profit is our rough calculation from quarterly totals.",
+   "Instacart+ member counts were not disclosed in our sources.",
+   "The deal was signed but not closed at the time of writing."
+  ]
+ }
+}

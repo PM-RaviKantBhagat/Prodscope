@@ -1,0 +1,501 @@
+{
+  "company": "Zerodha (Kite)",
+  "domain": "zerodha.com",
+  "website": "https://zerodha.com",
+  "sources": [
+    "https://inc42.com/buzz/zerodhas-bland-fy26-net-profit-up-a-mere-1-at-₹4238-cr-top-line-at-fy25-level/",
+    "https://inc42.com/features/zerodhas-diversification-clock-is-ticking/",
+    "https://www.businesstoday.in/markets/stocks/story/zerodha-17-5-million-clients-groww-16-9-million-how-retail-investing-built-billionaires-551500-2026-08-27",
+    "https://www.newkerala.com/news/a/kamath-says-zerodhas-focus-shifting-from-active-clients-366.htm",
+    "https://www.siasat.com/zerodhas-kite-app-goes-down-for-4th-time-in-4-straight-months-2966716",
+    "https://yourstory.com/2026/06/zerodha-capital-registers-44-rise-revenue",
+    "https://zerodha.com/z-connect/wp-content/uploads/2025/11/Website-Copy-of-RCA-06102025.pdf"
+  ],
+  "report": {
+    "company": "Zerodha (Kite)",
+    "tagline": "India's first big discount broker for stocks, bootstrapped and very profitable, known for free stock investing, the Kite trading app and the Varsity learning library.",
+    "category": "Investing",
+    "simpleSummary": "Zerodha is a stock broker you use through an app called Kite. Buying shares to hold is free, and trading charges a flat ₹20 per order. It never raised outside money and does almost no ads. People find it through word of mouth and its free lessons called Varsity, and it is one of India's most profitable startups.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, FY26",
+        "value": "About ₹8,500 crore",
+        "note": "Company figures reported by Inc42 and Motilal Oswal news, 2026. Flat versus FY25 after SEBI rules cut options trading."
+      },
+      {
+        "label": "Net profit, FY26",
+        "value": "About ₹4,240 to ₹4,280 crore",
+        "note": "Inc42 reported up about 1% on FY25 (₹4,237 crore). Reports differ slightly on the exact figure."
+      },
+      {
+        "label": "Clients",
+        "value": "About 1.75 crore",
+        "note": "Business Today, August 2026, said Zerodha has 17.5 million clients versus Groww's 16.9 million on that measure. Groww leads on NSE active clients. Treat as an estimate."
+      },
+      {
+        "label": "Outside funding raised",
+        "value": "₹0",
+        "note": "Zerodha has been bootstrapped since 2010; founders Nithin and Nikhil Kamath own most of it."
+      },
+      {
+        "label": "Brokerage on delivery trades",
+        "value": "₹0",
+        "note": "Zerodha pricing page. Intraday and futures and options are ₹20 or 0.03% per order, whichever is lower."
+      },
+      {
+        "label": "Zerodha Capital (lending arm) income growth",
+        "value": "About 44% to 45% rise",
+        "note": "YourStory, June 2026. Small base, loans against shares and funds."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Zerodha lets people buy and sell shares, mutual funds (via Coin), bonds and futures and options. It is famous for low, flat prices, a fast trading app called Kite, and a refusal to push products or run ads. It makes money mostly from active traders, while long-term investors pay almost nothing.",
+      "howItWorks": [
+        "You open an account online with PAN, Aadhaar and bank details.",
+        "Kite (app and web) is used to trade; Console shows reports; Coin is for direct mutual funds.",
+        "Delivery equity trades are free; intraday and futures and options cost ₹20 or 0.03% per order, whichever is lower.",
+        "Varsity, a free library of lessons, teaches markets from basics to options.",
+        "Partner apps like Smallcase, Sensibull and Streak plug into Kite through the Kite Connect API.",
+        "Zerodha also runs a small fund house and a lending arm, Zerodha Capital."
+      ],
+      "valueProposition": "Low, honest pricing and a fast, clean tool without sales calls or nudges. For serious investors and traders, it feels like a tool built for them, not a casino."
+    },
+    "personas": [
+      {
+        "name": "Serious options trader",
+        "description": "A 34-year-old full-time trader in Mumbai trading Nifty options daily.",
+        "goals": [
+          "Fast, reliable order execution",
+          "Low and clear charges",
+          "Good charts and tools"
+        ],
+        "frustrations": [
+          "Kite going down on big market days",
+          "SEBI rules raising costs and lot sizes"
+        ]
+      },
+      {
+        "name": "Long-term investor",
+        "description": "A 40-year-old engineer who buys stocks and funds and holds for years.",
+        "goals": [
+          "Zero brokerage on delivery",
+          "Direct funds with no commission",
+          "Clean reports for taxes"
+        ],
+        "frustrations": [
+          "Yearly demat charges",
+          "Few advice or research features"
+        ]
+      },
+      {
+        "name": "Curious learner",
+        "description": "A 22-year-old student who wants to understand markets before investing.",
+        "goals": [
+          "Learn from trusted, free material",
+          "Start with a small amount"
+        ],
+        "frustrations": [
+          "Kite feels a bit complex for a first-timer compared with Groww"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Old brokers charged a percentage of every trade, eating into profits.",
+        "howSolved": "Free delivery trades and a flat ₹20 cap per order.",
+        "severity": "high"
+      },
+      {
+        "pain": "Broker relationship managers pushed products and churned accounts.",
+        "howSolved": "No sales calls, no tips, no push notifications to trade.",
+        "severity": "high"
+      },
+      {
+        "pain": "Slow, cluttered trading platforms.",
+        "howSolved": "Kite is light and fast with clean charts.",
+        "severity": "medium"
+      },
+      {
+        "pain": "No trusted place to learn about markets.",
+        "howSolved": "Varsity offers free, in-depth lessons in many Indian languages.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Hard to get reports for tax filing.",
+        "howSolved": "Console gives profit and loss and tax reports.",
+        "severity": "low"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Kite",
+        "whatItDoes": "Web and mobile trading app with charts, baskets and GTT orders.",
+        "whyItMatters": "The core tool active traders use daily, and where most revenue comes from."
+      },
+      {
+        "feature": "Coin",
+        "whatItDoes": "Direct mutual funds with no commission.",
+        "whyItMatters": "Keeps long-term investors inside Zerodha."
+      },
+      {
+        "feature": "Varsity",
+        "whatItDoes": "Free lessons and an app on markets, trading and personal finance.",
+        "whyItMatters": "Zerodha's main way of getting users, at almost no cost."
+      },
+      {
+        "feature": "Kite Connect and partner ecosystem",
+        "whatItDoes": "APIs that let fintechs like Smallcase, Sensibull and Streak build on Zerodha accounts.",
+        "whyItMatters": "Adds features without Zerodha building them, and makes switching harder."
+      },
+      {
+        "feature": "Nudges and Kill Switch",
+        "whatItDoes": "Warnings on risky trades and a tool to block yourself from trading a segment.",
+        "whyItMatters": "Builds trust by protecting users from their own mistakes."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Opening an account",
+        "persona": "Curious learner",
+        "steps": [
+          {
+            "step": "Finds Zerodha",
+            "detail": "Reads a Varsity module or hears from a friend."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Enters PAN, Aadhaar, bank details and does e-sign."
+          },
+          {
+            "step": "Gets Kite login",
+            "detail": "Account goes live in a day or two."
+          },
+          {
+            "step": "Adds money",
+            "detail": "Transfers funds using UPI."
+          },
+          {
+            "step": "First buy",
+            "detail": "Buys a few shares of a large company with zero brokerage."
+          }
+        ]
+      },
+      {
+        "name": "Daily options trading",
+        "persona": "Serious options trader",
+        "steps": [
+          {
+            "step": "Prepares",
+            "detail": "Checks markets and strategies on Sensibull."
+          },
+          {
+            "step": "Places orders on Kite",
+            "detail": "Uses option chain and basket orders."
+          },
+          {
+            "step": "Manages risk",
+            "detail": "Sets stop losses and GTT orders."
+          },
+          {
+            "step": "Exits",
+            "detail": "Closes trades and sees ₹20 per order charges."
+          },
+          {
+            "step": "Reviews",
+            "detail": "Checks profit and loss on Console."
+          }
+        ]
+      },
+      {
+        "name": "Investing in funds via Coin",
+        "persona": "Long-term investor",
+        "steps": [
+          {
+            "step": "Opens Coin",
+            "detail": "Searches for an index fund."
+          },
+          {
+            "step": "Starts SIP",
+            "detail": "Sets a monthly amount with auto-debit."
+          },
+          {
+            "step": "Holds",
+            "detail": "Funds sit in the demat account with shares."
+          },
+          {
+            "step": "Tracks",
+            "detail": "Sees combined holdings in Console."
+          },
+          {
+            "step": "Files tax",
+            "detail": "Downloads tax report at year end."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Zerodha gives long-term investing away almost free and earns from active traders who pay ₹20 per order, plus interest on client money and small fees like demat charges.",
+      "revenueStreams": [
+        {
+          "stream": "Brokerage from futures, options and intraday",
+          "detail": "₹20 or 0.03% per order, the largest share of revenue."
+        },
+        {
+          "stream": "Interest income",
+          "detail": "Interest on client money and margin funding."
+        },
+        {
+          "stream": "Demat and account charges",
+          "detail": "Annual maintenance and transaction fees on selling shares."
+        },
+        {
+          "stream": "Lending and asset management",
+          "detail": "Zerodha Capital loans and Zerodha Fund House fees, still small (fund house revenue about ₹17 crore in FY26)."
+        }
+      ],
+      "pricing": "Account opening free. Equity delivery: ₹0. Intraday and futures and options: ₹20 or 0.03% per executed order, whichever is lower. Direct mutual funds on Coin: free. Demat maintenance: about ₹300 a year plus GST. Plus taxes and exchange charges.",
+      "costDrivers": [
+        "Technology and servers to handle millions of orders",
+        "Employee salaries (a small team of about 1,200 to 1,500)",
+        "Exchange and clearing costs",
+        "Customer support",
+        "Very little marketing"
+      ],
+      "unitEconomics": "A trader placing 20 options orders a day pays about ₹400 a day, close to ₹1 lakh a year, while costing Zerodha a few thousand rupees to serve. A buy-and-hold investor pays almost nothing beyond demat fees. Because Zerodha spends little on ads, CAC is close to zero, and roughly half of every rupee of revenue becomes profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth from traders",
+        "Varsity lessons that rank on Google and YouTube",
+        "Founder Nithin Kamath's posts on X and blog posts on Z-Connect",
+        "Partner apps (Smallcase, Sensibull) that bring their users to Zerodha accounts"
+      ],
+      "whatBringsUsersBack": [
+        "Daily trading and market moves",
+        "SIPs and holdings in Coin",
+        "Partner tools that only work with a Zerodha account"
+      ],
+      "moat": "Zerodha's moat is trust and cost. Being bootstrapped means no investor pressure to push trading, and no ads keeps costs very low, so rivals find it hard to undercut on price and still make money."
+    },
+    "competitors": [
+      {
+        "name": "Groww",
+        "positioning": "Simpler app for first-time investors, now listed and growing fast.",
+        "howThisProductDiffers": "Zerodha appeals to serious traders with deeper tools; Groww wins beginners."
+      },
+      {
+        "name": "Angel One",
+        "positioning": "Listed broker strong in small towns with partners.",
+        "howThisProductDiffers": "Zerodha uses no agents and no ads."
+      },
+      {
+        "name": "Upstox",
+        "positioning": "Low-cost broker backed by Tiger Global and others.",
+        "howThisProductDiffers": "Zerodha is profitable for longer and has more trust with traders."
+      },
+      {
+        "name": "Dhan",
+        "positioning": "New broker focused on fast tools for traders.",
+        "howThisProductDiffers": "Zerodha has scale and a partner ecosystem; Dhan competes on features."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of clients who place at least one order or hold investments with Zerodha each month",
+      "why": "It shows people trust Zerodha with real money. Kamath has said focus is moving from active clients to assets held, so total assets is a close second."
+    },
+    "kpiTree": [
+      {
+        "metric": "New accounts",
+        "description": "People who open and fund an account.",
+        "children": [
+          {
+            "metric": "Varsity reader to sign-up rate",
+            "description": "How well free learning turns into accounts."
+          },
+          {
+            "metric": "Account opening completion",
+            "description": "Share who finish the online process."
+          }
+        ]
+      },
+      {
+        "metric": "Retention of clients",
+        "description": "Clients still active after 12 months.",
+        "children": [
+          {
+            "metric": "Platform uptime",
+            "description": "Outages make traders leave."
+          },
+          {
+            "metric": "Support resolution time",
+            "description": "How fast problems are fixed."
+          }
+        ]
+      },
+      {
+        "metric": "Assets held per client",
+        "description": "Value of shares and funds in each account.",
+        "children": [
+          {
+            "metric": "SIP book on Coin",
+            "description": "Monthly money flowing into funds."
+          },
+          {
+            "metric": "Holdings transferred in",
+            "description": "Shares moved from other brokers."
+          }
+        ]
+      },
+      {
+        "metric": "Products per client",
+        "description": "Clients using more than one Zerodha product.",
+        "children": [
+          {
+            "metric": "Loans against securities taken",
+            "description": "Zerodha Capital adoption."
+          },
+          {
+            "metric": "Fund house investors",
+            "description": "Clients holding Zerodha Fund House schemes."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Kite uptime during market hours",
+      "Share of clients losing heavily in options",
+      "Regulatory complaints"
+    ],
+    "strengths": [
+      "Very profitable with almost no marketing spend",
+      "Strong trust and brand among serious traders",
+      "Bootstrapped, so it can make long-term choices",
+      "Partner ecosystem around Kite Connect"
+    ],
+    "weaknesses": [
+      "Revenue relies on futures and options trading, which SEBI is curbing",
+      "Repeated outages in 2025 and 2026 hurt the reliability story",
+      "Slow to diversify into lending, wealth and asset management",
+      "Less beginner-friendly than Groww"
+    ],
+    "risks": [
+      "More SEBI curbs on retail derivatives trading",
+      "Groww and others winning young investors first",
+      "A long bear market reducing trading",
+      "Key-person risk around the founders"
+    ],
+    "userComplaints": [
+      "Kite went down several times, including four months in a row in 2026, during market rallies",
+      "Stuck orders and login failures causing losses",
+      "Support can be slow during busy periods",
+      "Annual demat charges and fees on selling shares"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Public live status page and automatic compensation rules for outages",
+        "problem": "Outages hurt trust and users feel unheard.",
+        "expectedImpact": "Better trust and fewer complaints.",
+        "metricToTrack": "Client churn after outage days",
+        "effort": "medium"
+      },
+      {
+        "idea": "A 'beginner mode' in Kite linked to Varsity lessons",
+        "problem": "New investors pick Groww because Kite feels complex.",
+        "expectedImpact": "More young users opening accounts.",
+        "metricToTrack": "Sign-up to first investment rate for users under 25",
+        "effort": "medium"
+      },
+      {
+        "idea": "Loan against holdings button in Console",
+        "problem": "Zerodha Capital is small even though clients hold large assets.",
+        "expectedImpact": "Grows lending income without pushing trading.",
+        "metricToTrack": "Loans against securities taken",
+        "effort": "low"
+      },
+      {
+        "idea": "Goal tracker in Coin for long-term investors",
+        "problem": "Long-term investors have few reasons to engage.",
+        "expectedImpact": "Higher SIP amounts and assets held.",
+        "metricToTrack": "SIP book growth",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Content can replace ads: Varsity brings users at almost no cost.",
+      "Saying no to features that hurt users (like trade nudges) can build long-lasting trust.",
+      "Low prices only work if costs are also low; Zerodha stays lean.",
+      "Reliability is a feature: one outage on a big day can undo years of goodwill.",
+      "Depending on one revenue source is risky when a regulator can change the rules."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Zerodha's revenue is flat after SEBI's options rules. What should it do?",
+        "hint": "Diversify: lending, asset management, wealth. Weigh against its values; size each option."
+      },
+      {
+        "question": "How would you win back young investors from Groww?",
+        "hint": "Look at onboarding, simplicity, Varsity link, and whether it is worth it vs serving traders."
+      },
+      {
+        "question": "Kite went down on a big market day. As PM, what do you do?",
+        "hint": "Communicate fast, root cause, compensation policy, and a reliability roadmap with uptime targets."
+      },
+      {
+        "question": "Should Zerodha start running ads?",
+        "hint": "Compare CAC today, brand risk, and what ads would change in user trust."
+      },
+      {
+        "question": "Define a north star metric for Zerodha.",
+        "hint": "Explain why assets held or active clients reflect user value better than revenue."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Discount broker",
+        "meaning": "A broker that charges low flat fees instead of a percentage per trade."
+      },
+      {
+        "term": "Bootstrapped",
+        "meaning": "Built without outside investor money, using its own profits."
+      },
+      {
+        "term": "Futures and options",
+        "meaning": "Contracts that let traders bet on price moves with less money upfront and higher risk."
+      },
+      {
+        "term": "Demat",
+        "meaning": "An electronic account that holds your shares."
+      },
+      {
+        "term": "API",
+        "meaning": "A way for other software to connect to and use a product's features."
+      },
+      {
+        "term": "CAC",
+        "meaning": "Customer acquisition cost, the money spent to win one new user."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "SIP",
+        "meaning": "A fixed monthly investment into a mutual fund."
+      },
+      {
+        "term": "GTT",
+        "meaning": "Good till triggered, an order that waits until a price is reached."
+      }
+    ],
+    "assumptions": [
+      "Revenue split by stream is inferred; Zerodha does not publish a detailed breakdown.",
+      "Team size of 1,200 to 1,500 is an estimate from past founder statements.",
+      "The trader example of 20 orders a day is illustrative.",
+      "Client count differs by definition; we used Business Today's August 2026 figure."
+    ]
+  }
+}

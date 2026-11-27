@@ -1,0 +1,514 @@
+{
+  "company": "Citymapper",
+  "domain": "citymapper.com",
+  "website": "https://citymapper.com",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Citymapper",
+    "https://techcrunch.com/2023/05/02/citymapper-lowers-the-paywall-for-premium-features-but-keeps-a-monthly-subscription-for-removing-ads",
+    "https://skift.com/2023/03/16/via-acquires-citymapper-to-enhance-navigation-of-transit-systems",
+    "https://www.bloomberg.com/news/articles/2023-03-16/citymapper-journey-planning-app-sold-to-transit-tech-company-via",
+    "https://news.bloomberglaw.com/capital-markets/citymapper-app-owner-via-holders-raise-492-9-million-in-ipo",
+    "https://finance.yahoo.com/news/transit-tech-firm-via-makes-155702703.html"
+  ],
+  "report": {
+    "company": "Citymapper",
+    "tagline": "A free app that shows the fastest way across a city using trains, buses, bikes, scooters and walking.",
+    "category": "Maps / transit",
+    "simpleSummary": "Citymapper tells you how to get from A to B in a big city using public transport. It shows which bus or train to take, which carriage to sit in for the fastest exit, live arrival times, and what to do when a line is down. Londoners love it because it is often clearer than Google Maps for transit. The hard part is money: people expect a map app to be free, so Citymapper struggled to make a profit and was sold to US transit tech firm Via in 2023.",
+    "keyNumbers": [
+      {
+        "label": "Users",
+        "value": "50 million+ across about 100 cities",
+        "note": "As of 2023, Wikipedia citing company. Not updated since the Via deal."
+      },
+      {
+        "label": "Venture funding raised",
+        "value": "About £45 million (by 2021)",
+        "note": "Wikipedia. Plus a 2021 crowdfunding round for retail investors."
+      },
+      {
+        "label": "Revenue, 2019",
+        "value": "£5.8 million",
+        "note": "Wikipedia, from UK accounts. Net loss above £9 million that year."
+      },
+      {
+        "label": "Sold to Via",
+        "value": "March 2023, undisclosed price",
+        "note": "Bloomberg, Skift. Via is a US company that sells transit software to cities."
+      },
+      {
+        "label": "Owner Via's IPO",
+        "value": "$492.9 million raised, September 2025",
+        "note": "Bloomberg Law. Via listed on the New York Stock Exchange."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Citymapper is a journey planner for cities. It combines public transport, walking, cycling, bike share, scooters and taxis, and shows real-time departures and disruption. Since 2023 it is part of Via, which uses it as the rider app layer for the transit systems it builds for cities.",
+      "howItWorks": [
+        "Citymapper takes open data from transport authorities like TfL, plus live arrival feeds, and builds its own route engine.",
+        "A user types a destination and sees options ranked by time, with costs, steps and live delays.",
+        "Go mode guides the user step by step, with alerts for when to get off.",
+        "The app adds small helpful details, like the best carriage to board and which station exit to use.",
+        "Money comes from in-app ads, the Citymapper Club subscription that removes ads, and licensing data and tech, now mainly through Via's business with cities."
+      ],
+      "valueProposition": "The fastest, clearest way to get around a big city on public transport, with live help when things go wrong."
+    },
+    "personas": [
+      {
+        "name": "London commuter",
+        "description": "Takes the Tube and buses daily and wants the fastest route.",
+        "goals": [
+          "Live times and disruption alerts",
+          "Fastest route when a line is down"
+        ],
+        "frustrations": [
+          "Ads in a daily-use app",
+          "Routes not updated during strikes"
+        ]
+      },
+      {
+        "name": "Tourist",
+        "description": "An Indian visitor in Paris or New York for a week.",
+        "goals": [
+          "Understand the metro",
+          "Know ticket costs",
+          "Not get lost"
+        ],
+        "frustrations": [
+          "Need data roaming",
+          "Some cities not covered"
+        ]
+      },
+      {
+        "name": "City transport authority",
+        "description": "A transit agency that wants riders to use buses and on-demand services.",
+        "goals": [
+          "More riders",
+          "Good rider app without building one"
+        ],
+        "frustrations": [
+          "Riders use Google Maps instead of local apps",
+          "High cost of building apps"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "City transport is confusing for visitors and new residents.",
+        "howSolved": "Clear step-by-step routes using all modes.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not knowing when the next bus or train comes.",
+        "howSolved": "Live departures and real-time tracking.",
+        "severity": "high"
+      },
+      {
+        "pain": "Disruptions and strikes ruin plans.",
+        "howSolved": "Live status and quick reroutes.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Wasting time on long walks at stations.",
+        "howSolved": "Best carriage and exit tips.",
+        "severity": "low"
+      },
+      {
+        "pain": "Mixing modes like bike plus train is hard to plan.",
+        "howSolved": "Routes that combine bike share, scooters and transit.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Multi-mode route planner",
+        "whatItDoes": "Compares bus, train, walk, bike, scooter and taxi routes.",
+        "whyItMatters": "Core value: the fastest way in a city."
+      },
+      {
+        "feature": "Go mode",
+        "whatItDoes": "Step-by-step guidance with alerts to get off.",
+        "whyItMatters": "Reduces stress and builds trust."
+      },
+      {
+        "feature": "Live departures and disruption",
+        "whatItDoes": "Shows real-time arrivals and line status.",
+        "whyItMatters": "Daily habit for commuters."
+      },
+      {
+        "feature": "Citymapper Club",
+        "whatItDoes": "Paid monthly subscription that removes ads; premium features were made free in 2023.",
+        "whyItMatters": "Direct revenue from loyal users."
+      },
+      {
+        "feature": "Via integration",
+        "whatItDoes": "Citymapper tech and app used in Via's transit software for cities.",
+        "whyItMatters": "A path to revenue from cities, not riders."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First trip in a new city",
+        "persona": "Tourist",
+        "steps": [
+          {
+            "step": "Downloads app",
+            "detail": "Installs Citymapper on arrival in Paris."
+          },
+          {
+            "step": "Enters destination",
+            "detail": "Types the Louvre."
+          },
+          {
+            "step": "Picks route",
+            "detail": "Chooses metro plus walk, sees cost."
+          },
+          {
+            "step": "Uses Go mode",
+            "detail": "Follows step-by-step guidance."
+          },
+          {
+            "step": "Gets off",
+            "detail": "Alert tells them their stop is next."
+          },
+          {
+            "step": "Uses again",
+            "detail": "Uses it for every trip that week."
+          }
+        ]
+      },
+      {
+        "name": "Daily commute with a disruption",
+        "persona": "London commuter",
+        "steps": [
+          {
+            "step": "Opens app",
+            "detail": "Checks saved route to work."
+          },
+          {
+            "step": "Sees disruption",
+            "detail": "Central line suspended."
+          },
+          {
+            "step": "Reroutes",
+            "detail": "App suggests bus plus Elizabeth line."
+          },
+          {
+            "step": "Tracks bus",
+            "detail": "Live bus arrival shown."
+          },
+          {
+            "step": "Arrives",
+            "detail": "Gets to work with minimal delay."
+          }
+        ]
+      },
+      {
+        "name": "City adopts Via with Citymapper",
+        "persona": "City transport authority",
+        "steps": [
+          {
+            "step": "Contracts Via",
+            "detail": "Buys transit software for on-demand buses."
+          },
+          {
+            "step": "Launches rider app",
+            "detail": "Uses Citymapper-based app layer."
+          },
+          {
+            "step": "Riders plan trips",
+            "detail": "Riders combine fixed buses and on-demand rides."
+          },
+          {
+            "step": "Measures usage",
+            "detail": "Tracks ridership and app usage."
+          },
+          {
+            "step": "Renews contract",
+            "detail": "Pays Via each year."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Citymapper is free for riders and earned little money on its own: £5.8 million revenue and over £9 million loss in 2019. It made money from ads, a small subscription and licensing. Now its main business value is as part of Via, which sells transit software to cities.",
+      "revenueStreams": [
+        {
+          "stream": "In-app ads",
+          "detail": "Ads shown in the app."
+        },
+        {
+          "stream": "Citymapper Club",
+          "detail": "Monthly subscription to remove ads, costing a few pounds a month."
+        },
+        {
+          "stream": "Licensing and B2B",
+          "detail": "Selling routing tech and data to companies and cities."
+        },
+        {
+          "stream": "Via contracts (indirect)",
+          "detail": "Via charges cities for software that includes Citymapper's tech."
+        },
+        {
+          "stream": "Past experiments",
+          "detail": "Citymapper Pass (2019) and SmartRide night bus (2017 to 2019), both stopped."
+        }
+      ],
+      "pricing": "Free app. Citymapper Club costs a few pounds a month to remove ads (exact current price not confirmed).",
+      "costDrivers": [
+        "Engineers and data staff for each city",
+        "Server costs for live data",
+        "Data licences",
+        "Marketing to grow in new cities"
+      ],
+      "unitEconomics": "Rough estimate. If an active user sees ads worth maybe £1 to £2 a year, and only a small share pay for Club, average revenue per user is tiny. Each new city costs money to map and maintain. With 50 million users, 2019 revenue of £5.8 million was about 12p per user, while costs were higher. That is why Citymapper lost money and sold to Via, where it can earn indirectly through city contracts."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Word of mouth and app store ratings",
+        "Press about new cities",
+        "Tourists searching for transit apps",
+        "Via partnerships with cities"
+      ],
+      "whatBringsUsersBack": [
+        "Daily commuting needs",
+        "Saved places like Home and Work",
+        "Live disruption alerts",
+        "Trust that routes are accurate"
+      ],
+      "moat": "Citymapper's moat is its quality: clean design, accurate local data and small details like best carriage. That brand loyalty is strong in London, but it is easy for Google Maps and Apple Maps to copy features because they are already on every phone."
+    },
+    "competitors": [
+      {
+        "name": "Google Maps",
+        "positioning": "Default map app with transit, walking and driving everywhere.",
+        "howThisProductDiffers": "Citymapper is clearer for transit and disruptions, but Google Maps is free, default and covers more places."
+      },
+      {
+        "name": "Apple Maps",
+        "positioning": "Default on iPhone with growing transit coverage.",
+        "howThisProductDiffers": "Citymapper has more detail in its cities."
+      },
+      {
+        "name": "Moovit (Intel / Mobileye)",
+        "positioning": "Transit app covering thousands of cities, licensing to cities.",
+        "howThisProductDiffers": "Moovit covers more cities; Citymapper is deeper in fewer."
+      },
+      {
+        "name": "Local transit apps (TfL Go, Chalo in India)",
+        "positioning": "Official city or operator apps.",
+        "howThisProductDiffers": "Citymapper covers many modes and cities in one app."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly trips completed with Go mode or route guidance",
+      "why": "This north star counts trips where Citymapper actually got someone where they needed to go, which is the core value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Weekly active users",
+        "description": "People who open the app each week.",
+        "children": [
+          {
+            "metric": "New users per city",
+            "description": "First-time users in each city."
+          },
+          {
+            "metric": "Week 4 retention",
+            "description": "New users still active after four weeks."
+          },
+          {
+            "metric": "Saved home and work",
+            "description": "Users who save places, a sign of habit."
+          }
+        ]
+      },
+      {
+        "metric": "Trips per user",
+        "description": "How many trips each user plans.",
+        "children": [
+          {
+            "metric": "Commute trips",
+            "description": "Trips between saved places."
+          },
+          {
+            "metric": "Go mode starts",
+            "description": "Trips where guidance starts."
+          },
+          {
+            "metric": "Disruption reroutes",
+            "description": "Users who reroute after an alert."
+          }
+        ]
+      },
+      {
+        "metric": "Route quality",
+        "description": "How accurate and useful routes are.",
+        "children": [
+          {
+            "metric": "ETA accuracy",
+            "description": "Predicted versus real arrival."
+          },
+          {
+            "metric": "Live data coverage",
+            "description": "Share of routes with live data."
+          },
+          {
+            "metric": "Wrong route reports",
+            "description": "User reports of errors."
+          }
+        ]
+      },
+      {
+        "metric": "Revenue per user",
+        "description": "Money earned per active user.",
+        "children": [
+          {
+            "metric": "Club conversion",
+            "description": "Share of users who pay."
+          },
+          {
+            "metric": "Ad revenue per user",
+            "description": "Ad income per active user."
+          },
+          {
+            "metric": "City contracts via Via",
+            "description": "Income from cities using the tech."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "App rating",
+      "Retention after ads are shown",
+      "ETA accuracy",
+      "Crash rate"
+    ],
+    "strengths": [
+      "Loved product with strong design and local detail",
+      "Strong brand in London and major cities",
+      "Now backed by Via, a listed company with city contracts",
+      "Deep knowledge of transit data"
+    ],
+    "weaknesses": [
+      "Hard to make money from a free utility app",
+      "Covers far fewer cities than Google Maps",
+      "Past experiments like Pass and SmartRide were stopped",
+      "Ads annoy users"
+    ],
+    "risks": [
+      "Google Maps and Apple Maps improving transit features",
+      "Via changing focus and cutting investment in the consumer app",
+      "Cities wanting their own branded apps",
+      "Data access rules changing"
+    ],
+    "userComplaints": [
+      "More ads than before",
+      "Some cities dropped or not updated",
+      "Occasional wrong live times",
+      "Less innovation since the sale to Via"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Offer Citymapper as a free white-label rider app to transit agencies through Via, with city branding",
+        "problem": "Riders' usage does not pay; cities do.",
+        "expectedImpact": "More city contracts for Via.",
+        "metricToTrack": "Number of city contracts using Citymapper tech",
+        "effort": "medium"
+      },
+      {
+        "idea": "Ticket purchase inside the app for more cities",
+        "problem": "Users leave the app to buy tickets.",
+        "expectedImpact": "New fee revenue and better experience.",
+        "metricToTrack": "Tickets sold per active user",
+        "effort": "high"
+      },
+      {
+        "idea": "Fewer, better-targeted ads with a cheaper Club price",
+        "problem": "Ads hurt satisfaction.",
+        "expectedImpact": "Higher Club conversion and ratings.",
+        "metricToTrack": "Club conversion and app rating",
+        "effort": "low"
+      },
+      {
+        "idea": "Launch in large Indian cities like Bengaluru with metro and BMTC bus data",
+        "problem": "Growth is limited to rich cities.",
+        "expectedImpact": "New users, but only worth it with a city partner.",
+        "metricToTrack": "Weekly active users in the new city",
+        "effort": "high"
+      }
+    ],
+    "pmLessons": [
+      "A loved product is not the same as a business. Plan how the product will make money early.",
+      "Utilities are easy to copy for big platforms that are already on every phone.",
+      "Sometimes the best buyer is a business customer, not the user. Via pays for the tech because cities pay Via.",
+      "Small delightful details like best carriage build loyalty, but they rarely pay the bills alone."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you make Citymapper profitable?",
+        "hint": "List options (ads, subscriptions, ticketing, B2B licensing, city contracts), estimate revenue per user for each, and pick one with a test."
+      },
+      {
+        "question": "Citymapper versus Google Maps: why would anyone switch?",
+        "hint": "Compare transit detail, disruptions, design and trust; say who switches and how you would measure it."
+      },
+      {
+        "question": "What north star would you set for Citymapper?",
+        "hint": "Trips completed with guidance, then break into users, trips per user, quality and revenue."
+      },
+      {
+        "question": "Should Citymapper launch in Mumbai?",
+        "hint": "Consider data quality, local competitors like Chalo, user habits, revenue model and city partner needs."
+      },
+      {
+        "question": "How would you add ads without hurting retention?",
+        "hint": "Choose placements outside urgent moments, test frequency, track retention and rating as guardrails."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Utility app",
+        "meaning": "An app people use for a practical job, like maps, often expected to be free."
+      },
+      {
+        "term": "White-label",
+        "meaning": "A product made by one company and sold under another company's brand."
+      },
+      {
+        "term": "B2B",
+        "meaning": "Business to business: selling to companies or governments rather than individuals."
+      },
+      {
+        "term": "Retention",
+        "meaning": "How many users keep using the product over time."
+      },
+      {
+        "term": "Conversion",
+        "meaning": "The share of users who take an action, like paying."
+      },
+      {
+        "term": "ETA",
+        "meaning": "Estimated time of arrival."
+      },
+      {
+        "term": "North star",
+        "meaning": "The one metric a team treats as the best sign that customers are getting value."
+      },
+      {
+        "term": "Guardrails",
+        "meaning": "Metrics that must not get worse while the team improves the main one."
+      },
+      {
+        "term": "IPO",
+        "meaning": "Initial public offering: when a company first sells shares on a stock exchange."
+      }
+    ],
+    "assumptions": [
+      "Citymapper's own revenue after 2019 is not public because it is now inside Via.",
+      "Club price is described as a few pounds a month; the exact current price was not confirmed.",
+      "Ad revenue per user in the walk-through is an estimate.",
+      "Via's use of Citymapper tech in city contracts is inferred from acquisition announcements."
+    ]
+  }
+}

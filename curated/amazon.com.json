@@ -1,0 +1,547 @@
+{
+  "company": "Amazon",
+  "domain": "amazon.com",
+  "website": "https://amazon.com",
+  "sources": [
+    "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+    "https://cordcuttersnews.com/amazon-posts-201-9-billion-in-q3-sales-aws-revenue-climbs-39/",
+    "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
+    "https://www.geekwire.com/2026/amazon-unifies-alexa-and-rufus-as-ai-rivals-move-into-online-shopping/",
+    "https://www.modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115/",
+    "https://fr.tradingview.com/news/gurufocus:dc2dba340094b:0-amazon-expands-rufus-ai-as-300-million-users-show-60-higher-purchase-rates/",
+    "https://mywifequitherjob.com/amazon-is-desperate-good-for-sellers/"
+  ],
+  "report": {
+    "company": "Amazon",
+    "tagline": "The world's biggest online store and marketplace, tied together by Prime fast delivery, a huge ads business and AWS cloud computing.",
+    "category": "E-commerce",
+    "simpleSummary": "Amazon is a website and app where you can buy almost anything and get it fast, often the next day. About 60% of items are sold by outside sellers, and Amazon takes a cut and charges them for storage, delivery and ads. Prime members pay a yearly fee for free fast delivery and Prime Video. Amazon also rents computing power to other companies through AWS, which makes most of its profit.",
+    "keyNumbers": [
+      {
+        "label": "Net sales, Q3 2026",
+        "value": "$201.9 billion",
+        "note": "Amazon Q3 2026 results, October 2026. Up 12% year on year."
+      },
+      {
+        "label": "Operating income, Q3 2026",
+        "value": "$28.1 billion (13.9% margin)",
+        "note": "Amazon results. Highest margin in its history."
+      },
+      {
+        "label": "AWS sales, Q3 2026",
+        "value": "$46.0 billion, up 39%",
+        "note": "Amazon results. AWS earned $17.8 billion of the $28.1 billion operating income, about 63%."
+      },
+      {
+        "label": "North America store operating income",
+        "value": "$8.7 billion on $112.9 billion sales",
+        "note": "Amazon results. Retail margin is thin, about 7.7%."
+      },
+      {
+        "label": "Capital spending, 2026",
+        "value": "About $220 billion",
+        "note": "Amazon guidance, mostly AI data centres. Free cash flow over the last 12 months was negative $42.4 billion."
+      },
+      {
+        "label": "AI shopping assistant users",
+        "value": "300 million+ (Rufus, 2025)",
+        "note": "Company figures reported by GuruFocus, 2025. Users of Rufus had about 60% higher purchase rates. Rufus was folded into 'Alexa for Shopping' in May 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Amazon runs an online store where it sells its own stock and lets millions of outside sellers list products. It offers fast delivery through its own warehouses and drivers, Prime membership, ads for sellers and brands, and many other services like Prime Video, Alexa and AWS. Its store is built to win on selection, low prices and convenience.",
+      "howItWorks": [
+        "Shoppers search or ask the AI assistant (now Alexa for Shopping, earlier Rufus) and buy with one click.",
+        "Outside sellers list items and pay a referral fee, often about 15% of the price.",
+        "Many sellers use Fulfilment by Amazon (FBA): they ship stock to Amazon warehouses and Amazon packs and delivers it for a fee.",
+        "Sellers and brands pay for sponsored ads to appear at the top of search results.",
+        "Prime members pay $14.99 a month or $139 a year in the US for fast free delivery, video, music and deals.",
+        "AWS sells cloud computing, storage and AI services to businesses."
+      ],
+      "valueProposition": "For shoppers: the biggest selection at low prices, delivered fast, with easy returns. For sellers: access to hundreds of millions of shoppers and Amazon's delivery network. For Amazon: each part feeds the others, the famous flywheel."
+    },
+    "personas": [
+      {
+        "name": "Busy Prime family",
+        "description": "A US family of four that orders household items, groceries and gifts every week.",
+        "goals": [
+          "Fast delivery",
+          "Low prices",
+          "Easy returns"
+        ],
+        "frustrations": [
+          "Too many sponsored results",
+          "Fake reviews and low-quality items"
+        ]
+      },
+      {
+        "name": "Third-party seller",
+        "description": "A small brand selling kitchen products using FBA.",
+        "goals": [
+          "Grow sales",
+          "Keep fees manageable",
+          "Rank in search"
+        ],
+        "frustrations": [
+          "Rising fees and ad costs",
+          "Account suspensions"
+        ]
+      },
+      {
+        "name": "Price-focused shopper",
+        "description": "A college student comparing prices with Temu, Walmart and Shein.",
+        "goals": [
+          "Cheapest price",
+          "Free shipping"
+        ],
+        "frustrations": [
+          "Prime fee feels high",
+          "Cheaper options on Temu"
+        ]
+      },
+      {
+        "name": "Developer or IT buyer using AWS",
+        "description": "An engineering lead at a startup running apps on AWS.",
+        "goals": [
+          "Reliable, scalable cloud and AI tools"
+        ],
+        "frustrations": [
+          "Complex pricing",
+          "Outages"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Stores have limited selection.",
+        "howSolved": "Hundreds of millions of products from Amazon and sellers.",
+        "severity": "high"
+      },
+      {
+        "pain": "Delivery is slow and costly.",
+        "howSolved": "Prime same-day and next-day delivery.",
+        "severity": "high"
+      },
+      {
+        "pain": "Hard to compare products.",
+        "howSolved": "Reviews, Q&A and an AI shopping assistant.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Returns are a hassle.",
+        "howSolved": "Free returns at drop-off points like Whole Foods and UPS.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small sellers cannot reach many buyers or ship fast.",
+        "howSolved": "Marketplace plus FBA.",
+        "severity": "high"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Prime",
+        "whatItDoes": "Paid membership with fast free delivery, Prime Video and deals like Prime Day.",
+        "whyItMatters": "Prime members buy much more often and rarely shop elsewhere first."
+      },
+      {
+        "feature": "Marketplace and FBA",
+        "whatItDoes": "Lets outside sellers list and Amazon deliver.",
+        "whyItMatters": "Adds selection without Amazon owning stock; earns fees."
+      },
+      {
+        "feature": "Sponsored ads",
+        "whatItDoes": "Sellers pay to show products in search.",
+        "whyItMatters": "A high-margin business, growing in the teens."
+      },
+      {
+        "feature": "Alexa for Shopping (formerly Rufus)",
+        "whatItDoes": "AI assistant in the search bar that answers questions, compares items and tracks prices.",
+        "whyItMatters": "Helps shoppers decide faster; Rufus users bought about 60% more often."
+      },
+      {
+        "feature": "1-Click and Buy Now",
+        "whatItDoes": "Buy instantly with saved payment and address.",
+        "whyItMatters": "Removes checkout friction and raises conversion."
+      },
+      {
+        "feature": "AWS",
+        "whatItDoes": "Cloud computing and AI services.",
+        "whyItMatters": "Makes most of Amazon's profit and funds the rest."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Weekly household order",
+        "persona": "Busy Prime family",
+        "steps": [
+          {
+            "step": "Runs low on detergent",
+            "detail": "Opens the app or asks Alexa."
+          },
+          {
+            "step": "Reorders",
+            "detail": "Uses 'Buy again'."
+          },
+          {
+            "step": "Adds items",
+            "detail": "Adds snacks and a gift."
+          },
+          {
+            "step": "Checks out",
+            "detail": "One click, free next-day delivery."
+          },
+          {
+            "step": "Receives",
+            "detail": "Package arrives with delivery photo."
+          },
+          {
+            "step": "Watches Prime Video",
+            "detail": "Uses another Prime perk at night."
+          }
+        ]
+      },
+      {
+        "name": "Seller launching a product",
+        "persona": "Third-party seller",
+        "steps": [
+          {
+            "step": "Creates listing",
+            "detail": "Uploads photos and details in Seller Central."
+          },
+          {
+            "step": "Ships to FBA",
+            "detail": "Sends stock to an Amazon warehouse."
+          },
+          {
+            "step": "Runs ads",
+            "detail": "Pays for sponsored products."
+          },
+          {
+            "step": "Gets sales",
+            "detail": "Prime badge boosts sales."
+          },
+          {
+            "step": "Pays fees",
+            "detail": "Referral, FBA and ad fees deducted."
+          },
+          {
+            "step": "Collects reviews",
+            "detail": "Builds rank over time."
+          }
+        ]
+      },
+      {
+        "name": "Researching with the AI assistant",
+        "persona": "Price-focused shopper",
+        "steps": [
+          {
+            "step": "Asks question",
+            "detail": "'Best running shoes under $80 for flat feet?'"
+          },
+          {
+            "step": "Gets shortlist",
+            "detail": "Assistant compares reviews and features."
+          },
+          {
+            "step": "Sets price alert",
+            "detail": "Tracks price for a drop."
+          },
+          {
+            "step": "Buys",
+            "detail": "Buys when price drops."
+          },
+          {
+            "step": "Returns if needed",
+            "detail": "Free return at a drop-off point."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Amazon makes money from its own sales, seller fees, ads, subscriptions like Prime and AWS. The store has thin margins; ads and AWS make most of the profit.",
+      "revenueStreams": [
+        {
+          "stream": "Online stores (first-party sales)",
+          "detail": "Products Amazon buys and resells."
+        },
+        {
+          "stream": "Third-party seller services",
+          "detail": "Referral fees (often about 15%), FBA fulfilment fees and storage."
+        },
+        {
+          "stream": "Advertising",
+          "detail": "Sponsored products, brands and Prime Video ads; about $20 billion a quarter (estimate), growing about 12%."
+        },
+        {
+          "stream": "Subscriptions",
+          "detail": "Prime, Music, Kindle Unlimited and others."
+        },
+        {
+          "stream": "AWS",
+          "detail": "$46 billion in Q3 2026, up 39%."
+        },
+        {
+          "stream": "Physical stores",
+          "detail": "Whole Foods and Amazon Fresh."
+        }
+      ],
+      "pricing": "Prime (US): $14.99 a month or $139 a year. Seller referral fee: typically 8% to 15% by category. FBA fees vary by size and weight. Professional seller plan: $39.99 a month.",
+      "costDrivers": [
+        "Delivery and warehouse costs",
+        "Cost of goods Amazon sells",
+        "AI data centres and AWS hardware ($220 billion capex in 2026)",
+        "Prime Video content",
+        "Staff and technology"
+      ],
+      "unitEconomics": "On a $30 item sold by a third-party seller using FBA, Amazon might keep about $4.50 as a referral fee and $5 to $6 in FBA fees, and the seller may spend another $2 to $3 on ads. So Amazon earns $11 to $13 on that sale while costs to store and deliver it are maybe $6 to $8. Ads are almost pure profit. North America retail makes about 7.7 cents of operating profit per dollar of sales, while AWS makes about 39 cents."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Being the first place many people search for products",
+        "Prime Day and big sales events",
+        "Prime Video and other Prime perks",
+        "Expanding to new countries and price tiers like Amazon Haul"
+      ],
+      "whatBringsUsersBack": [
+        "Prime fee already paid, so people buy more to get value",
+        "Fast delivery habit",
+        "Buy again and Subscribe and Save",
+        "Alexa devices"
+      ],
+      "moat": "Amazon's moat is its flywheel: more shoppers bring more sellers, more selection and more ad money, which pay for faster delivery and lower prices, which bring more shoppers. Its delivery network took decades and hundreds of billions to build."
+    },
+    "competitors": [
+      {
+        "name": "Walmart",
+        "positioning": "Biggest US retailer with stores and fast-growing online marketplace.",
+        "howThisProductDiffers": "Amazon has more selection and Prime; Walmart has stores near most Americans and groceries."
+      },
+      {
+        "name": "Temu and Shein",
+        "positioning": "Ultra-cheap goods shipped from China.",
+        "howThisProductDiffers": "Amazon is faster and more trusted; Temu is cheaper."
+      },
+      {
+        "name": "Shopify merchants",
+        "positioning": "Brands selling direct from their own sites.",
+        "howThisProductDiffers": "Amazon offers a ready audience; Shopify gives brands control."
+      },
+      {
+        "name": "Google, OpenAI and AI shopping agents",
+        "positioning": "AI assistants that can search and buy across stores.",
+        "howThisProductDiffers": "Amazon wants shoppers to start inside Amazon with its own assistant."
+      },
+      {
+        "name": "Microsoft Azure and Google Cloud",
+        "positioning": "Rival cloud providers.",
+        "howThisProductDiffers": "AWS is the largest cloud with the most services."
+      }
+    ],
+    "northStar": {
+      "metric": "Number of purchases by active customers per month",
+      "why": "Each purchase is a need met. More purchases mean Amazon is the default place to shop, which drives ads, seller fees and Prime value."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active shoppers",
+        "description": "Customers who buy at least once a month.",
+        "children": [
+          {
+            "metric": "Prime members",
+            "description": "Paid members."
+          },
+          {
+            "metric": "New customer sign-ups",
+            "description": "First-time buyers."
+          }
+        ]
+      },
+      {
+        "metric": "Purchase frequency",
+        "description": "Orders per shopper per month.",
+        "children": [
+          {
+            "metric": "Delivery speed",
+            "description": "Share of orders delivered same or next day."
+          },
+          {
+            "metric": "Subscribe and Save sign-ups",
+            "description": "Repeat orders on autopilot."
+          }
+        ]
+      },
+      {
+        "metric": "Conversion rate",
+        "description": "Visits that end in a purchase.",
+        "children": [
+          {
+            "metric": "AI assistant use",
+            "description": "Shoppers using Alexa for Shopping."
+          },
+          {
+            "metric": "Search relevance",
+            "description": "Clicks on top results."
+          },
+          {
+            "metric": "In-stock rate",
+            "description": "Items available when searched."
+          }
+        ]
+      },
+      {
+        "metric": "Selection",
+        "description": "Number of products available.",
+        "children": [
+          {
+            "metric": "Active sellers",
+            "description": "Sellers listing items."
+          },
+          {
+            "metric": "Seller retention",
+            "description": "Sellers who keep selling."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Customer trust scores and fake review reports",
+      "Seller fee share of revenue (seller take rate)",
+      "Delivery defect rate",
+      "Ad load in search results"
+    ],
+    "strengths": [
+      "Huge selection and fastest delivery network",
+      "Prime keeps customers loyal",
+      "High-margin ads and AWS fund the store",
+      "Record 13.9% operating margin in Q3 2026"
+    ],
+    "weaknesses": [
+      "Retail margins are thin",
+      "Too many ads and low-quality products hurt search",
+      "Seller fees are high, pushing some sellers away",
+      "Huge AI spending turned free cash flow negative"
+    ],
+    "risks": [
+      "Antitrust cases from the FTC and EU",
+      "Temu and Shein on price; Walmart on speed",
+      "AI agents from other firms buying across stores",
+      "Labour issues and unionisation"
+    ],
+    "userComplaints": [
+      "Sponsored results crowd out organic products",
+      "Fake reviews and counterfeits",
+      "Rising seller fees and account suspensions",
+      "Some users miss Rufus or find the new assistant confusing"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "'Verified quality' filter showing items with low return rates and verified reviews",
+        "problem": "Shoppers cannot trust reviews or quality.",
+        "expectedImpact": "Higher trust and conversion.",
+        "metricToTrack": "Return rate and conversion",
+        "effort": "medium"
+      },
+      {
+        "idea": "Cap on sponsored results in the first screen",
+        "problem": "Search feels crowded with ads.",
+        "expectedImpact": "Better shopper experience; ad prices rise for fewer slots.",
+        "metricToTrack": "Search satisfaction and ad revenue per search",
+        "effort": "low"
+      },
+      {
+        "idea": "Seller fee calculator and alerts before fee changes",
+        "problem": "Sellers surprised by fees.",
+        "expectedImpact": "Better seller retention.",
+        "metricToTrack": "Seller retention",
+        "effort": "low"
+      },
+      {
+        "idea": "AI assistant that plans repeat household orders",
+        "problem": "Busy families forget items and shop elsewhere.",
+        "expectedImpact": "More purchase frequency.",
+        "metricToTrack": "Orders per Prime member",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A flywheel makes each part help the others; think in loops, not features.",
+      "Low prices plus fast delivery win trust, but ads can slowly erode it.",
+      "Subscriptions like Prime change behaviour: once people pay, they buy more.",
+      "Big bets can be undone: Amazon dropped Rufus in favour of Alexa for Shopping a year after launch."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you measure the success of Alexa for Shopping?",
+        "hint": "Define goals (conversion, satisfaction), pick a north star, add guardrails like ad revenue and returns."
+      },
+      {
+        "question": "Should Amazon raise the Prime price?",
+        "hint": "Look at churn risk, perks, competitors and value per member."
+      },
+      {
+        "question": "How do you compete with Temu?",
+        "hint": "Segment shoppers, look at Amazon Haul, speed and trust advantages."
+      },
+      {
+        "question": "Explain Amazon's flywheel.",
+        "hint": "Selection, prices, experience, traffic, sellers; show how each feeds the next."
+      },
+      {
+        "question": "How would you reduce fake reviews?",
+        "hint": "Sources of fakes, detection, seller penalties, verified badges, metrics."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Flywheel",
+        "meaning": "A loop where each part of a business makes the next part stronger."
+      },
+      {
+        "term": "FBA",
+        "meaning": "Fulfilment by Amazon, where Amazon stores and ships sellers' products."
+      },
+      {
+        "term": "Referral fee",
+        "meaning": "The percentage Amazon takes from each sale by an outside seller."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of each sale a marketplace keeps in fees."
+      },
+      {
+        "term": "Conversion rate",
+        "meaning": "The share of visits that end in a purchase."
+      },
+      {
+        "term": "Operating margin",
+        "meaning": "The share of sales left as profit after running costs."
+      },
+      {
+        "term": "Capex",
+        "meaning": "Capital expenditure, money spent on long-term assets like data centres."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Customers who stop paying or using the product."
+      },
+      {
+        "term": "North star",
+        "meaning": "The one metric that best shows customers get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "Guardrails",
+        "meaning": "Metrics that must not get worse while pushing the main goal."
+      }
+    ],
+    "assumptions": [
+      "Advertising revenue of about $20 billion a quarter is our estimate from 2025 levels and reported 12% growth.",
+      "The $30 FBA item example uses typical fee ranges, not exact fees.",
+      "Prime member numbers are not disclosed by Amazon."
+    ]
+  }
+}

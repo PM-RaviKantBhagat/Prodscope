@@ -1,0 +1,260 @@
+{
+ "company": "Rapido",
+ "domain": "rapido.bike",
+ "website": "https://rapido.bike",
+ "sources": [
+  "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
+  "https://indianstartupnews.com/news/rapido-revenue-rises-44-to-rs-934-crore-in-fy25-cuts-losses-by-30-to-rs-258-crore-11017566",
+  "https://entrackr.com/fintrackr/rapido-joins-rs-1000-cr-income-club-in-fy25-delivery-biz-outpaces-ride-hailing-11014839",
+  "https://www.freepressjournal.in/business/rapido-parent-roppen-transportation-narrows-fy25-loss-to-258-crore-revenue-jumps-44-to-934-crore-plans-ipo-by-end-2026",
+  "https://www.storyboard18.com/advertising/rapidos-ad-expenses-surges-to-rs-252-crore-in-fy25-report-87948.htm",
+  "https://inc42.com/features/how-rapidos-super-app-model-is-taking-shape/"
+ ],
+ "report": {
+  "company": "Rapido",
+  "tagline": "India's bike taxi app that grew into the biggest challenger to Uber and Ola, with cheap rides on bikes, autos and cabs.",
+  "category": "Mobility",
+  "simpleSummary": "Rapido lets you book a ride on the back of a motorbike, often for half the price of an auto, which is perfect for one person beating city traffic. It now also offers autos and cabs and has a food delivery app called Ownly. Instead of taking a cut of every fare like Uber, Rapido charges many drivers a small daily or per-ride subscription fee, so drivers keep the full fare. That helped it win drivers and riders fast, and it is now valued at $3 billion.",
+  "keyNumbers": [
+   {"label": "Valuation", "value": "$3 billion (May 2026), up from $2.3 billion in 2025", "note": "TechCrunch, May 2026. Round led by Prosus with WestBridge and Accel."},
+   {"label": "Latest funding", "value": "$240 million new money, part of a $730 million round including share sales", "note": "TechCrunch, May 2026."},
+   {"label": "Revenue, FY25 (April 2024 to March 2025)", "value": "₹934 crore from operations, up 44%; total income over ₹1,000 crore", "note": "Company filings reported by Entrackr and others, early 2026."},
+   {"label": "Loss, FY25", "value": "₹258 crore, down about 30% from ₹370 crore in FY24", "note": "Company filings reported by media, 2026."},
+   {"label": "Reach", "value": "More than 400 cities", "note": "TechCrunch, May 2026."},
+   {"label": "Ad spend, FY25", "value": "About ₹252 crore", "note": "Storyboard18, 2026. Rapido plans an IPO, reportedly by end of 2026 (timing not confirmed)."}
+  ],
+  "overview": {
+   "whatItDoes": "Rapido is a ride-hailing app founded in Bengaluru in 2015 by Aravind Sanka, Pavan Guntupalli and Rishikesh SR. It started with bike taxis, then added autos, cabs, parcel delivery and, from 2025, food delivery through Ownly. Uber's CEO has said Rapido overtook Ola as Uber's biggest rival in India.",
+   "howItWorks": [
+    "A rider picks bike, auto or cab and sees the fare upfront.",
+    "Drivers, called Captains, get the request on the Rapido Captain app and accept it.",
+    "For bike, auto and cab, many Captains pay a subscription (a fixed daily or per-ride fee) instead of a percentage commission, so they keep the fare.",
+    "Riders pay by UPI or cash directly to the Captain in many cases.",
+    "Bike Captains use their own two-wheelers; helmets are provided for riders.",
+    "Ownly lets users order food with low menu prices because restaurants pay lower commissions."
+   ],
+   "valueProposition": "For riders: the cheapest, fastest way through traffic for one person. For drivers: keep the full fare by paying a small fixed fee instead of a big cut."
+  },
+  "personas": [
+   {
+    "name": "Daily office commuter",
+    "description": "A 25-year-old in Bengaluru or Hyderabad who takes a bike taxi to the metro station or office.",
+    "goals": ["Low fares, often ₹40 to ₹80 for short trips", "Beat traffic", "Quick pickup"],
+    "frustrations": ["Rides cancelled by Captains", "Safety concerns, especially for women"]
+   },
+   {
+    "name": "Student",
+    "description": "A college student who needs cheap rides for short distances.",
+    "goals": ["Lowest price option", "Pay by UPI"],
+    "frustrations": ["Surge at peak hours", "Captains asking for extra cash"]
+   },
+   {
+    "name": "Auto or bike Captain",
+    "description": "A driver who earns full time or part time on Rapido.",
+    "goals": ["Keep most of the fare", "Many rides a day", "Simple fees"],
+    "frustrations": ["Police fines where bike taxis face legal limits", "Low fares on some routes"]
+   },
+   {
+    "name": "Small-town user",
+    "description": "Someone in a tier-2 or tier-3 city where Uber and Ola have few cars.",
+    "goals": ["Any reliable ride option", "Affordable price"],
+    "frustrations": ["Few Captains at night", "Limited cab options"]
+   }
+  ],
+  "painPoints": [
+   {"pain": "Traffic makes cars and autos slow and costly for one person", "howSolved": "Bike taxis weave through traffic at a fraction of cab fare.", "severity": "high"},
+   {"pain": "Auto drivers refusing trips or demanding extra money", "howSolved": "Upfront fares in the app and quick matching.", "severity": "high"},
+   {"pain": "Drivers losing 20 to 30% of fares to commissions", "howSolved": "Subscription model lets Captains keep the fare for a fixed fee.", "severity": "high"},
+   {"pain": "No ride-hailing options in smaller cities", "howSolved": "Rapido operates in 400+ cities using cheap bike supply.", "severity": "medium"},
+   {"pain": "Sending small parcels across the city", "howSolved": "Rapido Parcel delivers using bike Captains.", "severity": "low"}
+  ],
+  "coreFeatures": [
+   {"feature": "Bike taxi", "whatItDoes": "Book a motorbike ride; the Captain gives you a helmet.", "whyItMatters": "Rapido's original and cheapest product; drives high ride frequency."},
+   {"feature": "Captain subscription (zero commission)", "whatItDoes": "Drivers pay a fixed fee per day or per ride rather than a percentage.", "whyItMatters": "Wins drivers from Uber and Ola, which brings faster pickups for riders."},
+   {"feature": "Auto and Cab", "whatItDoes": "Book autos and cars, including Cab Economy.", "whyItMatters": "Makes Rapido a full ride app, not just bikes."},
+   {"feature": "Ownly food delivery", "whatItDoes": "Food ordering with lower commissions for restaurants and lower prices for users.", "whyItMatters": "A step to a super app and more uses for the same riders and Captains."},
+   {"feature": "Safety features", "whatItDoes": "SOS button, ride sharing with contacts, Captain verification.", "whyItMatters": "Builds trust for riding on a stranger's bike."}
+  ],
+  "userJourneys": [
+   {
+    "name": "Morning commute",
+    "persona": "Daily office commuter",
+    "steps": [
+     {"step": "Open app", "detail": "Enters office address."},
+     {"step": "Compare", "detail": "Sees Bike ₹55, Auto ₹110, Cab ₹220."},
+     {"step": "Book bike", "detail": "Chooses bike for speed and price."},
+     {"step": "Captain arrives", "detail": "Checks number plate and OTP; gets a helmet."},
+     {"step": "Ride", "detail": "Reaches in 20 minutes through traffic."},
+     {"step": "Pay", "detail": "Pays by UPI to the Captain."}
+    ]
+   },
+   {
+    "name": "Driver joins Rapido",
+    "persona": "Auto or bike Captain",
+    "steps": [
+     {"step": "Download Captain app", "detail": "Signs up with licence and vehicle papers."},
+     {"step": "Verification", "detail": "Rapido checks documents."},
+     {"step": "Pick plan", "detail": "Chooses a daily subscription instead of commission."},
+     {"step": "Go online", "detail": "Starts accepting rides."},
+     {"step": "Earn", "detail": "Keeps the fares minus the fixed fee."}
+    ]
+   },
+   {
+    "name": "Trying Ownly",
+    "persona": "Student",
+    "steps": [
+     {"step": "See promotion", "detail": "Sees Ownly in the Rapido app."},
+     {"step": "Compare prices", "detail": "Finds a biryani cheaper than on Swiggy or Zomato."},
+     {"step": "Order", "detail": "Pays by UPI."},
+     {"step": "Delivery", "detail": "A Rapido Captain delivers."},
+     {"step": "Repeat", "detail": "Orders again if the food and time were good."}
+    ]
+   }
+  ],
+  "businessModel": {
+   "summary": "Rapido earns mainly from Captain subscription fees and commissions, plus delivery fees on parcels and food. Delivery earnings now outpace ride-hailing in its revenue mix.",
+   "revenueStreams": [
+    {"stream": "Captain subscriptions", "detail": "Fixed daily or per-ride fees paid by drivers on autos, cabs and bikes in many cities."},
+    {"stream": "Commissions", "detail": "Percentage cuts on some ride types and markets."},
+    {"stream": "Delivery", "detail": "Parcel and food delivery fees; this part grew faster than rides in FY25."},
+    {"stream": "Ads and partnerships", "detail": "Ads in the app and brand tie-ups."}
+   ],
+   "pricing": "Bike fares often start around ₹25 to ₹40 base plus distance; short trips commonly cost ₹40 to ₹80. Autos and cabs cost more. Captain subscription fees are small fixed amounts that vary by city and vehicle (not fully public).",
+   "costDrivers": [
+    "Rider and Captain incentives and discounts",
+    "Marketing (₹252 crore in FY25)",
+    "Technology and support",
+    "Insurance and safety",
+    "Legal costs from state bike taxi rules"
+   ],
+   "unitEconomics": "On a ₹60 bike ride, a Captain on subscription keeps nearly all of it. Rapido earns only a few rupees from that ride via the subscription, but costs per ride are also low because it does not handle payment or pay big incentives once Captains are busy. Rapido makes money when Captains do many rides a day, so a fixed fee covers its costs. The FY25 loss of ₹258 crore on ₹934 crore revenue means it still spends more than it earns, mostly on growth and ads (estimate)."
+  },
+  "growth": {
+   "howTheyGetUsers": [
+    "Lowest price option on most short trips",
+    "Large ad campaigns, including cricket and TV",
+    "Expanding to 400+ cities, many small",
+    "Word of mouth among students and young workers"
+   ],
+   "whatBringsUsersBack": [
+    "Daily commute habit",
+    "Cheap fares versus autos and cabs",
+    "Fast pickup due to many Captains",
+    "Using one app for rides, parcels and food"
+   ],
+   "moat": "Rapido has the largest bike taxi supply in India, and its subscription model makes Captains prefer it. More Captains mean faster pickups and more riders, which is a network effect. Its low-cost model also makes it hard for Uber and Ola to match prices without losing money."
+  },
+  "competitors": [
+   {"name": "Uber", "positioning": "Global ride-hailing leader in Indian metros with Moto, Auto and cabs.", "howThisProductDiffers": "Rapido is cheaper and offers zero commission to drivers; Uber has more premium cabs and stronger brand trust."},
+   {"name": "Ola", "positioning": "Indian ride-hailing pioneer, losing share.", "howThisProductDiffers": "Rapido overtook Ola as Uber's main rival, with better driver economics."},
+   {"name": "Namma Yatri", "positioning": "Zero-commission open-network auto app strong in Bengaluru.", "howThisProductDiffers": "Rapido has bikes, cabs and food and is in many more cities."},
+   {"name": "Swiggy and Zomato (for Ownly)", "positioning": "Food delivery leaders.", "howThisProductDiffers": "Ownly charges restaurants less and is much smaller."}
+  ],
+  "northStar": {
+   "metric": "Completed rides per week",
+   "why": "A completed ride means a rider got where they needed cheaply and a Captain earned. Growth shows both sides find value."
+  },
+  "kpiTree": [
+   {
+    "metric": "Active riders",
+    "description": "People taking at least one ride a month.",
+    "children": [
+     {"metric": "New rider first rides", "description": "Growth from ads and new cities."},
+     {"metric": "Rides per rider per month", "description": "Shows commute habit."}
+    ]
+   },
+   {
+    "metric": "Active Captains",
+    "description": "Drivers online each week.",
+    "children": [
+     {"metric": "Captain earnings per hour", "description": "Keeps drivers on Rapido."},
+     {"metric": "Subscription renewal rate", "description": "Shows Captains find the plan worth it."}
+    ]
+   },
+   {
+    "metric": "Ride completion rate",
+    "description": "Bookings that end in a finished ride.",
+    "children": [
+     {"metric": "Captain cancellation rate", "description": "Cancellations are a top complaint."},
+     {"metric": "Time to pickup", "description": "Faster pickups mean fewer cancellations."}
+    ]
+   },
+   {
+    "metric": "Cross-use",
+    "description": "Use of more than one service.",
+    "children": [
+     {"metric": "Riders using Ownly or Parcel", "description": "Raises value per user."},
+     {"metric": "Cab and auto share of rides", "description": "Higher fares improve revenue per ride."}
+    ]
+   }
+  ],
+  "guardrailMetrics": [
+   "Safety incidents per million rides",
+   "Captain cancellation rate",
+   "Rider complaints about extra cash demands",
+   "Cash burn"
+  ],
+  "strengths": [
+   "Cheapest ride option and strongest bike taxi supply",
+   "Driver-friendly subscription model",
+   "Fast growth and $3 billion valuation",
+   "Reaches small cities where rivals are thin"
+  ],
+  "weaknesses": [
+   "Still loss-making",
+   "Bike taxi legality varies by state",
+   "Safety concerns about bike rides",
+   "Ownly is new and small against Swiggy and Zomato"
+  ],
+  "risks": [
+   "State bans on bike taxis, like Karnataka's in 2025",
+   "Uber and Ola copying subscription models",
+   "Regulation of gig worker pay and benefits",
+   "Price wars funded by deep-pocket rivals"
+  ],
+  "userComplaints": [
+   "Captains cancelling or asking riders to cancel",
+   "Captains demanding extra cash or asking for offline payment",
+   "Safety worries and rash riding",
+   "Helmets not provided or unclean",
+   "Surge pricing at peak hours"
+  ],
+  "improvementIdeas": [
+   {"idea": "Rider-side cancellation guarantee with instant credit", "problem": "Captain cancellations frustrate riders.", "expectedImpact": "Higher trust and completion rate.", "metricToTrack": "Ride completion rate", "effort": "low"},
+   {"idea": "Women-only Captain option in more cities", "problem": "Safety concerns limit women riders.", "expectedImpact": "More women riders and rides at night.", "metricToTrack": "Share of rides by women riders", "effort": "medium"},
+   {"idea": "Fare transparency card shown to Captain and rider", "problem": "Extra cash demands cause disputes.", "expectedImpact": "Fewer disputes and complaints.", "metricToTrack": "Fare dispute complaints per 10,000 rides", "effort": "low"},
+   {"idea": "Bundle Ownly savings with ride passes", "problem": "Ownly is new and needs users.", "expectedImpact": "More food orders from existing riders.", "metricToTrack": "Riders using Ownly monthly", "effort": "medium"}
+  ],
+  "pmLessons": [
+   "Winning supply wins a marketplace. Rapido's zero-commission plan pulled drivers, which made pickups fast and rides cheap.",
+   "A cheaper product for a specific need, one person in traffic, can beat bigger rivals.",
+   "Regulation can be existential. Bike taxis depend on state rules.",
+   "Expanding to a super app works best when it reuses the same users and drivers."
+  ],
+  "interviewQuestions": [
+   {"question": "Why did Rapido's subscription model work for drivers?", "hint": "Compare commission vs fixed fee for a busy driver. Talk about predictability, earnings and how that improves supply."},
+   {"question": "A state bans bike taxis. What do you do as PM?", "hint": "Protect users and Captains: shift to autos and parcels, work with regulators, track ride loss and Captain churn."},
+   {"question": "How would you improve safety for women riders?", "hint": "Research concerns, propose features like women Captains, live tracking, check-ins. Measure share of women riders."},
+   {"question": "Should Rapido build food delivery?", "hint": "Weigh synergy (users, Captains) vs costs and strong rivals. Suggest a focused test and metrics."},
+   {"question": "Pick a north star metric for Rapido.", "hint": "Completed rides per week. Break into riders, Captains, completion and cross-use."}
+  ],
+  "glossary": [
+   {"term": "ride-hailing", "meaning": "Booking a ride with a driver through an app."},
+   {"term": "subscription", "meaning": "A fixed fee paid regularly to use a service, here paid by drivers."},
+   {"term": "commission", "meaning": "A percentage of each fare the platform keeps."},
+   {"term": "super app", "meaning": "One app offering many services, like rides, food and payments."},
+   {"term": "network effect", "meaning": "When a product becomes more valuable as more people use it."},
+   {"term": "marketplace", "meaning": "A platform that connects buyers and sellers, here riders and drivers."},
+   {"term": "gig", "meaning": "Short, flexible jobs paid per task, like one ride."},
+   {"term": "IPO", "meaning": "Initial public offering: when a company first sells shares on the stock market."},
+   {"term": "moat", "meaning": "Something that makes a business hard for rivals to copy."},
+   {"term": "north star metric", "meaning": "The one number a team watches to know if users are getting real value."}
+  ],
+  "assumptions": [
+   "Fare examples are typical and vary by city and time.",
+   "Captain subscription fees are not fully public; we describe the model, not exact prices.",
+   "Per-ride economics are our estimates.",
+   "IPO timing is based on 2026 media reports and not confirmed."
+  ]
+ }
+}

@@ -1,0 +1,554 @@
+{
+  "company": "JioHotstar",
+  "domain": "jiohotstar.com",
+  "website": "https://jiohotstar.com",
+  "sources": [
+    "https://www.exchange4media.com/media-tv-news/jiostar-reports-10-revenue-growth-in-q2-jiohotstar-reaches-440-million-monthly-users-159688.html",
+    "https://startuptalky.com/news/jiohotstar-fy26-revenue-31048-crore-maus-ipl-growth",
+    "https://www.newsbytesapp.com/news/business/jiostar-posts-rs3210cr-profit-rs31048cr-revenue-rs4885cr-ebitda-fy26/tldr",
+    "https://indiantelevision.com/news-headline/jiohotstar-rolls-out-monthly-plans-from-rs-79-across-all-tiers/",
+    "https://www.crictracker.com/cricket-news/jiostar-takes-ipl-2026-reach-to-an-all-time-high-of-over-12-billion-0361/?amp=1",
+    "https://www.businesstoday.in/latest/corporate/story/ril-agm-2026-jiohotstars-tadka-hits-100-million-users-in-under-two-months-of-its-launch-538121-2026-06-19",
+    "https://www.outlookbusiness.com/corporate/jiostar-revenue-hits-rs-10006-cr-after-merger-jiohotstar-crosses-100-million-paid-user-milestone"
+  ],
+  "report": {
+    "company": "JioHotstar",
+    "tagline": "India's biggest streaming app, formed in 2025 by merging JioCinema and Disney+ Hotstar, with IPL cricket, Hindi and regional TV shows, and Hollywood content.",
+    "category": "online streaming",
+    "simpleSummary": "JioHotstar is where most Indians watch IPL cricket, Bigg Boss, Star Plus serials and Disney and HBO shows on their phones and TVs. It was created when Reliance's JioCinema and Disney+ Hotstar joined in February 2025. You pay a small amount, starting at about ₹79 a month, to watch, and you still see ads on cheaper plans. Many people get it free with their Jio or Airtel mobile recharge.",
+    "keyNumbers": [
+      {
+        "label": "Monthly active users, Sept 2026 quarter",
+        "value": "About 440 million, up 10%",
+        "note": "JioStar Q2 FY27 results via exchange4media. JioHotstar reported about 451 million monthly users for FY26, likely peaking in IPL months."
+      },
+      {
+        "label": "JioStar revenue, FY26",
+        "value": "₹31,048 crore",
+        "note": "JioStar FY26 results, as reported by StartupTalky and NewsBytes. Covers TV channels and JioHotstar together."
+      },
+      {
+        "label": "JioStar profit, FY26",
+        "value": "₹3,210 crore net profit, ₹4,885 crore EBITDA",
+        "note": "JioStar FY26 results via NewsBytes."
+      },
+      {
+        "label": "Revenue, Sept 2026 quarter",
+        "value": "₹6,806 crore, up 10%; profit ₹1,147 crore, down 13%",
+        "note": "JioStar Q2 FY27 via exchange4media. Non-IPL quarters earn much less."
+      },
+      {
+        "label": "IPL 2026 reach",
+        "value": "Over 1.2 billion viewers across TV and digital",
+        "note": "JioStar figure reported by CricTracker. Peak live streams on JioHotstar reached tens of millions at once."
+      },
+      {
+        "label": "Paid subscriptions",
+        "value": "Roughly 300 million (estimate)",
+        "note": "Weak estimate. JioStar said it crossed 100 million paid users soon after the merger and reports in 2025 said it neared 300 million during IPL 2025. No fresh 2026 total found."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "JioHotstar streams live cricket and other sports, Hindi and regional TV serials, reality shows, films and international content from Disney, HBO and others. It makes money from ads and from low-priced subscriptions, often sold through Jio and Airtel recharges. It is the digital arm of JioStar, the Reliance-Disney joint venture that also runs Star and Colors TV channels.",
+      "howItWorks": [
+        "Users download the app and sign in with a phone number.",
+        "To watch, they pick a plan: Mobile, Super or Premium, with monthly plans starting at about ₹79 since January 2026, or get it bundled with a telecom recharge.",
+        "Mobile and Super plans show ads; Premium removes most ads outside live sport.",
+        "Live IPL and India cricket matches drive huge spikes in sign-ups and ad sales.",
+        "TV serials appear on the app before or right after their TV broadcast.",
+        "Tadka, a short-format vertical video section launched in 2026, adds bite-sized shows and micro-dramas."
+      ],
+      "valueProposition": "For viewers: almost all of India's most-watched entertainment, cricket included, in one app at a low price. For advertisers: the biggest digital audience in India, especially during IPL."
+    },
+    "personas": [
+      {
+        "name": "The IPL superfan",
+        "description": "A 24-year-old in Lucknow who watches every IPL match on his phone, often while commuting or at work.",
+        "goals": [
+          "Watch live without lag",
+          "Follow his team and see highlights"
+        ],
+        "frustrations": [
+          "Buffering at key moments",
+          "Too many ads between overs",
+          "Having to pay only for two months of IPL"
+        ]
+      },
+      {
+        "name": "The serial-watching homemaker",
+        "description": "A 45-year-old in Indore who watches Star Plus and Colors serials and Bigg Boss.",
+        "goals": [
+          "Catch episodes she missed on TV",
+          "Watch on the family's smart TV"
+        ],
+        "frustrations": [
+          "Login limits across devices",
+          "Ads repeating every few minutes"
+        ]
+      },
+      {
+        "name": "The urban premium viewer",
+        "description": "A 32-year-old in Mumbai who pays for Premium for HBO and Disney shows in 4K.",
+        "goals": [
+          "Ad-free global shows",
+          "One subscription for many services"
+        ],
+        "frustrations": [
+          "Content leaving the app",
+          "App search and recommendations weaker than Netflix"
+        ]
+      },
+      {
+        "name": "The telecom bundle user",
+        "description": "A 28-year-old in Patna who got JioHotstar free with a ₹349 Jio recharge.",
+        "goals": [
+          "Watch cricket at no extra cost",
+          "Use mobile data efficiently"
+        ],
+        "frustrations": [
+          "Bundle limited to mobile screen",
+          "Confusing plan rules"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Live cricket used to need a costly TV cable connection.",
+        "howSolved": "Stream IPL and India matches on any phone for a low price or a recharge bundle.",
+        "severity": "high"
+      },
+      {
+        "pain": "People miss TV serials when they are not home at broadcast time.",
+        "howSolved": "Episodes from Star and Colors channels are on the app, some before TV.",
+        "severity": "high"
+      },
+      {
+        "pain": "Paying for many separate apps is costly.",
+        "howSolved": "One app covers Indian TV, sport, Disney, HBO and other content.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Most Indians speak languages other than Hindi or English.",
+        "howSolved": "Shows and commentary in many Indian languages, including Tamil, Telugu, Bengali and Bhojpuri.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Yearly plans are too big a payment for many families.",
+        "howSolved": "Monthly plans from about ₹79 and options to have someone else pay ('Pay Kisi Aur Se').",
+        "severity": "medium"
+      },
+      {
+        "pain": "Brands need to reach a mass audience quickly.",
+        "howSolved": "IPL ads on JioHotstar reach hundreds of millions of people in weeks.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Live sports streaming",
+        "whatItDoes": "Streams IPL, India cricket, ICC events and other sport with multi-language commentary and multiple camera angles.",
+        "whyItMatters": "Cricket is the biggest reason people join and the biggest source of ad money."
+      },
+      {
+        "feature": "TV serials and reality shows",
+        "whatItDoes": "Episodes from Star Plus, Colors and others, plus shows like Bigg Boss.",
+        "whyItMatters": "Keeps users watching every day outside cricket season."
+      },
+      {
+        "feature": "Tiered plans with monthly pricing",
+        "whatItDoes": "Mobile, Super and Premium plans, with monthly options from about ₹79.",
+        "whyItMatters": "Lowers the first payment so more people pay."
+      },
+      {
+        "feature": "Telecom bundles",
+        "whatItDoes": "Comes free with selected Jio and Airtel recharge packs.",
+        "whyItMatters": "Gets hundreds of millions of users with no marketing cost per user."
+      },
+      {
+        "feature": "Connected TV app",
+        "whatItDoes": "Big-screen app; mobile plan users get up to two hours of TV viewing a month.",
+        "whyItMatters": "TV viewers watch about three times as much as mobile viewers, so they are worth more."
+      },
+      {
+        "feature": "Tadka",
+        "whatItDoes": "Short-format vertical video shows inside the app.",
+        "whyItMatters": "Hit 100 million users within two months, adding daily habit between big events."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Joining for IPL",
+        "persona": "The IPL superfan",
+        "steps": [
+          {
+            "step": "IPL is about to start",
+            "detail": "Sees ads on TV and Instagram for IPL on JioHotstar."
+          },
+          {
+            "step": "Downloads the app",
+            "detail": "Signs in with a phone number and OTP."
+          },
+          {
+            "step": "Hits a paywall",
+            "detail": "Told he needs a plan to watch live matches."
+          },
+          {
+            "step": "Picks the cheapest plan",
+            "detail": "Buys a monthly Mobile plan by UPI, or recharges with a Jio pack that includes it."
+          },
+          {
+            "step": "Watches live",
+            "detail": "Chooses Hindi commentary and watches the match."
+          },
+          {
+            "step": "Comes back daily",
+            "detail": "Returns each evening for 70+ matches, seeing ads between overs."
+          }
+        ]
+      },
+      {
+        "name": "Catching a missed serial",
+        "persona": "The serial-watching homemaker",
+        "steps": [
+          {
+            "step": "Misses an episode",
+            "detail": "A power cut makes her miss her serial at 9 pm."
+          },
+          {
+            "step": "Opens on the TV",
+            "detail": "Her son has the app on the smart TV."
+          },
+          {
+            "step": "Finds the show",
+            "detail": "It is on the home screen in 'Continue watching'."
+          },
+          {
+            "step": "Watches with ads",
+            "detail": "Sees ad breaks like on TV."
+          },
+          {
+            "step": "Discovers more",
+            "detail": "Starts a new Hindi drama recommended below."
+          }
+        ]
+      },
+      {
+        "name": "Upgrading to Premium",
+        "persona": "The urban premium viewer",
+        "steps": [
+          {
+            "step": "Hears about an HBO show",
+            "detail": "Wants to watch a new HBO series in 4K."
+          },
+          {
+            "step": "Checks plans",
+            "detail": "Sees Super has ads and fewer screens, Premium has ad-free and 4K."
+          },
+          {
+            "step": "Pays yearly",
+            "detail": "Buys Premium yearly to save money."
+          },
+          {
+            "step": "Adds devices",
+            "detail": "Logs in on TV, laptop and phone."
+          },
+          {
+            "step": "Watches",
+            "detail": "Uses the app for international shows and cricket."
+          },
+          {
+            "step": "Renews or not",
+            "detail": "Decides at renewal based on new shows and cricket schedule."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "JioHotstar makes money from ads and subscriptions. Ads are biggest during IPL and other cricket. Subscriptions are cheap but large in number, often paid for through Jio or Airtel recharges. Together with JioStar's TV channels, the business made ₹31,048 crore in FY26 and a ₹3,210 crore profit.",
+      "revenueStreams": [
+        {
+          "stream": "Advertising",
+          "detail": "Ads during live sport, serials and reality shows, sold to brands across India. IPL is the biggest single sale of the year."
+        },
+        {
+          "stream": "Subscriptions",
+          "detail": "Mobile, Super and Premium plans, monthly or yearly, sold directly in the app."
+        },
+        {
+          "stream": "Telecom bundle fees",
+          "detail": "Telecoms like Jio and Airtel pay JioStar to include JioHotstar in recharge packs."
+        },
+        {
+          "stream": "International subscriptions",
+          "detail": "Subscriptions in markets like the UK, Singapore and Canada for Indian diaspora."
+        }
+      ],
+      "pricing": "Monthly plans from about ₹79 for Mobile since January 2026. Older quarterly and yearly prices were about ₹149 for 3 months (Mobile), ₹299 for 3 months or ₹899 a year (Super), and ₹299 a month or ₹1,499 a year (Premium). Bundles with Jio and Airtel packs vary. Check the app for current prices.",
+      "costDrivers": [
+        "Sports rights, especially IPL digital and TV rights costing thousands of crores a year",
+        "Making and buying TV shows and films",
+        "Licensing fees to Disney, HBO and others",
+        "Streaming bandwidth and cloud servers for peaks of tens of millions of live viewers",
+        "Marketing and sales"
+      ],
+      "unitEconomics": "Take one cricket fan on a ₹79 a month plan. Over the two-month IPL, he pays about ₹160. He also watches maybe 60 matches with ads, earning JioHotstar perhaps ₹100 to ₹200 more in ad money. Against that, his share of IPL rights and streaming cost is high, because rights cost so much. The money works only at huge scale: hundreds of millions of viewers split the fixed cost of rights, and serials keep people watching and seeing ads after IPL ends."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "IPL and India cricket matches",
+        "Bundles with Jio and Airtel recharges",
+        "TV channels promoting the app during shows",
+        "Pre-installs and smart TV deals",
+        "Hit shows like Bigg Boss"
+      ],
+      "whatBringsUsersBack": [
+        "Daily serials that air every weekday",
+        "Live matches every evening during IPL",
+        "Tadka short shows for quick breaks",
+        "Personalised 'Continue watching' rows"
+      ],
+      "moat": "JioHotstar owns the rights to IPL and much of India's popular TV through Star and Colors, plus Disney content in India. Few rivals can afford those rights. Its link with Reliance Jio gives it cheap access to hundreds of millions of phone users."
+    },
+    "competitors": [
+      {
+        "name": "Netflix",
+        "positioning": "Premium global originals with Indian films and series.",
+        "howThisProductDiffers": "JioHotstar is cheaper, has live cricket and Indian TV serials; Netflix has stronger global originals."
+      },
+      {
+        "name": "Amazon Prime Video",
+        "positioning": "Bundled with Amazon Prime, with Indian originals and films.",
+        "howThisProductDiffers": "JioHotstar has cricket and TV serials; Prime Video gets users via shopping."
+      },
+      {
+        "name": "YouTube",
+        "positioning": "Free video, number one on Indian phones.",
+        "howThisProductDiffers": "JioHotstar has paid live sports and studio content; YouTube is free and creator-made."
+      },
+      {
+        "name": "Zee5 and SonyLIV",
+        "positioning": "Indian streaming apps with TV serials and some sports.",
+        "howThisProductDiffers": "JioHotstar has IPL and a bigger library; rivals compete on smaller rights and price."
+      },
+      {
+        "name": "Micro-drama apps like Kuku TV and QuickTV",
+        "positioning": "Short paid vertical shows.",
+        "howThisProductDiffers": "Tadka gives similar content inside a big app, with free marketing to 440 million users."
+      }
+    ],
+    "northStar": {
+      "metric": "Weekly watch hours per active user across sport and entertainment",
+      "why": "As a north star metric, watch hours show that people are getting value, and they drive both ad income and the reason to keep paying after IPL ends."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active users",
+        "description": "People who watch at least once a month.",
+        "children": [
+          {
+            "metric": "Sign-ups during IPL",
+            "description": "New users who join for cricket."
+          },
+          {
+            "metric": "Post-IPL retention",
+            "description": "Share of IPL joiners still watching one month after IPL."
+          },
+          {
+            "metric": "Telecom bundle activations",
+            "description": "Users who switch on the app through a recharge."
+          }
+        ]
+      },
+      {
+        "metric": "Watch time per user",
+        "description": "Minutes watched each week.",
+        "children": [
+          {
+            "metric": "Serial episodes watched",
+            "description": "Daily habit from TV shows."
+          },
+          {
+            "metric": "Connected TV share",
+            "description": "Share of viewing on the big screen."
+          },
+          {
+            "metric": "Tadka daily viewers",
+            "description": "Short-format viewing between events."
+          }
+        ]
+      },
+      {
+        "metric": "Paying users",
+        "description": "Users with an active paid plan.",
+        "children": [
+          {
+            "metric": "Free-to-paid conversion",
+            "description": "Share of users who buy a plan."
+          },
+          {
+            "metric": "Monthly plan renewals",
+            "description": "Share of monthly payers who renew."
+          },
+          {
+            "metric": "Upgrades to Premium",
+            "description": "Users moving to higher tiers."
+          }
+        ]
+      },
+      {
+        "metric": "Ad revenue per watch hour",
+        "description": "Money earned from ads per hour watched.",
+        "children": [
+          {
+            "metric": "Ad fill rate",
+            "description": "Share of ad slots sold."
+          },
+          {
+            "metric": "Ad price during live sport",
+            "description": "What brands pay per ad view in IPL."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Stream start time and buffering during peak matches",
+      "Ad minutes per hour of viewing",
+      "Play Store rating",
+      "Complaints about login and device limits"
+    ],
+    "strengths": [
+      "IPL and huge Indian TV library in one app",
+      "About 440 million monthly users, the largest in Indian streaming",
+      "Profitable at the JioStar level",
+      "Reliance Jio distribution to hundreds of millions"
+    ],
+    "weaknesses": [
+      "Revenue swings heavily with the cricket calendar",
+      "Profit fell 13% in the Sept 2026 quarter",
+      "App experience and recommendations weaker than Netflix",
+      "Cheap prices mean low revenue per user"
+    ],
+    "risks": [
+      "Rising sports rights costs at the next IPL auction",
+      "Competition Commission scrutiny of a giant merged player",
+      "YouTube and free platforms taking viewing time",
+      "Advertisers cutting spend, as after the 2025 ban on real-money gaming ads"
+    ],
+    "userComplaints": [
+      "Too many ads, even on paid plans during live sport",
+      "Buffering or lag during big matches",
+      "Confusing plans, device limits and mobile-only bundles",
+      "Content removed or moved between plans",
+      "Poor customer support for payment issues"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Post-IPL 'season pass' that offers the next 3 months of serials and Tadka at a discount on the final match night.",
+        "problem": "Users join for IPL and leave after.",
+        "expectedImpact": "Higher paying users after IPL.",
+        "metricToTrack": "Post-IPL retention at 30 and 90 days",
+        "effort": "low"
+      },
+      {
+        "idea": "Show an 'ad break count' and allow skipping one ad break per match on Super plans.",
+        "problem": "Users complain about too many ads even after paying.",
+        "expectedImpact": "Better satisfaction with small ad revenue loss.",
+        "metricToTrack": "Play Store rating and plan renewals",
+        "effort": "medium"
+      },
+      {
+        "idea": "Family plan that covers a phone and the home TV in one price.",
+        "problem": "Mobile plans limit TV use, but TV viewers watch three times more.",
+        "expectedImpact": "More TV viewing and higher revenue per household.",
+        "metricToTrack": "Connected TV share of watch time",
+        "effort": "medium"
+      },
+      {
+        "idea": "Smarter recommendations from serials into films and international shows.",
+        "problem": "Many users watch one show and leave.",
+        "expectedImpact": "More watch hours per user.",
+        "metricToTrack": "Titles watched per user per month",
+        "effort": "medium"
+      },
+      {
+        "idea": "Low-data mode for live matches in rural areas.",
+        "problem": "Buffering on slow networks drives drop-off.",
+        "expectedImpact": "Longer sessions in smaller towns.",
+        "metricToTrack": "Buffering ratio on 4G in Tier 3 towns",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Live sport brings users in but does not keep them. The daily habit comes from serials and short shows.",
+      "In India, price is a feature. Moving to monthly plans from about ₹79 widened the paying base.",
+      "Distribution partners matter. Bundles with telecoms gave JioHotstar millions of users at low cost.",
+      "Mergers reduce competition for rights but bring regulator attention and pressure on the app experience."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you keep IPL users after the season ends?",
+        "hint": "Segment IPL joiners. Find what they like beyond cricket. Propose offers, content and timing. Track post-IPL retention."
+      },
+      {
+        "question": "How would you balance ads and user experience during a live match?",
+        "hint": "Model ad revenue per over vs drop-off and complaints. Suggest ad formats like split screen. Add guardrails."
+      },
+      {
+        "question": "Should JioHotstar remove ads from all paid plans?",
+        "hint": "Compare ad revenue lost vs higher conversion and renewals. Look at different user segments and price."
+      },
+      {
+        "question": "How would you scale the app for 60 million concurrent viewers?",
+        "hint": "Talk about CDN capacity, adaptive bitrate, load testing and fallbacks. Focus on user-facing metrics like start time."
+      },
+      {
+        "question": "Design a feature to grow connected TV viewing.",
+        "hint": "Explain why TV users are worth more. Propose casting, family profiles or bundles. Track TV share of watch time."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "EBITDA",
+        "meaning": "Profit before interest, taxes and wear on equipment, used to show how much the core business earns."
+      },
+      {
+        "term": "Monthly active users",
+        "meaning": "The number of different people who used the app at least once in a month."
+      },
+      {
+        "term": "Connected TV",
+        "meaning": "A smart TV or TV stick that runs streaming apps over the internet."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of users who keep coming back over time."
+      },
+      {
+        "term": "Free-to-paid conversion",
+        "meaning": "The share of free users who start paying."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number a company uses to judge if it is giving real value to users."
+      },
+      {
+        "term": "Fill rate",
+        "meaning": "The share of ad slots that actually get an ad sold into them."
+      },
+      {
+        "term": "Concurrent viewers",
+        "meaning": "The number of people watching the same stream at the same moment."
+      },
+      {
+        "term": "CDN",
+        "meaning": "Content delivery network: servers spread across a country that send video from nearby to reduce lag."
+      }
+    ],
+    "assumptions": [
+      "Paid subscription total is a weak estimate based on 2025 reports.",
+      "The ad money per IPL viewer (₹100 to ₹200) is a rough guess, not a reported figure.",
+      "Older plan prices are from 2025 and may have changed.",
+      "Tadka is described from news reports; its exact format may differ."
+    ]
+  }
+}

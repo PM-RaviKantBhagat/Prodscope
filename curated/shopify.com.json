@@ -1,0 +1,524 @@
+{
+  "company": "Shopify",
+  "domain": "shopify.com",
+  "website": "https://shopify.com",
+  "sources": [
+    "https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/",
+    "https://finviz.com/news/414087/shopify-sustains-rapid-growth-with-revenue-up-32-and-free-cash-flow-margin-of-22",
+    "https://www.nasdaq.com/articles/shopify-q3-earnings-meet-estimates-revenues-increase-y-y",
+    "https://blockonomi.com/shopify-shop-stock-falls-5-despite-32-revenue-growth-in-q3/",
+    "https://www.alpha-sense.com/earnings/shop/"
+  ],
+  "report": {
+    "company": "Shopify",
+    "tagline": "Software that lets anyone set up an online store, take payments and sell everywhere, from a website to Instagram, shops and AI chatbots.",
+    "category": "Commerce platform",
+    "simpleSummary": "Shopify lets a business build its own online store without coding. You pick a theme, add products, and Shopify handles checkout, payments, shipping labels and taxes. Shops pay a monthly plan fee, and Shopify takes a small cut of each card payment. Apps from other developers add extras, and an AI helper called Sidekick can run tasks for you.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$3.74 billion",
+        "note": "Shopify Q3 2026 results via PPC Land, November 2026. Up 32% year on year."
+      },
+      {
+        "label": "GMV, Q3 2026",
+        "value": "$119 billion",
+        "note": "Shopify results. Total value of goods sold by merchants, up 29%."
+      },
+      {
+        "label": "Payments penetration",
+        "value": "68% of GMV",
+        "note": "Share of GMV processed by Shopify Payments ($81.4 billion), up from 65%."
+      },
+      {
+        "label": "Free cash flow margin",
+        "value": "22% ($816 million)",
+        "note": "Shopify results, Q3 2026."
+      },
+      {
+        "label": "Monthly recurring revenue (MRR)",
+        "value": "$230 million",
+        "note": "Shopify results, up 19%. Shopify Plus is 34% of MRR."
+      },
+      {
+        "label": "Share of US e-commerce",
+        "value": "Over 14%",
+        "note": "Shopify statement, Q3 2026. Second only to Amazon by most estimates."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Shopify gives merchants the tools to sell online and in person: a store builder, checkout (Shop Pay), payments, point-of-sale hardware, shipping, a consumer app (Shop), loans (Shopify Capital) and an app store. It powers small sellers and big brands like Gymshark and Mattel. It makes money from subscriptions and, mostly, from taking a cut of merchant sales.",
+      "howItWorks": [
+        "A merchant signs up for a free trial, picks a theme and adds products.",
+        "They choose a plan: Basic, Grow, Advanced or Plus for large brands.",
+        "Customers pay through Shopify Checkout and Shop Pay; Shopify Payments takes a percentage per card payment.",
+        "Merchants add apps from the Shopify App Store for reviews, email, subscriptions and more.",
+        "Sidekick, an AI assistant, answers questions and builds automations in the admin.",
+        "Products can be sold on Instagram, TikTok, Google, Amazon and AI agents like ChatGPT from one place."
+      ],
+      "valueProposition": "For merchants: own your brand and customers, start fast, and grow from a side hustle to a big brand on one platform. For Shopify: earn more as merchants sell more."
+    },
+    "personas": [
+      {
+        "name": "First-time entrepreneur",
+        "description": "A 27-year-old starting a candle brand from home.",
+        "goals": [
+          "Launch a store quickly",
+          "Look professional",
+          "Keep costs low"
+        ],
+        "frustrations": [
+          "App costs add up",
+          "Hard to get traffic"
+        ]
+      },
+      {
+        "name": "Growing D2C brand",
+        "description": "A skincare brand doing $5 million a year online and in pop-up stores.",
+        "goals": [
+          "Higher conversion",
+          "Sell in new countries",
+          "Run online and offline together"
+        ],
+        "frustrations": [
+          "Paying for many apps",
+          "Complex international taxes"
+        ]
+      },
+      {
+        "name": "Enterprise retailer on Plus",
+        "description": "A large brand moving off an old commerce system.",
+        "goals": [
+          "Lower tech costs",
+          "B2B and wholesale",
+          "Fast checkout"
+        ],
+        "frustrations": [
+          "Customisation limits",
+          "Migration effort"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Building a store took developers and months.",
+        "howSolved": "Themes and drag-and-drop editor; live in a day.",
+        "severity": "high"
+      },
+      {
+        "pain": "Taking payments online is complex.",
+        "howSolved": "Built-in Shopify Payments and Shop Pay.",
+        "severity": "high"
+      },
+      {
+        "pain": "Selling across many channels is messy.",
+        "howSolved": "One inventory and order system for all channels.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Merchants lack data and time.",
+        "howSolved": "Sidekick AI and analytics.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Small businesses struggle to get loans.",
+        "howSolved": "Shopify Capital based on sales history.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Online store builder",
+        "whatItDoes": "Themes, editor and hosting.",
+        "whyItMatters": "Core of the subscription."
+      },
+      {
+        "feature": "Shopify Payments and Shop Pay",
+        "whatItDoes": "Checkout with saved details for faster purchases.",
+        "whyItMatters": "Shop Pay GMV grew over 50%; payments drive most revenue."
+      },
+      {
+        "feature": "App Store",
+        "whatItDoes": "Thousands of apps by other developers.",
+        "whyItMatters": "Adds features and locks in merchants."
+      },
+      {
+        "feature": "Sidekick",
+        "whatItDoes": "AI assistant that builds reports, discounts and automations.",
+        "whyItMatters": "Daily active merchants up 3.7x; helps new merchants reach first sales."
+      },
+      {
+        "feature": "Point of Sale",
+        "whatItDoes": "In-store payments and inventory.",
+        "whyItMatters": "Offline GMV up 30%."
+      },
+      {
+        "feature": "Agentic storefronts",
+        "whatItDoes": "Sell inside ChatGPT, Gemini and other AI agents.",
+        "whyItMatters": "AI-referred orders grew 3.3x."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Launching a first store",
+        "persona": "First-time entrepreneur",
+        "steps": [
+          {
+            "step": "Starts trial",
+            "detail": "Signs up with email."
+          },
+          {
+            "step": "Builds store",
+            "detail": "Uses AI to write product descriptions."
+          },
+          {
+            "step": "Sets up payments",
+            "detail": "Turns on Shopify Payments."
+          },
+          {
+            "step": "Picks plan",
+            "detail": "Basic plan at $39 a month."
+          },
+          {
+            "step": "First sale",
+            "detail": "Friend buys via Instagram link."
+          },
+          {
+            "step": "Adds apps",
+            "detail": "Installs a review and email app."
+          }
+        ]
+      },
+      {
+        "name": "Selling through AI agents",
+        "persona": "Growing D2C brand",
+        "steps": [
+          {
+            "step": "Connects catalog",
+            "detail": "Turns on agentic channels."
+          },
+          {
+            "step": "Shopper asks AI",
+            "detail": "Asks ChatGPT for a gentle face wash."
+          },
+          {
+            "step": "Product appears",
+            "detail": "Brand shown with price and reviews."
+          },
+          {
+            "step": "Checkout",
+            "detail": "Shopper pays with Shop Pay."
+          },
+          {
+            "step": "Order fulfilled",
+            "detail": "Order lands in Shopify admin."
+          }
+        ]
+      },
+      {
+        "name": "Moving to Plus",
+        "persona": "Enterprise retailer on Plus",
+        "steps": [
+          {
+            "step": "Talks to sales",
+            "detail": "Compares costs with Salesforce Commerce Cloud."
+          },
+          {
+            "step": "Migrates",
+            "detail": "Partner agency moves data."
+          },
+          {
+            "step": "Launches B2B",
+            "detail": "Sets wholesale prices."
+          },
+          {
+            "step": "Adds POS",
+            "detail": "Connects 50 stores."
+          },
+          {
+            "step": "Measures",
+            "detail": "Tracks conversion and costs."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Shopify earns from monthly plans (subscription solutions) and from a cut of merchant sales through payments, shipping, loans and other services (merchant solutions, 78% of revenue).",
+      "revenueStreams": [
+        {
+          "stream": "Merchant solutions",
+          "detail": "$2.9 billion in Q3 2026: payment fees, Shop Pay, Capital, shipping, Markets."
+        },
+        {
+          "stream": "Subscription solutions",
+          "detail": "$836 million in Q3 2026: plan fees, apps, themes and domains."
+        },
+        {
+          "stream": "Shopify Plus",
+          "detail": "Enterprise plans from about $2,300 a month."
+        },
+        {
+          "stream": "App and theme revenue share",
+          "detail": "Cut of sales from app developers above a threshold."
+        }
+      ],
+      "pricing": "US list prices: Basic about $39 a month ($29 billed yearly), Grow about $105 ($79 yearly), Advanced about $399 ($299 yearly), Plus from about $2,300 a month. Card rates on Basic online around 2.9% plus 30 cents. Extra fee if a merchant uses another payment provider.",
+      "costDrivers": [
+        "Payment processing costs (interchange and networks)",
+        "R&D, including AI ($497 million in Q3)",
+        "Sales and marketing",
+        "Cloud hosting",
+        "Loan and transaction losses"
+      ],
+      "unitEconomics": "A merchant on Basic selling $10,000 a month pays $39 in fees and about $320 in card fees. Shopify keeps most of the $39 and about $50 to $80 of the card fees after paying card networks. That is roughly $1,000 to $1,400 a year in gross profit from one small merchant. Shopify's overall take rate is about 3.1% of GMV ($3.74 billion revenue on $119 billion GMV)."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Free trials and low starting price",
+        "Content, YouTube tutorials and SEO",
+        "Partner agencies and app developers",
+        "Big brand wins on Plus",
+        "Point of sale for physical shops"
+      ],
+      "whatBringsUsersBack": [
+        "Daily orders and admin use",
+        "Sidekick insights",
+        "Apps built into workflows",
+        "Shop Pay that shoppers already use"
+      ],
+      "moat": "Shopify's moat is its ecosystem: thousands of apps, agencies and developers, plus Shop Pay saved by over 400 million shoppers. Once a business runs on Shopify, switching means rebuilding store, apps and payments."
+    },
+    "competitors": [
+      {
+        "name": "Amazon",
+        "positioning": "Marketplace where Amazon owns the customer.",
+        "howThisProductDiffers": "Shopify lets merchants own their brand and customer data."
+      },
+      {
+        "name": "WooCommerce",
+        "positioning": "Free open-source plugin for WordPress.",
+        "howThisProductDiffers": "Shopify is hosted and easier, but has monthly fees."
+      },
+      {
+        "name": "BigCommerce and Wix",
+        "positioning": "Store builders.",
+        "howThisProductDiffers": "Shopify has a bigger app ecosystem and payments."
+      },
+      {
+        "name": "Salesforce Commerce Cloud",
+        "positioning": "Enterprise commerce.",
+        "howThisProductDiffers": "Shopify Plus is cheaper and faster to launch."
+      },
+      {
+        "name": "Dukaan and Instamojo (India)",
+        "positioning": "Low-cost Indian store builders.",
+        "howThisProductDiffers": "Shopify has global reach but higher price."
+      }
+    ],
+    "northStar": {
+      "metric": "GMV (total sales merchants make through Shopify)",
+      "why": "Shopify only wins when merchants sell more, so GMV shows how much value it creates."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active merchants",
+        "description": "Merchants making sales each month.",
+        "children": [
+          {
+            "metric": "Trial to paid rate",
+            "description": "Trials turning into paid plans."
+          },
+          {
+            "metric": "Time to first sale",
+            "description": "Days from sign-up to first order."
+          }
+        ]
+      },
+      {
+        "metric": "GMV per merchant",
+        "description": "Sales per merchant.",
+        "children": [
+          {
+            "metric": "Checkout conversion",
+            "description": "Visits that become orders."
+          },
+          {
+            "metric": "Channels per merchant",
+            "description": "Selling on more places."
+          },
+          {
+            "metric": "AI-referred orders",
+            "description": "Orders from AI agents."
+          }
+        ]
+      },
+      {
+        "metric": "Attach rate",
+        "description": "Share of GMV using Shopify services.",
+        "children": [
+          {
+            "metric": "Payments penetration",
+            "description": "68% today."
+          },
+          {
+            "metric": "Capital and Shipping use",
+            "description": "Merchants using loans and labels."
+          }
+        ]
+      },
+      {
+        "metric": "Merchant retention",
+        "description": "Merchants still active after 12 months.",
+        "children": [
+          {
+            "metric": "Sidekick daily users",
+            "description": "Merchants using AI help."
+          },
+          {
+            "metric": "Support satisfaction",
+            "description": "Merchant happiness with help."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Merchant churn",
+      "Payment fraud and loan losses",
+      "Store uptime during Black Friday",
+      "Total app cost per merchant"
+    ],
+    "strengths": [
+      "Fast growth (32%) with strong free cash flow",
+      "Huge ecosystem of apps and partners",
+      "Early lead in agentic commerce (selling through AI agents)",
+      "Serves both small and large merchants"
+    ],
+    "weaknesses": [
+      "Many small merchants fail and churn",
+      "Gross margin falling as payments grow",
+      "App costs make the real price high",
+      "Support quality complaints"
+    ],
+    "risks": [
+      "AI agents could weaken brand stores if shoppers never visit them",
+      "Amazon and TikTok Shop pulling merchants",
+      "Economic slowdown in consumer spending",
+      "Tariffs hurting cross-border sellers"
+    ],
+    "userComplaints": [
+      "App subscriptions add up to more than the plan",
+      "Extra fees for using other payment gateways",
+      "Payment holds on new stores",
+      "Slow or scripted support"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Bundle top apps into plans at a discount",
+        "problem": "App costs add up.",
+        "expectedImpact": "Lower total cost, better retention.",
+        "metricToTrack": "Merchant churn",
+        "effort": "medium"
+      },
+      {
+        "idea": "Sidekick 'first 10 sales' coach",
+        "problem": "New merchants fail before first sales.",
+        "expectedImpact": "More merchants reach first sales.",
+        "metricToTrack": "Time to first sale",
+        "effort": "low"
+      },
+      {
+        "idea": "AI channel analytics dashboard",
+        "problem": "Merchants do not understand AI-driven sales.",
+        "expectedImpact": "More merchants turn on agentic channels.",
+        "metricToTrack": "AI-referred orders",
+        "effort": "medium"
+      },
+      {
+        "idea": "Clear payout hold explanations",
+        "problem": "New merchants panic at held payouts.",
+        "expectedImpact": "Fewer support tickets.",
+        "metricToTrack": "Support tickets per new merchant",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Win when your customers win: tying revenue to GMV aligns Shopify with merchants.",
+      "Ecosystems (apps, partners) create strong lock-in.",
+      "Bet early on new channels like AI agents.",
+      "A low starting price brings many merchants, but you must help them succeed to keep them."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you reduce churn among new Shopify merchants?",
+        "hint": "Segment by cause, find first-sale barriers, design onboarding, track time to first sale."
+      },
+      {
+        "question": "How should Shopify respond to AI shopping agents?",
+        "hint": "Opportunity vs threat; build catalogs, checkout, attribution."
+      },
+      {
+        "question": "What is Shopify's north star metric?",
+        "hint": "GMV; explain drivers and guardrails."
+      },
+      {
+        "question": "Should Shopify launch its own marketplace?",
+        "hint": "Weigh merchant trust and channel conflict versus revenue."
+      },
+      {
+        "question": "Design a Sidekick feature.",
+        "hint": "Pick a merchant pain, define job, measure adoption and impact."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "GMV",
+        "meaning": "Gross merchandise value, the total value of goods sold."
+      },
+      {
+        "term": "MRR",
+        "meaning": "Monthly recurring revenue from subscriptions."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "The share of GMV a platform keeps as revenue."
+      },
+      {
+        "term": "Payments penetration",
+        "meaning": "Share of sales processed through Shopify Payments."
+      },
+      {
+        "term": "Free cash flow",
+        "meaning": "Cash left after running the business and investing."
+      },
+      {
+        "term": "D2C",
+        "meaning": "Direct to customer, brands selling straight to buyers."
+      },
+      {
+        "term": "Agentic commerce",
+        "meaning": "Shopping done by AI agents on behalf of people."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Customers who stop using a product."
+      },
+      {
+        "term": "Attach rate",
+        "meaning": "Share of customers or sales using an extra product."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      }
+    ],
+    "assumptions": [
+      "Plan prices are US list prices and may differ by country.",
+      "Unit economics per merchant is an illustrative estimate.",
+      "Second to Amazon in US e-commerce is a common estimate."
+    ]
+  }
+}

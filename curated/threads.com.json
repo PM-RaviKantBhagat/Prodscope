@@ -1,0 +1,388 @@
+{
+  "company": "Threads",
+  "domain": "threads.com",
+  "website": "https://www.threads.com",
+  "sources": [
+    "https://www.techcrunch.com/2026/01/18/threads-edges-out-x-in-daily-mobile-users-new-data-shows/",
+    "https://www.emarketer.com/content/threads-surpasses-x-daily-mobile-users--reshaping-where-marketers-should-invest",
+    "https://apptopia.com/en/insights/threads-is-bleeding-users/",
+    "https://searchengineland.com/guide/threads-users",
+    "https://gcn.com/meta-s-threads-crossed-400-million/20719/",
+    "https://www.analyticsinsight.net/news/metas-threads-gains-momentum-while-x-faces-declining-engagement-and-ad-pressure"
+  ],
+  "report": {
+    "company": "Threads",
+    "tagline": "Meta's text-first social app, built on Instagram accounts, for short posts and public conversations.",
+    "category": "Social media",
+    "simpleSummary": "Threads is like Twitter, but made by Meta and connected to your Instagram account. You write short posts, reply, repost and follow people, and the app shows you a feed of posts from people you follow and others it thinks you will like. It launched in July 2023 and got 100 million sign-ups in five days because Instagram users could join in one tap. It is free, and Meta now shows ads in it.",
+    "keyNumbers": [
+      {
+        "label": "Monthly users",
+        "value": "400 million+",
+        "note": "Meta figure, August 2025. TechCrunch."
+      },
+      {
+        "label": "Daily users",
+        "value": "150 million",
+        "note": "Meta figure, October 2025. TechCrunch."
+      },
+      {
+        "label": "Mobile daily users vs X",
+        "value": "141.5 million vs 125 million",
+        "note": "Similarweb estimate for iOS and Android, 7 January 2026. TechCrunch."
+      },
+      {
+        "label": "Daily web visits",
+        "value": "About 8.5 million (X: about 145 million)",
+        "note": "Similarweb, January 2026. Threads is weak on the web."
+      },
+      {
+        "label": "Sign-ups at launch",
+        "value": "100 million in about 5 days (July 2023)",
+        "note": "Widely reported at launch."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Threads is a public conversation app. Users post text (with photos, videos and links), reply, quote and follow topics and communities. It is run by the Instagram team and uses Instagram accounts and follower lists to get started.",
+      "howItWorks": [
+        "Users sign in with their Instagram account and can follow the same people in one tap.",
+        "The 'For You' feed recommends posts using Meta's ranking AI; a 'Following' feed shows only accounts you follow.",
+        "People post short text, add tags for topics, join interest communities and send DMs.",
+        "Threads connects to the fediverse, so some posts can be seen on apps like Mastodon.",
+        "Meta shows ads in the feed, sold through the same tools advertisers use for Instagram and Facebook."
+      ],
+      "valueProposition": "A friendlier, less toxic place for public conversation, with your Instagram friends and creators already there."
+    },
+    "personas": [
+      {
+        "name": "Instagram creator",
+        "description": "A creator with a big Instagram following who wants to share thoughts, not just photos.",
+        "goals": [
+          "Reach followers with text",
+          "Grow audience"
+        ],
+        "frustrations": [
+          "Engagement drops after the novelty",
+          "Feed full of random posts"
+        ]
+      },
+      {
+        "name": "Ex-Twitter user",
+        "description": "A journalist or tech worker who left X after its changes.",
+        "goals": [
+          "Real-time news and discussion",
+          "Less toxicity"
+        ],
+        "frustrations": [
+          "Weaker real-time news than X",
+          "Weak web app"
+        ]
+      },
+      {
+        "name": "Young Indian user",
+        "description": "A 22-year-old in Mumbai who uses Instagram daily and tried Threads.",
+        "goals": [
+          "Fun posts and memes",
+          "Talk about cricket and films"
+        ],
+        "frustrations": [
+          "Not enough local content"
+        ]
+      },
+      {
+        "name": "Brand marketer",
+        "description": "A social media manager for a consumer brand.",
+        "goals": [
+          "Reach new audiences",
+          "Cheaper ads than X"
+        ],
+        "frustrations": [
+          "Unclear ad performance",
+          "Small ad formats"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Starting a new social app means an empty feed and no followers.",
+        "howSolved": "Instagram login and one-tap follow of Instagram contacts.",
+        "severity": "high"
+      },
+      {
+        "pain": "X felt toxic and unstable for many users and advertisers.",
+        "howSolved": "Stricter moderation and a calmer tone.",
+        "severity": "high"
+      },
+      {
+        "pain": "Finding conversations on your interests.",
+        "howSolved": "Topic tags, communities and recommendations.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Brands needed a safe text platform.",
+        "howSolved": "Meta's ad tools with brand safety controls.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Instagram login and follow import",
+        "whatItDoes": "Use your Instagram account and follow the same people in one tap.",
+        "whyItMatters": "Solved the empty-app problem that kills most new social apps."
+      },
+      {
+        "feature": "For You and Following feeds",
+        "whatItDoes": "Recommended posts and a chronological feed of followed accounts.",
+        "whyItMatters": "Recommendations give new users content before they follow many people."
+      },
+      {
+        "feature": "Communities and topic tags",
+        "whatItDoes": "Interest groups and tags like sports, books or tech.",
+        "whyItMatters": "Helps people find their niche and post more."
+      },
+      {
+        "feature": "DMs",
+        "whatItDoes": "Private messaging inside Threads, added in 2025.",
+        "whyItMatters": "Keeps conversations in the app."
+      },
+      {
+        "feature": "Ads",
+        "whatItDoes": "Image, video and carousel ads in the feed.",
+        "whyItMatters": "Turns Threads usage into Meta revenue."
+      },
+      {
+        "feature": "Fediverse sharing",
+        "whatItDoes": "Lets posts reach users on Mastodon and other open apps.",
+        "whyItMatters": "Signals openness and attracts some tech users."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "Joining from Instagram",
+        "persona": "Young Indian user",
+        "steps": [
+          {"step": "Sees prompt", "detail": "Instagram shows a Threads banner."},
+          {"step": "Installs", "detail": "Downloads Threads."},
+          {"step": "Logs in", "detail": "Uses Instagram account."},
+          {"step": "Follows", "detail": "Taps to follow all Instagram follows."},
+          {"step": "Scrolls", "detail": "Sees For You posts."},
+          {"step": "Posts", "detail": "Writes a first post about a cricket match."}
+        ]
+      },
+      {
+        "name": "Creator building an audience",
+        "persona": "Instagram creator",
+        "steps": [
+          {"step": "Cross-posts", "detail": "Shares a Threads post to Instagram Stories."},
+          {"step": "Replies", "detail": "Answers fans' replies."},
+          {"step": "Tags topics", "detail": "Adds a topic tag to reach new people."},
+          {"step": "Checks insights", "detail": "Looks at views and follows."},
+          {"step": "Posts daily", "detail": "Builds a habit if engagement stays high."}
+        ]
+      },
+      {
+        "name": "Brand runs Threads ads",
+        "persona": "Brand marketer",
+        "steps": [
+          {"step": "Opens Ads Manager", "detail": "Same tool as Instagram."},
+          {"step": "Adds Threads placement", "detail": "Ticks Threads as a placement."},
+          {"step": "Sets budget", "detail": "Chooses audience and spend."},
+          {"step": "Runs ad", "detail": "Ad appears in Threads feed."},
+          {"step": "Measures", "detail": "Checks results against Instagram."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Threads makes money from ads, sold through Meta's existing ad system. Ads started in 2025, and revenue is still small compared with Instagram, but Meta can add Threads to existing advertisers' campaigns with one click.",
+      "revenueStreams": [
+        {"stream": "Feed ads", "detail": "Image, video and carousel ads in the feed."},
+        {"stream": "Placement add-on", "detail": "Advertisers add Threads to their Instagram and Facebook campaigns."}
+      ],
+      "pricing": "Free for users. Ads bought by auction through Meta Ads Manager.",
+      "costDrivers": [
+        "Servers and AI ranking",
+        "Content moderation",
+        "Engineering team",
+        "Promotion inside Instagram (free for Meta but takes space)"
+      ],
+      "unitEconomics": "Rough estimate. Threads shares Meta's servers, ad tools and moderation, so each extra user costs little. If Threads earns a few dollars per daily user a year today, far below Instagram's roughly $23 per user, it is still likely near break-even or better at Meta's scale. The real bet is future revenue as ad load rises."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Promotion inside Instagram and Facebook",
+        "One-tap Instagram login",
+        "Creators bringing followers",
+        "Users leaving X after policy changes"
+      ],
+      "whatBringsUsersBack": [
+        "Notifications for replies and follows",
+        "For You recommendations",
+        "Communities on interests",
+        "Posts shared to Instagram"
+      ],
+      "moat": "Threads sits on top of Instagram's 3 billion users and Meta's ad system. No new app can borrow a social graph that big. Its weakness is that text conversations depend on real-time news and active posters, where X still leads."
+    },
+    "competitors": [
+      {
+        "name": "X (Twitter)",
+        "positioning": "The original real-time text network.",
+        "howThisProductDiffers": "Threads now has more mobile daily users globally; X leads on the web and in the US, and in news."
+      },
+      {
+        "name": "Bluesky",
+        "positioning": "Decentralised Twitter alternative.",
+        "howThisProductDiffers": "Threads is much bigger and backed by Meta."
+      },
+      {
+        "name": "Instagram and Reddit",
+        "positioning": "Other places for public conversation.",
+        "howThisProductDiffers": "Threads is fast text; Reddit is deep forums."
+      }
+    ],
+    "northStar": {
+      "metric": "Daily active users who post or reply",
+      "why": "A text network only works if people write and talk. This north star tracks conversations, not just reading."
+    },
+    "kpiTree": [
+      {
+        "metric": "Daily active users",
+        "description": "People opening Threads each day.",
+        "children": [
+          {"metric": "Instagram-to-Threads conversion", "description": "Instagram users who install Threads."},
+          {"metric": "Day 30 retention", "description": "New users still active after a month."},
+          {"metric": "Web daily users", "description": "Users on threads.com."}
+        ]
+      },
+      {
+        "metric": "Posting and reply rate",
+        "description": "Share of daily users who write.",
+        "children": [
+          {"metric": "First post within 24 hours", "description": "New users who post quickly."},
+          {"metric": "Replies per post", "description": "Conversation depth."},
+          {"metric": "Community posts", "description": "Posts in interest groups."}
+        ]
+      },
+      {
+        "metric": "Feed quality",
+        "description": "How relevant and fresh the feed is.",
+        "children": [
+          {"metric": "Real-time news share", "description": "Posts about events within hours."},
+          {"metric": "Hide or 'not interested' rate", "description": "Bad recommendation signals."},
+          {"metric": "Following feed usage", "description": "Users choosing chronological feed."}
+        ]
+      },
+      {
+        "metric": "Ad revenue",
+        "description": "Money from ads.",
+        "children": [
+          {"metric": "Ad load", "description": "Ads per 100 posts."},
+          {"metric": "Advertisers using Threads", "description": "Advertisers adding the placement."},
+          {"metric": "Ad click-through rate", "description": "Share of ads clicked."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Harmful content prevalence",
+      "Daily users after ad load increases",
+      "Hide rate on recommended posts"
+    ],
+    "strengths": [
+      "Instant scale from Instagram",
+      "More mobile daily users than X as of January 2026",
+      "Brand-safe for advertisers",
+      "Fast feature releases"
+    ],
+    "weaknesses": [
+      "Weak web presence",
+      "Less real-time news and fewer power users than X",
+      "Engagement dropped after the launch spike (Apptopia 'bleeding users' report)",
+      "Feed sometimes full of engagement bait"
+    ],
+    "risks": [
+      "X regains users with new features",
+      "Users treat Threads as an Instagram side feature",
+      "Regulation of Meta's data sharing across apps in the EU",
+      "Moderation controversies around news and politics"
+    ],
+    "userComplaints": [
+      "Feed full of random or engagement-bait posts",
+      "Not enough news or real-time content",
+      "Web app is weak",
+      "Hard to find people outside Instagram circles"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Live events hub for cricket, elections and big news",
+        "problem": "Threads lacks real-time conversation.",
+        "expectedImpact": "More daily use and posts during events.",
+        "metricToTrack": "Posts per minute during events",
+        "effort": "medium"
+      },
+      {
+        "idea": "Better web app with full features",
+        "problem": "Journalists and desk workers use X on web.",
+        "expectedImpact": "More power users.",
+        "metricToTrack": "Web daily users",
+        "effort": "medium"
+      },
+      {
+        "idea": "Down-rank engagement bait",
+        "problem": "Users complain about low-quality posts.",
+        "expectedImpact": "Better feed quality.",
+        "metricToTrack": "Hide rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Hindi and regional language communities",
+        "problem": "Indian users find little local content.",
+        "expectedImpact": "Growth in India.",
+        "metricToTrack": "Indian posting rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Distribution can solve the cold-start problem. Threads borrowed Instagram's network to avoid an empty app.",
+      "Sign-ups are not retention. Threads got 100 million sign-ups but had to work hard to keep people.",
+      "A competitor's mistakes create openings, but you still need a better product to keep users.",
+      "Web matters for news and work users, even in a mobile-first world."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How did Threads solve the cold-start problem, and what are the risks of that approach?",
+        "hint": "Explain Instagram login and follow import; risks include low engagement and dependence on Instagram."
+      },
+      {
+        "question": "How would you increase posting on Threads?",
+        "hint": "Find barriers, suggest prompts and communities, track posting rate."
+      },
+      {
+        "question": "Threads has more mobile users than X but far fewer web users. What would you do?",
+        "hint": "Segment users, find who uses web (journalists, workers), improve web product, track web DAU."
+      },
+      {
+        "question": "When should Threads increase ad load?",
+        "hint": "Use retention and engagement guardrails, test by market, compare revenue gain with user loss."
+      },
+      {
+        "question": "What is the north star for Threads?",
+        "hint": "Daily users who post or reply, broken into users, posting rate, feed quality and ads."
+      }
+    ],
+    "glossary": [
+      {"term": "Cold-start problem", "meaning": "When a new network is not useful because there are not enough people on it yet."},
+      {"term": "Social graph", "meaning": "The map of who follows or is friends with whom."},
+      {"term": "Fediverse", "meaning": "A group of connected social apps, like Mastodon, that can share posts with each other."},
+      {"term": "DAU", "meaning": "Daily active users: people who use the app at least once a day."},
+      {"term": "Retention", "meaning": "How many users keep using the app over time."},
+      {"term": "Ad load", "meaning": "How many ads appear compared to normal posts."},
+      {"term": "Engagement bait", "meaning": "Posts designed only to get reactions, like 'reply if you agree'."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that users are getting value."},
+      {"term": "Guardrail", "meaning": "A metric that must not get worse while the team improves the main one."}
+    ],
+    "assumptions": [
+      "Threads revenue per user is an estimate; Meta does not report it.",
+      "Mobile user numbers from Similarweb are estimates, not Meta figures.",
+      "The 'empty-app problem' is described as the cold-start problem."
+    ]
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "company": "MakeMyTrip",
+  "domain": "makemytrip.com",
+  "website": "https://www.makemytrip.com",
+  "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/makemytrip-ltd-mmyt-q4-2026-010341301.html",
+    "https://www.angelone.in/news/unlisted-companies/makemytrip-reports-surge-in-gross-bookings-at-record-10-4-billion-in-fy26",
+    "https://www.outlookbusiness.com/corporate/makemytrip-clocks-13-rise-in-adjusted-operating-profit-at-1888-million-in-fy26",
+    "https://inc42.com/buzz/makemytrip-q4-profit-falls-17-to-24-3-mn-revenue-rises-1-9-yoy/",
+    "https://www.businesstoday.in/latest/trends/story/indigo-flyer-booked-rs1-lakh-bali-tickets-two-cancellations-later-she-says-rs40000-vanished-536397-2026-06-11",
+    "https://www.consumercomplaints.in/make-my-trip-india-b100170",
+    "https://inc42.com/features/travel-tech-2025-review-regulations-disruption-and-reality-checks"
+  ],
+  "report": {
+    "company": "MakeMyTrip",
+    "tagline": "India's biggest online travel agency, where people book flights, hotels, holidays, trains and buses in one app.",
+    "category": "Travel",
+    "simpleSummary": "MakeMyTrip is the app many Indians open first when they plan a trip. You can book a flight to Goa, a hotel in Jaipur, a train ticket or a bus seat, all in one place. MakeMyTrip does not run planes or hotels. It sells their seats and rooms and earns a small cut or fee on each booking. It also owns Goibibo and redBus, so it covers almost every way Indians travel.",
+    "keyNumbers": [
+      {
+        "label": "Gross bookings FY26",
+        "value": "$10.4 billion (about ₹88,000 crore)",
+        "note": "Total value of all trips booked, year to March 2026. Company results, reported by Angel One and Yahoo Finance. Rupee figure is a rough conversion."
+      },
+      {
+        "label": "Adjusted operating profit FY26",
+        "value": "$188.8 million",
+        "note": "Up 13% year on year. Outlook Business, company results. This is about 1.8% of gross bookings."
+      },
+      {
+        "label": "Revenue FY26",
+        "value": "About $1.08 billion",
+        "note": "Estimate. Company reported 10.7% constant-currency revenue growth on about $978 million in FY25; absolute FY26 figure not confirmed in sources."
+      },
+      {
+        "label": "Q4 FY26 net profit",
+        "value": "$24.3 million",
+        "note": "Down 17% year on year as West Asia conflict hit international travel. Inc42."
+      },
+      {
+        "label": "Hotel and stay options",
+        "value": "100,000+ across 2,050+ Indian cities",
+        "note": "Company earnings call, May 2026."
+      },
+      {
+        "label": "Myra AI assistant",
+        "value": "80,000+ conversations a day",
+        "note": "Company earnings call, May 2026. Conversion about 10% higher than normal flows, per management."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "MakeMyTrip is an online travel agency, or OTA: a site that sells other companies' flights, hotel rooms, holiday packages, bus and train tickets and cabs. It shows prices side by side, takes payment, and helps when plans change. It runs three brands: MakeMyTrip, Goibibo and redBus.",
+      "howItWorks": [
+        "A traveller searches a route or city, and MakeMyTrip pulls live prices and seats from airlines, hotels and bus operators.",
+        "The traveller picks an option, adds extras like insurance or seat selection, and pays in the app using UPI, cards or EMI.",
+        "MakeMyTrip passes the booking to the airline or hotel and keeps a commission or service fee.",
+        "Members earn MMT Black loyalty rewards and see member-only prices that bring them back.",
+        "After booking, the app handles web check-in, cancellations, refunds and support, including the Myra AI assistant."
+      ],
+      "valueProposition": "One trusted app to compare and book every part of an Indian trip, with deals, easy payment and help when a flight is cancelled."
+    },
+    "personas": [
+      {
+        "name": "Young working professional",
+        "description": "A 27-year-old in Bengaluru who flies home for festivals and takes two short holidays a year.",
+        "goals": [
+          "Cheapest fare on the right dates",
+          "Quick booking on the phone",
+          "Easy refunds if plans change"
+        ],
+        "frustrations": [
+          "Convenience fees added at checkout",
+          "Refunds that take weeks after an airline cancels",
+          "Prices that seem to rise after repeat searches"
+        ]
+      },
+      {
+        "name": "Family holiday planner",
+        "description": "A parent in Pune planning a Kerala or Dubai trip for four people.",
+        "goals": [
+          "Flights, hotel and transfers in one package",
+          "Clear total price and EMI options",
+          "Someone to call if something goes wrong"
+        ],
+        "frustrations": [
+          "Hotel not matching photos",
+          "Holiday package changes and hidden extras",
+          "Long waits for a human on support"
+        ]
+      },
+      {
+        "name": "Small-town traveller",
+        "description": "A trader in Indore who mostly travels by train and bus and is newer to flights.",
+        "goals": [
+          "Confirmed train or bus seat",
+          "Pay by UPI",
+          "Instructions in simple language"
+        ],
+        "frustrations": [
+          "Waitlisted train tickets with unclear chances",
+          "Bus operators changing timings"
+        ]
+      },
+      {
+        "name": "Corporate travel manager",
+        "description": "An admin at a mid-size company booking staff trips on myBiz.",
+        "goals": [
+          "Company-approved fares and GST invoices",
+          "One dashboard for all staff trips"
+        ],
+        "frustrations": [
+          "Approval steps slow down urgent bookings",
+          "Reconciling invoices across airlines"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Comparing fares across many airlines and hotels takes time.",
+        "howSolved": "One search shows all airlines and thousands of hotels with prices and filters.",
+        "severity": "high"
+      },
+      {
+        "pain": "Planning a full trip means booking many pieces separately.",
+        "howSolved": "Holiday packages and bundled flight plus hotel deals.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Flight cancellations and delays leave travellers stuck.",
+        "howSolved": "Rebooking help, refund tracking and Zero Cancellation add-on cover.",
+        "severity": "high"
+      },
+      {
+        "pain": "Not trusting a hotel you have never seen.",
+        "howSolved": "Guest reviews, photos and MakeMyTrip-assured property tags.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Big trips are hard to pay for at once.",
+        "howSolved": "No-cost EMI, pay-later and part payment for packages.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Train waitlists make plans uncertain.",
+        "howSolved": "Waitlist confirmation predictions and Trip Guarantee style offers.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Flight search and booking",
+        "whatItDoes": "Compares domestic and international fares, with fare calendars and add-ons.",
+        "whyItMatters": "Flights are the most searched product and the entry point for most customers."
+      },
+      {
+        "feature": "Hotels and homestays",
+        "whatItDoes": "Over 100,000 stays across 2,050+ Indian cities with reviews and photos.",
+        "whyItMatters": "Hotels pay a much higher commission than flights, so they drive most profit."
+      },
+      {
+        "feature": "MMT Black loyalty",
+        "whatItDoes": "Tiered membership with extra discounts, free upgrades and priority support.",
+        "whyItMatters": "Keeps frequent travellers from switching to cheaper sites."
+      },
+      {
+        "feature": "Zero Cancellation and trip insurance",
+        "whatItDoes": "Paid add-ons that refund most of the fare if you cancel.",
+        "whyItMatters": "Reduces fear of booking early and earns extra fee income."
+      },
+      {
+        "feature": "Myra AI trip assistant",
+        "whatItDoes": "Chat assistant that answers questions, suggests trips and handles changes, with 80,000+ conversations a day.",
+        "whyItMatters": "Cuts support cost and converts browsers into bookers about 10% better."
+      },
+      {
+        "feature": "myBiz corporate travel",
+        "whatItDoes": "Business booking tool with policies, approvals and GST invoices.",
+        "whyItMatters": "Steady, repeat bookings from companies."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First flight booking",
+        "persona": "Young working professional",
+        "steps": [
+          {"step": "Searches route", "detail": "Enters Bengaluru to Delhi and festival dates."},
+          {"step": "Compares fares", "detail": "Sorts by price and timing, checks the fare calendar."},
+          {"step": "Picks fare type", "detail": "Chooses saver or flexi fare, sees baggage rules."},
+          {"step": "Adds extras", "detail": "Considers seat, meal and Zero Cancellation."},
+          {"step": "Applies offer", "detail": "Uses a bank card coupon to cut ₹300 to ₹800."},
+          {"step": "Pays", "detail": "Pays by UPI and gets the ticket by SMS, email and WhatsApp."},
+          {"step": "Checks in", "detail": "Uses web check-in reminder from the app."}
+        ]
+      },
+      {
+        "name": "Family holiday package",
+        "persona": "Family holiday planner",
+        "steps": [
+          {"step": "Browses holidays", "detail": "Looks at Kerala 5-night packages."},
+          {"step": "Customises", "detail": "Changes hotel and adds airport transfers."},
+          {"step": "Talks to expert", "detail": "Requests a call back to ask questions."},
+          {"step": "Pays in parts", "detail": "Pays a deposit, rest before travel or via EMI."},
+          {"step": "Receives vouchers", "detail": "Gets hotel and transfer vouchers in the app."},
+          {"step": "Travels and reviews", "detail": "Rates hotels after the trip."}
+        ]
+      },
+      {
+        "name": "Flight cancelled by airline",
+        "persona": "Young working professional",
+        "steps": [
+          {"step": "Gets alert", "detail": "Airline cancels, app sends a notification."},
+          {"step": "Chooses option", "detail": "Picks rebooking or refund in the app."},
+          {"step": "Talks to Myra", "detail": "Asks the AI assistant for status."},
+          {"step": "Escalates", "detail": "If refund is delayed, raises a ticket or calls support."},
+          {"step": "Gets money back", "detail": "Refund reaches the bank or MMT wallet, sometimes after weeks."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "MakeMyTrip makes money by taking a cut or fee on each booking, plus extras and ads. It keeps only about 10% of the value of what it sells as revenue, and about 1.8% as operating profit.",
+      "revenueStreams": [
+        {"stream": "Air ticketing", "detail": "Commissions from airlines and convenience fees from customers, roughly 3% to 6% of fare. Biggest volume, thin margin."},
+        {"stream": "Hotels and packages", "detail": "Commissions of roughly 12% to 20% from hotels, plus markup on holiday packages. Highest margin."},
+        {"stream": "Bus ticketing (redBus)", "detail": "Commission from bus operators on each seat sold, in India and abroad."},
+        {"stream": "Other", "detail": "Ads from hotels and brands, insurance, forex, cabs, trains and corporate travel fees."}
+      ],
+      "pricing": "Free to search. Customers pay the fare or room rate plus a convenience fee on many bookings (often ₹100 to ₹400 on flights). Paid add-ons like Zero Cancellation. MMT Black membership tiers.",
+      "costDrivers": [
+        "Marketing and discounts, including bank offers and coupons",
+        "Payment gateway fees",
+        "Customer support for cancellations and refunds",
+        "Technology and staff",
+        "Performance marketing on Google and social media"
+      ],
+      "unitEconomics": "Rough example, estimated. On a ₹6,000 domestic flight, MakeMyTrip might earn about ₹250 to ₹350 from airline commission and convenience fee, then spend ₹100 or more on payment fees, discounts and support, keeping very little. On a ₹10,000 hotel stay it might keep ₹1,200 to ₹1,800 as commission, which is where the real money is. So flights bring customers in cheaply and often, and hotels and packages pay the bills. Across everything, MakeMyTrip turned $10.4 billion of bookings into about $189 million of adjusted operating profit in FY26, about ₹1.80 of profit on every ₹100 booked."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Brand ads, especially around festivals and summer holidays",
+        "Bank card and UPI offers that pull price-sensitive users",
+        "Google search and app store ads",
+        "Owning Goibibo and redBus, which bring different user groups",
+        "Corporate deals through myBiz"
+      ],
+      "whatBringsUsersBack": [
+        "MMT Black loyalty rewards and member prices",
+        "Saved traveller details and payment methods make the next booking fast",
+        "Trip reminders, fare alerts and festival sale notifications",
+        "Trust built by past refunds and support help"
+      ],
+      "moat": "MakeMyTrip has the largest supply of Indian hotels and homestays signed up, plus scale in flights and buses through redBus. More travellers attract more hotels, and more hotels attract more travellers, which is a network effect. It has also built 25 years of brand trust. Rivals can match flight prices, but matching hotel supply in 2,000+ cities is hard."
+    },
+    "competitors": [
+      {
+        "name": "Ixigo",
+        "positioning": "Listed Indian travel app strong in trains and budget travellers from smaller towns.",
+        "howThisProductDiffers": "MakeMyTrip is stronger in hotels and packages, where profits are higher."
+      },
+      {
+        "name": "EaseMyTrip",
+        "positioning": "Indian OTA known for no convenience fee on flights.",
+        "howThisProductDiffers": "MakeMyTrip charges fees but offers more supply, loyalty and support."
+      },
+      {
+        "name": "Cleartrip (Flipkart)",
+        "positioning": "Flights-led OTA that can use Flipkart's huge user base and payments.",
+        "howThisProductDiffers": "MakeMyTrip has deeper hotel and bus supply, and its own brand habit."
+      },
+      {
+        "name": "Booking.com and Agoda",
+        "positioning": "Global hotel giants with strong international hotel supply.",
+        "howThisProductDiffers": "MakeMyTrip wins on Indian budget hotels, homestays, local payments and bundled flights."
+      },
+      {
+        "name": "Airline apps (IndiGo, Air India)",
+        "positioning": "Direct booking with no middleman fee.",
+        "howThisProductDiffers": "MakeMyTrip offers comparison across airlines and full trip planning."
+      }
+    ],
+    "northStar": {
+      "metric": "Completed trips per month (bookings that were travelled, not cancelled)",
+      "why": "This north star counts trips that actually happened, so it reflects real value to travellers and avoids rewarding bookings that later turn into refunds and complaints."
+    },
+    "kpiTree": [
+      {
+        "metric": "Active bookers",
+        "description": "Number of unique people booking at least once a month.",
+        "children": [
+          {"metric": "New user first bookings", "description": "First-time bookers from ads and offers."},
+          {"metric": "Repeat rate in 90 days", "description": "Share of bookers who book again within three months."},
+          {"metric": "MMT Black members", "description": "Members who get better prices and book more often."}
+        ]
+      },
+      {
+        "metric": "Search to booking conversion",
+        "description": "Share of searches that end in a paid booking.",
+        "children": [
+          {"metric": "Price competitiveness", "description": "How often MakeMyTrip's price matches or beats rivals."},
+          {"metric": "Checkout drop-off", "description": "Users who leave when fees appear."},
+          {"metric": "Payment success rate", "description": "Share of payment attempts that go through."}
+        ]
+      },
+      {
+        "metric": "Cross-sell per trip",
+        "description": "How many products each traveller books per trip.",
+        "children": [
+          {"metric": "Flight to hotel attach rate", "description": "Flight bookers who also book a hotel."},
+          {"metric": "Add-on attach rate", "description": "Bookings with insurance or Zero Cancellation."},
+          {"metric": "Cab and activity attach", "description": "Extras booked for the destination."}
+        ]
+      },
+      {
+        "metric": "Trip completion",
+        "description": "Share of bookings that end in a completed trip without a support issue.",
+        "children": [
+          {"metric": "Refund turnaround time", "description": "Days from cancellation to money received."},
+          {"metric": "Hotel match rate", "description": "Stays with no 'not as shown' complaint."},
+          {"metric": "First contact resolution", "description": "Support issues solved in one go."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Refund complaints on the National Consumer Helpline",
+      "App store rating",
+      "Discount spend as a share of revenue",
+      "Adjusted operating profit margin on gross bookings"
+    ],
+    "strengths": [
+      "Clear market leader in Indian online travel, with three brands: MakeMyTrip, Goibibo and redBus",
+      "Deep hotel and homestay supply in small cities",
+      "Profitable, with strong cash flow ($182.5 million operating cash flow in FY26)",
+      "Early use of AI in support and trip planning through Myra"
+    ],
+    "weaknesses": [
+      "Flights earn very thin margins and are easy for customers to buy directly",
+      "Recurring complaints about refunds and support",
+      "Convenience fees annoy price-sensitive users",
+      "Heavy reliance on India, so local airline problems hit results"
+    ],
+    "risks": [
+      "Airline troubles, like IndiGo's large cancellation waves, push refund load and anger onto MakeMyTrip",
+      "West Asia conflict and a weak rupee cut international travel, as seen in FY26 Q4",
+      "Google Travel and AI assistants could let users skip OTAs",
+      "Consumer protection rules on dark patterns and drip pricing in India"
+    ],
+    "userComplaints": [
+      "Refunds for cancelled flights taking weeks, or being partly lost to fees",
+      "Hard to reach a human on support",
+      "Convenience fees and add-ons that appear late in checkout",
+      "Hotels that do not match photos or cancel at the last minute",
+      "Prices that seem to rise after repeated searches"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Live refund tracker with a promised date and auto-compensation if late",
+        "problem": "The top complaint is slow, unclear refunds after airline cancellations.",
+        "expectedImpact": "Fewer support calls and less churn after a bad trip.",
+        "metricToTrack": "Median refund days and refund-related tickets per 1,000 bookings",
+        "effort": "medium"
+      },
+      {
+        "idea": "Show the full price with all fees on the search results page",
+        "problem": "Fees appearing at checkout feel like a trick and push users to EaseMyTrip.",
+        "expectedImpact": "Higher trust and possibly higher checkout conversion.",
+        "metricToTrack": "Checkout drop-off rate",
+        "effort": "low"
+      },
+      {
+        "idea": "Myra handles full rebooking when a flight is cancelled",
+        "problem": "During disruption, support queues explode.",
+        "expectedImpact": "Faster help and lower support cost per booking.",
+        "metricToTrack": "Share of disruption cases solved without a human",
+        "effort": "high"
+      },
+      {
+        "idea": "Verified photo badge for hotels refreshed every year",
+        "problem": "Guests complain hotels look worse than online.",
+        "expectedImpact": "Fewer complaints and higher repeat hotel bookings.",
+        "metricToTrack": "'Not as shown' complaints per 1,000 stays",
+        "effort": "medium"
+      },
+      {
+        "idea": "One-tap hotel suggestion right after a flight booking",
+        "problem": "Many flight bookers book their hotel elsewhere.",
+        "expectedImpact": "More high-margin hotel bookings.",
+        "metricToTrack": "Flight to hotel attach rate",
+        "effort": "low"
+      }
+    ],
+    "pmLessons": [
+      "Low-margin products can be the front door. Flights bring users often, and hotels make the money.",
+      "Trust is won or lost after the booking. Refunds and support during a cancellation matter more than the booking screen.",
+      "Owning several brands lets you serve different users: Goibibo for deal seekers, redBus for bus travellers.",
+      "Hidden fees save a few rupees today but cost loyalty and invite regulators."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you increase hotel bookings among people who only book flights on MakeMyTrip?",
+        "hint": "Segment flight bookers by trip type, find why they book hotels elsewhere, propose timing and bundle ideas, track attach rate and guardrail on margin."
+      },
+      {
+        "question": "IndiGo cancels hundreds of flights in a week. What should MakeMyTrip's product do?",
+        "hint": "Prioritise stranded users, automate rebooking and refunds, communicate proactively, protect support capacity. Measure resolution time and NPS."
+      },
+      {
+        "question": "Should MakeMyTrip remove convenience fees like EaseMyTrip?",
+        "hint": "Estimate revenue lost per booking against conversion gain and trust. Suggest testing in one segment first."
+      },
+      {
+        "question": "What is the north star metric for MakeMyTrip, and why not gross bookings?",
+        "hint": "Explain that gross bookings counts cancelled and refunded trips; pick completed trips or repeat bookers and break it into drivers."
+      },
+      {
+        "question": "How would you use AI like Myra without hurting customer trust?",
+        "hint": "Pick high-volume simple tasks first, always offer a human handoff, measure resolution rate and CSAT, and watch for wrong answers."
+      }
+    ],
+    "glossary": [
+      {"term": "OTA", "meaning": "Online travel agency: a website or app that sells other companies' flights, hotels and tickets."},
+      {"term": "Gross bookings", "meaning": "The total money customers spend on trips booked through the platform, before the platform takes its cut."},
+      {"term": "Adjusted operating profit", "meaning": "Profit from the main business after normal costs, leaving out one-off and non-cash items."},
+      {"term": "Convenience fee", "meaning": "An extra charge added by the booking site on top of the ticket price."},
+      {"term": "Attach rate", "meaning": "The share of customers who buy an extra product along with the main one."},
+      {"term": "Network effect", "meaning": "When a service gets more useful for everyone as more people and sellers join it."},
+      {"term": "Conversion", "meaning": "The share of people who complete a purchase after starting a search."},
+      {"term": "NPS", "meaning": "Net Promoter Score: a survey score showing how likely customers are to recommend the product."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that customers are getting value."},
+      {"term": "Churn", "meaning": "When customers stop using a product."},
+      {"term": "Guardrail", "meaning": "A metric that must not get worse while the team pushes the main metric."}
+    ],
+    "assumptions": [
+      "FY26 revenue of about $1.08 billion is an estimate from FY25 revenue and the reported growth rate.",
+      "Commission ranges for flights (3% to 6%) and hotels (12% to 20%) are typical industry ranges, not MakeMyTrip disclosures.",
+      "The ₹6,000 flight and ₹10,000 hotel examples are illustrations, not company data.",
+      "Rupee conversion of gross bookings uses about ₹85 per dollar."
+    ]
+  }
+}

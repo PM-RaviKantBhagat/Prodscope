@@ -1,0 +1,536 @@
+{
+  "company": "Robinhood",
+  "domain": "robinhood.com",
+  "website": "https://robinhood.com",
+  "sources": [
+    "https://finviz.com/news/409270/robinhood-reports-third-quarter-2026-results",
+    "https://www.benzinga.com/node/62638088",
+    "https://cryptobriefing.com/robinhood-q3-platform-assets-396-billion/",
+    "https://www.classaction.org/news/class-action-lawsuit-claims-robinhood-runs-illegal-sports-gambling-platform",
+    "https://www.pymnts.com/markets/2026/robinhood-blocks-some-prediction-markets-over-insider-trading-worries/",
+    "https://news.bloomberglaw.com/class-action/robinhood-sports-event-contracts-challenged-in-consumer-suit"
+  ],
+  "report": {
+    "company": "Robinhood",
+    "tagline": "A US app that made stock trading commission-free and now offers options, crypto, prediction markets, retirement accounts and banking.",
+    "category": "Investing",
+    "simpleSummary": "Robinhood is a phone app where Americans buy stocks, options and crypto without paying a commission. It also lets you bet on events like sports games and elections through 'prediction markets'. It earns money when you trade, from interest on your cash, and from a $5 a month Gold membership. It started with young first-time investors and is now trying to become a full money app.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$1.42 billion",
+        "note": "Robinhood Q3 2026 results, October 2026. Up 12% year on year, a record quarter."
+      },
+      {
+        "label": "Net income, Q3 2026",
+        "value": "$476 million",
+        "note": "Company results. Down 14% year on year, partly from losses in its Ventures fund."
+      },
+      {
+        "label": "Funded customers",
+        "value": "28.7 million",
+        "note": "Company results, September 2026, up 7%."
+      },
+      {
+        "label": "Robinhood Gold subscribers",
+        "value": "5.2 million",
+        "note": "Company results, up 34%. About 18% of funded customers pay for Gold."
+      },
+      {
+        "label": "Platform assets",
+        "value": "$396 billion",
+        "note": "Company results, up 19%. Net deposits were $71 billion over the past 12 months."
+      },
+      {
+        "label": "Revenue per user (ARPU)",
+        "value": "$200 a year",
+        "note": "Company results, annualised, Q3 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Robinhood lets people trade stocks, ETFs, options, crypto, futures and event contracts (prediction markets) with no commission on most trades. It also offers retirement accounts with a match, a credit card, a bank account, managed portfolios (Strategies) and government-backed 'Trump Accounts' for children. It makes money from trading activity, interest and subscriptions.",
+      "howItWorks": [
+        "You sign up on the app, verify your identity and link a bank account.",
+        "You buy stocks or ETFs with no commission, even fractional shares from $1.",
+        "Robinhood sends orders to market makers like Citadel Securities, who pay it a small amount per order (payment for order flow).",
+        "Options, crypto and prediction markets earn Robinhood a fee or spread on each trade.",
+        "Robinhood Gold ($5 a month) gives higher interest on cash, a bigger IRA match, cheaper margin and access to the Gold Card.",
+        "Cash sitting in accounts earns interest for Robinhood, and margin loans earn interest too."
+      ],
+      "valueProposition": "For users: easy, fast, cheap trading and investing in one app, with perks that rival banks. For Robinhood: many small, active users who trade often and are slowly moving more of their savings in."
+    },
+    "personas": [
+      {
+        "name": "Young first-time investor",
+        "description": "A 24-year-old in Texas with $2,000 in savings who wants to start investing.",
+        "goals": [
+          "Buy a few shares of companies she knows",
+          "Start a Roth IRA"
+        ],
+        "frustrations": [
+          "Afraid of losing money",
+          "Confused by options and crypto prompts"
+        ]
+      },
+      {
+        "name": "Active options trader",
+        "description": "A 32-year-old who trades options several times a week.",
+        "goals": [
+          "Low fees and fast execution",
+          "Advanced charts and tools (Robinhood Legend)"
+        ],
+        "frustrations": [
+          "Outages in volatile markets",
+          "Trading restrictions like the 2021 GameStop halt"
+        ]
+      },
+      {
+        "name": "Sports and event bettor",
+        "description": "A 28-year-old who trades event contracts on NFL games and elections.",
+        "goals": [
+          "Bet on outcomes easily in a trusted app"
+        ],
+        "frustrations": [
+          "Contracts blocked in some states or markets",
+          "Losing more than planned"
+        ]
+      },
+      {
+        "name": "Gold member building wealth",
+        "description": "A 38-year-old tech worker moving savings and retirement money to Robinhood for its perks.",
+        "goals": [
+          "High interest on cash",
+          "3% IRA match",
+          "Rewards on spending"
+        ],
+        "frustrations": [
+          "Weak phone support for big problems"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Old brokers charged $5 to $10 per trade.",
+        "howSolved": "Commission-free stock and ETF trades.",
+        "severity": "high"
+      },
+      {
+        "pain": "Broker apps were complex and dated.",
+        "howSolved": "Simple, mobile-first design.",
+        "severity": "high"
+      },
+      {
+        "pain": "You needed hundreds of dollars to buy one share.",
+        "howSolved": "Fractional shares from $1.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Low interest on bank savings.",
+        "howSolved": "Gold gives high interest on uninvested cash.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Retirement accounts felt like they gave little back.",
+        "howSolved": "Robinhood adds a 1% match (3% with Gold) on IRA deposits.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Commission-free trading",
+        "whatItDoes": "Stocks, ETFs and options with no commission.",
+        "whyItMatters": "The original hook that brought millions of users."
+      },
+      {
+        "feature": "Robinhood Gold",
+        "whatItDoes": "$5 a month subscription with higher interest, IRA match and margin perks.",
+        "whyItMatters": "Steady subscription revenue and a reason to move savings in."
+      },
+      {
+        "feature": "Prediction markets",
+        "whatItDoes": "Trade event contracts on sports, politics and the economy.",
+        "whyItMatters": "Fastest-growing line: $173 million revenue in Q3 2026, up over 6 times."
+      },
+      {
+        "feature": "Robinhood Retirement",
+        "whatItDoes": "IRAs with a deposit match.",
+        "whyItMatters": "Brings long-term money that stays on the platform."
+      },
+      {
+        "feature": "Crypto and Robinhood Chain",
+        "whatItDoes": "Buy and sell crypto, and use Robinhood's own blockchain.",
+        "whyItMatters": "Big revenue in crypto booms, but fell 55% in Q3 2026."
+      },
+      {
+        "feature": "Gold Card and Banking",
+        "whatItDoes": "Credit card with cash back and a bank account; about $5 billion in banking deposits.",
+        "whyItMatters": "Turns Robinhood into a daily money app, not just a trading app."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First trade",
+        "persona": "Young first-time investor",
+        "steps": [
+          {
+            "step": "Downloads app",
+            "detail": "Sees a referral link that offers a free stock."
+          },
+          {
+            "step": "Signs up",
+            "detail": "Enters SSN and ID; approved in minutes."
+          },
+          {
+            "step": "Links bank",
+            "detail": "Deposits $500 with instant buying power."
+          },
+          {
+            "step": "Buys a stock",
+            "detail": "Buys $100 of Apple as a fractional share."
+          },
+          {
+            "step": "Gets free stock",
+            "detail": "Claims the referral reward."
+          },
+          {
+            "step": "Adds recurring investment",
+            "detail": "Sets $50 a week into an S&P 500 ETF."
+          }
+        ]
+      },
+      {
+        "name": "Joining Gold and moving an IRA",
+        "persona": "Gold member building wealth",
+        "steps": [
+          {
+            "step": "Sees offer",
+            "detail": "Promo shows 3% match on IRA transfers with Gold."
+          },
+          {
+            "step": "Subscribes to Gold",
+            "detail": "Pays $5 a month or $50 a year."
+          },
+          {
+            "step": "Transfers IRA",
+            "detail": "Moves $50,000 from another broker."
+          },
+          {
+            "step": "Gets match",
+            "detail": "Receives a match bonus after a holding period."
+          },
+          {
+            "step": "Parks cash",
+            "detail": "Moves savings to earn Gold interest."
+          }
+        ]
+      },
+      {
+        "name": "Trading an event contract",
+        "persona": "Sports and event bettor",
+        "steps": [
+          {
+            "step": "Opens prediction markets hub",
+            "detail": "Browses NFL games and economic events."
+          },
+          {
+            "step": "Picks a contract",
+            "detail": "Buys 'Team A wins' at 60 cents."
+          },
+          {
+            "step": "Pays fee",
+            "detail": "Pays about 1 cent per contract to Robinhood."
+          },
+          {
+            "step": "Watches game",
+            "detail": "Price moves live."
+          },
+          {
+            "step": "Settles",
+            "detail": "Gets $1 per contract if right, $0 if wrong."
+          }
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Robinhood makes about 60% of revenue from trading (options, prediction markets, stocks, crypto), about 30% from interest, and the rest from Gold and other services.",
+      "revenueStreams": [
+        {
+          "stream": "Options trading",
+          "detail": "$399 million in Q3 2026, mostly from payment for order flow."
+        },
+        {
+          "stream": "Prediction markets",
+          "detail": "$173 million in Q3 2026 from fees on event contracts."
+        },
+        {
+          "stream": "Equities and crypto",
+          "detail": "$121 million from stocks and $120 million from crypto in Q3 2026."
+        },
+        {
+          "stream": "Net interest",
+          "detail": "$415 million from cash, margin loans and stock lending."
+        },
+        {
+          "stream": "Other, including Gold",
+          "detail": "$142 million from Gold subscriptions, Trump Account services and more."
+        }
+      ],
+      "pricing": "Stocks, ETFs and options: no commission (options regulatory fees apply). Crypto: spread built into price. Event contracts: about $0.01 per contract to Robinhood plus exchange fees. Robinhood Gold: $5 a month or $50 a year.",
+      "costDrivers": [
+        "Engineering and product staff",
+        "Marketing, including referral rewards and match bonuses",
+        "Customer support and compliance",
+        "Interest paid to Gold users on cash",
+        "Legal and regulatory costs"
+      ],
+      "unitEconomics": "The average funded customer brings in about $200 a year. A Gold member who trades options often might bring $500 or more, while a user who bought one ETF and left brings a few dollars. Costs are mostly fixed (tech and staff), so each extra trade is mostly profit. Q3 2026 operating expenses were $739 million on $1.42 billion revenue, so about half of revenue became profit."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Referral program with free stock",
+        "IRA match and transfer bonuses to win assets from Fidelity and Schwab",
+        "Buzz on social media and finance influencers",
+        "New products like prediction markets and Trump Accounts bringing in new groups"
+      ],
+      "whatBringsUsersBack": [
+        "Market moves and price alerts",
+        "Live sports event contracts",
+        "Recurring investments",
+        "Gold interest and card rewards"
+      ],
+      "moat": "Robinhood's moat is brand and habit with young US investors, plus fast product shipping. Its low-cost tech lets it give away trades and still earn high margins."
+    },
+    "competitors": [
+      {
+        "name": "Charles Schwab",
+        "positioning": "Big full-service broker with branches and advice.",
+        "howThisProductDiffers": "Robinhood is mobile-first and aims at younger users."
+      },
+      {
+        "name": "Fidelity",
+        "positioning": "Trusted broker for retirement and long-term investing.",
+        "howThisProductDiffers": "Robinhood uses matches and Gold perks to pull retirement money."
+      },
+      {
+        "name": "Webull and Moomoo",
+        "positioning": "Commission-free trading apps for active traders.",
+        "howThisProductDiffers": "Robinhood has more users and more products."
+      },
+      {
+        "name": "Kalshi and Polymarket",
+        "positioning": "Prediction market apps.",
+        "howThisProductDiffers": "Robinhood puts event contracts next to stocks and crypto in one app."
+      },
+      {
+        "name": "Coinbase",
+        "positioning": "Largest US crypto exchange.",
+        "howThisProductDiffers": "Robinhood mixes crypto with stocks, retirement and banking."
+      }
+    ],
+    "northStar": {
+      "metric": "Total platform assets (customer money held on Robinhood)",
+      "why": "It shows customers trust Robinhood with their savings, not just for quick trades. More assets means more interest and trading revenue over time."
+    },
+    "kpiTree": [
+      {
+        "metric": "Net deposits",
+        "description": "Money moved in minus money moved out.",
+        "children": [
+          {
+            "metric": "IRA and account transfers in",
+            "description": "Assets moved from other brokers."
+          },
+          {
+            "metric": "Recurring investment volume",
+            "description": "Automatic weekly or monthly buys."
+          }
+        ]
+      },
+      {
+        "metric": "Funded customers",
+        "description": "Users with money in an account.",
+        "children": [
+          {
+            "metric": "Referral sign-ups",
+            "description": "New users from friends."
+          },
+          {
+            "metric": "Sign-up to funded rate",
+            "description": "Share of new users who deposit money."
+          }
+        ]
+      },
+      {
+        "metric": "Gold adoption",
+        "description": "Share of funded customers paying for Gold (18%).",
+        "children": [
+          {
+            "metric": "Gold trial to paid rate",
+            "description": "Users who keep Gold after a trial."
+          },
+          {
+            "metric": "Gold churn",
+            "description": "Members who cancel each month."
+          }
+        ]
+      },
+      {
+        "metric": "Products per customer",
+        "description": "Customers using retirement, banking, card or Strategies.",
+        "children": [
+          {
+            "metric": "Banking deposits",
+            "description": "Money in Robinhood bank accounts."
+          },
+          {
+            "metric": "Strategies assets",
+            "description": "Money in managed portfolios ($2 billion)."
+          }
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Share of customers with heavy losses in options and event contracts",
+      "Regulatory fines and lawsuits",
+      "Platform uptime during volatile markets",
+      "Support response time"
+    ],
+    "strengths": [
+      "Strong brand with young US investors",
+      "Ships new products fast",
+      "Growing assets and Gold base make revenue steadier",
+      "High profit margins"
+    ],
+    "weaknesses": [
+      "Heavy reliance on trading, especially options and crypto, which swing with markets",
+      "Reputation for 'gamifying' investing",
+      "Support has long been criticised",
+      "Crypto revenue halved in Q3 2026"
+    ],
+    "risks": [
+      "Lawsuits and state rules against sports event contracts",
+      "SEC rules on payment for order flow",
+      "Crypto downturns",
+      "Big brokers matching Robinhood's prices and perks"
+    ],
+    "userComplaints": [
+      "Class action says sports event contracts are illegal gambling",
+      "Hard to reach support for account issues",
+      "Robinhood blocked some prediction markets over insider trading fears",
+      "Memories of the 2021 GameStop trading halt still hurt trust"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Personal loss limits for event contracts and options, set by the user",
+        "problem": "Gambling-like losses and lawsuits.",
+        "expectedImpact": "Less harm, lower legal risk, better trust.",
+        "metricToTrack": "Share of users hitting large monthly losses",
+        "effort": "medium"
+      },
+      {
+        "idea": "24/7 phone support for Gold members with balances over $25,000",
+        "problem": "Wealthier users fear having no one to call.",
+        "expectedImpact": "More asset transfers from Schwab and Fidelity.",
+        "metricToTrack": "Net deposits from Gold members",
+        "effort": "medium"
+      },
+      {
+        "idea": "Auto-sweep idle cash into Strategies with one tap",
+        "problem": "Many users hold cash but do not invest long term.",
+        "expectedImpact": "Higher platform assets and steadier fee revenue.",
+        "metricToTrack": "Strategies assets",
+        "effort": "low"
+      },
+      {
+        "idea": "Family hub linking Trump Accounts with parents' accounts",
+        "problem": "Children's accounts can be forgotten.",
+        "expectedImpact": "More family deposits and long-term loyalty.",
+        "metricToTrack": "Parent deposits into child accounts",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "A free product (no commission) can win a market if you find another way to earn, but users should know how you earn.",
+      "Subscriptions like Gold turn swinging trading income into steady revenue.",
+      "Fast launches grow revenue, but some, like sports contracts, bring legal and ethical risk.",
+      "Moving from trading app to savings app is how you earn trust and stability."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Is prediction markets a good bet for Robinhood?",
+        "hint": "Weigh revenue growth against legal risk, user harm and brand. Suggest guardrail metrics such as heavy-loss rate."
+      },
+      {
+        "question": "How would you grow Gold subscribers from 18% to 30% of customers?",
+        "hint": "Segment users, find who gets most value, test pricing and perks, track churn."
+      },
+      {
+        "question": "Robinhood is accused of gamifying investing. How would you respond as PM?",
+        "hint": "Define harm, measure it, add friction where risk is high, keep simplicity for low-risk actions."
+      },
+      {
+        "question": "What is Robinhood's north star metric?",
+        "hint": "Argue for platform assets or net deposits and explain why trades alone mislead."
+      },
+      {
+        "question": "How do you win retirement money from Fidelity?",
+        "hint": "Matches, ease of transfer, trust, support, and long-term product quality."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Payment for order flow",
+        "meaning": "Money a broker gets from market makers for sending them customer orders."
+      },
+      {
+        "term": "Market maker",
+        "meaning": "A firm that is always ready to buy and sell a stock, earning a tiny gap on each trade."
+      },
+      {
+        "term": "Event contracts",
+        "meaning": "Trades that pay $1 if an event happens and $0 if it does not."
+      },
+      {
+        "term": "Fractional shares",
+        "meaning": "Buying part of one share instead of a whole one."
+      },
+      {
+        "term": "IRA",
+        "meaning": "Individual retirement account, a US tax-advantaged savings account for retirement."
+      },
+      {
+        "term": "ARPU",
+        "meaning": "Average revenue per user, how much money each user brings in on average."
+      },
+      {
+        "term": "Net deposits",
+        "meaning": "Money customers put in minus money they take out."
+      },
+      {
+        "term": "Churn",
+        "meaning": "Users or subscribers who stop using or paying."
+      },
+      {
+        "term": "Spread",
+        "meaning": "The gap between buy and sell prices, a hidden fee."
+      },
+      {
+        "term": "North star metric",
+        "meaning": "The one number that best shows users get value."
+      },
+      {
+        "term": "Moat",
+        "meaning": "Something that makes a business hard to copy."
+      },
+      {
+        "term": "Guardrail metrics",
+        "meaning": "Numbers that must not get worse while pushing growth."
+      }
+    ],
+    "assumptions": [
+      "The 60/30/10 revenue split is our rounding of Q3 2026 figures.",
+      "The $500 a year Gold options trader figure is an estimate.",
+      "Event contract fee of about $0.01 per contract is from Robinhood's past public pricing and may have changed."
+    ]
+  }
+}

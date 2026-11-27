@@ -1,0 +1,430 @@
+{
+  "company": "Airbnb",
+  "domain": "airbnb.com",
+  "website": "https://www.airbnb.com",
+  "sources": [
+    "https://www.rentalscaleup.com/airbnb-q3-2026-earnings/",
+    "https://247wallst.com/cards/airbnb-q3-2026-earnings-abnb-01m6preqjfxp9989tfpqgtmzd5",
+    "https://fool.com/investing/2026/11/06/why-airbnb-stock-popped-today",
+    "https://news.airbnb.com/airbnb-q4-2025-financial-results/",
+    "https://www.rentalscaleup.com/airbnb-q2-2026-earnings/",
+    "https://yourstory.com/2026/07/airbnb-growth-strategy-hotels-experiences-2026"
+  ],
+  "report": {
+    "company": "Airbnb",
+    "tagline": "A global app where people book homes, rooms, experiences and services from local hosts instead of hotels.",
+    "category": "Travel marketplace",
+    "simpleSummary": "Airbnb lets ordinary people rent out their flat, spare room or holiday home to travellers. As a guest, you search a city, see photos, reviews and the total price, and book in the app. Since 2025 you can also book local experiences, like a cooking class, and services, like a private chef or massage, often from the same hosts. Airbnb keeps a fee on every booking and does not own any of the homes.",
+    "keyNumbers": [
+      {
+        "label": "Revenue, Q3 2026",
+        "value": "$4.9 billion, up 19%",
+        "note": "Company Q3 2026 results, reported by Rental Scale-Up, November 2026."
+      },
+      {
+        "label": "Gross booking value, Q3 2026",
+        "value": "$27.7 billion, up 21%",
+        "note": "Total guest spend in the quarter. Company results."
+      },
+      {
+        "label": "Nights and seats booked, Q3 2026",
+        "value": "155 million, up 16%",
+        "note": "Now includes hotel nights and experience seats. Company results."
+      },
+      {
+        "label": "Average daily rate",
+        "value": "$179 per night",
+        "note": "Q3 2026, up 4%. Company results."
+      },
+      {
+        "label": "Revenue, full year 2025",
+        "value": "About $12.2 billion",
+        "note": "Estimate from Airbnb Q4 2025 results coverage; check the 2025 10-K for the exact figure."
+      },
+      {
+        "label": "Active listings",
+        "value": "About 8 million",
+        "note": "Estimate from Airbnb's public statements in 2025. Not confirmed for 2026."
+      }
+    ],
+    "overview": {
+      "whatItDoes": "Airbnb is a two-sided marketplace: hosts list places to stay, experiences and services, and guests book them. Airbnb handles search, payments, reviews, messaging and support. Since the May 2025 relaunch it is trying to become a full travel app, adding services, experiences, hotels and car rentals.",
+      "howItWorks": [
+        "Hosts create a listing with photos, a calendar and a price, and set house rules and a cancellation policy.",
+        "Guests search by place and dates, see the total price including fees, and book instantly or send a request.",
+        "Airbnb takes payment and pays the host about 24 hours after check-in, minus a host fee of about 15.5%.",
+        "After the stay, guest and host review each other, which builds trust for the next booking.",
+        "AirCover protects guests against bad listings and hosts against damage, and AI support now solves about 40% of issues without a person."
+      ],
+      "valueProposition": "For guests: more space, a kitchen and a local feel, often cheaper than hotels for groups and families. For hosts: extra income from a home they already own, with Airbnb handling payments and trust."
+    },
+    "personas": [
+      {
+        "name": "Family or friends group",
+        "description": "Four to eight people who want one house with a kitchen for a week.",
+        "goals": [
+          "Space and bedrooms for everyone",
+          "Clear total price split per person",
+          "A place that matches the photos"
+        ],
+        "frustrations": [
+          "Cleaning fees and long checkout chore lists",
+          "Last-minute host cancellations"
+        ]
+      },
+      {
+        "name": "Remote worker on a long stay",
+        "description": "A designer staying a month in Lisbon or Bali.",
+        "goals": [
+          "Monthly discount",
+          "Fast Wi-Fi and a desk",
+          "Easy self check-in"
+        ],
+        "frustrations": [
+          "Wi-Fi not as promised",
+          "Hard to resolve issues mid-stay"
+        ]
+      },
+      {
+        "name": "Everyday host",
+        "description": "A homeowner renting out a spare room or holiday flat for extra income.",
+        "goals": [
+          "Steady bookings",
+          "Good guests who respect the home",
+          "Fair fees"
+        ],
+        "frustrations": [
+          "Moving to a 15.5% host-only fee",
+          "Rules forced on them like Reserve Now, Pay Later",
+          "Unfair reviews and damage claims"
+        ]
+      },
+      {
+        "name": "Services or experience host",
+        "description": "A chef, photographer or tour guide selling to travellers since the 2025 relaunch.",
+        "goals": [
+          "New customers without paying for ads",
+          "Simple booking and payment"
+        ],
+        "frustrations": [
+          "Demand still small in many cities",
+          "Low visibility next to stays"
+        ]
+      }
+    ],
+    "painPoints": [
+      {
+        "pain": "Hotels are cramped and expensive for groups and long stays.",
+        "howSolved": "Whole homes with kitchens and bedrooms, plus weekly and monthly discounts.",
+        "severity": "high"
+      },
+      {
+        "pain": "Staying with strangers feels risky.",
+        "howSolved": "Two-way reviews, ID checks, Guest Favourite badges and AirCover protection.",
+        "severity": "high"
+      },
+      {
+        "pain": "Prices looked cheap and then fees were added at checkout.",
+        "howSolved": "Total price display shown by default since 2025, and the single host-only fee.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Homeowners had empty rooms and no easy way to earn from them.",
+        "howSolved": "Simple listing tools, pricing tips and payments handled by Airbnb.",
+        "severity": "medium"
+      },
+      {
+        "pain": "Planning the rest of a trip means using other apps.",
+        "howSolved": "Experiences, services, car rentals and some hotels inside Airbnb.",
+        "severity": "low"
+      },
+      {
+        "pain": "Paying in full months before a trip ties up money.",
+        "howSolved": "Reserve Now, Pay Later, now covering over 40% of booking value.",
+        "severity": "medium"
+      }
+    ],
+    "coreFeatures": [
+      {
+        "feature": "Search with total price and map",
+        "whatItDoes": "Shows listings on a map with the full price including fees, and AI search in the US.",
+        "whyItMatters": "Helps guests compare fairly and reduces the shock of fees at checkout."
+      },
+      {
+        "feature": "Reviews and Guest Favourites",
+        "whatItDoes": "Two-way reviews and a badge for the most loved homes.",
+        "whyItMatters": "Trust is the main reason a guest books a stranger's home."
+      },
+      {
+        "feature": "AirCover",
+        "whatItDoes": "Rebooking or refunds if a listing is wrong, and damage protection for hosts.",
+        "whyItMatters": "Removes the biggest fear on both sides of the marketplace."
+      },
+      {
+        "feature": "Airbnb Services and Experiences",
+        "whatItDoes": "Book chefs, massages, photographers, tours and classes, relaunched in May 2025.",
+        "whyItMatters": "Adds more reasons to open Airbnb and more revenue per trip."
+      },
+      {
+        "feature": "Reserve Now, Pay Later",
+        "whatItDoes": "Book with nothing paid upfront until shortly before the free cancellation deadline.",
+        "whyItMatters": "Added about 3 points of growth in Q3 2026, but raised cancellations to about 19%."
+      },
+      {
+        "feature": "Host tools and AI support",
+        "whatItDoes": "Multi-listing calendar, pricing tips, dynamic pricing and AI help that solves 40% of issues.",
+        "whyItMatters": "Keeps hosts listing and lowers support costs."
+      }
+    ],
+    "userJourneys": [
+      {
+        "name": "First stay booking",
+        "persona": "Family or friends group",
+        "steps": [
+          {"step": "Searches", "detail": "Enters Goa or Barcelona, dates and number of guests."},
+          {"step": "Filters", "detail": "Picks entire home, 3 bedrooms, pool, and price range."},
+          {"step": "Reads reviews", "detail": "Checks ratings, photos and Guest Favourite badge."},
+          {"step": "Checks total", "detail": "Sees full price with fees, splits it in the group chat."},
+          {"step": "Books", "detail": "Uses Reserve Now, Pay Later or pays upfront."},
+          {"step": "Messages host", "detail": "Gets check-in details in the app."},
+          {"step": "Stays and reviews", "detail": "Leaves a review that shapes the next guest's choice."}
+        ]
+      },
+      {
+        "name": "New host listing",
+        "persona": "Everyday host",
+        "steps": [
+          {"step": "Starts listing", "detail": "Adds photos, amenities and house rules."},
+          {"step": "Sets price", "detail": "Uses Airbnb price tips or dynamic pricing."},
+          {"step": "Chooses policy", "detail": "Picks a cancellation policy, now usually eligible for Pay Later."},
+          {"step": "Gets first booking", "detail": "Often offers a new-listing discount."},
+          {"step": "Hosts guest", "detail": "Handles check-in and cleaning."},
+          {"step": "Gets paid", "detail": "Receives payout minus about 15.5% fee after check-in."}
+        ]
+      },
+      {
+        "name": "Adding a service to a stay",
+        "persona": "Remote worker on a long stay",
+        "steps": [
+          {"step": "Gets prompt", "detail": "Sees services suggested in the trip tab."},
+          {"step": "Browses", "detail": "Looks at private chef and photography options nearby."},
+          {"step": "Books", "detail": "Picks a time and pays in the app."},
+          {"step": "Meets provider", "detail": "Provider comes to the home."},
+          {"step": "Reviews", "detail": "Rates the service, which builds trust for the new category."}
+        ]
+      }
+    ],
+    "businessModel": {
+      "summary": "Airbnb earns a fee on every booking. Most hosts now pay a single fee of about 15.5% of the booking value, and guests see one total price. Airbnb is adding ads and new categories to earn more per trip.",
+      "revenueStreams": [
+        {"stream": "Stay booking fees", "detail": "About 15.5% host-only fee on most bookings. The bulk of revenue."},
+        {"stream": "Experiences and services fees", "detail": "A cut of each class, tour, chef or massage booked."},
+        {"stream": "Hotels and car rentals", "detail": "Commissions on hotel nights and CarTrawler car rentals."},
+        {"stream": "Interest on guest payments", "detail": "Airbnb holds guest money before paying hosts and earns interest on it."},
+        {"stream": "Sponsored listings (coming)", "detail": "Paid visibility for hosts being built into the AI agent."}
+      ],
+      "pricing": "Free to list and search. Most hosts pay about 15.5% of each booking. A direct booking link pilot cuts this to 6% or 10%. Guests see a total price including any fees.",
+      "costDrivers": [
+        "Brand and performance marketing",
+        "Customer support and AirCover payouts",
+        "Payment processing",
+        "Engineering and product staff",
+        "Legal and compliance costs for city rules"
+      ],
+      "unitEconomics": "Rough example. A guest books 3 nights at $179 a night, so about $537. The host pays about 15.5%, so Airbnb keeps about $83. Payment fees take maybe $12, support and AirCover a few dollars, and marketing for that booking perhaps $10 to $15, since most guests come direct or through free search. That leaves Airbnb roughly $50 before staff and tech. This is why Airbnb is very profitable: it has no buildings, and most guests find it without paid ads."
+    },
+    "growth": {
+      "howTheyGetUsers": [
+        "Direct traffic and app opens, as most guests type 'Airbnb' themselves",
+        "Brand ads and free search results",
+        "Word of mouth and shared wishlists among friends",
+        "Host referrals and 'Airbnb your home' campaigns",
+        "New categories like services and car rentals with up to 20% credit for first-time renters"
+      ],
+      "whatBringsUsersBack": [
+        "Saved wishlists and past trips",
+        "Good past stays build trust in the brand",
+        "Reviews make guests careful and hosts keen to keep high ratings",
+        "Experiences and services give reasons to open the app beyond stays"
+      ],
+      "moat": "Airbnb has millions of unique homes that are not on hotel sites, and years of reviews on both hosts and guests. More hosts bring more guests, which brings more hosts: a strong network effect. Its brand is also a verb, so many guests skip Google and come straight to the app, which keeps marketing costs low."
+    },
+    "competitors": [
+      {
+        "name": "Booking.com",
+        "positioning": "Biggest online travel agency, with hotels plus a large set of holiday homes.",
+        "howThisProductDiffers": "Airbnb has more unique homes and a stronger brand for stays; Booking.com is stronger in hotels and Europe."
+      },
+      {
+        "name": "Vrbo (Expedia)",
+        "positioning": "Whole-home holiday rentals for families, with a 12% commission.",
+        "howThisProductDiffers": "Airbnb is bigger globally and offers rooms, experiences and services; Vrbo is cheaper for hosts."
+      },
+      {
+        "name": "Hotels and hotel apps",
+        "positioning": "Marriott, Hilton and others with loyalty programmes and consistent quality.",
+        "howThisProductDiffers": "Airbnb offers more space and local feel, but less consistency."
+      },
+      {
+        "name": "Local players like OYO and MakeMyTrip homestays",
+        "positioning": "Strong supply and local payments in India.",
+        "howThisProductDiffers": "Airbnb wins with international travellers and premium homes."
+      }
+    ],
+    "northStar": {
+      "metric": "Nights and seats booked (stays plus experiences and services)",
+      "why": "This north star counts how many nights and activities guests actually choose to spend through Airbnb, which shows value to both guests and hosts and is what Airbnb itself reports."
+    },
+    "kpiTree": [
+      {
+        "metric": "Supply: bookable listings",
+        "description": "Quality homes, experiences and services available on searched dates.",
+        "children": [
+          {"metric": "New active listings", "description": "Hosts who list and get a first booking."},
+          {"metric": "Host retention", "description": "Hosts still listing after 12 months."},
+          {"metric": "Availability on peak dates", "description": "Share of top-city searches with enough options."}
+        ]
+      },
+      {
+        "metric": "Demand: guest searches",
+        "description": "How many people search Airbnb for trips.",
+        "children": [
+          {"metric": "Direct and app traffic", "description": "Visits with no paid ad."},
+          {"metric": "First-time bookers", "description": "New guests booking for the first time."},
+          {"metric": "Repeat guests in 12 months", "description": "Guests who book again."}
+        ]
+      },
+      {
+        "metric": "Search to booking conversion",
+        "description": "Share of searches that end in a confirmed booking.",
+        "children": [
+          {"metric": "Total price clarity", "description": "Share of listings shown with full price."},
+          {"metric": "Pay Later adoption", "description": "Bookings using Reserve Now, Pay Later."},
+          {"metric": "Instant Book share", "description": "Listings bookable without host approval."}
+        ]
+      },
+      {
+        "metric": "Completed trips",
+        "description": "Bookings that end in a stay without cancellation or a bad experience.",
+        "children": [
+          {"metric": "Cancellation rate", "description": "Now about 19%, up from 16%."},
+          {"metric": "Host cancellation rate", "description": "Trips cancelled by hosts."},
+          {"metric": "Average review rating", "description": "Guest rating after the stay."}
+        ]
+      }
+    ],
+    "guardrailMetrics": [
+      "Host churn",
+      "Guest cancellation rate",
+      "Safety incidents per million nights",
+      "Support resolution satisfaction"
+    ],
+    "strengths": [
+      "Strong brand, with most traffic coming direct",
+      "Millions of unique homes no hotel site has",
+      "Very profitable asset-light model with strong cash flow",
+      "Fast growth again in 2026, with 21% booking value growth in Q3"
+    ],
+    "weaknesses": [
+      "Quality varies from home to home",
+      "Hosts are unhappy about fee changes and forced Pay Later",
+      "Services and experiences are still small and limited to some cities",
+      "Cancellation rate rising to about 19%"
+    ],
+    "risks": [
+      "City rules limiting short-term rentals, such as New York's 2023 law and limits in Barcelona and other European cities",
+      "Booking.com and Vrbo competing hard on fees and pay-later",
+      "AI agents and Google could become the place people plan trips, sending fewer guests direct",
+      "Anger over housing costs blamed on short-term rentals"
+    ],
+    "userComplaints": [
+      "Cleaning fees and long checkout chores",
+      "Listings that do not match photos",
+      "Hosts cancelling close to the trip",
+      "Hard to reach a human in support during a problem",
+      "Hosts complaining about fee changes, unfair reviews and damage claims"
+    ],
+    "improvementIdeas": [
+      {
+        "idea": "Verified listing check: Airbnb confirms photos and key amenities for top-searched homes",
+        "problem": "Guests complain listings do not match photos.",
+        "expectedImpact": "Fewer refunds and higher review scores.",
+        "metricToTrack": "'Not as described' claims per 10,000 nights",
+        "effort": "high"
+      },
+      {
+        "idea": "Cap checkout chores and show them before booking",
+        "problem": "Guests resent paying cleaning fees and still being asked to clean.",
+        "expectedImpact": "Better guest satisfaction and conversion.",
+        "metricToTrack": "Mentions of chores in negative reviews",
+        "effort": "low"
+      },
+      {
+        "idea": "Let hosts opt out of Pay Later with a lower fee trade-off",
+        "problem": "Hosts lose bookings to late cancellations under Pay Later.",
+        "expectedImpact": "Lower host churn while keeping most Pay Later growth.",
+        "metricToTrack": "Host churn and cancellation rate",
+        "effort": "medium"
+      },
+      {
+        "idea": "Bundle a service suggestion at checkout for each stay",
+        "problem": "Services and experiences are hard to discover.",
+        "expectedImpact": "More services booked per trip.",
+        "metricToTrack": "Services attach rate per stay",
+        "effort": "low"
+      },
+      {
+        "idea": "Guaranteed rebooking within 1 hour if a host cancels inside 7 days",
+        "problem": "Last-minute host cancellations ruin trips.",
+        "expectedImpact": "Higher guest trust and repeat bookings.",
+        "metricToTrack": "Repeat rate of guests who faced a host cancellation",
+        "effort": "medium"
+      }
+    ],
+    "pmLessons": [
+      "Trust is the real product in a marketplace of strangers: reviews, protection and support make it possible.",
+      "Changing fees moves money between hosts and guests. Every pricing change needs a plan for the side that loses.",
+      "Growth features like Pay Later can raise bookings and cancellations at the same time, so watch both.",
+      "Expanding into new categories works best when it uses an existing habit, like adding services to a stay."
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How would you grow Airbnb Services in a city like Mumbai?",
+        "hint": "Start with which services travellers want, recruit supply, place offers in the stay journey, measure attach rate and repeat bookings."
+      },
+      {
+        "question": "Cancellations rose from 16% to 19% after Pay Later. Is that a problem?",
+        "hint": "Compare net nights booked against host harm and empty dates. Segment by policy and trip type. Suggest fixes and guardrails."
+      },
+      {
+        "question": "What is Airbnb's north star, and how would you break it down?",
+        "hint": "Nights and seats booked, split into supply, demand, conversion and completed trips, each with team-level metrics."
+      },
+      {
+        "question": "How would you handle a city banning most short-term rentals?",
+        "hint": "Think about hosts, guests and the city. Options: compliance tools, longer stays, hotels in that city. Measure lost nights and recovery."
+      },
+      {
+        "question": "Design a feature to reduce guest disappointment at arrival.",
+        "hint": "Find the main gaps (photos, cleanliness, check-in), choose one, propose verification or checklists, measure complaints and ratings."
+      }
+    ],
+    "glossary": [
+      {"term": "Marketplace", "meaning": "A business that connects buyers and sellers and takes a fee without owning what is sold."},
+      {"term": "Gross booking value", "meaning": "Total money guests spend on bookings before Airbnb takes its share."},
+      {"term": "Average daily rate", "meaning": "The average price guests pay for one night."},
+      {"term": "Network effect", "meaning": "When a service gets more useful for everyone as more people join it."},
+      {"term": "Asset-light", "meaning": "A business that does not own expensive things like buildings, so it needs less money to grow."},
+      {"term": "Attach rate", "meaning": "The share of customers who buy an extra product with the main one."},
+      {"term": "Conversion", "meaning": "The share of people who complete a booking after searching."},
+      {"term": "Churn", "meaning": "When customers or hosts stop using the product."},
+      {"term": "North star", "meaning": "The one metric a team treats as the best sign that customers are getting value."},
+      {"term": "Retention", "meaning": "How many users or hosts keep using the product over time."}
+    ],
+    "assumptions": [
+      "Full-year 2025 revenue of about $12.2 billion and about 8 million active listings are estimates, not confirmed in the sources fetched.",
+      "The per-booking walk-through uses estimated costs for payments, support and marketing.",
+      "Services and experiences are assumed to be a small share of revenue, since Airbnb does not report them separately."
+    ]
+  }
+}
