@@ -157,7 +157,7 @@ export default function LessonPlayer({ lesson, unitTitle, next }: { lesson: Less
   const ready = q ? count === need(q) : false;
 
   const start = () => {
-    setQueue(lesson.questions.map((_, i) => i));
+    setQueue(shuffle(lesson.questions.length)); // new order every attempt, so nobody learns the pattern
     setPos(0);
     setHearts(LIVES);
     setValue(null);

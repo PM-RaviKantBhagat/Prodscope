@@ -18,8 +18,16 @@ function shuffle<T>(a: T[]): T[] {
   return b;
 }
 
-function dealCards(game: Game, i: number): Card[] {
+type View = { prompt: string; right: string[]; win: string };
+/** The version of a round used in this attempt (each round can have several right answers). */
+function view(game: Game, i: number, v: number): View {
   const s = game.scenes[i];
+  const alt = v > 0 ? s.alts?.[v - 1] : undefined;
+  return alt ? { prompt: alt.prompt ?? s.prompt, right: alt.right, win: alt.win } : { prompt: s.prompt, right: s.right, win: s.win };
+}
+
+function dealCards(game: Game, i: number, v: number): Card[] {
+  const s = { ...game.scenes[i], ...view(game, i, v) };
   const wrong = shuffle(s.wrong).slice(0, 4).map((w) => ({ text: w.text, ok: false, from: w.from }));
   return shuffle([...s.right.map((text) => ({ text, ok: true })), ...wrong]);
 }
@@ -45,19 +53,26 @@ export default function ProductGame({ game, next }: { game: Game; next: string }
   const [earned, setEarned] = useState(0);
 
   const sceneIdx = queue[pos];
-  const scene = sceneIdx === undefined ? null : game.scenes[sceneIdx];
+  const [picks, setPicks] = useState<number[]>([]);
+  const base = sceneIdx === undefined ? null : game.scenes[sceneIdx];
+  const scene = base ? { ...base, ...view(game, sceneIdx, picks[sceneIdx] ?? 0) } : null;
   const need = scene?.right.length ?? 1;
   const retry = pos >= game.scenes.length;
 
   const start = useCallback(() => {
-    const q = game.scenes.map((_, i) => i);
+    // New attempt, new game: a fresh order of rounds (first and last stay put, they frame the story)
+    // and a fresh right answer for every round that has more than one.
+    const n = game.scenes.length;
+    const q = [0, ...shuffle(Array.from({ length: n - 2 }, (_, i) => i + 1)), n - 1];
+    const v = game.scenes.map((s) => Math.floor(Math.random() * ((s.alts?.length ?? 0) + 1)));
+    setPicks(v);
     setQueue(q);
     setPos(0);
     setHearts(LIVES);
     setLog([]);
     setPicked([]);
     setResult(null);
-    setCards(dealCards(game, q[0]));
+    setCards(dealCards(game, q[0], v[0]));
     setPhase("play");
     window.scrollTo({ top: 0 });
   }, [game]);
@@ -96,7 +111,7 @@ export default function ProductGame({ game, next }: { game: Game; next: string }
     if (pos + 1 >= queue.length) return finish(true, hearts, log);
     const n = pos + 1;
     setPos(n);
-    setCards(dealCards(game, queue[n]));
+    setCards(dealCards(game, queue[n], picks[queue[n]] ?? 0));
     setPicked([]);
     setResult(null);
   };
@@ -160,13 +175,16 @@ export default function ProductGame({ game, next }: { game: Game; next: string }
         <p className="lede">+{earned} XP. {hearts === LIVES ? "Flawless, not a single wrong call." : `You lost ${LIVES - hearts} ${LIVES - hearts === 1 ? "life" : "lives"} on the way.`}</p>
         <h2>The winning path</h2>
         <ol className="g-path">
-          {game.scenes.map((s, i) => (
-            <li key={i} className="ok">
+          {queue.filter((x, i) => queue.indexOf(x) === i).map((si) => {
+            const s = { ...game.scenes[si], ...view(game, si, picks[si] ?? 0) };
+            return (
+            <li key={si} className="ok">
               <b>{s.title}</b>
               <span className="g-answer">{s.right.join(" + ")}</span>
               <span>{s.win}</span>
             </li>
-          ))}
+            );
+          })}
         </ol>
         {game.lessons.length > 0 && (
           <>

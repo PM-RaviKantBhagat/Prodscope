@@ -88,7 +88,7 @@ function isRival(game, o) {
  * come from the same category (but never a listed rival and never the same kind of product), which
  * makes them look believable: that is what makes the game hard.
  */
-function decoys(game, pick, avoid, n = 6, near = false) {
+function decoys(game, pick, avoid, n = 9, near = false) {
   const rand = rng(`${game.slug}:${avoid[0]}`);
   const far = products.filter((o) => o.section !== game.section);
   const close = products.filter((o) => o.section === game.section && o.slug !== game.slug && o.category !== game.category && !isRival(game, o));
@@ -142,7 +142,7 @@ for (const g of products) {
   one({
     kind: "pain",
     title: "What hurts?",
-    prompt: `You sit with a few of these users. Which problem do they keep bringing up?`,
+    prompt: `You sit with ${C}'s users. Which problem do they keep bringing up?`,
     right: [short(pain.pain)],
     wrong: decoys(g, (o) => (o.r.painPoints || []).map((x) => short(x.pain)), pains.map((x) => short(x.pain))),
     win: `Yes. ${C} solves it like this: ${short(pain.howSolved, 180)}`,
@@ -153,7 +153,7 @@ for (const g of products) {
     title: "Build the core",
     prompt: `You can build one thing first. Which feature becomes the heart of ${C}?`,
     right: [short(`${feature.feature}: ${lowerFirst(feature.whatItDoes)}`, 150)],
-    wrong: decoys(g, (o) => (o.r.coreFeatures || []).map((x) => short(`${x.feature}: ${lowerFirst(x.whatItDoes)}`, 150)), (r.coreFeatures || []).map((x) => x.feature), 6, true),
+    wrong: decoys(g, (o) => (o.r.coreFeatures || []).map((x) => short(`${x.feature}: ${lowerFirst(x.whatItDoes)}`, 150)), (r.coreFeatures || []).map((x) => x.feature), 9, true),
     win: `Good call. ${short(feature.whyItMatters, 180)}`,
     lose: `Users shrug. That feature belongs to a different kind of product. Hint: ${C}'s promise is "${short(r.overview?.valueProposition, 130)}"`,
   });
@@ -162,7 +162,7 @@ for (const g of products) {
     title: "Make money",
     prompt: `Investors ask: where will most of ${C}'s money come from?`,
     right: [short(`${stream.stream}: ${lowerFirst(stream.detail)}`, 150)],
-    wrong: decoys(g, (o) => (o.r.businessModel?.revenueStreams || []).map((x) => short(`${x.stream}: ${lowerFirst(x.detail)}`, 150)), (r.businessModel?.revenueStreams || []).map((x) => x.stream), 6, true),
+    wrong: decoys(g, (o) => (o.r.businessModel?.revenueStreams || []).map((x) => short(`${x.stream}: ${lowerFirst(x.detail)}`, 150)), (r.businessModel?.revenueStreams || []).map((x) => x.stream), 9, true),
     win: `That's it. ${short(r.businessModel.summary, 200)}`,
     lose: `Revenue barely moves, and runway shrinks. Hint, look at how ${C} prices things: "${short(r.businessModel?.pricing, 140)}"`,
   });
@@ -171,7 +171,7 @@ for (const g of products) {
     title: "Pick the north star",
     prompt: `The team needs one number to chase every week. Which north star fits ${C}?`,
     right: [short(r.northStar.metric, 140)],
-    wrong: decoys(g, (o) => [short(o.r.northStar?.metric, 140)], [r.northStar.metric], 6, true),
+    wrong: decoys(g, (o) => [short(o.r.northStar?.metric, 140)], [r.northStar.metric], 9, true),
     win: `Yes. ${short(r.northStar.why, 200)}`,
     lose: `The team chases the wrong number and the product drifts. Hint: a good north star counts the moment a ${C} user gets real value.`,
   });
@@ -182,7 +182,7 @@ for (const g of products) {
     prompt: `Your north star is "${short(r.northStar.metric, 110)}". Pick all ${treeRight.length} numbers that directly drive it.`,
     multi: true,
     right: treeRight,
-    wrong: decoys(g, (o) => (o.r.kpiTree || []).map((t) => short(t.metric, 70)), (r.kpiTree || []).flatMap((t) => [t.metric, ...(t.children || []).map((c) => c.metric)]), 6),
+    wrong: decoys(g, (o) => (o.r.kpiTree || []).map((t) => short(t.metric, 70)), (r.kpiTree || []).flatMap((t) => [t.metric, ...(t.children || []).map((c) => c.metric)]), 9),
     win: `Your tree holds. ${tree.map((t) => `${short(t.metric, 60)}: ${lowerFirst(short(t.description, 90))}`).join(" ")}`,
     lose: `Your tree has the wrong branches, so the team works on numbers that don't move the goal. Hint: "${short(tree[0].metric, 60)}" is one real driver.`,
   });
@@ -192,7 +192,7 @@ for (const g of products) {
     prompt: `Time to grow. Pick the 2 ways ${C} really gets new users.`,
     multi: true,
     right: growth.map((x) => short(x, 120)),
-    wrong: decoys(g, (o) => (o.r.growth?.howTheyGetUsers || []).map((x) => short(x, 120)), r.growth.howTheyGetUsers, 6),
+    wrong: decoys(g, (o) => (o.r.growth?.howTheyGetUsers || []).map((x) => short(x, 120)), r.growth.howTheyGetUsers, 9),
     win: `That's how ${C} grows. What brings people back: ${lowerFirst(short(r.growth?.whatBringsUsersBack?.[0], 120))}`,
     lose: `You spend a lot and users don't come. Hint: what keeps ${C} users coming back is "${lowerFirst(short(r.growth?.whatBringsUsersBack?.[0], 110))}"`,
   });
@@ -201,7 +201,7 @@ for (const g of products) {
     title: "Know your rival",
     prompt: `A rival is going after your users. Who should ${C} watch most closely?`,
     right: [rival.name],
-    wrong: decoys(g, (o) => [o.company], [C, ...(r.competitors || []).map((c) => c.name)], 6, true),
+    wrong: decoys(g, (o) => [o.company], [C, ...(r.competitors || []).map((c) => c.name)], 9, true),
     win: `Right. ${short(rival.positioning, 150)} How ${C} differs: ${lowerFirst(short(rival.howThisProductDiffers, 150))}`,
     lose: `You watched the wrong company, and the real rival takes your users. Hint, they are described as: "${short(rival.positioning, 130)}"`,
   });
@@ -213,7 +213,7 @@ for (const g of products) {
       title: "Know your numbers",
       prompt: `The board asks for one real number about ${C}. Which of these is true?`,
       right: [numText(num)],
-      wrong: decoys(g, (o) => (o.r.keyNumbers || []).map(numText), (r.keyNumbers || []).map(numText), 6, true),
+      wrong: decoys(g, (o) => (o.r.keyNumbers || []).map(numText), (r.keyNumbers || []).map(numText), 9, true),
       win: `Correct. ${num.note ? `Source: ${short(num.note, 120)}` : ""}`.trim(),
       lose: `That number belongs to another product. Hint: look for the one that fits ${C}'s size and model: ${lowerFirst(short(r.businessModel?.unitEconomics, 120))}`,
     });
@@ -251,6 +251,46 @@ for (const g of products) {
     win: `Shipped. ${short(idea.expectedImpact, 150)} You track it with: ${lowerFirst(short(idea.metricToTrack, 100))}.`,
     lose: `The fix misses the problem and complaints grow. Hint: the right fix would move "${lowerFirst(short(idea.metricToTrack, 100))}".`,
   });
+
+  // Other right answers, so every attempt can ask about a different persona, pain, number and so on.
+  const byKind = Object.fromEntries(scenes.map((x) => [x.kind, x]));
+  const add = (kind, list) => {
+    const sc = byKind[kind];
+    if (!sc) return;
+    const seen = new Set([sc.right.join("|")]);
+    sc.alts = list.filter((v) => v.right.every(Boolean) && !seen.has(v.right.join("|")) && seen.add(v.right.join("|"))).slice(0, 4);
+  };
+  add("users", (r.personas || []).slice(1).map((p) => ({
+    right: [personaText(p)],
+    win: `Right. ${short(p.description, 160)} They want: ${(p.goals || []).slice(0, 2).map(lowerFirst).join("; ")}.`,
+  })));
+  add("pain", pains.slice(1).filter((x) => x.severity !== "low").map((x) => ({ right: [short(x.pain)], win: `Yes. ${C} solves it like this: ${short(x.howSolved, 180)}` })));
+  add("numbers", (r.keyNumbers || []).filter((k) => k !== num && k.value && k.label && !norm(k.label + k.value).includes(firstWord(C))).map((k) => ({
+    right: [short(`${k.label}: ${k.value}`, 130)],
+    win: `Correct. ${k.note ? `Source: ${short(k.note, 120)}` : ""}`.trim(),
+  })));
+  add("guardrail", (r.guardrailMetrics || []).slice(1).map((x) => ({ right: [short(x, 130)], win: `Right. Guardrails stop you from winning the wrong way, and this one protects ${C}'s users and business.` })));
+  add("complaints", (r.userComplaints || []).slice(1).map((x) => ({ right: [short(x, 140)], win: `Yes, ${C} users really say this. Fixing it is a strong place to start.` })));
+  add("rival", (r.competitors || []).slice(1).filter((c) => !/,| and /.test(c.name)).map((c) => ({
+    right: [c.name],
+    win: `Right. ${short(c.positioning, 150)} How ${C} differs: ${lowerFirst(short(c.howThisProductDiffers, 150))}`,
+  })));
+  add("crisis", (r.improvementIdeas || []).slice(1).map((x) => ({
+    prompt: `Trouble. ${short(x.problem, 170)} What do you ship?`,
+    right: [short(x.idea, 150)],
+    win: `Shipped. ${short(x.expectedImpact, 150)} You track it with: ${lowerFirst(short(x.metricToTrack, 100))}.`,
+  })));
+  const allGrowth = (r.growth?.howTheyGetUsers || []).map((x) => short(x, 120));
+  const pairs = [];
+  for (let i = 0; i < allGrowth.length; i++) for (let j = i + 1; j < allGrowth.length; j++) pairs.push([allGrowth[i], allGrowth[j]]);
+  add("growth", pairs.slice(1).map((pr) => ({ right: pr, win: byKind.growth?.win ?? "" })));
+  const kpis = (r.kpiTree || []).map((t) => t);
+  if (kpis.length >= 4) {
+    add("tree", [1, 2, 3].map((skip) => {
+      const set = kpis.filter((_, i) => i !== skip).slice(0, 3);
+      return { right: set.map((t) => short(t.metric, 70)), win: `Your tree holds. ${set.map((t) => `${short(t.metric, 60)}: ${lowerFirst(short(t.description, 90))}`).join(" ")}` };
+    }));
+  }
 
   const thin = scenes.filter((s) => s.wrong.length < 4).map((s) => `${s.kind}:${s.wrong.length}`);
   if (process.env.DEBUG_GAMES && thin.length) console.log(g.slug, thin.join(" "));

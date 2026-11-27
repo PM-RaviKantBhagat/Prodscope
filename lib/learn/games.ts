@@ -9,6 +9,8 @@ export type Scene = {
   wrong: { text: string; from: string }[];
   win: string;
   lose: string;
+  /** Other right answers. Each attempt picks one, so the game is different every time. */
+  alts?: { right: string[]; win: string; prompt?: string }[];
 };
 export type Game = { slug: string; company: string; section: string; rank: number; summary: string; lessons: string[]; scenes: Scene[] };
 
